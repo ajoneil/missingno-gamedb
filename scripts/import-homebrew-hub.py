@@ -103,6 +103,10 @@ def format_manifest(entry: dict) -> str | None:
     if isinstance(tags, list) and tags:
         lines.append(f"    tags: {format_ron_list(tags)},")
 
+    screenshots = entry.get("screenshots", [])
+    if isinstance(screenshots, list) and screenshots:
+        lines.append(f"    screenshots: {format_ron_list(screenshots)},")
+
     # Collect links
     links = []
     game_website = entry.get("gameWebsite") or entry.get("website")
