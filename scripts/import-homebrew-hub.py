@@ -82,9 +82,7 @@ def format_manifest(entry: dict) -> str | None:
 
     date = as_string(entry.get("date"))
     if date:
-        # Extract just the year from dates like "2026-11-02"
-        year = date[:4] if len(date) >= 4 else date
-        lines.append(f'    year: Some("{escape_ron_string(year)}"),')
+        lines.append(f'    date: Some("{escape_ron_string(date)}"),')
 
     developer = as_string(entry.get("developer"))
     if developer:
