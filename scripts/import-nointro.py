@@ -52,13 +52,12 @@ def escape_ron_string(s: str) -> str:
     return s.replace("\\", "\\\\").replace('"', '\\"')
 
 
-def format_manifest(title: str, platform: str, hashes: list[str],
+def format_manifest(title: str, hashes: list[str],
                     region: str | None) -> str:
     """Format a manifest.ron file."""
     lines = []
     lines.append("(")
     lines.append(f'    title: "{escape_ron_string(title)}",')
-    lines.append(f"    platform: {platform},")
 
     if region:
         lines.append(f'    region: Some("{escape_ron_string(region)}"),')
@@ -178,7 +177,6 @@ def write_manifests(games: dict[str, dict], dry_run: bool = False):
         game_dir.mkdir(parents=True, exist_ok=True)
         content = format_manifest(
             title=info["title"],
-            platform=info["platform"],
             hashes=info["hashes"],
             region=info["region"],
         )
