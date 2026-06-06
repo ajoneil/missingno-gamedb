@@ -6,7 +6,7 @@ Usage:
     python import-homebrew-hub.py path/to/database/entries/
 
 Reads the gbdev database repo (https://github.com/gbdev/database) and
-creates a manifest.ron for each GB game entry under ../games/{slug}/.
+creates a manifest.ron for each GB/GBC game entry under ../games/{slug}/.
 
 The database repo should be cloned locally first:
     git clone https://github.com/gbdev/database.git
@@ -24,6 +24,10 @@ import sys
 from pathlib import Path
 
 GAMES_DIR = Path(__file__).parent.parent / "games"
+
+# Platforms missingno emulates. The database also has GBA entries, which
+# are skipped.
+SUPPORTED_PLATFORMS = ("GB", "GBC")
 
 
 def escape_ron_string(s: str) -> str:
@@ -59,8 +63,7 @@ def format_manifest(entry: dict) -> str | None:
     if not title or not slug:
         return None
 
-    # Only GB games
-    if platform != "GB":
+    if platform not in SUPPORTED_PLATFORMS:
         return None
 
     # Need at least one playable file
@@ -160,7 +163,7 @@ def process_entries_dir(entries_dir: str) -> dict[str, str]:
             continue
 
         platform = entry.get("platform")
-        if platform != "GB":
+        if platform not in SUPPORTED_PLATFORMS:
             skipped_platform += 1
             continue
 
@@ -172,7 +175,7 @@ def process_entries_dir(entries_dir: str) -> dict[str, str]:
         slug = entry["slug"]
         manifests[slug] = manifest
 
-    print(f"  GB entries with playable ROMs: {len(manifests)}")
+    print(f"  GB/GBC entries with playable ROMs: {len(manifests)}")
     print(f"  Skipped (other platform): {skipped_platform}")
     print(f"  Skipped (no playable file): {skipped_no_playable}")
     if skipped_parse_error:

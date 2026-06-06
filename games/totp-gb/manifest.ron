@@ -1,0 +1,12 @@
+(
+    title: "totp-gb",
+    developer: Some("dmang-dev"),
+    description: Some("TOTP (RFC 6238) two-factor authenticator for the original Game Boy, Game Boy Color, and Super Game Boy. Stores up to 8 accounts in MBC3+TIMER+RAM+BATTERY cart SRAM, uses the MBC3 hardware RTC for time, and ships a procedurally-generated SGB border with palette enhancements when run on a Super Game Boy. Two ROMs: a unified DMG/SGB build and a GBC-only build with palette swaps."),
+    hashes: [],
+    source: Some(HomebrewHub(slug: "totp-gb", filename: "totp-gb.gb")),
+    tags: ["Open Source"],
+    screenshots: ["01-main-list.png", "02-view-account.png", "03-settings.png", "04-time-set.png", "05-add-name.png"],
+    links: [
+        (name: "Source Code", url: "https://github.com/dmang-dev/totp-gb", link_type: Source),
+    ],
+)
