@@ -6,10 +6,13 @@ Usage:
     python import-nointro.py path/to/dat-file.dat [path/to/another.dat ...]
 
 Reads Logiqx-format XML DAT files (as distributed by No-Intro) and creates
-a manifest.ron for each game entry under ../games/{slug}/.
+a manifest.ron for each game entry under ../games/{slug}/. Both Game Boy
+and Game Boy Color DATs are supported; titles released on both platforms
+share a slug and accumulate hashes in one manifest.
 
-Idempotent: re-running updates existing manifests without overwriting
-manually added enrichment files (knowledge/, cheats/, etc.).
+Idempotent: re-running merges new hashes into existing manifests without
+overwriting manually added enrichment (other manifest fields, knowledge/,
+cheats/, etc.).
 """
 
 import xml.etree.ElementTree as ET
@@ -152,21 +155,52 @@ def process_dat(dat_path: str) -> dict[str, dict]:
     return games
 
 
+def merge_hashes(manifest_path: Path, new_hashes: list[str],
+                 dry_run: bool = False) -> bool:
+    """
+    Merge new hashes into an existing manifest's hashes list, preserving
+    all other content. Returns True if the manifest changed.
+    """
+    content = manifest_path.read_text()
+    m = re.search(r"^(\s*)hashes: \[(.*?)\],?$", content, re.MULTILINE)
+    if m is None:
+        print(f"  Warning: no hashes field in {manifest_path}, skipping merge")
+        return False
+
+    existing = set(re.findall(r'"([0-9a-f]{40})"', m.group(2)))
+    merged = sorted(existing | set(new_hashes))
+    if set(merged) == existing:
+        return False
+
+    hash_strs = ", ".join(f'"{h}"' for h in merged)
+    line = f"{m.group(1)}hashes: [{hash_strs}],"
+    if not dry_run:
+        manifest_path.write_text(content[:m.start()] + line + content[m.end():])
+    return True
+
+
 def write_manifests(games: dict[str, dict], dry_run: bool = False):
     """Write manifest.ron files for each game."""
     created = 0
     updated = 0
-    skipped = 0
+    unchanged = 0
+    skipped_homebrew = 0
 
     for slug, info in sorted(games.items()):
         game_dir = GAMES_DIR / slug
         manifest_path = game_dir / "manifest.ron"
 
-        # If manifest already exists, update hashes but preserve the rest
+        # If manifest already exists, merge hashes but preserve the rest
         if manifest_path.exists():
-            # For now, skip existing manifests to avoid overwriting enrichment.
-            # A smarter approach would parse the existing manifest and merge hashes.
-            skipped += 1
+            existing = manifest_path.read_text()
+            if "HomebrewHub" in existing:
+                # Homebrew game sharing the slug — leave it alone
+                skipped_homebrew += 1
+                continue
+            if merge_hashes(manifest_path, info["hashes"], dry_run=dry_run):
+                updated += 1
+            else:
+                unchanged += 1
             continue
 
         if dry_run:
@@ -183,7 +217,8 @@ def write_manifests(games: dict[str, dict], dry_run: bool = False):
         manifest_path.write_text(content)
         created += 1
 
-    print(f"  Created: {created}, Skipped (existing): {skipped}")
+    print(f"  Created: {created}, Updated (hashes merged): {updated}, "
+          f"Unchanged: {unchanged}, Skipped (homebrew slug): {skipped_homebrew}")
 
 
 def main():
