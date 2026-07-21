@@ -304,22 +304,8 @@
                         ),
                     ],
                 ),
-            ],
-        ),
-        (
-            name: "Space Invaders Deluxe (8K)",
-            category: ContentChange,
-            author: Some("Kurt Howe"),
-            links: [
                 (
-                    name: "Homepage",
-                    url: "https://archive.org/details/Space_Invaders_Deluxe_Space_Invaders_Hack_2005_Kurt_Howe_8K",
-                    link_type: Community,
-                ),
-            ],
-            releases: [
-                (
-                    date: Some("2005"),
+                    label: Some("8K (2005)"),
                     base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
                     artifacts: [
                         (
@@ -340,16 +326,13 @@
                         (
                             sha1: "11a0e393096112477e7d36e90842d0c2cc3bf1bb",
                         ),
+                        (
+                            sha1: "77650ba31bb0a715669d0c4f3447270e75e49e0d",
+                            label: Some("overdump [o1]"),
+                        ),
                     ],
                 ),
             ],
-        ),
-    ],
-    curated: [
-        (
-            by: "Andrew O\'Neil",
-            date: "2026-07-22",
-            recommended: true,
         ),
     ],
     releases: [
