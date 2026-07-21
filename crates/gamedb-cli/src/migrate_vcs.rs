@@ -5,7 +5,7 @@ use missingno_gamedb::{Artifact, Game, Release, ReleaseStatus, Sha1, Vcs, VcsHar
 use crate::{
     legacy::{self, LegacyManifest},
     report::Report,
-    text::normalize_title,
+    text::{fix_leading_articles, normalize_title},
     tree,
 };
 
@@ -59,6 +59,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
             Some(stripped) => (stripped.to_owned(), true),
             None => (manifest.title.clone(), false),
         };
+        let title = fix_leading_articles(&title);
         groups.entry(title).or_default().push((slug, manifest, wip));
     }
 
@@ -122,11 +123,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
             let mut artifacts = Vec::new();
             for hash in &m.hashes {
                 match hash.parse::<Sha1>() {
-                    Ok(sha1) => artifacts.push(Artifact {
-                        sha1,
-                        size: None,
-                        filename: None,
-                    }),
+                    Ok(sha1) => artifacts.push(Artifact { sha1, size: None }),
                     Err(e) => report.add("Invalid hashes dropped", format!("{member_slug}: {e}")),
                 }
             }
@@ -138,6 +135,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
             }
             old_sha1s.extend(artifacts.iter().map(|a| a.sha1.as_str().to_owned()));
             releases.push(Release {
+                title: None,
                 label: None,
                 regions: Vec::new(),
                 date,

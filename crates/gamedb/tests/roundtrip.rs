@@ -19,7 +19,7 @@ const GB_HOMEBREW: &str = r#"(
                 Download(url: "https://github.com/pinobatch/240p-test-mini/releases"),
             ],
             artifacts: [
-                (sha1: "0123456789abcdef0123456789abcdef01234567", size: Some(262144), filename: Some("gb240p.gb")),
+                (sha1: "0123456789abcdef0123456789abcdef01234567", size: Some(262144)),
             ],
         ),
     ],

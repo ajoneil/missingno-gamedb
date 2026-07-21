@@ -11,11 +11,37 @@ pub fn slugify(title: &str) -> String {
             }
             slug.push(c.to_ascii_lowercase());
             gap = false;
-        } else {
+        } else if c != '\'' && c != '\u{2019}' {
+            // Apostrophes vanish (links-awakening, not link-s-awakening).
             gap = true;
         }
     }
     slug
+}
+
+/// Undo the catalogue article-postfix convention, per subtitle segment:
+/// "Legend of Zelda, The - Minish Cap, The" → "The Legend of Zelda - The Minish Cap".
+pub fn fix_leading_articles(title: &str) -> String {
+    const ARTICLES: [&str; 16] = [
+        "The", "A", "An", "Le", "La", "Les", "L'", "Der", "Die", "Das", "El", "Los", "Las", "Il",
+        "Lo", "Gli",
+    ];
+    title
+        .split(" - ")
+        .map(|segment| {
+            for article in ARTICLES {
+                if let Some(base) = segment.strip_suffix(&format!(", {article}")) {
+                    return if article.ends_with('\'') {
+                        format!("{article}{base}")
+                    } else {
+                        format!("{article} {base}")
+                    };
+                }
+            }
+            segment.to_owned()
+        })
+        .collect::<Vec<_>>()
+        .join(" - ")
 }
 
 /// Collation form for near-miss detection: casefolded, parentheticals and
@@ -92,6 +118,20 @@ mod tests {
         );
         assert_eq!(slugify("1942"), "1942");
         assert_eq!(slugify("Q*bert"), "q-bert");
+        assert_eq!(
+            slugify("The Legend of Zelda - Link's Awakening DX"),
+            "the-legend-of-zelda-links-awakening-dx"
+        );
+    }
+
+    #[test]
+    fn articles_move_to_the_front() {
+        assert_eq!(
+            fix_leading_articles("Legend of Zelda, The - Minish Cap, The"),
+            "The Legend of Zelda - The Minish Cap"
+        );
+        assert_eq!(fix_leading_articles("Aventure, L'"), "L'Aventure");
+        assert_eq!(fix_leading_articles("Pitfall II"), "Pitfall II");
     }
 
     #[test]

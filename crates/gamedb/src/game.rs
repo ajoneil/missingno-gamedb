@@ -69,6 +69,10 @@ pub enum GameKind {
 #[derive(Serialize, Deserialize, Clone, PartialEq, Debug)]
 #[serde(deny_unknown_fields, bound = "")]
 pub struct Release<P: Platform> {
+    /// The title this release was published under, when it differs from the
+    /// game's canonical title (localized names: "Pokemon - Blaue Edition").
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub title: Option<String>,
     /// Distinguishing name where regions/hardware aren't enough: "Rev A", "Player's Choice".
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub label: Option<String>,
@@ -107,8 +111,6 @@ pub struct Artifact {
     pub sha1: Sha1,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub size: Option<u64>,
-    #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub filename: Option<String>,
 }
 
 #[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]

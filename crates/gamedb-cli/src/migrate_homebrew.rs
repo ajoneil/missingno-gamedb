@@ -101,14 +101,24 @@ fn run_tree<P: Platform>(
         let mut artifacts = Vec::new();
         for hash in &m.hashes {
             match hash.parse::<Sha1>() {
-                Ok(sha1) => artifacts.push(Artifact {
-                    sha1,
-                    size: None,
-                    filename: None,
-                }),
+                Ok(sha1) => artifacts.push(Artifact { sha1, size: None }),
                 Err(e) => report.add("Invalid hashes dropped", format!("{}/{slug}: {e}", P::DIR)),
             }
         }
+
+        let (itch_links, links): (Vec<_>, Vec<_>) = m
+            .links
+            .iter()
+            .cloned()
+            .partition(|link| link.url.contains(".itch.io/"));
+        let mut sources = vec![match source {
+            LegacySource::HomebrewHub { slug, filename } => Source::HomebrewHub { slug, filename },
+            LegacySource::Url(url) => Source::Download { url },
+        }];
+        sources.extend(itch_links.into_iter().map(|link| Source::Itch {
+            url: link.url,
+            paid: None,
+        }));
 
         let game = Game::<P> {
             title: m.title.clone(),
@@ -117,23 +127,19 @@ fn run_tree<P: Platform>(
             description: m.description.clone(),
             license: m.license.clone(),
             tags: m.tags.clone(),
-            links: m.links.clone(),
+            links,
             covers,
             screenshots,
             mod_of: None,
             releases: vec![Release {
+                title: None,
                 label: None,
                 regions,
                 date,
                 publisher: m.publisher.clone(),
                 status: Default::default(),
                 hardware: Default::default(),
-                sources: vec![match source {
-                    LegacySource::HomebrewHub { slug, filename } => {
-                        Source::HomebrewHub { slug, filename }
-                    }
-                    LegacySource::Url(url) => Source::Download { url },
-                }],
+                sources,
                 artifacts,
             }],
         };
@@ -154,7 +160,7 @@ mod tests {
         std::fs::create_dir_all(&dir).unwrap();
         std::fs::write(
             dir.join("manifest.ron"),
-            r#"(title: "144p Test Suite", date: Some("2018-04-17"), developer: Some("Damian Yerrick"), hashes: [], source: Some(HomebrewHub(slug: "144p-test-suite", filename: "gb240p.gb")), tags: ["Open Source"], screenshots: ["cover.png", "a.png"])"#,
+            r#"(title: "144p Test Suite", date: Some("2018-04-17"), developer: Some("Damian Yerrick"), hashes: [], source: Some(HomebrewHub(slug: "144p-test-suite", filename: "gb240p.gb")), tags: ["Open Source"], screenshots: ["cover.png", "a.png"], links: [(name: "Website", url: "https://pinobatch.itch.io/240p-test-suite", link_type: Wiki), (name: "Source Code", url: "https://github.com/pinobatch/240p-test-mini", link_type: Source)])"#,
         )
         .unwrap();
         std::fs::create_dir_all(root.path().join("gbc")).unwrap();
@@ -178,6 +184,11 @@ mod tests {
             game.releases[0].sources[0],
             Source::HomebrewHub { .. }
         ));
+        assert!(matches!(
+            &game.releases[0].sources[1],
+            Source::Itch { paid: None, .. }
+        ));
+        assert_eq!(game.links.len(), 1, "itch link moved out of links");
         assert!(missingno_gamedb::validate(root.path()).unwrap().is_empty());
     }
 }

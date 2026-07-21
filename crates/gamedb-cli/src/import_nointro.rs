@@ -12,7 +12,7 @@ use missingno_gamedb::{
 use crate::{
     legacy::{self, LegacyManifest},
     report::Report,
-    text::{parse_region, parse_region_list, slugify},
+    text::{fix_leading_articles, parse_region, parse_region_list, slugify},
     tree,
 };
 
@@ -73,7 +73,7 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
             current.push(c);
         }
     }
-    let title = title.trim().to_owned();
+    let title = fix_leading_articles(title.trim());
 
     let mut parsed = ParsedName {
         title,
@@ -151,11 +151,15 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
 pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stats, String> {
     let mut stats = Stats::default();
 
-    // ── Parse DATs, route each entry to its destination tree ─────────
-    let mut gb_groups: BTreeMap<String, Vec<(ParsedName, Vec<Artifact>, bool)>> = BTreeMap::new();
-    let mut gbc_groups: BTreeMap<String, Vec<(ParsedName, Vec<Artifact>)>> = BTreeMap::new();
+    // ── Parse DATs, route each entry to its destination tree.
+    // Games group by the DAT's clone family (cloneofid → parent id), so
+    // regional/language variants land under one game. ─────────
+    type Family = (usize, String);
+    let mut gb_groups: BTreeMap<Family, Vec<(ParsedName, Vec<Artifact>, bool)>> = BTreeMap::new();
+    let mut gbc_groups: BTreeMap<Family, Vec<(ParsedName, Vec<Artifact>)>> = BTreeMap::new();
+    let mut family_title: BTreeMap<Family, String> = BTreeMap::new();
 
-    for dat_path in dats {
+    for (dat_idx, dat_path) in dats.iter().enumerate() {
         let text = fs::read_to_string(dat_path).map_err(|e| format!("{dat_path:?}: {e}"))?;
         let doc = roxmltree::Document::parse(&text).map_err(|e| format!("{dat_path:?}: {e}"))?;
         let header_name = doc
@@ -193,7 +197,6 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     Ok(sha1) => artifacts.push(Artifact {
                         sha1,
                         size: rom.attribute("size").and_then(|s| s.parse().ok()),
-                        filename: rom.attribute("name").map(str::to_owned),
                     }),
                     Err(e) => report.add("Invalid DAT sha1 skipped", format!("{name:?}: {e}")),
                 }
@@ -202,23 +205,31 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 report.add("DAT entries with no usable rom", format!("{name:?}"));
                 continue;
             }
+            let id = game.attribute("id").unwrap_or(name);
+            let family: Family = (
+                dat_idx,
+                game.attribute("cloneofid").unwrap_or(id).to_owned(),
+            );
+            if game.attribute("cloneofid").is_none() {
+                family_title.insert(family.clone(), parsed.title.clone());
+            }
             match system {
                 DatSystem::GameBoy => {
                     gb_groups
-                        .entry(parsed.title.clone())
+                        .entry(family)
                         .or_default()
                         .push((parsed, artifacts, false));
                 }
                 DatSystem::GameBoyColor if parsed.gb_compatible => {
                     stats.moved_to_gb += 1;
                     gb_groups
-                        .entry(parsed.title.clone())
+                        .entry(family)
                         .or_default()
                         .push((parsed, artifacts, true));
                 }
                 DatSystem::GameBoyColor => {
                     gbc_groups
-                        .entry(parsed.title.clone())
+                        .entry(family)
                         .or_default()
                         .push((parsed, artifacts));
                 }
@@ -313,6 +324,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
         let releases: Vec<Release<GameBoy>> = entries
             .iter()
             .map(|(p, artifacts, hardware)| Release {
+                title: (p.title != title).then(|| p.title.clone()),
                 label: p.label.clone(),
                 regions: p.regions.clone(),
                 date: p.date.clone(),
@@ -339,7 +351,12 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
     };
 
     let mut gb_games: Vec<(String, Game<GameBoy>)> = Vec::new();
-    for (title, group) in &gb_groups {
+    for (family, group) in &gb_groups {
+        let title = family_title
+            .get(family)
+            .cloned()
+            .unwrap_or_else(|| group.iter().map(|(p, ..)| p.title.clone()).min().unwrap());
+        let title = title.as_str();
         let mut entries: Vec<(ParsedName, Vec<Artifact>, GbHardware)> = Vec::new();
         for (parsed, artifacts, from_gbc_dat) in group {
             let hardware = GbHardware {
@@ -383,7 +400,12 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
     }
 
     let mut gbc_games: Vec<(String, Game<GameBoyColor>)> = Vec::new();
-    for (title, group) in &gbc_groups {
+    for (family, group) in &gbc_groups {
+        let title = family_title
+            .get(family)
+            .cloned()
+            .unwrap_or_else(|| group.iter().map(|(p, ..)| p.title.clone()).min().unwrap());
+        let title = title.as_str();
         let mut entries: Vec<(ParsedName, Vec<Artifact>, GbHardware)> = group
             .iter()
             .map(|(p, artifacts)| {
@@ -430,6 +452,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     .releases
                     .into_iter()
                     .map(|r| Release {
+                        title: r.title,
                         label: r.label,
                         regions: r.regions,
                         date: r.date,
@@ -456,31 +479,32 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
             "Leftover old entries (not in any DAT) — mechanically converted",
             format!("{tree_name}/{slug}"),
         );
-        let regions = match &m.region {
-            None => Vec::new(),
-            Some(text) => parse_region_list(text).unwrap_or_else(|unknown| {
-                report.add(
-                    "Unmappable region text dropped",
-                    format!("{tree_name}/{slug}: {unknown:?}"),
-                );
-                Vec::new()
-            }),
+        let parsed = parse_name(&m.title, report);
+        let regions = if !parsed.regions.is_empty() {
+            parsed.regions.clone()
+        } else {
+            match &m.region {
+                None => Vec::new(),
+                Some(text) => parse_region_list(text).unwrap_or_else(|unknown| {
+                    report.add(
+                        "Unmappable region text dropped",
+                        format!("{tree_name}/{slug}: {unknown:?}"),
+                    );
+                    Vec::new()
+                }),
+            }
         };
         let artifacts: Vec<Artifact> = m
             .hashes
             .iter()
             .filter_map(|h| h.parse::<Sha1>().ok())
-            .map(|sha1| Artifact {
-                sha1,
-                size: None,
-                filename: None,
-            })
+            .map(|sha1| Artifact { sha1, size: None })
             .collect();
         macro_rules! leftover {
             ($ptype:ty) => {
                 Game::<$ptype> {
-                    title: m.title.clone(),
-                    kind: Default::default(),
+                    title: parsed.title.clone(),
+                    kind: parsed.kind,
                     developer: m.developer.clone(),
                     description: m.description.clone(),
                     license: m.license.clone(),
@@ -490,11 +514,12 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     screenshots: Vec::new(),
                     mod_of: None,
                     releases: vec![Release {
-                        label: None,
+                        title: None,
+                        label: parsed.label.clone(),
                         regions: regions.clone(),
-                        date: None,
+                        date: parsed.date.clone(),
                         publisher: m.publisher.clone(),
-                        status: Default::default(),
+                        status: parsed.status,
                         hardware: Default::default(),
                         sources: Vec::new(),
                         artifacts: artifacts.clone(),
@@ -608,11 +633,14 @@ mod tests {
     const GB_DAT: &str = r#"<?xml version="1.0"?>
 <datafile>
   <header><name>Nintendo - Game Boy</name></header>
-  <game name="Zelda (USA) (SGB Enhanced)">
+  <game name="Zelda (USA) (SGB Enhanced)" id="10">
     <rom name="Zelda (USA).gb" size="524288" sha1="0123456789abcdef0123456789abcdef01234567"/>
   </game>
-  <game name="Zelda (Europe) (Rev A) (SGB Enhanced)">
+  <game name="Zelda (Europe) (Rev A) (SGB Enhanced)" id="11" cloneofid="10">
     <rom name="Zelda (Europe).gb" size="524288" sha1="fedcba9876543210fedcba9876543210fedcba98"/>
+  </game>
+  <game name="Zelda Abenteuer (Germany) (SGB Enhanced)" id="12" cloneofid="10">
+    <rom name="Zelda Abenteuer (Germany).gb" size="524288" sha1="4444444444444444444444444444444444444444"/>
   </game>
   <game name="Proto Thing (USA) (Proto)">
     <rom name="Proto Thing (USA) (Proto).gb" size="32768" sha1="3333333333333333333333333333333333333333"/>
@@ -659,7 +687,13 @@ mod tests {
         let zelda = Game::<GameBoy>::from_ron(&zelda).unwrap();
         assert_eq!(zelda.title, "Zelda");
         assert_eq!(zelda.description.as_deref(), Some("A classic."));
-        assert_eq!(zelda.releases.len(), 2);
+        assert_eq!(zelda.releases.len(), 3);
+        assert!(
+            zelda
+                .releases
+                .iter()
+                .any(|r| r.title.as_deref() == Some("Zelda Abenteuer"))
+        );
         assert!(
             zelda
                 .releases
