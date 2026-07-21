@@ -23,6 +23,9 @@ regions, date, publisher, status (released / WIP / beta / prototype),
 platform hardware facts (SGB/CGB enhancement for GB; TV format and board for
 VCS), download sources, and ROM artifacts.
 
+Where those facts come from — which catalogue answers which field, per tree —
+is in [SOURCES.md](SOURCES.md).
+
 ## Maintenance
 
 ```

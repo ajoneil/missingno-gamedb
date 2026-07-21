@@ -87,5 +87,8 @@ pub struct VcsHardware {
 pub enum TvFormat {
     Ntsc,
     Pal,
+    /// Brazil's PAL-M: PAL colour encoding on System M's 525-line, 59.94 Hz
+    /// raster, so it runs at NTSC timing rather than PAL's.
+    PalM,
     Secam,
 }
