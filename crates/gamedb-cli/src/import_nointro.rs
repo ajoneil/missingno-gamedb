@@ -241,10 +241,13 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
             }
         }
     }
-    let mut old_by_sha1: BTreeMap<String, usize> = BTreeMap::new();
+    let mut old_by_sha1: BTreeMap<String, Vec<usize>> = BTreeMap::new();
     for (i, (_, _, m)) in old_commercial.iter().enumerate() {
         for hash in &m.hashes {
-            old_by_sha1.insert(hash.to_ascii_lowercase(), i);
+            old_by_sha1
+                .entry(hash.to_ascii_lowercase())
+                .or_default()
+                .push(i);
         }
     }
     let mut old_claimed: BTreeSet<usize> = BTreeSet::new();
@@ -253,7 +256,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
     let build = |title: &str,
                  entries: &mut Vec<(ParsedName, Vec<Artifact>, GbHardware)>,
                  old_commercial: &Vec<(String, String, LegacyManifest)>,
-                 old_by_sha1: &BTreeMap<String, usize>,
+                 old_by_sha1: &BTreeMap<String, Vec<usize>>,
                  old_claimed: &mut BTreeSet<usize>,
                  stats: &mut Stats,
                  report: &mut Report| {
@@ -272,7 +275,9 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
         let mut matches: Vec<usize> = entries
             .iter()
             .flat_map(|(_, artifacts, _)| artifacts)
-            .filter_map(|a| old_by_sha1.get(a.sha1.as_str()).copied())
+            .filter_map(|a| old_by_sha1.get(a.sha1.as_str()))
+            .flatten()
+            .copied()
             .collect();
         matches.sort();
         matches.dedup();
