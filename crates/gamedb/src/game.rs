@@ -1,0 +1,137 @@
+use serde::{Deserialize, Serialize};
+
+use crate::{
+    ids::{ReleaseDate, Sha1},
+    platform::Platform,
+    region::Region,
+    source::Source,
+};
+
+pub(crate) fn is_default<T: Default + PartialEq>(value: &T) -> bool {
+    *value == T::default()
+}
+
+/// One game: the work itself, plus its releases.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Debug)]
+#[serde(deny_unknown_fields, bound = "")]
+pub struct Game<P: Platform> {
+    pub title: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub developer: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub description: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub license: Option<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub tags: Vec<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub links: Vec<Link>,
+    /// Remote cover image URLs, preference-ordered.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub covers: Vec<String>,
+    /// Remote screenshot URLs.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub screenshots: Vec<String>,
+    /// Present when this game is a derived work patched onto another game's ROM.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub mod_of: Option<ModOf>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub releases: Vec<Release<P>>,
+}
+
+impl<P: Platform> Game<P> {
+    pub fn from_ron(text: &str) -> Result<Self, ron::error::SpannedError> {
+        ron::from_str(text)
+    }
+
+    /// Canonical manifest text: one fixed formatting for every writer, so git
+    /// diffs stay minimal.
+    pub fn to_ron_string(&self) -> Result<String, ron::Error> {
+        let mut text = ron::ser::to_string_pretty(self, ron::ser::PrettyConfig::new())?;
+        text.push('\n');
+        Ok(text)
+    }
+}
+
+/// A concrete published form of a game: region, revision, hardware variant.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Debug)]
+#[serde(deny_unknown_fields, bound = "")]
+pub struct Release<P: Platform> {
+    /// Distinguishing name where regions/hardware aren't enough: "Rev A", "Player's Choice".
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub label: Option<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub regions: Vec<Region>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub date: Option<ReleaseDate>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub publisher: Option<String>,
+    #[serde(default, skip_serializing_if = "is_default")]
+    pub hardware: P::ReleaseHardware,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub sources: Vec<Source>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub artifacts: Vec<Artifact>,
+}
+
+/// A known dump of a release.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct Artifact {
+    pub sha1: Sha1,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub size: Option<u64>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub filename: Option<String>,
+}
+
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct Link {
+    pub name: String,
+    pub url: String,
+    pub link_type: LinkType,
+}
+
+#[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum LinkType {
+    Wiki,
+    Manual,
+    Source,
+    Speedrun,
+    UnusedContent,
+    TechnicalReference,
+    Guide,
+    Community,
+}
+
+/// The derivation block of a mod/romhack: which artifact it patches and how.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct ModOf {
+    /// The base ROM the patch applies to.
+    pub base_sha1: Sha1,
+    pub category: ModCategory,
+    pub patch: Patch,
+}
+
+#[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum ModCategory {
+    Translation,
+    QualityOfLife,
+    ContentChange,
+    TotalConversion,
+}
+
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct Patch {
+    pub format: PatchFormat,
+    pub sha1: Sha1,
+}
+
+#[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum PatchFormat {
+    Ips,
+    Bps,
+}
