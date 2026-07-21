@@ -1,23 +1,37 @@
-# MissingNo Game Data
+# MissingNo Game Database
 
-Catalogue of known Game Boy games — commercial and homebrew — with optional deep per-game data for save parsing, adventure logs, cheat codes, and community resource links.
-
-Used by [MissingNo](https://github.com/ajoneil/missingno), a Game Boy emulator.
+Multisystem game catalogue — commercial, homebrew, and demoscene — used by
+[MissingNo](https://github.com/ajoneil/missingno). One RON manifest per game,
+modelling games → releases (region / revision / hardware variants) → artifacts
+(ROM dumps identified by SHA-1).
 
 ## Structure
 
 ```
-games/
-  {slug}/
-    manifest.ron       ← identity, hashes, source, links (every game has this)
-    family.ron          ← variant grouping for multi-release commercial games (optional)
-    knowledge/          ← memory maps for save parsing (optional)
-    watchpoints/        ← adventure log triggers (optional)
-    cheats/             ← Game Genie / GameShark codes (optional)
-    resources.ron       ← curated external links (optional)
-shared/                 ← reusable data (text encodings, species tables)
-scripts/                ← import scripts for populating the catalogue
+data/
+  gb/{slug}/manifest.ron    ← Game Boy (incl. CGB-enhanced dual-mode games)
+  gbc/{slug}/manifest.ron   ← Game Boy Color (CGB-required)
+  vcs/{slug}/manifest.ron   ← Atari VCS/2600
+crates/
+  gamedb/                   ← schema library: types, loader, validator
+  gamedb-cli/               ← `gamedb` maintenance tool
 ```
+
+A manifest holds the game's identity (title, kind: game / demo / demoscene,
+developer, links, cover and screenshot URLs, mod derivation) and its releases:
+regions, date, publisher, status (released / WIP / beta / prototype),
+platform hardware facts (SGB/CGB enhancement for GB; TV format and board for
+VCS), download sources, and ROM artifacts.
+
+## Maintenance
+
+```
+cargo run -p missingno-gamedb-cli -- validate .   # schema + database rules
+cargo run -p missingno-gamedb-cli -- fmt .        # canonical formatting
+```
+
+Manifests are kept in canonical formatting (enforced by `validate`) so every
+change reviews as a minimal git diff.
 
 ## License
 

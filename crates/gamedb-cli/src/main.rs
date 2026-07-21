@@ -70,23 +70,28 @@ enum Command {
 
 fn main() -> ExitCode {
     match Cli::parse().command {
-        Command::Validate { path } => run_validate(&path),
-        Command::Fmt { path } => run_fmt(&path),
-        Command::MigrateVcs { path, report } => run_migration(&path, &report, "migrate vcs", |r| {
-            migrate_vcs::run(&path, r).map(|s| {
-                format!(
-                    "{} variant entries collapsed into {} games ({} releases)",
-                    s.entries_before, s.games_after, s.releases
-                )
+        Command::Validate { path } => run_validate(&resolve_db_root(&path)),
+        Command::Fmt { path } => run_fmt(&resolve_db_root(&path)),
+        Command::MigrateVcs { path, report } => {
+            let path = resolve_db_root(&path);
+            run_migration(&path.clone(), &report, "migrate vcs", |r| {
+                migrate_vcs::run(&path, r).map(|s| {
+                    format!(
+                        "{} variant entries collapsed into {} games ({} releases)",
+                        s.entries_before, s.games_after, s.releases
+                    )
+                })
             })
-        }),
+        }
         Command::MigrateHomebrew { path, report } => {
-            run_migration(&path, &report, "migrate homebrew", |r| {
+            let path = resolve_db_root(&path);
+            run_migration(&path.clone(), &report, "migrate homebrew", |r| {
                 migrate_homebrew::run(&path, r).map(|s| format!("{} entries rewritten", s.migrated))
             })
         }
         Command::ImportNointro { path, dat, report } => {
-            run_migration(&path, &report, "import nointro", |r| {
+            let path = resolve_db_root(&path);
+            run_migration(&path.clone(), &report, "import nointro", |r| {
                 import_nointro::run(&path, &dat, r).map(|s| {
                     format!(
                         "{} DAT entries → {} gb + {} gbc games ({} moved gbc→gb, {} merged with old entries, {} leftovers)",
@@ -102,6 +107,17 @@ fn has_platform_tree(root: &Path) -> bool {
     ["gb", "gbc", "vcs"]
         .iter()
         .any(|dir| root.join(dir).is_dir())
+}
+
+/// The platform trees live under `data/` (or at the given path directly, e.g.
+/// in test fixtures).
+fn resolve_db_root(root: &Path) -> PathBuf {
+    let data = root.join("data");
+    if !has_platform_tree(root) && has_platform_tree(&data) {
+        data
+    } else {
+        root.to_owned()
+    }
 }
 
 fn ensure_clean_git(root: &Path) -> Result<(), String> {
