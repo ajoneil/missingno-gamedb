@@ -6,7 +6,7 @@ use std::{
 
 use missingno_gamedb::{
     Artifact, Enhancement, Game, GameBoy, GameBoyColor, GameKind, GbHardware, Platform, Release,
-    ReleaseDate, Sha1,
+    ReleaseDate, ReleaseStatus, Sha1,
 };
 
 use crate::{
@@ -38,6 +38,7 @@ struct ParsedName {
     label: Option<String>,
     date: Option<ReleaseDate>,
     kind: GameKind,
+    status: ReleaseStatus,
     sgb: bool,
     cgb: bool,
     gb_compatible: bool,
@@ -80,6 +81,7 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
         label: None,
         date: None,
         kind: GameKind::Game,
+        status: ReleaseStatus::Released,
         sgb: false,
         cgb: false,
         gb_compatible: false,
@@ -108,10 +110,17 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
             }
             "GB Compatible" => parsed.gb_compatible = true,
             "Demo" | "Sample" | "Kiosk" => parsed.kind = GameKind::Demo,
+            "Beta" => parsed.status = ReleaseStatus::Beta,
+            "Proto" => parsed.status = ReleaseStatus::Prototype,
             other => {
                 if let Ok(date) = other.parse::<ReleaseDate>() {
                     parsed.date = Some(date);
                     continue;
+                }
+                if other.starts_with("Beta ") {
+                    parsed.status = ReleaseStatus::Beta;
+                } else if other.starts_with("Proto ") {
+                    parsed.status = ReleaseStatus::Prototype;
                 }
                 let known_label = [
                     "Rev", "Beta", "Proto", "Demo", "Sample", "Kiosk", "Promo", "Unl", "Pirate",
@@ -308,6 +317,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 regions: p.regions.clone(),
                 date: p.date.clone(),
                 publisher: merged.and_then(|m| m.publisher.clone()),
+                status: p.status,
                 hardware: hardware.clone(),
                 sources: Vec::new(),
                 artifacts: artifacts.clone(),
@@ -351,6 +361,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     label: parsed.label.clone(),
                     date: parsed.date.clone(),
                     kind: parsed.kind,
+                    status: parsed.status,
                     sgb: parsed.sgb,
                     cgb: parsed.cgb,
                     gb_compatible: parsed.gb_compatible,
@@ -383,6 +394,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         label: p.label.clone(),
                         date: p.date.clone(),
                         kind: p.kind,
+                        status: p.status,
                         sgb: p.sgb,
                         cgb: p.cgb,
                         gb_compatible: p.gb_compatible,
@@ -422,6 +434,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         regions: r.regions,
                         date: r.date,
                         publisher: r.publisher,
+                        status: r.status,
                         hardware: Default::default(),
                         sources: r.sources,
                         artifacts: r.artifacts,
@@ -481,6 +494,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         regions: regions.clone(),
                         date: None,
                         publisher: m.publisher.clone(),
+                        status: Default::default(),
                         hardware: Default::default(),
                         sources: Vec::new(),
                         artifacts: artifacts.clone(),
@@ -600,6 +614,9 @@ mod tests {
   <game name="Zelda (Europe) (Rev A) (SGB Enhanced)">
     <rom name="Zelda (Europe).gb" size="524288" sha1="fedcba9876543210fedcba9876543210fedcba98"/>
   </game>
+  <game name="Proto Thing (USA) (Proto)">
+    <rom name="Proto Thing (USA) (Proto).gb" size="32768" sha1="3333333333333333333333333333333333333333"/>
+  </game>
   <game name="[BIOS] Boot ROM (World)">
     <rom name="boot.gb" size="256" sha1="4ed31ec6b0b175bb109c0eb5fd3d193da823339f"/>
   </game>
@@ -661,6 +678,12 @@ mod tests {
         let dual = std::fs::read_to_string(root.path().join("gb/dual-game/manifest.ron")).unwrap();
         let dual = Game::<GameBoy>::from_ron(&dual).unwrap();
         assert_eq!(dual.releases[0].hardware.cgb, Enhancement::Enhanced);
+
+        let proto =
+            std::fs::read_to_string(root.path().join("gb/proto-thing/manifest.ron")).unwrap();
+        let proto = Game::<GameBoy>::from_ron(&proto).unwrap();
+        assert_eq!(proto.releases[0].status, ReleaseStatus::Prototype);
+        assert!(proto.releases[0].label.is_none());
 
         let demo =
             std::fs::read_to_string(root.path().join("gbc/colors-only/manifest.ron")).unwrap();

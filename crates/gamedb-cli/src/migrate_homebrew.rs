@@ -126,6 +126,7 @@ fn run_tree<P: Platform>(
                 regions,
                 date,
                 publisher: m.publisher.clone(),
+                status: Default::default(),
                 hardware: Default::default(),
                 sources: vec![match source {
                     LegacySource::HomebrewHub { slug, filename } => {

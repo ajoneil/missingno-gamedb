@@ -1,6 +1,6 @@
 use std::{collections::BTreeMap, path::Path};
 
-use missingno_gamedb::{Artifact, Game, Release, Sha1, Vcs, VcsHardware};
+use missingno_gamedb::{Artifact, Game, Release, ReleaseStatus, Sha1, Vcs, VcsHardware};
 
 use crate::{
     legacy::{self, LegacyManifest},
@@ -16,13 +16,13 @@ pub struct Stats {
 }
 
 fn unify_scalar(
-    members: &[(String, LegacyManifest)],
+    members: &[(String, LegacyManifest, bool)],
     field: impl Fn(&LegacyManifest) -> Option<&String>,
     title: &str,
     name: &str,
     report: &mut Report,
 ) -> Option<String> {
-    let mut values: Vec<&String> = members.iter().filter_map(|(_, m)| field(m)).collect();
+    let mut values: Vec<&String> = members.iter().filter_map(|(_, m, _)| field(m)).collect();
     values.sort();
     values.dedup();
     match values.len() {
@@ -53,12 +53,13 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
     let entries_before = entries.len();
 
     let mut old_sha1s: Vec<String> = Vec::new();
-    let mut groups: BTreeMap<String, Vec<(String, LegacyManifest)>> = BTreeMap::new();
+    let mut groups: BTreeMap<String, Vec<(String, LegacyManifest, bool)>> = BTreeMap::new();
     for (slug, manifest) in entries {
-        groups
-            .entry(manifest.title.clone())
-            .or_default()
-            .push((slug, manifest));
+        let (title, wip) = match manifest.title.strip_suffix(" (WIP)") {
+            Some(stripped) => (stripped.to_owned(), true),
+            None => (manifest.title.clone(), false),
+        };
+        groups.entry(title).or_default().push((slug, manifest, wip));
     }
 
     // Near-miss report: normalized collisions between distinct exact titles.
@@ -84,8 +85,9 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
     let mut releases_total = 0;
     for (title, mut members) in groups {
         members.sort_by(|a, b| {
-            let key = |(slug, m): &(String, LegacyManifest)| {
+            let key = |(slug, m, wip): &(String, LegacyManifest, bool)| {
                 (
+                    *wip,
                     format!("{:?}", m.tv_format),
                     m.cart_type.clone().unwrap_or_default(),
                     m.date.clone().unwrap_or_default(),
@@ -96,14 +98,14 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
         });
         let slug = members
             .iter()
-            .map(|(slug, _)| slug.clone())
+            .map(|(slug, _, _)| slug.clone())
             .min_by_key(|s| (s.len(), s.clone()))
             .expect("group is non-empty");
 
         let mut seen_hardware = BTreeMap::new();
         let mut releases = Vec::new();
-        for (member_slug, m) in &members {
-            let hw_key = (format!("{:?}", m.tv_format), m.cart_type.clone());
+        for (member_slug, m, wip) in &members {
+            let hw_key = (*wip, format!("{:?}", m.tv_format), m.cart_type.clone());
             if let Some(first) = seen_hardware.insert(hw_key, member_slug.clone()) {
                 report.add(
                     "Same title with identical hardware",
@@ -140,6 +142,11 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 regions: Vec::new(),
                 date,
                 publisher: m.publisher.clone(),
+                status: if *wip {
+                    ReleaseStatus::WorkInProgress
+                } else {
+                    ReleaseStatus::Released
+                },
                 hardware: VcsHardware {
                     tv_format: m.tv_format,
                     cart_type: m.cart_type.clone(),
@@ -165,18 +172,21 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
             report,
         );
         let license = unify_scalar(&members, |m| m.license.as_ref(), &title, "license", report);
-        let mut tags: Vec<String> = members.iter().flat_map(|(_, m)| m.tags.clone()).collect();
+        let mut tags: Vec<String> = members
+            .iter()
+            .flat_map(|(_, m, _)| m.tags.clone())
+            .collect();
         tags.sort();
         tags.dedup();
         let mut links = Vec::new();
-        for (_, m) in &members {
+        for (_, m, _) in &members {
             for link in &m.links {
                 if !links.contains(link) {
                     links.push(link.clone());
                 }
             }
         }
-        for (member_slug, m) in &members {
+        for (member_slug, m, _) in &members {
             if !m.screenshots.is_empty() {
                 report.add(
                     "Screenshot filenames dropped (no URL derivable)",
@@ -273,18 +283,38 @@ mod tests {
             r#"(title: "Other (WIP)", tv_format: Some(Pal), hashes: ["fedcba9876543210fedcba9876543210fedcba98"], source: None)"#,
         );
 
+        write_legacy(
+            root.path(),
+            "star-fire",
+            r#"(title: "Star Fire", tv_format: Some(Ntsc), hashes: ["1111111111111111111111111111111111111111"], source: None)"#,
+        );
+        write_legacy(
+            root.path(),
+            "starfire",
+            r#"(title: "Star-Fire", tv_format: Some(Pal), hashes: ["2222222222222222222222222222222222222222"], source: None)"#,
+        );
+
         let mut report = Report::default();
         let stats = run(root.path(), &mut report).unwrap();
-        assert_eq!(stats.entries_before, 4);
-        assert_eq!(stats.games_after, 3);
-        assert_eq!(stats.releases, 4);
+        assert_eq!(stats.entries_before, 6);
+        assert_eq!(stats.games_after, 4);
+        assert_eq!(stats.releases, 6);
 
         let merged = fs::read_to_string(root.path().join("vcs/pitfall-ii/manifest.ron")).unwrap();
         let game = Game::<Vcs>::from_ron(&merged).unwrap();
         assert_eq!(game.releases.len(), 2);
         assert_eq!(game.releases[0].publisher.as_deref(), Some("Activision"));
         assert!(!root.path().join("vcs/pitfall-ii-pal").exists());
-        assert!(report.render("t").contains("Other"));
+
+        let other = fs::read_to_string(root.path().join("vcs/other/manifest.ron")).unwrap();
+        let other = Game::<Vcs>::from_ron(&other).unwrap();
+        assert_eq!(other.title, "Other");
+        assert_eq!(other.releases.len(), 2);
+        assert_eq!(other.releases[0].status, ReleaseStatus::Released);
+        assert_eq!(other.releases[1].status, ReleaseStatus::WorkInProgress);
+        assert!(!root.path().join("vcs/other-wip").exists());
+
+        assert!(report.render("t").contains("Star Fire"));
         assert!(missingno_gamedb::validate(root.path()).unwrap().is_empty());
     }
 }

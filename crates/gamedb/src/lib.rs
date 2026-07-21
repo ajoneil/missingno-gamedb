@@ -15,6 +15,7 @@ pub mod validate;
 
 pub use game::{
     Artifact, Game, GameKind, Link, LinkType, ModCategory, ModOf, Patch, PatchFormat, Release,
+    ReleaseStatus,
 };
 pub use ids::{ReleaseDate, Sha1, Slug};
 pub use load::{Database, Entry, LoadIssue, Tree};

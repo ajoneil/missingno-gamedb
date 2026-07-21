@@ -79,11 +79,25 @@ pub struct Release<P: Platform> {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub publisher: Option<String>,
     #[serde(default, skip_serializing_if = "is_default")]
+    pub status: ReleaseStatus,
+    #[serde(default, skip_serializing_if = "is_default")]
     pub hardware: P::ReleaseHardware,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub sources: Vec<Source>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub artifacts: Vec<Artifact>,
+}
+
+/// How finished a release is. `WorkInProgress` is an unfinished version the
+/// author published; `Beta`/`Prototype` are pre-release builds, usually dumps
+/// that were never meant to circulate.
+#[derive(Serialize, Deserialize, Default, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum ReleaseStatus {
+    #[default]
+    Released,
+    WorkInProgress,
+    Beta,
+    Prototype,
 }
 
 /// A known dump of a release.
