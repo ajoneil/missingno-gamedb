@@ -1,3 +1,4 @@
+mod fix_titles;
 mod import_flags;
 mod import_nointro;
 mod legacy;
@@ -57,6 +58,13 @@ enum Command {
         #[arg(long, default_value = "migration-report.md")]
         report: PathBuf,
     },
+    /// One-shot: move status/kind/licence qualifiers out of game titles
+    FixTitles {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+    },
     /// Seed curation/flags.ron from migration-report markdown files
     ImportFlags {
         #[arg(default_value = ".")]
@@ -97,6 +105,32 @@ fn main() -> ExitCode {
             run_migration(&path.clone(), &report, "migrate homebrew", |r| {
                 migrate_homebrew::run(&path, r).map(|s| format!("{} entries rewritten", s.migrated))
             })
+        }
+        Command::FixTitles { path, report } => {
+            let data_root = resolve_db_root(&path);
+            if let Err(e) = ensure_clean_git(&path) {
+                eprintln!("{e}");
+                return ExitCode::from(2);
+            }
+            let mut findings = Report::default();
+            match fix_titles::run(&path, &data_root, &mut findings) {
+                Ok(s) => {
+                    println!(
+                        "{} titles cleaned ({} release statuses set, {} demo flags, {} PD licences)",
+                        s.cleaned, s.statuses, s.demo_flags, s.pd_licensed
+                    );
+                    if let Err(e) = findings.write(&report, "gamedb fix-titles report") {
+                        eprintln!("failed to write report: {e}");
+                        return ExitCode::FAILURE;
+                    }
+                    println!("{} review items → {}", findings.item_count(), report.display());
+                    ExitCode::SUCCESS
+                }
+                Err(e) => {
+                    eprintln!("aborted: {e}");
+                    ExitCode::FAILURE
+                }
+            }
         }
         Command::ImportFlags { path, report } => {
             let mut unused = Report::default();
