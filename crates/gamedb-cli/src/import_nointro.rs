@@ -470,8 +470,14 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
     // ── Leftovers: old commercial entries no DAT entry claimed ───────
     let mut gb_leftovers: Vec<(String, Game<GameBoy>)> = Vec::new();
     let mut gbc_leftovers: Vec<(String, Game<GameBoyColor>)> = Vec::new();
+    let mut bios_removed: BTreeSet<usize> = BTreeSet::new();
     for (i, (tree_name, slug, m)) in old_commercial.iter().enumerate() {
         if old_claimed.contains(&i) {
+            continue;
+        }
+        if m.title.starts_with("[BIOS]") {
+            bios_removed.insert(i);
+            report.add("BIOS entries removed", format!("{tree_name}/{slug}"));
             continue;
         }
         stats.leftovers += 1;
@@ -592,6 +598,9 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
         new_sha1s.insert(sha1);
     }
     for (i, (tree_name, slug, m)) in old_commercial.iter().enumerate() {
+        if bios_removed.contains(&i) {
+            continue;
+        }
         for hash in &m.hashes {
             let hash = hash.to_ascii_lowercase();
             if hash.parse::<Sha1>().is_ok() && !new_sha1s.contains(&hash) {
