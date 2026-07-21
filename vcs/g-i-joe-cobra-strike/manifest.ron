@@ -1,9 +1,18 @@
 (
     title: "G.I. Joe - Cobra Strike",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9cfb6288a5c2dae63ee6f5e9325200ccd21a3055"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9cfb6288a5c2dae63ee6f5e9325200ccd21a3055",
+                ),
+            ],
+        ),
+    ],
 )

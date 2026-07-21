@@ -1,9 +1,18 @@
 (
     title: "Pit Run (Stampede Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["53f173a686f971070660c975d183dc8f2d35a0d2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "53f173a686f971070660c975d183dc8f2d35a0d2",
+                ),
+            ],
+        ),
+    ],
 )

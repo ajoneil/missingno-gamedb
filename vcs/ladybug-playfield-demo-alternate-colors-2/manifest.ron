@@ -1,9 +1,18 @@
 (
     title: "Ladybug Playfield Demo - Alternate Colors 2 (demo) (PD)",
-    publisher: Some("johnnywc"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["a205fac6c73f70b222f6e92ca84c9f4822b12716"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("johnnywc"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a205fac6c73f70b222f6e92ca84c9f4822b12716",
+                ),
+            ],
+        ),
+    ],
 )

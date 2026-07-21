@@ -1,9 +1,19 @@
 (
-    title: "Monkey Love (WIP)",
-    publisher: Some("Lost Monkey"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["a96010f103478859fd53fe44ee957dd733f8f85a"],
-    source: None,
+    title: "Monkey Love",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Lost Monkey"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a96010f103478859fd53fe44ee957dd733f8f85a",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,21 @@
 (
     title: "How to Draw a Playfield II (Erik Mooney) (PD)",
-    publisher: Some("Erik Mooney"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["50667c303d2f758ec0ac3a1e722d967ba144875c", "a0729a5d7c32e59fe070c9540bfe7ad243351dc8"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Erik Mooney"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "50667c303d2f758ec0ac3a1e722d967ba144875c",
+                ),
+                (
+                    sha1: "a0729a5d7c32e59fe070c9540bfe7ad243351dc8",
+                ),
+            ],
+        ),
+    ],
 )

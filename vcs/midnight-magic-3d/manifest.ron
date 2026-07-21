@@ -1,9 +1,18 @@
 (
     title: "Midnight Magic 3D (Midnight Magic Hack)",
-    publisher: Some("Kevin W."),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["4dd4ea5850d8f734e7da45adff4c8d70aaf52bb3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Kevin W."),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4dd4ea5850d8f734e7da45adff4c8d70aaf52bb3",
+                ),
+            ],
+        ),
+    ],
 )

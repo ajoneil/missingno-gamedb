@@ -1,9 +1,18 @@
 (
     title: "James Bond 007 (James Bond Agent 007) (Prototype) [a2]",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("E0"),
-    hashes: ["220beedd4835e13713bc430549a8b595bdb13cbd"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "220beedd4835e13713bc430549a8b595bdb13cbd",
+                ),
+            ],
+        ),
+    ],
 )

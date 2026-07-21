@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - SteveNapierski_3",
-    publisher: Some("Steve Napierski"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f85843b0e1ec4a0e7e3486a2fe481d0fb6014df0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Steve Napierski"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f85843b0e1ec4a0e7e3486a2fe481d0fb6014df0",
+                ),
+            ],
+        ),
+    ],
 )

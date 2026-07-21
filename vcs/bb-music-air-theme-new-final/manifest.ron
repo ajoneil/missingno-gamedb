@@ -1,9 +1,18 @@
 (
     title: "bB Music - Air Theme New Final",
-    publisher: Some("thegoldenband"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4b6541e2b3a6026e3a483278ccc297eb5d8bd1ae"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("thegoldenband"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4b6541e2b3a6026e3a483278ccc297eb5d8bd1ae",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "B17 Flight Sim 2600 (WIP)",
-    publisher: Some("donnerkuh"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["b53891d53c7786bfac9bc4207b3ce82146898768"],
-    source: None,
+    title: "B17 Flight Sim 2600",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("donnerkuh"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b53891d53c7786bfac9bc4207b3ce82146898768",
+                ),
+            ],
+        ),
+    ],
 )

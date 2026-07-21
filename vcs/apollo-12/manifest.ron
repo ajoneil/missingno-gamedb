@@ -1,9 +1,19 @@
 (
-    title: "Apollo 12 (WIP)",
-    publisher: Some("ClausB"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["d36f6c8d8c7c76744c5a4a500d80093edfda609a"],
-    source: None,
+    title: "Apollo 12",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("ClausB"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d36f6c8d8c7c76744c5a4a500d80093edfda609a",
+                ),
+            ],
+        ),
+    ],
 )

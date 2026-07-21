@@ -1,9 +1,18 @@
 (
     title: "Cylon Invaders (Space Invaders Hack)",
-    publisher: Some("tkarner"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ed4e255f034f24511950cdd918e3d82d1e38a1d2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("tkarner"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ed4e255f034f24511950cdd918e3d82d1e38a1d2",
+                ),
+            ],
+        ),
+    ],
 )

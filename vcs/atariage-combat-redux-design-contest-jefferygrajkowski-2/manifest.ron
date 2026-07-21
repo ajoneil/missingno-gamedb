@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - JefferyGrajkowski_2",
-    publisher: Some("Grajkowski"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["ac1a2cd444b36193f481674ff969a8e1d2ec03b6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Grajkowski"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ac1a2cd444b36193f481674ff969a8e1d2ec03b6",
+                ),
+            ],
+        ),
+    ],
 )

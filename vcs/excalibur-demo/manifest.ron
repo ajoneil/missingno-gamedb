@@ -1,8 +1,17 @@
 (
     title: "Excalibur Demo",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["ae414cf9123c8dbc5cb5184b93384fd5968b1f18"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ae414cf9123c8dbc5cb5184b93384fd5968b1f18",
+                ),
+            ],
+        ),
+    ],
 )

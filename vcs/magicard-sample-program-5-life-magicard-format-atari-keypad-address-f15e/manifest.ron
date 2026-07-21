@@ -1,9 +1,18 @@
 (
     title: "Magicard Sample Program 5 - Life [Magicard Format, Atari Keypad, Address F15E]",
-    publisher: Some("CommaVid"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("CV"),
-    hashes: ["4ad262606550de42d12485a189ed1a38ab54b417"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("CV"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4ad262606550de42d12485a189ed1a38ab54b417",
+                ),
+            ],
+        ),
+    ],
 )

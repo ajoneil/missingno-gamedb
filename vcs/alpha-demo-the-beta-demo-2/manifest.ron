@@ -1,9 +1,18 @@
 (
     title: "Alpha Demo - The Beta Demo 2 (Manuel Rotschkar)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f22872b1a1d6156f81335e605b83c180faae6209"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f22872b1a1d6156f81335e605b83c180faae6209",
+                ),
+            ],
+        ),
+    ],
 )

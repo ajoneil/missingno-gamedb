@@ -1,9 +1,19 @@
 (
-    title: "Epic Adventure (WIP)",
-    publisher: Some("Todd Holcomb"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC+"),
-    hashes: ["6260b8bce00013e8b20f8ca4014fe88ccdec2920"],
-    source: None,
+    title: "Epic Adventure",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Todd Holcomb"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6260b8bce00013e8b20f8ca4014fe88ccdec2920",
+                ),
+            ],
+        ),
+    ],
 )

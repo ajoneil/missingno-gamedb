@@ -1,9 +1,18 @@
 (
     title: "Music 6",
-    publisher: Some("rpgfaker"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["668975f8b5d726b86d142cb4ad20ba534520aac1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("rpgfaker"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "668975f8b5d726b86d142cb4ad20ba534520aac1",
+                ),
+            ],
+        ),
+    ],
 )

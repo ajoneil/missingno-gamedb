@@ -1,9 +1,18 @@
 (
-    title: "Dodge 'Em (Head On) [different colors after game ends]",
-    publisher: Some("Atari"),
-    date: Some("1980"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["cd91323991b4b64e5338a3f71e6f405222608452"],
-    source: None,
+    title: "Dodge \'Em (Head On) [different colors after game ends]",
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cd91323991b4b64e5338a3f71e6f405222608452",
+                ),
+            ],
+        ),
+    ],
 )

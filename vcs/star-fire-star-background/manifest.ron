@@ -1,7 +1,16 @@
 (
     title: "Star Fire - Star Background (MP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b6bdf61d34d3a31886a5d446c7c82838d3e23cfd"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b6bdf61d34d3a31886a5d446c7c82838d3e23cfd",
+                ),
+            ],
+        ),
+    ],
 )

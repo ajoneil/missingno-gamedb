@@ -1,9 +1,19 @@
 (
-    title: "Pachislot Test (WIP)",
-    publisher: Some("John Payson"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["8322f663ed9328841e8bee4136ceb6c4c174bbbe"],
-    source: None,
+    title: "Pachislot Test",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("John Payson"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8322f663ed9328841e8bee4136ceb6c4c174bbbe",
+                ),
+            ],
+        ),
+    ],
 )

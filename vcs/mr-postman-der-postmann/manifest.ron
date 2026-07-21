@@ -1,9 +1,18 @@
 (
     title: "Mr. Postman - Der Postmann",
-    publisher: Some("Bit Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["f9e1491d4cfea97822949349559a41d87a235d27"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f9e1491d4cfea97822949349559a41d87a235d27",
+                ),
+            ],
+        ),
+    ],
 )

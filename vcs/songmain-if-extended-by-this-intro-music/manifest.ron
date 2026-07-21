@@ -1,8 +1,17 @@
 (
     title: "Songmain if extended by this Intro Music (Hack)",
-    publisher: Some("Paul Slocum"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a1fd5f3e917be69ecb30f0a8cafde46f2e5c67e0"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a1fd5f3e917be69ecb30f0a8cafde46f2e5c67e0",
+                ),
+            ],
+        ),
+    ],
 )

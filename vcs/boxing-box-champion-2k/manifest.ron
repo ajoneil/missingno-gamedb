@@ -1,9 +1,31 @@
 (
     title: "Boxing - Box-Champion (EAG-002, EAG-002-04I, PAG-002 - 711 002-715)",
-    publisher: Some("Activision"),
-    date: Some("1980"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["4f75780608148f51eddb30ce2da0c1a40be7d37f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4f75780608148f51eddb30ce2da0c1a40be7d37f",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13a37212632a0fb1f3ea807cd47c458e62c4dc32",
+                ),
+            ],
+        ),
+    ],
 )

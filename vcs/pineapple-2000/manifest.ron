@@ -1,9 +1,18 @@
 (
     title: "Pineapple 2000 (Space Invaders Hack)",
-    publisher: Some("Justin Bardin"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["73bb4f9d08b9dfa4727276f125739859674a62e1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Justin Bardin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "73bb4f9d08b9dfa4727276f125739859674a62e1",
+                ),
+            ],
+        ),
+    ],
 )

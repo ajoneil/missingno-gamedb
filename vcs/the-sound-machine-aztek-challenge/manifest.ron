@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Aztek Challenge",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["725d6b9e028e9f79911548c73e6882057f1f732e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "725d6b9e028e9f79911548c73e6882057f1f732e",
+                ),
+            ],
+        ),
+    ],
 )

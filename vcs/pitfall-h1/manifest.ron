@@ -1,8 +1,17 @@
 (
     title: "Pitfall! [h1] (says 1985)",
-    date: Some("1985"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d0649f185e6762c5a9b97c4dc7ab0039b7b1c915"],
-    source: None,
+    releases: [
+        (
+            date: Some("1985"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d0649f185e6762c5a9b97c4dc7ab0039b7b1c915",
+                ),
+            ],
+        ),
+    ],
 )

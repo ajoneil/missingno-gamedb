@@ -1,9 +1,18 @@
 (
     title: "Tank Brigade",
-    publisher: Some("Panda"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4bfa4427f823433e628e7fd04200f99ab4262336"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Panda"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4bfa4427f823433e628e7fd04200f99ab4262336",
+                ),
+            ],
+        ),
+    ],
 )

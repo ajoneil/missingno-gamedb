@@ -1,9 +1,19 @@
 (
-    title: "Superchip RAM Player (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["c7508f9af69cde41d4de313cd6d021064382322c"],
-    source: None,
+    title: "Superchip RAM Player",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c7508f9af69cde41d4de313cd6d021064382322c",
+                ),
+            ],
+        ),
+    ],
 )

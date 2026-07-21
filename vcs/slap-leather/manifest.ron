@@ -1,9 +1,18 @@
 (
     title: "Slap Leather! (Outlaw Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0f5d9e5ae6639cb63bc6ff8265ea12229644d49d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0f5d9e5ae6639cb63bc6ff8265ea12229644d49d",
+                ),
+            ],
+        ),
+    ],
 )

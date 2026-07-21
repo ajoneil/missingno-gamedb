@@ -1,9 +1,33 @@
 (
     title: "Bottomless Pitfall! [h] [Pitfall!]",
-    publisher: Some("Nukey Shay"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1245d74a98f68fa1510152dbe2da33524329a669", "15e9507653f0cc41ce2f59f770af0293246303ba", "228a0d22949175c42f91f8e76d00edc4becbe9cf", "27a13911a2d57363ae4866b8d231b7d5b66c1d1c", "7cf17380f32025cbc40539950611c9c91db454d9", "8a36feab5376fb26e77598f0af6d1409f6a868b8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Nukey Shay"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1245d74a98f68fa1510152dbe2da33524329a669",
+                ),
+                (
+                    sha1: "15e9507653f0cc41ce2f59f770af0293246303ba",
+                ),
+                (
+                    sha1: "228a0d22949175c42f91f8e76d00edc4becbe9cf",
+                ),
+                (
+                    sha1: "27a13911a2d57363ae4866b8d231b7d5b66c1d1c",
+                ),
+                (
+                    sha1: "7cf17380f32025cbc40539950611c9c91db454d9",
+                ),
+                (
+                    sha1: "8a36feab5376fb26e77598f0af6d1409f6a868b8",
+                ),
+            ],
+        ),
+    ],
 )

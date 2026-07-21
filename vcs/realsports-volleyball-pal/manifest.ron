@@ -1,9 +1,40 @@
 (
     title: "RealSports Volleyball",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["54417214ea1b885cfff771378373b9e7f92c81e2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2025e1d868595fad36e5d9e7384ffd24c206208d",
+                ),
+                (
+                    sha1: "3fa391503fabde0cb3d0e6bee7a9348bf0f36deb",
+                ),
+                (
+                    sha1: "70da1c26eaa1123046f12d54fa6fa5ae32198689",
+                ),
+                (
+                    sha1: "c3dc6df687855479feebf1459b5550a5d6b4915a",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "54417214ea1b885cfff771378373b9e7f92c81e2",
+                ),
+            ],
+        ),
+    ],
 )

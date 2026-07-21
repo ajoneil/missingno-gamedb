@@ -1,9 +1,19 @@
 (
-    title: "VCS Lander (WIP)",
-    publisher: Some("Robert Mundschau"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f5a4e226377b05544c8b35f09fb917d002ade4b1"],
-    source: None,
+    title: "VCS Lander",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Robert Mundschau"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f5a4e226377b05544c8b35f09fb917d002ade4b1",
+                ),
+            ],
+        ),
+    ],
 )

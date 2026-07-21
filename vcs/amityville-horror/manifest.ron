@@ -1,9 +1,18 @@
 (
     title: "Amityville Horror (Haunted House Hack)",
-    publisher: Some("Tim Martin"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["71168786a3a9695a334324afbaa84077286b7585"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Tim Martin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "71168786a3a9695a334324afbaa84077286b7585",
+                ),
+            ],
+        ),
+    ],
 )

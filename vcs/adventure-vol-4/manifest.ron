@@ -1,9 +1,18 @@
 (
     title: "Adventure Vol. 4 (Adventure Hack)",
-    publisher: Some("77gp454"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c48675265a9b9284bd620e2274884175f208d1a3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("77gp454"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c48675265a9b9284bd620e2274884175f208d1a3",
+                ),
+            ],
+        ),
+    ],
 )

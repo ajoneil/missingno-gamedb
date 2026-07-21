@@ -1,9 +1,18 @@
 (
     title: "Bachelorette Party",
-    publisher: Some("Playaround"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b88ca823aaa10a7a4a3d325023881b2de969c156"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Playaround"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b88ca823aaa10a7a4a3d325023881b2de969c156",
+                ),
+            ],
+        ),
+    ],
 )

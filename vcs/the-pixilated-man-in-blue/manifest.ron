@@ -1,9 +1,18 @@
 (
     title: "The Pixilated Man in Blue",
-    publisher: Some("Raissa Lim"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["172bb339f8b313009db88f97e7480f6288f317c9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Raissa Lim"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "172bb339f8b313009db88f97e7480f6288f317c9",
+                ),
+            ],
+        ),
+    ],
 )

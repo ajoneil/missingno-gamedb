@@ -1,9 +1,18 @@
 (
     title: "Berzerk Arcade Voice Enhanced (Berzerk Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["fdf90a4d8ffebb039e530a5672257c00c89cd995"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fdf90a4d8ffebb039e530a5672257c00c89cd995",
+                ),
+            ],
+        ),
+    ],
 )

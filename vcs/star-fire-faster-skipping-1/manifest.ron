@@ -1,9 +1,18 @@
 (
     title: "Star Fire - Faster Skipping 1 (24-10-2002)",
-    publisher: Some("MP"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ce7d4eb6670237e0b4ed5023f307a89eaba46481"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ce7d4eb6670237e0b4ed5023f307a89eaba46481",
+                ),
+            ],
+        ),
+    ],
 )

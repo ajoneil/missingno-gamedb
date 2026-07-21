@@ -1,9 +1,21 @@
 (
     title: "Philly Flasher",
-    publisher: Some("PlayAround"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3476d26e3e05e5bf6e3e000d683ed65ef7a1755d", "b299df2792c5cca73118925dff85695b73a16228"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("PlayAround"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3476d26e3e05e5bf6e3e000d683ed65ef7a1755d",
+                ),
+                (
+                    sha1: "b299df2792c5cca73118925dff85695b73a16228",
+                ),
+            ],
+        ),
+    ],
 )

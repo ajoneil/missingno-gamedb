@@ -1,9 +1,19 @@
 (
-    title: "Desando Joe! (WIP)",
-    publisher: Some("Forrest Hodges"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d94ae638f0585683a261467538f88e24a9781637"],
-    source: None,
+    title: "Desando Joe!",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Forrest Hodges"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d94ae638f0585683a261467538f88e24a9781637",
+                ),
+            ],
+        ),
+    ],
 )

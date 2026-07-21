@@ -1,9 +1,31 @@
 (
     title: "Asteroids",
-    publisher: Some("Atari"),
-    date: Some("1981"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["1cb8f057acad6dc65fef07d3202088ff4ae355cd"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d68937e57a367e61eaa4b44550ae8b9d69456661",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1cb8f057acad6dc65fef07d3202088ff4ae355cd",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Snoopy",
-    publisher: Some("Century"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["85d72072bfe2219fef912b7e2cf36d851e5efe86"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Century"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "85d72072bfe2219fef912b7e2cf36d851e5efe86",
+                ),
+            ],
+        ),
+    ],
 )

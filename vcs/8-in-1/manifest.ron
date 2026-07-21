@@ -1,9 +1,18 @@
 (
     title: "8 in 1 (Supergames 8 in 1) (01-16-1992) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1992"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F0"),
-    hashes: ["c066942446c3fc7075ee8430a381d5da4adaec41"],
-    source: None,
+    releases: [
+        (
+            date: Some("1992"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c066942446c3fc7075ee8430a381d5da4adaec41",
+                ),
+            ],
+        ),
+    ],
 )

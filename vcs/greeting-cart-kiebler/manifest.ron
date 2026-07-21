@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Kiebler",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["93c1ff3ee26c6802126bc3c13da14121b24afaec"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "93c1ff3ee26c6802126bc3c13da14121b24afaec",
+                ),
+            ],
+        ),
+    ],
 )

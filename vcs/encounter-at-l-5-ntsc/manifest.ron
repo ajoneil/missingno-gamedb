@@ -1,9 +1,18 @@
 (
     title: "Encounter at L-5",
-    publisher: Some("Data Age"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["205af4051ea39fb5a038a8545c78bff91df321b7"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "205af4051ea39fb5a038a8545c78bff91df321b7",
+                ),
+            ],
+        ),
+    ],
 )

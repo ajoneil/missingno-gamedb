@@ -1,9 +1,18 @@
 (
     title: "Pink Floyd (PD)",
-    publisher: Some("Kyle Pittman"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ca618bb947f1d7c64143ec35d72101c6f696fafe"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Kyle Pittman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ca618bb947f1d7c64143ec35d72101c6f696fafe",
+                ),
+            ],
+        ),
+    ],
 )

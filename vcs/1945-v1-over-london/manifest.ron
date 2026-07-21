@@ -1,9 +1,18 @@
 (
     title: "1945 - V1 over London",
-    publisher: Some("donnerkuh"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["e06faf9f4698054e5165ea94f28a18e41a2cf657"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("donnerkuh"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e06faf9f4698054e5165ea94f28a18e41a2cf657",
+                ),
+            ],
+        ),
+    ],
 )

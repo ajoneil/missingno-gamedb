@@ -1,9 +1,18 @@
 (
     title: "Tunnel Demo",
-    publisher: Some("Simone Serra"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["94d0d9a082d837f5712ec06e5abe454849065635"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Simone Serra"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "94d0d9a082d837f5712ec06e5abe454849065635",
+                ),
+            ],
+        ),
+    ],
 )

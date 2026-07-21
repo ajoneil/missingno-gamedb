@@ -1,9 +1,18 @@
 (
     title: "Futurama (Oink! Hack)",
-    publisher: Some("Tim Snider"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["32e7ca7d76a0f2a8130ed69b09517beeabaa87d4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Tim Snider"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "32e7ca7d76a0f2a8130ed69b09517beeabaa87d4",
+                ),
+            ],
+        ),
+    ],
 )

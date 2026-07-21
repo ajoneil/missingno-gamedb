@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - JeffThompson_7",
-    publisher: Some("Thompson"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0a66d6944439ee1dd1e9fcc8b984c94549aa2176"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Thompson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a66d6944439ee1dd1e9fcc8b984c94549aa2176",
+                ),
+            ],
+        ),
+    ],
 )

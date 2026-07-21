@@ -1,9 +1,19 @@
 (
-    title: "Flow (WIP)",
-    publisher: Some("Simone Serra"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cffd781485a5516d2599af395b5d99e80c3d1779"],
-    source: None,
+    title: "Flow",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Simone Serra"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cffd781485a5516d2599af395b5d99e80c3d1779",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
-    title: "Chillin' Out!",
-    publisher: Some("Tatum Clanton"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c9a1a22b2f55da1675d1e3b623ff603c833229cb"],
-    source: None,
+    title: "Chillin\' Out!",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Tatum Clanton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c9a1a22b2f55da1675d1e3b623ff603c833229cb",
+                ),
+            ],
+        ),
+    ],
 )

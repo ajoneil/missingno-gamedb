@@ -1,9 +1,19 @@
 (
-    title: "Inferno (WIP)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["f1244cb40b209b9c34129feca4a9885cf74b139d"],
-    source: None,
+    title: "Inferno",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Steve Engelhardt"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f1244cb40b209b9c34129feca4a9885cf74b139d",
+                ),
+            ],
+        ),
+    ],
 )

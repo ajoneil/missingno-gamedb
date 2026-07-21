@@ -1,9 +1,19 @@
 (
-    title: "Pool Hoppers Test (WIP)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2479a017a52bceea3020b26b35298d404eccd3e5"],
-    source: None,
+    title: "Pool Hoppers Test",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Thomas Jentzsch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2479a017a52bceea3020b26b35298d404eccd3e5",
+                ),
+            ],
+        ),
+    ],
 )

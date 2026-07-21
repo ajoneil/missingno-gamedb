@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - Pato_2",
-    publisher: Some("Pato"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c8e26cc4f2369c34c4cf7d5619fb3422072df3d6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Pato"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c8e26cc4f2369c34c4cf7d5619fb3422072df3d6",
+                ),
+            ],
+        ),
+    ],
 )

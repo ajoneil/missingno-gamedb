@@ -1,9 +1,18 @@
 (
     title: "Griffey The Dog (Ms. Pac-Man Hack)",
-    publisher: Some("Pac-Man Vs Puck-Man"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["3eb994ca990fb6ade0d70d89fbeb3cc9e6878635"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Pac-Man Vs Puck-Man"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3eb994ca990fb6ade0d70d89fbeb3cc9e6878635",
+                ),
+            ],
+        ),
+    ],
 )

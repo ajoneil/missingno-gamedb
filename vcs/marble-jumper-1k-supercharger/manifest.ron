@@ -1,9 +1,18 @@
 (
     title: "Marble Jumper 1K Supercharger",
-    publisher: Some("Zach Matley"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fbc1f8fa1be4cc607a0889c5d4667f4ad3fda08d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Zach Matley"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fbc1f8fa1be4cc607a0889c5d4667f4ad3fda08d",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Tanya",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ebe4c815de8ae19925e8b6d1a7b23f86d486cbc2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ebe4c815de8ae19925e8b6d1a7b23f86d486cbc2",
+                ),
+            ],
+        ),
+    ],
 )

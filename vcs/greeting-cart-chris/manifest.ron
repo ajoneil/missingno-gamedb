@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Chris",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b4dd8cbd541a798a1154bd203cd06dcd2e935570"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b4dd8cbd541a798a1154bd203cd06dcd2e935570",
+                ),
+            ],
+        ),
+    ],
 )

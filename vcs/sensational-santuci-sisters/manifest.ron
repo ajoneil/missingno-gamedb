@@ -1,9 +1,19 @@
 (
-    title: "Sensational Santuci Sisters (WIP)",
-    publisher: Some("Jason Santuci"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["746f7680872618d1c09e05ae55f68f1b5958fc20"],
-    source: None,
+    title: "Sensational Santuci Sisters",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Jason Santuci"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "746f7680872618d1c09e05ae55f68f1b5958fc20",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "River Raid - Jagdflieger (EAX-020, EAX-020-04B, EAX-020-04I - 711 020-720)",
-    publisher: Some("Activision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["c52435a42ab03ee2bf9474face24516707d29153"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c52435a42ab03ee2bf9474face24516707d29153",
+                ),
+            ],
+        ),
+    ],
 )

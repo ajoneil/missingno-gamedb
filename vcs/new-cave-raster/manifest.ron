@@ -1,9 +1,19 @@
 (
-    title: "New Cave Raster (WIP)",
-    publisher: Some("Christopher Tumber"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a88f96f904ca16ad3f473ff5c770dbb8d2af9e7e"],
-    source: None,
+    title: "New Cave Raster",
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Christopher Tumber"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a88f96f904ca16ad3f473ff5c770dbb8d2af9e7e",
+                ),
+            ],
+        ),
+    ],
 )

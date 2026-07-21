@@ -1,9 +1,21 @@
 (
-    title: "Custer's Viagra (Hack)",
-    publisher: Some("JSK"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1bf39250bae12ea4711282605162f253ea5e601c", "aea9f39e7081aadd66ad9a8f83fbd8f3182714f9"],
-    source: None,
+    title: "Custer\'s Viagra (Hack)",
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("JSK"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1bf39250bae12ea4711282605162f253ea5e601c",
+                ),
+                (
+                    sha1: "aea9f39e7081aadd66ad9a8f83fbd8f3182714f9",
+                ),
+            ],
+        ),
+    ],
 )

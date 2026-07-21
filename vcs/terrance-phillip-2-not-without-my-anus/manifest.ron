@@ -1,9 +1,19 @@
 (
-    title: "Terrance & Phillip 2 - Not Without My Anus (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["fd36bbc1593b6bc0640b272e1cf4a85fc77bf0b7"],
-    source: None,
+    title: "Terrance & Phillip 2 - Not Without My Anus",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fd36bbc1593b6bc0640b272e1cf4a85fc77bf0b7",
+                ),
+            ],
+        ),
+    ],
 )

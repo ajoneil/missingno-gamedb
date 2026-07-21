@@ -1,9 +1,18 @@
 (
     title: "Fuchs & Schweinchen Schlau",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["4de5d915b58402f5018173120f42be7a7dfabb8e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4de5d915b58402f5018173120f42be7a7dfabb8e",
+                ),
+            ],
+        ),
+    ],
 )

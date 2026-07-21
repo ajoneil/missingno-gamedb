@@ -1,9 +1,18 @@
 (
     title: "Task Force",
-    publisher: Some("Froggo"),
-    date: Some("1987"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bae73700ba6532e9e6415b6471d115bdb7805464"],
-    source: None,
+    releases: [
+        (
+            date: Some("1987"),
+            publisher: Some("Froggo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bae73700ba6532e9e6415b6471d115bdb7805464",
+                ),
+            ],
+        ),
+    ],
 )

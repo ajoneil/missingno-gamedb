@@ -1,9 +1,21 @@
 (
     title: "Sorcerer",
-    publisher: Some("Mythicon"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["70e912379060d834aa9fb2baa2e6a438f3b5d3b6", "b86dbb2e72b1d3c554b064b1931adfb3118d796d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Mythicon"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "70e912379060d834aa9fb2baa2e6a438f3b5d3b6",
+                ),
+                (
+                    sha1: "b86dbb2e72b1d3c554b064b1931adfb3118d796d",
+                ),
+            ],
+        ),
+    ],
 )

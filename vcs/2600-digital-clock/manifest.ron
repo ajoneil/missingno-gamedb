@@ -1,9 +1,33 @@
 (
     title: "2600 Digital Clock (Demo 1) (PD)",
-    publisher: Some("Cracknell"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1fdc50b58cc5ed6172b54cecb28d8922d518d91a", "1feef67f337b0bc27e65661b3c80af908d5dc8bb", "497080692f813f98fc0f4fe210e8b80c8e7d7650", "5bb83bdbd49bf0c9cbbd0381e99dbb5b7f58d074", "78a2d7473d6e86976d659332dc3991aa7e0d9932", "ec95ea0a1fcea1d274291b34af9bce616e25956b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Cracknell"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1fdc50b58cc5ed6172b54cecb28d8922d518d91a",
+                ),
+                (
+                    sha1: "1feef67f337b0bc27e65661b3c80af908d5dc8bb",
+                ),
+                (
+                    sha1: "497080692f813f98fc0f4fe210e8b80c8e7d7650",
+                ),
+                (
+                    sha1: "5bb83bdbd49bf0c9cbbd0381e99dbb5b7f58d074",
+                ),
+                (
+                    sha1: "78a2d7473d6e86976d659332dc3991aa7e0d9932",
+                ),
+                (
+                    sha1: "ec95ea0a1fcea1d274291b34af9bce616e25956b",
+                ),
+            ],
+        ),
+    ],
 )

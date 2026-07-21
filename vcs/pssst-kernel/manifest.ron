@@ -1,9 +1,19 @@
 (
-    title: "Pssst! Kernel (WIP)",
-    publisher: Some("Chris Walton"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["dd46f3397ab9e52288ac7ba27ec907231d66a1e7"],
-    source: None,
+    title: "Pssst! Kernel",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Chris Walton"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd46f3397ab9e52288ac7ba27ec907231d66a1e7",
+                ),
+            ],
+        ),
+    ],
 )

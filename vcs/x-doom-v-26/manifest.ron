@@ -1,8 +1,17 @@
 (
     title: "X-Doom V.26 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["801241d72c7bda1b0d1ce36e53fdbf5d3cda3bb4"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "801241d72c7bda1b0d1ce36e53fdbf5d3cda3bb4",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Tritris (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["0ae18cf1999e00db3136c2adf86282ba37fdb726"],
-    source: None,
+    title: "Tritris",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ae18cf1999e00db3136c2adf86282ba37fdb726",
+                ),
+            ],
+        ),
+    ],
 )

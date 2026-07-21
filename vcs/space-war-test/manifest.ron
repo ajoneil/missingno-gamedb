@@ -1,9 +1,19 @@
 (
-    title: "Space War Test (WIP)",
-    publisher: Some("Rich Boniface"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1ba61f753abc7727f0d6d75892cec5b0aa9d2e46"],
-    source: None,
+    title: "Space War Test",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Rich Boniface"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ba61f753abc7727f0d6d75892cec5b0aa9d2e46",
+                ),
+            ],
+        ),
+    ],
 )

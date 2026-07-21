@@ -1,9 +1,37 @@
 (
     title: "Cave In",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2011"),
-    tv_format: Some(Pal),
-    cart_type: Some("F4SC"),
-    hashes: ["166d13db387f048660d819d60cde0b8ec600a49e", "3080c0e9f3e7f5fe76cbe3f7e6e973bb4d2d7532"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0b2916e21338bce985d08676b3b64e7dd90f0d4f",
+                ),
+                (
+                    sha1: "0cd5c1f28f4804da811e5e5f4c870a28b561049a",
+                ),
+            ],
+        ),
+        (
+            date: Some("2011"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "166d13db387f048660d819d60cde0b8ec600a49e",
+                ),
+                (
+                    sha1: "3080c0e9f3e7f5fe76cbe3f7e6e973bb4d2d7532",
+                ),
+            ],
+        ),
+    ],
 )

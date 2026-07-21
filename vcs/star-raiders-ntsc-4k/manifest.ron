@@ -1,9 +1,18 @@
 (
     title: "Star Raiders (Prototype) (4K)",
-    publisher: Some("Atari"),
-    date: Some("1981"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b8f4128f8e44fb93d2b11135a46eab42cd65b9f0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b8f4128f8e44fb93d2b11135a46eab42cd65b9f0",
+                ),
+            ],
+        ),
+    ],
 )

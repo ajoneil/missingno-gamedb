@@ -1,9 +1,21 @@
 (
     title: "Cakewalk",
-    publisher: Some("CommaVid"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3f1f17cf620f462355009f5302cddffa730fa2fa", "4ca390f8dc4d0f8dce889dfc21ddd675c5860095"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3f1f17cf620f462355009f5302cddffa730fa2fa",
+                ),
+                (
+                    sha1: "4ca390f8dc4d0f8dce889dfc21ddd675c5860095",
+                ),
+            ],
+        ),
+    ],
 )

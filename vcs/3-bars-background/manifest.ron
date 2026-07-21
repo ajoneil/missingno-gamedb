@@ -1,8 +1,17 @@
 (
     title: "3 Bars Background (demo)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["295275a71cb7f733fdb74075f66d0429ea69c3e2"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "295275a71cb7f733fdb74075f66d0429ea69c3e2",
+                ),
+            ],
+        ),
+    ],
 )

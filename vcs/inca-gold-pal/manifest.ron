@@ -1,7 +1,31 @@
 (
     title: "Inca Gold",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["03a9f73814e066be5edb541ddb7f17a9d17b56f2"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1fe79aa4821d7e172ec7d69ea34bd12403442297",
+                ),
+                (
+                    sha1: "75a1b6797771b09f9519bfe9f99a761662843896",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "03a9f73814e066be5edb541ddb7f17a9d17b56f2",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Tac Scan [h1]",
-    publisher: Some("Sega"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d2f7db69015a3d469a312a96574cd0cc6afb94db"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Sega"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d2f7db69015a3d469a312a96574cd0cc6afb94db",
+                ),
+            ],
+        ),
+    ],
 )

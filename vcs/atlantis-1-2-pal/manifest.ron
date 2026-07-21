@@ -1,9 +1,31 @@
 (
     title: "Atlantis 1 & 2 (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8009c122590301fcaa5cdc8b88afb76d127289f4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "287481e92eb9430d9cbe5d2a438a0d060e86cd6e",
+                ),
+            ],
+        ),
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8009c122590301fcaa5cdc8b88afb76d127289f4",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
-    title: "Crack'ed (Proto)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["d226e8af4e38d1d4eb8bb69cdf6bccdad561c804"],
-    source: None,
+    title: "Crack\'ed (Proto)",
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d226e8af4e38d1d4eb8bb69cdf6bccdad561c804",
+                ),
+            ],
+        ),
+    ],
 )

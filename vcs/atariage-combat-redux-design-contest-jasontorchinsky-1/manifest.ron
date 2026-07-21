@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - JasonTorchinsky_1",
-    publisher: Some("Torchinsky"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["6b0851a6e394a4153edf8fa37c5749a5a0a51ab6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Torchinsky"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b0851a6e394a4153edf8fa37c5749a5a0a51ab6",
+                ),
+            ],
+        ),
+    ],
 )

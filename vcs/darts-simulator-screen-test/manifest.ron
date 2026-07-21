@@ -1,9 +1,19 @@
 (
-    title: "Darts Simulator Screen Test (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8f2ef14c57ad493e583223bbe0261fa84c0d07d1"],
-    source: None,
+    title: "Darts Simulator Screen Test",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8f2ef14c57ad493e583223bbe0261fa84c0d07d1",
+                ),
+            ],
+        ),
+    ],
 )

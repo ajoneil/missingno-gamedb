@@ -1,9 +1,19 @@
 (
-    title: "Sudoku Grid Kernel (WIP)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["29f3057880871544bd7403e25ba2e32f57697bfe"],
-    source: None,
+    title: "Sudoku Grid Kernel",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Thomas Jentzsch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "29f3057880871544bd7403e25ba2e32f57697bfe",
+                ),
+            ],
+        ),
+    ],
 )

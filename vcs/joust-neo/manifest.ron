@@ -1,9 +1,18 @@
 (
     title: "Joust Neo (Sir Lancelot Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["b1fd9b646f8cc999b5eac9ff6f13e739149fc7ef"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b1fd9b646f8cc999b5eac9ff6f13e739149fc7ef",
+                ),
+            ],
+        ),
+    ],
 )

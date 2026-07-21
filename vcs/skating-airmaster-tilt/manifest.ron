@@ -1,9 +1,18 @@
 (
     title: "Skating Airmaster Tilt (BMX Airmaster Hack)",
-    publisher: Some("vb Master"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["f733704069891366584f100ca5e6f4811e6158be"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("vb Master"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f733704069891366584f100ca5e6f4811e6158be",
+                ),
+            ],
+        ),
+    ],
 )

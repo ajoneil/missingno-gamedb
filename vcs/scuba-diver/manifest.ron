@@ -1,9 +1,18 @@
 (
     title: "Scuba Diver",
-    publisher: Some("Panda"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e8f5ae861ca1f410c6a9af116a96ed65d9a3abb2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Panda"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e8f5ae861ca1f410c6a9af116a96ed65d9a3abb2",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Pyramid War [a]",
-    publisher: Some("Suntek"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["962c9d8ff3a9a0e6607f159a926f6ef68125a28c"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "962c9d8ff3a9a0e6607f159a926f6ef68125a28c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Pick Up (Proto)",
-    publisher: Some("20th Century Fox Video Games"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9784531d02200bb79a58987877c67a0fc658252e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9784531d02200bb79a58987877c67a0fc658252e",
+                ),
+            ],
+        ),
+    ],
 )

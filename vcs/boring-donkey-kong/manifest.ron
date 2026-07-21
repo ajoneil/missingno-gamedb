@@ -1,9 +1,18 @@
 (
     title: "Boring Donkey Kong (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["608a5451d172bfee53a7dcc74bdfdfcf184ac4bb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "608a5451d172bfee53a7dcc74bdfdfcf184ac4bb",
+                ),
+            ],
+        ),
+    ],
 )

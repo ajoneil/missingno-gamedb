@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Bruce Lee",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9ba8280ef942d6aa4133f3107363ec01956ebe5b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9ba8280ef942d6aa4133f3107363ec01956ebe5b",
+                ),
+            ],
+        ),
+    ],
 )

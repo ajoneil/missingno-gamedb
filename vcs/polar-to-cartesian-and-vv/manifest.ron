@@ -1,9 +1,18 @@
 (
     title: "Polar to Cartesian and VV (Roger Williams)",
-    publisher: Some("Roger Williams"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["639d948411e4929aa89df5c185431c47cb287ea4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Roger Williams"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "639d948411e4929aa89df5c185431c47cb287ea4",
+                ),
+            ],
+        ),
+    ],
 )

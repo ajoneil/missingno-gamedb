@@ -1,9 +1,18 @@
 (
     title: "xSqueeker Demo",
-    publisher: Some("Szuwarek"),
-    date: Some("2011"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["531a2ce321872dc6dd4a216573222018c28925ce"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Szuwarek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "531a2ce321872dc6dd4a216573222018c28925ce",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Swamp Adventure (Adventure Hack)",
-    publisher: Some("77gp454"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["246cb8f8c61e52aa2d59e9ba297adca40dd715ee"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("77gp454"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "246cb8f8c61e52aa2d59e9ba297adca40dd715ee",
+                ),
+            ],
+        ),
+    ],
 )

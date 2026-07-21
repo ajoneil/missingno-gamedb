@@ -1,9 +1,18 @@
 (
     title: "Image - Girl",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["90eb23686f7b62c71c33b9d9fd5cd0e1973c551c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "90eb23686f7b62c71c33b9d9fd5cd0e1973c551c",
+                ),
+            ],
+        ),
+    ],
 )

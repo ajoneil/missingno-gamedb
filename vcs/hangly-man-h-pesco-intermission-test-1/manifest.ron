@@ -1,9 +1,18 @@
 (
     title: "Hangly Man (pre-release) [h] [Pesco - Intermission Test 1]",
-    publisher: Some("Nukey Shay"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["de966f9db55dea5434271ea31e73bbe9fd8ed55a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Nukey Shay"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de966f9db55dea5434271ea31e73bbe9fd8ed55a",
+                ),
+            ],
+        ),
+    ],
 )

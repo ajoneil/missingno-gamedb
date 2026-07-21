@@ -1,9 +1,31 @@
 (
     title: "Chess Clock",
-    publisher: Some("Glenn Jup"),
-    date: Some("2007"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["7710aa8de01799e45882564a2c8d57932c42d1eb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Glenn Jup"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "509ee796cb145b1b02eb97501c74e41423916713",
+                ),
+            ],
+        ),
+        (
+            date: Some("2007"),
+            publisher: Some("Glenn Jup"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7710aa8de01799e45882564a2c8d57932c42d1eb",
+                ),
+            ],
+        ),
+    ],
 )

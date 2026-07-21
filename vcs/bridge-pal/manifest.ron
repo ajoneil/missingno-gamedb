@@ -1,9 +1,40 @@
 (
     title: "Bridge",
-    publisher: Some("Activision"),
-    date: Some("1980"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["066193a13acbc1abfa6fdec29d41f7ad14869a5b", "2ec31813906d4fcb1160ba756d0f93db8f93089a", "3d9377619c34412758645e9f4e7dfcbb052b93e6"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2873eb6effd35003d13e2f8f997b76dbc85d0f64",
+                ),
+                (
+                    sha1: "b3f8f910b0a8af7379cae33f9ef698cff30f6b34",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "066193a13acbc1abfa6fdec29d41f7ad14869a5b",
+                ),
+                (
+                    sha1: "2ec31813906d4fcb1160ba756d0f93db8f93089a",
+                ),
+                (
+                    sha1: "3d9377619c34412758645e9f4e7dfcbb052b93e6",
+                ),
+            ],
+        ),
+    ],
 )

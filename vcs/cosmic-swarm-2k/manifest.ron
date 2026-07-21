@@ -1,7 +1,38 @@
 (
     title: "Cosmic Swarm",
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["1086057e9c8985a0bb9a1efdd1ab08d9cab4fd41", "4ce10f7f78febd29547239f36464ba4def80c06e", "b4acf8b4106dbaeeecec959f5b2b485141b05832", "c01354760f2ca8d6e4d01b230f31611973c6ae2d"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1086057e9c8985a0bb9a1efdd1ab08d9cab4fd41",
+                ),
+                (
+                    sha1: "4ce10f7f78febd29547239f36464ba4def80c06e",
+                ),
+                (
+                    sha1: "b4acf8b4106dbaeeecec959f5b2b485141b05832",
+                ),
+                (
+                    sha1: "c01354760f2ca8d6e4d01b230f31611973c6ae2d",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "24963c9673bdc2fd599f39308a71d45763daabbc",
+                ),
+            ],
+        ),
+    ],
 )

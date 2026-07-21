@@ -1,9 +1,31 @@
 (
     title: "Beamrider",
-    publisher: Some("Activision"),
-    date: Some("1984"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["0ae5d0f01e63e053baba4bdaaed8a82e59334aaf"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "47619edb352f7f955f811cbb03a00746c8e099b1",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ae5d0f01e63e053baba4bdaaed8a82e59334aaf",
+                ),
+            ],
+        ),
+    ],
 )

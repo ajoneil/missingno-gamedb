@@ -1,9 +1,18 @@
 (
     title: "BorgBall (Tennis Hack)",
-    publisher: Some("Jack Kortkamp"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["85d7f8f2d58c9bdd627b236cda1efa29204499df"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jack Kortkamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "85d7f8f2d58c9bdd627b236cda1efa29204499df",
+                ),
+            ],
+        ),
+    ],
 )

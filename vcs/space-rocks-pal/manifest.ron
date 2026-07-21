@@ -1,9 +1,33 @@
 (
-    title: "Space Rocks (WIP)",
-    publisher: Some("Darrell Spice Jr."),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("DPC+"),
-    hashes: ["0511a35ee435227fbb5665e8488590eb993256f7"],
-    source: None,
+    title: "Space Rocks",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Darrell Spice Jr."),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bf3af5c76bb4dded5cb9c9b232c369250ad20ac4",
+                ),
+            ],
+        ),
+        (
+            date: Some("2012"),
+            publisher: Some("Darrell Spice Jr."),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0511a35ee435227fbb5665e8488590eb993256f7",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - If i was",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c42aaaa3548bb5b009819022f66a4e1febd2cc86"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c42aaaa3548bb5b009819022f66a4e1febd2cc86",
+                ),
+            ],
+        ),
+    ],
 )

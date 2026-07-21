@@ -1,9 +1,18 @@
 (
     title: "Image - Baboon - Interlaced Demo 1",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["32317c488b6ac310421f8b34fe35a7f1c5f0c5ec"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "32317c488b6ac310421f8b34fe35a7f1c5f0c5ec",
+                ),
+            ],
+        ),
+    ],
 )

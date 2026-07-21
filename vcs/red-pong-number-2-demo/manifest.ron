@@ -1,8 +1,17 @@
 (
     title: "Red Pong Number 2 Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["61fa345f1f2e8bd9d54459d81ff5237d3003f030"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "61fa345f1f2e8bd9d54459d81ff5237d3003f030",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,21 @@
 (
     title: "LoopCart",
-    publisher: Some("Slocum"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["09c76ba8a956dafe2866d7abfbbea6f8922a3c18", "fba7ede2012cf487917192f90e05680f134dd7c3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "09c76ba8a956dafe2866d7abfbbea6f8922a3c18",
+                ),
+                (
+                    sha1: "fba7ede2012cf487917192f90e05680f134dd7c3",
+                ),
+            ],
+        ),
+    ],
 )

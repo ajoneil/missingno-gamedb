@@ -1,8 +1,17 @@
 (
     title: "Treasure Hunt",
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4697539f62e79bc61e725a15ffcb85db5ed0e5b0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4697539f62e79bc61e725a15ffcb85db5ed0e5b0",
+                ),
+            ],
+        ),
+    ],
 )

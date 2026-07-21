@@ -1,9 +1,18 @@
 (
     title: "E.T.ennis (Tennis Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["8c3e58899844e632ad9866cae0816c403b2aa891"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8c3e58899844e632ad9866cae0816c403b2aa891",
+                ),
+            ],
+        ),
+    ],
 )

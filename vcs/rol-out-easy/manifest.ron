@@ -1,9 +1,18 @@
 (
     title: "Rol Out Easy (Breakout Hack)",
-    publisher: Some("Pacman3211"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fb1196e637fd83e2570b223d8a9960a7832afd48"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Pacman3211"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fb1196e637fd83e2570b223d8a9960a7832afd48",
+                ),
+            ],
+        ),
+    ],
 )

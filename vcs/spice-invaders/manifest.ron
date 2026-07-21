@@ -1,9 +1,18 @@
 (
     title: "Spice Invaders (Hack)",
-    publisher: Some("Franklin Cruz"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7ed86df83230b38e911c9a1b7ae44b5a060092ce"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Franklin Cruz"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7ed86df83230b38e911c9a1b7ae44b5a060092ce",
+                ),
+            ],
+        ),
+    ],
 )

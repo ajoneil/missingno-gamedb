@@ -1,9 +1,18 @@
 (
     title: "Tronman Project 2006 Demos - Test Pattern 4",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["41b9c1caef8fc2fb672e03d47acbc41acf54a96c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "41b9c1caef8fc2fb672e03d47acbc41acf54a96c",
+                ),
+            ],
+        ),
+    ],
 )

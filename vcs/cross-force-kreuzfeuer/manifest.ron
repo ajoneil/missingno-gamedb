@@ -1,9 +1,18 @@
 (
     title: "Cross Force - Kreuzfeuer (Cross Fire)",
-    publisher: Some("Spectravision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8a7c67d83d8e5d0f9fc0a78c17153756aa043972"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a7c67d83d8e5d0f9fc0a78c17153756aa043972",
+                ),
+            ],
+        ),
+    ],
 )

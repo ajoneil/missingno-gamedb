@@ -1,9 +1,18 @@
 (
     title: "SwordQuest - FireWorld Contest Edition",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c1f920d42e3ad0de7a3f86d360b99b1551526ebd"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c1f920d42e3ad0de7a3f86d360b99b1551526ebd",
+                ),
+            ],
+        ),
+    ],
 )

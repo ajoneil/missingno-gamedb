@@ -1,8 +1,17 @@
 (
     title: "Cave 1k v1.04",
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2149c45c6b809fd69be6901e870ecdfbda3fde1a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2149c45c6b809fd69be6901e870ecdfbda3fde1a",
+                ),
+            ],
+        ),
+    ],
 )

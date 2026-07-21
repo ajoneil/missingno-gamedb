@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - AdrianM_3",
-    publisher: Some("AdrianM"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["72e0b95cecb9e9a39aa4c0f6b268009c8d1f59bc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("AdrianM"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "72e0b95cecb9e9a39aa4c0f6b268009c8d1f59bc",
+                ),
+            ],
+        ),
+    ],
 )

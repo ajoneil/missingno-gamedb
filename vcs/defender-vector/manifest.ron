@@ -1,9 +1,18 @@
 (
     title: "Defender Vector (Defender Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["684ffe29c3ca418cf6835a940c4ae5c5cd5cd73d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "684ffe29c3ca418cf6835a940c4ae5c5cd5cd73d",
+                ),
+            ],
+        ),
+    ],
 )

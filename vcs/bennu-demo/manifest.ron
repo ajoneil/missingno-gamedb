@@ -1,9 +1,18 @@
 (
     title: "Bennu Demo",
-    publisher: Some("thegoldenband"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ff2fd4563b7972902676ee1015f89126caf1fae7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("thegoldenband"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ff2fd4563b7972902676ee1015f89126caf1fae7",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Homsar",
-    publisher: Some("Tork110"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3a76d51f64a0dd77b5f73d05a1e9c355152f6ae8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Tork110"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3a76d51f64a0dd77b5f73d05a1e9c355152f6ae8",
+                ),
+            ],
+        ),
+    ],
 )

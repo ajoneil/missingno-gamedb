@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - WalterLauer_17",
-    publisher: Some("Walter Lauer"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["aead8e9e7c02c562bb6858596c312de6c6d0416a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Walter Lauer"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aead8e9e7c02c562bb6858596c312de6c6d0416a",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,16 @@
 (
     title: "Multiple Moving Objects Demo (B. Watson)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d93e5634e5a23a0aed6e1d0bc3b2f2b2c2b74e2a"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d93e5634e5a23a0aed6e1d0bc3b2f2b2c2b74e2a",
+                ),
+            ],
+        ),
+    ],
 )

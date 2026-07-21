@@ -1,9 +1,38 @@
 (
     title: "Star Wars - The Empire Strikes Back",
-    publisher: Some("Parker Brothers"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["7276ae9e8a99618378868d8de2cf7de6ae6c1dc0"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "55aa658e9cd0a09229b19a286afa0cc6cfc286a9",
+                ),
+                (
+                    sha1: "ad5b2c9df558ab23ad2954fe49ed5b37a06009bf",
+                ),
+                (
+                    sha1: "d512923b52979fd37376650c0e6dd420e56b7e5d",
+                ),
+                (
+                    sha1: "f43a599baa139f4b990b6adbf69a45e3e825a0da",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7276ae9e8a99618378868d8de2cf7de6ae6c1dc0",
+                ),
+            ],
+        ),
+    ],
 )

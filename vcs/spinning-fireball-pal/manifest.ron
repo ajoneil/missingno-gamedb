@@ -1,8 +1,28 @@
 (
     title: "Spinning Fireball",
-    publisher: Some("Emag"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a979bb0bc94dcb74d67ca1591e75d42318766767"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d16d0ba23700ab9a8804db07ecd1d1c45466dc2",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Emag"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a979bb0bc94dcb74d67ca1591e75d42318766767",
+                ),
+            ],
+        ),
+    ],
 )

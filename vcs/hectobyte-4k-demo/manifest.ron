@@ -1,9 +1,18 @@
 (
     title: "hectoByte 4K Demo",
-    publisher: Some("Digital Sounds System"),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["4ca40cf32229f82a03fac74ac4b02d6593f852ba"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Digital Sounds System"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4ca40cf32229f82a03fac74ac4b02d6593f852ba",
+                ),
+            ],
+        ),
+    ],
 )

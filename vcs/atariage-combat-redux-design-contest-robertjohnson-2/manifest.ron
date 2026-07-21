@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - RobertJohnson_2",
-    publisher: Some("Robert Johnson"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["a113addb2eb0c2e4e10299a2a8022c7a79c137b4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Robert Johnson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a113addb2eb0c2e4e10299a2a8022c7a79c137b4",
+                ),
+            ],
+        ),
+    ],
 )

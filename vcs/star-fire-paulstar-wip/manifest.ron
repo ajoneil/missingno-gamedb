@@ -1,7 +1,16 @@
 (
     title: "Star Fire - Paulstar WIP (MP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c78c4cba74bb52f3820d499b10cc606634b1190c"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c78c4cba74bb52f3820d499b10cc606634b1190c",
+                ),
+            ],
+        ),
+    ],
 )

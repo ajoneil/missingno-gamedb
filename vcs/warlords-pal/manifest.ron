@@ -1,9 +1,18 @@
 (
     title: "Warlords (Kings in the Corner) (Paddle)",
-    publisher: Some("Atari"),
-    date: Some("1981"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["c3fba4bebc2dda8436126433e1f4c15e51ef1bd4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c3fba4bebc2dda8436126433e1f4c15e51ef1bd4",
+                ),
+            ],
+        ),
+    ],
 )

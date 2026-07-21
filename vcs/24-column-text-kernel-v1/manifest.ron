@@ -1,9 +1,19 @@
 (
-    title: "24 Column Text Kernel V1 (WIP)",
-    publisher: Some("John Payson"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ad62a2321e70cae5cc7bf40d4b67270242a2c49b"],
-    source: None,
+    title: "24 Column Text Kernel V1",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("John Payson"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad62a2321e70cae5cc7bf40d4b67270242a2c49b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "bB Music - New Theme 2 Final",
-    publisher: Some("thegoldenband"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ff21e07d97822e5c8da1d3ec5c783bd12cb1b758"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("thegoldenband"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ff21e07d97822e5c8da1d3ec5c783bd12cb1b758",
+                ),
+            ],
+        ),
+    ],
 )

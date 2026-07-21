@@ -1,9 +1,18 @@
 (
     title: "Double Dragon Arcade 2-button (Double Dragon Hack)",
-    publisher: Some("KevinMos3"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["80c2cb9eecc838ea91e862ee4041b7ec722db06e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("KevinMos3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "80c2cb9eecc838ea91e862ee4041b7ec722db06e",
+                ),
+            ],
+        ),
+    ],
 )

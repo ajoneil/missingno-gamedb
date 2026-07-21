@@ -1,9 +1,19 @@
 (
-    title: "Space Harrier (WIP)",
-    publisher: Some("jbs30000"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["2e1114616ba567a98649e31eeab902b8e8a77307"],
-    source: None,
+    title: "Space Harrier",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("jbs30000"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2e1114616ba567a98649e31eeab902b8e8a77307",
+                ),
+            ],
+        ),
+    ],
 )

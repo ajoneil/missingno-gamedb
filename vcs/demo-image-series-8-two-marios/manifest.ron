@@ -1,9 +1,18 @@
 (
     title: "Demo Image Series #8 - Two Marios (Different Interlacing) (27-02-2003) (Andrew Davie)",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["bffe592b632016951beeae74b1a2c8066a7cbcba"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bffe592b632016951beeae74b1a2c8066a7cbcba",
+                ),
+            ],
+        ),
+    ],
 )

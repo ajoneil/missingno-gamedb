@@ -1,9 +1,18 @@
 (
     title: "NECG Drumma",
-    publisher: Some("Kirk Israel"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d05fe97c6e55bef07070f14f838162bc8ddcf31d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Kirk Israel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d05fe97c6e55bef07070f14f838162bc8ddcf31d",
+                ),
+            ],
+        ),
+    ],
 )

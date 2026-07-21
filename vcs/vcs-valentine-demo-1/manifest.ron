@@ -1,9 +1,18 @@
 (
     title: "VCS Valentine Demo 1",
-    publisher: Some("Ian Bogost"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2a1ba1659f5e503fe68c4ae845eccf4f74c8ec72"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Ian Bogost"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2a1ba1659f5e503fe68c4ae845eccf4f74c8ec72",
+                ),
+            ],
+        ),
+    ],
 )

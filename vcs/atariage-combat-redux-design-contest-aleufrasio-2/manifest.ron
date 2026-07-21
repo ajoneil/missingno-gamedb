@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - AlEufrasio_2",
-    publisher: Some("Eufrasio"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["a8dface5101476babe2e67410e060b4f6884444e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Eufrasio"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a8dface5101476babe2e67410e060b4f6884444e",
+                ),
+            ],
+        ),
+    ],
 )

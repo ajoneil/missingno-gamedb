@@ -1,9 +1,18 @@
 (
     title: "Defender Arcade (Defender Hack)",
-    publisher: Some("KevinMos3"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["df9f6de9ca3951fc95b4eb768f6d661934d88361"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("KevinMos3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "df9f6de9ca3951fc95b4eb768f6d661934d88361",
+                ),
+            ],
+        ),
+    ],
 )

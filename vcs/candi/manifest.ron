@@ -1,9 +1,18 @@
 (
     title: "Candi (Hack)",
-    publisher: Some("Greg Thompson"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["eab00bcc4d94e4f37a76ccba4ef82d636535aded"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Greg Thompson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eab00bcc4d94e4f37a76ccba4ef82d636535aded",
+                ),
+            ],
+        ),
+    ],
 )

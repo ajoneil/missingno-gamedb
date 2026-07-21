@@ -1,9 +1,18 @@
 (
     title: "Hangman Pacman Demo (Hack)",
-    publisher: Some("Cropsy"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["42537df0336016b6d4c4c33a530fba402acaccc5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Cropsy"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "42537df0336016b6d4c4c33a530fba402acaccc5",
+                ),
+            ],
+        ),
+    ],
 )

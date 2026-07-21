@@ -1,9 +1,19 @@
 (
-    title: "Sample Game (WIP)",
-    publisher: Some("Fred Quimby"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["60dc0d6c3a6403a736a3a94c2a028e91ad06ee91"],
-    source: None,
+    title: "Sample Game",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Fred Quimby"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "60dc0d6c3a6403a736a3a94c2a028e91ad06ee91",
+                ),
+            ],
+        ),
+    ],
 )

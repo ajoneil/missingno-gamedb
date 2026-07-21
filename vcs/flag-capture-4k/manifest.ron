@@ -1,9 +1,18 @@
 (
     title: "Flag Capture (32 in 1)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a89490ec3f2a69ac0cc317cb30d6622a8e5c5f68"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a89490ec3f2a69ac0cc317cb30d6622a8e5c5f68",
+                ),
+            ],
+        ),
+    ],
 )

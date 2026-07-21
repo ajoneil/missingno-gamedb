@@ -1,9 +1,18 @@
 (
     title: "MIDI to Atari 2600 Music - Family Guy",
-    publisher: Some("Devin Cook"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["566b02bab89c937954c39ffa1a9fdae5f6f20677"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Devin Cook"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "566b02bab89c937954c39ffa1a9fdae5f6f20677",
+                ),
+            ],
+        ),
+    ],
 )

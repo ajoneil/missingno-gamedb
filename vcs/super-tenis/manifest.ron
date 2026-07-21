@@ -1,8 +1,17 @@
 (
     title: "Super Tenis (VGS)",
-    publisher: Some("VGS"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["2541d87fa902f04ef373823561f4973ffaa34940"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("VGS"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2541d87fa902f04ef373823561f4973ffaa34940",
+                ),
+            ],
+        ),
+    ],
 )

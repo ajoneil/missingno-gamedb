@@ -1,7 +1,16 @@
 (
     title: "Tie-Fighters (Manuel Rotschkar)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["94e849d057c610db9081b1fc08a76de5707546af"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "94e849d057c610db9081b1fc08a76de5707546af",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Quick Draw XXX (Berzerk Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f165c6415c375e4486dff4188bb8c87eeedd15d4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f165c6415c375e4486dff4188bb8c87eeedd15d4",
+                ),
+            ],
+        ),
+    ],
 )

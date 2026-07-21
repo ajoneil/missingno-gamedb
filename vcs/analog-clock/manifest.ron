@@ -1,9 +1,24 @@
 (
     title: "Analog Clock (Additional Frame Info) (V0.0) (20-01-2003) (Andrew Davie)",
-    publisher: Some("Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["3ad5c5a35f5e198f35de6066df6c0d15e7b89e02", "56606dc01392dcfbcef1fd13c8d8e64d33cdec18", "c159e3a65597a4ccc141ef449f44d35b2a1719bb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3ad5c5a35f5e198f35de6066df6c0d15e7b89e02",
+                ),
+                (
+                    sha1: "56606dc01392dcfbcef1fd13c8d8e64d33cdec18",
+                ),
+                (
+                    sha1: "c159e3a65597a4ccc141ef449f44d35b2a1719bb",
+                ),
+            ],
+        ),
+    ],
 )

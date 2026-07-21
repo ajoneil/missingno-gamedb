@@ -1,9 +1,18 @@
 (
     title: "1943",
-    publisher: Some("donnerkuh"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5cc9a2433e31156d6849b73c8623368baa9a281b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("donnerkuh"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cc9a2433e31156d6849b73c8623368baa9a281b",
+                ),
+            ],
+        ),
+    ],
 )

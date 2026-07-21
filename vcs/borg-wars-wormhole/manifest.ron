@@ -1,9 +1,18 @@
 (
     title: "Borg Wars Wormhole (Fantastic Voyage Hack)",
-    publisher: Some("Jack Kortkamp"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["97cf41c733bea9b322d0d5a51a5b72d5add3661f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jack Kortkamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "97cf41c733bea9b322d0d5a51a5b72d5add3661f",
+                ),
+            ],
+        ),
+    ],
 )

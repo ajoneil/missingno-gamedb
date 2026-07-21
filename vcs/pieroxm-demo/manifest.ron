@@ -1,8 +1,17 @@
 (
     title: "PIEROXM Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["59f3e023a1940be80bf04b9dcf24b09645a3c394"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59f3e023a1940be80bf04b9dcf24b09645a3c394",
+                ),
+            ],
+        ),
+    ],
 )

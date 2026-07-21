@@ -1,9 +1,19 @@
 (
-    title: "Run! (WIP)",
-    publisher: Some("Broch"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d3d10a88b50aeac1bc9928c82d4540e7a7534cf9"],
-    source: None,
+    title: "Run!",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Broch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3d10a88b50aeac1bc9928c82d4540e7a7534cf9",
+                ),
+            ],
+        ),
+    ],
 )

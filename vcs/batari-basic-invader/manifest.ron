@@ -1,9 +1,19 @@
 (
-    title: "batari Basic Invader (WIP)",
-    publisher: Some("Fred Quimby"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d85043a9970bd514576d701ed8f26cf03d7d6f45"],
-    source: None,
+    title: "batari Basic Invader",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fred Quimby"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d85043a9970bd514576d701ed8f26cf03d7d6f45",
+                ),
+            ],
+        ),
+    ],
 )

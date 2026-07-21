@@ -1,9 +1,18 @@
 (
     title: "Tanks But no Tanks",
-    publisher: Some("ZiMAG"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["13a9d86cbde32a1478ef0c7ef412427b13bd6222"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13a9d86cbde32a1478ef0c7ef412427b13bd6222",
+                ),
+            ],
+        ),
+    ],
 )

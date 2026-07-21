@@ -1,9 +1,43 @@
 (
     title: "Air Raiders",
-    publisher: Some("Mattel"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["e65a0c6c5a1f9f05ebcfaaa7b2c9ee6625bf2d83"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "29f5c73d1fe806a4284547274dd73f9972a7ed70",
+                ),
+                (
+                    sha1: "39a98b42f0670dfe6a842645f09f24583ae8ee60",
+                ),
+                (
+                    sha1: "60c79be608441000a3d9f429a111796af12e0819",
+                ),
+                (
+                    sha1: "b2d8845abfd64fe9509a22e331fc20fc487a0a2e",
+                ),
+                (
+                    sha1: "eb612022bb5a95c74b83e506b6507951345003dc",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Mattel"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e65a0c6c5a1f9f05ebcfaaa7b2c9ee6625bf2d83",
+                ),
+            ],
+        ),
+    ],
 )

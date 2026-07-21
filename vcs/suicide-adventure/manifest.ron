@@ -1,9 +1,21 @@
 (
     title: "Suicide Adventure (Adventure Hack)",
-    publisher: Some("George Veeder"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0a4e3be7d59b5a43715ee84a5c4b5fb69a75601d", "94cd8c65023450ffbf94772ee5743815cf3d1fe6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("George Veeder"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a4e3be7d59b5a43715ee84a5c4b5fb69a75601d",
+                ),
+                (
+                    sha1: "94cd8c65023450ffbf94772ee5743815cf3d1fe6",
+                ),
+            ],
+        ),
+    ],
 )

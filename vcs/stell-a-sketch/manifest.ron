@@ -1,9 +1,21 @@
 (
     title: "Stell-A-Sketch (03-11-1997) (Bob Colbert) (PD)",
-    publisher: Some("Bob Colbert"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["750725ba7c4efc9343d1c42e27926ff6ebc56654", "a38561d288ce8c96b9a7328d2531518aaca85b35"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Bob Colbert"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "750725ba7c4efc9343d1c42e27926ff6ebc56654",
+                ),
+                (
+                    sha1: "a38561d288ce8c96b9a7328d2531518aaca85b35",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Flip Out! (WIP)",
-    publisher: Some("Joel D. Park"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d3a7c6b88d413466caa47b9a5048e16200fad07e"],
-    source: None,
+    title: "Flip Out!",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Joel D. Park"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3a7c6b88d413466caa47b9a5048e16200fad07e",
+                ),
+            ],
+        ),
+    ],
 )

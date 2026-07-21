@@ -1,8 +1,17 @@
 (
     title: "Scrolling Playfield 1 (Junkosoft) (PD)",
-    publisher: Some("Junkosoft"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ae729acaf23e96e269d265cba7af2d55718f54cc"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Junkosoft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ae729acaf23e96e269d265cba7af2d55718f54cc",
+                ),
+            ],
+        ),
+    ],
 )

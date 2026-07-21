@@ -1,9 +1,18 @@
 (
     title: "Atlantis II",
-    publisher: Some("Imagic"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f4e838de9159c149ac080ab85e4f830d5b299963"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f4e838de9159c149ac080ab85e4f830d5b299963",
+                ),
+            ],
+        ),
+    ],
 )

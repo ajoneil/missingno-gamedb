@@ -1,9 +1,18 @@
 (
     title: "Adventure Hell (Adventure Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6eeb6515942611b79e953cf87b233e14eb280430"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6eeb6515942611b79e953cf87b233e14eb280430",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Mr. Flanksteak",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1fd434a94ebbed3389c635446cc8a4c0d512163d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1fd434a94ebbed3389c635446cc8a4c0d512163d",
+                ),
+            ],
+        ),
+    ],
 )

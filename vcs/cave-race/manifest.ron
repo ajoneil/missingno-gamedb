@@ -1,9 +1,18 @@
 (
     title: "Cave Race",
-    publisher: Some("Derryl Carter"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2f5f7f61ce6cd149c6bec32b1bac9b69b7df838e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Derryl Carter"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f5f7f61ce6cd149c6bec32b1bac9b69b7df838e",
+                ),
+            ],
+        ),
+    ],
 )

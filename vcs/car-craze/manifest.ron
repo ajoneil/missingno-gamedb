@@ -1,9 +1,19 @@
 (
-    title: "Car Craze (WIP)",
-    publisher: Some("Lodmot"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["58be0668c8e2a203eab723a4e339ba0a10000344"],
-    source: None,
+    title: "Car Craze",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Lodmot"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "58be0668c8e2a203eab723a4e339ba0a10000344",
+                ),
+            ],
+        ),
+    ],
 )

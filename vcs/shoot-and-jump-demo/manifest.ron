@@ -1,9 +1,19 @@
 (
-    title: "Shoot and Jump Demo (WIP)",
-    publisher: Some("Jarod Kitchen"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["512351fc0e0796fe4e094c3f99636000dc775974"],
-    source: None,
+    title: "Shoot and Jump Demo",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Jarod Kitchen"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "512351fc0e0796fe4e094c3f99636000dc775974",
+                ),
+            ],
+        ),
+    ],
 )

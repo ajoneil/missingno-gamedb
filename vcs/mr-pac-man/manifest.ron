@@ -1,9 +1,21 @@
 (
     title: "Mr. Pac-Man (El Destructo)",
-    publisher: Some("Anthony Ramos"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["47b39ed1200f517f0507f64a943f600211c2ec5a", "b5193b84e07d4c3896a13cc4df0cb2a7664cf26a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Anthony Ramos"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "47b39ed1200f517f0507f64a943f600211c2ec5a",
+                ),
+                (
+                    sha1: "b5193b84e07d4c3896a13cc4df0cb2a7664cf26a",
+                ),
+            ],
+        ),
+    ],
 )

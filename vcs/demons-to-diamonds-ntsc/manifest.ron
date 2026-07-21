@@ -1,9 +1,24 @@
 (
     title: "Demons to Diamonds",
-    publisher: Some("CCE"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["38e24871d35c6c25b8fa9157244aaaff2b2b6e27", "58d15132991c9c4007859b8db64c1f3afa65be07", "b45582de81c48b04c2bb758d69021e8088c70ce7"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "38e24871d35c6c25b8fa9157244aaaff2b2b6e27",
+                ),
+                (
+                    sha1: "58d15132991c9c4007859b8db64c1f3afa65be07",
+                ),
+                (
+                    sha1: "b45582de81c48b04c2bb758d69021e8088c70ce7",
+                ),
+            ],
+        ),
+    ],
 )

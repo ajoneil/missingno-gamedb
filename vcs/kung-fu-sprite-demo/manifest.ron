@@ -1,9 +1,18 @@
 (
     title: "Kung Fu Sprite Demo (PD)",
-    publisher: Some("Eckhard Stolberg"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["09e8b122d2d6d85db8bec74aad315d6753e2f094"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Eckhard Stolberg"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "09e8b122d2d6d85db8bec74aad315d6753e2f094",
+                ),
+            ],
+        ),
+    ],
 )

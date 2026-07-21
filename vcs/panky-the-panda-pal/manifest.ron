@@ -1,9 +1,34 @@
 (
     title: "Panky the Panda",
-    publisher: Some("Ben Larson"),
-    date: Some("2011"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["1c1fce5219a1e4e4cf47790c294be1ec37a27e2f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Ben Larson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "439c68f979f6ed3ded95837e8fac5300b2aa5630",
+                ),
+                (
+                    sha1: "65f50c348eac01c34da559e7182ba57267f0284b",
+                ),
+            ],
+        ),
+        (
+            date: Some("2011"),
+            publisher: Some("Ben Larson"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1c1fce5219a1e4e4cf47790c294be1ec37a27e2f",
+                ),
+            ],
+        ),
+    ],
 )

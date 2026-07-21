@@ -1,9 +1,18 @@
 (
     title: "Proving Grounds of Wor (Wizard Hack)",
-    publisher: Some("David Weavil"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["d1d63ba12c09b763fa57c4efa49b54d7c8417b52"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d1d63ba12c09b763fa57c4efa49b54d7c8417b52",
+                ),
+            ],
+        ),
+    ],
 )

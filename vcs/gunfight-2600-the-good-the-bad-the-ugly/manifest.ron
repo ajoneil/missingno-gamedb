@@ -1,9 +1,18 @@
 (
     title: "Gunfight 2600 - The Good, The Bad, The Ugly (Manuel Rotschkar)",
-    publisher: Some("Hozer Video Games"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["13932a3abf86555fd263571de6c9e6e0818fdd42"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Hozer Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13932a3abf86555fd263571de6c9e6e0818fdd42",
+                ),
+            ],
+        ),
+    ],
 )

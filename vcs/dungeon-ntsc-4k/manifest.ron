@@ -1,9 +1,18 @@
 (
     title: "Dungeon (Dark Chambers Beta) (11-22-1985) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1985"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9a8bf8d1400139636cfc1454373eeea089e74251"],
-    source: None,
+    releases: [
+        (
+            date: Some("1985"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9a8bf8d1400139636cfc1454373eeea089e74251",
+                ),
+            ],
+        ),
+    ],
 )

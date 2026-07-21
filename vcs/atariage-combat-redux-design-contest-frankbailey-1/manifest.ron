@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - FrankBailey_1",
-    publisher: Some("Bailey"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["8feb548602759677a49a229a828c239437565183"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Bailey"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8feb548602759677a49a229a828c239437565183",
+                ),
+            ],
+        ),
+    ],
 )

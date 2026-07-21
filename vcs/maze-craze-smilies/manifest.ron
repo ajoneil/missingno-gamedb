@@ -1,9 +1,18 @@
 (
     title: "Maze Craze Smilies (Maze Craze Hack)",
-    publisher: Some("Wade Casaldi"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cb9dafc4354cfe8dbf3e7cab82e6dc8597ed0dea"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Wade Casaldi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cb9dafc4354cfe8dbf3e7cab82e6dc8597ed0dea",
+                ),
+            ],
+        ),
+    ],
 )

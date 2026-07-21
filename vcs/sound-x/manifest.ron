@@ -1,9 +1,21 @@
 (
     title: "Sound X",
-    publisher: Some("Ed Federmeyer"),
-    date: Some("1994"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7b883c0ad4e711e213d2cf9f2eeaac37f0bb9331", "f1e2f1cc1985bce2dd48bad63f18e35bace9e30e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1994"),
+            publisher: Some("Ed Federmeyer"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7b883c0ad4e711e213d2cf9f2eeaac37f0bb9331",
+                ),
+                (
+                    sha1: "f1e2f1cc1985bce2dd48bad63f18e35bace9e30e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,31 @@
 (
     title: "EMR - Evil Magician Returns",
-    publisher: Some("Todd Holcomb"),
-    date: Some("2011"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["362112e7855eb5f1dbed58ec433206b06277503d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Todd Holcomb"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bef6e487a83dcf73d76987351d27c67c3dd31b4f",
+                ),
+            ],
+        ),
+        (
+            date: Some("2011"),
+            publisher: Some("Todd Holcomb"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "362112e7855eb5f1dbed58ec433206b06277503d",
+                ),
+            ],
+        ),
+    ],
 )

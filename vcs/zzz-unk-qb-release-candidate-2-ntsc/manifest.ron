@@ -1,7 +1,19 @@
 (
     title: "ZZZ-UNK-Qb Release Candidate #2 ( (v206) (Stella-compatible vrsion)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["522c9b17dd18b01630caca4fde89b4e39d56aae1", "9953a7d13c17428cbf189f3df56e8f4113b9d413"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "522c9b17dd18b01630caca4fde89b4e39d56aae1",
+                ),
+                (
+                    sha1: "9953a7d13c17428cbf189f3df56e8f4113b9d413",
+                ),
+            ],
+        ),
+    ],
 )

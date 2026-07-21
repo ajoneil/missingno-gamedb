@@ -1,9 +1,36 @@
 (
-    title: "Miss It (WIP)",
-    publisher: Some("Alan W. Smith"),
-    date: Some("2009"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["33e18fe4f2b30b47d592c772926520742e7d8eef"],
-    source: None,
+    title: "Miss It",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Alan W. Smith"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2193f457809c4bca3dad32eb5f3d59b2adeaae2a",
+                ),
+                (
+                    sha1: "b5204720d468cceefd4cecbfd39a1b5eb7a484ef",
+                ),
+            ],
+        ),
+        (
+            date: Some("2009"),
+            publisher: Some("Alan W. Smith"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33e18fe4f2b30b47d592c772926520742e7d8eef",
+                ),
+            ],
+        ),
+    ],
 )

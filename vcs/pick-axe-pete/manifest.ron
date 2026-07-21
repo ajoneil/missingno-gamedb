@@ -1,9 +1,19 @@
 (
-    title: "Pick Axe Pete (WIP)",
-    publisher: Some("Bob DeCrescenzo"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["90c9c60e168a465a96887d04bd0313bede2f5f8d"],
-    source: None,
+    title: "Pick Axe Pete",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Bob DeCrescenzo"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "90c9c60e168a465a96887d04bd0313bede2f5f8d",
+                ),
+            ],
+        ),
+    ],
 )

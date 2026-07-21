@@ -1,9 +1,18 @@
 (
     title: "Multi-Color Space Invaders (Space Invaders Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0d56e445de39d520d7f0a32efb65983f605b7a69"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d56e445de39d520d7f0a32efb65983f605b7a69",
+                ),
+            ],
+        ),
+    ],
 )

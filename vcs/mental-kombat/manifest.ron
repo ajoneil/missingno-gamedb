@@ -1,9 +1,18 @@
 (
     title: "Mental Kombat",
-    publisher: Some("Simon Quernhorst"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["54e00364a116cfa74b7c61aab634b3cf8992d513"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Simon Quernhorst"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "54e00364a116cfa74b7c61aab634b3cf8992d513",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Slaughterhouse (WIP)",
-    publisher: Some("Brad Bittinger"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7e140a1b96dfd7027ea10859d23b3374048d156d"],
-    source: None,
+    title: "Slaughterhouse",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Brad Bittinger"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7e140a1b96dfd7027ea10859d23b3374048d156d",
+                ),
+            ],
+        ),
+    ],
 )

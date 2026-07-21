@@ -1,7 +1,17 @@
 (
-    title: "Game Demo (Harry Dodgson) (WIP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1bf13977ea8cc8f100cf3b4c6215d98a7a56e41c"],
-    source: None,
+    title: "Game Demo (Harry Dodgson)",
+    releases: [
+        (
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1bf13977ea8cc8f100cf3b4c6215d98a7a56e41c",
+                ),
+            ],
+        ),
+    ],
 )

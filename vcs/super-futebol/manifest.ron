@@ -1,8 +1,17 @@
 (
     title: "Super Futebol",
-    publisher: Some("CCE"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["484d97e78ff832edca5382f31e084497e591cc72"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "484d97e78ff832edca5382f31e084497e591cc72",
+                ),
+            ],
+        ),
+    ],
 )

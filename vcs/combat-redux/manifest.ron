@@ -1,9 +1,18 @@
 (
     title: "Combat Redux (Combat Hack)",
-    publisher: Some("Zach Matley"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ee3117af2a8587d9b6357edaf96139acae85d6e0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Zach Matley"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ee3117af2a8587d9b6357edaf96139acae85d6e0",
+                ),
+            ],
+        ),
+    ],
 )

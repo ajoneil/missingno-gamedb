@@ -1,9 +1,18 @@
 (
     title: "Fake Knight Rider Extra Music",
-    publisher: Some("Duane Alan Hahn"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b006ad65ac8e21a056e85311595a499da50e18d0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Duane Alan Hahn"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b006ad65ac8e21a056e85311595a499da50e18d0",
+                ),
+            ],
+        ),
+    ],
 )

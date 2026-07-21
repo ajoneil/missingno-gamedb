@@ -1,9 +1,18 @@
 (
     title: "Harry Potter",
-    publisher: Some("Emily Gantt"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["688ea2920a9a83612bab255459acc336770f8fe9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Emily Gantt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "688ea2920a9a83612bab255459acc336770f8fe9",
+                ),
+            ],
+        ),
+    ],
 )

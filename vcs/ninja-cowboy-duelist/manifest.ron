@@ -1,9 +1,18 @@
 (
     title: "Ninja Cowboy Duelist (Outlaw Hack)",
-    publisher: Some("Tombor"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["1c947a0b4e15e3a4e698f7d243ea07f1a2ed220d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Tombor"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1c947a0b4e15e3a4e698f7d243ea07f1a2ed220d",
+                ),
+            ],
+        ),
+    ],
 )

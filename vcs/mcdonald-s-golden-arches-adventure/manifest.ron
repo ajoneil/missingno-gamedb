@@ -1,9 +1,18 @@
 (
-    title: "McDonald's - Golden Arches Adventure (Proto)",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0103b35b1aef6b10c1c0a44b213ebf30af708df6"],
-    source: None,
+    title: "McDonald\'s - Golden Arches Adventure (Proto)",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0103b35b1aef6b10c1c0a44b213ebf30af708df6",
+                ),
+            ],
+        ),
+    ],
 )

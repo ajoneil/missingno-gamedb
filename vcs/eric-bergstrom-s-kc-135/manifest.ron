@@ -1,9 +1,18 @@
 (
-    title: "Eric Bergstrom's KC-135 (Radar Map) (Aaron Bergstrom)",
-    publisher: Some("Aaron Bergstrom"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["27725bb81e86da3e7394bea747d14aa7e0ae58c6"],
-    source: None,
+    title: "Eric Bergstrom\'s KC-135 (Radar Map) (Aaron Bergstrom)",
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Aaron Bergstrom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "27725bb81e86da3e7394bea747d14aa7e0ae58c6",
+                ),
+            ],
+        ),
+    ],
 )

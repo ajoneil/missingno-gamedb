@@ -1,9 +1,21 @@
 (
     title: "Poker Squares (V0.25) (B. Watson)",
-    publisher: Some("B. Watson"),
-    date: Some("2001"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5ed7093da6f62d9fd7a6900014de5a00dc1b244e", "ba634e08371713654d6e13146355cc403abc355f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("B. Watson"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5ed7093da6f62d9fd7a6900014de5a00dc1b244e",
+                ),
+                (
+                    sha1: "ba634e08371713654d6e13146355cc403abc355f",
+                ),
+            ],
+        ),
+    ],
 )

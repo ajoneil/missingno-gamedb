@@ -1,7 +1,19 @@
 (
     title: "Popeye Batari (F4 Conversion)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["1a7202ef723faa6a01322ef961efb40699067076", "462ceed4b433db2a964a24c62d781b4998375dbd"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a7202ef723faa6a01322ef961efb40699067076",
+                ),
+                (
+                    sha1: "462ceed4b433db2a964a24c62d781b4998375dbd",
+                ),
+            ],
+        ),
+    ],
 )

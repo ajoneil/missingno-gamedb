@@ -1,9 +1,31 @@
 (
     title: "Four-Play",
-    publisher: Some("Zach Matley"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["b62665be2d7bebeb9557971c02ce4184147aa4c0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Zach Matley"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc7f88ce91d04ee5899ab363304c172b791741b7",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Zach Matley"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b62665be2d7bebeb9557971c02ce4184147aa4c0",
+                ),
+            ],
+        ),
+    ],
 )

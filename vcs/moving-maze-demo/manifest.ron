@@ -1,9 +1,18 @@
 (
     title: "Moving Maze Demo (PD)",
-    publisher: Some("Andrew Davie"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["aa3d4cc13c2e0cc844350d5dfb145fce0dcc6437"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aa3d4cc13c2e0cc844350d5dfb145fce0dcc6437",
+                ),
+            ],
+        ),
+    ],
 )

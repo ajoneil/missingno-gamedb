@@ -1,9 +1,19 @@
 (
-    title: "Curse of Blackbeard's Skull (WIP)",
-    publisher: Some("Todd Holcomb"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["0954f881bee893507ba52c481bdb0b5deabcec2b"],
-    source: None,
+    title: "Curse of Blackbeard\'s Skull",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Todd Holcomb"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0954f881bee893507ba52c481bdb0b5deabcec2b",
+                ),
+            ],
+        ),
+    ],
 )

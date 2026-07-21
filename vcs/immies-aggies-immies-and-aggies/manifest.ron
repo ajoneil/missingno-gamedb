@@ -1,9 +1,18 @@
 (
     title: "Immies & Aggies - Immies and Aggies (Prototype)",
-    publisher: Some("ZiMAG"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["603b4ecc797972d32f2f3b8e66ebdde5aaf51a07"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "603b4ecc797972d32f2f3b8e66ebdde5aaf51a07",
+                ),
+            ],
+        ),
+    ],
 )

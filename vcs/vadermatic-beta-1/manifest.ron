@@ -1,8 +1,17 @@
 (
     title: "Vadermatic Beta 1 (Space Invaders Hack)",
-    publisher: Some("Greg Zumwalt"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["19d5aa8ca34e663444277d1ffca4b5c38bd055eb"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "19d5aa8ca34e663444277d1ffca4b5c38bd055eb",
+                ),
+            ],
+        ),
+    ],
 )

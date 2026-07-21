@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - PMitch_10",
-    publisher: Some("pmitch_3m"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9b30ac8e178070d254f35b806e5b79815434431a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("pmitch_3m"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9b30ac8e178070d254f35b806e5b79815434431a",
+                ),
+            ],
+        ),
+    ],
 )

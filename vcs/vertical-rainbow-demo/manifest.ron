@@ -1,8 +1,17 @@
 (
     title: "Vertical Rainbow Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a0f70c17bf64ea3e9622ba2e1b6210ea60592a29"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a0f70c17bf64ea3e9622ba2e1b6210ea60592a29",
+                ),
+            ],
+        ),
+    ],
 )

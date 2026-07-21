@@ -1,9 +1,18 @@
 (
     title: "Music 5",
-    publisher: Some("rpgfaker"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c039c01b7b69d02756c3f47aef5272847e337335"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("rpgfaker"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c039c01b7b69d02756c3f47aef5272847e337335",
+                ),
+            ],
+        ),
+    ],
 )

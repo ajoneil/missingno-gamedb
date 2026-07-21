@@ -1,7 +1,16 @@
 (
     title: "Gunfight 2600 - Final Run (Manuel Rotschkar)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3efd98a46c503582b9b9420b2badf947f801f3ae"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3efd98a46c503582b9b9420b2badf947f801f3ae",
+                ),
+            ],
+        ),
+    ],
 )

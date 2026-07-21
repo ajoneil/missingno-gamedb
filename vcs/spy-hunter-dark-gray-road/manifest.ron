@@ -1,9 +1,18 @@
 (
     title: "Spy Hunter Dark Gray Road (Spy Hunter Hack)",
-    publisher: Some("KevinMos3"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["48ae9aaee8dde8a6ca7dc877134b74e6549b01a1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("KevinMos3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "48ae9aaee8dde8a6ca7dc877134b74e6549b01a1",
+                ),
+            ],
+        ),
+    ],
 )

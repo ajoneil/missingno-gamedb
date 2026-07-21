@@ -1,9 +1,19 @@
 (
-    title: "Quandor (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4f435099b31cf578b61a55745cb98f64d557a2f3"],
-    source: None,
+    title: "Quandor",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4f435099b31cf578b61a55745cb98f64d557a2f3",
+                ),
+            ],
+        ),
+    ],
 )

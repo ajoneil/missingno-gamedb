@@ -1,9 +1,18 @@
 (
     title: "Showdown at Cactus Gulch (Gangster Alley Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["47cacd651322c2dd350fcb86d2e39b2fd48f32c2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "47cacd651322c2dd350fcb86d2e39b2fd48f32c2",
+                ),
+            ],
+        ),
+    ],
 )

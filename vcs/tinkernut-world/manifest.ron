@@ -1,9 +1,18 @@
 (
     title: "Tinkernut World",
-    publisher: Some("Tinkernut"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f7936358402531ee33ff2441b44c3a8d541692bf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Tinkernut"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f7936358402531ee33ff2441b44c3a8d541692bf",
+                ),
+            ],
+        ),
+    ],
 )

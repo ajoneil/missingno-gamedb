@@ -1,9 +1,36 @@
 (
-    title: "Prince of Persia (WIP)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7d54a7bc09f84aff7a5aa6e57846977644cca6b9"],
-    source: None,
+    title: "Prince of Persia",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Thomas Jentzsch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7d54a7bc09f84aff7a5aa6e57846977644cca6b9",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4960b264ebc0ef4f54f331a3c64a3fdb1f57b60e",
+                ),
+                (
+                    sha1: "95b1dbb987c555576b813a3c2d97f3eb467525e7",
+                ),
+            ],
+        ),
+    ],
 )

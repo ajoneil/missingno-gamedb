@@ -1,9 +1,19 @@
 (
-    title: "Titan Diamonds 2 (WIP)",
-    publisher: Some("Fort Apocalypse"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a8db13886d57ad6b371785581a77d2dd423c4bee"],
-    source: None,
+    title: "Titan Diamonds 2",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Fort Apocalypse"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a8db13886d57ad6b371785581a77d2dd423c4bee",
+                ),
+            ],
+        ),
+    ],
 )

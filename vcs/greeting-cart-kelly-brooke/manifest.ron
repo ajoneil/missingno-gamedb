@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Kelly Brooke",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fc71e83ca93a152b0ab3887fbf0207ac7642b019"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fc71e83ca93a152b0ab3887fbf0207ac7642b019",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Bomb Jack (WIP)",
-    publisher: Some("Steril707"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7f93598ae7ab6c161231ad09399f1b092c0cd753"],
-    source: None,
+    title: "Bomb Jack",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Steril707"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f93598ae7ab6c161231ad09399f1b092c0cd753",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Face Invaders Deluxe (Hack)",
-    publisher: Some("Barry Laws Jr."),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a7c32ef6e3c1785840a72f08e1588138340c12d8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Barry Laws Jr."),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7c32ef6e3c1785840a72f08e1588138340c12d8",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Missadventure Revised - 5 Fast Dragons (Adventure Hack)",
-    publisher: Some("accousticguitar"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["d83c11726d7ae35a9fd0266f945c9edce9e52285"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("accousticguitar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d83c11726d7ae35a9fd0266f945c9edce9e52285",
+                ),
+            ],
+        ),
+    ],
 )

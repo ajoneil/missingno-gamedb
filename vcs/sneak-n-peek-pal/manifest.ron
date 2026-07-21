@@ -1,8 +1,30 @@
 (
-    title: "Sneak 'n Peek",
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["40fd75379734b75518d875a70231fa64db4afb5b"],
-    source: None,
+    title: "Sneak \'n Peek",
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("U.S. Games Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "843e3c2fc71af2db3f2ae98eb350fde26334cfd1",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "40fd75379734b75518d875a70231fa64db4afb5b",
+                ),
+            ],
+        ),
+    ],
 )

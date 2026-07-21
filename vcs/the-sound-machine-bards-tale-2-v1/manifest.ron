@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Bards Tale 2 V1",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d4ab1933232adb4312d8cf6bfc5d6a489e8ee1fe"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d4ab1933232adb4312d8cf6bfc5d6a489e8ee1fe",
+                ),
+            ],
+        ),
+    ],
 )

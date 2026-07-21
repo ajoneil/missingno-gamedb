@@ -1,7 +1,82 @@
 (
     title: "Skiing",
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["5f927899d1086f0b721085b04a135f54d5c27d9b", "6a08a5c9d983ff294b57abb8ee25246722c88a59"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "25b8ee69c73e6d030fe1192895e7c53411d85475",
+                ),
+                (
+                    sha1: "6581846f983b50cffb75d1c1b902238ba7dd4e92",
+                ),
+                (
+                    sha1: "c870e45626c25ca02fa95994c6bb875c01717ac2",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2d2ca8f51e4a08a6283c7d3673f60c1dbad3e0f3",
+                ),
+                (
+                    sha1: "a12e2c08d7b09d1383e0e92a3dee579270cb54d4",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "36673683299db6f5d022522917d1dfbf004907ae",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5f927899d1086f0b721085b04a135f54d5c27d9b",
+                ),
+                (
+                    sha1: "6a08a5c9d983ff294b57abb8ee25246722c88a59",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("4K"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "48512849e119667ab80737bf03925a9063b7219f",
+                ),
+                (
+                    sha1: "82adefb7e537d83a68f3e5cd4c9cf691f4b815d0",
+                ),
+            ],
+        ),
+    ],
 )

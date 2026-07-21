@@ -1,9 +1,18 @@
 (
     title: "Dumb Soccer",
-    publisher: Some("Wes St. John"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8dc5e41c7492ee8ffd14b5791af2003cbb52784c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Wes St. John"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8dc5e41c7492ee8ffd14b5791af2003cbb52784c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Cute Dead Things House (Hack)",
-    publisher: Some("Christian Samuel"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["64234b20b9abe53d493822d05493b42e94e02c79"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Christian Samuel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "64234b20b9abe53d493822d05493b42e94e02c79",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "PAL-NTSC Detector[a1] (15-11-2002) (Christopher Tumber)",
-    publisher: Some("Tumber"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e8c5fdfbfe994a0221e509541b4979ee7f3a3d6b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Tumber"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e8c5fdfbfe994a0221e509541b4979ee7f3a3d6b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Colors Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["210f365bbad555eac396514a11d139807ab4c43b"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "210f365bbad555eac396514a11d139807ab4c43b",
+                ),
+            ],
+        ),
+    ],
 )

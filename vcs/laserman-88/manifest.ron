@@ -1,9 +1,18 @@
 (
-    title: "Laserman '88",
-    publisher: Some("Dan Iacovelli"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0f31ad5263e1e388c0fd0418fdfa418e63a4dd05"],
-    source: None,
+    title: "Laserman \'88",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Dan Iacovelli"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0f31ad5263e1e388c0fd0418fdfa418e63a4dd05",
+                ),
+            ],
+        ),
+    ],
 )

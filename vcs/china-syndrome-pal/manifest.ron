@@ -1,9 +1,31 @@
 (
     title: "China Syndrome",
-    publisher: Some("Spectravision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["faac85c0c61269660237978964a4cf57887cccfc"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0b1bb76769ae3f8b4936f0f95f4941d276791bde",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "faac85c0c61269660237978964a4cf57887cccfc",
+                ),
+            ],
+        ),
+    ],
 )

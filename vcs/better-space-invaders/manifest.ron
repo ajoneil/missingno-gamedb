@@ -1,9 +1,18 @@
 (
     title: "Better Space Invaders (Hack)",
-    publisher: Some("Rob Kudla"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a8bf7d977d070a18644d11f33eed0f98c8bc3f0b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Rob Kudla"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a8bf7d977d070a18644d11f33eed0f98c8bc3f0b",
+                ),
+            ],
+        ),
+    ],
 )

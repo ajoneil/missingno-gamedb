@@ -1,9 +1,18 @@
 (
     title: "Hot Wave (Double-Game Package)",
-    publisher: Some("Otto Versand"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["f630b95442054bda5259af5c68287af574dd185c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Otto Versand"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f630b95442054bda5259af5c68287af574dd185c",
+                ),
+            ],
+        ),
+    ],
 )

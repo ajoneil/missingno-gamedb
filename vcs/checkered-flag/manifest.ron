@@ -1,8 +1,17 @@
 (
     title: "Checkered Flag (Pole Position Hack) (Unknown)",
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["f9c6d27a5f9bacca288c713803ad1befcafb5c12"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f9c6d27a5f9bacca288c713803ad1befcafb5c12",
+                ),
+            ],
+        ),
+    ],
 )

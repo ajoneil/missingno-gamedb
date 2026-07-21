@@ -1,8 +1,17 @@
 (
     title: "Sprite Color Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["df323d04386ca7d1c2f9a1f1482cb89f26e7b5a3"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "df323d04386ca7d1c2f9a1f1482cb89f26e7b5a3",
+                ),
+            ],
+        ),
+    ],
 )

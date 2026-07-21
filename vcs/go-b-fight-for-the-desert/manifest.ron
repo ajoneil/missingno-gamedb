@@ -1,9 +1,18 @@
 (
     title: "Go-B! - Fight for the Desert",
-    publisher: Some("John Swisshelm"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["be671a5517c68dec3c3ed2429453065f1b5fda88"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("John Swisshelm"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "be671a5517c68dec3c3ed2429453065f1b5fda88",
+                ),
+            ],
+        ),
+    ],
 )

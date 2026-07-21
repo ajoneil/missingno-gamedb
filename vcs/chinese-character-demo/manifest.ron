@@ -1,8 +1,17 @@
 (
     title: "Chinese Character Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["41f30e3a8663836d1dc051731dd26336dbfe1113"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "41f30e3a8663836d1dc051731dd26336dbfe1113",
+                ),
+            ],
+        ),
+    ],
 )

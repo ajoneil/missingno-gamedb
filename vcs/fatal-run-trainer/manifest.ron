@@ -1,9 +1,18 @@
 (
     title: "Fatal Run Trainer (Hack)",
-    publisher: Some("Omegamatrix"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["8c7b0fbc4f6a5b28a976a066d7703378ac8ada48"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8c7b0fbc4f6a5b28a976a066d7703378ac8ada48",
+                ),
+            ],
+        ),
+    ],
 )

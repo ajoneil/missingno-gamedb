@@ -1,9 +1,31 @@
 (
     title: "Hell Driver",
-    publisher: Some("ITT Family Games"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["65bd036bffd90ae34baa3817fee6ea70c76478ac"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d87799d7373c69fb99b7f47d1ec3f9331d78f5b6",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("ITT Family Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "65bd036bffd90ae34baa3817fee6ea70c76478ac",
+                ),
+            ],
+        ),
+    ],
 )

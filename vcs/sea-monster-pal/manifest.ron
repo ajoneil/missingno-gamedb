@@ -1,9 +1,37 @@
 (
     title: "Sea Monster",
-    publisher: Some("Puzzy"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5faf2e37d86ebd84ff069df20be0e6258edf0f0c", "c2f43f35d95797c06a581654406256c72e422ba4", "eebbf7052cda551e5612845037cf0f21a40f2265"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0c1c3c25b7be02a27bed57908085f386b3693f37",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Puzzy"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5faf2e37d86ebd84ff069df20be0e6258edf0f0c",
+                ),
+                (
+                    sha1: "c2f43f35d95797c06a581654406256c72e422ba4",
+                ),
+                (
+                    sha1: "eebbf7052cda551e5612845037cf0f21a40f2265",
+                ),
+            ],
+        ),
+    ],
 )

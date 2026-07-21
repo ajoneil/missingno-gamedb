@@ -1,9 +1,18 @@
 (
     title: "Star Hawk 4K (WIP) (4K)",
-    publisher: Some("David Weavil"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["80e8e821d5ca67c968fead1724d89d67926496e5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "80e8e821d5ca67c968fead1724d89d67926496e5",
+                ),
+            ],
+        ),
+    ],
 )

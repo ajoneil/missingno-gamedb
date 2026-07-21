@@ -1,9 +1,18 @@
 (
     title: "Space Invaders Shot 2 (Space Invaders Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["783393a7000b32cf974491604035ebd106a00fdb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "783393a7000b32cf974491604035ebd106a00fdb",
+                ),
+            ],
+        ),
+    ],
 )

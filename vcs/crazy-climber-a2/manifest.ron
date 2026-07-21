@@ -1,9 +1,18 @@
 (
     title: "Crazy Climber (Prototype) [a2]",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["13df76152c8f200fb088413923c16f431e12b79b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13df76152c8f200fb088413923c16f431e12b79b",
+                ),
+            ],
+        ),
+    ],
 )

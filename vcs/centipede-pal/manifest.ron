@@ -1,9 +1,37 @@
 (
     title: "Centipede",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["1841ce27fc14cc2aa741d67e91f64f7924e3bf3e", "c5ff64d7593f0d0103d6bb50a150e8a87d222ef3"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0b5914bc1526a9beaf54d7fd11408175cd8fcc72",
+                ),
+                (
+                    sha1: "f5509dcc68b65d2cb8e37443a96c013fc00e4955",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1841ce27fc14cc2aa741d67e91f64f7924e3bf3e",
+                ),
+                (
+                    sha1: "c5ff64d7593f0d0103d6bb50a150e8a87d222ef3",
+                ),
+            ],
+        ),
+    ],
 )

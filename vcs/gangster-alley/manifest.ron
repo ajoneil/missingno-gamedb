@@ -1,9 +1,21 @@
 (
     title: "Gangster Alley",
-    publisher: Some("Spectravision"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8cf49d43bd62308df788cfacbfcd80e9226c7590", "ee7e37d5d6c8ba9b31fcd41124a72217b28d6a29"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8cf49d43bd62308df788cfacbfcd80e9226c7590",
+                ),
+                (
+                    sha1: "ee7e37d5d6c8ba9b31fcd41124a72217b28d6a29",
+                ),
+            ],
+        ),
+    ],
 )

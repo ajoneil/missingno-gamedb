@@ -1,9 +1,34 @@
 (
     title: "Trashmania - Remix",
-    publisher: Some("Jonathon Bont"),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["b3e0e266a08c3095fa75b9a9067630e4ef62f9cf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Jonathon Bont"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4530f2e5f473b9e59e44df63b7648445f8faf76a",
+                ),
+                (
+                    sha1: "6336696c648474bf449537defa747980ce9de863",
+                ),
+            ],
+        ),
+        (
+            date: Some("2012"),
+            publisher: Some("Jonathon Bont"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b3e0e266a08c3095fa75b9a9067630e4ef62f9cf",
+                ),
+            ],
+        ),
+    ],
 )

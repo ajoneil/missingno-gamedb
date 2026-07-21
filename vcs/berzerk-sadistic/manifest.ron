@@ -1,9 +1,18 @@
 (
     title: "Berzerk Sadistic (Berzerk Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4d638544bd812160d03fc72743cf6ab2664c86c4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4d638544bd812160d03fc72743cf6ab2664c86c4",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,49 @@
 (
     title: "Oink!",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["f8c9e7d65b9924da6fac0ce7dc9eec8c0040057d"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "03eb4a3b3db04c1782e1a91d27ea515163d258fb",
+                ),
+                (
+                    sha1: "dad7534ea09aee6d8e2f3ab5e3b288da8609e462",
+                ),
+                (
+                    sha1: "ea674cf2c90d407b8f8b96eac692690b602b73f9",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bf7b4e84537013593e2197fefa2b59d657ed8cdf",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f8c9e7d65b9924da6fac0ce7dc9eec8c0040057d",
+                ),
+            ],
+        ),
+    ],
 )

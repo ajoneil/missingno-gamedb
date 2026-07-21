@@ -1,9 +1,19 @@
 (
-    title: "Hunt the Wumpus (WIP)",
-    publisher: Some("Bill Collins"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["f3f9e64d74e6b6f5e520ad2efba14dd1ea96ef2e"],
-    source: None,
+    title: "Hunt the Wumpus",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bill Collins"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f3f9e64d74e6b6f5e520ad2efba14dd1ea96ef2e",
+                ),
+            ],
+        ),
+    ],
 )

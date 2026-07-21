@@ -1,9 +1,18 @@
 (
     title: "Tank Wars",
-    publisher: Some("Nicholas Lance"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["adef0024243ac3ab40d36a5e5d203c7619401f4b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Nicholas Lance"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "adef0024243ac3ab40d36a5e5d203c7619401f4b",
+                ),
+            ],
+        ),
+    ],
 )

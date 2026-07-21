@@ -1,7 +1,16 @@
 (
     title: "Dragon Power",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0731a92377e1ef8cc4a06edbc6448e8e3cb76ef5"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0731a92377e1ef8cc4a06edbc6448e8e3cb76ef5",
+                ),
+            ],
+        ),
+    ],
 )

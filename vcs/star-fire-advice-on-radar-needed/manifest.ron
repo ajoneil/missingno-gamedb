@@ -1,9 +1,18 @@
 (
     title: "Star Fire - Advice on radar needed (16-10-2002)",
-    publisher: Some("MP"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ed190cf15afae3d6c008039eaa86f72d11469f44"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ed190cf15afae3d6c008039eaa86f72d11469f44",
+                ),
+            ],
+        ),
+    ],
 )

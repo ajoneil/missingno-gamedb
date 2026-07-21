@@ -1,9 +1,18 @@
 (
     title: "Multi-Sprite Demo V1.1 (PD)",
-    publisher: Some("Piero Cavina"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5bc5f0421beb347b30ca6270f5ddf86ee601e350"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Piero Cavina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5bc5f0421beb347b30ca6270f5ddf86ee601e350",
+                ),
+            ],
+        ),
+    ],
 )

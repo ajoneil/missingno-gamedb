@@ -1,9 +1,19 @@
 (
-    title: "Galaxy Revenge (WIP)",
-    publisher: Some("yuppicide"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["ef337e6d8fd598fade96bbe1011308b63615f67f"],
-    source: None,
+    title: "Galaxy Revenge",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("yuppicide"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef337e6d8fd598fade96bbe1011308b63615f67f",
+                ),
+            ],
+        ),
+    ],
 )

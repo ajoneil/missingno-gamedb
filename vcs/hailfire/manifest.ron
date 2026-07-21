@@ -1,9 +1,19 @@
 (
-    title: "Hailfire (WIP)",
-    publisher: Some("petik1"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1cc915eea485b52bfa44347e3ed4d7ddaf6505ef"],
-    source: None,
+    title: "Hailfire",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("petik1"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1cc915eea485b52bfa44347e3ed4d7ddaf6505ef",
+                ),
+            ],
+        ),
+    ],
 )

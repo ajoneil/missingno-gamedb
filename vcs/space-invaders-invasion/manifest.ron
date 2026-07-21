@@ -1,9 +1,18 @@
 (
     title: "Space Invaders - Invasion (MegaMania Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1b3f24cbaa93ca3fb18f80acaa67beda7fef673d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1b3f24cbaa93ca3fb18f80acaa67beda7fef673d",
+                ),
+            ],
+        ),
+    ],
 )

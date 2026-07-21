@@ -1,9 +1,18 @@
 (
     title: "Kamikaze Saucers (Proto)",
-    publisher: Some("Syncro"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a82aaeef44ad88de605c50d23fb4f6cec73f3ab4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Syncro"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a82aaeef44ad88de605c50d23fb4f6cec73f3ab4",
+                ),
+            ],
+        ),
+    ],
 )

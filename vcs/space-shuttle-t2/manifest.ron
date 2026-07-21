@@ -1,9 +1,18 @@
 (
     title: "Space Shuttle [t2] (Activision) (Fuel)",
-    publisher: Some("Kurt Howe"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["22b0027afb99dafc71b9bf32ae42f4dc2b449251"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22b0027afb99dafc71b9bf32ae42f4dc2b449251",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
-    title: "Mark's Sound Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4c57b9928fbb83e7f3e1ef1bbdfe16eae2416f84"],
-    source: None,
+    title: "Mark\'s Sound Demo (PD)",
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4c57b9928fbb83e7f3e1ef1bbdfe16eae2416f84",
+                ),
+            ],
+        ),
+    ],
 )

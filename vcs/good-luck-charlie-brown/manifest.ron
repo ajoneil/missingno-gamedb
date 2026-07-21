@@ -1,9 +1,18 @@
 (
     title: "Good Luck, Charlie Brown (04-18-1984) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["39548425a97b185aec9364a343e92d518bb702c0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "39548425a97b185aec9364a343e92d518bb702c0",
+                ),
+            ],
+        ),
+    ],
 )

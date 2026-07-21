@@ -1,9 +1,18 @@
 (
     title: "Scrolling Playfield 2 (Junkosoft) (PD)",
-    publisher: Some("Junkosoft"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["af3d473c596e347e96cf6e1ff95a3ab0da38998b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Junkosoft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "af3d473c596e347e96cf6e1ff95a3ab0da38998b",
+                ),
+            ],
+        ),
+    ],
 )

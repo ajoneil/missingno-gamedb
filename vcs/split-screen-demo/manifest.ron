@@ -1,8 +1,17 @@
 (
     title: "Split Screen Demo (Ballblazer) (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c2e0cae725c36f1748fbe15484352fa89615f5fb"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c2e0cae725c36f1748fbe15484352fa89615f5fb",
+                ),
+            ],
+        ),
+    ],
 )

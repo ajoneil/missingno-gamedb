@@ -1,9 +1,18 @@
 (
     title: "Space Ace (Pigs in Space Hack)",
-    publisher: Some("Dr. Kwack"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ba1ae5dad84b8138517017183d0c80ff6eb7835f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Dr. Kwack"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ba1ae5dad84b8138517017183d0c80ff6eb7835f",
+                ),
+            ],
+        ),
+    ],
 )

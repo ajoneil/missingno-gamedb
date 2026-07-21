@@ -1,9 +1,44 @@
 (
     title: "Othello",
-    publisher: Some("Atari"),
-    date: Some("1981"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["7a253ac3a4769c0dbd3fff462b0069351f862be9"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cbecf1a32d9366a3dd4ad643916cd59cdc820a8b",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "153e01badcc77ef75b1781fd26aaa0fce1ebb6f7",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7a253ac3a4769c0dbd3fff462b0069351f862be9",
+                ),
+            ],
+        ),
+    ],
 )

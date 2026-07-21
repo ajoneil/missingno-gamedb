@@ -1,9 +1,19 @@
 (
-    title: "OS 2600 (WIP)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["679655980175a4ea71df4c6bbe95fac376292f71"],
-    source: None,
+    title: "OS 2600",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Steve Engelhardt"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "679655980175a4ea71df4c6bbe95fac376292f71",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Asymmetric Playfield",
-    publisher: Some("Roger Williams"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7c324a227e58108e2740e4d14cf751d75310e6df"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Roger Williams"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7c324a227e58108e2740e4d14cf751d75310e6df",
+                ),
+            ],
+        ),
+    ],
 )

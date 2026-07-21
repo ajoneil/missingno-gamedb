@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - PhilipRFrey_1",
-    publisher: Some("Philip R Frey"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["318c0b1929b7507feeb7fea5f509e728ba15f0b1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Philip R Frey"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "318c0b1929b7507feeb7fea5f509e728ba15f0b1",
+                ),
+            ],
+        ),
+    ],
 )

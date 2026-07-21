@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Temple of Apshai 1",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c9bfc565b473102371775a59a59eddc5a64e0712"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c9bfc565b473102371775a59a59eddc5a64e0712",
+                ),
+            ],
+        ),
+    ],
 )

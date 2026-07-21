@@ -1,7 +1,16 @@
 (
     title: "Patrulha Espacial (Dismac)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["729da66ff22051f321c0c49662aac2d93a49f165"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "729da66ff22051f321c0c49662aac2d93a49f165",
+                ),
+            ],
+        ),
+    ],
 )

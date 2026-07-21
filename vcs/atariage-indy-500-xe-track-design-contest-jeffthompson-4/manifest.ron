@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - JeffThompson_4",
-    publisher: Some("Jeff Thompson"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8f0f831c2010aeeb19011703adae7fe66cb4046a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jeff Thompson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8f0f831c2010aeeb19011703adae7fe66cb4046a",
+                ),
+            ],
+        ),
+    ],
 )

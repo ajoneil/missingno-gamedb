@@ -1,9 +1,18 @@
 (
     title: "Star Wars Hack (Star Ship Hack)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["d96ea2bc020681ea506c14bff2b5fe810789cad9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d96ea2bc020681ea506c14bff2b5fe810789cad9",
+                ),
+            ],
+        ),
+    ],
 )

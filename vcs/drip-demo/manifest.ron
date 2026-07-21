@@ -1,9 +1,18 @@
 (
     title: "Drip Demo",
-    publisher: Some("Ed Fries"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["46e07a8e8c26e42ef9605e58fc98c7f91b0682e6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Ed Fries"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "46e07a8e8c26e42ef9605e58fc98c7f91b0682e6",
+                ),
+            ],
+        ),
+    ],
 )

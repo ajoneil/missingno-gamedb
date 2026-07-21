@@ -1,9 +1,18 @@
 (
     title: "Tomarc the Barbarian [a]",
-    publisher: Some("Xonox"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["fcd339065a012c9fe47efbec62969cbc32f3fbf0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Xonox"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fcd339065a012c9fe47efbec62969cbc32f3fbf0",
+                ),
+            ],
+        ),
+    ],
 )

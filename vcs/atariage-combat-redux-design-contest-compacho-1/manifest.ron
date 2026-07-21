@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - Compacho_1",
-    publisher: Some("Compacho"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0e0c327d57dce5ffe7d46d553c243c32751ecd50"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Compacho"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0e0c327d57dce5ffe7d46d553c243c32751ecd50",
+                ),
+            ],
+        ),
+    ],
 )

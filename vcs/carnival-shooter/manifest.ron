@@ -1,8 +1,17 @@
 (
     title: "Carnival Shooter (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["eff98ebca8d1b3c4411260ba423eadf3ff40bdf6"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eff98ebca8d1b3c4411260ba423eadf3ff40bdf6",
+                ),
+            ],
+        ),
+    ],
 )

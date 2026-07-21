@@ -1,9 +1,18 @@
 (
     title: "Air-Sea Battle (Palette Select Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["d4e690914ee15a7d2244e65c3df8d5505f0fab2a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d4e690914ee15a7d2244e65c3df8d5505f0fab2a",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,39 @@
 (
     title: "SCSIcide (09-06-2001) (Joe Grand)",
-    publisher: Some("Joe Grand"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["580e6adf53ceab73e20e652f485440e54454759b", "5ac9072e703fb21c7d1ab5d20382e0fce647cc10", "69136dda2854e07306a86c692a899d012ad201cb", "8d6b66713d3b9b82222cf574d9aa16074eaa19a6", "9bec4321d04af453241e0985a384881124f714e5", "b619bd57f9cee4a466e0bbdd3e3c4ea144cdc649", "bc6c42714d4f1f5b86443543612c6b6713aafff9", "efd38e4a2f383e78d57133728373fb01514a09c0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Joe Grand"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "580e6adf53ceab73e20e652f485440e54454759b",
+                ),
+                (
+                    sha1: "5ac9072e703fb21c7d1ab5d20382e0fce647cc10",
+                ),
+                (
+                    sha1: "69136dda2854e07306a86c692a899d012ad201cb",
+                ),
+                (
+                    sha1: "8d6b66713d3b9b82222cf574d9aa16074eaa19a6",
+                ),
+                (
+                    sha1: "9bec4321d04af453241e0985a384881124f714e5",
+                ),
+                (
+                    sha1: "b619bd57f9cee4a466e0bbdd3e3c4ea144cdc649",
+                ),
+                (
+                    sha1: "bc6c42714d4f1f5b86443543612c6b6713aafff9",
+                ),
+                (
+                    sha1: "efd38e4a2f383e78d57133728373fb01514a09c0",
+                ),
+            ],
+        ),
+    ],
 )

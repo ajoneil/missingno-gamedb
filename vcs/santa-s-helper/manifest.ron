@@ -1,9 +1,18 @@
 (
-    title: "Santa's Helper (Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c02cb75c64b2b8eb5c95529f6ef1c87da1cc6b66"],
-    source: None,
+    title: "Santa\'s Helper (Hack)",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c02cb75c64b2b8eb5c95529f6ef1c87da1cc6b66",
+                ),
+            ],
+        ),
+    ],
 )

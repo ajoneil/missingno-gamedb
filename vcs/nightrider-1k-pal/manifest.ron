@@ -1,9 +1,32 @@
 (
-    title: "Nightrider 1K (WIP)",
-    publisher: Some("Chris Walton"),
-    date: Some("2005"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["fa7ad1f12388337d2254042868cd5824254f6f22"],
-    source: None,
+    title: "Nightrider 1K",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Chris Walton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3d553084ac3afa7cacdbdd22fe2b8fe3b5ca545",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Chris Walton"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fa7ad1f12388337d2254042868cd5824254f6f22",
+                ),
+            ],
+        ),
+    ],
 )

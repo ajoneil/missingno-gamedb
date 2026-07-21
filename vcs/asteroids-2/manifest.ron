@@ -1,9 +1,18 @@
 (
     title: "Asteroids 2 (Franlin Cruz) (Hack)",
-    publisher: Some("Franklin Cruz"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["92358e4e9ccd1d36992561d095a7079ab9e0b128"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Franklin Cruz"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "92358e4e9ccd1d36992561d095a7079ab9e0b128",
+                ),
+            ],
+        ),
+    ],
 )

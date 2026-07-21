@@ -1,8 +1,17 @@
 (
     title: "Counter Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c21b00ed743856871664f599fdeb34ea1321079d"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c21b00ed743856871664f599fdeb34ea1321079d",
+                ),
+            ],
+        ),
+    ],
 )

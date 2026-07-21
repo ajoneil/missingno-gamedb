@@ -1,9 +1,18 @@
 (
     title: "Bigfoot (Flag Capture Hack)",
-    publisher: Some("David Weavil"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2f533b0d27476e3308fb0ea21017fe9d0400cb29"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f533b0d27476e3308fb0ea21017fe9d0400cb29",
+                ),
+            ],
+        ),
+    ],
 )

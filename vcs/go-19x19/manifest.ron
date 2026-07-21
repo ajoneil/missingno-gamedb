@@ -1,9 +1,19 @@
 (
-    title: "Go 19x19 (WIP)",
-    publisher: Some("Zach Matley"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["092b02babaae9ac61f99b73d0fbf469aec599d9b"],
-    source: None,
+    title: "Go 19x19",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Zach Matley"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "092b02babaae9ac61f99b73d0fbf469aec599d9b",
+                ),
+            ],
+        ),
+    ],
 )

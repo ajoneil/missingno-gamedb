@@ -1,9 +1,19 @@
 (
-    title: "Super Mario 64 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["9434bd1e480fd12136c1f0bbf5360986f026dc7d"],
-    source: None,
+    title: "Super Mario 64",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9434bd1e480fd12136c1f0bbf5360986f026dc7d",
+                ),
+            ],
+        ),
+    ],
 )

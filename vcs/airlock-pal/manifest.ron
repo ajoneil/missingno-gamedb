@@ -1,9 +1,31 @@
 (
     title: "Airlock",
-    publisher: Some("Gameworld"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a94b103806d33546aa8fac0056cd57b818bfed8c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0376c242819b785310b8af43c03b1d1156bd5f02",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a94b103806d33546aa8fac0056cd57b818bfed8c",
+                ),
+            ],
+        ),
+    ],
 )

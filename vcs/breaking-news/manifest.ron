@@ -1,9 +1,18 @@
 (
     title: "Breaking News (Hack)",
-    publisher: Some("Ric Pryor"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("E7"),
-    hashes: ["1ce96680eee5de52c60f7e7514c7e1149fb98375"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Ric Pryor"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E7"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ce96680eee5de52c60f7e7514c7e1149fb98375",
+                ),
+            ],
+        ),
+    ],
 )

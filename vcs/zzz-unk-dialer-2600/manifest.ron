@@ -1,7 +1,16 @@
 (
     title: "ZZZ-UNK-Dialer 2600",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7898be5146fa0e7cb7578547bac09a17af056978"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7898be5146fa0e7cb7578547bac09a17af056978",
+                ),
+            ],
+        ),
+    ],
 )

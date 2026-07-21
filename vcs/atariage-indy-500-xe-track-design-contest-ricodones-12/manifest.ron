@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - RicoDones_12",
-    publisher: Some("Rico Dones"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c0e717ff518b3d18e4aff8a2a19ff6d67fb1e179"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Rico Dones"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c0e717ff518b3d18e4aff8a2a19ff6d67fb1e179",
+                ),
+            ],
+        ),
+    ],
 )

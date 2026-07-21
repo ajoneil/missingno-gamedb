@@ -1,9 +1,32 @@
 (
     title: "Sub-Scan",
-    publisher: Some("Sega"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["35cce03eec2660593881bb775ac907aedff07393"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7fa811a39adfe90877b34b58483206e1149e45a",
+                ),
+                (
+                    sha1: "ccd75f0141b917656ef2b86c068fba3238d18a0c",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Sega"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "35cce03eec2660593881bb775ac907aedff07393",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Space Invaders [different speed and colors] [fixed]",
-    publisher: Some("Atari"),
-    date: Some("1980"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["82798cf199a8f4730a9305fab261d929a5780d9b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "82798cf199a8f4730a9305fab261d929a5780d9b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Space Fighter Demo (WIP)",
-    publisher: Some("Piggles"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8fb94789040796fa5a72e13c7479cdb88cef2ea3"],
-    source: None,
+    title: "Space Fighter Demo",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Piggles"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8fb94789040796fa5a72e13c7479cdb88cef2ea3",
+                ),
+            ],
+        ),
+    ],
 )

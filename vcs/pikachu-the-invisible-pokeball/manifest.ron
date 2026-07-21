@@ -1,9 +1,18 @@
 (
     title: "Pikachu & the invisible Pokeball",
-    publisher: Some("gameblabla"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5cbfa4a2773e06e30b6d3eac865814714e6d3ff1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("gameblabla"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cbfa4a2773e06e30b6d3eac865814714e6d3ff1",
+                ),
+            ],
+        ),
+    ],
 )

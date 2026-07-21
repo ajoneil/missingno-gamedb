@@ -1,9 +1,18 @@
 (
-    title: "Rubik's Cube 3D Demo (25-11-2002)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["9ec84fac47f400eeb878d3220f85f26f388ecaee"],
-    source: None,
+    title: "Rubik\'s Cube 3D Demo (25-11-2002)",
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9ec84fac47f400eeb878d3220f85f26f388ecaee",
+                ),
+            ],
+        ),
+    ],
 )

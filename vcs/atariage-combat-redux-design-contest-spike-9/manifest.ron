@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - Spike_9",
-    publisher: Some("SPIKE"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["b7a0ef36d5aceb28933ee11a26f81016e57c4f43"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("SPIKE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b7a0ef36d5aceb28933ee11a26f81016e57c4f43",
+                ),
+            ],
+        ),
+    ],
 )

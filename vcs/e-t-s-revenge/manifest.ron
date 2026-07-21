@@ -1,9 +1,18 @@
 (
-    title: "E.T.'s Revenge",
-    publisher: Some("Eric Gandhi"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1e625c9a32e57e53d6cf32895300611af3f83302"],
-    source: None,
+    title: "E.T.\'s Revenge",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Eric Gandhi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1e625c9a32e57e53d6cf32895300611af3f83302",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - max-t_1",
-    publisher: Some("max-t"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["916d4aa1b089166f03ba814950f1739975f86735"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("max-t"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "916d4aa1b089166f03ba814950f1739975f86735",
+                ),
+            ],
+        ),
+    ],
 )

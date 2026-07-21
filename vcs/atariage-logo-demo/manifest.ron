@@ -1,9 +1,18 @@
 (
     title: "AtariAge Logo Demo",
-    publisher: Some("John Payson"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f33a9ca39d460274e3f98aa5f8d422ed42faf4d2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f33a9ca39d460274e3f98aa5f8d422ed42faf4d2",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "New Super Mario Bros. Theme Song",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a8b778d0c62530914b1b9511abecb4a417b0b707"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Rick Skrbina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a8b778d0c62530914b1b9511abecb4a417b0b707",
+                ),
+            ],
+        ),
+    ],
 )

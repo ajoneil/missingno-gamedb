@@ -1,9 +1,31 @@
 (
     title: "Space Battle",
-    publisher: Some("Dave Neuman"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["da532266db6409570ed3dab6f0d51fda28741b8b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Dave Neuman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b2f8056699712980f6af31fae860eb83d37c6d1d",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Dave Neuman"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "da532266db6409570ed3dab6f0d51fda28741b8b",
+                ),
+            ],
+        ),
+    ],
 )

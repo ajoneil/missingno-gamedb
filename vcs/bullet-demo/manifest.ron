@@ -1,9 +1,18 @@
 (
     title: "Bullet Demo (20-12-2002) (Christopher Tumber)",
-    publisher: Some("Tumber"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["13534da5c382ed20d070ffe93f35c4c11b36e1bc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Tumber"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13534da5c382ed20d070ffe93f35c4c11b36e1bc",
+                ),
+            ],
+        ),
+    ],
 )

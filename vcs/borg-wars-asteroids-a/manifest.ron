@@ -1,9 +1,18 @@
 (
     title: "Borg Wars Asteroids (Asteroids Hack) [a]",
-    publisher: Some("Jack Kortkamp"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["d93c48613672e3c4f5a94614ce6a198046e33a77"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Jack Kortkamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d93c48613672e3c4f5a94614ce6a198046e33a77",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Bloober and the Gnarl (WIP)",
-    publisher: Some("Duane Alan Hahn"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["a782c01b67aa0730b4f4412bb8865311df8c9873"],
-    source: None,
+    title: "Bloober and the Gnarl",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Duane Alan Hahn"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a782c01b67aa0730b4f4412bb8865311df8c9873",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "PackRat (Fast Eddie Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2766a931b72c770b1b2ee63a1f5eeb38428150f5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2766a931b72c770b1b2ee63a1f5eeb38428150f5",
+                ),
+            ],
+        ),
+    ],
 )

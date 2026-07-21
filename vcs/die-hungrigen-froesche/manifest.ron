@@ -1,9 +1,18 @@
 (
     title: "Die hungrigen Froesche",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["72be5b871d9bd4120c9bbf5203412dca56150191"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "72be5b871d9bd4120c9bbf5203412dca56150191",
+                ),
+            ],
+        ),
+    ],
 )

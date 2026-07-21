@@ -1,9 +1,18 @@
 (
     title: "Oystron X (Piero Cavina) (PD)",
-    publisher: Some("Xype"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a3939b20e2e1570427336507116cb6ebbfcb6cbc"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Xype"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a3939b20e2e1570427336507116cb6ebbfcb6cbc",
+                ),
+            ],
+        ),
+    ],
 )

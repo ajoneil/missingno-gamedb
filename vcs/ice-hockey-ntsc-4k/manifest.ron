@@ -1,7 +1,41 @@
 (
     title: "Ice Hockey",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["00f9800c18cb0c276d2e1ff92b3fabad30193bd7", "21de0f034e5dad03fa91eb7ae6cc081c142be35c", "4c02f0d3a830d9745733d384002915a95279c9d5", "5ebcc5938bb8b23bb438efa21d388a85fc9b7fe9", "eaa22eaefeb42396f8c440cd1e01a84809866177"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "00f9800c18cb0c276d2e1ff92b3fabad30193bd7",
+                ),
+                (
+                    sha1: "21de0f034e5dad03fa91eb7ae6cc081c142be35c",
+                ),
+                (
+                    sha1: "4c02f0d3a830d9745733d384002915a95279c9d5",
+                ),
+                (
+                    sha1: "5ebcc5938bb8b23bb438efa21d388a85fc9b7fe9",
+                ),
+                (
+                    sha1: "eaa22eaefeb42396f8c440cd1e01a84809866177",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ed4dbbc48d1d5a5dfe221bb014b4a486503d966c",
+                ),
+            ],
+        ),
+    ],
 )

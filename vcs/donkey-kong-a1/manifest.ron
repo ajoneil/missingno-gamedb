@@ -1,9 +1,18 @@
 (
     title: "Donkey Kong [a1]",
-    publisher: Some("CBS Electronics"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["359e662da02bf0a2184472e25d05bc597b6c497a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "359e662da02bf0a2184472e25d05bc597b6c497a",
+                ),
+            ],
+        ),
+    ],
 )

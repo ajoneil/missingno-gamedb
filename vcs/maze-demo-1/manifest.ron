@@ -1,8 +1,17 @@
 (
     title: "Maze Demo 1 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["43c309177fde4adf59c99ba5d3865df2a588a79e"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "43c309177fde4adf59c99ba5d3865df2a588a79e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Grid Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9cf32aef81559b13c45ad56d2d6babd77c405a8f"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9cf32aef81559b13c45ad56d2d6babd77c405a8f",
+                ),
+            ],
+        ),
+    ],
 )

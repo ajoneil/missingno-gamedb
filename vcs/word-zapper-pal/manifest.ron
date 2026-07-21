@@ -1,9 +1,34 @@
 (
     title: "Word Zapper",
-    publisher: Some("US Games"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["e35e773a895ab7d121611fcd507e575c5bab4413"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("U.S. Games Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "806c5a8a7b042a1a3ada1b6f29451a3446f93da3",
+                ),
+                (
+                    sha1: "9820cebfbdb8b7ff8870b07008381516feb22537",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("US Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e35e773a895ab7d121611fcd507e575c5bab4413",
+                ),
+            ],
+        ),
+    ],
 )

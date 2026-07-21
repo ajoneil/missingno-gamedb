@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - DionTorraville_1",
-    publisher: Some("Torraville"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["1b7c19206ab39d7796a1da3f1d11351a4673a1b9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Torraville"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1b7c19206ab39d7796a1da3f1d11351a4673a1b9",
+                ),
+            ],
+        ),
+    ],
 )

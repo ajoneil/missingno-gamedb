@@ -1,9 +1,18 @@
 (
     title: "Ant",
-    publisher: Some("godzillajoe"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fc87da3b31595850b599e1f1dac9dcbd3f42cd02"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("godzillajoe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fc87da3b31595850b599e1f1dac9dcbd3f42cd02",
+                ),
+            ],
+        ),
+    ],
 )

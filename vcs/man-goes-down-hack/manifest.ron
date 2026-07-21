@@ -1,9 +1,18 @@
 (
     title: "Man Goes Down Hack",
-    publisher: Some("Will Nicholes"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["baf4259f4c6e9780f0320bcda49c27c48c9b53fc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Will Nicholes"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "baf4259f4c6e9780f0320bcda49c27c48c9b53fc",
+                ),
+            ],
+        ),
+    ],
 )

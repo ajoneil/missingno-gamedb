@@ -1,9 +1,18 @@
 (
-    title: "Beat 'Em and Eat 'Em [f] [Supercharger]",
-    publisher: Some("Mystique"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5295de93efea7266f913c0db28bda2a8790ffc1e"],
-    source: None,
+    title: "Beat \'Em and Eat \'Em [f] [Supercharger]",
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Mystique"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5295de93efea7266f913c0db28bda2a8790ffc1e",
+                ),
+            ],
+        ),
+    ],
 )

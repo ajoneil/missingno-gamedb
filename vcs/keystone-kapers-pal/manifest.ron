@@ -1,9 +1,71 @@
 (
     title: "Keystone Kapers",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["146e520febeb9a4d5df3ab5c374da60684eb3548", "463ee19e4b1c4b3036f5e406347228f2a8b7bb27"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3eefc193dec3b242bcfd43f5a4d9f023e55378a4",
+                ),
+                (
+                    sha1: "45956d06115f59580d3eaba14cd4b6c00c028cc1",
+                ),
+                (
+                    sha1: "4ae6b64f9a93cf4e7cb3ddd495aa0ca088ba6569",
+                ),
+                (
+                    sha1: "4b397d7165825ebfe8f8dd6dddba7051b07185eb",
+                ),
+                (
+                    sha1: "578ef982a8add6d7f652f9c68702a55356a1cdd0",
+                ),
+                (
+                    sha1: "74fccedb3554a411f15e0d7f173cc18a1505f60f",
+                ),
+                (
+                    sha1: "7e722f1184d5291ca53b0aca619915d3ec272926",
+                ),
+                (
+                    sha1: "ab7b8d5db7ae1298e63c4ff10ae3bbb2f6a66740",
+                ),
+                (
+                    sha1: "c05d225766dfde9aaeab25c975aadaf4e8b9c556",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "146e520febeb9a4d5df3ab5c374da60684eb3548",
+                ),
+                (
+                    sha1: "463ee19e4b1c4b3036f5e406347228f2a8b7bb27",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Secam),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b3df50f1df780a8f7cbcdf15d803d2b85bb586ff",
+                ),
+            ],
+        ),
+    ],
 )

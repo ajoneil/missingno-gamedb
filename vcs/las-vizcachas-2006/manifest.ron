@@ -1,9 +1,19 @@
 (
-    title: "Las Vizcachas 2006 (WIP)",
-    publisher: Some("JF@Chile"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["06dc338c91daca52f63bcd60617a22325f4a0d69"],
-    source: None,
+    title: "Las Vizcachas 2006",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("JF@Chile"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "06dc338c91daca52f63bcd60617a22325f4a0d69",
+                ),
+            ],
+        ),
+    ],
 )

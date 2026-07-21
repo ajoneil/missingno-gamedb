@@ -1,9 +1,18 @@
 (
     title: "Top Gun",
-    publisher: Some("Zachary Antoine"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5fc6bc71b55c43d8d68060fdea702c2eb98b8214"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Zachary Antoine"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5fc6bc71b55c43d8d68060fdea702c2eb98b8214",
+                ),
+            ],
+        ),
+    ],
 )

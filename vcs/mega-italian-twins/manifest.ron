@@ -1,9 +1,19 @@
 (
-    title: "Mega Italian Twins (WIP)",
-    publisher: Some("Jarod Kitchen"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["195e7dd5dcb193c0529e17ff88c42ff8e0826561"],
-    source: None,
+    title: "Mega Italian Twins",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Jarod Kitchen"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "195e7dd5dcb193c0529e17ff88c42ff8e0826561",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,34 @@
 (
     title: "Road Runner",
-    publisher: Some("Atari"),
-    date: Some("1989"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["eea478ef7ff8f579dd4d9077d325b9b6cb865470"],
-    source: None,
+    releases: [
+        (
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8be5f9c2a11f78ac536e598e3e3b7d37130154ec",
+                ),
+                (
+                    sha1: "e3bb8dcb02e1fca0771e6d5009d27e3a62fa0256",
+                ),
+            ],
+        ),
+        (
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eea478ef7ff8f579dd4d9077d325b9b6cb865470",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Cereal Killer (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["82a7d038dba6aabc61bec85e501270ed623c08fd"],
-    source: None,
+    title: "Cereal Killer",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "82a7d038dba6aabc61bec85e501270ed623c08fd",
+                ),
+            ],
+        ),
+    ],
 )

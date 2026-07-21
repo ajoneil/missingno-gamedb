@@ -1,7 +1,16 @@
 (
     title: "ZZZ-UNK-Bionic",
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["5bd141d6df8fad4739c7b8a0ea1f815deca3581a"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5bd141d6df8fad4739c7b8a0ea1f815deca3581a",
+                ),
+            ],
+        ),
+    ],
 )

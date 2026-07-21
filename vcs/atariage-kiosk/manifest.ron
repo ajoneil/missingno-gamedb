@@ -1,9 +1,18 @@
 (
     title: "AtariAge Kiosk (Imagic Selector ROM Hack)",
-    publisher: Some("Joe Musashi"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["69191837fea367feefca0b071517e2d4564a8fb1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Joe Musashi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "69191837fea367feefca0b071517e2d4564a8fb1",
+                ),
+            ],
+        ),
+    ],
 )

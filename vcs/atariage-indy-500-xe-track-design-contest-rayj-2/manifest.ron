@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - RayJ_2",
-    publisher: Some("Ray J"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2c6b94a639974e32f604d13702dff3de8c1870c9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Ray J"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2c6b94a639974e32f604d13702dff3de8c1870c9",
+                ),
+            ],
+        ),
+    ],
 )

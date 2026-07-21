@@ -1,7 +1,16 @@
 (
     title: "Maze Craze",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b7b9e65159af23307da54cf371aac8536c5d227c"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b7b9e65159af23307da54cf371aac8536c5d227c",
+                ),
+            ],
+        ),
+    ],
 )

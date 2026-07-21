@@ -1,9 +1,18 @@
 (
     title: "Asteroids Title Demo",
-    publisher: Some("rpgfaker"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e2a5170694f32ea696561e2906380f5cb1a61f76"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("rpgfaker"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e2a5170694f32ea696561e2906380f5cb1a61f76",
+                ),
+            ],
+        ),
+    ],
 )

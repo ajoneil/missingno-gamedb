@@ -1,9 +1,18 @@
 (
     title: "Deimos Lander Monochrome",
-    publisher: Some("Jerason Banes"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ae07898e36641caa2daf2af86269f67589cd053e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Jerason Banes"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ae07898e36641caa2daf2af86269f67589cd053e",
+                ),
+            ],
+        ),
+    ],
 )

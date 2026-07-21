@@ -1,9 +1,18 @@
 (
     title: "The Stacks",
-    publisher: Some("Mike Mika"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["653ce93e97d281b63706fc571553df9b7aab8e98"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Mike Mika"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "653ce93e97d281b63706fc571553df9b7aab8e98",
+                ),
+            ],
+        ),
+    ],
 )

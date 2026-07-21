@@ -1,9 +1,40 @@
 (
     title: "Kangaroo",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["dac53b95626b68d3686430ccfda8c1a10946bad2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "01fd30311e028944eafb6d14bb001035f816ced7",
+                ),
+                (
+                    sha1: "04c4d0004d335ecc44884425a9282453e68493f8",
+                ),
+                (
+                    sha1: "8a0596e3e735f1bc518d74e7f545ede422754ef6",
+                ),
+                (
+                    sha1: "a65aebd74092cd8038f12c9f1ef43c0a011457a5",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dac53b95626b68d3686430ccfda8c1a10946bad2",
+                ),
+            ],
+        ),
+    ],
 )

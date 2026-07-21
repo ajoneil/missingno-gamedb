@@ -1,9 +1,18 @@
 (
     title: "TP Bug (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["003c213f159f4e3968f350ec8b8f4b51da40cb83"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "003c213f159f4e3968f350ec8b8f4b51da40cb83",
+                ),
+            ],
+        ),
+    ],
 )

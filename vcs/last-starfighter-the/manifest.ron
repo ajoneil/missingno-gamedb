@@ -1,9 +1,18 @@
 (
     title: "Last Starfighter, The (Universe) (Solaris Beta) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["1ae05ee1954db2a1a586a5922b210622d8063d12"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ae05ee1954db2a1a586a5922b210622d8063d12",
+                ),
+            ],
+        ),
+    ],
 )

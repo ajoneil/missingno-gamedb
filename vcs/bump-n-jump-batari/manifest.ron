@@ -1,7 +1,16 @@
 (
-    title: "Bump 'n' Jump Batari (F6 Conversion)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["4bb30da5eb3b3f1d60c2cb122f54ab98e12fafa4"],
-    source: None,
+    title: "Bump \'n\' Jump Batari (F6 Conversion)",
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4bb30da5eb3b3f1d60c2cb122f54ab98e12fafa4",
+                ),
+            ],
+        ),
+    ],
 )

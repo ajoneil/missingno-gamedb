@@ -1,9 +1,18 @@
 (
     title: "Ladybug Playfield Demo 2 (demo) (PD)",
-    publisher: Some("johnnywc"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["2f93d2e30df03c3dab4cbcb26ecab12010d40c18"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("johnnywc"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f93d2e30df03c3dab4cbcb26ecab12010d40c18",
+                ),
+            ],
+        ),
+    ],
 )

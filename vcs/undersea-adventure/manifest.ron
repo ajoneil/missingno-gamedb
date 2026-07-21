@@ -1,9 +1,18 @@
 (
     title: "Undersea Adventure (Adventure Hack)",
-    publisher: Some("Ronnie Dingman"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["563750257cbd571a23fd91182d2082120c0605c3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Ronnie Dingman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "563750257cbd571a23fd91182d2082120c0605c3",
+                ),
+            ],
+        ),
+    ],
 )

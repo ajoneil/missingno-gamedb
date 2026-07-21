@@ -1,9 +1,18 @@
 (
-    title: "Miss Piggy's Wedding (Prototype) (4K) [a]",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c6475034ad40189fbc868aab39ddc95ae62eaeaa"],
-    source: None,
+    title: "Miss Piggy\'s Wedding (Prototype) (4K) [a]",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c6475034ad40189fbc868aab39ddc95ae62eaeaa",
+                ),
+            ],
+        ),
+    ],
 )

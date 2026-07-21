@@ -1,9 +1,18 @@
 (
     title: "Air-Sea Battle (Hack) (4K)",
-    publisher: Some("4K"),
-    date: Some("1977"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["af5b9f33ccb7778b42957da4f20f2bc000992366"],
-    source: None,
+    releases: [
+        (
+            date: Some("1977"),
+            publisher: Some("4K"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "af5b9f33ccb7778b42957da4f20f2bc000992366",
+                ),
+            ],
+        ),
+    ],
 )

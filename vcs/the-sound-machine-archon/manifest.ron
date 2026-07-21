@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Archon",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4de84b488c8cc2cea394c3ba8b89184edaa169ae"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4de84b488c8cc2cea394c3ba8b89184edaa169ae",
+                ),
+            ],
+        ),
+    ],
 )

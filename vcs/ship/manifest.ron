@@ -1,9 +1,19 @@
 (
-    title: "Ship (WIP)",
-    publisher: Some("Kurt Woloch"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["730307f1f1b9e61ae0141ef248af42966adc11cf"],
-    source: None,
+    title: "Ship",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Kurt Woloch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "730307f1f1b9e61ae0141ef248af42966adc11cf",
+                ),
+            ],
+        ),
+    ],
 )

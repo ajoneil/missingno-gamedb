@@ -1,8 +1,17 @@
 (
     title: "Megademo (19xx) (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["9d95f08acc02777283f30ebea8658e8ab7587b9b"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d95f08acc02777283f30ebea8658e8ab7587b9b",
+                ),
+            ],
+        ),
+    ],
 )

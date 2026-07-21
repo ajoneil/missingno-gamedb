@@ -1,9 +1,34 @@
 (
     title: "Asterix",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["361a9d86a00cbfeef9d425d984b9215f8c6a12db", "ff31d885ea3d96850547fdb8978d12d0965a2c1f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a094f92e46a8127d9c29889b5389865561c0a6f",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "361a9d86a00cbfeef9d425d984b9215f8c6a12db",
+                ),
+                (
+                    sha1: "ff31d885ea3d96850547fdb8978d12d0965a2c1f",
+                ),
+            ],
+        ),
+    ],
 )

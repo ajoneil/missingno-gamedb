@@ -1,8 +1,17 @@
 (
     title: "20 Sprites at Once Demo 3 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7e32e1c47cc4fa4a19b90a46d1d3acb0295aedfd"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7e32e1c47cc4fa4a19b90a46d1d3acb0295aedfd",
+                ),
+            ],
+        ),
+    ],
 )

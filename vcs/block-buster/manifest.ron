@@ -1,9 +1,19 @@
 (
-    title: "Block Buster (WIP)",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0d5b9e0514160acdcd56b4ebd0c69407ba1e3bba"],
-    source: None,
+    title: "Block Buster",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Rick Skrbina"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d5b9e0514160acdcd56b4ebd0c69407ba1e3bba",
+                ),
+            ],
+        ),
+    ],
 )

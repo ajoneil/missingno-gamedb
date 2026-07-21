@@ -1,9 +1,18 @@
 (
     title: "Philly Flasher (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["44d33ed408c9ad1217f99cdb463ec3b112c4dcd4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "44d33ed408c9ad1217f99cdb463ec3b112c4dcd4",
+                ),
+            ],
+        ),
+    ],
 )

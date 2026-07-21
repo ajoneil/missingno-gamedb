@@ -1,9 +1,19 @@
 (
-    title: "Avalanche (WIP)",
-    publisher: Some("John W. Champeau"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8409e5069a8bbde6f2ca0f2d0cd1efb24f69606f"],
-    source: None,
+    title: "Avalanche",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("John W. Champeau"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8409e5069a8bbde6f2ca0f2d0cd1efb24f69606f",
+                ),
+            ],
+        ),
+    ],
 )

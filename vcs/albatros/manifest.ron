@@ -1,9 +1,18 @@
 (
     title: "Albatros",
-    publisher: Some("Bob Dodson"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["20349c2891ffafc2cf1e44011e237836905d05c0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Bob Dodson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "20349c2891ffafc2cf1e44011e237836905d05c0",
+                ),
+            ],
+        ),
+    ],
 )

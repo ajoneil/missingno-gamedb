@@ -1,9 +1,18 @@
 (
     title: "Save Mary! (Proto)",
-    publisher: Some("Atari"),
-    date: Some("1989"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["ecd8ef49ae23ddd3e10ec60839b95c8e7764ea27"],
-    source: None,
+    releases: [
+        (
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ecd8ef49ae23ddd3e10ec60839b95c8e7764ea27",
+                ),
+            ],
+        ),
+    ],
 )

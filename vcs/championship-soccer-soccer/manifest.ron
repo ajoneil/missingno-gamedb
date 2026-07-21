@@ -1,9 +1,18 @@
 (
     title: "Championship Soccer ~ Soccer",
-    publisher: Some("Atari"),
-    date: Some("1981"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["832283530f5dee332f29cf8c4854dd554f2030a0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "832283530f5dee332f29cf8c4854dd554f2030a0",
+                ),
+            ],
+        ),
+    ],
 )

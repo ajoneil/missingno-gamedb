@@ -1,9 +1,22 @@
 (
-    title: "Boxiz (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5871fb9dc0702021a55ca1687cc91ce05d9b7607", "715aba0b6f5f5342237aa83a35370bf3a3d0141a"],
-    source: None,
+    title: "Boxiz",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5871fb9dc0702021a55ca1687cc91ce05d9b7607",
+                ),
+                (
+                    sha1: "715aba0b6f5f5342237aa83a35370bf3a3d0141a",
+                ),
+            ],
+        ),
+    ],
 )

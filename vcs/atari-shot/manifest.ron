@@ -1,9 +1,18 @@
 (
     title: "Atari Shot (Carnival Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e96c283d7f514b9ed07d003cbf823c2ec43e3155"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e96c283d7f514b9ed07d003cbf823c2ec43e3155",
+                ),
+            ],
+        ),
+    ],
 )

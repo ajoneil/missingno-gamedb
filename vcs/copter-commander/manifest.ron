@@ -1,9 +1,18 @@
 (
     title: "Copter Commander",
-    publisher: Some("Andrew Ho"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ea57c5820efaf04c33c84ef61485fd1e6376defb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Andrew Ho"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ea57c5820efaf04c33c84ef61485fd1e6376defb",
+                ),
+            ],
+        ),
+    ],
 )

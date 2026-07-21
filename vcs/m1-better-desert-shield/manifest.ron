@@ -1,9 +1,18 @@
 (
     title: "M1 Better Desert Shield (Chopper Command Hack)",
-    publisher: Some("Fabventure2600"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3042549eb54ad8fa5a43f43b9faed6c176e01167"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fabventure2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3042549eb54ad8fa5a43f43b9faed6c176e01167",
+                ),
+            ],
+        ),
+    ],
 )

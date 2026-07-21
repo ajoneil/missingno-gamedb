@@ -1,9 +1,18 @@
 (
     title: "2600 Digital Clock [a1] (V x.xx) (PD)",
-    publisher: Some("Cracknell"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["51fdc89a5ab30a7909bcba1af47ea0c5d775af3b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Cracknell"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "51fdc89a5ab30a7909bcba1af47ea0c5d775af3b",
+                ),
+            ],
+        ),
+    ],
 )

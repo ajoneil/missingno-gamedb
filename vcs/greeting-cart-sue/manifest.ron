@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Sue",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2f14fc7c6afdd825f89d7479cb1b0bb919bc641a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f14fc7c6afdd825f89d7479cb1b0bb919bc641a",
+                ),
+            ],
+        ),
+    ],
 )

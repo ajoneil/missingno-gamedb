@@ -1,9 +1,18 @@
 (
     title: "I Robot [!] (Atari) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["426d22f71ed3155fdbf7ee68788cea91dd842bfb"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "426d22f71ed3155fdbf7ee68788cea91dd842bfb",
+                ),
+            ],
+        ),
+    ],
 )

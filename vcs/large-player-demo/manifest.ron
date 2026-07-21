@@ -1,9 +1,19 @@
 (
-    title: "Large Player Demo (WIP)",
-    publisher: Some("yuppicide"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f51be872fb82030d610c3efc53edea3a345c92b2"],
-    source: None,
+    title: "Large Player Demo",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("yuppicide"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f51be872fb82030d610c3efc53edea3a345c92b2",
+                ),
+            ],
+        ),
+    ],
 )

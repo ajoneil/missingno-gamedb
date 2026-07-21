@@ -1,9 +1,18 @@
 (
     title: "Binary Counter 32 bits",
-    publisher: Some("Omegamatrix"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1f6ca3dd8b2e17c65a017865e3b811a94443bacc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f6ca3dd8b2e17c65a017865e3b811a94443bacc",
+                ),
+            ],
+        ),
+    ],
 )

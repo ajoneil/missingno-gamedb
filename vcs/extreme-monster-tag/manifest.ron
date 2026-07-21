@@ -1,9 +1,18 @@
 (
     title: "Extreme Monster Tag (Malagai Hack)",
-    publisher: Some("Wade Casaldi"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c9799d2002f4221be6fd9756ad26220184ff6c33"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Wade Casaldi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c9799d2002f4221be6fd9756ad26220184ff6c33",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Bubba (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["959963031d6bc01495e4d9a70f46730acfc4597f"],
-    source: None,
+    title: "Bubba",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "959963031d6bc01495e4d9a70f46730acfc4597f",
+                ),
+            ],
+        ),
+    ],
 )

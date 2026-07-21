@@ -1,9 +1,31 @@
 (
     title: "Master Mind Deluxe",
-    publisher: Some("Cye Freeman"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["505ac8ef22e13ef89729de9153602e4402166cc4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Cye Freeman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0951854e958bdaa9bb63b5083adeb7f91da8d172",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Cye Freeman"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "505ac8ef22e13ef89729de9153602e4402166cc4",
+                ),
+            ],
+        ),
+    ],
 )

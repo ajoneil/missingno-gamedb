@@ -1,9 +1,19 @@
 (
-    title: "24 Characters Display Demo (WIP)",
-    publisher: Some("Bill Collins"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["07002c9e98c18d03ff96a9dd8539395cb7c7c02c"],
-    source: None,
+    title: "24 Characters Display Demo",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bill Collins"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "07002c9e98c18d03ff96a9dd8539395cb7c7c02c",
+                ),
+            ],
+        ),
+    ],
 )

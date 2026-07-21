@@ -1,9 +1,18 @@
 (
     title: "Hangman ~ Spelling",
-    publisher: Some("Atari"),
-    date: Some("1978"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["561bccf508e162bc70c42d85c170cf0d1d4691a3"],
-    source: None,
+    releases: [
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "561bccf508e162bc70c42d85c170cf0d1d4691a3",
+                ),
+            ],
+        ),
+    ],
 )

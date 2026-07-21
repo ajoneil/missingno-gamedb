@@ -1,9 +1,24 @@
 (
     title: "Dark Mage (PD) (4K)",
-    publisher: Some("Greg Troutman"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3457224389f8cdd870cb969c01ac9a98817ea987", "99fed088891b46abd19328479b72ea627c8891c3", "e58e06dce22f9041607ab3387efebefe2b3be85e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Greg Troutman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3457224389f8cdd870cb969c01ac9a98817ea987",
+                ),
+                (
+                    sha1: "99fed088891b46abd19328479b72ea627c8891c3",
+                ),
+                (
+                    sha1: "e58e06dce22f9041607ab3387efebefe2b3be85e",
+                ),
+            ],
+        ),
+    ],
 )

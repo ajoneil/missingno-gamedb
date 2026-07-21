@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Lisa from SCA",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4ee8b418e25945d59d3befc5510a46dd1fe2fdbb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4ee8b418e25945d59d3befc5510a46dd1fe2fdbb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,31 @@
 (
     title: "CompuMate",
-    publisher: Some("Spectravideo"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["d85daed1b5397a779e8832628979f5396650090d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1947b26419fadfc6b2c9b5d552fd3d2bd220bc61",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d85daed1b5397a779e8832628979f5396650090d",
+                ),
+            ],
+        ),
+    ],
 )

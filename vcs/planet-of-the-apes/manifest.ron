@@ -1,9 +1,21 @@
 (
     title: "Planet Of The Apes (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["608db458031414446fef54f6fae16ce6f8b24f56", "dcca30e4ae58c85a070f0c6cfaa4d27be2970d61"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "608db458031414446fef54f6fae16ce6f8b24f56",
+                ),
+                (
+                    sha1: "dcca30e4ae58c85a070f0c6cfaa4d27be2970d61",
+                ),
+            ],
+        ),
+    ],
 )

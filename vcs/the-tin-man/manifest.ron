@@ -1,9 +1,19 @@
 (
-    title: "The Tin Man (WIP)",
-    publisher: Some("Zufolek"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8e4cdca7df5cf505813056f5a1af2b41f35686c2"],
-    source: None,
+    title: "The Tin Man",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Zufolek"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e4cdca7df5cf505813056f5a1af2b41f35686c2",
+                ),
+            ],
+        ),
+    ],
 )

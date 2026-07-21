@@ -1,9 +1,19 @@
 (
-    title: "Fill-In (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["43f780cd9eaf2ab3abfc7195536fdb3e9de8632a"],
-    source: None,
+    title: "Fill-In",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "43f780cd9eaf2ab3abfc7195536fdb3e9de8632a",
+                ),
+            ],
+        ),
+    ],
 )

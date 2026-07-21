@@ -1,9 +1,19 @@
 (
-    title: "TankMaze (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f2ed88b5dc7e9c3e345c349af99e3c2128b2aeb4"],
-    source: None,
+    title: "TankMaze",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f2ed88b5dc7e9c3e345c349af99e3c2128b2aeb4",
+                ),
+            ],
+        ),
+    ],
 )

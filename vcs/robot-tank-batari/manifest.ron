@@ -1,7 +1,19 @@
 (
     title: "Robot Tank Batari (F8 Conversion)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["0fb4f5ccde82ecbecec319db43d171293cf54f36", "8c539af3f35169187849bdab3df8acdcc288e438"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0fb4f5ccde82ecbecec319db43d171293cf54f36",
+                ),
+                (
+                    sha1: "8c539af3f35169187849bdab3df8acdcc288e438",
+                ),
+            ],
+        ),
+    ],
 )

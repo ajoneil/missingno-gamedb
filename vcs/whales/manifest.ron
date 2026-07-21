@@ -1,9 +1,18 @@
 (
     title: "Whales",
-    publisher: Some("Home Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["a6a6d40807725e8695d26fed64464fc3a063c809"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a6a6d40807725e8695d26fed64464fc3a063c809",
+                ),
+            ],
+        ),
+    ],
 )

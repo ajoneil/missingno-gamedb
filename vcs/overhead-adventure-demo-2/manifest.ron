@@ -1,8 +1,17 @@
 (
     title: "Overhead Adventure Demo 2 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c1d096efb14b4da860d3ce8a991f758e5e1804a4"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c1d096efb14b4da860d3ce8a991f758e5e1804a4",
+                ),
+            ],
+        ),
+    ],
 )

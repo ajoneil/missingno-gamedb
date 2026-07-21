@@ -1,9 +1,19 @@
 (
-    title: "Fire One (WIP)",
-    publisher: Some("Bad Panda Bear"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["50e6ba2bf4a43ed9ce263c64c015c40d1fb9dc6c"],
-    source: None,
+    title: "Fire One",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Bad Panda Bear"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "50e6ba2bf4a43ed9ce263c64c015c40d1fb9dc6c",
+                ),
+            ],
+        ),
+    ],
 )

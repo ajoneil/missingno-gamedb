@@ -1,9 +1,18 @@
 (
     title: "Unknown Activision Game #1 (Prototype)",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5e66f6cc3f08b97ca76487a207c7bdec986c782d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e66f6cc3f08b97ca76487a207c7bdec986c782d",
+                ),
+            ],
+        ),
+    ],
 )

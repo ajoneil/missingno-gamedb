@@ -1,9 +1,19 @@
 (
-    title: "I Love Bacon (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["259a722db9e7eeb4c959589bc373ea8536d80822"],
-    source: None,
+    title: "I Love Bacon",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "259a722db9e7eeb4c959589bc373ea8536d80822",
+                ),
+            ],
+        ),
+    ],
 )

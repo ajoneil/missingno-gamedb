@@ -1,9 +1,18 @@
 (
-    title: "Rubik's Cube 3D Demo (Final) (08-01-2003)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["21c0491605bd064bb87cb4687a21a9ba1623fcb1"],
-    source: None,
+    title: "Rubik\'s Cube 3D Demo (Final) (08-01-2003)",
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "21c0491605bd064bb87cb4687a21a9ba1623fcb1",
+                ),
+            ],
+        ),
+    ],
 )

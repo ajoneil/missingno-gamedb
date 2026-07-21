@@ -1,8 +1,17 @@
 (
     title: "Fu Kung! - 2 Dancing Babies Demo (3F Bankswitching)",
-    publisher: Some("Andrew Davie"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["3797959e4a3236b6562ce15af7d96633f6720fc8"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3797959e4a3236b6562ce15af7d96633f6720fc8",
+                ),
+            ],
+        ),
+    ],
 )

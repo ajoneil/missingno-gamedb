@@ -1,9 +1,18 @@
 (
     title: "Pac-Man Vector (Ms. Pac-Man Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["e290145bf8293e5df69d1c9697dc53df4df90525"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e290145bf8293e5df69d1c9697dc53df4df90525",
+                ),
+            ],
+        ),
+    ],
 )

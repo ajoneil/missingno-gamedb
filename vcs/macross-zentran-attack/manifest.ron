@@ -1,9 +1,18 @@
 (
     title: "Macross - Zentran Attack! (Defender Hack)",
-    publisher: Some("Emilio J. Espinosa"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["44ee62b15dfaf1128ef35412b9fce1b2c7a3de26"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Emilio J. Espinosa"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "44ee62b15dfaf1128ef35412b9fce1b2c7a3de26",
+                ),
+            ],
+        ),
+    ],
 )

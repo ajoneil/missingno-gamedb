@@ -1,9 +1,63 @@
 (
-    title: "Hack 'Em - Hangly Man (Pesco Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["2fc062576765ee7c8ccb610be304c31e367c1636", "b22a442e890100a3168094a94026766e5747bbba"],
-    source: None,
+    title: "Hack \'Em - Hangly Man (Pesco Hack)",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9e52244d1265833511dc0251138358015ca398d4",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad57a565f665ffe286f62aa9cc6b3bf8d9482bcd",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2fc062576765ee7c8ccb610be304c31e367c1636",
+                ),
+                (
+                    sha1: "b22a442e890100a3168094a94026766e5747bbba",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "39c38bdb1bf0439198cb692db48f5e768fd04ec3",
+                ),
+                (
+                    sha1: "f31306c7502440ac4b64de1bcb5a3ee9dc1e7cba",
+                ),
+            ],
+        ),
+    ],
 )

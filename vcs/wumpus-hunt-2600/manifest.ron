@@ -1,9 +1,18 @@
 (
     title: "Wumpus Hunt 2600",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d8bab420d427600380a9a384b31d0f9656c44767"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8bab420d427600380a9a384b31d0f9656c44767",
+                ),
+            ],
+        ),
+    ],
 )

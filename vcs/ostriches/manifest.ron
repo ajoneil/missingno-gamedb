@@ -1,9 +1,19 @@
 (
-    title: "Ostriches! (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4ae692ff6351bca72692ae675b324824e1317b50"],
-    source: None,
+    title: "Ostriches!",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4ae692ff6351bca72692ae675b324824e1317b50",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,47 @@
 (
     title: "Cosmic Commuter",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["cab51fd58b7eec17726c5d45af5af9913b72dc57"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3717c97bbb0f547e4389db8fc954d1bad992444c",
+                ),
+                (
+                    sha1: "4cbe082f2248ce8cc632a78636ce8d486e76522c",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dad079e39b03110fe56ce0b727c8476de7dcf174",
+                ),
+            ],
+        ),
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cab51fd58b7eec17726c5d45af5af9913b72dc57",
+                ),
+            ],
+        ),
+    ],
 )

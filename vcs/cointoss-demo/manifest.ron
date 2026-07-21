@@ -1,9 +1,18 @@
 (
     title: "Cointoss Demo",
-    publisher: Some("Cye Freeman"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["e0cd0834e8f2314413f1985bff598ed981efa1f4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Cye Freeman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e0cd0834e8f2314413f1985bff598ed981efa1f4",
+                ),
+            ],
+        ),
+    ],
 )

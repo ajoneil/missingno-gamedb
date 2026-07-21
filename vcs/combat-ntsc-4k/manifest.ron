@@ -1,9 +1,18 @@
 (
     title: "Combat (4K)",
-    publisher: Some("Atari"),
-    date: Some("1977"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["daa962d0511531dffcbe808f786d0fbf310b567d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "daa962d0511531dffcbe808f786d0fbf310b567d",
+                ),
+            ],
+        ),
+    ],
 )

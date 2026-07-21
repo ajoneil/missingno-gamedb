@@ -1,8 +1,17 @@
 (
     title: "Championship Soccer (Hack) (32 in 1)",
-    publisher: Some("Bit Corporation"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["48b2127419d436b5902c7011af3cfcc56fdbfedf"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "48b2127419d436b5902c7011af3cfcc56fdbfedf",
+                ),
+            ],
+        ),
+    ],
 )

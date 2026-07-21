@@ -1,9 +1,19 @@
 (
-    title: "Jogo (WIP)",
-    publisher: Some("JorgeLiborinho"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["81f5bcdabd37f4c7c2ab7a9991e829459e200c60"],
-    source: None,
+    title: "Jogo",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("JorgeLiborinho"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "81f5bcdabd37f4c7c2ab7a9991e829459e200c60",
+                ),
+            ],
+        ),
+    ],
 )

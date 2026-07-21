@@ -1,9 +1,19 @@
 (
-    title: "Twird (WIP)",
-    publisher: Some("Jacco Mintjes"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["79a2ed1a4c964ce523f334fe2ef4c1295abfe0cb"],
-    source: None,
+    title: "Twird",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Jacco Mintjes"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "79a2ed1a4c964ce523f334fe2ef4c1295abfe0cb",
+                ),
+            ],
+        ),
+    ],
 )

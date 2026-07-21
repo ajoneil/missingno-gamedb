@@ -1,9 +1,18 @@
 (
     title: "Watery Scroll-Text Demo",
-    publisher: Some("Alex Herbert"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["99292ac81c82c021c8bc629030372ee2b31adb44"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Alex Herbert"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "99292ac81c82c021c8bc629030372ee2b31adb44",
+                ),
+            ],
+        ),
+    ],
 )

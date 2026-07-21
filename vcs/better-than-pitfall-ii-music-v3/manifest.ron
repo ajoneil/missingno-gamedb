@@ -1,9 +1,18 @@
 (
     title: "Better Than Pitfall II Music V3 (15.75 Khz)",
-    publisher: Some("John Payson"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["64d929a4459579716abbaf08583dc3fd33af31a6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "64d929a4459579716abbaf08583dc3fd33af31a6",
+                ),
+            ],
+        ),
+    ],
 )

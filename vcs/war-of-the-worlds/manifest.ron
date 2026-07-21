@@ -1,9 +1,18 @@
 (
     title: "War of The Worlds (Hack)",
-    publisher: Some("Kyle Pittman"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0432a50bd776a4cfdccf514d5a7875bd5d9f2293"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Kyle Pittman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0432a50bd776a4cfdccf514d5a7875bd5d9f2293",
+                ),
+            ],
+        ),
+    ],
 )

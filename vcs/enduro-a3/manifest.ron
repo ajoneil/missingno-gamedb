@@ -1,7 +1,16 @@
 (
     title: "Enduro [a3]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["932537cd225dde2aa22871a509b9485a3b5b0c5b"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "932537cd225dde2aa22871a509b9485a3b5b0c5b",
+                ),
+            ],
+        ),
+    ],
 )

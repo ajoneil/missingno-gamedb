@@ -1,9 +1,18 @@
 (
-    title: "Power Play Arcade Video Game Album V - Mogul Maniac, Surf's Up, Off Your Rocker, S.A.C. Alert (Prototype)",
-    publisher: Some("Amiga"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4e7b436b3a6ceae7f968f3534147b315a8d3cd9d"],
-    source: None,
+    title: "Power Play Arcade Video Game Album V - Mogul Maniac, Surf\'s Up, Off Your Rocker, S.A.C. Alert (Prototype)",
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Amiga"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e7b436b3a6ceae7f968f3534147b315a8d3cd9d",
+                ),
+            ],
+        ),
+    ],
 )

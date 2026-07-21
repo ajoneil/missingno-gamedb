@@ -1,9 +1,18 @@
 (
     title: "Solar Plexus",
-    publisher: Some("Jess Ragan"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f2ee5c72d3efdc633dcafbf87a8805e24efb5157"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Jess Ragan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f2ee5c72d3efdc633dcafbf87a8805e24efb5157",
+                ),
+            ],
+        ),
+    ],
 )

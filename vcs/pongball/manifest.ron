@@ -1,9 +1,18 @@
 (
     title: "Pongball (Video Pinball Hack)",
-    publisher: Some("Pacman3211"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2431a96ac7e09827368a6dd6bb5ac3a0bc3960d1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Pacman3211"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2431a96ac7e09827368a6dd6bb5ac3a0bc3960d1",
+                ),
+            ],
+        ),
+    ],
 )

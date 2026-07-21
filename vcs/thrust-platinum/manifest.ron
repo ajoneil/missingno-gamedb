@@ -1,9 +1,21 @@
 (
     title: "Thrust+ Platinum (v1.26)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["79e9d3a3e9bd8a8a9e4c7242c16cdfcccb1de1a2", "86cc258d2b5778ddc0ff403c67c3c5d6f29757f9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "79e9d3a3e9bd8a8a9e4c7242c16cdfcccb1de1a2",
+                ),
+                (
+                    sha1: "86cc258d2b5778ddc0ff403c67c3c5d6f29757f9",
+                ),
+            ],
+        ),
+    ],
 )

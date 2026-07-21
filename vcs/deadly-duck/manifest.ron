@@ -1,9 +1,21 @@
 (
     title: "Deadly Duck",
-    publisher: Some("20th Century Fox Video Games"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["68de291d5e9cbebfed72d2f9039e60581b6dbdc5", "dbbb1d872ed064df1a17679bb32eb00e7a9c0618"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "68de291d5e9cbebfed72d2f9039e60581b6dbdc5",
+                ),
+                (
+                    sha1: "dbbb1d872ed064df1a17679bb32eb00e7a9c0618",
+                ),
+            ],
+        ),
+    ],
 )

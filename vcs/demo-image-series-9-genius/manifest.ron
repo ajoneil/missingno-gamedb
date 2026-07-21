@@ -1,9 +1,18 @@
 (
     title: "Demo Image Series #9 - Genius (28-02-2003) (Andrew Davie)",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["08400e647b752d5b14f2ca382583d49978e433c3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "08400e647b752d5b14f2ca382583d49978e433c3",
+                ),
+            ],
+        ),
+    ],
 )

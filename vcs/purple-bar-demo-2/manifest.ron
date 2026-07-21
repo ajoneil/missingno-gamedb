@@ -1,8 +1,17 @@
 (
     title: "Purple Bar Demo 2 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dd9b35b1e9c56b11d94f956e61df4725cf7825f0"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd9b35b1e9c56b11d94f956e61df4725cf7825f0",
+                ),
+            ],
+        ),
+    ],
 )

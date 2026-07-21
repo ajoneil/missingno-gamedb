@@ -1,8 +1,17 @@
 (
-    title: "Pitfall! - Pitfall Harry's Jungle Adventure [a]",
-    publisher: Some("Funvision"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["461d91dee959958f9107f1d72e716a17af3c1c92"],
-    source: None,
+    title: "Pitfall! - Pitfall Harry\'s Jungle Adventure [a]",
+    releases: [
+        (
+            publisher: Some("Funvision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "461d91dee959958f9107f1d72e716a17af3c1c92",
+                ),
+            ],
+        ),
+    ],
 )

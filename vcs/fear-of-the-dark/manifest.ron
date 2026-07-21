@@ -1,9 +1,19 @@
 (
-    title: "Fear of the Dark (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["725af7a769cd4460f2b10a3f12b6815d5904c49a"],
-    source: None,
+    title: "Fear of the Dark",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "725af7a769cd4460f2b10a3f12b6815d5904c49a",
+                ),
+            ],
+        ),
+    ],
 )

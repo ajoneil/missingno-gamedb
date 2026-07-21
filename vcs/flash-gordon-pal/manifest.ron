@@ -1,9 +1,37 @@
 (
     title: "Flash Gordon",
-    publisher: Some("20th Century Fox"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["9df3f13e143a8f36095d5b751867baf822d04dca"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a744032454b6d88f64b32c60eb312d5d2a4c35b",
+                ),
+                (
+                    sha1: "c9675e6a52f4378e29ad9450103f86ca3eed6499",
+                ),
+                (
+                    sha1: "fb870ec3d51468fa4cf40e0efae9617e60c1c91c",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("20th Century Fox"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9df3f13e143a8f36095d5b751867baf822d04dca",
+                ),
+            ],
+        ),
+    ],
 )

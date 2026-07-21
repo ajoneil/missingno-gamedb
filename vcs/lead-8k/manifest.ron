@@ -1,9 +1,18 @@
 (
     title: "Lead 8K",
-    publisher: Some("Simone Serra"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["02e6c778a6dbda1e6bf55aaeb1db23f57367dee8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Simone Serra"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "02e6c778a6dbda1e6bf55aaeb1db23f57367dee8",
+                ),
+            ],
+        ),
+    ],
 )

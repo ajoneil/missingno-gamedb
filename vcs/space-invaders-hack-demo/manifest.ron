@@ -1,9 +1,18 @@
 (
     title: "Space Invaders Hack Demo (SnailSoft)",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b43aefe976ac27013a118e10c887fd1070adf3e8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b43aefe976ac27013a118e10c887fd1070adf3e8",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,27 @@
 (
-    title: "Hack 'Em (pre-release) [h] [Pesco - Daily Release 4]",
-    publisher: Some("Nukey Shay"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["18a3930f7929251c0f9c80940cad02f37ef1368f", "33a777ce3062cb9226d86ef6d7853e384808c2d8", "3c47d24485b650efb0ff83eef9b68d6d2265e35e", "ff96b9d3184ca1fdecb1c1c1b5effc2131de2772"],
-    source: None,
+    title: "Hack \'Em (pre-release) [h] [Pesco - Daily Release 4]",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Nukey Shay"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "18a3930f7929251c0f9c80940cad02f37ef1368f",
+                ),
+                (
+                    sha1: "33a777ce3062cb9226d86ef6d7853e384808c2d8",
+                ),
+                (
+                    sha1: "3c47d24485b650efb0ff83eef9b68d6d2265e35e",
+                ),
+                (
+                    sha1: "ff96b9d3184ca1fdecb1c1c1b5effc2131de2772",
+                ),
+            ],
+        ),
+    ],
 )

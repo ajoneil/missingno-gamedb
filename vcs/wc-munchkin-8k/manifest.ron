@@ -1,9 +1,18 @@
 (
     title: "WC Munchkin 8K (Pac-Man Hack)",
-    publisher: Some("Wade Casaldi"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["8fcfb75d1caa7f7e6906a3edd04beb79e36a0949"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Wade Casaldi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8fcfb75d1caa7f7e6906a3edd04beb79e36a0949",
+                ),
+            ],
+        ),
+    ],
 )

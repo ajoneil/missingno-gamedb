@@ -1,9 +1,19 @@
 (
-    title: "Rip Off (WIP)",
-    publisher: Some("John W. Champeau"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["7c4c68980aec1093c007ae714c5e3383d7d10a3b"],
-    source: None,
+    title: "Rip Off",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("John W. Champeau"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7c4c68980aec1093c007ae714c5e3383d7d10a3b",
+                ),
+            ],
+        ),
+    ],
 )

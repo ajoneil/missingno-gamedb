@@ -1,9 +1,18 @@
 (
     title: "Avalon (Adventure Hack)",
-    publisher: Some("Channel 2"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ce1ea96510c93bcb2273ffc9f653efbbd9a662f9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Channel 2"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ce1ea96510c93bcb2273ffc9f653efbbd9a662f9",
+                ),
+            ],
+        ),
+    ],
 )

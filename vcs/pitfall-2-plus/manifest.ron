@@ -1,9 +1,18 @@
 (
     title: "Pitfall 2 Plus (Hack)",
-    publisher: Some("Justin Lloyd"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC"),
-    hashes: ["7ad2f7a438c7680f22ea4cf2f45354c4d69b8a21"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Justin Lloyd"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7ad2f7a438c7680f22ea4cf2f45354c4d69b8a21",
+                ),
+            ],
+        ),
+    ],
 )

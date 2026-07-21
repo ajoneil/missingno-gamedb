@@ -1,9 +1,19 @@
 (
-    title: "Rebound (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ecaccaa07c0d32b686b6d8d7c02d8fddf874ab03"],
-    source: None,
+    title: "Rebound",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ecaccaa07c0d32b686b6d8d7c02d8fddf874ab03",
+                ),
+            ],
+        ),
+    ],
 )

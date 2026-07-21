@@ -1,9 +1,22 @@
 (
-    title: "Dodge It! Test (WIP)",
-    publisher: Some("Christian Giegerich"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1982ed1cf6388c7f7fabd0f33915eab5fbbb94df", "ab05b4944260fd81cb331b7530183994d6bd90d4"],
-    source: None,
+    title: "Dodge It! Test",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Christian Giegerich"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1982ed1cf6388c7f7fabd0f33915eab5fbbb94df",
+                ),
+                (
+                    sha1: "ab05b4944260fd81cb331b7530183994d6bd90d4",
+                ),
+            ],
+        ),
+    ],
 )

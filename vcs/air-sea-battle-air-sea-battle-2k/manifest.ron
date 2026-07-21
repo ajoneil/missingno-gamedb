@@ -1,9 +1,31 @@
 (
     title: "Air-Sea Battle - Air Sea Battle (Anti-Aircraft)",
-    publisher: Some("Atari"),
-    date: Some("1977"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["b96c7a509bf610f61f82377bfd506db3dba2b423"],
-    source: None,
+    releases: [
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b96c7a509bf610f61f82377bfd506db3dba2b423",
+                ),
+            ],
+        ),
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "055c7e4186626fdb022a89eb8d8c3078acb58112",
+                ),
+            ],
+        ),
+    ],
 )

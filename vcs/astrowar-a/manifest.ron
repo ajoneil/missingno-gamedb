@@ -1,7 +1,16 @@
 (
     title: "Astrowar [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0c7d0138431c95086e65d1cd4aa8f57c9f528bde"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0c7d0138431c95086e65d1cd4aa8f57c9f528bde",
+                ),
+            ],
+        ),
+    ],
 )

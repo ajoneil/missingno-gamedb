@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - WestonDHilton_2",
-    publisher: Some("Weston D Hilton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["a9e8c8fc0ad0474d93cb6e0a2fd733c8a98607eb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Weston D Hilton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a9e8c8fc0ad0474d93cb6e0a2fd733c8a98607eb",
+                ),
+            ],
+        ),
+    ],
 )

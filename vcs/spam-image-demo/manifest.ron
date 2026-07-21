@@ -1,8 +1,17 @@
 (
     title: "SPAM Image Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["83829476100d4435a066cd367d4ddab03b9fedd4"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "83829476100d4435a066cd367d4ddab03b9fedd4",
+                ),
+            ],
+        ),
+    ],
 )

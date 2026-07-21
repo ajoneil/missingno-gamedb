@@ -1,9 +1,18 @@
 (
     title: "Xmas 07 Demo",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d1c75f7125cf347a880f83c5f08b2205002c0f18"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d1c75f7125cf347a880f83c5f08b2205002c0f18",
+                ),
+            ],
+        ),
+    ],
 )

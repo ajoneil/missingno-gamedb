@@ -1,9 +1,18 @@
 (
     title: "Captain Quick (Superman Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["abf698ddefeaa6b695814422c253e445649dcbfe"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "abf698ddefeaa6b695814422c253e445649dcbfe",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Sound System - Demo Music",
-    publisher: Some("Richi_S"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f6fba587d4240b6c9e38ac47c13b8fcdc201e490"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Richi_S"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f6fba587d4240b6c9e38ac47c13b8fcdc201e490",
+                ),
+            ],
+        ),
+    ],
 )

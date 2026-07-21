@@ -1,9 +1,19 @@
 (
-    title: "Maze Craze 2 (WIP)",
-    publisher: Some("Fred Quimby"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["e3834a4e279d05407bbfa0356bea6455bdfbd520"],
-    source: None,
+    title: "Maze Craze 2",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fred Quimby"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e3834a4e279d05407bbfa0356bea6455bdfbd520",
+                ),
+            ],
+        ),
+    ],
 )

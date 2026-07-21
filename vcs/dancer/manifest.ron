@@ -1,9 +1,18 @@
 (
     title: "Dancer",
-    publisher: Some("Sarah Clark"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5e6b952a6440ceff572427adf300ea6900051183"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Sarah Clark"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e6b952a6440ceff572427adf300ea6900051183",
+                ),
+            ],
+        ),
+    ],
 )

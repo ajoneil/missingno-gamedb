@@ -1,9 +1,37 @@
 (
     title: "Reactor",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["14ae88f28293aa4e6325b414f6b6d3d9c96cf062", "c0079ca14e86da9f9cd6d8792890f7ffdb7c624b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5adf9b530321472380ebceb2539de2ffbb0310bc",
+                ),
+                (
+                    sha1: "c2c7eafa1826ea7a89727a1a59183ca60631abc2",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "14ae88f28293aa4e6325b414f6b6d3d9c96cf062",
+                ),
+                (
+                    sha1: "c0079ca14e86da9f9cd6d8792890f7ffdb7c624b",
+                ),
+            ],
+        ),
+    ],
 )

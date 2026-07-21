@@ -1,9 +1,18 @@
 (
-    title: "Year 1999, The",
-    publisher: Some("Rainbow Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a80ea7083615fc7560beecfc0e99fa78fa7eeef7"],
-    source: None,
+    title: "The Year 1999",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a80ea7083615fc7560beecfc0e99fa78fa7eeef7",
+                ),
+            ],
+        ),
+    ],
 )

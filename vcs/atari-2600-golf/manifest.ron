@@ -1,9 +1,18 @@
 (
     title: "Atari 2600 Golf (Golf Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["ab1c1899f50d38528228fb3421ab9fdf41ccea16"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ab1c1899f50d38528228fb3421ab9fdf41ccea16",
+                ),
+            ],
+        ),
+    ],
 )

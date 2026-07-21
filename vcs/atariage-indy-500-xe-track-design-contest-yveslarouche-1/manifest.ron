@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - YvesLarouche_1",
-    publisher: Some("Yves Larouche"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d80ebb77e16716ba02f524fb8f279dd994e8af2a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Yves Larouche"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d80ebb77e16716ba02f524fb8f279dd994e8af2a",
+                ),
+            ],
+        ),
+    ],
 )

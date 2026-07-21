@@ -1,9 +1,18 @@
 (
     title: "Edtris 2600 Music Toggle (Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3b66fff511676f4877d825aadf6b3c4cd20cef6d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b66fff511676f4877d825aadf6b3c4cd20cef6d",
+                ),
+            ],
+        ),
+    ],
 )

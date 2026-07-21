@@ -1,9 +1,19 @@
 (
-    title: "Pole Vault (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0e75a5ce1e7b1d00c1209ed566ca218fb5f776df"],
-    source: None,
+    title: "Pole Vault",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0e75a5ce1e7b1d00c1209ed566ca218fb5f776df",
+                ),
+            ],
+        ),
+    ],
 )

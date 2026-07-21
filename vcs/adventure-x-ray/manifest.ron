@@ -1,9 +1,18 @@
 (
     title: "Adventure X-ray (Adventure Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["b61d1bc63bdeb2fdddf8561c950db3f08188a6a8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b61d1bc63bdeb2fdddf8561c950db3f08188a6a8",
+                ),
+            ],
+        ),
+    ],
 )

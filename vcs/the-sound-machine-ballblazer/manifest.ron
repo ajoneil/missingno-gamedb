@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Ballblazer",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["870dc372602a1768c26a41ef91b40425471f2bf2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "870dc372602a1768c26a41ef91b40425471f2bf2",
+                ),
+            ],
+        ),
+    ],
 )

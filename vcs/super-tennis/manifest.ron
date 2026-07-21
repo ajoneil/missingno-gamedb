@@ -1,9 +1,21 @@
 (
     title: "Super Tennis",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["bab9297ee2baf770f4649b8555e52edf579d6191", "ed90365800db9467fda66462b9ac83eb04a40eab"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bab9297ee2baf770f4649b8555e52edf579d6191",
+                ),
+                (
+                    sha1: "ed90365800db9467fda66462b9ac83eb04a40eab",
+                ),
+            ],
+        ),
+    ],
 )

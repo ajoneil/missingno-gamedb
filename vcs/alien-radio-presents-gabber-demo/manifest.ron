@@ -1,9 +1,18 @@
 (
     title: "Alien Radio presents - Gabber Demo (128 bytes)",
-    publisher: Some("Simone Serra"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["9e60be5e6015653b21b2840328aaea38c2e0e520"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Simone Serra"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9e60be5e6015653b21b2840328aaea38c2e0e520",
+                ),
+            ],
+        ),
+    ],
 )

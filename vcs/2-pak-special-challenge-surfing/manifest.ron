@@ -1,9 +1,18 @@
 (
     title: "2 Pak Special - Challenge, Surfing",
-    publisher: Some("HES"),
-    date: Some("1990"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["05664dcc45d02ce585cd79d551c5c20fc2c7a833"],
-    source: None,
+    releases: [
+        (
+            date: Some("1990"),
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "05664dcc45d02ce585cd79d551c5c20fc2c7a833",
+                ),
+            ],
+        ),
+    ],
 )

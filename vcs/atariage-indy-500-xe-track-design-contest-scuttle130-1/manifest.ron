@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - Scuttle130_1",
-    publisher: Some("Scuttle130"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ebe489b2ab5b38b1880b854b22665fef9f6aca29"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scuttle130"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ebe489b2ab5b38b1880b854b22665fef9f6aca29",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Plops (WIP)",
-    publisher: Some("Nmoog"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dc3ec04f19a67e750f4405e97578c1bfeead1421"],
-    source: None,
+    title: "Plops",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Nmoog"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc3ec04f19a67e750f4405e97578c1bfeead1421",
+                ),
+            ],
+        ),
+    ],
 )

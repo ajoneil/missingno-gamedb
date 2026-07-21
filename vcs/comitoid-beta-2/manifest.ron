@@ -1,8 +1,17 @@
 (
     title: "Comitoid beta 2",
-    publisher: Some("SnailSoft"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["75c3898c6fbbe4bbf4bad50489b51f5926fb80e9"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("SnailSoft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "75c3898c6fbbe4bbf4bad50489b51f5926fb80e9",
+                ),
+            ],
+        ),
+    ],
 )

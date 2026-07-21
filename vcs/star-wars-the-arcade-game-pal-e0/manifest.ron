@@ -1,9 +1,37 @@
 (
     title: "Star Wars - The Arcade Game",
-    publisher: Some("Parker Brothers"),
-    date: Some("1984"),
-    tv_format: Some(Pal),
-    cart_type: Some("E0"),
-    hashes: ["914eb4529f5fa044516ba2cf5a606e847cbf0d15"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b184eac6a8a7494a6c055e8e6c83f77861913bd",
+                ),
+                (
+                    sha1: "8823fe3d8e3aeadc6b61ca51914e3b15aa13801c",
+                ),
+                (
+                    sha1: "e3c6f3dd4390fb60d88a05ef084947574d313ba5",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "914eb4529f5fa044516ba2cf5a606e847cbf0d15",
+                ),
+            ],
+        ),
+    ],
 )

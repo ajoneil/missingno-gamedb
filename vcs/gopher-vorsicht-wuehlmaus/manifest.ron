@@ -1,9 +1,18 @@
 (
     title: "Gopher - Vorsicht Wuehlmaus!",
-    publisher: Some("Carrere Video"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["af635cf27e7b7a6f400f59d23b4b0129ac3e874c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Carrere Video"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "af635cf27e7b7a6f400f59d23b4b0129ac3e874c",
+                ),
+            ],
+        ),
+    ],
 )

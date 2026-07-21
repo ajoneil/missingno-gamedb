@@ -1,9 +1,31 @@
 (
     title: "Street Racer ~ Speedway II",
-    publisher: Some("Atari"),
-    date: Some("1977"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["bffb3d41916c83398624151eb00aa2a3acd23ab8"],
-    source: None,
+    releases: [
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bffb3d41916c83398624151eb00aa2a3acd23ab8",
+                ),
+            ],
+        ),
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "89ce8dcd230efefc2277d6c2b8528b6f06624c40",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Airwolf Second Season (Laser Blast Hack)",
-    publisher: Some("Fabventure2600"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["e0596805d6f22209236e7e1179dec2274d99baa4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fabventure2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e0596805d6f22209236e7e1179dec2274d99baa4",
+                ),
+            ],
+        ),
+    ],
 )

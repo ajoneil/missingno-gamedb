@@ -1,9 +1,18 @@
 (
     title: "Lost Luggage (Airport Mayhem) [no opening scene and less points per suitcase]",
-    publisher: Some("Apollo"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7f03162fa0a3b08145e17d1de01208314ebf441f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f03162fa0a3b08145e17d1de01208314ebf441f",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,21 @@
 (
     title: "RAM-Pong (Paddle Controllers)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2009"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["2833584079ad8ca8bfc1f40b84913b3c0f351f70", "b31220419fec3e6607548914f96544ca1f1f59d8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2833584079ad8ca8bfc1f40b84913b3c0f351f70",
+                ),
+                (
+                    sha1: "b31220419fec3e6607548914f96544ca1f1f59d8",
+                ),
+            ],
+        ),
+    ],
 )

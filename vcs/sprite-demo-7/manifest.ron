@@ -1,8 +1,17 @@
 (
     title: "Sprite Demo 7 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["72f1d904d26b1abf984e00ec306e0d8cef9b60a8"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "72f1d904d26b1abf984e00ec306e0d8cef9b60a8",
+                ),
+            ],
+        ),
+    ],
 )

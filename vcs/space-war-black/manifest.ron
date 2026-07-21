@@ -1,9 +1,18 @@
 (
     title: "Space War Black (Space War Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["9557b02d29119f4751a3224cb0e80f4e37a596fa"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9557b02d29119f4751a3224cb0e80f4e37a596fa",
+                ),
+            ],
+        ),
+    ],
 )

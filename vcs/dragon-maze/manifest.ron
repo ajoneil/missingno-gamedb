@@ -1,9 +1,18 @@
 (
     title: "Dragon Maze (Jr. Pac-Man Hack)",
-    publisher: Some("Rabbit 2600"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["c90a81f8fbb94507c4f954d71e4336dd21d0c11c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rabbit 2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c90a81f8fbb94507c4f954d71e4336dd21d0c11c",
+                ),
+            ],
+        ),
+    ],
 )

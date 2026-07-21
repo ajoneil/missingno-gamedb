@@ -1,9 +1,18 @@
 (
     title: "Footballz (Football Hack)",
-    publisher: Some("Lord Mike"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["ef6ed09031799d2064404c1ce12b11e122e11733"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Lord Mike"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef6ed09031799d2064404c1ce12b11e122e11733",
+                ),
+            ],
+        ),
+    ],
 )

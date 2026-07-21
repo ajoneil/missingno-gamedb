@@ -1,9 +1,19 @@
 (
-    title: "Rally B (WIP)",
-    publisher: Some("Fred Quimby"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b1d838ea141cf85d41cd53444250584d795c390d"],
-    source: None,
+    title: "Rally B",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Fred Quimby"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b1d838ea141cf85d41cd53444250584d795c390d",
+                ),
+            ],
+        ),
+    ],
 )

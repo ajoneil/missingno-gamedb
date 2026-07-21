@@ -1,9 +1,18 @@
 (
     title: "DPC Music - Danube",
-    publisher: Some("Chris Walton"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC"),
-    hashes: ["a7dc11838c4551b2d2b5af33da0d758e5e4cdfa4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Walton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7dc11838c4551b2d2b5af33da0d758e5e4cdfa4",
+                ),
+            ],
+        ),
+    ],
 )

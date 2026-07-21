@@ -1,9 +1,18 @@
 (
     title: "Rol Out (Breakout Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1a2b0448a615dad396fa083334dd3f68a8ac05c3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a2b0448a615dad396fa083334dd3f68a8ac05c3",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "3-D Corridor Demo 2 (29-03-2003) (Manuel Rotschkar)",
-    publisher: Some("Polik"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8a503416ca6f2404bc52382e337f31238bba9534"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Polik"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a503416ca6f2404bc52382e337f31238bba9534",
+                ),
+            ],
+        ),
+    ],
 )

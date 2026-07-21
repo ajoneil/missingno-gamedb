@@ -1,9 +1,18 @@
 (
     title: "Dragon Knight (Donkey Kong Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b086db0ff4be42f1aa1307e0b3326fa64187cb61"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b086db0ff4be42f1aa1307e0b3326fa64187cb61",
+                ),
+            ],
+        ),
+    ],
 )

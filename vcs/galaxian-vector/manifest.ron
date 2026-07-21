@@ -1,9 +1,21 @@
 (
     title: "Galaxian Vector (Galaxian Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["0d4635dc0b351b5d328bb2750db3bfea82ba70bb", "66b6cc1225f158a97f4fcb0801ea6a346ba79c79"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d4635dc0b351b5d328bb2750db3bfea82ba70bb",
+                ),
+                (
+                    sha1: "66b6cc1225f158a97f4fcb0801ea6a346ba79c79",
+                ),
+            ],
+        ),
+    ],
 )

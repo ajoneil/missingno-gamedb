@@ -1,9 +1,19 @@
 (
-    title: "Cosmic Guerilla 2600 (WIP)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d0e67be2150812750d9f96859b4ea813c3fdcde1"],
-    source: None,
+    title: "Cosmic Guerilla 2600",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Manuel Rotschkar"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d0e67be2150812750d9f96859b4ea813c3fdcde1",
+                ),
+            ],
+        ),
+    ],
 )

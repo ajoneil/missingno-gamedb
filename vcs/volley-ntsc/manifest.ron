@@ -1,7 +1,16 @@
 (
     title: "Volley (Imagic International Games)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7f29b26b50dc3e5c5549e52faee09f83e2bbacf0"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f29b26b50dc3e5c5549e52faee09f83e2bbacf0",
+                ),
+            ],
+        ),
+    ],
 )

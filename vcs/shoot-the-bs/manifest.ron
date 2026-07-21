@@ -1,9 +1,19 @@
 (
-    title: "Shoot the Bs (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["8151cfd9c2d541c8e9c6973869df05d4b50c99cd"],
-    source: None,
+    title: "Shoot the Bs",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8151cfd9c2d541c8e9c6973869df05d4b50c99cd",
+                ),
+            ],
+        ),
+    ],
 )

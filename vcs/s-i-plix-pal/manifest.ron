@@ -1,9 +1,31 @@
 (
     title: "S.I.Plix (Skindiver Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["3dfd5395d9e4b7c55f6bc591201f6882a7f22ef2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4d8384301f3e0b7d187b2e4236940812a4561395",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3dfd5395d9e4b7c55f6bc591201f6882a7f22ef2",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,22 @@
 (
-    title: "Arcade Pong (Paddle Controllers) (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["924cf6c7248b9737e5049ca132e1d9a619d95046", "ba8b80d2b0ef1db0429d14bea7271c73f004a0b2"],
-    source: None,
+    title: "Arcade Pong (Paddle Controllers)",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "924cf6c7248b9737e5049ca132e1d9a619d95046",
+                ),
+                (
+                    sha1: "ba8b80d2b0ef1db0429d14bea7271c73f004a0b2",
+                ),
+            ],
+        ),
+    ],
 )

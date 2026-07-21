@@ -1,9 +1,19 @@
 (
-    title: "Snik The Horguehug (WIP)",
-    publisher: Some("Master_Programmer"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["9aad55d3bbebce280efe753122ec495f17170a61"],
-    source: None,
+    title: "Snik The Horguehug",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Master_Programmer"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9aad55d3bbebce280efe753122ec495f17170a61",
+                ),
+            ],
+        ),
+    ],
 )

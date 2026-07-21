@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - DuaneAlanHahn_2",
-    publisher: Some("Duane Alan Hahn"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5e32639ddc46d904699feb86a83af5ab825a5db4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Duane Alan Hahn"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e32639ddc46d904699feb86a83af5ab825a5db4",
+                ),
+            ],
+        ),
+    ],
 )

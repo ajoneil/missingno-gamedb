@@ -1,9 +1,18 @@
 (
     title: "Atar v0.2 (PD) (alpha)",
-    publisher: Some("Fort Apocalypse"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dcc57dec6b6cdd7fe89520008056ee5c17dcabdc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Fort Apocalypse"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dcc57dec6b6cdd7fe89520008056ee5c17dcabdc",
+                ),
+            ],
+        ),
+    ],
 )

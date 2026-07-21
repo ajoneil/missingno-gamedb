@@ -1,9 +1,31 @@
 (
     title: "Sound Coder Demo",
-    publisher: Some("Digital Sounds System"),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("F4"),
-    hashes: ["0d1d6e38db81b2f8ab2905b6691703f22acf5b92"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Digital Sounds System"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4f1f61029fb07ff68c747df9894de54c2f567e04",
+                ),
+            ],
+        ),
+        (
+            date: Some("2012"),
+            publisher: Some("Digital Sounds System"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d1d6e38db81b2f8ab2905b6691703f22acf5b92",
+                ),
+            ],
+        ),
+    ],
 )

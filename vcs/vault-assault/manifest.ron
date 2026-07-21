@@ -1,9 +1,18 @@
 (
     title: "Vault Assault (Unl)",
-    publisher: Some("Brian Prescott"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dce98883e813d77e03a5de975d4c52bfb34e7f77"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Brian Prescott"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dce98883e813d77e03a5de975d4c52bfb34e7f77",
+                ),
+            ],
+        ),
+    ],
 )

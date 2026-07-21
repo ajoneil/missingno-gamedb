@@ -1,8 +1,17 @@
 (
     title: "Topy (2600 Screen Search Console) (Jone Yuan Telephonic Enterprise Co)",
-    publisher: Some("Jone Yuan Telephonic Enterprise Co"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["59b5f61a8a6009a2ac9903fb3d72ee817fd849bb"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59b5f61a8a6009a2ac9903fb3d72ee817fd849bb",
+                ),
+            ],
+        ),
+    ],
 )

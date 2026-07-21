@@ -1,9 +1,19 @@
 (
-    title: "3D Racer 2600 (WIP)",
-    publisher: Some("Nati"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7eb7985cf7cc181e7f99e64ce04f989bc9ac39ae"],
-    source: None,
+    title: "3D Racer 2600",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Nati"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7eb7985cf7cc181e7f99e64ce04f989bc9ac39ae",
+                ),
+            ],
+        ),
+    ],
 )

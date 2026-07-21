@@ -1,9 +1,18 @@
 (
     title: "Spitfire Attack (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["28fd6ee892369442b87f62cdd6e32c401bfadf2a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "28fd6ee892369442b87f62cdd6e32c401bfadf2a",
+                ),
+            ],
+        ),
+    ],
 )

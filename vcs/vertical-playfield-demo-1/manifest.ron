@@ -1,8 +1,17 @@
 (
     title: "Vertical Playfield Demo 1 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3d021726537a4597bca641b76941fb197d643c61"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3d021726537a4597bca641b76941fb197d643c61",
+                ),
+            ],
+        ),
+    ],
 )

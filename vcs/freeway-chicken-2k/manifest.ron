@@ -1,9 +1,31 @@
 (
     title: "Freeway Chicken (32 in 1)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["37535b791a63c3e35d04ea0d14c0215680d71eda"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "37535b791a63c3e35d04ea0d14c0215680d71eda",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "48e69087591fe54380117f2c2ab74f8d65ffe977",
+                ),
+            ],
+        ),
+    ],
 )

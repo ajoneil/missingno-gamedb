@@ -1,9 +1,18 @@
 (
     title: "Im Reich der Spinne",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["b3374e03eac5b69e50e0c9574c567821e59da32e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b3374e03eac5b69e50e0c9574c567821e59da32e",
+                ),
+            ],
+        ),
+    ],
 )

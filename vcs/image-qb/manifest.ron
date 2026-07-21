@@ -1,9 +1,18 @@
 (
     title: "Image - Qb",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ba14c7f0266e2ebe8827b5d477a1b2f9410567c6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ba14c7f0266e2ebe8827b5d477a1b2f9410567c6",
+                ),
+            ],
+        ),
+    ],
 )

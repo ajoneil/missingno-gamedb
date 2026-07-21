@@ -1,9 +1,19 @@
 (
-    title: "DPC+ Super Mario Demo (WIP)",
-    publisher: Some("jbs30000"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC+"),
-    hashes: ["5c6007371e09250cd6fb8ad283b51ff79b0256e3"],
-    source: None,
+    title: "DPC+ Super Mario Demo",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("jbs30000"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5c6007371e09250cd6fb8ad283b51ff79b0256e3",
+                ),
+            ],
+        ),
+    ],
 )

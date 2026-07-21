@@ -1,9 +1,18 @@
 (
     title: "Diagnostic Test Cartridge 4.2 (06-01-1982)",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0fc39682299b17c7c25b06e35cf394002dfc9b05"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0fc39682299b17c7c25b06e35cf394002dfc9b05",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Star Wars - Ewok Adventure (Parker Bros) (Prototype)",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("E0"),
-    hashes: ["c9d201935bbe6373793241ba9c03cc02f1df31c9"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c9d201935bbe6373793241ba9c03cc02f1df31c9",
+                ),
+            ],
+        ),
+    ],
 )

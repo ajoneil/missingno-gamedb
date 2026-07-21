@@ -1,9 +1,18 @@
 (
     title: "Chuck Norris Superkicks",
-    publisher: Some("Telegames"),
-    date: Some("1988"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["1637b6b9cd1a918339ec054cf95b924e7ce4789a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1637b6b9cd1a918339ec054cf95b924e7ce4789a",
+                ),
+            ],
+        ),
+    ],
 )

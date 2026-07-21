@@ -1,9 +1,18 @@
 (
     title: "Space",
-    publisher: Some("Bastian Framke"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["803d1d5ec690d01ff17d56fbf3d885f24963a842"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Bastian Framke"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "803d1d5ec690d01ff17d56fbf3d885f24963a842",
+                ),
+            ],
+        ),
+    ],
 )

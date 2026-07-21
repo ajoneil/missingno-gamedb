@@ -1,9 +1,19 @@
 (
-    title: "Weightman (WIP)",
-    publisher: Some("donnerkuh"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["726c18ab0ce1c3dce6960f9bca54c84b894d19dc"],
-    source: None,
+    title: "Weightman",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("donnerkuh"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "726c18ab0ce1c3dce6960f9bca54c84b894d19dc",
+                ),
+            ],
+        ),
+    ],
 )

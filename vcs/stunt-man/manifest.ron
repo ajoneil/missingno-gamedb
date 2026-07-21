@@ -1,9 +1,18 @@
 (
     title: "Stunt Man",
-    publisher: Some("Panda"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3aec7ea8af72bbe105b9d2903a92f5ad2b37bddb"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Panda"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3aec7ea8af72bbe105b9d2903a92f5ad2b37bddb",
+                ),
+            ],
+        ),
+    ],
 )

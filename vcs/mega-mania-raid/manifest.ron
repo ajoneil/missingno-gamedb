@@ -1,9 +1,18 @@
 (
     title: "Mega Mania Raid (Hack)",
-    publisher: Some("Thiago Paiva"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8bfbdc7f8a8f244cebd74a480388dd611a52f770"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Thiago Paiva"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8bfbdc7f8a8f244cebd74a480388dd611a52f770",
+                ),
+            ],
+        ),
+    ],
 )

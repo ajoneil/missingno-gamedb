@@ -1,9 +1,18 @@
 (
     title: "S.I.PLIX 2 [a] (Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["95b7f70399af31b7bcd97a90c83c997bacd58942"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "95b7f70399af31b7bcd97a90c83c997bacd58942",
+                ),
+            ],
+        ),
+    ],
 )

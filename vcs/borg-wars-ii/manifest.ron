@@ -1,9 +1,21 @@
 (
     title: "Borg Wars II (Astroblast Hack)",
-    publisher: Some("Jack Kortkamp"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["04acf9aa75682edb1f6237eef0bf94a6d8d7d32a", "814d4992c6bec2279833a17fbac74dac51e1b675"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jack Kortkamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "04acf9aa75682edb1f6237eef0bf94a6d8d7d32a",
+                ),
+                (
+                    sha1: "814d4992c6bec2279833a17fbac74dac51e1b675",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Alligator People (Proto)",
-    publisher: Some("20th Century Fox"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a1795d6371ddb0bc93ba6df70299cc548dc88b99"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("20th Century Fox"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a1795d6371ddb0bc93ba6df70299cc548dc88b99",
+                ),
+            ],
+        ),
+    ],
 )

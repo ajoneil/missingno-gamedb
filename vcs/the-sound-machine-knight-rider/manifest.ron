@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Knight Rider",
-    publisher: Some("yuppicide"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["261fa1734ea8e4b33bf0de0771956803ce0163db"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("yuppicide"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "261fa1734ea8e4b33bf0de0771956803ce0163db",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Krezreb (Berzerk Hack)",
-    publisher: Some("Grant Thienemann"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["350e35e4aaa3090697c66fa914e8aa7e3f94dfbe"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Grant Thienemann"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "350e35e4aaa3090697c66fa914e8aa7e3f94dfbe",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Lander",
-    publisher: Some("Bastian Framke"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7b476e1d63eea2cb19a37a025ae782f7e5506add"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Bastian Framke"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7b476e1d63eea2cb19a37a025ae782f7e5506add",
+                ),
+            ],
+        ),
+    ],
 )

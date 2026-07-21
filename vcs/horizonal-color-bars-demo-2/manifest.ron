@@ -1,8 +1,17 @@
 (
     title: "Horizonal Color Bars Demo 2 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["539548e7d8aa9f1ae22d7e244028afabe1a004ce"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "539548e7d8aa9f1ae22d7e244028afabe1a004ce",
+                ),
+            ],
+        ),
+    ],
 )

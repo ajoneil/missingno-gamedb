@@ -1,9 +1,19 @@
 (
-    title: "Laserman (WIP)",
-    publisher: Some("Dan Iacovelli"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a3c7bc6f080c9e43edbf26292cb292f5a0e7b02e"],
-    source: None,
+    title: "Laserman",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Dan Iacovelli"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a3c7bc6f080c9e43edbf26292cb292f5a0e7b02e",
+                ),
+            ],
+        ),
+    ],
 )

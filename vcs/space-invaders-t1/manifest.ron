@@ -1,9 +1,18 @@
 (
     title: "Space Invaders [t1]",
-    publisher: Some("Atari"),
-    date: Some("1978"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e9404280eb921520ccc7e0dc57c92b854bf099a3"],
-    source: None,
+    releases: [
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e9404280eb921520ccc7e0dc57c92b854bf099a3",
+                ),
+            ],
+        ),
+    ],
 )

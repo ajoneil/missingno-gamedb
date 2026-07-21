@@ -1,9 +1,18 @@
 (
     title: "Atlantis (Hack) [a]",
-    publisher: Some("HES"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8eeb85d98e4319a23b76cccab925734b782dca8b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8eeb85d98e4319a23b76cccab925734b782dca8b",
+                ),
+            ],
+        ),
+    ],
 )

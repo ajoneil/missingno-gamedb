@@ -1,9 +1,18 @@
 (
     title: "BLiP Football",
-    publisher: Some("David Galloway"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["90a4ee1240d5ac08848e59eea698c3fc2ec6915b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("David Galloway"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "90a4ee1240d5ac08848e59eea698c3fc2ec6915b",
+                ),
+            ],
+        ),
+    ],
 )

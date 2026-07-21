@@ -1,9 +1,18 @@
 (
     title: "F-4 Supercharger",
-    publisher: Some("David Weavil"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0d3c50a249e9a6131d83a75e77b71c5fc7e7685a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d3c50a249e9a6131d83a75e77b71c5fc7e7685a",
+                ),
+            ],
+        ),
+    ],
 )

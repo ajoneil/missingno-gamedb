@@ -1,9 +1,18 @@
 (
     title: "Galaxian ND (Galaxian Hack)",
-    publisher: Some("Stefan Haddewig"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["bfeac764604550b6417786373e52413cbcefb86a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Stefan Haddewig"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bfeac764604550b6417786373e52413cbcefb86a",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Borg Wars IV - Berzerk - Borgwars Borgzerk! (Berzerk Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["de327656e7b808341d50524a0f11ca907b1c9b9b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de327656e7b808341d50524a0f11ca907b1c9b9b",
+                ),
+            ],
+        ),
+    ],
 )

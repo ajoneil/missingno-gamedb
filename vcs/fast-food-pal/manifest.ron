@@ -1,8 +1,49 @@
 (
     title: "Fast Food",
-    publisher: Some("Starsoft"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["3017342f592acc878f16ed41bdb2a9db5d554112", "8191514af62e280cd2261f9f2403eab6aae1c098", "b48bf14b4958362109068e525bc9c289a6817cb5"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "39a8aeb995ca7549262ec4a585cabfdbc59f9204",
+                ),
+                (
+                    sha1: "3efc8b1673af0446ec64749e7203c590d61b4d79",
+                ),
+                (
+                    sha1: "ae26b181c68d179b6c193167776b95a663c3a54f",
+                ),
+                (
+                    sha1: "c62a70645939480b184e3b2e378ec4bcbd484bc7",
+                ),
+                (
+                    sha1: "e79a3d05aec2f416479cf6dea57f11fee88d5e8c",
+                ),
+                (
+                    sha1: "ea3c5017e3a21e83abde0f4d1e75746b4c83b9ec",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Starsoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3017342f592acc878f16ed41bdb2a9db5d554112",
+                ),
+                (
+                    sha1: "8191514af62e280cd2261f9f2403eab6aae1c098",
+                ),
+                (
+                    sha1: "b48bf14b4958362109068e525bc9c289a6817cb5",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Test Shakescreen",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["fdb66a7cd2636a8a1d55b7a311b844cc0d6c6473"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Michael S. Rideout"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fdb66a7cd2636a8a1d55b7a311b844cc0d6c6473",
+                ),
+            ],
+        ),
+    ],
 )

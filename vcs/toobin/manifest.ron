@@ -1,9 +1,19 @@
 (
-    title: "Toobin (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["3ffd90b114d748ba67feed8ef187b9587dffa4b4"],
-    source: None,
+    title: "Toobin",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3ffd90b114d748ba67feed8ef187b9587dffa4b4",
+                ),
+            ],
+        ),
+    ],
 )

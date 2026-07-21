@@ -1,9 +1,18 @@
 (
     title: "Boing! [a2] (PD)",
-    publisher: Some("Rob Kudla"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dd75d2d70bc53ef334e9eafaa8fca9b902ad9d16"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Rob Kudla"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd75d2d70bc53ef334e9eafaa8fca9b902ad9d16",
+                ),
+            ],
+        ),
+    ],
 )

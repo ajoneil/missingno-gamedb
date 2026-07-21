@@ -1,9 +1,18 @@
 (
     title: "THX-1138 (Hack)",
-    publisher: Some("Kyle Pittman"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["853e29f5ab326869ed87beaa7378684930830237"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Kyle Pittman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "853e29f5ab326869ed87beaa7378684930830237",
+                ),
+            ],
+        ),
+    ],
 )

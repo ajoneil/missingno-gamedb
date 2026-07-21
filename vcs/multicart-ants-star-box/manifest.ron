@@ -1,9 +1,19 @@
 (
-    title: "Multicart - Ants, Star Box (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["4b29a0ea657a5839689cbd83cc48cd007d47aa18"],
-    source: None,
+    title: "Multicart - Ants, Star Box",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4b29a0ea657a5839689cbd83cc48cd007d47aa18",
+                ),
+            ],
+        ),
+    ],
 )

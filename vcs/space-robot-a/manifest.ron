@@ -1,7 +1,16 @@
 (
     title: "Space Robot [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["75d8ca98ce1f6a80f085363fd1f283259a69f0a9"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "75d8ca98ce1f6a80f085363fd1f283259a69f0a9",
+                ),
+            ],
+        ),
+    ],
 )

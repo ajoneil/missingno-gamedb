@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - pmitch_3m_1",
-    publisher: Some("pmitch_3m"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["88e20bf4e13b8561e7926f4a17a2f03a9033d5e9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("pmitch_3m"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "88e20bf4e13b8561e7926f4a17a2f03a9033d5e9",
+                ),
+            ],
+        ),
+    ],
 )

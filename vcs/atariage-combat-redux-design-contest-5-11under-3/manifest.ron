@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - 5-11under_3",
-    publisher: Some("5-11under"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["33ea613a81e2257ab143925d122ecbbf874633fc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("5-11under"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33ea613a81e2257ab143925d122ecbbf874633fc",
+                ),
+            ],
+        ),
+    ],
 )

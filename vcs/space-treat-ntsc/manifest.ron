@@ -1,8 +1,35 @@
 (
     title: "Space Treat (061002) (PD)",
-    publisher: Some("Fabrizio Zavagli"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["13c028abd3d6cbe30696810d96260794bf2f0e10", "3c5abbc2d7be8907d317782c8dacdc6405c841fc", "6f9fba30e2d88e024641739f0fe9885a6ca1139c", "78d614485e6f3b813640402b8ba7c2a823c5b977", "909248cd6968a84493b80e505d861fef1be00cd3", "9fa3426cd6b47f5d261becf532e830d78375670d", "fcea2e4d3fc9af34f964dda810895c241e4b92f3"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Fabrizio Zavagli"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13c028abd3d6cbe30696810d96260794bf2f0e10",
+                ),
+                (
+                    sha1: "3c5abbc2d7be8907d317782c8dacdc6405c841fc",
+                ),
+                (
+                    sha1: "6f9fba30e2d88e024641739f0fe9885a6ca1139c",
+                ),
+                (
+                    sha1: "78d614485e6f3b813640402b8ba7c2a823c5b977",
+                ),
+                (
+                    sha1: "909248cd6968a84493b80e505d861fef1be00cd3",
+                ),
+                (
+                    sha1: "9fa3426cd6b47f5d261becf532e830d78375670d",
+                ),
+                (
+                    sha1: "fcea2e4d3fc9af34f964dda810895c241e4b92f3",
+                ),
+            ],
+        ),
+    ],
 )

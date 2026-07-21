@@ -1,9 +1,40 @@
 (
     title: "Cookie Monster Munch",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["3e03319ac9fdb095ace67ca1586be2cd1dbbbf64", "d29eeda6f7b965552c7c425597a71562726289fe", "fd47df700820295ead34a9d9cf5c73eccf1101bd"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef8fa65cf4916932f19a6837a4fe657a7c317f17",
+                ),
+                (
+                    sha1: "f4a62ba0ff59803c5f40d59eeed1e126fe37979b",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e03319ac9fdb095ace67ca1586be2cd1dbbbf64",
+                ),
+                (
+                    sha1: "d29eeda6f7b965552c7c425597a71562726289fe",
+                ),
+                (
+                    sha1: "fd47df700820295ead34a9d9cf5c73eccf1101bd",
+                ),
+            ],
+        ),
+    ],
 )

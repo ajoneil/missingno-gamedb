@@ -1,9 +1,18 @@
 (
     title: "Asteroids White (Asteroids Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["7a5eb5d58c3917eaf5c72a9ef0ecd095c0896edf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7a5eb5d58c3917eaf5c72a9ef0ecd095c0896edf",
+                ),
+            ],
+        ),
+    ],
 )

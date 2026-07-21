@@ -1,9 +1,34 @@
 (
-    title: "Beat 'Em & Eat 'Em (Paddle)",
-    publisher: Some("Mystique"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8b7d6a0c5e14c52ddb18e7be7c84f45abef94bc0"],
-    source: None,
+    title: "Beat \'Em & Eat \'Em (Paddle)",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Dynacom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e8e334fa481698d0adb7f9cb7852e49ac462eb9",
+                ),
+                (
+                    sha1: "e2c29d0a73a4575028b62dca745476a17f07c8f0",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Mystique"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8b7d6a0c5e14c52ddb18e7be7c84f45abef94bc0",
+                ),
+            ],
+        ),
+    ],
 )

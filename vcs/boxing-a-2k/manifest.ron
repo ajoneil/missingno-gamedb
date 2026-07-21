@@ -1,9 +1,30 @@
 (
     title: "Boxing [a]",
-    publisher: Some("Activision"),
-    date: Some("1981"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["a74ab3e955d8f7656e977282636686632ba79648"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a74ab3e955d8f7656e977282636686632ba79648",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b9ea5794d7411a83b6a37916c7f54dff4aa6087",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
-    title: "Eckhard Stolberg's Scrolling Text Demo 1 (PD)",
-    publisher: Some("Stolberg"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7369e63f619a5ab549f3df6215c9a0773e32388d"],
-    source: None,
+    title: "Eckhard Stolberg\'s Scrolling Text Demo 1 (PD)",
+    releases: [
+        (
+            publisher: Some("Stolberg"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7369e63f619a5ab549f3df6215c9a0773e32388d",
+                ),
+            ],
+        ),
+    ],
 )

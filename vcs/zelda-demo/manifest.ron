@@ -1,9 +1,19 @@
 (
-    title: "Zelda Demo (WIP)",
-    publisher: Some("Master_Programmer"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC+"),
-    hashes: ["348fcdd33fce71a1017f3a36b54baef180317f9f"],
-    source: None,
+    title: "Zelda Demo",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Master_Programmer"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "348fcdd33fce71a1017f3a36b54baef180317f9f",
+                ),
+            ],
+        ),
+    ],
 )

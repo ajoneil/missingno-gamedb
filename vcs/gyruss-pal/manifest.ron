@@ -1,9 +1,37 @@
 (
     title: "Gyruss",
-    publisher: Some("Parker Brothers"),
-    date: Some("1984"),
-    tv_format: Some(Pal),
-    cart_type: Some("E0"),
-    hashes: ["598f710b7474ed6e4e7c13cc0294a4deba8faa87", "eb282e2a0bcc644afb65bf19544099a616d52193"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4bd87ba8b3b6d7850e3ea41b4d494c3b12659f27",
+                ),
+                (
+                    sha1: "a28ff706f0a3f44ad3f4dd7f31622e023bb9240c",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "598f710b7474ed6e4e7c13cc0294a4deba8faa87",
+                ),
+                (
+                    sha1: "eb282e2a0bcc644afb65bf19544099a616d52193",
+                ),
+            ],
+        ),
+    ],
 )

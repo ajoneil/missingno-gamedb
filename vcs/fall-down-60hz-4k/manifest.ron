@@ -1,9 +1,37 @@
 (
     title: "Fall Down [60Hz]",
-    publisher: Some("Curtis"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["32d1f492f2dea54bd9f79572343e5d26cff08920", "33096e61e08406bae8bd413672a213535bde470a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Curtis"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "32d1f492f2dea54bd9f79572343e5d26cff08920",
+                ),
+                (
+                    sha1: "33096e61e08406bae8bd413672a213535bde470a",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Curtis"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6bd3e8a401a8b60bc71035c608e229157f4ae376",
+                ),
+                (
+                    sha1: "8d9ad9bf2118e10504d798de029d35d1c23b0373",
+                ),
+            ],
+        ),
+    ],
 )

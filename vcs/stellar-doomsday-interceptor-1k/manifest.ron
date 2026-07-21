@@ -1,9 +1,18 @@
 (
     title: "Stellar Doomsday Interceptor 1K",
-    publisher: Some("John Payson"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["10fc3779239c6d7fe72064e9fd1e14b873c1dc8f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "10fc3779239c6d7fe72064e9fd1e14b873c1dc8f",
+                ),
+            ],
+        ),
+    ],
 )

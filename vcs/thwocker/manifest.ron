@@ -1,9 +1,18 @@
 (
     title: "Thwocker (Proto)",
-    publisher: Some("Activision"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("FE"),
-    hashes: ["53ee70d4b35ee3df3ffb95fa360bddb4f2f56ab2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "53ee70d4b35ee3df3ffb95fa360bddb4f2f56ab2",
+                ),
+            ],
+        ),
+    ],
 )

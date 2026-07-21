@@ -1,9 +1,18 @@
 (
     title: "Obelix [a]",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["be3f4beeb322cddc7223d6d77e17302aa811e43a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "be3f4beeb322cddc7223d6d77e17302aa811e43a",
+                ),
+            ],
+        ),
+    ],
 )

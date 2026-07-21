@@ -1,9 +1,18 @@
 (
     title: "Gas Hog - Piraten Schiff",
-    publisher: Some("Spectravideo"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["3696575988be6814b6c0eebab2285c471f94a127"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3696575988be6814b6c0eebab2285c471f94a127",
+                ),
+            ],
+        ),
+    ],
 )

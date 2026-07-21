@@ -1,9 +1,18 @@
 (
     title: "Deimos Lander Color",
-    publisher: Some("Jerason Banes"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["588d7e0b6a4ff5935432e387cf4b846962413eee"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Jerason Banes"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "588d7e0b6a4ff5935432e387cf4b846962413eee",
+                ),
+            ],
+        ),
+    ],
 )

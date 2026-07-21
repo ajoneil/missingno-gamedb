@@ -1,9 +1,18 @@
 (
     title: "Evil Eye Minigame (WIP) (2K)",
-    publisher: Some("David Weavil"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["ac0020900b7de6e4d41dc99e5a4703d402c5e306"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ac0020900b7de6e4d41dc99e5a4703d402c5e306",
+                ),
+            ],
+        ),
+    ],
 )

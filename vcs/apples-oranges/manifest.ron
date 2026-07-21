@@ -1,9 +1,19 @@
 (
-    title: "Apples & Oranges (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bdcf3d1bcbfc4877eeea2b0b11beb2eb67497493"],
-    source: None,
+    title: "Apples & Oranges",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bdcf3d1bcbfc4877eeea2b0b11beb2eb67497493",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,37 @@
 (
     title: "Conquest Of Mars",
-    publisher: Some("Champ Games"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["153013c758534569371afeeff2c5c61b2fb29703", "4fc02784eb16e7a0b667a3b2c14d1687aaf7d012"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Champ Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "519b352c2fa8495d2c00053e978306498d134b67",
+                ),
+                (
+                    sha1: "9ff196f1137be8deecf23448ebf817c060d2b595",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Champ Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "153013c758534569371afeeff2c5c61b2fb29703",
+                ),
+                (
+                    sha1: "4fc02784eb16e7a0b667a3b2c14d1687aaf7d012",
+                ),
+            ],
+        ),
+    ],
 )

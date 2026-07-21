@@ -1,9 +1,18 @@
 (
     title: "JKH Text Scrolling Demo (PD)",
-    publisher: Some("John K. Harvey"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["38173a0ace3fac84e78a47892f52b97e9076110b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("John K. Harvey"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "38173a0ace3fac84e78a47892f52b97e9076110b",
+                ),
+            ],
+        ),
+    ],
 )

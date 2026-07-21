@@ -1,7 +1,35 @@
 (
     title: "Turmoil",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["b68a455e7ec4abfaf1beb9056cafd52ac59e54c0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1162fe46977f01b4d25efab813e0d05ec90aeadc",
+                ),
+                (
+                    sha1: "1a6f2f86cb8843bf1754aaa97cb613a48a5f11cb",
+                ),
+                (
+                    sha1: "d80da540bb1fbbe5271e0742cf2f6aa60d71bd97",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b68a455e7ec4abfaf1beb9056cafd52ac59e54c0",
+                ),
+            ],
+        ),
+    ],
 )

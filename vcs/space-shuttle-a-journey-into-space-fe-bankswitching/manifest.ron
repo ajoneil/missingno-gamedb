@@ -1,9 +1,18 @@
 (
     title: "Space Shuttle - A Journey Into Space [FE bankswitching]",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("FE"),
-    hashes: ["8c905ec69e8831c18addc5f72a47323cd24c17bd"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8c905ec69e8831c18addc5f72a47323cd24c17bd",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Alienated - Bricks and Saucers (Space Invaders Hack)",
-    publisher: Some("William Pilgrim"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["986e09c878f6e8bbc05eca5eede91f37fe997e03"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("William Pilgrim"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "986e09c878f6e8bbc05eca5eede91f37fe997e03",
+                ),
+            ],
+        ),
+    ],
 )

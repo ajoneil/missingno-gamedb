@@ -1,9 +1,18 @@
 (
     title: "Star Fire - Cockpit View (10-10-2002)",
-    publisher: Some("MP"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["0e8a8bc9a166bd39b3a8ae887183d0351de43b2f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0e8a8bc9a166bd39b3a8ae887183d0351de43b2f",
+                ),
+            ],
+        ),
+    ],
 )

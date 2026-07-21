@@ -1,9 +1,18 @@
 (
     title: "Hard-Head (Proto)",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a25c4b33e1c86895cb63635bd6ca5b8379a206b3"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a25c4b33e1c86895cb63635bd6ca5b8379a206b3",
+                ),
+            ],
+        ),
+    ],
 )

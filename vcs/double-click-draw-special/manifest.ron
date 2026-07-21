@@ -1,9 +1,18 @@
 (
     title: "Double Click Draw Special",
-    publisher: Some("Duane Alan Hahn"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c2d03357f723dc3dd61d277dd3862bc2d9222c87"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Duane Alan Hahn"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c2d03357f723dc3dd61d277dd3862bc2d9222c87",
+                ),
+            ],
+        ),
+    ],
 )

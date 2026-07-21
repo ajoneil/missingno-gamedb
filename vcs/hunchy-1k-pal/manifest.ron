@@ -1,9 +1,31 @@
 (
     title: "Hunchy 1K",
-    publisher: Some("Chris Walton"),
-    date: Some("2005"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["c5d3a662cfc4c6a91f727607ba14c2b58527cb1b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Chris Walton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "834d66b8a6d3e52ef3a39626fe1a901ba408a05b",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Chris Walton"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c5d3a662cfc4c6a91f727607ba14c2b58527cb1b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Star Fire - Explosions! (10-10-2002)",
-    publisher: Some("MP"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["2c8ed062875b31edafd2a894edb195bde652ee54"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2c8ed062875b31edafd2a894edb195bde652ee54",
+                ),
+            ],
+        ),
+    ],
 )

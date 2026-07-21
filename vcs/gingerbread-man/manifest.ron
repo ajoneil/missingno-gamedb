@@ -1,9 +1,18 @@
 (
     title: "Gingerbread Man (Fred Quimby)",
-    publisher: Some("AtariAge"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("UA"),
-    hashes: ["8ad8a6033210ddab0e14b19b877025a0908d00a4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("AtariAge"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8ad8a6033210ddab0e14b19b877025a0908d00a4",
+                ),
+            ],
+        ),
+    ],
 )

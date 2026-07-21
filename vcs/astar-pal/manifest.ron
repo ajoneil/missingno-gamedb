@@ -1,9 +1,34 @@
 (
     title: "AStar",
-    publisher: Some("Aaron Curtis"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8aa62dd4597dbde5dcb0989bfde011726a90c879", "e43d7c38cc682295381de2c26b4ddf00f144de35"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Aaron Curtis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f5de65f920f628b39c728a6e64b4d57d5909bc1d",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Aaron Curtis"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8aa62dd4597dbde5dcb0989bfde011726a90c879",
+                ),
+                (
+                    sha1: "e43d7c38cc682295381de2c26b4ddf00f144de35",
+                ),
+            ],
+        ),
+    ],
 )

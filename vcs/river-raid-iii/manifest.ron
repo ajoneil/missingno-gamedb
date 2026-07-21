@@ -1,9 +1,18 @@
 (
     title: "River Raid III",
-    publisher: Some("Digitel"),
-    date: Some("1985"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cb1955c5552ce765b251b4c3ffbdec18d4c81ebb"],
-    source: None,
+    releases: [
+        (
+            date: Some("1985"),
+            publisher: Some("Digitel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cb1955c5552ce765b251b4c3ffbdec18d4c81ebb",
+                ),
+            ],
+        ),
+    ],
 )

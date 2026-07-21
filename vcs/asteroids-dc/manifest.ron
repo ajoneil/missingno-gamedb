@@ -1,9 +1,18 @@
 (
     title: "Asteroids DC+ (Hack)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["33ee35a5979bc17902dfbdea58af95b1c70980f8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33ee35a5979bc17902dfbdea58af95b1c70980f8",
+                ),
+            ],
+        ),
+    ],
 )

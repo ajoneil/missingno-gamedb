@@ -1,9 +1,19 @@
 (
-    title: "Combatari (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["a548496db779ede808184f754380dc88a1c0f344"],
-    source: None,
+    title: "Combatari",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a548496db779ede808184f754380dc88a1c0f344",
+                ),
+            ],
+        ),
+    ],
 )

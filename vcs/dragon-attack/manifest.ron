@@ -1,9 +1,19 @@
 (
-    title: "Dragon Attack (WIP)",
-    publisher: Some("Will Nicholes"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["0633e5281c700c1edcad8b2793025f0e381d7139"],
-    source: None,
+    title: "Dragon Attack",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Will Nicholes"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0633e5281c700c1edcad8b2793025f0e381d7139",
+                ),
+            ],
+        ),
+    ],
 )

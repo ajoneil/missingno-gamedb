@@ -1,9 +1,18 @@
 (
     title: "Ball-Crip",
-    publisher: Some("blueterrance"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["94f197d67452ecd2eba7073fc9d1d93bb0668511"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("blueterrance"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "94f197d67452ecd2eba7073fc9d1d93bb0668511",
+                ),
+            ],
+        ),
+    ],
 )

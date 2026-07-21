@@ -1,8 +1,17 @@
 (
     title: "Many Blue Bars Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3bab048b514bbcfbede7d3ff7977b8e45919b080"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3bab048b514bbcfbede7d3ff7977b8e45919b080",
+                ),
+            ],
+        ),
+    ],
 )

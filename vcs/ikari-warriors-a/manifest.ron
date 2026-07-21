@@ -1,9 +1,18 @@
 (
     title: "Ikari Warriors [a]",
-    publisher: Some("Atari"),
-    date: Some("1989"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["e5b9c3a3638bd42f96a26b651463da96a9432315"],
-    source: None,
+    releases: [
+        (
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e5b9c3a3638bd42f96a26b651463da96a9432315",
+                ),
+            ],
+        ),
+    ],
 )

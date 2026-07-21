@@ -1,9 +1,18 @@
 (
     title: "Donkey Kong Remix (Donkey Kong Hack) [a]",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["522bc84436822bc668824b462ac1515a3989b2ea"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "522bc84436822bc668824b462ac1515a3989b2ea",
+                ),
+            ],
+        ),
+    ],
 )

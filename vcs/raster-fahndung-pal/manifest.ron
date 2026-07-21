@@ -1,9 +1,31 @@
 (
     title: "Raster Fahndung",
-    publisher: Some("Simon Quernhorst"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["4079700236198b8993f96f8aac8471ea130e837a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Simon Quernhorst"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6bf84808d251b1f7cbd08d9410273e1c9017c72b",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Simon Quernhorst"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4079700236198b8993f96f8aac8471ea130e837a",
+                ),
+            ],
+        ),
+    ],
 )

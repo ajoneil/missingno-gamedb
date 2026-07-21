@@ -1,9 +1,19 @@
 (
-    title: "Alien Wolf Squisher (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["6ada5ffc9bee1e2648510835a26802c2d107b2e4"],
-    source: None,
+    title: "Alien Wolf Squisher",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6ada5ffc9bee1e2648510835a26802c2d107b2e4",
+                ),
+            ],
+        ),
+    ],
 )

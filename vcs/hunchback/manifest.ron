@@ -1,9 +1,18 @@
 (
     title: "Hunchback (Pac-Kong Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bc8ab0767e068d233f8e52d545496d0aaf40a31d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc8ab0767e068d233f8e52d545496d0aaf40a31d",
+                ),
+            ],
+        ),
+    ],
 )

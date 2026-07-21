@@ -1,9 +1,19 @@
 (
-    title: "batari Basic Kernel Demo (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c104ba458b4bedcfd23d2a3887e2b610d2b4d7a3"],
-    source: None,
+    title: "batari Basic Kernel Demo",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c104ba458b4bedcfd23d2a3887e2b610d2b4d7a3",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Cosmic War",
-    publisher: Some("Home Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["89b3389b8134fb9936b5e356e0bcef12e2bb4644"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "89b3389b8134fb9936b5e356e0bcef12e2bb4644",
+                ),
+            ],
+        ),
+    ],
 )

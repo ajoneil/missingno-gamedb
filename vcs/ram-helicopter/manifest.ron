@@ -1,9 +1,18 @@
 (
     title: "RAM Helicopter",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["e4c691c3981d3c8db5cd19a8e1824165bb63732c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Rick Skrbina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e4c691c3981d3c8db5cd19a8e1824165bb63732c",
+                ),
+            ],
+        ),
+    ],
 )

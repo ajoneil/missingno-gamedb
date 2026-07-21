@@ -1,9 +1,18 @@
 (
     title: "bBoulevard",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["66ff3314dedf5e95a9471b567ac62d54746dbef5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "66ff3314dedf5e95a9471b567ac62d54746dbef5",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,34 @@
 (
     title: "Frostbite - Expedition ins Eis (Iceman)",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["58a6f82434ccf49ca420596809ce9545373845a2", "8d0f5d60cb8fccd83bcbdbfe61b3cefbddeee7d6"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "58a6f82434ccf49ca420596809ce9545373845a2",
+                ),
+                (
+                    sha1: "8d0f5d60cb8fccd83bcbdbfe61b3cefbddeee7d6",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "daf2acebd2022f31894f5da1d1732149282eabce",
+                ),
+            ],
+        ),
+    ],
 )

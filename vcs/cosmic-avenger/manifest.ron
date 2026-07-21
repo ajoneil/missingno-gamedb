@@ -1,9 +1,18 @@
 (
     title: "Cosmic Avenger (4 Game in One)",
-    publisher: Some("Bit Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8276a9810f05658e1fb2c0c816457ad836612d85"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8276a9810f05658e1fb2c0c816457ad836612d85",
+                ),
+            ],
+        ),
+    ],
 )

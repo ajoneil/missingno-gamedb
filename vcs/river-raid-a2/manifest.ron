@@ -1,9 +1,18 @@
 (
     title: "River Raid [a2]",
-    publisher: Some("Activision"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c5fae19d9b7532accd2de9b0e92ff2b8e7838faa"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c5fae19d9b7532accd2de9b0e92ff2b8e7838faa",
+                ),
+            ],
+        ),
+    ],
 )

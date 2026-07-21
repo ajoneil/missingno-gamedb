@@ -1,8 +1,17 @@
 (
     title: "Vanguard (Rentacom)",
-    publisher: Some("Rentacom"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("UA"),
-    hashes: ["f48908b764f608c68bccd5c4e2f04bf4ad50fef5"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Rentacom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f48908b764f608c68bccd5c4e2f04bf4ad50fef5",
+                ),
+            ],
+        ),
+    ],
 )

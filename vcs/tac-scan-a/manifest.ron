@@ -1,7 +1,16 @@
 (
     title: "Tac-Scan [a]",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["cf64de1126fd41ba309eb157376c9b4c00f03a7b"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cf64de1126fd41ba309eb157376c9b4c00f03a7b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,31 @@
 (
     title: "Air-Sea Battle ~ Target Fun",
-    publisher: Some("Atari"),
-    date: Some("1977"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["a746fdc82b336a9d499bf17f50b41e0193ba595e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a746fdc82b336a9d499bf17f50b41e0193ba595e",
+                ),
+            ],
+        ),
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3897fc60585e420ae816a2db909400f6cbadd88",
+                ),
+            ],
+        ),
+    ],
 )

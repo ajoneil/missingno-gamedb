@@ -1,9 +1,18 @@
 (
     title: "Color Test (26-09-2002)",
-    publisher: Some("Eckhard Stolberg"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["27a781d8674a6ff07d42a98c75e3cb33f5d55188"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Eckhard Stolberg"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "27a781d8674a6ff07d42a98c75e3cb33f5d55188",
+                ),
+            ],
+        ),
+    ],
 )

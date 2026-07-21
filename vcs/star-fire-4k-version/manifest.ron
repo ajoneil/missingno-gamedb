@@ -1,9 +1,18 @@
 (
     title: "Star Fire - 4K Version (25-10-2002)",
-    publisher: Some("MP"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["112c79a22334717074b9f564fd5f374429616904"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "112c79a22334717074b9f564fd5f374429616904",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Super Soccer (Digivision)",
-    publisher: Some("Digivision"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["b7df23296af495bb453cefb8e92ed84e4bc45c14"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b7df23296af495bb453cefb8e92ed84e4bc45c14",
+                ),
+            ],
+        ),
+    ],
 )

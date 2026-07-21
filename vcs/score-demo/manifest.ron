@@ -1,7 +1,16 @@
 (
     title: "Score Demo (B. Watson)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d0dbda513450c90ffb442fa4abcf2f73b2f86724"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d0dbda513450c90ffb442fa4abcf2f73b2f86724",
+                ),
+            ],
+        ),
+    ],
 )

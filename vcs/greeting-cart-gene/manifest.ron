@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Gene",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c205dbd144c4ed7bfb13ab4166f6a35c865ec770"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c205dbd144c4ed7bfb13ab4166f6a35c865ec770",
+                ),
+            ],
+        ),
+    ],
 )

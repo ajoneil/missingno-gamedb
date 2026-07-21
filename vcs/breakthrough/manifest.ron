@@ -1,9 +1,19 @@
 (
-    title: "Breakthrough (WIP)",
-    publisher: Some("Zach Matley"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["26ff07d55800efc2cfb5a8c244420c25932c49d7"],
-    source: None,
+    title: "Breakthrough",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Zach Matley"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "26ff07d55800efc2cfb5a8c244420c25932c49d7",
+                ),
+            ],
+        ),
+    ],
 )

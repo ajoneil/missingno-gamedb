@@ -1,9 +1,18 @@
 (
     title: "Video Olympics (Paddle)",
-    publisher: Some("Atari"),
-    date: Some("1977"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["a91cf3f977d9ae0c505ef4e7b353ccdcb0bde56e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a91cf3f977d9ae0c505ef4e7b353ccdcb0bde56e",
+                ),
+            ],
+        ),
+    ],
 )

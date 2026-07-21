@@ -1,9 +1,18 @@
 (
     title: "Castlevania - Level 2 Music",
-    publisher: Some("thegoldenband"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5a0c77c3f2a2d54a40def39c492d0537deb00a0f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("thegoldenband"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5a0c77c3f2a2d54a40def39c492d0537deb00a0f",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Berzerk Arcade Small (Berzerk Hack)",
-    publisher: Some("Dennis Debro"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5daffc6eb656d69f44c0dc87d5acae475af49e02"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Dennis Debro"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5daffc6eb656d69f44c0dc87d5acae475af49e02",
+                ),
+            ],
+        ),
+    ],
 )

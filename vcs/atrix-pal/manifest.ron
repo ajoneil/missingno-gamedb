@@ -1,9 +1,31 @@
 (
     title: "Atrix (Ixion Hack)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["3a8dc18d6eceb9a2ae2fcb6531ea39cd84ae5775"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "26a9f08066cd35c2b726405fcc43b370a5d1260b",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3a8dc18d6eceb9a2ae2fcb6531ea39cd84ae5775",
+                ),
+            ],
+        ),
+    ],
 )

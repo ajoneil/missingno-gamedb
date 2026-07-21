@@ -1,9 +1,33 @@
 (
-    title: "Ballblazer (WIP)",
-    publisher: Some("roland p"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["283e6a9514128a813c571a308f73b7a62d467ce4"],
-    source: None,
+    title: "Ballblazer",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("roland p"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3f0ca9c1449b535a0800150ccf24b6e5219d5f2",
+                ),
+            ],
+        ),
+        (
+            date: Some("2009"),
+            publisher: Some("roland p"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "283e6a9514128a813c571a308f73b7a62d467ce4",
+                ),
+            ],
+        ),
+    ],
 )

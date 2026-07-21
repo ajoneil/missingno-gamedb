@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Cathy",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["66e1413f21e6bde05cdf3c11611613118e2326cb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "66e1413f21e6bde05cdf3c11611613118e2326cb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,21 @@
 (
     title: "Halloween (Prototype) [a]",
-    publisher: Some("Wizard Video Games"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7e760cdb6f2893aa24bff21675ab1e5c4864d0d7", "ecc609203c2e26ab20fbd92d13943fc1faed5ecb"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Wizard Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7e760cdb6f2893aa24bff21675ab1e5c4864d0d7",
+                ),
+                (
+                    sha1: "ecc609203c2e26ab20fbd92d13943fc1faed5ecb",
+                ),
+            ],
+        ),
+    ],
 )

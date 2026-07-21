@@ -1,9 +1,19 @@
 (
-    title: "Edris's Safari (WIP)",
-    publisher: Some("Forrest Hodges"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0951ea0b3a68507df445c0b659e14e1d4b320a65"],
-    source: None,
+    title: "Edris\'s Safari",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Forrest Hodges"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0951ea0b3a68507df445c0b659e14e1d4b320a65",
+                ),
+            ],
+        ),
+    ],
 )

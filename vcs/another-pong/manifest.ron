@@ -1,9 +1,19 @@
 (
-    title: "Another Pong (WIP)",
-    publisher: Some("Ivan Machado"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["92cee73dd7b72b237192b4d5684516b7f1bef8fd"],
-    source: None,
+    title: "Another Pong",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Ivan Machado"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "92cee73dd7b72b237192b4d5684516b7f1bef8fd",
+                ),
+            ],
+        ),
+    ],
 )

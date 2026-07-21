@@ -1,9 +1,18 @@
 (
     title: "DP Kong (Donkey Kong Hack) [a]",
-    publisher: Some("Keir Howell"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c2fad6c2fa1ccbd6358660b748dd54fe0a6e8689"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Keir Howell"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c2fad6c2fa1ccbd6358660b748dd54fe0a6e8689",
+                ),
+            ],
+        ),
+    ],
 )

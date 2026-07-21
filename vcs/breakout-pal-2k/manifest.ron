@@ -1,9 +1,31 @@
 (
     title: "Breakout (Paddle)",
-    publisher: Some("Atari"),
-    date: Some("1978"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["4d37ccf1d983917ff59659b78573d1430ad4f273"],
-    source: None,
+    releases: [
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4d37ccf1d983917ff59659b78573d1430ad4f273",
+                ),
+            ],
+        ),
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ac61d94308f29b95b93295c2e0b61354aaefcbf8",
+                ),
+            ],
+        ),
+    ],
 )

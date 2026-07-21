@@ -1,9 +1,18 @@
 (
     title: "Jawbreaker [a]",
-    publisher: Some("Tigervision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a6e5c519ca8ae36ca25a20663475abe7416fa24e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Tigervision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a6e5c519ca8ae36ca25a20663475abe7416fa24e",
+                ),
+            ],
+        ),
+    ],
 )

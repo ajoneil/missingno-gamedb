@@ -1,9 +1,18 @@
 (
     title: "Cosmic Bowling (Bowling Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["f2aca6a315f47ce96b4755f85d6a61cfd929b28b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f2aca6a315f47ce96b4755f85d6a61cfd929b28b",
+                ),
+            ],
+        ),
+    ],
 )

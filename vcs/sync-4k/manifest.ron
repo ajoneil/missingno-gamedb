@@ -1,9 +1,32 @@
 (
-    title: "Sync (WIP)",
-    publisher: Some("Simone Serra"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e4fd3faedd0db9603dfec5efb386de3c37578897"],
-    source: None,
+    title: "Sync",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Simone Serra"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "53ecd9d0c251ba6386a119c2fb871f15d77bef17",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Simone Serra"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e4fd3faedd0db9603dfec5efb386de3c37578897",
+                ),
+            ],
+        ),
+    ],
 )

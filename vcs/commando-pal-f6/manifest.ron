@@ -1,9 +1,44 @@
 (
     title: "Commando",
-    publisher: Some("Activision"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["de4a12036650577b544c2fc091b981f18f771e34"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "68a7cb3ff847cd987a551f3dd9cda5f90ce0a3bf",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984"),
+            publisher: Some("Edu Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eaa4bed3159a688a9873fd73c9efafa171c92aa4",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de4a12036650577b544c2fc091b981f18f771e34",
+                ),
+            ],
+        ),
+    ],
 )

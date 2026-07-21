@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Brooke Shields",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["989a39602f92de216855f257deb701dd5fed149f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "989a39602f92de216855f257deb701dd5fed149f",
+                ),
+            ],
+        ),
+    ],
 )

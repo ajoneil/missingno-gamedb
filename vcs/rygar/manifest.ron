@@ -1,9 +1,18 @@
 (
     title: "Rygar (Forest Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["ed57909c2fbf98c959adaad3cee4ebb8d6aab16d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ed57909c2fbf98c959adaad3cee4ebb8d6aab16d",
+                ),
+            ],
+        ),
+    ],
 )

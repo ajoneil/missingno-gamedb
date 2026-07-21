@@ -1,9 +1,18 @@
 (
     title: "bB Music - Main Theme Final",
-    publisher: Some("thegoldenband"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a80c657f748d70733dcebae9d9bf2fe48c5d4caf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("thegoldenband"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a80c657f748d70733dcebae9d9bf2fe48c5d4caf",
+                ),
+            ],
+        ),
+    ],
 )

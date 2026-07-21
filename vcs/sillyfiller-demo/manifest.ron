@@ -1,9 +1,18 @@
 (
     title: "SillyFiller Demo",
-    publisher: Some("Noice"),
-    date: Some("2010"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["cc968bea38dc5987aae04ec9f4466725ad292e01"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Noice"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cc968bea38dc5987aae04ec9f4466725ad292e01",
+                ),
+            ],
+        ),
+    ],
 )

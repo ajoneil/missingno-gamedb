@@ -1,9 +1,18 @@
 (
     title: "Official Frogger, The (9)",
-    publisher: Some("Starpath Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("AR"),
-    hashes: ["2295b1eb5d30698e0a3a49e959f2a65ae60b4154"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2295b1eb5d30698e0a3a49e959f2a65ae60b4154",
+                ),
+            ],
+        ),
+    ],
 )

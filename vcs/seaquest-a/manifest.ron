@@ -1,9 +1,18 @@
 (
     title: "Seaquest [a]",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2b434940d28cf8fe001e287c447e41e24d433ee4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b434940d28cf8fe001e287c447e41e24d433ee4",
+                ),
+            ],
+        ),
+    ],
 )

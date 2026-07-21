@@ -1,9 +1,18 @@
 (
     title: "War 2000",
-    publisher: Some("Home Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5cc122f10eb1a814d047404b462b325f51f35d2c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cc122f10eb1a814d047404b462b325f51f35d2c",
+                ),
+            ],
+        ),
+    ],
 )

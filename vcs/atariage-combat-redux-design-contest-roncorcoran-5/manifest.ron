@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - RonCorcoran_5",
-    publisher: Some("Ron Corcoran"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["388011c4234d5ec5010e1616b05d0422243e96a7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Ron Corcoran"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "388011c4234d5ec5010e1616b05d0422243e96a7",
+                ),
+            ],
+        ),
+    ],
 )

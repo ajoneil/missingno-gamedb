@@ -1,9 +1,18 @@
 (
     title: "Outlaw (32 in 1)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["24fd245aca5f355e0a93569759e56371469dd97d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "24fd245aca5f355e0a93569759e56371469dd97d",
+                ),
+            ],
+        ),
+    ],
 )

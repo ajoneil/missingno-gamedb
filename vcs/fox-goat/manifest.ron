@@ -1,9 +1,18 @@
 (
     title: "Fox & Goat (Double-Game Package)",
-    publisher: Some("Otto Versand"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["6ced6c763b9843c11af6c45ffa7ab9a295cc78bb"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Otto Versand"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6ced6c763b9843c11af6c45ffa7ab9a295cc78bb",
+                ),
+            ],
+        ),
+    ],
 )

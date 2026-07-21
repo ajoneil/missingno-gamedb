@@ -1,9 +1,19 @@
 (
-    title: "Matario Fireballs (WIP)",
-    publisher: Some("Matthew J. Risch"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a7e2a58c3816f75b1bfe328d38ef99b0b223bc9a"],
-    source: None,
+    title: "Matario Fireballs",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Matthew J. Risch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7e2a58c3816f75b1bfe328d38ef99b0b223bc9a",
+                ),
+            ],
+        ),
+    ],
 )

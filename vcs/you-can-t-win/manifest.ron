@@ -1,9 +1,19 @@
 (
-    title: "You Can't Win (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cf1a480af52fb64a6078c45940e46b370990b7f6"],
-    source: None,
+    title: "You Can\'t Win",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cf1a480af52fb64a6078c45940e46b370990b7f6",
+                ),
+            ],
+        ),
+    ],
 )

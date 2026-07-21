@@ -1,9 +1,18 @@
 (
     title: "Donkey Kong Missing Level (Donkey Kong Hack)",
-    publisher: Some("Fred Quimby"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["783b649d90bb3cb7b7d85302b7052111e751e9a1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Fred Quimby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "783b649d90bb3cb7b7d85302b7052111e751e9a1",
+                ),
+            ],
+        ),
+    ],
 )

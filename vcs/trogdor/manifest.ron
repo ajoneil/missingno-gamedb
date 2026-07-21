@@ -1,9 +1,18 @@
 (
     title: "Trogdor",
-    publisher: Some("Ben McMurray"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1a9fb802bbf9ad27ba852d967b483925d187eadc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Ben McMurray"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a9fb802bbf9ad27ba852d967b483925d187eadc",
+                ),
+            ],
+        ),
+    ],
 )

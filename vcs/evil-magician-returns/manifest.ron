@@ -1,9 +1,19 @@
 (
-    title: "Evil Magician Returns (WIP)",
-    publisher: Some("Byte Knight"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["0787d328426dc676b4085cf3cb83ed0ea3eda67e"],
-    source: None,
+    title: "Evil Magician Returns",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Byte Knight"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0787d328426dc676b4085cf3cb83ed0ea3eda67e",
+                ),
+            ],
+        ),
+    ],
 )

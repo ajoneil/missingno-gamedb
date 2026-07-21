@@ -1,9 +1,18 @@
 (
     title: "Drag Race BLUE (Dragster Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["b20a14f176563be624604b45b82a9e91a1b259a5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b20a14f176563be624604b45b82a9e91a1b259a5",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Sweat! - The Decathlon Game (Paddle) (13) (Prototype)",
-    publisher: Some("Starpath Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["709a413f7d83176c5e6a6a753308752aecd16923"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "709a413f7d83176c5e6a6a753308752aecd16923",
+                ),
+            ],
+        ),
+    ],
 )

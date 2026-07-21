@@ -1,9 +1,18 @@
 (
     title: "Pac-Man 4K 5200 Ghosts",
-    publisher: Some("Dennis Debro"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0fc138f9bb99a27684f8351b10342fe929a48c60"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Dennis Debro"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0fc138f9bb99a27684f8351b10342fe929a48c60",
+                ),
+            ],
+        ),
+    ],
 )

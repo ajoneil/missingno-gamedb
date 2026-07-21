@@ -1,9 +1,18 @@
 (
     title: "Asteroid 2 (Hack)",
-    publisher: Some("Atari Freak 1"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["fb5a6b5feca4bd64e39c18696d5469ead8b4b826"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Atari Freak 1"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fb5a6b5feca4bd64e39c18696d5469ead8b4b826",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Chronocolor Donkey Kong (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["eddfc0cc5fbc06806fbe8fa0a9158103d574486f"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eddfc0cc5fbc06806fbe8fa0a9158103d574486f",
+                ),
+            ],
+        ),
+    ],
 )

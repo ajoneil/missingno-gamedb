@@ -1,8 +1,17 @@
 (
     title: "Time Test Demo (Eckhard Stolberg) (PD)",
-    publisher: Some("Eckhard Stolberg"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["26ef0a5fd09c12985afdee0777dc60e053664337"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Eckhard Stolberg"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "26ef0a5fd09c12985afdee0777dc60e053664337",
+                ),
+            ],
+        ),
+    ],
 )

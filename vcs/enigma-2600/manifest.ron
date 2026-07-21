@@ -1,9 +1,18 @@
 (
     title: "Enigma 2600",
-    publisher: Some("Mark VandeWettering"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["e217b5871913edc88246c268e6662ec7f38ce002"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Mark VandeWettering"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e217b5871913edc88246c268e6662ec7f38ce002",
+                ),
+            ],
+        ),
+    ],
 )

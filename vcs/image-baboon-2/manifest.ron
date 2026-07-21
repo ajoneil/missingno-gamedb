@@ -1,9 +1,18 @@
 (
     title: "Image - Baboon 2",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["ab240b1ac21d202673f9d842c5fdec23a6e413c3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ab240b1ac21d202673f9d842c5fdec23a6e413c3",
+                ),
+            ],
+        ),
+    ],
 )

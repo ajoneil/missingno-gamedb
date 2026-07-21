@@ -1,9 +1,18 @@
 (
     title: "Alien Planet (Pitfall! Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2a9272106bd9027f50bc95ec3ff3cfbda879e842"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2a9272106bd9027f50bc95ec3ff3cfbda879e842",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Asymmetric Reflected Playfield",
-    publisher: Some("Glenn Saunders"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f6dfefb0496e169ab664a9e7799bf6e5f29174bc"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Glenn Saunders"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f6dfefb0496e169ab664a9e7799bf6e5f29174bc",
+                ),
+            ],
+        ),
+    ],
 )

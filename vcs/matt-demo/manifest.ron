@@ -1,8 +1,17 @@
 (
     title: "Matt Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["08fa443af44eb8602a013aec69534861a865c749"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "08fa443af44eb8602a013aec69534861a865c749",
+                ),
+            ],
+        ),
+    ],
 )

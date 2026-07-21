@@ -1,9 +1,21 @@
 (
     title: "Rabbit Transit",
-    publisher: Some("Arcadia Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["2271944cd9284b499a590cf9fca938560a741990", "81654cbd6a7262ce0f1abc385ed9adc323a9b6a6"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Arcadia Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2271944cd9284b499a590cf9fca938560a741990",
+                ),
+                (
+                    sha1: "81654cbd6a7262ce0f1abc385ed9adc323a9b6a6",
+                ),
+            ],
+        ),
+    ],
 )

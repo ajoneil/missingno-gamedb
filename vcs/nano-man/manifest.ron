@@ -1,9 +1,19 @@
 (
-    title: "Nano Man (WIP)",
-    publisher: Some("Matthew J. Risch"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["81251303581fd036373427da2600d0f81e8156f0"],
-    source: None,
+    title: "Nano Man",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Matthew J. Risch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "81251303581fd036373427da2600d0f81e8156f0",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,16 @@
 (
     title: "Infiltrate [a]",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["9e2b4035d64fc13347c880e1526cd24862e9c22f"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9e2b4035d64fc13347c880e1526cd24862e9c22f",
+                ),
+            ],
+        ),
+    ],
 )

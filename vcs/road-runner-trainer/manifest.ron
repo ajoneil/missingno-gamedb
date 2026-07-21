@@ -1,9 +1,18 @@
 (
     title: "Road Runner Trainer (Road Runner Hack)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["35299c3c20458d591ab4cd1e7b06c0a615938a45"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "35299c3c20458d591ab4cd1e7b06c0a615938a45",
+                ),
+            ],
+        ),
+    ],
 )

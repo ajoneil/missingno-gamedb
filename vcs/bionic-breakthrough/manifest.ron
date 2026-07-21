@@ -1,9 +1,21 @@
 (
     title: "Bionic Breakthrough (Headband - Super Breakout) (Mindlink Controller) (06-22-1984) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["eeed5312b62f9a5c2bce785956bd61c421dd4431", "f6a41507b8cf890ab7c59bb1424f0500534385ce"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eeed5312b62f9a5c2bce785956bd61c421dd4431",
+                ),
+                (
+                    sha1: "f6a41507b8cf890ab7c59bb1424f0500534385ce",
+                ),
+            ],
+        ),
+    ],
 )

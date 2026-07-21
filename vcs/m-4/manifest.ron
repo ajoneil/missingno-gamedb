@@ -1,9 +1,18 @@
 (
     title: "M-4",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e91bfd7b5bc763e1a68ebde56a9a9904f2166f07"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e91bfd7b5bc763e1a68ebde56a9a9904f2166f07",
+                ),
+            ],
+        ),
+    ],
 )

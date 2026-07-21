@@ -1,9 +1,19 @@
 (
-    title: "Sword of Iffrit (WIP)",
-    publisher: Some("rpgfaker"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ffc18c164cdd1cc395848d4ebaadf2a5f2caac60"],
-    source: None,
+    title: "Sword of Iffrit",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("rpgfaker"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ffc18c164cdd1cc395848d4ebaadf2a5f2caac60",
+                ),
+            ],
+        ),
+    ],
 )

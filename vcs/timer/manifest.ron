@@ -1,9 +1,18 @@
 (
     title: "Timer",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1a0142667bd8a14194680cfbde555e39892a2079"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Michael S. Rideout"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a0142667bd8a14194680cfbde555e39892a2079",
+                ),
+            ],
+        ),
+    ],
 )

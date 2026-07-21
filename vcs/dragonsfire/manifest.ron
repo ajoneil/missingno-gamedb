@@ -1,9 +1,18 @@
 (
     title: "Dragonsfire! (Fast Food Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["465dde2add806968816ff5eb9faaba9c80dd83db"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "465dde2add806968816ff5eb9faaba9c80dd83db",
+                ),
+            ],
+        ),
+    ],
 )

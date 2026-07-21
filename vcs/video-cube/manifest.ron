@@ -1,8 +1,17 @@
 (
     title: "Video Cube",
-    publisher: Some("CCE"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3f2ad3666eb713b20484e3677d8e1cac8fbd323e"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3f2ad3666eb713b20484e3677d8e1cac8fbd323e",
+                ),
+            ],
+        ),
+    ],
 )

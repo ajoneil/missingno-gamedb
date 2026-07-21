@@ -1,9 +1,18 @@
 (
     title: "Hanged Man, The (Hangman Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6bae69d3c182871e3905905e6e19b4c380849b70"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6bae69d3c182871e3905905e6e19b4c380849b70",
+                ),
+            ],
+        ),
+    ],
 )

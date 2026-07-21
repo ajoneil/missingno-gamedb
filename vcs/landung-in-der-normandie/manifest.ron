@@ -1,9 +1,18 @@
 (
     title: "Landung in der Normandie",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["e8baae84ff05b280b7123e940ac229142e0bdb2e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e8baae84ff05b280b7123e940ac229142e0bdb2e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Berzerkix (Berzerk Hack)",
-    publisher: Some("Fabventure2600"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["64e5a20154030589c031f17e8bd3041320ab1600"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fabventure2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "64e5a20154030589c031f17e8bd3041320ab1600",
+                ),
+            ],
+        ),
+    ],
 )

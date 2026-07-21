@@ -1,9 +1,19 @@
 (
-    title: "Plane (WIP)",
-    publisher: Some("Gonzalo Fernandez"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b52cff7f63781f4352f15803c47e88d7bdfbdb3b"],
-    source: None,
+    title: "Plane",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Gonzalo Fernandez"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b52cff7f63781f4352f15803c47e88d7bdfbdb3b",
+                ),
+            ],
+        ),
+    ],
 )

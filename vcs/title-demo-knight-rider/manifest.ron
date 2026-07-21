@@ -1,9 +1,18 @@
 (
     title: "Title Demo - Knight Rider",
-    publisher: Some("RevEng"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["951debf921b4ce141947a9c048d6efeedf485378"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("RevEng"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "951debf921b4ce141947a9c048d6efeedf485378",
+                ),
+            ],
+        ),
+    ],
 )

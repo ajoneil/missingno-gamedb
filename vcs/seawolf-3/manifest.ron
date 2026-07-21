@@ -1,9 +1,18 @@
 (
     title: "Seawolf 3 (Submarine Commander Beta) (03-23-1981) (Prototype)",
-    publisher: Some("Sears Tele-Games"),
-    date: Some("1981"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["b743d4d11a01d0253c14b1234a2205952a2a0ecf"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Sears Tele-Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b743d4d11a01d0253c14b1234a2205952a2a0ecf",
+                ),
+            ],
+        ),
+    ],
 )

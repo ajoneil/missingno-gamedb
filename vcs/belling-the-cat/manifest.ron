@@ -1,9 +1,19 @@
 (
-    title: "Belling the Cat (WIP)",
-    publisher: Some("Jacob Rose"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b42e9e1da70b12924377c3c62b834f5a81c6ae1e"],
-    source: None,
+    title: "Belling the Cat",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Jacob Rose"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b42e9e1da70b12924377c3c62b834f5a81c6ae1e",
+                ),
+            ],
+        ),
+    ],
 )

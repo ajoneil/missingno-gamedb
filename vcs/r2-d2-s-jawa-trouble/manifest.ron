@@ -1,9 +1,18 @@
 (
-    title: "R2-D2's Jawa Trouble (Infiltrate Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5f5f7f90021b1d8cf3e42bf42f7313d12e43f0d8"],
-    source: None,
+    title: "R2-D2\'s Jawa Trouble (Infiltrate Hack)",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5f5f7f90021b1d8cf3e42bf42f7313d12e43f0d8",
+                ),
+            ],
+        ),
+    ],
 )

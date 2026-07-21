@@ -1,9 +1,21 @@
 (
     title: "Malagai",
-    publisher: Some("Answer Software Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["094ce88dfd3d31fe88ddd9a770cf1a3c6de3514e", "cdc7e65d965a7a00adda1e8bedfbe6200e349497"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Answer Software Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "094ce88dfd3d31fe88ddd9a770cf1a3c6de3514e",
+                ),
+                (
+                    sha1: "cdc7e65d965a7a00adda1e8bedfbe6200e349497",
+                ),
+            ],
+        ),
+    ],
 )

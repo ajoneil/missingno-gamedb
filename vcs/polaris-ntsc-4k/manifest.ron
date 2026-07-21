@@ -1,9 +1,18 @@
 (
     title: "Polaris (02-17-1983) (Prototype) (4K)",
-    publisher: Some("Tigervision"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f17f83aa4141daa4bc0c0150469a7982871c0ebb"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Tigervision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f17f83aa4141daa4bc0c0150469a7982871c0ebb",
+                ),
+            ],
+        ),
+    ],
 )

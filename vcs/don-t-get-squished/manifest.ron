@@ -1,9 +1,19 @@
 (
-    title: "Don't Get Squished (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0330f56e30284cb534222cb0fb7c665592baa2b4"],
-    source: None,
+    title: "Don\'t Get Squished",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0330f56e30284cb534222cb0fb7c665592baa2b4",
+                ),
+            ],
+        ),
+    ],
 )

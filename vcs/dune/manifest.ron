@@ -1,9 +1,18 @@
 (
     title: "Dune (Proto)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["5e2b2d07dba3692db0ec0582b0a2cb4c2b6ad31f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e2b2d07dba3692db0ec0582b0a2cb4c2b6ad31f",
+                ),
+            ],
+        ),
+    ],
 )

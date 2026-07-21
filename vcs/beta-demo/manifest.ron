@@ -1,9 +1,18 @@
 (
     title: "Beta Demo (V1.1) (26-09-2002) (Manuel Rotschkar)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["de7c83491bb7b542471ca00d8302e7211ff3e502"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de7c83491bb7b542471ca00d8302e7211ff3e502",
+                ),
+            ],
+        ),
+    ],
 )

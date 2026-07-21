@@ -1,8 +1,17 @@
 (
     title: "Spectrum Color Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["58868dc06f568c8b46b4c17b9f1f677f678bda3e"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "58868dc06f568c8b46b4c17b9f1f677f678bda3e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Down The Chimney Test (WIP)",
-    publisher: Some("Christian Giegerich"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["93ff71eb8e35c3b85a9e0623da03637619350499"],
-    source: None,
+    title: "Down The Chimney Test",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Christian Giegerich"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "93ff71eb8e35c3b85a9e0623da03637619350499",
+                ),
+            ],
+        ),
+    ],
 )

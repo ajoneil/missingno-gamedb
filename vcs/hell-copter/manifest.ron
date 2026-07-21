@@ -1,9 +1,19 @@
 (
-    title: "Hell Copter (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5e44274d4315fb3c1d4f15212f2cd6fdf56b3163"],
-    source: None,
+    title: "Hell Copter",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e44274d4315fb3c1d4f15212f2cd6fdf56b3163",
+                ),
+            ],
+        ),
+    ],
 )

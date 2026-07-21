@@ -1,9 +1,18 @@
 (
     title: "Ventrra Invaders 2002 (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["41e070cdcd030a0b1e512c900451e8ab2a5cd22b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "41e070cdcd030a0b1e512c900451e8ab2a5cd22b",
+                ),
+            ],
+        ),
+    ],
 )

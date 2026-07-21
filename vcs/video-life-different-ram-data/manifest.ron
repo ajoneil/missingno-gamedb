@@ -1,9 +1,18 @@
 (
     title: "Video Life [different RAM data]",
-    publisher: Some("CommaVid"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("CV"),
-    hashes: ["19d4f52d399c2ab70e411be51b715341db7a41bf"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("CV"),
+            ),
+            artifacts: [
+                (
+                    sha1: "19d4f52d399c2ab70e411be51b715341db7a41bf",
+                ),
+            ],
+        ),
+    ],
 )

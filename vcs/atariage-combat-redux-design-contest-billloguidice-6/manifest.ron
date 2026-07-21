@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - BillLoguidice_6",
-    publisher: Some("Loguidice"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["1debfb41f17312ab86724a810e7ae381dfae4174"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Loguidice"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1debfb41f17312ab86724a810e7ae381dfae4174",
+                ),
+            ],
+        ),
+    ],
 )

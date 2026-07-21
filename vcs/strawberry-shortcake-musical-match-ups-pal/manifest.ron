@@ -1,9 +1,31 @@
 (
     title: "Strawberry Shortcake - Musical Match-Ups",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8df406604191aabe43d623d482ff5f38e6674634"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7ca8f9cd74cfa505c493757ff37bf127ff467bb4",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8df406604191aabe43d623d482ff5f38e6674634",
+                ),
+            ],
+        ),
+    ],
 )

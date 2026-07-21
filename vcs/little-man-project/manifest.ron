@@ -1,9 +1,19 @@
 (
-    title: "Little Man Project (WIP)",
-    publisher: Some("Robert Mundschau"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7639760248ec30868064ce981470f11817c85914"],
-    source: None,
+    title: "Little Man Project",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Robert Mundschau"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7639760248ec30868064ce981470f11817c85914",
+                ),
+            ],
+        ),
+    ],
 )

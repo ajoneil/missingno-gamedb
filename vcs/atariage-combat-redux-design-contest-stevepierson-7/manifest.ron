@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - StevePierson_7",
-    publisher: Some("Steve Pierson"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["89f75d4b93afcbc7ac4c485198b9ecb3fd55afaf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Steve Pierson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "89f75d4b93afcbc7ac4c485198b9ecb3fd55afaf",
+                ),
+            ],
+        ),
+    ],
 )

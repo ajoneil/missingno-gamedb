@@ -1,9 +1,18 @@
 (
     title: "Dodge Demo 4 (PD)",
-    publisher: Some("Junkosoft"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["079c375daf3fcde73fc8d0505be9e0f2ca543d96"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Junkosoft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "079c375daf3fcde73fc8d0505be9e0f2ca543d96",
+                ),
+            ],
+        ),
+    ],
 )

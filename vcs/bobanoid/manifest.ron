@@ -1,9 +1,19 @@
 (
-    title: "Bobanoid (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["da008c93a807171a8dbafd54ff6f28241196030a"],
-    source: None,
+    title: "Bobanoid",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "da008c93a807171a8dbafd54ff6f28241196030a",
+                ),
+            ],
+        ),
+    ],
 )

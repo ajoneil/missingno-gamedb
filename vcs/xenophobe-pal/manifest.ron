@@ -1,9 +1,31 @@
 (
     title: "Xenophobe",
-    publisher: Some("Atari"),
-    date: Some("1990"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["75039127cb7c53fa09d1c223729a4c5a521aedef"],
-    source: None,
+    releases: [
+        (
+            date: Some("1991"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "160b6e36437ad6acbc2686fbde1002e2fa88c5fb",
+                ),
+            ],
+        ),
+        (
+            date: Some("1990"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "75039127cb7c53fa09d1c223729a4c5a521aedef",
+                ),
+            ],
+        ),
+    ],
 )

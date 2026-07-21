@@ -1,7 +1,32 @@
 (
     title: "Snail Against Squirrel",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["11726fb712dd6526f8d096dfac608a370bbfbf78", "e7bf450cf3a3f40de9d24d89968a4bc89b53cb18"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8fac830a6453155c0525fc94108fb07d4c8506d8",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "11726fb712dd6526f8d096dfac608a370bbfbf78",
+                ),
+                (
+                    sha1: "e7bf450cf3a3f40de9d24d89968a4bc89b53cb18",
+                ),
+            ],
+        ),
+    ],
 )

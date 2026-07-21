@@ -1,9 +1,18 @@
 (
     title: "Bazooka Bill (Space Cavern  Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["77106f6ca4ab21a789b60cf7200cc92169ff380e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "77106f6ca4ab21a789b60cf7200cc92169ff380e",
+                ),
+            ],
+        ),
+    ],
 )

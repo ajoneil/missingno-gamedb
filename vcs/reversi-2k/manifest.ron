@@ -1,9 +1,31 @@
 (
     title: "Reversi (32 in 1)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["3073c74a375635946482f657d36719df1164444d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3073c74a375635946482f657d36719df1164444d",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7d961da2cc5a7fd9e8b13136db93ccd7d61e9373",
+                ),
+            ],
+        ),
+    ],
 )

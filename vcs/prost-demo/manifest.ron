@@ -1,9 +1,18 @@
 (
     title: "Prost Demo",
-    publisher: Some("Digital Sounds System"),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["0f06110a0ca657eb46fbae02ffd5a34a55fb26f3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Digital Sounds System"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0f06110a0ca657eb46fbae02ffd5a34a55fb26f3",
+                ),
+            ],
+        ),
+    ],
 )

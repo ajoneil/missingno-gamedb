@@ -1,7 +1,16 @@
 (
     title: "James Bond 007 Thomas Jentzsch (NTSC, F6)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["f4472788de446da7a73febfa18870cfe5cbb2a1f"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f4472788de446da7a73febfa18870cfe5cbb2a1f",
+                ),
+            ],
+        ),
+    ],
 )

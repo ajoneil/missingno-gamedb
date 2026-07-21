@@ -1,9 +1,18 @@
 (
     title: "Giant Pong (Video Olympics Hack)",
-    publisher: Some("Pacman3211"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["635faff0072a12da7113f9083cf6d40a0bfcdbdf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Pacman3211"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "635faff0072a12da7113f9083cf6d40a0bfcdbdf",
+                ),
+            ],
+        ),
+    ],
 )

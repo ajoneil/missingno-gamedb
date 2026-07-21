@@ -1,9 +1,44 @@
 (
     title: "Acid Drop",
-    publisher: Some("Salu"),
-    date: Some("1992"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["d7c62df8300a68b21ce672cfaa4d0f2f4b3d0ce1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2ad5e47e360842bb5f9c23bbe2c19866d890f427",
+                ),
+            ],
+        ),
+        (
+            date: Some("1992"),
+            publisher: Some("Salu"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d7c62df8300a68b21ce672cfaa4d0f2f4b3d0ce1",
+                ),
+            ],
+        ),
+        (
+            date: Some("1992"),
+            publisher: Some("Salu"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "66216ed98295f3fde35a0cc9398b4f2fc79f2375",
+                ),
+            ],
+        ),
+    ],
 )

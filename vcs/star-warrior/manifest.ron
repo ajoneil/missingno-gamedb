@@ -1,8 +1,17 @@
 (
     title: "Star Warrior",
-    publisher: Some("HES"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["08dee1498ef4009f17b6624e28d2871d53981ead"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "08dee1498ef4009f17b6624e28d2871d53981ead",
+                ),
+            ],
+        ),
+    ],
 )

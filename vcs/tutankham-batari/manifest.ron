@@ -1,7 +1,19 @@
 (
     title: "Tutankham Batari (F4 Conversion)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["3a68bd36baddfd0edf63cbe26710d168550e8239", "a4a1fc5aa53a76faa1b3d1ee64b81438b3f2da35"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3a68bd36baddfd0edf63cbe26710d168550e8239",
+                ),
+                (
+                    sha1: "a4a1fc5aa53a76faa1b3d1ee64b81438b3f2da35",
+                ),
+            ],
+        ),
+    ],
 )

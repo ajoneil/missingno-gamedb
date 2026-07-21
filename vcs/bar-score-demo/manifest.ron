@@ -1,9 +1,18 @@
 (
     title: "Bar-Score Demo",
-    publisher: Some("Roger Williams"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3fc2bc08711a8f7079fc21df854721f7fdb70586"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Roger Williams"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3fc2bc08711a8f7079fc21df854721f7fdb70586",
+                ),
+            ],
+        ),
+    ],
 )

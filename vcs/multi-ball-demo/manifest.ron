@@ -1,8 +1,17 @@
 (
     title: "Multi Ball Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d95d89e0e95403999ce6c667f82e575f5f6e19f4"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d95d89e0e95403999ce6c667f82e575f5f6e19f4",
+                ),
+            ],
+        ),
+    ],
 )

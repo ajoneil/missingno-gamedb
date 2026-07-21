@@ -1,9 +1,31 @@
 (
-    title: "Bump 'n' Jump",
-    publisher: Some("Telegames"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["35bc4048f58bb170313872a0bce44fb1ca3217cc"],
-    source: None,
+    title: "Bump \'n\' Jump",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E7"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f3a61be1e29b42c0675db51c01f80852ad31d915",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "35bc4048f58bb170313872a0bce44fb1ca3217cc",
+                ),
+            ],
+        ),
+    ],
 )

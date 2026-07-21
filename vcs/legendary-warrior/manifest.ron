@@ -1,9 +1,18 @@
 (
     title: "Legendary Warrior (Forest Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["37413ee51271c3e81901dad8d98062503e4dcd3e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "37413ee51271c3e81901dad8d98062503e4dcd3e",
+                ),
+            ],
+        ),
+    ],
 )

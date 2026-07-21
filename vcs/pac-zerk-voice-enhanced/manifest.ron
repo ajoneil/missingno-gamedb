@@ -1,9 +1,18 @@
 (
     title: "Pac-Zerk Voice Enhanced (Berzerk Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["a4b96778ebf420c1a4e783959ba074d36aa4579f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a4b96778ebf420c1a4e783959ba074d36aa4579f",
+                ),
+            ],
+        ),
+    ],
 )

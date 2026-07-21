@@ -1,9 +1,19 @@
 (
-    title: "Juno First 2K (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["45926c5518be627b78319a64d947e72c2699eb76"],
-    source: None,
+    title: "Juno First 2K",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "45926c5518be627b78319a64d947e72c2699eb76",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "A-Shoot (WIP)",
-    publisher: Some("BioForceApe"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a29af021ecc692499ad5cf2ecf04620e961d6fb0"],
-    source: None,
+    title: "A-Shoot",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("BioForceApe"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a29af021ecc692499ad5cf2ecf04620e961d6fb0",
+                ),
+            ],
+        ),
+    ],
 )

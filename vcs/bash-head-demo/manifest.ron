@@ -1,9 +1,18 @@
 (
     title: "Bash Head Demo",
-    publisher: Some("Jeff Wierer"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["59760b9744aa1e48ef1c66e5388e178ee26cd0cc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Jeff Wierer"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59760b9744aa1e48ef1c66e5388e178ee26cd0cc",
+                ),
+            ],
+        ),
+    ],
 )

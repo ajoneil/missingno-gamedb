@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - ChristopherAbles_1",
-    publisher: Some("Ables"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["51bc31a85c6512e412b5285953a8861aea000f70"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Ables"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "51bc31a85c6512e412b5285953a8861aea000f70",
+                ),
+            ],
+        ),
+    ],
 )

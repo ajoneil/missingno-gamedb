@@ -1,9 +1,19 @@
 (
-    title: "One Button Bob (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0c10115833059b3b78231e1621efb3b185bd00c5"],
-    source: None,
+    title: "One Button Bob",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0c10115833059b3b78231e1621efb3b185bd00c5",
+                ),
+            ],
+        ),
+    ],
 )

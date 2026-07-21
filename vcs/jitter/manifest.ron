@@ -1,9 +1,19 @@
 (
-    title: "Jitter (WIP)",
-    publisher: Some("Simone Serra"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b3955a5747dc47c89c7bee9c0dade49d0ebe826a"],
-    source: None,
+    title: "Jitter",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Simone Serra"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b3955a5747dc47c89c7bee9c0dade49d0ebe826a",
+                ),
+            ],
+        ),
+    ],
 )

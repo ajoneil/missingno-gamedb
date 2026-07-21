@@ -1,9 +1,18 @@
 (
     title: "Adventure Plus Warrior Sword (Adventure Hack)",
-    publisher: Some("Raiu"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9ba2d0d39e23e8b722d92b33786d822ff83fe50c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Raiu"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9ba2d0d39e23e8b722d92b33786d822ff83fe50c",
+                ),
+            ],
+        ),
+    ],
 )

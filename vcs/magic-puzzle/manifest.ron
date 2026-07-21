@@ -1,9 +1,18 @@
 (
     title: "Magic Puzzle",
-    publisher: Some("Goliath"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["081c52c3157e494c283ceb15effb61d5b2355a2f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "081c52c3157e494c283ceb15effb61d5b2355a2f",
+                ),
+            ],
+        ),
+    ],
 )

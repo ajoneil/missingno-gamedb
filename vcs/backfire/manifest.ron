@@ -1,9 +1,21 @@
 (
     title: "Backfire",
-    publisher: Some("Chad Lare"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["963cd89aa8f1aa17b76b9b0eebf8edb394ac9bea", "990ddb407e6b343f0790c1606abfd47a0380807d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Chad Lare"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "963cd89aa8f1aa17b76b9b0eebf8edb394ac9bea",
+                ),
+                (
+                    sha1: "990ddb407e6b343f0790c1606abfd47a0380807d",
+                ),
+            ],
+        ),
+    ],
 )

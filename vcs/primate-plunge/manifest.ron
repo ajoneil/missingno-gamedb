@@ -1,9 +1,19 @@
 (
-    title: "Primate Plunge (WIP)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["301610799c513167a0792d01275c46d3f5c869d1"],
-    source: None,
+    title: "Primate Plunge",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Steve Engelhardt"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "301610799c513167a0792d01275c46d3f5c869d1",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Dragons Den (Shield Shifter Hack)",
-    publisher: Some("Rabbit 2600"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7fae1b9ef8dd91b7b6320afa45701b603aafb435"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rabbit 2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7fae1b9ef8dd91b7b6320afa45701b603aafb435",
+                ),
+            ],
+        ),
+    ],
 )

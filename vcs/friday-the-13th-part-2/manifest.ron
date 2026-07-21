@@ -1,9 +1,18 @@
 (
     title: "Friday the 13th Part 2 (The Texas Chainsaw Massacre Hack)",
-    publisher: Some("Tim Martin"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0469a8e061db8820602a3d77e7c46f9a071664c7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Tim Martin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0469a8e061db8820602a3d77e7c46f9a071664c7",
+                ),
+            ],
+        ),
+    ],
 )

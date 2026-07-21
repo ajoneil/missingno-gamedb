@@ -1,9 +1,19 @@
 (
-    title: "Fat Eddie (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1584f7e2604b54ebb220dca60d38fe6442fb402c"],
-    source: None,
+    title: "Fat Eddie",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1584f7e2604b54ebb220dca60d38fe6442fb402c",
+                ),
+            ],
+        ),
+    ],
 )

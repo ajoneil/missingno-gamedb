@@ -1,9 +1,18 @@
 (
     title: "2 Pak Special - Space Voyage, Fire Alert",
-    publisher: Some("HES"),
-    date: Some("1992"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["6ad5c412304ef92af37ede1d8fe42ec484dac004"],
-    source: None,
+    releases: [
+        (
+            date: Some("1992"),
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6ad5c412304ef92af37ede1d8fe42ec484dac004",
+                ),
+            ],
+        ),
+    ],
 )

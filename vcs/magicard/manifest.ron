@@ -1,9 +1,21 @@
 (
     title: "MagiCard",
-    publisher: Some("Computer Magic"),
-    date: Some("1981"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("CV"),
-    hashes: ["124dc2aaed365809342075f2ddb3001f2aa78f4a", "4c66b84ab0d25e46729bbcf23f985d59ca8520ad"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Computer Magic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("CV"),
+            ),
+            artifacts: [
+                (
+                    sha1: "124dc2aaed365809342075f2ddb3001f2aa78f4a",
+                ),
+                (
+                    sha1: "4c66b84ab0d25e46729bbcf23f985d59ca8520ad",
+                ),
+            ],
+        ),
+    ],
 )

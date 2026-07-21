@@ -1,9 +1,18 @@
 (
     title: "Venture (Prototype) (2K)",
-    publisher: Some("Coleco"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["71fc0cf5caad1ceac6c3923cfeb450b28a29a828"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "71fc0cf5caad1ceac6c3923cfeb450b28a29a828",
+                ),
+            ],
+        ),
+    ],
 )

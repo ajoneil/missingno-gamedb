@@ -1,9 +1,19 @@
 (
-    title: "Rollerball (WIP)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["7dbc4663506d335421cf02a7742529dab0db6f5f"],
-    source: None,
+    title: "Rollerball",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Steve Engelhardt"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7dbc4663506d335421cf02a7742529dab0db6f5f",
+                ),
+            ],
+        ),
+    ],
 )

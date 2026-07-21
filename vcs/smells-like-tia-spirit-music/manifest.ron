@@ -1,9 +1,18 @@
 (
     title: "Smells Like TIA Spirit Music",
-    publisher: Some("Atari Senior Riot"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3403a2ebd38652b853738c5891e9f0de8e5658e5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Atari Senior Riot"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3403a2ebd38652b853738c5891e9f0de8e5658e5",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Maze Game (WIP)",
-    publisher: Some("Primordial Ooze"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0074bb3793ff5d4bb64866ad63d610d070f865cb"],
-    source: None,
+    title: "Maze Game",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Primordial Ooze"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0074bb3793ff5d4bb64866ad63d610d070f865cb",
+                ),
+            ],
+        ),
+    ],
 )

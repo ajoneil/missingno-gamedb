@@ -1,9 +1,18 @@
 (
     title: "Galaxian Targ (Targ Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["45fd3f8618dea9df79c01076089726bb40ec6a08"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "45fd3f8618dea9df79c01076089726bb40ec6a08",
+                ),
+            ],
+        ),
+    ],
 )

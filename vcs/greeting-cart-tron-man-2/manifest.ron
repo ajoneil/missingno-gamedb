@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Tron-Man 2",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e26da228f4b0b403436b376e2172c8f07aa5ac78"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e26da228f4b0b403436b376e2172c8f07aa5ac78",
+                ),
+            ],
+        ),
+    ],
 )

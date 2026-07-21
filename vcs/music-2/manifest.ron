@@ -1,9 +1,18 @@
 (
     title: "Music 2",
-    publisher: Some("rpgfaker"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["01bb21714ebfae1e989ebb9bddb93c2b434da18a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("rpgfaker"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "01bb21714ebfae1e989ebb9bddb93c2b434da18a",
+                ),
+            ],
+        ),
+    ],
 )

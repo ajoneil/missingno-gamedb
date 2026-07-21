@@ -1,9 +1,18 @@
 (
     title: "Private Eye [a] (Activision)",
-    publisher: Some("Activision"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["84906b166631e626e35803e07bfb95ec33ab98d8"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "84906b166631e626e35803e07bfb95ec33ab98d8",
+                ),
+            ],
+        ),
+    ],
 )

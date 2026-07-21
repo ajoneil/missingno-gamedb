@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - RyanWinchester_2",
-    publisher: Some("Ryan Winchester"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["ca5e4fd5ab588691820978c4dd6c101067d060fa"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Ryan Winchester"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ca5e4fd5ab588691820978c4dd6c101067d060fa",
+                ),
+            ],
+        ),
+    ],
 )

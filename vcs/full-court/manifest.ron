@@ -1,9 +1,18 @@
 (
     title: "Full Court! (Basketball Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["50da91a6c2c585f270270b4b677d38bd7944382b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "50da91a6c2c585f270270b4b677d38bd7944382b",
+                ),
+            ],
+        ),
+    ],
 )

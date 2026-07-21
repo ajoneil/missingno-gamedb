@@ -1,9 +1,18 @@
 (
     title: "Crazy Ski",
-    publisher: Some("Home Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["386d3acb23b972859c4b8f45d9d227ab761f6ae6"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "386d3acb23b972859c4b8f45d9d227ab761f6ae6",
+                ),
+            ],
+        ),
+    ],
 )

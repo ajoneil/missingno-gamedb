@@ -1,8 +1,17 @@
 (
     title: "MegaBoy (Dynacom)",
-    publisher: Some("Dynacom"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F0"),
-    hashes: ["46977baf0e1ee6124b524258879c46f80d624fae"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Dynacom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "46977baf0e1ee6124b524258879c46f80d624fae",
+                ),
+            ],
+        ),
+    ],
 )

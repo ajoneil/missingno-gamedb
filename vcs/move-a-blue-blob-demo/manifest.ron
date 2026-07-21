@@ -1,8 +1,17 @@
 (
     title: "Move a Blue Blob Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0d16a0650d1eb16673da6dd25a398e51be041dea"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d16a0650d1eb16673da6dd25a398e51be041dea",
+                ),
+            ],
+        ),
+    ],
 )

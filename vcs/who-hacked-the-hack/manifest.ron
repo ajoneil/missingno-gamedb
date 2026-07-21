@@ -1,9 +1,18 @@
 (
     title: "Who Hacked the Hack (Space Invaders Hack)",
-    publisher: Some("William Pilgrim"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["85468eefb503faec3d840ba0b6389d99798da8fb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("William Pilgrim"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "85468eefb503faec3d840ba0b6389d99798da8fb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Strat-O-Gems",
-    publisher: Some("John Payson"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["88e08ef08c1f70980926c73b87f9d819f61e0656"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "88e08ef08c1f70980926c73b87f9d819f61e0656",
+                ),
+            ],
+        ),
+    ],
 )

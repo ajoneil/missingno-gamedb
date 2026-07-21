@@ -1,9 +1,18 @@
 (
     title: "Maze Craze Stick Men (Maze Craze Hack)",
-    publisher: Some("Wade Casaldi"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["553e1560e0421c48ca1ab631fbc6f9ee72e2f1b3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Wade Casaldi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "553e1560e0421c48ca1ab631fbc6f9ee72e2f1b3",
+                ),
+            ],
+        ),
+    ],
 )

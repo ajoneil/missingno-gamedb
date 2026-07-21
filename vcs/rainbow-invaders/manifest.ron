@@ -1,9 +1,21 @@
 (
     title: "Rainbow Invaders",
-    publisher: Some("Silvio Mogno"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["372e1b598b605ca0a094faa21f5ce57721d87e27", "9a809b950ff3ce5a5e6b7a9abd72bea9a84d39f2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Silvio Mogno"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "372e1b598b605ca0a094faa21f5ce57721d87e27",
+                ),
+                (
+                    sha1: "9a809b950ff3ce5a5e6b7a9abd72bea9a84d39f2",
+                ),
+            ],
+        ),
+    ],
 )

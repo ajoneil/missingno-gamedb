@@ -1,9 +1,19 @@
 (
-    title: "Chu Chu Rocket (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ed5953715fb595397dba13cf1d3615affb2ca9b1"],
-    source: None,
+    title: "Chu Chu Rocket",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ed5953715fb595397dba13cf1d3615affb2ca9b1",
+                ),
+            ],
+        ),
+    ],
 )

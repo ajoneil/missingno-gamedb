@@ -1,9 +1,31 @@
 (
     title: "S.A.C. Alert (Joyboard) (Prototype)",
-    publisher: Some("Amiga"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["14b7cfb88083a1a3129e802d56a803de82ee2c2b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7b829edffee303c6b796c71540b7636ca5685bcd",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "14b7cfb88083a1a3129e802d56a803de82ee2c2b",
+                ),
+            ],
+        ),
+    ],
 )

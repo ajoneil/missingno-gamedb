@@ -1,9 +1,19 @@
 (
-    title: "Maze Realms (WIP)",
-    publisher: Some("Mord"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["38c9d493322d3f7ccb51d433ffe48bda9301e939"],
-    source: None,
+    title: "Maze Realms",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Mord"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "38c9d493322d3f7ccb51d433ffe48bda9301e939",
+                ),
+            ],
+        ),
+    ],
 )

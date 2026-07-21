@@ -1,9 +1,18 @@
 (
     title: "Color Bar Generator",
-    publisher: Some("VideoSoft"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["53c324ae736afa92a83d619b04e4fe72182281a6"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("VideoSoft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "53c324ae736afa92a83d619b04e4fe72182281a6",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Spiders (4)",
-    publisher: Some("UA Limited"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cc4a3ee2970e3bf853a5ab7900dcc8c23672864b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("UA Limited"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cc4a3ee2970e3bf853a5ab7900dcc8c23672864b",
+                ),
+            ],
+        ),
+    ],
 )

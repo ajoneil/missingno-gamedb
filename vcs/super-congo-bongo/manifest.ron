@@ -1,9 +1,18 @@
 (
     title: "Super Congo Bongo (Hack)",
-    publisher: Some("Larry Petit"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["8b434bb0de4f837c490f8c1e7546635ed387bbee"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Larry Petit"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8b434bb0de4f837c490f8c1e7546635ed387bbee",
+                ),
+            ],
+        ),
+    ],
 )

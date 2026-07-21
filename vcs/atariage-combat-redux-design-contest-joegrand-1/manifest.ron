@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - JoeGrand_1",
-    publisher: Some("Grand"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["faff7d1214ab4714e3be0e17f0223267ec4a0af7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Grand"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "faff7d1214ab4714e3be0e17f0223267ec4a0af7",
+                ),
+            ],
+        ),
+    ],
 )

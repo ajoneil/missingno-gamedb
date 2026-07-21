@@ -1,9 +1,18 @@
 (
     title: "Red Sea Crossing",
-    publisher: Some("Inspirational Video Concepts"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dd92f67873d928e98cc4a2b279b90d7db8d50f5d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Inspirational Video Concepts"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd92f67873d928e98cc4a2b279b90d7db8d50f5d",
+                ),
+            ],
+        ),
+    ],
 )

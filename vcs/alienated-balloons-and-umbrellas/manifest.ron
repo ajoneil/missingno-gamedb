@@ -1,9 +1,18 @@
 (
     title: "Alienated - Balloons and Umbrellas (Space Invaders Hack)",
-    publisher: Some("William Pilgrim"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8955e91e0587174812da7109f4452f9144af4314"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("William Pilgrim"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8955e91e0587174812da7109f4452f9144af4314",
+                ),
+            ],
+        ),
+    ],
 )

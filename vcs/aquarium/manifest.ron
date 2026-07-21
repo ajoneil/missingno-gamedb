@@ -1,9 +1,22 @@
 (
-    title: "Aquarium (WIP)",
-    publisher: Some("Corey"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["791a811b7a5833bf82b7b4e7556d6bddf4b2647a", "c998cca60235096a08ce3e37fa00011be5018360"],
-    source: None,
+    title: "Aquarium",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Corey"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "791a811b7a5833bf82b7b4e7556d6bddf4b2647a",
+                ),
+                (
+                    sha1: "c998cca60235096a08ce3e37fa00011be5018360",
+                ),
+            ],
+        ),
+    ],
 )

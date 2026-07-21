@@ -1,9 +1,18 @@
 (
     title: "Scrolling Playfield With Score (10-02-2003) (Aaron Bergstrom)",
-    publisher: Some("Aaron Bergstrom"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b391cb6c8e191ea1dea731a8f41332d7ecc5855a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Aaron Bergstrom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b391cb6c8e191ea1dea731a8f41332d7ecc5855a",
+                ),
+            ],
+        ),
+    ],
 )

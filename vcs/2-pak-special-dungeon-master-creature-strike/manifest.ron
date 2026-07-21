@@ -1,9 +1,18 @@
 (
     title: "2 Pak Special - Dungeon Master, Creature Strike",
-    publisher: Some("HES"),
-    date: Some("1992"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["96e42866669225c1a8c078c263e16703d080ffdf"],
-    source: None,
+    releases: [
+        (
+            date: Some("1992"),
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "96e42866669225c1a8c078c263e16703d080ffdf",
+                ),
+            ],
+        ),
+    ],
 )

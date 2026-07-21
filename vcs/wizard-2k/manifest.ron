@@ -1,9 +1,18 @@
 (
     title: "Wizard (Proto)",
-    publisher: Some("Atari"),
-    date: Some("1980"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2499ce7c77536b2920753968135f9180bd9afe6e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2499ce7c77536b2920753968135f9180bd9afe6e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,34 @@
 (
-    title: "Mangia'",
-    publisher: Some("Spectravideo"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["311bf43a479e9981c70f38573dbf614429d0a5b5"],
-    source: None,
+    title: "Mangia\'",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "189cefb0e053bc59e6548ef7e5c19f0a171e3b59",
+                ),
+                (
+                    sha1: "ee8f9bf7cdb55f25f4d99e1a23f4c90106fadc39",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "311bf43a479e9981c70f38573dbf614429d0a5b5",
+                ),
+            ],
+        ),
+    ],
 )

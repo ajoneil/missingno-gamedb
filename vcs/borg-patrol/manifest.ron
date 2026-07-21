@@ -1,9 +1,18 @@
 (
     title: "Borg Patrol (Planet Patrol Hack)",
-    publisher: Some("Jack Kortkamp"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["527cf1e043588fb505d5fa6afd582009c22356ff"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jack Kortkamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "527cf1e043588fb505d5fa6afd582009c22356ff",
+                ),
+            ],
+        ),
+    ],
 )

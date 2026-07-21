@@ -1,9 +1,18 @@
 (
     title: "Peek-A-Boo (Proto)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b529c1664ed1abc8f5f962a1fed65c0e4440219c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b529c1664ed1abc8f5f962a1fed65c0e4440219c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Star Castle Demo",
-    publisher: Some("John Payson"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ec3d07e9403fbcc4e06668d37b09a499980fc3cd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ec3d07e9403fbcc4e06668d37b09a499980fc3cd",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Atari Test Music",
-    publisher: Some("Kulor"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8886f82987d83098f1f09bdd26d79c1dc40328a6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kulor"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8886f82987d83098f1f09bdd26d79c1dc40328a6",
+                ),
+            ],
+        ),
+    ],
 )

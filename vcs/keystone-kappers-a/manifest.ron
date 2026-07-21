@@ -1,9 +1,18 @@
 (
     title: "Keystone Kappers [a]",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["137ad103f74c0fa4f5ec0df3f56c726b63c13361"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "137ad103f74c0fa4f5ec0df3f56c726b63c13361",
+                ),
+            ],
+        ),
+    ],
 )

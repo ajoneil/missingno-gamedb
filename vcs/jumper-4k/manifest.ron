@@ -1,9 +1,33 @@
 (
-    title: "Jumper (WIP)",
-    publisher: Some("Oliver Achten"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3c06e1d55a0cfd9ad88adcc58ea02c8e238c4003"],
-    source: None,
+    title: "Jumper",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Oliver Achten"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3c06e1d55a0cfd9ad88adcc58ea02c8e238c4003",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Steve Engelhardt"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "63228129e246a369e1e8d0c2c838fad8f167f4b4",
+                ),
+            ],
+        ),
+    ],
 )

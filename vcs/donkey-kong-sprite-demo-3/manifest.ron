@@ -1,9 +1,19 @@
 (
-    title: "Donkey Kong Sprite Demo 3 (WIP)",
-    publisher: Some("Ivan Machado"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0892e5aa3259649ceef416f172be08b3e392f2a4"],
-    source: None,
+    title: "Donkey Kong Sprite Demo 3",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Ivan Machado"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0892e5aa3259649ceef416f172be08b3e392f2a4",
+                ),
+            ],
+        ),
+    ],
 )

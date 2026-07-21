@@ -1,9 +1,18 @@
 (
     title: "Spacetroids",
-    publisher: Some("Mary Lane"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["be272e5070a005d897942266eb772e7bd87373e7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Mary Lane"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "be272e5070a005d897942266eb772e7bd87373e7",
+                ),
+            ],
+        ),
+    ],
 )

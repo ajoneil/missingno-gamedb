@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Airwolf",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5390ce23d1db6a0d666dc8229cf1f42895575501"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5390ce23d1db6a0d666dc8229cf1f42895575501",
+                ),
+            ],
+        ),
+    ],
 )

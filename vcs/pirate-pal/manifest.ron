@@ -1,9 +1,31 @@
 (
     title: "Pirate",
-    publisher: Some("David Weavil"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["70be8d34022356b45ca353368d9282a0e21a872b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c58ec8b9a5d735f044d0a000d52160fd6ea59092",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "70be8d34022356b45ca353368d9282a0e21a872b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "M.U.L.E. (WIP)",
-    publisher: Some("Bill Collins"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["5e07934ddb7dc6f5b0509c0fa268f9b3efc07ef9"],
-    source: None,
+    title: "M.U.L.E.",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Bill Collins"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e07934ddb7dc6f5b0509c0fa268f9b3efc07ef9",
+                ),
+            ],
+        ),
+    ],
 )

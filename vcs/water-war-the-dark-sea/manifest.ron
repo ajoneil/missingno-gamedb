@@ -1,9 +1,18 @@
 (
     title: "Water War - The Dark Sea (Asteroids Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["2f03167c4afd80be8d90bd6eab5889b6de3aa1ad"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f03167c4afd80be8d90bd6eab5889b6de3aa1ad",
+                ),
+            ],
+        ),
+    ],
 )

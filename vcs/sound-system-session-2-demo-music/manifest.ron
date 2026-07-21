@@ -1,9 +1,18 @@
 (
     title: "Sound System - Session 2 - Demo Music",
-    publisher: Some("Richi_S"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["74297ad846c9b660c756704b10b5dd3a25826bdd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Richi_S"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "74297ad846c9b660c756704b10b5dd3a25826bdd",
+                ),
+            ],
+        ),
+    ],
 )

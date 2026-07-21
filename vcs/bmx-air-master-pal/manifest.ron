@@ -1,9 +1,34 @@
 (
     title: "BMX Air Master",
-    publisher: Some("Atari"),
-    date: Some("1990"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["30d52041c59a240a8ebe2749e4de32bbc74988ee", "b54ab700ec9441aeb72665d095475035a155aa22"],
-    source: None,
+    releases: [
+        (
+            date: Some("1989"),
+            publisher: Some("TNT Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ff25ed062dcc430448b358d2ac745787410e1169",
+                ),
+            ],
+        ),
+        (
+            date: Some("1990"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "30d52041c59a240a8ebe2749e4de32bbc74988ee",
+                ),
+                (
+                    sha1: "b54ab700ec9441aeb72665d095475035a155aa22",
+                ),
+            ],
+        ),
+    ],
 )

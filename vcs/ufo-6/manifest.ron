@@ -1,9 +1,18 @@
 (
     title: "UFO #6 (Charles Morgan) (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["32bb31d50aad58fec8dcb996957d0c74de2ad02c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "32bb31d50aad58fec8dcb996957d0c74de2ad02c",
+                ),
+            ],
+        ),
+    ],
 )

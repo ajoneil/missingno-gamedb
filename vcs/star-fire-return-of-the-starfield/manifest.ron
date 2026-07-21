@@ -1,7 +1,16 @@
 (
     title: "Star Fire - Return of the Starfield (MP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c4cc7f5e10c82b764011b35bf0f9a6ae7a89616b"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c4cc7f5e10c82b764011b35bf0f9a6ae7a89616b",
+                ),
+            ],
+        ),
+    ],
 )

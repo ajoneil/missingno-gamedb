@@ -1,9 +1,19 @@
 (
-    title: "Prince of Persia Demo (WIP)",
-    publisher: Some("John Payson"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b744d58e0948f4ad8a0b8a098a771d5a9ef31a0b"],
-    source: None,
+    title: "Prince of Persia Demo",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("John Payson"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b744d58e0948f4ad8a0b8a098a771d5a9ef31a0b",
+                ),
+            ],
+        ),
+    ],
 )

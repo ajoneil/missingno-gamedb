@@ -1,9 +1,19 @@
 (
-    title: "1337 OS (WIP)",
-    publisher: Some("bongomeno"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c3fd338646d53be3fe1b16b973075bd90d94635e"],
-    source: None,
+    title: "1337 OS",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("bongomeno"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c3fd338646d53be3fe1b16b973075bd90d94635e",
+                ),
+            ],
+        ),
+    ],
 )

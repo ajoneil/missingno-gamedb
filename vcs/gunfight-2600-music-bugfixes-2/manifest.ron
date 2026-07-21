@@ -1,9 +1,18 @@
 (
     title: "Gunfight 2600 - Music & Bugfixes 2 (Manuel Rotschkar)",
-    publisher: Some("MP"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f2dd46426a4e89a22818ebc517a52db246e0b834"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f2dd46426a4e89a22818ebc517a52db246e0b834",
+                ),
+            ],
+        ),
+    ],
 )

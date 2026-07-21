@@ -1,9 +1,18 @@
 (
     title: "Hili Ball",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["4d2ab41b7818bf7156cfda93986f54d0bc505cbf"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4d2ab41b7818bf7156cfda93986f54d0bc505cbf",
+                ),
+            ],
+        ),
+    ],
 )

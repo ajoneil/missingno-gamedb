@@ -1,9 +1,40 @@
 (
     title: "E.T. - The Extra-Terrestrial",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["54828526fc7bb796bb42eb5413e049fcb34e21d7", "f8023b9e90e7f6c29451821edf00eab0f560fd6a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6d17f13a289dcc936a919a1dbd7d415e843c30eb",
+                ),
+                (
+                    sha1: "8e3e7f8c861b7a365d6cbbb4d787bf0747bf1749",
+                ),
+                (
+                    sha1: "9e34f9ca51573c92918720f8a259b9449a0cd65e",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "54828526fc7bb796bb42eb5413e049fcb34e21d7",
+                ),
+                (
+                    sha1: "f8023b9e90e7f6c29451821edf00eab0f560fd6a",
+                ),
+            ],
+        ),
+    ],
 )

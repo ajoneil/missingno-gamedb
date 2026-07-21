@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Spellbound 2",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["35a3b56f3d5c5357a27380d0e1aa55ae9d3bcd80"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "35a3b56f3d5c5357a27380d0e1aa55ae9d3bcd80",
+                ),
+            ],
+        ),
+    ],
 )

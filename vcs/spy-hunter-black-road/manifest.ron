@@ -1,9 +1,18 @@
 (
     title: "Spy Hunter Black Road (Spy Hunter Hack)",
-    publisher: Some("KevinMos3"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["3c530cd9efd7145e741ace08c62b84a482545307"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("KevinMos3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3c530cd9efd7145e741ace08c62b84a482545307",
+                ),
+            ],
+        ),
+    ],
 )

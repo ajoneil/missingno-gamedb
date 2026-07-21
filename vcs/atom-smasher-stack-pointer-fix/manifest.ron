@@ -1,9 +1,18 @@
 (
     title: "Atom Smasher (Prototype) [stack pointer fix]",
-    publisher: Some("Video Soft"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c0466c0d87b4faf2319d5ee1bc940db54fea03d8"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Video Soft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c0466c0d87b4faf2319d5ee1bc940db54fea03d8",
+                ),
+            ],
+        ),
+    ],
 )

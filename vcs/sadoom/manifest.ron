@@ -1,9 +1,21 @@
 (
     title: "Sadoom (Hack)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2003"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["04e432a1a49d7d4ba9dbdf2c343045dc4d910311", "9f366dc38fcee60cd8c2bebca6f4ac044a7a575c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "04e432a1a49d7d4ba9dbdf2c343045dc4d910311",
+                ),
+                (
+                    sha1: "9f366dc38fcee60cd8c2bebca6f4ac044a7a575c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Boxing (32 in 1)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["22a3789a416d00c00382157707a0a8c94c555ea4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22a3789a416d00c00382157707a0a8c94c555ea4",
+                ),
+            ],
+        ),
+    ],
 )

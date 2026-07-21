@@ -1,9 +1,18 @@
 (
     title: "Space Armada (Space Invaders Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e4a2db73e8e5ce0dae219009bffeeb05dbb47822"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e4a2db73e8e5ce0dae219009bffeeb05dbb47822",
+                ),
+            ],
+        ),
+    ],
 )

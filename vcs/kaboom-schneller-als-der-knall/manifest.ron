@@ -1,9 +1,18 @@
 (
     title: "Kaboom! - Schneller als der Knall (Paddle)",
-    publisher: Some("Activision"),
-    date: Some("1981"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["a257546271b33d7e3b9e7ea0ec4606ec47cfbc94"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a257546271b33d7e3b9e7ea0ec4606ec47cfbc94",
+                ),
+            ],
+        ),
+    ],
 )

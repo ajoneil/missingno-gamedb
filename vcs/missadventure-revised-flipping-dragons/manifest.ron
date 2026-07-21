@@ -1,9 +1,18 @@
 (
     title: "Missadventure Revised - Flipping Dragons (Adventure Hack)",
-    publisher: Some("accousticguitar"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c7a152a1e6ecb91de3ed3697d827302891ee17c3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("accousticguitar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c7a152a1e6ecb91de3ed3697d827302891ee17c3",
+                ),
+            ],
+        ),
+    ],
 )

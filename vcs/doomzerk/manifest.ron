@@ -1,9 +1,18 @@
 (
     title: "Doomzerk (PD) (Hack)",
-    publisher: Some("Ed Emmerling"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["aec1ea2a9b458a304bd8e4176c829e51e99ddd30"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Ed Emmerling"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aec1ea2a9b458a304bd8e4176c829e51e99ddd30",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Ghostball (Tennis Hack)",
-    publisher: Some("Matthew Bowman"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["6872860ef1794b6aeee46b5b3157152cbcac61d6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Matthew Bowman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6872860ef1794b6aeee46b5b3157152cbcac61d6",
+                ),
+            ],
+        ),
+    ],
 )

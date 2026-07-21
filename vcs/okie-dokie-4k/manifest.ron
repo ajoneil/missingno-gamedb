@@ -1,9 +1,21 @@
 (
     title: "Okie Dokie (4K) (PD)",
-    publisher: Some("RetroWare"),
-    date: Some("1996"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3b7b90a1db9741de01ab717ef9d9b0dd69092c84", "7feef3965706bc64f0f0a940149b2523e0735ce6"],
-    source: None,
+    releases: [
+        (
+            date: Some("1996"),
+            publisher: Some("RetroWare"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b7b90a1db9741de01ab717ef9d9b0dd69092c84",
+                ),
+                (
+                    sha1: "7feef3965706bc64f0f0a940149b2523e0735ce6",
+                ),
+            ],
+        ),
+    ],
 )

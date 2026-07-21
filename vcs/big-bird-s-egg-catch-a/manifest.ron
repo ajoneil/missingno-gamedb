@@ -1,9 +1,18 @@
 (
-    title: "Big Bird's Egg Catch [a]",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["037b23748f1351abf965571ec48975eb4c59c0c2"],
-    source: None,
+    title: "Big Bird\'s Egg Catch [a]",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "037b23748f1351abf965571ec48975eb4c59c0c2",
+                ),
+            ],
+        ),
+    ],
 )

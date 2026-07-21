@@ -1,9 +1,18 @@
 (
     title: "E.T. on Acid (E.T. Hack)",
-    publisher: Some("Brad Barratt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["9531da1ecac18242cae4cb8763b9e7df55682b9f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Brad Barratt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9531da1ecac18242cae4cb8763b9e7df55682b9f",
+                ),
+            ],
+        ),
+    ],
 )

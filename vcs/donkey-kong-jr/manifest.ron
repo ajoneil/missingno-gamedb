@@ -1,9 +1,21 @@
 (
     title: "Donkey Kong Jr",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["3bc35ae032f19f785706330c19ac117674787815", "615c74880c48c99b8961642c4e5a96f6c63c6a31"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3bc35ae032f19f785706330c19ac117674787815",
+                ),
+                (
+                    sha1: "615c74880c48c99b8961642c4e5a96f6c63c6a31",
+                ),
+            ],
+        ),
+    ],
 )

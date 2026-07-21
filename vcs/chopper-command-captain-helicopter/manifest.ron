@@ -1,9 +1,18 @@
 (
     title: "Chopper Command - Captain Helicopter",
-    publisher: Some("Activision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a47bf3c35b47729330d3e1b0a1e0b5deec6ba213"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a47bf3c35b47729330d3e1b0a1e0b5deec6ba213",
+                ),
+            ],
+        ),
+    ],
 )

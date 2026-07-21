@@ -1,9 +1,18 @@
 (
     title: "Pac-Zerk Plus (Berzerk Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d4edcf3a41de7c724ff23a9b3636500eb3fe4d77"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d4edcf3a41de7c724ff23a9b3636500eb3fe4d77",
+                ),
+            ],
+        ),
+    ],
 )

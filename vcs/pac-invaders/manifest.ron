@@ -1,9 +1,18 @@
 (
     title: "Pac Invaders",
-    publisher: Some("ZUT"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4649b0da9bd972cdb940f9b0927007e74d562229"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("ZUT"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4649b0da9bd972cdb940f9b0927007e74d562229",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "George (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["470a02007747a7a4ea4c9e063e46fec5125b2dfa"],
-    source: None,
+    title: "George",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "470a02007747a7a4ea4c9e063e46fec5125b2dfa",
+                ),
+            ],
+        ),
+    ],
 )

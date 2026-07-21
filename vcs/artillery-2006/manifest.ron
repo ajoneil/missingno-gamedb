@@ -1,9 +1,18 @@
 (
     title: "Artillery 2006 (Artillery Duel Hack)",
-    publisher: Some("Fabventure2600"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c03ef936e4cbfd57bce53f6e9d3a6dfa41f5d7f1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fabventure2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c03ef936e4cbfd57bce53f6e9d3a6dfa41f5d7f1",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
-    title: "Borg 'Em (Dodge 'Em Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9011ca57d049ce5b2f05d6e10a1a7a3a91bdebfd"],
-    source: None,
+    title: "Borg \'Em (Dodge \'Em Hack)",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9011ca57d049ce5b2f05d6e10a1a7a3a91bdebfd",
+                ),
+            ],
+        ),
+    ],
 )

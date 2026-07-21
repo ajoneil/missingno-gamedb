@@ -1,9 +1,18 @@
 (
     title: "Missile Demo (Ruffin Bailey) (PD)",
-    publisher: Some("Ruffin Bailey"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ac843c1f484ae218f6644f7b985dc12d98f64e9e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Ruffin Bailey"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ac843c1f484ae218f6644f7b985dc12d98f64e9e",
+                ),
+            ],
+        ),
+    ],
 )

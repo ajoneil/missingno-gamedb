@@ -1,9 +1,18 @@
 (
     title: "Stella Lives! Demo",
-    publisher: Some("Tjoppen"),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["de2c146fa7a701d6c37728f5415563ce923a3e5d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Tjoppen"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de2c146fa7a701d6c37728f5415563ce923a3e5d",
+                ),
+            ],
+        ),
+    ],
 )

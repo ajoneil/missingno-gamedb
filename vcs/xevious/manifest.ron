@@ -1,8 +1,26 @@
 (
     title: "Xevious",
-    publisher: Some("CCE"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["53f941cabf661a9ce763142b070571f6fd4c8820", "73133b81196e5cbc1cec99eefc1223ddb8f4ca83", "c4f956cc6a78f3d7b5c2fb16de58ed7cdb6c82a8", "fac29f21b711d31e3ffc21dfdcafef05aafabf02"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "53f941cabf661a9ce763142b070571f6fd4c8820",
+                ),
+                (
+                    sha1: "73133b81196e5cbc1cec99eefc1223ddb8f4ca83",
+                ),
+                (
+                    sha1: "c4f956cc6a78f3d7b5c2fb16de58ed7cdb6c82a8",
+                ),
+                (
+                    sha1: "fac29f21b711d31e3ffc21dfdcafef05aafabf02",
+                ),
+            ],
+        ),
+    ],
 )

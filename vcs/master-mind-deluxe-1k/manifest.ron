@@ -1,9 +1,18 @@
 (
     title: "Master Mind Deluxe 1K",
-    publisher: Some("Cye Freeman"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["274d7c5ff6a322056676a851a194c1df156f9ad5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Cye Freeman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "274d7c5ff6a322056676a851a194c1df156f9ad5",
+                ),
+            ],
+        ),
+    ],
 )

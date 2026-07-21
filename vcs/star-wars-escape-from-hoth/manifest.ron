@@ -1,9 +1,18 @@
 (
     title: "Star Wars - Escape from Hoth (Asteroids Hack)",
-    publisher: Some("ILA2600"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["b923023018705a7651109599bcba007a19f95cae"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("ILA2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b923023018705a7651109599bcba007a19f95cae",
+                ),
+            ],
+        ),
+    ],
 )

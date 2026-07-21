@@ -1,9 +1,18 @@
 (
-    title: "Music Machine, The",
-    publisher: Some("Christian Software Development"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5a641caa2ab3c7c0cd5deb027acbc58efccf8d6a"],
-    source: None,
+    title: "The Music Machine",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Christian Software Development"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5a641caa2ab3c7c0cd5deb027acbc58efccf8d6a",
+                ),
+            ],
+        ),
+    ],
 )

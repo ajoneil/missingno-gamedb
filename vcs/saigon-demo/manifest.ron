@@ -1,9 +1,18 @@
 (
     title: "Saigon Demo",
-    publisher: Some("Trilobit"),
-    date: Some("2010"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["aa84590063611b15f8dfd1a76eea5766fcd45ba9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Trilobit"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aa84590063611b15f8dfd1a76eea5766fcd45ba9",
+                ),
+            ],
+        ),
+    ],
 )

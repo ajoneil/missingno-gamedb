@@ -1,9 +1,18 @@
 (
     title: "See Saw (Double-Game Package)",
-    publisher: Some("Otto Versand"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["16987b160771e68f69464ea9540f1213c9360741"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Otto Versand"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "16987b160771e68f69464ea9540f1213c9360741",
+                ),
+            ],
+        ),
+    ],
 )

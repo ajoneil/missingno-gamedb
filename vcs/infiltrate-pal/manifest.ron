@@ -1,7 +1,32 @@
 (
     title: "Infiltrate",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["59e5b760217bfd77ea6a5a65ef141443fe805d81"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7fcff6d5e470531b5808190f7b50e99ea6996e3c",
+                ),
+                (
+                    sha1: "922cd171ef132bf6c5bed00ad01410ada4b20729",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59e5b760217bfd77ea6a5a65ef141443fe805d81",
+                ),
+            ],
+        ),
+    ],
 )

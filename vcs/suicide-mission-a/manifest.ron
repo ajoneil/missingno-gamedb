@@ -1,9 +1,18 @@
 (
     title: "Suicide Mission [a]",
-    publisher: Some("Arcadia Corporation"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["686655a3a83680c53edd3cbe9704350e27e0dea3"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Arcadia Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "686655a3a83680c53edd3cbe9704350e27e0dea3",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Stand Alone Test Cart [a]",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f7aba95a24b211d1a5d74723f6e85ed298b711ba"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f7aba95a24b211d1a5d74723f6e85ed298b711ba",
+                ),
+            ],
+        ),
+    ],
 )

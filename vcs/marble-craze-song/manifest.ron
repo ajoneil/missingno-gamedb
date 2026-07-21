@@ -1,8 +1,17 @@
 (
     title: "Marble Craze Song (Paul Slocum) (PD)",
-    publisher: Some("Paul Slocum"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1a501f27e8cbbb926070d2c71fbf525fc64b09c8"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a501f27e8cbbb926070d2c71fbf525fc64b09c8",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Star Fire - Meteor Dance 2 (18-11-2002)",
-    publisher: Some("MP"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["30606e6c4bca9a1fc77b224f9fd7deb13630865d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "30606e6c4bca9a1fc77b224f9fd7deb13630865d",
+                ),
+            ],
+        ),
+    ],
 )

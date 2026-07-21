@@ -1,8 +1,17 @@
 (
     title: "Fire Bird (Video Game Program)",
-    publisher: Some("Video Game Program"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["e2843b86da000d6e4a6fe683243a7b3e3e160c77"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Video Game Program"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e2843b86da000d6e4a6fe683243a7b3e3e160c77",
+                ),
+            ],
+        ),
+    ],
 )

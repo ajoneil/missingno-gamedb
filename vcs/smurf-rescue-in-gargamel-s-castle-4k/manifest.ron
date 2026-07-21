@@ -1,9 +1,18 @@
 (
-    title: "Smurf - Rescue in Gargamel's Castle (Smurf, Smurf Action) (Prototype)",
-    publisher: Some("Coleco"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2168213f85bca85e1c1541b947a5f168b7400a44"],
-    source: None,
+    title: "Smurf - Rescue in Gargamel\'s Castle (Smurf, Smurf Action) (Prototype)",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2168213f85bca85e1c1541b947a5f168b7400a44",
+                ),
+            ],
+        ),
+    ],
 )

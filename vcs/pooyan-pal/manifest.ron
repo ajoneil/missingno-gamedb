@@ -1,9 +1,46 @@
 (
     title: "Pooyan",
-    publisher: Some("Gakken"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["4b1721cd2b59a9c61898af8101b5dd2ca4103871", "9885ca8f3b5612cbbc7749a32194425ba47b7ccf", "ae6b834a6e385615ac545b2dab42fa0bde4cc7d6", "ff12127cdfef5ce33f6f5593c3df8201ebecd2e4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Konami"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "76009fdfc681a04cb98f6bf021cdfee23f7319ae",
+                ),
+                (
+                    sha1: "ab4aa17b187968ec51d3dbac8bf47b414c913cc9",
+                ),
+                (
+                    sha1: "b7a002025c24ab2ec4a03f62212db7b96c0e5ffd",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Gakken"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4b1721cd2b59a9c61898af8101b5dd2ca4103871",
+                ),
+                (
+                    sha1: "9885ca8f3b5612cbbc7749a32194425ba47b7ccf",
+                ),
+                (
+                    sha1: "ae6b834a6e385615ac545b2dab42fa0bde4cc7d6",
+                ),
+                (
+                    sha1: "ff12127cdfef5ce33f6f5593c3df8201ebecd2e4",
+                ),
+            ],
+        ),
+    ],
 )

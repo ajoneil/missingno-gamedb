@@ -1,9 +1,18 @@
 (
     title: "Gunfight 2600 - Little progress... (Manuel Rotschkar)",
-    publisher: Some("MP"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4339855ef3a4c6c7e51deab34605d5eb21a5d5c8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4339855ef3a4c6c7e51deab34605d5eb21a5d5c8",
+                ),
+            ],
+        ),
+    ],
 )

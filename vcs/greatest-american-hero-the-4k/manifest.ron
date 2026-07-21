@@ -1,9 +1,31 @@
 (
     title: "Greatest American Hero, The (Superman Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["941077b20d71394ecafd47f8bd93ddf4f2619b3d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "941077b20d71394ecafd47f8bd93ddf4f2619b3d",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c8e9597d7cc124e17cbc9b177cc47a5ffcd34f60",
+                ),
+            ],
+        ),
+    ],
 )

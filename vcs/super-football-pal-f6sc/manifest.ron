@@ -1,9 +1,31 @@
 (
     title: "Super Football",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6SC"),
-    hashes: ["fa8db954eff4302ec518aaf7a477a073c1967a08"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eaca6b474fd552ab4aaf75526618828165a91934",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fa8db954eff4302ec518aaf7a477a073c1967a08",
+                ),
+            ],
+        ),
+    ],
 )

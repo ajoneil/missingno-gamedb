@@ -1,9 +1,18 @@
 (
     title: "Metroid 2600 (Berzerk Hack)",
-    publisher: Some("Rabbit 2600"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f78d43b8b0b55ddbe9fbba0126e6808e0f72a3ad"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rabbit 2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f78d43b8b0b55ddbe9fbba0126e6808e0f72a3ad",
+                ),
+            ],
+        ),
+    ],
 )

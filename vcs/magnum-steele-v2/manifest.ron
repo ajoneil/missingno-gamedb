@@ -1,9 +1,18 @@
 (
     title: "Magnum Steele V2 (Dark Chambers Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["b98ad67635a3b94d6fae174fd94819fe844930c9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b98ad67635a3b94d6fae174fd94819fe844930c9",
+                ),
+            ],
+        ),
+    ],
 )

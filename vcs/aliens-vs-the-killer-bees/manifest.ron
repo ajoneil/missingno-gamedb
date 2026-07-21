@@ -1,9 +1,18 @@
 (
     title: "Aliens vs. the Killer Bees",
-    publisher: Some("Michael Biggs"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["42232db2b0993cb9e57a81a8e3f90462aecbaab7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Michael Biggs"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "42232db2b0993cb9e57a81a8e3f90462aecbaab7",
+                ),
+            ],
+        ),
+    ],
 )

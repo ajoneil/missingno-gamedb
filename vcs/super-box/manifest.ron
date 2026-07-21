@@ -1,8 +1,17 @@
 (
     title: "Super Box",
-    publisher: Some("CCE"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["bdc2b5517072a15f65683c662ea5344bcba8a092"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bdc2b5517072a15f65683c662ea5344bcba8a092",
+                ),
+            ],
+        ),
+    ],
 )

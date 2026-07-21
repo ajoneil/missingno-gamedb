@@ -1,7 +1,33 @@
 (
     title: "Spider-Man",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["165fae15c6d6f00734b5ed4739239237c62b8e31", "6445fb2f6bbcc84468af78405570628dde97365c"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b20f1f5c9ed62b9cdaf94172c10e55b3925b8fb",
+                ),
+                (
+                    sha1: "912c5f5571ac59a6782da412183cdd6277345816",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "165fae15c6d6f00734b5ed4739239237c62b8e31",
+                ),
+                (
+                    sha1: "6445fb2f6bbcc84468af78405570628dde97365c",
+                ),
+            ],
+        ),
+    ],
 )

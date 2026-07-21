@@ -1,9 +1,19 @@
 (
-    title: "Sunday Drive (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["23f32cb6a1a56e703eecaa3b676bf6f3025ecb1b"],
-    source: None,
+    title: "Sunday Drive",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "23f32cb6a1a56e703eecaa3b676bf6f3025ecb1b",
+                ),
+            ],
+        ),
+    ],
 )

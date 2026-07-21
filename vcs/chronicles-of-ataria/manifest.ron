@@ -1,9 +1,21 @@
 (
     title: "Chronicles of Ataria (PD)",
-    publisher: Some("Kozlowski"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7992c8b82a0b3b2ee707919ceef7d6525bc934ad", "c3702aa4c4cda6b2d4f1e8d892b62f7f3807b412"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kozlowski"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7992c8b82a0b3b2ee707919ceef7d6525bc934ad",
+                ),
+                (
+                    sha1: "c3702aa4c4cda6b2d4f1e8d892b62f7f3807b412",
+                ),
+            ],
+        ),
+    ],
 )

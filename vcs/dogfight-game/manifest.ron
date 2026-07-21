@@ -1,7 +1,17 @@
 (
-    title: "Dogfight Game (Manu Kapoor) (WIP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f1a7a48b2ce4a77ea54cf66dfd1fed60f7aaeeba"],
-    source: None,
+    title: "Dogfight Game (Manu Kapoor)",
+    releases: [
+        (
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f1a7a48b2ce4a77ea54cf66dfd1fed60f7aaeeba",
+                ),
+            ],
+        ),
+    ],
 )

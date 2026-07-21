@@ -1,9 +1,18 @@
 (
     title: "Atari Logo Playfield Demo (PD)",
-    publisher: Some("Eric Ball"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["8ffc7c4aa2ebe230f333e838ee765eb563a527b0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Eric Ball"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8ffc7c4aa2ebe230f333e838ee765eb563a527b0",
+                ),
+            ],
+        ),
+    ],
 )

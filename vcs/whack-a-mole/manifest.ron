@@ -1,9 +1,18 @@
 (
     title: "Whack-A-Mole",
-    publisher: Some("aftermac"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["a88eb2bb104f9db29a9b098425ef7a6ec7553190"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("aftermac"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a88eb2bb104f9db29a9b098425ef7a6ec7553190",
+                ),
+            ],
+        ),
+    ],
 )

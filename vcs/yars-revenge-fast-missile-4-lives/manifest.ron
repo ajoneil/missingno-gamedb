@@ -1,9 +1,18 @@
 (
-    title: "Yars' Revenge Fast Missile 4 Lives (Yars' Revenge Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["de898d05bbd58a0abd4ca536e37b52bcd50e6a99"],
-    source: None,
+    title: "Yars\' Revenge Fast Missile 4 Lives (Yars\' Revenge Hack)",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de898d05bbd58a0abd4ca536e37b52bcd50e6a99",
+                ),
+            ],
+        ),
+    ],
 )

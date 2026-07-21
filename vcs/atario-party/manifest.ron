@@ -1,9 +1,18 @@
 (
     title: "Atario Party",
-    publisher: Some("Jabari Brown"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["660b893b972f26ec82e033f6544934077a734a9a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Jabari Brown"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "660b893b972f26ec82e033f6544934077a734a9a",
+                ),
+            ],
+        ),
+    ],
 )

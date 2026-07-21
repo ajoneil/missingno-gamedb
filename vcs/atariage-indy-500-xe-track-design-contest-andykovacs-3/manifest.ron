@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - AndyKovacs_3",
-    publisher: Some("Andy Kovacs"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["70bad8042828654d06197282520e2f891f70d747"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Andy Kovacs"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "70bad8042828654d06197282520e2f891f70d747",
+                ),
+            ],
+        ),
+    ],
 )

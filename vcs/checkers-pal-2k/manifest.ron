@@ -1,7 +1,48 @@
 (
     title: "Checkers",
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["0c0cd0f0f768afcef0e7ce32a8640c6914d9ff99", "d099cbbc72a9ccc4f084ece09fabf2071804fe0f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "39b5bb27a6c4cb6532bd9d4cc520415c59dac653",
+                ),
+                (
+                    sha1: "9b9a9b6b6d3461485c31d80a830948ce70ea7ff1",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1c93c1b3f16dbeaa069ec798c61c3da690711046",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0c0cd0f0f768afcef0e7ce32a8640c6914d9ff99",
+                ),
+                (
+                    sha1: "d099cbbc72a9ccc4f084ece09fabf2071804fe0f",
+                ),
+            ],
+        ),
+    ],
 )

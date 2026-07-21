@@ -1,9 +1,37 @@
 (
     title: "Crypts Of Chaos (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a7941e63ec2b36efe29f392377f3625d8fd2b932"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "01703b8cf47befa015ea4419872ed8466b45fdae",
+                ),
+                (
+                    sha1: "71ee7617688121d6ae332de87632ac99497013cd",
+                ),
+                (
+                    sha1: "a57062f44e7ac793d4c39d1350521dc5bc2a665f",
+                ),
+            ],
+        ),
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7941e63ec2b36efe29f392377f3625d8fd2b932",
+                ),
+            ],
+        ),
+    ],
 )

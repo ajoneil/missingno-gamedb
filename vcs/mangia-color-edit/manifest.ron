@@ -1,9 +1,18 @@
 (
-    title: "Mangia' Color Edit (Mangia' Hack)",
-    publisher: Some("KevinMos3"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4e052926242b836f82386a84c688c0a23171af0e"],
-    source: None,
+    title: "Mangia\' Color Edit (Mangia\' Hack)",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("KevinMos3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e052926242b836f82386a84c688c0a23171af0e",
+                ),
+            ],
+        ),
+    ],
 )

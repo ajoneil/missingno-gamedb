@@ -1,9 +1,19 @@
 (
-    title: "bB Blitz (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["335b9361f85639b7fa6e185bdbadc11d0aaba4c0"],
-    source: None,
+    title: "bB Blitz",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "335b9361f85639b7fa6e185bdbadc11d0aaba4c0",
+                ),
+            ],
+        ),
+    ],
 )

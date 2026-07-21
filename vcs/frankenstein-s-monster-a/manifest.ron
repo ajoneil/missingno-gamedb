@@ -1,9 +1,18 @@
 (
-    title: "Frankenstein's Monster [a]",
-    publisher: Some("Data Age"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bab5ddd55cd57bb3c5e2c3ca621e48b183f945f4"],
-    source: None,
+    title: "Frankenstein\'s Monster [a]",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bab5ddd55cd57bb3c5e2c3ca621e48b183f945f4",
+                ),
+            ],
+        ),
+    ],
 )

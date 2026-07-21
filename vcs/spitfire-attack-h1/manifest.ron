@@ -1,9 +1,18 @@
 (
     title: "Spitfire Attack [h1] (Milton Bradley)",
-    publisher: Some("Dennis Debro"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4b8fbe04583ebb8cc206ed669b338d54f4482a07"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Dennis Debro"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4b8fbe04583ebb8cc206ed669b338d54f4482a07",
+                ),
+            ],
+        ),
+    ],
 )

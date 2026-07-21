@@ -1,9 +1,18 @@
 (
     title: "Grid Pattern Demo 1 (20-12-2002) (Christopher Tumber)",
-    publisher: Some("CT"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["af68286d8ff5eabfaeb9abe5fae3447dd7e570e7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("CT"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "af68286d8ff5eabfaeb9abe5fae3447dd7e570e7",
+                ),
+            ],
+        ),
+    ],
 )

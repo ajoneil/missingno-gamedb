@@ -1,9 +1,18 @@
 (
     title: "TomInv (31-07-2001)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["838a19bdf8b2a5e9ed9e63a65531383ff20e3c26"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "838a19bdf8b2a5e9ed9e63a65531383ff20e3c26",
+                ),
+            ],
+        ),
+    ],
 )

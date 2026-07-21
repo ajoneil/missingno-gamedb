@@ -1,8 +1,17 @@
 (
     title: "Island Flyer Demo 2 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fb1af61762f21d66eb1604e73f50d251e0b85939"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fb1af61762f21d66eb1604e73f50d251e0b85939",
+                ),
+            ],
+        ),
+    ],
 )

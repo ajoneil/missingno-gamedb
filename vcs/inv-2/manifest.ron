@@ -1,8 +1,17 @@
 (
     title: "INV 2",
-    publisher: Some("Piero Cavina"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["97d03fa3775981d8aea797e20f958ce72bf81697"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Piero Cavina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "97d03fa3775981d8aea797e20f958ce72bf81697",
+                ),
+            ],
+        ),
+    ],
 )

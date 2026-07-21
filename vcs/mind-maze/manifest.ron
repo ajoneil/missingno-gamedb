@@ -1,9 +1,18 @@
 (
     title: "Mind Maze",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["3844b79dbec5ffc99eaa2c9f5fa4f0a26c08c06d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3844b79dbec5ffc99eaa2c9f5fa4f0a26c08c06d",
+                ),
+            ],
+        ),
+    ],
 )

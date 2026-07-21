@@ -1,9 +1,68 @@
 (
     title: "Crackpots",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["3ce4115bfeeb00da51b95d1161f831947b0e97f6", "b36bebe88ccf2424a9e76bef221b02ca2c7e0f96"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "20860ac787ea5874c74318e6f874183ab8011528",
+                ),
+                (
+                    sha1: "3c3370a2f842f219477e89842870e7ea23097f8b",
+                ),
+                (
+                    sha1: "4d5abd9cf73e738cdc6f88727d35fdd32c6df437",
+                ),
+                (
+                    sha1: "62b67cc0b7601b9662880aa39ead323aecd41c44",
+                ),
+                (
+                    sha1: "6ee0a26af4643ff250198dfc1c2b7c6568b4f207",
+                ),
+                (
+                    sha1: "8d58c6a95bc7639b08e27a837b5d2580edff59ed",
+                ),
+                (
+                    sha1: "972db0f6170fad498ff7d2113cf2f9d5ea75a58f",
+                ),
+                (
+                    sha1: "b186a2eb0f57c303c3191be026322b4e39cea801",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eb9c7bd296672244616e18849a7267689034c437",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3ce4115bfeeb00da51b95d1161f831947b0e97f6",
+                ),
+                (
+                    sha1: "b36bebe88ccf2424a9e76bef221b02ca2c7e0f96",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Bobby Is Going Home - Bobby geht Heim [demonstration cartridge]",
-    publisher: Some("Bit Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["4aef30b43249621e09a690d54ebe23377289a997"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4aef30b43249621e09a690d54ebe23377289a997",
+                ),
+            ],
+        ),
+    ],
 )

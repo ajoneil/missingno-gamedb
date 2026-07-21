@@ -1,9 +1,18 @@
 (
     title: "Colour Display Programme (Chris Cracknell)",
-    publisher: Some("Cracknell"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["291b7b0be5a206b68ea40d6530c5219813a56e22"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Cracknell"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "291b7b0be5a206b68ea40d6530c5219813a56e22",
+                ),
+            ],
+        ),
+    ],
 )

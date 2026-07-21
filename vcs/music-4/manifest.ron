@@ -1,9 +1,18 @@
 (
     title: "Music 4",
-    publisher: Some("rpgfaker"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["61cfb90aa5c4cb2a1ceeef5988d56f1e9b6720be"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("rpgfaker"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "61cfb90aa5c4cb2a1ceeef5988d56f1e9b6720be",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Big - Move This Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d0d37d79610d8fb458c4e1ad9e309b132967b61a"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d0d37d79610d8fb458c4e1ad9e309b132967b61a",
+                ),
+            ],
+        ),
+    ],
 )

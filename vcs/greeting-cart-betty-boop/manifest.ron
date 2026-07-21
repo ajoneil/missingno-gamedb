@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Betty Boop",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["54d88bdb72cb7da9403de7fa584f7a81fee2dd20"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "54d88bdb72cb7da9403de7fa584f7a81fee2dd20",
+                ),
+            ],
+        ),
+    ],
 )

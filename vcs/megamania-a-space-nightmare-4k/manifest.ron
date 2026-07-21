@@ -1,9 +1,31 @@
 (
     title: "MegaMania - A Space Nightmare",
-    publisher: Some("Activision"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0c7522e1153809c40cc492d3411f5918ce8c3579",
+                ),
+            ],
+        ),
+    ],
 )

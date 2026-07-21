@@ -1,9 +1,18 @@
 (
     title: "Magicard Sample Program 2 - Memo Pad [Magicard Format, Atari Keypad, Address F100]",
-    publisher: Some("CommaVid"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("CV"),
-    hashes: ["614a0e9342ba5c4c8b8d777ff07432d838ccd9ea"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("CV"),
+            ),
+            artifacts: [
+                (
+                    sha1: "614a0e9342ba5c4c8b8d777ff07432d838ccd9ea",
+                ),
+            ],
+        ),
+    ],
 )

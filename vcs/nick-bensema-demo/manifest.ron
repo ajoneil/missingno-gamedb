@@ -1,8 +1,17 @@
 (
     title: "Nick Bensema Demo (Nick Bensema)",
-    publisher: Some("Nick Bensema"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["360682a1722e223af9e80b74a8cb86b01de65024"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Nick Bensema"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "360682a1722e223af9e80b74a8cb86b01de65024",
+                ),
+            ],
+        ),
+    ],
 )

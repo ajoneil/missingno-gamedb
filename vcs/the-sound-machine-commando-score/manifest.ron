@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Commando Score",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6655968f239f290f36c13c421b690d3d5494835b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6655968f239f290f36c13c421b690d3d5494835b",
+                ),
+            ],
+        ),
+    ],
 )

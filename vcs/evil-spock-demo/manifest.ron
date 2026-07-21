@@ -1,9 +1,18 @@
 (
     title: "Evil Spock Demo",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fabc982826f44b6edb4f58debf53fcaef8d3c33a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Michael S. Rideout"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fabc982826f44b6edb4f58debf53fcaef8d3c33a",
+                ),
+            ],
+        ),
+    ],
 )

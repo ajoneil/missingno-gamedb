@@ -1,9 +1,19 @@
 (
-    title: "Starship (WIP)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bfa157ac175479189b159a491935dd7d1ce83398"],
-    source: None,
+    title: "Starship",
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bfa157ac175479189b159a491935dd7d1ce83398",
+                ),
+            ],
+        ),
+    ],
 )

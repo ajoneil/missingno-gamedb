@@ -1,9 +1,19 @@
 (
-    title: "Polarium (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c54c887e99b5df39b31e6402785c9676fa5ee8fd"],
-    source: None,
+    title: "Polarium",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c54c887e99b5df39b31e6402785c9676fa5ee8fd",
+                ),
+            ],
+        ),
+    ],
 )

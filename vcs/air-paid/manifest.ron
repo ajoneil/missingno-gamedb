@@ -1,9 +1,18 @@
 (
     title: "Air Paid",
-    publisher: Some("Omegamatrix"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5b8723ad74aa155a71e29164d29daa1ef94ade73"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b8723ad74aa155a71e29164d29daa1ef94ade73",
+                ),
+            ],
+        ),
+    ],
 )

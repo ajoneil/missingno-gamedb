@@ -1,9 +1,18 @@
 (
     title: "Solar Fox (Prototype) (4K)",
-    publisher: Some("CBS Electronics"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d26181a137ad83fe99fbfca425b793e9fe7db132"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d26181a137ad83fe99fbfca425b793e9fe7db132",
+                ),
+            ],
+        ),
+    ],
 )

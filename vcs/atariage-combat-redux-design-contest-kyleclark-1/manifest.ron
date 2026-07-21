@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - KyleClark_1",
-    publisher: Some("Kyle Clark"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["a249b4d566262c337791b3a5707912ca0fba4170"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kyle Clark"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a249b4d566262c337791b3a5707912ca0fba4170",
+                ),
+            ],
+        ),
+    ],
 )

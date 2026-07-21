@@ -1,7 +1,16 @@
 (
     title: "Boom Bang [a2]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f7b0d6269c2e43deab39dbfdd5b6c6ed8ae47612"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f7b0d6269c2e43deab39dbfdd5b6c6ed8ae47612",
+                ),
+            ],
+        ),
+    ],
 )

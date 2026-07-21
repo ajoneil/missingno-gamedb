@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - 1942 V3",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["349103de5eeeb090c5009159759d710558a4e67a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "349103de5eeeb090c5009159759d710558a4e67a",
+                ),
+            ],
+        ),
+    ],
 )

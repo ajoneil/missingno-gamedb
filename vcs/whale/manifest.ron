@@ -1,9 +1,18 @@
 (
     title: "Whale (Sub Scan Hack)",
-    publisher: Some("Christian Samuel"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d38a5893ea8fe9853819c4fd8eaf90f40dda3e72"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Christian Samuel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d38a5893ea8fe9853819c4fd8eaf90f40dda3e72",
+                ),
+            ],
+        ),
+    ],
 )

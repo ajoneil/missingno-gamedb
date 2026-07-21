@@ -1,9 +1,18 @@
 (
     title: "Metal Max 2600",
-    publisher: Some("Master_Programmer"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["c52766df46d33ef90ba7ec01fa2132d4f24749de"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Master_Programmer"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c52766df46d33ef90ba7ec01fa2132d4f24749de",
+                ),
+            ],
+        ),
+    ],
 )

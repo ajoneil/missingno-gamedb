@@ -1,7 +1,16 @@
 (
     title: "Diagnostic Temp 2600 [h]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9182cb0e98a6bff8f151ac7d0498f560d4253012"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9182cb0e98a6bff8f151ac7d0498f560d4253012",
+                ),
+            ],
+        ),
+    ],
 )

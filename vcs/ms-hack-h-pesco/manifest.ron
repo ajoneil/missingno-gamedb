@@ -1,9 +1,18 @@
 (
     title: "Ms. Hack [h] [Pesco]",
-    publisher: Some("Nukey Shay"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["fcbe0a74fff438645a6d4ff4913dbdce7ae24953"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Nukey Shay"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fcbe0a74fff438645a6d4ff4913dbdce7ae24953",
+                ),
+            ],
+        ),
+    ],
 )

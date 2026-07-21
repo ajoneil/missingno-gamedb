@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - MoJoFLTR_31",
-    publisher: Some("MoJoFLTR"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fdbb80c59768a9632ec0d3f4c1747a537d0c67d2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("MoJoFLTR"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fdbb80c59768a9632ec0d3f4c1747a537d0c67d2",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Brook Burke Blue Bikini",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["41d5454f41ff74255b85c99d95b6bdad5837c42a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "41d5454f41ff74255b85c99d95b6bdad5837c42a",
+                ),
+            ],
+        ),
+    ],
 )

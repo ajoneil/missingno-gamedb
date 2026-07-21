@@ -1,9 +1,21 @@
 (
     title: "Super Ferrari",
-    publisher: Some("Rainbow Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["7453f744e250bda7601e1e28b30b7dbcba8b5df1", "82a7044533f9556a9cd065881ccb9ed31f14dfd0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7453f744e250bda7601e1e28b30b7dbcba8b5df1",
+                ),
+                (
+                    sha1: "82a7044533f9556a9cd065881ccb9ed31f14dfd0",
+                ),
+            ],
+        ),
+    ],
 )

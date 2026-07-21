@@ -1,9 +1,19 @@
 (
-    title: "2600tris (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["5533a70edd7eb90af169f29aa77e5cb9e452664c"],
-    source: None,
+    title: "2600tris",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5533a70edd7eb90af169f29aa77e5cb9e452664c",
+                ),
+            ],
+        ),
+    ],
 )

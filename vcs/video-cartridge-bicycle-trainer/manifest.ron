@@ -1,9 +1,18 @@
 (
     title: "Video Cartridge Bicycle Trainer (Bike Trainer) (03-06-1985) (Prototype)",
-    publisher: Some("ExerVision"),
-    date: Some("1985"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["39f2dacb02fe4776147150029a284d29f7c66e08"],
-    source: None,
+    releases: [
+        (
+            date: Some("1985"),
+            publisher: Some("ExerVision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "39f2dacb02fe4776147150029a284d29f7c66e08",
+                ),
+            ],
+        ),
+    ],
 )

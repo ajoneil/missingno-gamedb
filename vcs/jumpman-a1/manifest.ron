@@ -1,9 +1,18 @@
 (
     title: "Jumpman (WIP) [a1]",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["750cdee526e65d3d6a02fbf31e08a7765010a415"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "750cdee526e65d3d6a02fbf31e08a7765010a415",
+                ),
+            ],
+        ),
+    ],
 )

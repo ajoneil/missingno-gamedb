@@ -1,8 +1,23 @@
 (
-    title: "Pharaoh's Curse",
-    publisher: Some("TechnoVision"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5dd853548b6bf1abffaf28fa01708fea20d346fd", "970963978d86f9b6cf6dfe0aae0c4d44a0327395", "ecd9e93335ef6eda1531b0b5f03a5015054277b0"],
-    source: None,
+    title: "Pharaoh\'s Curse",
+    releases: [
+        (
+            publisher: Some("TechnoVision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5dd853548b6bf1abffaf28fa01708fea20d346fd",
+                ),
+                (
+                    sha1: "970963978d86f9b6cf6dfe0aae0c4d44a0327395",
+                ),
+                (
+                    sha1: "ecd9e93335ef6eda1531b0b5f03a5015054277b0",
+                ),
+            ],
+        ),
+    ],
 )

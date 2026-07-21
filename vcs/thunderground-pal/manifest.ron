@@ -1,9 +1,18 @@
 (
     title: "Thunderground (Hack)",
-    publisher: Some("Sega"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["34c316869e8749e334ea69892748b281ce36f7fc"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Sega"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "34c316869e8749e334ea69892748b281ce36f7fc",
+                ),
+            ],
+        ),
+    ],
 )

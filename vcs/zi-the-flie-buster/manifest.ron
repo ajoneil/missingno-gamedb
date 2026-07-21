@@ -1,9 +1,18 @@
 (
     title: "Zi - The Flie Buster (Fernando Mora) (PD)",
-    publisher: Some("Fernando Mora"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["230453ffbefb68a47da686f92bfb4ed470537f93"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Fernando Mora"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "230453ffbefb68a47da686f92bfb4ed470537f93",
+                ),
+            ],
+        ),
+    ],
 )

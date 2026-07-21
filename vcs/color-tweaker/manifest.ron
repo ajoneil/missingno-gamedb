@@ -1,9 +1,21 @@
 (
     title: "Color Tweaker (B. Watson)",
-    publisher: Some("Brian Watson"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cc85f960e349e7ff63d0e51285d7c767202c28d8", "f6d7b7cd36aa9ab6eebb58b1c06a8738dc784734"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Brian Watson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cc85f960e349e7ff63d0e51285d7c767202c28d8",
+                ),
+                (
+                    sha1: "f6d7b7cd36aa9ab6eebb58b1c06a8738dc784734",
+                ),
+            ],
+        ),
+    ],
 )

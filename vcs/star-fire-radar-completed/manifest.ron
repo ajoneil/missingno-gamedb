@@ -1,9 +1,18 @@
 (
     title: "Star Fire - Radar Completed (22-10-2002)",
-    publisher: Some("MP"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["8e221a008f900366e53b17f32f3e52676d666010"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e221a008f900366e53b17f32f3e52676d666010",
+                ),
+            ],
+        ),
+    ],
 )

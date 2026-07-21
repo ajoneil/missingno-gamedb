@@ -1,9 +1,19 @@
 (
-    title: "Flight Simulator (WIP)",
-    publisher: Some("rpgfaker"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["804fe64b54e2bca2e3e8a8e0ad68b786526e7119"],
-    source: None,
+    title: "Flight Simulator",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("rpgfaker"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "804fe64b54e2bca2e3e8a8e0ad68b786526e7119",
+                ),
+            ],
+        ),
+    ],
 )

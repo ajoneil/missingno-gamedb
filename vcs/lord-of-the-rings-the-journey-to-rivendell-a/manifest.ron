@@ -1,9 +1,18 @@
 (
-    title: "Lord of the Rings, The - Journey to Rivendell (The Lord of the Rings I) (Prototype) [a]",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("E0"),
-    hashes: ["9010530904f78ad10a6164174cb657d1f4717337"],
-    source: None,
+    title: "The Lord of the Rings - Journey to Rivendell (The Lord of the Rings I) (Prototype) [a]",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9010530904f78ad10a6164174cb657d1f4717337",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "2003 AtariAge Holiday Cart",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ad2fa4589d0a00796992f4fb52d01ea7992d9fff"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad2fa4589d0a00796992f4fb52d01ea7992d9fff",
+                ),
+            ],
+        ),
+    ],
 )

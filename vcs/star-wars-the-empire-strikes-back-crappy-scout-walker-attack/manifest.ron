@@ -1,9 +1,18 @@
 (
     title: "Star Wars - The Empire Strikes Back - Crappy Scout Walker Attack! (Star Wars - The Empire Strikes Back Hack)",
-    publisher: Some("John Tielli"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ef1cb21c185699640fdfe9529363261dcee07c81"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("John Tielli"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef1cb21c185699640fdfe9529363261dcee07c81",
+                ),
+            ],
+        ),
+    ],
 )

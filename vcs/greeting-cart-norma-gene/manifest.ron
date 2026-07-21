@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Norma Gene",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8956c3040f7c0d050f64764c936b75534f09cf4c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8956c3040f7c0d050f64764c936b75534f09cf4c",
+                ),
+            ],
+        ),
+    ],
 )

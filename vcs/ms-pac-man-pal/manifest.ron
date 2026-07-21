@@ -1,9 +1,24 @@
 (
     title: "Ms Pac-Man",
-    publisher: Some("Artkaris Software"),
-    date: Some("1986"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["63be2edf42eb3ac965542f6e1aac901f5f2f64bd", "dba3fa256c1ab99566d2cfc2c7daa2908408fbff", "fab9f82ac3f039f787095a915ac7914af04ce7d4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1986"),
+            publisher: Some("Artkaris Software"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "63be2edf42eb3ac965542f6e1aac901f5f2f64bd",
+                ),
+                (
+                    sha1: "dba3fa256c1ab99566d2cfc2c7daa2908408fbff",
+                ),
+                (
+                    sha1: "fab9f82ac3f039f787095a915ac7914af04ce7d4",
+                ),
+            ],
+        ),
+    ],
 )

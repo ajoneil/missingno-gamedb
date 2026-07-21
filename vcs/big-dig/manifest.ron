@@ -1,9 +1,27 @@
 (
     title: "Big Dig (04-04-2003) (Christopher Tumber)",
-    publisher: Some("Tumber"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["590e791e4e49f5327833f800ca4f93c933b844a2", "83f4c84ebd34aa3ed62430f4bd1aa3417353bdaf", "b38393052d5852eb74b9d00950aea3b18e1effca", "fb5cf0883301ec094a794360c4eaa1cf2af79764"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Tumber"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "590e791e4e49f5327833f800ca4f93c933b844a2",
+                ),
+                (
+                    sha1: "83f4c84ebd34aa3ed62430f4bd1aa3417353bdaf",
+                ),
+                (
+                    sha1: "b38393052d5852eb74b9d00950aea3b18e1effca",
+                ),
+                (
+                    sha1: "fb5cf0883301ec094a794360c4eaa1cf2af79764",
+                ),
+            ],
+        ),
+    ],
 )

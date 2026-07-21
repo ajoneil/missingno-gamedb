@@ -1,9 +1,18 @@
 (
     title: "Atom Smasher (Prototype)",
-    publisher: Some("Video Soft"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ff2a4cec8005a1b04c20671f9d06aefebbb0fda1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Video Soft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ff2a4cec8005a1b04c20671f9d06aefebbb0fda1",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Wizards and Warriors Music",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3c15c9af23956619203b8197936cb606145c1de6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3c15c9af23956619203b8197936cb606145c1de6",
+                ),
+            ],
+        ),
+    ],
 )

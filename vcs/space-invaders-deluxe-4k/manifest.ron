@@ -1,9 +1,31 @@
 (
     title: "Space Invaders Deluxe (Space Invaders Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c06d902c9d528d6e14958e1bbf454316d8142ade"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c06d902c9d528d6e14958e1bbf454316d8142ade",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aa6d69a9a6ed9f1b1d6943e968ba72822ffea2a5",
+                ),
+            ],
+        ),
+    ],
 )

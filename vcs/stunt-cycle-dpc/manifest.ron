@@ -1,9 +1,19 @@
 (
-    title: "Stunt Cycle (WIP)",
-    publisher: Some("iesposta"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC+"),
-    hashes: ["7eb41dc261008c2976a43b1f9c3d29f10312f01a"],
-    source: None,
+    title: "Stunt Cycle",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("iesposta"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7eb41dc261008c2976a43b1f9c3d29f10312f01a",
+                ),
+            ],
+        ),
+    ],
 )

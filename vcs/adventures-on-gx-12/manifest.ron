@@ -1,9 +1,18 @@
 (
     title: "Adventures on GX-12",
-    publisher: Some("Telegames"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["6e420544bf91f603639188824a2b570738bb7e02"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6e420544bf91f603639188824a2b570738bb7e02",
+                ),
+            ],
+        ),
+    ],
 )

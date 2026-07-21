@@ -1,9 +1,18 @@
 (
     title: "Marineflieger",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["919fb7d1531aa6b181e96f8648168491be7a2f20"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "919fb7d1531aa6b181e96f8648168491be7a2f20",
+                ),
+            ],
+        ),
+    ],
 )

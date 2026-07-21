@@ -1,9 +1,19 @@
 (
-    title: "Second 1K bB Game (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["e09143e60d0432a2410d2245ef9dc927162bdc4a"],
-    source: None,
+    title: "Second 1K bB Game",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e09143e60d0432a2410d2245ef9dc927162bdc4a",
+                ),
+            ],
+        ),
+    ],
 )

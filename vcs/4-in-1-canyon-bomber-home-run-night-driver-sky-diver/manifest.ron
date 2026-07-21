@@ -1,9 +1,18 @@
 (
     title: "4 in 1 - Canyon Bomber, Home Run, Night Driver, Sky Diver (02-19-1987) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1987"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["bc60987b668d6fa26c49f5aba5815622710140d9"],
-    source: None,
+    releases: [
+        (
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc60987b668d6fa26c49f5aba5815622710140d9",
+                ),
+            ],
+        ),
+    ],
 )

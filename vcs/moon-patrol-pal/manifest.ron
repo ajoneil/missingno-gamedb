@@ -1,9 +1,61 @@
 (
     title: "Moon Patrol",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["723ef7da21660fe75d14d0f84eba5901aadbc4c2", "b867f98fbfed95ec7b5171edd783e7dfb62f9782"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1499f3b78756e0728b9cf66df147d4263a8b61fa",
+                ),
+                (
+                    sha1: "2286929461dc07bbdc709245011663ba65db9f14",
+                ),
+                (
+                    sha1: "57e1f0989f8a045267b4d1cb9e599b2c155611cd",
+                ),
+                (
+                    sha1: "7c0b22e8dc7a0b85ff6e67b7493684dc652d0e27",
+                ),
+                (
+                    sha1: "7c14ae45ed08c59af7c1c3ee4629d4ed02f6a187",
+                ),
+                (
+                    sha1: "ab799fcf48946d41f071fc7e2ed2512ef23b07be",
+                ),
+                (
+                    sha1: "ad6c8b2ecf0ab85248260c989a6c19bbe331ae48",
+                ),
+                (
+                    sha1: "cc6054ffef91ab98fbef24b450a4470b598ec17e",
+                ),
+                (
+                    sha1: "dce778f397a325113f035722b7769492645d69eb",
+                ),
+                (
+                    sha1: "e082923c89418ce7c49a770369a73a39d2bb1583",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "723ef7da21660fe75d14d0f84eba5901aadbc4c2",
+                ),
+                (
+                    sha1: "b867f98fbfed95ec7b5171edd783e7dfb62f9782",
+                ),
+            ],
+        ),
+    ],
 )

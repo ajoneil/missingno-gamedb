@@ -1,7 +1,33 @@
 (
     title: "Commando Raid",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8f63c5010008551f8e5fe5ada414f0c2bc44e5e5", "bdaf4a9071109c6ecdb3d381ef92efa02c184fd8"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7a5963368a7490a8022332f82ce9c9729501c05f",
+                ),
+                (
+                    sha1: "8dad05085657e95e567f47836502be515b42f66b",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8f63c5010008551f8e5fe5ada414f0c2bc44e5e5",
+                ),
+                (
+                    sha1: "bdaf4a9071109c6ecdb3d381ef92efa02c184fd8",
+                ),
+            ],
+        ),
+    ],
 )

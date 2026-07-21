@@ -1,7 +1,27 @@
 (
     title: "Game Select ROM",
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["20d41e7c06004d64b9922dd1c3b49cbaffa70955"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fa24b0f7993ea956ec8df9a5519c2831b877fc51",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "20d41e7c06004d64b9922dd1c3b49cbaffa70955",
+                ),
+            ],
+        ),
+    ],
 )

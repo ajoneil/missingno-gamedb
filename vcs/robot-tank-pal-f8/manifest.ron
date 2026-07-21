@@ -1,8 +1,30 @@
 (
     title: "Robot Tank",
-    publisher: Some("HES"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["2333bc875ce8fffe7c755c748856c07d079db45c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "21a3ee57cb622f410ffd51986ab80acadb8d44b7",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2333bc875ce8fffe7c755c748856c07d079db45c",
+                ),
+            ],
+        ),
+    ],
 )

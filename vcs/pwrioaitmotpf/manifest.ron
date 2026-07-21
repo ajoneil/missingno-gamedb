@@ -1,9 +1,18 @@
 (
     title: "PWRIOAITMOTPF",
-    publisher: Some("Lisa Hicks"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0a38b0d2af2b7d8e34593bf056e0d38b1d43790b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Lisa Hicks"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a38b0d2af2b7d8e34593bf056e0d38b1d43790b",
+                ),
+            ],
+        ),
+    ],
 )

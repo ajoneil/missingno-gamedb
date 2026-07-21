@@ -1,9 +1,18 @@
 (
     title: "Hypnotic (V0.04) (Inkling) (PD)",
-    publisher: Some("Inkling"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2b725a6c2e001d788dc23d3ebcbfb00f7070196e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Inkling"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b725a6c2e001d788dc23d3ebcbfb00f7070196e",
+                ),
+            ],
+        ),
+    ],
 )

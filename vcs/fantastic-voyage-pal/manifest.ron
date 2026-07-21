@@ -1,7 +1,38 @@
 (
     title: "Fantastic Voyage",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5d84b54f672b92f870985277d6ea0ac9c1f6e9f5", "b9b896d353b9e0fb39896cc483d9f3a26d5e4c13"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6297dd336a6343f98cd142d1d3d76ce84770a488",
+                ),
+                (
+                    sha1: "ea1e31de7dfc2e958750b29d4f23feec3a315a89",
+                ),
+                (
+                    sha1: "f82a521b71c9259d20f71e272f2ac2381741199d",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d84b54f672b92f870985277d6ea0ac9c1f6e9f5",
+                ),
+                (
+                    sha1: "b9b896d353b9e0fb39896cc483d9f3a26d5e4c13",
+                ),
+            ],
+        ),
+    ],
 )

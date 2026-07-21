@@ -1,9 +1,18 @@
 (
-    title: "Guillermo's House of Crack - A Jacob Mallard Adventure",
-    publisher: Some("Matthew Drake"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["06ef2b0706c5657e153eff38221e233bcd40fa7a"],
-    source: None,
+    title: "Guillermo\'s House of Crack - A Jacob Mallard Adventure",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Matthew Drake"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "06ef2b0706c5657e153eff38221e233bcd40fa7a",
+                ),
+            ],
+        ),
+    ],
 )

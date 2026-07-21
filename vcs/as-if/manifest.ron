@@ -1,9 +1,18 @@
 (
     title: "As If (Journey Escape Hack)",
-    publisher: Some("Clang"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a0e0e50e83a2ee845edb7f1b57218701c6ac6e62"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Clang"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a0e0e50e83a2ee845edb7f1b57218701c6ac6e62",
+                ),
+            ],
+        ),
+    ],
 )

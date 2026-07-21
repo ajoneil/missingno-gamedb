@@ -1,8 +1,17 @@
 (
     title: "Nitemare at Sunshine Bowl-a-Rama (Hack)",
-    publisher: Some("Atari Freak 1"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["02420b3ce8054f59c50e69dc7973bd7ce37851c1"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Atari Freak 1"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "02420b3ce8054f59c50e69dc7973bd7ce37851c1",
+                ),
+            ],
+        ),
+    ],
 )

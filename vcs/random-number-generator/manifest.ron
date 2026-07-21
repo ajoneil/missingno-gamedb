@@ -1,9 +1,18 @@
 (
     title: "Random Number Generator",
-    publisher: Some("Dragnerok X"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f205194f5eb88485e18693983baef9556e0ec881"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Dragnerok X"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f205194f5eb88485e18693983baef9556e0ec881",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,31 @@
 (
     title: "Cave In Update",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("F4SC"),
-    hashes: ["d6ae0ab9e9aa91f83c84208399f94e1b5f339547"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2517511545d3bf957679f615b99c49a36846e954",
+                ),
+            ],
+        ),
+        (
+            date: Some("2012"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d6ae0ab9e9aa91f83c84208399f94e1b5f339547",
+                ),
+            ],
+        ),
+    ],
 )

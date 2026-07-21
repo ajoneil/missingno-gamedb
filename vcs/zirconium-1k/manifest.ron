@@ -1,9 +1,18 @@
 (
     title: "Zirconium 1K",
-    publisher: Some("Fred Quimby"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["c32a76d3370e689ecd0bd23fa12a0085eb698362"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Fred Quimby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c32a76d3370e689ecd0bd23fa12a0085eb698362",
+                ),
+            ],
+        ),
+    ],
 )

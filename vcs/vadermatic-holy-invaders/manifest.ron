@@ -1,8 +1,17 @@
 (
     title: "Vadermatic Holy Invaders (Space Invaders Hack)",
-    publisher: Some("Greg Zumwalt"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["22ed3b6f24b669706240387edccce0d3f5745aad"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22ed3b6f24b669706240387edccce0d3f5745aad",
+                ),
+            ],
+        ),
+    ],
 )

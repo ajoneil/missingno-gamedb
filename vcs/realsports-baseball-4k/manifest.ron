@@ -1,9 +1,18 @@
 (
     title: "RealSports Baseball (Prototype) (4K)",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fac97bb9737c9db965600344982c300c90dffbc7"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fac97bb9737c9db965600344982c300c90dffbc7",
+                ),
+            ],
+        ),
+    ],
 )

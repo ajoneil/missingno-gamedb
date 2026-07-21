@@ -1,9 +1,18 @@
 (
     title: "Rocky & Bullwinkle (04-20-1983) (Prototype)",
-    publisher: Some("M Network"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b27f519052bcf8fa772b0769235acd54db6fca1a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b27f519052bcf8fa772b0769235acd54db6fca1a",
+                ),
+            ],
+        ),
+    ],
 )

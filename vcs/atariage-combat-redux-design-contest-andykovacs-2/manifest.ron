@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - AndyKovacs_2",
-    publisher: Some("Kovacs"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["582fad1eefedc2d79811bf969211f25a7ed28a2c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kovacs"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "582fad1eefedc2d79811bf969211f25a7ed28a2c",
+                ),
+            ],
+        ),
+    ],
 )

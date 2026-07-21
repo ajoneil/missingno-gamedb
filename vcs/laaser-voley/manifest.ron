@@ -1,9 +1,18 @@
 (
     title: "Laaser Voley (Pirate)",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["c513703d638c01b0c26922d5e3e7bfb65ea597da"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c513703d638c01b0c26922d5e3e7bfb65ea597da",
+                ),
+            ],
+        ),
+    ],
 )

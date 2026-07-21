@@ -1,9 +1,18 @@
 (
     title: "Quick Draw V2 (Berzerk Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["40c69eb7ba2c10166313131e312f4bb5a0c95385"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "40c69eb7ba2c10166313131e312f4bb5a0c95385",
+                ),
+            ],
+        ),
+    ],
 )

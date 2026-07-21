@@ -1,9 +1,18 @@
 (
     title: "Lochjaw [moving cloud]",
-    publisher: Some("Apollo"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0c6e6dc07a260b19c2a0270a0fc58108c11b66de"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0c6e6dc07a260b19c2a0270a0fc58108c11b66de",
+                ),
+            ],
+        ),
+    ],
 )

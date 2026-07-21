@@ -1,9 +1,18 @@
 (
     title: "Atari Softball (Home Run Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["ce15ddaf29b0572dc609ee6c6b53e0f33d5fd930"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ce15ddaf29b0572dc609ee6c6b53e0f33d5fd930",
+                ),
+            ],
+        ),
+    ],
 )

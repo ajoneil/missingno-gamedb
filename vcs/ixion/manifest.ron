@@ -1,9 +1,21 @@
 (
     title: "Ixion (PAL Conversion)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["1a325129f9d264f79a88fec427b4286e2666c0ba", "a11538157529b42a2840f518b95af5c59143cced"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a325129f9d264f79a88fec427b4286e2666c0ba",
+                ),
+                (
+                    sha1: "a11538157529b42a2840f518b95af5c59143cced",
+                ),
+            ],
+        ),
+    ],
 )

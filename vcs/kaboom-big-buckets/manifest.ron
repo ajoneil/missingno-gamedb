@@ -1,9 +1,18 @@
 (
     title: "Kaboom Big Buckets (Kaboom! Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["caa40f2c91834dd0ee1c412b20d5c764314f4bd9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "caa40f2c91834dd0ee1c412b20d5c764314f4bd9",
+                ),
+            ],
+        ),
+    ],
 )

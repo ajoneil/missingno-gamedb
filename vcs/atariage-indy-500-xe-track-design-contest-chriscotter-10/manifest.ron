@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - ChrisCotter_10",
-    publisher: Some("Chris Cotter"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ccf4af713648e45d73063c5a9cca7d9c3cc14187"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Chris Cotter"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ccf4af713648e45d73063c5a9cca7d9c3cc14187",
+                ),
+            ],
+        ),
+    ],
 )

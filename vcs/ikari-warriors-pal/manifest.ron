@@ -1,9 +1,37 @@
 (
     title: "Ikari Warriors",
-    publisher: Some("Atari"),
-    date: Some("1990"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["5ced92d13f8becd96d175b38d179e353f8c33660"],
-    source: None,
+    releases: [
+        (
+            date: Some("1990"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e31be473068c0d733a1b2f8fea42598eefcb8c7",
+                ),
+                (
+                    sha1: "79ae3180aebb476dc46321eaa98113cf851d762e",
+                ),
+                (
+                    sha1: "d8f7b908f60fe49667c7c55d48ce15a05ad95a28",
+                ),
+            ],
+        ),
+        (
+            date: Some("1990"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5ced92d13f8becd96d175b38d179e353f8c33660",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - RHPS-Lips",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["33d7c2d6a619a779aff76154e6d0197434121434"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33d7c2d6a619a779aff76154e6d0197434121434",
+                ),
+            ],
+        ),
+    ],
 )

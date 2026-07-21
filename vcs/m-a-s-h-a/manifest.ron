@@ -1,7 +1,16 @@
 (
     title: "M.A.S.H [a]",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a2ef13317712f56685355b648ca9358efadacb3c"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a2ef13317712f56685355b648ca9358efadacb3c",
+                ),
+            ],
+        ),
+    ],
 )

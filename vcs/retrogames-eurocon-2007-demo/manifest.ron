@@ -1,9 +1,18 @@
 (
     title: "RetroGames Eurocon 2007 Demo",
-    publisher: Some("Simon Quernhorst"),
-    date: Some("2007"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["f15da69b7d69c82a08ad6af6655a2b7154dc3bcf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Simon Quernhorst"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f15da69b7d69c82a08ad6af6655a2b7154dc3bcf",
+                ),
+            ],
+        ),
+    ],
 )

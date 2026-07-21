@@ -1,9 +1,34 @@
 (
     title: "Universal Chaos",
-    publisher: Some("Telegames"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["50fb0e27ee994a9e51b63f84434a25a0036eea62"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "286106fb973530bc3e2af13240f28c4bcb37e642",
+                ),
+                (
+                    sha1: "66363b752ea5dc2e0b1107f01c95dced43d9dbf6",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "50fb0e27ee994a9e51b63f84434a25a0036eea62",
+                ),
+            ],
+        ),
+    ],
 )

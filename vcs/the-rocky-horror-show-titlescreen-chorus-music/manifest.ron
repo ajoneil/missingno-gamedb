@@ -1,9 +1,18 @@
 (
     title: "The Rocky Horror Show Titlescreen Chorus Music",
-    publisher: Some("diogoandrei"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a3c53b0cfdd97ed8c3cc0a5724a3207f2d52b482"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("diogoandrei"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a3c53b0cfdd97ed8c3cc0a5724a3207f2d52b482",
+                ),
+            ],
+        ),
+    ],
 )

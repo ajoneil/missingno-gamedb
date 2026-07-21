@@ -1,9 +1,21 @@
 (
     title: "Synthcart",
-    publisher: Some("Paul Slocum"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["17b86315e65c9bec3814ffd8bd21449ad801bbcb", "c24256c1d51246281a400fb03fc4ca465bd092dd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "17b86315e65c9bec3814ffd8bd21449ad801bbcb",
+                ),
+                (
+                    sha1: "c24256c1d51246281a400fb03fc4ca465bd092dd",
+                ),
+            ],
+        ),
+    ],
 )

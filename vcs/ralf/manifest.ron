@@ -1,9 +1,19 @@
 (
-    title: "RALF (WIP)",
-    publisher: Some("Matthew J. Risch"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["1d119fd044371437f46ee7cdfbee3e827f2d5dbf"],
-    source: None,
+    title: "RALF",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Matthew J. Risch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1d119fd044371437f46ee7cdfbee3e827f2d5dbf",
+                ),
+            ],
+        ),
+    ],
 )

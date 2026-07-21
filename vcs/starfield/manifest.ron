@@ -1,9 +1,18 @@
 (
     title: "Starfield (V1.0) (Manuel Rotschkar)",
-    publisher: Some("MP"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["11897de3860354694f01c0c4ac0ee06254b8d728"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "11897de3860354694f01c0c4ac0ee06254b8d728",
+                ),
+            ],
+        ),
+    ],
 )

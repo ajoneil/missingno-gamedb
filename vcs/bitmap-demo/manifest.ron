@@ -1,9 +1,18 @@
 (
     title: "Bitmap Demo (13-01-2003) (Andrew Davie)",
-    publisher: Some("Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["b402f45e87b4d57a77758d4169ebccbea86144dd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b402f45e87b4d57a77758d4169ebccbea86144dd",
+                ),
+            ],
+        ),
+    ],
 )

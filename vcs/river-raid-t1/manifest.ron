@@ -1,9 +1,18 @@
 (
     title: "River Raid [t1] (SpkSoft)",
-    publisher: Some("Activision"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["959f46289452ce504238137f6a659688c8439ff3"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "959f46289452ce504238137f6a659688c8439ff3",
+                ),
+            ],
+        ),
+    ],
 )

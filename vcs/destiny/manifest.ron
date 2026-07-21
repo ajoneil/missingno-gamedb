@@ -1,9 +1,19 @@
 (
-    title: "Destiny (WIP)",
-    publisher: Some("Jason Santuci"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["c76c91700477c4358f5ad1ed5625abee231077e3"],
-    source: None,
+    title: "Destiny",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Jason Santuci"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c76c91700477c4358f5ad1ed5625abee231077e3",
+                ),
+            ],
+        ),
+    ],
 )

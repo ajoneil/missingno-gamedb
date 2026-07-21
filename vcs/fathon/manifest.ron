@@ -1,8 +1,17 @@
 (
     title: "Fathon (Digivision)",
-    publisher: Some("Digivision"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("UA"),
-    hashes: ["5ea2b3dade89f1d9a9ffdcbd28ea77295a7bdc0a"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5ea2b3dade89f1d9a9ffdcbd28ea77295a7bdc0a",
+                ),
+            ],
+        ),
+    ],
 )

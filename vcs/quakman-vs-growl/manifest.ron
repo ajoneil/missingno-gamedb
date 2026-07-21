@@ -1,9 +1,18 @@
 (
     title: "Quakman vs. Growl",
-    publisher: Some("Matthew Carroll"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4e80a7f9733564dcb9e3bd3d22f5be0f216c003b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Matthew Carroll"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e80a7f9733564dcb9e3bd3d22f5be0f216c003b",
+                ),
+            ],
+        ),
+    ],
 )

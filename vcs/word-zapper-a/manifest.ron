@@ -1,7 +1,16 @@
 (
     title: "Word Zapper [a]",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["253788380f6f7757cda39d7256c796a95800c909"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "253788380f6f7757cda39d7256c796a95800c909",
+                ),
+            ],
+        ),
+    ],
 )

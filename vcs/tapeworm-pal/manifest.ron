@@ -1,9 +1,34 @@
 (
     title: "Tapeworm",
-    publisher: Some("Spectravision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["bf495197fd4d9c84e035b6be397a58238bffe51b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "633ef6359656abe9627b9d5b97eccb9858a4dc8c",
+                ),
+                (
+                    sha1: "ee8bc1710a67c33e9f95bb05cc3d8f841093fde2",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bf495197fd4d9c84e035b6be397a58238bffe51b",
+                ),
+            ],
+        ),
+    ],
 )

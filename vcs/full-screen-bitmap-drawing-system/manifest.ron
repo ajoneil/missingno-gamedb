@@ -1,9 +1,18 @@
 (
     title: "Full Screen Bitmap Drawing System (12-02-2003) (Andrew Davie)",
-    publisher: Some("AD"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f3bf0cad66e8516acb5a8bc8c9865c0dcb10c05f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("AD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f3bf0cad66e8516acb5a8bc8c9865c0dcb10c05f",
+                ),
+            ],
+        ),
+    ],
 )

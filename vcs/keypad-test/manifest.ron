@@ -1,9 +1,19 @@
 (
-    title: "Keypad Test (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2dc53e16d94b6e6d66f279a4b9905b8291883603"],
-    source: None,
+    title: "Keypad Test",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2dc53e16d94b6e6d66f279a4b9905b8291883603",
+                ),
+            ],
+        ),
+    ],
 )

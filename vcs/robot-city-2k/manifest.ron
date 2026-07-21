@@ -1,8 +1,23 @@
 (
     title: "Robot City (V0.12)",
-    publisher: Some("Thomas Jentzsch"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["08c55b81d2a3c0e9a3488882f0ffa9bbc2346c25", "1ca62b442cc3f562c90d6b994155c79d437e9c6b", "a99e676c41d5ac2c0c4f425057bbcf095fea9af2"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "08c55b81d2a3c0e9a3488882f0ffa9bbc2346c25",
+                ),
+                (
+                    sha1: "1ca62b442cc3f562c90d6b994155c79d437e9c6b",
+                ),
+                (
+                    sha1: "a99e676c41d5ac2c0c4f425057bbcf095fea9af2",
+                ),
+            ],
+        ),
+    ],
 )

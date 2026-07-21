@@ -1,9 +1,19 @@
 (
-    title: "Paint the Town Red (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f49c4e23eaf0b3bbe49badb47b14937129643514"],
-    source: None,
+    title: "Paint the Town Red",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f49c4e23eaf0b3bbe49badb47b14937129643514",
+                ),
+            ],
+        ),
+    ],
 )

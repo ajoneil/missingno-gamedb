@@ -1,9 +1,18 @@
 (
     title: "Pig - A Jeopardy Dice Game",
-    publisher: Some("Cropsy"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["68e79cbfd88900ab7c37406efb3ead8148ed1438"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Cropsy"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "68e79cbfd88900ab7c37406efb3ead8148ed1438",
+                ),
+            ],
+        ),
+    ],
 )

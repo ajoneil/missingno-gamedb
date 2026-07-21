@@ -1,8 +1,17 @@
 (
     title: "2 in 1 - Chess, Othello (Prototype)",
-    publisher: Some("Atari"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["89325761c9c72b8824c0de249bb024be570e2d36"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "89325761c9c72b8824c0de249bb024be570e2d36",
+                ),
+            ],
+        ),
+    ],
 )

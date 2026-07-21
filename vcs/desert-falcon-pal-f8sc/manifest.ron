@@ -1,9 +1,18 @@
 (
     title: "Desert Falcon (Nile Flyer, Sphinx) (05-27-1987) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1987"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8SC"),
-    hashes: ["5d9619410fd058ab8315f25910a38f4805c4b1c2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d9619410fd058ab8315f25910a38f4805c4b1c2",
+                ),
+            ],
+        ),
+    ],
 )

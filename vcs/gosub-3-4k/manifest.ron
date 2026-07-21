@@ -1,9 +1,33 @@
 (
-    title: "GoSub 3 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9f1a2de87dbccc467f2065f42cc20a88c95bb796"],
-    source: None,
+    title: "GoSub 3",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9f1a2de87dbccc467f2065f42cc20a88c95bb796",
+                ),
+            ],
+        ),
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "897ba6702ef579794a0241b734541014278a4c67",
+                ),
+            ],
+        ),
+    ],
 )

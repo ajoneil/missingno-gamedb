@@ -1,9 +1,19 @@
 (
-    title: "Alien Greed II Test (WIP)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["4a98a3494ed5b786c497c1b389b80b34576afa75"],
-    source: None,
+    title: "Alien Greed II Test",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Steve Engelhardt"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4a98a3494ed5b786c497c1b389b80b34576afa75",
+                ),
+            ],
+        ),
+    ],
 )

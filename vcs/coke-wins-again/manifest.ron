@@ -1,9 +1,18 @@
 (
     title: "Coke wins again (Pepsi Invaders Hack)",
-    publisher: Some("cosmossis"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["eb86d211d5009045174fa8224a04da5d75720842"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("cosmossis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eb86d211d5009045174fa8224a04da5d75720842",
+                ),
+            ],
+        ),
+    ],
 )

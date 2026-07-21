@@ -1,8 +1,17 @@
 (
     title: "Image - Car",
-    publisher: Some("Andrew Davie"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b9cfab9ed61161586eac7f6029734e32c75d30e4"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b9cfab9ed61161586eac7f6029734e32c75d30e4",
+                ),
+            ],
+        ),
+    ],
 )

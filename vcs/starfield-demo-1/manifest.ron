@@ -1,9 +1,18 @@
 (
     title: "Starfield Demo 1 (20-12-2002) (Christopher Tumber)",
-    publisher: Some("CT"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7874b012393c9e7ee5cda0012594219d642a048d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("CT"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7874b012393c9e7ee5cda0012594219d642a048d",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,16 @@
 (
     title: "ZZZ-UNK-SwordFight",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["744a26da93cbb24841f304e3211176c6af371cb9"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "744a26da93cbb24841f304e3211176c6af371cb9",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Battlezone [a]",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["5cac793eb076c3ee559ec4eb7276629eae849d8f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cac793eb076c3ee559ec4eb7276629eae849d8f",
+                ),
+            ],
+        ),
+    ],
 )

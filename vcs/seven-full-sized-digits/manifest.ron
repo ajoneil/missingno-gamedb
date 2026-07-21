@@ -1,9 +1,18 @@
 (
     title: "Seven Full Sized Digits (Demo)",
-    publisher: Some("Omegamatrix"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ac7bda65737d22305ecca4f4b24ba378c2397038"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ac7bda65737d22305ecca4f4b24ba378c2397038",
+                ),
+            ],
+        ),
+    ],
 )

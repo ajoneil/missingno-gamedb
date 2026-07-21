@@ -1,9 +1,31 @@
 (
     title: "SWOOPS! (v0.96)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2005"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["57232703be8ae6602ce5597de647dd29d061736d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4940a7f31fd0158ecb38e79701c2d459ec98e28b",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "57232703be8ae6602ce5597de647dd29d061736d",
+                ),
+            ],
+        ),
+    ],
 )

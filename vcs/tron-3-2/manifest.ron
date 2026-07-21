@@ -1,9 +1,18 @@
 (
     title: "Tron 3.2",
-    publisher: Some("jbs30000"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["ea1a62c8fefa12c611acf4f2e5df35f36c0c0f2f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("jbs30000"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ea1a62c8fefa12c611acf4f2e5df35f36c0c0f2f",
+                ),
+            ],
+        ),
+    ],
 )

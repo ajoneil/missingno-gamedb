@@ -1,8 +1,17 @@
 (
     title: "Ases do Ar (Dismac)",
-    publisher: Some("Dismac"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["4d0689a98008bf89caab949249ff0f543abf5e0c"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Dismac"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4d0689a98008bf89caab949249ff0f543abf5e0c",
+                ),
+            ],
+        ),
+    ],
 )

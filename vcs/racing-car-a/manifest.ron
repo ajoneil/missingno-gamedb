@@ -1,7 +1,16 @@
 (
     title: "Racing Car [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fa8956815d29bb9f176b38959fac6927259018da"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fa8956815d29bb9f176b38959fac6927259018da",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "R2D Tank (6)",
-    publisher: Some("UA Limited"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e2f651e134da86853bf7e20fcdbc6517ae3cc57c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("UA Limited"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e2f651e134da86853bf7e20fcdbc6517ae3cc57c",
+                ),
+            ],
+        ),
+    ],
 )

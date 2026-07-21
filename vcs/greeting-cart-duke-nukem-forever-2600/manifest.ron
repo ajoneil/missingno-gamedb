@@ -1,8 +1,17 @@
 (
     title: "Greeting Cart - Duke Nukem Forever 2600",
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["834692e079f569a7b5a1061dc13859935faa1f63"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "834692e079f569a7b5a1061dc13859935faa1f63",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Hot Lava (WIP)",
-    publisher: Some("Matthew J. Risch"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["051d2929e1d762ec5af244debda081840ba04a37"],
-    source: None,
+    title: "Hot Lava",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Matthew J. Risch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "051d2929e1d762ec5af244debda081840ba04a37",
+                ),
+            ],
+        ),
+    ],
 )

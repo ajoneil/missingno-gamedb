@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Delta",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b7beebf49d4e7cce2adc3eebf91f3952d4ea7c80"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b7beebf49d4e7cce2adc3eebf91f3952d4ea7c80",
+                ),
+            ],
+        ),
+    ],
 )

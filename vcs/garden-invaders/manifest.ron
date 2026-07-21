@@ -1,9 +1,18 @@
 (
     title: "Garden Invaders (Space Invaders Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0948dac257477588d5a2605aa333d0a23013971e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0948dac257477588d5a2605aa333d0a23013971e",
+                ),
+            ],
+        ),
+    ],
 )

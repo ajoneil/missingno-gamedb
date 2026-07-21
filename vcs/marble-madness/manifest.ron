@@ -1,9 +1,19 @@
 (
-    title: "Marble Madness (WIP)",
-    publisher: Some("John K. Harvey"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["75d7cedeef26283a19fd9898ee608342e7e3b0af"],
-    source: None,
+    title: "Marble Madness",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("John K. Harvey"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "75d7cedeef26283a19fd9898ee608342e7e3b0af",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Maze Craze Black (Maze Craze Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["02685b5dd73ca546b1a06bb92f92f9d70054b1fb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "02685b5dd73ca546b1a06bb92f92f9d70054b1fb",
+                ),
+            ],
+        ),
+    ],
 )

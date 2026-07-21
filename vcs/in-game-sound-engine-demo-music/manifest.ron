@@ -1,9 +1,18 @@
 (
     title: "In Game Sound Engine Demo Music",
-    publisher: Some("Richi_S"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bfa42825e29614de00b703026d8529380f944b3f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Richi_S"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bfa42825e29614de00b703026d8529380f944b3f",
+                ),
+            ],
+        ),
+    ],
 )

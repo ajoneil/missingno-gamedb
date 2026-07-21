@@ -1,9 +1,21 @@
 (
     title: "Bugs",
-    publisher: Some("Data Age"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["52caed95002ad8775efb2a0a7ca9799c827ac597", "67387d0d3d48a44800c44860bf15339a81f41aa9"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "52caed95002ad8775efb2a0a7ca9799c827ac597",
+                ),
+                (
+                    sha1: "67387d0d3d48a44800c44860bf15339a81f41aa9",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Fishies (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["798c1d2d5b171097fe30e2657aa17274a3ed6c00"],
-    source: None,
+    title: "Fishies",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "798c1d2d5b171097fe30e2657aa17274a3ed6c00",
+                ),
+            ],
+        ),
+    ],
 )

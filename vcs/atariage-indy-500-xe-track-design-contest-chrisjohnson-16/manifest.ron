@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - ChrisJohnson_16",
-    publisher: Some("Chris Johnson"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bed39ed98ebb32e4e79e3e97230048a462ee7a79"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Chris Johnson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bed39ed98ebb32e4e79e3e97230048a462ee7a79",
+                ),
+            ],
+        ),
+    ],
 )

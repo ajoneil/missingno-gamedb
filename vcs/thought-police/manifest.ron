@@ -1,9 +1,19 @@
 (
-    title: "Thought Police (WIP)",
-    publisher: Some("Kevin Lipe"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1d1843b56543bf4f82fe4db24ca6cad263807e59"],
-    source: None,
+    title: "Thought Police",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Kevin Lipe"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1d1843b56543bf4f82fe4db24ca6cad263807e59",
+                ),
+            ],
+        ),
+    ],
 )

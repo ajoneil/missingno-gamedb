@@ -1,8 +1,17 @@
 (
     title: "Blue Rod Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bb6c99ed777c0a912ebce4cf4328ca6da978229b"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bb6c99ed777c0a912ebce4cf4328ca6da978229b",
+                ),
+            ],
+        ),
+    ],
 )

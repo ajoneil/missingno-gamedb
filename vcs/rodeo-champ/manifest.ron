@@ -1,9 +1,18 @@
 (
     title: "Rodeo Champ (4 Game in One)",
-    publisher: Some("Bit Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a02282e5b3deeb80a16c7dde99375da8c39bac2c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a02282e5b3deeb80a16c7dde99375da8c39bac2c",
+                ),
+            ],
+        ),
+    ],
 )

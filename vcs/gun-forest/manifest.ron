@@ -1,9 +1,18 @@
 (
     title: "Gun-Forest (Forest Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["b67d00ec30e5424825d5c0ebf6b44a1f14863967"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b67d00ec30e5424825d5c0ebf6b44a1f14863967",
+                ),
+            ],
+        ),
+    ],
 )

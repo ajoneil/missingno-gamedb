@@ -1,8 +1,17 @@
 (
     title: "Unknown Title) (bin00003 (200206) (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ad9b7a80a59e79e9cdf490f02625a0a246491894"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad9b7a80a59e79e9cdf490f02625a0a246491894",
+                ),
+            ],
+        ),
+    ],
 )

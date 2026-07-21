@@ -1,9 +1,19 @@
 (
-    title: "Catacombs of Mu (WIP)",
-    publisher: Some("Zach Matley"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bbdaacf785ec76edc11a05aa5d26f0e0d4599f57"],
-    source: None,
+    title: "Catacombs of Mu",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Zach Matley"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bbdaacf785ec76edc11a05aa5d26f0e0d4599f57",
+                ),
+            ],
+        ),
+    ],
 )

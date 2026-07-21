@@ -1,8 +1,17 @@
 (
     title: "Plane Demo (Gonzalo) (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e22ba7151d8354a13b03afef9246f9846cc36465"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e22ba7151d8354a13b03afef9246f9846cc36465",
+                ),
+            ],
+        ),
+    ],
 )

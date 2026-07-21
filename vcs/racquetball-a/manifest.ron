@@ -1,7 +1,16 @@
 (
     title: "Racquetball [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dbf230366a324278feae98d4e1e3d64a0fef2996"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dbf230366a324278feae98d4e1e3d64a0fef2996",
+                ),
+            ],
+        ),
+    ],
 )

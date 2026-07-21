@@ -1,9 +1,18 @@
 (
     title: "Seaquest Trainer (Seaquest Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["77501a5b1945693ad72e2789a6ce0c1198327709"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "77501a5b1945693ad72e2789a6ce0c1198327709",
+                ),
+            ],
+        ),
+    ],
 )

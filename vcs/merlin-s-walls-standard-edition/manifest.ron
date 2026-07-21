@@ -1,9 +1,18 @@
 (
-    title: "Merlin's Walls - Standard Edition",
-    publisher: Some("Ebivision"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7fe4d95d66c16abdbef476f11a930280fb2066ab"],
-    source: None,
+    title: "Merlin\'s Walls - Standard Edition",
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Ebivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7fe4d95d66c16abdbef476f11a930280fb2066ab",
+                ),
+            ],
+        ),
+    ],
 )

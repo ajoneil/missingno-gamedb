@@ -1,9 +1,18 @@
 (
     title: "Pac-Muncher (Fast Food Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["838a8ed9f47540775b46491cb4736da43291669b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "838a8ed9f47540775b46491cb4736da43291669b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,31 @@
 (
     title: "Space Master X-7 (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["e33dcc11d8e84a6ee8ad3b818335e36bcb486dd2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6d4cf636d8626edc6a642c13ae275e67a7bcc688",
+                ),
+            ],
+        ),
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e33dcc11d8e84a6ee8ad3b818335e36bcb486dd2",
+                ),
+            ],
+        ),
+    ],
 )

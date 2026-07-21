@@ -1,9 +1,18 @@
 (
     title: "Adventure Drop (Adventure Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7830cb3a8cc54a81fe27f4107a886a22cd5df4d7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7830cb3a8cc54a81fe27f4107a886a22cd5df4d7",
+                ),
+            ],
+        ),
+    ],
 )

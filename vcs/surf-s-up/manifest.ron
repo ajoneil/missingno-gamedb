@@ -1,9 +1,18 @@
 (
-    title: "Surf's Up (Proto)",
-    publisher: Some("Amiga"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["cf84e21ada55730d689cfac7d26e2295317222bc"],
-    source: None,
+    title: "Surf\'s Up (Proto)",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cf84e21ada55730d689cfac7d26e2295317222bc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Bumblebee VS The Decepticons (Cat Trax Hack)",
-    publisher: Some("Rabbit 2600"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["63919e77232bf2601ac7e7980f3592432249fe3d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rabbit 2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "63919e77232bf2601ac7e7980f3592432249fe3d",
+                ),
+            ],
+        ),
+    ],
 )

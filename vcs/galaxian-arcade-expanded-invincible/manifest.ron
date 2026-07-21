@@ -1,9 +1,18 @@
 (
     title: "Galaxian Arcade Expanded Invincible (Galaxian Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["6db7f35b86be754d0f2e4631ed33853232f7aa32"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6db7f35b86be754d0f2e4631ed33853232f7aa32",
+                ),
+            ],
+        ),
+    ],
 )

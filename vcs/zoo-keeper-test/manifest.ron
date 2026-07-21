@@ -1,9 +1,19 @@
 (
-    title: "Zoo Keeper Test (WIP)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["137a8a4e7c128eae26937ad4250e4a1853fb87dc"],
-    source: None,
+    title: "Zoo Keeper Test",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Manuel Rotschkar"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "137a8a4e7c128eae26937ad4250e4a1853fb87dc",
+                ),
+            ],
+        ),
+    ],
 )

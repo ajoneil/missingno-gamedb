@@ -1,9 +1,35 @@
 (
     title: "Karate",
-    publisher: Some("Funvision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["c78feaec45604cda85eb5809e8814c3e49e8c73c", "e2a9450103e5da76ed273d9fabc7239841255121"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5614009997cb93ba9f7bef1d9ac516c2880fd9e9",
+                ),
+                (
+                    sha1: "c0db7d295e2ce5e00e00b8a83075b1103688ea15",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Funvision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c78feaec45604cda85eb5809e8814c3e49e8c73c",
+                ),
+                (
+                    sha1: "e2a9450103e5da76ed273d9fabc7239841255121",
+                ),
+            ],
+        ),
+    ],
 )

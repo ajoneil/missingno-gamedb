@@ -1,9 +1,18 @@
 (
     title: "Castle Crusaders",
-    publisher: Some("Tim van de Vall"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fd77fbc898c04fd9704d84457f8367b024ff338d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Tim van de Vall"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fd77fbc898c04fd9704d84457f8367b024ff338d",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Chronocolor Donkey Kong Sideways (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["447c5e5d3763ba2e090d7c1fd9ca84c8bb07336e"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "447c5e5d3763ba2e090d7c1fd9ca84c8bb07336e",
+                ),
+            ],
+        ),
+    ],
 )

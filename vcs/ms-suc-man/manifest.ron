@@ -1,9 +1,18 @@
 (
     title: "Ms. Suc-Man (Ms. Pac-Man Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["69d4d5d3a4fe2cf764dbdb11c3e6eb352b025d83"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "69d4d5d3a4fe2cf764dbdb11c3e6eb352b025d83",
+                ),
+            ],
+        ),
+    ],
 )

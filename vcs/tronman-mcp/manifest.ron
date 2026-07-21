@@ -1,7 +1,17 @@
 (
-    title: "Tronman MCP (Squeeze Box Hack) (Scott Dayton) (WIP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1224b0dd8874bbf151e66d166c8469ebe70df357"],
-    source: None,
+    title: "Tronman MCP (Squeeze Box Hack) (Scott Dayton)",
+    releases: [
+        (
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1224b0dd8874bbf151e66d166c8469ebe70df357",
+                ),
+            ],
+        ),
+    ],
 )

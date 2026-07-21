@@ -1,8 +1,30 @@
 (
     title: "Pete Rose Baseball",
-    publisher: Some("HES"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["a9e0d464755c36b291cdad7136a4e90090df7df9"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Absolute Entertainment"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "19c3ad034466c0433501a415a996ed7155d6063a",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a9e0d464755c36b291cdad7136a4e90090df7df9",
+                ),
+            ],
+        ),
+    ],
 )

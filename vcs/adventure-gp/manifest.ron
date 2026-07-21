@@ -1,9 +1,18 @@
 (
     title: "Adventure GP (Adventure Hack)",
-    publisher: Some("77gp454"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7f72d91eb451f8c4b08b6fc565e4d16ec4aeb444"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("77gp454"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f72d91eb451f8c4b08b6fc565e4d16ec4aeb444",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "DeathFlag",
-    publisher: Some("Joseph Simoneau"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["22324db808cffcd17d4672877f7fffbb16d1d71c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Joseph Simoneau"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22324db808cffcd17d4672877f7fffbb16d1d71c",
+                ),
+            ],
+        ),
+    ],
 )

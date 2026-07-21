@@ -1,9 +1,18 @@
 (
     title: "StarMaster - Kommando Galaxis [fixed]",
-    publisher: Some("Activision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["49d9c811992e6f900a3ef795a792e48dd45187ae"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "49d9c811992e6f900a3ef795a792e48dd45187ae",
+                ),
+            ],
+        ),
+    ],
 )

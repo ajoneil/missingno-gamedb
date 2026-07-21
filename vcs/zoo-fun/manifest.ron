@@ -1,9 +1,18 @@
 (
     title: "Zoo Fun",
-    publisher: Some("ITT Family Games"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["feb6bd37e5d722bd080433587972b980afff5fa5"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("ITT Family Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "feb6bd37e5d722bd080433587972b980afff5fa5",
+                ),
+            ],
+        ),
+    ],
 )

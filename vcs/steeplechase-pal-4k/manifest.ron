@@ -1,7 +1,48 @@
 (
     title: "Steeplechase",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a037f8d4cd4d9721ef5c29c7c58100739a039cd2", "bd7f0005fa018f13ed7e942c83c1751fb746a317"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Sears Tele-Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c09cc17f53630b07f5ab672316f58b2dfedf4197",
+                ),
+                (
+                    sha1: "e56ef1c0313d6d04e25446c4e34f9bb7eda8efac",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Sears Tele-Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "37c1e7eda714ff0294935a6ca7dfe139d93fed4e",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a037f8d4cd4d9721ef5c29c7c58100739a039cd2",
+                ),
+                (
+                    sha1: "bd7f0005fa018f13ed7e942c83c1751fb746a317",
+                ),
+            ],
+        ),
+    ],
 )

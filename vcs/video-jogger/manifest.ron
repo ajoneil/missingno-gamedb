@@ -1,9 +1,18 @@
 (
     title: "Video Jogger",
-    publisher: Some("Exus Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1554b146d076b64776bf49136cea01f60eeba4c1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Exus Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1554b146d076b64776bf49136cea01f60eeba4c1",
+                ),
+            ],
+        ),
+    ],
 )

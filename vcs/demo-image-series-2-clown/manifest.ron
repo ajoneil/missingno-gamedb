@@ -1,9 +1,18 @@
 (
     title: "Demo Image Series #2 - Clown (19-02-2003) (Andrew Davie)",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["e54a0b4d7d19d86c6e97f215a10ccbb2c49034de"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e54a0b4d7d19d86c6e97f215a10ccbb2c49034de",
+                ),
+            ],
+        ),
+    ],
 )

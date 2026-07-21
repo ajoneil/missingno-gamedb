@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Winter Edition 1",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4774cf7852e5b5ce0f5c923b25a99d659e09fc26"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4774cf7852e5b5ce0f5c923b25a99d659e09fc26",
+                ),
+            ],
+        ),
+    ],
 )

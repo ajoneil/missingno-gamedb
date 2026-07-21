@@ -1,9 +1,19 @@
 (
-    title: "Fade Out (WIP)",
-    publisher: Some("Adam Tierney"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["4a05726f7fab2fc00809911ec680c604256e2813"],
-    source: None,
+    title: "Fade Out",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Adam Tierney"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4a05726f7fab2fc00809911ec680c604256e2813",
+                ),
+            ],
+        ),
+    ],
 )

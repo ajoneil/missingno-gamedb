@@ -1,9 +1,18 @@
 (
     title: "bB Boing Demo",
-    publisher: Some("Curtis F. Kaylor"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dd54f555efbf8d91642b0537ec43b7e1d70626ee"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Curtis F. Kaylor"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd54f555efbf8d91642b0537ec43b7e1d70626ee",
+                ),
+            ],
+        ),
+    ],
 )

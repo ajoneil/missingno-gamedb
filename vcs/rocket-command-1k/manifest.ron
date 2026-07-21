@@ -1,9 +1,18 @@
 (
     title: "Rocket Command 1K",
-    publisher: Some("Fred Quimby"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0fc487a99ed6b4cdc493eb74637295299c6874a6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Fred Quimby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0fc487a99ed6b4cdc493eb74637295299c6874a6",
+                ),
+            ],
+        ),
+    ],
 )

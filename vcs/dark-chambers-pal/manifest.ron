@@ -1,9 +1,21 @@
 (
     title: "Dark Chambers (Dungeon, Dungeon Masters)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6SC"),
-    hashes: ["0ea0dea570acedc806aae630a92f68b3e1d63868", "72563f872ebfd285ef51b9f2fe7d3a8f55f1b0fa"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ea0dea570acedc806aae630a92f68b3e1d63868",
+                ),
+                (
+                    sha1: "72563f872ebfd285ef51b9f2fe7d3a8f55f1b0fa",
+                ),
+            ],
+        ),
+    ],
 )

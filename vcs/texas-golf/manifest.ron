@@ -1,7 +1,16 @@
 (
     title: "Texas Golf (miniature Gold Hack)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2464d2d682c91d25ae74909b5a977fd28e7f5d1c"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2464d2d682c91d25ae74909b5a977fd28e7f5d1c",
+                ),
+            ],
+        ),
+    ],
 )

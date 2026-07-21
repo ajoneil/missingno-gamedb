@@ -1,9 +1,34 @@
 (
     title: "Bell Hopper",
-    publisher: Some("Tjoppen"),
-    date: Some("2011"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["c267aaebb7746e683f0aa63302a377f026e74fc2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Tjoppen"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8cec1dbd2eab72a5a7e71acddf3b7fcf8a1b86ff",
+                ),
+                (
+                    sha1: "cbebd1e65d82d86882339e9393f31cb9a51ed02d",
+                ),
+            ],
+        ),
+        (
+            date: Some("2011"),
+            publisher: Some("Tjoppen"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c267aaebb7746e683f0aa63302a377f026e74fc2",
+                ),
+            ],
+        ),
+    ],
 )

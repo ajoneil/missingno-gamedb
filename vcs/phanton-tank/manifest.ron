@@ -1,8 +1,17 @@
 (
     title: "Phanton Tank (Digivision)",
-    publisher: Some("Digivision"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ac1c3c7429d1d44585b88905bbc8a81d3cb2c7df"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ac1c3c7429d1d44585b88905bbc8a81d3cb2c7df",
+                ),
+            ],
+        ),
+    ],
 )

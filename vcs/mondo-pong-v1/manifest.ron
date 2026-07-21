@@ -1,9 +1,18 @@
 (
     title: "Mondo Pong V1 (PD)",
-    publisher: Some("Piero Cavina"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5317219957ab5613fba409a3fbf9ae05ddcc7a11"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Piero Cavina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5317219957ab5613fba409a3fbf9ae05ddcc7a11",
+                ),
+            ],
+        ),
+    ],
 )

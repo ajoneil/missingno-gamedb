@@ -1,8 +1,17 @@
 (
     title: "Galaxian (Edu Games - Edu Juegos)",
-    publisher: Some("Edu Games"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("UA"),
-    hashes: ["1a20aceada7344136cfafa358f1a7931b0eba7a7"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Edu Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a20aceada7344136cfafa358f1a7931b0eba7a7",
+                ),
+            ],
+        ),
+    ],
 )

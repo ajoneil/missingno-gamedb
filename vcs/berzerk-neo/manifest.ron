@@ -1,9 +1,18 @@
 (
     title: "Berzerk Neo (Berzerk Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ba246c712e93df68f64fdbf6d4284c6dd8c135d3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ba246c712e93df68f64fdbf6d4284c6dd8c135d3",
+                ),
+            ],
+        ),
+    ],
 )

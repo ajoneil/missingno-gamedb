@@ -1,9 +1,19 @@
 (
-    title: "Lunar Lander (WIP)",
-    publisher: Some("John Payson"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5cf057d587dd980dcf9b61ed77cf45d3968fa6c8"],
-    source: None,
+    title: "Lunar Lander",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("John Payson"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cf057d587dd980dcf9b61ed77cf45d3968fa6c8",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Quest 1K (WIP)",
-    publisher: Some("Robert Mundschau"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4eeab246e0d3a919f78dac135e822c64029ac97f"],
-    source: None,
+    title: "Quest 1K",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Robert Mundschau"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4eeab246e0d3a919f78dac135e822c64029ac97f",
+                ),
+            ],
+        ),
+    ],
 )

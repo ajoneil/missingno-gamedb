@@ -1,9 +1,18 @@
 (
     title: "Text Screen (25-01-2003) (Andrew Davie)",
-    publisher: Some("AD"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["77808dd543fb2fd0331fb8d9605767c7200e8a12"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("AD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "77808dd543fb2fd0331fb8d9605767c7200e8a12",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,47 @@
 (
     title: "Robin Hood",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["738e64694e8c6e4122bf024c2e09474f21ebc4b0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Xonox"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f9c2321c9f22cf2cdbcf1b3f0e563a1c53f68ca",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "738e64694e8c6e4122bf024c2e09474f21ebc4b0",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Xonox"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "695343d0eb7ba0527d56d44b5fa026a3d09a147d",
+                ),
+                (
+                    sha1: "9807027508bb36937e14cdce10376ab087017cc0",
+                ),
+            ],
+        ),
+    ],
 )

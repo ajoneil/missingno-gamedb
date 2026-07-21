@@ -1,9 +1,19 @@
 (
-    title: "Moth (WIP)",
-    publisher: Some("Simone Serra"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2223070b2e320e39351eec5dc3f18f3002074c4e"],
-    source: None,
+    title: "Moth",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Simone Serra"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2223070b2e320e39351eec5dc3f18f3002074c4e",
+                ),
+            ],
+        ),
+    ],
 )

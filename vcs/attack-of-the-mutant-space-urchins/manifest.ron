@@ -1,9 +1,18 @@
 (
     title: "Attack Of The Mutant Space Urchins (Hack)",
-    publisher: Some("Barry Laws Jr."),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9cd7a54e2b25cbe042d02299dfcacf2521a89d1b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Barry Laws Jr."),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9cd7a54e2b25cbe042d02299dfcacf2521a89d1b",
+                ),
+            ],
+        ),
+    ],
 )

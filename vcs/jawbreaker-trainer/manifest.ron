@@ -1,9 +1,18 @@
 (
     title: "Jawbreaker Trainer (Jawbreaker Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["eccd11565f3007d38ff4b7be6ecb376bc41254ca"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eccd11565f3007d38ff4b7be6ecb376bc41254ca",
+                ),
+            ],
+        ),
+    ],
 )

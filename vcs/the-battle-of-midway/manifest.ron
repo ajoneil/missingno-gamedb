@@ -1,9 +1,19 @@
 (
-    title: "The Battle of Midway (WIP)",
-    publisher: Some("Bill Collins"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["0b2c5c9795024065123e686092c663bebb1eb229"],
-    source: None,
+    title: "The Battle of Midway",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Bill Collins"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0b2c5c9795024065123e686092c663bebb1eb229",
+                ),
+            ],
+        ),
+    ],
 )

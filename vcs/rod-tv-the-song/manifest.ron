@@ -1,9 +1,18 @@
 (
     title: "ROD TV The Song",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["da65641af05297fc4014218c98e3ae860dadac3d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "da65641af05297fc4014218c98e3ae860dadac3d",
+                ),
+            ],
+        ),
+    ],
 )

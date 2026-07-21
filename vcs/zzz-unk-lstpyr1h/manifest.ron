@@ -1,7 +1,16 @@
 (
     title: "ZZZ-UNK-LSTPYR1H",
-    tv_format: Some(Ntsc),
-    cart_type: Some("E7"),
-    hashes: ["c4775dd5c57b3d3b8e13223eb73add23f5e7f5bc"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E7"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c4775dd5c57b3d3b8e13223eb73add23f5e7f5bc",
+                ),
+            ],
+        ),
+    ],
 )

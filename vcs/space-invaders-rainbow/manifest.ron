@@ -1,9 +1,18 @@
 (
     title: "Space Invaders Rainbow (Space Invaders Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2a5a4881da3b64022ca66178fb17a0be87ab75d8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2a5a4881da3b64022ca66178fb17a0be87ab75d8",
+                ),
+            ],
+        ),
+    ],
 )

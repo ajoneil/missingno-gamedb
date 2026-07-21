@@ -1,9 +1,18 @@
 (
     title: "Missile Command [no initials]",
-    publisher: Some("Atari"),
-    date: Some("1981"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["81ffac1f1051a4c99e82e53ae604f0b8ec95ad8e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "81ffac1f1051a4c99e82e53ae604f0b8ec95ad8e",
+                ),
+            ],
+        ),
+    ],
 )

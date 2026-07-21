@@ -1,9 +1,24 @@
 (
-    title: "Hack 'Em and Hangly Man (pre-release) [h] [Pesco - Daily Release 5]",
-    publisher: Some("Nukey Shay"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["2db8bbb984024ae5f7afad1411e6ed326c99ca87", "45a46d14b0ee5e58bf2811aa053f8064cb88ae36", "75530e7f08f671d93205b63b29ebfbe761cff97c"],
-    source: None,
+    title: "Hack \'Em and Hangly Man (pre-release) [h] [Pesco - Daily Release 5]",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Nukey Shay"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2db8bbb984024ae5f7afad1411e6ed326c99ca87",
+                ),
+                (
+                    sha1: "45a46d14b0ee5e58bf2811aa053f8064cb88ae36",
+                ),
+                (
+                    sha1: "75530e7f08f671d93205b63b29ebfbe761cff97c",
+                ),
+            ],
+        ),
+    ],
 )

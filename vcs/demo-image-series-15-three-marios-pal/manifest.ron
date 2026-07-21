@@ -1,9 +1,37 @@
 (
     title: "Demo Image Series #15 - Three Marios (06-03-2003) (Andrew Davie)",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["023e3024007a7589ed7d18ad2ce4cff3bc86365e", "b95c85541e16675bdd227a336a8f549e1a1e8b54"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "11ff8f3f384c3343ec02efff599b1b6e81604845",
+                ),
+                (
+                    sha1: "41616803ab1bce0aff8f89c8dc6560bc3f04dd2e",
+                ),
+            ],
+        ),
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "023e3024007a7589ed7d18ad2ce4cff3bc86365e",
+                ),
+                (
+                    sha1: "b95c85541e16675bdd227a336a8f549e1a1e8b54",
+                ),
+            ],
+        ),
+    ],
 )

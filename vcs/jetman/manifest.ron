@@ -1,9 +1,19 @@
 (
-    title: "Jetman (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["787134814ee1040fe1b82ed4345a61f614300b59"],
-    source: None,
+    title: "Jetman",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "787134814ee1040fe1b82ed4345a61f614300b59",
+                ),
+            ],
+        ),
+    ],
 )

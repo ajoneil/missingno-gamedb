@@ -1,9 +1,18 @@
 (
     title: "Anti-Hero",
-    publisher: Some("Athelia Hanson-Kahn"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["08e2fc2922a87f3533a4f18594783f8879c0220a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Athelia Hanson-Kahn"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "08e2fc2922a87f3533a4f18594783f8879c0220a",
+                ),
+            ],
+        ),
+    ],
 )

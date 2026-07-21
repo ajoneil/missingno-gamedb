@@ -1,7 +1,16 @@
 (
     title: "Pitfall Cupcake (Hack)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a2f65be4d2e2a6b82c54ca3179f34e8012ed64c0"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a2f65be4d2e2a6b82c54ca3179f34e8012ed64c0",
+                ),
+            ],
+        ),
+    ],
 )

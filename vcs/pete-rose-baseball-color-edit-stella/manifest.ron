@@ -1,9 +1,18 @@
 (
     title: "Pete Rose Baseball Color Edit Stella (Hack)",
-    publisher: Some("KevinMos3"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["7c78fb8f38a420f4b789bbbbeb9528c972de9eb8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("KevinMos3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7c78fb8f38a420f4b789bbbbeb9528c972de9eb8",
+                ),
+            ],
+        ),
+    ],
 )

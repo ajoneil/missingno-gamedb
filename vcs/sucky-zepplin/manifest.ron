@@ -1,8 +1,17 @@
 (
     title: "Sucky Zepplin (PD)",
-    publisher: Some("Nick Bensema"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["6cfcd50a76fb68b007551b8a7ca4a5c44c52e562"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Nick Bensema"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6cfcd50a76fb68b007551b8a7ca4a5c44c52e562",
+                ),
+            ],
+        ),
+    ],
 )

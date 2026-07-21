@@ -1,9 +1,18 @@
 (
     title: "WaterWorld (PAL Conversion)",
-    publisher: Some("Omegamatrix"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ffdf32a1e117a8f0b70681e806715be9d306ae74"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ffdf32a1e117a8f0b70681e806715be9d306ae74",
+                ),
+            ],
+        ),
+    ],
 )

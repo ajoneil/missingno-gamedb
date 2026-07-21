@@ -1,9 +1,19 @@
 (
-    title: "CAC - Computerdesigned Attack Cruiser (WIP)",
-    publisher: Some("donnerkuh"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["df257c241759d2f12e63c63cde6c2a6d640858fc"],
-    source: None,
+    title: "CAC - Computerdesigned Attack Cruiser",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("donnerkuh"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "df257c241759d2f12e63c63cde6c2a6d640858fc",
+                ),
+            ],
+        ),
+    ],
 )

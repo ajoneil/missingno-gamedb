@@ -1,8 +1,17 @@
 (
     title: "Wavy Line Test (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f27d2b8d0f89884788c1ecebe25b2afc8c206c5f"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f27d2b8d0f89884788c1ecebe25b2afc8c206c5f",
+                ),
+            ],
+        ),
+    ],
 )

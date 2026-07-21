@@ -1,9 +1,18 @@
 (
     title: "Nitebear on Sleepystreet",
-    publisher: Some("Jason Santuci"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["63845538a452bc32ba95799d43d364c778b790ee"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Jason Santuci"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "63845538a452bc32ba95799d43d364c778b790ee",
+                ),
+            ],
+        ),
+    ],
 )

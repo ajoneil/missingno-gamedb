@@ -1,9 +1,18 @@
 (
     title: "Radial Pong - Version 12 (Jeffry Johnston) (PD)",
-    publisher: Some("Jeffry Johnston"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e910accd46e6c6f6e68bcb53482ae04caa83524a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Jeffry Johnston"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e910accd46e6c6f6e68bcb53482ae04caa83524a",
+                ),
+            ],
+        ),
+    ],
 )

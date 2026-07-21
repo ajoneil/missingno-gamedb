@@ -1,9 +1,21 @@
 (
     title: "Fat Albert (Fast Food Hack)",
-    publisher: Some("Wade Casaldi"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0ea3dd20a944eb476ce86445cfc5206fec3637e7", "323cf0dc3fad67e0930228a0ff8203e685c098d6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Wade Casaldi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ea3dd20a944eb476ce86445cfc5206fec3637e7",
+                ),
+                (
+                    sha1: "323cf0dc3fad67e0930228a0ff8203e685c098d6",
+                ),
+            ],
+        ),
+    ],
 )

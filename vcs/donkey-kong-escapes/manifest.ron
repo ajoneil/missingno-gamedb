@@ -1,9 +1,18 @@
 (
-    title: "Donkey Kong Escapes (Frankenstein's Monster Hack)",
-    publisher: Some("Tim Martin"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cae463e92ba7fbd167db3781f2a62d6cb315eb41"],
-    source: None,
+    title: "Donkey Kong Escapes (Frankenstein\'s Monster Hack)",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Tim Martin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cae463e92ba7fbd167db3781f2a62d6cb315eb41",
+                ),
+            ],
+        ),
+    ],
 )

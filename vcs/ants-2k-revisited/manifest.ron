@@ -1,9 +1,19 @@
 (
-    title: "Ants! 2K Revisited (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["02ee7bc653858a125703d575464b7b6e6051387c"],
-    source: None,
+    title: "Ants! 2K Revisited",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "02ee7bc653858a125703d575464b7b6e6051387c",
+                ),
+            ],
+        ),
+    ],
 )

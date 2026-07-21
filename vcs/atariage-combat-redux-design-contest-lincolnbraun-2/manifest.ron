@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - LincolnBraun_2",
-    publisher: Some("LincolnBraun"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["74146a1da4d123516345f49d0a4af49c5c8c18cd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("LincolnBraun"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "74146a1da4d123516345f49d0a4af49c5c8c18cd",
+                ),
+            ],
+        ),
+    ],
 )

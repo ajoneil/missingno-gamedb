@@ -1,9 +1,18 @@
 (
     title: "Motocross (NTSC Conversion)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["84d740a5c285ca2ad84c5a4a2e7c4e519436a201"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "84d740a5c285ca2ad84c5a4a2e7c4e519436a201",
+                ),
+            ],
+        ),
+    ],
 )

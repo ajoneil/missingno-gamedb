@@ -1,9 +1,18 @@
 (
     title: "Bobby Is Going Home 2 (Bloody Human Freeway Hack)",
-    publisher: Some("Codyr783"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["93457572d5c892f7e147c14674e8698ce5ad1544"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Codyr783"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "93457572d5c892f7e147c14674e8698ce5ad1544",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
-    title: "Frankenstein's Monster Trainer (Frankenstein's Monster Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0bbe084c78a80e6155f8592f39990e06e9dc5c68"],
-    source: None,
+    title: "Frankenstein\'s Monster Trainer (Frankenstein\'s Monster Hack)",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0bbe084c78a80e6155f8592f39990e06e9dc5c68",
+                ),
+            ],
+        ),
+    ],
 )

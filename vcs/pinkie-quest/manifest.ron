@@ -1,9 +1,19 @@
 (
-    title: "Pinkie Quest (WIP)",
-    publisher: Some("Master_Programmer"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3072e9c4e9a035dbd4b672e39e792f6f373e95b0"],
-    source: None,
+    title: "Pinkie Quest",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Master_Programmer"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3072e9c4e9a035dbd4b672e39e792f6f373e95b0",
+                ),
+            ],
+        ),
+    ],
 )

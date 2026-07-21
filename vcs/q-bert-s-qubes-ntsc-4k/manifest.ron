@@ -1,9 +1,18 @@
 (
-    title: "Q-bert's Qubes (Prototype) (4K)",
-    publisher: Some("Parker Brothers"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6a2cfa48e513fbd420dcd6408720ecd05e95c4f4"],
-    source: None,
+    title: "Q-bert\'s Qubes (Prototype) (4K)",
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6a2cfa48e513fbd420dcd6408720ecd05e95c4f4",
+                ),
+            ],
+        ),
+    ],
 )

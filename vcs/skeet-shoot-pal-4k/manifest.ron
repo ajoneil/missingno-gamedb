@@ -1,9 +1,18 @@
 (
     title: "Skeet Shoot (4K)",
-    publisher: Some("Apollo"),
-    date: Some("1981"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["9c5714f5809fae2b246c989fc5d8fcaeca9ece74"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9c5714f5809fae2b246c989fc5d8fcaeca9ece74",
+                ),
+            ],
+        ),
+    ],
 )

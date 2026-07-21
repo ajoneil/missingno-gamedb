@@ -1,9 +1,18 @@
 (
-    title: "Mario vs. The Atomic Ape V2 (Frankenstein's Monster Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cdfbb5390832d4a6848bbada6e74462832d09f4c"],
-    source: None,
+    title: "Mario vs. The Atomic Ape V2 (Frankenstein\'s Monster Hack)",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cdfbb5390832d4a6848bbada6e74462832d09f4c",
+                ),
+            ],
+        ),
+    ],
 )

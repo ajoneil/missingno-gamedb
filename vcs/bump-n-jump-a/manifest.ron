@@ -1,9 +1,18 @@
 (
-    title: "Bump 'n' Jump [a]",
-    publisher: Some("M Network"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("E7"),
-    hashes: ["1819ef408c1216c83dcfeceec28d13f6ea5ca477"],
-    source: None,
+    title: "Bump \'n\' Jump [a]",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E7"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1819ef408c1216c83dcfeceec28d13f6ea5ca477",
+                ),
+            ],
+        ),
+    ],
 )

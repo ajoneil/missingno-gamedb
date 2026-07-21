@@ -1,9 +1,18 @@
 (
     title: "Adventure Hack 99 (Adventure Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5a7df0b59bfb68d7650d373a932efe50492463a9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5a7df0b59bfb68d7650d373a932efe50492463a9",
+                ),
+            ],
+        ),
+    ],
 )

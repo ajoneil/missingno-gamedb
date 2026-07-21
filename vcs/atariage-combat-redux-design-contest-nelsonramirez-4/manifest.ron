@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - NelsonRamirez_4",
-    publisher: Some("Nelson Ramirez"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["271d42b734abc785f69bd002264182a1d1d23631"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Nelson Ramirez"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "271d42b734abc785f69bd002264182a1d1d23631",
+                ),
+            ],
+        ),
+    ],
 )

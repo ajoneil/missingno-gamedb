@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Katharine Hepburn",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e7a0c3314fb969f875d0334404bd6ac61aef6dfd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e7a0c3314fb969f875d0334404bd6ac61aef6dfd",
+                ),
+            ],
+        ),
+    ],
 )

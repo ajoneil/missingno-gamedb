@@ -1,9 +1,18 @@
 (
     title: "Doom 2600 (Dark Chambers Hack)",
-    publisher: Some("Pierce Roth"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["6c67d95f62a40a6c1d73a26ed074982a5210309b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Pierce Roth"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6c67d95f62a40a6c1d73a26ed074982a5210309b",
+                ),
+            ],
+        ),
+    ],
 )

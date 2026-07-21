@@ -1,9 +1,18 @@
 (
     title: "Super 3D Portals 6",
-    publisher: Some("Zachary Hinchliffe"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7629f6574ffa8bec887353cd576ccaf378655229"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Zachary Hinchliffe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7629f6574ffa8bec887353cd576ccaf378655229",
+                ),
+            ],
+        ),
+    ],
 )

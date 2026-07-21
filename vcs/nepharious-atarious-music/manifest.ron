@@ -1,9 +1,18 @@
 (
     title: "Nepharious Atarious Music",
-    publisher: Some("b00daw"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7259090ce9ea3b7e9b009420609c3f379ac2298f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("b00daw"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7259090ce9ea3b7e9b009420609c3f379ac2298f",
+                ),
+            ],
+        ),
+    ],
 )

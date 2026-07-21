@@ -1,9 +1,19 @@
 (
-    title: "Lights Out! (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["49ead9759db290298e019780708f7848e8009cc3"],
-    source: None,
+    title: "Lights Out!",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "49ead9759db290298e019780708f7848e8009cc3",
+                ),
+            ],
+        ),
+    ],
 )

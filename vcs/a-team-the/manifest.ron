@@ -1,9 +1,21 @@
 (
     title: "A-Team, The (03-30-1984) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["53413577afe7def1d390e3892c45822405513c07", "bcbd36389c56e9b408e8fc4bc595dc731aaf0e02"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "53413577afe7def1d390e3892c45822405513c07",
+                ),
+                (
+                    sha1: "bcbd36389c56e9b408e8fc4bc595dc731aaf0e02",
+                ),
+            ],
+        ),
+    ],
 )

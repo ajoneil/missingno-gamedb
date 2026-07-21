@@ -1,9 +1,19 @@
 (
-    title: "Alien Greed II (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["5e3552f34f47065dec51586f31c3506d98d9d438"],
-    source: None,
+    title: "Alien Greed II",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e3552f34f47065dec51586f31c3506d98d9d438",
+                ),
+            ],
+        ),
+    ],
 )

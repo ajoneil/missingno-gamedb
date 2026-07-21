@@ -1,9 +1,18 @@
 (
     title: "Battlezone TC (Hack)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["89726488e57088bd670d436d9ad313ed664bf048"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "89726488e57088bd670d436d9ad313ed664bf048",
+                ),
+            ],
+        ),
+    ],
 )

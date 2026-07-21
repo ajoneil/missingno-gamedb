@@ -1,9 +1,33 @@
 (
-    title: "Demo 2 (WIP)",
-    publisher: Some("Kepone"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7956229931f9e0cea6717596677735eef509d2d2"],
-    source: None,
+    title: "Demo 2",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Kepone"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7956229931f9e0cea6717596677735eef509d2d2",
+                ),
+            ],
+        ),
+        (
+            date: Some("2008"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "89a22ffa04d0976a2dd7464a86115feb5d597799",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "PKP Wins! (Pepsi Invaders Hack)",
-    publisher: Some("Manu Parssinen"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d7a7a8041496c8fde86c478d6a6cba71802dc7bb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Manu Parssinen"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d7a7a8041496c8fde86c478d6a6cba71802dc7bb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,16 @@
 (
     title: "Pro Wrestling (Absolute-Activision) [!]",
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["f14afce870fdbce7911ca860f845cb067a107f44"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f14afce870fdbce7911ca860f845cb067a107f44",
+                ),
+            ],
+        ),
+    ],
 )

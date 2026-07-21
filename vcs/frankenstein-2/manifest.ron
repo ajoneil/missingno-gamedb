@@ -1,9 +1,18 @@
 (
     title: "Frankenstein 2 (Donkey Kong Hack)",
-    publisher: Some("Tim Martin"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["67908444bfc2e8cf8fa02b6dc8a4863ed23409c8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Tim Martin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "67908444bfc2e8cf8fa02b6dc8a4863ed23409c8",
+                ),
+            ],
+        ),
+    ],
 )

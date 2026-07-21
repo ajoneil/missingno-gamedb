@@ -1,9 +1,18 @@
 (
     title: "Pocahontas",
-    publisher: Some("Andrew Korzik"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d45565b6f62e40101c0ae4432bbf14e366d82cc5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Andrew Korzik"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d45565b6f62e40101c0ae4432bbf14e366d82cc5",
+                ),
+            ],
+        ),
+    ],
 )

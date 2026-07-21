@@ -1,9 +1,18 @@
 (
     title: "Hunchy Fast",
-    publisher: Some("Chris Walton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["51aa02be3697c49982198bdb816dfa0be0988d39"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Chris Walton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "51aa02be3697c49982198bdb816dfa0be0988d39",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Dragon Joust (Joust Hack)",
-    publisher: Some("Rabbit 2600"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["0d65151588116b822f0eb133e66bc5f9a7c741f0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rabbit 2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d65151588116b822f0eb133e66bc5f9a7c741f0",
+                ),
+            ],
+        ),
+    ],
 )

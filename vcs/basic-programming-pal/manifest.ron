@@ -1,9 +1,18 @@
 (
     title: "BASIC Programming (Keyboard Controller)",
-    publisher: Some("Atari"),
-    date: Some("1979"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["ff4da01319153a2bde2d2cb1bb1dd900ae105e9a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ff4da01319153a2bde2d2cb1bb1dd900ae105e9a",
+                ),
+            ],
+        ),
+    ],
 )

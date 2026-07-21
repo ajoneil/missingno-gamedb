@@ -1,9 +1,18 @@
 (
     title: "Q-Boing (Boing! Hack)",
-    publisher: Some("William Pilgrim"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["603b1e688516492e0e2aaf8e903092c542b20099"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("William Pilgrim"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "603b1e688516492e0e2aaf8e903092c542b20099",
+                ),
+            ],
+        ),
+    ],
 )

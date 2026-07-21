@@ -1,9 +1,21 @@
 (
     title: "Killer Satellites (07-17-1982) (7) (Prototype)",
-    publisher: Some("Starpath Corporation"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["64125e796f96aa472bb2191367c6501c657712d9", "dd0a82dac03298a8ce945c4b612cf8944927f5e8"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "64125e796f96aa472bb2191367c6501c657712d9",
+                ),
+                (
+                    sha1: "dd0a82dac03298a8ce945c4b612cf8944927f5e8",
+                ),
+            ],
+        ),
+    ],
 )

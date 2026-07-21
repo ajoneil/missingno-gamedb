@@ -1,9 +1,37 @@
 (
     title: "RealSports Tennis",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["0467559378cfba949be579cadaf2dead6e25a55c", "fab0a437f42336807e7b1324421386fc214c69db"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "702c1c7d985d0d22f935265bd284d1ed50df2527",
+                ),
+                (
+                    sha1: "ddb414770376332bb96bdd8b70e5ba68c3128aa7",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0467559378cfba949be579cadaf2dead6e25a55c",
+                ),
+                (
+                    sha1: "fab0a437f42336807e7b1324421386fc214c69db",
+                ),
+            ],
+        ),
+    ],
 )

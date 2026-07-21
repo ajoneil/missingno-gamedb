@@ -1,9 +1,18 @@
 (
     title: "Auto Duel Targ (Targ Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3b7f36c71c13d722972a4184d1fa03c3f4e4c050"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b7f36c71c13d722972a4184d1fa03c3f4e4c050",
+                ),
+            ],
+        ),
+    ],
 )

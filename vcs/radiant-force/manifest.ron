@@ -1,9 +1,19 @@
 (
-    title: "Radiant Force (WIP)",
-    publisher: Some("Master_Programmer"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["ea690b017f4bf602724f95281d609bcf7b4ce7e8"],
-    source: None,
+    title: "Radiant Force",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Master_Programmer"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ea690b017f4bf602724f95281d609bcf7b4ce7e8",
+                ),
+            ],
+        ),
+    ],
 )

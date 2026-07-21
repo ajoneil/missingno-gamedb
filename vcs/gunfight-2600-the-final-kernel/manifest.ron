@@ -1,7 +1,16 @@
 (
     title: "Gunfight 2600 - The Final Kernel (Manuel Rotschkar)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c1727142ce280683b97fbe508e0df2018262d6d3"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c1727142ce280683b97fbe508e0df2018262d6d3",
+                ),
+            ],
+        ),
+    ],
 )

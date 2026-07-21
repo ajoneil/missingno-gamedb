@@ -1,9 +1,19 @@
 (
-    title: "Ooze (WIP)",
-    publisher: Some("Doug Dingus"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dd867529e55e86fd1516d75f8a79387e33078bf0"],
-    source: None,
+    title: "Ooze",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Doug Dingus"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd867529e55e86fd1516d75f8a79387e33078bf0",
+                ),
+            ],
+        ),
+    ],
 )

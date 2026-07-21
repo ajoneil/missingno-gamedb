@@ -1,7 +1,57 @@
 (
     title: "Football",
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["91575d27f4d8711c677bd528dcaeffee0df7e5b0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c6fe4ce24bc1ebd538258d98cfe829963323acca",
+                ),
+            ],
+        ),
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8c7a39c952fb59c6fc7e3a59e3ae704d7b32cf23",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "91575d27f4d8711c677bd528dcaeffee0df7e5b0",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("4K"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5136110cbee0538cdefe4ceb024ec87bdd71270c",
+                ),
+                (
+                    sha1: "9a26faddd1025c0fec88ab0e03bef931f37261ff",
+                ),
+            ],
+        ),
+    ],
 )

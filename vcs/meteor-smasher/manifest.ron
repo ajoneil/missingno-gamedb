@@ -1,8 +1,17 @@
 (
     title: "Meteor Smasher (SnailSoft)",
-    publisher: Some("Greg Zumwalt"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0266966ab36fa6354c7487dfa5a1fc5f5c0ae5bc"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0266966ab36fa6354c7487dfa5a1fc5f5c0ae5bc",
+                ),
+            ],
+        ),
+    ],
 )

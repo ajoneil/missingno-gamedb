@@ -1,8 +1,17 @@
 (
     title: "Radial Pong - Version 10 (PD)",
-    publisher: Some("Jeffry Johnston"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["720ade744c7e7ad25c9ea61b9d3596cf771fa0af"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Jeffry Johnston"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "720ade744c7e7ad25c9ea61b9d3596cf771fa0af",
+                ),
+            ],
+        ),
+    ],
 )

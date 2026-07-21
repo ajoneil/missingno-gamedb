@@ -1,9 +1,18 @@
 (
     title: "AL#1 (King Kong Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["7e6184dd2d69728e3ddb1358913c0b4a572eb9e3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7e6184dd2d69728e3ddb1358913c0b4a572eb9e3",
+                ),
+            ],
+        ),
+    ],
 )

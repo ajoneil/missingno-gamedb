@@ -1,9 +1,19 @@
 (
-    title: "Robotman (WIP)",
-    publisher: Some("Master_Programmer"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["b8b27cc531ba3cf306d28aa0c6f62371f0f4ed57"],
-    source: None,
+    title: "Robotman",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Master_Programmer"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b8b27cc531ba3cf306d28aa0c6f62371f0f4ed57",
+                ),
+            ],
+        ),
+    ],
 )

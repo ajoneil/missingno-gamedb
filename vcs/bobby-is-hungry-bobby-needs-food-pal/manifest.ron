@@ -1,9 +1,33 @@
 (
-    title: "Bobby is Hungry - Bobby Needs Food (Light Gun) (WIP)",
-    publisher: Some("Christian Ammann"),
-    date: Some("2005"),
-    tv_format: Some(Pal),
-    cart_type: Some("F4"),
-    hashes: ["d6771ca236a1fb6534238d1b94fe9c4426296d37"],
-    source: None,
+    title: "Bobby is Hungry - Bobby Needs Food (Light Gun)",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Christian Ammann"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "103b84270cb81a1bb4d1d943ea01cede7428d4a3",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Christian Ammann"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d6771ca236a1fb6534238d1b94fe9c4426296d37",
+                ),
+            ],
+        ),
+    ],
 )

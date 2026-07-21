@@ -1,7 +1,16 @@
 (
     title: "ZZZ-UNK-2600F8gameon7800RAMcart_galaxian_ram",
-    tv_format: Some(Ntsc),
-    cart_type: Some("FA"),
-    hashes: ["dc5c0c736404a73ef3836572060515a2d3785ed7"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc5c0c736404a73ef3836572060515a2d3785ed7",
+                ),
+            ],
+        ),
+    ],
 )

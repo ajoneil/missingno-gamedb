@@ -1,9 +1,19 @@
 (
-    title: "Chimney Test (WIP)",
-    publisher: Some("Christian Giegerich"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["b5e32f348c2931eb4406d09dd06f35ee91cd25d8"],
-    source: None,
+    title: "Chimney Test",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Christian Giegerich"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b5e32f348c2931eb4406d09dd06f35ee91cd25d8",
+                ),
+            ],
+        ),
+    ],
 )

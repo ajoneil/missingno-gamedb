@@ -1,9 +1,18 @@
 (
     title: "Kaboom Black B (Kaboom! Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["e2a4170a4291b42349f88368368e657b01c7c019"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e2a4170a4291b42349f88368368e657b01c7c019",
+                ),
+            ],
+        ),
+    ],
 )

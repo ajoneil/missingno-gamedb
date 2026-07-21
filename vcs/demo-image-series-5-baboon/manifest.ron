@@ -1,9 +1,18 @@
 (
     title: "Demo Image Series #5 - Baboon (19-02-2003) (Andrew Davie)",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["83f079dbeef0b68cea6c6ac73dc0ca6a24ee358a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "83f079dbeef0b68cea6c6ac73dc0ca6a24ee358a",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Video Checkers ~ Checkers",
-    publisher: Some("Atari"),
-    date: Some("1980"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["babae88a832b76d8c5af6ea63b8f10a0da5bb992"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "babae88a832b76d8c5af6ea63b8f10a0da5bb992",
+                ),
+            ],
+        ),
+    ],
 )

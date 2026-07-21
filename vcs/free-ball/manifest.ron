@@ -1,9 +1,18 @@
 (
     title: "Free Ball",
-    publisher: Some("Jon Garner"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1003b480bc4e833c8ef65eda2808faf173473594"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Jon Garner"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1003b480bc4e833c8ef65eda2808faf173473594",
+                ),
+            ],
+        ),
+    ],
 )

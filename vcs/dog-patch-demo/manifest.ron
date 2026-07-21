@@ -1,9 +1,19 @@
 (
-    title: "Dog Patch Demo (WIP)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["794c31b9d12cd08edbb7f20d286d20e6678708ca"],
-    source: None,
+    title: "Dog Patch Demo",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Manuel Rotschkar"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "794c31b9d12cd08edbb7f20d286d20e6678708ca",
+                ),
+            ],
+        ),
+    ],
 )

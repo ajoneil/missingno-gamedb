@@ -1,9 +1,18 @@
 (
     title: "Console Wars (Hack)",
-    publisher: Some("Greg Thompson"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["acd3f71104d5c6e5191a570a6ce06e0a4463b27a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Greg Thompson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "acd3f71104d5c6e5191a570a6ce06e0a4463b27a",
+                ),
+            ],
+        ),
+    ],
 )

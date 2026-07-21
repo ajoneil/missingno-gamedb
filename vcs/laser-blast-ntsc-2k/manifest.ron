@@ -1,8 +1,55 @@
 (
     title: "Laser Blast",
-    publisher: Some("CCE"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["4c68497b35cc0254738bf9bffee6eed672c7cea3", "ab5a841caaf0d5ab506eebd2b13d62a56f812f98", "c7df5904cdc6a1658cad89b83e3e523b42a2b45d", "cc45af0a45a6e5d0581683c3589476c0da4b5600", "ea8ecc2f6818e1c9479f55c0a3356edcf7a4d657"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4c68497b35cc0254738bf9bffee6eed672c7cea3",
+                ),
+                (
+                    sha1: "ab5a841caaf0d5ab506eebd2b13d62a56f812f98",
+                ),
+                (
+                    sha1: "c7df5904cdc6a1658cad89b83e3e523b42a2b45d",
+                ),
+                (
+                    sha1: "cc45af0a45a6e5d0581683c3589476c0da4b5600",
+                ),
+                (
+                    sha1: "ea8ecc2f6818e1c9479f55c0a3356edcf7a4d657",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "32e2f2992db4eb752e8a240b80c09f10673a3abb",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f14cd01c48c70245069e745ddb5f9d6ee139c4a0",
+                ),
+            ],
+        ),
+    ],
 )

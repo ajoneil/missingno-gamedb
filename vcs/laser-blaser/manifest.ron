@@ -1,9 +1,18 @@
 (
     title: "Laser Blaser (4 Game in One)",
-    publisher: Some("Bit Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["2b10e384c7dd5d84b3ed6629ef9288e67759fcb1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b10e384c7dd5d84b3ed6629ef9288e67759fcb1",
+                ),
+            ],
+        ),
+    ],
 )

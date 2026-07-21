@@ -1,9 +1,19 @@
 (
-    title: "Super Mario Bros 2600 Demo (WIP)",
-    publisher: Some("bongomeno"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e9e86e8d67d6e6864c4e00a7e7a3192c1a7ee29b"],
-    source: None,
+    title: "Super Mario Bros 2600 Demo",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("bongomeno"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e9e86e8d67d6e6864c4e00a7e7a3192c1a7ee29b",
+                ),
+            ],
+        ),
+    ],
 )

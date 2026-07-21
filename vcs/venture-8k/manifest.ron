@@ -1,9 +1,18 @@
 (
     title: "Venture 8K (Venture Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["0549c7e69645f2e2b82fa78f29234c1741bb7a28"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0549c7e69645f2e2b82fa78f29234c1741bb7a28",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,49 @@
 (
     title: "Superman",
-    publisher: Some("Atari"),
-    date: Some("1979"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5bc376a1f9faf0a5543fc57861edcfe4fc111af5", "84968517da879f307e1f6d2de3462b2b0bdb95f2", "a974673dccfb786da6150df8d4584a559508a6de"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7c4b3cce50ed1b5f1817c8fbf9ebc42e2f8855e8",
+                ),
+                (
+                    sha1: "853379a7cca2c3a1a8e04ce11db11141374c25e9",
+                ),
+                (
+                    sha1: "8fdb2b870bef6a64c272107e279bb994dd1806c5",
+                ),
+                (
+                    sha1: "b9dee027c8d7dd2a46be111ab0b8363c1becc081",
+                ),
+                (
+                    sha1: "f00bcbda3d70c0c93026234fc775daf81db8569a",
+                ),
+            ],
+        ),
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5bc376a1f9faf0a5543fc57861edcfe4fc111af5",
+                ),
+                (
+                    sha1: "84968517da879f307e1f6d2de3462b2b0bdb95f2",
+                ),
+                (
+                    sha1: "a974673dccfb786da6150df8d4584a559508a6de",
+                ),
+            ],
+        ),
+    ],
 )

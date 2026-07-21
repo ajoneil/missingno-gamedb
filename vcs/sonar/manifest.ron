@@ -1,9 +1,18 @@
 (
     title: "Sonar (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1979"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["6b42a65b8710d34ef259ed6a58523292672712a8"],
-    source: None,
+    releases: [
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b42a65b8710d34ef259ed6a58523292672712a8",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Jex (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["602cc848deac8c51b85d8e93f8e94bd18168baa5"],
-    source: None,
+    title: "Jex",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "602cc848deac8c51b85d8e93f8e94bd18168baa5",
+                ),
+            ],
+        ),
+    ],
 )

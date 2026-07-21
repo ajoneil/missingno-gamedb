@@ -1,9 +1,18 @@
 (
-    title: "Shootin' Gallery (Calliope, Fair, Shooting Gallery) (Prototype)",
-    publisher: Some("Imagic"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["25a280afdf057a070b1c1e48a91a4bd77e0068a4"],
-    source: None,
+    title: "Shootin\' Gallery (Calliope, Fair, Shooting Gallery) (Prototype)",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "25a280afdf057a070b1c1e48a91a4bd77e0068a4",
+                ),
+            ],
+        ),
+    ],
 )

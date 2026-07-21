@@ -1,9 +1,18 @@
 (
-    title: "Hack 'Em (pre-release) [h] [Pesco - Violins]",
-    publisher: Some("Nukey Shay"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["8ec33165fda476c226ac4b075403f2b8043adbf9"],
-    source: None,
+    title: "Hack \'Em (pre-release) [h] [Pesco - Violins]",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Nukey Shay"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8ec33165fda476c226ac4b075403f2b8043adbf9",
+                ),
+            ],
+        ),
+    ],
 )

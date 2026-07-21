@@ -1,9 +1,18 @@
 (
     title: "Castlevania - Opening Tune",
-    publisher: Some("thegoldenband"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a6751a489fbb6bec8dd17d8be196e28344096d8a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("thegoldenband"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a6751a489fbb6bec8dd17d8be196e28344096d8a",
+                ),
+            ],
+        ),
+    ],
 )

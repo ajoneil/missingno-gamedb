@@ -1,9 +1,18 @@
 (
     title: "Adventure Plus Flashing Warrior Sword (Adventure Hack)",
-    publisher: Some("Raiu"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["63e833d22e6426fe05bc27e83b5e653947642a02"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Raiu"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "63e833d22e6426fe05bc27e83b5e653947642a02",
+                ),
+            ],
+        ),
+    ],
 )

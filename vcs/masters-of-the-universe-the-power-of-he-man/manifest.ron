@@ -1,9 +1,18 @@
 (
     title: "Masters of the Universe - The Power of He-Man",
-    publisher: Some("M Network"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("E7"),
-    hashes: ["6db8fa65755db86438ada3d90f4c39cc288dcf84"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E7"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6db8fa65755db86438ada3d90f4c39cc288dcf84",
+                ),
+            ],
+        ),
+    ],
 )

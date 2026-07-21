@@ -1,9 +1,18 @@
 (
     title: "Time Machine",
-    publisher: Some("Goliath"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["429c3c21bf89dc08892d16c420b72b0c88c9e03c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "429c3c21bf89dc08892d16c420b72b0c88c9e03c",
+                ),
+            ],
+        ),
+    ],
 )

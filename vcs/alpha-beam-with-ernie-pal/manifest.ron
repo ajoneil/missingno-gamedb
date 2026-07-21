@@ -1,9 +1,49 @@
 (
     title: "Alpha Beam With Ernie (Joystick Conversion)",
-    publisher: Some("Omegamatrix"),
-    date: Some("2013"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["32c615956879dae5ac2a13976c9be72829e9e483", "4be3ff4904fc75e047c72ec7e1b1b361c7ae6d50", "c5eb0f0944480fb4604e348b9c848a4dff44ba9b", "ea1124a3eac39133f59d664545c33cc514022067"],
-    source: None,
+    releases: [
+        (
+            date: Some("2013"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4fb9eb44e20df4390e9e7737fcd554b744aff30e",
+                ),
+                (
+                    sha1: "6276b204d486f4c4144ab31841d58fbae99912d3",
+                ),
+                (
+                    sha1: "7118f2401a0d34996762d9838d2f4bacf745fde3",
+                ),
+                (
+                    sha1: "a1f660827ce291f19719a5672f2c5d277d903b03",
+                ),
+            ],
+        ),
+        (
+            date: Some("2013"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "32c615956879dae5ac2a13976c9be72829e9e483",
+                ),
+                (
+                    sha1: "4be3ff4904fc75e047c72ec7e1b1b361c7ae6d50",
+                ),
+                (
+                    sha1: "c5eb0f0944480fb4604e348b9c848a4dff44ba9b",
+                ),
+                (
+                    sha1: "ea1124a3eac39133f59d664545c33cc514022067",
+                ),
+            ],
+        ),
+    ],
 )

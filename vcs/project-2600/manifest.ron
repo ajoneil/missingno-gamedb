@@ -1,9 +1,19 @@
 (
-    title: "Project 2600 (WIP)",
-    publisher: Some("Jason Santuci"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["122d28a4e22472149e09287aeadb2f59c0440afb"],
-    source: None,
+    title: "Project 2600",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Jason Santuci"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "122d28a4e22472149e09287aeadb2f59c0440afb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Robotfindskitten2600 (26-04-2003) (Jeremy Penner)",
-    publisher: Some("Jeremy Penner"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3e3c5e162f4fe971b7def531c983256230b54826"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Jeremy Penner"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e3c5e162f4fe971b7def531c983256230b54826",
+                ),
+            ],
+        ),
+    ],
 )

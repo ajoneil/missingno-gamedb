@@ -1,9 +1,18 @@
 (
     title: "48bit Color Scroll (Demo)",
-    publisher: Some("Omegamatrix"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e68903613baacbfceb4e4fa1825e24fdf4dc60ec"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e68903613baacbfceb4e4fa1825e24fdf4dc60ec",
+                ),
+            ],
+        ),
+    ],
 )

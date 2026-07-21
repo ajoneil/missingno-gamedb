@@ -1,9 +1,18 @@
 (
     title: "Narnia (Glenn Saunders) (PD)",
-    publisher: Some("Glenn Saunders"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2ffc73024858ae0bd7129402bb43e945975cb09b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Glenn Saunders"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2ffc73024858ae0bd7129402bb43e945975cb09b",
+                ),
+            ],
+        ),
+    ],
 )

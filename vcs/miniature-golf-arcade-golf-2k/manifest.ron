@@ -1,9 +1,31 @@
 (
     title: "Miniature Golf ~ Arcade Golf",
-    publisher: Some("Atari"),
-    date: Some("1979"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["be24b42e3744a81fb217c86c4ed5ce51bff28e65"],
-    source: None,
+    releases: [
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "be24b42e3744a81fb217c86c4ed5ce51bff28e65",
+                ),
+            ],
+        ),
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc7325211c324b2a182c0d9d07a0c2a37bf9c7d2",
+                ),
+            ],
+        ),
+    ],
 )

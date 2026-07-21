@@ -1,9 +1,18 @@
 (
     title: "Eskimo Jump (4 Game in One)",
-    publisher: Some("Bit Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8ad03667bbf73d3c7760cb82f2c4442f8745483c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8ad03667bbf73d3c7760cb82f2c4442f8745483c",
+                ),
+            ],
+        ),
+    ],
 )

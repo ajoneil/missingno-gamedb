@@ -1,9 +1,18 @@
 (
     title: "Wing War (Flap!)",
-    publisher: Some("Imagic"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["1ce2426a1a71ebac81709c88eb30e461b29158e2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ce2426a1a71ebac81709c88eb30e461b29158e2",
+                ),
+            ],
+        ),
+    ],
 )

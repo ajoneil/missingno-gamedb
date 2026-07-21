@@ -1,9 +1,34 @@
 (
     title: "A-VCS-tec Challenge",
-    publisher: Some("Simon Quernhorst"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["59251ed6b26eaafca7b4265019f4585ad2adc496"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Simon Quernhorst"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2707f30ef2eabe2d211c8bf312d7605802379ef4",
+                ),
+                (
+                    sha1: "3607f46475f4b1b8989f7327f90ca53a4ac0e9fe",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Simon Quernhorst"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59251ed6b26eaafca7b4265019f4585ad2adc496",
+                ),
+            ],
+        ),
+    ],
 )

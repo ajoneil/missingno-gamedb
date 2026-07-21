@@ -1,9 +1,19 @@
 (
-    title: "Eden (WIP)",
-    publisher: Some("Matthew J. Risch"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["c47bb4bf23c0a89374165bf4ab439b170666d5bc"],
-    source: None,
+    title: "Eden",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Matthew J. Risch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c47bb4bf23c0a89374165bf4ab439b170666d5bc",
+                ),
+            ],
+        ),
+    ],
 )

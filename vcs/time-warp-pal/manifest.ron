@@ -1,8 +1,38 @@
 (
     title: "Time Warp",
-    publisher: Some("Funvision"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["2e8e62a5dc45c780617576ad8acaf5cbf8d36d2d", "594db913e27509fe244c5c900b5dbf5991d19a3e"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "12340988852ad725c2acee5752a97beee8e62081",
+                ),
+                (
+                    sha1: "57f4e0ea1c81ea263340be666b715316adfff491",
+                ),
+                (
+                    sha1: "7258e8da5177f37583efca1bf43e5987c9845d4c",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Funvision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2e8e62a5dc45c780617576ad8acaf5cbf8d36d2d",
+                ),
+                (
+                    sha1: "594db913e27509fe244c5c900b5dbf5991d19a3e",
+                ),
+            ],
+        ),
+    ],
 )

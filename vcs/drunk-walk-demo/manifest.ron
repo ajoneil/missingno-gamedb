@@ -1,9 +1,18 @@
 (
     title: "Drunk Walk Demo",
-    publisher: Some("aftermac"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["735f7da6f54df249099bb2b0d825574a1cdfd918"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("aftermac"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "735f7da6f54df249099bb2b0d825574a1cdfd918",
+                ),
+            ],
+        ),
+    ],
 )

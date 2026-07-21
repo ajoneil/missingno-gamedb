@@ -1,9 +1,18 @@
 (
     title: "Better Than Pitfall II Music V5 (High Sample Rate)",
-    publisher: Some("John Payson"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b6374472cde462ccf0d24d14ad986f8694a71871"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b6374472cde462ccf0d24d14ad986f8694a71871",
+                ),
+            ],
+        ),
+    ],
 )

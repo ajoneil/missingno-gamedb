@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - JohnTielli_4",
-    publisher: Some("Jerky"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["15dfbfabc95156c4e0093d51920c5b23bcb7a3c3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jerky"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "15dfbfabc95156c4e0093d51920c5b23bcb7a3c3",
+                ),
+            ],
+        ),
+    ],
 )

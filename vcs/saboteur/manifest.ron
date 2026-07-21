@@ -1,9 +1,33 @@
 (
     title: "Saboteur (09-02-1983) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["2d5419bfed2ccabb09fa2522edb3a84a8ceabae2", "3394ea0e9bd79cb6ea4f0642bd07250ecb587160", "85752ac6eb7045a9083425cd166609882a1c2c58", "90cd987ccaffb428e53ffd98563dbbe3babd2e73", "9cd8a49ef5b45d0f21c99a1e67bd1b0548a401e1", "c20d42ee01bc1aef24c14b84f9b00e33b7c1bae3"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2d5419bfed2ccabb09fa2522edb3a84a8ceabae2",
+                ),
+                (
+                    sha1: "3394ea0e9bd79cb6ea4f0642bd07250ecb587160",
+                ),
+                (
+                    sha1: "85752ac6eb7045a9083425cd166609882a1c2c58",
+                ),
+                (
+                    sha1: "90cd987ccaffb428e53ffd98563dbbe3babd2e73",
+                ),
+                (
+                    sha1: "9cd8a49ef5b45d0f21c99a1e67bd1b0548a401e1",
+                ),
+                (
+                    sha1: "c20d42ee01bc1aef24c14b84f9b00e33b7c1bae3",
+                ),
+            ],
+        ),
+    ],
 )

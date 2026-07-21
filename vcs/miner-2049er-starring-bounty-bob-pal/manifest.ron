@@ -1,9 +1,18 @@
 (
     title: "Miner 2049er - Starring Bounty Bob",
-    publisher: Some("Tigervision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("3F"),
-    hashes: ["c44b2f87695440828d6844ae630d3f975b582385"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Tigervision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c44b2f87695440828d6844ae630d3f975b582385",
+                ),
+            ],
+        ),
+    ],
 )

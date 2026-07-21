@@ -1,9 +1,18 @@
 (
     title: "VCS Vertical Bars (08-31-1982)",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["dc9fa38e15defdb433df56e8cd86c2cd254d95e7"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc9fa38e15defdb433df56e8cd86c2cd254d95e7",
+                ),
+            ],
+        ),
+    ],
 )

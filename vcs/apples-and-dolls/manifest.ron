@@ -1,8 +1,17 @@
 (
     title: "Apples and Dolls (Unl)",
-    publisher: Some("CCE"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["62e92508cf43acc28bff8b03a197137d56a5df79"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "62e92508cf43acc28bff8b03a197137d56a5df79",
+                ),
+            ],
+        ),
+    ],
 )

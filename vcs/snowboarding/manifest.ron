@@ -1,9 +1,18 @@
 (
     title: "Snowboarding (Skiing Hack)",
-    publisher: Some("Jerry Schuller"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["7b156eaadc0466ab2dca3a9bffb8d3a7b3790ea0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Jerry Schuller"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7b156eaadc0466ab2dca3a9bffb8d3a7b3790ea0",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Pitfall II [a2]",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC"),
-    hashes: ["67ce128ccd9da3538d9f9beb58f81a48c975904d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "67ce128ccd9da3538d9f9beb58f81a48c975904d",
+                ),
+            ],
+        ),
+    ],
 )

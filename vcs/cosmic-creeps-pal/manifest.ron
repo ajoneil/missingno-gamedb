@@ -1,9 +1,34 @@
 (
     title: "Cosmic Creeps",
-    publisher: Some("Telesys"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["cd716ea236c6a73450f415131ac7ac8ee91a428d", "eb992e41c626c223b7d422117196270ebd0a7070"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Telesys"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22ff281b1e698e8a5d7a6f6173c86c46d3cd8561",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Telesys"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cd716ea236c6a73450f415131ac7ac8ee91a428d",
+                ),
+                (
+                    sha1: "eb992e41c626c223b7d422117196270ebd0a7070",
+                ),
+            ],
+        ),
+    ],
 )

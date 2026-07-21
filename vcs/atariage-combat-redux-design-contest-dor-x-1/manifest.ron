@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - dor-x_1",
-    publisher: Some("dor-x"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["900ac1ec6a37799b1a024f884ebdaf43289832ca"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("dor-x"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "900ac1ec6a37799b1a024f884ebdaf43289832ca",
+                ),
+            ],
+        ),
+    ],
 )

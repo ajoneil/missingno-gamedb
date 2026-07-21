@@ -1,7 +1,16 @@
 (
     title: "Oink! [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f575a7e87dfa8958ffbcc13b1f2c5df9a0db55a6"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f575a7e87dfa8958ffbcc13b1f2c5df9a0db55a6",
+                ),
+            ],
+        ),
+    ],
 )

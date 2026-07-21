@@ -1,9 +1,52 @@
 (
     title: "Jungle Hunt",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["a8b7fd5f8da58fc38ba959bc7a3c7a54af0509d9", "b3ab5b0c1c4929dcca777fe2441f0c8aba03944f", "c261d75144f7ae90568010ae19025f6be4280f77"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a911b08c48721e9280e0df07d7df4f7bfecb724",
+                ),
+                (
+                    sha1: "304b22919ce4a278fa5560a70901f0af08114e8d",
+                ),
+                (
+                    sha1: "5d3906bd42c5dc4a2f8dd183971a817bcc669027",
+                ),
+                (
+                    sha1: "83a32a2d686355438c915540cfe0bb13b76c1113",
+                ),
+                (
+                    sha1: "8903aada563b4f5735274092d4e1b246f3d0f76d",
+                ),
+                (
+                    sha1: "fe52af1b54e146be187e425fef229751212eeee1",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a8b7fd5f8da58fc38ba959bc7a3c7a54af0509d9",
+                ),
+                (
+                    sha1: "b3ab5b0c1c4929dcca777fe2441f0c8aba03944f",
+                ),
+                (
+                    sha1: "c261d75144f7ae90568010ae19025f6be4280f77",
+                ),
+            ],
+        ),
+    ],
 )

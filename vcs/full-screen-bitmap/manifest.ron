@@ -1,8 +1,17 @@
 (
     title: "Full Screen Bitmap (3-D Green) (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f61aa389628b28b4a12fd9eb5eb606587f7aaf54"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f61aa389628b28b4a12fd9eb5eb606587f7aaf54",
+                ),
+            ],
+        ),
+    ],
 )

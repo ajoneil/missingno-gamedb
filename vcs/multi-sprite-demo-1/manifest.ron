@@ -1,8 +1,17 @@
 (
     title: "Multi-Sprite Demo 1 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2c65510e2ad973778e9dd5598ee3c6ca195ac2b9"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2c65510e2ad973778e9dd5598ee3c6ca195ac2b9",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Zartog (Donkey Kong Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["888f552a7cdb78597dffc60f79f3208f9359897a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "888f552a7cdb78597dffc60f79f3208f9359897a",
+                ),
+            ],
+        ),
+    ],
 )

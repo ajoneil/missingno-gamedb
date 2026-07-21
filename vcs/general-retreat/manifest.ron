@@ -1,9 +1,18 @@
 (
     title: "General Retreat (NTSC Conversion)",
-    publisher: Some("Omegamatrix"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["de487a857daa0181c11592ce3a98909e491c6b32"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de487a857daa0181c11592ce3a98909e491c6b32",
+                ),
+            ],
+        ),
+    ],
 )

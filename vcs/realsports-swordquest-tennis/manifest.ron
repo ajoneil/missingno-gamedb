@@ -1,9 +1,18 @@
 (
     title: "RealSports Swordquest Tennis (RealSports Tennis Hack)",
-    publisher: Some("cosmosiss"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["7dbcbf88e8640d0aca2a81a7309ef138b9b47d66"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("cosmosiss"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7dbcbf88e8640d0aca2a81a7309ef138b9b47d66",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,31 @@
 (
     title: "Brain Games",
-    publisher: Some("Atari"),
-    date: Some("1978"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["238915cafd26f69bc8a3b9aa7d880dde59f6f12d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "238915cafd26f69bc8a3b9aa7d880dde59f6f12d",
+                ),
+            ],
+        ),
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6fd900234a057b4ed98daca086870bea179fec41",
+                ),
+            ],
+        ),
+    ],
 )

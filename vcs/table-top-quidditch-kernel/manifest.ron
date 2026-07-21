@@ -1,9 +1,19 @@
 (
-    title: "Table Top Quidditch Kernel (WIP)",
-    publisher: Some("Aaron Bergstrom"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f1ac79a57ec5c68cfc6889efc4472f7b4d767a30"],
-    source: None,
+    title: "Table Top Quidditch Kernel",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Aaron Bergstrom"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f1ac79a57ec5c68cfc6889efc4472f7b4d767a30",
+                ),
+            ],
+        ),
+    ],
 )

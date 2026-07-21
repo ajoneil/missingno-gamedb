@@ -1,9 +1,18 @@
 (
     title: "Kampf um die Schatzinsel (NTSC Conversion)",
-    publisher: Some("Juan Arceo"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["34143a6cab40d9f9dfdb63dc0ef6fbbdfb05f955"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Juan Arceo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "34143a6cab40d9f9dfdb63dc0ef6fbbdfb05f955",
+                ),
+            ],
+        ),
+    ],
 )

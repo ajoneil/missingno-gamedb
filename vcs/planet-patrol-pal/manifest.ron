@@ -1,9 +1,59 @@
 (
     title: "Planet Patrol",
-    publisher: Some("Spectravision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["21fd64e570fc555e9660754f1322a1e8e1e092ca", "383d0d2025584decdd7c038038157b3b03e88c9b", "494a059e414eece0d3b146924e874d7284ad41e9", "71cc0b3055cb59cb37c9865e24eceb34998f44b2"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "310831b0c8544040731e1a3e12ba220662183f36",
+                ),
+                (
+                    sha1: "4e4a49464778a2824c2b8cba8d25fda06831d3cb",
+                ),
+                (
+                    sha1: "68fbecdf52eb11b0cab4d62a203e71f6b57442b9",
+                ),
+                (
+                    sha1: "88793c87da09ce7f10580d92bde8e2a7f84395bd",
+                ),
+                (
+                    sha1: "8cc96916d62bc5fd72d127d91b953bb6f3aa1359",
+                ),
+                (
+                    sha1: "9b36e9aa76285238ba76fa6cce8aacc52b5ebcc9",
+                ),
+                (
+                    sha1: "b306fbcd4d82224be86b0baa10555fb5dafc62ad",
+                ),
+                (
+                    sha1: "ccfcbf52815a441158977292b719f7c5ed80c515",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "21fd64e570fc555e9660754f1322a1e8e1e092ca",
+                ),
+                (
+                    sha1: "383d0d2025584decdd7c038038157b3b03e88c9b",
+                ),
+                (
+                    sha1: "494a059e414eece0d3b146924e874d7284ad41e9",
+                ),
+                (
+                    sha1: "71cc0b3055cb59cb37c9865e24eceb34998f44b2",
+                ),
+            ],
+        ),
+    ],
 )

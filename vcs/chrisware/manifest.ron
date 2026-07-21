@@ -1,9 +1,19 @@
 (
-    title: "ChrisWare (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["05567e94d9a06272ad272f02effdc82097cd2906"],
-    source: None,
+    title: "ChrisWare",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "05567e94d9a06272ad272f02effdc82097cd2906",
+                ),
+            ],
+        ),
+    ],
 )

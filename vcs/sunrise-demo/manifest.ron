@@ -1,9 +1,18 @@
 (
     title: "Sunrise Demo",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7a6026c5d1df82ef2a324f7c2647cce81d1b8e29"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7a6026c5d1df82ef2a324f7c2647cce81d1b8e29",
+                ),
+            ],
+        ),
+    ],
 )

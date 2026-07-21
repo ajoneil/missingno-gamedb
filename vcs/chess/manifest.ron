@@ -1,9 +1,21 @@
 (
     title: "Chess (Video Chess Hack)",
-    publisher: Some("Manuel Rotchkar"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4341f65204901c7ca79831ddf8e78fe81d739f7d", "a58e92352c72ecb73286dc60617feb0a02c00558"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Manuel Rotchkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4341f65204901c7ca79831ddf8e78fe81d739f7d",
+                ),
+                (
+                    sha1: "a58e92352c72ecb73286dc60617feb0a02c00558",
+                ),
+            ],
+        ),
+    ],
 )

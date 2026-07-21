@@ -1,9 +1,18 @@
 (
     title: "Adventure Extreme (Adventure Hack)",
-    publisher: Some("Gamerz"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c7f30e382168ae86e266d85993cef4331f5ad799"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Gamerz"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c7f30e382168ae86e266d85993cef4331f5ad799",
+                ),
+            ],
+        ),
+    ],
 )

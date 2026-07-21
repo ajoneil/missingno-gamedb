@@ -1,9 +1,18 @@
 (
     title: "Sprite Demo 6 (PD)",
-    publisher: Some("Junkosoft"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8ae12f926c4ef33839fb24f9fa06fe83fb344d9c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Junkosoft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8ae12f926c4ef33839fb24f9fa06fe83fb344d9c",
+                ),
+            ],
+        ),
+    ],
 )

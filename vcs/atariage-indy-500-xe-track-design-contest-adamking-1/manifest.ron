@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - AdamKing_1",
-    publisher: Some("Adam King"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7f9676e4b9976e115360bdd5af538b1814bb6ef5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Adam King"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f9676e4b9976e115360bdd5af538b1814bb6ef5",
+                ),
+            ],
+        ),
+    ],
 )

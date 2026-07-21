@@ -1,9 +1,18 @@
 (
     title: "Carnival 8K (Carnival Hack) (WIP) (8K)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["4699235c7efed79eebd253c1e676fb9112c759e4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4699235c7efed79eebd253c1e676fb9112c759e4",
+                ),
+            ],
+        ),
+    ],
 )

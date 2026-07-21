@@ -1,9 +1,18 @@
 (
     title: "Droid Demo 22 (David Conrad Schweinsberg) (PD)",
-    publisher: Some("David Conrad Schweinsberg"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e21e58a7fad244bf6ac06a0b5df986342cd1a90c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("David Conrad Schweinsberg"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e21e58a7fad244bf6ac06a0b5df986342cd1a90c",
+                ),
+            ],
+        ),
+    ],
 )

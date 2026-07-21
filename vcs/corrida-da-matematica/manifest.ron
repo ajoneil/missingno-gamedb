@@ -1,9 +1,18 @@
 (
     title: "Corrida da Matematica",
-    publisher: Some("CCE"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3956dde26b2625fa3774e2bfc93e5e2c95bfa886"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3956dde26b2625fa3774e2bfc93e5e2c95bfa886",
+                ),
+            ],
+        ),
+    ],
 )

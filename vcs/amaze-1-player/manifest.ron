@@ -1,8 +1,17 @@
 (
     title: "Amaze 1 Player",
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3f8509b6145fd4a777249a8331a047b970d7419f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3f8509b6145fd4a777249a8331a047b970d7419f",
+                ),
+            ],
+        ),
+    ],
 )

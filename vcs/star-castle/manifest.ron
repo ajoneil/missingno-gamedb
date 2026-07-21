@@ -1,9 +1,19 @@
 (
-    title: "Star Castle (WIP)",
-    publisher: Some("Chris Walton"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("FA2"),
-    hashes: ["94e1012823ee58f3c639766e808ebe104ce049bc"],
-    source: None,
+    title: "Star Castle",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Chris Walton"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FA2"),
+            ),
+            artifacts: [
+                (
+                    sha1: "94e1012823ee58f3c639766e808ebe104ce049bc",
+                ),
+            ],
+        ),
+    ],
 )

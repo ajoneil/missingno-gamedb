@@ -1,9 +1,31 @@
 (
     title: "Ghostbusters II",
-    publisher: Some("Salu"),
-    date: Some("1992"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["e032876305647a95b622e5c4971f7096ef72acdb"],
-    source: None,
+    releases: [
+        (
+            date: Some("1992"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6c70db6a07ecb2c8bab4780b2e70585400342cfc",
+                ),
+            ],
+        ),
+        (
+            date: Some("1992"),
+            publisher: Some("Salu"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e032876305647a95b622e5c4971f7096ef72acdb",
+                ),
+            ],
+        ),
+    ],
 )

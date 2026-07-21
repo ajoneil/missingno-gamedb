@@ -1,9 +1,19 @@
 (
-    title: "Pong 256 Bytes (WIP)",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0571a8ce9bb81a2adfb8fccf028aa4795f6809bb"],
-    source: None,
+    title: "Pong 256 Bytes",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Rick Skrbina"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0571a8ce9bb81a2adfb8fccf028aa4795f6809bb",
+                ),
+            ],
+        ),
+    ],
 )

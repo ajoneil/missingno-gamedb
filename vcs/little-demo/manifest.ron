@@ -1,9 +1,18 @@
 (
     title: "Little Demo",
-    publisher: Some("Bastian Framke"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2453d8a93490e525216253144b3c2515ee9dc373"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Bastian Framke"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2453d8a93490e525216253144b3c2515ee9dc373",
+                ),
+            ],
+        ),
+    ],
 )

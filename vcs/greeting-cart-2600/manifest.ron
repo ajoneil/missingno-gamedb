@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - 2600",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["43dac6fb7b8000052dcd1f075e22542f65cb1fdc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "43dac6fb7b8000052dcd1f075e22542f65cb1fdc",
+                ),
+            ],
+        ),
+    ],
 )

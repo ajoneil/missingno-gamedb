@@ -1,9 +1,19 @@
 (
-    title: "Blox (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d645e6535786f1e91d9af0d19b51be446ce7f504"],
-    source: None,
+    title: "Blox",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d645e6535786f1e91d9af0d19b51be446ce7f504",
+                ),
+            ],
+        ),
+    ],
 )

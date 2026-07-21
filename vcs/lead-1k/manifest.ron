@@ -1,9 +1,18 @@
 (
     title: "Lead 1K",
-    publisher: Some("Simone Serra"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["78746285bcc0f1fb703ab7c35e6d1696f0da969e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Simone Serra"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "78746285bcc0f1fb703ab7c35e6d1696f0da969e",
+                ),
+            ],
+        ),
+    ],
 )

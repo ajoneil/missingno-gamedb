@@ -1,8 +1,17 @@
 (
     title: "Hey! Stop! (2600 Screen Search Console) (Jone Yuan Telephonic Enterprise Co)",
-    publisher: Some("Jone Yuan Telephonic Enterprise Co"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["207826657b948ab15ea379592c28d74aa6ef8552"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "207826657b948ab15ea379592c28d74aa6ef8552",
+                ),
+            ],
+        ),
+    ],
 )

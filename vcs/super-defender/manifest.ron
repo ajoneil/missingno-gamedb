@@ -1,9 +1,18 @@
 (
     title: "Super Defender (Defender Hack)",
-    publisher: Some("Rubixcube"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6b415f0a2085d75bb11781847c5bf2b7c88460e4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Rubixcube"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b415f0a2085d75bb11781847c5bf2b7c88460e4",
+                ),
+            ],
+        ),
+    ],
 )

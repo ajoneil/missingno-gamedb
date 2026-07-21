@@ -1,9 +1,18 @@
 (
     title: "Off Your Rocker (Proto)",
-    publisher: Some("Amiga"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7ad74a7c36318f1304f5dc454401cf257fa60d7a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7ad74a7c36318f1304f5dc454401cf257fa60d7a",
+                ),
+            ],
+        ),
+    ],
 )

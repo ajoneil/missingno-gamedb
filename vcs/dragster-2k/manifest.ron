@@ -1,9 +1,50 @@
 (
     title: "Dragster",
-    publisher: Some("Activision"),
-    date: Some("1980"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["5a1113b39547954a8b2cf15258a5a52612fefb69", "944c52de85464070a946813b050518977750e939"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5a1113b39547954a8b2cf15258a5a52612fefb69",
+                ),
+                (
+                    sha1: "944c52de85464070a946813b050518977750e939",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a3ad9e4b84f3a6dbfc027a3a6c26911ad8908861",
+                ),
+                (
+                    sha1: "bdad08932fd44d4bb61186cd1b7f61dbf5ea3d0f",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9811a250185b8ea57b2960af8eb370eeff72287c",
+                ),
+            ],
+        ),
+    ],
 )

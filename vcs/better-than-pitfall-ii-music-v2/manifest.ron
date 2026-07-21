@@ -1,9 +1,18 @@
 (
     title: "Better Than Pitfall II Music V2",
-    publisher: Some("John Payson"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a302275142598cc3b17d40dd493165c57790eaba"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a302275142598cc3b17d40dd493165c57790eaba",
+                ),
+            ],
+        ),
+    ],
 )

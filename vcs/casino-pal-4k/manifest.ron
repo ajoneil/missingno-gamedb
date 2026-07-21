@@ -1,9 +1,21 @@
 (
     title: "Casino (Paddle)",
-    publisher: Some("Atari"),
-    date: Some("1979"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["0a7c41b4215f792e499d20ff86fd6da9c2648d17", "ae5c097ee1f006c94579da32f1bc4cac504b54c0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a7c41b4215f792e499d20ff86fd6da9c2648d17",
+                ),
+                (
+                    sha1: "ae5c097ee1f006c94579da32f1bc4cac504b54c0",
+                ),
+            ],
+        ),
+    ],
 )

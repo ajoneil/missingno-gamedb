@@ -1,9 +1,18 @@
 (
     title: "Space Tunnel (BitCorp)",
-    publisher: Some("Bit Corporation"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["52c425fc220208d08cb0b1f2909cf79fb5b3f322"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "52c425fc220208d08cb0b1f2909cf79fb5b3f322",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Earth Attack",
-    publisher: Some("Zellers"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["67b660fc7a653626f5958cffb1f8a9c317d9aaa3"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "67b660fc7a653626f5958cffb1f8a9c317d9aaa3",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - Mechanized_1",
-    publisher: Some("Mechanized"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["b6ca2dae3c7434a718d6958204eb7474031e5a40"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Mechanized"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b6ca2dae3c7434a718d6958204eb7474031e5a40",
+                ),
+            ],
+        ),
+    ],
 )

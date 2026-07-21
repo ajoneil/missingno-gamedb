@@ -1,9 +1,18 @@
 (
     title: "Picnic (Paddle)",
-    publisher: Some("Carrere Video"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["70f4e4b38d9d6b21824341386e71eb1c4a7e30f4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Carrere Video"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "70f4e4b38d9d6b21824341386e71eb1c4a7e30f4",
+                ),
+            ],
+        ),
+    ],
 )

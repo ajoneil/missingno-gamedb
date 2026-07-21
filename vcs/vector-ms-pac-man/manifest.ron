@@ -1,9 +1,18 @@
 (
     title: "Vector Ms. Pac-Man (Ms. Pac-Man Hack)",
-    publisher: Some("Ronnie Dingman"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["bf9050e725bf23a7e51b822badc94ee48dedf7eb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Ronnie Dingman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bf9050e725bf23a7e51b822badc94ee48dedf7eb",
+                ),
+            ],
+        ),
+    ],
 )

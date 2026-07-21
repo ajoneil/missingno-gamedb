@@ -1,9 +1,19 @@
 (
-    title: "Prince of Persia Animation Demo (WIP)",
-    publisher: Some("Ivan Machado"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["841ebdf32d0aa2110ae9f38a9f31015c04dfbd84"],
-    source: None,
+    title: "Prince of Persia Animation Demo",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Ivan Machado"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "841ebdf32d0aa2110ae9f38a9f31015c04dfbd84",
+                ),
+            ],
+        ),
+    ],
 )

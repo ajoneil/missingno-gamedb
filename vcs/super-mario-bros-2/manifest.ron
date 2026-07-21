@@ -1,9 +1,19 @@
 (
-    title: "Super Mario Bros. 2 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2adac1c1953eae3630f74e52982f7fbae2561e5c"],
-    source: None,
+    title: "Super Mario Bros. 2",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2adac1c1953eae3630f74e52982f7fbae2561e5c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Donkey Kong Demo",
-    publisher: Some("Omegamatrix"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0a27039d40782070965fd33ff787784baf203df6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a27039d40782070965fd33ff787784baf203df6",
+                ),
+            ],
+        ),
+    ],
 )

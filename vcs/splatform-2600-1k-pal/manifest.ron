@@ -1,9 +1,31 @@
 (
     title: "Splatform 2600 1K",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["3097e9e4af6ab103d6ad34ca7f64eb8e671b7d8e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fb1453e5403a1ca957a5460aa36ee9ba8bb8df89",
+                ),
+            ],
+        ),
+        (
+            date: Some("2004"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3097e9e4af6ab103d6ad34ca7f64eb8e671b7d8e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Smash Hit Pak - Frogger, Boxing, Seaquest, Skiing, Stampede",
-    publisher: Some("HES"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["d5f7da871d8e2af6f474f05700bd62826b01d8cd"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d5f7da871d8e2af6f474f05700bd62826b01d8cd",
+                ),
+            ],
+        ),
+    ],
 )

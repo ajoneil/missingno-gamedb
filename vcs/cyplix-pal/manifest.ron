@@ -1,9 +1,31 @@
 (
     title: "Cyplix (Skindiver Hack)",
-    publisher: Some("Charles F. Gray"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["30592dfff115bf9d5363e41537cb0bf36cfb6e1e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Charles F. Gray"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aa80931b7f8b40378453871ce7208cc9ffad0454",
+                ),
+            ],
+        ),
+        (
+            date: Some("2004"),
+            publisher: Some("Charles F. Gray"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "30592dfff115bf9d5363e41537cb0bf36cfb6e1e",
+                ),
+            ],
+        ),
+    ],
 )

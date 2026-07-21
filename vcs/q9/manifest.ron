@@ -1,9 +1,19 @@
 (
-    title: "Q9 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f124bf65404f5f6bc21188d8405936c62e24dfeb"],
-    source: None,
+    title: "Q9",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f124bf65404f5f6bc21188d8405936c62e24dfeb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - TroyWhelan_2",
-    publisher: Some("Troy Whelan"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["6e0bef41b6d38db554bef3ed62d8dc975596b60b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Troy Whelan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6e0bef41b6d38db554bef3ed62d8dc975596b60b",
+                ),
+            ],
+        ),
+    ],
 )

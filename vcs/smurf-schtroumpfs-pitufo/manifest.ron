@@ -1,9 +1,18 @@
 (
     title: "Smurf - Schtroumpfs - Pitufo",
-    publisher: Some("CBS Electronics"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["716ac30bf2fc998851d3ad1d69bcd8c1ca2b3a5b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "716ac30bf2fc998851d3ad1d69bcd8c1ca2b3a5b",
+                ),
+            ],
+        ),
+    ],
 )

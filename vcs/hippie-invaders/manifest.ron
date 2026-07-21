@@ -1,9 +1,18 @@
 (
     title: "Hippie Invaders (Space Invaders Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e67178f29cd7028d5a797d8b23f49ea78f1f6285"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e67178f29cd7028d5a797d8b23f49ea78f1f6285",
+                ),
+            ],
+        ),
+    ],
 )

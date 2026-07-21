@@ -1,7 +1,16 @@
 (
     title: "ZZZ-UNK-CHECKERS",
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["605db3fdbaff4ba13729371ad0c4fbab3889378e"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "605db3fdbaff4ba13729371ad0c4fbab3889378e",
+                ),
+            ],
+        ),
+    ],
 )

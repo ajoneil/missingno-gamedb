@@ -1,9 +1,18 @@
 (
     title: "Crazy Valet",
-    publisher: Some("Hozer Video Games"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dd385886fdd20727c060bad6c92541938661e2b4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Hozer Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd385886fdd20727c060bad6c92541938661e2b4",
+                ),
+            ],
+        ),
+    ],
 )

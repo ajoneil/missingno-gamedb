@@ -1,9 +1,18 @@
 (
     title: "Xmas Digital Press Kong (Donkey Kong Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2ee00ec4b6ed4a667cc39a6ea9b7e9df6bfb91b5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2ee00ec4b6ed4a667cc39a6ea9b7e9df6bfb91b5",
+                ),
+            ],
+        ),
+    ],
 )

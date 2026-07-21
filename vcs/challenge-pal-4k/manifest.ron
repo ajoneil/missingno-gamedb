@@ -1,7 +1,43 @@
 (
     title: "Challenge",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["bc783303f5b05fd71c418e2cb4cf07e0ba2fd00f"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b2b1bd165b3c10cde5316ed0f9f05a509aac828d",
+                ),
+                (
+                    sha1: "e81b5e49cfbb283edba2c8f21f31a8148d8645a1",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc783303f5b05fd71c418e2cb4cf07e0ba2fd00f",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1191ed3cac491bab487ab3c3b52ecf56bd817b58",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "DiscoTech (12-02-2003)",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["572118e9d07bdacd43ed804ed40dafa8170832eb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "572118e9d07bdacd43ed804ed40dafa8170832eb",
+                ),
+            ],
+        ),
+    ],
 )

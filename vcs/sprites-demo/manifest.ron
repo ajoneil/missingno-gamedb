@@ -1,9 +1,18 @@
 (
     title: "Sprites Demo",
-    publisher: Some("Ivan Machado"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1c9e740cfc199927fb5bb4c40bdcec1de70ed767"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Ivan Machado"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1c9e740cfc199927fb5bb4c40bdcec1de70ed767",
+                ),
+            ],
+        ),
+    ],
 )

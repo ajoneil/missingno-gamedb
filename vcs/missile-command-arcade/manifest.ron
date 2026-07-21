@@ -1,9 +1,18 @@
 (
     title: "Missile Command Arcade (Missile Command Hack) (WIP) (8K)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["a4f9765a973addc751e4e12cf7c5b7f33189ce5d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a4f9765a973addc751e4e12cf7c5b7f33189ce5d",
+                ),
+            ],
+        ),
+    ],
 )

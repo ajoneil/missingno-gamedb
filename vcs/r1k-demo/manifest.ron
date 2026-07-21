@@ -1,9 +1,19 @@
 (
-    title: "R1K Demo (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6f7532af28118c2865a2312162c485f28cfcc722"],
-    source: None,
+    title: "R1K Demo",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6f7532af28118c2865a2312162c485f28cfcc722",
+                ),
+            ],
+        ),
+    ],
 )

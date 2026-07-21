@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - SalManfredonia_2",
-    publisher: Some("Sal Manfredonia"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["c4b58f49f9402a8639fc89ace00abd48e2eb2938"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Sal Manfredonia"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c4b58f49f9402a8639fc89ace00abd48e2eb2938",
+                ),
+            ],
+        ),
+    ],
 )

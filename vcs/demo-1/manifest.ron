@@ -1,9 +1,19 @@
 (
-    title: "Demo 1 (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["12e706ec4268302583ae1dc4cd58ffa72cf617fc"],
-    source: None,
+    title: "Demo 1",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "12e706ec4268302583ae1dc4cd58ffa72cf617fc",
+                ),
+            ],
+        ),
+    ],
 )

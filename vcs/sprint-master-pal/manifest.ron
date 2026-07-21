@@ -1,9 +1,18 @@
 (
     title: "Sprint Master (Sprint 88, Sprint 2600)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6SC"),
-    hashes: ["dcaac1fac0fe15aaa4553c2fa02b923a6dfb6880"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dcaac1fac0fe15aaa4553c2fa02b923a6dfb6880",
+                ),
+            ],
+        ),
+    ],
 )

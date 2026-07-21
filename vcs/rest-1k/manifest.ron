@@ -1,9 +1,19 @@
 (
-    title: "Rest 1K (WIP)",
-    publisher: Some("Simone Serra"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["108f547d9f1ff3d0a114033915ea3251a304ad63"],
-    source: None,
+    title: "Rest 1K",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Simone Serra"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "108f547d9f1ff3d0a114033915ea3251a304ad63",
+                ),
+            ],
+        ),
+    ],
 )

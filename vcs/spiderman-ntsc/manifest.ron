@@ -1,9 +1,18 @@
 (
     title: "Spiderman (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2feca4ab24865c42750e3a7c3a6a9fa23de0a9e3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2feca4ab24865c42750e3a7c3a6a9fa23de0a9e3",
+                ),
+            ],
+        ),
+    ],
 )

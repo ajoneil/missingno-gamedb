@@ -1,9 +1,18 @@
 (
     title: "Spider Maze",
-    publisher: Some("K-Tel Vision"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5d6f918bba4bd046e85b707da3b7d643cc2e1f1f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("K-Tel Vision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d6f918bba4bd046e85b707da3b7d643cc2e1f1f",
+                ),
+            ],
+        ),
+    ],
 )

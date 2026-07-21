@@ -1,7 +1,16 @@
 (
     title: "Challenge of.... Nexar, The [a]",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["c06b713b871dd74963c319e1e3ef2c1602acb2ae"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c06b713b871dd74963c319e1e3ef2c1602acb2ae",
+                ),
+            ],
+        ),
+    ],
 )

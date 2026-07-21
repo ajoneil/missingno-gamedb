@@ -1,9 +1,18 @@
 (
     title: "Snappy",
-    publisher: Some("Sebastian Mihai"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["791c7a19dc45a24f38479a777d0d429466f788bf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Sebastian Mihai"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "791c7a19dc45a24f38479a777d0d429466f788bf",
+                ),
+            ],
+        ),
+    ],
 )

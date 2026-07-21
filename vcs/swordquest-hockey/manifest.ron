@@ -1,9 +1,18 @@
 (
     title: "Swordquest Hockey (Ice Hockey Hack)",
-    publisher: Some("cosmosiss"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1e264756a7504f0e88b4aad6037a0660bfc57a3c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("cosmosiss"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1e264756a7504f0e88b4aad6037a0660bfc57a3c",
+                ),
+            ],
+        ),
+    ],
 )

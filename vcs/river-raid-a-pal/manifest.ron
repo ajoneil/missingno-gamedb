@@ -1,7 +1,16 @@
 (
     title: "River Raid (Hack) [a]",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["776a306788e1aeb5496454f493db15c2018feba9"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "776a306788e1aeb5496454f493db15c2018feba9",
+                ),
+            ],
+        ),
+    ],
 )

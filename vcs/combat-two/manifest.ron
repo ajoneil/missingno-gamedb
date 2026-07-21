@@ -1,9 +1,18 @@
 (
     title: "Combat Two (Proto)",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["66014de1f8e9f39483ee3f97ca0d97d026ffc3bb"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "66014de1f8e9f39483ee3f97ca0d97d026ffc3bb",
+                ),
+            ],
+        ),
+    ],
 )

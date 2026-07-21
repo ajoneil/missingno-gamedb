@@ -1,9 +1,18 @@
 (
     title: "SuperDude Shootout Black (Outlaw Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["25caf0ed90a97b433fa1b035af4dd96a81d5da8c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "25caf0ed90a97b433fa1b035af4dd96a81d5da8c",
+                ),
+            ],
+        ),
+    ],
 )

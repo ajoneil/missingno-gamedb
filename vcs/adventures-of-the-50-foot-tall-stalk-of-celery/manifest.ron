@@ -1,9 +1,19 @@
 (
-    title: "Adventures of the 50-foot-tall Stalk of Celery (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["7b200ec1e37a6e0a9cc7717ace70c79ebcc54f70"],
-    source: None,
+    title: "Adventures of the 50-foot-tall Stalk of Celery",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7b200ec1e37a6e0a9cc7717ace70c79ebcc54f70",
+                ),
+            ],
+        ),
+    ],
 )

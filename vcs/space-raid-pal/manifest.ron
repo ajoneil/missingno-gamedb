@@ -1,9 +1,21 @@
 (
     title: "Space Raid",
-    publisher: Some("Rainbow Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["bc9b418f900505965e0b6e53a6c430f100ae56fa", "fadae2e987429faaa8552ea7409ac780b86efe01"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc9b418f900505965e0b6e53a6c430f100ae56fa",
+                ),
+                (
+                    sha1: "fadae2e987429faaa8552ea7409ac780b86efe01",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,17 @@
 (
-    title: "Dogfight Game Mod (Manu Kapoor) (WIP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["621e2b4d1715603d275b5fe932284d432a6a4869"],
-    source: None,
+    title: "Dogfight Game Mod (Manu Kapoor)",
+    releases: [
+        (
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "621e2b4d1715603d275b5fe932284d432a6a4869",
+                ),
+            ],
+        ),
+    ],
 )

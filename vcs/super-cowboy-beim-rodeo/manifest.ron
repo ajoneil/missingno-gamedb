@@ -1,9 +1,18 @@
 (
     title: "Super-Cowboy beim Rodeo",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["3954fe67731402ad72815d819bb1fc1f3c7bbf33"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3954fe67731402ad72815d819bb1fc1f3c7bbf33",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Gunfight 2600 - Flicker acceptance (Manuel Rotschkar)",
-    publisher: Some("MP"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["87fa104c136c38ae397c9d348182b46c9304019f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "87fa104c136c38ae397c9d348182b46c9304019f",
+                ),
+            ],
+        ),
+    ],
 )

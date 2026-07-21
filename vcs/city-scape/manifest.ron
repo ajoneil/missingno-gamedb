@@ -1,9 +1,19 @@
 (
-    title: "City Scape (WIP)",
-    publisher: Some("Mr SQL"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["2f97d1cc6b2abbbacae76c173ba3875c8b2888c0"],
-    source: None,
+    title: "City Scape",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Mr SQL"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f97d1cc6b2abbbacae76c173ba3875c8b2888c0",
+                ),
+            ],
+        ),
+    ],
 )

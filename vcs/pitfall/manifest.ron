@@ -1,9 +1,42 @@
 (
     title: "Pitfall",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2b7a575efa56afe6ab5d659aca29f3824d0ac67e", "374ad3c09e737ec6e7eab3af01d4b22a75a93b97", "861196f2425b9374c1aba5703bc15b88241e066b", "936693951383eaaa710f938debd0f7701a909c6d", "a0a548bc6cc9e6af1401c37d43783590b670ae1d", "ad28bee5492ce16f9ae69a59201a3790510c9a6d", "d44b37c89ad9eaf5e2c0c75c59f35a9571a4156b", "eb7884e07c1761a8685dd6f1be11dd7383aacc7e", "f39ca9cf438f029d76551a94bb1d8e52f08c3270"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b7a575efa56afe6ab5d659aca29f3824d0ac67e",
+                ),
+                (
+                    sha1: "374ad3c09e737ec6e7eab3af01d4b22a75a93b97",
+                ),
+                (
+                    sha1: "861196f2425b9374c1aba5703bc15b88241e066b",
+                ),
+                (
+                    sha1: "936693951383eaaa710f938debd0f7701a909c6d",
+                ),
+                (
+                    sha1: "a0a548bc6cc9e6af1401c37d43783590b670ae1d",
+                ),
+                (
+                    sha1: "ad28bee5492ce16f9ae69a59201a3790510c9a6d",
+                ),
+                (
+                    sha1: "d44b37c89ad9eaf5e2c0c75c59f35a9571a4156b",
+                ),
+                (
+                    sha1: "eb7884e07c1761a8685dd6f1be11dd7383aacc7e",
+                ),
+                (
+                    sha1: "f39ca9cf438f029d76551a94bb1d8e52f08c3270",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - DougDingus_1",
-    publisher: Some("Doug Dingus"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["89b3908ef0b2318acf36aa5db30dd5e66eee691c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Doug Dingus"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "89b3908ef0b2318acf36aa5db30dd5e66eee691c",
+                ),
+            ],
+        ),
+    ],
 )

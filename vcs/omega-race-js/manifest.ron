@@ -1,9 +1,18 @@
 (
     title: "Omega Race JS (Thomas Jentzsch)",
-    publisher: Some("CBS Electronics / Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("FA"),
-    hashes: ["c7a9ecad6c1a82048de54d33b231abd89fb08bd8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("CBS Electronics / Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c7a9ecad6c1a82048de54d33b231abd89fb08bd8",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,33 @@
 (
-    title: "DOT (WIP)",
-    publisher: Some("Simone Serra"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f636f3433b282d641328b8a632e2990919d070ce"],
-    source: None,
+    title: "DOT",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Simone Serra"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f636f3433b282d641328b8a632e2990919d070ce",
+                ),
+            ],
+        ),
+        (
+            date: Some("2012"),
+            publisher: Some("Simone Serra"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a986635b577b4ca997d45765fe5eafac64b289ac",
+                ),
+            ],
+        ),
+    ],
 )

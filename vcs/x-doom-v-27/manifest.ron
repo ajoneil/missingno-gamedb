@@ -1,9 +1,18 @@
 (
     title: "X-Doom V.27 (PD)",
-    publisher: Some("Thiago Paiva"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d3de75aa3f2c5dc6fdcde628ae9014224a9079d3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Thiago Paiva"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3de75aa3f2c5dc6fdcde628ae9014224a9079d3",
+                ),
+            ],
+        ),
+    ],
 )

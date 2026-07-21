@@ -1,9 +1,27 @@
 (
     title: "Mr. Postman",
-    publisher: Some("Starsoft"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4a48548012bc977a4a51e4b1865f8c3e8029d8ac", "62e80bf7f8fe4d048c254987e5e93f7ca0e59fd3", "742536d9b2291c527b39b52c5d4e82e6dd2a97a7", "e3b167951ae5084262aea3253711083359e2441b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Starsoft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4a48548012bc977a4a51e4b1865f8c3e8029d8ac",
+                ),
+                (
+                    sha1: "62e80bf7f8fe4d048c254987e5e93f7ca0e59fd3",
+                ),
+                (
+                    sha1: "742536d9b2291c527b39b52c5d4e82e6dd2a97a7",
+                ),
+                (
+                    sha1: "e3b167951ae5084262aea3253711083359e2441b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Firefox (Combat II, Fighter Command) (06-01-1983) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["73f5f00aa8c587a3d0db0f5fd83a804c41ac4594"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "73f5f00aa8c587a3d0db0f5fd83a804c41ac4594",
+                ),
+            ],
+        ),
+    ],
 )

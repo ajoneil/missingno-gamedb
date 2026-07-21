@@ -1,9 +1,18 @@
 (
     title: "Actionauts (Microbots)",
-    publisher: Some("Imagic"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1804ad169e2af9e14876ffb1261817b7eb846f1b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1804ad169e2af9e14876ffb1261817b7eb846f1b",
+                ),
+            ],
+        ),
+    ],
 )

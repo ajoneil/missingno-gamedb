@@ -1,9 +1,31 @@
 (
     title: "Brooni (PD)",
-    publisher: Some("Andrew Wallace"),
-    date: Some("2001"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["13d4e1a8ad120eafa6c227f8a4968025c5e4f6f3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Andrew Wallace"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c6607da4d9123f4c4e2d22cca12d34b0ed62b958",
+                ),
+            ],
+        ),
+        (
+            date: Some("2001"),
+            publisher: Some("Andrew Wallace"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13d4e1a8ad120eafa6c227f8a4968025c5e4f6f3",
+                ),
+            ],
+        ),
+    ],
 )

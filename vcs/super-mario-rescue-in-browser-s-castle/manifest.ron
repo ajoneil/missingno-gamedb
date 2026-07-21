@@ -1,9 +1,18 @@
 (
-    title: "Super Mario - Rescue in Browser's Castle (Smurf Hack)",
-    publisher: Some("Shawn Davis Sr."),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["4ffbf2c35f05a29e65893805198db3fdb131af61"],
-    source: None,
+    title: "Super Mario - Rescue in Browser\'s Castle (Smurf Hack)",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Shawn Davis Sr."),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4ffbf2c35f05a29e65893805198db3fdb131af61",
+                ),
+            ],
+        ),
+    ],
 )

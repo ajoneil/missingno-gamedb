@@ -1,9 +1,18 @@
 (
     title: "Star Pilot - Legend of Galga (Communist Mutants from Space Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["8befbf19ec56178f5c3c8aed6c8e4137aa6fe7fe"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8befbf19ec56178f5c3c8aed6c8e4137aa6fe7fe",
+                ),
+            ],
+        ),
+    ],
 )

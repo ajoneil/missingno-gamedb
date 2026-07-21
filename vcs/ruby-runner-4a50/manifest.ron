@@ -1,9 +1,18 @@
 (
     title: "Ruby Runner 4A50",
-    publisher: Some("John Payson"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4A50"),
-    hashes: ["95d67b058ec40e8c5525365714d221e4c6b3c97d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4A50"),
+            ),
+            artifacts: [
+                (
+                    sha1: "95d67b058ec40e8c5525365714d221e4c6b3c97d",
+                ),
+            ],
+        ),
+    ],
 )

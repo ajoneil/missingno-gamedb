@@ -1,9 +1,19 @@
 (
-    title: "Happy Easter! (WIP)",
-    publisher: Some("Fort Apocalypse"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8b0bf04e993dab3f7a5a376e780805aeee83d4d8"],
-    source: None,
+    title: "Happy Easter!",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Fort Apocalypse"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8b0bf04e993dab3f7a5a376e780805aeee83d4d8",
+                ),
+            ],
+        ),
+    ],
 )

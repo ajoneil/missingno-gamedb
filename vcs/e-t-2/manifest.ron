@@ -1,9 +1,19 @@
 (
-    title: "E.T. 2 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["3dde5ce15828642bd4918a37a280f2b991b875cc"],
-    source: None,
+    title: "E.T. 2",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3dde5ce15828642bd4918a37a280f2b991b875cc",
+                ),
+            ],
+        ),
+    ],
 )

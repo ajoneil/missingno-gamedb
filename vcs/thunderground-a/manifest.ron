@@ -1,7 +1,16 @@
 (
     title: "Thunderground (Hack) [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5ae6892ba327c9cbe090b37edfe22b48f1ad45d4"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5ae6892ba327c9cbe090b37edfe22b48f1ad45d4",
+                ),
+            ],
+        ),
+    ],
 )

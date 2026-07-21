@@ -1,9 +1,31 @@
 (
     title: "Vong",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2008"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["6bc3cabfb8da2f43b93f240abc6911ec80cbc93e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Rick Skrbina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "50b465a1964d997601f14aa424e2a27470540bec",
+                ),
+            ],
+        ),
+        (
+            date: Some("2008"),
+            publisher: Some("Rick Skrbina"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6bc3cabfb8da2f43b93f240abc6911ec80cbc93e",
+                ),
+            ],
+        ),
+    ],
 )

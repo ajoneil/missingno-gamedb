@@ -1,9 +1,18 @@
 (
-    title: "Fonzie's Drag Race - Chopper !! (Dragster Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["3684344b41e6269deea92c642e3a988c052e2e90"],
-    source: None,
+    title: "Fonzie\'s Drag Race - Chopper !! (Dragster Hack)",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3684344b41e6269deea92c642e3a988c052e2e90",
+                ),
+            ],
+        ),
+    ],
 )

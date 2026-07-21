@@ -1,9 +1,19 @@
 (
-    title: "Brix (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["c3a675a11aacada2ecde247350e8f99596b377b5"],
-    source: None,
+    title: "Brix",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c3a675a11aacada2ecde247350e8f99596b377b5",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Bowling [o] [b2 Screen Rolls]",
-    publisher: Some("Atari"),
-    date: Some("1978"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e27eda01c247cc32ab148aaee0e6b81d48451eb0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e27eda01c247cc32ab148aaee0e6b81d48451eb0",
+                ),
+            ],
+        ),
+    ],
 )

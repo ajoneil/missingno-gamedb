@@ -1,9 +1,21 @@
 (
     title: "Reskenge (Donkey Kong Hack)",
-    publisher: Some("Tim Martin"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4e40c23fc97e27ff55aea6c410a1cd3754020d81", "dfa48772d62c31c517977b3ddbb74c6dc7357a7f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Tim Martin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e40c23fc97e27ff55aea6c410a1cd3754020d81",
+                ),
+                (
+                    sha1: "dfa48772d62c31c517977b3ddbb74c6dc7357a7f",
+                ),
+            ],
+        ),
+    ],
 )

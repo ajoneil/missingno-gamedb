@@ -1,9 +1,43 @@
 (
     title: "Pole Position",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["b27e301c2936aab5e219dc80b09907d711885c07", "bf89876abac4fa300ed6862a0ae87a6c5fe84c13"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4665c45c83bb64289b35782c3b59afed5ec2150c",
+                ),
+                (
+                    sha1: "9afdc3b6756aaf60e4949f414037239c7a4f7fd1",
+                ),
+                (
+                    sha1: "b7122f478a343cffac17b765e9642893587e99a1",
+                ),
+                (
+                    sha1: "e981b07a3bbce3ea187c7fd21bf4b8bea0630785",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b27e301c2936aab5e219dc80b09907d711885c07",
+                ),
+                (
+                    sha1: "bf89876abac4fa300ed6862a0ae87a6c5fe84c13",
+                ),
+            ],
+        ),
+    ],
 )

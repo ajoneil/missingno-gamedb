@@ -1,9 +1,31 @@
 (
     title: "Home Run ~ Baseball",
-    publisher: Some("Atari"),
-    date: Some("1978"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["f362d2b3a50e5ae3c2b412b6c08ecdcfee47a688"],
-    source: None,
+    releases: [
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f362d2b3a50e5ae3c2b412b6c08ecdcfee47a688",
+                ),
+            ],
+        ),
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef4dbf9d84eb1fff3c8ceef10ace8bf1f305354f",
+                ),
+            ],
+        ),
+    ],
 )

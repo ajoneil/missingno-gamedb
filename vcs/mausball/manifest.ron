@@ -1,9 +1,19 @@
 (
-    title: "Mausball (WIP)",
-    publisher: Some("Matthew J. Risch"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["d8fd3fbc5d7e546b5983d1a4e642bd169f382a65"],
-    source: None,
+    title: "Mausball",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Matthew J. Risch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8fd3fbc5d7e546b5983d1a4e642bd169f382a65",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Insane Painter (WIP)",
-    publisher: Some("Fort Apocalypse"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d3492ec39f69fbf3d50a431afa96a0be8422a3e6"],
-    source: None,
+    title: "Insane Painter",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Fort Apocalypse"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3492ec39f69fbf3d50a431afa96a0be8422a3e6",
+                ),
+            ],
+        ),
+    ],
 )

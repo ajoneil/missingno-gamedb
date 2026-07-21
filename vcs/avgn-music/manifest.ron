@@ -1,9 +1,18 @@
 (
     title: "AVGN Music",
-    publisher: Some("Lodmot"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["01abbb96047c9ab2a6647964d6a9cd2da8584b57"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Lodmot"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "01abbb96047c9ab2a6647964d6a9cd2da8584b57",
+                ),
+            ],
+        ),
+    ],
 )

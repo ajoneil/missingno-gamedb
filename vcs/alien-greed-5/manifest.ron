@@ -1,9 +1,19 @@
 (
-    title: "Alien Greed 5 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["51261d83729601b234091d67ca7d434557bbc1f1"],
-    source: None,
+    title: "Alien Greed 5",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "51261d83729601b234091d67ca7d434557bbc1f1",
+                ),
+            ],
+        ),
+    ],
 )

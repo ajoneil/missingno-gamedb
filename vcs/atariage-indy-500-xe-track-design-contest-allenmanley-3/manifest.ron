@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - AllenManley_3",
-    publisher: Some("Allen Manley"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8c48bcfa9a31551c8346bee01e3e96f89fb9b7f2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Allen Manley"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8c48bcfa9a31551c8346bee01e3e96f89fb9b7f2",
+                ),
+            ],
+        ),
+    ],
 )

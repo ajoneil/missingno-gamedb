@@ -1,7 +1,16 @@
 (
     title: "Planet Patrol [a]",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["7696d49f3c322a1abdbb3684236ea069d1686d46"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7696d49f3c322a1abdbb3684236ea069d1686d46",
+                ),
+            ],
+        ),
+    ],
 )

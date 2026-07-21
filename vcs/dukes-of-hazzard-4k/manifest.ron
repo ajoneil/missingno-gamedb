@@ -1,9 +1,18 @@
 (
     title: "Dukes of Hazzard (Prototype) (4K)",
-    publisher: Some("Atari"),
-    date: Some("1980"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9caf114c9582d5e0c14396b13d2bd1a89cad90b1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9caf114c9582d5e0c14396b13d2bd1a89cad90b1",
+                ),
+            ],
+        ),
+    ],
 )

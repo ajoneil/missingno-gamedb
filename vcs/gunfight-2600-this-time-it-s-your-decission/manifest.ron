@@ -1,9 +1,18 @@
 (
-    title: "Gunfight 2600 - This time it's your decission! (Manuel Rotschkar)",
-    publisher: Some("MP"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["60d4ada0598389843de62b18756e0097dbbb40f3"],
-    source: None,
+    title: "Gunfight 2600 - This time it\'s your decission! (Manuel Rotschkar)",
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "60d4ada0598389843de62b18756e0097dbbb40f3",
+                ),
+            ],
+        ),
+    ],
 )

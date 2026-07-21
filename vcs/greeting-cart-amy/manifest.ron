@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Amy",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fb3dd973dca76571e4f829d9c2fde5f58db06d41"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fb3dd973dca76571e4f829d9c2fde5f58db06d41",
+                ),
+            ],
+        ),
+    ],
 )

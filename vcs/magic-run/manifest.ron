@@ -1,9 +1,19 @@
 (
-    title: "Magic Run (WIP)",
-    publisher: Some("bongomeno"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4940d8880f406317f608c56bd5243548c3a7ff35"],
-    source: None,
+    title: "Magic Run",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("bongomeno"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4940d8880f406317f608c56bd5243548c3a7ff35",
+                ),
+            ],
+        ),
+    ],
 )

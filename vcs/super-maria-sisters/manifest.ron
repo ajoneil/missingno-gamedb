@@ -1,9 +1,18 @@
 (
     title: "Super Maria Sisters",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c33c5bc3327557fe99bac283d1425cb6f058b173"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c33c5bc3327557fe99bac283d1425cb6f058b173",
+                ),
+            ],
+        ),
+    ],
 )

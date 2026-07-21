@@ -1,9 +1,18 @@
 (
     title: "Gangster Alley - Gangster Ruine",
-    publisher: Some("Spectravision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["09c5017cff09ebb400573742cc99abc6e1577371"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "09c5017cff09ebb400573742cc99abc6e1577371",
+                ),
+            ],
+        ),
+    ],
 )

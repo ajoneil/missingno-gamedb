@@ -1,8 +1,17 @@
 (
     title: "One Blue Bar Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fbf180f8f35178099244bc1ae341ccff87838907"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fbf180f8f35178099244bc1ae341ccff87838907",
+                ),
+            ],
+        ),
+    ],
 )

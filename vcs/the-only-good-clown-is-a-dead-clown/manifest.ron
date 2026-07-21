@@ -1,9 +1,18 @@
 (
     title: "The Only Good Clown Is a Dead Clown (The Texas Chainsaw Massacre Hack)",
-    publisher: Some("Kaeru Yojimbo"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e39c2fb78b3fa43a059a28156f986d07f2398bd5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kaeru Yojimbo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e39c2fb78b3fa43a059a28156f986d07f2398bd5",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Ants 2K",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["b1ad985f9286f2aebc7b8e49f410cd3236efa812"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b1ad985f9286f2aebc7b8e49f410cd3236efa812",
+                ),
+            ],
+        ),
+    ],
 )

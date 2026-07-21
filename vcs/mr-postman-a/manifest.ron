@@ -1,9 +1,18 @@
 (
     title: "Mr. Postman [a]",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c92afe20ae2cb9a8085c938e2ae7eec433ea3c20"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c92afe20ae2cb9a8085c938e2ae7eec433ea3c20",
+                ),
+            ],
+        ),
+    ],
 )

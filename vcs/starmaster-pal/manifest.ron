@@ -1,9 +1,41 @@
 (
     title: "StarMaster",
-    publisher: Some("Activision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["b880cb90aedd84ee574ad26061455cbd280f7671", "bc2ea6e663d679ad2e5cf8efbf85a55808e7d564"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cffcfea52d3d5212b1104d51b63c1df65a99657",
+                ),
+                (
+                    sha1: "737e90824b4b175e9f9b94a25899948552890765",
+                ),
+                (
+                    sha1: "814876ed270114912363e4718a84123dee213b6f",
+                ),
+                (
+                    sha1: "b9ca3d2da8291c5f03afed66742c88fd3f937692",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b880cb90aedd84ee574ad26061455cbd280f7671",
+                ),
+                (
+                    sha1: "bc2ea6e663d679ad2e5cf8efbf85a55808e7d564",
+                ),
+            ],
+        ),
+    ],
 )

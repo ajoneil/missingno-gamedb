@@ -1,9 +1,18 @@
 (
     title: "Battle for Naboo (Hack)",
-    publisher: Some("Josh"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["824bf92c1cf9172c2442af5a4a9d68ee92f2bdf9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Josh"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "824bf92c1cf9172c2442af5a4a9d68ee92f2bdf9",
+                ),
+            ],
+        ),
+    ],
 )

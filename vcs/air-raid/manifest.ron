@@ -1,9 +1,21 @@
 (
     title: "Air Raid",
-    publisher: Some("Men-A-Vision"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["05e200acd52bea478cad32417a481f96ffce5471", "3b02e7dacb418c44d0d3dc77d60a9663b90b0fbc"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Men-A-Vision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "05e200acd52bea478cad32417a481f96ffce5471",
+                ),
+                (
+                    sha1: "3b02e7dacb418c44d0d3dc77d60a9663b90b0fbc",
+                ),
+            ],
+        ),
+    ],
 )

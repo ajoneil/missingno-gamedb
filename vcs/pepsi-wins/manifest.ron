@@ -1,9 +1,18 @@
 (
     title: "Pepsi Wins (Pepsi Invaders Hack)",
-    publisher: Some("vb Master"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["51849149e7ea4f69a5c67d5d35fd1e6ce54727a6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("vb Master"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "51849149e7ea4f69a5c67d5d35fd1e6ce54727a6",
+                ),
+            ],
+        ),
+    ],
 )

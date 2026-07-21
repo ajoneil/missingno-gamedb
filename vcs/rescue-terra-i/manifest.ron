@@ -1,9 +1,18 @@
 (
     title: "Rescue Terra I",
-    publisher: Some("VentureVision"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["94e94810bf6c72eee49157f9218c3c170b65c836"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("VentureVision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "94e94810bf6c72eee49157f9218c3c170b65c836",
+                ),
+            ],
+        ),
+    ],
 )

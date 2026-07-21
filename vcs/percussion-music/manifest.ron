@@ -1,9 +1,18 @@
 (
     title: "Percussion Music",
-    publisher: Some("Richi_S"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d763578e65ae54faab4b26a567c77ab3d8010a20"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Richi_S"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d763578e65ae54faab4b26a567c77ab3d8010a20",
+                ),
+            ],
+        ),
+    ],
 )

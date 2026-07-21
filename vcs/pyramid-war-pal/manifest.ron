@@ -1,9 +1,32 @@
 (
     title: "Pyramid War",
-    publisher: Some("Rainbow Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["863be051c1c55f611555d228b6e35fd24509b6a0", "bc483097f94f2bf9c4d3366b3bd25200f2e2f22a"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1294b32dd1ac8069c15a55d0061b181a70e7be4a",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "863be051c1c55f611555d228b6e35fd24509b6a0",
+                ),
+                (
+                    sha1: "bc483097f94f2bf9c4d3366b3bd25200f2e2f22a",
+                ),
+            ],
+        ),
+    ],
 )

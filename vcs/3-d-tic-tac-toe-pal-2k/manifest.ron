@@ -1,9 +1,63 @@
 (
     title: "3-D Tic-Tac-Toe",
-    publisher: Some("Atari"),
-    date: Some("1980"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["6b163aa967e4204a5bd98a59bd8e80f159004e34", "fd8f2a6eb9248227edca6ae60de93ca38c0ed2ea"],
-    source: None,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "21d983f2f52b84c22ecae84b0943678ae2c31c10",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f93a1067958a17c14ee72c6b611cffc16901f58b",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b163aa967e4204a5bd98a59bd8e80f159004e34",
+                ),
+                (
+                    sha1: "fd8f2a6eb9248227edca6ae60de93ca38c0ed2ea",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c497f97fb4f140b875728a636e3a46c8d0804e1c",
+                ),
+                (
+                    sha1: "e5a370e4f9531836e5b12951e44ea4a4afe9f5d7",
+                ),
+            ],
+        ),
+    ],
 )

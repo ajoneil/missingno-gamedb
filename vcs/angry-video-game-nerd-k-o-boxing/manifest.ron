@@ -1,9 +1,21 @@
 (
     title: "Angry Video Game Nerd K.O. Boxing (Aftermarket) (Unl)",
-    publisher: Some("Devin Cook"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["bbcac5c5b2384ab6aa83574e6b9486c4b60822d4", "f723b83145bd43e2fb4767e35bcb25958c8b2d03"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Devin Cook"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bbcac5c5b2384ab6aa83574e6b9486c4b60822d4",
+                ),
+                (
+                    sha1: "f723b83145bd43e2fb4767e35bcb25958c8b2d03",
+                ),
+            ],
+        ),
+    ],
 )

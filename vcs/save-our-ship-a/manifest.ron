@@ -1,7 +1,16 @@
 (
     title: "Save Our Ship [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b9ddb41a5b44af67a6cb38a76d12905c807c0f93"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b9ddb41a5b44af67a6cb38a76d12905c807c0f93",
+                ),
+            ],
+        ),
+    ],
 )

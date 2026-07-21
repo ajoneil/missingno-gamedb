@@ -1,7 +1,16 @@
 (
     title: "KC Pacman (Pac-Man Hack)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4dd1f09bc4ac633033554ff1f95cf848f577b459"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4dd1f09bc4ac633033554ff1f95cf848f577b459",
+                ),
+            ],
+        ),
+    ],
 )

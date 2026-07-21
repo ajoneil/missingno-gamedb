@@ -1,9 +1,18 @@
 (
     title: "Buck Rogers",
-    publisher: Some("Digivision"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["cccd8e9ff3f7670d087f4849b6989e46426d9216"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cccd8e9ff3f7670d087f4849b6989e46426d9216",
+                ),
+            ],
+        ),
+    ],
 )

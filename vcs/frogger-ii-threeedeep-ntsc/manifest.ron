@@ -1,9 +1,18 @@
 (
     title: "Frogger II - Threeedeep!",
-    publisher: Some("Parker Brothers"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("E0"),
-    hashes: ["6b9e591cc53844795725fc66c564f0364d1fbe40"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b9e591cc53844795725fc66c564f0364d1fbe40",
+                ),
+            ],
+        ),
+    ],
 )

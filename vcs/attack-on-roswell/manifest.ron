@@ -1,9 +1,18 @@
 (
     title: "Attack on Roswell (Atlantis II Hack)",
-    publisher: Some("Codyr783"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ca745a4bffd6d18ce63756760fc853a8ad44230c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Codyr783"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ca745a4bffd6d18ce63756760fc853a8ad44230c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Star Wars - Dark Empire (Star Wars - The Empire Strikes Back Hack)",
-    publisher: Some("ILA2600"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1426e239b046be7fa4a39e6462d7b3a73d66181d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("ILA2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1426e239b046be7fa4a39e6462d7b3a73d66181d",
+                ),
+            ],
+        ),
+    ],
 )

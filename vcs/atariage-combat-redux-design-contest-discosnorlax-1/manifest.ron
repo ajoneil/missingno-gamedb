@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - DiscoSnorlax_1",
-    publisher: Some("DiscoSnorlax"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["7074a8d24bcaf7e97971dba95a076c40fcf26920"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("DiscoSnorlax"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7074a8d24bcaf7e97971dba95a076c40fcf26920",
+                ),
+            ],
+        ),
+    ],
 )

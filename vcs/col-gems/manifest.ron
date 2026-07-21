@@ -1,9 +1,19 @@
 (
-    title: "Col-Gems (WIP)",
-    publisher: Some("John Payson"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cdf23a01b857a5156fbecc0da6206153d723dc34"],
-    source: None,
+    title: "Col-Gems",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("John Payson"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cdf23a01b857a5156fbecc0da6206153d723dc34",
+                ),
+            ],
+        ),
+    ],
 )

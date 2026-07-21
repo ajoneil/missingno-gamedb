@@ -1,9 +1,18 @@
 (
     title: "Last Mobile Space Battalion",
-    publisher: Some("Phillip Sassano"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0a00ae2d7bc3c4f0fcc99ac67af83382711461f1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Phillip Sassano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a00ae2d7bc3c4f0fcc99ac67af83382711461f1",
+                ),
+            ],
+        ),
+    ],
 )

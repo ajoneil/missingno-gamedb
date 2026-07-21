@@ -1,9 +1,18 @@
 (
     title: "Dragonfire Sadistic (Dragonfire Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a3328b0b0411cff6f6eab0d4550ce45017927878"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a3328b0b0411cff6f6eab0d4550ce45017927878",
+                ),
+            ],
+        ),
+    ],
 )

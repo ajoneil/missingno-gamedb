@@ -1,9 +1,18 @@
 (
     title: "bB Music - Tron Intro",
-    publisher: Some("lord_mike"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e4491c82cbd7ebea66aef88158225ba4bb16f697"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("lord_mike"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e4491c82cbd7ebea66aef88158225ba4bb16f697",
+                ),
+            ],
+        ),
+    ],
 )

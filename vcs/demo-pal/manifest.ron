@@ -1,9 +1,18 @@
 (
     title: "Demo (Core)",
-    publisher: Some("wAMMA"),
-    date: Some("2007"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8616299105be1890e08a2926e273d3f029664af6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("wAMMA"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8616299105be1890e08a2926e273d3f029664af6",
+                ),
+            ],
+        ),
+    ],
 )

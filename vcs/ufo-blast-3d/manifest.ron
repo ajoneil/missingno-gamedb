@@ -1,9 +1,19 @@
 (
-    title: "Ufo Blast 3D (WIP)",
-    publisher: Some("bongomeno"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8a345f795ef47c8bd0f147de578053caa8b1d5ca"],
-    source: None,
+    title: "Ufo Blast 3D",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("bongomeno"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a345f795ef47c8bd0f147de578053caa8b1d5ca",
+                ),
+            ],
+        ),
+    ],
 )

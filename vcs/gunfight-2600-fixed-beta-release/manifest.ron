@@ -1,9 +1,18 @@
 (
     title: "Gunfight 2600 - Fixed Beta Release! (Manuel Rotschkar)",
-    publisher: Some("MP"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b8434dbdfe4bbc80c819412c0b888fcb0e8cf3b9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("MP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b8434dbdfe4bbc80c819412c0b888fcb0e8cf3b9",
+                ),
+            ],
+        ),
+    ],
 )

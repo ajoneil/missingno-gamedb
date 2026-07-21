@@ -1,8 +1,17 @@
 (
     title: "This Planet Sucks Demo 4 (Greg Troutman) (PD)",
-    publisher: Some("Greg Troutman"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a97fa17b117d1de762477ae6212ea4ae1b6788d7"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Greg Troutman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a97fa17b117d1de762477ae6212ea4ae1b6788d7",
+                ),
+            ],
+        ),
+    ],
 )

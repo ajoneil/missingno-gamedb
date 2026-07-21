@@ -1,9 +1,18 @@
 (
     title: "hectoByte Demo",
-    publisher: Some("Digital Sounds System"),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["8edd3f1210ca191dfb2f87b53dfa0c035edf8bfb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Digital Sounds System"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8edd3f1210ca191dfb2f87b53dfa0c035edf8bfb",
+                ),
+            ],
+        ),
+    ],
 )

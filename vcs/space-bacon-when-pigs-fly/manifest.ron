@@ -1,9 +1,18 @@
 (
     title: "Space Bacon - When Pigs Fly",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c8bb94d34540ab8bfe2449b6144491e46eadc1b6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c8bb94d34540ab8bfe2449b6144491e46eadc1b6",
+                ),
+            ],
+        ),
+    ],
 )

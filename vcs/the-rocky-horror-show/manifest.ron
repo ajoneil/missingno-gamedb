@@ -1,9 +1,19 @@
 (
-    title: "The Rocky Horror Show (WIP)",
-    publisher: Some("Filippo Santellocco"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["1c1560b258e9656ea646b10392bbf6e3284ee8cf"],
-    source: None,
+    title: "The Rocky Horror Show",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Filippo Santellocco"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1c1560b258e9656ea646b10392bbf6e3284ee8cf",
+                ),
+            ],
+        ),
+    ],
 )

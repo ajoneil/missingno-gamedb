@@ -1,9 +1,19 @@
 (
-    title: "Transitman (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dfdde1ade1dddb6df87dd4d956cb20afd3737066"],
-    source: None,
+    title: "Transitman",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dfdde1ade1dddb6df87dd4d956cb20afd3737066",
+                ),
+            ],
+        ),
+    ],
 )

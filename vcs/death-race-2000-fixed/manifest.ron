@@ -1,9 +1,18 @@
 (
     title: "Death Race 2000 Fixed (River Raid Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["de7255857e9e1e8a84b68a92dfa61b11633cb093"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de7255857e9e1e8a84b68a92dfa61b11633cb093",
+                ),
+            ],
+        ),
+    ],
 )

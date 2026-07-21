@@ -1,9 +1,19 @@
 (
-    title: "Quark (WIP)",
-    publisher: Some("Freehabitat"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e6acaebe75852c68abfc241d5dc8ec8843bffb8c"],
-    source: None,
+    title: "Quark",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Freehabitat"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e6acaebe75852c68abfc241d5dc8ec8843bffb8c",
+                ),
+            ],
+        ),
+    ],
 )

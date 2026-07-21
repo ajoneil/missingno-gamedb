@@ -1,9 +1,18 @@
 (
     title: "Casino ~ Poker Plus",
-    publisher: Some("Atari"),
-    date: Some("1979"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["08598101e38756916613f37581ef1b61c719016f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "08598101e38756916613f37581ef1b61c719016f",
+                ),
+            ],
+        ),
+    ],
 )

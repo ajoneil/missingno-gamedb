@@ -1,9 +1,19 @@
 (
-    title: "Dice Warrior (WIP)",
-    publisher: Some("Chris Walton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["aab916c933680a24136cdc83fc8c618d335c6146"],
-    source: None,
+    title: "Dice Warrior",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Chris Walton"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aab916c933680a24136cdc83fc8c618d335c6146",
+                ),
+            ],
+        ),
+    ],
 )

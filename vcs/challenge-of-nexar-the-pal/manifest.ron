@@ -1,9 +1,21 @@
 (
-    title: "Challenge of.... Nexar, The",
-    publisher: Some("Spectravision"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["15ed5f1533256816980e0f315d1d1a5a43b3d5aa", "c7c9ca986e76b5222ee976a7603d4ccf870014fc"],
-    source: None,
+    title: "The Challenge of.... Nexar",
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "15ed5f1533256816980e0f315d1d1a5a43b3d5aa",
+                ),
+                (
+                    sha1: "c7c9ca986e76b5222ee976a7603d4ccf870014fc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "End of the World, The (2600 Screen Search Console) (Jone Yuan Telephonic Enterprise Co)",
-    publisher: Some("Jone Yuan Telephonic Enterprise Co"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fcf34450bfd4a36a4a2a277eff0dbe5f1318e97f"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fcf34450bfd4a36a4a2a277eff0dbe5f1318e97f",
+                ),
+            ],
+        ),
+    ],
 )

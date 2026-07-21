@@ -1,9 +1,18 @@
 (
     title: "Sprite Movement Demo 1 (Roger Williams)",
-    publisher: Some("Roger Williams"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d514debc64229f70c243cc1c7407caa02f3576fd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Roger Williams"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d514debc64229f70c243cc1c7407caa02f3576fd",
+                ),
+            ],
+        ),
+    ],
 )

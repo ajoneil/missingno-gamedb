@@ -1,9 +1,19 @@
 (
-    title: "Muncher (WIP)",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["c04ff31aa22a0efc7e819cc1506643f19c0896f7"],
-    source: None,
+    title: "Muncher",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rick Skrbina"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c04ff31aa22a0efc7e819cc1506643f19c0896f7",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Metroid (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["aaac621fd0ca0660d37c51f064b8e7814b9d957f"],
-    source: None,
+    title: "Metroid",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aaac621fd0ca0660d37c51f064b8e7814b9d957f",
+                ),
+            ],
+        ),
+    ],
 )

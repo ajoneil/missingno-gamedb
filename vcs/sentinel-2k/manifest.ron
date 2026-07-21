@@ -1,9 +1,32 @@
 (
-    title: "Sentinel (WIP)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0997283611b2bff4bfe219391480e11df1053aaf"],
-    source: None,
+    title: "Sentinel",
+    releases: [
+        (
+            date: Some("1991"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fcf5f8a7d6e59a339c2002e3d4084d87deb670fe",
+                ),
+            ],
+        ),
+        (
+            date: Some("2007"),
+            publisher: Some("Thomas Jentzsch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0997283611b2bff4bfe219391480e11df1053aaf",
+                ),
+            ],
+        ),
+    ],
 )

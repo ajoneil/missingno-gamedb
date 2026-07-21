@@ -1,9 +1,18 @@
 (
     title: "Warplock (Paddle)",
-    publisher: Some("Gameworld"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["3cfdd92952dc4a019a7c9b050f6e4cc6656a0149"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3cfdd92952dc4a019a7c9b050f6e4cc6656a0149",
+                ),
+            ],
+        ),
+    ],
 )

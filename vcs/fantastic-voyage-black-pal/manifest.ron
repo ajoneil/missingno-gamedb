@@ -1,9 +1,18 @@
 (
     title: "Fantastic Voyage Black (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5cf05033a004bd8ebdad022b83916c198a986499"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cf05033a004bd8ebdad022b83916c198a986499",
+                ),
+            ],
+        ),
+    ],
 )

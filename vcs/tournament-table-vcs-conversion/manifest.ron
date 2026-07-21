@@ -1,9 +1,19 @@
 (
-    title: "Tournament Table VCS Conversion (Hack) (WIP)",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["7f76d49b62dba9b67c5e1e5ab39607022da49119"],
-    source: None,
+    title: "Tournament Table VCS Conversion (Hack)",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Rick Skrbina"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f76d49b62dba9b67c5e1e5ab39607022da49119",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
-    title: "Maze Craze - A Game of Cops 'n Robbers ~ Maze Mania - A Game of Cops 'n Robbers",
-    publisher: Some("Atari"),
-    date: Some("1980"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["aba25089d87cd6fee8d206b880baa5d938aae255"],
-    source: None,
+    title: "Maze Craze - A Game of Cops \'n Robbers ~ Maze Mania - A Game of Cops \'n Robbers",
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aba25089d87cd6fee8d206b880baa5d938aae255",
+                ),
+            ],
+        ),
+    ],
 )

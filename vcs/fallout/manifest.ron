@@ -1,9 +1,21 @@
 (
     title: "Fallout",
-    publisher: Some("Colman Bryant"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2bacfcc869af9164329fb1b1dedbd51d672f3370", "d99a403be274134e3d2d1726ca3b938b603cfcc1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Colman Bryant"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2bacfcc869af9164329fb1b1dedbd51d672f3370",
+                ),
+                (
+                    sha1: "d99a403be274134e3d2d1726ca3b938b603cfcc1",
+                ),
+            ],
+        ),
+    ],
 )

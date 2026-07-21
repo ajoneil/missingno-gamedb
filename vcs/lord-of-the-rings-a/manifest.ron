@@ -1,9 +1,18 @@
 (
     title: "Lord of the Rings [a] (Hack)",
-    publisher: Some("Adam Thornton"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["43575ed97f8a585c5bae6fb1a7b2133c87b4d256"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Adam Thornton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "43575ed97f8a585c5bae6fb1a7b2133c87b4d256",
+                ),
+            ],
+        ),
+    ],
 )

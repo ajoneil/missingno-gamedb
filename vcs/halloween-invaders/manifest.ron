@@ -1,9 +1,18 @@
 (
     title: "Halloween Invaders (Space Invaders Hack)",
-    publisher: Some("sefoil"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4f9a24814188e20272e7a7d7e21ea8fc4d299e6e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("sefoil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4f9a24814188e20272e7a7d7e21ea8fc4d299e6e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,29 @@
 (
     title: "Ship Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["059378a772db9c4e5b13870d29ba5c042bcef43c", "12e4d502c32c94624f51342d7b688f7fc900ff57", "1512fb810506a268cd28b0210ffcaeae7cc5a5f4", "24c3f7c68786d46be38c1de3ead7e3dfe2047744", "f921b87b785681cb7c5b5963401d881b7d1567bd"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "059378a772db9c4e5b13870d29ba5c042bcef43c",
+                ),
+                (
+                    sha1: "12e4d502c32c94624f51342d7b688f7fc900ff57",
+                ),
+                (
+                    sha1: "1512fb810506a268cd28b0210ffcaeae7cc5a5f4",
+                ),
+                (
+                    sha1: "24c3f7c68786d46be38c1de3ead7e3dfe2047744",
+                ),
+                (
+                    sha1: "f921b87b785681cb7c5b5963401d881b7d1567bd",
+                ),
+            ],
+        ),
+    ],
 )

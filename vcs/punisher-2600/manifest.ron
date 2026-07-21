@@ -1,9 +1,18 @@
 (
     title: "Punisher 2600 (Gangster Alley Hack)",
-    publisher: Some("Ronnie Dingman"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0adab08d02996eecd164fc9b0e1cd486abafb0f7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Ronnie Dingman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0adab08d02996eecd164fc9b0e1cd486abafb0f7",
+                ),
+            ],
+        ),
+    ],
 )

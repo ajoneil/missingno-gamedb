@@ -1,9 +1,18 @@
 (
     title: "Odyssey Invaders (Space Invaders Hack)",
-    publisher: Some("tkarner"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["59a0b37060582e98928e26f12cb496cc6725c8ab"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("tkarner"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59a0b37060582e98928e26f12cb496cc6725c8ab",
+                ),
+            ],
+        ),
+    ],
 )

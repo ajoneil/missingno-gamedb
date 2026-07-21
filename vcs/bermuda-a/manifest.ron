@@ -1,7 +1,16 @@
 (
     title: "Bermuda [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6242e034d417b821ca07e26170a42f1685b39529"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6242e034d417b821ca07e26170a42f1685b39529",
+                ),
+            ],
+        ),
+    ],
 )

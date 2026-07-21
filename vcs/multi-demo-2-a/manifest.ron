@@ -1,9 +1,18 @@
 (
     title: "Multi Demo 2 [a] (Bob Colbert) (PD)",
-    publisher: Some("Bob Colbert"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5b65b083acdbd62d079f33a576a24428a8fb7e62"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Bob Colbert"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b65b083acdbd62d079f33a576a24428a8fb7e62",
+                ),
+            ],
+        ),
+    ],
 )

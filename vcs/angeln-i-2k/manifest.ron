@@ -1,8 +1,30 @@
 (
     title: "Angeln I (Ariola)",
-    publisher: Some("Videospielkassette"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["a7638a2e79524b068038f0be035b46d0ce65f7ea"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Videospielkassette"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7638a2e79524b068038f0be035b46d0ce65f7ea",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Videospielkassette"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8578a37d3acc0df1472933fb4b3f9c4bcb4d140e",
+                ),
+            ],
+        ),
+    ],
 )

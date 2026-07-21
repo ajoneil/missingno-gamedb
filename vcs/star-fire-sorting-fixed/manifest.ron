@@ -1,7 +1,16 @@
 (
     title: "Star Fire - Sorting Fixed (MP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6a4ab3f955af28fc7afdd24af079225478801dc0"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6a4ab3f955af28fc7afdd24af079225478801dc0",
+                ),
+            ],
+        ),
+    ],
 )

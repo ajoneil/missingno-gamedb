@@ -1,9 +1,34 @@
 (
     title: "Klax",
-    publisher: Some("Atari"),
-    date: Some("1991"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6SC"),
-    hashes: ["45623a1c8fb5074de98c37f005edd5b1d0937dae"],
-    source: None,
+    releases: [
+        (
+            date: Some("1990"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3162259c6dbfbb57a2ea41d849155702151ee39b",
+                ),
+                (
+                    sha1: "991089a63734a859c89eb465f3fc074e57c3ee4d",
+                ),
+            ],
+        ),
+        (
+            date: Some("1991"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "45623a1c8fb5074de98c37f005edd5b1d0937dae",
+                ),
+            ],
+        ),
+    ],
 )

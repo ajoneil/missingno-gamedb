@@ -1,9 +1,18 @@
 (
     title: "Fisticuffs! (Double Dragon Hack)",
-    publisher: Some("Larry Petit"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["8cdc4d61583ca8580025a9dc82da4a6ebf174128"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Larry Petit"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8cdc4d61583ca8580025a9dc82da4a6ebf174128",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,37 @@
 (
     title: "Burning Desire",
-    publisher: Some("Mystique"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["e09eaff714a7eabf9a00dc22de720f944de86313", "fcf8eeac23e146d20f93812ab5a9872045f95b52"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("PlayAround"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6abefbfca9cb2d276435ab4db567266a486bfd7c",
+                ),
+                (
+                    sha1: "b233c37aa5164a54e2e7cc3dc621b331ddc6e55b",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Mystique"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e09eaff714a7eabf9a00dc22de720f944de86313",
+                ),
+                (
+                    sha1: "fcf8eeac23e146d20f93812ab5a9872045f95b52",
+                ),
+            ],
+        ),
+    ],
 )

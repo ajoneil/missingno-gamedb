@@ -1,9 +1,18 @@
 (
     title: "Pleiades (5) [a]",
-    publisher: Some("UA Limited"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("UA"),
-    hashes: ["a35339800b179056a82d6cc805625974d7a3624c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("UA Limited"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a35339800b179056a82d6cc805625974d7a3624c",
+                ),
+            ],
+        ),
+    ],
 )

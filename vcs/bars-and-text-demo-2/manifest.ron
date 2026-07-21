@@ -1,8 +1,17 @@
 (
     title: "Bars and Text Demo 2 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3d0bf74807f829649c28da388740611ead5367c2"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3d0bf74807f829649c28da388740611ead5367c2",
+                ),
+            ],
+        ),
+    ],
 )

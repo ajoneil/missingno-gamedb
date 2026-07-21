@@ -1,9 +1,18 @@
 (
     title: "Tax Avoiders",
-    publisher: Some("American Videogame"),
-    date: Some("1986"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["7aaf6be610ba6ea1205bdd5ed60838ccb8280d57"],
-    source: None,
+    releases: [
+        (
+            date: Some("1986"),
+            publisher: Some("American Videogame"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7aaf6be610ba6ea1205bdd5ed60838ccb8280d57",
+                ),
+            ],
+        ),
+    ],
 )

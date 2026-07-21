@@ -1,9 +1,18 @@
 (
     title: "Create Your Own Adventure (Adventure Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b026a5ba760af3a86e7490b1bbfef7a943a22895"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b026a5ba760af3a86e7490b1bbfef7a943a22895",
+                ),
+            ],
+        ),
+    ],
 )

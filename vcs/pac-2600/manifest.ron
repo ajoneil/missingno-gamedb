@@ -1,9 +1,18 @@
 (
     title: "Pac-2600 (PD)",
-    publisher: Some("Rob Kudla"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["febce0605357966a0fdebdb2cb5151bd2723595d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Rob Kudla"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "febce0605357966a0fdebdb2cb5151bd2723595d",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Attack of the Mighty Aliens from Outer Space (WIP)",
-    publisher: Some("Maciej Kozlowski"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["dc265b152b5cafef62b30121229e7c8d51391983"],
-    source: None,
+    title: "Attack of the Mighty Aliens from Outer Space",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Maciej Kozlowski"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc265b152b5cafef62b30121229e7c8d51391983",
+                ),
+            ],
+        ),
+    ],
 )

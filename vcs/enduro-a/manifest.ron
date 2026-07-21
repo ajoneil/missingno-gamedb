@@ -1,9 +1,21 @@
 (
     title: "Enduro [a]",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9d51d6b8c45d04b684a215bd3f392762f7f2af8f", "a9a0dcca0d00ceea51a9d699b987fec3163be52c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d51d6b8c45d04b684a215bd3f392762f7f2af8f",
+                ),
+                (
+                    sha1: "a9a0dcca0d00ceea51a9d699b987fec3163be52c",
+                ),
+            ],
+        ),
+    ],
 )

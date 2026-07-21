@@ -1,9 +1,18 @@
 (
     title: "Boulder Dash Muzak 1",
-    publisher: Some("Fred Quimby"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["52f42ce306724452223ba42a5bdafc7a617a992e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Fred Quimby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "52f42ce306724452223ba42a5bdafc7a617a992e",
+                ),
+            ],
+        ),
+    ],
 )

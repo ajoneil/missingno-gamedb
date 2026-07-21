@@ -1,9 +1,19 @@
 (
-    title: "A Link to Pixels Past (WIP)",
-    publisher: Some("rpgfaker"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["d8db2ae1861732adca152a7a9486b5cc000781d5"],
-    source: None,
+    title: "A Link to Pixels Past",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("rpgfaker"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8db2ae1861732adca152a7a9486b5cc000781d5",
+                ),
+            ],
+        ),
+    ],
 )

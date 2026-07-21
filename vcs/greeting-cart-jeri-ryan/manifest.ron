@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Jeri Ryan",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f76508b2be10b5f72567d90a9aeac5eae0149e30"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f76508b2be10b5f72567d90a9aeac5eae0149e30",
+                ),
+            ],
+        ),
+    ],
 )

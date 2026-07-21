@@ -1,9 +1,18 @@
 (
     title: "6 Digit Score Display (PD)",
-    publisher: Some("Robin Harbron"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ad1d5839c60b094e3670bc483f72c8850f152066"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Robin Harbron"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad1d5839c60b094e3670bc483f72c8850f152066",
+                ),
+            ],
+        ),
+    ],
 )

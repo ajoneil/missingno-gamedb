@@ -1,9 +1,18 @@
 (
     title: "4 Game in One - Ice Hockey, Phantom UFO, Spy Vs. Spy, Cosmic Avenger",
-    publisher: Some("Bit Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["724c1ce352d0219699892f7c78083f825a71ac1a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "724c1ce352d0219699892f7c78083f825a71ac1a",
+                ),
+            ],
+        ),
+    ],
 )

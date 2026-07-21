@@ -1,9 +1,18 @@
 (
     title: "Rampage Color Edit (Rampage Hack)",
-    publisher: Some("KevinMos3"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["99bdecab8cf8c593f9ccf3c6b1d4f7799d55a622"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("KevinMos3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "99bdecab8cf8c593f9ccf3c6b1d4f7799d55a622",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Enchantress (Berzerk Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1f0df8f033331cfe62701ab82ef4e0ba03cc1941"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f0df8f033331cfe62701ab82ef4e0ba03cc1941",
+                ),
+            ],
+        ),
+    ],
 )

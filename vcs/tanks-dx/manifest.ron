@@ -1,9 +1,18 @@
 (
     title: "Tanks DX (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fcde84a4d0a86071d730ec59afbc7897cb8ed20d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fcde84a4d0a86071d730ec59afbc7897cb8ed20d",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Snoopy (Digivision)",
-    publisher: Some("Digivision"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["8b016e23faaebb6d096abd7a6436b6d5ce9fb0bc"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8b016e23faaebb6d096abd7a6436b6d5ce9fb0bc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,31 @@
 (
     title: "Sir Lancelot",
-    publisher: Some("Xonox"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["cfac3bbe45af5f2027abe32c3a59d2fad29ef9b4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Xonox"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fb4008b13cb9957ce5e2ce1555c7aecac9e773cc",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Xonox"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cfac3bbe45af5f2027abe32c3a59d2fad29ef9b4",
+                ),
+            ],
+        ),
+    ],
 )

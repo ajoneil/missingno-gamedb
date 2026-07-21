@@ -1,9 +1,18 @@
 (
     title: "Haunted Adventure - Boo! (pre-release) [h] [Adventure - Release Candidate 5]",
-    publisher: Some("Wong"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a44e006a48f63313d0333ca08e6b0ccbcb91fa96"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Wong"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a44e006a48f63313d0333ca08e6b0ccbcb91fa96",
+                ),
+            ],
+        ),
+    ],
 )

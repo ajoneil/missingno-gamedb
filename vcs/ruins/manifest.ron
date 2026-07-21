@@ -1,9 +1,19 @@
 (
-    title: "Ruins (WIP)",
-    publisher: Some("Duane Alan Hahn"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["deeb9900988a70e248e044a520ab0fe50380960b"],
-    source: None,
+    title: "Ruins",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Duane Alan Hahn"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "deeb9900988a70e248e044a520ab0fe50380960b",
+                ),
+            ],
+        ),
+    ],
 )

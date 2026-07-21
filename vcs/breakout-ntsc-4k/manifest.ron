@@ -1,9 +1,22 @@
 (
-    title: "Breakout (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4235aedf7ca77c919c2cc9e071b16ed1e6e1628d", "b02490ce887ca57a886b1d79310e577dd8287eb1"],
-    source: None,
+    title: "Breakout",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4235aedf7ca77c919c2cc9e071b16ed1e6e1628d",
+                ),
+                (
+                    sha1: "b02490ce887ca57a886b1d79310e577dd8287eb1",
+                ),
+            ],
+        ),
+    ],
 )

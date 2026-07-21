@@ -1,9 +1,19 @@
 (
-    title: "Demon Attack on Steroids (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2ae0ad63e03b125b68d3171493541549fb98756c"],
-    source: None,
+    title: "Demon Attack on Steroids",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2ae0ad63e03b125b68d3171493541549fb98756c",
+                ),
+            ],
+        ),
+    ],
 )

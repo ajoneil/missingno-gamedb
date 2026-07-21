@@ -1,9 +1,19 @@
 (
-    title: "Quacker Blaster (WIP)",
-    publisher: Some("Primordial Ooze"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ec591af47264be815dbf1db35544c6f6681cd769"],
-    source: None,
+    title: "Quacker Blaster",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Primordial Ooze"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ec591af47264be815dbf1db35544c6f6681cd769",
+                ),
+            ],
+        ),
+    ],
 )

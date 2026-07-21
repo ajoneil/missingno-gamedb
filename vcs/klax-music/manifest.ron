@@ -1,9 +1,18 @@
 (
     title: "Klax Music",
-    publisher: Some("kid0017"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b835e03e33d6d70d84afd6a84af28fdcd7d40b4e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("kid0017"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b835e03e33d6d70d84afd6a84af28fdcd7d40b4e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Desert Adventure (Adventure Hack)",
-    publisher: Some("77gp454"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["23788f1814edc2f1b178f8227fb060d3b198d8ff"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("77gp454"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "23788f1814edc2f1b178f8227fb060d3b198d8ff",
+                ),
+            ],
+        ),
+    ],
 )

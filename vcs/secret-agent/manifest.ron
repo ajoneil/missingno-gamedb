@@ -1,9 +1,18 @@
 (
     title: "Secret Agent (Proto)",
-    publisher: Some("Data Age"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1914f57ab0a6f221f2ad344b244a3cdd7b1d991a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1914f57ab0a6f221f2ad344b244a3cdd7b1d991a",
+                ),
+            ],
+        ),
+    ],
 )

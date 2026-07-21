@@ -1,9 +1,24 @@
 (
     title: "Halloween",
-    publisher: Some("Wizard Video Games"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0949c81c2f31f65b1c7af7fda8eaade87c3ef4d9", "2322e3acfd02b12098ff50ee745613f3bdc346ad", "4c72cec151f219866bf870fa7ac749a19ca501c9"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Wizard Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0949c81c2f31f65b1c7af7fda8eaade87c3ef4d9",
+                ),
+                (
+                    sha1: "2322e3acfd02b12098ff50ee745613f3bdc346ad",
+                ),
+                (
+                    sha1: "4c72cec151f219866bf870fa7ac749a19ca501c9",
+                ),
+            ],
+        ),
+    ],
 )

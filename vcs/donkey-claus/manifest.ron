@@ -1,9 +1,18 @@
 (
     title: "Donkey Claus (Hack)",
-    publisher: Some("Philip R. Frey"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2e1778df6ff56b11427a45fb7aad4d4f26c1afad"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Philip R. Frey"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2e1778df6ff56b11427a45fb7aad4d4f26c1afad",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,33 @@
 (
-    title: "Tron (WIP)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["06b40089569975649697364a092bcaa8380f1ab4"],
-    source: None,
+    title: "Tron",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Manuel Rotschkar"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "06b40089569975649697364a092bcaa8380f1ab4",
+                ),
+            ],
+        ),
+        (
+            date: Some("2007"),
+            publisher: Some("Jbs30000"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b7705a6fc152557d9edd2e1a81c003feba38be85",
+                ),
+            ],
+        ),
+    ],
 )

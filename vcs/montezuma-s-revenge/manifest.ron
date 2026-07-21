@@ -1,9 +1,18 @@
 (
-    title: "Montezuma's Revenge",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Pal),
-    cart_type: Some("E0"),
-    hashes: ["3a998dcffef52d3c808a74c42e4fb218008dd96a"],
-    source: None,
+    title: "Montezuma\'s Revenge",
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3a998dcffef52d3c808a74c42e4fb218008dd96a",
+                ),
+            ],
+        ),
+    ],
 )

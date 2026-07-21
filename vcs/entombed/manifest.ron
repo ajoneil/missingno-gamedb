@@ -1,9 +1,21 @@
 (
     title: "Entombed",
-    publisher: Some("U.S. Games Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["062b0bf35f36573587fdeb8dffc615503b6aec89", "7905aee90a6dd64d9538e0b8e772f833ba9feb83"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("U.S. Games Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "062b0bf35f36573587fdeb8dffc615503b6aec89",
+                ),
+                (
+                    sha1: "7905aee90a6dd64d9538e0b8e772f833ba9feb83",
+                ),
+            ],
+        ),
+    ],
 )

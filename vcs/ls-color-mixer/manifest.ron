@@ -1,9 +1,18 @@
 (
     title: "LS Color Mixer",
-    publisher: Some("Ivan Machado"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7bc6fc62fa50fed751e55c6b560da4c502b4fa8d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Ivan Machado"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7bc6fc62fa50fed751e55c6b560da4c502b4fa8d",
+                ),
+            ],
+        ),
+    ],
 )

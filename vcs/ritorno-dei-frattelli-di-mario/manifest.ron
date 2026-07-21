@@ -1,9 +1,18 @@
 (
     title: "Ritorno dei frattelli di Mario (Mario Bros Hack)",
-    publisher: Some("Philip R. Frey"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["8e86b99caed2efeb32499892f59ca28d69d70671"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Philip R. Frey"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e86b99caed2efeb32499892f59ca28d69d70671",
+                ),
+            ],
+        ),
+    ],
 )

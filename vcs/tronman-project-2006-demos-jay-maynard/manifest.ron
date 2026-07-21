@@ -1,9 +1,18 @@
 (
     title: "Tronman Project 2006 Demos - Jay Maynard",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a87e1f49ffeec3124c736caa9ae358d8d26f7d43"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a87e1f49ffeec3124c736caa9ae358d8d26f7d43",
+                ),
+            ],
+        ),
+    ],
 )

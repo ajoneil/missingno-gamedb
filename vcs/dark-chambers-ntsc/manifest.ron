@@ -1,9 +1,18 @@
 (
     title: "Dark Chambers",
-    publisher: Some("Atari"),
-    date: Some("1989"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["fbb4814973fcb4e101521515e04daa6424c45f5c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fbb4814973fcb4e101521515e04daa6424c45f5c",
+                ),
+            ],
+        ),
+    ],
 )

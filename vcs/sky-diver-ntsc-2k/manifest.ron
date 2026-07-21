@@ -1,8 +1,17 @@
 (
     title: "Sky Diver (Hack) (2600 Screen Search Console) (Jone Yuan Telephonic Enterprise Co)",
-    publisher: Some("Jone Yuan Telephonic Enterprise Co"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["9d9797f8e73381cbdd2e755174196587891b9628"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d9797f8e73381cbdd2e755174196587891b9628",
+                ),
+            ],
+        ),
+    ],
 )

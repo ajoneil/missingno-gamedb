@@ -1,9 +1,18 @@
 (
-    title: "Space Tunnel - O Túnel Espacial",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9d97e48baf0f1674ab872f17ccb3a1585a2ac177"],
-    source: None,
+    title: "Space Tunnel - O Tu\u{301}nel Espacial",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d97e48baf0f1674ab872f17ccb3a1585a2ac177",
+                ),
+            ],
+        ),
+    ],
 )

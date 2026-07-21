@@ -1,7 +1,16 @@
 (
     title: "Sound Sequencer (Manu Kapoor)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["35f1cd11f7339e3d04544849b7f9874645c9c52e"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "35f1cd11f7339e3d04544849b7f9874645c9c52e",
+                ),
+            ],
+        ),
+    ],
 )

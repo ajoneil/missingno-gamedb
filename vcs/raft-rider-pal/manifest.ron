@@ -1,7 +1,32 @@
 (
     title: "Raft Rider",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["113c174166edc2e942f56975a1187ee7e417910f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("U.S. Games Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0f3fe01728da33f177c447e3b5462eb5c72de3a8",
+                ),
+                (
+                    sha1: "a79f6e0f4fd76878e5c3ba6b52d17e88acdbe9f6",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "113c174166edc2e942f56975a1187ee7e417910f",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Moving Blue Ladder Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cca2b930290a78d31c8afd1fbed2d1ea1545e3b8"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cca2b930290a78d31c8afd1fbed2d1ea1545e3b8",
+                ),
+            ],
+        ),
+    ],
 )

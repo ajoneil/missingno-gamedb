@@ -1,9 +1,19 @@
 (
-    title: "batari Basic Space Invader (WIP)",
-    publisher: Some("Jacco Mintjes"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b21428273bfb6c17100c896e69006219c2fd0a8a"],
-    source: None,
+    title: "batari Basic Space Invader",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Jacco Mintjes"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b21428273bfb6c17100c896e69006219c2fd0a8a",
+                ),
+            ],
+        ),
+    ],
 )

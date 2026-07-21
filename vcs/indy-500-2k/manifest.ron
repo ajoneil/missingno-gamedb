@@ -1,9 +1,31 @@
 (
     title: "Indy 500 (Race Car) (Driving Controller)",
-    publisher: Some("Atari"),
-    date: Some("1977"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["f6ca3ca4af6d9ac5a539f1bc4c7a3a04837c2e44"],
-    source: None,
+    releases: [
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f6ca3ca4af6d9ac5a539f1bc4c7a3a04837c2e44",
+                ),
+            ],
+        ),
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "84fddb8bb8335c585161e2024aad3f4c599ad7c7",
+                ),
+            ],
+        ),
+    ],
 )

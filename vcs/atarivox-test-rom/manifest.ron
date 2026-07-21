@@ -1,9 +1,18 @@
 (
     title: "AtariVox Test ROM",
-    publisher: Some("Alex Herbert"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a39dbfeeab7ebbac40be0f3be9306463a5b81264"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Alex Herbert"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a39dbfeeab7ebbac40be0f3be9306463a5b81264",
+                ),
+            ],
+        ),
+    ],
 )

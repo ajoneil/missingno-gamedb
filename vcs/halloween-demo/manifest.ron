@@ -1,9 +1,18 @@
 (
     title: "Halloween Demo",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["f3e68275a74d649d06497ab1399d3251f5f35bfd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f3e68275a74d649d06497ab1399d3251f5f35bfd",
+                ),
+            ],
+        ),
+    ],
 )

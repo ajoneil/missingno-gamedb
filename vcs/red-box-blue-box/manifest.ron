@@ -1,9 +1,18 @@
 (
     title: "Red Box Blue Box (Keyboard Controllers)",
-    publisher: Some("Bruce Tomlin"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c152896c816b089eb37ea4b48636a5499c8fd4e7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Bruce Tomlin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c152896c816b089eb37ea4b48636a5499c8fd4e7",
+                ),
+            ],
+        ),
+    ],
 )

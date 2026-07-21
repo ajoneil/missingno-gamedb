@@ -1,9 +1,18 @@
 (
     title: "Frog Pond (Prototype) (4K) [a]",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["79ea20f3b398e2e3fe4c0dcb248cbaf2d6bd16d2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "79ea20f3b398e2e3fe4c0dcb248cbaf2d6bd16d2",
+                ),
+            ],
+        ),
+    ],
 )

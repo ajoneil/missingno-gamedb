@@ -1,9 +1,18 @@
 (
     title: "Lady In Wading (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["4ecf10c07b472a39ce841a9406e989992a16535b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4ecf10c07b472a39ce841a9406e989992a16535b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Cave Demo (21-04-2003) (Christopher Tumber)",
-    publisher: Some("Christopher Tumber"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1c20f9d988098f8160fdf1b8d89a0472ff429d07"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Christopher Tumber"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1c20f9d988098f8160fdf1b8d89a0472ff429d07",
+                ),
+            ],
+        ),
+    ],
 )

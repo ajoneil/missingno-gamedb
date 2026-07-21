@@ -1,9 +1,18 @@
 (
     title: "How to Draw a Playfield (Jim Crawford) (PD)",
-    publisher: Some("Jim Crawford"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["f7bc11fa89ec2e654f38d34606ded40a447cfcf9"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Jim Crawford"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f7bc11fa89ec2e654f38d34606ded40a447cfcf9",
+                ),
+            ],
+        ),
+    ],
 )

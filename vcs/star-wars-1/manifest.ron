@@ -1,9 +1,18 @@
 (
     title: "Star Wars 1 (Buck Rogers Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["e8095c34eaa7263ed09e9e0a5a4fd2239886572d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e8095c34eaa7263ed09e9e0a5a4fd2239886572d",
+                ),
+            ],
+        ),
+    ],
 )

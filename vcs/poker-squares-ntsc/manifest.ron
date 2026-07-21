@@ -1,9 +1,39 @@
 (
     title: "Poker Squares (V0.00a) (B. Watson)",
-    publisher: Some("B. Watson"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["21f12e623e45678f936564b776d078afe32e59d9", "617fb0786ef8a91d4ccb9e36746cac2c7da4d417", "6a97eb49d141bbb36665c6943bfdce854eb415c0", "76280d47587aea43dcbeb6d93deeb4bb963ee414", "78f2bf918d490c3b737fe230a2388782dd5d7f14", "d7a92330ec07e3a92f14a6ae225bac514230456b", "ea9d5339c530fd0650cadd56c055030942dee594", "f669301c4e132496f9e4765feb98d4a3435bfbda"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("B. Watson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "21f12e623e45678f936564b776d078afe32e59d9",
+                ),
+                (
+                    sha1: "617fb0786ef8a91d4ccb9e36746cac2c7da4d417",
+                ),
+                (
+                    sha1: "6a97eb49d141bbb36665c6943bfdce854eb415c0",
+                ),
+                (
+                    sha1: "76280d47587aea43dcbeb6d93deeb4bb963ee414",
+                ),
+                (
+                    sha1: "78f2bf918d490c3b737fe230a2388782dd5d7f14",
+                ),
+                (
+                    sha1: "d7a92330ec07e3a92f14a6ae225bac514230456b",
+                ),
+                (
+                    sha1: "ea9d5339c530fd0650cadd56c055030942dee594",
+                ),
+                (
+                    sha1: "f669301c4e132496f9e4765feb98d4a3435bfbda",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Globe Trotter Demo (24-03-2003) (Weston)",
-    publisher: Some("Weston D. Hilton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1f321a0373e3b7297ade5b8017c3262c37e0e1ed"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Weston D. Hilton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f321a0373e3b7297ade5b8017c3262c37e0e1ed",
+                ),
+            ],
+        ),
+    ],
 )

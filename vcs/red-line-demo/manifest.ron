@@ -1,8 +1,17 @@
 (
     title: "Red Line Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["58ff0fd73c536305f48977953ad9edab936d6522"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "58ff0fd73c536305f48977953ad9edab936d6522",
+                ),
+            ],
+        ),
+    ],
 )

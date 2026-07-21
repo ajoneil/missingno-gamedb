@@ -1,9 +1,19 @@
 (
-    title: "Pick-Axe Pete 2600 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c73dba75056b7584b324176ef6a767ae48f37946"],
-    source: None,
+    title: "Pick-Axe Pete 2600",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c73dba75056b7584b324176ef6a767ae48f37946",
+                ),
+            ],
+        ),
+    ],
 )

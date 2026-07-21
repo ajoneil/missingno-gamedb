@@ -1,9 +1,18 @@
 (
     title: "Jungle Fever ~ Knight on the Town",
-    publisher: Some("PlayAround"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9a0ee845d9928d4db003b07b927bb2c1f628e725"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("PlayAround"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9a0ee845d9928d4db003b07b927bb2c1f628e725",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Ghost Trap (Mouse Trap Hack)",
-    publisher: Some("Brett Gladson"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8d01526a5a42548e8c4d6550aa805522d274806e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Brett Gladson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8d01526a5a42548e8c4d6550aa805522d274806e",
+                ),
+            ],
+        ),
+    ],
 )

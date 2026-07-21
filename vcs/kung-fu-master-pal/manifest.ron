@@ -1,9 +1,18 @@
 (
     title: "Kung-Fu Master",
-    publisher: Some("Activision"),
-    date: Some("1987"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["81abed650600ede00a00e23491b79d46a9b4f173"],
-    source: None,
+    releases: [
+        (
+            date: Some("1987"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "81abed650600ede00a00e23491b79d46a9b4f173",
+                ),
+            ],
+        ),
+    ],
 )

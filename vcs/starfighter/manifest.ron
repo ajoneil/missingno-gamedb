@@ -1,9 +1,19 @@
 (
-    title: "Starfighter (WIP)",
-    publisher: Some("Cliff Friedel"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4c2074a21d8624911e0dec705ba008200615c877"],
-    source: None,
+    title: "Starfighter",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Cliff Friedel"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4c2074a21d8624911e0dec705ba008200615c877",
+                ),
+            ],
+        ),
+    ],
 )

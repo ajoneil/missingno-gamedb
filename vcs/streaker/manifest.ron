@@ -1,9 +1,18 @@
 (
     title: "Streaker (Keystone Kapers Hack)",
-    publisher: Some("sefoil"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["860296e662191d144840d7a8f7c6cb30ef8bbc22"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("sefoil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "860296e662191d144840d7a8f7c6cb30ef8bbc22",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Astro Attack",
-    publisher: Some("Goliath"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["90041b76b873d214276a567cca3af53bfa3222ac"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "90041b76b873d214276a567cca3af53bfa3222ac",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Gunfight 2600 - One Step Forward & Two Steps Back (Manuel Rotschkar)",
-    publisher: Some("Hozer Video Games"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["77667395e136a0b1100bbd92207d0e68a21e4ec7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Hozer Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "77667395e136a0b1100bbd92207d0e68a21e4ec7",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "X-Man [a]",
-    publisher: Some("Universal Gamex Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c9ce0614bee494efd28ca5b717fb4accb9e67d6c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Universal Gamex Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c9ce0614bee494efd28ca5b717fb4accb9e67d6c",
+                ),
+            ],
+        ),
+    ],
 )

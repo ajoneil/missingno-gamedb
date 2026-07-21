@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - MariaPoklemba_3",
-    publisher: Some("Maria Poklemba"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4f96139135b1c4bd53c79d01e2898d95d3bcdf4c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Maria Poklemba"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4f96139135b1c4bd53c79d01e2898d95d3bcdf4c",
+                ),
+            ],
+        ),
+    ],
 )

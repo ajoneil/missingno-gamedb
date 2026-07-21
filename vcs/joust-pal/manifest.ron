@@ -1,9 +1,37 @@
 (
     title: "Joust",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["033fa9ecad9eb4d5cfebf6505cb76a2126de6567"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0794915da9bd29e7771734764ac867330ecf2e37",
+                ),
+                (
+                    sha1: "51881d226c33cad7d429d3a56b7ee644ad053e57",
+                ),
+                (
+                    sha1: "cb94dc316cba282a0036871db2417257e960786b",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "033fa9ecad9eb4d5cfebf6505cb76a2126de6567",
+                ),
+            ],
+        ),
+    ],
 )

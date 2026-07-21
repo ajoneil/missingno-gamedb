@@ -1,9 +1,18 @@
 (
     title: "Space Invaders Explosion (Space Invaders Hack) [a]",
-    publisher: Some("Franklin Cruz"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["09527225d0a7b9fc1d83b46ba79f3e189a43df3c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Franklin Cruz"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "09527225d0a7b9fc1d83b46ba79f3e189a43df3c",
+                ),
+            ],
+        ),
+    ],
 )

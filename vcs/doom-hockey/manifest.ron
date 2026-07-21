@@ -1,9 +1,18 @@
 (
     title: "Doom Hockey",
-    publisher: Some("Cameron Jansen"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d3a5709ef1856b7b7ddca2458e5176ce51aa9c03"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Cameron Jansen"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3a5709ef1856b7b7ddca2458e5176ce51aa9c03",
+                ),
+            ],
+        ),
+    ],
 )

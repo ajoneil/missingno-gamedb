@@ -1,9 +1,18 @@
 (
-    title: "KC's Crazy Nightmare!",
-    publisher: Some("John A. Reder"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a01e7e1bb2309bed577d62ae0e1adfeac33a7fba"],
-    source: None,
+    title: "KC\'s Crazy Nightmare!",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("John A. Reder"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a01e7e1bb2309bed577d62ae0e1adfeac33a7fba",
+                ),
+            ],
+        ),
+    ],
 )

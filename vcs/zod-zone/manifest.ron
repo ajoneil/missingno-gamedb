@@ -1,9 +1,19 @@
 (
-    title: "Zod Zone (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0c13968b9826c3667586dda19968f2a4b60ad706"],
-    source: None,
+    title: "Zod Zone",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0c13968b9826c3667586dda19968f2a4b60ad706",
+                ),
+            ],
+        ),
+    ],
 )

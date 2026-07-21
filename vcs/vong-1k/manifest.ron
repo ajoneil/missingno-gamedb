@@ -1,9 +1,18 @@
 (
     title: "Vong 1K",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["5b9d4884471f4156f4387c345fe7299049601db0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Rick Skrbina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b9d4884471f4156f4387c345fe7299049601db0",
+                ),
+            ],
+        ),
+    ],
 )

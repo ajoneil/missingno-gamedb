@@ -1,9 +1,19 @@
 (
-    title: "Flesh Gordon (WIP)",
-    publisher: Some("yuppicide"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["21f788ccae9542a081fb208f18c0d3c773f7aa48"],
-    source: None,
+    title: "Flesh Gordon",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("yuppicide"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "21f788ccae9542a081fb208f18c0d3c773f7aa48",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,21 @@
 (
     title: "Double Click Draw",
-    publisher: Some("Fort Apocalypse"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8be1127e2cf5a3aee5fc33a08f643fea9ebe6a71", "ffe18656c3c8e81bee4e124f50c917437ed14a5f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Fort Apocalypse"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8be1127e2cf5a3aee5fc33a08f643fea9ebe6a71",
+                ),
+                (
+                    sha1: "ffe18656c3c8e81bee4e124f50c917437ed14a5f",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Colour Test",
-    publisher: Some("Happy-Dude"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7c8a69ddcf0a15d7a45b08e9dedd3bcf65a13dde"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Happy-Dude"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7c8a69ddcf0a15d7a45b08e9dedd3bcf65a13dde",
+                ),
+            ],
+        ),
+    ],
 )

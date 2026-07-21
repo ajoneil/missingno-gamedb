@@ -1,9 +1,18 @@
 (
-    title: "Sorcerer's Apprentice (Prototype) [a]",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["5df004890ce6d8af1986d3c7c2934f7aa85159b9"],
-    source: None,
+    title: "Sorcerer\'s Apprentice (Prototype) [a]",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5df004890ce6d8af1986d3c7c2934f7aa85159b9",
+                ),
+            ],
+        ),
+    ],
 )

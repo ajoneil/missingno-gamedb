@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Hunchback 2",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8469cee8d914bd15bc45d8d845cf8640303451a2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8469cee8d914bd15bc45d8d845cf8640303451a2",
+                ),
+            ],
+        ),
+    ],
 )

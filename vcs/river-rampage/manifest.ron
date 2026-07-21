@@ -1,9 +1,19 @@
 (
-    title: "River Rampage (WIP)",
-    publisher: Some("Erik Mooney"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bc30c4ca2fe892acf603d58eef4a2d979442828b"],
-    source: None,
+    title: "River Rampage",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Erik Mooney"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc30c4ca2fe892acf603d58eef4a2d979442828b",
+                ),
+            ],
+        ),
+    ],
 )

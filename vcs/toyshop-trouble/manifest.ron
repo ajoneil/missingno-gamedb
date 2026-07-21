@@ -1,9 +1,18 @@
 (
     title: "Toyshop Trouble",
-    publisher: Some("John Payson"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c533f6bf7f87a02a498261b48c15e557c7b30775"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c533f6bf7f87a02a498261b48c15e557c7b30775",
+                ),
+            ],
+        ),
+    ],
 )

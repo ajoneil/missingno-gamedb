@@ -1,9 +1,18 @@
 (
     title: "Test Cart",
-    publisher: Some("Paul Slocum"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["07cc9f952038ca759b5459a0d1eb2c15f3d49d80"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "07cc9f952038ca759b5459a0d1eb2c15f3d49d80",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Mortal Kurling (02-01-2003) (Christopher Tumber)",
-    publisher: Some("Christopher Tumber"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9bf92ae415632954996e64c3c772384817e87b3c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Christopher Tumber"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9bf92ae415632954996e64c3c772384817e87b3c",
+                ),
+            ],
+        ),
+    ],
 )

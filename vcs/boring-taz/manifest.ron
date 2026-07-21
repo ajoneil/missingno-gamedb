@@ -1,9 +1,18 @@
 (
     title: "Boring Taz (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["4375105442d3eed19f5a857fb63a6545f3675941"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4375105442d3eed19f5a857fb63a6545f3675941",
+                ),
+            ],
+        ),
+    ],
 )

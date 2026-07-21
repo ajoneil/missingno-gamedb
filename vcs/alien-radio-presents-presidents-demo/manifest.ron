@@ -1,9 +1,18 @@
 (
     title: "Alien Radio presents - Presidents Demo (214 bytes)",
-    publisher: Some("Simone Serra"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["1fa6b1cfb8aecdf39bdfb1ad526c7331f1574425"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Simone Serra"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1fa6b1cfb8aecdf39bdfb1ad526c7331f1574425",
+                ),
+            ],
+        ),
+    ],
 )

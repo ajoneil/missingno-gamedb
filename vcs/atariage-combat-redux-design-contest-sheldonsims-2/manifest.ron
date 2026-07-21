@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - SheldonSims_2",
-    publisher: Some("Sheldon Sims"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["22847b84ef81077e67132cd1b1a676a02d06b493"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Sheldon Sims"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22847b84ef81077e67132cd1b1a676a02d06b493",
+                ),
+            ],
+        ),
+    ],
 )

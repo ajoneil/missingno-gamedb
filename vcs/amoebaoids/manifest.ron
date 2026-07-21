@@ -1,9 +1,18 @@
 (
     title: "Amoebaoids (Asteroids Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["9919f5f359d474317b5676e624f18628fb7a27ca"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9919f5f359d474317b5676e624f18628fb7a27ca",
+                ),
+            ],
+        ),
+    ],
 )

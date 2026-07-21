@@ -1,9 +1,31 @@
 (
     title: "Edtris",
-    publisher: Some("Ed Federmeyer"),
-    date: Some("1994"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2681b456e5e3f0d8cb3f57752fd08e7831ed6c77"],
-    source: None,
+    releases: [
+        (
+            date: Some("1994"),
+            publisher: Some("Ed Federmeyer"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2681b456e5e3f0d8cb3f57752fd08e7831ed6c77",
+                ),
+            ],
+        ),
+        (
+            date: Some("1995"),
+            publisher: Some("Ed Federmeyer"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "162e896c105e4c3821bc1a9453ead80b231537f4",
+                ),
+            ],
+        ),
+    ],
 )

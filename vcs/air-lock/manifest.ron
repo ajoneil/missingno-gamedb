@@ -1,9 +1,18 @@
 (
     title: "Air Lock (Airlock Beta) (Prototype)",
-    publisher: Some("Data Age"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["09ae3715873a88386b3bc11e429f82919b91fa1a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "09ae3715873a88386b3bc11e429f82919b91fa1a",
+                ),
+            ],
+        ),
+    ],
 )

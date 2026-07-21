@@ -1,9 +1,18 @@
 (
-    title: "Dodge Blinky (Dodge 'Em Hack)",
-    publisher: Some("Jack Kortkamp"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9880f08972d9c5c1b7181397994e6cfaa72c1458"],
-    source: None,
+    title: "Dodge Blinky (Dodge \'Em Hack)",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jack Kortkamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9880f08972d9c5c1b7181397994e6cfaa72c1458",
+                ),
+            ],
+        ),
+    ],
 )

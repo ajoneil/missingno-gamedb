@@ -1,9 +1,19 @@
 (
-    title: "Rally X (WIP)",
-    publisher: Some("Anthony Davies"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c14e215a8960ad05ef09d4cad03535d7d4b34287"],
-    source: None,
+    title: "Rally X",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Anthony Davies"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c14e215a8960ad05ef09d4cad03535d7d4b34287",
+                ),
+            ],
+        ),
+    ],
 )

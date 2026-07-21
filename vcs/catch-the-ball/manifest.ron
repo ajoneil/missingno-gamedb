@@ -1,9 +1,18 @@
 (
     title: "Catch the Ball!",
-    publisher: Some("Hitomi Kayama"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b55205d6200e97652616e7dc8c8419aa4a3d429c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Hitomi Kayama"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b55205d6200e97652616e7dc8c8419aa4a3d429c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Paladin (WIP)",
-    publisher: Some("David Weavil"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["358e1fcbdd0cdc00557e4eed601c8d61dc671609"],
-    source: None,
+    title: "Paladin",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("David Weavil"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "358e1fcbdd0cdc00557e4eed601c8d61dc671609",
+                ),
+            ],
+        ),
+    ],
 )

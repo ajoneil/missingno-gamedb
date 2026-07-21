@@ -1,9 +1,19 @@
 (
-    title: "InDev - Shmup Stella (WIP)",
-    publisher: Some("RawBits"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["75315df0b8cfad08fb6f155c0ea49fe5b8c3096e"],
-    source: None,
+    title: "InDev - Shmup Stella",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("RawBits"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "75315df0b8cfad08fb6f155c0ea49fe5b8c3096e",
+                ),
+            ],
+        ),
+    ],
 )

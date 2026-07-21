@@ -1,9 +1,18 @@
 (
     title: "Labyrinth (Escape from the Mindmaster Beta) (Arcadia Corporation, Dennis Caswell) (Prototype) [a]",
-    publisher: Some("5"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["1df4b18ce0187eea5b4d3dd7d150f552d97a08fa"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("5"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1df4b18ce0187eea5b4d3dd7d150f552d97a08fa",
+                ),
+            ],
+        ),
+    ],
 )

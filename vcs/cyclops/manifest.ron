@@ -1,9 +1,18 @@
 (
     title: "Cyclops (Haunted House Hack)",
-    publisher: Some("Tim Martin"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c605bbadd320f80b289c1846faaa57e86013c808"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Tim Martin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c605bbadd320f80b289c1846faaa57e86013c808",
+                ),
+            ],
+        ),
+    ],
 )

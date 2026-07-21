@@ -1,9 +1,18 @@
 (
     title: "Calculator",
-    publisher: Some("Fred Quimby"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2b8e76f948d31f0a09d9622b4353b74fada6d3e3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fred Quimby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b8e76f948d31f0a09d9622b4353b74fada6d3e3",
+                ),
+            ],
+        ),
+    ],
 )

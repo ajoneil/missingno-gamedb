@@ -1,9 +1,18 @@
 (
     title: "Indentures at an Exhibition",
-    publisher: Some("Sonny Rae Tempest"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9d8703a6dd36309a80b3b79352fb9bd604b55f45"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Sonny Rae Tempest"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d8703a6dd36309a80b3b79352fb9bd604b55f45",
+                ),
+            ],
+        ),
+    ],
 )

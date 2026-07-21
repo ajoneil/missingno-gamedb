@@ -1,9 +1,34 @@
 (
     title: "Raiders of the Lost Ark",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["66803476a70a527741a35637b99bae3b7d20d00b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7ae70783969709318e56f189cf03da92320a6aba",
+                ),
+                (
+                    sha1: "e432cd6cf106ec686a661e80380ffc8bf1380871",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "66803476a70a527741a35637b99bae3b7d20d00b",
+                ),
+            ],
+        ),
+    ],
 )

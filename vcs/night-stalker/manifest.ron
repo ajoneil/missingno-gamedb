@@ -1,9 +1,18 @@
 (
     title: "Night Stalker",
-    publisher: Some("Telegames"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["281ff7e55c27656522b144b84cba08eb148e2f0a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "281ff7e55c27656522b144b84cba08eb148e2f0a",
+                ),
+            ],
+        ),
+    ],
 )

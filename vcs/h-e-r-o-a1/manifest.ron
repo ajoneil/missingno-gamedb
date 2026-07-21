@@ -1,9 +1,18 @@
 (
     title: "H.E.R.O. [a1]",
-    publisher: Some("Activision"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9cd944fa7cbe166f4caa558223a093b627e0ad4b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9cd944fa7cbe166f4caa558223a093b627e0ad4b",
+                ),
+            ],
+        ),
+    ],
 )

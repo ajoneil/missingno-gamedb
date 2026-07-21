@@ -1,9 +1,19 @@
 (
-    title: "Move Around Rooms (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["444b537b4757ef1a252d0c177a2ff20308d06d56"],
-    source: None,
+    title: "Move Around Rooms",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "444b537b4757ef1a252d0c177a2ff20308d06d56",
+                ),
+            ],
+        ),
+    ],
 )

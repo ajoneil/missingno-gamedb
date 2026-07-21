@@ -1,9 +1,21 @@
 (
     title: "Doom",
-    publisher: Some("Mr. Podoboo"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6b6b2cc86cd9f08500c7060ffdcea98dae876fab", "88bd634d8859d907fee4aa1d29bc3e7629afa156"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Mr. Podoboo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b6b2cc86cd9f08500c7060ffdcea98dae876fab",
+                ),
+                (
+                    sha1: "88bd634d8859d907fee4aa1d29bc3e7629afa156",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Tomarc the Barbarian (Thundarr the Barbarian) (Xonox - K-Tel Software - Product Guild, Anthony R. Henderson)",
-    publisher: Some("99007"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["489c9b572535721a0516a2b759e0b9c7f7a5b3cc"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("99007"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "489c9b572535721a0516a2b759e0b9c7f7a5b3cc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Tronman Project 2006 Demos - Hay Left B",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a52a4c5c2cbce24afb9fd9eedbc79ea61985a253"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a52a4c5c2cbce24afb9fd9eedbc79ea61985a253",
+                ),
+            ],
+        ),
+    ],
 )

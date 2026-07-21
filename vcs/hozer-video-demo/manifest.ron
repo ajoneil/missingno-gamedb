@@ -1,9 +1,18 @@
 (
     title: "Hozer Video Demo (PD)",
-    publisher: Some("Hozer Video Games"),
-    date: Some("1996"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["064c6c2930f0535a30e1d47b9a48ee2a9038442e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1996"),
+            publisher: Some("Hozer Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "064c6c2930f0535a30e1d47b9a48ee2a9038442e",
+                ),
+            ],
+        ),
+    ],
 )

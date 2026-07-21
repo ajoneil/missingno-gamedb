@@ -1,7 +1,16 @@
 (
     title: "Canyon Bomber (Paddle)",
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["5d27b7e9c492112734160abbb44570f02e2aec67"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d27b7e9c492112734160abbb44570f02e2aec67",
+                ),
+            ],
+        ),
+    ],
 )

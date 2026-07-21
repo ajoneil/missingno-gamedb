@@ -1,9 +1,31 @@
 (
     title: "Bermuda Triangle",
-    publisher: Some("Gameworld"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["9a566ae9354fc94da9fe7a53db49dba57f53c260"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fcad0e5130de24f06b98fb86a7c3214841ca42e2",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9a566ae9354fc94da9fe7a53db49dba57f53c260",
+                ),
+            ],
+        ),
+    ],
 )

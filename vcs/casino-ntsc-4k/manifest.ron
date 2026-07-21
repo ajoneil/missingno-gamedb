@@ -1,9 +1,18 @@
 (
     title: "Casino (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dbf12acbb981b00bfc16e5efed474ee7c3081b30"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dbf12acbb981b00bfc16e5efed474ee7c3081b30",
+                ),
+            ],
+        ),
+    ],
 )

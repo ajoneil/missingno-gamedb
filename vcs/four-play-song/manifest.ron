@@ -1,9 +1,18 @@
 (
     title: "Four-Play Song",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ecaa9209f1473d8fdc20c316b6a7a4df30a7da4d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ecaa9209f1473d8fdc20c316b6a7a4df30a7da4d",
+                ),
+            ],
+        ),
+    ],
 )

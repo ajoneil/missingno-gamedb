@@ -1,9 +1,18 @@
 (
     title: "Dragonstomper Preview [a] [Supercharger Cassette]",
-    publisher: Some("Starpath"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["3a62efe2584961001062d93a9d331be2ffc6c8d7"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Starpath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3a62efe2584961001062d93a9d331be2ffc6c8d7",
+                ),
+            ],
+        ),
+    ],
 )

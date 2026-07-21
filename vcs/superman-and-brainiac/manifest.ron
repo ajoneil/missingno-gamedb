@@ -1,9 +1,19 @@
 (
-    title: "Superman and Brainiac (WIP)",
-    publisher: Some("Jarod Kitchen"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["a107ef667622005a5b2f96845c597a3cfa83422f"],
-    source: None,
+    title: "Superman and Brainiac",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Jarod Kitchen"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a107ef667622005a5b2f96845c597a3cfa83422f",
+                ),
+            ],
+        ),
+    ],
 )

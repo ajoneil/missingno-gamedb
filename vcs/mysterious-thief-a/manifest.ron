@@ -1,9 +1,21 @@
 (
-    title: "Mysterious Thief, A",
-    publisher: Some("ZiMAG"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0d1c963ea040c60b296a26c46faaad472890499f", "19c2880dba08b56ce10494131d468c39921a0d34"],
-    source: None,
+    title: "A Mysterious Thief",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d1c963ea040c60b296a26c46faaad472890499f",
+                ),
+                (
+                    sha1: "19c2880dba08b56ce10494131d468c39921a0d34",
+                ),
+            ],
+        ),
+    ],
 )

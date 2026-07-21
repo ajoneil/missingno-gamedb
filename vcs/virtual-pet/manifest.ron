@@ -1,9 +1,18 @@
 (
     title: "Virtual Pet (after Demo 2) (CRACKERS) (PD)",
-    publisher: Some("V007"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["15159b5d3b8d07e209c12d48f5d26d6b4aba7ff5"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("V007"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "15159b5d3b8d07e209c12d48f5d26d6b4aba7ff5",
+                ),
+            ],
+        ),
+    ],
 )

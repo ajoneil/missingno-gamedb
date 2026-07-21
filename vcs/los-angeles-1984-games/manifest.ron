@@ -1,9 +1,18 @@
 (
     title: "Los Angeles 1984 Games (Track & Field Controller) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["3200610dabfc6bbe3929e179d52b0e9379b04475"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3200610dabfc6bbe3929e179d52b0e9379b04475",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Yankeemania (MegaMania Hack)",
-    publisher: Some("Steve Bates"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d6a042fed61e6328a6a1f7f96847081b70a2bcf1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Steve Bates"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d6a042fed61e6328a6a1f7f96847081b70a2bcf1",
+                ),
+            ],
+        ),
+    ],
 )

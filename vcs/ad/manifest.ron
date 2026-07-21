@@ -1,9 +1,18 @@
 (
     title: "Ad (Adventure Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["35a643c38e5dec7b35034046593302a84b7bcf6e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "35a643c38e5dec7b35034046593302a84b7bcf6e",
+                ),
+            ],
+        ),
+    ],
 )

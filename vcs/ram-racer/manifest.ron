@@ -1,9 +1,18 @@
 (
     title: "RAM Racer",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2df4d31ebd6ec37ff6ed20097c17d5a8666e8ce6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2df4d31ebd6ec37ff6ed20097c17d5a8666e8ce6",
+                ),
+            ],
+        ),
+    ],
 )

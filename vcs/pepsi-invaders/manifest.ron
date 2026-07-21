@@ -1,9 +1,21 @@
 (
     title: "Pepsi Invaders",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["30cade9a7c3334b8cb8abe014a6930c1bb1891f4", "c5317035e73f60e959c123d89600c81b7c45701f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "30cade9a7c3334b8cb8abe014a6930c1bb1891f4",
+                ),
+                (
+                    sha1: "c5317035e73f60e959c123d89600c81b7c45701f",
+                ),
+            ],
+        ),
+    ],
 )

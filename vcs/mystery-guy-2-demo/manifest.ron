@@ -1,9 +1,18 @@
 (
     title: "Mystery Guy 2 Demo",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e9cc3dc2637732b4ffdf2da5e146393e8fee09b0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Michael S. Rideout"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e9cc3dc2637732b4ffdf2da5e146393e8fee09b0",
+                ),
+            ],
+        ),
+    ],
 )

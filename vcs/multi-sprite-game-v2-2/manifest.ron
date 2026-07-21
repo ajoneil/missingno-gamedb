@@ -1,9 +1,18 @@
 (
     title: "Multi-Sprite Game V2.2 (Piero Cavina) (PD)",
-    publisher: Some("Cavina"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5863d61756c3f25c3885cb3fae5a7d7b99e03c8a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Cavina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5863d61756c3f25c3885cb3fae5a7d7b99e03c8a",
+                ),
+            ],
+        ),
+    ],
 )

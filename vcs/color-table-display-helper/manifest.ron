@@ -1,8 +1,17 @@
 (
     title: "Color Table Display Helper (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["033e09db172d49cd0865aeadb952a1114b4f4880"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "033e09db172d49cd0865aeadb952a1114b4f4880",
+                ),
+            ],
+        ),
+    ],
 )

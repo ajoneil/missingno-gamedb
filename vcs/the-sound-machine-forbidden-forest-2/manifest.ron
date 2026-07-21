@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Forbidden Forest 2",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1642b809d0b3adacadd31625f16ba4f7d9f106ca"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1642b809d0b3adacadd31625f16ba4f7d9f106ca",
+                ),
+            ],
+        ),
+    ],
 )

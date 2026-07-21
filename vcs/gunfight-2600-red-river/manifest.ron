@@ -1,7 +1,16 @@
 (
     title: "Gunfight 2600 - Red River (Manuel Rotschkar)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a07599d6bcdc467bcf2b06276d8b2396b60c320a"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a07599d6bcdc467bcf2b06276d8b2396b60c320a",
+                ),
+            ],
+        ),
+    ],
 )

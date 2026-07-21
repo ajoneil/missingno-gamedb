@@ -1,9 +1,18 @@
 (
     title: "Tronman Project 2006 Demos - Back",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["00f2ea349cf73597c9deebeec06ca24adf62e15d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "00f2ea349cf73597c9deebeec06ca24adf62e15d",
+                ),
+            ],
+        ),
+    ],
 )

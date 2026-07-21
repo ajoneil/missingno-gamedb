@@ -1,9 +1,18 @@
 (
     title: "Mein Weg - My Way",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["683fa09578bcdd129500c51fdc5dd059ff2f7c68"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "683fa09578bcdd129500c51fdc5dd059ff2f7c68",
+                ),
+            ],
+        ),
+    ],
 )

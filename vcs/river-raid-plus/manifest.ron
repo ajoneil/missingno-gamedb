@@ -1,9 +1,18 @@
 (
     title: "River Raid Plus (Hack)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["900841359947845f29bbd35a8626606f80494892"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "900841359947845f29bbd35a8626606f80494892",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Gimme! (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["1b341ac4d091d4be729a9f644ac717c89e677e99"],
-    source: None,
+    title: "Gimme!",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1b341ac4d091d4be729a9f644ac717c89e677e99",
+                ),
+            ],
+        ),
+    ],
 )

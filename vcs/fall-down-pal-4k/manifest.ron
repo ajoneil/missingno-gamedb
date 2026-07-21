@@ -1,9 +1,95 @@
 (
     title: "Fall Down",
-    publisher: Some("Curtis"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["270c2d6b5c92388fece934f12872ad8969fb8582", "38a3122ad46dde135dc6cfd90536085b2dc2393c", "6578df7eba2f05520bbc77c86a87ed0d9173f017", "7c7e2d083f9d6e6ebf80eda0aa05d1f7161ee534", "949b6b225e07e9aa1c9cbb9d6c30c18f043e0620"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Curtis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "346f486b40b2cb24d3bae5df99aedea645305f28",
+                ),
+                (
+                    sha1: "45e86b99a7e9169f5ef2a871e0f15851f7a342b5",
+                ),
+                (
+                    sha1: "4a2d43347b68a31e3b4f162e170992d270c66b3c",
+                ),
+                (
+                    sha1: "50776618dfb6fe32484c3f429580d64db6cacb82",
+                ),
+                (
+                    sha1: "670de4f7e2ccdbefc4c48c1947997cfd3c5a853f",
+                ),
+                (
+                    sha1: "847c1ed8f371ba2c4ed2732528e76b8d64d4c0fd",
+                ),
+                (
+                    sha1: "b18f3771c296986ecee1fe33314dad4cf352f972",
+                ),
+                (
+                    sha1: "b355fe9d0111fac1ff6b7c0c7c816a68c5420dff",
+                ),
+                (
+                    sha1: "bb7bbf5c724854e08b1f505451d6b9b6c0cb9b87",
+                ),
+                (
+                    sha1: "c51e549144e8430af6a9d0a221856662f2154001",
+                ),
+                (
+                    sha1: "d14c6d623a5f2a9e4b1af7e259d9bbf49db52f08",
+                ),
+                (
+                    sha1: "de892555ce142339bd06f70c4911098e907a7555",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Curtis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9597dc9a0934d857d015bc47c6f24d16e4ef27ee",
+                ),
+                (
+                    sha1: "977882899f5eac18b115ee4d25fca2966e5fc1b7",
+                ),
+                (
+                    sha1: "d8592fb93cef3cfdd53b16bf5104bc6ebfa75f1a",
+                ),
+            ],
+        ),
+        (
+            date: Some("2004"),
+            publisher: Some("Curtis"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "270c2d6b5c92388fece934f12872ad8969fb8582",
+                ),
+                (
+                    sha1: "38a3122ad46dde135dc6cfd90536085b2dc2393c",
+                ),
+                (
+                    sha1: "6578df7eba2f05520bbc77c86a87ed0d9173f017",
+                ),
+                (
+                    sha1: "7c7e2d083f9d6e6ebf80eda0aa05d1f7161ee534",
+                ),
+                (
+                    sha1: "949b6b225e07e9aa1c9cbb9d6c30c18f043e0620",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Catch Time",
-    publisher: Some("Rainbow Vision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["45119e2840eb573ca5b058b690d3980524b218c5"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "45119e2840eb573ca5b058b690d3980524b218c5",
+                ),
+            ],
+        ),
+    ],
 )

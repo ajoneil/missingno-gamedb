@@ -1,9 +1,18 @@
 (
     title: "Nothern Alliance (Hack)",
-    publisher: Some("Aaron Bergstrom"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1828f99b6a88f40cfeb18ef5e817ca2f1659d589"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Aaron Bergstrom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1828f99b6a88f40cfeb18ef5e817ca2f1659d589",
+                ),
+            ],
+        ),
+    ],
 )

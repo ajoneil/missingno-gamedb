@@ -1,9 +1,19 @@
 (
-    title: "Astroshoot (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e12d9add16b13b5cbc49128325e5b45ad7acc72e"],
-    source: None,
+    title: "Astroshoot",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e12d9add16b13b5cbc49128325e5b45ad7acc72e",
+                ),
+            ],
+        ),
+    ],
 )

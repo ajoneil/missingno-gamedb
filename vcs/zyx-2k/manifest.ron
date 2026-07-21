@@ -1,9 +1,18 @@
 (
     title: "Zyx 2K",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["5cfaac2b9843f986156927fdac777b21a0c9bdd1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cfaac2b9843f986156927fdac777b21a0c9bdd1",
+                ),
+            ],
+        ),
+    ],
 )

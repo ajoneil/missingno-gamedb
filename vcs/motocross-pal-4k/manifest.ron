@@ -1,9 +1,31 @@
 (
     title: "Motocross",
-    publisher: Some("Suntek"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["0ec67ffe60ed91c682e0149a9e68e3a27e12de2d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Joystik"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8a1eb094851ff067e0775fd39da5c0b790d8273",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ec67ffe60ed91c682e0149a9e68e3a27e12de2d",
+                ),
+            ],
+        ),
+    ],
 )

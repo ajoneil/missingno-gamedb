@@ -1,8 +1,17 @@
 (
     title: "Scroller Demo (PD)",
-    publisher: Some("Bob Colbert"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["3b90774e4ce9eed3f1e27d0ee1c90ae8a45aa12e"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Bob Colbert"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b90774e4ce9eed3f1e27d0ee1c90ae8a45aa12e",
+                ),
+            ],
+        ),
+    ],
 )

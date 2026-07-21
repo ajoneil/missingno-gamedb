@@ -1,8 +1,17 @@
 (
     title: "Farmer Dan",
-    publisher: Some("Zellers"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a19e8b53a09eb05b073fa759ff0258a60da7144d"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a19e8b53a09eb05b073fa759ff0258a60da7144d",
+                ),
+            ],
+        ),
+    ],
 )

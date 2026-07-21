@@ -1,9 +1,18 @@
 (
     title: "MegaBoy (X07 Bankswitching Conversion)",
-    publisher: Some("Fred Quimby"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("X07"),
-    hashes: ["c11f59ae0ecd376af52ae57b5be8b6f039de0d0e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Fred Quimby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("X07"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c11f59ae0ecd376af52ae57b5be8b6f039de0d0e",
+                ),
+            ],
+        ),
+    ],
 )

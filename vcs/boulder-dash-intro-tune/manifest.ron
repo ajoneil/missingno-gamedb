@@ -1,9 +1,18 @@
 (
     title: "Boulder Dash Intro Tune",
-    publisher: Some("Erik Ehrling"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["650da2339d41d1d2f180a6cafe8dc311ac588acd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Erik Ehrling"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "650da2339d41d1d2f180a6cafe8dc311ac588acd",
+                ),
+            ],
+        ),
+    ],
 )

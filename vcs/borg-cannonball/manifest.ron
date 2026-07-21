@@ -1,9 +1,18 @@
 (
     title: "Borg Cannonball (Human Cannonball Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["e809b7670da3619119f2a8983eeeb27b4c0c0e6f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e809b7670da3619119f2a8983eeeb27b4c0c0e6f",
+                ),
+            ],
+        ),
+    ],
 )

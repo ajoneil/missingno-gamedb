@@ -1,9 +1,18 @@
 (
     title: "Sound System Demo - Moosic 03",
-    publisher: Some("Richi_S"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6dd2464f465330fc13b9cd2c4c132879f94faa7b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Richi_S"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6dd2464f465330fc13b9cd2c4c132879f94faa7b",
+                ),
+            ],
+        ),
+    ],
 )

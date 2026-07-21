@@ -1,9 +1,18 @@
 (
     title: "Crap Kong (Spider Kong Hack)",
-    publisher: Some("Christian Giegerich"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["68c6baf6ad378deaf2154e2fbc968891c58c4214"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Christian Giegerich"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "68c6baf6ad378deaf2154e2fbc968891c58c4214",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Helo Wars (Time Pilot Hack)",
-    publisher: Some("Jack Kortkamp"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["0f4ee8b9077834a7af2a6a9556d273bc55a97938"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jack Kortkamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0f4ee8b9077834a7af2a6a9556d273bc55a97938",
+                ),
+            ],
+        ),
+    ],
 )

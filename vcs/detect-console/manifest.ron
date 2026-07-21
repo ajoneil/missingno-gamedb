@@ -1,9 +1,18 @@
 (
     title: "Detect Console",
-    publisher: Some("batari"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["bff7ea70e1a05d8fa2833a89baddf96680a77d18"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("batari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bff7ea70e1a05d8fa2833a89baddf96680a77d18",
+                ),
+            ],
+        ),
+    ],
 )

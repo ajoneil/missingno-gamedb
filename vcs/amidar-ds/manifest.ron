@@ -1,9 +1,21 @@
 (
     title: "Amidar DS (Fast Enemies) (Hack)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["59657177bc7e2eaf7736ac121defdd891328ae00", "f4688fc8278a2c2040b3eaf90ef7323f6523555a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59657177bc7e2eaf7736ac121defdd891328ae00",
+                ),
+                (
+                    sha1: "f4688fc8278a2c2040b3eaf90ef7323f6523555a",
+                ),
+            ],
+        ),
+    ],
 )

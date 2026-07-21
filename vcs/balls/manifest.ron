@@ -1,9 +1,18 @@
 (
     title: "Balls! (16-09-2002)",
-    publisher: Some("Fabrizio Zavagli"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1ec8bcf37a7b40a6330a11dfc4898adfd70084e7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Fabrizio Zavagli"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ec8bcf37a7b40a6330a11dfc4898adfd70084e7",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Sub Mission (Flash Gordon Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a6d0b781b1b90cbc1b1219f5ad315564573fafc6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a6d0b781b1b90cbc1b1219f5ad315564573fafc6",
+                ),
+            ],
+        ),
+    ],
 )

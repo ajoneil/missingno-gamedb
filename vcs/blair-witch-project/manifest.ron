@@ -1,9 +1,18 @@
 (
     title: "Blair Witch Project (Hack)",
-    publisher: Some("Tim Snider"),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1951f24eea8595ff1e5373ea32e3c710de3133b7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Tim Snider"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1951f24eea8595ff1e5373ea32e3c710de3133b7",
+                ),
+            ],
+        ),
+    ],
 )

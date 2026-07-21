@@ -1,8 +1,17 @@
 (
     title: "Multi Demo 6 (Bob Colbert) (PD)",
-    publisher: Some("Bob Colbert"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dad10db38c6389d5d05a7cdee0d679b959b1da45"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Bob Colbert"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dad10db38c6389d5d05a7cdee0d679b959b1da45",
+                ),
+            ],
+        ),
+    ],
 )

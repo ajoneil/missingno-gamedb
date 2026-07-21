@@ -1,9 +1,18 @@
 (
     title: "Volleyball (Double-Game Package)",
-    publisher: Some("Otto Versand"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["fdbf74d726b4857a8799445341088f2a4ad8320c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Otto Versand"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fdbf74d726b4857a8799445341088f2a4ad8320c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "SCSIcide Pre-release 1",
-    publisher: Some("Joe Grand"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2cb5794b559418b02adedbaaad7ce50985bcac7d"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Joe Grand"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2cb5794b559418b02adedbaaad7ce50985bcac7d",
+                ),
+            ],
+        ),
+    ],
 )

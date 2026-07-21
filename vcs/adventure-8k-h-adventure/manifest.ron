@@ -1,9 +1,18 @@
 (
     title: "Adventure 8k [h] [Adventure]",
-    publisher: Some("Nukey Shay"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["7d258a7975e0c03dc5159a634394cc1ef573cc04"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Nukey Shay"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7d258a7975e0c03dc5159a634394cc1ef573cc04",
+                ),
+            ],
+        ),
+    ],
 )

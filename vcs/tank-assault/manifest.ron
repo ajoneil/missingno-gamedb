@@ -1,9 +1,18 @@
 (
     title: "Tank Assault",
-    publisher: Some("Joseph Jo"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cc5fdb3d0c7a7996b86275d7a765303231b39fe4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Joseph Jo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cc5fdb3d0c7a7996b86275d7a765303231b39fe4",
+                ),
+            ],
+        ),
+    ],
 )

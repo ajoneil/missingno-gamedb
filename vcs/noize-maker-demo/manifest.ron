@@ -1,8 +1,17 @@
 (
     title: "Noize Maker Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2b4262bfae9cf12b6dc45183dc67c8701d18cace"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b4262bfae9cf12b6dc45183dc67c8701d18cace",
+                ),
+            ],
+        ),
+    ],
 )

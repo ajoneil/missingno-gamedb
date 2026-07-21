@@ -1,9 +1,18 @@
 (
     title: "Tronman Project 2006 Demos - Confront",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6854187c7b77721d1649d25ab3feba2f3898d9af"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6854187c7b77721d1649d25ab3feba2f3898d9af",
+                ),
+            ],
+        ),
+    ],
 )

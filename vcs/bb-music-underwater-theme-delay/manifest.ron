@@ -1,9 +1,18 @@
 (
     title: "bB Music - Underwater Theme Delay",
-    publisher: Some("thegoldenband"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b63f19cd41edae51daebb3e63b215f4f7415058e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("thegoldenband"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b63f19cd41edae51daebb3e63b215f4f7415058e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - The Reflex",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["acccebec68f3ba93f55026e9132fb36423dafc22"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "acccebec68f3ba93f55026e9132fb36423dafc22",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Exorcise (Hack)",
-    publisher: Some("CheesePimp"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a7d05ae4d108fc12d8ca285e48fcc7076b23602f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("CheesePimp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7d05ae4d108fc12d8ca285e48fcc7076b23602f",
+                ),
+            ],
+        ),
+    ],
 )

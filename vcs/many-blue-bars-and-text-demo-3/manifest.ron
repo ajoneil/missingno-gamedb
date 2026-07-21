@@ -1,8 +1,17 @@
 (
     title: "Many Blue Bars and Text Demo 3 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4e4871dafc7d8df113b683acc79786c59f0c5bd7"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e4871dafc7d8df113b683acc79786c59f0c5bd7",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Skyline Demo (WIP)",
-    publisher: Some("brpocock"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["5018edee7a8a8c8eba6fb1a86d70bb720f68f1e3"],
-    source: None,
+    title: "Skyline Demo",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("brpocock"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5018edee7a8a8c8eba6fb1a86d70bb720f68f1e3",
+                ),
+            ],
+        ),
+    ],
 )

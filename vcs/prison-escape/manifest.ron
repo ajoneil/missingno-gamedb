@@ -1,9 +1,18 @@
 (
     title: "Prison Escape (Malagai Hack)",
-    publisher: Some("Rabbit 2600"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1f0fc2e7191a50daa38c1d579e4db83870fc0615"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rabbit 2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f0fc2e7191a50daa38c1d579e4db83870fc0615",
+                ),
+            ],
+        ),
+    ],
 )

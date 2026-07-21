@@ -1,9 +1,18 @@
 (
     title: "Space Race (Freeway Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2515ca94fa81f06be098d0f60332de25800966a2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2515ca94fa81f06be098d0f60332de25800966a2",
+                ),
+            ],
+        ),
+    ],
 )

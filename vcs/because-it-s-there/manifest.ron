@@ -1,9 +1,18 @@
 (
-    title: "Because It's There",
-    publisher: Some("Edward Griffiths"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f8f260a5afc71abc9be10af06adb2c3a641c2645"],
-    source: None,
+    title: "Because It\'s There",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Edward Griffiths"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f8f260a5afc71abc9be10af06adb2c3a641c2645",
+                ),
+            ],
+        ),
+    ],
 )

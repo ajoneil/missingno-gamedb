@@ -1,9 +1,24 @@
 (
     title: "Robot City (V0.18) (01-09-2002)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["41b59e760c60e53698d237d96fd29e6a17a7efd3", "4be77bfbb5c271fa86dff1a0c6937ec72b563337", "6fd2beb7fff0d9c04702e52d3e13afdfe2c19fd1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "41b59e760c60e53698d237d96fd29e6a17a7efd3",
+                ),
+                (
+                    sha1: "4be77bfbb5c271fa86dff1a0c6937ec72b563337",
+                ),
+                (
+                    sha1: "6fd2beb7fff0d9c04702e52d3e13afdfe2c19fd1",
+                ),
+            ],
+        ),
+    ],
 )

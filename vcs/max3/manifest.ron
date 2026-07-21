@@ -1,9 +1,18 @@
 (
     title: "Max3 (Maxime Beauvais) (PD)",
-    publisher: Some("Maxime Beauvais"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6ef010513e01520560616994cbe3f10995490996"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Maxime Beauvais"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6ef010513e01520560616994cbe3f10995490996",
+                ),
+            ],
+        ),
+    ],
 )

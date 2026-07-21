@@ -1,9 +1,18 @@
 (
     title: "Dr. Who - Dalek Invasion (Berzerk Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5adba22a6351307bd089f33f99730a64ceb072e7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5adba22a6351307bd089f33f99730a64ceb072e7",
+                ),
+            ],
+        ),
+    ],
 )

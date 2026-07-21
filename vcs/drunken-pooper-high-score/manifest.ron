@@ -1,9 +1,18 @@
 (
     title: "Drunken Pooper High Score",
-    publisher: Some("Jason Santuci"),
-    date: Some("2013"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["26bbeab4fc4b2d88bb1ebcefd41889993a904e0e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2013"),
+            publisher: Some("Jason Santuci"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "26bbeab4fc4b2d88bb1ebcefd41889993a904e0e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Space Race Sadistic (Freeway Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["1547b9586f7a0515a1a3a3f1679ed451fa1375a9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1547b9586f7a0515a1a3a3f1679ed451fa1375a9",
+                ),
+            ],
+        ),
+    ],
 )

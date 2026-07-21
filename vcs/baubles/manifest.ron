@@ -1,9 +1,24 @@
 (
     title: "Baubles (14-11-2001) (PD)",
-    publisher: Some("Jake Patterson"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1409bf2be65f0081335a45ac564ce1a083888516", "664fe24f93247df6fdd6c1720697bfc918b8cf7f", "8bb8bfae1f823e627985643a11fa76bb1358c292"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Jake Patterson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1409bf2be65f0081335a45ac564ce1a083888516",
+                ),
+                (
+                    sha1: "664fe24f93247df6fdd6c1720697bfc918b8cf7f",
+                ),
+                (
+                    sha1: "8bb8bfae1f823e627985643a11fa76bb1358c292",
+                ),
+            ],
+        ),
+    ],
 )

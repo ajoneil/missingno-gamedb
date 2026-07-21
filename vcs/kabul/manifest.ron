@@ -1,9 +1,18 @@
 (
     title: "Kabul! (Hack)",
-    publisher: Some("Jess Ragan"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["190bd92d8b0489dca357c2ee77b201725f16c071"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Jess Ragan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "190bd92d8b0489dca357c2ee77b201725f16c071",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Redshirts (WIP)",
-    publisher: Some("Jarod Kitchen"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["7081bb103c8f03b159d3de30ab9c253bd8616401"],
-    source: None,
+    title: "Redshirts",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Jarod Kitchen"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7081bb103c8f03b159d3de30ab9c253bd8616401",
+                ),
+            ],
+        ),
+    ],
 )

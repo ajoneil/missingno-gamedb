@@ -1,9 +1,19 @@
 (
-    title: "Sci Fi Quest (WIP)",
-    publisher: Some("Jarod Kitchen"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["6b555bfdb84756f9eb56cabe85bbaafff2712515"],
-    source: None,
+    title: "Sci Fi Quest",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Jarod Kitchen"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b555bfdb84756f9eb56cabe85bbaafff2712515",
+                ),
+            ],
+        ),
+    ],
 )

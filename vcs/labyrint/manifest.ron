@@ -1,9 +1,18 @@
 (
     title: "Labyrint",
-    publisher: Some("Goliath"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["02a521354575d2270f75250e79bc18f69f666c7f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "02a521354575d2270f75250e79bc18f69f666c7f",
+                ),
+            ],
+        ),
+    ],
 )

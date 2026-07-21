@@ -1,9 +1,18 @@
 (
     title: "General Re-Treat",
-    publisher: Some("PlayAround"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["3b1fb93342c7f014a28dddf6f16895d11ac7d6f0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("PlayAround"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b1fb93342c7f014a28dddf6f16895d11ac7d6f0",
+                ),
+            ],
+        ),
+    ],
 )

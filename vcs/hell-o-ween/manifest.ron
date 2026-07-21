@@ -1,9 +1,18 @@
 (
     title: "Hell-o-Ween (Pitfall! Hack)",
-    publisher: Some("Keith Erickson"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["221af4ee411a8d421a5b7e2fc938c68c58615be0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Keith Erickson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "221af4ee411a8d421a5b7e2fc938c68c58615be0",
+                ),
+            ],
+        ),
+    ],
 )

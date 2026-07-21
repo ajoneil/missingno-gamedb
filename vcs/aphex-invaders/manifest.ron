@@ -1,9 +1,18 @@
 (
     title: "Aphex Invaders (Hack)",
-    publisher: Some("Nick Price"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7ec5f609164088a906ea503378fa2ee53c49bf9f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Nick Price"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7ec5f609164088a906ea503378fa2ee53c49bf9f",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - SteveKnox_1",
-    publisher: Some("Steve Knox"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["e0919c74008cfb59b10c2e5587d25301866251c5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Steve Knox"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e0919c74008cfb59b10c2e5587d25301866251c5",
+                ),
+            ],
+        ),
+    ],
 )

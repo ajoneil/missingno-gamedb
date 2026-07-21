@@ -1,9 +1,18 @@
 (
     title: "Looping (Proto)",
-    publisher: Some("Coleco"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["5e04fa0320167434dab932f6b73183daf1a50ec7"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e04fa0320167434dab932f6b73183daf1a50ec7",
+                ),
+            ],
+        ),
+    ],
 )

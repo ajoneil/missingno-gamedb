@@ -1,9 +1,43 @@
 (
     title: "Star Voyager",
-    publisher: Some("Imagic"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["422c6544998ac6c5239083a85ce94f50f9a12a00", "50819dcafe4438abde7b642bb619d80397d78628"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "417bb89e1117413321ffba48a17e005b2687680b",
+                ),
+                (
+                    sha1: "ccc5b829c4aa71acb7976e741fdbf59c8ef9eb55",
+                ),
+                (
+                    sha1: "e80eaaf4b2942bcccd7b98237a429fe23fd69f11",
+                ),
+                (
+                    sha1: "effd8864585efc7efabf11962c15d3a6b0626b69",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "422c6544998ac6c5239083a85ce94f50f9a12a00",
+                ),
+                (
+                    sha1: "50819dcafe4438abde7b642bb619d80397d78628",
+                ),
+            ],
+        ),
+    ],
 )

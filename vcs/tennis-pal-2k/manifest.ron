@@ -1,8 +1,92 @@
 (
     title: "Tennis",
-    publisher: Some("Pet Boat"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["247015261d3b66d31a0b6526e27271abc8112851", "56ac5b5a63c82bfc11a77c9064f06f8d9aa8794c", "5c8ab191ca378d9ed777e9a57da54a08caae3ea5", "f61572b5745eeefe4ba9496f0e5d0a1bfe4565a1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a3ae09b3a05200dc7d8818dc22806390100f4ea",
+                ),
+                (
+                    sha1: "3d30e7ed617168d852923def2000c9c0a8b728c6",
+                ),
+                (
+                    sha1: "577d9b36f7d5e4fe8f856a3acaedb2dbe3cb0464",
+                ),
+                (
+                    sha1: "783d81f41076988dacd8de9ab4779b55a1ce9497",
+                ),
+                (
+                    sha1: "994763bfb38a32c57a7417eccda17e904eeaaf6a",
+                ),
+                (
+                    sha1: "bfdc2004be735f2555fe9375088684e351869c59",
+                ),
+                (
+                    sha1: "edc206b9cba5485fa8998c87ac05e09444f4d3e0",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "062ed7db6229ca942e83e689e4379ef1d102469d",
+                ),
+                (
+                    sha1: "c9a5504fd30565ed5c3a06777bb3c67941b34e22",
+                ),
+                (
+                    sha1: "eff0f9f9c11d130109fff7a07bc706f84fa260a8",
+                ),
+                (
+                    sha1: "f6cd324903f63719b8dbbcad3d3e2a4058634fd5",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33c94ef0425eafe51d5c2bc0a5e95254e7de709e",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Pet Boat"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "247015261d3b66d31a0b6526e27271abc8112851",
+                ),
+                (
+                    sha1: "56ac5b5a63c82bfc11a77c9064f06f8d9aa8794c",
+                ),
+                (
+                    sha1: "5c8ab191ca378d9ed777e9a57da54a08caae3ea5",
+                ),
+                (
+                    sha1: "f61572b5745eeefe4ba9496f0e5d0a1bfe4565a1",
+                ),
+            ],
+        ),
+    ],
 )

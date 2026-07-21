@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Tron-Man Closeup",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["77eabc318d663784d9050252ce8660813223abf1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "77eabc318d663784d9050252ce8660813223abf1",
+                ),
+            ],
+        ),
+    ],
 )

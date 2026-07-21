@@ -1,8 +1,17 @@
 (
     title: "Frame Timed Sound Effects-EM",
-    publisher: Some("Eckhard Stolberg"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["3968d688408bdaa4e806e3beeafab61f032937ee"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Eckhard Stolberg"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3968d688408bdaa4e806e3beeafab61f032937ee",
+                ),
+            ],
+        ),
+    ],
 )

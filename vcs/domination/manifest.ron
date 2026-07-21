@@ -1,9 +1,19 @@
 (
-    title: "Domination! (WIP)",
-    publisher: Some("Robert Mundschau"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["28bc799a4397d0cf018b19fdcad9145ee180c60d"],
-    source: None,
+    title: "Domination!",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Robert Mundschau"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "28bc799a4397d0cf018b19fdcad9145ee180c60d",
+                ),
+            ],
+        ),
+    ],
 )

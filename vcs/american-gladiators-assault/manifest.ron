@@ -1,9 +1,18 @@
 (
     title: "American Gladiators Assault",
-    publisher: Some("Lauren Walker"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["79032164eb8e705d8f0c6288290b26862c81ef84"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Lauren Walker"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "79032164eb8e705d8f0c6288290b26862c81ef84",
+                ),
+            ],
+        ),
+    ],
 )

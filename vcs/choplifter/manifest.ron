@@ -1,9 +1,18 @@
 (
     title: "Choplifter (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["5f8204f60ab30bcf2d18b9c177a82bf2f31b9cb6"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5f8204f60ab30bcf2d18b9c177a82bf2f31b9cb6",
+                ),
+            ],
+        ),
+    ],
 )

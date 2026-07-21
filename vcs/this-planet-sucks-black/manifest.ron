@@ -1,9 +1,18 @@
 (
     title: "This Planet Sucks! Black (Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["682623574ef47740c11ed7e9e0ac13939aa5adcb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "682623574ef47740c11ed7e9e0ac13939aa5adcb",
+                ),
+            ],
+        ),
+    ],
 )

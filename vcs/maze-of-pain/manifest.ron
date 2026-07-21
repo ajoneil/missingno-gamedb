@@ -1,9 +1,19 @@
 (
-    title: "Maze of Pain (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["a2461d2a7110bc9962f735be51d3bbaf7a0b5959"],
-    source: None,
+    title: "Maze of Pain",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a2461d2a7110bc9962f735be51d3bbaf7a0b5959",
+                ),
+            ],
+        ),
+    ],
 )

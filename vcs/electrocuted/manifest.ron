@@ -1,9 +1,19 @@
 (
-    title: "Electrocuted (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3724af9b2e217a7b4801b50e0af822934f038395"],
-    source: None,
+    title: "Electrocuted",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3724af9b2e217a7b4801b50e0af822934f038395",
+                ),
+            ],
+        ),
+    ],
 )

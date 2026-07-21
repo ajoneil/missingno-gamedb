@@ -1,9 +1,18 @@
 (
     title: "Adventure 5 Levels (Adventure Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["40beac6344ea590ae663777177cd31a5d157b269"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "40beac6344ea590ae663777177cd31a5d157b269",
+                ),
+            ],
+        ),
+    ],
 )

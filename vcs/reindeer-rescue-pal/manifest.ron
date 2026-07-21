@@ -1,9 +1,34 @@
 (
     title: "Reindeer Rescue",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2005"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["97f11fe960229a1c6e96b2ed6f0ab549056b26a9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "44bdc384699aa7c83377832ff58e285811215c1e",
+                ),
+                (
+                    sha1: "e93402ea240f3a4f9082c232bdf6c5f5e4364f4c",
+                ),
+            ],
+        ),
+        (
+            date: Some("2005"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "97f11fe960229a1c6e96b2ed6f0ab549056b26a9",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,20 @@
 (
     title: "Music Kit - Song Player (V1.0) (Paul Slocum)",
-    publisher: Some("Paul Slocum"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5b00e3e3c00c15215702563b2be9f3f31a5b0318", "70ed710c1bfd39258b8c9947bce26de748528411"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b00e3e3c00c15215702563b2be9f3f31a5b0318",
+                ),
+                (
+                    sha1: "70ed710c1bfd39258b8c9947bce26de748528411",
+                ),
+            ],
+        ),
+    ],
 )

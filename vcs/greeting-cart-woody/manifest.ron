@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Woody",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["263a96c6300ec4b10e62801e0ac5eaecd96d378a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "263a96c6300ec4b10e62801e0ac5eaecd96d378a",
+                ),
+            ],
+        ),
+    ],
 )

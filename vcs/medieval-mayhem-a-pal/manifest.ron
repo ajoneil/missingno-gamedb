@@ -1,9 +1,31 @@
 (
     title: "Medieval Mayhem [a]",
-    publisher: Some("Spice"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("F4"),
-    hashes: ["8305a3781aadf44f01104f25469d53bfe014fc76"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Spice"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "61fdaa0b00c7bec0b52d5d37df40c0bd2c3e11a2",
+                ),
+            ],
+        ),
+        (
+            date: Some("2006"),
+            publisher: Some("Spice"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8305a3781aadf44f01104f25469d53bfe014fc76",
+                ),
+            ],
+        ),
+    ],
 )

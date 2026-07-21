@@ -1,9 +1,19 @@
 (
-    title: "Deathstar Break In (WIP)",
-    publisher: Some("Darrell Spice Jr."),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["90a60ac0d18396275ac6cec1fb1499c7e42984e6"],
-    source: None,
+    title: "Deathstar Break In",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Darrell Spice Jr."),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "90a60ac0d18396275ac6cec1fb1499c7e42984e6",
+                ),
+            ],
+        ),
+    ],
 )

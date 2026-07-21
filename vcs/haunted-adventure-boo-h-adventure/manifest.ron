@@ -1,9 +1,18 @@
 (
     title: "Haunted Adventure - Boo! [h] [Adventure]",
-    publisher: Some("Wong"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["88aaa497882299ace1eae0f97d7e5f902775e807"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Wong"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "88aaa497882299ace1eae0f97d7e5f902775e807",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Kangaroo Basketball (Basketball Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["27559243bd9e0f947c9509e10dace44ce1c18e69"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "27559243bd9e0f947c9509e10dace44ce1c18e69",
+                ),
+            ],
+        ),
+    ],
 )

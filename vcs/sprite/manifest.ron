@@ -1,9 +1,19 @@
 (
-    title: "Sprite (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["eb04ff42e93dc2eac2c5b6a38e1615534215e158"],
-    source: None,
+    title: "Sprite",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eb04ff42e93dc2eac2c5b6a38e1615534215e158",
+                ),
+            ],
+        ),
+    ],
 )

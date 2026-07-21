@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - DionTorraville_2",
-    publisher: Some("Dion Torraville"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c761c9fcca07aa18b46e4e7ebc615abcab7cf518"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Dion Torraville"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c761c9fcca07aa18b46e4e7ebc615abcab7cf518",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Laser Base",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["75b9cc7f59f5304edd77a6a8a4cea3dbbc1f7975"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "75b9cc7f59f5304edd77a6a8a4cea3dbbc1f7975",
+                ),
+            ],
+        ),
+    ],
 )

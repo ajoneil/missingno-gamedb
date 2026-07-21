@@ -1,9 +1,18 @@
 (
     title: "Big Head Bowling (Bowling Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["c4867baa369adb265aaea39c68f53188d5ddb8ca"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c4867baa369adb265aaea39c68f53188d5ddb8ca",
+                ),
+            ],
+        ),
+    ],
 )

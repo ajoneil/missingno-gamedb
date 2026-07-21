@@ -1,8 +1,17 @@
 (
     title: "Busy Police",
-    publisher: Some("Zellers"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a663f13ce7f31e3451e944e9f03c9aac2c3e8f21"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a663f13ce7f31e3451e944e9f03c9aac2c3e8f21",
+                ),
+            ],
+        ),
+    ],
 )

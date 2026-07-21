@@ -1,9 +1,18 @@
 (
     title: "Turbo WIP",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["b594a9acedd4734070776bf69d0f08abb5c261bf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b594a9acedd4734070776bf69d0f08abb5c261bf",
+                ),
+            ],
+        ),
+    ],
 )

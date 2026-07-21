@@ -1,9 +1,18 @@
 (
     title: "Human Cannonball 2008 (Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["8898c448880572e6ba6ab00756a4f5dd6a3182c3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8898c448880572e6ba6ab00756a4f5dd6a3182c3",
+                ),
+            ],
+        ),
+    ],
 )

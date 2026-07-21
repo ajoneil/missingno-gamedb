@@ -1,9 +1,18 @@
 (
     title: "Space Treat [a2] (30-12-2002) (Fabrizio Zavagli)",
-    publisher: Some("Fabrizio Zavagli"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["65860cd808395188c5f036ed4cad46842c33a83c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Fabrizio Zavagli"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "65860cd808395188c5f036ed4cad46842c33a83c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Street Racer Black (Street Racer Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0304ac52f86cd1906fccf95e1cbae4db7774a949"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0304ac52f86cd1906fccf95e1cbae4db7774a949",
+                ),
+            ],
+        ),
+    ],
 )

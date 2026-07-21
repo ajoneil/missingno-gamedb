@@ -1,9 +1,18 @@
 (
     title: "Squirrel ~ O Esquilo",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["87abe4ab10c9a7ca5c55d7a34a3181bbde0b0a90"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "87abe4ab10c9a7ca5c55d7a34a3181bbde0b0a90",
+                ),
+            ],
+        ),
+    ],
 )

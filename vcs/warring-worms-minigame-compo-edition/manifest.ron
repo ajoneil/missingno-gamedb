@@ -1,9 +1,18 @@
 (
     title: "Warring Worms Minigame Compo Edition",
-    publisher: Some("Baroque Gaming"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["244c7c9a6c466b2effab353ba03497490834e869"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Baroque Gaming"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "244c7c9a6c466b2effab353ba03497490834e869",
+                ),
+            ],
+        ),
+    ],
 )

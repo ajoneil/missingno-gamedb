@@ -1,9 +1,21 @@
 (
-    title: "Misterious Thief, A",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["21366d1608c008a8fb7e8859caf3a35a61176702", "b21d17ae131e93aa8ca3fd4e4caf9f6d5ac2f86e"],
-    source: None,
+    title: "A Misterious Thief",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "21366d1608c008a8fb7e8859caf3a35a61176702",
+                ),
+                (
+                    sha1: "b21d17ae131e93aa8ca3fd4e4caf9f6d5ac2f86e",
+                ),
+            ],
+        ),
+    ],
 )

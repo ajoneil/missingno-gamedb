@@ -1,9 +1,19 @@
 (
-    title: "Halo Demo (WIP)",
-    publisher: Some("purduecrum"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6b36cf5b2be2a0da9bedb00c3db4527aa970de6e"],
-    source: None,
+    title: "Halo Demo",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("purduecrum"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b36cf5b2be2a0da9bedb00c3db4527aa970de6e",
+                ),
+            ],
+        ),
+    ],
 )

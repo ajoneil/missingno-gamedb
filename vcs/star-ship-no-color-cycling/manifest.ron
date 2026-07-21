@@ -1,9 +1,18 @@
 (
     title: "Star Ship No Color Cycling (Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["fa3a6776cb8b50713fecc6f4f0d6f07fce6748e4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fa3a6776cb8b50713fecc6f4f0d6f07fce6748e4",
+                ),
+            ],
+        ),
+    ],
 )

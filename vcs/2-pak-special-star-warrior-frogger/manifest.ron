@@ -1,9 +1,18 @@
 (
     title: "2 Pak Special - Star Warrior, Frogger",
-    publisher: Some("HES"),
-    date: Some("1990"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["f4885610503bff2c4ca816f4f28d1fe517b92f35"],
-    source: None,
+    releases: [
+        (
+            date: Some("1990"),
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f4885610503bff2c4ca816f4f28d1fe517b92f35",
+                ),
+            ],
+        ),
+    ],
 )

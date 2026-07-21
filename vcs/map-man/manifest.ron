@@ -1,9 +1,19 @@
 (
-    title: "Map-Man (WIP)",
-    publisher: Some("Jonathon Bont"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0ebe2ff71b53f5fec0fdd7d50f17b63dcdc2fb5a"],
-    source: None,
+    title: "Map-Man",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Jonathon Bont"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ebe2ff71b53f5fec0fdd7d50f17b63dcdc2fb5a",
+                ),
+            ],
+        ),
+    ],
 )

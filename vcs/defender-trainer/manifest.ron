@@ -1,9 +1,18 @@
 (
     title: "Defender Trainer (Defender Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e604c46cccefe584670f2dc69903664664dce1bf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e604c46cccefe584670f2dc69903664664dce1bf",
+                ),
+            ],
+        ),
+    ],
 )

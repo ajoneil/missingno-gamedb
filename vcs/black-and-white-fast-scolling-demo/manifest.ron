@@ -1,8 +1,17 @@
 (
     title: "Black and White Fast Scolling Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["12254ca7ad038a3d784e7ab628a74a21f648fa2f"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "12254ca7ad038a3d784e7ab628a74a21f648fa2f",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Kickman (WIP)",
-    publisher: Some("Mike Mika"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d8ead899023b0c3417e78856713d48790ab24348"],
-    source: None,
+    title: "Kickman",
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Mike Mika"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8ead899023b0c3417e78856713d48790ab24348",
+                ),
+            ],
+        ),
+    ],
 )

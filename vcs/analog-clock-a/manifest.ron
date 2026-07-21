@@ -1,9 +1,18 @@
 (
     title: "Analog Clock [a] (V0.0) (20-01-2003) (Andrew Davie)",
-    publisher: Some("Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["e04d76aa0e55009db9d00c85c160ada1478b3e77"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e04d76aa0e55009db9d00c85c160ada1478b3e77",
+                ),
+            ],
+        ),
+    ],
 )

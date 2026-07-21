@@ -1,8 +1,17 @@
 (
     title: "Interlace Demo (Glenn Saunders)",
-    publisher: Some("Glenn Saunders"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["512e4d047f1f813bc805c8d2a5f7cbdb34b9ea46"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Glenn Saunders"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "512e4d047f1f813bc805c8d2a5f7cbdb34b9ea46",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,32 @@
 (
     title: "Super Challenge Baseball",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5b7799e1c98ca86965fa8b73b8750042edb70952"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "68b31e9cf626f0291dbcf038447fbf878bb7b37e",
+                ),
+                (
+                    sha1: "dfce4d6436f91d8d385f8b01f0d8e3488400407b",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b7799e1c98ca86965fa8b73b8750042edb70952",
+                ),
+            ],
+        ),
+    ],
 )

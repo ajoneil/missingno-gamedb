@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - JanHagelskamp_7",
-    publisher: Some("Hagelskamp"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["1005fa9acca334e7b0b7ac93d91b30f6aa1e1a79"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Hagelskamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1005fa9acca334e7b0b7ac93d91b30f6aa1e1a79",
+                ),
+            ],
+        ),
+    ],
 )

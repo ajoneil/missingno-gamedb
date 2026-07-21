@@ -1,9 +1,18 @@
 (
     title: "Pressure Cooker [a]",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["d679c94418a1b32ffbe3efec612a5a4df1b9cdf1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d679c94418a1b32ffbe3efec612a5a4df1b9cdf1",
+                ),
+            ],
+        ),
+    ],
 )

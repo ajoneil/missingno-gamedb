@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - DougMandeville_1",
-    publisher: Some("Mandeville"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["34a29329c1875e97d44c60444aee28f87d70c656"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Mandeville"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "34a29329c1875e97d44c60444aee28f87d70c656",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Spider-Man - The Scorpion Strikes (Spider-Man Hack)",
-    publisher: Some("Ronnie Dingman"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["65dfdced1ed2a5f721fb9c68881c19d18af474a5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Ronnie Dingman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "65dfdced1ed2a5f721fb9c68881c19d18af474a5",
+                ),
+            ],
+        ),
+    ],
 )

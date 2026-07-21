@@ -1,9 +1,34 @@
 (
     title: "Bumper Bash",
-    publisher: Some("Spectravideo"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["79c008568167bec1426280690c45e7ba5bd71b3e", "ad48f4952e867a2b97900d965b69f50fddf8ba2d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6c199782c79686dc0cbce6d5fe805f276a86a3f5",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "79c008568167bec1426280690c45e7ba5bd71b3e",
+                ),
+                (
+                    sha1: "ad48f4952e867a2b97900d965b69f50fddf8ba2d",
+                ),
+            ],
+        ),
+    ],
 )

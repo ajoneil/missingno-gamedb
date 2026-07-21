@@ -1,9 +1,18 @@
 (
     title: "Slot Machine [a] (4K)",
-    publisher: Some("Atari"),
-    date: Some("1979"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["96cfd7e47d864b3df6825dccdea3b576d181a1bf"],
-    source: None,
+    releases: [
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "96cfd7e47d864b3df6825dccdea3b576d181a1bf",
+                ),
+            ],
+        ),
+    ],
 )

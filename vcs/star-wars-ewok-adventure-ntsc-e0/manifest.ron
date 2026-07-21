@@ -1,9 +1,18 @@
 (
     title: "Star Wars - Ewok Adventure (Prototype)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("E0"),
-    hashes: ["5ed259e15f9f6f6b7ffe2987be4bb341acc78af9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5ed259e15f9f6f6b7ffe2987be4bb341acc78af9",
+                ),
+            ],
+        ),
+    ],
 )

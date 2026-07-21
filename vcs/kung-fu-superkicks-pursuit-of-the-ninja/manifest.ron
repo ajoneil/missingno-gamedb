@@ -1,9 +1,18 @@
 (
     title: "Kung Fu Superkicks - Pursuit of the Ninja",
-    publisher: Some("Telegames"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["061e5196af3b559766d4158a13faef04f7365cd5"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "061e5196af3b559766d4158a13faef04f7365cd5",
+                ),
+            ],
+        ),
+    ],
 )

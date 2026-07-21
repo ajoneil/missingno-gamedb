@@ -1,9 +1,18 @@
 (
     title: "MVBB Colon Mooninites Vs. the Boston Bomb Squad - The Game",
-    publisher: Some("Nirmal Patel"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["feea4fd678faabf42041bf1f3599c76a6dcab3c9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Nirmal Patel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "feea4fd678faabf42041bf1f3599c76a6dcab3c9",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Laseresal 2002 [a] (PD)",
-    publisher: Some("Andrew Wallace"),
-    date: Some("2002"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["d6a84ce2dfbf08837d17b7b9dd067eba9005cf20"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Andrew Wallace"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d6a84ce2dfbf08837d17b7b9dd067eba9005cf20",
+                ),
+            ],
+        ),
+    ],
 )

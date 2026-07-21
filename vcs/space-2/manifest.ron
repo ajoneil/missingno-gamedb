@@ -1,9 +1,19 @@
 (
-    title: "Space 2 (WIP)",
-    publisher: Some("Paul Slocum"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["703a1456ecb7980e840be4123abb4878be552ca7"],
-    source: None,
+    title: "Space 2",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Paul Slocum"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "703a1456ecb7980e840be4123abb4878be552ca7",
+                ),
+            ],
+        ),
+    ],
 )

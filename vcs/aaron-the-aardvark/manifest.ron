@@ -1,9 +1,19 @@
 (
-    title: "Aaron the Aardvark (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3d823e2c9f0838aa857a418f6449ab707492165a"],
-    source: None,
+    title: "Aaron the Aardvark",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3d823e2c9f0838aa857a418f6449ab707492165a",
+                ),
+            ],
+        ),
+    ],
 )

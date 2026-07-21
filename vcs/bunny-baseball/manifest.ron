@@ -1,9 +1,18 @@
 (
     title: "Bunny Baseball (Home Run Hack)",
-    publisher: Some("Rabbit 2600"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["201074385ad0015d7a8a824b8213ab59ad9c6af0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rabbit 2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "201074385ad0015d7a8a824b8213ab59ad9c6af0",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Slideshow Demo",
-    publisher: Some("eshu"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC+"),
-    hashes: ["22fef141399ad0743cb144d272c0012c7c338423"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("eshu"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22fef141399ad0743cb144d272c0012c7c338423",
+                ),
+            ],
+        ),
+    ],
 )

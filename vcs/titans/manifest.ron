@@ -1,8 +1,17 @@
 (
     title: "Titans (SnailSoft)",
-    publisher: Some("Greg Zumwalt"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["041aa6021290ac988e62f95188032ae875366336"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "041aa6021290ac988e62f95188032ae875366336",
+                ),
+            ],
+        ),
+    ],
 )

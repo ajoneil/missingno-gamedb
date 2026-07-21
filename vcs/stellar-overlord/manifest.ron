@@ -1,9 +1,19 @@
 (
-    title: "Stellar Overlord (WIP)",
-    publisher: Some("Bill Collins"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8e5c7fee5a6f02062278bafa78a39d6fdc5453b4"],
-    source: None,
+    title: "Stellar Overlord",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Bill Collins"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e5c7fee5a6f02062278bafa78a39d6fdc5453b4",
+                ),
+            ],
+        ),
+    ],
 )

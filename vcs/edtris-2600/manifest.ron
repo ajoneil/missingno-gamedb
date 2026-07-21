@@ -1,9 +1,18 @@
 (
     title: "Edtris 2600",
-    publisher: Some("Hozer Video Games"),
-    date: Some("1995"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8e6ed3e4406a370cb2b059c3a91a0997a359db83"],
-    source: None,
+    releases: [
+        (
+            date: Some("1995"),
+            publisher: Some("Hozer Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e6ed3e4406a370cb2b059c3a91a0997a359db83",
+                ),
+            ],
+        ),
+    ],
 )

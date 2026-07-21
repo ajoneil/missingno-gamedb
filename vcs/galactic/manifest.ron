@@ -1,9 +1,21 @@
 (
     title: "Galactic",
-    publisher: Some("Goliath"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["3eee4439082dc93f9e4d79c419faa432f280617f", "5117b08e2709261b0eed41bdac65713a073b9048"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3eee4439082dc93f9e4d79c419faa432f280617f",
+                ),
+                (
+                    sha1: "5117b08e2709261b0eed41bdac65713a073b9048",
+                ),
+            ],
+        ),
+    ],
 )

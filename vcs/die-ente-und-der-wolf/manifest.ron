@@ -1,9 +1,18 @@
 (
     title: "Die Ente und der Wolf",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["61adf589c19f985928b593c69864ce4107a1f618"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "61adf589c19f985928b593c69864ce4107a1f618",
+                ),
+            ],
+        ),
+    ],
 )

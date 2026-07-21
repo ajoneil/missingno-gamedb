@@ -1,9 +1,18 @@
 (
     title: "Adventure Invaders (Space Invaders Hack)",
-    publisher: Some("Matthew Bowman"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b0db54dcd5f462bd3c2ea949fa1d13c047794694"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Matthew Bowman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b0db54dcd5f462bd3c2ea949fa1d13c047794694",
+                ),
+            ],
+        ),
+    ],
 )

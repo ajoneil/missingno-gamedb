@@ -1,9 +1,18 @@
 (
     title: "Marilyn Monroe Demo (PD)",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c2f753f3deb5c2683fe5477f2f237de53f3a11e8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c2f753f3deb5c2683fe5477f2f237de53f3a11e8",
+                ),
+            ],
+        ),
+    ],
 )

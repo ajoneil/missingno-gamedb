@@ -1,8 +1,17 @@
 (
     title: "Dodge Demo 3 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["403dcc606e4e96c52996a0c1658066f1cd256b87"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "403dcc606e4e96c52996a0c1658066f1cd256b87",
+                ),
+            ],
+        ),
+    ],
 )

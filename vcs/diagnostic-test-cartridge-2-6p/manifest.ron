@@ -1,9 +1,18 @@
 (
     title: "Diagnostic Test Cartridge 2.6P (4K)",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["d9a619e585cdf0d3f0edec1fd74abc1428498451"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d9a619e585cdf0d3f0edec1fd74abc1428498451",
+                ),
+            ],
+        ),
+    ],
 )

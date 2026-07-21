@@ -1,9 +1,18 @@
 (
     title: "Care Bears (Prototype)",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["48576a24a40482151f6b3c9687be442db27115a8"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "48576a24a40482151f6b3c9687be442db27115a8",
+                ),
+            ],
+        ),
+    ],
 )

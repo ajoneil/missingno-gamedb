@@ -1,9 +1,18 @@
 (
     title: "SpongeBob SquarePants (Hack)",
-    publisher: Some("Kyle Pittman"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["156dd8b8a1a89085599d1c410221a6e8d80c149a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Kyle Pittman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "156dd8b8a1a89085599d1c410221a6e8d80c149a",
+                ),
+            ],
+        ),
+    ],
 )

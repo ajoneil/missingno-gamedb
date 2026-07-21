@@ -1,9 +1,18 @@
 (
     title: "Air Raiders [a]",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a9a51405b521ae0b465f521fa098e8b3aedd018b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a9a51405b521ae0b465f521fa098e8b3aedd018b",
+                ),
+            ],
+        ),
+    ],
 )

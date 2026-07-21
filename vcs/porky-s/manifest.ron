@@ -1,9 +1,18 @@
 (
-    title: "Porky's",
-    publisher: Some("20th Century Fox Video Games"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["70afc2cc870be546dc976fa0c6811f7e01ebc471"],
-    source: None,
+    title: "Porky\'s",
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "70afc2cc870be546dc976fa0c6811f7e01ebc471",
+                ),
+            ],
+        ),
+    ],
 )

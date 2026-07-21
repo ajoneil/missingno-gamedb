@@ -1,9 +1,21 @@
 (
     title: "Okie Dokie (Older) (PD)",
-    publisher: Some("RetroWare"),
-    date: Some("1996"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["7bd1cbddefcf3bd24da570be015234d0c444a7e5", "8a47b1930971f271a935c50d423e152aaea6ac59"],
-    source: None,
+    releases: [
+        (
+            date: Some("1996"),
+            publisher: Some("RetroWare"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7bd1cbddefcf3bd24da570be015234d0c444a7e5",
+                ),
+                (
+                    sha1: "8a47b1930971f271a935c50d423e152aaea6ac59",
+                ),
+            ],
+        ),
+    ],
 )

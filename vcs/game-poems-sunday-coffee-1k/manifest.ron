@@ -1,9 +1,18 @@
 (
     title: "Game Poems - Sunday Coffee 1K",
-    publisher: Some("Ian Bogost"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["c140a0629a5eb48bbb4343f9b51809efedc29440"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Ian Bogost"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c140a0629a5eb48bbb4343f9b51809efedc29440",
+                ),
+            ],
+        ),
+    ],
 )

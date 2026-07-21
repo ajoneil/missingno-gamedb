@@ -1,9 +1,18 @@
 (
     title: "Bioresearch Station 2084 (Lost Luggage Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a93566627b220b0b8ea69877498cda3a0f9d6ebf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a93566627b220b0b8ea69877498cda3a0f9d6ebf",
+                ),
+            ],
+        ),
+    ],
 )

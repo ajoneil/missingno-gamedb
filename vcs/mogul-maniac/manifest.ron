@@ -1,9 +1,18 @@
 (
     title: "Mogul Maniac",
-    publisher: Some("Amiga"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0b74a90a22a7a16f9c2131fabd76b7742de0473e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0b74a90a22a7a16f9c2131fabd76b7742de0473e",
+                ),
+            ],
+        ),
+    ],
 )

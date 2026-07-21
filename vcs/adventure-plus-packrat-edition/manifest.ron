@@ -1,9 +1,18 @@
 (
     title: "Adventure Plus Packrat Edition (Adventure Hack)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["93308ecab3d291de7fa4ffbcd0c807f0c5074a7f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "93308ecab3d291de7fa4ffbcd0c807f0c5074a7f",
+                ),
+            ],
+        ),
+    ],
 )

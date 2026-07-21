@@ -1,9 +1,18 @@
 (
     title: "Magicard Sample Program 1 - Display of Character Set [Magicard Format, Atari Keypad, Address F100]",
-    publisher: Some("CommaVid"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("CV"),
-    hashes: ["a845b5044758274513ab7c70b8f62c1e589120a5"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("CV"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a845b5044758274513ab7c70b8f62c1e589120a5",
+                ),
+            ],
+        ),
+    ],
 )

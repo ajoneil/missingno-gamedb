@@ -1,9 +1,18 @@
 (
     title: "River Patrol",
-    publisher: Some("Tigervision"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["6715493dce54b22362741229078815b3360988ae"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Tigervision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6715493dce54b22362741229078815b3360988ae",
+                ),
+            ],
+        ),
+    ],
 )

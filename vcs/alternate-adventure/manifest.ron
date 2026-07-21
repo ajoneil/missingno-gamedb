@@ -1,9 +1,18 @@
 (
     title: "Alternate Adventure (Adventure Hack)",
-    publisher: Some("Bob DeCrescenzo"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b6e52169f400e0a6217755825ed9e829636b0b1d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Bob DeCrescenzo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b6e52169f400e0a6217755825ed9e829636b0b1d",
+                ),
+            ],
+        ),
+    ],
 )

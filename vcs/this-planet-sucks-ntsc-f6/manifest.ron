@@ -1,8 +1,17 @@
 (
     title: "This Planet Sucks (16K) (Greg Troutman)",
-    publisher: Some("Greg Troutman"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["997714cddc28b88a7e1adef55988fa3e565e1a3c"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Greg Troutman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "997714cddc28b88a7e1adef55988fa3e565e1a3c",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
-    title: "Otto's Revenge (Berzerk Hack)",
-    publisher: Some("Matthew Bowman"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f8a673170f3d6526e5cabd46842d382393770f9d"],
-    source: None,
+    title: "Otto\'s Revenge (Berzerk Hack)",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Matthew Bowman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f8a673170f3d6526e5cabd46842d382393770f9d",
+                ),
+            ],
+        ),
+    ],
 )

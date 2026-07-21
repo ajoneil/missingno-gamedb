@@ -1,9 +1,18 @@
 (
     title: "J-Pac (Hack)",
-    publisher: Some("Ed Emmerling"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c81bdcb9a28200d40b82fefae74a38b4853d87d0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Ed Emmerling"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c81bdcb9a28200d40b82fefae74a38b4853d87d0",
+                ),
+            ],
+        ),
+    ],
 )

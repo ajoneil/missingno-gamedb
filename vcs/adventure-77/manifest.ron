@@ -1,9 +1,18 @@
 (
     title: "Adventure 77 (Adventure Hack)",
-    publisher: Some("77gp454"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8a5119cb132829f4c85936207bf8a556300a7a69"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("77gp454"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a5119cb132829f4c85936207bf8a556300a7a69",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Dodge",
-    publisher: Some("Emily Cribb"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7b4420481c485dd86ec4d754b6b5c8dae9261a7d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Emily Cribb"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7b4420481c485dd86ec4d754b6b5c8dae9261a7d",
+                ),
+            ],
+        ),
+    ],
 )

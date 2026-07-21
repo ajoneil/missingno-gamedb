@@ -1,8 +1,17 @@
 (
-    title: "Pigs 'n' Wolf",
-    publisher: Some("HES"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["b666cd6f8ebf9d1ae5cdf39c21e77a847ce25bfc"],
-    source: None,
+    title: "Pigs \'n\' Wolf",
+    releases: [
+        (
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b666cd6f8ebf9d1ae5cdf39c21e77a847ce25bfc",
+                ),
+            ],
+        ),
+    ],
 )

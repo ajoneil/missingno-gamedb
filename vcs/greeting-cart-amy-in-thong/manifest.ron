@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Amy in Thong",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["485cd95a3e575ca57e3018b720e89c363be0bcdb"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "485cd95a3e575ca57e3018b720e89c363be0bcdb",
+                ),
+            ],
+        ),
+    ],
 )

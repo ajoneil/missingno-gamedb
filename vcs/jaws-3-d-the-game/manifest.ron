@@ -1,9 +1,18 @@
 (
     title: "Jaws 3-D - The Game (Star Wars - The Empire Strikes Back Hack)",
-    publisher: Some("Tim Martin"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bb50c52f4fa689c57f5b2b20e2bf1cb5f6704bc3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Tim Martin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bb50c52f4fa689c57f5b2b20e2bf1cb5f6704bc3",
+                ),
+            ],
+        ),
+    ],
 )

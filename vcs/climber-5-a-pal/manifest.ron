@@ -1,9 +1,31 @@
 (
     title: "Climber 5 [a]",
-    publisher: Some("XYPE"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5d46ef89b28b320cc41528e998c63e27b17b89f3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("XYPE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b3b5415cf43a43b382a10c11fa3bb6e0a98c6566",
+                ),
+            ],
+        ),
+        (
+            date: Some("2004"),
+            publisher: Some("XYPE"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d46ef89b28b320cc41528e998c63e27b17b89f3",
+                ),
+            ],
+        ),
+    ],
 )

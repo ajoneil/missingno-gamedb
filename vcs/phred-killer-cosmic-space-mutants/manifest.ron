@@ -1,9 +1,19 @@
 (
-    title: "Phred - Killer Cosmic Space Mutants (WIP)",
-    publisher: Some("Kevin Lipe"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d8214600ce7526837c6b66f149cb126be00cc538"],
-    source: None,
+    title: "Phred - Killer Cosmic Space Mutants",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kevin Lipe"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8214600ce7526837c6b66f149cb126be00cc538",
+                ),
+            ],
+        ),
+    ],
 )

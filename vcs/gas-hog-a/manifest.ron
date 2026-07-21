@@ -1,7 +1,16 @@
 (
     title: "Gas Hog [a]",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8a3bdb746acdc02267ddf6e3975a44c0acc09334"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a3bdb746acdc02267ddf6e3975a44c0acc09334",
+                ),
+            ],
+        ),
+    ],
 )

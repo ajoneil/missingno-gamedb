@@ -1,9 +1,18 @@
 (
     title: "Road Blaster",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e2ccab9dfb8e9021b366974612ebd962074e65c6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e2ccab9dfb8e9021b366974612ebd962074e65c6",
+                ),
+            ],
+        ),
+    ],
 )

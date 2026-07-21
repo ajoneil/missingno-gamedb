@@ -1,9 +1,18 @@
 (
     title: "Indy Jones (Airlock Hack)",
-    publisher: Some("Steve Bates"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ec3b0a14d2a022a00e0440cb042d9021250298f3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Steve Bates"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ec3b0a14d2a022a00e0440cb042d9021250298f3",
+                ),
+            ],
+        ),
+    ],
 )

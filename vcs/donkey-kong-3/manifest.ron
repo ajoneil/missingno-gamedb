@@ -1,9 +1,19 @@
 (
-    title: "Donkey Kong 3 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["583be981910eadbbedff700078607841877707b1"],
-    source: None,
+    title: "Donkey Kong 3",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "583be981910eadbbedff700078607841877707b1",
+                ),
+            ],
+        ),
+    ],
 )

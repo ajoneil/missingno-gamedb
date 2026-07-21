@@ -1,9 +1,19 @@
 (
-    title: "15 (WIP)",
-    publisher: Some("Simone Serra"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["d86573832c1ac3e85b4d8f711d3a94459fb2411c"],
-    source: None,
+    title: "15",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Simone Serra"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d86573832c1ac3e85b4d8f711d3a94459fb2411c",
+                ),
+            ],
+        ),
+    ],
 )

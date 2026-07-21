@@ -1,9 +1,18 @@
 (
     title: "Walker ~ Schussel Der Polizistenschreck",
-    publisher: Some("Suntek"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["25e2043775a08762e3fc98ecb96fbf46b20e860e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "25e2043775a08762e3fc98ecb96fbf46b20e860e",
+                ),
+            ],
+        ),
+    ],
 )

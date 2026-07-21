@@ -1,8 +1,17 @@
 (
     title: "Wall Defender",
-    publisher: Some("HES"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["009a42d71262d3267ae315a392519664cc2f24b4"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "009a42d71262d3267ae315a392519664cc2f24b4",
+                ),
+            ],
+        ),
+    ],
 )

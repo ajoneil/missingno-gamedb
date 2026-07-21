@@ -1,9 +1,19 @@
 (
-    title: "BREAKANOID Demo (WIP)",
-    publisher: Some("Mr SQL"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["34b2af04098b66459abc94c60eb27a1c2b22a2c9"],
-    source: None,
+    title: "BREAKANOID Demo",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Mr SQL"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "34b2af04098b66459abc94c60eb27a1c2b22a2c9",
+                ),
+            ],
+        ),
+    ],
 )

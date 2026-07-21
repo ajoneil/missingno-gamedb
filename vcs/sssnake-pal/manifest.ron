@@ -1,9 +1,31 @@
 (
     title: "Sssnake",
-    publisher: Some("Gameworld"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["56557c04e0adfd00cb47842f44b14159ad93c625"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "46aabde3074acded8890a2efa5586d6b8bd76b5d",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "56557c04e0adfd00cb47842f44b14159ad93c625",
+                ),
+            ],
+        ),
+    ],
 )

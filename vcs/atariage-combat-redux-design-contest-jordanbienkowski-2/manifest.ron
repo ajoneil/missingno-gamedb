@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - JordanBienkowski_2",
-    publisher: Some("Bienkowski"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["6b47323ed7ac13f5e3db12bca0836218b682d0ef"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Bienkowski"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b47323ed7ac13f5e3db12bca0836218b682d0ef",
+                ),
+            ],
+        ),
+    ],
 )

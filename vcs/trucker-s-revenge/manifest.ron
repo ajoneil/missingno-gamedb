@@ -1,9 +1,18 @@
 (
-    title: "Trucker's Revenge",
-    publisher: Some("Allison Macedo"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6929d2e30ddfaeeae988634e99bb84ad43687e97"],
-    source: None,
+    title: "Trucker\'s Revenge",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Allison Macedo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6929d2e30ddfaeeae988634e99bb84ad43687e97",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Kaystone Kapers",
-    publisher: Some("Digitel"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["54cd3848704563399784426e7d00eccd7f96836b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Digitel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "54cd3848704563399784426e7d00eccd7f96836b",
+                ),
+            ],
+        ),
+    ],
 )

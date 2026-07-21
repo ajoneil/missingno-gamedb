@@ -1,9 +1,18 @@
 (
     title: "Star Wars Invaders (Space Invaders Hack)",
-    publisher: Some("Fredrik Aberg"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["38c6869e05ccb614ab010f3ebd52da6dff96d11c"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Fredrik Aberg"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "38c6869e05ccb614ab010f3ebd52da6dff96d11c",
+                ),
+            ],
+        ),
+    ],
 )

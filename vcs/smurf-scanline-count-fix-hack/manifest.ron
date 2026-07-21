@@ -1,9 +1,18 @@
 (
     title: "Smurf Scanline Count Fix Hack",
-    publisher: Some("Kurt Howe"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["f467575180c094a03a4e9e3c937f77002e235c42"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f467575180c094a03a4e9e3c937f77002e235c42",
+                ),
+            ],
+        ),
+    ],
 )

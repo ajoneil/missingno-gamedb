@@ -1,9 +1,21 @@
 (
     title: "Alien Ants (Supercharger Conversion Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0f4b9cff5598e2a5f05c4d3024b78abd3ef59d6c", "74ffba732ff20424c56356318becf3848cb0738f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0f4b9cff5598e2a5f05c4d3024b78abd3ef59d6c",
+                ),
+                (
+                    sha1: "74ffba732ff20424c56356318becf3848cb0738f",
+                ),
+            ],
+        ),
+    ],
 )

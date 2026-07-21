@@ -1,9 +1,19 @@
 (
-    title: "Pac Adventure Demo (WIP)",
-    publisher: Some("Chris Walton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["851edbe56e71470fadc3f81d432693596edd45eb"],
-    source: None,
+    title: "Pac Adventure Demo",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Chris Walton"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "851edbe56e71470fadc3f81d432693596edd45eb",
+                ),
+            ],
+        ),
+    ],
 )

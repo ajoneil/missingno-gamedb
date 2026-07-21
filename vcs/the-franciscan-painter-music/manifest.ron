@@ -1,9 +1,18 @@
 (
     title: "The Franciscan Painter Music",
-    publisher: Some("kid0017"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d83a84c1be3b087df4c320c97c56512a161a3b4a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("kid0017"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d83a84c1be3b087df4c320c97c56512a161a3b4a",
+                ),
+            ],
+        ),
+    ],
 )

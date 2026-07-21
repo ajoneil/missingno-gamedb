@@ -1,9 +1,31 @@
 (
     title: "Sky Diver ~ Dare Diver",
-    publisher: Some("Atari"),
-    date: Some("1979"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["4dde18d4abc139562fdd7a9d2fd49a1f00a9e64a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4dde18d4abc139562fdd7a9d2fd49a1f00a9e64a",
+                ),
+            ],
+        ),
+        (
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9268872eec14f06522f3866ddcaa4c470528c22a",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Tronman (Fast Eddie Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b8e13f017c321c8d05e4646124be036f54b993b0"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b8e13f017c321c8d05e4646124be036f54b993b0",
+                ),
+            ],
+        ),
+    ],
 )

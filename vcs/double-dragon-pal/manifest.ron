@@ -1,9 +1,34 @@
 (
     title: "Double Dragon",
-    publisher: Some("Activision"),
-    date: Some("1989"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["3f482acc1914c6bc92fd1fd823d6ed10c7ca65a8", "fc334fede2eb506a6c5b557e0109cd61f7a30919"],
-    source: None,
+    releases: [
+        (
+            date: Some("1989"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cc99dba0a78fedd171387f492e9810f3037a5f05",
+                ),
+            ],
+        ),
+        (
+            date: Some("1989"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3f482acc1914c6bc92fd1fd823d6ed10c7ca65a8",
+                ),
+                (
+                    sha1: "fc334fede2eb506a6c5b557e0109cd61f7a30919",
+                ),
+            ],
+        ),
+    ],
 )

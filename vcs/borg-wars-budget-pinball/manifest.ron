@@ -1,9 +1,18 @@
 (
     title: "Borg Wars Budget Pinball (Video Pinball Hack)",
-    publisher: Some("Jack Kortkamp"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3a7897be80b911942e213f408edc8784a1dc65c2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jack Kortkamp"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3a7897be80b911942e213f408edc8784a1dc65c2",
+                ),
+            ],
+        ),
+    ],
 )

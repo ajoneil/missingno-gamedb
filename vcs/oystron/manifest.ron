@@ -1,9 +1,33 @@
 (
     title: "Oystron (V2.6) (Piero Cavina) (PD)",
-    publisher: Some("Cavina"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["26f3d7822cc55a76cba5d717632522c2d1c53855", "412e8a2438379878ee4de5c6bf4e5a9ee2707c8b", "6428662a9b10b9af6ad2a7a4b7d3773bbcd4cac4", "a9d6bcb99e5e6840b18b0fff5de7e72229cb3c06", "ad7e6ef4500f0ce3e0b92ca5e6cd644666d611d2", "ec90ed048e74b6be316b821d8453e1ee161057d8"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Cavina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "26f3d7822cc55a76cba5d717632522c2d1c53855",
+                ),
+                (
+                    sha1: "412e8a2438379878ee4de5c6bf4e5a9ee2707c8b",
+                ),
+                (
+                    sha1: "6428662a9b10b9af6ad2a7a4b7d3773bbcd4cac4",
+                ),
+                (
+                    sha1: "a9d6bcb99e5e6840b18b0fff5de7e72229cb3c06",
+                ),
+                (
+                    sha1: "ad7e6ef4500f0ce3e0b92ca5e6cd644666d611d2",
+                ),
+                (
+                    sha1: "ec90ed048e74b6be316b821d8453e1ee161057d8",
+                ),
+            ],
+        ),
+    ],
 )

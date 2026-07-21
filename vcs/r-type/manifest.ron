@@ -1,9 +1,19 @@
 (
-    title: "R-Type (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["5707316387d9ebc1329dd042c75cf8f41b93250c"],
-    source: None,
+    title: "R-Type",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5707316387d9ebc1329dd042c75cf8f41b93250c",
+                ),
+            ],
+        ),
+    ],
 )

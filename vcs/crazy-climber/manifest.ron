@@ -1,9 +1,21 @@
 (
     title: "Crazy Climber",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["70e723aa67d68f8549d9bd8f96d8b1262cbdac3c", "9ae3bca3cc6a00d716fe065da3106346006b54ba"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "70e723aa67d68f8549d9bd8f96d8b1262cbdac3c",
+                ),
+                (
+                    sha1: "9ae3bca3cc6a00d716fe065da3106346006b54ba",
+                ),
+            ],
+        ),
+    ],
 )

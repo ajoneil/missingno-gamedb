@@ -1,9 +1,18 @@
 (
     title: "AtariAge Combat Redux Design Contest - ChrisJohnson_1",
-    publisher: Some("Johnson"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["15650904506a14c67704011d41da08c05a474150"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Johnson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "15650904506a14c67704011d41da08c05a474150",
+                ),
+            ],
+        ),
+    ],
 )

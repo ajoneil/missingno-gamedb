@@ -1,9 +1,18 @@
 (
     title: "Terminator",
-    publisher: Some("Amrit Bhavinani"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cabf661d377cf62b236e42d2e197820388bc36a2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Amrit Bhavinani"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cabf661d377cf62b236e42d2e197820388bc36a2",
+                ),
+            ],
+        ),
+    ],
 )

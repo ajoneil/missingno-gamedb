@@ -1,9 +1,31 @@
 (
     title: "Star Strike",
-    publisher: Some("Telegames"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a0e29405a92773bf3baa2845788a8add8f3bc0b1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de05d1ca8ad1e7a85df3faf25b1aa90b159afded",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a0e29405a92773bf3baa2845788a8add8f3bc0b1",
+                ),
+            ],
+        ),
+    ],
 )

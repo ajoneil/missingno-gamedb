@@ -1,9 +1,18 @@
 (
-    title: "Yars' Revenge [a]",
-    publisher: Some("Atari"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dae93f03a1ccdab6f3296c7409fcc7402566ccba"],
-    source: None,
+    title: "Yars\' Revenge [a]",
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dae93f03a1ccdab6f3296c7409fcc7402566ccba",
+                ),
+            ],
+        ),
+    ],
 )

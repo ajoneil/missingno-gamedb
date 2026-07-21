@@ -1,9 +1,18 @@
 (
     title: "JtzBall (Alpha)",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["2fbc1c7dd288a58d4760fbb04c3904092fc00f21"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2fbc1c7dd288a58d4760fbb04c3904092fc00f21",
+                ),
+            ],
+        ),
+    ],
 )

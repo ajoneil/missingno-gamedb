@@ -1,9 +1,18 @@
 (
     title: "High Bid! (Hack)",
-    publisher: Some("BG Dodson"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cd69b2fda1060261896660ffc9c3d45e4e60031b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("BG Dodson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cd69b2fda1060261896660ffc9c3d45e4e60031b",
+                ),
+            ],
+        ),
+    ],
 )

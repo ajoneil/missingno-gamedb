@@ -1,9 +1,18 @@
 (
     title: "Ima Dyma",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1c4fed2d90b7cff508ee84f632a382d536de81a5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1c4fed2d90b7cff508ee84f632a382d536de81a5",
+                ),
+            ],
+        ),
+    ],
 )

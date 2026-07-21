@@ -1,9 +1,18 @@
 (
-    title: "E.T.'s Candy Bars Z26 (Pac-Man Hack)",
-    publisher: Some("Wade Casaldi"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["86309692486c133e42d35eb4509ff2aa98d7fd4b"],
-    source: None,
+    title: "E.T.\'s Candy Bars Z26 (Pac-Man Hack)",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Wade Casaldi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "86309692486c133e42d35eb4509ff2aa98d7fd4b",
+                ),
+            ],
+        ),
+    ],
 )

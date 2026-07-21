@@ -1,9 +1,18 @@
 (
     title: "Mystery Guy Demo",
-    publisher: Some("Duane Alan Hahn"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ecbe9769568ea91e93aba1b1f39a12f380ef2f80"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Duane Alan Hahn"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ecbe9769568ea91e93aba1b1f39a12f380ef2f80",
+                ),
+            ],
+        ),
+    ],
 )

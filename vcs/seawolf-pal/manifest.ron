@@ -1,9 +1,31 @@
 (
     title: "Seawolf",
-    publisher: Some("Xype"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["754b15ccc05a175478160e7cd1c21e2f9f3adfe9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Manuel Rotschkar (Xype)"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "861e890ed69d134cf9b5685878a2b4ae36e19f5e",
+                ),
+            ],
+        ),
+        (
+            date: Some("2004"),
+            publisher: Some("Xype"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "754b15ccc05a175478160e7cd1c21e2f9f3adfe9",
+                ),
+            ],
+        ),
+    ],
 )

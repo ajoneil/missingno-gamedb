@@ -1,9 +1,18 @@
 (
     title: "Dark Mage (PD) (8K)",
-    publisher: Some("Greg Troutman"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c5af53c4b64c3db552d4717b8583d6fe8d3e7952"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Greg Troutman"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c5af53c4b64c3db552d4717b8583d6fe8d3e7952",
+                ),
+            ],
+        ),
+    ],
 )

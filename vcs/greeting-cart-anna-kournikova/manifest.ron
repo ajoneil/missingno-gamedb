@@ -1,8 +1,17 @@
 (
     title: "Greeting Cart - Anna Kournikova",
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6cdcf5a43570f2bee98d676c66e6ac11503e3865"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6cdcf5a43570f2bee98d676c66e6ac11503e3865",
+                ),
+            ],
+        ),
+    ],
 )

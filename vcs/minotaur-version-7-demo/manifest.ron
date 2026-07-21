@@ -1,9 +1,18 @@
 (
     title: "Minotaur Version 7 Demo (08-20-1982)",
-    publisher: Some("Western Technologies"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6933d8fa0552983858f801337d62c57789cc0a61"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Western Technologies"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6933d8fa0552983858f801337d62c57789cc0a61",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,34 @@
 (
     title: "Super Cobra",
-    publisher: Some("Parker Brothers"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("E0"),
-    hashes: ["3ea967933740da36f47c04b269587da134a93c34"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1e237466ba0226dbeb4b77aa9b38191b44120894",
+                ),
+                (
+                    sha1: "bac0a0256509f8fd1feea93d74ba4c7d82c1edc6",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3ea967933740da36f47c04b269587da134a93c34",
+                ),
+            ],
+        ),
+    ],
 )

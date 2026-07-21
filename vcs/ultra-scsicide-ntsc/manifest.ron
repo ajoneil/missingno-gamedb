@@ -1,9 +1,18 @@
 (
     title: "Ultra SCSIcide (SCSIcide 2.0)",
-    publisher: Some("AtariAge"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["83abb69c7f24e989e67257d25c8cd4808028385b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("AtariAge"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "83abb69c7f24e989e67257d25c8cd4808028385b",
+                ),
+            ],
+        ),
+    ],
 )

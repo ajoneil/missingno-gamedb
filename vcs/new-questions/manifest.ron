@@ -1,9 +1,18 @@
 (
     title: "New Questions (John K. Harvey) (PD)",
-    publisher: Some("John K. Harvey"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["10ba251532d63aea2f42a4e0ac1bd3473bb65b9f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("John K. Harvey"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "10ba251532d63aea2f42a4e0ac1bd3473bb65b9f",
+                ),
+            ],
+        ),
+    ],
 )

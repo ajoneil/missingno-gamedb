@@ -1,9 +1,18 @@
 (
     title: "Tom Jones Demo",
-    publisher: Some("Trilobit"),
-    date: Some("2007"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["10437b46761346d6c7204b789f3c59a52c6d5843"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Trilobit"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "10437b46761346d6c7204b789f3c59a52c6d5843",
+                ),
+            ],
+        ),
+    ],
 )

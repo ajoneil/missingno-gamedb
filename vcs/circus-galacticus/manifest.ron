@@ -1,9 +1,22 @@
 (
-    title: "Circus Galacticus (WIP)",
-    publisher: Some("Jarod Kitchen"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["2429645eb32c71688e92428002249e1b9aed10c2", "3a52783a07908dc3daa4497c264b6894bdf091ff"],
-    source: None,
+    title: "Circus Galacticus",
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Jarod Kitchen"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2429645eb32c71688e92428002249e1b9aed10c2",
+                ),
+                (
+                    sha1: "3a52783a07908dc3daa4497c264b6894bdf091ff",
+                ),
+            ],
+        ),
+    ],
 )

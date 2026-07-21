@@ -1,9 +1,18 @@
 (
     title: "Baubles 3 (PD)",
-    publisher: Some("Jake Patterson"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2857d54f6a7e295b39b8b13bae438689fee33728"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Jake Patterson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2857d54f6a7e295b39b8b13bae438689fee33728",
+                ),
+            ],
+        ),
+    ],
 )

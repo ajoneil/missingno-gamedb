@@ -1,8 +1,17 @@
 (
     title: "Pac Kong [a1]",
-    publisher: Some("Star Game"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["01abbc2d630b9273555c7aaf1e9beba22aa0e48c"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Star Game"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "01abbc2d630b9273555c7aaf1e9beba22aa0e48c",
+                ),
+            ],
+        ),
+    ],
 )

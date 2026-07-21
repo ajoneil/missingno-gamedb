@@ -1,9 +1,27 @@
 (
     title: "Oh No! (Version 1) (17-01-2003) (Andrew Davie)",
-    publisher: Some("Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["115ca9a4c4e80e910f1fabaf7c3086aa9b0bf777", "53da0bf924acf7a9ff25dd117c0de634311e9155", "708e0f5ca2e91be641f3f7b134b38b4d485f0cdb", "848a8fd2e7cb345b71359ebbc9573197e7c44b4b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "115ca9a4c4e80e910f1fabaf7c3086aa9b0bf777",
+                ),
+                (
+                    sha1: "53da0bf924acf7a9ff25dd117c0de634311e9155",
+                ),
+                (
+                    sha1: "708e0f5ca2e91be641f3f7b134b38b4d485f0cdb",
+                ),
+                (
+                    sha1: "848a8fd2e7cb345b71359ebbc9573197e7c44b4b",
+                ),
+            ],
+        ),
+    ],
 )

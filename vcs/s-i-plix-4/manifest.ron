@@ -1,9 +1,18 @@
 (
     title: "S.I.Plix 4 (Donkey Kong Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2bc84b78ffb26fcb85c723ae46bd288bc7325c6e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2bc84b78ffb26fcb85c723ae46bd288bc7325c6e",
+                ),
+            ],
+        ),
+    ],
 )

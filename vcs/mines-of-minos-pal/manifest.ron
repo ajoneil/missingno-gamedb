@@ -1,7 +1,29 @@
 (
     title: "Mines of Minos",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["de678ec548665f71c9762dee3d50420760032a0e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "34773998d7740e1e8c206b3b22a19e282ca132e1",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de678ec548665f71c9762dee3d50420760032a0e",
+                ),
+            ],
+        ),
+    ],
 )

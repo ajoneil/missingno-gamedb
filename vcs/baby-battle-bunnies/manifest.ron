@@ -1,9 +1,18 @@
 (
     title: "Baby Battle Bunnies",
-    publisher: Some("Terris Johnson"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["79d2e533e9c66adf72b6915060f872c607a40bb6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Terris Johnson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "79d2e533e9c66adf72b6915060f872c607a40bb6",
+                ),
+            ],
+        ),
+    ],
 )

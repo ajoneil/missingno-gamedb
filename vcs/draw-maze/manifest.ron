@@ -1,9 +1,19 @@
 (
-    title: "Draw Maze (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dc529da9e4e4aa2006faf94fccb47140f953f8ba"],
-    source: None,
+    title: "Draw Maze",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc529da9e4e4aa2006faf94fccb47140f953f8ba",
+                ),
+            ],
+        ),
+    ],
 )

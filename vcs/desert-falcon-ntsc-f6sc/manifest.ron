@@ -1,9 +1,18 @@
 (
     title: "Desert Falcon",
-    publisher: Some("Atari"),
-    date: Some("1987"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["ccea2d5095441d7e1b1468e3879a6ab556dc8b7a"],
-    source: None,
+    releases: [
+        (
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ccea2d5095441d7e1b1468e3879a6ab556dc8b7a",
+                ),
+            ],
+        ),
+    ],
 )

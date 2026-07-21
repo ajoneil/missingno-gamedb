@@ -1,9 +1,18 @@
 (
     title: "Robot Kong (Donkey Kong Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f3c5fdf33fbc839dcd32f0e236921315b2227014"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f3c5fdf33fbc839dcd32f0e236921315b2227014",
+                ),
+            ],
+        ),
+    ],
 )

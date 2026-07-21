@@ -1,9 +1,18 @@
 (
     title: "Funky Fish (2)",
-    publisher: Some("UA Limited"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("UA"),
-    hashes: ["fba461d2a2d1395945806c883f4dca925712885e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("UA Limited"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fba461d2a2d1395945806c883f4dca925712885e",
+                ),
+            ],
+        ),
+    ],
 )

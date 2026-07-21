@@ -1,9 +1,18 @@
 (
     title: "Planet Invaders (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["71da333805a720cd104f1adaa7d843671e226b3f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "71da333805a720cd104f1adaa7d843671e226b3f",
+                ),
+            ],
+        ),
+    ],
 )

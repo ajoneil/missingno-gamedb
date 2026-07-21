@@ -1,9 +1,18 @@
 (
     title: "Star Trek (Genesis)",
-    publisher: Some("Omegamatrix"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["c3fab4de53119868685aa3ee842b376c9fdc65ce"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Omegamatrix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c3fab4de53119868685aa3ee842b376c9fdc65ce",
+                ),
+            ],
+        ),
+    ],
 )

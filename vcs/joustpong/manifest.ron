@@ -1,9 +1,33 @@
 (
     title: "JoustPong",
-    publisher: Some("Kirk Israel"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1a30bc008580ac9660d6072fce1869ff291316d3", "4d7001f7fd1686e4002fc2f2ec0b55af648fb801", "736a65fa2b821057694086ed3ce088a88e6e87bb", "c780548e31727247260d123309dbbef4bbd686db", "cf4c71166f5ee2eb669280df61ccdb4d1c9117ce", "f17f82e0ad66e6282f2b1a195cd399276816218f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Kirk Israel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a30bc008580ac9660d6072fce1869ff291316d3",
+                ),
+                (
+                    sha1: "4d7001f7fd1686e4002fc2f2ec0b55af648fb801",
+                ),
+                (
+                    sha1: "736a65fa2b821057694086ed3ce088a88e6e87bb",
+                ),
+                (
+                    sha1: "c780548e31727247260d123309dbbef4bbd686db",
+                ),
+                (
+                    sha1: "cf4c71166f5ee2eb669280df61ccdb4d1c9117ce",
+                ),
+                (
+                    sha1: "f17f82e0ad66e6282f2b1a195cd399276816218f",
+                ),
+            ],
+        ),
+    ],
 )

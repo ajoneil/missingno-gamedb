@@ -1,9 +1,19 @@
 (
-    title: "Gravity Ball (WIP)",
-    publisher: Some("Rob Mundschau"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b373dd26d7c853519c1b3d4564f55b098fa96905"],
-    source: None,
+    title: "Gravity Ball",
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Rob Mundschau"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b373dd26d7c853519c1b3d4564f55b098fa96905",
+                ),
+            ],
+        ),
+    ],
 )

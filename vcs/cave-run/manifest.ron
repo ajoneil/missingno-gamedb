@@ -1,9 +1,19 @@
 (
-    title: "Cave Run (WIP)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["e8e0635314e4702938a96963409361c536f966f5"],
-    source: None,
+    title: "Cave Run",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Steve Engelhardt"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e8e0635314e4702938a96963409361c536f966f5",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "GoSub 2 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["cfb9b45e5a98b63297ace384d8c67b4863eb8fe3"],
-    source: None,
+    title: "GoSub 2",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cfb9b45e5a98b63297ace384d8c67b4863eb8fe3",
+                ),
+            ],
+        ),
+    ],
 )

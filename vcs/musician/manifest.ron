@@ -1,9 +1,19 @@
 (
-    title: "Musician (WIP)",
-    publisher: Some("Lodmot"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["95ef916e031da050cf17246362f582f1a30b8315"],
-    source: None,
+    title: "Musician",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Lodmot"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "95ef916e031da050cf17246362f582f1a30b8315",
+                ),
+            ],
+        ),
+    ],
 )

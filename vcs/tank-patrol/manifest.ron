@@ -1,9 +1,18 @@
 (
     title: "Tank Patrol (Phantom Tank Hack)",
-    publisher: Some("Wade Casaldi"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fac744fafeb68773188393acd640e9bdcb894f6a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Wade Casaldi"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fac744fafeb68773188393acd640e9bdcb894f6a",
+                ),
+            ],
+        ),
+    ],
 )

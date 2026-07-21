@@ -1,9 +1,21 @@
 (
     title: "Black Hole",
-    publisher: Some("Goliath"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["4bb513fe777b610655121fcfd67593919ba4b147", "fa6a186f553d7d141e4b2f6d4be0457c4896f857"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4bb513fe777b610655121fcfd67593919ba4b147",
+                ),
+                (
+                    sha1: "fa6a186f553d7d141e4b2f6d4be0457c4896f857",
+                ),
+            ],
+        ),
+    ],
 )

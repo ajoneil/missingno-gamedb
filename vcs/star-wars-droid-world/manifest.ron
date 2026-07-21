@@ -1,9 +1,18 @@
 (
     title: "Star Wars - Droid World (Berzerk Hack)",
-    publisher: Some("Jerry Schuller"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2ee00a4cb63fb04014ee94b41953012de9330f0d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Jerry Schuller"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2ee00a4cb63fb04014ee94b41953012de9330f0d",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Ms. Hack (Pesco Hack) [a]",
-    publisher: Some("Kurt Howe"),
-    date: Some("2006"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["e8e397e01be837155e951a724e075005caf13ee8"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e8e397e01be837155e951a724e075005caf13ee8",
+                ),
+            ],
+        ),
+    ],
 )

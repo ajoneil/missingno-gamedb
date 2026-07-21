@@ -1,9 +1,18 @@
 (
-    title: "Missadventure Revised - Dragon's Lair Version (Adventure Hack)",
-    publisher: Some("accousticguitar"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["40b0b3f5ebd6bdd06c544af6f8776dcfd43aee9b"],
-    source: None,
+    title: "Missadventure Revised - Dragon\'s Lair Version (Adventure Hack)",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("accousticguitar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "40b0b3f5ebd6bdd06c544af6f8776dcfd43aee9b",
+                ),
+            ],
+        ),
+    ],
 )

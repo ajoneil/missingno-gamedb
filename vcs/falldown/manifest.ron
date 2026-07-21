@@ -1,9 +1,18 @@
 (
     title: "Falldown",
-    publisher: Some("Ben Orchard"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b6c7370b2f06b495bd31395f82fb1f1acaf07b45"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Ben Orchard"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b6c7370b2f06b495bd31395f82fb1f1acaf07b45",
+                ),
+            ],
+        ),
+    ],
 )

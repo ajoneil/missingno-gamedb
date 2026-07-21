@@ -1,9 +1,18 @@
 (
     title: "Video Time Machine",
-    publisher: Some("Chris Cracknell"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e1eadbe7864110418815d027a07946b2712a3139"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Chris Cracknell"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e1eadbe7864110418815d027a07946b2712a3139",
+                ),
+            ],
+        ),
+    ],
 )

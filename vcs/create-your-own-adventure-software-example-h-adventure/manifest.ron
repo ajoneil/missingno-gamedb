@@ -1,9 +1,18 @@
 (
     title: "Create Your Own Adventure - Software Example [h] [Adventure]",
-    publisher: Some("Atarius Maximus"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f244222d63bf9fc3fd32561902161c1b86f31634"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Atarius Maximus"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f244222d63bf9fc3fd32561902161c1b86f31634",
+                ),
+            ],
+        ),
+    ],
 )

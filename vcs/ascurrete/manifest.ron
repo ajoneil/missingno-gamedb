@@ -1,9 +1,19 @@
 (
-    title: "Ascurrete (WIP)",
-    publisher: Some("devwebcl"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["c97641ea93c502ebad6da5aaf3c48a37cfd510ed"],
-    source: None,
+    title: "Ascurrete",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("devwebcl"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c97641ea93c502ebad6da5aaf3c48a37cfd510ed",
+                ),
+            ],
+        ),
+    ],
 )

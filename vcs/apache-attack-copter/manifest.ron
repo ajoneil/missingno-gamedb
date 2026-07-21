@@ -1,9 +1,18 @@
 (
     title: "Apache Attack Copter (Spitfire Attack Hack)",
-    publisher: Some("Fabventure2600"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a29c2a2449e28ba96af0cc4847969113baa123f3"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fabventure2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a29c2a2449e28ba96af0cc4847969113baa123f3",
+                ),
+            ],
+        ),
+    ],
 )

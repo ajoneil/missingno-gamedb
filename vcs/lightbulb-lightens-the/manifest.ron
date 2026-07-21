@@ -1,9 +1,18 @@
 (
     title: "Lightbulb Lightens, The (PD) (Non Functional)",
-    publisher: Some("Eckhard Stolberg"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9a9126757afa9bc4b45df91331ff84d569c0cabc"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Eckhard Stolberg"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9a9126757afa9bc4b45df91331ff84d569c0cabc",
+                ),
+            ],
+        ),
+    ],
 )

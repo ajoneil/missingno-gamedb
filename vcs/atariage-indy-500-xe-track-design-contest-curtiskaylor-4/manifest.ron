@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - CurtisKaylor_4",
-    publisher: Some("Curtis Kaylor"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c646fc4f88d5e3e5b8cd8fcae42ff654915cddb7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Curtis Kaylor"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c646fc4f88d5e3e5b8cd8fcae42ff654915cddb7",
+                ),
+            ],
+        ),
+    ],
 )

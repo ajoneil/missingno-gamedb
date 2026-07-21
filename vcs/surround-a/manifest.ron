@@ -1,9 +1,18 @@
 (
     title: "Surround [a] (4K)",
-    publisher: Some("Atari"),
-    date: Some("1977"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2adf20d43e2ca25e05f65a61f195381c78b51fef"],
-    source: None,
+    releases: [
+        (
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2adf20d43e2ca25e05f65a61f195381c78b51fef",
+                ),
+            ],
+        ),
+    ],
 )

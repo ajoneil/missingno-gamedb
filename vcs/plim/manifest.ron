@@ -1,9 +1,19 @@
 (
-    title: "Plim (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["7f8e2f86c83a987e563e139e4ae44c149bbf0194"],
-    source: None,
+    title: "Plim",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f8e2f86c83a987e563e139e4ae44c149bbf0194",
+                ),
+            ],
+        ),
+    ],
 )

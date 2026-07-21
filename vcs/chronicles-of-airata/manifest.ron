@@ -1,9 +1,19 @@
 (
-    title: "Chronicles of Airata (WIP)",
-    publisher: Some("Maciej Kozlowski"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["153856bc187d487480c492a7f833c56ebfc04f23"],
-    source: None,
+    title: "Chronicles of Airata",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Maciej Kozlowski"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "153856bc187d487480c492a7f833c56ebfc04f23",
+                ),
+            ],
+        ),
+    ],
 )

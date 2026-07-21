@@ -1,9 +1,18 @@
 (
     title: "Shooting Arcade (Light Gun) (01-16-1990) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1990"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6SC"),
-    hashes: ["f20ab57ad7ca60c566376409c8f94c9f1b4003bd"],
-    source: None,
+    releases: [
+        (
+            date: Some("1990"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f20ab57ad7ca60c566376409c8f94c9f1b4003bd",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Greeting Cart - Kathy from Madison WI",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f4423742a0b1e1107b681119a0d9dd804a9f0dd2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f4423742a0b1e1107b681119a0d9dd804a9f0dd2",
+                ),
+            ],
+        ),
+    ],
 )

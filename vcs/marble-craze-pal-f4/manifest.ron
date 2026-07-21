@@ -1,9 +1,37 @@
 (
     title: "Marble Craze",
-    publisher: Some("Xype"),
-    date: Some("2002"),
-    tv_format: Some(Pal),
-    cart_type: Some("F4"),
-    hashes: ["e9d0bddbf24732a47a2da68b1f9f8767a6d5379c", "f3faa982e2e257045b460f7904c6d3f5a6cf372e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Xype"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "115cd7d1f30315962b76632b0d7afcb8069dccec",
+                ),
+                (
+                    sha1: "c3488902a8caf07625917e089e214047c5628cb2",
+                ),
+            ],
+        ),
+        (
+            date: Some("2002"),
+            publisher: Some("Xype"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e9d0bddbf24732a47a2da68b1f9f8767a6d5379c",
+                ),
+                (
+                    sha1: "f3faa982e2e257045b460f7904c6d3f5a6cf372e",
+                ),
+            ],
+        ),
+    ],
 )

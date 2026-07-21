@@ -1,9 +1,31 @@
 (
     title: "Daring Do versus the Everfree Forest (Pitfall! Hack)",
-    publisher: Some("plusX"),
-    date: Some("2012"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["1c05f29b7c37de2a7894ee88fd384e9d8c72d8bc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("plusX"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eb8d894d6865d99e4df81f89674ac0ae6899e2a7",
+                ),
+            ],
+        ),
+        (
+            date: Some("2012"),
+            publisher: Some("plusX"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1c05f29b7c37de2a7894ee88fd384e9d8c72d8bc",
+                ),
+            ],
+        ),
+    ],
 )

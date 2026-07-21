@@ -1,9 +1,19 @@
 (
-    title: "Insane Invaders (WIP)",
-    publisher: Some("SmasherImp"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1ebd23a93518d1eea27fe828d57e1200ed624f8c"],
-    source: None,
+    title: "Insane Invaders",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("SmasherImp"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ebd23a93518d1eea27fe828d57e1200ed624f8c",
+                ),
+            ],
+        ),
+    ],
 )

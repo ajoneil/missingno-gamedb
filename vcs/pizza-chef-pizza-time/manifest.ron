@@ -1,9 +1,18 @@
 (
     title: "Pizza Chef - Pizza Time (Prototype)",
-    publisher: Some("ZiMAG"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f8db484d454f518b21d9ff2f72ed188734d56ff6"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f8db484d454f518b21d9ff2f72ed188734d56ff6",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Jungle King (Hack)",
-    publisher: Some("Jess Ragan"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["7d79174fc5e77684d7d8314f0892518747431ce5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Jess Ragan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7d79174fc5e77684d7d8314f0892518747431ce5",
+                ),
+            ],
+        ),
+    ],
 )

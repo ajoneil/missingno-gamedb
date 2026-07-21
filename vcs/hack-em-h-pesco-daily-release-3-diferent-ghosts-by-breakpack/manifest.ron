@@ -1,9 +1,18 @@
 (
-    title: "Hack 'Em (pre-release) [h] [Pesco - Daily Release 3 - Diferent Ghosts by Breakpack]",
-    publisher: Some("Nukey Shay"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["9a5b86cccd5943f1637bf6f1260c470f84bab58a"],
-    source: None,
+    title: "Hack \'Em (pre-release) [h] [Pesco - Daily Release 3 - Diferent Ghosts by Breakpack]",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Nukey Shay"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9a5b86cccd5943f1637bf6f1260c470f84bab58a",
+                ),
+            ],
+        ),
+    ],
 )

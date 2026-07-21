@@ -1,9 +1,18 @@
 (
     title: "Donkey Kong Fusion (Spider Kong Hack)",
-    publisher: Some("Fabventure2600"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["80b34b5919121af87d3cb2d1c6e7f2207fc19cbd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fabventure2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "80b34b5919121af87d3cb2d1c6e7f2207fc19cbd",
+                ),
+            ],
+        ),
+    ],
 )

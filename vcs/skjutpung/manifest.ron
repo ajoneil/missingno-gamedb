@@ -1,9 +1,18 @@
 (
     title: "Skjutpung (Paddle Controllers)",
-    publisher: Some("Tjoppen"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0e8bd09a50e7ed1e43036c54afa22994fc98f8ee"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Tjoppen"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0e8bd09a50e7ed1e43036c54afa22994fc98f8ee",
+                ),
+            ],
+        ),
+    ],
 )

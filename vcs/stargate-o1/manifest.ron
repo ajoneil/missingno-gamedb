@@ -1,9 +1,18 @@
 (
     title: "Stargate [o1]",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["df2881c652e3ca73cc695c7ce9ac98d01087be57"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "df2881c652e3ca73cc695c7ce9ac98d01087be57",
+                ),
+            ],
+        ),
+    ],
 )

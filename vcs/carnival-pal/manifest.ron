@@ -1,9 +1,40 @@
 (
     title: "Carnival",
-    publisher: Some("CBS Electronics"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["0c7ba0272ac8684105daa28843875017644dcdf9", "167cc85fc6aea40e82be1f6aeccfd8233fe24ef1", "eca46938b98ce7d908e14c4a126560a9b453f69c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "95ebf178072d0bd29d5bf736990a69b6a78465cb",
+                ),
+                (
+                    sha1: "e1acf7a845b56e4b3d18192a75a81c7afa6f341a",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0c7ba0272ac8684105daa28843875017644dcdf9",
+                ),
+                (
+                    sha1: "167cc85fc6aea40e82be1f6aeccfd8233fe24ef1",
+                ),
+                (
+                    sha1: "eca46938b98ce7d908e14c4a126560a9b453f69c",
+                ),
+            ],
+        ),
+    ],
 )

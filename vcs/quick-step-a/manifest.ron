@@ -1,9 +1,18 @@
 (
     title: "Quick Step! [a]",
-    publisher: Some("Imagic"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["da949d3ca8cc918129e84d4a1fe849e686a84a06"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "da949d3ca8cc918129e84d4a1fe849e686a84a06",
+                ),
+            ],
+        ),
+    ],
 )

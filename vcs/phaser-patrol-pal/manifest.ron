@@ -1,9 +1,18 @@
 (
     title: "Phaser Patrol (1)",
-    publisher: Some("Starpath Corporation"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("AR"),
-    hashes: ["9734cde5019fad40aef45fe5271f245995027009"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9734cde5019fad40aef45fe5271f245995027009",
+                ),
+            ],
+        ),
+    ],
 )

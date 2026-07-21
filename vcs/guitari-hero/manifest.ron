@@ -1,9 +1,18 @@
 (
     title: "Guitari Hero",
-    publisher: Some("Michael Grande"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8e029fbee875a0d132ffdee2d6b429c904a94c48"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Michael Grande"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e029fbee875a0d132ffdee2d6b429c904a94c48",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
-    title: "Dodge 'Em Endless (Dodge 'Em Hack)",
-    publisher: Some("Kurt Howe"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["37b513154ef15f6866f45708982d0d1a546ee54c"],
-    source: None,
+    title: "Dodge \'Em Endless (Dodge \'Em Hack)",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Kurt Howe"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "37b513154ef15f6866f45708982d0d1a546ee54c",
+                ),
+            ],
+        ),
+    ],
 )

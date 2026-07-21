@@ -1,9 +1,32 @@
 (
     title: "M.A.D.",
-    publisher: Some("Carrere Video"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["86df578e913485089d9b3b3e7384076b53a98450"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e3d004c33de7ed3ecf1a38e79118c1a47a98381",
+                ),
+                (
+                    sha1: "d6e2b7765a9d30f91c9b2b8d0adf61ec5dc2b30a",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Carrere Video"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "86df578e913485089d9b3b3e7384076b53a98450",
+                ),
+            ],
+        ),
+    ],
 )

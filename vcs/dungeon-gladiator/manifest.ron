@@ -1,9 +1,19 @@
 (
-    title: "Dungeon Gladiator (WIP)",
-    publisher: Some("Exender2"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["28d63532429fa08fb1425323f596236caa82ab5b"],
-    source: None,
+    title: "Dungeon Gladiator",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Exender2"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "28d63532429fa08fb1425323f596236caa82ab5b",
+                ),
+            ],
+        ),
+    ],
 )

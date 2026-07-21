@@ -1,9 +1,19 @@
 (
-    title: "Dojo Tournament (WIP)",
-    publisher: Some("donnerkuh"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["dac1ecd15e6046d5f5c0a9d7bd00a002444a4f6c"],
-    source: None,
+    title: "Dojo Tournament",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("donnerkuh"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dac1ecd15e6046d5f5c0a9d7bd00a002444a4f6c",
+                ),
+            ],
+        ),
+    ],
 )

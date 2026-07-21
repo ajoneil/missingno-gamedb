@@ -1,9 +1,21 @@
 (
     title: "Golf (32 in 1)",
-    publisher: Some("Atari"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["6a514b2cffbe7f30d92be33d1fb7fa8ef4e74bc6", "b7e7e81d2bfded7c16075a8e75be6fc816318f9f"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6a514b2cffbe7f30d92be33d1fb7fa8ef4e74bc6",
+                ),
+                (
+                    sha1: "b7e7e81d2bfded7c16075a8e75be6fc816318f9f",
+                ),
+            ],
+        ),
+    ],
 )

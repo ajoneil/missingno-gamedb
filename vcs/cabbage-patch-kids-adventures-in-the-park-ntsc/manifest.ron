@@ -1,9 +1,42 @@
 (
     title: "Cabbage Patch Kids - Adventures in the Park (05-24-1984) (Prototype)",
-    publisher: Some("Coleco"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["159b2ead2e5455c87264565c628396cca997a7f3", "2a12324f04e22c86fd4f9933a223936c1117bba2", "33ee9f36608e9e8bb879a27235d04226121c5f6b", "63ce3795f48a2b1f5988f01d8bf7cc10f311223e", "8c7e04c6ed084d8dedc1e8eae12b72161c04f536", "9b922b590f1ae041f1473336068cdca765a62e6e", "a4ecf3757b78282dac1d16668f3820ca9da41ad9", "cd7f18bf865501e7b918522e00ddbe434fd57e21", "ffdba8ae22784ccc81a5a2e81a236ace09e5b7f4"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "159b2ead2e5455c87264565c628396cca997a7f3",
+                ),
+                (
+                    sha1: "2a12324f04e22c86fd4f9933a223936c1117bba2",
+                ),
+                (
+                    sha1: "33ee9f36608e9e8bb879a27235d04226121c5f6b",
+                ),
+                (
+                    sha1: "63ce3795f48a2b1f5988f01d8bf7cc10f311223e",
+                ),
+                (
+                    sha1: "8c7e04c6ed084d8dedc1e8eae12b72161c04f536",
+                ),
+                (
+                    sha1: "9b922b590f1ae041f1473336068cdca765a62e6e",
+                ),
+                (
+                    sha1: "a4ecf3757b78282dac1d16668f3820ca9da41ad9",
+                ),
+                (
+                    sha1: "cd7f18bf865501e7b918522e00ddbe434fd57e21",
+                ),
+                (
+                    sha1: "ffdba8ae22784ccc81a5a2e81a236ace09e5b7f4",
+                ),
+            ],
+        ),
+    ],
 )

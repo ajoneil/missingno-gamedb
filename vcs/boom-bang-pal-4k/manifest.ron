@@ -1,9 +1,45 @@
 (
     title: "Boom Bang",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["bae50a1939f11ebcb808f1f8b978c4e2586d65ee", "dd3494a1e3ffa063803b1f02716e87e89dc3c574"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c367396281bad3fe5ef8cd9d990c3d2994d32bf1",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bae50a1939f11ebcb808f1f8b978c4e2586d65ee",
+                ),
+                (
+                    sha1: "dd3494a1e3ffa063803b1f02716e87e89dc3c574",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "29547a5b632060fbbc935267b709811a77fff127",
+                ),
+            ],
+        ),
+    ],
 )

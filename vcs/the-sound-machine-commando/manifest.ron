@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Commando",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["cf5ace3265aa69573c6c2c1ee3de5c474dbc91cd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cf5ace3265aa69573c6c2c1ee3de5c474dbc91cd",
+                ),
+            ],
+        ),
+    ],
 )

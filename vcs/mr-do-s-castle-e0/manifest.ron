@@ -1,9 +1,21 @@
 (
-    title: "Mr. Do!'s Castle",
-    publisher: Some("Parker Brothers"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("E0"),
-    hashes: ["2d1c99a0159f9bf5fe727d34f46b07d93bc8341c", "95baed46d83d92f1c8f2025a4367eba3932adf61"],
-    source: None,
+    title: "Mr. Do!\'s Castle",
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2d1c99a0159f9bf5fe727d34f46b07d93bc8341c",
+                ),
+                (
+                    sha1: "95baed46d83d92f1c8f2025a4367eba3932adf61",
+                ),
+            ],
+        ),
+    ],
 )

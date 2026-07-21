@@ -1,9 +1,37 @@
 (
     title: "Trick Shot",
-    publisher: Some("Imagic"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["799e24a0cf4c0695e34e94847f223706a40fccac"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "86c563db11db9afbffbd73c55e9fae9b2f69be4f",
+                ),
+                (
+                    sha1: "99c5531c653c84f28fffdfa49ae20d6c16fcd752",
+                ),
+                (
+                    sha1: "c7d7db16755923ec1ad229d2e61312e5f394de1d",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "799e24a0cf4c0695e34e94847f223706a40fccac",
+                ),
+            ],
+        ),
+    ],
 )

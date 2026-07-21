@@ -1,9 +1,18 @@
 (
     title: "Space Canyon",
-    publisher: Some("Panda"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["26c6c47e9b654e81f47875c5fcb4e6212125f329"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Panda"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "26c6c47e9b654e81f47875c5fcb4e6212125f329",
+                ),
+            ],
+        ),
+    ],
 )

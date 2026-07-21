@@ -1,9 +1,19 @@
 (
-    title: "Smash (WIP)",
-    publisher: Some("Jason Parlee"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c1792c213b9357caddf09c0c691ac0454966730f"],
-    source: None,
+    title: "Smash",
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Jason Parlee"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c1792c213b9357caddf09c0c691ac0454966730f",
+                ),
+            ],
+        ),
+    ],
 )

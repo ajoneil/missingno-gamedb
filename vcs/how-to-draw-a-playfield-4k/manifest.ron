@@ -1,9 +1,18 @@
 (
     title: "How to Draw a Playfield (Nick Bensema) (PD)",
-    publisher: Some("Nick Bensema"),
-    date: Some("1997"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["77657e6008a32943ab33f1d39215c1b4d8d44c03"],
-    source: None,
+    releases: [
+        (
+            date: Some("1997"),
+            publisher: Some("Nick Bensema"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "77657e6008a32943ab33f1d39215c1b4d8d44c03",
+                ),
+            ],
+        ),
+    ],
 )

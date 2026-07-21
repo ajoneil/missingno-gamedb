@@ -1,9 +1,18 @@
 (
     title: "Elevator Action (Proto)",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8SC"),
-    hashes: ["bab872ee41695cefe41d88e4932132eca6c4e69c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bab872ee41695cefe41d88e4932132eca6c4e69c",
+                ),
+            ],
+        ),
+    ],
 )

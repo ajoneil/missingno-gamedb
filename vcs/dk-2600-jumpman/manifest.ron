@@ -1,9 +1,19 @@
 (
-    title: "DK 2600 Jumpman (WIP)",
-    publisher: Some("iesposta"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC+"),
-    hashes: ["f40194a3ab8d1db5d9458f4a885cbba8a0613b7f"],
-    source: None,
+    title: "DK 2600 Jumpman",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("iesposta"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f40194a3ab8d1db5d9458f4a885cbba8a0613b7f",
+                ),
+            ],
+        ),
+    ],
 )

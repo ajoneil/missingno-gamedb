@@ -1,9 +1,18 @@
 (
     title: "Super Action Pak - Pitfall, Barnstorming, Grand Prix, Laser Blast",
-    publisher: Some("HES"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["0fd7b46d7e1c5eeea68108d0bb92ec3872ab3d56"],
-    source: None,
+    releases: [
+        (
+            date: Some("1988"),
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0fd7b46d7e1c5eeea68108d0bb92ec3872ab3d56",
+                ),
+            ],
+        ),
+    ],
 )

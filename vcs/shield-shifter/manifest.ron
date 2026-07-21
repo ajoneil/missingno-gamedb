@@ -1,9 +1,18 @@
 (
     title: "Shield Shifter",
-    publisher: Some("John A. Reder"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["104167d5d920744dbf4fac4f7a3614798892a48b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("John A. Reder"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "104167d5d920744dbf4fac4f7a3614798892a48b",
+                ),
+            ],
+        ),
+    ],
 )

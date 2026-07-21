@@ -1,9 +1,19 @@
 (
-    title: "Kirby 2600 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["1cf5d4ef7927615fa11a9a549e716abe3eec5947"],
-    source: None,
+    title: "Kirby 2600",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1cf5d4ef7927615fa11a9a549e716abe3eec5947",
+                ),
+            ],
+        ),
+    ],
 )

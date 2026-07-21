@@ -1,9 +1,30 @@
 (
     title: "Farmyard Fun",
-    publisher: Some("Suntek"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["6f2cce0737f60310892801c42673ee27420f96dc"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Video Game Cartridge"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "63a24d4f86529974ee38f0e3bd6602470835c993",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6f2cce0737f60310892801c42673ee27420f96dc",
+                ),
+            ],
+        ),
+    ],
 )

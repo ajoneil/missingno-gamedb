@@ -1,9 +1,34 @@
 (
-    title: "Roc 'n Rope",
-    publisher: Some("CBS Electronics"),
-    date: Some("1984"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["ec030ffa9ff574b2ad10e0cecff9af2b1f0ca254"],
-    source: None,
+    title: "Roc \'n Rope",
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0abf0a292d4a24df5a5ebe19a9729f3a8f883c8b",
+                ),
+                (
+                    sha1: "104375b2b8a5434971cddde6ef8edf56f7e65046",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ec030ffa9ff574b2ad10e0cecff9af2b1f0ca254",
+                ),
+            ],
+        ),
+    ],
 )

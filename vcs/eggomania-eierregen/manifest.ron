@@ -1,9 +1,18 @@
 (
     title: "Eggomania - Eierregen (Paddle)",
-    publisher: Some("Carrere Video"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["5b1a7dc9c5a6b7523f26a91ad9edb30467aff573"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Carrere Video"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b1a7dc9c5a6b7523f26a91ad9edb30467aff573",
+                ),
+            ],
+        ),
+    ],
 )

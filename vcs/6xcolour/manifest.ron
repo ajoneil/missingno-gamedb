@@ -1,9 +1,19 @@
 (
-    title: "6xColour (WIP)",
-    publisher: Some("Cye Freeman"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["180f27f3e93a35cf947a22c61b07e2ad356e3e2f"],
-    source: None,
+    title: "6xColour",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Cye Freeman"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "180f27f3e93a35cf947a22c61b07e2ad356e3e2f",
+                ),
+            ],
+        ),
+    ],
 )

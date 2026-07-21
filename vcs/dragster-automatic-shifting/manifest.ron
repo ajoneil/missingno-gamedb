@@ -1,8 +1,17 @@
 (
     title: "Dragster Automatic Shifting (Dragster Hack)",
-    publisher: Some("Thomas Jentzsch"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["6d66b1d5e8ead295c2eef29292148f13ac822a30"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6d66b1d5e8ead295c2eef29292148f13ac822a30",
+                ),
+            ],
+        ),
+    ],
 )

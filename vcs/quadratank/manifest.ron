@@ -1,9 +1,18 @@
 (
     title: "QuadraTank (Tank Hack)",
-    publisher: Some("Nicholas Cook"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d1522bc24874137d5b138f2828e46d5b84ddcc64"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Nicholas Cook"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d1522bc24874137d5b138f2828e46d5b84ddcc64",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,34 @@
 (
     title: "Cat Trax",
-    publisher: Some("Thomas Jentzsch"),
-    date: Some("2002"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["ae5859cf97ce7c6ed892eafd15acacdef439b2d3"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("UA Limited"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e979de719cecab2115affd9c0552c6c596b1999a",
+                ),
+                (
+                    sha1: "fddf25a4065007bd32e5e26ebbd3e47db78eb680",
+                ),
+            ],
+        ),
+        (
+            date: Some("2002"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ae5859cf97ce7c6ed892eafd15acacdef439b2d3",
+                ),
+            ],
+        ),
+    ],
 )

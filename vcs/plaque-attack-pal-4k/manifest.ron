@@ -1,8 +1,58 @@
 (
     title: "Plaque Attack",
-    publisher: Some("Activision"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["d826a15e2e35702c0dc3dffea06f1bee4605cdbf"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "103398dd35ebd39450c5cac760fa332aac3f9458",
+                ),
+                (
+                    sha1: "5095718c7abac1021f51912ffef2488657685040",
+                ),
+                (
+                    sha1: "5948e4171eeaba36081ddcc048ed7450889b991b",
+                ),
+                (
+                    sha1: "aa9fcb52cda74e69bf2b990e256c54c426c5e216",
+                ),
+                (
+                    sha1: "d00974c32cd3ed70848b846602192c09f134a5da",
+                ),
+                (
+                    sha1: "dbcdad8d400a14f05e66a9d75cd3414fc80cc357",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bac1a26334d521d6f1dfc9b32e5707927acfd645",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d826a15e2e35702c0dc3dffea06f1bee4605cdbf",
+                ),
+            ],
+        ),
+    ],
 )

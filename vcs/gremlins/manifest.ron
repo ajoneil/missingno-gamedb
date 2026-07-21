@@ -1,9 +1,21 @@
 (
     title: "Gremlins",
-    publisher: Some("Atari"),
-    date: Some("1984"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["7a027329309e018b0d51adcb6ae13c9d13e54f4a", "df506a506eb333295e56cb9e4204e327ef63127d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7a027329309e018b0d51adcb6ae13c9d13e54f4a",
+                ),
+                (
+                    sha1: "df506a506eb333295e56cb9e4204e327ef63127d",
+                ),
+            ],
+        ),
+    ],
 )

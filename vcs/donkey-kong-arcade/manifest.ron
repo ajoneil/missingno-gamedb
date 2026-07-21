@@ -1,9 +1,18 @@
 (
     title: "Donkey Kong Arcade (Donkey Kong Hack)",
-    publisher: Some("ILA2600"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["02a57de1b40b668f204e1cebe0e4cb9c27be8ae2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("ILA2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "02a57de1b40b668f204e1cebe0e4cb9c27be8ae2",
+                ),
+            ],
+        ),
+    ],
 )

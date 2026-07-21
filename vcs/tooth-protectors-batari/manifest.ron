@@ -1,7 +1,16 @@
 (
     title: "Tooth Protectors Batari (F4 Conversion)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["dcfa0932c353493fd7eb30f25eb652a47a4db250"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dcfa0932c353493fd7eb30f25eb652a47a4db250",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Fireball [a]",
-    publisher: Some("Arcadia Corporation"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["50e6078a5e433c66c8b16671b1a44336f595b238"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Arcadia Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "50e6078a5e433c66c8b16671b1a44336f595b238",
+                ),
+            ],
+        ),
+    ],
 )

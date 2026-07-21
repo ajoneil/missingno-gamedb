@@ -1,9 +1,18 @@
 (
     title: "Gangster",
-    publisher: Some("Videospielkassette"),
-    date: Some("1981"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["ae403172bea0aca1f12e115d431c93fa76976560"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Videospielkassette"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ae403172bea0aca1f12e115d431c93fa76976560",
+                ),
+            ],
+        ),
+    ],
 )

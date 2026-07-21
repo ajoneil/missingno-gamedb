@@ -1,9 +1,18 @@
 (
     title: "Xaxyrax Road (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["c8aa4f2061e28514b0af051aca8a4a7c56521504"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c8aa4f2061e28514b0af051aca8a4a7c56521504",
+                ),
+            ],
+        ),
+    ],
 )

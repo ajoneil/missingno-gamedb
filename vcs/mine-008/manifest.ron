@@ -1,9 +1,18 @@
 (
     title: "Mine 008 (Asteroids Hack)",
-    publisher: Some("Haydn Jones"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["5a433b0f70f392b496359b1f7faad32ecfc33ba5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Haydn Jones"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5a433b0f70f392b496359b1f7faad32ecfc33ba5",
+                ),
+            ],
+        ),
+    ],
 )

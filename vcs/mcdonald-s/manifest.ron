@@ -1,9 +1,18 @@
 (
-    title: "McDonald's (Cakewalk Hack)",
-    publisher: Some("James Catalano"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ef3d26e864d8ed755b0909cbfc82937e799ecd53"],
-    source: None,
+    title: "McDonald\'s (Cakewalk Hack)",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("James Catalano"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef3d26e864d8ed755b0909cbfc82937e799ecd53",
+                ),
+            ],
+        ),
+    ],
 )

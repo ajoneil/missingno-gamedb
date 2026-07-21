@@ -1,9 +1,33 @@
 (
-    title: "21 Blue (WIP)",
-    publisher: Some("RevEng"),
-    date: Some("2011"),
-    tv_format: Some(Pal),
-    cart_type: Some("F4"),
-    hashes: ["4e12aa0fcafd047e56a027fb80fe75e309e1f258"],
-    source: None,
+    title: "21 Blue",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("RevEng"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1fc99cf3b456b45452a9175620667525dcc7f482",
+                ),
+            ],
+        ),
+        (
+            date: Some("2011"),
+            publisher: Some("RevEng"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e12aa0fcafd047e56a027fb80fe75e309e1f258",
+                ),
+            ],
+        ),
+    ],
 )

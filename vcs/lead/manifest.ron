@@ -1,9 +1,18 @@
 (
     title: "Lead",
-    publisher: Some("Simone Serra"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["c8dee712189145ab8347ade69b31b6689e1e4e7b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Simone Serra"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c8dee712189145ab8347ade69b31b6689e1e4e7b",
+                ),
+            ],
+        ),
+    ],
 )

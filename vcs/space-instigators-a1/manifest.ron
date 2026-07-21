@@ -1,9 +1,18 @@
 (
     title: "Space Instigators [a1] (V1.8) (19-10-2002) (Christopher Tumber)",
-    publisher: Some("CT"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["065c297248d0d6117168424c4d93d744a8ddb2de"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("CT"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "065c297248d0d6117168424c4d93d744a8ddb2de",
+                ),
+            ],
+        ),
+    ],
 )

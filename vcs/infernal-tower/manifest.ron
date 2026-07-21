@@ -1,9 +1,18 @@
 (
     title: "Infernal Tower",
-    publisher: Some("Carrere Video"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["933ea6fa612fbbb3d5249641df16b800d3777f71"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Carrere Video"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "933ea6fa612fbbb3d5249641df16b800d3777f71",
+                ),
+            ],
+        ),
+    ],
 )

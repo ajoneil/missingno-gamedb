@@ -1,9 +1,19 @@
 (
-    title: "Super Handball Deluxe (WIP)",
-    publisher: Some("Jonathon Bont"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["77ee222b093f7b6ffa1ca3b1389f50221216a3c0"],
-    source: None,
+    title: "Super Handball Deluxe",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Jonathon Bont"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "77ee222b093f7b6ffa1ca3b1389f50221216a3c0",
+                ),
+            ],
+        ),
+    ],
 )

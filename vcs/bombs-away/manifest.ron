@@ -1,9 +1,18 @@
 (
     title: "Bombs Away!",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["dfb780906a79963a37b3d4bcdab26d6df4c82906"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Steve Engelhardt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dfb780906a79963a37b3d4bcdab26d6df4c82906",
+                ),
+            ],
+        ),
+    ],
 )

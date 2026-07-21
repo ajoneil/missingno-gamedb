@@ -1,9 +1,18 @@
 (
     title: "Eishockey-Fieber",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["c08eda223d9bbd74d265f83dab25e1c5aed21d29"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c08eda223d9bbd74d265f83dab25e1c5aed21d29",
+                ),
+            ],
+        ),
+    ],
 )

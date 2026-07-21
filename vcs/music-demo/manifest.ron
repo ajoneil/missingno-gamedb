@@ -1,8 +1,17 @@
 (
     title: "Music Demo (JWDA, Todd Marshall)",
-    publisher: Some("JWDA"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bc1dd01c067402ffc70258cef91cebe39315edc7"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("JWDA"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc1dd01c067402ffc70258cef91cebe39315edc7",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Mr. Flanksteak 2 (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7de94e833c83f2f9f89a6114da0e38ee41444114"],
-    source: None,
+    title: "Mr. Flanksteak 2",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7de94e833c83f2f9f89a6114da0e38ee41444114",
+                ),
+            ],
+        ),
+    ],
 )

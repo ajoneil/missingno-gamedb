@@ -1,9 +1,18 @@
 (
     title: "Gunfight 2600 - Early Play-kernel (Manuel Rotschkar)",
-    publisher: Some("Hozer Video Games"),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["34763bfadc46a5fecc1a35aa587a3abf8bae38de"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Hozer Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "34763bfadc46a5fecc1a35aa587a3abf8bae38de",
+                ),
+            ],
+        ),
+    ],
 )

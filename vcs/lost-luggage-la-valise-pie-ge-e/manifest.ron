@@ -1,9 +1,18 @@
 (
-    title: "Lost Luggage - La valise piégée (Airport Mayhem)",
-    publisher: Some("Apollo"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["e83024e007e103b84f83d31233627daf741df609"],
-    source: None,
+    title: "Lost Luggage - La valise pie\u{301}ge\u{301}e (Airport Mayhem)",
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e83024e007e103b84f83d31233627daf741df609",
+                ),
+            ],
+        ),
+    ],
 )

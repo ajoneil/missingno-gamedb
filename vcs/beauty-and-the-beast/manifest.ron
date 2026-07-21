@@ -1,9 +1,19 @@
 (
-    title: "Beauty and the Beast (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["eb285312efbb10e71982664fa50db9776a21ea42"],
-    source: None,
+    title: "Beauty and the Beast",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eb285312efbb10e71982664fa50db9776a21ea42",
+                ),
+            ],
+        ),
+    ],
 )

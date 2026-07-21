@@ -1,8 +1,17 @@
 (
     title: "Jam Demo 1 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c00124f9e80f4fda6b59e213c15e77fd96f13dcd"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c00124f9e80f4fda6b59e213c15e77fd96f13dcd",
+                ),
+            ],
+        ),
+    ],
 )

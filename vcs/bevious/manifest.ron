@@ -1,9 +1,19 @@
 (
-    title: "Bevious (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["fc9ff9231f7fcf8c015d5f3ca0c4a2e5f5a793b0"],
-    source: None,
+    title: "Bevious",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fc9ff9231f7fcf8c015d5f3ca0c4a2e5f5a793b0",
+                ),
+            ],
+        ),
+    ],
 )

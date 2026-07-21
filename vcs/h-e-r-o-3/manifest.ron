@@ -1,9 +1,18 @@
 (
     title: "H.E.R.O. 3 (H.E.R.O. Hack)",
-    publisher: Some("Mr. Tim"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["1532320dce58f9ce17bdcf9896c921f7361820c7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Mr. Tim"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1532320dce58f9ce17bdcf9896c921f7361820c7",
+                ),
+            ],
+        ),
+    ],
 )

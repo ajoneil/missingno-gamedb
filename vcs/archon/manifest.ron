@@ -1,9 +1,19 @@
 (
-    title: "Archon (WIP)",
-    publisher: Some("Christopher Tumber"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["79a3fe6633c968f473f428f870d6fbc7248a6748"],
-    source: None,
+    title: "Archon",
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Christopher Tumber"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "79a3fe6633c968f473f428f870d6fbc7248a6748",
+                ),
+            ],
+        ),
+    ],
 )

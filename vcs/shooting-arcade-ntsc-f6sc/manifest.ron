@@ -1,9 +1,18 @@
 (
     title: "Shooting Arcade (Proto)",
-    publisher: Some("Atari"),
-    date: Some("1989"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6SC"),
-    hashes: ["6e6daa34878d3e331c630359c7125a4ffba1b22d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6e6daa34878d3e331c630359c7125a4ffba1b22d",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Rad Action Pak - Kung-Fu Master, Freeway, Frostbite",
-    publisher: Some("HES"),
-    date: Some("1990"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["f00d108e7f1c7716e8ebee9201599f82103b52ff"],
-    source: None,
+    releases: [
+        (
+            date: Some("1990"),
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f00d108e7f1c7716e8ebee9201599f82103b52ff",
+                ),
+            ],
+        ),
+    ],
 )

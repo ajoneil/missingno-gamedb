@@ -1,9 +1,18 @@
 (
     title: "The Sound Machine - Breakdance 2",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8e6c54310ecc5a62f2871a034a195cdb34ce15f2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Manuel Rotschkar"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e6c54310ecc5a62f2871a034a195cdb34ce15f2",
+                ),
+            ],
+        ),
+    ],
 )

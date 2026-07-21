@@ -1,8 +1,17 @@
 (
     title: "Green Bar Text Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["096a81f542ff09b5e44479c6e1eeb646e5172659"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "096a81f542ff09b5e44479c6e1eeb646e5172659",
+                ),
+            ],
+        ),
+    ],
 )

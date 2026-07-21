@@ -1,9 +1,18 @@
 (
     title: "Fake Knight Rider Music",
-    publisher: Some("Duane Alan Hahn"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8048981e53599223e43fd98813de808362c121b9"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Duane Alan Hahn"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8048981e53599223e43fd98813de808362c121b9",
+                ),
+            ],
+        ),
+    ],
 )

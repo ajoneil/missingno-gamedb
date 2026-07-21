@@ -1,9 +1,21 @@
 (
     title: "Strat-O-Gems Deluxe (J. Payson)",
-    publisher: Some("John Payson"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4"),
-    hashes: ["88d3c2398485d8cb4962e1f505d2e8019a5f77b3", "e20b4ebcfedfa2689bddae40956f25b57434c211"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("John Payson"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "88d3c2398485d8cb4962e1f505d2e8019a5f77b3",
+                ),
+                (
+                    sha1: "e20b4ebcfedfa2689bddae40956f25b57434c211",
+                ),
+            ],
+        ),
+    ],
 )

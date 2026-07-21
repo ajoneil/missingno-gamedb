@@ -1,9 +1,18 @@
 (
     title: "bB Music - Melody 2 Final",
-    publisher: Some("thegoldenband"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["650d2e79a72582501eb925c8a36662e292539819"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("thegoldenband"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "650d2e79a72582501eb925c8a36662e292539819",
+                ),
+            ],
+        ),
+    ],
 )

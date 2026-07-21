@@ -1,9 +1,18 @@
 (
     title: "Boring Pac-Man (Hack)",
-    publisher: Some("Charles Morgan"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["aaeee6911b06eaa8ee34dc165cb39e286a262423"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Charles Morgan"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aaeee6911b06eaa8ee34dc165cb39e286a262423",
+                ),
+            ],
+        ),
+    ],
 )

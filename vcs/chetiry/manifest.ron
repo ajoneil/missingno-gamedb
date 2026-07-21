@@ -1,9 +1,19 @@
 (
-    title: "Chetiry (WIP)",
-    publisher: Some("Zach Matley"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d766aca101f89c76fab509037d2b29fb7afe54f0"],
-    source: None,
+    title: "Chetiry",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Zach Matley"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d766aca101f89c76fab509037d2b29fb7afe54f0",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "RUN Platform Demo (PD)",
-    publisher: Some("Ruffin Bailey"),
-    date: Some("1998"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d9c42c7328d76b65e6304e4d5fe3257961bcdf0d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1998"),
+            publisher: Some("Ruffin Bailey"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d9c42c7328d76b65e6304e4d5fe3257961bcdf0d",
+                ),
+            ],
+        ),
+    ],
 )

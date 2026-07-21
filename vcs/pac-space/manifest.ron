@@ -1,7 +1,16 @@
 (
     title: "Pac-Space (Pac-Man Hack)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["45ee2913d76f2a5ed9ca236cf9091221e62e0ff4"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "45ee2913d76f2a5ed9ca236cf9091221e62e0ff4",
+                ),
+            ],
+        ),
+    ],
 )

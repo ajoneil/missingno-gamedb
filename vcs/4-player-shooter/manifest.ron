@@ -1,9 +1,19 @@
 (
-    title: "4 Player Shooter (WIP)",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["3ba26cc4cd8c652dfea637e568e0297aefc42bcc"],
-    source: None,
+    title: "4 Player Shooter",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Bob Montgomery"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3ba26cc4cd8c652dfea637e568e0297aefc42bcc",
+                ),
+            ],
+        ),
+    ],
 )

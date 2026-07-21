@@ -1,9 +1,34 @@
 (
     title: "Dragon Defender",
-    publisher: Some("Suntek"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["794625475863c52259478ebd928ead829c1aaee3", "e474ad1864df56750ded71e9e457051eabfb03ee"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Thomas Jentzsch"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "64b85f9845e5097ec4d06847cbfbc9e0e371e3ce",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "794625475863c52259478ebd928ead829c1aaee3",
+                ),
+                (
+                    sha1: "e474ad1864df56750ded71e9e457051eabfb03ee",
+                ),
+            ],
+        ),
+    ],
 )

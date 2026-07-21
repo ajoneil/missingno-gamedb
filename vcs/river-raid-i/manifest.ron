@@ -1,8 +1,17 @@
 (
     title: "River Raid I (Edu Games - Edu Juegos)",
-    publisher: Some("Edu Games"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["bf4b8fab2087f1fc316cfc81d0678e3729e9e1f8"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("Edu Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bf4b8fab2087f1fc316cfc81d0678e3729e9e1f8",
+                ),
+            ],
+        ),
+    ],
 )

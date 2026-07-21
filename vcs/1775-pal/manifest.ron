@@ -1,9 +1,31 @@
 (
     title: "1775",
-    publisher: Some("David Weavil"),
-    date: Some("2010"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["884b978b38338dc465eca7869688a561d9038d2d"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a42af5e85117ce17586541d444e004ad674e487",
+                ),
+            ],
+        ),
+        (
+            date: Some("2010"),
+            publisher: Some("David Weavil"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "884b978b38338dc465eca7869688a561d9038d2d",
+                ),
+            ],
+        ),
+    ],
 )

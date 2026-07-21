@@ -1,9 +1,31 @@
 (
     title: "Dice Puzzle",
-    publisher: Some("Sancho"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["509eeb7b113b09e7326618b74f90fa2eb1ddfc95"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Panda"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "81022ef30e682183d51b18bff145ce425c6f924e",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Sancho"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "509eeb7b113b09e7326618b74f90fa2eb1ddfc95",
+                ),
+            ],
+        ),
+    ],
 )

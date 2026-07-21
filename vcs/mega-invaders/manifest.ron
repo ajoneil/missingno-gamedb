@@ -1,9 +1,18 @@
 (
     title: "Mega Invaders (Space Invaders Hack)",
-    publisher: Some("Larcen Tyler"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1ec24d0c99fbc4829205aff54f24859853cb9ec2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Larcen Tyler"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ec24d0c99fbc4829205aff54f24859853cb9ec2",
+                ),
+            ],
+        ),
+    ],
 )

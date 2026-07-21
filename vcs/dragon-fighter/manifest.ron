@@ -1,9 +1,18 @@
 (
     title: "Dragon Fighter (Double Dragon Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["a180b2a2dcbd42950915246c2a2b3a1f88f3ebb5"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a180b2a2dcbd42950915246c2a2b3a1f88f3ebb5",
+                ),
+            ],
+        ),
+    ],
 )

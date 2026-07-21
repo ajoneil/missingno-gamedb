@@ -1,9 +1,18 @@
 (
     title: "Omicron 2K",
-    publisher: Some("Simone Serra"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["0b325f57c792f87236d8586a374e008d957809bc"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Simone Serra"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0b325f57c792f87236d8586a374e008d957809bc",
+                ),
+            ],
+        ),
+    ],
 )

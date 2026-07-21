@@ -1,8 +1,17 @@
 (
     title: "Sky Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c3ee5ba4171653524e78ee2ee0bca37a684d2973"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c3ee5ba4171653524e78ee2ee0bca37a684d2973",
+                ),
+            ],
+        ),
+    ],
 )

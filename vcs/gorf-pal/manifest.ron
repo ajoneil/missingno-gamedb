@@ -1,9 +1,37 @@
 (
     title: "Gorf",
-    publisher: Some("CBS Electronics"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["d530e73e3a44b91f0f2cf74c520edf1c258d07ce"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "35f8341c73c7e6e896cb065977427b3f98ae9f08",
+                ),
+                (
+                    sha1: "642d1afc6cdac96bbf2908fe69119823d077ef77",
+                ),
+                (
+                    sha1: "dd0625c442921cc65d91bbd0f2217837c1ce33b2",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d530e73e3a44b91f0f2cf74c520edf1c258d07ce",
+                ),
+            ],
+        ),
+    ],
 )

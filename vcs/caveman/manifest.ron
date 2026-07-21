@@ -1,9 +1,18 @@
 (
     title: "Caveman (Kangaroo Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["24f250e824f020f6fc796b984d21e4936e6ce7cd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "24f250e824f020f6fc796b984d21e4936e6ce7cd",
+                ),
+            ],
+        ),
+    ],
 )

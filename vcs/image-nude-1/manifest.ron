@@ -1,9 +1,18 @@
 (
     title: "Image - Nude 1",
-    publisher: Some("Andrew Davie"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("3F"),
-    hashes: ["3c8960f71c1d3f182a16e1ec91b3209d2120e67b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Andrew Davie"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3c8960f71c1d3f182a16e1ec91b3209d2120e67b",
+                ),
+            ],
+        ),
+    ],
 )

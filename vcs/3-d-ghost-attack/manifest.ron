@@ -1,9 +1,18 @@
 (
     title: "3-D Ghost Attack (Prototype)",
-    publisher: Some("Amiga"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["29e431c27ddb8649ec3f15966011505822907139"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "29e431c27ddb8649ec3f15966011505822907139",
+                ),
+            ],
+        ),
+    ],
 )

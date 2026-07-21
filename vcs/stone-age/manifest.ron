@@ -1,9 +1,18 @@
 (
     title: "Stone Age",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["45d37e37dea763956737110770e3d33de9c873a5"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "45d37e37dea763956737110770e3d33de9c873a5",
+                ),
+            ],
+        ),
+    ],
 )

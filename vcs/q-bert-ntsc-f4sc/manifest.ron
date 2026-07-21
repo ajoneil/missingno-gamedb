@@ -1,9 +1,18 @@
 (
     title: "Q-Bert",
-    publisher: Some("jbs30000"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F4SC"),
-    hashes: ["3bbe4cfc5705c881ea09d605f512219b6f0b50e1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("jbs30000"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3bbe4cfc5705c881ea09d605f512219b6f0b50e1",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Chips 2nd Challenge (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["423e79bd229264a7b8042fa50eb5a3568b5c4fcb"],
-    source: None,
+    title: "Chips 2nd Challenge",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "423e79bd229264a7b8042fa50eb5a3568b5c4fcb",
+                ),
+            ],
+        ),
+    ],
 )

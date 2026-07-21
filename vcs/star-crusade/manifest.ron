@@ -1,9 +1,19 @@
 (
-    title: "Star Crusade (WIP)",
-    publisher: Some("Jarod Kitchen"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("DPC+"),
-    hashes: ["51bdd1055c1cfbdbe587bfd1cd92bf7246d445f3"],
-    source: None,
+    title: "Star Crusade",
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Jarod Kitchen"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("DPC+"),
+            ),
+            artifacts: [
+                (
+                    sha1: "51bdd1055c1cfbdbe587bfd1cd92bf7246d445f3",
+                ),
+            ],
+        ),
+    ],
 )

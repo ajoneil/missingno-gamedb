@@ -1,9 +1,19 @@
 (
-    title: "Snake (WIP)",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5c41c48869aa4b64111a24011589be33e7f73ade"],
-    source: None,
+    title: "Snake",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Rick Skrbina"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5c41c48869aa4b64111a24011589be33e7f73ade",
+                ),
+            ],
+        ),
+    ],
 )

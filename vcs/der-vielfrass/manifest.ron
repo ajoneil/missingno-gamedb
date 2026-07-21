@@ -1,9 +1,18 @@
 (
     title: "Der Vielfrass",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["03bc54eaa83872d4622513b23094c02b2b38a619"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "03bc54eaa83872d4622513b23094c02b2b38a619",
+                ),
+            ],
+        ),
+    ],
 )

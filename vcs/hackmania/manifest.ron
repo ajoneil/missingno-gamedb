@@ -1,9 +1,18 @@
 (
     title: "Hackmania (MegaMania Hack)",
-    publisher: Some("Ricardo Contieri"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["97e3969e4350d42574bce2d46dd19ec3effa421f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Ricardo Contieri"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "97e3969e4350d42574bce2d46dd19ec3effa421f",
+                ),
+            ],
+        ),
+    ],
 )

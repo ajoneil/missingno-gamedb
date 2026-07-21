@@ -1,9 +1,19 @@
 (
-    title: "Worm Whomper Demo (WIP)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["aa6614deff0535981681a0f6a35f2bac575bb94d"],
-    source: None,
+    title: "Worm Whomper Demo",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Manuel Rotschkar"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aa6614deff0535981681a0f6a35f2bac575bb94d",
+                ),
+            ],
+        ),
+    ],
 )

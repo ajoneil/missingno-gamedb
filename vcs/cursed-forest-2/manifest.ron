@@ -1,9 +1,18 @@
 (
     title: "Cursed Forest 2 (Forest Hack)",
-    publisher: Some("James Francis"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["69ab8d96df8fdf7d34c34f6170343549a87a2baf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("James Francis"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "69ab8d96df8fdf7d34c34f6170343549a87a2baf",
+                ),
+            ],
+        ),
+    ],
 )

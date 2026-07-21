@@ -1,9 +1,31 @@
 (
     title: "Marine Wars",
-    publisher: Some("Gakken"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["ad733f7bb62ce9275f348a5aea076d9df6107085"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Konami"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd9e94ca96c75a212f1414aa511fd99ecdadaf44",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Gakken"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad733f7bb62ce9275f348a5aea076d9df6107085",
+                ),
+            ],
+        ),
+    ],
 )

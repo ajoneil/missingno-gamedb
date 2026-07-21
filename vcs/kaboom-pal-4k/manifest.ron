@@ -1,7 +1,61 @@
 (
     title: "Kaboom!",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["d8aa213ad2171eeef5165fa704c70ac56c3152a0"],
-    source: None,
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "40d4df4f8e4a69a299ae7678c17e72bedeb70105",
+                ),
+                (
+                    sha1: "ae5af59b3503858bd847c07fea8033139890ff34",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "18eaac95e59947ff4b2e647572e082f75387028c",
+                ),
+                (
+                    sha1: "46d4f6ded6b87858f84db9df53fd69a62a06ab28",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e2fa031f48c2d76576f46482919dd5e70aac5cd",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8aa213ad2171eeef5165fa704c70ac56c3152a0",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,41 @@
 (
     title: "Q-bert",
-    publisher: Some("Atari"),
-    date: Some("1987"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["8bf36ec012a46f8f7b17cc41ea0afdf2fe00d191", "91966f4ffd0004b12ba50b990c93b25b7ae95457", "e5d0f615fed46efca3cc931a1e5f7ebcce73d586"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "16c9b1ec1d78a9a5a748ffcda713ec14316b22ba",
+                ),
+                (
+                    sha1: "2b50414eac0f1d3e3ab96ee7d7a261d5b579fb9f",
+                ),
+                (
+                    sha1: "f3ef9787b4287a32e4d9ac7b9c3358edc16315b2",
+                ),
+            ],
+        ),
+        (
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8bf36ec012a46f8f7b17cc41ea0afdf2fe00d191",
+                ),
+                (
+                    sha1: "91966f4ffd0004b12ba50b990c93b25b7ae95457",
+                ),
+                (
+                    sha1: "e5d0f615fed46efca3cc931a1e5f7ebcce73d586",
+                ),
+            ],
+        ),
+    ],
 )

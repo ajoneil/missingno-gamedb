@@ -1,9 +1,18 @@
 (
     title: "Death Derby (19-01-2003) [a1]",
-    publisher: Some("TJ"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["86a25fc565deb035d3f6523b5384dcb2f2737310"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("TJ"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "86a25fc565deb035d3f6523b5384dcb2f2737310",
+                ),
+            ],
+        ),
+    ],
 )

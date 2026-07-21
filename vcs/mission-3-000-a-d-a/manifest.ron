@@ -1,7 +1,16 @@
 (
     title: "Mission 3,000 A.D. [a]",
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["a4ca8a80202e52851102146a2533bca2b9c0628e"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a4ca8a80202e52851102146a2533bca2b9c0628e",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,17 @@
 (
     title: "Atari Logo Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["dc976d16515ea4b9dd5c2cfb76f95620b3090845"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc976d16515ea4b9dd5c2cfb76f95620b3090845",
+                ),
+            ],
+        ),
+    ],
 )

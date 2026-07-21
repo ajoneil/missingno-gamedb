@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - JohnKless_4",
-    publisher: Some("John Kless"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5f5863acb50e822b78e48340509062c22defb69a"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("John Kless"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5f5863acb50e822b78e48340509062c22defb69a",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Super Pac-Man Demo",
-    publisher: Some("Will Nicholes"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["62cfa3eb6508b6ee927cd1a99dca3cc43d5e7f0f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("Will Nicholes"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "62cfa3eb6508b6ee927cd1a99dca3cc43d5e7f0f",
+                ),
+            ],
+        ),
+    ],
 )

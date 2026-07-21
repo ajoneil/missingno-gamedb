@@ -1,9 +1,18 @@
 (
     title: "Star Wars - The Battle of Alderaan (Star Strike Hack)",
-    publisher: Some("Barry Laws Jr."),
-    date: Some("2001"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4be17e5d9e3dab73053bbf1aa74ec4d861cb61be"],
-    source: None,
+    releases: [
+        (
+            date: Some("2001"),
+            publisher: Some("Barry Laws Jr."),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4be17e5d9e3dab73053bbf1aa74ec4d861cb61be",
+                ),
+            ],
+        ),
+    ],
 )

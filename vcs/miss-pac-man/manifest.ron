@@ -1,9 +1,18 @@
 (
     title: "Miss Pac Man",
-    publisher: Some("JVP"),
-    date: Some("1985"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["5bafc743a760fad21f595306439195ef5a1912f1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1985"),
+            publisher: Some("JVP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5bafc743a760fad21f595306439195ef5a1912f1",
+                ),
+            ],
+        ),
+    ],
 )

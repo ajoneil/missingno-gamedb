@@ -1,9 +1,18 @@
 (
     title: "Homestar Runner DK (Donkey Kong Hack)",
-    publisher: Some("LesserRaven"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["e0fc7e3f8731d4c19fba2df8ebec69db7b15377f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("LesserRaven"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e0fc7e3f8731d4c19fba2df8ebec69db7b15377f",
+                ),
+            ],
+        ),
+    ],
 )

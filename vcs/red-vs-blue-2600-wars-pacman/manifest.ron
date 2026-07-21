@@ -1,9 +1,18 @@
 (
     title: "Red vs. Blue 2600 Wars Pacman (Combat Hack)",
-    publisher: Some("William Pilgrim"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["fd4963f0f2ea035957343abc64dd3714743e6a9e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("William Pilgrim"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fd4963f0f2ea035957343abc64dd3714743e6a9e",
+                ),
+            ],
+        ),
+    ],
 )

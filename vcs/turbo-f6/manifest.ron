@@ -1,9 +1,19 @@
 (
-    title: "Turbo (WIP)",
-    publisher: Some("Steve Engelhardt"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["5c937fdad1810ae1b094c884dc1656c9f01531bb"],
-    source: None,
+    title: "Turbo",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Steve Engelhardt"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5c937fdad1810ae1b094c884dc1656c9f01531bb",
+                ),
+            ],
+        ),
+    ],
 )

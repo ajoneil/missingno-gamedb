@@ -1,9 +1,19 @@
 (
-    title: "Scrolling ROM Playfield (WIP)",
-    publisher: Some("Michael S. Rideout"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["00ff17ad24bb333b8d497a498b745e8077d38c2a"],
-    source: None,
+    title: "Scrolling ROM Playfield",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Michael S. Rideout"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "00ff17ad24bb333b8d497a498b745e8077d38c2a",
+                ),
+            ],
+        ),
+    ],
 )

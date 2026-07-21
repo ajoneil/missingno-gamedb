@@ -1,9 +1,21 @@
 (
     title: "Demon Attack (Death from Above) (720000-200, 720101-1B, 720101-1C, IA3200, IA3200C, IX-006-04) [fixed]",
-    publisher: Some("Imagic"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b5dc036792717d8bee953564cc1b587de02f0e57", "e5011b85a0e3c148087865bebd7e9b6608c32292"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b5dc036792717d8bee953564cc1b587de02f0e57",
+                ),
+                (
+                    sha1: "e5011b85a0e3c148087865bebd7e9b6608c32292",
+                ),
+            ],
+        ),
+    ],
 )

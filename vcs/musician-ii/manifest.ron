@@ -1,9 +1,18 @@
 (
     title: "Musician II",
-    publisher: Some("Lodmot"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["92040478ea886ca4b5c21dda2aa86ac3a389cd32"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Lodmot"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "92040478ea886ca4b5c21dda2aa86ac3a389cd32",
+                ),
+            ],
+        ),
+    ],
 )

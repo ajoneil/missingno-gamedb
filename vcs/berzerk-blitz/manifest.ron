@@ -1,9 +1,19 @@
 (
-    title: "Berzerk Blitz (WIP)",
-    publisher: Some("TooSlowGamer"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["0ba0d639878db323cb4f5a54a7fcceee37a46367"],
-    source: None,
+    title: "Berzerk Blitz",
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("TooSlowGamer"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ba0d639878db323cb4f5a54a7fcceee37a46367",
+                ),
+            ],
+        ),
+    ],
 )

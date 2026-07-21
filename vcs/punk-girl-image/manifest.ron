@@ -1,9 +1,18 @@
 (
     title: "Punk Girl Image",
-    publisher: Some("Ivan Machado"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6e2a04dfb19eebf677f5d5032c9a1e4a5dc655bf"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Ivan Machado"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6e2a04dfb19eebf677f5d5032c9a1e4a5dc655bf",
+                ),
+            ],
+        ),
+    ],
 )

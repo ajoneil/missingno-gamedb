@@ -1,9 +1,18 @@
 (
-    title: "Pinky's Circus (Circus Atari Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b1be8aa89b3754b212d427c9d36804b2be7c557c"],
-    source: None,
+    title: "Pinky\'s Circus (Circus Atari Hack)",
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b1be8aa89b3754b212d427c9d36804b2be7c557c",
+                ),
+            ],
+        ),
+    ],
 )

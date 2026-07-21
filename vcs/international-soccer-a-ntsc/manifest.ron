@@ -1,9 +1,18 @@
 (
     title: "International Soccer [a] (Mattel)",
-    publisher: Some("M Network"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["84e44661a5fdd5ad8b670c097e4aaed99e36032b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "84e44661a5fdd5ad8b670c097e4aaed99e36032b",
+                ),
+            ],
+        ),
+    ],
 )

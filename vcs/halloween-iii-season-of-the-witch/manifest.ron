@@ -1,9 +1,18 @@
 (
     title: "Halloween III - Season of the Witch (Kaboom! Hack)",
-    publisher: Some("Tim Martin"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9eb5a5c0356997d80b4d6917547f85a03fce10f1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Tim Martin"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9eb5a5c0356997d80b4d6917547f85a03fce10f1",
+                ),
+            ],
+        ),
+    ],
 )

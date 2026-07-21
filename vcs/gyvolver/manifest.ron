@@ -1,9 +1,19 @@
 (
-    title: "Gyvolver (WIP)",
-    publisher: Some("Duane Alan Hahn"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d0f9ec998d7373c22fe9443869615cff9ad26f43"],
-    source: None,
+    title: "Gyvolver",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Duane Alan Hahn"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d0f9ec998d7373c22fe9443869615cff9ad26f43",
+                ),
+            ],
+        ),
+    ],
 )

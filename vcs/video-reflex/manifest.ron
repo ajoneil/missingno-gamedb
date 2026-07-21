@@ -1,9 +1,18 @@
 (
     title: "Video Reflex",
-    publisher: Some("Exus Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["dec2a3e9b366dce2b63dc1c13662d3f22420a22e"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Exus Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dec2a3e9b366dce2b63dc1c13662d3f22420a22e",
+                ),
+            ],
+        ),
+    ],
 )

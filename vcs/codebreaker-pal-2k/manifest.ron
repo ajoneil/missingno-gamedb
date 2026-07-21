@@ -1,9 +1,31 @@
 (
     title: "Codebreaker (Numbers) (Keyboard Controller)",
-    publisher: Some("Atari"),
-    date: Some("1978"),
-    tv_format: Some(Pal),
-    cart_type: Some("2K"),
-    hashes: ["0252bb61f8ca0462cc57a273d575c4bcdb5a95f2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0252bb61f8ca0462cc57a273d575c4bcdb5a95f2",
+                ),
+            ],
+        ),
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "70301994a513b037b4fea49a71a2672c0aaf4a30",
+                ),
+            ],
+        ),
+    ],
 )

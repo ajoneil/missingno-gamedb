@@ -1,9 +1,21 @@
 (
     title: "Confrontation (Proto)",
-    publisher: Some("Answer Software Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5512a0ed4306edc007a78bb52dbcf492adf798ec", "acc2d5a1777aa9aee3cad2e18541a7c3793c0ccd"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Answer Software Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5512a0ed4306edc007a78bb52dbcf492adf798ec",
+                ),
+                (
+                    sha1: "acc2d5a1777aa9aee3cad2e18541a7c3793c0ccd",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Top Gun - Air Patrol",
-    publisher: Some("Quelle"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["e853954eae7d0b7839787f0569888a739e56cfaf"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e853954eae7d0b7839787f0569888a739e56cfaf",
+                ),
+            ],
+        ),
+    ],
 )

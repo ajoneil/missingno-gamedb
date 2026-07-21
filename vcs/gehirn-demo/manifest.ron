@@ -1,9 +1,18 @@
 (
     title: "Gehirn Demo",
-    publisher: Some("wAMMA"),
-    date: Some("2007"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["42bcd941346bd7991db34f4541b9de864ab2ee38"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("wAMMA"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "42bcd941346bd7991db34f4541b9de864ab2ee38",
+                ),
+            ],
+        ),
+    ],
 )

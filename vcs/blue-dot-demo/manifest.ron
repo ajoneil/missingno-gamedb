@@ -1,8 +1,17 @@
 (
     title: "Blue Dot Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8ba3ea834c75d6368a946fe093fe926bbd87b2d3"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8ba3ea834c75d6368a946fe093fe926bbd87b2d3",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,21 @@
 (
     title: "Atari Video Cube",
-    publisher: Some("Atari"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5d345e2ea04c218882b1878e18173e97e918be6a", "d1563c24208766cf8d28de7af995021a9f89d7e1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d345e2ea04c218882b1878e18173e97e918be6a",
+                ),
+                (
+                    sha1: "d1563c24208766cf8d28de7af995021a9f89d7e1",
+                ),
+            ],
+        ),
+    ],
 )

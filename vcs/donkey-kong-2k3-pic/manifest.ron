@@ -1,8 +1,17 @@
 (
     title: "Donkey Kong 2K3 Pic (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["ba451f46ea109b1f3e490c3f475e7fc3e985346b"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ba451f46ea109b1f3e490c3f475e7fc3e985346b",
+                ),
+            ],
+        ),
+    ],
 )

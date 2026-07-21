@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - TimLehner_1",
-    publisher: Some("Tim Lehner"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["78b654eac6ba7c24e65fdf3e6f0771905f067a62"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Tim Lehner"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "78b654eac6ba7c24e65fdf3e6f0771905f067a62",
+                ),
+            ],
+        ),
+    ],
 )

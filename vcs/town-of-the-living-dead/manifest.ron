@@ -1,9 +1,18 @@
 (
     title: "Town of the Living Dead (Universal Chaos Hack)",
-    publisher: Some("Rabbit 2600"),
-    date: Some("2012"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["36d70ce7f5feee9a3d6610e638d1d9c84391c879"],
-    source: None,
+    releases: [
+        (
+            date: Some("2012"),
+            publisher: Some("Rabbit 2600"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "36d70ce7f5feee9a3d6610e638d1d9c84391c879",
+                ),
+            ],
+        ),
+    ],
 )

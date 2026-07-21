@@ -1,9 +1,18 @@
 (
     title: "Three Hugger (Pave Demo) (20-12-2002) (Billy Eno)",
-    publisher: Some("Baroque Gaming"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["7e80a599618aca2c770d87b1da67c8b6dc97ded2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Baroque Gaming"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7e80a599618aca2c770d87b1da67c8b6dc97ded2",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Scroll Test (demo)",
-    publisher: Some("Maus Games"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1033749de420d5e2a2e9195229603608d63e7d67"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Maus Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1033749de420d5e2a2e9195229603608d63e7d67",
+                ),
+            ],
+        ),
+    ],
 )

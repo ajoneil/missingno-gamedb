@@ -1,9 +1,18 @@
 (
     title: "Wall Ball",
-    publisher: Some("Avalon Hill"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["482bd349222b8c702e125c27fd516e73af13967b"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Avalon Hill"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "482bd349222b8c702e125c27fd516e73af13967b",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Breakout V2 (WIP)",
-    publisher: Some("Luigi301"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["eef515ff1109b074e5693f2243109a7787d916e5"],
-    source: None,
+    title: "Breakout V2",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Luigi301"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eef515ff1109b074e5693f2243109a7787d916e5",
+                ),
+            ],
+        ),
+    ],
 )

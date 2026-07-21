@@ -1,9 +1,30 @@
 (
     title: "Dragonstomper",
-    publisher: Some("Starpath Corporation"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["1f00e06ae2f42e59637d73b37b9ccc3b130ede13", "9283e892dca1ad463443d347c99826bd623e0fdc", "aa63009fb7dc4ece8cda3078d37f4e93b326c4df", "b463d3da55cfa27c4f75550afcd07bcf28683d26", "d0777b4572903756c25559538ecde1a301a0b003"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f00e06ae2f42e59637d73b37b9ccc3b130ede13",
+                ),
+                (
+                    sha1: "9283e892dca1ad463443d347c99826bd623e0fdc",
+                ),
+                (
+                    sha1: "aa63009fb7dc4ece8cda3078d37f4e93b326c4df",
+                ),
+                (
+                    sha1: "b463d3da55cfa27c4f75550afcd07bcf28683d26",
+                ),
+                (
+                    sha1: "d0777b4572903756c25559538ecde1a301a0b003",
+                ),
+            ],
+        ),
+    ],
 )

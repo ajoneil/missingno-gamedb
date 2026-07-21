@@ -1,9 +1,19 @@
 (
-    title: "Ultimate Indy 500 (WIP)",
-    publisher: Some("Fort Apocalypse"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["69786b7655341b1d9024773c745e7c142ea975fe"],
-    source: None,
+    title: "Ultimate Indy 500",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Fort Apocalypse"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "69786b7655341b1d9024773c745e7c142ea975fe",
+                ),
+            ],
+        ),
+    ],
 )

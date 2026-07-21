@@ -1,9 +1,18 @@
 (
     title: "RAM Frog Pond",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2009"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["d510512d522cf6f4b64210479c65d12fa16298a7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("Rick Skrbina"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d510512d522cf6f4b64210479c65d12fa16298a7",
+                ),
+            ],
+        ),
+    ],
 )

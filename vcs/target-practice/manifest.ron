@@ -1,9 +1,21 @@
 (
     title: "Target Practice",
-    publisher: Some("CCE"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["2f6114e022bf57ff58450d765e60d2f3e3910432", "ceefabdfd97d2d783cb3d14604f9c059a95eea52"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f6114e022bf57ff58450d765e60d2f3e3910432",
+                ),
+                (
+                    sha1: "ceefabdfd97d2d783cb3d14604f9c059a95eea52",
+                ),
+            ],
+        ),
+    ],
 )

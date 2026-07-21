@@ -1,9 +1,18 @@
 (
     title: "Bear Game Demo (Paddle)",
-    publisher: Some("SEGA"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b4ea883d3ab3ebe82de93822f969ddef2c8c2865"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("SEGA"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b4ea883d3ab3ebe82de93822f969ddef2c8c2865",
+                ),
+            ],
+        ),
+    ],
 )

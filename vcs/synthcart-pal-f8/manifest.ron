@@ -1,9 +1,18 @@
 (
     title: "synthcart (Aftermarket) (Unl)",
-    publisher: Some("Paul Slocum"),
-    date: Some("2002"),
-    tv_format: Some(Pal),
-    cart_type: Some("F8"),
-    hashes: ["c4c19c5e0d8b6fcf1aeafa0bd3c88ef3f834c59b"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c4c19c5e0d8b6fcf1aeafa0bd3c88ef3f834c59b",
+                ),
+            ],
+        ),
+    ],
 )

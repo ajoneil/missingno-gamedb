@@ -1,9 +1,18 @@
 (
     title: "Space Shuttle - A Journey into Space",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["bcec5a66f8dff1a751769626b0fce305fab44ca2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bcec5a66f8dff1a751769626b0fce305fab44ca2",
+                ),
+            ],
+        ),
+    ],
 )

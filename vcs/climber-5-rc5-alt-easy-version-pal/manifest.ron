@@ -1,9 +1,31 @@
 (
     title: "Climber 5 (beta) [RC5 - Alt - Easy version]",
-    publisher: Some("Debro"),
-    date: Some("2004"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["406307af5e44633e67b610cdaac6170acd745de6"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Debro"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d5587e4ae8dfc16e808d5ad0407eff6aabeb096",
+                ),
+            ],
+        ),
+        (
+            date: Some("2004"),
+            publisher: Some("Debro"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "406307af5e44633e67b610cdaac6170acd745de6",
+                ),
+            ],
+        ),
+    ],
 )

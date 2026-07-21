@@ -1,9 +1,19 @@
 (
-    title: "Mr. E Magin (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b27f7dde322db63148481aacad462454b24e9185"],
-    source: None,
+    title: "Mr. E Magin",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b27f7dde322db63148481aacad462454b24e9185",
+                ),
+            ],
+        ),
+    ],
 )

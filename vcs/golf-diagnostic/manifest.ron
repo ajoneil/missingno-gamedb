@@ -1,9 +1,18 @@
 (
     title: "Golf Diagnostic (Prototype)",
-    publisher: Some("Video Soft"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["b0c2efefc8d80693565a64ee025be480aa3f1746"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Video Soft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b0c2efefc8d80693565a64ee025be480aa3f1746",
+                ),
+            ],
+        ),
+    ],
 )

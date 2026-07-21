@@ -1,9 +1,33 @@
 (
-    title: "Super Mario 2600 (WIP)",
-    publisher: Some("Rick Skrbina"),
-    date: Some("2008"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d1717932f1b8f19efd97baf6a8b97e336b42558b"],
-    source: None,
+    title: "Super Mario 2600",
+    releases: [
+        (
+            date: Some("2008"),
+            publisher: Some("Rick Skrbina"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d1717932f1b8f19efd97baf6a8b97e336b42558b",
+                ),
+            ],
+        ),
+        (
+            date: Some("2012"),
+            publisher: Some("Chris Spry"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cb0cb29437d9f927beb91a307dba6e84a1f7d5ba",
+                ),
+            ],
+        ),
+    ],
 )

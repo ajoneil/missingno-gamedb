@@ -1,9 +1,19 @@
 (
-    title: "Kickman Kernel Demo (WIP)",
-    publisher: Some("Manuel Rotschkar"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["1a6a8c1afc26b079ac2fb9996979d34e6f1f365f"],
-    source: None,
+    title: "Kickman Kernel Demo",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Manuel Rotschkar"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a6a8c1afc26b079ac2fb9996979d34e6f1f365f",
+                ),
+            ],
+        ),
+    ],
 )

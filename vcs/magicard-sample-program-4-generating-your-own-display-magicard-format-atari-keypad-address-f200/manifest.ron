@@ -1,9 +1,18 @@
 (
     title: "Magicard Sample Program 4 - Generating Your Own Display [Magicard Format, Atari Keypad, Address F200]",
-    publisher: Some("CommaVid"),
-    date: Some("1982"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("CV"),
-    hashes: ["06488098b46864b84e76ec742bac0cd2d10f029d"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("CV"),
+            ),
+            artifacts: [
+                (
+                    sha1: "06488098b46864b84e76ec742bac0cd2d10f029d",
+                ),
+            ],
+        ),
+    ],
 )

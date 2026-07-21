@@ -1,9 +1,18 @@
 (
-    title: "Haunted House (Mystery Mansion, Graves' Manor, Nightmare Manor) (08-12-1981) (Prototype)",
-    publisher: Some("Atari"),
-    date: Some("1981"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["b98382af9287ab1fbfe375dd630b96bc0df78ec1"],
-    source: None,
+    title: "Haunted House (Mystery Mansion, Graves\' Manor, Nightmare Manor) (08-12-1981) (Prototype)",
+    releases: [
+        (
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b98382af9287ab1fbfe375dd630b96bc0df78ec1",
+                ),
+            ],
+        ),
+    ],
 )

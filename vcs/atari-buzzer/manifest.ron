@@ -1,9 +1,18 @@
 (
     title: "Atari Buzzer",
-    publisher: Some("Bob Montgomery"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["036a601c079b5c8a1e24afd6e9758cd4237ad629"],
-    source: None,
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Bob Montgomery"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "036a601c079b5c8a1e24afd6e9758cd4237ad629",
+                ),
+            ],
+        ),
+    ],
 )

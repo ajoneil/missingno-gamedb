@@ -1,9 +1,18 @@
 (
     title: "Homestar Runner RPG Demo",
-    publisher: Some("Paul Slocum"),
-    date: Some("2003"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F6"),
-    hashes: ["31241fbf6c6d9b33d5680b810abb2ac82c06f59f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2003"),
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "31241fbf6c6d9b33d5680b810abb2ac82c06f59f",
+                ),
+            ],
+        ),
+    ],
 )

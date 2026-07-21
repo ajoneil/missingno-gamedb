@@ -1,9 +1,18 @@
 (
     title: "Batari-Man",
-    publisher: Some("Chris Read"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["c2b6013916a736fcfaaf6a2106062e77e6640c87"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Chris Read"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c2b6013916a736fcfaaf6a2106062e77e6640c87",
+                ),
+            ],
+        ),
+    ],
 )

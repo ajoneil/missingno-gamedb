@@ -1,8 +1,17 @@
 (
     title: "I.Q. 180",
-    publisher: Some("HomeVision"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["8483fd18dddafbdfbcbd1c43bc7de2cc05a1894d"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("HomeVision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8483fd18dddafbdfbcbd1c43bc7de2cc05a1894d",
+                ),
+            ],
+        ),
+    ],
 )

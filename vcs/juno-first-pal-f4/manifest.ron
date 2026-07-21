@@ -1,9 +1,51 @@
 (
     title: "Juno First",
-    publisher: Some("AtariAge (Chris Walton)"),
-    date: Some("2009"),
-    tv_format: Some(Pal),
-    cart_type: Some("F4"),
-    hashes: ["b452589019c8c3d7a711600b1046108a9f35cfd7", "f492ffaef0fd31be47c7f178488ec88443141995"],
-    source: None,
+    releases: [
+        (
+            date: Some("2009"),
+            publisher: Some("AtariAge (Chris Walton)"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "778487962f83a19ecf4f226441311bb3a8a9e88b",
+                ),
+                (
+                    sha1: "cac26d5d967957dac8133a2f226629bdc44cdd09",
+                ),
+            ],
+        ),
+        (
+            date: Some("2009"),
+            publisher: Some("AtariAge (Chris Walton)"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b452589019c8c3d7a711600b1046108a9f35cfd7",
+                ),
+                (
+                    sha1: "f492ffaef0fd31be47c7f178488ec88443141995",
+                ),
+            ],
+        ),
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Walton"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad45e1a04fdfc1c30b33af18b73bed2b2839e17b",
+                ),
+            ],
+        ),
+    ],
 )

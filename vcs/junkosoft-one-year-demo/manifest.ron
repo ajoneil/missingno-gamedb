@@ -1,9 +1,18 @@
 (
     title: "Junkosoft One Year Demo (PD)",
-    publisher: Some("Junkosoft"),
-    date: Some("1999"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["5c42c5d152e47ff7fa0d5346eaad29055c2459c2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Junkosoft"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5c42c5d152e47ff7fa0d5346eaad29055c2459c2",
+                ),
+            ],
+        ),
+    ],
 )

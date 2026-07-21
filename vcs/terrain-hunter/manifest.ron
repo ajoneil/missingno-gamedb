@@ -1,9 +1,19 @@
 (
-    title: "Terrain Hunter! (WIP)",
-    publisher: Some("Jonathon Bont"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["9dddc2b3f4ba6ddfab64380bde143c569ae1297a"],
-    source: None,
+    title: "Terrain Hunter!",
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Jonathon Bont"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9dddc2b3f4ba6ddfab64380bde143c569ae1297a",
+                ),
+            ],
+        ),
+    ],
 )

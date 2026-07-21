@@ -1,9 +1,18 @@
 (
     title: "Twisty Passages",
-    publisher: Some("Fred Quimby"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["8cbf6f62605a802cf310e948438f55cde38bd605"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Fred Quimby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8cbf6f62605a802cf310e948438f55cde38bd605",
+                ),
+            ],
+        ),
+    ],
 )

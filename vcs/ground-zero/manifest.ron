@@ -1,9 +1,18 @@
 (
     title: "Ground Zero",
-    publisher: Some("Goliath"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["0130f9d1334e106f2fbd9bbd5c01efae4f39cae1"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0130f9d1334e106f2fbd9bbd5c01efae4f39cae1",
+                ),
+            ],
+        ),
+    ],
 )

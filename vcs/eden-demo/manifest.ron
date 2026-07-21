@@ -1,9 +1,19 @@
 (
-    title: "Eden Demo (WIP)",
-    publisher: Some("Matthew J. Risch"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["0bfda7889c96246cb9e115c01b0ee1550abb7243"],
-    source: None,
+    title: "Eden Demo",
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Matthew J. Risch"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0bfda7889c96246cb9e115c01b0ee1550abb7243",
+                ),
+            ],
+        ),
+    ],
 )

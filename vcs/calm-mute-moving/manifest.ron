@@ -1,9 +1,18 @@
 (
     title: "Calm, Mute, Moving",
-    publisher: Some("Sonny Rae Tempest"),
-    date: Some("2011"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["9a534dbba3b35fdb7b845aaccaba17d8df759dcd"],
-    source: None,
+    releases: [
+        (
+            date: Some("2011"),
+            publisher: Some("Sonny Rae Tempest"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9a534dbba3b35fdb7b845aaccaba17d8df759dcd",
+                ),
+            ],
+        ),
+    ],
 )

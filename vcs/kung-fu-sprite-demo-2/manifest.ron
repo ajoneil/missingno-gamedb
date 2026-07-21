@@ -1,8 +1,17 @@
 (
     title: "Kung Fu Sprite Demo 2 (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["d8fec876c84423b86abc9154836f2b6a768f5b77"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8fec876c84423b86abc9154836f2b6a768f5b77",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "AtariAge Indy 500 XE Track Design Contest - JonStewart_1",
-    publisher: Some("Jon Stewart"),
-    date: Some("2004"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["abb45284843fc4fa06d663adcc071242074ce949"],
-    source: None,
+    releases: [
+        (
+            date: Some("2004"),
+            publisher: Some("Jon Stewart"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "abb45284843fc4fa06d663adcc071242074ce949",
+                ),
+            ],
+        ),
+    ],
 )

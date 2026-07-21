@@ -1,8 +1,23 @@
 (
     title: "Kung Fu Master",
-    publisher: Some("CCE"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("F8"),
-    hashes: ["13240d0decd944f7d5d7a87a7d1b47578f489711", "3b93a34ba2a6b7db387ea588c48d939eee5d71a1", "a700062edc839c707a88a95710c1589b246858ee"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13240d0decd944f7d5d7a87a7d1b47578f489711",
+                ),
+                (
+                    sha1: "3b93a34ba2a6b7db387ea588c48d939eee5d71a1",
+                ),
+                (
+                    sha1: "a700062edc839c707a88a95710c1589b246858ee",
+                ),
+            ],
+        ),
+    ],
 )

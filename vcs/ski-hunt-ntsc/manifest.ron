@@ -1,9 +1,18 @@
 (
     title: "Ski Hunt (NTSC Conversion)",
-    publisher: Some("Peter Rittwage"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["449585e61c0738b2fff4c6ca9c1c951a3827802e"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Peter Rittwage"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "449585e61c0738b2fff4c6ca9c1c951a3827802e",
+                ),
+            ],
+        ),
+    ],
 )

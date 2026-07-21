@@ -1,7 +1,16 @@
 (
     title: "Star Fire - Kernel Done (MP)",
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["f51103ab16423f08ab9ef5c7ebe80ed42e85e6cd"],
-    source: None,
+    releases: [
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f51103ab16423f08ab9ef5c7ebe80ed42e85e6cd",
+                ),
+            ],
+        ),
+    ],
 )

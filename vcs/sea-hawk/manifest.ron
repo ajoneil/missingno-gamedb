@@ -1,9 +1,24 @@
 (
     title: "Sea Hawk",
-    publisher: Some("Panda"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4ec6982b2da25b29840428fd993a391e63f53730", "87cb2eb01f8e82fddb3a66e468fab68ae55778da", "dc722409e833496b7cc8159dae35cdd47c5d6b5c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Panda"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4ec6982b2da25b29840428fd993a391e63f53730",
+                ),
+                (
+                    sha1: "87cb2eb01f8e82fddb3a66e468fab68ae55778da",
+                ),
+                (
+                    sha1: "dc722409e833496b7cc8159dae35cdd47c5d6b5c",
+                ),
+            ],
+        ),
+    ],
 )

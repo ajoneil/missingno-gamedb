@@ -1,9 +1,18 @@
 (
     title: "Going-Up (Prototype)",
-    publisher: Some("Starpath Corporation"),
-    date: Some("1983"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("AR"),
-    hashes: ["7ab02d3fc90b036bd13631d60063c51998e9a325"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7ab02d3fc90b036bd13631d60063c51998e9a325",
+                ),
+            ],
+        ),
+    ],
 )

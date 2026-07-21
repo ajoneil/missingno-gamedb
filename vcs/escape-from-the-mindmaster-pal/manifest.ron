@@ -1,9 +1,33 @@
 (
     title: "Escape from the Mindmaster (Labyrinth) (1 of 4) (5)",
-    publisher: Some("Starpath Corporation"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("AR"),
-    hashes: ["49bb0dfaadda7201787ca110b51ef3320963ca9f", "4cda82176cabc3e532ebcad0f633179a6c403bae", "65c7016bc60b7035645cdf1cb50bb396fce60aa0", "a72859502b9437e1e8ccf984f2e61aabc908ed28", "b4415af06ec8abf01c3127f17864b3d4c1e827db", "e870fbbc07213b1cc552872f3115f33c1f5b351c"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "49bb0dfaadda7201787ca110b51ef3320963ca9f",
+                ),
+                (
+                    sha1: "4cda82176cabc3e532ebcad0f633179a6c403bae",
+                ),
+                (
+                    sha1: "65c7016bc60b7035645cdf1cb50bb396fce60aa0",
+                ),
+                (
+                    sha1: "a72859502b9437e1e8ccf984f2e61aabc908ed28",
+                ),
+                (
+                    sha1: "b4415af06ec8abf01c3127f17864b3d4c1e827db",
+                ),
+                (
+                    sha1: "e870fbbc07213b1cc552872f3115f33c1f5b351c",
+                ),
+            ],
+        ),
+    ],
 )

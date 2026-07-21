@@ -1,9 +1,18 @@
 (
     title: "Circus Atari Black (Circus Atari Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["01a7d5ebbc6d8721c62fdee74f7494e726b478d4"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "01a7d5ebbc6d8721c62fdee74f7494e726b478d4",
+                ),
+            ],
+        ),
+    ],
 )

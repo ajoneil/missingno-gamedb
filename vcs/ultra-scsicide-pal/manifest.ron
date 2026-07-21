@@ -1,9 +1,18 @@
 (
     title: "Ultra SCSIcide",
-    publisher: Some("Joe Grand"),
-    date: Some("2005"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["f16a0fa03987acf8087e625fdad586e96e43bda2"],
-    source: None,
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Joe Grand"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f16a0fa03987acf8087e625fdad586e96e43bda2",
+                ),
+            ],
+        ),
+    ],
 )

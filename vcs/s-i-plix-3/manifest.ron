@@ -1,9 +1,18 @@
 (
     title: "S.I.Plix 3 (Demons to Diamonds Hack)",
-    publisher: Some("Scott Dayton"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["4987f1f865d4dcbfc4fb163ee2f478f3e18d1350"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Scott Dayton"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4987f1f865d4dcbfc4fb163ee2f478f3e18d1350",
+                ),
+            ],
+        ),
+    ],
 )

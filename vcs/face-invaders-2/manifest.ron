@@ -1,9 +1,18 @@
 (
     title: "Face Invaders 2 (Hack)",
-    publisher: Some("Barry Laws Jr."),
-    date: Some("2000"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["23a18bbb62975941b53b73aa1ae09fffb5292bf7"],
-    source: None,
+    releases: [
+        (
+            date: Some("2000"),
+            publisher: Some("Barry Laws Jr."),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "23a18bbb62975941b53b73aa1ae09fffb5292bf7",
+                ),
+            ],
+        ),
+    ],
 )

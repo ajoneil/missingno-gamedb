@@ -1,9 +1,34 @@
 (
     title: "Frogs and Flies",
-    publisher: Some("Telegames"),
-    date: Some("1988"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["7682b4b6d45865b7eec1244e5d76f0f2efdb17e7"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b5a143cb046953a69f76cb2f903e61350f0de265",
+                ),
+                (
+                    sha1: "f344d5a8dc895c5a2ae0288f3c6cb66650e49167",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7682b4b6d45865b7eec1244e5d76f0f2efdb17e7",
+                ),
+            ],
+        ),
+    ],
 )

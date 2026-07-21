@@ -1,9 +1,18 @@
 (
     title: "Tronman Project 2006 Demos - Jay 2",
-    publisher: Some("Greg Zumwalt"),
-    date: Some("2006"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["6c077ed08857a87223d58e1e2f6fcd1dae6fb6e1"],
-    source: None,
+    releases: [
+        (
+            date: Some("2006"),
+            publisher: Some("Greg Zumwalt"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6c077ed08857a87223d58e1e2f6fcd1dae6fb6e1",
+                ),
+            ],
+        ),
+    ],
 )

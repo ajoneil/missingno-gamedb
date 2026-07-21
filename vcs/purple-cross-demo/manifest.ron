@@ -1,8 +1,17 @@
 (
     title: "Purple Cross Demo (PD)",
-    publisher: Some("PD"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["165f4bfc4043bb98b65858fa5e5f78a44c7785f1"],
-    source: None,
+    releases: [
+        (
+            publisher: Some("PD"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "165f4bfc4043bb98b65858fa5e5f78a44c7785f1",
+                ),
+            ],
+        ),
+    ],
 )

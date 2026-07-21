@@ -1,9 +1,18 @@
 (
     title: "Hot Action Pak - Ghostbusters, Tennis, Plaque Attack",
-    publisher: Some("HES"),
-    date: Some("1990"),
-    tv_format: Some(Pal),
-    cart_type: Some("F6"),
-    hashes: ["1f369c7676e33a11596fac07620980b9747122d2"],
-    source: None,
+    releases: [
+        (
+            date: Some("1990"),
+            publisher: Some("HES"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f369c7676e33a11596fac07620980b9747122d2",
+                ),
+            ],
+        ),
+    ],
 )

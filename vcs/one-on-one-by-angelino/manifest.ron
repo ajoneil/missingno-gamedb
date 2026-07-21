@@ -1,9 +1,18 @@
 (
     title: "One On One by Angelino (Basketball Hack)",
-    publisher: Some("Angelino"),
-    date: Some("2002"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("2K"),
-    hashes: ["e52ca6e73c931ef71c63e164704fb398086e4308"],
-    source: None,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Angelino"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e52ca6e73c931ef71c63e164704fb398086e4308",
+                ),
+            ],
+        ),
+    ],
 )

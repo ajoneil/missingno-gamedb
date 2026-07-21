@@ -1,9 +1,18 @@
 (
     title: "Mines of Minos [a]",
-    publisher: Some("CommaVid"),
-    date: Some("1982"),
-    tv_format: Some(Pal),
-    cart_type: Some("4K"),
-    hashes: ["24b9463d3e8da102a4156ac7e28d9a5afa453395"],
-    source: None,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "24b9463d3e8da102a4156ac7e28d9a5afa453395",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,19 @@
 (
-    title: "Planet Builder (WIP)",
-    publisher: Some("Dave Neuman"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a7ae51843b936bdbed2148f5ad43ebeec5c1619f"],
-    source: None,
+    title: "Planet Builder",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Dave Neuman"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7ae51843b936bdbed2148f5ad43ebeec5c1619f",
+                ),
+            ],
+        ),
+    ],
 )

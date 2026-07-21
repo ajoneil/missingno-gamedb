@@ -1,9 +1,19 @@
 (
-    title: "Puckman (WIP)",
-    publisher: Some("Chris Read"),
-    date: Some("2007"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["938685708705cdcd64e21a638f679bf8392bf5c6"],
-    source: None,
+    title: "Puckman",
+    releases: [
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "938685708705cdcd64e21a638f679bf8392bf5c6",
+                ),
+            ],
+        ),
+    ],
 )

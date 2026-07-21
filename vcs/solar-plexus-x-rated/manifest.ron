@@ -1,9 +1,19 @@
 (
-    title: "Solar Plexus X Rated (WIP)",
-    publisher: Some("Jess Ragan"),
-    date: Some("2005"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["a57642c5949e13ec09a1720c6b43ee2970638e37"],
-    source: None,
+    title: "Solar Plexus X Rated",
+    releases: [
+        (
+            date: Some("2005"),
+            publisher: Some("Jess Ragan"),
+            status: WorkInProgress,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a57642c5949e13ec09a1720c6b43ee2970638e37",
+                ),
+            ],
+        ),
+    ],
 )

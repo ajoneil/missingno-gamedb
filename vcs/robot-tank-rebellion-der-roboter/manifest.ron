@@ -1,9 +1,18 @@
 (
     title: "Robot Tank - Rebellion der Roboter (Robotank)",
-    publisher: Some("Activision"),
-    date: Some("1983"),
-    tv_format: Some(Pal),
-    cart_type: Some("FE"),
-    hashes: ["413341c947157197ad4c9dd3cef7d0da7b2e9361"],
-    source: None,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "413341c947157197ad4c9dd3cef7d0da7b2e9361",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,18 @@
 (
     title: "Activishawn Demo",
-    publisher: Some("yuppicide"),
-    date: Some("2010"),
-    tv_format: Some(Ntsc),
-    cart_type: Some("4K"),
-    hashes: ["96ec5fa54f7688137f2de9905a6a45b9278ac57f"],
-    source: None,
+    releases: [
+        (
+            date: Some("2010"),
+            publisher: Some("yuppicide"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "96ec5fa54f7688137f2de9905a6a45b9278ac57f",
+                ),
+            ],
+        ),
+    ],
 )
