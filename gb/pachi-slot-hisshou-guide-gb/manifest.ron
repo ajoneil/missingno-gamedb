@@ -1,6 +1,20 @@
 (
-    title: "Pachi-Slot Hisshou Guide GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["48564d29dd997878eb3165d7b40ac3fa8f287143"],
-    source: None,
+    title: "Pachi-Slot Hisshou Guide GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "48564d29dd997878eb3165d7b40ac3fa8f287143",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

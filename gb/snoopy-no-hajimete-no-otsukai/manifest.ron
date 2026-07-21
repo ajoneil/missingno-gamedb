@@ -1,6 +1,20 @@
 (
-    title: "Snoopy no Hajimete no Otsukai (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["535a85e3955ec58754395a8bf7c4f5b7d319e57f"],
-    source: None,
+    title: "Snoopy no Hajimete no Otsukai",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "535a85e3955ec58754395a8bf7c4f5b7d319e57f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

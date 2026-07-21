@@ -1,6 +1,19 @@
 (
-    title: "Kiteretsu Daihyakka - Bouken Ooedo Juraki (Japan)",
-    region: Some("Japan"),
-    hashes: ["58d54cdc21c73661ccc0be22e8a40cef84861680"],
-    source: None,
+    title: "Kiteretsu Daihyakka - Bouken Ooedo Juraki",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "58d54cdc21c73661ccc0be22e8a40cef84861680",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

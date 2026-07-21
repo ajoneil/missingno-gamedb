@@ -1,6 +1,34 @@
 (
-    title: "Attack of the Killer Tomatoes (Japan)",
-    region: Some("Japan"),
-    hashes: ["96cd454513dfb363cda20bf0e72c6d74132a9487", "cbbba5d4f80f2b4ab3e882ceb4f79c293a17904f"],
-    source: None,
+    title: "Attack of the Killer Tomatoes",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "96cd454513dfb363cda20bf0e72c6d74132a9487",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cbbba5d4f80f2b4ab3e882ceb4f79c293a17904f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

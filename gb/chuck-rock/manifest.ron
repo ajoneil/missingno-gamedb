@@ -1,6 +1,20 @@
 (
-    title: "Chuck Rock (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["601453f98ba7d92ebe71f3e86952a584cbea090c"],
-    source: None,
+    title: "Chuck Rock",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "601453f98ba7d92ebe71f3e86952a584cbea090c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

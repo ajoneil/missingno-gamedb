@@ -1,6 +1,51 @@
 (
-    title: "Battle Unit Zeoth (Japan)",
-    region: Some("Japan"),
-    hashes: ["35413f3d4b4e68f521a90c3a48d4bd2b5bf90e09", "eba09c60cd60feba0a7a9e82597dad080ce78d22"],
-    source: None,
+    title: "Battle Unit Zeoth",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "35413f3d4b4e68f521a90c3a48d4bd2b5bf90e09",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Jet Pack"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "df7abbcaaccd5cff4c55bb331fa5d3049fb92896",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eba09c60cd60feba0a7a9e82597dad080ce78d22",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

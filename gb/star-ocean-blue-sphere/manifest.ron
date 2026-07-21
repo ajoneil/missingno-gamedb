@@ -1,6 +1,20 @@
 (
-    title: "Star Ocean - Blue Sphere (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["3d07ae53ba21eda4923bf4da6c938e2a407c990c"],
-    source: None,
+    title: "Star Ocean - Blue Sphere",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3d07ae53ba21eda4923bf4da6c938e2a407c990c",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

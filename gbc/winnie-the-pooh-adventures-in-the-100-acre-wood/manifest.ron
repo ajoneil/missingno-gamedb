@@ -1,6 +1,40 @@
 (
-    title: "Winnie the Pooh - Adventures in the 100 Acre Wood (Europe) (En,Fr,De,Es,It,Nl,Da)",
-    region: Some("Europe"),
-    hashes: ["5ff68bc5ec735d090b24aab79a787f77f26afb08", "b97b33e7423a712b3f77a2bf9a419f78ec5d30be"],
-    source: None,
+    title: "Winnie the Pooh - Adventures in the 100 Acre Wood",
+    releases: [
+        (
+            title: Some("Atsumete Asobu Kuma no Pooh-san - Mori no Takaramono"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "73b95f3b92c2d48a2580f7ac10950d56aeffb94d",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "5ff68bc5ec735d090b24aab79a787f77f26afb08",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Da"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "b97b33e7423a712b3f77a2bf9a419f78ec5d30be",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

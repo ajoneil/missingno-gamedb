@@ -1,6 +1,20 @@
 (
-    title: "Edd the Duck (Europe) (Proto)",
-    region: Some("Europe"),
-    hashes: ["4ee8fa0c4f4c9268182945835f19c25eb055ceb3"],
-    source: None,
+    title: "Edd the Duck",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4ee8fa0c4f4c9268182945835f19c25eb055ceb3",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

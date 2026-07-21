@@ -1,6 +1,37 @@
 (
-    title: "seaQuest DSV (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["0dbe828e797458a99a37e93bbd34d2547d99523c", "e9572941b35f119746b995f7fe578c31ef778026"],
-    source: None,
+    title: "seaQuest DSV",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0dbe828e797458a99a37e93bbd34d2547d99523c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e9572941b35f119746b995f7fe578c31ef778026",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

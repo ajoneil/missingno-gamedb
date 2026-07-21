@@ -1,6 +1,29 @@
 (
-    title: "Walt Disney World Quest - Magical Racing Tour (Europe) (Fr,De,Es)",
-    region: Some("Europe"),
-    hashes: ["529289ccfd21397405d08305409c5d9b2119505e", "95dbef19504368e73b97cd785e2b19e3c71710f4"],
-    source: None,
+    title: "Walt Disney World Quest - Magical Racing Tour",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "529289ccfd21397405d08305409c5d9b2119505e",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Fr,De,Es"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "95dbef19504368e73b97cd785e2b19e3c71710f4",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

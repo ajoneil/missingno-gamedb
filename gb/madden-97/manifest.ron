@@ -1,6 +1,20 @@
 (
-    title: "Madden 97 (USA) (SGB Enhanced)",
-    region: Some("USA"),
-    hashes: ["e1d92b6afdd7dc2254c895ad8a9a066262fb214b"],
-    source: None,
+    title: "Madden 97",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e1d92b6afdd7dc2254c895ad8a9a066262fb214b",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

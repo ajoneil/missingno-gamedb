@@ -1,6 +1,35 @@
 (
-    title: "Roadsters (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["3c0a54fba91a6df88c152a824d192e05c0a68250", "ede737e99108be29daf94fee8e10f5dd770731bb"],
-    source: None,
+    title: "Roadsters",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3c0a54fba91a6df88c152a824d192e05c0a68250",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ede737e99108be29daf94fee8e10f5dd770731bb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

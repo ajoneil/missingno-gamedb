@@ -1,6 +1,29 @@
 (
-    title: "Antz Racing (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["806e641b911b302f5be2a80b6003f473d1a10a88", "e4ff55112a76da72f30582476f15358527518cfd"],
-    source: None,
+    title: "Antz Racing",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e4ff55112a76da72f30582476f15358527518cfd",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "806e641b911b302f5be2a80b6003f473d1a10a88",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

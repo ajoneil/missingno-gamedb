@@ -1,6 +1,20 @@
 (
-    title: "Hayaoshi Quiz - Ouza Ketteisen (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["7f0010677e3052c6b9caf41714e87d285ad45a91"],
-    source: None,
+    title: "Hayaoshi Quiz - Ouza Ketteisen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7f0010677e3052c6b9caf41714e87d285ad45a91",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

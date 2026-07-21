@@ -1,6 +1,28 @@
 (
-    title: "10-Pin Bowling (USA) (Proto)",
-    region: Some("USA"),
-    hashes: ["90d78bf2f51eed998002d8733d6e223b6478f487", "952d154dd2c6189ef4b786ae37bd7887c8ca9037", "eb0a65dc3069ae5261b04437ffac5efc12697c2a"],
-    source: None,
+    title: "10-Pin Bowling",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "90d78bf2f51eed998002d8733d6e223b6478f487",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rumble Version"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "eb0a65dc3069ae5261b04437ffac5efc12697c2a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

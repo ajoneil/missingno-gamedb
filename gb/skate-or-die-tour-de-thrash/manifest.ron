@@ -1,6 +1,19 @@
 (
-    title: "Skate or Die - Tour de Thrash (USA)",
-    region: Some("USA"),
-    hashes: ["6e1610450da0c836983a1c310524639fefcc304f"],
-    source: None,
+    title: "Skate or Die - Tour de Thrash",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6e1610450da0c836983a1c310524639fefcc304f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

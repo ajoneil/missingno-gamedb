@@ -1,6 +1,17 @@
 (
-    title: "Super Real Fishing (Japan) (Rumble Version)",
-    region: Some("Japan"),
-    hashes: ["cbd6ca89332ee11f89b580e53b53285760dd025a"],
-    source: None,
+    title: "Super Real Fishing",
+    releases: [
+        (
+            label: Some("Rumble Version"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "cbd6ca89332ee11f89b580e53b53285760dd025a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,28 @@
 (
-    title: "Sgt. Rock - On the Frontline (USA)",
-    region: Some("USA"),
-    hashes: ["53d7fa6fdac65519f8a78f4a42e79e56162589ad"],
-    source: None,
+    title: "Sgt. Rock - On the Frontline",
+    releases: [
+        (
+            title: Some("Front Line - The Next Mission"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "7456b221f95a64f36a70d024477032a4b6615948",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "53d7fa6fdac65519f8a78f4a42e79e56162589ad",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

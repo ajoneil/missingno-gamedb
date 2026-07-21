@@ -1,6 +1,82 @@
 (
-    title: "Blaster Master Jr. (Europe)",
-    region: Some("Europe"),
-    hashes: ["6a6deae1942e7cf048ce35d18e9540363c226727"],
-    source: None,
+    title: "Blaster Master Jr.",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6a6deae1942e7cf048ce35d18e9540363c226727",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Blaster Master Boy"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "21b1e574a6f4543651e96de65994e7b0b7a6a0f6",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Blaster Master Boy"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f568f9c7fe9ef9726d602727beca13d6978cd770",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bomber King - Scenario 2"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "79f978b9e85c675f7b54229a14d04926348bb70f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Blaster Master Boy"),
+            label: Some("Evercade"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8db7e6ddc8294e7585ff365168131f53db893dff",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

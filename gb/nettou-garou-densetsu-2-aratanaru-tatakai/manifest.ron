@@ -1,6 +1,20 @@
 (
-    title: "Nettou Garou Densetsu 2 - Aratanaru Tatakai (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["74b1e1b53235eb356ae1ef4bce940873a96bd076"],
-    source: None,
+    title: "Nettou Garou Densetsu 2 - Aratanaru Tatakai",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "74b1e1b53235eb356ae1ef4bce940873a96bd076",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

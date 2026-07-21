@@ -1,6 +1,19 @@
 (
-    title: "GB Genjin Land - Viva! Chikkun Oukoku (Japan)",
-    region: Some("Japan"),
-    hashes: ["6c7b6268e28281ae06fb621bf3cbbcbadc8e30e8"],
-    source: None,
+    title: "GB Genjin Land - Viva! Chikkun Oukoku",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6c7b6268e28281ae06fb621bf3cbbcbadc8e30e8",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Game Boy Camera Gallery - Mystery Show (World) (v1.2) (Digital) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["649678adc47eeb1386a90084ddb2fbf99b08ca4c", "8278abbe74202537bdc42f2e00875a12e77c9115"],
-    source: None,
+    title: "Game Boy Camera Gallery - Mystery Show",
+    releases: [
+        (
+            label: Some("v1.2, Digital"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "649678adc47eeb1386a90084ddb2fbf99b08ca4c",
+                ),
+                (
+                    sha1: "8278abbe74202537bdc42f2e00875a12e77c9115",
+                ),
+            ],
+        ),
+    ],
 )

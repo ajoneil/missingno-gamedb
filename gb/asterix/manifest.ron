@@ -1,6 +1,68 @@
 (
-    title: "Asterix (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["5077f422e513877e9c4e3497111f853376748826", "54cd67ea3c3e7646fb5286a6274a40a77f0730cc", "5e2423d1d4a1239af2ccafdd6c0a3f2316ae6b51", "7d4ca6925826c0ffca3e3004479b5e9a5b6b311b"],
-    source: None,
+    title: "Asterix",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7d4ca6925826c0ffca3e3004479b5e9a5b6b311b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 1"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5077f422e513877e9c4e3497111f853376748826",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 2"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5e2423d1d4a1239af2ccafdd6c0a3f2316ae6b51",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 3"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "54cd67ea3c3e7646fb5286a6274a40a77f0730cc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

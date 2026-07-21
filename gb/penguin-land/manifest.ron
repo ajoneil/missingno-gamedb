@@ -1,6 +1,19 @@
 (
-    title: "Penguin Land (Japan)",
-    region: Some("Japan"),
-    hashes: ["c9cb05557006b0f99790d19e3972258ab92da6cf"],
-    source: None,
+    title: "Penguin Land",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c9cb05557006b0f99790d19e3972258ab92da6cf",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

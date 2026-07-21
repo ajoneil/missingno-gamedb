@@ -1,6 +1,19 @@
 (
-    title: "Wayfarer Boo - Pushing Through (World) (v1.0)",
-    region: Some("World"),
-    hashes: ["12b8a0bdadd503f6114fcf28a43652d5d69749f4", "7451a93a3a2f17b5187883ad2b59c4dda99a2ac7"],
-    source: None,
+    title: "Wayfarer Boo - Pushing Through",
+    releases: [
+        (
+            label: Some("v1.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "12b8a0bdadd503f6114fcf28a43652d5d69749f4",
+                ),
+                (
+                    sha1: "7451a93a3a2f17b5187883ad2b59c4dda99a2ac7",
+                ),
+            ],
+        ),
+    ],
 )

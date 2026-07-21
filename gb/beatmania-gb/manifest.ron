@@ -1,6 +1,20 @@
 (
-    title: "Beatmania GB (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["640c4633fe8ec60b767c15a094c87ab7e113d555"],
-    source: None,
+    title: "Beatmania GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "640c4633fe8ec60b767c15a094c87ab7e113d555",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,0 +1,40 @@
+(
+    title: "The Mummy",
+    releases: [
+        (
+            title: Some("Hamunaptra - Ushinawareta Sabaku no Miyako"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "79c38bc527c9da2c27d1d9dc85924360d7cd66d3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "35b10f392d514bce858c8c64f9c489500466d0ff",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e1f312f6499229bdcc11c90306c321eadcdb78ca",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
+)

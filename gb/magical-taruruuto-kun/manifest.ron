@@ -1,6 +1,19 @@
 (
-    title: "Magical Taruruuto-kun (Japan)",
-    region: Some("Japan"),
-    hashes: ["0b7723d1761a61dcf42fc93f134b59f2232d4c37"],
-    source: None,
+    title: "Magical Taruruuto-kun",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0b7723d1761a61dcf42fc93f134b59f2232d4c37",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

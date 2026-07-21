@@ -1,6 +1,19 @@
 (
-    title: "Sangokushi - Game Boy Ban (Japan)",
-    region: Some("Japan"),
-    hashes: ["e94128d58341caaee595ed75292908a9ac5a466d"],
-    source: None,
+    title: "Sangokushi - Game Boy Ban",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e94128d58341caaee595ed75292908a9ac5a466d",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

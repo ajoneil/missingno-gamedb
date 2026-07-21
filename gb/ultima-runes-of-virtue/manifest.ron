@@ -1,6 +1,34 @@
 (
-    title: "Ultima - Runes of Virtue (USA)",
-    region: Some("USA"),
-    hashes: ["8d911cbbc6bd1518a85282def7f01d3add16e596"],
-    source: None,
+    title: "Ultima - Runes of Virtue",
+    releases: [
+        (
+            title: Some("Ultima - Ushinawareta Runes"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3a1d88736e13436cde15029dadd951b0b1c637e5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8d911cbbc6bd1518a85282def7f01d3add16e596",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

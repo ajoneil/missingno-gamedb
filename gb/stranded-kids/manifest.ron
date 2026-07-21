@@ -1,6 +1,53 @@
 (
-    title: "Stranded Kids (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["5c1d738f23a68cce8d2561f91f06c9998e0fe5a9"],
-    source: None,
+    title: "Stranded Kids",
+    releases: [
+        (
+            title: Some("Survival Kids - Kotou no Boukensha"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f80abbeaa2cf0631c1cdf812c13f13f1fea41f18",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Survival Kids"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0e3d3821710b07f68628edda071b928df0c6a2f2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5c1d738f23a68cce8d2561f91f06c9998e0fe5a9",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

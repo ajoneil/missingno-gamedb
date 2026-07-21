@@ -1,6 +1,20 @@
 (
-    title: "Stars of Zureon (World) (Proto 1) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["75457c5affd0c126f2c916e857950b5cde46a95e", "b16f21b46dfe4e6ce0368e3c5a3fae397274ebbf"],
-    source: None,
+    title: "Stars of Zureon",
+    releases: [
+        (
+            label: Some("Proto 1"),
+            regions: [
+                World,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "75457c5affd0c126f2c916e857950b5cde46a95e",
+                ),
+                (
+                    sha1: "b16f21b46dfe4e6ce0368e3c5a3fae397274ebbf",
+                ),
+            ],
+        ),
+    ],
 )

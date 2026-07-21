@@ -1,6 +1,29 @@
 (
-    title: "Zuigao Jimi (Top Secret) (Taiwan) (Multicart Rip) (Unl)",
-    region: Some("Top Secret"),
-    hashes: ["7afcc6dd82bb236f1ebe01c9b5ccad4d713ccbcf", "be706d1b46fa1de966f0b3b08e85399177eb148c"],
-    source: None,
+    title: "Zuigao Jimi",
+    releases: [
+        (
+            label: Some("Top Secret, Taiwan, Multicart Rip, Unl"),
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "be706d1b46fa1de966f0b3b08e85399177eb148c",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("Top Secret, Taiwan, Unl"),
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7afcc6dd82bb236f1ebe01c9b5ccad4d713ccbcf",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

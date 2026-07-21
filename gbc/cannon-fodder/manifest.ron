@@ -1,6 +1,42 @@
 (
-    title: "Cannon Fodder (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["9a6901cad65e6d0ce89af8442688fec6a9fedd43", "cc601984a2b52b44cf135e42bcac1bec44b7a6a3", "cee465f6987c2d580cc96fac703025989208e683"],
-    source: None,
+    title: "Cannon Fodder",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "9a6901cad65e6d0ce89af8442688fec6a9fedd43",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "cee465f6987c2d580cc96fac703025989208e683",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "cc601984a2b52b44cf135e42bcac1bec44b7a6a3",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

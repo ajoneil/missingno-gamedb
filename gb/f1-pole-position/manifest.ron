@@ -1,6 +1,51 @@
 (
-    title: "F1 Pole Position (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["a0087bd7421d73e1f8f339a266e62c2d03d081d6"],
-    source: None,
+    title: "F1 Pole Position",
+    releases: [
+        (
+            title: Some("F1 Challenge"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9849276839efdf7c2270a2fa7acd0d814cac026b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Nakajima Satoru Kanshuu - F-1 Hero GB \'92 - The Graded Driver"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6fe738c80ecac86db44a032cb636abeb2b00c4cb",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a0087bd7421d73e1f8f339a266e62c2d03d081d6",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

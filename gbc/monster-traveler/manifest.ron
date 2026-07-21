@@ -1,6 +1,29 @@
 (
-    title: "Monster Traveler (Japan) (Rev 1)",
-    region: Some("Japan"),
-    hashes: ["23842b7ad88a051b14c1676b1f561b933177f150", "5195f55ad6aaa302c0a0e11c0ec6ecad4efe0e27"],
-    source: None,
+    title: "Monster Traveler",
+    releases: [
+        (
+            label: Some("Possible Proto"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "5195f55ad6aaa302c0a0e11c0ec6ecad4efe0e27",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "23842b7ad88a051b14c1676b1f561b933177f150",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

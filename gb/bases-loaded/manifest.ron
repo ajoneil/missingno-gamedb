@@ -1,6 +1,34 @@
 (
-    title: "Bases Loaded (USA)",
-    region: Some("USA"),
-    hashes: ["5220db2e87622648caeacdfb8d4f564c9bf479fc"],
-    source: None,
+    title: "Bases Loaded",
+    releases: [
+        (
+            title: Some("Baseball Kids"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e4a49a9ecd7a9ce8bb552981e90903f21c741428",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5220db2e87622648caeacdfb8d4f564c9bf479fc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

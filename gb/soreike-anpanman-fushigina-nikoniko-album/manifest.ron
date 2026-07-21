@@ -1,6 +1,20 @@
 (
-    title: "Soreike! Anpanman - Fushigina Nikoniko Album (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["fe75b7b7a904ce76130d65b67d24e291ba3c2693"],
-    source: None,
+    title: "Soreike! Anpanman - Fushigina Nikoniko Album",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fe75b7b7a904ce76130d65b67d24e291ba3c2693",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Pachio-kun (Japan)",
-    region: Some("Japan"),
-    hashes: ["a7d82002b2a263b2ce4c09417fc639713601aec1"],
-    source: None,
+    title: "Pachio-kun",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a7d82002b2a263b2ce4c09417fc639713601aec1",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,33 @@
 (
-    title: "Pinocchio (Europe)",
-    region: Some("Europe"),
-    hashes: ["7716809645e00be2fdbbbfd05823a14856f01183", "e17c15325a1eaf5bb365ae4923c660e8c98a1d6b"],
-    source: None,
+    title: "Pinocchio",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7716809645e00be2fdbbbfd05823a14856f01183",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e17c15325a1eaf5bb365ae4923c660e8c98a1d6b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

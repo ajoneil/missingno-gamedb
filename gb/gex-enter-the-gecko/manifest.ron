@@ -1,6 +1,20 @@
 (
-    title: "Gex - Enter the Gecko (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["a05a530b3272634c8d3fedb6fd6eaf8b00b5cf9c"],
-    source: None,
+    title: "Gex - Enter the Gecko",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a05a530b3272634c8d3fedb6fd6eaf8b00b5cf9c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

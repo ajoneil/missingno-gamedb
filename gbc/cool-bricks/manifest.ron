@@ -1,6 +1,43 @@
 (
-    title: "Cool Bricks (Europe) (Beta) (1999-03-24)",
-    region: Some("Europe"),
-    hashes: ["0f0410e2ee2ce1a9e6b12399492f8bd2ddf67406", "17d58a23a911813866923773a17cc92a142ae950", "784fffacd2ce97c7a91971d8522e01fe5596de0f"],
-    source: None,
+    title: "Cool Bricks",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1999-05-10"),
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "17d58a23a911813866923773a17cc92a142ae950",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1999-03-24"),
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "784fffacd2ce97c7a91971d8522e01fe5596de0f",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "0f0410e2ee2ce1a9e6b12399492f8bd2ddf67406",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Meitantei Conan - Giwaku no Gouka Ressha (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["125db863bad5d48033d0bf94ed808b2b8d34ca2f"],
-    source: None,
+    title: "Meitantei Conan - Giwaku no Gouka Ressha",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "125db863bad5d48033d0bf94ed808b2b8d34ca2f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

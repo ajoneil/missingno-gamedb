@@ -1,6 +1,28 @@
 (
-    title: "BattleTanx (Europe) (En,Fr,De)",
-    region: Some("Europe"),
-    hashes: ["5078584e86c0b6f4687c424cc00bbd762ba6573a", "d9f52594f79257dc616428a694c1f2c808797361"],
-    source: None,
+    title: "BattleTanx",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "5078584e86c0b6f4687c424cc00bbd762ba6573a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d9f52594f79257dc616428a694c1f2c808797361",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

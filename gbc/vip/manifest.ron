@@ -1,6 +1,29 @@
 (
-    title: "VIP (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["3ecff5c68e457ee34c42af6349f9ab2a6845b5de", "4da103b9a5c9e9649b26876fcbd70555bd8fd042"],
-    source: None,
+    title: "VIP",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "4da103b9a5c9e9649b26876fcbd70555bd8fd042",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "3ecff5c68e457ee34c42af6349f9ab2a6845b5de",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

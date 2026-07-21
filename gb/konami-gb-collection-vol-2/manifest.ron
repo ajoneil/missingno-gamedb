@@ -1,6 +1,20 @@
 (
-    title: "Konami GB Collection Vol.2 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["5753310cb9fbe44efc2b27ce488cd069ef243199", "7a726cac1d459986edebd2cc8f4a84d7369353dd"],
-    source: None,
+    title: "Konami GB Collection Vol.2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5753310cb9fbe44efc2b27ce488cd069ef243199",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "Goukaku Boy Series - Shikakui Atama o Maruku Suru - Sansuu Battle Hen (Japan) (Imagineer)",
-    region: Some("Japan"),
-    hashes: ["1e0fe5a54b4eb03a1f108d8650ad5ef8814d7444", "a10e78f3fe2c46e167d39ed713106937365a6d55"],
-    source: None,
+    title: "Goukaku Boy Series - Shikakui Atama o Maruku Suru - Sansuu Battle Hen",
+    releases: [
+        (
+            label: Some("IE Institute"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1e0fe5a54b4eb03a1f108d8650ad5ef8814d7444",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Imagineer"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a10e78f3fe2c46e167d39ed713106937365a6d55",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

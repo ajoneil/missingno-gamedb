@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2156 Adj. Program (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["c4b46446553bf6c25e3b3c1d5cd450a205ff6692"],
-    source: None,
+    title: "Minolta 2156 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c4b46446553bf6c25e3b3c1d5cd450a205ff6692",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

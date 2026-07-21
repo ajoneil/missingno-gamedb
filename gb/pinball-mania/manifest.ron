@@ -1,6 +1,19 @@
 (
-    title: "Pinball Mania (Europe)",
-    region: Some("Europe"),
-    hashes: ["0541161b4b93fffc3c75708aca86ea0873747ced"],
-    source: None,
+    title: "Pinball Mania",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0541161b4b93fffc3c75708aca86ea0873747ced",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

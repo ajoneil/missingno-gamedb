@@ -1,6 +1,20 @@
 (
-    title: "Dino Breeder 3 - Gaia Fukkatsu (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["f571a591a2f4fc4f70897e380fdbe9011be75f8d"],
-    source: None,
+    title: "Dino Breeder 3 - Gaia Fukkatsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f571a591a2f4fc4f70897e380fdbe9011be75f8d",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

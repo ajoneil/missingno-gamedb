@@ -1,6 +1,20 @@
 (
-    title: "Get!! Loto Club (Japan) (Proto) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["c22b9e28cbd3d90d8c76dac743e917d6dbe9db05"],
-    source: None,
+    title: "Get!! Loto Club",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c22b9e28cbd3d90d8c76dac743e917d6dbe9db05",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

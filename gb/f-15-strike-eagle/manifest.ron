@@ -1,6 +1,38 @@
 (
-    title: "F-15 Strike Eagle (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["237a08abe860bce316f1ce337afb11ee0e566037"],
-    source: None,
+    title: "F-15 Strike Eagle",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "237a08abe860bce316f1ce337afb11ee0e566037",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("F-15 Strike Eagle II"),
+            label: Some("July, 1992"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "298c07ef596ab3a3c4a320b2f2d7e2c0dbaf764d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

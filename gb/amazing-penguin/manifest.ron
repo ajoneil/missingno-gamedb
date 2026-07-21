@@ -1,6 +1,50 @@
 (
-    title: "Amazing Penguin (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["01f11e0746a511b35b2c873d6a190f6e10204676", "84cc6452823eb05ee38679aec86e3cc6e4a50e6f"],
-    source: None,
+    title: "Amazing Penguin",
+    releases: [
+        (
+            title: Some("Osawagase! Penguin Boy"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1cdcf9810e98ba04378b2d6b555654722cb0acf6",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "84cc6452823eb05ee38679aec86e3cc6e4a50e6f",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("Limited Run Games"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "01f11e0746a511b35b2c873d6a190f6e10204676",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

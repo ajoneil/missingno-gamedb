@@ -1,6 +1,20 @@
 (
-    title: "Pachinko Monogatari Gaiden (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["b5229f7263ed761fbf30e98d88192787e79bcc56"],
-    source: None,
+    title: "Pachinko Monogatari Gaiden",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b5229f7263ed761fbf30e98d88192787e79bcc56",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

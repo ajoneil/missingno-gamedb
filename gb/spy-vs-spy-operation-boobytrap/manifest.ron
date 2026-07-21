@@ -1,6 +1,48 @@
 (
-    title: "Spy vs Spy - Operation Boobytrap (Europe)",
-    region: Some("Europe"),
-    hashes: ["1a84bb71a8e655f9741f825d515cb9ce02cfab9a", "f3405ab4e07570db790850c928a2d338478b93ff"],
-    source: None,
+    title: "Spy vs Spy - Operation Boobytrap",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f3405ab4e07570db790850c928a2d338478b93ff",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Trappers Tengoku - Spy vs Spy"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c9eb687f6de7b821255fdd0cbf14f68ad789f97f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1a84bb71a8e655f9741f825d515cb9ce02cfab9a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

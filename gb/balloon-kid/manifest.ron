@@ -1,6 +1,20 @@
 (
-    title: "Balloon Kid (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["0cb5adc9bdef5320f3f156efed0d47a618e2299f"],
-    source: None,
+    title: "Balloon Kid",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0cb5adc9bdef5320f3f156efed0d47a618e2299f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

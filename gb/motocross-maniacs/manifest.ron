@@ -1,6 +1,63 @@
 (
-    title: "Motocross Maniacs (Europe)",
-    region: Some("Europe"),
-    hashes: ["80575304ccedbd26c0366d8f6f0f0faae09a4f13", "956a12a65a1c39948c312303719895bd6f141a61", "d21f2a4ddb69c408a370b6768f83914c11012c71", "de3fbb541acac5e4fcd828e9cf4eef7541e95645"],
-    source: None,
+    title: "Motocross Maniacs",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "956a12a65a1c39948c312303719895bd6f141a61",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "80575304ccedbd26c0366d8f6f0f0faae09a4f13",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "de3fbb541acac5e4fcd828e9cf4eef7541e95645",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d21f2a4ddb69c408a370b6768f83914c11012c71",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

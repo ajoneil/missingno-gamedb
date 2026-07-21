@@ -1,6 +1,16 @@
 (
-    title: "Rescue Heroes - Fire Frenzy (USA)",
-    region: Some("USA"),
-    hashes: ["a57aeb43ef88ffd09f5028368a3142c3e9f5e792"],
-    source: None,
+    title: "Rescue Heroes - Fire Frenzy",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "a57aeb43ef88ffd09f5028368a3142c3e9f5e792",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

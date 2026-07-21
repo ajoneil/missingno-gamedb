@@ -1,6 +1,34 @@
 (
-    title: "Sanrio Uranai Party (Japan)",
-    region: Some("Japan"),
-    hashes: ["0d12280e689eb320df06ceb469c629d93860dc2e", "72dfcc83dbd78ad2b5b43014fc9adf05431e230c"],
-    source: None,
+    title: "Sanrio Uranai Party",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0d12280e689eb320df06ceb469c629d93860dc2e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "72dfcc83dbd78ad2b5b43014fc9adf05431e230c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

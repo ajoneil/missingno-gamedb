@@ -1,6 +1,35 @@
 (
-    title: "Lazlos' Leap (USA)",
-    region: Some("USA"),
-    hashes: ["c111470fcdadf191cf843e50c8f3d3dbb995a5c5"],
-    source: None,
+    title: "Lazlos\' Leap",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c111470fcdadf191cf843e50c8f3d3dbb995a5c5",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Solitaire"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "220f5b230559ae0c5742a31c59a90615c7fb8613",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Prince Naseem Boxing (Europe) (En,Fr,De)",
-    region: Some("Europe"),
-    hashes: ["f0500b3ca8a24b3bd2c11e77fbe4c75db178dfbe"],
-    source: None,
+    title: "Prince Naseem Boxing",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "f0500b3ca8a24b3bd2c11e77fbe4c75db178dfbe",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

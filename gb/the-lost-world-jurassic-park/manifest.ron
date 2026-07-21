@@ -1,0 +1,38 @@
+(
+    title: "The Lost World - Jurassic Park",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "68bf63ba6a6c9f3a71a933d6f00e5212c66dcd03",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Le Monde Perdu - Jurassic Park"),
+            label: Some("En"),
+            regions: [
+                France,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "589efa9ef5a6ce38200a137083f856f75d75a8c6",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
+)

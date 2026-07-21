@@ -1,6 +1,97 @@
 (
-    title: "Probotector (Europe)",
-    region: Some("Europe"),
-    hashes: ["45482a44ce0cdfa33fc58a8a8afe2d7284dfa498", "bc58585f8a1b2e27712ae5d44e3d851f4535a53f"],
-    source: None,
+    title: "Probotector",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "45482a44ce0cdfa33fc58a8a8afe2d7284dfa498",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Operation C"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1dc3e1c62e62f77ac633408b544ac1d02b3761eb",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Contra"),
+            label: Some("Contra Anniversary Collection"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6fea1350ac04f418095cca5f157a9c770a0505bc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Contra Anniversary Collection"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bc58585f8a1b2e27712ae5d44e3d851f4535a53f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Operation C"),
+            label: Some("Contra Anniversary Collection"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bd528f1b20051502e2b4418845e0c6698e1c5b4b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Contra"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c8b34b5aba3d448e357b59cdf106ee9b134713db",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Battle Pingpong (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["5008699f7a31a1a0722114f83e94591e99b22cc0"],
-    source: None,
+    title: "Battle Pingpong",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5008699f7a31a1a0722114f83e94591e99b22cc0",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

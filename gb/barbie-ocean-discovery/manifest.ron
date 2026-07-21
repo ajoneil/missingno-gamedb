@@ -1,6 +1,108 @@
 (
-    title: "Barbie - Ocean Discovery (United Kingdom) (GB Compatible)",
-    region: Some("United Kingdom"),
-    hashes: ["c0c37864e17f11fffa8b8a61a0abe4b2b80c235c", "fab988692a19d53e71fc754dea3a01506b104d9f"],
-    source: None,
+    title: "Barbie - Ocean Discovery",
+    releases: [
+        (
+            title: Some("Barbie - Chasse au Tresor Sous-Marine"),
+            regions: [
+                France,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bc44d39cce1f3143e9fa830ede2b4126a4d61b54",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Barbie - Meeres Abenteuer"),
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c392aefb3d657cae6602e285f5fb57ec079a818e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Barbie - Avventure nell\'Oceano"),
+            regions: [
+                Italy,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "79ea73d94d2402525c718563b5613bee71b69b44",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Barbie - Diepzee Avontuur"),
+            regions: [
+                Netherlands,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3e93df9512819679deac989895de398a6159645c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Barbie - Aventura Submarina"),
+            regions: [
+                Spain,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7b342745f14f0a2245b961cfd6e23d1b2e98c249",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                UnitedKingdom,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c0c37864e17f11fffa8b8a61a0abe4b2b80c235c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fab988692a19d53e71fc754dea3a01506b104d9f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

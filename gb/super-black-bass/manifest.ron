@@ -1,6 +1,35 @@
 (
-    title: "Super Black Bass (USA)",
-    region: Some("USA"),
-    hashes: ["4d3cb96da714d785dfbcc3ba242f9a7a221c9cbb"],
-    source: None,
+    title: "Super Black Bass",
+    releases: [
+        (
+            title: Some("Super Black Bass Pocket"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1fb714757e9a0ad02c96feb57a0d04163e44dc74",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4d3cb96da714d785dfbcc3ba242f9a7a221c9cbb",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

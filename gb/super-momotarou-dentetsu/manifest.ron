@@ -1,6 +1,19 @@
 (
-    title: "Super Momotarou Dentetsu (Japan)",
-    region: Some("Japan"),
-    hashes: ["c142845225145f1ece8aa4cdfd207402146edfc0"],
-    source: None,
+    title: "Super Momotarou Dentetsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c142845225145f1ece8aa4cdfd207402146edfc0",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

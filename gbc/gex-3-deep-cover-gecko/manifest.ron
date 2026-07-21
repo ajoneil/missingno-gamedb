@@ -1,6 +1,29 @@
 (
-    title: "Gex 3 - Deep Cover Gecko (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["176ec4347ce08b15214e68fcec39c9c4c57ad773"],
-    source: None,
+    title: "Gex 3 - Deep Cover Gecko",
+    releases: [
+        (
+            title: Some("Gex 3 - Deep Pocket Gecko"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "0da71536a3e92dd537c7067ec1014a262dbc3837",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "176ec4347ce08b15214e68fcec39c9c4c57ad773",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

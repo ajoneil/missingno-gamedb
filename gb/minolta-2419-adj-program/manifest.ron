@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2419 Adj. Program (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["c4fdbdc3a2b7cdd4b494ece7f81d88f5d7564c3d"],
-    source: None,
+    title: "Minolta 2419 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c4fdbdc3a2b7cdd4b494ece7f81d88f5d7564c3d",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

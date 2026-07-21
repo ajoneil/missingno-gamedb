@@ -1,6 +1,20 @@
 (
-    title: "Othello World (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["089013eb2dac79c5525c442bfc9cda74e8660597"],
-    source: None,
+    title: "Othello World",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "089013eb2dac79c5525c442bfc9cda74e8660597",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

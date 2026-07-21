@@ -1,6 +1,35 @@
 (
-    title: "Pri Pri - Primitive Princess! (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["e0be36278f3c97ccae09f66504e2a106f4c03d43", "fea367a2fc321daeae59746ee2cb7ffafd51479a"],
-    source: None,
+    title: "Pri Pri - Primitive Princess!",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fea367a2fc321daeae59746ee2cb7ffafd51479a",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("Evercade"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e0be36278f3c97ccae09f66504e2a106f4c03d43",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

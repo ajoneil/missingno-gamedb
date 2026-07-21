@@ -1,6 +1,16 @@
 (
-    title: "Mobile Trainer (Japan)",
-    region: Some("Japan"),
-    hashes: ["ecc0579edeaf9eccd722d605cc288cd023c8576a"],
-    source: None,
+    title: "Mobile Trainer",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "ecc0579edeaf9eccd722d605cc288cd023c8576a",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

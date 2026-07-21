@@ -1,6 +1,53 @@
 (
-    title: "Game & Watch Gallery 3 (USA, Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["64ccb3b41715080a9aa13970678aa9047fc7a9fd"],
-    source: None,
+    title: "Game & Watch Gallery 3",
+    releases: [
+        (
+            title: Some("Game Boy Gallery 4"),
+            regions: [
+                Australia,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fb8b98ae16f79fd70d2c0f0911dfcb2fdf1e7149",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Game Boy Gallery 3"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "18c3e0a015fa79c8694b8554e3c46fd67f034c71",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "64ccb3b41715080a9aa13970678aa9047fc7a9fd",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

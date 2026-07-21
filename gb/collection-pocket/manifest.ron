@@ -1,6 +1,20 @@
 (
-    title: "Collection Pocket (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["daad5ec53da0e375cee3962c0a9031d8a67020fd"],
-    source: None,
+    title: "Collection Pocket",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "daad5ec53da0e375cee3962c0a9031d8a67020fd",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

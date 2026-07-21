@@ -1,6 +1,16 @@
 (
-    title: "Hello Kitty to Dear Daniel no Dream Adventure (Japan)",
-    region: Some("Japan"),
-    hashes: ["a726c5847112289720d6587bf63778c839245c49"],
-    source: None,
+    title: "Hello Kitty to Dear Daniel no Dream Adventure",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "a726c5847112289720d6587bf63778c839245c49",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

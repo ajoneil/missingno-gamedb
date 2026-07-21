@@ -1,6 +1,19 @@
 (
-    title: "Dick Tracy (USA)",
-    region: Some("USA"),
-    hashes: ["906361b2066c2b48500b9b709f7b4ed1018309c0"],
-    source: None,
+    title: "Dick Tracy",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "906361b2066c2b48500b9b709f7b4ed1018309c0",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

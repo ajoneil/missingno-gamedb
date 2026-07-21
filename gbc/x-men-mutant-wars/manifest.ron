@@ -1,6 +1,17 @@
 (
-    title: "X-Men - Mutant Wars (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["0adaeef76db5a6df2786a45231e0934840f6eb44"],
-    source: None,
+    title: "X-Men - Mutant Wars",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "0adaeef76db5a6df2786a45231e0934840f6eb44",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

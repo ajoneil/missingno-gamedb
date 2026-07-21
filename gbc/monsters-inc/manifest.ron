@@ -1,6 +1,65 @@
 (
-    title: "Monsters, Inc. (Europe) (Rev 1)",
-    region: Some("Europe"),
-    hashes: ["31e64a1cdd25cdc4413e0a1bc15dc22017e881e4", "34ab1e38f34287f022c871b6ed2116ded6d4b60d", "58befa4dbe7dac79bfadcaf259999cdcddf4f2c8", "8713b1d51ce33a761f64455b59cd49952b7f7cd1"],
-    source: None,
+    title: "Monsters, Inc.",
+    releases: [
+        (
+            title: Some("Die Monster AG"),
+            regions: [
+                Germany,
+            ],
+            artifacts: [
+                (
+                    sha1: "afe20aa46ff136c0ddf6f2692b1bbde9c30e71f6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "58befa4dbe7dac79bfadcaf259999cdcddf4f2c8",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Es,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "8713b1d51ce33a761f64455b59cd49952b7f7cd1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "34ab1e38f34287f022c871b6ed2116ded6d4b60d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "31e64a1cdd25cdc4413e0a1bc15dc22017e881e4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

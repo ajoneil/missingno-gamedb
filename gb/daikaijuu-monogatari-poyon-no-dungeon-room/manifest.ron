@@ -1,6 +1,20 @@
 (
-    title: "Daikaijuu Monogatari - Poyon no Dungeon Room (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["0854b7ea4791a460c75ce9096583934b1af053e8"],
-    source: None,
+    title: "Daikaijuu Monogatari - Poyon no Dungeon Room",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0854b7ea4791a460c75ce9096583934b1af053e8",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

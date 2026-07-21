@@ -1,6 +1,17 @@
 (
-    title: "Space Invasion (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["bcf0940375a23bca6957eec2ab8e49af695aeb32"],
-    source: None,
+    title: "Space Invasion",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "bcf0940375a23bca6957eec2ab8e49af695aeb32",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

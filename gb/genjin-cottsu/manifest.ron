@@ -1,6 +1,20 @@
 (
-    title: "Genjin Cottsu (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["70e3cd1df16fbff644c32f588bf80a116b043bb2"],
-    source: None,
+    title: "Genjin Cottsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "70e3cd1df16fbff644c32f588bf80a116b043bb2",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

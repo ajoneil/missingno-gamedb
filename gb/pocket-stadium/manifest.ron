@@ -1,6 +1,19 @@
 (
-    title: "Pocket Stadium (Japan)",
-    region: Some("Japan"),
-    hashes: ["7ba422f2b48ff09673f7f1a258be6ecc1ff6a8d7"],
-    source: None,
+    title: "Pocket Stadium",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7ba422f2b48ff09673f7f1a258be6ecc1ff6a8d7",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

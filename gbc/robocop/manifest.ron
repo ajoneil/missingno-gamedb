@@ -1,6 +1,17 @@
 (
-    title: "RoboCop (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["11b22799a4fe7a605c54c7d5fb9b9f61eceffd08", "39b92e019134dfd4480b957509c3eb64920cecb3", "b858e5a7b5b87578fb14a60a2d9a330a6c8a10eb", "fbac3bdc8ed40c0f752ec711c4cc82262358f9bd"],
-    source: None,
+    title: "RoboCop",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "fbac3bdc8ed40c0f752ec711c4cc82262358f9bd",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

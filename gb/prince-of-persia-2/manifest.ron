@@ -1,0 +1,37 @@
+(
+    title: "Prince of Persia",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ef2f6402e8ef367273200e3b07f310ebd80ccdc2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Ja"),
+            regions: [
+                Japan,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6fd97e1f75570e7568b3dc4ab28834813afb4484",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
+)

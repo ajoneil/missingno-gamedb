@@ -1,6 +1,16 @@
 (
-    title: "Network Boukenki Bugsite - Alpha Version (Japan)",
-    region: Some("Japan"),
-    hashes: ["a5be33b3cefa2af0865caddb287814c8cca19edd"],
-    source: None,
+    title: "Network Boukenki Bugsite - Alpha Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "a5be33b3cefa2af0865caddb287814c8cca19edd",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

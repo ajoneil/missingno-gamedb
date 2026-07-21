@@ -1,6 +1,35 @@
 (
-    title: "Rox (Japan) (En) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["196eff1c40b3dc552e6fac9e16cc0f5f0e293434", "86cb1f29e5d061431978d6dc48d7278b9c290cda"],
-    source: None,
+    title: "Rox",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "86cb1f29e5d061431978d6dc48d7278b9c290cda",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "196eff1c40b3dc552e6fac9e16cc0f5f0e293434",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

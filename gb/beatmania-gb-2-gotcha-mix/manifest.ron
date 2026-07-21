@@ -1,6 +1,20 @@
 (
-    title: "Beatmania GB 2 - Gotcha Mix (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["b6273c434e880d6f9b5f4f6f53307bda9902fff1"],
-    source: None,
+    title: "Beatmania GB 2 - Gotcha Mix",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b6273c434e880d6f9b5f4f6f53307bda9902fff1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

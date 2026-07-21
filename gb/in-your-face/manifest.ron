@@ -1,6 +1,19 @@
 (
-    title: "In Your Face (USA)",
-    region: Some("USA"),
-    hashes: ["0be0f2a952497b321655dbee5c89678f40bf0b5a"],
-    source: None,
+    title: "In Your Face",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0be0f2a952497b321655dbee5c89678f40bf0b5a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

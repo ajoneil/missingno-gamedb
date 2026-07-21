@@ -1,6 +1,35 @@
 (
-    title: "Nanonote (Japan)",
-    region: Some("Japan"),
-    hashes: ["782fcaecfaf21ca6de098baacd043aaede182bae", "8d280e610a827e56864e6b99a637103a2d14f7bf"],
-    source: None,
+    title: "Nanonote",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8d280e610a827e56864e6b99a637103a2d14f7bf",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "782fcaecfaf21ca6de098baacd043aaede182bae",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

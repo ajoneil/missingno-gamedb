@@ -1,6 +1,22 @@
 (
-    title: "Ghost of the Arcade (World) (GB Compo 2023) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["433e25df1421e77cdc807296e1ed662d9e43d685", "ac697bc27a126c1389e6bef94a2c83404e8819f2", "ee11d5397316b69eee5ae3023de08c3b919c93df"],
-    source: None,
+    title: "Ghost of the Arcade",
+    releases: [
+        (
+            label: Some("GB Compo 2023"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "433e25df1421e77cdc807296e1ed662d9e43d685",
+                ),
+                (
+                    sha1: "ac697bc27a126c1389e6bef94a2c83404e8819f2",
+                ),
+                (
+                    sha1: "ee11d5397316b69eee5ae3023de08c3b919c93df",
+                ),
+            ],
+        ),
+    ],
 )

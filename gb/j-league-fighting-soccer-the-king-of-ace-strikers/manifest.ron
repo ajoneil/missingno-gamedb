@@ -1,6 +1,19 @@
 (
-    title: "J.League Fighting Soccer - The King of Ace Strikers (Japan)",
-    region: Some("Japan"),
-    hashes: ["fbe94c42a9bd7d5ebddb28382caf03ab2f9902d6"],
-    source: None,
+    title: "J.League Fighting Soccer - The King of Ace Strikers",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fbe94c42a9bd7d5ebddb28382caf03ab2f9902d6",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

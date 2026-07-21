@@ -1,6 +1,20 @@
 (
-    title: "Pocket Kyoro-chan (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["0506deffdf9fee21dda394e272c84fe8df2fbec0"],
-    source: None,
+    title: "Pocket Kyoro-chan",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0506deffdf9fee21dda394e272c84fe8df2fbec0",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

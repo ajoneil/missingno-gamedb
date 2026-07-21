@@ -1,6 +1,16 @@
 (
-    title: "Feed The Monster (World) (GB Compatible) (Pirate)",
-    region: Some("World"),
-    hashes: ["bdcadc0f98d8c9061cbe83c53a047719280b6e09"],
-    source: None,
+    title: "Feed The Monster",
+    releases: [
+        (
+            label: Some("Pirate"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "bdcadc0f98d8c9061cbe83c53a047719280b6e09",
+                ),
+            ],
+        ),
+    ],
 )

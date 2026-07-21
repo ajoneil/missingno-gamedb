@@ -1,6 +1,20 @@
 (
-    title: "Game Boy Gallery 2 (Australia) (SGB Enhanced)",
-    region: Some("Australia"),
-    hashes: ["021c47f89fa975e4dc5cc32c61bf87b120a25c09", "90a9b368bca0f47fe72028ff4d50fb3d3060c32f", "f002564f9cd9edb704b9c64f889aea3e7836a712"],
-    source: None,
+    title: "Game Boy Gallery 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "021c47f89fa975e4dc5cc32c61bf87b120a25c09",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

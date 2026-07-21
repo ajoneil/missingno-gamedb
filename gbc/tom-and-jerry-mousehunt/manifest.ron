@@ -1,6 +1,42 @@
 (
-    title: "Tom and Jerry - Mousehunt (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["6f837075d7493adcbd5b18ba1e27386b6fc31e62", "bf5faf4c5c2aabe9636f8f5afbbf526aba59e21d"],
-    source: None,
+    title: "Tom and Jerry - Mousehunt",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "6f837075d7493adcbd5b18ba1e27386b6fc31e62",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It, Rev 1"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "bf5faf4c5c2aabe9636f8f5afbbf526aba59e21d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Tom and Jerry - Mouse Hunt"),
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "99c71a51921d802a0fcaea1f67b54ef4ec653900",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

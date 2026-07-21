@@ -1,6 +1,20 @@
 (
-    title: "Lingo (Europe) (En,Fr,De,Nl)",
-    region: Some("Europe"),
-    hashes: ["4838c0baae82a9de62e70f2004d674b87caa2043"],
-    source: None,
+    title: "Lingo",
+    releases: [
+        (
+            label: Some("En,Fr,De,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4838c0baae82a9de62e70f2004d674b87caa2043",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,16 @@
 (
-    title: "Janosch - Das grosse Panama-Spiel (Germany)",
-    region: Some("Germany"),
-    hashes: ["0b514e2b77b9da69d10fa1f3d79c0727f625de82"],
-    source: None,
+    title: "Janosch - Das grosse Panama-Spiel",
+    releases: [
+        (
+            regions: [
+                Germany,
+            ],
+            artifacts: [
+                (
+                    sha1: "0b514e2b77b9da69d10fa1f3d79c0727f625de82",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

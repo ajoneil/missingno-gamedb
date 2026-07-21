@@ -1,6 +1,20 @@
 (
-    title: "Akazukin Chacha (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["d07970a7eae51aef8c4e8b4bcdd57aeed6360bdd"],
-    source: None,
+    title: "Akazukin Chacha",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d07970a7eae51aef8c4e8b4bcdd57aeed6360bdd",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

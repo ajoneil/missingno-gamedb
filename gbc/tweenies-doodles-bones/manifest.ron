@@ -1,6 +1,29 @@
 (
-    title: "Tweenies - Doodles' Bones (Europe) (En,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["1e39a4ea0a8c7322a2e0653e522e0e486aa1ac36", "d1ff6fd8772dbc2038af7220845e817396664ae3"],
-    source: None,
+    title: "Tweenies - Doodles\' Bones",
+    releases: [
+        (
+            label: Some("En,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d1ff6fd8772dbc2038af7220845e817396664ae3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Nl,Sv,No,Da"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "1e39a4ea0a8c7322a2e0653e522e0e486aa1ac36",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,50 @@
 (
-    title: "Dynablaster (Europe)",
-    region: Some("Europe"),
-    hashes: ["3c284831353be165e20b56f3728b0421eaea274a"],
-    source: None,
+    title: "Dynablaster",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3c284831353be165e20b56f3728b0421eaea274a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Atomic Punk"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4b364b4c12b83ab7adbec074fac951e2eb63dea8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bomber Boy"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a9baddfb693f20057b17c084422d7bfac590f2ba",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

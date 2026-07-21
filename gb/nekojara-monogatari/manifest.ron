@@ -1,6 +1,19 @@
 (
-    title: "Nekojara Monogatari (Japan)",
-    region: Some("Japan"),
-    hashes: ["f0f320b9170501c762e724e9b22d37cb4d15d0a9"],
-    source: None,
+    title: "Nekojara Monogatari",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f0f320b9170501c762e724e9b22d37cb4d15d0a9",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Janshirou II - Sekai Saikyou no Janshi (Japan)",
-    region: Some("Japan"),
-    hashes: ["f85022f21549349f95b58db57ab71998ab24c012"],
-    source: None,
+    title: "Janshirou II - Sekai Saikyou no Janshi",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f85022f21549349f95b58db57ab71998ab24c012",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

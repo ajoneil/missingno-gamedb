@@ -1,6 +1,67 @@
 (
-    title: "Konami Golf (Europe)",
-    region: Some("Europe"),
-    hashes: ["59d13714f8477db50cf164254480dd25959ecd23"],
-    source: None,
+    title: "Konami Golf",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "59d13714f8477db50cf164254480dd25959ecd23",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Ultra Golf"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a20c0a995a91b20646564965705fad129474e9bf",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Ultra Golf"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1991-11-20"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b29e5da6f794a010d858f4398da85145f20d8c55",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Konamic Golf"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "78d014f8feb88cc8b509172c1a6fa48aa5eed67c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "NASCAR Challenge (USA) (Rumble Version)",
-    region: Some("USA"),
-    hashes: ["4282d0d76af3d022f9e76082be17522ce5699e54"],
-    source: None,
+    title: "NASCAR Challenge",
+    releases: [
+        (
+            label: Some("Rumble Version"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "4282d0d76af3d022f9e76082be17522ce5699e54",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

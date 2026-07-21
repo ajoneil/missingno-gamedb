@@ -1,6 +1,20 @@
 (
-    title: "SmartCom (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["a04bbf813bcd9b7e3af97d388ad77d25c1403831"],
-    source: None,
+    title: "SmartCom",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a04bbf813bcd9b7e3af97d388ad77d25c1403831",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

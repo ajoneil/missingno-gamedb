@@ -1,6 +1,41 @@
 (
-    title: "Lemmings & Oh No! More Lemmings (USA)",
-    region: Some("USA"),
-    hashes: ["2662b9fdfb243392ec1268feea993ed36ac840b1"],
-    source: None,
+    title: "Lemmings & Oh No! More Lemmings",
+    releases: [
+        (
+            title: Some("Lemmings"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "f1f9ab3878c606b488e89c24068af10060b1640f",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            title: Some("Lemmings VS"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "2ebb428a53acbcbc215f37bb263e44d94f547473",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "2662b9fdfb243392ec1268feea993ed36ac840b1",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

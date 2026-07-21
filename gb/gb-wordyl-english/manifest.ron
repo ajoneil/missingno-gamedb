@@ -1,6 +1,21 @@
 (
-    title: "GB-Wordyl - English (World) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["7163bfbaa2cae2f9d41c472128f69a4fa5879180", "daf400d4d0e9f73be0b35331cdf363332bc1f4ee", "f7557aa778321f9a725ce20532e1308a87dd9abc"],
-    source: None,
+    title: "GB-Wordyl - English",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "7163bfbaa2cae2f9d41c472128f69a4fa5879180",
+                ),
+                (
+                    sha1: "daf400d4d0e9f73be0b35331cdf363332bc1f4ee",
+                ),
+                (
+                    sha1: "f7557aa778321f9a725ce20532e1308a87dd9abc",
+                ),
+            ],
+        ),
+    ],
 )

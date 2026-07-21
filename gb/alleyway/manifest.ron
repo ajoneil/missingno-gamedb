@@ -1,6 +1,19 @@
 (
-    title: "Alleyway (World)",
-    region: Some("World"),
-    hashes: ["0cf2b8d0428f389f5361f67a0cd1ace05a1c75cc"],
-    source: None,
+    title: "Alleyway",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0cf2b8d0428f389f5361f67a0cd1ace05a1c75cc",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

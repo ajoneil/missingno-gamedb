@@ -1,6 +1,135 @@
 (
-    title: "Pokemon - Silver Version (USA, Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["49b163f7e57702bc939d642a18f591de55d92dae"],
-    source: None,
+    title: "Pokemon - Silver Version",
+    releases: [
+        (
+            title: Some("Pokemon - Version Argent"),
+            regions: [
+                France,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a4a7e8079b7a53e4d9ef43382bbb1090b9d45d1a",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Silberne Edition"),
+            regions: [
+                Germany,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "76fa60d66b2f22a035adc54c61aad9a415c894cd",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Silberne Edition"),
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8ecc58d621faaedf2a934bd2583d527220df7bb9",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Versione Argento"),
+            regions: [
+                Italy,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c9eca9d0a837beb9137bb7d779e469c54e9f8d77",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pocket Monsters Gin"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fa8c51059c1642faa570db56ef089f54d1d2011f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Edicion Plata"),
+            regions: [
+                Spain,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "05bd978ab2cb104b0aff3f696896e30885203a18",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "49b163f7e57702bc939d642a18f591de55d92dae",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pocket Monsters Gin"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a11d5ddc26eb826086593f82370b15d16404d33e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

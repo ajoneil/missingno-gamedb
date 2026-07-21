@@ -1,6 +1,19 @@
 (
-    title: "QIX (World)",
-    region: Some("World"),
-    hashes: ["fb9935ca821562966eafa8f60ec2f489ad33940a"],
-    source: None,
+    title: "QIX",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fb9935ca821562966eafa8f60ec2f489ad33940a",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

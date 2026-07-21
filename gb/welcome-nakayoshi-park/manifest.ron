@@ -1,6 +1,19 @@
 (
-    title: "Welcome Nakayoshi Park (Japan)",
-    region: Some("Japan"),
-    hashes: ["8779a1557ba0de3c5c8b770413f30bd31717b2ef"],
-    source: None,
+    title: "Welcome Nakayoshi Park",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8779a1557ba0de3c5c8b770413f30bd31717b2ef",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

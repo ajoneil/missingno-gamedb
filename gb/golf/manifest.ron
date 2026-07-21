@@ -1,6 +1,19 @@
 (
-    title: "Golf (World)",
-    region: Some("World"),
-    hashes: ["2acee1a14ba611e73b0b7d6bce170107213fcc0c"],
-    source: None,
+    title: "Golf",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2acee1a14ba611e73b0b7d6bce170107213fcc0c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Karakuri Kengou Den Musashi Lord (Japan)",
-    region: Some("Japan"),
-    hashes: ["abef454ba28d9a89cdeef53dc32549d7bd7d95bb"],
-    source: None,
+    title: "Karakuri Kengou Den Musashi Lord",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "abef454ba28d9a89cdeef53dc32549d7bd7d95bb",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

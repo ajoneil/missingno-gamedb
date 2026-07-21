@@ -1,6 +1,19 @@
 (
-    title: "Ganso!! Yancha Maru (Japan)",
-    region: Some("Japan"),
-    hashes: ["76be351eac00749553c942b6f8002e65d8a35986"],
-    source: None,
+    title: "Ganso!! Yancha Maru",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "76be351eac00749553c942b6f8002e65d8a35986",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

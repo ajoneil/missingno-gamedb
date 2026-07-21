@@ -1,6 +1,19 @@
 (
-    title: "Pinball Deluxe (Europe)",
-    region: Some("Europe"),
-    hashes: ["a99d8a9880ed79b40766b3a532f8a165171ca450"],
-    source: None,
+    title: "Pinball Deluxe",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a99d8a9880ed79b40766b3a532f8a165171ca450",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

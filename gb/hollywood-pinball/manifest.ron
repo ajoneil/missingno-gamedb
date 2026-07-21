@@ -1,6 +1,34 @@
 (
-    title: "Hollywood Pinball (Europe) (En,Fr,De,It) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["2d179e034dbd19e48aee31ffdc504305444cc84a", "ff77ec892f2331e895774555183fb1cffb88ca6e"],
-    source: None,
+    title: "Hollywood Pinball",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ff77ec892f2331e895774555183fb1cffb88ca6e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2d179e034dbd19e48aee31ffdc504305444cc84a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

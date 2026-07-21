@@ -1,6 +1,42 @@
 (
-    title: "Heroes of Might and Magic (USA) (En,Fr,De)",
-    region: Some("USA"),
-    hashes: ["209d8a9cdd240a8c73d03d8575373bfa53948869", "2ad31a64d113909180fd85dc6707a3c487ec2bfb", "d6471849187edcf68e61ed98558d9326a44cf2dc"],
-    source: None,
+    title: "Heroes of Might and Magic",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d6471849187edcf68e61ed98558d9326a44cf2dc",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "209d8a9cdd240a8c73d03d8575373bfa53948869",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De, Rev 1"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "2ad31a64d113909180fd85dc6707a3c487ec2bfb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

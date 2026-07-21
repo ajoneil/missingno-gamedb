@@ -1,6 +1,19 @@
 (
-    title: "Puzzle Master (USA) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["cbaccc88628194c82e115a8127ceeb035cd9c0a0"],
-    source: None,
+    title: "Puzzle Master",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cbaccc88628194c82e115a8127ceeb035cd9c0a0",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

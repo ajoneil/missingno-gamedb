@@ -1,6 +1,16 @@
 (
-    title: "No Fear - Downhill Mountain Biking (Europe)",
-    region: Some("Europe"),
-    hashes: ["d04c3578f3abed229c9bc44f55fc3a2154e15429"],
-    source: None,
+    title: "No Fear - Downhill Mountain Biking",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d04c3578f3abed229c9bc44f55fc3a2154e15429",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

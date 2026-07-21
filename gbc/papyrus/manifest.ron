@@ -1,6 +1,17 @@
 (
-    title: "Papyrus (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["422c5f48f307820ee7c610e761a30a8cab85aed9"],
-    source: None,
+    title: "Papyrus",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "422c5f48f307820ee7c610e761a30a8cab85aed9",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

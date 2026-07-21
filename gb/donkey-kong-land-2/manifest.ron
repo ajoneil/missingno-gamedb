@@ -1,6 +1,37 @@
 (
-    title: "Donkey Kong Land 2 (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["89cc4f01653a6105ee5c00e10fc65aa1437fd320", "af66548c1a96468dae76e61823e9a9fe439c227c"],
-    source: None,
+    title: "Donkey Kong Land 2",
+    releases: [
+        (
+            title: Some("Donkey Kong Land"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "18fd3fcf90e60122da92079669942b0363049d8f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "89cc4f01653a6105ee5c00e10fc65aa1437fd320",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

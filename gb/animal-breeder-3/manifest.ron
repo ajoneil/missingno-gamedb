@@ -1,6 +1,20 @@
 (
-    title: "Animal Breeder 3 (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["f5e6e770a681bb6eba255e2584f9ed343e5d9f98"],
-    source: None,
+    title: "Animal Breeder 3",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f5e6e770a681bb6eba255e2584f9ed343e5d9f98",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "WWF Superstars 2 (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["9b0daa79a455b46f13a7866b575cb229ec9dadf8", "f5f2a16a9ea5694e3198cb6a9a16bcbca75be12f"],
-    source: None,
+    title: "WWF Superstars 2",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f5f2a16a9ea5694e3198cb6a9a16bcbca75be12f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9b0daa79a455b46f13a7866b575cb229ec9dadf8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,38 @@
 (
-    title: "Donkey Kong (Japan, USA) (En) (SGB Enhanced)",
-    region: Some("Japan, USA"),
-    hashes: ["397ad2ff25627b83e02c71b54c72bb4deb39e0c0", "6ed661bd1d6d8cdd48e1c10f8ca4e8dcba49128e"],
-    source: None,
+    title: "Donkey Kong",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6ed661bd1d6d8cdd48e1c10f8ca4e8dcba49128e",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "397ad2ff25627b83e02c71b54c72bb4deb39e0c0",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

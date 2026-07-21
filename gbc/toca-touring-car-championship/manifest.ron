@@ -1,6 +1,17 @@
 (
-    title: "TOCA Touring Car Championship (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["8a759a627b436c2b3941c3aa480e38488ad16197"],
-    source: None,
+    title: "TOCA Touring Car Championship",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "8a759a627b436c2b3941c3aa480e38488ad16197",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

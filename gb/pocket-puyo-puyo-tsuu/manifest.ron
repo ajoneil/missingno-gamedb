@@ -1,6 +1,36 @@
 (
-    title: "Pocket Puyo Puyo Tsuu (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["2ffbff6706047988468a7952de09c2720c3019ed", "36b677b76af12287cdbdec9ae06ca3f9dbfc1e67"],
-    source: None,
+    title: "Pocket Puyo Puyo Tsuu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2ffbff6706047988468a7952de09c2720c3019ed",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1, NP"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "36b677b76af12287cdbdec9ae06ca3f9dbfc1e67",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

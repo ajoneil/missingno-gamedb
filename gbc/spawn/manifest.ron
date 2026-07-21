@@ -1,6 +1,16 @@
 (
-    title: "Spawn (USA)",
-    region: Some("USA"),
-    hashes: ["4f816eec1b5dc79928ade9f3a3c687b8aa5b2f87"],
-    source: None,
+    title: "Spawn",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "4f816eec1b5dc79928ade9f3a3c687b8aa5b2f87",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

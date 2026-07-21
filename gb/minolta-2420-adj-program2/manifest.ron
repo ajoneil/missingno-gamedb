@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2420 Adj. Program2 (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["a55a5fd97ca1be3fa129f744f81fc972e29418ac"],
-    source: None,
+    title: "Minolta 2420 Adj. Program2",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a55a5fd97ca1be3fa129f744f81fc972e29418ac",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

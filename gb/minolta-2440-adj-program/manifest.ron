@@ -1,6 +1,35 @@
 (
-    title: "Minolta 2440 Adj. Program (USA) (Unl) (Alt)",
-    region: Some("USA"),
-    hashes: ["494b8392c67a6e91ccf198b82b8f9e515dd7e02a", "c15325e2e0ad2c8bd4323ef2390df28e578dcdb8"],
-    source: None,
+    title: "Minolta 2440 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c15325e2e0ad2c8bd4323ef2390df28e578dcdb8",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl, Alt"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "494b8392c67a6e91ccf198b82b8f9e515dd7e02a",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

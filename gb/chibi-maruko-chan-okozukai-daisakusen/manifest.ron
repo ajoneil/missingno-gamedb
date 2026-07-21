@@ -1,6 +1,19 @@
 (
-    title: "Chibi Maruko-chan - Okozukai Daisakusen! (Japan)",
-    region: Some("Japan"),
-    hashes: ["1b6838b9711ecbc6c09606da53d53309593103b2"],
-    source: None,
+    title: "Chibi Maruko-chan - Okozukai Daisakusen!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1b6838b9711ecbc6c09606da53d53309593103b2",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

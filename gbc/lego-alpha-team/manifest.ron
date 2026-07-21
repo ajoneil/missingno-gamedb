@@ -1,6 +1,28 @@
 (
-    title: "LEGO Alpha Team (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
-    region: Some("Europe"),
-    hashes: ["4bd3bf401e861fe9991a58b523622c68138274e6", "b5d521d5b7504442c886944a6fb7dd830a28b496"],
-    source: None,
+    title: "LEGO Alpha Team",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "b5d521d5b7504442c886944a6fb7dd830a28b496",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt,Sv,No,Da"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "4bd3bf401e861fe9991a58b523622c68138274e6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

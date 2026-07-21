@@ -1,6 +1,50 @@
 (
-    title: "Mickey Mouse (Europe)",
-    region: Some("Europe"),
-    hashes: ["a5e526b47e9295c7cbea21a84bef2c1658e6f87e", "b8e708dfe7496c712bd3ef171429d81cb6619252"],
-    source: None,
+    title: "Mickey Mouse",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b8e708dfe7496c712bd3ef171429d81cb6619252",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("The Bugs Bunny Crazy Castle 2"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1e4c8c8fe8b6c34f76cd0da876442f14299da725",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mickey Mouse II"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2d44566d2d74f573d2faf23988a3070abb47555d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

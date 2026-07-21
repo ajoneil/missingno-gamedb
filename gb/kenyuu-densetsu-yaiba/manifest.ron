@@ -1,6 +1,19 @@
 (
-    title: "Kenyuu Densetsu Yaiba (Japan)",
-    region: Some("Japan"),
-    hashes: ["c2b71ceee21f66f462df18233f7622d8ec95fcca"],
-    source: None,
+    title: "Kenyuu Densetsu Yaiba",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c2b71ceee21f66f462df18233f7622d8ec95fcca",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

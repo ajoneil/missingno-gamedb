@@ -1,6 +1,16 @@
 (
-    title: "Cheesy Town (World) (En,Ja)",
-    region: Some("World"),
-    hashes: ["f76645a2830fcc733b7392a52112df628f0b7a4a"],
-    source: None,
+    title: "Cheesy Town",
+    releases: [
+        (
+            label: Some("En,Ja"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "f76645a2830fcc733b7392a52112df628f0b7a4a",
+                ),
+            ],
+        ),
+    ],
 )

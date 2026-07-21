@@ -1,6 +1,20 @@
 (
-    title: "Shin Keiba Kizoku Pocket Jockey (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["8d65a4f9f7b903d145fa863d09c8894db4fd742a"],
-    source: None,
+    title: "Shin Keiba Kizoku Pocket Jockey",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8d65a4f9f7b903d145fa863d09c8894db4fd742a",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

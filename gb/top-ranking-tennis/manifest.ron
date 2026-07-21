@@ -1,6 +1,34 @@
 (
-    title: "Top Ranking Tennis (Europe)",
-    region: Some("Europe"),
-    hashes: ["e628b00e7f88742c99cbb51fae4be0d0cfa77405"],
-    source: None,
+    title: "Top Ranking Tennis",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e628b00e7f88742c99cbb51fae4be0d0cfa77405",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Top Rank Tennis"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2fa95dfe097b31fc1a94a5e864308b417bf832d4",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

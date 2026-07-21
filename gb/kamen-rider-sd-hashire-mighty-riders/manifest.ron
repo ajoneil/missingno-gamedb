@@ -1,6 +1,19 @@
 (
-    title: "Kamen Rider SD - Hashire! Mighty Riders (Japan)",
-    region: Some("Japan"),
-    hashes: ["03269715c9398659fa685830a6359caa3ffa3bbf"],
-    source: None,
+    title: "Kamen Rider SD - Hashire! Mighty Riders",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "03269715c9398659fa685830a6359caa3ffa3bbf",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,0 +1,34 @@
+(
+    title: "Super Breakout",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8c795b6d8ebc3a796821a6b2879f3e5cebf9215c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5bd06600b35cd2b2e8d51ede6f79db76ba97e78e",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
+)

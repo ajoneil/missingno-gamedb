@@ -1,6 +1,17 @@
 (
-    title: "Wizardry III - Diamond no Kishi (Japan) (En,Ja)",
-    region: Some("Japan"),
-    hashes: ["f850ddbbfc8a77d53948de805819b4457380b390"],
-    source: None,
+    title: "Wizardry III - Diamond no Kishi",
+    releases: [
+        (
+            label: Some("En,Ja"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "f850ddbbfc8a77d53948de805819b4457380b390",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

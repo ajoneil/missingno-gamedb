@@ -1,6 +1,41 @@
 (
-    title: "Harvest Moon 3 GBC (USA)",
-    region: Some("USA"),
-    hashes: ["5313c62c51b9b5417f764fe67b687f403f9765bb"],
-    source: None,
+    title: "Harvest Moon 3 GBC",
+    releases: [
+        (
+            title: Some("Bokujou Monogatari 3 GB - Boy Meets Girl"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "e7fceb85a78c78403711521fe5fc8f86260425d0",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "5313c62c51b9b5417f764fe67b687f403f9765bb",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bokujou Monogatari 3 GB - Boy Meets Girl"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "acb2e549fb7d107d20507af88c36f40234f74958",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

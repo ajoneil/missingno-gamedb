@@ -1,6 +1,22 @@
 (
-    title: "Waternet (World) (Batteryless Generic Save Flash Cartridge Version) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["6feb4178589e87c6267683078201f0630cca23d6", "a11f931b18ba42f48a91e817b7117fa0e3e79518", "e04b01ada17e6924503029cd09a107b7f5d06f17"],
-    source: None,
+    title: "Waternet",
+    releases: [
+        (
+            label: Some("Batteryless Generic Save Flash Cartridge Version"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "6feb4178589e87c6267683078201f0630cca23d6",
+                ),
+                (
+                    sha1: "a11f931b18ba42f48a91e817b7117fa0e3e79518",
+                ),
+                (
+                    sha1: "e04b01ada17e6924503029cd09a107b7f5d06f17",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "Pocket Bomberman (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["34f377a6de2961fe16bfb854e0cebc7fdba7cf4b", "83d1c2420ae69d2a7ca9880c9b84f0ba948e39eb", "b0ae803600e06cd1cc9a0d801f2511c9ecc50584"],
-    source: None,
+    title: "Pocket Bomberman",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "34f377a6de2961fe16bfb854e0cebc7fdba7cf4b",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "83d1c2420ae69d2a7ca9880c9b84f0ba948e39eb",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Animal Breeder 2 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["214d75221dbfb1a562740aa53e0239a73bee9a2d"],
-    source: None,
+    title: "Animal Breeder 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "214d75221dbfb1a562740aa53e0239a73bee9a2d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,36 @@
 (
-    title: "Konchuu Hakase (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["3e8e47b36a2171ad93d0e21fe5c22feff17c6d88", "ac792793b43cc8fae098df23e6aeb845f98199cd"],
-    source: None,
+    title: "Konchuu Hakase",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ac792793b43cc8fae098df23e6aeb845f98199cd",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3e8e47b36a2171ad93d0e21fe5c22feff17c6d88",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

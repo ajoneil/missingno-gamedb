@@ -1,6 +1,37 @@
 (
-    title: "Robot Poncots - Star Version (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["27a96410b38e695d9b80ae861af3b472f0e84c60"],
-    source: None,
+    title: "Robot Poncots - Star Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "27a96410b38e695d9b80ae861af3b472f0e84c60",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Robopon - Star Version"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "54e064a24cd50b7e25df5c827c54a20643ec314a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Star Sweep (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["caabaa2e9cbab27859db80ef6b0e90e7b94b3bd0"],
-    source: None,
+    title: "Star Sweep",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "caabaa2e9cbab27859db80ef6b0e90e7b94b3bd0",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

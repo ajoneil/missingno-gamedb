@@ -1,6 +1,20 @@
 (
-    title: "Wicked Plague (World) (v0.1.1) (Proto)",
-    region: Some("World"),
-    hashes: ["2279270c9a0d28934c5b5efda9c047ab27ffccb8", "dee4f074029352efb3e6683e0c31c9350bdb8199"],
-    source: None,
+    title: "Wicked Plague",
+    releases: [
+        (
+            label: Some("v0.1.1"),
+            regions: [
+                World,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "2279270c9a0d28934c5b5efda9c047ab27ffccb8",
+                ),
+                (
+                    sha1: "dee4f074029352efb3e6683e0c31c9350bdb8199",
+                ),
+            ],
+        ),
+    ],
 )

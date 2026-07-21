@@ -1,6 +1,19 @@
 (
-    title: "Jinsei Game Densetsu (Japan)",
-    region: Some("Japan"),
-    hashes: ["106f9671e52d15dd06d614d87b4d690ab95d4131"],
-    source: None,
+    title: "Jinsei Game Densetsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "106f9671e52d15dd06d614d87b4d690ab95d4131",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,0 +1,36 @@
+(
+    title: "Krusty\'s Fun House",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e61039c52c053a8ae1bdfffa3f694934569bb570",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Krusty World"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ba64940bce70de459fff84a16222481344749558",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
+)

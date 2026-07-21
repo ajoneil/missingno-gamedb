@@ -1,6 +1,19 @@
 (
-    title: "Jeopardy! - Sports Edition (USA)",
-    region: Some("USA"),
-    hashes: ["ae534dcdeaa7138e1a0c775e0574c423a8c76dfb"],
-    source: None,
+    title: "Jeopardy! - Sports Edition",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ae534dcdeaa7138e1a0c775e0574c423a8c76dfb",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

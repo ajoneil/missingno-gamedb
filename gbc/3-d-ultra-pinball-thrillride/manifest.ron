@@ -1,6 +1,17 @@
 (
-    title: "3-D Ultra Pinball - Thrillride (USA) (Rumble Version)",
-    region: Some("USA"),
-    hashes: ["2b704415803cf6172a1d07912b1155c51576a511"],
-    source: None,
+    title: "3-D Ultra Pinball - Thrillride",
+    releases: [
+        (
+            label: Some("Rumble Version"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "2b704415803cf6172a1d07912b1155c51576a511",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

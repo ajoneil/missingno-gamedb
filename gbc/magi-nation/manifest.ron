@@ -1,6 +1,16 @@
 (
-    title: "Magi Nation (USA)",
-    region: Some("USA"),
-    hashes: ["9972a7bca43210b4b6c0b3f6ee5d1957a865e12d"],
-    source: None,
+    title: "Magi Nation",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "9972a7bca43210b4b6c0b3f6ee5d1957a865e12d",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

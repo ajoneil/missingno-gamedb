@@ -1,6 +1,19 @@
 (
-    title: "Namco Classic (Japan)",
-    region: Some("Japan"),
-    hashes: ["65b91cc77b1971f8229d4caaf4feb89c64856c8b"],
-    source: None,
+    title: "Namco Classic",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "65b91cc77b1971f8229d4caaf4feb89c64856c8b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

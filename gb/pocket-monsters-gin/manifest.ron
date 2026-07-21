@@ -1,6 +1,38 @@
 (
-    title: "Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["4c576dd4671bb1fe36c5e6d76c8909f98d739667", "a11d5ddc26eb826086593f82370b15d16404d33e", "f338dafd76619be268b4987bd2c94adb15aa9386", "fa8c51059c1642faa570db56ef089f54d1d2011f"],
-    source: None,
+    title: "Pocket Monsters Gin",
+    kind: Demo,
+    releases: [
+        (
+            label: Some("Spaceworld 1997"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f338dafd76619be268b4987bd2c94adb15aa9386",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Spaceworld 1997, Debug"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4c576dd4671bb1fe36c5e6d76c8909f98d739667",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

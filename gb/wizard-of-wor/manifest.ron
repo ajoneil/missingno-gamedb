@@ -1,6 +1,18 @@
 (
-    title: "Wizard of Wor (World)",
-    region: Some("World"),
-    hashes: ["108eefa154412e3422dce4e63bf34f5826ec1baa", "a391646d259a39e7026574145e0a2bacf5f6937b"],
-    source: None,
+    title: "Wizard of Wor",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "108eefa154412e3422dce4e63bf34f5826ec1baa",
+                ),
+                (
+                    sha1: "a391646d259a39e7026574145e0a2bacf5f6937b",
+                ),
+            ],
+        ),
+    ],
 )

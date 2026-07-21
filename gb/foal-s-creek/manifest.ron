@@ -1,6 +1,19 @@
 (
-    title: "Foal's Creek (World) (v1.05) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["025e83abce412435c41e77dc7ecc606af96f874b", "6d4152d0db5c7fdc2d3271ffc9195494e637c85a"],
-    source: None,
+    title: "Foal\'s Creek",
+    releases: [
+        (
+            label: Some("v1.05"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "025e83abce412435c41e77dc7ecc606af96f874b",
+                ),
+                (
+                    sha1: "6d4152d0db5c7fdc2d3271ffc9195494e637c85a",
+                ),
+            ],
+        ),
+    ],
 )

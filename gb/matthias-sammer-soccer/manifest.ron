@@ -1,6 +1,36 @@
 (
-    title: "Matthias Sammer Soccer (Germany) (SGB Enhanced)",
-    region: Some("Germany"),
-    hashes: ["eadc06e71ea4f04700e2ed1ef232b6e57cb48725"],
-    source: None,
+    title: "Matthias Sammer Soccer",
+    releases: [
+        (
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eadc06e71ea4f04700e2ed1ef232b6e57cb48725",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("J.League Big Wave Soccer"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "00369c42d2c4be0506901b64f7d5424538574ce0",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

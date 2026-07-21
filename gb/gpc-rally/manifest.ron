@@ -1,6 +1,19 @@
 (
-    title: "GPC Rally (World) (v1.0)",
-    region: Some("World"),
-    hashes: ["a711bbb2d7dc2b0c377ecd7b20f4862330961b51", "b6500b0250d8358644e41e26ed8fb92c5b24535d"],
-    source: None,
+    title: "GPC Rally",
+    releases: [
+        (
+            label: Some("v1.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "a711bbb2d7dc2b0c377ecd7b20f4862330961b51",
+                ),
+                (
+                    sha1: "b6500b0250d8358644e41e26ed8fb92c5b24535d",
+                ),
+            ],
+        ),
+    ],
 )

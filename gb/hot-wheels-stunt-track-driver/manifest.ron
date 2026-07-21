@@ -1,6 +1,21 @@
 (
-    title: "Hot Wheels - Stunt Track Driver (USA, Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["eabf2bc053ba6a440a834d6bcd0b45a7432a9a20"],
-    source: None,
+    title: "Hot Wheels - Stunt Track Driver",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eabf2bc053ba6a440a834d6bcd0b45a7432a9a20",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

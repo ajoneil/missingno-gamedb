@@ -1,6 +1,20 @@
 (
-    title: "Yars' Revenge (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["45fb176d539ae4a65af1f6340a9bd398dd7956d2"],
-    source: None,
+    title: "Yars\' Revenge",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "45fb176d539ae4a65af1f6340a9bd398dd7956d2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

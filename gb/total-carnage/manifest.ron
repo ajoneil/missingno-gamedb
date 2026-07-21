@@ -1,6 +1,20 @@
 (
-    title: "Total Carnage (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["a735c8d212c5fcb47a1d25599edb1fb815593dd1"],
-    source: None,
+    title: "Total Carnage",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a735c8d212c5fcb47a1d25599edb1fb815593dd1",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

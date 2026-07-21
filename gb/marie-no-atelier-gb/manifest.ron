@@ -1,6 +1,20 @@
 (
-    title: "Marie no Atelier GB (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["f2b175da93054372531bc7d839bdbf3192c6a5eb"],
-    source: None,
+    title: "Marie no Atelier GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f2b175da93054372531bc7d839bdbf3192c6a5eb",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

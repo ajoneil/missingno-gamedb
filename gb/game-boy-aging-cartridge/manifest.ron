@@ -1,6 +1,20 @@
 (
-    title: "Game Boy Aging Cartridge (World) (En,Ja) (v1.1)",
-    region: Some("World"),
-    hashes: ["3f27a044131548d528783f0d43f918f04418519e"],
-    source: None,
+    title: "Game Boy Aging Cartridge",
+    releases: [
+        (
+            label: Some("En,Ja, v1.1"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3f27a044131548d528783f0d43f918f04418519e",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

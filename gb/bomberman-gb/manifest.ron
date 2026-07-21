@@ -1,6 +1,37 @@
 (
-    title: "Bomberman GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["5b989983c2f80a71dfc7cce29395de3e174fa848", "f7058f31ddaec63f3b9c45ee9caf3c8e2cae1ca8"],
-    source: None,
+    title: "Bomberman GB",
+    releases: [
+        (
+            title: Some("Bomberman GB 2"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "004e540e8aed59e5aee1c88ef84975000a6efe6c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f7058f31ddaec63f3b9c45ee9caf3c8e2cae1ca8",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

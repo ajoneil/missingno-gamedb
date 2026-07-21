@@ -1,6 +1,63 @@
 (
-    title: "Castelian (USA) (Beta)",
-    region: Some("USA"),
-    hashes: ["0c69cee488d7589c6bf0a1b7e2c3d20f2b4d3042", "6720d86d420831a0a4865d4a59c4ba6fe98fa34d", "a03982e2ffa9aa368fe11bc09f024207bada45eb"],
-    source: None,
+    title: "Castelian",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6720d86d420831a0a4865d4a59c4ba6fe98fa34d",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            title: Some("Kyoro-chan Land"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "67b9b01fbb58c69aad716bcc0409a9dba3bd92b5",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0c69cee488d7589c6bf0a1b7e2c3d20f2b4d3042",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a03982e2ffa9aa368fe11bc09f024207bada45eb",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

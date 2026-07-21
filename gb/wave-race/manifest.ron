@@ -1,6 +1,20 @@
 (
-    title: "Wave Race (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["87ecdfe518f1707429fdbdc21d12bbfe1ff52252"],
-    source: None,
+    title: "Wave Race",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "87ecdfe518f1707429fdbdc21d12bbfe1ff52252",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

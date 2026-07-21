@@ -1,6 +1,19 @@
 (
-    title: "Super Hard Bouncer (World) (v1.0)",
-    region: Some("World"),
-    hashes: ["09c242a4c0752f251388026df7ed4baab5a8c56f", "549c2624767633d6898ab9623eadb9579ec2779b"],
-    source: None,
+    title: "Super Hard Bouncer",
+    releases: [
+        (
+            label: Some("v1.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "09c242a4c0752f251388026df7ed4baab5a8c56f",
+                ),
+                (
+                    sha1: "549c2624767633d6898ab9623eadb9579ec2779b",
+                ),
+            ],
+        ),
+    ],
 )

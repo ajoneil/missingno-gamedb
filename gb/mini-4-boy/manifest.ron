@@ -1,6 +1,20 @@
 (
-    title: "Mini 4 Boy (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["cb6022ef5729cbf370ccdc9c1958d0b4bcbd5e90"],
-    source: None,
+    title: "Mini 4 Boy",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cb6022ef5729cbf370ccdc9c1958d0b4bcbd5e90",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

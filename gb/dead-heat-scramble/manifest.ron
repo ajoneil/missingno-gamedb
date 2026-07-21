@@ -1,6 +1,34 @@
 (
-    title: "Dead Heat Scramble (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["395c0c80ad5c9a24c00d6d8dfe5894e73e672639", "71e560dd2b5f5c4f4dcca0837c74bb1b843a15aa"],
-    source: None,
+    title: "Dead Heat Scramble",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "71e560dd2b5f5c4f4dcca0837c74bb1b843a15aa",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "395c0c80ad5c9a24c00d6d8dfe5894e73e672639",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

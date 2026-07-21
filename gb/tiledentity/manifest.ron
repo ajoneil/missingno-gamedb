@@ -1,6 +1,19 @@
 (
-    title: "Tiledentity (World) (v1.0) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["59b1d66807141ca42809189544e1104bd8d0454b", "a97c2b31ce138e81e0bfabee89aa58426d41e0a9"],
-    source: None,
+    title: "Tiledentity",
+    releases: [
+        (
+            label: Some("v1.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "59b1d66807141ca42809189544e1104bd8d0454b",
+                ),
+                (
+                    sha1: "a97c2b31ce138e81e0bfabee89aa58426d41e0a9",
+                ),
+            ],
+        ),
+    ],
 )

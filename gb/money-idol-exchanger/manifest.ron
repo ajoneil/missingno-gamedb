@@ -1,6 +1,20 @@
 (
-    title: "Money Idol Exchanger (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["a52cc4167316683c7ddc0b6fb5370a05ab49dbbe"],
-    source: None,
+    title: "Money Idol Exchanger",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a52cc4167316683c7ddc0b6fb5370a05ab49dbbe",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

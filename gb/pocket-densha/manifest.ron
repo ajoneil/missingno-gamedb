@@ -1,6 +1,20 @@
 (
-    title: "Pocket Densha (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["702981654640fe59c2f6b47c7191a58be0804a4d"],
-    source: None,
+    title: "Pocket Densha",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "702981654640fe59c2f6b47c7191a58be0804a4d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

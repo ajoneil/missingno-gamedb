@@ -1,6 +1,28 @@
 (
-    title: "Hamster Paradise 2 (Japan)",
-    region: Some("Japan"),
-    hashes: ["140100d96d165ee399f5cd18f5aec962fde714b6", "cf19fd582d8881779e7e34e1d6cd8fd5b7129f53"],
-    source: None,
+    title: "Hamster Paradise 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "cf19fd582d8881779e7e34e1d6cd8fd5b7129f53",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "140100d96d165ee399f5cd18f5aec962fde714b6",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

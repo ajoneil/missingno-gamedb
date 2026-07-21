@@ -1,6 +1,36 @@
 (
-    title: "Tsumeshougi - Kanki Godan (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["2e54faf9f97b6e590caacb26294bdafe40ca7214", "eae6cdb4425ddae51bee0e7d0aa956b72e897743"],
-    source: None,
+    title: "Tsumeshougi - Kanki Godan",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2e54faf9f97b6e590caacb26294bdafe40ca7214",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eae6cdb4425ddae51bee0e7d0aa956b72e897743",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

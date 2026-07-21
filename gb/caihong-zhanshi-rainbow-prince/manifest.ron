@@ -1,6 +1,20 @@
 (
-    title: "Caihong Zhanshi - Rainbow Prince (Taiwan) (Unl)",
-    region: Some("Taiwan"),
-    hashes: ["13b5bbe649f4b679596df83589af6f6482997726"],
-    source: None,
+    title: "Caihong Zhanshi - Rainbow Prince",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "13b5bbe649f4b679596df83589af6f6482997726",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

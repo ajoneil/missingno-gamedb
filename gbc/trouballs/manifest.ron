@@ -1,6 +1,29 @@
 (
-    title: "Trouballs (USA) (Beta) (2000-04-02)",
-    region: Some("USA"),
-    hashes: ["8a6efcf30643969a82fbbe24b986ad8a79a99a55", "dc4d0f608354e7cc32df7501dbacf8c50d70e728"],
-    source: None,
+    title: "Trouballs",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("2000-04-02"),
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "8a6efcf30643969a82fbbe24b986ad8a79a99a55",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "dc4d0f608354e7cc32df7501dbacf8c50d70e728",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

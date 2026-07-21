@@ -1,6 +1,20 @@
 (
-    title: "Honkaku Yonin Uchi Mahjong - Mahjong Ou (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["222487f14aaaa8f0bb536a09238e63ac95636208"],
-    source: None,
+    title: "Honkaku Yonin Uchi Mahjong - Mahjong Ou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "222487f14aaaa8f0bb536a09238e63ac95636208",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

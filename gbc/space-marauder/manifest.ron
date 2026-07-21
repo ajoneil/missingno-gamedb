@@ -1,6 +1,28 @@
 (
-    title: "Space Marauder (USA)",
-    region: Some("USA"),
-    hashes: ["e6738767434f53af8221fb06513c0758ab228a94"],
-    source: None,
+    title: "Space Marauder",
+    releases: [
+        (
+            title: Some("Burai Senshi Color"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "a3b140586aac09f959260c5673dfed2ed58c1469",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "e6738767434f53af8221fb06513c0758ab228a94",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

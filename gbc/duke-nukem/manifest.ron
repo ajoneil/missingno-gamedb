@@ -1,6 +1,29 @@
 (
-    title: "Duke Nukem (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["665961e875350d9335e467c2ad752a4dd3dcaef4", "b9bd0cfe64a7f40c243bc65e0489b5187ad11560"],
-    source: None,
+    title: "Duke Nukem",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "665961e875350d9335e467c2ad752a4dd3dcaef4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "b9bd0cfe64a7f40c243bc65e0489b5187ad11560",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

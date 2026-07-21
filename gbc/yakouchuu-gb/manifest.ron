@@ -1,6 +1,16 @@
 (
-    title: "Yakouchuu GB (Japan)",
-    region: Some("Japan"),
-    hashes: ["a7efd41d0ad17892132788bd90cdfb9df6806a78"],
-    source: None,
+    title: "Yakouchuu GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "a7efd41d0ad17892132788bd90cdfb9df6806a78",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

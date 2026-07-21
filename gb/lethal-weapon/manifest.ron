@@ -1,6 +1,36 @@
 (
-    title: "Lethal Weapon (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["2221ba322acffc9d7ae5400752e16d0455fda3ef", "8b4621471b376a6262fbed70c1191416ab3be915"],
-    source: None,
+    title: "Lethal Weapon",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2221ba322acffc9d7ae5400752e16d0455fda3ef",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8b4621471b376a6262fbed70c1191416ab3be915",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

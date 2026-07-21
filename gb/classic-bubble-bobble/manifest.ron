@@ -1,6 +1,51 @@
 (
-    title: "Classic Bubble Bobble (Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["3c52b09072077c210af93e4b13c3ee0886676f83", "6e3739c0538467c220750f2e8d474433692bac09"],
-    source: None,
+    title: "Classic Bubble Bobble",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3c52b09072077c210af93e4b13c3ee0886676f83",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Taito Memorial - Bubble Bobble"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6a30d328417e085dcd10588d0a5af90ff4bfa40d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6e3739c0538467c220750f2e8d474433692bac09",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

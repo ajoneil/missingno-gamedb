@@ -1,0 +1,36 @@
+(
+    title: "The Hunt for Red October",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7c9ccfd9e98b30c33ff71b3ab3098c2afeb9037c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Red October o Oe!"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "48d5f02a126c32423569065f31d2c5695e39fd2f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
+)

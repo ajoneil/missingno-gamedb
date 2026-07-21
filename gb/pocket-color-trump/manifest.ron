@@ -1,6 +1,19 @@
 (
-    title: "Pocket Color Trump (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["ddc9846964a19e8702f226ffd9060b94a60011c3"],
-    source: None,
+    title: "Pocket Color Trump",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ddc9846964a19e8702f226ffd9060b94a60011c3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

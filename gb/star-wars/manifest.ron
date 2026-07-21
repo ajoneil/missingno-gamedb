@@ -1,6 +1,64 @@
 (
-    title: "Star Wars (Europe)",
-    region: Some("Europe"),
-    hashes: ["02bfb690ce171214bfee900069192e0daafc010d", "3a6028708d9fb23a27104201fa8725a5dfb3b161", "82c4114312efdc86c578e8683941a950fc2bb4c3", "f6563f526fc786c8666d75dfba9e6d42d787ea89"],
-    source: None,
+    title: "Star Wars",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3a6028708d9fb23a27104201fa8725a5dfb3b161",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "82c4114312efdc86c578e8683941a950fc2bb4c3",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Limited Run Games"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "02bfb690ce171214bfee900069192e0daafc010d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f6563f526fc786c8666d75dfba9e6d42d787ea89",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,84 @@
 (
-    title: "Croc (USA, Europe) (Beta 1)",
-    region: Some("USA, Europe"),
-    hashes: ["28efcac92d708fcffcdcf7524ca4ab12773fa26f", "aed10fb27112d5364660e18d444d6173b6c2f3bc", "dac6de548743c6b51a3daa5903c28b7fccdb6cb2"],
-    source: None,
+    title: "Croc",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "dac6de548743c6b51a3daa5903c28b7fccdb6cb2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "28efcac92d708fcffcdcf7524ca4ab12773fa26f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 2"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "aed10fb27112d5364660e18d444d6173b6c2f3bc",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Croc - 25th Anniversary Edition"),
+            label: Some("ModRetro Chromatic"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "fd83a04af47f7071c348f9431e7ef6b41add5a95",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Croc - 25th Anniversary Edition"),
+            label: Some("v1.1, ModRetro Chromatic"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "574b6fafcdfdec23c6bb8128d822d05183213103",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Croc - 25th Anniversary Edition"),
+            label: Some("v1.2, ModRetro Chromatic"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "8ff443453494a58a1129188ad04421556e80befb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

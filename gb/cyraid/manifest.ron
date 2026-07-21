@@ -1,6 +1,35 @@
 (
-    title: "Cyraid (USA)",
-    region: Some("USA"),
-    hashes: ["e295fce5531be0df7f5a10628608e0dcf54da71b"],
-    source: None,
+    title: "Cyraid",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e295fce5531be0df7f5a10628608e0dcf54da71b",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bakuretsu Senshi Warrior"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5f4e63796611a1ed72acd2a5bfe2e2ea3ba5b211",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

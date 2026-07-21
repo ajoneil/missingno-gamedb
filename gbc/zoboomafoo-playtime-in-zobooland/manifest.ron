@@ -1,6 +1,16 @@
 (
-    title: "Zoboomafoo - Playtime in Zobooland (USA)",
-    region: Some("USA"),
-    hashes: ["a85a113bc266325f807f110daaf30feeea4b2738"],
-    source: None,
+    title: "Zoboomafoo - Playtime in Zobooland",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "a85a113bc266325f807f110daaf30feeea4b2738",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

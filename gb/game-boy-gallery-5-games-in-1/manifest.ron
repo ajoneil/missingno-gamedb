@@ -1,6 +1,20 @@
 (
-    title: "Game Boy Gallery - 5 Games in 1 (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["07b6174a413858f84bfc480169945c7fd1a372b9"],
-    source: None,
+    title: "Game Boy Gallery - 5 Games in 1",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "07b6174a413858f84bfc480169945c7fd1a372b9",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

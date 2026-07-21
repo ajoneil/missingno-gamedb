@@ -1,6 +1,16 @@
 (
-    title: "Iron Cor - Stainless (World) (v2.0) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["d722e95155455cf146a97222ccbc2237bea86509"],
-    source: None,
+    title: "Iron Cor - Stainless",
+    releases: [
+        (
+            label: Some("v2.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "d722e95155455cf146a97222ccbc2237bea86509",
+                ),
+            ],
+        ),
+    ],
 )

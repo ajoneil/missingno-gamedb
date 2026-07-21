@@ -1,6 +1,36 @@
 (
-    title: "Shin Megami Tensei Devil Children - Kuro no Sho (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["421d20bf556e28d07801d808ecfef45daf86a974", "b6177175ab34b8301ce146306dc95c3702b38ca6"],
-    source: None,
+    title: "Shin Megami Tensei Devil Children - Kuro no Sho",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b6177175ab34b8301ce146306dc95c3702b38ca6",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "421d20bf556e28d07801d808ecfef45daf86a974",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

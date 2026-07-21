@@ -1,6 +1,21 @@
 (
-    title: "Pocket Camera - Debug Game Tester - Second Impact (Japan) (Test Program) (v10.24) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["5ffcda6fa1a3d87c5cbb8ddf743ddbc18242443b"],
-    source: None,
+    title: "Pocket Camera - Debug Game Tester - Second Impact",
+    releases: [
+        (
+            label: Some("Test Program, v10.24"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5ffcda6fa1a3d87c5cbb8ddf743ddbc18242443b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

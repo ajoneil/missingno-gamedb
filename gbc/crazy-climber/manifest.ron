@@ -1,0 +1,33 @@
+(
+    title: "Crazy Climber",
+    releases: [
+        (
+            label: Some("Proto 1"),
+            regions: [
+                Usa,
+            ],
+            date: Some("2000-09-22"),
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "eb0eaed85cf5a72e0461eebbad38227bd018a999",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 2"),
+            regions: [
+                Usa,
+            ],
+            date: Some("2000-11-21"),
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "68979eb91a968998c2fb58396971265be5b312ca",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
+)

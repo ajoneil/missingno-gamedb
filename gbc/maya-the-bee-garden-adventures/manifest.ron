@@ -1,6 +1,17 @@
 (
-    title: "Maya the Bee - Garden Adventures (Europe) (En,Fr,De,Es)",
-    region: Some("Europe"),
-    hashes: ["e46ea15b4c780a49e29e86516cb1ec5a03bdddce"],
-    source: None,
+    title: "Maya the Bee - Garden Adventures",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e46ea15b4c780a49e29e86516cb1ec5a03bdddce",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

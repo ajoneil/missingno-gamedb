@@ -1,6 +1,28 @@
 (
-    title: "Tottoko Hamutarou - Tomodachi Daisakusen Dechu (Japan)",
-    region: Some("Japan"),
-    hashes: ["369f53d1a8bc7e6f2d1ccd101e648c2744c39fc5", "fed38c5131a00f0bbf00ff2a974a8e457373aba6"],
-    source: None,
+    title: "Tottoko Hamutarou - Tomodachi Daisakusen Dechu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "fed38c5131a00f0bbf00ff2a974a8e457373aba6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "369f53d1a8bc7e6f2d1ccd101e648c2744c39fc5",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

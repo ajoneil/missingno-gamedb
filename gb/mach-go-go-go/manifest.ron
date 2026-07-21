@@ -1,6 +1,20 @@
 (
-    title: "Mach Go Go Go (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["baea8b49ce2402c5c094ddae0320a382c0d95d86"],
-    source: None,
+    title: "Mach Go Go Go",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "baea8b49ce2402c5c094ddae0320a382c0d95d86",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

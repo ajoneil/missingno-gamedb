@@ -1,6 +1,21 @@
 (
-    title: "Arcade Classics - Super Breakout & Battlezone (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["7d78b06ad896fb949e28858d141f73a37c550fe2"],
-    source: None,
+    title: "Arcade Classics - Super Breakout & Battlezone",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7d78b06ad896fb949e28858d141f73a37c550fe2",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

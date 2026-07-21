@@ -1,6 +1,49 @@
 (
-    title: "King of the Zoo (Europe)",
-    region: Some("Europe"),
-    hashes: ["683fcb45cf98f8d84c221ffb180b06bf81c1cf74"],
-    source: None,
+    title: "King of the Zoo",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "683fcb45cf98f8d84c221ffb180b06bf81c1cf74",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Penguin-kun Wars VS."),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f19e870e95c03288b019ef6bac3966bf74dd48fb",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Penguin Wars"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2c00f5678d55dcb865b596fcb1dbecd2c9213988",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

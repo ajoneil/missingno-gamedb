@@ -1,6 +1,19 @@
 (
-    title: "Goukaku Boy Series - Eitango Target 1900 (Japan)",
-    region: Some("Japan"),
-    hashes: ["c5f885c9c6b7ab89646b4c17b6ff83b2dfe67a04"],
-    source: None,
+    title: "Goukaku Boy Series - Eitango Target 1900",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c5f885c9c6b7ab89646b4c17b6ff83b2dfe67a04",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

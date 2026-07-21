@@ -1,6 +1,19 @@
 (
-    title: "Monster Maker 2 - Uru no Hiken (Japan)",
-    region: Some("Japan"),
-    hashes: ["ffac4e116cfe1c2d545c746640cc55e7df59101b"],
-    source: None,
+    title: "Monster Maker 2 - Uru no Hiken",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ffac4e116cfe1c2d545c746640cc55e7df59101b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

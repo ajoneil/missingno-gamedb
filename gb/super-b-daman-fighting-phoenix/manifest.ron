@@ -1,6 +1,20 @@
 (
-    title: "Super B-Daman - Fighting Phoenix (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["36eac648d0406c84d6708695f30bc8739d1bc648"],
-    source: None,
+    title: "Super B-Daman - Fighting Phoenix",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "36eac648d0406c84d6708695f30bc8739d1bc648",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

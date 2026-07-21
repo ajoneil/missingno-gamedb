@@ -1,6 +1,20 @@
 (
-    title: "Totsugeki! Papparatai (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["4c98beab325cd058445102c85d30b3724325f2ce"],
-    source: None,
+    title: "Totsugeki! Papparatai",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4c98beab325cd058445102c85d30b3724325f2ce",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

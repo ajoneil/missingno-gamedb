@@ -1,6 +1,35 @@
 (
-    title: "Flappy Special (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["6517aee7caa2fa60750005ef1dacaeaecee7c2f6", "75347d9f708da85487b779ed79b9c1e84954020d"],
-    source: None,
+    title: "Flappy Special",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "75347d9f708da85487b779ed79b9c1e84954020d",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6517aee7caa2fa60750005ef1dacaeaecee7c2f6",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

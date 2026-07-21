@@ -1,6 +1,20 @@
 (
-    title: "Sneaky Snakes (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["9087b44139ea56d85c8ecadb2603a2d599c2a00b"],
-    source: None,
+    title: "Sneaky Snakes",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9087b44139ea56d85c8ecadb2603a2d599c2a00b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

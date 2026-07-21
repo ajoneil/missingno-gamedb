@@ -1,6 +1,29 @@
 (
-    title: "LEGO Racers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
-    region: Some("Europe"),
-    hashes: ["25877740f157db965a2caf30f081a89b6c13df23", "8e46d2920bccc9a67fcfed404d0f8dd1bd9cb807"],
-    source: None,
+    title: "LEGO Racers",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt,Sv,No,Da"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "25877740f157db965a2caf30f081a89b6c13df23",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "8e46d2920bccc9a67fcfed404d0f8dd1bd9cb807",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,16 @@
 (
-    title: "Fugazim (World) (Pt) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["8a95571a32c5a23bd6be4edf6429f630d7a1a15a"],
-    source: None,
+    title: "Fugazim",
+    releases: [
+        (
+            label: Some("Pt"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "8a95571a32c5a23bd6be4edf6429f630d7a1a15a",
+                ),
+            ],
+        ),
+    ],
 )

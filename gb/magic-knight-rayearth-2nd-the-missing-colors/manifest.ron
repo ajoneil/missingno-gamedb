@@ -1,6 +1,20 @@
 (
-    title: "Magic Knight Rayearth 2nd. - The Missing Colors (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["afe76c2d6f796813f1803e8c542107bf0827f966"],
-    source: None,
+    title: "Magic Knight Rayearth 2nd. - The Missing Colors",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "afe76c2d6f796813f1803e8c542107bf0827f966",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

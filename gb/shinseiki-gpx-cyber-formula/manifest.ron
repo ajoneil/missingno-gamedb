@@ -1,6 +1,19 @@
 (
-    title: "Shinseiki GPX - Cyber Formula (Japan)",
-    region: Some("Japan"),
-    hashes: ["5716f20e0726450a4ff7c9c6fd3fdc8004d38a77"],
-    source: None,
+    title: "Shinseiki GPX - Cyber Formula",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5716f20e0726450a4ff7c9c6fd3fdc8004d38a77",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,51 @@
 (
-    title: "Raging Fighter (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["3e9ae5693208b8c377792c0fb67d682c6158b14d"],
-    source: None,
+    title: "Raging Fighter",
+    kind: Demo,
+    releases: [
+        (
+            title: Some("Outburst"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2d5a27b675a1f3c0be43e6f662f0159a3b3bf92b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Outburst"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4a45cc555b486f5dafa4e844a7b6afceb709a1b9",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3e9ae5693208b8c377792c0fb67d682c6158b14d",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

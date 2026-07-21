@@ -1,6 +1,17 @@
 (
-    title: "Pong - The Next Level (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["637827a89a0948f6561bf2a018de6244e2811a99"],
-    source: None,
+    title: "Pong - The Next Level",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "637827a89a0948f6561bf2a018de6244e2811a99",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,36 @@
 (
-    title: "FIFA - Road to World Cup 98 (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["5ef615a919ea967e749febb046f9d097d91fab0d", "8dc3ab8f020e4377af1e1f636396cc3881268a1f"],
-    source: None,
+    title: "FIFA - Road to World Cup 98",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5ef615a919ea967e749febb046f9d097d91fab0d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8dc3ab8f020e4377af1e1f636396cc3881268a1f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Spacestation Silicon Valley (Europe) (En,Fr,De,Es,It,Nl,Sv) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["1dbfa27ebc11c63b86cb36075b807b24426dcfd5"],
-    source: None,
+    title: "Spacestation Silicon Valley",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Sv"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1dbfa27ebc11c63b86cb36075b807b24426dcfd5",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

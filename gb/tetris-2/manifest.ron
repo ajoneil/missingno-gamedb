@@ -1,6 +1,68 @@
 (
-    title: "Tetris 2 (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["1f88be9dea864eaa74c3b5ce3488e61139818e8d", "51bdceed8fc384b593444a5306b6a46a4672c96b", "ec7b3419c08f1a5713afff2b26c1534d91602338"],
-    source: None,
+    title: "Tetris 2",
+    releases: [
+        (
+            title: Some("Tetris Flash"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ee30c75e068aefe131b880d611d987c41a421470",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1f88be9dea864eaa74c3b5ce3488e61139818e8d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ec7b3419c08f1a5713afff2b26c1534d91602338",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "51bdceed8fc384b593444a5306b6a46a4672c96b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

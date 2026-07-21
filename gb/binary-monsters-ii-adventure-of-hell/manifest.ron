@@ -1,6 +1,20 @@
 (
-    title: "Binary Monsters II - Adventure of Hell (Taiwan) (En) (Unl)",
-    region: Some("Taiwan"),
-    hashes: ["5a7ea252cc344f239e48eee0eba6a9ba97d799ea"],
-    source: None,
+    title: "Binary Monsters II - Adventure of Hell",
+    releases: [
+        (
+            label: Some("En, Unl"),
+            regions: [
+                Taiwan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5a7ea252cc344f239e48eee0eba6a9ba97d799ea",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

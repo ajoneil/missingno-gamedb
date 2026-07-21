@@ -1,0 +1,35 @@
+(
+    title: "Cool Hand",
+    releases: [
+        (
+            title: Some("Las Vegas Cool Hand"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c7423c03e5976f85de361fe1b83dfee11e75a60f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d116a77c501d5e553d1490993f8c0a9a92c3ea0c",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
+)

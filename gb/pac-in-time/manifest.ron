@@ -1,6 +1,67 @@
 (
-    title: "Pac-In-Time (USA) (SGB Enhanced)",
-    region: Some("USA"),
-    hashes: ["282f9bbabd5a57d5e7755e5d00f4d65094f816d5", "63419fd7af5fe2ba2f26a6cdaad5ed9c399fe44a", "a804e8fc2614c55154b1a904639244bca6553997", "f30108b8e422c4b9776c90c884710194508545ea"],
-    source: None,
+    title: "Pac-In-Time",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "63419fd7af5fe2ba2f26a6cdaad5ed9c399fe44a",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "282f9bbabd5a57d5e7755e5d00f4d65094f816d5",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a804e8fc2614c55154b1a904639244bca6553997",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f30108b8e422c4b9776c90c884710194508545ea",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

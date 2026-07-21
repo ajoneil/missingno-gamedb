@@ -1,6 +1,36 @@
 (
-    title: "Golf Classic (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["b7ffb77a5061c33b0bbe5b074c1526e46c5eb7c3"],
-    source: None,
+    title: "Golf Classic",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b7ffb77a5061c33b0bbe5b074c1526e46c5eb7c3",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Sports Illustrated - Golf Classic"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "39761cfedcfe4e5cf161f58a91f5fd364fc3ddb9",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

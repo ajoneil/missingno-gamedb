@@ -1,6 +1,81 @@
 (
-    title: "Teenage Mutant Hero Turtles - Fall of the Foot Clan (Europe)",
-    region: Some("Europe"),
-    hashes: ["cf1d432b93e6a606d95bf7397a088b79cd69e108"],
-    source: None,
+    title: "Teenage Mutant Hero Turtles - Fall of the Foot Clan",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cf1d432b93e6a606d95bf7397a088b79cd69e108",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Teenage Mutant Ninja Turtles"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1f17169d70365831537376beb2477374649f830b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Teenage Mutant Ninja Turtles - Fall of the Foot Clan"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6e8a43bc0c18129d74ff3322658a2ce8c24d201e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Teenage Mutant Ninja Turtles"),
+            label: Some("Cowabunga Collection, The"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8e5398a96523b83da1ed0600f57a774cde7729a7",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Teenage Mutant Ninja Turtles - Fall of the Foot Clan"),
+            label: Some("Cowabunga Collection, The"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d20ba3c691a484bfcc80331e11bb76f652b4290c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

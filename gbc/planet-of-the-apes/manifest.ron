@@ -1,6 +1,42 @@
 (
-    title: "Planet of the Apes (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["554c98049b8f4db23c891a9b95c57b595ed90cd8", "84b616c937b9dcc7cdcb05f583a4d60467ede385", "fa8ca9a374fa3151ae912c7210b116d9fe0fce2b"],
-    source: None,
+    title: "Planet of the Apes",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "fa8ca9a374fa3151ae912c7210b116d9fe0fce2b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "554c98049b8f4db23c891a9b95c57b595ed90cd8",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "84b616c937b9dcc7cdcb05f583a4d60467ede385",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

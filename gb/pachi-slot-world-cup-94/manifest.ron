@@ -1,6 +1,19 @@
 (
-    title: "Pachi-Slot World Cup '94 (Japan)",
-    region: Some("Japan"),
-    hashes: ["fac33654dc37c120674a8f9e20019dfcca72ebcd"],
-    source: None,
+    title: "Pachi-Slot World Cup \'94",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fac33654dc37c120674a8f9e20019dfcca72ebcd",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

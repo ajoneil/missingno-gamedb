@@ -1,6 +1,16 @@
 (
-    title: "Cross Hunter - Treasure Hunter Version (Japan)",
-    region: Some("Japan"),
-    hashes: ["b54fcdebd54484113923b899eed7c63550609f74"],
-    source: None,
+    title: "Cross Hunter - Treasure Hunter Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "b54fcdebd54484113923b899eed7c63550609f74",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

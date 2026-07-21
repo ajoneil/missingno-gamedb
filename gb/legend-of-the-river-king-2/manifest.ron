@@ -1,6 +1,52 @@
 (
-    title: "Legend of the River King 2 (Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["1155f2d5cc56c8275855b02a8b3826648cc5e904", "ae8ee704b968576cf2cd0a93dc5b42f8f63c48eb"],
-    source: None,
+    title: "Legend of the River King 2",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ae8ee704b968576cf2cd0a93dc5b42f8f63c48eb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1155f2d5cc56c8275855b02a8b3826648cc5e904",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Kawa no Nushi Tsuri 4"),
+            label: Some("Rumble Version"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dbdac654d4056ade51a139614192742ce8800d7e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

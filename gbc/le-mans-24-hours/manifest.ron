@@ -1,6 +1,30 @@
 (
-    title: "Le Mans 24 Hours (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["cb4847cd63c8cc52f04bf4d86d54954be3d8fc1a"],
-    source: None,
+    title: "Le Mans 24 Hours",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "cb4847cd63c8cc52f04bf4d86d54954be3d8fc1a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Test Drive Le Mans"),
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "bf007bf9c22633d67b7b46aef656d136dd2d9b25",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

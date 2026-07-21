@@ -1,6 +1,20 @@
 (
-    title: "Meitantei Conan - Chika Yuuenchi Satsujin Jiken (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["2ab6749d2abaf3fc3cb9317f64cec78e0184ff6b"],
-    source: None,
+    title: "Meitantei Conan - Chika Yuuenchi Satsujin Jiken",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2ab6749d2abaf3fc3cb9317f64cec78e0184ff6b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

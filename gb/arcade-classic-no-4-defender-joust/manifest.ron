@@ -1,6 +1,21 @@
 (
-    title: "Arcade Classic No. 4 - Defender & Joust (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["6b046ca1e15e6cecb29e086a5b23eb0019419936"],
-    source: None,
+    title: "Arcade Classic No. 4 - Defender & Joust",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6b046ca1e15e6cecb29e086a5b23eb0019419936",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

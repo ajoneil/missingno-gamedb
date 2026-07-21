@@ -1,6 +1,18 @@
 (
-    title: "Octopus Stressus (World) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["d4fa4e02753a9fe539f70d0927ba5bf9caa02d3c", "e543c39f8e55b1788476b94028a54fc2fc9c7ea0"],
-    source: None,
+    title: "Octopus Stressus",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "d4fa4e02753a9fe539f70d0927ba5bf9caa02d3c",
+                ),
+                (
+                    sha1: "e543c39f8e55b1788476b94028a54fc2fc9c7ea0",
+                ),
+            ],
+        ),
+    ],
 )

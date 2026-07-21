@@ -1,6 +1,20 @@
 (
-    title: "Super Chinese Fighter GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["081a6f607c4a07fc0bab2f86cf0d1adff1173239"],
-    source: None,
+    title: "Super Chinese Fighter GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "081a6f607c4a07fc0bab2f86cf0d1adff1173239",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

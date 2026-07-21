@@ -1,6 +1,17 @@
 (
-    title: "Cubix - Robots for Everyone - Race 'n Robots (USA) (En,Fr,De,Es,It)",
-    region: Some("USA"),
-    hashes: ["d62b85c664e0a42c84e56b939a201fe90d05a360"],
-    source: None,
+    title: "Cubix - Robots for Everyone - Race \'n Robots",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "d62b85c664e0a42c84e56b939a201fe90d05a360",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

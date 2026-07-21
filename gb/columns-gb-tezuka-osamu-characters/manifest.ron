@@ -1,6 +1,20 @@
 (
-    title: "Columns GB - Tezuka Osamu Characters (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["a8d9a6631f1d203d99be38fb90135c10e5f0c880"],
-    source: None,
+    title: "Columns GB - Tezuka Osamu Characters",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a8d9a6631f1d203d99be38fb90135c10e5f0c880",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

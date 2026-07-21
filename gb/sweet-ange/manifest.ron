@@ -1,6 +1,20 @@
 (
-    title: "Sweet Ange (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["5b6f268d945bcdb070195459582f01b434c01495"],
-    source: None,
+    title: "Sweet Ange",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5b6f268d945bcdb070195459582f01b434c01495",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

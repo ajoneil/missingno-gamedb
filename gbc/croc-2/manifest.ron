@@ -1,6 +1,29 @@
 (
-    title: "Croc 2 (World) (ModRetro Chromatic)",
-    region: Some("World"),
-    hashes: ["f2bacb7896ea826a28f054df3bb5466a94512f01", "fa29d6c4239405b12b320bb6e8a65ca2083a4b1c"],
-    source: None,
+    title: "Croc 2",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "fa29d6c4239405b12b320bb6e8a65ca2083a4b1c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("ModRetro Chromatic"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "f2bacb7896ea826a28f054df3bb5466a94512f01",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

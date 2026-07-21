@@ -1,6 +1,19 @@
 (
-    title: "Oni III - Kuro no Hakaishin (Japan)",
-    region: Some("Japan"),
-    hashes: ["2813cf81a13d5a07a221320ba80da0d3e271d87c"],
-    source: None,
+    title: "Oni III - Kuro no Hakaishin",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2813cf81a13d5a07a221320ba80da0d3e271d87c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

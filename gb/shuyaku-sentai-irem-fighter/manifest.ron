@@ -1,6 +1,19 @@
 (
-    title: "Shuyaku Sentai Irem Fighter (Japan)",
-    region: Some("Japan"),
-    hashes: ["714134877092ddb688ded5d3516d7db4b22e329e"],
-    source: None,
+    title: "Shuyaku Sentai Irem Fighter",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "714134877092ddb688ded5d3516d7db4b22e329e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

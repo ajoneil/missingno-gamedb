@@ -1,6 +1,36 @@
 (
-    title: "Chou Mashin Eiyuu Den Wataru - Mazekko Monster (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["66e8df39ac137fe2b92581f2d88adfa0b0c3ac14", "ac2360d790c855fde91fca26ee88a4814a1f2e9f"],
-    source: None,
+    title: "Chou Mashin Eiyuu Den Wataru - Mazekko Monster",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "66e8df39ac137fe2b92581f2d88adfa0b0c3ac14",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ac2360d790c855fde91fca26ee88a4814a1f2e9f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,65 @@
 (
-    title: "Magical Tetris Challenge (Europe) (En,Fr,De,Es,It,Nl,Sv)",
-    region: Some("Europe"),
-    hashes: ["3c315f3f77002456f09df9643be323608ae72088", "7cdb0bf463ad87ec8a68a564c3f03dbc890edd7e", "950b30b267b0f0b79d7e85e91b8536b096b6a1b2"],
-    source: None,
+    title: "Magical Tetris Challenge",
+    releases: [
+        (
+            title: Some("Tetris Adventure - Susume Mickey to Nakama-tachi"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "aa7dd2044a7e1535da67d7b9439e9771f736086a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "7cdb0bf463ad87ec8a68a564c3f03dbc890edd7e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Sv"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "3c315f3f77002456f09df9643be323608ae72088",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Sv, Rev 1"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "950b30b267b0f0b79d7e85e91b8536b096b6a1b2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Tetris Adventure - Susume Mickey to Nakama-tachi"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "a8842e85f2c6de4db40b47c9640dad59ae9d1c51",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

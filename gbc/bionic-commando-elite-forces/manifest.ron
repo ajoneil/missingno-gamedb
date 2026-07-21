@@ -1,6 +1,17 @@
 (
-    title: "Bionic Commando - Elite Forces (USA, Australia)",
-    region: Some("USA, Australia"),
-    hashes: ["33c28a2183f8b95cc2d8e0b6a0b005bfc230f1fc"],
-    source: None,
+    title: "Bionic Commando - Elite Forces",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Australia,
+            ],
+            artifacts: [
+                (
+                    sha1: "33c28a2183f8b95cc2d8e0b6a0b005bfc230f1fc",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

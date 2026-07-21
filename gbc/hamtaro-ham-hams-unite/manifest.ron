@@ -1,6 +1,67 @@
 (
-    title: "Hamtaro - Ham-Hams Unite! (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["047d9dedb77a448d31cd5dce23f4c3dd8714dafe", "17c3ff0da5b9733a768ee53eccd13059fda16116", "9770bf59e932b41882839ce9eec033f576094fee", "c85ba2da0a652544f938439c8826c5c6754f5e75"],
-    source: None,
+    title: "Hamtaro - Ham-Hams Unite!",
+    releases: [
+        (
+            title: Some("Tottoko Hamutarou 2 - Hamu-chan Zu Daishuugou Dechu"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "adb1d5242a62d41c6e435b31082685ea4eec651a",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "9770bf59e932b41882839ce9eec033f576094fee",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("2002-08-07"),
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "c85ba2da0a652544f938439c8826c5c6754f5e75",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "047d9dedb77a448d31cd5dce23f4c3dd8714dafe",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            date: Some("2002-11-11"),
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "17c3ff0da5b9733a768ee53eccd13059fda16116",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

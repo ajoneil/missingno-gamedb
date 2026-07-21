@@ -1,6 +1,20 @@
 (
-    title: "Pilgrim's Peril (World) (Demo 1) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["2b85eb77ab2dcea4f645abcc1a66dbce54a6ebaa", "d38f3f5e491dbaed84e88099987712449db9b33d"],
-    source: None,
+    title: "Pilgrim\'s Peril",
+    kind: Demo,
+    releases: [
+        (
+            label: Some("Demo 1"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "2b85eb77ab2dcea4f645abcc1a66dbce54a6ebaa",
+                ),
+                (
+                    sha1: "d38f3f5e491dbaed84e88099987712449db9b33d",
+                ),
+            ],
+        ),
+    ],
 )

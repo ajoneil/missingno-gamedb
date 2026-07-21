@@ -1,6 +1,19 @@
 (
-    title: "Worms (Europe)",
-    region: Some("Europe"),
-    hashes: ["26137ca97b840c63a462bcf85677a5f3db67fadf"],
-    source: None,
+    title: "Worms",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "26137ca97b840c63a462bcf85677a5f3db67fadf",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

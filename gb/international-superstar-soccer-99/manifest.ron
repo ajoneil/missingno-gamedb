@@ -1,6 +1,51 @@
 (
-    title: "International Superstar Soccer 99 (Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["6f491e6f919a677627090f949b8e69abb8bfd1db", "d9d9fffb463d4c35f8a1a753908cddfbe17fc671"],
-    source: None,
+    title: "International Superstar Soccer 99",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d9d9fffb463d4c35f8a1a753908cddfbe17fc671",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("World Soccer GB 2"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b58c969510aab4930a1846d857f58d57ed342592",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6f491e6f919a677627090f949b8e69abb8bfd1db",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

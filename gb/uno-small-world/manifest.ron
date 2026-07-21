@@ -1,6 +1,19 @@
 (
-    title: "Uno - Small World (Japan)",
-    region: Some("Japan"),
-    hashes: ["4a0eb686cbee455197e0890210fade5c21b4954b"],
-    source: None,
+    title: "Uno - Small World",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4a0eb686cbee455197e0890210fade5c21b4954b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

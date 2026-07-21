@@ -1,6 +1,36 @@
 (
-    title: "NFL Blitz (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["14649b51e40aeea24cb4d9cbc41b847cadf68067", "66b69cba0705f0670759f01cfd586a50c47c7c89"],
-    source: None,
+    title: "NFL Blitz",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "14649b51e40aeea24cb4d9cbc41b847cadf68067",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "66b69cba0705f0670759f01cfd586a50c47c7c89",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

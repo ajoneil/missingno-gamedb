@@ -1,6 +1,22 @@
 (
-    title: "Swordsman on the Eternal Journey (World) (En,Ja) (v1.00) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["54f9f0caa96edac7d336d85548e099a4e5110bdd", "a45a31e6491a5d8a9288dc64823d7266060681b3", "b4d33ac2e410a55d27edb2abe6fc2268ca18ae26"],
-    source: None,
+    title: "Swordsman on the Eternal Journey",
+    releases: [
+        (
+            label: Some("En,Ja, v1.00"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "54f9f0caa96edac7d336d85548e099a4e5110bdd",
+                ),
+                (
+                    sha1: "a45a31e6491a5d8a9288dc64823d7266060681b3",
+                ),
+                (
+                    sha1: "b4d33ac2e410a55d27edb2abe6fc2268ca18ae26",
+                ),
+            ],
+        ),
+    ],
 )

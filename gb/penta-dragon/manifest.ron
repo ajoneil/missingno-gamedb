@@ -1,6 +1,19 @@
 (
-    title: "Penta Dragon (Japan)",
-    region: Some("Japan"),
-    hashes: ["fd75d43258e79f14d104fb4756e219141882c837"],
-    source: None,
+    title: "Penta Dragon",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fd75d43258e79f14d104fb4756e219141882c837",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

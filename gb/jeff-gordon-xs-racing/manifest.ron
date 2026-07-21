@@ -1,6 +1,35 @@
 (
-    title: "Jeff Gordon XS Racing (USA) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["3939bd5c3ba034ebb19395d4292f82b703629468"],
-    source: None,
+    title: "Jeff Gordon XS Racing",
+    releases: [
+        (
+            title: Some("EuroSport XS Racing"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b3dda41ef755cc78680858103bad07d064e155ac",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3939bd5c3ba034ebb19395d4292f82b703629468",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

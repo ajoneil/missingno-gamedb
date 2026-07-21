@@ -1,6 +1,69 @@
 (
-    title: "Puchi Carat (USA) (Proto 2) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["25abda13f97140d412bb00e109baca8574d5af6e", "b91b121a6951bcc74f0e4af33d41a1fba62f9822", "de755124425f9de8bef5eea8026751c54f7f1e00", "f703796e5551e12924c070cd8a0e77c6d82073af"],
-    source: None,
+    title: "Puchi Carat",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f703796e5551e12924c070cd8a0e77c6d82073af",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "25abda13f97140d412bb00e109baca8574d5af6e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 1"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b91b121a6951bcc74f0e4af33d41a1fba62f9822",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 2"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "de755124425f9de8bef5eea8026751c54f7f1e00",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Monster Race Okawari (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["a566012977dbcede8066c06e445b6a346d158e53"],
-    source: None,
+    title: "Monster Race Okawari",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a566012977dbcede8066c06e445b6a346d158e53",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

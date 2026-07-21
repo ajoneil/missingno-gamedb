@@ -1,6 +1,20 @@
 (
-    title: "Namco Gallery Vol.3 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["a8902e4af858b28c1c934879718e8c971a2000bb"],
-    source: None,
+    title: "Namco Gallery Vol.3",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a8902e4af858b28c1c934879718e8c971a2000bb",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

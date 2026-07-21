@@ -1,6 +1,19 @@
 (
-    title: "Battle Dodge Ball (Japan)",
-    region: Some("Japan"),
-    hashes: ["ed63709af2dd22d2abaa7e99b9dd5373b6cc91c4"],
-    source: None,
+    title: "Battle Dodge Ball",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ed63709af2dd22d2abaa7e99b9dd5373b6cc91c4",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

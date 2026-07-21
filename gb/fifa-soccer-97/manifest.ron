@@ -1,6 +1,21 @@
 (
-    title: "FIFA Soccer 97 (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["dd9b9b99bd663cdf55187ff5867eccd52615f025"],
-    source: None,
+    title: "FIFA Soccer 97",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dd9b9b99bd663cdf55187ff5867eccd52615f025",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

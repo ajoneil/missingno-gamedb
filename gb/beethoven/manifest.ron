@@ -1,6 +1,36 @@
 (
-    title: "Beethoven (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["2e71fde9958466f8b484c757f726bcdc5e1ae456", "a175778faca00f096f0bfdbaa844a38816bbeb0f"],
-    source: None,
+    title: "Beethoven",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a175778faca00f096f0bfdbaa844a38816bbeb0f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2e71fde9958466f8b484c757f726bcdc5e1ae456",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

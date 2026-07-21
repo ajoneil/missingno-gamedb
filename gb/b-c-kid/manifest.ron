@@ -1,6 +1,65 @@
 (
-    title: "B.C. Kid (Europe)",
-    region: Some("Europe"),
-    hashes: ["b91f99408e4a6b69d505f304c176434321f837e7"],
-    source: None,
+    title: "B.C. Kid",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b91f99408e4a6b69d505f304c176434321f837e7",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("GB Genjin"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c2e98c76e49155e7b9815e0c33ae6cf71daaee2c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bonk\'s Adventure"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a26006158d90a61d22abf130f05297fd09a09b7c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bonk\'s Adventure"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e27d941af0a006c4f5ffd03914265146aa140e2c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

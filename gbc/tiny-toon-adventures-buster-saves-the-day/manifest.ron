@@ -1,6 +1,28 @@
 (
-    title: "Tiny Toon Adventures - Buster Saves the Day (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["3a30dc722739fbaa9924c855c83be311befc8ff2", "a3953e9ade5367558f7d430d2dfb83d06c361170"],
-    source: None,
+    title: "Tiny Toon Adventures - Buster Saves the Day",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "a3953e9ade5367558f7d430d2dfb83d06c361170",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "3a30dc722739fbaa9924c855c83be311befc8ff2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

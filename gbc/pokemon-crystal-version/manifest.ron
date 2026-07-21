@@ -1,6 +1,100 @@
 (
-    title: "Pokemon - Crystal Version (Australia)",
-    region: Some("Australia"),
-    hashes: ["a0fc810f1d4e124434f7be2c989ab5b5892ddf36", "f2f52230b536214ef7c9924f483392993e226cfb", "f4cd194bdee0d04ca4eac29e09b8e4e9d818c133"],
-    source: None,
+    title: "Pokemon - Crystal Version",
+    releases: [
+        (
+            regions: [
+                Australia,
+            ],
+            artifacts: [
+                (
+                    sha1: "a0fc810f1d4e124434f7be2c989ab5b5892ddf36",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Version Cristal"),
+            regions: [
+                France,
+            ],
+            artifacts: [
+                (
+                    sha1: "c055992b16b7399c687647725cdd1f4f13a2f75c",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Kristall-Edition"),
+            regions: [
+                Germany,
+            ],
+            artifacts: [
+                (
+                    sha1: "accb584293ba056152f1fd908439b019017ff2fe",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Versione Cristallo"),
+            regions: [
+                Italy,
+            ],
+            artifacts: [
+                (
+                    sha1: "6cee05e5b95beeae74b8365ad18ec4a07a8c4af8",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pocket Monsters - Crystal Version"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "95127b901bbce2407daf43cce9f45d4c27ef635d",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Edicion Cristal"),
+            regions: [
+                Spain,
+            ],
+            artifacts: [
+                (
+                    sha1: "889a06fc0bb863666865aa69def0adf97945ac2a",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "f4cd194bdee0d04ca4eac29e09b8e4e9d818c133",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "f2f52230b536214ef7c9924f483392993e226cfb",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

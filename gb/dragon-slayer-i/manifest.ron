@@ -1,6 +1,20 @@
 (
-    title: "Dragon Slayer I (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["7d987446f67d8bee42482a4932d0fa60318238e4"],
-    source: None,
+    title: "Dragon Slayer I",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7d987446f67d8bee42482a4932d0fa60318238e4",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

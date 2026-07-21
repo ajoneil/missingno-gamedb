@@ -1,6 +1,20 @@
 (
-    title: "Nectaris GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["ba251bfef8162ef032da8d5c28fe693ede28f030"],
-    source: None,
+    title: "Nectaris GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ba251bfef8162ef032da8d5c28fe693ede28f030",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

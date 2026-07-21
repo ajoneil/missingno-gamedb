@@ -1,6 +1,19 @@
 (
-    title: "Keitai Keiba Eight Special (Japan)",
-    region: Some("Japan"),
-    hashes: ["1bbc35ddf540f2ad9937f57184add528c2811a5d"],
-    source: None,
+    title: "Keitai Keiba Eight Special",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1bbc35ddf540f2ad9937f57184add528c2811a5d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

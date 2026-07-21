@@ -1,6 +1,29 @@
 (
-    title: "Swing (Germany)",
-    region: Some("Germany"),
-    hashes: ["576d4338665f159a88875819f0681fdc49443fe4", "c681530a49a5287ef59b4bae02cb1f9e82c72386"],
-    source: None,
+    title: "Swing",
+    releases: [
+        (
+            regions: [
+                Germany,
+            ],
+            artifacts: [
+                (
+                    sha1: "c681530a49a5287ef59b4bae02cb1f9e82c72386",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "576d4338665f159a88875819f0681fdc49443fe4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

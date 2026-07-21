@@ -1,6 +1,36 @@
 (
-    title: "Tetris Plus (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["dbb20951409739f1e11ffbcd8b0af1e802bf693a", "dfab75ab6bdc0765ba9a5d33a93ffdb114a49cbf"],
-    source: None,
+    title: "Tetris Plus",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dbb20951409739f1e11ffbcd8b0af1e802bf693a",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dfab75ab6bdc0765ba9a5d33a93ffdb114a49cbf",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

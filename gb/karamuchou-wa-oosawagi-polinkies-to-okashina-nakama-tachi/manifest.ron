@@ -1,6 +1,20 @@
 (
-    title: "Karamuchou wa Oosawagi! - Polinkies to Okashina Nakama-tachi (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["cb6079dc290ace0daafdd40353e4477e4a37c8f7"],
-    source: None,
+    title: "Karamuchou wa Oosawagi! - Polinkies to Okashina Nakama-tachi",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cb6079dc290ace0daafdd40353e4477e4a37c8f7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

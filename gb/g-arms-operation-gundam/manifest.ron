@@ -1,6 +1,19 @@
 (
-    title: "G Arms - Operation Gundam (Japan)",
-    region: Some("Japan"),
-    hashes: ["7d8011636fe36266b5f716e78e3e29006f024992"],
-    source: None,
+    title: "G Arms - Operation Gundam",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7d8011636fe36266b5f716e78e3e29006f024992",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Pachinko CR Daiku no Gen-san GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["2fc86c0da3601e7b614290b30197aaae50ab510e"],
-    source: None,
+    title: "Pachinko CR Daiku no Gen-san GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2fc86c0da3601e7b614290b30197aaae50ab510e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Asmik-kun World 2 (Japan)",
-    region: Some("Japan"),
-    hashes: ["4c738153a5c9f861117cc23cfedf2c37672e1097"],
-    source: None,
+    title: "Asmik-kun World 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4c738153a5c9f861117cc23cfedf2c37672e1097",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

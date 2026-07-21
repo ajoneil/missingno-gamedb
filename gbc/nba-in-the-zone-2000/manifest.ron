@@ -1,6 +1,27 @@
 (
-    title: "NBA in the Zone 2000 (Europe)",
-    region: Some("Europe"),
-    hashes: ["57cd13938fb394752f1e070026df716771561cc2", "773a303c25bc907476bee20064f2c1f154361d82"],
-    source: None,
+    title: "NBA in the Zone 2000",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "773a303c25bc907476bee20064f2c1f154361d82",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "57cd13938fb394752f1e070026df716771561cc2",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

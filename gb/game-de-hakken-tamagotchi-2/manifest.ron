@@ -1,6 +1,20 @@
 (
-    title: "Game de Hakken!! Tamagotchi 2 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["ade11f43f6957c75cde8575e7cba11de9e53e0ea"],
-    source: None,
+    title: "Game de Hakken!! Tamagotchi 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ade11f43f6957c75cde8575e7cba11de9e53e0ea",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

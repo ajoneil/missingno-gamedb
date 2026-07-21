@@ -1,6 +1,20 @@
 (
-    title: "Nintama Rantarou GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["4110bd38bde1d9a9a20c2a0c73a3e9f799a72847"],
-    source: None,
+    title: "Nintama Rantarou GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4110bd38bde1d9a9a20c2a0c73a3e9f799a72847",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

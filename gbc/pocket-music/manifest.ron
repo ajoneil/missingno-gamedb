@@ -1,6 +1,58 @@
 (
-    title: "Pocket Music (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["5291a00ac57dcf47e485f33972000682b861bfe8", "74dc5efab773fde400304d3df8034a095af8a742", "ad547a79af864eb56a18e1c2ad4346eb35df41ed", "b7ecdd51358e2794a45b425ada778722f5f000c0"],
-    source: None,
+    title: "Pocket Music",
+    releases: [
+        (
+            label: Some("En,Es"),
+            regions: [
+                Usa,
+            ],
+            date: Some("2003-03-07"),
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "5291a00ac57dcf47e485f33972000682b861bfe8",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Es"),
+            regions: [
+                Usa,
+            ],
+            date: Some("2002-03-04"),
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "ad547a79af864eb56a18e1c2ad4346eb35df41ed",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "74dc5efab773fde400304d3df8034a095af8a742",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Riff Sampler Test"),
+            regions: [
+                World,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "b7ecdd51358e2794a45b425ada778722f5f000c0",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

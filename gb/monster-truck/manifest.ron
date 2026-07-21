@@ -1,6 +1,20 @@
 (
-    title: "Monster Truck (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["3db1e6333af2da6cd86bffd1afafc7ce96bf4b95"],
-    source: None,
+    title: "Monster Truck",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3db1e6333af2da6cd86bffd1afafc7ce96bf4b95",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

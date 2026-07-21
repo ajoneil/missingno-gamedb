@@ -1,6 +1,19 @@
 (
-    title: "Tsumeshougi - Mondai Teikyou Shougi Sekai (Japan)",
-    region: Some("Japan"),
-    hashes: ["d4d200c152b9fa1af758333210bef2649f0271ec"],
-    source: None,
+    title: "Tsumeshougi - Mondai Teikyou Shougi Sekai",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d4d200c152b9fa1af758333210bef2649f0271ec",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

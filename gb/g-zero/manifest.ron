@@ -1,6 +1,16 @@
 (
-    title: "G-ZERO (World) (v2.6)",
-    region: Some("World"),
-    hashes: ["929d25a612308614ac3ac2ee5a19a9cd4a9968d6"],
-    source: None,
+    title: "G-ZERO",
+    releases: [
+        (
+            label: Some("v2.6"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "929d25a612308614ac3ac2ee5a19a9cd4a9968d6",
+                ),
+            ],
+        ),
+    ],
 )

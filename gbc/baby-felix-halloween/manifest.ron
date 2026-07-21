@@ -1,6 +1,17 @@
 (
-    title: "Baby Felix - Halloween (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["6c924f693e08e32c0e59f386cd728beb32d00105"],
-    source: None,
+    title: "Baby Felix - Halloween",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "6c924f693e08e32c0e59f386cd728beb32d00105",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

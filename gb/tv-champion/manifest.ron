@@ -1,6 +1,20 @@
 (
-    title: "TV Champion (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["eddc884ff0fea50dc059b650728d2d3507461dfe"],
-    source: None,
+    title: "TV Champion",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eddc884ff0fea50dc059b650728d2d3507461dfe",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Scotland Yard (Japan)",
-    region: Some("Japan"),
-    hashes: ["8b6d7db97da4664353241d67ea225e74dba6a170"],
-    source: None,
+    title: "Scotland Yard",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8b6d7db97da4664353241d67ea225e74dba6a170",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

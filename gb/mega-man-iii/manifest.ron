@@ -1,6 +1,63 @@
 (
-    title: "Mega Man III (Europe)",
-    region: Some("Europe"),
-    hashes: ["57347305ab297daa4332564623c4a098e6dbb1a3", "7eea8a96bf64537b041b96ce2cb5dd13cdebb789", "ecadbc9e273e4d99ccd87f98bbbd912aec43c077"],
-    source: None,
+    title: "Mega Man III",
+    kind: Demo,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ecadbc9e273e4d99ccd87f98bbbd912aec43c077",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Rockman World 3"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "201abc73cf669f71a477a431d387518f4b488c1f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "57347305ab297daa4332564623c4a098e6dbb1a3",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7eea8a96bf64537b041b96ce2cb5dd13cdebb789",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

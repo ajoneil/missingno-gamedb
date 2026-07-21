@@ -1,6 +1,55 @@
 (
-    title: "Watashi no Restaurant (Japan)",
-    region: Some("Japan"),
-    hashes: ["343bf8ebb6fa3ce89501f7c4c219fb7e864c38a3", "384f1f68e7331f992f1d311f1433ea9f205eddcb", "98ff6b68b7c79229100f58311ee41e3fec4802e0", "d66f728006aaa37c2776b6ade7d1c8cdc2101a57"],
-    source: None,
+    title: "Watashi no Restaurant",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "d66f728006aaa37c2776b6ade7d1c8cdc2101a57",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 1"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "384f1f68e7331f992f1d311f1433ea9f205eddcb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 2"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "98ff6b68b7c79229100f58311ee41e3fec4802e0",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 3"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "343bf8ebb6fa3ce89501f7c4c219fb7e864c38a3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,34 @@
 (
-    title: "Q-bert for Game Boy (Japan)",
-    region: Some("Japan"),
-    hashes: ["44665169fdb96c685646613a82719276e7f07763", "bd56a1e96c3d310b522e25d7b72ceef26af87f2e"],
-    source: None,
+    title: "Q-bert for Game Boy",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "44665169fdb96c685646613a82719276e7f07763",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bd56a1e96c3d310b522e25d7b72ceef26af87f2e",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

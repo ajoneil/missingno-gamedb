@@ -1,6 +1,19 @@
 (
-    title: "GB Pachi-Slot Hisshouhou! Jr. (Japan)",
-    region: Some("Japan"),
-    hashes: ["7636799f5a57d22cf579bb687be5bb9fedddd0ca"],
-    source: None,
+    title: "GB Pachi-Slot Hisshouhou! Jr.",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7636799f5a57d22cf579bb687be5bb9fedddd0ca",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

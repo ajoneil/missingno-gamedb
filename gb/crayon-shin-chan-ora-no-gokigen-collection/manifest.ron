@@ -1,6 +1,20 @@
 (
-    title: "Crayon Shin-chan - Ora no Gokigen Collection (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["1dbd23b639b8a4b20ed28c3637608e03ebf59dad"],
-    source: None,
+    title: "Crayon Shin-chan - Ora no Gokigen Collection",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1dbd23b639b8a4b20ed28c3637608e03ebf59dad",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

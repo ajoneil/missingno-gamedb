@@ -1,6 +1,20 @@
 (
-    title: "Dragon Ball Z - Gokuu Hishouden (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["6bf8f3400bf323edecc2152c4a86f6b0cae628fe"],
-    source: None,
+    title: "Dragon Ball Z - Gokuu Hishouden",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6bf8f3400bf323edecc2152c4a86f6b0cae628fe",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Chibi Maruko-chan - Maruko Deluxe Theater (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["0e774a12ed2d99b5a62a5ad3f634f2c32da5929a"],
-    source: None,
+    title: "Chibi Maruko-chan - Maruko Deluxe Theater",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0e774a12ed2d99b5a62a5ad3f634f2c32da5929a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Sei Hai Densetsu (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["0840846bd0a3956fc49b5c7aec598ade93e3ff77"],
-    source: None,
+    title: "Sei Hai Densetsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0840846bd0a3956fc49b5c7aec598ade93e3ff77",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

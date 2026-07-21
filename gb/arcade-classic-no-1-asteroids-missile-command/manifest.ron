@@ -1,6 +1,21 @@
 (
-    title: "Arcade Classic No. 1 - Asteroids & Missile Command (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["a4849175191c44d878aff9ef1a86c3fe5e22e266"],
-    source: None,
+    title: "Arcade Classic No. 1 - Asteroids & Missile Command",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a4849175191c44d878aff9ef1a86c3fe5e22e266",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,46 @@
 (
-    title: "Crayon Shin-chan 4 - Ora no Itazura Daihenshin (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["b5bb01ad7e25e9e83c564ccf604a59f8930cd0d5"],
-    source: None,
+    title: "Crayon Shin-chan 4 - Ora no Itazura Daihenshin",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b5bb01ad7e25e9e83c564ccf604a59f8930cd0d5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Mario Land 4"),
+            label: Some("Ja, Pirate"),
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "475ecf3a537dc3c139969c148ee4423394fc247e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Mario 4"),
+            label: Some("Ja, Pirate"),
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f0da6eced7492bf51ae5575522cca58726c34feb",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

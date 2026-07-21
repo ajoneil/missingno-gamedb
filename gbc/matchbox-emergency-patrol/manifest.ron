@@ -1,6 +1,17 @@
 (
-    title: "Matchbox Emergency Patrol (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["8697a1a2d3575527c06114b422bd855384cf8905"],
-    source: None,
+    title: "Matchbox Emergency Patrol",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "8697a1a2d3575527c06114b422bd855384cf8905",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

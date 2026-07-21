@@ -1,6 +1,51 @@
 (
-    title: "Zoop (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["1e0390d456066b9fbe1faff5f7404d4593a2b839", "89a74970761700d591c2affc47c9306f49d22ba8", "97a6ea993bf5b64e38e3bc0adaf5965b442c9cee"],
-    source: None,
+    title: "Zoop",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1e0390d456066b9fbe1faff5f7404d4593a2b839",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "97a6ea993bf5b64e38e3bc0adaf5965b442c9cee",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "89a74970761700d591c2affc47c9306f49d22ba8",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

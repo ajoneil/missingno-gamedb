@@ -1,6 +1,62 @@
 (
-    title: "Popeye 2 (Europe)",
-    region: Some("Europe"),
-    hashes: ["7c4ac88e7a9f034da08ee84f299d9093e40213fd", "d3078fceadf469ab976422707a24b396530aae05", "d59986195bd74dde865245fae9c4081a8a24efb0", "dd673ee4dd847a3a217f5f5b6e76ff4d418f2d41"],
-    source: None,
+    title: "Popeye 2",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d3078fceadf469ab976422707a24b396530aae05",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d59986195bd74dde865245fae9c4081a8a24efb0",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dd673ee4dd847a3a217f5f5b6e76ff4d418f2d41",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7c4ac88e7a9f034da08ee84f299d9093e40213fd",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

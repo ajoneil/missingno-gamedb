@@ -1,6 +1,36 @@
 (
-    title: "Revelations - The Demon Slayer (USA) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["bd684074944ccc02b5f997e7ab95d0b03327773d"],
-    source: None,
+    title: "Revelations - The Demon Slayer",
+    releases: [
+        (
+            title: Some("Megami Tensei Gaiden - Last Bible"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "419c5afdbc9b59e05e7861de8cc59ee367cd29f0",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bd684074944ccc02b5f997e7ab95d0b03327773d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

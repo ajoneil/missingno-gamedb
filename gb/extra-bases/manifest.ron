@@ -1,6 +1,34 @@
 (
-    title: "Extra Bases (USA)",
-    region: Some("USA"),
-    hashes: ["bf44f14a948e8816fb9deea229512d979cb42aec"],
-    source: None,
+    title: "Extra Bases",
+    releases: [
+        (
+            title: Some("Famista"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5cb8e63906d32c5408b7f959a75c41578a444c3b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bf44f14a948e8816fb9deea229512d979cb42aec",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,18 @@
 (
-    title: "Indiana Jones and the Infernal Machine (USA, Europe) (En,Fr,De)",
-    region: Some("USA, Europe"),
-    hashes: ["6d568438aa3b9b67c55aded582cec136b15c46d7"],
-    source: None,
+    title: "Indiana Jones and the Infernal Machine",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "6d568438aa3b9b67c55aded582cec136b15c46d7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

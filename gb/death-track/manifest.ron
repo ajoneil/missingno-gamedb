@@ -1,6 +1,20 @@
 (
-    title: "Death Track (Europe) (Proto)",
-    region: Some("Europe"),
-    hashes: ["abc95b27be454405a6a22fb9e048537d1df60d75"],
-    source: None,
+    title: "Death Track",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "abc95b27be454405a6a22fb9e048537d1df60d75",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

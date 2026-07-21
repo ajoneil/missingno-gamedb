@@ -1,6 +1,20 @@
 (
-    title: "Pro Action Replay (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["cc691eeef80423bb55b442cc1d9e5abd8bb80148"],
-    source: None,
+    title: "Pro Action Replay",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cc691eeef80423bb55b442cc1d9e5abd8bb80148",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

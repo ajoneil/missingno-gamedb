@@ -1,6 +1,54 @@
 (
-    title: "From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["7fa5fbb94390876dee807216c2097cdb42510efe", "e11809babdca45527b81d7db02741263407aeb46", "f2c04440f5d668b14623c924faec460f63158a29"],
-    source: None,
+    title: "From TV Animation One Piece - Maboroshi no Grand Line Boukenki!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7fa5fbb94390876dee807216c2097cdb42510efe",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 1"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f2c04440f5d668b14623c924faec460f63158a29",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 2"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e11809babdca45527b81d7db02741263407aeb46",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

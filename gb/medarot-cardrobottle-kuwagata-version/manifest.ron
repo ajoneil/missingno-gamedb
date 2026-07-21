@@ -1,6 +1,20 @@
 (
-    title: "Medarot Cardrobottle - Kuwagata Version (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["26b5516170ea0fa1669cafb9484e1aeb5d2cae6c"],
-    source: None,
+    title: "Medarot Cardrobottle - Kuwagata Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "26b5516170ea0fa1669cafb9484e1aeb5d2cae6c",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

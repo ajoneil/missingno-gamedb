@@ -1,6 +1,19 @@
 (
-    title: "Pocket Color Mahjong (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["23067c8b37f283facc5c3a8e96c804ddd53aeaf4"],
-    source: None,
+    title: "Pocket Color Mahjong",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "23067c8b37f283facc5c3a8e96c804ddd53aeaf4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

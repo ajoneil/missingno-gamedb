@@ -1,6 +1,18 @@
 (
-    title: "Tazz (World)",
-    region: Some("World"),
-    hashes: ["39226ed715ae8d94f9187c3e5e8a849eac92ca26", "543118e54b166ea2b8b5979f8468cc2f5662161f"],
-    source: None,
+    title: "Tazz",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "39226ed715ae8d94f9187c3e5e8a849eac92ca26",
+                ),
+                (
+                    sha1: "543118e54b166ea2b8b5979f8468cc2f5662161f",
+                ),
+            ],
+        ),
+    ],
 )

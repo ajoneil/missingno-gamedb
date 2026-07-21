@@ -1,6 +1,20 @@
 (
-    title: "Medarot 2 - Kabuto Version (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["01adf621d6e2cbfec46306d69882fc2eb3d92de5"],
-    source: None,
+    title: "Medarot 2 - Kabuto Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "01adf621d6e2cbfec46306d69882fc2eb3d92de5",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

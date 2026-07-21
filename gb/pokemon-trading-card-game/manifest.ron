@@ -1,6 +1,101 @@
 (
-    title: "Pokemon Trading Card Game (Europe) (En,Fr,De) (Rev 1) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["0f8670a583255cff3e5b7ca71b5d7454d928fc48", "2138a422d135a13c49fce71229ae36bc1dc4fbb5", "868e7b376e39f7d65a735538d90fbe6bbc99d198", "c54b81e638b0c45d3569f9f5f0345df9e95ce975", "dffc15f3063a4c2df84c6361406b41aec1696d3e"],
-    source: None,
+    title: "Pokemon Trading Card Game",
+    releases: [
+        (
+            title: Some("Pokemon Card GB"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2287627c5b4d56bd9a01aab83408c301b9cf1a6c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Australia,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0f8670a583255cff3e5b7ca71b5d7454d928fc48",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Es,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2138a422d135a13c49fce71229ae36bc1dc4fbb5",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Es,It, Rev 1"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c54b81e638b0c45d3569f9f5f0345df9e95ce975",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "868e7b376e39f7d65a735538d90fbe6bbc99d198",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De, Rev 1"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dffc15f3063a4c2df84c6361406b41aec1696d3e",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

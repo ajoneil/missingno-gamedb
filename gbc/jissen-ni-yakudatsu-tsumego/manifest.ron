@@ -1,6 +1,29 @@
 (
-    title: "Jissen ni Yakudatsu Tsumego (Japan) (Rev 1)",
-    region: Some("Japan"),
-    hashes: ["5ff7f6f2a1911e97eb71a3b3788a89745cfa5d31", "f7ed6cdce7637a11d7fa7f5cb59b8f8ce131f9d1"],
-    source: None,
+    title: "Jissen ni Yakudatsu Tsumego",
+    releases: [
+        (
+            label: Some("Possible Proto"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "f7ed6cdce7637a11d7fa7f5cb59b8f8ce131f9d1",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "5ff7f6f2a1911e97eb71a3b3788a89745cfa5d31",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

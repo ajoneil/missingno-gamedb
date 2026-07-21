@@ -1,6 +1,19 @@
 (
-    title: "Family Jockey (Japan)",
-    region: Some("Japan"),
-    hashes: ["e463999d178489e050504298f4a3ffe30b48494a"],
-    source: None,
+    title: "Family Jockey",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e463999d178489e050504298f4a3ffe30b48494a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "SD Sengokuden 3 - Chijou Saikyou Hen (Japan)",
-    region: Some("Japan"),
-    hashes: ["2cb0368452033029ef8b8d92698d95ed41114a73"],
-    source: None,
+    title: "SD Sengokuden 3 - Chijou Saikyou Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2cb0368452033029ef8b8d92698d95ed41114a73",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

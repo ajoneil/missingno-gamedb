@@ -1,6 +1,31 @@
 (
-    title: "Toki Tori (USA, Europe) (En,Ja,Fr,De,Es)",
-    region: Some("USA, Europe"),
-    hashes: ["2025275bb55710594e990ab61cde622947a2fa8d"],
-    source: None,
+    title: "Toki Tori",
+    releases: [
+        (
+            label: Some("En,Ja,Fr,De,Es"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "2025275bb55710594e990ab61cde622947a2fa8d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Toki Tori - Ultimate Edition"),
+            label: Some("ModRetro Chromatic"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "294907646eaa97b2801bd318759315a9779fd1a9",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

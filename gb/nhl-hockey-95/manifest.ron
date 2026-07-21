@@ -1,6 +1,21 @@
 (
-    title: "NHL Hockey 95 (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["baea6987f69b4c8792ff4e453ea88006803a3ef9"],
-    source: None,
+    title: "NHL Hockey 95",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "baea6987f69b4c8792ff4e453ea88006803a3ef9",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

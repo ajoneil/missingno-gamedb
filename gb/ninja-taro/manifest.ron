@@ -1,6 +1,66 @@
 (
-    title: "Ninja Taro (USA) (Beta 1)",
-    region: Some("USA"),
-    hashes: ["602ba627007d37f7a2eb456102b3afa79d50ce2f", "bd472ed88042e032a57041eb0a889da6aa3d1598", "d93b6718e9c8a2505f4da73b99f57866111948af"],
-    source: None,
+    title: "Ninja Taro",
+    releases: [
+        (
+            title: Some("Sengoku Ninja-kun"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a60f4f815467298bd3928fe4aee0edd763ebe85d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bd472ed88042e032a57041eb0a889da6aa3d1598",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 1"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d93b6718e9c8a2505f4da73b99f57866111948af",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 2"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "602ba627007d37f7a2eb456102b3afa79d50ce2f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "SD Gundam Gaiden - Lacroan' Heroes (Japan)",
-    region: Some("Japan"),
-    hashes: ["bc598168a70bbbc1b89b3de13086ec89e8ce9ded"],
-    source: None,
+    title: "SD Gundam Gaiden - Lacroan\' Heroes",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bc598168a70bbbc1b89b3de13086ec89e8ce9ded",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

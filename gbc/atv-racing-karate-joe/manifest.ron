@@ -1,6 +1,29 @@
 (
-    title: "ATV Racing & Karate Joe (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["3701028d66564625933a3868340813e6d7c36b7b", "95287b440139e88d90700f892d1da60aaa4da778"],
-    source: None,
+    title: "ATV Racing & Karate Joe",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "3701028d66564625933a3868340813e6d7c36b7b",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl, Alt"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "95287b440139e88d90700f892d1da60aaa4da778",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

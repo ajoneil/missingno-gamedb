@@ -1,6 +1,21 @@
 (
-    title: "Bung Greetings Demo (World) (Demo) (Unl)",
-    region: Some("World"),
-    hashes: ["bb01f845d330377749aeb6df1f7bea0eff78bb89"],
-    source: None,
+    title: "Bung Greetings Demo",
+    kind: Demo,
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bb01f845d330377749aeb6df1f7bea0eff78bb89",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

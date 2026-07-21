@@ -1,6 +1,41 @@
 (
-    title: "Wacky Races (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["3ec148027d0e5a075d7a4597232e64215c060fa7", "dba18064c886cebe4c4be80f941622f377adab98"],
-    source: None,
+    title: "Wacky Races",
+    releases: [
+        (
+            title: Some("Chiki Chiki Machine Mou Race"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "77ccf3a535e21e28d73059d3bfe42b58fee17d2a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "dba18064c886cebe4c4be80f941622f377adab98",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "3ec148027d0e5a075d7a4597232e64215c060fa7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

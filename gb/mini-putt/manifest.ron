@@ -1,6 +1,52 @@
 (
-    title: "Mini Putt (USA) (Proto)",
-    region: Some("USA"),
-    hashes: ["819ada15faa7b5641285ed28ff3f9df549f384e4", "a8fbb8b189ad2b0e16cf3c950f1f50640679c3ea", "e2a75fc09d8f9e56325449ca91cda9a68d058c1f"],
-    source: None,
+    title: "Mini-Putt",
+    releases: [
+        (
+            title: Some("Mini Putt"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "819ada15faa7b5641285ed28ff3f9df549f384e4",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mini Putt"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a8fbb8b189ad2b0e16cf3c950f1f50640679c3ea",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e2a75fc09d8f9e56325449ca91cda9a68d058c1f",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

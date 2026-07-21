@@ -1,6 +1,19 @@
 (
-    title: "Hero Shuugou!! Pinball Party (Japan)",
-    region: Some("Japan"),
-    hashes: ["c4f0428455c6a4772c2db7bab0132dca169e22c7"],
-    source: None,
+    title: "Hero Shuugou!! Pinball Party",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c4f0428455c6a4772c2db7bab0132dca169e22c7",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

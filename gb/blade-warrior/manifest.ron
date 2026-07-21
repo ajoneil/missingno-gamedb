@@ -1,6 +1,20 @@
 (
-    title: "Blade Warrior (Europe) (Proto)",
-    region: Some("Europe"),
-    hashes: ["53c1e67430f923f74a611e675ca0cad8d0b13d76"],
-    source: None,
+    title: "Blade Warrior",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "53c1e67430f923f74a611e675ca0cad8d0b13d76",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

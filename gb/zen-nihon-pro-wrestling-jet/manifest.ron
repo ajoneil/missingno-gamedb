@@ -1,6 +1,20 @@
 (
-    title: "Zen-Nihon Pro Wrestling Jet (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["60d3b8618bb80c61ca29bccc7c1af9244a6c1764"],
-    source: None,
+    title: "Zen-Nihon Pro Wrestling Jet",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "60d3b8618bb80c61ca29bccc7c1af9244a6c1764",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

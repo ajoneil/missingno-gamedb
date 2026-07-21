@@ -1,6 +1,19 @@
 (
-    title: "Painter Momopie (Japan)",
-    region: Some("Japan"),
-    hashes: ["193901223ffc89cf4f42a19e57447249affcc843"],
-    source: None,
+    title: "Painter Momopie",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "193901223ffc89cf4f42a19e57447249affcc843",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

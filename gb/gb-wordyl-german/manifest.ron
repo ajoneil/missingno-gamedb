@@ -1,6 +1,22 @@
 (
-    title: "GB-Wordyl - German (World) (De) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["0a66254b2327b48657de64d6102ac05f1e8700e7", "6b4744aa547fd402fd92758ea62ec004f38f1609", "8686cbb8656852b85ba2f7e6cd3ea4083c9e2f28"],
-    source: None,
+    title: "GB-Wordyl - German",
+    releases: [
+        (
+            label: Some("De"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "0a66254b2327b48657de64d6102ac05f1e8700e7",
+                ),
+                (
+                    sha1: "6b4744aa547fd402fd92758ea62ec004f38f1609",
+                ),
+                (
+                    sha1: "8686cbb8656852b85ba2f7e6cd3ea4083c9e2f28",
+                ),
+            ],
+        ),
+    ],
 )

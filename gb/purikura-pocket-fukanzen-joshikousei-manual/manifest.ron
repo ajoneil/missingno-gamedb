@@ -1,6 +1,35 @@
 (
-    title: "Purikura Pocket - Fukanzen Joshikousei Manual (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["2f2d519e0c9acad3cf96546aebb04b8ff309ab1f", "90929296b16d89130969041271327bcaa2b6a73e"],
-    source: None,
+    title: "Purikura Pocket - Fukanzen Joshikousei Manual",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2f2d519e0c9acad3cf96546aebb04b8ff309ab1f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1, NP"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "90929296b16d89130969041271327bcaa2b6a73e",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Blade (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["aaad2f4ed8dbb4455704896f8ff0bc70e7d50b65"],
-    source: None,
+    title: "Blade",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "aaad2f4ed8dbb4455704896f8ff0bc70e7d50b65",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

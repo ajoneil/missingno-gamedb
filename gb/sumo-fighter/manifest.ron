@@ -1,6 +1,34 @@
 (
-    title: "Sumo Fighter (USA)",
-    region: Some("USA"),
-    hashes: ["48f225f86985d5fb09877e028baad8a6f3ee8d95"],
-    source: None,
+    title: "Sumo Fighter",
+    releases: [
+        (
+            title: Some("Sumou Fighter - Toukaidou Basho"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "de575df6a3752fe3a2013a752054b7b76975e367",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "48f225f86985d5fb09877e028baad8a6f3ee8d95",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Jeopardy! - Teen Tournament (USA) (SGB Enhanced)",
-    region: Some("USA"),
-    hashes: ["20c71f434ef093fac9361fa1db9c2282c938dd71"],
-    source: None,
+    title: "Jeopardy! - Teen Tournament",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "20c71f434ef093fac9361fa1db9c2282c938dd71",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,28 @@
 (
-    title: "Austin Powers - Welcome to My Underground Lair! (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["02c7c61928ab82b4a8a07bb067d5f5ca32511df7", "69b5106a124bde38184875c0dd08de437360bc14"],
-    source: None,
+    title: "Austin Powers - Welcome to My Underground Lair!",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "69b5106a124bde38184875c0dd08de437360bc14",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "02c7c61928ab82b4a8a07bb067d5f5ca32511df7",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

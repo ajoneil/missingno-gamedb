@@ -1,6 +1,16 @@
 (
-    title: "Handheld Heroes (World) (Album)",
-    region: Some("World"),
-    hashes: ["f24e7db1fa19b6845aeaf1a1eb36f5ebbb368c15"],
-    source: None,
+    title: "Handheld Heroes",
+    releases: [
+        (
+            label: Some("Album"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "f24e7db1fa19b6845aeaf1a1eb36f5ebbb368c15",
+                ),
+            ],
+        ),
+    ],
 )

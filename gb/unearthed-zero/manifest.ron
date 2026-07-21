@@ -1,6 +1,19 @@
 (
-    title: "Unearthed Zero (World) (2021 Jam Version) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["000e59118c9a5a59cd1b4f36a5c847dc9a9b88a4", "39fbfb220e9be0120090f770249049b3f3583f64"],
-    source: None,
+    title: "Unearthed Zero",
+    releases: [
+        (
+            label: Some("2021 Jam Version"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "000e59118c9a5a59cd1b4f36a5c847dc9a9b88a4",
+                ),
+                (
+                    sha1: "39fbfb220e9be0120090f770249049b3f3583f64",
+                ),
+            ],
+        ),
+    ],
 )

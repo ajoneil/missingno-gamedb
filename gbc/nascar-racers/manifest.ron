@@ -1,6 +1,16 @@
 (
-    title: "NASCAR Racers (USA)",
-    region: Some("USA"),
-    hashes: ["2e1b822afa8537cd7b2be8d608c4c000b5b59d46"],
-    source: None,
+    title: "NASCAR Racers",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "2e1b822afa8537cd7b2be8d608c4c000b5b59d46",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

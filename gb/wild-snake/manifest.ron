@@ -1,6 +1,36 @@
 (
-    title: "Wild Snake (USA) (SGB Enhanced)",
-    region: Some("USA"),
-    hashes: ["0ea5c37262ba60ef97dd14f8f673f951534ccd38"],
-    source: None,
+    title: "Wild Snake",
+    releases: [
+        (
+            title: Some("Super Snakey"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f4746aace9190196ca82003b8e479a130926035e",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0ea5c37262ba60ef97dd14f8f673f951534ccd38",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

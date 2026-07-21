@@ -1,6 +1,28 @@
 (
-    title: "Sylvanian Families 2 - Irozuku Mori no Fantasy (Japan)",
-    region: Some("Japan"),
-    hashes: ["16f5d02e0272fbb2b0a3c219487484c7013ba4fb", "c96044d57a2367ffb7b2325aa8d0c9b659e0aaba"],
-    source: None,
+    title: "Sylvanian Families 2 - Irozuku Mori no Fantasy",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "16f5d02e0272fbb2b0a3c219487484c7013ba4fb",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1, Possible Proto"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "c96044d57a2367ffb7b2325aa8d0c9b659e0aaba",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

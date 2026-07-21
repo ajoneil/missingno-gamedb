@@ -1,6 +1,29 @@
 (
-    title: "Taxi 2 (France)",
-    region: Some("France"),
-    hashes: ["28d245a6504694443ddff5f85ba2bfaecf794ff1", "76927fbf52a4c53dcd58208439eb3f285ec568fb"],
-    source: None,
+    title: "Taxi 2",
+    releases: [
+        (
+            regions: [
+                France,
+            ],
+            artifacts: [
+                (
+                    sha1: "76927fbf52a4c53dcd58208439eb3f285ec568fb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "28d245a6504694443ddff5f85ba2bfaecf794ff1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

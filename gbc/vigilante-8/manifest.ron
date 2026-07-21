@@ -1,6 +1,17 @@
 (
-    title: "Vigilante 8 (USA) (Rumble Version)",
-    region: Some("USA"),
-    hashes: ["4e4ce54c06e8f71ba6e0d8fc8550c177dcf660fd"],
-    source: None,
+    title: "Vigilante 8",
+    releases: [
+        (
+            label: Some("Rumble Version"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "4e4ce54c06e8f71ba6e0d8fc8550c177dcf660fd",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

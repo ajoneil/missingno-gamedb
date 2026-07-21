@@ -1,6 +1,20 @@
 (
-    title: "Guruguru Garakutas (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["86fea7dd8d815a51c1b75b816125ab4ba731dba1"],
-    source: None,
+    title: "Guruguru Garakutas",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "86fea7dd8d815a51c1b75b816125ab4ba731dba1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

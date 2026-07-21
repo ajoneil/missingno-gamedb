@@ -1,6 +1,19 @@
 (
-    title: "Super Scrabble (USA)",
-    region: Some("USA"),
-    hashes: ["59755c83dc26015c4084296ab06600ffc235f026"],
-    source: None,
+    title: "Super Scrabble",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "59755c83dc26015c4084296ab06600ffc235f026",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

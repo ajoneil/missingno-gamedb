@@ -1,6 +1,20 @@
 (
-    title: "Masakari Densetsu - Kintarou RPG Hen (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["a9bcb90df5b19a372ceed81c614bb7eb295ec74c"],
-    source: None,
+    title: "Masakari Densetsu - Kintarou RPG Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a9bcb90df5b19a372ceed81c614bb7eb295ec74c",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "Super Ayanami Discovery SlideShow (Japan) (v1.1) (Unl)",
-    region: Some("Japan"),
-    hashes: ["3afa9a56a436c4f6220cda92416b4834a8ffd9a6", "895d5881c04bec2dcccbc2e63194b2c544648d2d"],
-    source: None,
+    title: "Super Ayanami Discovery SlideShow",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3afa9a56a436c4f6220cda92416b4834a8ffd9a6",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("v1.1, Unl"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "895d5881c04bec2dcccbc2e63194b2c544648d2d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

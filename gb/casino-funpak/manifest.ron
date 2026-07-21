@@ -1,6 +1,20 @@
 (
-    title: "Casino FunPak (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["4418a8b2029f431efd8888817589af6c8b0e76cc"],
-    source: None,
+    title: "Casino FunPak",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4418a8b2029f431efd8888817589af6c8b0e76cc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

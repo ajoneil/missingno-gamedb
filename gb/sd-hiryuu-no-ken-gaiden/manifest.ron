@@ -1,6 +1,20 @@
 (
-    title: "SD Hiryuu no Ken Gaiden (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["e62b70188b146b82196f09720e99c7dd6f03036f"],
-    source: None,
+    title: "SD Hiryuu no Ken Gaiden",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e62b70188b146b82196f09720e99c7dd6f03036f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

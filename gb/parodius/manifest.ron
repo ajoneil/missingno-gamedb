@@ -1,6 +1,34 @@
 (
-    title: "Parodius (Europe)",
-    region: Some("Europe"),
-    hashes: ["a00a1adc326d368e9198c006d43c0fd1ab290219"],
-    source: None,
+    title: "Parodius",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a00a1adc326d368e9198c006d43c0fd1ab290219",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Parodius Da!"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cfe0c6619a28ddd535214c8f8c446081c0ed8194",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

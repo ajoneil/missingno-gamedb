@@ -1,6 +1,17 @@
 (
-    title: "Another Push Game (World) (v1.07) (Proto)",
-    region: Some("World"),
-    hashes: ["6b84d7322d30e9c06a4fdac0050f2c22babaaa7d"],
-    source: None,
+    title: "Another Push Game",
+    releases: [
+        (
+            label: Some("v1.07"),
+            regions: [
+                World,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "6b84d7322d30e9c06a4fdac0050f2c22babaaa7d",
+                ),
+            ],
+        ),
+    ],
 )

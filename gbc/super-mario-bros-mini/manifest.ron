@@ -1,6 +1,16 @@
 (
-    title: "Super Mario Bros Mini (World) (v2.0.8) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["c9eee8d916390e3bd6142370de4d9fe501fd44a8"],
-    source: None,
+    title: "Super Mario Bros Mini",
+    releases: [
+        (
+            label: Some("v2.0.8"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "c9eee8d916390e3bd6142370de4d9fe501fd44a8",
+                ),
+            ],
+        ),
+    ],
 )

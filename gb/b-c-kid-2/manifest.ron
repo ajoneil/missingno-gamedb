@@ -1,6 +1,68 @@
 (
-    title: "B.C. Kid 2 (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["952a14298dcde28975f2cdd61f781000afb53125", "dc70ba06fb2690c1b7e66963cc07da704f7a6d26"],
-    source: None,
+    title: "B.C. Kid 2",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "952a14298dcde28975f2cdd61f781000afb53125",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dc70ba06fb2690c1b7e66963cc07da704f7a6d26",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("GB Genjin 2"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "82c1e3dd8b425fb49a1d1c25813002b23963a84a",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bonk\'s Revenge"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8d1b81e456b271ad8f49a2c6efc9ca2504a24591",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

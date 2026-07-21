@@ -1,6 +1,19 @@
 (
-    title: "Super Bikkuriman - Densetsu no Sekiban (Japan)",
-    region: Some("Japan"),
-    hashes: ["b7dac857947fce1069145a1f5d560c26aa3c8f42"],
-    source: None,
+    title: "Super Bikkuriman - Densetsu no Sekiban",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b7dac857947fce1069145a1f5d560c26aa3c8f42",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

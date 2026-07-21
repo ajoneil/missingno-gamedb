@@ -1,6 +1,20 @@
 (
-    title: "Momotarou Collection 2 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["0d6bd573ae696b337d107eff2aee502bb240a40c"],
-    source: None,
+    title: "Momotarou Collection 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0d6bd573ae696b337d107eff2aee502bb240a40c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

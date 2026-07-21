@@ -1,6 +1,20 @@
 (
-    title: "Super Donkey Kong 3 (Taiwan) (Unl)",
-    region: Some("Taiwan"),
-    hashes: ["89918dcb1733b84f059eee93acd0840df74e6107"],
-    source: None,
+    title: "Super Donkey Kong 3",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "89918dcb1733b84f059eee93acd0840df74e6107",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

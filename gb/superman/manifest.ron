@@ -1,6 +1,21 @@
 (
-    title: "Superman (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["3a987cb4ba6f33717ea70d7388ec1dfe6ab934e8"],
-    source: None,
+    title: "Superman",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3a987cb4ba6f33717ea70d7388ec1dfe6ab934e8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

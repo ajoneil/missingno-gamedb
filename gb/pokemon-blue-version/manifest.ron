@@ -1,6 +1,117 @@
 (
-    title: "Pokemon - Blue Version (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["d7037c83e1ae5b39bde3c30787637ba1d4c48ce2", "febdf81662e04443a307ff25892997c8ddd4e041"],
-    source: None,
+    title: "Pokemon - Blue Version",
+    releases: [
+        (
+            title: Some("Pokemon - Version Bleue"),
+            regions: [
+                France,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "47faa910d0e073c600665bf9c83b6bd17babdf8a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Blaue Edition"),
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "20e72dc6f41493eee1fdd0cef54214e6c3389688",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Versione Blu"),
+            regions: [
+                Italy,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f69ed1a1332f04c24c7db899a09019bb045fa8b3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pocket Monsters - Ao"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0da501e3e5c51ab8fef55b092dcdd7e6b050e424",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Edicion Azul"),
+            regions: [
+                Spain,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7715e7b133e8634df48918b9138374110212a108",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d7037c83e1ae5b39bde3c30787637ba1d4c48ce2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Pirate"),
+            regions: [
+                HongKong,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "febdf81662e04443a307ff25892997c8ddd4e041",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

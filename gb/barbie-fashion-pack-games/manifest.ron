@@ -1,6 +1,20 @@
 (
-    title: "Barbie - Fashion Pack Games (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["fecbde9125d2ce9c8e772f9078ebaccd196caa43"],
-    source: None,
+    title: "Barbie - Fashion Pack Games",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fecbde9125d2ce9c8e772f9078ebaccd196caa43",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

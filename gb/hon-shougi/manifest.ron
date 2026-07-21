@@ -1,6 +1,20 @@
 (
-    title: "Hon Shougi (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["3f49109296b4dc0006b4e8e68133992f5ca2b843"],
-    source: None,
+    title: "Hon Shougi",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3f49109296b4dc0006b4e8e68133992f5ca2b843",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

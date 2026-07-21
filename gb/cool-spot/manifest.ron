@@ -1,6 +1,33 @@
 (
-    title: "Cool Spot (Europe)",
-    region: Some("Europe"),
-    hashes: ["51efa64a6047879b4b9e6e521e65c9d7f191556f", "b23f3259fdec43ce004e536d30255e1c2a642ffc"],
-    source: None,
+    title: "Cool Spot",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "51efa64a6047879b4b9e6e521e65c9d7f191556f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b23f3259fdec43ce004e536d30255e1c2a642ffc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

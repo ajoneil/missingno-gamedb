@@ -1,6 +1,34 @@
 (
-    title: "Backgammon (Europe) (En,Fr,De,Es) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["b634a2980efe1378ecb26a761241d48f4604e5f0", "eb8b70e445174a812044ca5b101bdcb00c389940"],
-    source: None,
+    title: "Backgammon",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eb8b70e445174a812044ca5b101bdcb00c389940",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b634a2980efe1378ecb26a761241d48f4604e5f0",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

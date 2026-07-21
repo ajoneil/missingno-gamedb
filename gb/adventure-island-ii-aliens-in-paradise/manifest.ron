@@ -1,6 +1,51 @@
 (
-    title: "Adventure Island II - Aliens in Paradise (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["1964fd5708150aa9f71c0a79d552466fd5bf5bf8"],
-    source: None,
+    title: "Adventure Island II - Aliens in Paradise",
+    releases: [
+        (
+            title: Some("Takahashi Meijin no Bouken-jima III"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e3fe857a1b7f00a6f7862d7dd401063f98fd0cb6",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1964fd5708150aa9f71c0a79d552466fd5bf5bf8",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Mario World 7"),
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0ee89297e9d24c1b4247765c8561a2cc90e383c9",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

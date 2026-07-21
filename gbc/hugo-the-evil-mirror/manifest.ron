@@ -1,6 +1,17 @@
 (
-    title: "Hugo - The Evil Mirror (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)",
-    region: Some("Europe"),
-    hashes: ["e5f29c654687221c5e4d4bdbc456fd08f32946a6"],
-    source: None,
+    title: "Hugo - The Evil Mirror",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e5f29c654687221c5e4d4bdbc456fd08f32946a6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

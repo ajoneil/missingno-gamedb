@@ -1,6 +1,20 @@
 (
-    title: "Home Alone 2 - Lost in New York (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["853e6f96bcba40bc4cfa72898b02aebc3f9d9498"],
-    source: None,
+    title: "Home Alone 2 - Lost in New York",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "853e6f96bcba40bc4cfa72898b02aebc3f9d9498",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

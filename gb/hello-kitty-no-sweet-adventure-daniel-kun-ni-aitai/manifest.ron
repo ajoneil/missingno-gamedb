@@ -1,6 +1,20 @@
 (
-    title: "Hello Kitty no Sweet Adventure - Daniel-kun ni Aitai (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["c290dbd29a6246eb001f35f973c0e664af2c97b1"],
-    source: None,
+    title: "Hello Kitty no Sweet Adventure - Daniel-kun ni Aitai",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c290dbd29a6246eb001f35f973c0e664af2c97b1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

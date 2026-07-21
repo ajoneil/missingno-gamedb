@@ -1,6 +1,20 @@
 (
-    title: "Pachinko Data Card - Chou Ataru-kun (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["b8799e2a7d6df8a41f0e8f8857885f7ccc3397b8"],
-    source: None,
+    title: "Pachinko Data Card - Chou Ataru-kun",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b8799e2a7d6df8a41f0e8f8857885f7ccc3397b8",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

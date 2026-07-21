@@ -1,6 +1,16 @@
 (
-    title: "GbBBS95 (World) (v1.4.6) (SGB Enhanced) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["f0220ec7edf172bd0cb14578b8c825ffe942ba4d"],
-    source: None,
+    title: "GbBBS95",
+    releases: [
+        (
+            label: Some("v1.4.6"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "f0220ec7edf172bd0cb14578b8c825ffe942ba4d",
+                ),
+            ],
+        ),
+    ],
 )

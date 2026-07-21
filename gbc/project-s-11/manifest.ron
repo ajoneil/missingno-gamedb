@@ -1,6 +1,41 @@
 (
-    title: "Project S-11 (USA)",
-    region: Some("USA"),
-    hashes: ["44dfc8a2ec74380b3ea0e24c1f62e32e4f924083", "cbedd34a0c6a2f4e58d05f0bb6d54f7cbcda815c", "d03395abc4649ed21c41a2c6f0a6cea5ea77d364"],
-    source: None,
+    title: "Project S-11",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "cbedd34a0c6a2f4e58d05f0bb6d54f7cbcda815c",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("2000-05-11"),
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "d03395abc4649ed21c41a2c6f0a6cea5ea77d364",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("ModRetro Chromatic"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "44dfc8a2ec74380b3ea0e24c1f62e32e4f924083",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

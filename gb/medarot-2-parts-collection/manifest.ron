@@ -1,6 +1,20 @@
 (
-    title: "Medarot 2 - Parts Collection (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["62e6e2800025918a0df9ceb31418dcbfe9e64289"],
-    source: None,
+    title: "Medarot 2 - Parts Collection",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "62e6e2800025918a0df9ceb31418dcbfe9e64289",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

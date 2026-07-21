@@ -1,6 +1,39 @@
 (
-    title: "Return of the Ninja (Europe)",
-    region: Some("Europe"),
-    hashes: ["d73049119fbc163183fdb95e9b299ca4d1d4e8e3", "e33352f0ac19d28983ebed0758d022861473ec0e", "e49ce291a1da791955a5de8c894aca28ffc97f9b"],
-    source: None,
+    title: "Return of the Ninja",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e49ce291a1da791955a5de8c894aca28ffc97f9b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "e33352f0ac19d28983ebed0758d022861473ec0e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Limited Run Games"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "d73049119fbc163183fdb95e9b299ca4d1d4e8e3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

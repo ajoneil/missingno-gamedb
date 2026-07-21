@@ -1,6 +1,20 @@
 (
-    title: "Super Chinese Land 1-2-3' (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["2c2a1c2de0c2a88bc0a73b44f04f2ca434573d68"],
-    source: None,
+    title: "Super Chinese Land 1-2-3\'",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2c2a1c2de0c2a88bc0a73b44f04f2ca434573d68",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Bakuchou Retsuden Shou - Hyper Fishing (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["53808f56fa68ad8094d0e4ff62e06887b439be9a"],
-    source: None,
+    title: "Bakuchou Retsuden Shou - Hyper Fishing",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "53808f56fa68ad8094d0e4ff62e06887b439be9a",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

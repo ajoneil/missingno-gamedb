@@ -1,6 +1,20 @@
 (
-    title: "Tottemo! Lucky Man - Lucky Cookie Minna Daisuki!! (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["25e5e07b4945145f2681f0c991583335826c4f82"],
-    source: None,
+    title: "Tottemo! Lucky Man - Lucky Cookie Minna Daisuki!!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "25e5e07b4945145f2681f0c991583335826c4f82",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

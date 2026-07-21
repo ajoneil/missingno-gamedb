@@ -1,6 +1,20 @@
 (
-    title: "Pocket GI Stable (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["f818e6284d198f4b394f79cb8511c9b906d69f03"],
-    source: None,
+    title: "Pocket GI Stable",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f818e6284d198f4b394f79cb8511c9b906d69f03",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

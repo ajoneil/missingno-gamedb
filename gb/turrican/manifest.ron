@@ -1,6 +1,20 @@
 (
-    title: "Turrican (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["3023b2b831be9fe7db62857f1b353700a1c31c75"],
-    source: None,
+    title: "Turrican",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3023b2b831be9fe7db62857f1b353700a1c31c75",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Daiku no Gen-san - Kachikachi no Tonkachi ga Kachi (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["2d961353e7242babce49dda8d017a459f4ef7609"],
-    source: None,
+    title: "Daiku no Gen-san - Kachikachi no Tonkachi ga Kachi",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2d961353e7242babce49dda8d017a459f4ef7609",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

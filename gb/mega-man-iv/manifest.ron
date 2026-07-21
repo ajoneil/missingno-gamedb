@@ -1,6 +1,48 @@
 (
-    title: "Mega Man IV (Europe)",
-    region: Some("Europe"),
-    hashes: ["6f0901db2b5dcaace0215c0abdc21a914fa21b65", "a15a05593bf9bdddb5826b148e25182e7b90f268"],
-    source: None,
+    title: "Mega Man IV",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a15a05593bf9bdddb5826b148e25182e7b90f268",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Rockman World 4"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d0835a9c5dc7fca4da4d62a9bc244525ecd76ee7",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6f0901db2b5dcaace0215c0abdc21a914fa21b65",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

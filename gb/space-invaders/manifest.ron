@@ -1,6 +1,51 @@
 (
-    title: "Space Invaders (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["392a8087633969ed0be05e7da628d6e92befb711", "6395ca055de6b6538b915d0cb69bd829d7aa2e2a", "6a2af41de10dbf6496b18963d904cc41d04bb970", "9e94553ecb76e95eb85a5f8fbbb201b96271710a", "da48687f3a5ee547510a0ea9eb05859b4ea9531d"],
-    source: None,
+    title: "Space Invaders",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6395ca055de6b6538b915d0cb69bd829d7aa2e2a",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6a2af41de10dbf6496b18963d904cc41d04bb970",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "da48687f3a5ee547510a0ea9eb05859b4ea9531d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

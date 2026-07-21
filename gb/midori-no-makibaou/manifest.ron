@@ -1,6 +1,20 @@
 (
-    title: "Midori no Makibaou (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["4de380b202e375761f9fe7fb13349f5b02e2dac2"],
-    source: None,
+    title: "Midori no Makibaou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4de380b202e375761f9fe7fb13349f5b02e2dac2",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

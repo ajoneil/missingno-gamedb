@@ -1,6 +1,52 @@
 (
-    title: "Battleship (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["48a6cc9c5695378a118deb6b1035c15a26d476d7", "d19343d62ec4a257e496ccb4d57c728cbad51e95", "d3efb4afebcf94b191a66797a6bae2c90ba92c6a"],
-    source: None,
+    title: "Battleship",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d19343d62ec4a257e496ccb4d57c728cbad51e95",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d3efb4afebcf94b191a66797a6bae2c90ba92c6a",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Kaisen Game - Navyblue"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7fbf13dd0b5a4e7798724270a81006be9950f81a",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

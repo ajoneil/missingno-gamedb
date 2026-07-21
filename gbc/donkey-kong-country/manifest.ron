@@ -1,6 +1,43 @@
 (
-    title: "Donkey Kong Country (USA) (En,Fr,De,Es,It) (Demo) (Kiosk)",
-    region: Some("USA"),
-    hashes: ["32522dfce902d564e69348541348afc054307f65", "38fedd71736d258e31d3062864d28449e7c3f1c5"],
-    source: None,
+    title: "Donkey Kong Country",
+    kind: Demo,
+    releases: [
+        (
+            title: Some("Donkey Kong 2001"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "5be5500d9ff9c4416df77816ebd21cca7a0b19de",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "32522dfce902d564e69348541348afc054307f65",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "38fedd71736d258e31d3062864d28449e7c3f1c5",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

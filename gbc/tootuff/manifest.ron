@@ -1,6 +1,30 @@
 (
-    title: "Tootuff (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["e38c16213c6bb0c1511ade138e3e8eeabd7b8898", "f71f380f9c68c42fc1461532ca92bffaa301da4d"],
-    source: None,
+    title: "Tootuff",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e38c16213c6bb0c1511ade138e3e8eeabd7b8898",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "f71f380f9c68c42fc1461532ca92bffaa301da4d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

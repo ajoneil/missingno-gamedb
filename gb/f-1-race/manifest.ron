@@ -1,6 +1,34 @@
 (
-    title: "F-1 Race (World)",
-    region: Some("World"),
-    hashes: ["0256082f482af57e0472f5713a432a22bfa4d2fc", "96490be847aeeded0b635f45b05683a6defdf2e8"],
-    source: None,
+    title: "F-1 Race",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "96490be847aeeded0b635f45b05683a6defdf2e8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0256082f482af57e0472f5713a432a22bfa4d2fc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Doraemon Kart 2 (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["b29695b9944c030c518140341d748d1a1f21f982"],
-    source: None,
+    title: "Doraemon Kart 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b29695b9944c030c518140341d748d1a1f21f982",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

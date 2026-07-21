@@ -1,6 +1,17 @@
 (
-    title: "CyberTiger (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["3eb14447bd2a349be16eb6e51066c65a51b35e69"],
-    source: None,
+    title: "CyberTiger",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "3eb14447bd2a349be16eb6e51066c65a51b35e69",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

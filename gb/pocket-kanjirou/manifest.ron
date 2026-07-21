@@ -1,6 +1,20 @@
 (
-    title: "Pocket Kanjirou (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["ef150c97cb4e9a46f90d826b1aad208cbaa4410f"],
-    source: None,
+    title: "Pocket Kanjirou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ef150c97cb4e9a46f90d826b1aad208cbaa4410f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

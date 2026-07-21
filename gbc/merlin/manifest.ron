@@ -1,6 +1,17 @@
 (
-    title: "Merlin (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["96ee6a40abf4bcbb90f3ea7c232fb3866333a202"],
-    source: None,
+    title: "Merlin",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "96ee6a40abf4bcbb90f3ea7c232fb3866333a202",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

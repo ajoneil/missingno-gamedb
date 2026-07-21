@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2205 Adj. Program (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["48a417f53bb7852d7278f37b4a75c8da695db5d6"],
-    source: None,
+    title: "Minolta 2205 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "48a417f53bb7852d7278f37b4a75c8da695db5d6",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Knockout Kings (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["a04d86a384c5c417bf9f1219eb14829d0459f469"],
-    source: None,
+    title: "Knockout Kings",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "a04d86a384c5c417bf9f1219eb14829d0459f469",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

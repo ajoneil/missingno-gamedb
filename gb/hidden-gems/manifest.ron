@@ -1,6 +1,16 @@
 (
-    title: "Hidden Gems (World) (GB Compo 2023) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["e0cfe038063b1cd601a5f1b5af047efc705a7aaa"],
-    source: None,
+    title: "Hidden Gems",
+    releases: [
+        (
+            label: Some("GB Compo 2023"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "e0cfe038063b1cd601a5f1b5af047efc705a7aaa",
+                ),
+            ],
+        ),
+    ],
 )

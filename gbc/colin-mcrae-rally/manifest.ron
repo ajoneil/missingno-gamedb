@@ -1,6 +1,16 @@
 (
-    title: "Colin McRae Rally (Europe)",
-    region: Some("Europe"),
-    hashes: ["0b824ba294248c185967bc813eba1faa26a320cc"],
-    source: None,
+    title: "Colin McRae Rally",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "0b824ba294248c185967bc813eba1faa26a320cc",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

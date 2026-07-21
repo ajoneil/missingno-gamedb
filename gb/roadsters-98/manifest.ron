@@ -1,6 +1,21 @@
 (
-    title: "Roadsters '98 (USA) (Proto) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["30a28cd5e020e98b0e7016b5ccda5bc0972a0ac9"],
-    source: None,
+    title: "Roadsters \'98",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "30a28cd5e020e98b0e7016b5ccda5bc0972a0ac9",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

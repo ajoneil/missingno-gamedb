@@ -1,6 +1,20 @@
 (
-    title: "Nick Faldo Championship Golf (USA) (Proto)",
-    region: Some("USA"),
-    hashes: ["1a2691a5e97f95ad1d223df5851dabdb0782091f"],
-    source: None,
+    title: "Nick Faldo Championship Golf",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1a2691a5e97f95ad1d223df5851dabdb0782091f",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

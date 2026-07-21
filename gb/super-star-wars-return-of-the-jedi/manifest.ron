@@ -1,6 +1,21 @@
 (
-    title: "Super Star Wars - Return of the Jedi (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["4947f04548ddcf22a6f064601de48925099d1e1d"],
-    source: None,
+    title: "Super Star Wars - Return of the Jedi",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4947f04548ddcf22a6f064601de48925099d1e1d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

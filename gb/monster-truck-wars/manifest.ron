@@ -1,6 +1,20 @@
 (
-    title: "Monster Truck Wars (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["8efe65d5deb4d0705bf6e11c6c6b97901ac1278a"],
-    source: None,
+    title: "Monster Truck Wars",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8efe65d5deb4d0705bf6e11c6c6b97901ac1278a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

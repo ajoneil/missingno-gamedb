@@ -1,6 +1,42 @@
 (
-    title: "Pro Pool (USA) (En,Fr,De) (Beta)",
-    region: Some("USA"),
-    hashes: ["56252a97a3d463103e1047a6e1a64cad43bedd4c", "575c02f73a0bdc357289073f053d8a3969927880", "c85e514c24c82071907c6495243dae448b46c2b2"],
-    source: None,
+    title: "Pro Pool",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "575c02f73a0bdc357289073f053d8a3969927880",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "56252a97a3d463103e1047a6e1a64cad43bedd4c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "c85e514c24c82071907c6495243dae448b46c2b2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

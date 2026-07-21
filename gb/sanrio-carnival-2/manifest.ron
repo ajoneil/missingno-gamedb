@@ -1,6 +1,19 @@
 (
-    title: "Sanrio Carnival 2 (Japan)",
-    region: Some("Japan"),
-    hashes: ["7ff76205c59cd090fdc91b2d8c57cb44fd4b009b"],
-    source: None,
+    title: "Sanrio Carnival 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7ff76205c59cd090fdc91b2d8c57cb44fd4b009b",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

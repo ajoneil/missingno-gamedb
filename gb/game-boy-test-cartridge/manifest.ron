@@ -1,6 +1,22 @@
 (
-    title: "Game Boy Test Cartridge (USA, Europe) (Proto) (Test Program)",
-    region: Some("USA, Europe"),
-    hashes: ["ce9c211852b4357b1356bb015db6f675def69c9f"],
-    source: None,
+    title: "Game Boy Test Cartridge",
+    releases: [
+        (
+            label: Some("Test Program"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ce9c211852b4357b1356bb015db6f675def69c9f",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

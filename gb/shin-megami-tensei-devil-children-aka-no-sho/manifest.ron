@@ -1,6 +1,36 @@
 (
-    title: "Shin Megami Tensei Devil Children - Aka no Sho (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["b15cbd01a21048d0fd022f0e023ab5d91faaf442", "e9a3edd28503ee94db8ec4ea48832dc2ba0264d9"],
-    source: None,
+    title: "Shin Megami Tensei Devil Children - Aka no Sho",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b15cbd01a21048d0fd022f0e023ab5d91faaf442",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e9a3edd28503ee94db8ec4ea48832dc2ba0264d9",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

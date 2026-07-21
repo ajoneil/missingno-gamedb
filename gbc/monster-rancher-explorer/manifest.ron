@@ -1,6 +1,28 @@
 (
-    title: "Monster Rancher Explorer (USA)",
-    region: Some("USA"),
-    hashes: ["649fec320d3bafd7a03670ee435a419d2a86c12b"],
-    source: None,
+    title: "Monster Rancher Explorer",
+    releases: [
+        (
+            title: Some("Solomon"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "0c8da92984888a2c4eea29a3cb05dc75f35efaaa",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "649fec320d3bafd7a03670ee435a419d2a86c12b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

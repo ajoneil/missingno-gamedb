@@ -1,6 +1,17 @@
 (
-    title: "Spirou - The Robot Invasion (Europe) (En,Fr,De,Es,It,Nl,Da)",
-    region: Some("Europe"),
-    hashes: ["ae46ebe1d5a8bd13e9d7533b1fe3b04392630e41"],
-    source: None,
+    title: "Spirou - The Robot Invasion",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Da"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ae46ebe1d5a8bd13e9d7533b1fe3b04392630e41",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

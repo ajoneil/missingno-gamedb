@@ -1,6 +1,19 @@
 (
-    title: "Maerchen Club (Japan)",
-    region: Some("Japan"),
-    hashes: ["dcb42287ffdbc352cd954b28a797fcd3547730de"],
-    source: None,
+    title: "Maerchen Club",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dcb42287ffdbc352cd954b28a797fcd3547730de",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "Daffy Duck - Fowl Play (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["5d9373d934dc3c672ff426960d565d8cf635925b"],
-    source: None,
+    title: "Daffy Duck - Fowl Play",
+    releases: [
+        (
+            title: Some("Daffy Duck - Subette Koron de Oogane Mochi"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5578b7973a65eea2f09c6150b9154377d237da75",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5d9373d934dc3c672ff426960d565d8cf635925b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

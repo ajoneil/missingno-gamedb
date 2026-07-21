@@ -1,6 +1,17 @@
 (
-    title: "Championship Motocross 2001 featuring Ricky Carmichael (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["3712801102df2b17d1deb75fbe7fda0c1a596db0"],
-    source: None,
+    title: "Championship Motocross 2001 featuring Ricky Carmichael",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "3712801102df2b17d1deb75fbe7fda0c1a596db0",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

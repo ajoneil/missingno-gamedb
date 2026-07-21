@@ -1,6 +1,20 @@
 (
-    title: "Last Action Hero (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["010eb2cbab987ec242cd0792c789a07c00106f48"],
-    source: None,
+    title: "Last Action Hero",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "010eb2cbab987ec242cd0792c789a07c00106f48",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

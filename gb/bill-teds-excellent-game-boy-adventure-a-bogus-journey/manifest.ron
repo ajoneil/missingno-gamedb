@@ -1,0 +1,36 @@
+(
+    title: "Bill & Ted\'s Excellent Game Boy Adventure - A Bogus Journey!",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e19a7e5a5bd8fde0f31773c22dbebc9b4cf3824e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bill & Ted\'s Excellent Portable Adventure - A Bogus Journey!"),
+            label: Some("Retro Collection"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c6e606cb5e17f7530a529387ad2fb703a94b205a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
+)

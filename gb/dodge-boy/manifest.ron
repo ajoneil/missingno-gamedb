@@ -1,6 +1,19 @@
 (
-    title: "Dodge Boy (Japan)",
-    region: Some("Japan"),
-    hashes: ["b48eb2bdc34588847728936491dadda67394f9b7"],
-    source: None,
+    title: "Dodge Boy",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b48eb2bdc34588847728936491dadda67394f9b7",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

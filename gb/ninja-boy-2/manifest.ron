@@ -1,6 +1,35 @@
 (
-    title: "Ninja Boy 2 (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["833b20931f29b3bb16736d7d1a1bc98e9a540261"],
-    source: None,
+    title: "Ninja Boy 2",
+    releases: [
+        (
+            title: Some("Super Chinese Land 2"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7f355e4a02fbefa3f539fa95f089c8a48508a937",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "833b20931f29b3bb16736d7d1a1bc98e9a540261",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

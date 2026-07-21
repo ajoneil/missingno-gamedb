@@ -1,6 +1,53 @@
 (
-    title: "Cross Country Racing (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["67bcac922b14a6fde311ca693f297248ceebbea6"],
-    source: None,
+    title: "Cross Country Racing",
+    releases: [
+        (
+            title: Some("It\'s a World Rally"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "31a289823468285ac786afe7de38201235983e35",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("International Rally"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ac09080efb22ed401ddc827045e72ab054da1763",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "67bcac922b14a6fde311ca693f297248ceebbea6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

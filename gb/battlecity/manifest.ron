@@ -1,6 +1,20 @@
 (
-    title: "BattleCity (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["5c9a6077913b344c8889241ec5f9fdaac7f24c8b"],
-    source: None,
+    title: "BattleCity",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5c9a6077913b344c8889241ec5f9fdaac7f24c8b",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

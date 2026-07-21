@@ -1,6 +1,18 @@
 (
-    title: "Chicken Run (USA, Europe) (En,Fr,De,Es,It)",
-    region: Some("USA, Europe"),
-    hashes: ["8dfd72e622c39ed8fd03046253474f38fb482c77"],
-    source: None,
+    title: "Chicken Run",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "8dfd72e622c39ed8fd03046253474f38fb482c77",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

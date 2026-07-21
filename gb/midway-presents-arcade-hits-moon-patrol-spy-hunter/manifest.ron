@@ -1,6 +1,20 @@
 (
-    title: "Midway Presents Arcade Hits - Moon Patrol & Spy Hunter (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["8dc667e7d44b46ad42ec7e465091cfacc0009974"],
-    source: None,
+    title: "Midway Presents Arcade Hits - Moon Patrol & Spy Hunter",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8dc667e7d44b46ad42ec7e465091cfacc0009974",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

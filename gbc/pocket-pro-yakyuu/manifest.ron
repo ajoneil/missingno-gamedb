@@ -1,6 +1,16 @@
 (
-    title: "Pocket Pro Yakyuu (Japan)",
-    region: Some("Japan"),
-    hashes: ["4fbbc6bd6a1631b92218632540e242820ec889ca"],
-    source: None,
+    title: "Pocket Pro Yakyuu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "4fbbc6bd6a1631b92218632540e242820ec889ca",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

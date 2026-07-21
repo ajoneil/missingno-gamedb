@@ -1,6 +1,21 @@
 (
-    title: "Super Bombliss DX (Japan) (En) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["44070e77eb2b56b67f979e444d404e56b67edbb0"],
-    source: None,
+    title: "Super Bombliss DX",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "44070e77eb2b56b67f979e444d404e56b67edbb0",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

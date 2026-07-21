@@ -1,6 +1,20 @@
 (
-    title: "Genjin Collection (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["a9f953e2a3680078e51cb42fac44edf81991737b"],
-    source: None,
+    title: "Genjin Collection",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a9f953e2a3680078e51cb42fac44edf81991737b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,36 @@
 (
-    title: "Race Drivin' (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["67111295fe2095861256b46e7417e4c1d115a6fe", "e1e7dce263d4a99ef04a7803f0e9bdc5d5dce2ed"],
-    source: None,
+    title: "Race Drivin\'",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "67111295fe2095861256b46e7417e4c1d115a6fe",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e1e7dce263d4a99ef04a7803f0e9bdc5d5dce2ed",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

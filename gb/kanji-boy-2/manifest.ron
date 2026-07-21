@@ -1,6 +1,20 @@
 (
-    title: "Kanji Boy 2 (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["4d382de7fd6912c0cd8ca15032e6f75409d0a97b"],
-    source: None,
+    title: "Kanji Boy 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4d382de7fd6912c0cd8ca15032e6f75409d0a97b",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

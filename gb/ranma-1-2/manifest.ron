@@ -1,6 +1,19 @@
 (
-    title: "Ranma 1-2 (Japan)",
-    region: Some("Japan"),
-    hashes: ["c869d7fc1fce8ea7ca534e29e8da826017f4ca4f"],
-    source: None,
+    title: "Ranma 1-2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c869d7fc1fce8ea7ca534e29e8da826017f4ca4f",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

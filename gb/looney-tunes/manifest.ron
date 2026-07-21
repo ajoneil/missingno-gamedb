@@ -1,6 +1,35 @@
 (
-    title: "Looney Tunes (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["80a0e66754ce81a01385941459b9ea15a450b2b6", "97d96f8ec66acba996c7bec0a713c84075f22680", "e631eaa8f7be44a1f41e06878ca81bd3fa779f6b"],
-    source: None,
+    title: "Looney Tunes",
+    releases: [
+        (
+            title: Some("Looney Tunes - Bugs Bunny to Yukai na Nakama-tachi"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ed26fd9d4011c286e2e6109967cad2564c17900b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "97d96f8ec66acba996c7bec0a713c84075f22680",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

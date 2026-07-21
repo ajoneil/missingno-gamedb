@@ -1,6 +1,16 @@
 (
-    title: "Madden NFL 2001 (USA)",
-    region: Some("USA"),
-    hashes: ["5f7c156b7a141a8f373d626f53c9ce8b95cec880"],
-    source: None,
+    title: "Madden NFL 2001",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "5f7c156b7a141a8f373d626f53c9ce8b95cec880",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

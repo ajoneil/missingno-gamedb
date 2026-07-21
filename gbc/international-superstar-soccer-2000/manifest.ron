@@ -1,6 +1,39 @@
 (
-    title: "International Superstar Soccer 2000 (Europe)",
-    region: Some("Europe"),
-    hashes: ["117415d3620fab07066cd5a3ffb438d05bfd940a", "3ef4adaff3a9d36dc6986a5944280162768c441d"],
-    source: None,
+    title: "International Superstar Soccer 2000",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "3ef4adaff3a9d36dc6986a5944280162768c441d",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("World Soccer GB 2000"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "22433fae69d7dd5b1ff351db579a1ee9e883f06f",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "117415d3620fab07066cd5a3ffb438d05bfd940a",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

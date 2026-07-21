@@ -1,6 +1,81 @@
 (
-    title: "Final Fantasy Legend II (World) (Collection of SaGa)",
-    region: Some("World"),
-    hashes: ["6ab6890e8f688bcd87e97886a1748a4d9d341909", "eedf962d01b733b5eaf2413905e59e671e04a51c"],
-    source: None,
+    title: "Final Fantasy Legend II",
+    releases: [
+        (
+            title: Some("Sa-Ga 2 - Hihou Densetsu"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f1db92d8076237489aa1528141fe240843111a54",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6ab6890e8f688bcd87e97886a1748a4d9d341909",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Collection of SaGa"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eedf962d01b733b5eaf2413905e59e671e04a51c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Sa-Ga 2 - Hihou Densetsu"),
+            label: Some("Ja, Rev 1, Collection of SaGa"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1df1f6e277bf6406b865dd5a3e12c0277c3c65f2",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Sa-Ga 2 - Hihou Densetsu"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "96ef7d31ad098a620ba7ac57afef416972707ea3",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

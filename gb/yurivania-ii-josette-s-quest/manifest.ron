@@ -1,6 +1,19 @@
 (
-    title: "Yurivania II - Josette's Quest (World) (v1.2)",
-    region: Some("World"),
-    hashes: ["05c7256bf9f12f60f453a0627d813904c8713378", "6b6dac77795148d7eba6f7c8fa1c65a6d1e404c3"],
-    source: None,
+    title: "Yurivania II - Josette\'s Quest",
+    releases: [
+        (
+            label: Some("v1.2"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "05c7256bf9f12f60f453a0627d813904c8713378",
+                ),
+                (
+                    sha1: "6b6dac77795148d7eba6f7c8fa1c65a6d1e404c3",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Kachiuma Yosou Keiba Kizoku (Japan)",
-    region: Some("Japan"),
-    hashes: ["de965fae7d1e744302e6a12656ebb8867ba9cfff"],
-    source: None,
+    title: "Kachiuma Yosou Keiba Kizoku",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "de965fae7d1e744302e6a12656ebb8867ba9cfff",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

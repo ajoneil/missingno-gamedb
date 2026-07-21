@@ -1,6 +1,52 @@
 (
-    title: "Deja Vu I & II - The Casebooks of Ace Harding (Europe) (En,Fr)",
-    region: Some("Europe"),
-    hashes: ["10c2ed4098a07979426d359da57a5289c6bc73fe", "63266fc1f0a14678d5cd5dd1c5e3658ef4a944c3", "ed1a11e2a02fc11d6b58dedf65ce57eeb430e6e3"],
-    source: None,
+    title: "Deja Vu I & II - The Casebooks of Ace Harding",
+    releases: [
+        (
+            title: Some("Deja Vu I & II"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "4f3af0a47de674531c0fede3783f8c6cc7f31cca",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "63266fc1f0a14678d5cd5dd1c5e3658ef4a944c3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "10c2ed4098a07979426d359da57a5289c6bc73fe",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ed1a11e2a02fc11d6b58dedf65ce57eeb430e6e3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

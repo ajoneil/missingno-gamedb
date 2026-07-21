@@ -1,6 +1,19 @@
 (
-    title: "Doraemon Memories - Nobita no Omoide Daibouken (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["3152a167021ff536186051c42c6e8f131d72ad41"],
-    source: None,
+    title: "Doraemon Memories - Nobita no Omoide Daibouken",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3152a167021ff536186051c42c6e8f131d72ad41",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

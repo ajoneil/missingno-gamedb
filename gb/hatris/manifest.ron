@@ -1,6 +1,21 @@
 (
-    title: "Hatris (Japan, USA) (En)",
-    region: Some("Japan, USA"),
-    hashes: ["e8002f226e90ed52e1675c003d3c8ce804b56b0e"],
-    source: None,
+    title: "Hatris",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e8002f226e90ed52e1675c003d3c8ce804b56b0e",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

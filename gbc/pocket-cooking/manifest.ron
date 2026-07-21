@@ -1,6 +1,28 @@
 (
-    title: "Pocket Cooking (Japan)",
-    region: Some("Japan"),
-    hashes: ["13bbc290c706aebbd0e4abb518a716d65a5250ea", "60a13fc904100655a52dfb61d9abe77cc126e58c"],
-    source: None,
+    title: "Pocket Cooking",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "13bbc290c706aebbd0e4abb518a716d65a5250ea",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "60a13fc904100655a52dfb61d9abe77cc126e58c",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

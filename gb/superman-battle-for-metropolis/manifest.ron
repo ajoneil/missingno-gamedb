@@ -1,6 +1,21 @@
 (
-    title: "Superman - Battle for Metropolis (Europe) (Proto) (2001-01-12) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["4d9a17deefaf03532e952cd909584fca2d3cdd09"],
-    source: None,
+    title: "Superman - Battle for Metropolis",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("2001-01-12"),
+            status: Prototype,
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4d9a17deefaf03532e952cd909584fca2d3cdd09",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

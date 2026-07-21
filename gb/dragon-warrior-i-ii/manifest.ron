@@ -1,6 +1,36 @@
 (
-    title: "Dragon Warrior I & II (USA) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["01c4e2145365a12560d162116378f1991807ef95"],
-    source: None,
+    title: "Dragon Warrior I & II",
+    releases: [
+        (
+            title: Some("Dragon Quest I & II"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8cfdfb7a76dd0012af3b441e162fcd37e4370958",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "01c4e2145365a12560d162116378f1991807ef95",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

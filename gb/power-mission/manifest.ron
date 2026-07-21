@@ -1,6 +1,49 @@
 (
-    title: "Power Mission (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["7eb044e49c370c8e85619cfe42a5b4fb41cbcf17", "89b2306ad9c9e296884354ec3be039b944d52d13", "ef28356e7a3b82f64e62cb9a7b4c121aa626ff7c"],
-    source: None,
+    title: "Power Mission",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7eb044e49c370c8e85619cfe42a5b4fb41cbcf17",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ef28356e7a3b82f64e62cb9a7b4c121aa626ff7c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En, Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "89b2306ad9c9e296884354ec3be039b944d52d13",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

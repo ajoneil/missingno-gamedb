@@ -1,6 +1,19 @@
 (
-    title: "NFL Football (USA)",
-    region: Some("USA"),
-    hashes: ["5a74fc3b137986a3569158f3b0e99551a277069c"],
-    source: None,
+    title: "NFL Football",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5a74fc3b137986a3569158f3b0e99551a277069c",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

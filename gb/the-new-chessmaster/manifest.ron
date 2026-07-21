@@ -1,0 +1,35 @@
+(
+    title: "The New Chessmaster",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "23458fe9e811f2f9ade1acc527024bab0b892bac",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Ja"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5d0a22b99ffa528003997c59c54ac9d1c8920d6f",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
+)

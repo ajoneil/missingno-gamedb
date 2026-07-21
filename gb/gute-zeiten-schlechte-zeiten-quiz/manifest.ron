@@ -1,6 +1,19 @@
 (
-    title: "Gute Zeiten Schlechte Zeiten Quiz (Germany) (GB Compatible)",
-    region: Some("Germany"),
-    hashes: ["611d8ab71bdeb6b0fd292118676e85e940d11bd4"],
-    source: None,
+    title: "Gute Zeiten Schlechte Zeiten Quiz",
+    releases: [
+        (
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "611d8ab71bdeb6b0fd292118676e85e940d11bd4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

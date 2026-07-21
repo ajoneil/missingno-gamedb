@@ -1,6 +1,17 @@
 (
-    title: "Pocket Smash Out (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["0a721164053a8b2765ea9826a0958415701ca6f5"],
-    source: None,
+    title: "Pocket Smash Out",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "0a721164053a8b2765ea9826a0958415701ca6f5",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

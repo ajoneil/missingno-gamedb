@@ -1,6 +1,20 @@
 (
-    title: "Yu Yu Hakusho Dai-4-dan - Makai Touitsu Hen (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["14a8e39f1adfa6acce11f902eb6763c73ababa47"],
-    source: None,
+    title: "Yu Yu Hakusho Dai-4-dan - Makai Touitsu Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "14a8e39f1adfa6acce11f902eb6763c73ababa47",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

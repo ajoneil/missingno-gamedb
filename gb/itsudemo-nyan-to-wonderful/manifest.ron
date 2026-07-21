@@ -1,6 +1,20 @@
 (
-    title: "Itsudemo! Nyan to Wonderful (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["a48d6b68d82b98e775c00366da544402d7c7ac0e"],
-    source: None,
+    title: "Itsudemo! Nyan to Wonderful",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a48d6b68d82b98e775c00366da544402d7c7ac0e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Dragon Slayer Gaiden - Nemuri no Oukan (Japan)",
-    region: Some("Japan"),
-    hashes: ["ef58063d896533398288a4f07245f23efa3aee4a"],
-    source: None,
+    title: "Dragon Slayer Gaiden - Nemuri no Oukan",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ef58063d896533398288a4f07245f23efa3aee4a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

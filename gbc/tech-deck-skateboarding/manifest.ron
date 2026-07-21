@@ -1,6 +1,17 @@
 (
-    title: "Tech Deck Skateboarding (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["cd8d7f3eea5df5dcc257d07932c453303d0c64e1"],
-    source: None,
+    title: "Tech Deck Skateboarding",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "cd8d7f3eea5df5dcc257d07932c453303d0c64e1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

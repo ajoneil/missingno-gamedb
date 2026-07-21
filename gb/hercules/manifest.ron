@@ -1,6 +1,21 @@
 (
-    title: "Hercules (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["215cceaccd4a33a2da6205f33a2803ff4004e2b1"],
-    source: None,
+    title: "Hercules",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "215cceaccd4a33a2da6205f33a2803ff4004e2b1",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

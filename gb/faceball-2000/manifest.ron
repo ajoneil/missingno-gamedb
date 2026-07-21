@@ -1,6 +1,19 @@
 (
-    title: "Faceball 2000 (USA)",
-    region: Some("USA"),
-    hashes: ["b0bd15bace04e0a3eb89773f231ac3a532181a0a"],
-    source: None,
+    title: "Faceball 2000",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b0bd15bace04e0a3eb89773f231ac3a532181a0a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,21 @@
 (
-    title: "Super Street Basketball 2 (Japan) (En) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["3b52fa182c42e3d058d341aee46fcfc63ae978eb"],
-    source: None,
+    title: "Super Street Basketball 2",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3b52fa182c42e3d058d341aee46fcfc63ae978eb",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

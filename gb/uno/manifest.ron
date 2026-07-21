@@ -1,6 +1,34 @@
 (
-    title: "Uno (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["20868148461618d1195570775b183a065781ce35", "b33214a4cd05f58dd019a77b1260bf557293c826"],
-    source: None,
+    title: "Uno",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "20868148461618d1195570775b183a065781ce35",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b33214a4cd05f58dd019a77b1260bf557293c826",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

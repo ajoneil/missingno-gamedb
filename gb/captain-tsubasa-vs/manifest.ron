@@ -1,6 +1,19 @@
 (
-    title: "Captain Tsubasa VS (Japan)",
-    region: Some("Japan"),
-    hashes: ["1d48763a64c127b7ecff9876f20ae0761347b4c7"],
-    source: None,
+    title: "Captain Tsubasa VS",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1d48763a64c127b7ecff9876f20ae0761347b4c7",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

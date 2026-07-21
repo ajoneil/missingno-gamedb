@@ -1,6 +1,19 @@
 (
-    title: "Kinnikuman - The Dream Match (Japan)",
-    region: Some("Japan"),
-    hashes: ["cc55e811024f60c0097efdff5962d85830626ab0"],
-    source: None,
+    title: "Kinnikuman - The Dream Match",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cc55e811024f60c0097efdff5962d85830626ab0",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

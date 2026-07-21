@@ -1,6 +1,20 @@
 (
-    title: "Game Genie (USA) (v2.1) (Unl)",
-    region: Some("USA"),
-    hashes: ["50e2ceb9b83f953d304d5bc6a25065bafad89490"],
-    source: None,
+    title: "Game Genie",
+    releases: [
+        (
+            label: Some("v2.1, Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "50e2ceb9b83f953d304d5bc6a25065bafad89490",
+                    size: Some(8192),
+                ),
+            ],
+        ),
+    ],
 )

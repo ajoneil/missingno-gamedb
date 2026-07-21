@@ -1,6 +1,20 @@
 (
-    title: "Pro Mahjong Kiwame II GB (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["2c9c2967400ab9bad95ffe104763b3190f28aa39"],
-    source: None,
+    title: "Pro Mahjong Kiwame II GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2c9c2967400ab9bad95ffe104763b3190f28aa39",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

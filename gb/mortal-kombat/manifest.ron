@@ -1,6 +1,52 @@
 (
-    title: "Mortal Kombat (USA, Europe) (Beta)",
-    region: Some("USA, Europe"),
-    hashes: ["49f2ffe347758b6a34bfb149a94a867d77b2263e", "59752879efaf2f271ce4b8a9d4a455056a2985d0"],
-    source: None,
+    title: "Mortal Kombat",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "49f2ffe347758b6a34bfb149a94a867d77b2263e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "59752879efaf2f271ce4b8a9d4a455056a2985d0",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mortal Kombat - Shinken Kourin Densetsu"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5c24d595401ce3d1bb4027d0bc12312dca275470",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

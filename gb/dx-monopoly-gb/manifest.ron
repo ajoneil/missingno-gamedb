@@ -1,6 +1,20 @@
 (
-    title: "DX Monopoly GB (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["524d9459d357e209d64a2ef17b4072478f290806"],
-    source: None,
+    title: "DX Monopoly GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "524d9459d357e209d64a2ef17b4072478f290806",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,34 @@
 (
-    title: "WordZap (USA)",
-    region: Some("USA"),
-    hashes: ["3b38771e97eb6cd5e053ac8908482f59dc07248b", "af152e5f71127ceb82f77771cfd6a8a8d477da33"],
-    source: None,
+    title: "WordZap",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3b38771e97eb6cd5e053ac8908482f59dc07248b",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "af152e5f71127ceb82f77771cfd6a8a8d477da33",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

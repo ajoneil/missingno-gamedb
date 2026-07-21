@@ -1,6 +1,19 @@
 (
-    title: "Twin (Japan)",
-    region: Some("Japan"),
-    hashes: ["2075027f6a45d1d970908254680077f3d18a3b1f"],
-    source: None,
+    title: "Twin",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2075027f6a45d1d970908254680077f3d18a3b1f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

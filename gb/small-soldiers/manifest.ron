@@ -1,6 +1,21 @@
 (
-    title: "Small Soldiers (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["fce53aed026e3171ac5c26d21d5dbcbbb2c14968"],
-    source: None,
+    title: "Small Soldiers",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fce53aed026e3171ac5c26d21d5dbcbbb2c14968",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

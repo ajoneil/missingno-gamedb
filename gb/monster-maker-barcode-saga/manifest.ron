@@ -1,6 +1,19 @@
 (
-    title: "Monster Maker - Barcode Saga (Japan)",
-    region: Some("Japan"),
-    hashes: ["f7a101338c4eebcdcc1e5d9082a30caa2d706969"],
-    source: None,
+    title: "Monster Maker - Barcode Saga",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f7a101338c4eebcdcc1e5d9082a30caa2d706969",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

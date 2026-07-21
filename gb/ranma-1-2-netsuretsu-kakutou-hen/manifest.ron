@@ -1,6 +1,19 @@
 (
-    title: "Ranma 1-2 - Netsuretsu Kakutou Hen (Japan)",
-    region: Some("Japan"),
-    hashes: ["62bfbb19b825c3305c819da06332f731437c51f0"],
-    source: None,
+    title: "Ranma 1-2 - Netsuretsu Kakutou Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "62bfbb19b825c3305c819da06332f731437c51f0",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

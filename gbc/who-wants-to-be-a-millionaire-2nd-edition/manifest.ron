@@ -1,6 +1,16 @@
 (
-    title: "Who Wants to Be a Millionaire - 2nd Edition (USA)",
-    region: Some("USA"),
-    hashes: ["1fd2c608231e6f919fee05da91418e05c502ef61"],
-    source: None,
+    title: "Who Wants to Be a Millionaire - 2nd Edition",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "1fd2c608231e6f919fee05da91418e05c502ef61",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

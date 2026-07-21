@@ -1,6 +1,19 @@
 (
-    title: "Chiki Chiki Tengoku (Japan)",
-    region: Some("Japan"),
-    hashes: ["56012e7f9150ec8f9117b0540dcbd2bf82c948bb"],
-    source: None,
+    title: "Chiki Chiki Tengoku",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "56012e7f9150ec8f9117b0540dcbd2bf82c948bb",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

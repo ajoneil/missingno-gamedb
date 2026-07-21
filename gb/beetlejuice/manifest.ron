@@ -1,6 +1,19 @@
 (
-    title: "Beetlejuice (USA)",
-    region: Some("USA"),
-    hashes: ["a8bb9681dbf0700d64a88c7d9ad0093f08087046"],
-    source: None,
+    title: "Beetlejuice",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a8bb9681dbf0700d64a88c7d9ad0093f08087046",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

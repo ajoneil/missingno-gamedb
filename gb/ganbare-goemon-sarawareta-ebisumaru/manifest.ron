@@ -1,6 +1,19 @@
 (
-    title: "Ganbare Goemon - Sarawareta Ebisumaru (Japan)",
-    region: Some("Japan"),
-    hashes: ["dd38c2b305160b6bc7e1767a0e7de9850260779c"],
-    source: None,
+    title: "Ganbare Goemon - Sarawareta Ebisumaru",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dd38c2b305160b6bc7e1767a0e7de9850260779c",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

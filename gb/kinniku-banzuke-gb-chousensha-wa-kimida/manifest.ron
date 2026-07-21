@@ -1,6 +1,20 @@
 (
-    title: "Kinniku Banzuke GB - Chousensha wa Kimida! (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["75d7e35fea257d8da4c1efcdd6ebdca020c648a6"],
-    source: None,
+    title: "Kinniku Banzuke GB - Chousensha wa Kimida!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "75d7e35fea257d8da4c1efcdd6ebdca020c648a6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,16 @@
 (
-    title: "Mountain Climber (World) (En,Es) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["b4b3afa2379a07acab6965ae8fcf6d2ba82d6d7e"],
-    source: None,
+    title: "Mountain Climber",
+    releases: [
+        (
+            label: Some("En,Es"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "b4b3afa2379a07acab6965ae8fcf6d2ba82d6d7e",
+                ),
+            ],
+        ),
+    ],
 )

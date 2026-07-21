@@ -1,6 +1,49 @@
 (
-    title: "Hyper Dunk (Europe)",
-    region: Some("Europe"),
-    hashes: ["6aca47dd2d9c57999a566903292af2601c832c9c"],
-    source: None,
+    title: "Hyper Dunk",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6aca47dd2d9c57999a566903292af2601c832c9c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Konamic Basket"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "10372339db6d65210f7d04591d92c1889cef5133",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Double Dribble - 5 on 5"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d0f18c97b48dd8b355d195d2ddaeee910c5fc2b1",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

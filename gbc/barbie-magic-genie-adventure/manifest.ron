@@ -1,6 +1,16 @@
 (
-    title: "Barbie - Magic Genie Adventure (USA)",
-    region: Some("USA"),
-    hashes: ["30e779f19cd8f8c979bda38dd90e9798c742a66c"],
-    source: None,
+    title: "Barbie - Magic Genie Adventure",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "30e779f19cd8f8c979bda38dd90e9798c742a66c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

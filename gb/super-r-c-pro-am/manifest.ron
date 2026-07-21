@@ -1,6 +1,20 @@
 (
-    title: "Super R.C. Pro-Am (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["37c0a74532ed283f56e940bb5c38e757a0eee6e0"],
-    source: None,
+    title: "Super R.C. Pro-Am",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "37c0a74532ed283f56e940bb5c38e757a0eee6e0",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

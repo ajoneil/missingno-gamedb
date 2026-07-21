@@ -1,6 +1,20 @@
 (
-    title: "Puzzle Nintama Rantarou GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["5239823f04da93fc6b8fcac48f0d0425f90972bc"],
-    source: None,
+    title: "Puzzle Nintama Rantarou GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5239823f04da93fc6b8fcac48f0d0425f90972bc",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

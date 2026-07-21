@@ -1,6 +1,35 @@
 (
-    title: "Nintendo World Cup (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["9308dadfeb1becb81fe35015397df6e8e8ead06e"],
-    source: None,
+    title: "Nintendo World Cup",
+    releases: [
+        (
+            title: Some("Nekketsu Koukou Soccer-bu - World Cup Hen"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3763313b9f371e5428a67b7461e4f6f2c1ab8422",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9308dadfeb1becb81fe35015397df6e8e8ead06e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

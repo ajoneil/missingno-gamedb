@@ -1,6 +1,20 @@
 (
-    title: "Pocket Family GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["162b0ab1fcfcf9b7ac888f137fedc41264219cf9"],
-    source: None,
+    title: "Pocket Family GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "162b0ab1fcfcf9b7ac888f137fedc41264219cf9",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

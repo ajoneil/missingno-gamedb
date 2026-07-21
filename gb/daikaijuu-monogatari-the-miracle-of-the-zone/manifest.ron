@@ -1,6 +1,20 @@
 (
-    title: "Daikaijuu Monogatari - The Miracle of the Zone (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["44cafcb56f470881b67e57c0649afbc638cda136"],
-    source: None,
+    title: "Daikaijuu Monogatari - The Miracle of the Zone",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "44cafcb56f470881b67e57c0649afbc638cda136",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

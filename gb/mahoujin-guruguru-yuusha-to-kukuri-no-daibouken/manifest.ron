@@ -1,6 +1,20 @@
 (
-    title: "Mahoujin GuruGuru - Yuusha to Kukuri no Daibouken (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["10a55c546c68cb117cc47d49304f807a7bb63687"],
-    source: None,
+    title: "Mahoujin GuruGuru - Yuusha to Kukuri no Daibouken",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "10a55c546c68cb117cc47d49304f807a7bb63687",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

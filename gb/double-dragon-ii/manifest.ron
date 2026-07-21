@@ -1,6 +1,35 @@
 (
-    title: "Double Dragon II (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["3532462be3ab1a569890261d20a1a37bfe79e1ea"],
-    source: None,
+    title: "Double Dragon II",
+    releases: [
+        (
+            title: Some("Nekketsu Kouha Kunio-kun - Bangai Rantou Hen"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "28e6edff470613a2abf015c9795581e8e2822029",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3532462be3ab1a569890261d20a1a37bfe79e1ea",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

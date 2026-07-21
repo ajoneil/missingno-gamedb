@@ -1,6 +1,19 @@
 (
-    title: "Aqua (World) (v1.0)",
-    region: Some("World"),
-    hashes: ["311728bfcc1c4f51842f9da5022187e749e35045", "cb5871dc5bca8b6fd5888b9d3a591fbfe082c11d"],
-    source: None,
+    title: "Aqua",
+    releases: [
+        (
+            label: Some("v1.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "311728bfcc1c4f51842f9da5022187e749e35045",
+                ),
+                (
+                    sha1: "cb5871dc5bca8b6fd5888b9d3a591fbfe082c11d",
+                ),
+            ],
+        ),
+    ],
 )

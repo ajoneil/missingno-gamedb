@@ -1,6 +1,21 @@
 (
-    title: "PGA European Tour (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["ff0fdf447e91af93fda6c1b6a1675986d798798a"],
-    source: None,
+    title: "PGA European Tour",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ff0fdf447e91af93fda6c1b6a1675986d798798a",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Feed IT Souls (World) (v1.3)",
-    region: Some("World"),
-    hashes: ["aba3fecd55c0cee7fbe49506b367b7e94b56b81c", "ea0dd170812d1bcc38de1cabe12a372cd2178c95"],
-    source: None,
+    title: "Feed IT Souls",
+    releases: [
+        (
+            label: Some("v1.3"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "aba3fecd55c0cee7fbe49506b367b7e94b56b81c",
+                ),
+                (
+                    sha1: "ea0dd170812d1bcc38de1cabe12a372cd2178c95",
+                ),
+            ],
+        ),
+    ],
 )

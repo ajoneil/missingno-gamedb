@@ -1,6 +1,29 @@
 (
-    title: "Stuart Little - The Journey Home (Europe) (Fr,De)",
-    region: Some("Europe"),
-    hashes: ["153f8ffab32e78dd4a6c2eec4560b2cf6509774d", "d3c31e41709c54af328787036db1b98997f508ea"],
-    source: None,
+    title: "Stuart Little - The Journey Home",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d3c31e41709c54af328787036db1b98997f508ea",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "153f8ffab32e78dd4a6c2eec4560b2cf6509774d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

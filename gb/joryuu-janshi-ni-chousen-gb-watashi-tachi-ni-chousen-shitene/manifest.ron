@@ -1,6 +1,20 @@
 (
-    title: "Joryuu Janshi ni Chousen GB - Watashi-tachi ni Chousen Shitene! (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["a332817b9561dcab7d1f3dc0cf300e1656b253c3"],
-    source: None,
+    title: "Joryuu Janshi ni Chousen GB - Watashi-tachi ni Chousen Shitene!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a332817b9561dcab7d1f3dc0cf300e1656b253c3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

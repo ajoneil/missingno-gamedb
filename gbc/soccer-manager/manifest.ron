@@ -1,6 +1,17 @@
 (
-    title: "Soccer Manager (Europe) (En,Fr,De,Es)",
-    region: Some("Europe"),
-    hashes: ["353eb6aaf40a78ebf1bca9298726d068a5986efa"],
-    source: None,
+    title: "Soccer Manager",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "353eb6aaf40a78ebf1bca9298726d068a5986efa",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

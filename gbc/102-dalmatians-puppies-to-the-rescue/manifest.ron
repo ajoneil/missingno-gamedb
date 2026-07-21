@@ -1,6 +1,53 @@
 (
-    title: "102 Dalmatians - Puppies to the Rescue (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["9f0f45d84e60e9c6f52fde14e1c0a49992aed025"],
-    source: None,
+    title: "102 Dalmatians - Puppies to the Rescue",
+    releases: [
+        (
+            title: Some("Les 102 Dalmatiens a la Rescousse"),
+            regions: [
+                France,
+            ],
+            artifacts: [
+                (
+                    sha1: "ba028395de3456dc232bac24eda84a30e15f5550",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("102 Dalmatiner"),
+            regions: [
+                Germany,
+            ],
+            artifacts: [
+                (
+                    sha1: "69109b87dae04fcb9b65374165527d03845a2dc3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("102 Dalmatas - Cachorros Al Rescate"),
+            regions: [
+                Spain,
+            ],
+            artifacts: [
+                (
+                    sha1: "eaf3bd27cf7cb084068c5a139da5383a74105ffa",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "9f0f45d84e60e9c6f52fde14e1c0a49992aed025",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

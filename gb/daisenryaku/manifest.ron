@@ -1,6 +1,19 @@
 (
-    title: "Daisenryaku (Japan)",
-    region: Some("Japan"),
-    hashes: ["79e724619d21ebb3cd5de5438535a7ee25009de0"],
-    source: None,
+    title: "Daisenryaku",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "79e724619d21ebb3cd5de5438535a7ee25009de0",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

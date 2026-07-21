@@ -1,6 +1,17 @@
 (
-    title: "Mary-Kate and Ashley - Winners Circle (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["b12133af5ea63d05c2625cc46d1ffa55d19054fc"],
-    source: None,
+    title: "Mary-Kate and Ashley - Winners Circle",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "b12133af5ea63d05c2625cc46d1ffa55d19054fc",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

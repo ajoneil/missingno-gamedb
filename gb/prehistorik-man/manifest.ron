@@ -1,6 +1,35 @@
 (
-    title: "Prehistorik Man (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["1139d6b799b8585bbb7868bd3bca5ba9dea4eef5"],
-    source: None,
+    title: "Prehistorik Man",
+    releases: [
+        (
+            title: Some("P-Man GB"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d8704a68e1f3037c43e8987ca99f557ad6dbc0de",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1139d6b799b8585bbb7868bd3bca5ba9dea4eef5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

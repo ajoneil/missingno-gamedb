@@ -1,6 +1,17 @@
 (
-    title: "Aliens - Thanatos Encounter (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["e1b1c79c15a34984dddbe270fc6770b32a31a0d7"],
-    source: None,
+    title: "Aliens - Thanatos Encounter",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e1b1c79c15a34984dddbe270fc6770b32a31a0d7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

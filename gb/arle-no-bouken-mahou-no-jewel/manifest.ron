@@ -1,6 +1,20 @@
 (
-    title: "Arle no Bouken - Mahou no Jewel (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["fb781637ddac30cebb1865ba939f49bb2b0b5146"],
-    source: None,
+    title: "Arle no Bouken - Mahou no Jewel",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fb781637ddac30cebb1865ba939f49bb2b0b5146",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

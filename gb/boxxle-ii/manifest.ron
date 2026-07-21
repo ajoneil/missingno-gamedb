@@ -1,6 +1,35 @@
 (
-    title: "Boxxle II (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["36315dab12915d2d2fad7a37fcb5ce6809118c8a"],
-    source: None,
+    title: "Boxxle II",
+    releases: [
+        (
+            title: Some("Soukoban 2"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "211221bd34b3ae86ce5d647a81caab8bb91bfa71",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "36315dab12915d2d2fad7a37fcb5ce6809118c8a",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

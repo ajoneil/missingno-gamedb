@@ -1,0 +1,33 @@
+(
+    title: "Mythri",
+    releases: [
+        (
+            label: Some("Proto 1"),
+            regions: [
+                Usa,
+            ],
+            date: Some("2000-08-02"),
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "d79650a853fffcef878fedc690d5e3a607b5b9df",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 2"),
+            regions: [
+                Usa,
+            ],
+            date: Some("2001-03-31"),
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "d5b5880ab12939065abfb377dc35fbc39d9922ac",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
+)

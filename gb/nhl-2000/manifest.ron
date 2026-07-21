@@ -1,6 +1,21 @@
 (
-    title: "NHL 2000 (USA, Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["8f7cb463a1438c70310f319e602df4b13530d96f"],
-    source: None,
+    title: "NHL 2000",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8f7cb463a1438c70310f319e602df4b13530d96f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

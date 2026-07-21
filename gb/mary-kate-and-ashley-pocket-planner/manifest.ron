@@ -1,6 +1,20 @@
 (
-    title: "Mary-Kate and Ashley - Pocket Planner (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["138472b98387169425b6a652be6cc8594e031bbe"],
-    source: None,
+    title: "Mary-Kate and Ashley - Pocket Planner",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "138472b98387169425b6a652be6cc8594e031bbe",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

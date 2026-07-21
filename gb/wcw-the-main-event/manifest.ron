@@ -1,6 +1,20 @@
 (
-    title: "WCW - The Main Event (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["481750149a0c4812128f0607a6da338cfddf2cea"],
-    source: None,
+    title: "WCW - The Main Event",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "481750149a0c4812128f0607a6da338cfddf2cea",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

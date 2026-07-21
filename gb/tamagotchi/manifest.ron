@@ -1,6 +1,52 @@
 (
-    title: "Tamagotchi (France) (SGB Enhanced)",
-    region: Some("France"),
-    hashes: ["0f4e508f90e52a869efb245894a362e5f677c2ed", "7368ec190bed39429812a26e18b2d3e153cf4e81"],
-    source: None,
+    title: "Tamagotchi",
+    releases: [
+        (
+            regions: [
+                France,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0f4e508f90e52a869efb245894a362e5f677c2ed",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Game de Hakken!! Tamagotchi"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5aea023fd373643e55c7276b79a2d042302c3329",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7368ec190bed39429812a26e18b2d3e153cf4e81",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

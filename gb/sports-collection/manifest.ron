@@ -1,6 +1,19 @@
 (
-    title: "Sports Collection (Japan)",
-    region: Some("Japan"),
-    hashes: ["23c51363b64bd7ce2f2581e1fe9c5368fd8d8afb"],
-    source: None,
+    title: "Sports Collection",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "23c51363b64bd7ce2f2581e1fe9c5368fd8d8afb",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

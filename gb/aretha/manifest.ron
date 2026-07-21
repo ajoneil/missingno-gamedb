@@ -1,6 +1,19 @@
 (
-    title: "Aretha (Japan)",
-    region: Some("Japan"),
-    hashes: ["eab8f13d110634f4ee750ac93e4f25d91a85000f"],
-    source: None,
+    title: "Aretha",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eab8f13d110634f4ee750ac93e4f25d91a85000f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

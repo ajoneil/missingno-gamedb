@@ -1,6 +1,19 @@
 (
-    title: "Goukaku Boy Series - Eijukugo Target 1000 (Japan)",
-    region: Some("Japan"),
-    hashes: ["535fbf6988af70c4283d8101c72acb67d249bb96"],
-    source: None,
+    title: "Goukaku Boy Series - Eijukugo Target 1000",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "535fbf6988af70c4283d8101c72acb67d249bb96",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

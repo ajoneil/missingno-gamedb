@@ -1,6 +1,19 @@
 (
-    title: "Goukaku Boy Series - Gakken - Rekishi 512 (Japan)",
-    region: Some("Japan"),
-    hashes: ["ab7733c04bc7975312b0cbe75d8d9b2519ac35ae"],
-    source: None,
+    title: "Goukaku Boy Series - Gakken - Rekishi 512",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ab7733c04bc7975312b0cbe75d8d9b2519ac35ae",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

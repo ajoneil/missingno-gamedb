@@ -1,6 +1,20 @@
 (
-    title: "SD Hiryuu no Ken EX (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["bed7b913a395ae4b62eac39ff8d6b3093529ed45"],
-    source: None,
+    title: "SD Hiryuu no Ken EX",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bed7b913a395ae4b62eac39ff8d6b3093529ed45",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

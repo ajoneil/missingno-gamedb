@@ -1,6 +1,20 @@
 (
-    title: "Jungle no Ouja Tar-chan (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["5312e1804848603c41ac804243e5b2b758c75d0d"],
-    source: None,
+    title: "Jungle no Ouja Tar-chan",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5312e1804848603c41ac804243e5b2b758c75d0d",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

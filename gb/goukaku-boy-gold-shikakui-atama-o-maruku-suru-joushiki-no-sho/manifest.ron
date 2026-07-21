@@ -1,6 +1,35 @@
 (
-    title: "Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Joushiki no Sho (Japan) (Imagineer)",
-    region: Some("Japan"),
-    hashes: ["a6ab7420a2d69d62338bc03dc4e0e46b0dc8429b", "d367f2dab5eacb10e785a13a2550ca7cc3e54177"],
-    source: None,
+    title: "Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Joushiki no Sho",
+    releases: [
+        (
+            label: Some("IE Institute"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a6ab7420a2d69d62338bc03dc4e0e46b0dc8429b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Imagineer"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d367f2dab5eacb10e785a13a2550ca7cc3e54177",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,16 @@
 (
-    title: "Cross Hunter - X Hunter Version (Japan)",
-    region: Some("Japan"),
-    hashes: ["2c9d8994635957f1080d785f47a596e02880be6c"],
-    source: None,
+    title: "Cross Hunter - X Hunter Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "2c9d8994635957f1080d785f47a596e02880be6c",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

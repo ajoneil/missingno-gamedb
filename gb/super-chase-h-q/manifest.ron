@@ -1,6 +1,20 @@
 (
-    title: "Super Chase H.Q. (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["d5184c1849d8e0addd4e1d31812068931bf98adc"],
-    source: None,
+    title: "Super Chase H.Q.",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d5184c1849d8e0addd4e1d31812068931bf98adc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Dungeon Land (Japan)",
-    region: Some("Japan"),
-    hashes: ["e354b0e78992f66bd598399998790231ff81b86f"],
-    source: None,
+    title: "Dungeon Land",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e354b0e78992f66bd598399998790231ff81b86f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

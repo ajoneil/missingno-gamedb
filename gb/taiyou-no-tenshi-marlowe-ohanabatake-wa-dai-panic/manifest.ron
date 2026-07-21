@@ -1,6 +1,35 @@
 (
-    title: "Taiyou no Tenshi Marlowe - Ohanabatake wa Dai-panic (Japan)",
-    region: Some("Japan"),
-    hashes: ["3b9f13100a797623d1700ccfeff0b31da52f5dc3"],
-    source: None,
+    title: "Taiyou no Tenshi Marlowe - Ohanabatake wa Dai-panic",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3b9f13100a797623d1700ccfeff0b31da52f5dc3",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Philip & Marlowe in Bloomland"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2f9e5cee29d0d578b2642ce8637f02fc567aebc5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

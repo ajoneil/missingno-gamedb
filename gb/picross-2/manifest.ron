@@ -1,6 +1,20 @@
 (
-    title: "Picross 2 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["57788519111cbe9e20b43d1935e9f52ae165e858"],
-    source: None,
+    title: "Picross 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "57788519111cbe9e20b43d1935e9f52ae165e858",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

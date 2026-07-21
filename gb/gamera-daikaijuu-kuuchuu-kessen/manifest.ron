@@ -1,6 +1,20 @@
 (
-    title: "Gamera - Daikaijuu Kuuchuu Kessen (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["c6ec7aa3ad2b28ca43551cda3c0cfdbcb4377b45"],
-    source: None,
+    title: "Gamera - Daikaijuu Kuuchuu Kessen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c6ec7aa3ad2b28ca43551cda3c0cfdbcb4377b45",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

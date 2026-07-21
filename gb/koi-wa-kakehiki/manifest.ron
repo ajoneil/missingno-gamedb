@@ -1,6 +1,19 @@
 (
-    title: "Koi wa Kakehiki (Japan)",
-    region: Some("Japan"),
-    hashes: ["d6a59fc334f93ba0d17faa66542eb74dcc3e536b"],
-    source: None,
+    title: "Koi wa Kakehiki",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d6a59fc334f93ba0d17faa66542eb74dcc3e536b",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

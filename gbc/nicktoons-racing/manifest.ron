@@ -1,6 +1,16 @@
 (
-    title: "Nicktoons Racing (USA)",
-    region: Some("USA"),
-    hashes: ["8b023f596d9b37ae442578c02c6ba859bc81c5c6"],
-    source: None,
+    title: "Nicktoons Racing",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "8b023f596d9b37ae442578c02c6ba859bc81c5c6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

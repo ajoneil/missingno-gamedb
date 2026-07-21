@@ -1,6 +1,19 @@
 (
-    title: "Racing Damashii (Japan)",
-    region: Some("Japan"),
-    hashes: ["4466b36294176b3e1fc1558cd00abdfa4247a75d"],
-    source: None,
+    title: "Racing Damashii",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4466b36294176b3e1fc1558cd00abdfa4247a75d",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

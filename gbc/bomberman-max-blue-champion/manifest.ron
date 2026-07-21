@@ -1,6 +1,28 @@
 (
-    title: "Bomberman Max - Blue Champion (USA)",
-    region: Some("USA"),
-    hashes: ["bb1120b0116eda3fc157c66766beffcc7a04f826"],
-    source: None,
+    title: "Bomberman Max - Blue Champion",
+    releases: [
+        (
+            title: Some("Bomberman Max - Hikari no Yuusha"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "9c38166e83e45707cbc2e0aff38fd4590dce7c3f",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "bb1120b0116eda3fc157c66766beffcc7a04f826",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

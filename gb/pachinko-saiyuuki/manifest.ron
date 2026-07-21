@@ -1,6 +1,19 @@
 (
-    title: "Pachinko Saiyuuki (Japan)",
-    region: Some("Japan"),
-    hashes: ["8bbc798eb5b531f513ffa56f105983f19f9caa1e"],
-    source: None,
+    title: "Pachinko Saiyuuki",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8bbc798eb5b531f513ffa56f105983f19f9caa1e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

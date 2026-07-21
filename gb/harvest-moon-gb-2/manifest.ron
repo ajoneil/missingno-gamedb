@@ -1,0 +1,51 @@
+(
+    title: "Harvest Moon GB",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ea464cb16446855ed60cf714ca5b3ded02d82b1e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "22e06880afe664051498714b3edb2e18f26f7961",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Harvest Moon GBC"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d407b9c20c5381f46ec460858539a5b6f559e04f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
+)

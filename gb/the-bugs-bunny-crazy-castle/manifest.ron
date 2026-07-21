@@ -1,0 +1,36 @@
+(
+    title: "The Bugs Bunny Crazy Castle",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2a3e982e542a849f95b4497025ca5b04db2abe8c",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mickey Mouse"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a5e526b47e9295c7cbea21a84bef2c1658e6f87e",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
+)

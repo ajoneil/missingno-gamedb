@@ -1,6 +1,20 @@
 (
-    title: "Mega Memory Card (World) (Unl)",
-    region: Some("World"),
-    hashes: ["06803c6342b6b5aa2d4b85ef096e11241bf5c90d", "7690ccaa54b71188d07cb546d3c4d42c1d6363a8"],
-    source: None,
+    title: "Mega Memory Card",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7690ccaa54b71188d07cb546d3c4d42c1d6363a8",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

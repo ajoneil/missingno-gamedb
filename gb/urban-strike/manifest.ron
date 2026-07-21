@@ -1,6 +1,21 @@
 (
-    title: "Urban Strike (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["6bc1010aad73d2cde677f897adb77684d9b508ed"],
-    source: None,
+    title: "Urban Strike",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6bc1010aad73d2cde677f897adb77684d9b508ed",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Trump Boy II (Japan)",
-    region: Some("Japan"),
-    hashes: ["ac526cf1b1463b2af83e2b3eef3680caa5dae94f"],
-    source: None,
+    title: "Trump Boy II",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ac526cf1b1463b2af83e2b3eef3680caa5dae94f",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Rhino Rumble (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["2caf47c20d8632e47c4426dd3564e76415139973"],
-    source: None,
+    title: "Rhino Rumble",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "2caf47c20d8632e47c4426dd3564e76415139973",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Moorhuhn 3 - ...Es Gibt Huhn! (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["154db731f5e1cda137eb0faf55a8e4458387485f"],
-    source: None,
+    title: "Moorhuhn 3 - ...Es Gibt Huhn!",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "154db731f5e1cda137eb0faf55a8e4458387485f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

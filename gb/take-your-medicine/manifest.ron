@@ -1,6 +1,19 @@
 (
-    title: "Take Your Medicine (World) (En,Pt) (v1.0) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["8c973fafc9576e57a7714bda6425d30cdf7edd2c", "baa07cfb71e42487eb57490c5b6cdec72e6893f7"],
-    source: None,
+    title: "Take Your Medicine",
+    releases: [
+        (
+            label: Some("En,Pt, v1.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "8c973fafc9576e57a7714bda6425d30cdf7edd2c",
+                ),
+                (
+                    sha1: "baa07cfb71e42487eb57490c5b6cdec72e6893f7",
+                ),
+            ],
+        ),
+    ],
 )

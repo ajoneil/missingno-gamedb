@@ -1,6 +1,20 @@
 (
-    title: "Pocket Love (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["69f08aa97b5b72e99c826c810fdaebd766c2b416"],
-    source: None,
+    title: "Pocket Love",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "69f08aa97b5b72e99c826c810fdaebd766c2b416",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

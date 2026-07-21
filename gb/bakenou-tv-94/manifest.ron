@@ -1,6 +1,20 @@
 (
-    title: "Bakenou TV '94 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["c567bdd1ca17750c853019f244e208fe812772fd"],
-    source: None,
+    title: "Bakenou TV \'94",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c567bdd1ca17750c853019f244e208fe812772fd",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

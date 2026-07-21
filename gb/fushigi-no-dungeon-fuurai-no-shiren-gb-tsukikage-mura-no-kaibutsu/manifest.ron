@@ -1,6 +1,20 @@
 (
-    title: "Fushigi no Dungeon - Fuurai no Shiren GB - Tsukikage Mura no Kaibutsu (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["920ef94c05ac741047a266cb1668c881eab2937c"],
-    source: None,
+    title: "Fushigi no Dungeon - Fuurai no Shiren GB - Tsukikage Mura no Kaibutsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "920ef94c05ac741047a266cb1668c881eab2937c",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Zelda's Adventure (World) (En,Fr,De) (v2.2.0) (GB Compatible) (Pirate)",
-    region: Some("World"),
-    hashes: ["12f9ba0a4673dd2f59ba38e636332333a199dea5", "6fc609c78216d1e34869cf6bf103ac734d797285"],
-    source: None,
+    title: "Zelda\'s Adventure",
+    releases: [
+        (
+            label: Some("En,Fr,De, v2.2.0, Pirate"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "12f9ba0a4673dd2f59ba38e636332333a199dea5",
+                ),
+                (
+                    sha1: "6fc609c78216d1e34869cf6bf103ac734d797285",
+                ),
+            ],
+        ),
+    ],
 )

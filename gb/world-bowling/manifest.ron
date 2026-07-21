@@ -1,6 +1,34 @@
 (
-    title: "World Bowling (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["c99595de26e63e65d61446dc0338256b9831601a", "f579890b04b33965c009dd3b7300623691ae206a"],
-    source: None,
+    title: "World Bowling",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f579890b04b33965c009dd3b7300623691ae206a",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c99595de26e63e65d61446dc0338256b9831601a",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

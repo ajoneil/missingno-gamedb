@@ -1,6 +1,28 @@
 (
-    title: "Austin Powers - Oh, Behave! (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["a5d29d48b9bc3e1fa476e475da24c2d80985188d", "aa6cb6ab4fe083cbe0274c40bd30e0013a2f7645"],
-    source: None,
+    title: "Austin Powers - Oh, Behave!",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "aa6cb6ab4fe083cbe0274c40bd30e0013a2f7645",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "a5d29d48b9bc3e1fa476e475da24c2d80985188d",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,30 @@
 (
-    title: "Tomb Raider - Curse of the Sword (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["c84db1eaf7403ba292be020d410ab453342ab737"],
-    source: None,
+    title: "Tomb Raider - Curse of the Sword",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "c84db1eaf7403ba292be020d410ab453342ab737",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            title: Some("Tomb Raider 2"),
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            artifacts: [
+                (
+                    sha1: "5b9325b6e322a806677c6ea37a0054381609b99e",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

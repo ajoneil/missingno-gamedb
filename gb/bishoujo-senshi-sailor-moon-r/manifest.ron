@@ -1,6 +1,19 @@
 (
-    title: "Bishoujo Senshi Sailor Moon R (Japan)",
-    region: Some("Japan"),
-    hashes: ["959f384998c43072ca154e531917e9aaa80a694d"],
-    source: None,
+    title: "Bishoujo Senshi Sailor Moon R",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "959f384998c43072ca154e531917e9aaa80a694d",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

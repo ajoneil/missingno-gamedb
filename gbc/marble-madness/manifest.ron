@@ -1,6 +1,17 @@
 (
-    title: "Marble Madness (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["32c84b75b10bd00812589f3c8cfd537518f021c6", "bf2a73f7adf200410038350c2c754a943d841681"],
-    source: None,
+    title: "Marble Madness",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "32c84b75b10bd00812589f3c8cfd537518f021c6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

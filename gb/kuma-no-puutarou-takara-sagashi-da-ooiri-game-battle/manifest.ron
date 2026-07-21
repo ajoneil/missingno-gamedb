@@ -1,6 +1,20 @@
 (
-    title: "Kuma no Puutarou - Takara Sagashi da Ooiri Game Battle! (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["b986ce8e1a6a4a1b22e0db5bf03b8b028cce9057"],
-    source: None,
+    title: "Kuma no Puutarou - Takara Sagashi da Ooiri Game Battle!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b986ce8e1a6a4a1b22e0db5bf03b8b028cce9057",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

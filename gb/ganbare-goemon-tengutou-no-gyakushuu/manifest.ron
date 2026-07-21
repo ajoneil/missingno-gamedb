@@ -1,6 +1,19 @@
 (
-    title: "Ganbare Goemon - Tengutou no Gyakushuu (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["337cbcbd185a74c6fd5b10823fda3dcf8dca30e4"],
-    source: None,
+    title: "Ganbare Goemon - Tengutou no Gyakushuu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "337cbcbd185a74c6fd5b10823fda3dcf8dca30e4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

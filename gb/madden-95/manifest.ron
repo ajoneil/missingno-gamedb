@@ -1,6 +1,21 @@
 (
-    title: "Madden 95 (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["b41a14394bbd890e341bf5d27f297cb5e906fd60"],
-    source: None,
+    title: "Madden 95",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b41a14394bbd890e341bf5d27f297cb5e906fd60",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

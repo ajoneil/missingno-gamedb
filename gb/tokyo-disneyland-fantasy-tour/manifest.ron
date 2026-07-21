@@ -1,6 +1,20 @@
 (
-    title: "Tokyo Disneyland - Fantasy Tour (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["e413b0ab506cb12b68439ccc0a72e4664c112378"],
-    source: None,
+    title: "Tokyo Disneyland - Fantasy Tour",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e413b0ab506cb12b68439ccc0a72e4664c112378",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

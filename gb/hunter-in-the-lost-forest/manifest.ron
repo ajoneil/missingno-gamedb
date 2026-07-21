@@ -1,6 +1,19 @@
 (
-    title: "Hunter in the Lost Forest (World) (En) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["1b10f2ec15d25584da2f2c123ecc97df7f7a0af0", "6fc0ab0c6dffc8925ceb538ffc78cc70cd4ac0e4"],
-    source: None,
+    title: "Hunter in the Lost Forest",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "1b10f2ec15d25584da2f2c123ecc97df7f7a0af0",
+                ),
+                (
+                    sha1: "6fc0ab0c6dffc8925ceb538ffc78cc70cd4ac0e4",
+                ),
+            ],
+        ),
+    ],
 )

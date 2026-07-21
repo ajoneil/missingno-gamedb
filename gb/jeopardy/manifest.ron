@@ -1,6 +1,19 @@
 (
-    title: "Jeopardy! (USA)",
-    region: Some("USA"),
-    hashes: ["d0bf6e71ddae1faff179309eaab554c2ae994de0"],
-    source: None,
+    title: "Jeopardy!",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d0bf6e71ddae1faff179309eaab554c2ae994de0",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

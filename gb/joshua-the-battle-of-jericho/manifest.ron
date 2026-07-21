@@ -1,6 +1,20 @@
 (
-    title: "Joshua & the Battle of Jericho (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["019b4b0e76336e2613ae6e8b415b5c65f6d465a5"],
-    source: None,
+    title: "Joshua & the Battle of Jericho",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "019b4b0e76336e2613ae6e8b415b5c65f6d465a5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

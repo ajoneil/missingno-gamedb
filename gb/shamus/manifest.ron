@@ -1,6 +1,20 @@
 (
-    title: "Shamus (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["66349abf080e85738875f22a86e0453e5b68f425"],
-    source: None,
+    title: "Shamus",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "66349abf080e85738875f22a86e0453e5b68f425",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

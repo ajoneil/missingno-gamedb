@@ -1,0 +1,52 @@
+(
+    title: "Otto\'s Ottifanten - Baby Bruno\'s Alptraum",
+    releases: [
+        (
+            title: Some("The Adventures of Pinocchio"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6808d5a5fba9b58d67e91f22a2860e4e72f6eec1",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "22a18f5eb589347fa596432d249b0abca69aa93b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "93edd0772a3a65df17ec5877e2bcfafda3020169",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
+)

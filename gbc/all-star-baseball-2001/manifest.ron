@@ -1,6 +1,16 @@
 (
-    title: "All-Star Baseball 2001 (USA)",
-    region: Some("USA"),
-    hashes: ["f702df64d368b763187a5b1263a60fb3e842962b"],
-    source: None,
+    title: "All-Star Baseball 2001",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "f702df64d368b763187a5b1263a60fb3e842962b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,0 +1,30 @@
+(
+    title: "The New Addams Family Series",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Pt"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "87af7b26281adc9efb8b5b5e31a13b8f6be16042",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Pt, Rev 1"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "c0582e350ade53908a9f091a4796d58b3c1806f8",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
+)

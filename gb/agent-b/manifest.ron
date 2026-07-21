@@ -1,6 +1,15 @@
 (
-    title: "Agent B (World) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["11b3ce59c4eb86cee05873eb473dbf262cf986bd"],
-    source: None,
+    title: "Agent B",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "11b3ce59c4eb86cee05873eb473dbf262cf986bd",
+                ),
+            ],
+        ),
+    ],
 )

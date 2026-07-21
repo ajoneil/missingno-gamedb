@@ -1,6 +1,20 @@
 (
-    title: "Robot Poncots - Comic Bom Bom Special Version (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["79d1eda07e792497506ff1494e5222db2a52702f"],
-    source: None,
+    title: "Robot Poncots - Comic Bom Bom Special Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "79d1eda07e792497506ff1494e5222db2a52702f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

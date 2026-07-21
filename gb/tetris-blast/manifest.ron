@@ -1,6 +1,37 @@
 (
-    title: "Tetris Blast (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["14de1e47820b8aef8475d1ba94ea3d49cc45d06c"],
-    source: None,
+    title: "Tetris Blast",
+    releases: [
+        (
+            title: Some("Super Bombliss"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8f44cd2d819a3cd0ab697e60939d5921e29609ac",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "14de1e47820b8aef8475d1ba94ea3d49cc45d06c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

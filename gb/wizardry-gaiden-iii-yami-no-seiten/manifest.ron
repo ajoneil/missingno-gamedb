@@ -1,6 +1,19 @@
 (
-    title: "Wizardry Gaiden III - Yami no Seiten (Japan)",
-    region: Some("Japan"),
-    hashes: ["e169014cf1f12b956f8dff040ddb063ea4f7cab9"],
-    source: None,
+    title: "Wizardry Gaiden III - Yami no Seiten",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e169014cf1f12b956f8dff040ddb063ea4f7cab9",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

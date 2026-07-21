@@ -1,6 +1,20 @@
 (
-    title: "Luca no Puzzle de Daibouken! (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["3c06fe05909ad632b761c6a1c00bc69da81aa358"],
-    source: None,
+    title: "Luca no Puzzle de Daibouken!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3c06fe05909ad632b761c6a1c00bc69da81aa358",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

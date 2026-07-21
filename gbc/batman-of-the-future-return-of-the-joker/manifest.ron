@@ -1,6 +1,42 @@
 (
-    title: "Batman of the Future - Return of the Joker (Europe) (En,Fr,De)",
-    region: Some("Europe"),
-    hashes: ["102aa62c873b7316b1b019d895989dcdedb776a9"],
-    source: None,
+    title: "Batman of the Future - Return of the Joker",
+    releases: [
+        (
+            title: Some("Batman Beyond - Return of the Joker"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "8c69eb7ec5bc809edc8caa255576f919ea722dad",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "102aa62c873b7316b1b019d895989dcdedb776a9",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Batman Beyond - Return of the Joker"),
+            label: Some("NP"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "47c8a56fa67d4982ed36fca56ef0f33c451a0c49",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

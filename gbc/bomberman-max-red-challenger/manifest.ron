@@ -1,6 +1,28 @@
 (
-    title: "Bomberman Max - Red Challenger (USA)",
-    region: Some("USA"),
-    hashes: ["369ce985157c55bbad6c24f49a0ad4009dec5f56"],
-    source: None,
+    title: "Bomberman Max - Red Challenger",
+    releases: [
+        (
+            title: Some("Bomberman Max - Yami no Senshi"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "12addfb8f890a44b87efb900e9d6ad5028b58936",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "369ce985157c55bbad6c24f49a0ad4009dec5f56",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,29 @@
 (
-    title: "Game Boy Wars 3 (Japan)",
-    region: Some("Japan"),
-    hashes: ["61e08f96261b5f85c65c70db5464b4298f9f2cf8"],
-    source: None,
+    title: "Game Boy Wars 3",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "61e08f96261b5f85c65c70db5464b4298f9f2cf8",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Game Boy Wars Pocket Tactics"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "a729d9ecd2b2abcd04b11122183f48c303d227b1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

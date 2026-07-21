@@ -1,6 +1,28 @@
 (
-    title: "Gambler Densetsu Tetsuya - Shinjuku Tenun Hen (Japan) (Rev 1)",
-    region: Some("Japan"),
-    hashes: ["8ba0973997bdaeecdf23c45a4fb7e18e06132dfb", "b62f8e56b995874c0e1a2533df5a37f6996df12e"],
-    source: None,
+    title: "Gambler Densetsu Tetsuya - Shinjuku Tenun Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "8ba0973997bdaeecdf23c45a4fb7e18e06132dfb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "b62f8e56b995874c0e1a2533df5a37f6996df12e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

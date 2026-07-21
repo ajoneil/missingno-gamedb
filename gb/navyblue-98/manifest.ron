@@ -1,6 +1,19 @@
 (
-    title: "Navyblue 98 (Japan)",
-    region: Some("Japan"),
-    hashes: ["fbdf3744335297e64a1578e19d987b9dadb0e2f7"],
-    source: None,
+    title: "Navyblue 98",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fbdf3744335297e64a1578e19d987b9dadb0e2f7",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

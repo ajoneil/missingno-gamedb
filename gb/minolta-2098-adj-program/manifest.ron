@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2098 Adj. Program (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["dc0f429cc1eac8dd9009a9b30dab0803099be646"],
-    source: None,
+    title: "Minolta 2098 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dc0f429cc1eac8dd9009a9b30dab0803099be646",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

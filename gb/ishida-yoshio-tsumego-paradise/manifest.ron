@@ -1,6 +1,19 @@
 (
-    title: "Ishida Yoshio Tsumego Paradise (Japan)",
-    region: Some("Japan"),
-    hashes: ["dd9fd57dfa72e8818c553db553d9e598edb9d956"],
-    source: None,
+    title: "Ishida Yoshio Tsumego Paradise",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dd9fd57dfa72e8818c553db553d9e598edb9d956",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

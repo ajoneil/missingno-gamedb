@@ -1,6 +1,35 @@
 (
-    title: "Fighting Simulator 2 in 1 - Flying Warriors (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["9073276d8adf1e59829ae48073b42ae19c9770ce"],
-    source: None,
+    title: "Fighting Simulator 2 in 1 - Flying Warriors",
+    releases: [
+        (
+            title: Some("Hiryuu no Ken Gaiden"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fb4133f25fa0b9eea75f2ec69b786fe2d20d537e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9073276d8adf1e59829ae48073b42ae19c9770ce",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

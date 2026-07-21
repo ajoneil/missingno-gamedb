@@ -1,6 +1,20 @@
 (
-    title: "Real Pro Yakyuu! - Central League Hen (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["02c18d98a07b3af9a1d26d0c3003f8e75c81f4d9"],
-    source: None,
+    title: "Real Pro Yakyuu! - Central League Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "02c18d98a07b3af9a1d26d0c3003f8e75c81f4d9",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

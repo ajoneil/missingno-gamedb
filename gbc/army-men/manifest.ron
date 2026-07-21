@@ -1,6 +1,18 @@
 (
-    title: "Army Men (USA, Europe) (En,Fr,De)",
-    region: Some("USA, Europe"),
-    hashes: ["e98cea1a113ba4774ce26ab16d61625f0870b6ad"],
-    source: None,
+    title: "Army Men",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e98cea1a113ba4774ce26ab16d61625f0870b6ad",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

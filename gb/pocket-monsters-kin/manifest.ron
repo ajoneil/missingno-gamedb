@@ -1,6 +1,38 @@
 (
-    title: "Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["6a5df1b84698168b44ca53b0df15128e4bfaad6a", "8814f1039450a5d3684b1389f588ccd7ee7c3436", "a222402235d484ee8e39f3f31bae57cf13daf585", "b1d7539a87dea81b2cff6146afaad64470d08d84"],
-    source: None,
+    title: "Pocket Monsters Kin",
+    kind: Demo,
+    releases: [
+        (
+            label: Some("Spaceworld 1997"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6a5df1b84698168b44ca53b0df15128e4bfaad6a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Spaceworld 1997, Debug"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b1d7539a87dea81b2cff6146afaad64470d08d84",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

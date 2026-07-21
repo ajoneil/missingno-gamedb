@@ -1,6 +1,136 @@
 (
-    title: "Splitz (Europe)",
-    region: Some("Europe"),
-    hashes: ["27a8c04bf7126d2b9f564b5f8f709c08817d9692", "4adcb454e7ffb6be06e236a2c73244d668a0994b", "5f36290557f23c48ca7f2f17a1af9b691ede5bff", "c68fddaa5ec7e4f535258d6ff92640e4ee23eb55", "e9fef0ca850c832370b4ef188ff31c5943cdb067", "eec46d9d1077c1c31ea64e902412be87430d984a", "eff9d8dd2f227e554f354bb52db8de3463c0bd04"],
-    source: None,
+    title: "Splitz",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "27a8c04bf7126d2b9f564b5f8f709c08817d9692",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 1"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1992-08-11"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eff9d8dd2f227e554f354bb52db8de3463c0bd04",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 2"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1992-09-02"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c68fddaa5ec7e4f535258d6ff92640e4ee23eb55",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 3"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1992-10-28"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eec46d9d1077c1c31ea64e902412be87430d984a",
+                    size: Some(98304),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 4"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1993-01-19"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4adcb454e7ffb6be06e236a2c73244d668a0994b",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 5"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1993-02-17"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e9fef0ca850c832370b4ef188ff31c5943cdb067",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 6"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5f36290557f23c48ca7f2f17a1af9b691ede5bff",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Splitz - Nigaoe 15 Game"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c71d031da8206798a56beae6a90f143174a76947",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

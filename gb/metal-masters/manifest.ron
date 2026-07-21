@@ -1,6 +1,49 @@
 (
-    title: "Metal Masters (USA)",
-    region: Some("USA"),
-    hashes: ["572c820f7ec7a3c96df9af441da244befa5223b9", "9d4896a198904365ebc348c557b7c15f87b5e3c5", "caae5811b2d2b884b691ea7d940ecb86647cd250"],
-    source: None,
+    title: "Metal Masters",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "572c820f7ec7a3c96df9af441da244befa5223b9",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "caae5811b2d2b884b691ea7d940ecb86647cd250",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Limited Run Games"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9d4896a198904365ebc348c557b7c15f87b5e3c5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

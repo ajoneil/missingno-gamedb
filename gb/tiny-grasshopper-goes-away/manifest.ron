@@ -1,6 +1,19 @@
 (
-    title: "Tiny Grasshopper Goes Away (World) (En,Hu) (v1.2) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["307e51664db2101755b6c617f3d81ee58676c485", "85e5cd0cf7a6cc4a5946c93fa8665235a686e554"],
-    source: None,
+    title: "Tiny Grasshopper Goes Away",
+    releases: [
+        (
+            label: Some("En,Hu, v1.2"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "307e51664db2101755b6c617f3d81ee58676c485",
+                ),
+                (
+                    sha1: "85e5cd0cf7a6cc4a5946c93fa8665235a686e554",
+                ),
+            ],
+        ),
+    ],
 )

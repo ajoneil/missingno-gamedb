@@ -1,6 +1,20 @@
 (
-    title: "Dino Breeder 4 (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["b25681defda961837a28be1432076b65574fd1be"],
-    source: None,
+    title: "Dino Breeder 4",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b25681defda961837a28be1432076b65574fd1be",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

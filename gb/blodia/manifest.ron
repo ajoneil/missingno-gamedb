@@ -1,6 +1,20 @@
 (
-    title: "Blodia (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["a3927543ca471f479ba7aae7295788434672464e"],
-    source: None,
+    title: "Blodia",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a3927543ca471f479ba7aae7295788434672464e",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

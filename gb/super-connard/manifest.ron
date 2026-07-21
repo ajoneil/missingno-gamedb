@@ -1,6 +1,19 @@
 (
-    title: "Super Connard (World) (Fr)",
-    region: Some("World"),
-    hashes: ["24264376aeee13d7f9b9424553f7fa4ba4b3b116", "6f4bf6c8206cc95cf17bea6739aa942034c2a230"],
-    source: None,
+    title: "Super Connard",
+    releases: [
+        (
+            label: Some("Fr"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "24264376aeee13d7f9b9424553f7fa4ba4b3b116",
+                ),
+                (
+                    sha1: "6f4bf6c8206cc95cf17bea6739aa942034c2a230",
+                ),
+            ],
+        ),
+    ],
 )

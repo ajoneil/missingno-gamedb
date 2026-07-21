@@ -1,6 +1,19 @@
 (
-    title: "Cave Noire (Japan)",
-    region: Some("Japan"),
-    hashes: ["6acdf05aac8e3792a98a199cb6e90180e95230cd"],
-    source: None,
+    title: "Cave Noire",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6acdf05aac8e3792a98a199cb6e90180e95230cd",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

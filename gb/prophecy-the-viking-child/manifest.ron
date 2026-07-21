@@ -1,6 +1,34 @@
 (
-    title: "Prophecy - The Viking Child (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["a6fca2fd143c605dd166e7462729599ad0143457", "dded3db8437ba2342599e9dbde3aa20ce83e15ca"],
-    source: None,
+    title: "Prophecy - The Viking Child",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a6fca2fd143c605dd166e7462729599ad0143457",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dded3db8437ba2342599e9dbde3aa20ce83e15ca",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

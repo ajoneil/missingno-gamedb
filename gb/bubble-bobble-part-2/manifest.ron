@@ -1,6 +1,36 @@
 (
-    title: "Bubble Bobble Part 2 (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["e258d852713f392454d4291032ce50ad325aba86"],
-    source: None,
+    title: "Bubble Bobble Part 2",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e258d852713f392454d4291032ce50ad325aba86",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bubble Bobble Junior"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "686c526a557065dc0005068eafdbc6736684f925",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

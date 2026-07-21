@@ -1,6 +1,20 @@
 (
-    title: "Spider-Man 2 (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["9d85634232053a52b8d3bbca0f613337fcab32a8"],
-    source: None,
+    title: "Spider-Man 2",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9d85634232053a52b8d3bbca0f613337fcab32a8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

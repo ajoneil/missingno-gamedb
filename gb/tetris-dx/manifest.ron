@@ -1,6 +1,20 @@
 (
-    title: "Tetris DX (World) (SGB Enhanced) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["7183bcb54dd35f3a07d8fe63339b768f13b8168d"],
-    source: None,
+    title: "Tetris DX",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7183bcb54dd35f3a07d8fe63339b768f13b8168d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Forest of Fallen Knights (World) (Beta) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["24f02d116aafb7b55d6cfd6d263b7595986af843", "f6f84f1a44d41fa7d26a9195ddf791fae53dfcdf"],
-    source: None,
+    title: "Forest of Fallen Knights",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "24f02d116aafb7b55d6cfd6d263b7595986af843",
+                ),
+                (
+                    sha1: "f6f84f1a44d41fa7d26a9195ddf791fae53dfcdf",
+                ),
+            ],
+        ),
+    ],
 )

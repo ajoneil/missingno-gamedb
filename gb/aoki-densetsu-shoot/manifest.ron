@@ -1,6 +1,20 @@
 (
-    title: "Aoki Densetsu Shoot! (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["95574e1eef5fbebde6f068091bc7298000ea2397"],
-    source: None,
+    title: "Aoki Densetsu Shoot!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "95574e1eef5fbebde6f068091bc7298000ea2397",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

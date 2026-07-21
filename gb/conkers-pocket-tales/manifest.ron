@@ -1,0 +1,38 @@
+(
+    title: "Conker\'s Pocket Tales",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e9c3b1bb20ea74f363191ea9144009d1b13246bb",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De, Evercade"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "482e93dfc1ab0ecbc5f33ea2e7ca2c93b45306c2",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
+)

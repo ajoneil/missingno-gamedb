@@ -1,6 +1,30 @@
 (
-    title: "Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta)",
-    region: Some("Europe"),
-    hashes: ["0a94857f23640b36117b7bfe4ce7cc291da63c58", "76e898c00f47628710eaef7551a7d1fe04e2a2bc"],
-    source: None,
+    title: "Carl Lewis Athletics 2000",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "0a94857f23640b36117b7bfe4ce7cc291da63c58",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "76e898c00f47628710eaef7551a7d1fe04e2a2bc",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

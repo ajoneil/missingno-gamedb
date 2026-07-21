@@ -1,6 +1,50 @@
 (
-    title: "Hammerin' Harry (Europe)",
-    region: Some("Europe"),
-    hashes: ["05490ab94ae5e01dd02b4a578bfccc5647816408"],
-    source: None,
+    title: "Hammerin\' Harry",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "05490ab94ae5e01dd02b4a578bfccc5647816408",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Daiku no Gen-san - Ghost Building Company"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "90574cc899210515e83dec714eb4d69416dcf3a3",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Hammerin\' Harry - Ghost Building Company"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c5f73b09f001fc4d7eaa40ffee00234ca6a41a41",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Yu Yu Hakusho Dai-3-dan - Makai no Tobira Hen (Japan)",
-    region: Some("Japan"),
-    hashes: ["ffaff18cc2028ca7f823ed1c2a025ed5a61d1b9d"],
-    source: None,
+    title: "Yu Yu Hakusho Dai-3-dan - Makai no Tobira Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ffaff18cc2028ca7f823ed1c2a025ed5a61d1b9d",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

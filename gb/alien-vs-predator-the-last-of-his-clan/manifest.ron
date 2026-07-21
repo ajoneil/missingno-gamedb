@@ -1,6 +1,34 @@
 (
-    title: "Alien vs Predator - The Last of His Clan (USA)",
-    region: Some("USA"),
-    hashes: ["c0d39ee87b908cdbd68c59f73e5dc2a7a6ccbedc"],
-    source: None,
+    title: "Alien vs Predator - The Last of His Clan",
+    releases: [
+        (
+            title: Some("Alien vs Predator"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5b21dc4a7b48e75da725657d1ccde868759e5699",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c0d39ee87b908cdbd68c59f73e5dc2a7a6ccbedc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

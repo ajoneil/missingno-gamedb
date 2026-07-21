@@ -1,6 +1,17 @@
 (
-    title: "Wetrix (Europe) (En,Fr,De)",
-    region: Some("Europe"),
-    hashes: ["6de683dc99feaf7fb0440046668d36a229513ab5"],
-    source: None,
+    title: "Wetrix",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "6de683dc99feaf7fb0440046668d36a229513ab5",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

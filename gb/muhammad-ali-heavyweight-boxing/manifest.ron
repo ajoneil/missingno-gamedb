@@ -1,6 +1,20 @@
 (
-    title: "Muhammad Ali Heavyweight Boxing (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["9e7002575177a5af87500c53afd6187da3923510"],
-    source: None,
+    title: "Muhammad Ali Heavyweight Boxing",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9e7002575177a5af87500c53afd6187da3923510",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

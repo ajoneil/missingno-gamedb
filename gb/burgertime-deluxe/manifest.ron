@@ -1,6 +1,19 @@
 (
-    title: "BurgerTime Deluxe (World)",
-    region: Some("World"),
-    hashes: ["1aafcef0dd5fbb8e95188631e0b2decdf84e9aed"],
-    source: None,
+    title: "BurgerTime Deluxe",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1aafcef0dd5fbb8e95188631e0b2decdf84e9aed",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

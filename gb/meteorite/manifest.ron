@@ -1,6 +1,18 @@
 (
-    title: "Meteorite (World)",
-    region: Some("World"),
-    hashes: ["0e88a47faf3273f87c1ead7f789faeb06d5333f3", "25a81d916f1ed80a2bca2fe7a555433f06d025e3"],
-    source: None,
+    title: "Meteorite",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "0e88a47faf3273f87c1ead7f789faeb06d5333f3",
+                ),
+                (
+                    sha1: "25a81d916f1ed80a2bca2fe7a555433f06d025e3",
+                ),
+            ],
+        ),
+    ],
 )

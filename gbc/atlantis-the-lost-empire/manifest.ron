@@ -1,6 +1,41 @@
 (
-    title: "Atlantis - The Lost Empire (Europe) (En,Es,It)",
-    region: Some("Europe"),
-    hashes: ["19df06e2a8be1336a6aec8c86649b95b206dc54f", "ab5dd8efa36b33ce9aa090b3d990e8fc8828f7e2", "ef4ab0dd852ffd1418c803c05ddcb245b3a4348d"],
-    source: None,
+    title: "Atlantis - The Lost Empire",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ab5dd8efa36b33ce9aa090b3d990e8fc8828f7e2",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ef4ab0dd852ffd1418c803c05ddcb245b3a4348d",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Fr,De,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "19df06e2a8be1336a6aec8c86649b95b206dc54f",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

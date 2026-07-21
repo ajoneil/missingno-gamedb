@@ -1,6 +1,17 @@
 (
-    title: "Hang Time Basketball (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["340201c045c020be6de3504fdecbce1ff07a2139"],
-    source: None,
+    title: "Hang Time Basketball",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "340201c045c020be6de3504fdecbce1ff07a2139",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,50 @@
 (
-    title: "McDonaldland (Europe)",
-    region: Some("Europe"),
-    hashes: ["fd11d61f961a7e3c69e272ef19eb243b7df89833"],
-    source: None,
+    title: "McDonaldland",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fd11d61f961a7e3c69e272ef19eb243b7df89833",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Spot - The Cool Adventure"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bcc923e6e73efe7e865625bb6ecf2ef08e380826",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Spot - Cool Adventure"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "075512a3af4bc7c2da2d51d84df2d04c81b2a8ad",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

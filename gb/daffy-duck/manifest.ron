@@ -1,6 +1,52 @@
 (
-    title: "Daffy Duck (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["344c3409410fe5f88796aafd125c522319b78012", "75b384222d07947baed2213c288385c4b91e1911"],
-    source: None,
+    title: "Daffy Duck",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "344c3409410fe5f88796aafd125c522319b78012",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "75b384222d07947baed2213c288385c4b91e1911",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Looney Tunes Series - Daffy Duck"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "65f063906680e65d8786e698bd51674268d7ae68",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

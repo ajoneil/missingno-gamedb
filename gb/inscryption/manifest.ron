@@ -1,6 +1,16 @@
 (
-    title: "Inscryption (World) (v0.5)",
-    region: Some("World"),
-    hashes: ["480ce539500d814fd3822fed7525c21027ac361b"],
-    source: None,
+    title: "Inscryption",
+    releases: [
+        (
+            label: Some("v0.5"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "480ce539500d814fd3822fed7525c21027ac361b",
+                ),
+            ],
+        ),
+    ],
 )

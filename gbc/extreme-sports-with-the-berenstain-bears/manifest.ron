@@ -1,6 +1,18 @@
 (
-    title: "Extreme Sports with the Berenstain Bears (USA, Europe) (En,Fr,De,Es,It)",
-    region: Some("USA, Europe"),
-    hashes: ["ee56328e88729f929da717221d72826c872253c2"],
-    source: None,
+    title: "Extreme Sports with the Berenstain Bears",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ee56328e88729f929da717221d72826c872253c2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "Adventures of Lolo (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["e09277358a7fd4f3a6206464dd9d39f3abe66a53"],
-    source: None,
+    title: "Adventures of Lolo",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e09277358a7fd4f3a6206464dd9d39f3abe66a53",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Lolo no Daibouken"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2f4a4215e3c95f7f3646ad678c5cd191fce02515",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

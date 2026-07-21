@@ -1,6 +1,19 @@
 (
-    title: "Cult Jump (Japan)",
-    region: Some("Japan"),
-    hashes: ["6a67820ef648d2e24c1212079f5cac43e04cf0bf"],
-    source: None,
+    title: "Cult Jump",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6a67820ef648d2e24c1212079f5cac43e04cf0bf",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

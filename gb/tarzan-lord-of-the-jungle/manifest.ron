@@ -1,6 +1,20 @@
 (
-    title: "Tarzan - Lord of the Jungle (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["eaff826c9256358d7920de3956a8ab563d004d51"],
-    source: None,
+    title: "Tarzan - Lord of the Jungle",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eaff826c9256358d7920de3956a8ab563d004d51",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

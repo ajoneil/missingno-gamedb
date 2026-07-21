@@ -1,6 +1,20 @@
 (
-    title: "8-in-1 (Taiwan) (En) (Unl)",
-    region: Some("Taiwan"),
-    hashes: ["f57efd4d5063cb87519fc3b574377cc9a2a841ee"],
-    source: None,
+    title: "8-in-1",
+    releases: [
+        (
+            label: Some("En, Unl"),
+            regions: [
+                Taiwan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f57efd4d5063cb87519fc3b574377cc9a2a841ee",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

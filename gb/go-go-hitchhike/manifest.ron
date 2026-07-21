@@ -1,6 +1,20 @@
 (
-    title: "Go! Go! Hitchhike (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["6a35bc2967f25fda0626b7a00a2cacfec9c53278"],
-    source: None,
+    title: "Go! Go! Hitchhike",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6a35bc2967f25fda0626b7a00a2cacfec9c53278",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

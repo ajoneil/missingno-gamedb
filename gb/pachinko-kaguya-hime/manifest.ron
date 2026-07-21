@@ -1,6 +1,19 @@
 (
-    title: "Pachinko Kaguya Hime (Japan)",
-    region: Some("Japan"),
-    hashes: ["260e8bdce496ce59eccc48431009839011c1f5bc"],
-    source: None,
+    title: "Pachinko Kaguya Hime",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "260e8bdce496ce59eccc48431009839011c1f5bc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

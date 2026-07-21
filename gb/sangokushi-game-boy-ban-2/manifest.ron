@@ -1,6 +1,20 @@
 (
-    title: "Sangokushi - Game Boy Ban 2 (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["ec6089ff2cfcb17faf6a8ea9a4171869b3c7289b"],
-    source: None,
+    title: "Sangokushi - Game Boy Ban 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ec6089ff2cfcb17faf6a8ea9a4171869b3c7289b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

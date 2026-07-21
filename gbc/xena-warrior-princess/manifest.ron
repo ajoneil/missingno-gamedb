@@ -1,6 +1,18 @@
 (
-    title: "Xena - Warrior Princess (USA, Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("USA, Europe"),
-    hashes: ["1de53d445d898aa25b0472c604d5cfb052812070"],
-    source: None,
+    title: "Xena - Warrior Princess",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "1de53d445d898aa25b0472c604d5cfb052812070",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

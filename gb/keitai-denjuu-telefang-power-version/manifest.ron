@@ -1,6 +1,19 @@
 (
-    title: "Keitai Denjuu Telefang - Power Version (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["baaf7fb9f9958ca22982ba0600bc0cb8a7fc4764"],
-    source: None,
+    title: "Keitai Denjuu Telefang - Power Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "baaf7fb9f9958ca22982ba0600bc0cb8a7fc4764",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

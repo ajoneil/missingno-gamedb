@@ -1,6 +1,20 @@
 (
-    title: "Tsumego Series 1 - Fujisawa Hideyuki Meiyo Kisei (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["4c16e7298713de7741ceb6513fa50a8b12432578"],
-    source: None,
+    title: "Tsumego Series 1 - Fujisawa Hideyuki Meiyo Kisei",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4c16e7298713de7741ceb6513fa50a8b12432578",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,52 @@
 (
-    title: "Mickey Mouse - Magic Wands! (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["90a181ee7d42941bce3b425077d6570da0e2fb2c"],
-    source: None,
+    title: "Mickey Mouse - Magic Wands!",
+    releases: [
+        (
+            title: Some("Mickey Mouse V"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b8537bef22696feadf51343b6e1697370c4a8d5a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "90a181ee7d42941bce3b425077d6570da0e2fb2c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mickey Mouse V"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "095285ec078124e3a4cbbfa3ac0d7680ee491e2b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

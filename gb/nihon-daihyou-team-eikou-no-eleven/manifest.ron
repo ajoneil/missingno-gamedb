@@ -1,6 +1,20 @@
 (
-    title: "Nihon Daihyou Team - Eikou no Eleven (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["344613295d4b246b8873dde2951b323197d18db7"],
-    source: None,
+    title: "Nihon Daihyou Team - Eikou no Eleven",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "344613295d4b246b8873dde2951b323197d18db7",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Warriors of Might and Magic (USA) (En,Fr,De)",
-    region: Some("USA"),
-    hashes: ["06163acad95d6ab87ffcd56f18b37c8c9e37a6ec"],
-    source: None,
+    title: "Warriors of Might and Magic",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "06163acad95d6ab87ffcd56f18b37c8c9e37a6ec",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

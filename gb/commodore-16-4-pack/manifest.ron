@@ -1,6 +1,20 @@
 (
-    title: "Commodore 16+4 Pack (World) (Demo 2)",
-    region: Some("World"),
-    hashes: ["0f2c4bb703909b42386f45629e4f5fc4d0871165", "7d17953236671c29a427fd70f039afa4d1f117e8"],
-    source: None,
+    title: "Commodore 16+4 Pack",
+    kind: Demo,
+    releases: [
+        (
+            label: Some("Demo 2"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "0f2c4bb703909b42386f45629e4f5fc4d0871165",
+                ),
+                (
+                    sha1: "7d17953236671c29a427fd70f039afa4d1f117e8",
+                ),
+            ],
+        ),
+    ],
 )

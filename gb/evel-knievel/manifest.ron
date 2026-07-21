@@ -1,6 +1,34 @@
 (
-    title: "Evel Knievel (Europe) (En,Fr,De,Es,It,Nl,Sv) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["0841f55e18fe6e4a50df826703db22681169f2e7", "24cac6ab0151b33d2b1fd06ee01931802fb98267"],
-    source: None,
+    title: "Evel Knievel",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "24cac6ab0151b33d2b1fd06ee01931802fb98267",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Sv"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0841f55e18fe6e4a50df826703db22681169f2e7",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

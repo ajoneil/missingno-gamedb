@@ -1,6 +1,35 @@
 (
-    title: "Trax (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["3f3a31ed7e47319c5815dd6e31ca27a52377423c"],
-    source: None,
+    title: "Trax",
+    releases: [
+        (
+            title: Some("Totsugeki! Ponkotsu Tank"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2baabb0b3e846e31188388e43ef822a03c777ead",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3f3a31ed7e47319c5815dd6e31ca27a52377423c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

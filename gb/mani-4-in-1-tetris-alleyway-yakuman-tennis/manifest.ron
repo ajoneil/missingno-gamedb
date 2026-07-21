@@ -1,6 +1,20 @@
 (
-    title: "Mani 4 in 1 - Tetris + Alleyway + Yakuman + Tennis (China) (Ja)",
-    region: Some("China"),
-    hashes: ["dfe46e066c599c17e684ddda3fd74c5357910630"],
-    source: None,
+    title: "Mani 4 in 1 - Tetris + Alleyway + Yakuman + Tennis",
+    releases: [
+        (
+            label: Some("Ja"),
+            regions: [
+                China,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dfe46e066c599c17e684ddda3fd74c5357910630",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Tiger Woods PGA Tour 2000 (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["46e81d5e7d4f41b3b0a0ab8b55a3592abe6911f3"],
-    source: None,
+    title: "Tiger Woods PGA Tour 2000",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "46e81d5e7d4f41b3b0a0ab8b55a3592abe6911f3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Ultimate Paintball (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["7765398db980c145062f2c0ac92b1f8f4ba40236"],
-    source: None,
+    title: "Ultimate Paintball",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "7765398db980c145062f2c0ac92b1f8f4ba40236",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

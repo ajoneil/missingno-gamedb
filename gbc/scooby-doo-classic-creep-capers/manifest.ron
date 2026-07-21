@@ -1,6 +1,17 @@
 (
-    title: "Scooby-Doo! - Classic Creep Capers (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["f45b42e92e9a570658a2790854578d3766f8c14f"],
-    source: None,
+    title: "Scooby-Doo! - Classic Creep Capers",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "f45b42e92e9a570658a2790854578d3766f8c14f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "InfoGenius Productivity Pak - Berlitz French Translator (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["ea77a00e9982ffa710ce9e179d4614419f9e1a35"],
-    source: None,
+    title: "InfoGenius Productivity Pak - Berlitz French Translator",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ea77a00e9982ffa710ce9e179d4614419f9e1a35",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

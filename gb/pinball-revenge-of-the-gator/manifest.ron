@@ -1,6 +1,51 @@
 (
-    title: "Pinball - Revenge of the 'Gator (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["493834db1c3c7859086a1c570a4bf5e5f6dd332b", "7f25663b3c1c15a3ee4f1bb719741823eea71ebb"],
-    source: None,
+    title: "Pinball - Revenge of the \'Gator",
+    releases: [
+        (
+            title: Some("Pinball - 66hiki no Wani Daikoushin!"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3671335514b388ee08322416abd873f11a5e0b66",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "493834db1c3c7859086a1c570a4bf5e5f6dd332b",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7f25663b3c1c15a3ee4f1bb719741823eea71ebb",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

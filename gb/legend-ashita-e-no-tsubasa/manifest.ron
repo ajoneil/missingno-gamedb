@@ -1,6 +1,19 @@
 (
-    title: "Legend - Ashita e no Tsubasa (Japan)",
-    region: Some("Japan"),
-    hashes: ["7447b3faa1d15e80815cdace3c6c0691bc28aa90"],
-    source: None,
+    title: "Legend - Ashita e no Tsubasa",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7447b3faa1d15e80815cdace3c6c0691bc28aa90",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

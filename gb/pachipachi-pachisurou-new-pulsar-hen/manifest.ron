@@ -1,6 +1,20 @@
 (
-    title: "Pachipachi Pachisurou - New Pulsar Hen (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["969d5352c15e3e5daa891edcda91bd48a8380308"],
-    source: None,
+    title: "Pachipachi Pachisurou - New Pulsar Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "969d5352c15e3e5daa891edcda91bd48a8380308",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

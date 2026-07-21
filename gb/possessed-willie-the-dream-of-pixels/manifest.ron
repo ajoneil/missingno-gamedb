@@ -1,6 +1,19 @@
 (
-    title: "Possessed Willie - The Dream of Pixels (World) (En) (v1.0.2c)",
-    region: Some("World"),
-    hashes: ["2ba2dd0238870957aeb42fa085a4329f36f109d7", "63a98dc40050a53cf37843002817b92a1d884f48"],
-    source: None,
+    title: "Possessed Willie - The Dream of Pixels",
+    releases: [
+        (
+            label: Some("En, v1.0.2c"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "2ba2dd0238870957aeb42fa085a4329f36f109d7",
+                ),
+                (
+                    sha1: "63a98dc40050a53cf37843002817b92a1d884f48",
+                ),
+            ],
+        ),
+    ],
 )

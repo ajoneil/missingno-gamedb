@@ -1,0 +1,43 @@
+(
+    title: "Beach\'n Ball",
+    releases: [
+        (
+            title: Some("Power Spike - Pro Beach Volleyball"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "cbf7377e2dfea331f983b34486ab7761ac75e3ac",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "90c0ab55136235d75a4e35bd5b0d90a99d2a42c4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            date: Some("2000-11-21"),
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "faaf82512ad3f5429acf401d9e74d7016252e263",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
+)

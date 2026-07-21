@@ -1,6 +1,36 @@
 (
-    title: "Dino Breeder (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["80ccbf87dcd4d4e76f1f6a7a94e00ec2857e530a", "a6e24e442de0541c3f5ec4d28650256c5d25f751"],
-    source: None,
+    title: "Dino Breeder",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "80ccbf87dcd4d4e76f1f6a7a94e00ec2857e530a",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a6e24e442de0541c3f5ec4d28650256c5d25f751",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Aqualife (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["69eaf53eccdaf98cd7cc0d436209f511b558d761"],
-    source: None,
+    title: "Aqualife",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "69eaf53eccdaf98cd7cc0d436209f511b558d761",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

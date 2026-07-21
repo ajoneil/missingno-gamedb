@@ -1,6 +1,39 @@
 (
-    title: "Mario Tennis (Europe)",
-    region: Some("Europe"),
-    hashes: ["414ba58340a27fc27b127bc01455b32764151ff0", "550dcc99d0a56bbb13ae3abb2a4193b830e54970"],
-    source: None,
+    title: "Mario Tennis",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "550dcc99d0a56bbb13ae3abb2a4193b830e54970",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mario Tennis GB"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "ad003d51b5a7adb7beb8b946cdf467db6d940204",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "414ba58340a27fc27b127bc01455b32764151ff0",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

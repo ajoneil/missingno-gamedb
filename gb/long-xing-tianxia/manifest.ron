@@ -1,6 +1,20 @@
 (
-    title: "Long Xing Tianxia (Taiwan) (Unl)",
-    region: Some("Taiwan"),
-    hashes: ["4da29dd4530ea3c26ea738427828d2e4903c99f8"],
-    source: None,
+    title: "Long Xing Tianxia",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4da29dd4530ea3c26ea738427828d2e4903c99f8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,36 @@
 (
-    title: "Puyo Puyo (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["65c80185c8948e1963509e13c40fb670ad6b64c5", "ef05ab17131030554e0d820dd0e602af82e1fe54"],
-    source: None,
+    title: "Puyo Puyo",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "65c80185c8948e1963509e13c40fb670ad6b64c5",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ef05ab17131030554e0d820dd0e602af82e1fe54",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

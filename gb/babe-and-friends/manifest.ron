@@ -1,6 +1,34 @@
 (
-    title: "Babe and Friends (Europe) (En,Fr,De,Es,It) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["51a4fd838903039b60bf5c13677cbea6bbb7d368", "52a560185b7e77e5286771f7851f69323512658e"],
-    source: None,
+    title: "Babe and Friends",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "51a4fd838903039b60bf5c13677cbea6bbb7d368",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "52a560185b7e77e5286771f7851f69323512658e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

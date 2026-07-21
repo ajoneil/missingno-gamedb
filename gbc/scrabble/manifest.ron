@@ -1,6 +1,16 @@
 (
-    title: "Scrabble (Europe)",
-    region: Some("Europe"),
-    hashes: ["ae24e07e8906bae07661cf5b8f50cd9b86a5c94d"],
-    source: None,
+    title: "Scrabble",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ae24e07e8906bae07661cf5b8f50cd9b86a5c94d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

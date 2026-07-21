@@ -1,6 +1,17 @@
 (
-    title: "Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["5f36071df7be289c169768b1683947e972d26996", "70472cbe59cfd426b0969150085cc97d31bd6470", "b6cd446962357d0f560a5c9fae4c917e039fbb77", "ebc68b180680c7037b151b9a1b511b681499ba30"],
-    source: None,
+    title: "Asterix & Obelix",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "5f36071df7be289c169768b1683947e972d26996",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

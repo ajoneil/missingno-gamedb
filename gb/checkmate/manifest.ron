@@ -1,6 +1,20 @@
 (
-    title: "Checkmate (Japan) (En,Ja) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["84e6c93daf1ab6c59bd23c0358a0704a663556b5"],
-    source: None,
+    title: "Checkmate",
+    releases: [
+        (
+            label: Some("En,Ja"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "84e6c93daf1ab6c59bd23c0358a0704a663556b5",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

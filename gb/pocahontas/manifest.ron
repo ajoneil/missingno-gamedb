@@ -1,6 +1,21 @@
 (
-    title: "Pocahontas (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["2a974981cfaae8096f09b76d060ec06c696963ac"],
-    source: None,
+    title: "Pocahontas",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2a974981cfaae8096f09b76d060ec06c696963ac",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Robin Hood (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["fe0c42e949bc41f070b22dd24e643aa42b007667"],
-    source: None,
+    title: "Robin Hood",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "fe0c42e949bc41f070b22dd24e643aa42b007667",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

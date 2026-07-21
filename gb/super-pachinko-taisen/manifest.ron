@@ -1,6 +1,20 @@
 (
-    title: "Super Pachinko Taisen (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["642f4f6b043d8886d02552430bf3b3c87142ad2d"],
-    source: None,
+    title: "Super Pachinko Taisen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "642f4f6b043d8886d02552430bf3b3c87142ad2d",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

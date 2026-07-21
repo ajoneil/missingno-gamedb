@@ -1,6 +1,20 @@
 (
-    title: "Mogu Mogu Gombo - Harukanaru Chou Ryouri Densetsu (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["a4524d11f2a86e28bc319335b5c05ea6550b26e1"],
-    source: None,
+    title: "Mogu Mogu Gombo - Harukanaru Chou Ryouri Densetsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a4524d11f2a86e28bc319335b5c05ea6550b26e1",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

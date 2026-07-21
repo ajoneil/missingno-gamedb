@@ -1,6 +1,27 @@
 (
-    title: "Sesame Street Sports (USA)",
-    region: Some("USA"),
-    hashes: ["2cf168dbaa51c1a0d49e6ab776872a0d2d5ced42", "c5f4d432f37a261da5d11426a36893718ef94b86"],
-    source: None,
+    title: "Sesame Street Sports",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "2cf168dbaa51c1a0d49e6ab776872a0d2d5ced42",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "c5f4d432f37a261da5d11426a36893718ef94b86",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

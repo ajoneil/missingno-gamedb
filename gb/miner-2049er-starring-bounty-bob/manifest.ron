@@ -1,6 +1,19 @@
 (
-    title: "Miner 2049er Starring Bounty Bob (USA)",
-    region: Some("USA"),
-    hashes: ["6f62bf7f88263470dfa61d6752b345573f10cd8f"],
-    source: None,
+    title: "Miner 2049er Starring Bounty Bob",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6f62bf7f88263470dfa61d6752b345573f10cd8f",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

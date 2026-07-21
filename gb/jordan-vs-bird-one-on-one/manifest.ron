@@ -1,6 +1,35 @@
 (
-    title: "Jordan vs Bird - One on One (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["c07fac4e1f29c4216ed94a2cdc7659dc3121b76e", "e498c76c6367daed183cc3b185557078832aa5d9"],
-    source: None,
+    title: "Jordan vs Bird - One on One",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c07fac4e1f29c4216ed94a2cdc7659dc3121b76e",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e498c76c6367daed183cc3b185557078832aa5d9",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

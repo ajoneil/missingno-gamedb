@@ -1,6 +1,17 @@
 (
-    title: "WWF Attitude (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["d5c37eabe3311666123b22f44a973c06d96bfce0"],
-    source: None,
+    title: "WWF Attitude",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d5c37eabe3311666123b22f44a973c06d96bfce0",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

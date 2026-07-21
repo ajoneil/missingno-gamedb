@@ -1,6 +1,35 @@
 (
-    title: "R-Type DX (Japan) (En) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["73c6b524136ef7e5318f526561b99dd0488cf36e", "e6a5c632b616e520b10b8b7589207c87c0092047"],
-    source: None,
+    title: "R-Type DX",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e6a5c632b616e520b10b8b7589207c87c0092047",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "73c6b524136ef7e5318f526561b99dd0488cf36e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

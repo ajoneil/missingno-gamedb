@@ -1,6 +1,19 @@
 (
-    title: "Tekichuu Rush (Japan)",
-    region: Some("Japan"),
-    hashes: ["037b677a369fc892e08c268a8334d7f48b1fa05c"],
-    source: None,
+    title: "Tekichuu Rush",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "037b677a369fc892e08c268a8334d7f48b1fa05c",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

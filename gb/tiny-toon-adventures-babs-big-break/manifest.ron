@@ -1,6 +1,69 @@
 (
-    title: "Tiny Toon Adventures - Babs' Big Break (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["2d15917713d9f7ba62b6b54b4bd845617515e847", "7baa81c93ea86a5ddb9b26545a446fe9b8979590"],
-    source: None,
+    title: "Tiny Toon Adventures - Babs\' Big Break",
+    releases: [
+        (
+            title: Some("Tiny Toon Adventures"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "08948315649160c62546f541f173808595f75149",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Tiny Toon Adventures"),
+            regions: [
+                Japan,
+            ],
+            date: Some("1991-07-16"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cb9753abd9f5ba69f310d7309a2a824caafa7f54",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            date: Some("1991-09-06"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2d15917713d9f7ba62b6b54b4bd845617515e847",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7baa81c93ea86a5ddb9b26545a446fe9b8979590",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

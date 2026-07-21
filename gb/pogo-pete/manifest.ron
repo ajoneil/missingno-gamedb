@@ -1,6 +1,18 @@
 (
-    title: "Pogo Pete (World)",
-    region: Some("World"),
-    hashes: ["74021e84c1d095b2401302e26352e810dbc432d8", "f9dab150843c2b8f300d36b1dd53dd1a22b481a3"],
-    source: None,
+    title: "Pogo Pete",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "74021e84c1d095b2401302e26352e810dbc432d8",
+                ),
+                (
+                    sha1: "f9dab150843c2b8f300d36b1dd53dd1a22b481a3",
+                ),
+            ],
+        ),
+    ],
 )

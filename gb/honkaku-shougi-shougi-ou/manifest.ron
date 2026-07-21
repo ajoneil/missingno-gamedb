@@ -1,6 +1,20 @@
 (
-    title: "Honkaku Shougi - Shougi Ou (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["a0e5a6b00cc31670949f7d8cdeec2486d0ec986f"],
-    source: None,
+    title: "Honkaku Shougi - Shougi Ou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a0e5a6b00cc31670949f7d8cdeec2486d0ec986f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

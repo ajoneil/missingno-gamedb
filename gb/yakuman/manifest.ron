@@ -1,6 +1,34 @@
 (
-    title: "Yakuman (Japan)",
-    region: Some("Japan"),
-    hashes: ["3fdb9ea690c0f035dd0dcc98b1dcc83ac5154e17", "a4db4509382d8a65e8ba4b799add6f98dbd9bc01"],
-    source: None,
+    title: "Yakuman",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3fdb9ea690c0f035dd0dcc98b1dcc83ac5154e17",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a4db4509382d8a65e8ba4b799add6f98dbd9bc01",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

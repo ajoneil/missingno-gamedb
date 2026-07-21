@@ -1,6 +1,80 @@
 (
-    title: "Snow Brothers (Europe)",
-    region: Some("Europe"),
-    hashes: ["3798924873d76952810b28925662f9cf805a17cc", "fe6754976f6758a91d2594d7cb9781ca0a340a90"],
-    source: None,
+    title: "Snow Brothers",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fe6754976f6758a91d2594d7cb9781ca0a340a90",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Snow Bros. Jr."),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d46e6bb01129f0725e73b6b9aca35a1aceb7e415",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3798924873d76952810b28925662f9cf805a17cc",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Snow Bros. Jr."),
+            label: Some("En, Limited Run Games"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9d1bdca56968907feda94310775e212935d7112f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Snow Bros. Jr."),
+            label: Some("Ja, Limited Run Games"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ce56a678cbcc45eef3b772480c5f062cbccb3171",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Footballer of the Year (World) (v1.0)",
-    region: Some("World"),
-    hashes: ["44166b7e6e8411ae61f37c7a78e90acaae66bcc5", "b7542729c8665a1a2af47f58fc59cc90f66fd77d"],
-    source: None,
+    title: "Footballer of the Year",
+    releases: [
+        (
+            label: Some("v1.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "44166b7e6e8411ae61f37c7a78e90acaae66bcc5",
+                ),
+                (
+                    sha1: "b7542729c8665a1a2af47f58fc59cc90f66fd77d",
+                ),
+            ],
+        ),
+    ],
 )

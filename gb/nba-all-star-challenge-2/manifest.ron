@@ -1,6 +1,35 @@
 (
-    title: "NBA All-Star Challenge 2 (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["a07672471909cace9e9765bce6a05a8ab74d55d4", "a19b5fcff89e5e58efb19449ace3d8f83a18ea78"],
-    source: None,
+    title: "NBA All-Star Challenge 2",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a07672471909cace9e9765bce6a05a8ab74d55d4",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a19b5fcff89e5e58efb19449ace3d8f83a18ea78",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,36 @@
 (
-    title: "Hole in One Golf (USA) (Rumble Version) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["d0c2fb49177bc1cf145503eb48bde3bd196ea1d9"],
-    source: None,
+    title: "Hole in One Golf",
+    releases: [
+        (
+            title: Some("Golf de Ohasuta"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8a19713515c4cd6983da57f76924babc090af654",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rumble Version"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d0c2fb49177bc1cf145503eb48bde3bd196ea1d9",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

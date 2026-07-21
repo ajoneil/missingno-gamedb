@@ -1,6 +1,28 @@
 (
-    title: "Dracula - Crazy Vampire (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["049727b428b01c5309a86039007c97bed7bf856a", "815f252f761e0fd3f29b7acf32b2360264aefab1"],
-    source: None,
+    title: "Dracula - Crazy Vampire",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "049727b428b01c5309a86039007c97bed7bf856a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "815f252f761e0fd3f29b7acf32b2360264aefab1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

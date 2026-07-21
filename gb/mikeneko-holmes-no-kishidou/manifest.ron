@@ -1,6 +1,19 @@
 (
-    title: "Mikeneko Holmes no Kishidou (Japan)",
-    region: Some("Japan"),
-    hashes: ["0fa85af4827f141cf3e6788b3bfdbc134d1a80c5"],
-    source: None,
+    title: "Mikeneko Holmes no Kishidou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0fa85af4827f141cf3e6788b3bfdbc134d1a80c5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

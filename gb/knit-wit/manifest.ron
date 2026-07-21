@@ -1,6 +1,16 @@
 (
-    title: "Knit-Wit (World) (v1.1) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["0f0e01a143182a9784c80a882ac206d02d8679d7"],
-    source: None,
+    title: "Knit-Wit",
+    releases: [
+        (
+            label: Some("v1.1"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "0f0e01a143182a9784c80a882ac206d02d8679d7",
+                ),
+            ],
+        ),
+    ],
 )

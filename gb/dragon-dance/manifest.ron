@@ -1,6 +1,87 @@
 (
-    title: "Dragon Dance (USA) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["5fc97752a98a18b7e2db238d1ab88c6b09e34602", "76de183317c952276dbdad9d8f0592493652f31e", "7df48e776ce2be88f7a9459530b855cef2f012b6", "a28bfabc4db62ad5aa6bfe29114b0878429586cc"],
-    source: None,
+    title: "Dragon Dance",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "76de183317c952276dbdad9d8f0592493652f31e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a28bfabc4db62ad5aa6bfe29114b0878429586cc",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 1"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7df48e776ce2be88f7a9459530b855cef2f012b6",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 2"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5fc97752a98a18b7e2db238d1ab88c6b09e34602",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pocket Color Block"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "84d243c64f98731965ca78b75ad48f8787d3c907",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,28 @@
 (
-    title: "Elevator Action EX (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["498308efb907c8dc79c9699d27ff349941fac23a", "db91028de0a07479f53f7449d0a6794d295e0b97"],
-    source: None,
+    title: "Elevator Action EX",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "db91028de0a07479f53f7449d0a6794d295e0b97",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "498308efb907c8dc79c9699d27ff349941fac23a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

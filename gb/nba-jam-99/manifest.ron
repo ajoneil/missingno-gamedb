@@ -1,6 +1,20 @@
 (
-    title: "NBA Jam 99 (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["f34d0ac01f14c7c2671b6097c2ef891e70826d72"],
-    source: None,
+    title: "NBA Jam 99",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f34d0ac01f14c7c2671b6097c2ef891e70826d72",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

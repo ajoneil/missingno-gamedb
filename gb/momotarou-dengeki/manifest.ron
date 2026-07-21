@@ -1,6 +1,19 @@
 (
-    title: "Momotarou Dengeki (Japan)",
-    region: Some("Japan"),
-    hashes: ["8450758a8338700468f862c73f344c63b921812f"],
-    source: None,
+    title: "Momotarou Dengeki",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8450758a8338700468f862c73f344c63b921812f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

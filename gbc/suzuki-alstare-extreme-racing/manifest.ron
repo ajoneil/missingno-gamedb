@@ -1,6 +1,29 @@
 (
-    title: "Suzuki Alstare Extreme Racing (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["2489b5c2572246edf3f28f9d62abcda9d63b62bf", "b2816e8585e03b7d547e8acfda716b7adddf3b41"],
-    source: None,
+    title: "Suzuki Alstare Extreme Racing",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "b2816e8585e03b7d547e8acfda716b7adddf3b41",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "2489b5c2572246edf3f28f9d62abcda9d63b62bf",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

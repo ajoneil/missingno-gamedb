@@ -1,6 +1,41 @@
 (
-    title: "Pokemon Puzzle Challenge (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["bbf952412250ae511b3b862566e424ce6a672f99", "e40d6a7f78b449e5a55baaaea7e227ab19d510e4"],
-    source: None,
+    title: "Pokemon Puzzle Challenge",
+    releases: [
+        (
+            title: Some("Pokemon de Panepon"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "110ae6649b4264f88d82760ad6ae4ee7f07db9b2",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Australia,
+            ],
+            artifacts: [
+                (
+                    sha1: "bbf952412250ae511b3b862566e424ce6a672f99",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e40d6a7f78b449e5a55baaaea7e227ab19d510e4",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

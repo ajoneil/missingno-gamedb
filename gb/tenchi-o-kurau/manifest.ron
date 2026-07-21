@@ -1,6 +1,19 @@
 (
-    title: "Tenchi o Kurau (Japan)",
-    region: Some("Japan"),
-    hashes: ["312bc91b1b857cc7ec0cb8bc7cfa80bfe10d7b4b"],
-    source: None,
+    title: "Tenchi o Kurau",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "312bc91b1b857cc7ec0cb8bc7cfa80bfe10d7b4b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

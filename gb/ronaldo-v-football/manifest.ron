@@ -1,6 +1,36 @@
 (
-    title: "Ronaldo V-Football (Europe) (En,Fr,De,Es,It,Nl,Pt) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["33350360394904a03c069261cc53ab1381f326b7"],
-    source: None,
+    title: "Ronaldo V-Football",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "33350360394904a03c069261cc53ab1381f326b7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Ronaldo V-Soccer"),
+            label: Some("En,Fr,Es,Pt"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4558565434fb3527178a183d6c4c4fb1a132e3d2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

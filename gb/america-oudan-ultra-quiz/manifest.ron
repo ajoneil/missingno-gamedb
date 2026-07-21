@@ -1,6 +1,19 @@
 (
-    title: "America Oudan Ultra Quiz (Japan)",
-    region: Some("Japan"),
-    hashes: ["9761f22250faf9c241fd7f9e2d00436f3fd454e7"],
-    source: None,
+    title: "America Oudan Ultra Quiz",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9761f22250faf9c241fd7f9e2d00436f3fd454e7",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

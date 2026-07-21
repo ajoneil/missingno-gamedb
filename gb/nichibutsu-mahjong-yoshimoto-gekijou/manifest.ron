@@ -1,6 +1,19 @@
 (
-    title: "Nichibutsu Mahjong - Yoshimoto Gekijou (Japan)",
-    region: Some("Japan"),
-    hashes: ["1ccec61dd26b163d921043893b1d2405e05ae3a2"],
-    source: None,
+    title: "Nichibutsu Mahjong - Yoshimoto Gekijou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1ccec61dd26b163d921043893b1d2405e05ae3a2",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

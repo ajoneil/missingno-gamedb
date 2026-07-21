@@ -1,6 +1,19 @@
 (
-    title: "Crystal Quest (USA)",
-    region: Some("USA"),
-    hashes: ["6c3ba1e407ff378dc004ac58d6a16180bd76a1b3"],
-    source: None,
+    title: "Crystal Quest",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6c3ba1e407ff378dc004ac58d6a16180bd76a1b3",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

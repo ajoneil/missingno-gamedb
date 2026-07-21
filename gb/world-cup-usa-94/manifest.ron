@@ -1,6 +1,35 @@
 (
-    title: "World Cup USA 94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)",
-    region: Some("Europe"),
-    hashes: ["1bd9910825a1ba3a9a9ad9084c8be0af04f2545f", "6f9fb96a4551b4c5b3c6d8928b9a561d1cc28acd"],
-    source: None,
+    title: "World Cup USA 94",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt,Sv"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1bd9910825a1ba3a9a9ad9084c8be0af04f2545f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt,Sv"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6f9fb96a4551b4c5b3c6d8928b9a561d1cc28acd",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

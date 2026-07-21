@@ -1,6 +1,19 @@
 (
-    title: "Pocket Mahjong (Japan)",
-    region: Some("Japan"),
-    hashes: ["f559e999a9957d5804eab7a250cdcfef1708e7f7"],
-    source: None,
+    title: "Pocket Mahjong",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f559e999a9957d5804eab7a250cdcfef1708e7f7",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

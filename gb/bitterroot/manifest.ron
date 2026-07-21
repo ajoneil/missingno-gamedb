@@ -1,6 +1,19 @@
 (
-    title: "Bitterroot (World) (En) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["790b9d231f6e66027e76264ef646c7a7cb9c878c", "b874c45d4866d5ef0c0d9837502ae42dd0ea3787"],
-    source: None,
+    title: "Bitterroot",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "790b9d231f6e66027e76264ef646c7a7cb9c878c",
+                ),
+                (
+                    sha1: "b874c45d4866d5ef0c0d9837502ae42dd0ea3787",
+                ),
+            ],
+        ),
+    ],
 )

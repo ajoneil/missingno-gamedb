@@ -1,6 +1,18 @@
 (
-    title: "Spiky Harold (World)",
-    region: Some("World"),
-    hashes: ["486d294b8cf226876581d543e3a08018321bc402", "b8f37a64524bde4c2b6e9a1938ed6e5c0a5aad7c"],
-    source: None,
+    title: "Spiky Harold",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "486d294b8cf226876581d543e3a08018321bc402",
+                ),
+                (
+                    sha1: "b8f37a64524bde4c2b6e9a1938ed6e5c0a5aad7c",
+                ),
+            ],
+        ),
+    ],
 )

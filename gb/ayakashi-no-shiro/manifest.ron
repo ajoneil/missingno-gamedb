@@ -1,6 +1,19 @@
 (
-    title: "Ayakashi no Shiro (Japan)",
-    region: Some("Japan"),
-    hashes: ["dad3ec1a054cbd092eedfdb1d742b811c105181a"],
-    source: None,
+    title: "Ayakashi no Shiro",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dad3ec1a054cbd092eedfdb1d742b811c105181a",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

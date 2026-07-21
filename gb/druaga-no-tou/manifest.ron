@@ -1,6 +1,20 @@
 (
-    title: "Druaga no Tou (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["7701f8c535f612943d736fef342973e9c77011df"],
-    source: None,
+    title: "Druaga no Tou",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7701f8c535f612943d736fef342973e9c77011df",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

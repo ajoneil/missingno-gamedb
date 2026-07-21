@@ -1,6 +1,134 @@
 (
-    title: "Pokemon - Red Version (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["66dc27a6998031e78042fcd24fcc053d78aabd2d", "ea9bcae617fdf159b045185467ae58b2e4a48b9a"],
-    source: None,
+    title: "Pokemon - Red Version",
+    releases: [
+        (
+            title: Some("Pokemon - Version Rouge"),
+            regions: [
+                France,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "47a7622fa30e6402a3891fe65b3a930bf9bd7aec",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Rote Edition"),
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "87d523fe1a0c548db7c5477b451ddec1eb083c06",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Versione Rossa"),
+            regions: [
+                Italy,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "65b97cf8f2f1cff711a6d08c6c894c8ce65ce522",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pocket Monsters - Aka"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0623ad12f48c259447980d68bd85ddbf8204b2cd",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pokemon - Edicion Roja"),
+            regions: [
+                Spain,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fc17c5b904d551b1b908054ccd1c493f755f832a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ea9bcae617fdf159b045185467ae58b2e4a48b9a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Pirate"),
+            regions: [
+                HongKong,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "66dc27a6998031e78042fcd24fcc053d78aabd2d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pocket Monsters - Aka"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ef74c79cded14204ac79e77f4964d9cb25003120",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

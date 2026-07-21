@@ -1,6 +1,19 @@
 (
-    title: "Jantaku Boy (Japan)",
-    region: Some("Japan"),
-    hashes: ["34f0a33f329915800ba681728c43d7451ff1f162"],
-    source: None,
+    title: "Jantaku Boy",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "34f0a33f329915800ba681728c43d7451ff1f162",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

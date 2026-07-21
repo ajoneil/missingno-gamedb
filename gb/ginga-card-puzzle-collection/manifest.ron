@@ -1,6 +1,20 @@
 (
-    title: "Ginga - Card & Puzzle Collection (Japan) (En,Ja)",
-    region: Some("Japan"),
-    hashes: ["14f4f14caee081dceadb9d31ae26fd8968c432ea"],
-    source: None,
+    title: "Ginga - Card & Puzzle Collection",
+    releases: [
+        (
+            label: Some("En,Ja"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "14f4f14caee081dceadb9d31ae26fd8968c432ea",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

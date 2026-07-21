@@ -1,6 +1,19 @@
 (
-    title: "Janshirou (Japan)",
-    region: Some("Japan"),
-    hashes: ["658120ff41a0fd4c2198f5618dd43a799958aa55"],
-    source: None,
+    title: "Janshirou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "658120ff41a0fd4c2198f5618dd43a799958aa55",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

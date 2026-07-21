@@ -1,6 +1,19 @@
 (
-    title: "Downtown - Nekketsu Koushinkyoku - Dokodemo Daiundoukai (Japan)",
-    region: Some("Japan"),
-    hashes: ["1b8f59467ddce14db359e22567e29f6955c7c92a"],
-    source: None,
+    title: "Downtown - Nekketsu Koushinkyoku - Dokodemo Daiundoukai",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1b8f59467ddce14db359e22567e29f6955c7c92a",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

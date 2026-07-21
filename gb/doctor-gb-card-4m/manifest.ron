@@ -1,6 +1,20 @@
 (
-    title: "Doctor GB Card 4M (World) (Unl)",
-    region: Some("World"),
-    hashes: ["43962a7459c8ccc0e5988060abd0f8668f30dfde"],
-    source: None,
+    title: "Doctor GB Card 4M",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "43962a7459c8ccc0e5988060abd0f8668f30dfde",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

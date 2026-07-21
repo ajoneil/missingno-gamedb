@@ -1,6 +1,17 @@
 (
-    title: "Fort Boyard (Europe) (En,Fr,De,Es,It,Nl,Pt)",
-    region: Some("Europe"),
-    hashes: ["a5b2d892568bc44424577f0a62228d05aa355efd"],
-    source: None,
+    title: "Fort Boyard",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "a5b2d892568bc44424577f0a62228d05aa355efd",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

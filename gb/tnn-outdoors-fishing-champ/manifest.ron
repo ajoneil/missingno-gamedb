@@ -1,6 +1,52 @@
 (
-    title: "TNN Outdoors Fishing Champ (USA) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["acfe7c9edd20f7d6b155deebc9428703edf28978"],
-    source: None,
+    title: "TNN Outdoors Fishing Champ",
+    releases: [
+        (
+            title: Some("EuroSport Pro Champ Fishing"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "565c16da5d2bc5dacffa992ed3f0466ec4888e73",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Black Bass Pocket 3"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b416f8fe1d229bd4e90259f2e6a7d78dd1f7bf3e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "acfe7c9edd20f7d6b155deebc9428703edf28978",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

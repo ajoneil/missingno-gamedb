@@ -1,6 +1,19 @@
 (
-    title: "Nontan to Issho - Kurukuru Puzzle (Japan)",
-    region: Some("Japan"),
-    hashes: ["d9b2d7a30b68c8bbd4f91203a475b64b410a25ae"],
-    source: None,
+    title: "Nontan to Issho - Kurukuru Puzzle",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d9b2d7a30b68c8bbd4f91203a475b64b410a25ae",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

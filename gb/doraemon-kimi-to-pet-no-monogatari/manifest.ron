@@ -1,6 +1,19 @@
 (
-    title: "Doraemon - Kimi to Pet no Monogatari (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["1fb01a4a492243c1768bdbf5db88fd95d0cc4f59"],
-    source: None,
+    title: "Doraemon - Kimi to Pet no Monogatari",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1fb01a4a492243c1768bdbf5db88fd95d0cc4f59",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

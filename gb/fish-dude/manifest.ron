@@ -1,6 +1,34 @@
 (
-    title: "Fish Dude (USA)",
-    region: Some("USA"),
-    hashes: ["72d11ae07b6701efe109d20dad6107ff6f603ea5"],
-    source: None,
+    title: "Fish Dude",
+    releases: [
+        (
+            title: Some("Uoozu"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d1b466b5a46de120d18309efade02d1745760d70",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "72d11ae07b6701efe109d20dad6107ff6f603ea5",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

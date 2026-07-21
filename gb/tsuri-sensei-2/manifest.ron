@@ -1,6 +1,20 @@
 (
-    title: "Tsuri Sensei 2 (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["ecc0b306501f1a2371a83db808bda38af8bc28ce"],
-    source: None,
+    title: "Tsuri Sensei 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ecc0b306501f1a2371a83db808bda38af8bc28ce",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

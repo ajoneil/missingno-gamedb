@@ -1,6 +1,17 @@
 (
-    title: "Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["ae521e5011b2b67de489374c3e9c5ec8ad8c0ee6"],
-    source: None,
+    title: "Hercules - The Legendary Journeys",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ae521e5011b2b67de489374c3e9c5ec8ad8c0ee6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

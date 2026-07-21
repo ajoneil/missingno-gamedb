@@ -1,6 +1,16 @@
 (
-    title: "ESPN National Hockey Night (USA)",
-    region: Some("USA"),
-    hashes: ["3ddf8cf9afe08c6079737a232ea071cedafeaa14"],
-    source: None,
+    title: "ESPN National Hockey Night",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "3ddf8cf9afe08c6079737a232ea071cedafeaa14",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

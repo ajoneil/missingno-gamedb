@@ -1,6 +1,21 @@
 (
-    title: "Sutte Hakkun GB (Japan) (Proto) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["6efd637f039d4f3a2240640921724a69a2844cc7"],
-    source: None,
+    title: "Sutte Hakkun GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6efd637f039d4f3a2240640921724a69a2844cc7",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Dungeon Warrior (Europe) (Proto)",
-    region: Some("Europe"),
-    hashes: ["21a6fba83faa7649fbb2e75176649bcd7d846d25"],
-    source: None,
+    title: "Dungeon Warrior",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "21a6fba83faa7649fbb2e75176649bcd7d846d25",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

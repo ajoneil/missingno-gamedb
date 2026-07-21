@@ -1,6 +1,28 @@
 (
-    title: "Grand Theft Auto 2 (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["6fd4b31d410ca98452ada0a1f3c0e2590e7df099", "a7577d81de3ab03b93b364f9e775c303c842dad2"],
-    source: None,
+    title: "Grand Theft Auto 2",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "6fd4b31d410ca98452ada0a1f3c0e2590e7df099",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "a7577d81de3ab03b93b364f9e775c303c842dad2",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

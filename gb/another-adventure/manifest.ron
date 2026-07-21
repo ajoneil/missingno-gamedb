@@ -1,6 +1,16 @@
 (
-    title: "Another Adventure (World) (En,Es) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["041473b2381dd9e11b3cbda5858f9841324327af"],
-    source: None,
+    title: "Another Adventure",
+    releases: [
+        (
+            label: Some("En,Es"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "041473b2381dd9e11b3cbda5858f9841324327af",
+                ),
+            ],
+        ),
+    ],
 )

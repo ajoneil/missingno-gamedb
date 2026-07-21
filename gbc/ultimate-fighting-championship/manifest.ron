@@ -1,6 +1,27 @@
 (
-    title: "Ultimate Fighting Championship (Europe)",
-    region: Some("Europe"),
-    hashes: ["5036626b97238e17b8fc203c44453e79b108cd2e", "8a02015e399a0311c15f0a8ca31744aa0be0f5e6"],
-    source: None,
+    title: "Ultimate Fighting Championship",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "5036626b97238e17b8fc203c44453e79b108cd2e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "8a02015e399a0311c15f0a8ca31744aa0be0f5e6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

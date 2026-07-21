@@ -1,6 +1,40 @@
 (
-    title: "Metal Gear Solid (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["2266499cfa10351b23fefd2216308867d1f1558b", "488bff9c4cee9e692a05b3938fd7b2014e743eac"],
-    source: None,
+    title: "Metal Gear Solid",
+    releases: [
+        (
+            title: Some("Metal Gear - Ghost Babel"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "ca9c35b578171f7ac4957ebb838195e806b5c1e8",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "2266499cfa10351b23fefd2216308867d1f1558b",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "488bff9c4cee9e692a05b3938fd7b2014e743eac",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

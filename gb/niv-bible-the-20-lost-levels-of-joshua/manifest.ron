@@ -1,6 +1,20 @@
 (
-    title: "NIV Bible & the 20 Lost Levels of Joshua (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["136cf97a8c3560ec9db3d8f354d91b7de27e0743"],
-    source: None,
+    title: "NIV Bible & the 20 Lost Levels of Joshua",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "136cf97a8c3560ec9db3d8f354d91b7de27e0743",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "InfoGenius Productivity Pak - Berlitz Spanish Translator (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["ff229bc70ef30154ef4b4d4f9a4f0eb86015682e"],
-    source: None,
+    title: "InfoGenius Productivity Pak - Berlitz Spanish Translator",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ff229bc70ef30154ef4b4d4f9a4f0eb86015682e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

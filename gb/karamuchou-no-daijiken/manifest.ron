@@ -1,6 +1,20 @@
 (
-    title: "Karamuchou no Daijiken (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["d831320bcec612c283afc2b6f194062cf98243dc"],
-    source: None,
+    title: "Karamuchou no Daijiken",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d831320bcec612c283afc2b6f194062cf98243dc",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

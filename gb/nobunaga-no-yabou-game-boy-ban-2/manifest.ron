@@ -1,6 +1,20 @@
 (
-    title: "Nobunaga no Yabou - Game Boy Ban 2 (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["a61e35306405e41c03b98b162ee14442e77c0da1"],
-    source: None,
+    title: "Nobunaga no Yabou - Game Boy Ban 2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a61e35306405e41c03b98b162ee14442e77c0da1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

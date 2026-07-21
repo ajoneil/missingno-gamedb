@@ -1,6 +1,20 @@
 (
-    title: "Super Street Basketball (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["4180a7a7f7e1f8de07875246a3079a6d1507fa06"],
-    source: None,
+    title: "Super Street Basketball",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4180a7a7f7e1f8de07875246a3079a6d1507fa06",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

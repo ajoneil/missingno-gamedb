@@ -1,6 +1,36 @@
 (
-    title: "Power Pro Kun Pocket (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["ae145f2de0d53c19b973c71baaf3f2cca2ca395a", "f796f9cb259646555f0d429b9337ac6b423755a3"],
-    source: None,
+    title: "Power Pro Kun Pocket",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f796f9cb259646555f0d429b9337ac6b423755a3",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ae145f2de0d53c19b973c71baaf3f2cca2ca395a",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

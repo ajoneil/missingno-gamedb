@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2476 Adj. Program (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["2ac3148a2593e062ffd8ed116da4eb749277c434"],
-    source: None,
+    title: "Minolta 2476 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2ac3148a2593e062ffd8ed116da4eb749277c434",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

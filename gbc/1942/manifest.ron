@@ -1,6 +1,17 @@
 (
-    title: "1942 (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["d960e951b18d07e79d046313df49c18313664224"],
-    source: None,
+    title: "1942",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d960e951b18d07e79d046313df49c18313664224",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

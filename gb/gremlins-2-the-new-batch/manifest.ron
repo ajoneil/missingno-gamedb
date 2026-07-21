@@ -1,6 +1,19 @@
 (
-    title: "Gremlins 2 - The New Batch (World)",
-    region: Some("World"),
-    hashes: ["0cb722d9d4e349bea1b1afa85d8d3b93f2dc2aad"],
-    source: None,
+    title: "Gremlins 2 - The New Batch",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0cb722d9d4e349bea1b1afa85d8d3b93f2dc2aad",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

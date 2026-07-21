@@ -1,6 +1,19 @@
 (
-    title: "Dicee! (World) (v1.1) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["27e7a34d44640162a4aec02e28b93d295d78180b", "6911854fe18000b0fe6015863240d0664d914547"],
-    source: None,
+    title: "Dicee!",
+    releases: [
+        (
+            label: Some("v1.1"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "27e7a34d44640162a4aec02e28b93d295d78180b",
+                ),
+                (
+                    sha1: "6911854fe18000b0fe6015863240d0664d914547",
+                ),
+            ],
+        ),
+    ],
 )

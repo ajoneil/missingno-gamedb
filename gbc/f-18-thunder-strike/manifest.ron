@@ -1,6 +1,31 @@
 (
-    title: "F-18 Thunder Strike (USA, Europe) (Beta) (Rumble Version)",
-    region: Some("USA, Europe"),
-    hashes: ["530aecae5b89e580be8a8d4827be95522d8319c4", "f7ccfc1f0822bdc611751d77b9f164c6aaa64c01"],
-    source: None,
+    title: "F-18 Thunder Strike",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "530aecae5b89e580be8a8d4827be95522d8319c4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rumble Version"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "f7ccfc1f0822bdc611751d77b9f164c6aaa64c01",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

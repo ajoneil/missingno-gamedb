@@ -1,6 +1,28 @@
 (
-    title: "Wendy - Der Traum von Arizona (Germany)",
-    region: Some("Germany"),
-    hashes: ["21141e9e0302ead50456af7b55a1391679455662", "fd39cb84f71ea414c0165a58bac98357739bc406"],
-    source: None,
+    title: "Wendy - Der Traum von Arizona",
+    releases: [
+        (
+            regions: [
+                Germany,
+            ],
+            artifacts: [
+                (
+                    sha1: "21141e9e0302ead50456af7b55a1391679455662",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Germany,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "fd39cb84f71ea414c0165a58bac98357739bc406",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

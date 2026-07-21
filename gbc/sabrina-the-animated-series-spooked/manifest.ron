@@ -1,6 +1,17 @@
 (
-    title: "Sabrina - The Animated Series - Spooked! (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["7a219159ef46c5ef88eb6b478667c2ec80194edc"],
-    source: None,
+    title: "Sabrina - The Animated Series - Spooked!",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "7a219159ef46c5ef88eb6b478667c2ec80194edc",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

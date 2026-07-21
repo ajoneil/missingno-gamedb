@@ -1,6 +1,20 @@
 (
-    title: "Selection I & II - Erabareshi Mono & Ankoku no Fuuin (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["58c0c524b07018beb2d9178de53fe2f6cbb6670f"],
-    source: None,
+    title: "Selection I & II - Erabareshi Mono & Ankoku no Fuuin",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "58c0c524b07018beb2d9178de53fe2f6cbb6670f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Zerd no Densetsu (Japan)",
-    region: Some("Japan"),
-    hashes: ["8db8ad90505d9a2b4485e903b9f5d67bb9c0c149"],
-    source: None,
+    title: "Zerd no Densetsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8db8ad90505d9a2b4485e903b9f5d67bb9c0c149",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

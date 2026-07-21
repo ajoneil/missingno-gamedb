@@ -1,6 +1,20 @@
 (
-    title: "GameShark (USA) (Unl) [b]",
-    region: Some("USA"),
-    hashes: ["09a6dae5e5faae1c4b5cf20e1b913b1c5e72297e"],
-    source: None,
+    title: "GameShark   [b]",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "09a6dae5e5faae1c4b5cf20e1b913b1c5e72297e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

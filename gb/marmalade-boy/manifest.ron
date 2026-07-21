@@ -1,6 +1,20 @@
 (
-    title: "Marmalade Boy (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["60125690b7a354ff8e72f497c8a88ecd691e7e4b"],
-    source: None,
+    title: "Marmalade Boy",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "60125690b7a354ff8e72f497c8a88ecd691e7e4b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

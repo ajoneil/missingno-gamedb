@@ -1,6 +1,99 @@
 (
-    title: "Super Mario Land 2 - 6 Golden Coins (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["96e3a314561fb394cdf51101f9178a32713c2313", "bba408539ecbf8d322324956d859bc86e2a9977b", "d11d94fa3c36b9f72e925070b66bb4f16d31001e"],
-    source: None,
+    title: "Super Mario Land 2 - 6 Golden Coins",
+    releases: [
+        (
+            title: Some("Super Mario Land 2 - 6-tsu no Kinka"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dc410e83f06ebd63ae5bd97e1b9562f0c887be37",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bba408539ecbf8d322324956d859bc86e2a9977b",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Mario Land 2 - 6-tsu no Kinka"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f536d4d76a22668b8672bb291e4c738abc55d759",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "96e3a314561fb394cdf51101f9178a32713c2313",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Mario Land 2 - 6-tsu no Kinka"),
+            label: Some("Rev 2"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "aaadb040ee6d85418e12f9993beb4f2cb8dc9953",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 2"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d11d94fa3c36b9f72e925070b66bb4f16d31001e",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

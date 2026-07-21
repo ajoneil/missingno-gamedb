@@ -1,6 +1,19 @@
 (
-    title: "Capcom Quiz - Hatena no Daibouken (Japan)",
-    region: Some("Japan"),
-    hashes: ["168583ea18e02647f0b35f9bd0365e37bec076cc"],
-    source: None,
+    title: "Capcom Quiz - Hatena no Daibouken",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "168583ea18e02647f0b35f9bd0365e37bec076cc",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

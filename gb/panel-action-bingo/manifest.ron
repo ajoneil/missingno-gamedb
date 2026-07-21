@@ -1,6 +1,19 @@
 (
-    title: "Panel Action Bingo (USA)",
-    region: Some("USA"),
-    hashes: ["527aeaaa52722605c98314cb7e522bb3a95a3b29"],
-    source: None,
+    title: "Panel Action Bingo",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "527aeaaa52722605c98314cb7e522bb3a95a3b29",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

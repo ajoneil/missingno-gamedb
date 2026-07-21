@@ -1,6 +1,20 @@
 (
-    title: "Tokimeki Memorial Pocket - Culture Hen - Komorebi no Melody (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["0f64c4afe74b6cfd693b6c65f0168dcb26224443"],
-    source: None,
+    title: "Tokimeki Memorial Pocket - Culture Hen - Komorebi no Melody",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0f64c4afe74b6cfd693b6c65f0168dcb26224443",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

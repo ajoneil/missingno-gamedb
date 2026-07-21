@@ -1,6 +1,52 @@
 (
-    title: "Saigo no Nindou (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["f983bd9b58ee07204e50c9fdd8a76ba57f2fb40c"],
-    source: None,
+    title: "Saigo no Nindou",
+    releases: [
+        (
+            title: Some("Ninja Spirit"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2a6411daf6ff4bfe9d3c177ddb371a356fc4ae56",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Ninja Spirit"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d11e218eab9dcad681b74784e1c5bd8d9f72cf6d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f983bd9b58ee07204e50c9fdd8a76ba57f2fb40c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,50 @@
 (
-    title: "Test Drive 6 (Europe) (En,Fr,De,Es,It) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["43ea5758fc6747014f024b567f5768ef43d5c841", "92e5b9911032e0b810fcb0b76a94bb117bcf107e", "f50415339a36ecea8a1207b6c197086372e29ab7", "f9519940ed05bdb59cd3878db8c479760d93a5bd"],
-    source: None,
+    title: "Test Drive 6",
+    kind: Demo,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "43ea5758fc6747014f024b567f5768ef43d5c841",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "92e5b9911032e0b810fcb0b76a94bb117bcf107e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f50415339a36ecea8a1207b6c197086372e29ab7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

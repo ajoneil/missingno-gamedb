@@ -1,6 +1,17 @@
 (
-    title: "Heroes of Might and Magic II (USA) (En,Fr,De)",
-    region: Some("USA"),
-    hashes: ["1d6ae18073c8b789c288039b0f579ebf15d1f03c"],
-    source: None,
+    title: "Heroes of Might and Magic II",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "1d6ae18073c8b789c288039b0f579ebf15d1f03c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

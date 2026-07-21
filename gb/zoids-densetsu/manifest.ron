@@ -1,6 +1,19 @@
 (
-    title: "Zoids Densetsu (Japan)",
-    region: Some("Japan"),
-    hashes: ["5d6016b605ea22901150bc5735bc13ba64aaf3c6"],
-    source: None,
+    title: "Zoids Densetsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5d6016b605ea22901150bc5735bc13ba64aaf3c6",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

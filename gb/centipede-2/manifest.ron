@@ -1,0 +1,34 @@
+(
+    title: "Centipede",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3e964fb53517c286b97375e6988208987f7bfa21",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f8d2a8eab2a8a76a51006d438849509837f008d3",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
+)

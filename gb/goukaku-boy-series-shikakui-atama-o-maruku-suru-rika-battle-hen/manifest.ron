@@ -1,6 +1,35 @@
 (
-    title: "Goukaku Boy Series - Shikakui Atama o Maruku Suru - Rika Battle Hen (Japan) (IE Institute)",
-    region: Some("Japan"),
-    hashes: ["4569f5cc0f528fdf46cfd1b3a8ef8a6fd3953d7e", "fa92ad7099a6c698088433d7721fd1e87b2b925d"],
-    source: None,
+    title: "Goukaku Boy Series - Shikakui Atama o Maruku Suru - Rika Battle Hen",
+    releases: [
+        (
+            label: Some("IE Institute"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4569f5cc0f528fdf46cfd1b3a8ef8a6fd3953d7e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Imagineer"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fa92ad7099a6c698088433d7721fd1e87b2b925d",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

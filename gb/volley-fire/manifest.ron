@@ -1,6 +1,19 @@
 (
-    title: "Volley Fire (Japan)",
-    region: Some("Japan"),
-    hashes: ["4c90e2c4a0b24983b339af8c0405cd5f4bf8881f"],
-    source: None,
+    title: "Volley Fire",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4c90e2c4a0b24983b339af8c0405cd5f4bf8881f",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Terminator 2 - Judgment Day (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["d2b94304971900dc2ff4945ad5cb445bfe434a5c"],
-    source: None,
+    title: "Terminator 2 - Judgment Day",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d2b94304971900dc2ff4945ad5cb445bfe434a5c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

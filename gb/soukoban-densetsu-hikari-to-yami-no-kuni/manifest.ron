@@ -1,6 +1,20 @@
 (
-    title: "Soukoban Densetsu - Hikari to Yami no Kuni (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["cb249bd50dc8c7d503544383af6fb5df0e874ae5"],
-    source: None,
+    title: "Soukoban Densetsu - Hikari to Yami no Kuni",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cb249bd50dc8c7d503544383af6fb5df0e874ae5",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

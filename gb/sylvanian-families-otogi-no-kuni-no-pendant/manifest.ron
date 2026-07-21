@@ -1,6 +1,20 @@
 (
-    title: "Sylvanian Families - Otogi no Kuni no Pendant (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["440d0010386f3f2d658740cc6584558f546482a6"],
-    source: None,
+    title: "Sylvanian Families - Otogi no Kuni no Pendant",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "440d0010386f3f2d658740cc6584558f546482a6",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

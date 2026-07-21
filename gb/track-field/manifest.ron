@@ -1,6 +1,35 @@
 (
-    title: "Track & Field (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["577a9f03adda485855c9164b4b8a2a351c214e3b"],
-    source: None,
+    title: "Track & Field",
+    releases: [
+        (
+            title: Some("Konamic Sports in Barcelona"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4d3b7d1a615c6783e741812a1b1de4467ed14eef",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "577a9f03adda485855c9164b4b8a2a351c214e3b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

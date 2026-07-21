@@ -1,6 +1,20 @@
 (
-    title: "Dusky Dungeon (World) (v0.1.0) (Proto) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["e2df238887da0b6cf79513c7799ad707740eae30", "f3b456d6318bee05150403efa5a933996e1d744a"],
-    source: None,
+    title: "Dusky Dungeon",
+    releases: [
+        (
+            label: Some("v0.1.0"),
+            regions: [
+                World,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "e2df238887da0b6cf79513c7799ad707740eae30",
+                ),
+                (
+                    sha1: "f3b456d6318bee05150403efa5a933996e1d744a",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "Chase H.Q. (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["cbcd6254b1b0227ba6aa8d95c979abb7fe8e4d38"],
-    source: None,
+    title: "Chase H.Q.",
+    releases: [
+        (
+            title: Some("Taito Chase H.Q."),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d448c5c63a0cca4f7c4ee806ff928c564d40d386",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cbcd6254b1b0227ba6aa8d95c979abb7fe8e4d38",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

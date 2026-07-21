@@ -1,6 +1,16 @@
 (
-    title: "Walaki (World) (Hu)",
-    region: Some("World"),
-    hashes: ["388d6c339b8d62db18e540f59a2930af4088ca7e"],
-    source: None,
+    title: "Walaki",
+    releases: [
+        (
+            label: Some("Hu"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "388d6c339b8d62db18e540f59a2930af4088ca7e",
+                ),
+            ],
+        ),
+    ],
 )

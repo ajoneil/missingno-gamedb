@@ -1,6 +1,35 @@
 (
-    title: "Mega Man Xtreme (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["c877449ba0889fdcacf23c49b0611d0ca57283c5"],
-    source: None,
+    title: "Mega Man Xtreme",
+    releases: [
+        (
+            title: Some("Rockman X - Cyber Mission"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c47d50814489b7426ce110d35d1c059d0c24af21",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c877449ba0889fdcacf23c49b0611d0ca57283c5",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "Commander Keen (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["a00b7bdaaedeb67ad7e7555139301c8b4c92edea"],
-    source: None,
+    title: "Commander Keen",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "a00b7bdaaedeb67ad7e7555139301c8b4c92edea",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

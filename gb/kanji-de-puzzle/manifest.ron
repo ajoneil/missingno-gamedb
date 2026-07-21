@@ -1,6 +1,19 @@
 (
-    title: "Kanji de Puzzle (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["a0f108d3838ac820b2ee3167e93886b979115006"],
-    source: None,
+    title: "Kanji de Puzzle",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a0f108d3838ac820b2ee3167e93886b979115006",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

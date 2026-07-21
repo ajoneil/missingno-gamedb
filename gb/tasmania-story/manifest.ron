@@ -1,6 +1,34 @@
 (
-    title: "Tasmania Story (USA)",
-    region: Some("USA"),
-    hashes: ["70e206bcd2c5c55ec1270bcb63cbfe8f5d049363"],
-    source: None,
+    title: "Tasmania Story",
+    releases: [
+        (
+            title: Some("Tasmania Monogatari"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6d036755c55c84b05fe1c015cc567f1889d27576",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "70e206bcd2c5c55ec1270bcb63cbfe8f5d049363",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

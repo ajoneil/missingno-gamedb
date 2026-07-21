@@ -1,6 +1,20 @@
 (
-    title: "Another Bible (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["6a5d0da889247169135665dc91f153305e1c71b6"],
-    source: None,
+    title: "Another Bible",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6a5d0da889247169135665dc91f153305e1c71b6",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

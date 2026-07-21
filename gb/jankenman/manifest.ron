@@ -1,6 +1,19 @@
 (
-    title: "Jankenman (Japan)",
-    region: Some("Japan"),
-    hashes: ["723f34875166b73c95610a6c146eeac34dd90868"],
-    source: None,
+    title: "Jankenman",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "723f34875166b73c95610a6c146eeac34dd90868",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,37 @@
 (
-    title: "Donkey Kong Land (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["18fd3fcf90e60122da92079669942b0363049d8f", "4e6d8f085ca197479d59912c1d58e4f3b40c28ac"],
-    source: None,
+    title: "Donkey Kong Land",
+    releases: [
+        (
+            title: Some("Super Donkey Kong GB"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fca5ebc5eebc20b0088423631719fb2dc862b276",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4e6d8f085ca197479d59912c1d58e4f3b40c28ac",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

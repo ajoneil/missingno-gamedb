@@ -1,6 +1,18 @@
 (
-    title: "G-Man (World)",
-    region: Some("World"),
-    hashes: ["cb9486ca9a6ad3903662963aa966145257ef92a6", "fdc9933d46a063575c175453b1da8042fd28b135"],
-    source: None,
+    title: "G-Man",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "cb9486ca9a6ad3903662963aa966145257ef92a6",
+                ),
+                (
+                    sha1: "fdc9933d46a063575c175453b1da8042fd28b135",
+                ),
+            ],
+        ),
+    ],
 )

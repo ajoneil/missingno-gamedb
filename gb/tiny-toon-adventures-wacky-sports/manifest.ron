@@ -1,6 +1,48 @@
 (
-    title: "Tiny Toon Adventures - Wacky Sports (Europe)",
-    region: Some("Europe"),
-    hashes: ["5b3e522f92c87e67a6d6c1922ce8df4314f7f504", "f44adc4a41331e31627d23305579bd4e493610de"],
-    source: None,
+    title: "Tiny Toon Adventures - Wacky Sports",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5b3e522f92c87e67a6d6c1922ce8df4314f7f504",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Tiny Toon Adventures 3 - Dokidoki Sport Festival"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e4b8d9bed45083472141f6856a13b04825164166",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f44adc4a41331e31627d23305579bd4e493610de",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

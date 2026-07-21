@@ -1,6 +1,20 @@
 (
-    title: "Spiritual Warfare (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["6e6ae5dbd8ff8b8f41b8411ef119e96e4ecf763f"],
-    source: None,
+    title: "Spiritual Warfare",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6e6ae5dbd8ff8b8f41b8411ef119e96e4ecf763f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

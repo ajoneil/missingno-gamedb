@@ -1,6 +1,34 @@
 (
-    title: "Kinin Koumaroku Oni (Japan)",
-    region: Some("Japan"),
-    hashes: ["298965bc2b99e49339618914114abfd0962560c1", "7c6c71b52c62b814945ee102054a7a3210b1ecf3"],
-    source: None,
+    title: "Kinin Koumaroku Oni",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7c6c71b52c62b814945ee102054a7a3210b1ecf3",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "298965bc2b99e49339618914114abfd0962560c1",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

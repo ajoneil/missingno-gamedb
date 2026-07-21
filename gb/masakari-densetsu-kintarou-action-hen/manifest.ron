@@ -1,6 +1,19 @@
 (
-    title: "Masakari Densetsu - Kintarou Action Hen (Japan)",
-    region: Some("Japan"),
-    hashes: ["ec23af3d5590b75b2a3b33708a4fe5cffe495a1f"],
-    source: None,
+    title: "Masakari Densetsu - Kintarou Action Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ec23af3d5590b75b2a3b33708a4fe5cffe495a1f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

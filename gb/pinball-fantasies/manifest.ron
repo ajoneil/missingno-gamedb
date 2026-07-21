@@ -1,6 +1,20 @@
 (
-    title: "Pinball Fantasies (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["58243f69598f2119f42dc4b35e89f04f92bb6d72"],
-    source: None,
+    title: "Pinball Fantasies",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "58243f69598f2119f42dc4b35e89f04f92bb6d72",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

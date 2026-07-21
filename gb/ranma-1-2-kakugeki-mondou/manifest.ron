@@ -1,6 +1,19 @@
 (
-    title: "Ranma 1-2 - Kakugeki Mondou!! (Japan)",
-    region: Some("Japan"),
-    hashes: ["57fd028fd44d6096967a3c80afd9e17c38c2513e"],
-    source: None,
+    title: "Ranma 1-2 - Kakugeki Mondou!!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "57fd028fd44d6096967a3c80afd9e17c38c2513e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

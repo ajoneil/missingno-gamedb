@@ -1,6 +1,17 @@
 (
-    title: "Tintin au Tibet (Europe) (En,Fr,De,Es,It,Nl,Sv)",
-    region: Some("Europe"),
-    hashes: ["eef17d4a827efab90c03083edb0bee534cd64188"],
-    source: None,
+    title: "Tintin au Tibet",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Sv"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "eef17d4a827efab90c03083edb0bee534cd64188",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

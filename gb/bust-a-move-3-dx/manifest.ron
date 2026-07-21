@@ -1,6 +1,19 @@
 (
-    title: "Bust-A-Move 3 DX (Europe)",
-    region: Some("Europe"),
-    hashes: ["e89dc67087205c4113a4d152347eba38204e270b"],
-    source: None,
+    title: "Bust-A-Move 3 DX",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e89dc67087205c4113a4d152347eba38204e270b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

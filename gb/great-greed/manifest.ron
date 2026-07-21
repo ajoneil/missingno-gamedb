@@ -1,6 +1,34 @@
 (
-    title: "Great Greed (USA)",
-    region: Some("USA"),
-    hashes: ["9d7de25431f3e31f244925e317e3d0933f5efa2e"],
-    source: None,
+    title: "Great Greed",
+    releases: [
+        (
+            title: Some("Vitamina Oukoku Monogatari"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d4195257a2debe78aa4dd433a324aec335ad36d1",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9d7de25431f3e31f244925e317e3d0933f5efa2e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

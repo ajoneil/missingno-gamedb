@@ -1,6 +1,39 @@
 (
-    title: "Tonka Raceway (Europe)",
-    region: Some("Europe"),
-    hashes: ["6a86b7172c53a8e67f3d72f953116991640f6e71", "9159b2ffe1ecf2a1a8f6af976e2737c0b22cea6d", "ec52838e58d33a3ed36cd0f80f287ef72a578624"],
-    source: None,
+    title: "Tonka Raceway",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ec52838e58d33a3ed36cd0f80f287ef72a578624",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "9159b2ffe1ecf2a1a8f6af976e2737c0b22cea6d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rumble Version"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "6a86b7172c53a8e67f3d72f953116991640f6e71",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

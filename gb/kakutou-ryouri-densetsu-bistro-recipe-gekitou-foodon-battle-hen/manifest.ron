@@ -1,6 +1,20 @@
 (
-    title: "Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["6a972325c07687b51fe6dbb3813bf54e1721668f"],
-    source: None,
+    title: "Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6a972325c07687b51fe6dbb3813bf54e1721668f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

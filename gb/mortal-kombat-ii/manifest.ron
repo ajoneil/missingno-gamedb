@@ -1,6 +1,36 @@
 (
-    title: "Mortal Kombat II (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["b8d400ee3d78a38f721f97e5222108d3586d2e63"],
-    source: None,
+    title: "Mortal Kombat II",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b8d400ee3d78a38f721f97e5222108d3586d2e63",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mortal Kombat II - Kyuukyoku Shinken"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0661ce04696ad0c1b70345c9e880a8b26cc1218a",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

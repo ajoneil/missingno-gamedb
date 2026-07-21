@@ -1,6 +1,33 @@
 (
-    title: "Super Battletank (Europe)",
-    region: Some("Europe"),
-    hashes: ["4931b578626abf8fd2e7b6e344234e7e688a1406", "7ad8cb997676b30befdebb7fae2a341d3712cef1"],
-    source: None,
+    title: "Super Battletank",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4931b578626abf8fd2e7b6e344234e7e688a1406",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7ad8cb997676b30befdebb7fae2a341d3712cef1",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

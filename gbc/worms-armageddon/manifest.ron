@@ -1,6 +1,53 @@
 (
-    title: "Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["0bff9f46f2c455e98a5f0d9c0d560eda88d939de", "5fce1d1b6a7cfa994808d473602f569537dc0231", "b0b14b13ec7cffb04efbf0dcdd93a2eea679ea0c", "ec587a3660298f95bf85f4471a626727b5fe6d7c"],
-    source: None,
+    title: "Worms Armageddon",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "b0b14b13ec7cffb04efbf0dcdd93a2eea679ea0c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "0bff9f46f2c455e98a5f0d9c0d560eda88d939de",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "ec587a3660298f95bf85f4471a626727b5fe6d7c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Limited Run Games"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "5fce1d1b6a7cfa994808d473602f569537dc0231",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

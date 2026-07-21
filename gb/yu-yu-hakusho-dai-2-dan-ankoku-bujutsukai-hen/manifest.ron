@@ -1,6 +1,19 @@
 (
-    title: "Yu Yu Hakusho Dai-2-dan - Ankoku Bujutsukai Hen (Japan)",
-    region: Some("Japan"),
-    hashes: ["3b28391763e43676389a97620e52908d02510e44"],
-    source: None,
+    title: "Yu Yu Hakusho Dai-2-dan - Ankoku Bujutsukai Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3b28391763e43676389a97620e52908d02510e44",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

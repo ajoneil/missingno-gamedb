@@ -1,6 +1,19 @@
 (
-    title: "Genki Bakuhatsu Gambaruger (Japan)",
-    region: Some("Japan"),
-    hashes: ["4ca8a77c95530879b175a2ec9a792485ae18e83c"],
-    source: None,
+    title: "Genki Bakuhatsu Gambaruger",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4ca8a77c95530879b175a2ec9a792485ae18e83c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

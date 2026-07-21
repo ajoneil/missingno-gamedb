@@ -1,6 +1,17 @@
 (
-    title: "SpongeBob SquarePants - Legend of the Lost Spatula (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["d3bea58987c9904056587242bf3ad26f91b4ef34"],
-    source: None,
+    title: "SpongeBob SquarePants - Legend of the Lost Spatula",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d3bea58987c9904056587242bf3ad26f91b4ef34",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

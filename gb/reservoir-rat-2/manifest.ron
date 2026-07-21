@@ -1,0 +1,36 @@
+(
+    title: "Reservoir Rat",
+    releases: [
+        (
+            title: Some("Rats!"),
+            label: Some("En,Es"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5e423dfab8221b69a641d2e535ebfe1e3759a2e4",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7ee86635f9d9735cc57673b08995be7003ff6082",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,6 +1,36 @@
 (
-    title: "Monster Rancher Battle Card GB (USA) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["f94dc1dbdf25d9ab7f7abd3d7878209d404b206d"],
-    source: None,
+    title: "Monster Rancher Battle Card GB",
+    releases: [
+        (
+            title: Some("Monster Farm Battle Card GB"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7e036e175c9e865572ab613ae0f8e6d3642ffb0e",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f94dc1dbdf25d9ab7f7abd3d7878209d404b206d",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

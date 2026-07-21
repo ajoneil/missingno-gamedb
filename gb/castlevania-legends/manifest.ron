@@ -1,6 +1,37 @@
 (
-    title: "Castlevania Legends (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["91a8e49bf6eac5fe62ec2cc5e6decbd08ce9b515"],
-    source: None,
+    title: "Castlevania Legends",
+    releases: [
+        (
+            title: Some("Akumajou Dracula - Shikkoku Taru Zensoukyoku - Dark Night Prelude"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "baaa12be322adc005e51b43c73a352420d7cd034",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "91a8e49bf6eac5fe62ec2cc5e6decbd08ce9b515",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

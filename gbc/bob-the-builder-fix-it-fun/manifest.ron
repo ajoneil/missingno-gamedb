@@ -1,6 +1,52 @@
 (
-    title: "Bob the Builder - Fix it Fun! (Europe) (En,Fr,De,Es,Nl)",
-    region: Some("Europe"),
-    hashes: ["167561998c356253c7092ad200dd1bc5386446a7", "476c75cbc05431e692dec8f4e10bcee9d3f5431a", "68bd9a1932d4e5333ab5b4dfe0d28f126e5d470f", "df4993587cff869c4824a5a771db5c26a748c9ea"],
-    source: None,
+    title: "Bob the Builder - Fix it Fun!",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "68bd9a1932d4e5333ab5b4dfe0d28f126e5d470f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "167561998c356253c7092ad200dd1bc5386446a7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "476c75cbc05431e692dec8f4e10bcee9d3f5431a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Sv,No,Da,Fi"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "df4993587cff869c4824a5a771db5c26a748c9ea",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

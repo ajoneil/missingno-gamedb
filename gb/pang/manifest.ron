@@ -1,6 +1,49 @@
 (
-    title: "Pang (Europe)",
-    region: Some("Europe"),
-    hashes: ["7ca64a45ea6a68770658ae39ef21c41f806988c5", "b57d436d8a83f2fb1e42bad3150893ef8ffab0d4"],
-    source: None,
+    title: "Pang",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7ca64a45ea6a68770658ae39ef21c41f806988c5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b57d436d8a83f2fb1e42bad3150893ef8ffab0d4",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Buster Bros."),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0d1692ff60ef1f6a97bbfd2bf8c1548f1f7439ed",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

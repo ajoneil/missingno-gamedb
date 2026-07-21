@@ -1,6 +1,68 @@
 (
-    title: "Probotector 2 (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["8f060253ea228c43d2992458dbf904a0b0d7b01e", "d3eafed6727afd14bd30ffc31e2d3e4ee6cfc52e"],
-    source: None,
+    title: "Probotector 2",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8f060253ea228c43d2992458dbf904a0b0d7b01e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d3eafed6727afd14bd30ffc31e2d3e4ee6cfc52e",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Contra Spirits"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "72213c5d8af05cad5f17a42566f7383066612eee",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Contra - The Alien Wars"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2e23477eb8738d7fb45e13b02f054422222c9c4f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

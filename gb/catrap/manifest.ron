@@ -1,6 +1,84 @@
 (
-    title: "Catrap (USA) (Beta)",
-    region: Some("USA"),
-    hashes: ["171e4d54f22f8dc137d12828fcc2da9874c56970", "928b9b3cb2ed5e6d6fc754679b3c994f7ed803c3"],
-    source: None,
+    title: "Catrap",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "171e4d54f22f8dc137d12828fcc2da9874c56970",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "928b9b3cb2ed5e6d6fc754679b3c994f7ed803c3",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pitman"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a698d4bccd69d2ca51cb48877bde5d1f83d4317f",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            title: Some("Power Paws"),
+            label: Some("Proto 1"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dd687ea26f4374336f43ed43a2e53f5309731b22",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            title: Some("Power Paws"),
+            label: Some("Proto 2"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6003c579e9467b183a897a8efb46181f01444e0b",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,36 @@
 (
-    title: "Radar Mission (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["5ab5998a84eebc769f75c482cb0a5586ed97e888"],
-    source: None,
+    title: "Radar Mission",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5ab5998a84eebc769f75c482cb0a5586ed97e888",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Kaisen Game - Radarmission"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "64a808f582afcbed6a3ce0263f1dae6fde57f30b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

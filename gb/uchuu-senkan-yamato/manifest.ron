@@ -1,6 +1,19 @@
 (
-    title: "Uchuu Senkan Yamato (Japan)",
-    region: Some("Japan"),
-    hashes: ["574cfb77817d3466672a9b39e6e8d467295ffd66"],
-    source: None,
+    title: "Uchuu Senkan Yamato",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "574cfb77817d3466672a9b39e6e8d467295ffd66",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

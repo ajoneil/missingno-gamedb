@@ -1,6 +1,20 @@
 (
-    title: "WWF Raw (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["03eb3a9a2af1e24e7de9de21a13dc677f46b06ce"],
-    source: None,
+    title: "WWF Raw",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "03eb3a9a2af1e24e7de9de21a13dc677f46b06ce",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

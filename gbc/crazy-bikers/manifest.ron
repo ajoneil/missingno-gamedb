@@ -1,6 +1,28 @@
 (
-    title: "Crazy Bikers (Europe)",
-    region: Some("Europe"),
-    hashes: ["c625608b5165e971827af8434e72d8ca8d200ab8"],
-    source: None,
+    title: "Crazy Bikers",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "c625608b5165e971827af8434e72d8ca8d200ab8",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Motocross Maniacs 2"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "5a0e7a9a71a88ee79529531274eb3696cf0fa42c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

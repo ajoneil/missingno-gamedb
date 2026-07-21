@@ -1,6 +1,36 @@
 (
-    title: "Power Pro GB (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["135d04cbaab6afd03997bceb6b1a2a8aa1dbc7e8", "ebca3bce624d19a0fa3a92d30a5c543c12541ea4"],
-    source: None,
+    title: "Power Pro GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "135d04cbaab6afd03997bceb6b1a2a8aa1dbc7e8",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ebca3bce624d19a0fa3a92d30a5c543c12541ea4",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

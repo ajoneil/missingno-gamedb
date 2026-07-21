@@ -1,6 +1,16 @@
 (
-    title: "Virtual BMO (World) (v3.1) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["afb550a63c7d73824b0779bb38e54bc609aea09c"],
-    source: None,
+    title: "Virtual BMO",
+    releases: [
+        (
+            label: Some("v3.1"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "afb550a63c7d73824b0779bb38e54bc609aea09c",
+                ),
+            ],
+        ),
+    ],
 )

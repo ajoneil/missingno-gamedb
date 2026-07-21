@@ -1,6 +1,20 @@
 (
-    title: "Purikura Pocket 2 - Kareshi Kaizou Daisakusen (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["6b7ab5728973865f970cd676a4837e7f4c4128bb"],
-    source: None,
+    title: "Purikura Pocket 2 - Kareshi Kaizou Daisakusen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6b7ab5728973865f970cd676a4837e7f4c4128bb",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

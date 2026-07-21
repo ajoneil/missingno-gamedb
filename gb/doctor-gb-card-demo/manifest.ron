@@ -1,6 +1,36 @@
 (
-    title: "Doctor GB Card Demo (World) (Demo) (Unl)",
-    region: Some("World"),
-    hashes: ["1d403b254971faa5834bc48adfd42cc0bbed3fe4", "a6e3b81b8664f41eb18770cd5757ed4d8338be54"],
-    source: None,
+    title: "Doctor GB Card Demo",
+    kind: Demo,
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1d403b254971faa5834bc48adfd42cc0bbed3fe4",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl, Alt"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a6e3b81b8664f41eb18770cd5757ed4d8338be54",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

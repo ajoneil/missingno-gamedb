@@ -1,6 +1,48 @@
 (
-    title: "Riddick Bowe Boxing (Europe)",
-    region: Some("Europe"),
-    hashes: ["261a6272560e04bef0819fd38e70607d7e23eea5", "69685eaffa523bf199be0c540d9eb561bb27d584", "93a8a28244461b564e828cca876821fb7a60fc89"],
-    source: None,
+    title: "Riddick Bowe Boxing",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "261a6272560e04bef0819fd38e70607d7e23eea5",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "69685eaffa523bf199be0c540d9eb561bb27d584",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "93a8a28244461b564e828cca876821fb7a60fc89",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Lunar Lander (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["05266f727879963a23dbbcd8c87c68597607f3b8"],
-    source: None,
+    title: "Lunar Lander",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "05266f727879963a23dbbcd8c87c68597607f3b8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

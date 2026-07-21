@@ -1,6 +1,20 @@
 (
-    title: "Paperboy 2 (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["473d84e2bfdb2dc2615b2ea416188c62fedb4ecf"],
-    source: None,
+    title: "Paperboy 2",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "473d84e2bfdb2dc2615b2ea416188c62fedb4ecf",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

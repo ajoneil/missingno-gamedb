@@ -1,6 +1,52 @@
 (
-    title: "Pac-Panic (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["64573cd6c4a26087485af540818c972cd256a881", "963222935becb2139fb0133fbd9b02a1e239bbf2"],
-    source: None,
+    title: "Pac-Panic",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "963222935becb2139fb0133fbd9b02a1e239bbf2",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pac-Attack"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3fb6907d2352b34e0e60e3ae7b1d32f3e0c84fc9",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "64573cd6c4a26087485af540818c972cd256a881",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

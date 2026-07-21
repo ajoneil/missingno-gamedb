@@ -1,6 +1,19 @@
 (
-    title: "Double Yakuman II (Japan)",
-    region: Some("Japan"),
-    hashes: ["7f6ed21bf0cce0d524dcbce56af5cab61c85d729"],
-    source: None,
+    title: "Double Yakuman II",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7f6ed21bf0cce0d524dcbce56af5cab61c85d729",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

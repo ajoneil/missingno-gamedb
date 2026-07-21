@@ -1,6 +1,17 @@
 (
-    title: "Hugo - Black Diamond Fever (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)",
-    region: Some("Europe"),
-    hashes: ["bb2721dd0866b9b7f41e590287569fc09339cc6a"],
-    source: None,
+    title: "Hugo - Black Diamond Fever",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "bb2721dd0866b9b7f41e590287569fc09339cc6a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

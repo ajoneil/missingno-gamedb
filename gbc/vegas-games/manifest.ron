@@ -1,6 +1,41 @@
 (
-    title: "Vegas Games (Europe) (En,Fr,De)",
-    region: Some("Europe"),
-    hashes: ["658cc13bc436a9ec613400b91288831900e3443e", "9b110d6ee12241aa5c061a1bb5f66e9cab93842f", "c73423444cc5900518fbd163ec7421dc3e5a7ca2"],
-    source: None,
+    title: "Vegas Games",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "c73423444cc5900518fbd163ec7421dc3e5a7ca2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "9b110d6ee12241aa5c061a1bb5f66e9cab93842f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De, Rev 1"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "658cc13bc436a9ec613400b91288831900e3443e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

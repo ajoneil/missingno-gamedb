@@ -1,6 +1,28 @@
 (
-    title: "Aladdin (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["23335b9654766275831115a54f5142c4cb9183fe", "6d925762a46e1996cf3702dfb85be09f546b2137", "81b4e56ae235fbb123d7ad4bd7c1d96c3b69eb72", "97b46bf9862c9a1ef73d41f18b3693c6d9c73c06", "a40694a808c5a0d3eeb386f81ad5b0c11163238f", "c59c44051e41dc6ac8c2f693cff2ba1feffd32f0"],
-    source: None,
+    title: "Aladdin",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "97b46bf9862c9a1ef73d41f18b3693c6d9c73c06",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "23335b9654766275831115a54f5142c4cb9183fe",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

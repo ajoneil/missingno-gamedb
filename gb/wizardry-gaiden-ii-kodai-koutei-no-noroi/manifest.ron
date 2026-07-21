@@ -1,6 +1,19 @@
 (
-    title: "Wizardry Gaiden II - Kodai Koutei no Noroi (Japan)",
-    region: Some("Japan"),
-    hashes: ["8dc0ab82462d4ab287d8155e8eab7e796eb7c766"],
-    source: None,
+    title: "Wizardry Gaiden II - Kodai Koutei no Noroi",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8dc0ab82462d4ab287d8155e8eab7e796eb7c766",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

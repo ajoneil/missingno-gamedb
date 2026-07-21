@@ -1,6 +1,16 @@
 (
-    title: "Densha de Go! (Japan)",
-    region: Some("Japan"),
-    hashes: ["9661a5cfa2dc4fedbca1f15b69cf81a3fc7fc097"],
-    source: None,
+    title: "Densha de Go!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "9661a5cfa2dc4fedbca1f15b69cf81a3fc7fc097",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

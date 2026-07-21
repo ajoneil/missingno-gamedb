@@ -1,6 +1,17 @@
 (
-    title: "Full Time Soccer & Hang Time Basketball (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["aefb746984b3450b90bbfaa5de21a252685ddabb"],
-    source: None,
+    title: "Full Time Soccer & Hang Time Basketball",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "aefb746984b3450b90bbfaa5de21a252685ddabb",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

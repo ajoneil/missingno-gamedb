@@ -1,6 +1,19 @@
 (
-    title: "GBKiss Mini Games (Japan)",
-    region: Some("Japan"),
-    hashes: ["3c6c78f0a936dbc3f366a82c1eca8be0597d4d5b"],
-    source: None,
+    title: "GBKiss Mini Games",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3c6c78f0a936dbc3f366a82c1eca8be0597d4d5b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

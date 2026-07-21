@@ -1,6 +1,36 @@
 (
-    title: "Lil' Monster (USA) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["cb812599f23f8812ff756e269a621de39b1b1def"],
-    source: None,
+    title: "Lil\' Monster",
+    releases: [
+        (
+            title: Some("Gem Gem Monster"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8b1396cf9dbc77246b3443810282b8b9bcb65a67",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cb812599f23f8812ff756e269a621de39b1b1def",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

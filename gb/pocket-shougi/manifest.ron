@@ -1,6 +1,20 @@
 (
-    title: "Pocket Shougi (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["5bc0aea0beb7c80f3d2bc650499a6c0e30006544"],
-    source: None,
+    title: "Pocket Shougi",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5bc0aea0beb7c80f3d2bc650499a6c0e30006544",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

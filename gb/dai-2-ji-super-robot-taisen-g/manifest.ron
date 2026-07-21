@@ -1,6 +1,20 @@
 (
-    title: "Dai-2-ji Super Robot Taisen G (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["0baa751363c05f9830656f98e77902d543822656"],
-    source: None,
+    title: "Dai-2-ji Super Robot Taisen G",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0baa751363c05f9830656f98e77902d543822656",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

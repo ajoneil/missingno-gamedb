@@ -1,6 +1,20 @@
 (
-    title: "Hello Kitty no Beads Factory (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["539ddbe7f73b33ffb886143dd14869d486f3fecf"],
-    source: None,
+    title: "Hello Kitty no Beads Factory",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "539ddbe7f73b33ffb886143dd14869d486f3fecf",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,28 @@
 (
-    title: "Pocket Racing (Europe)",
-    region: Some("Europe"),
-    hashes: ["76cdbd2fe7a2ad49c22083cd49f444ee51c4d140"],
-    source: None,
+    title: "Pocket Racing",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "76cdbd2fe7a2ad49c22083cd49f444ee51c4d140",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pocket GT"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "035e2284654751491fafb9d752740eefc2aa80cd",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

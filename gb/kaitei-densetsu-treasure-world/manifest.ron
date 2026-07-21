@@ -1,6 +1,19 @@
 (
-    title: "Kaitei Densetsu!! Treasure World (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["fe1cba586c0ff61628e52890b5ac40d1b7c4cbee"],
-    source: None,
+    title: "Kaitei Densetsu!! Treasure World",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fe1cba586c0ff61628e52890b5ac40d1b7c4cbee",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

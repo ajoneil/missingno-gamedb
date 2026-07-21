@@ -1,6 +1,41 @@
 (
-    title: "Inspector Gadget - Operation Madkactus (Europe) (Fr) (Beta)",
-    region: Some("Europe"),
-    hashes: ["55c02b81fa854938ca3cb3e5b725a6a72f711e7b", "8444ff17aa3f865eec33cc49398b450e345376c3", "b0fa81a35e605948df3b7f1fcb5893bab99d9d6a"],
-    source: None,
+    title: "Inspector Gadget - Operation Madkactus",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "b0fa81a35e605948df3b7f1fcb5893bab99d9d6a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "55c02b81fa854938ca3cb3e5b725a6a72f711e7b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Fr"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "8444ff17aa3f865eec33cc49398b450e345376c3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

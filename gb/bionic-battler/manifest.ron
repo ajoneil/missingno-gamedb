@@ -1,6 +1,35 @@
 (
-    title: "Bionic Battler (USA)",
-    region: Some("USA"),
-    hashes: ["9eca6a5fd1e537085598e8b2903ad75fe9c0b785"],
-    source: None,
+    title: "Bionic Battler",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9eca6a5fd1e537085598e8b2903ad75fe9c0b785",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("VS Battler"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5f99c7767cbbf5ad9164805214875d7054f49f14",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

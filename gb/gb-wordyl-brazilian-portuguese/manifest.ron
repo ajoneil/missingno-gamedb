@@ -1,6 +1,22 @@
 (
-    title: "GB-Wordyl - Brazilian Portuguese (World) (Pt-BR) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["53ed18d8794979ff83d6f8f7b83dd82f121f2a55", "691af25434a09931a302ced52c757d28b9b06619", "cd20f420e03a6ba2238f8e7164e93703cc74ef80"],
-    source: None,
+    title: "GB-Wordyl - Brazilian Portuguese",
+    releases: [
+        (
+            label: Some("Pt-BR"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "53ed18d8794979ff83d6f8f7b83dd82f121f2a55",
+                ),
+                (
+                    sha1: "691af25434a09931a302ced52c757d28b9b06619",
+                ),
+                (
+                    sha1: "cd20f420e03a6ba2238f8e7164e93703cc74ef80",
+                ),
+            ],
+        ),
+    ],
 )

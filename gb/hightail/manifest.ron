@@ -1,6 +1,20 @@
 (
-    title: "Hightail (World) (Demo 4A)",
-    region: Some("World"),
-    hashes: ["bbf1f2af7594862f94b72f2f5a7be54040aa8569", "c794f30bedc69aa4d3567ab8f06f4ad651d5be24"],
-    source: None,
+    title: "Hightail",
+    kind: Demo,
+    releases: [
+        (
+            label: Some("Demo 4A"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "bbf1f2af7594862f94b72f2f5a7be54040aa8569",
+                ),
+                (
+                    sha1: "c794f30bedc69aa4d3567ab8f06f4ad651d5be24",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Nyghtmare - Betrayed (World) (Alpha A)",
-    region: Some("World"),
-    hashes: ["08484b0f98e72d6577d9b7cde8c49908012d1fc5", "fa2198c5308a15195adbda004f09646589860d11"],
-    source: None,
+    title: "Nyghtmare - Betrayed",
+    releases: [
+        (
+            label: Some("Alpha A"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "08484b0f98e72d6577d9b7cde8c49908012d1fc5",
+                ),
+                (
+                    sha1: "fa2198c5308a15195adbda004f09646589860d11",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,49 @@
 (
-    title: "Mario & Yoshi (Europe)",
-    region: Some("Europe"),
-    hashes: ["9bf642eabdb51625d1ef1ac470666ec8f5f10f77"],
-    source: None,
+    title: "Mario & Yoshi",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9bf642eabdb51625d1ef1ac470666ec8f5f10f77",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Yoshi no Tamago"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5cb61dee0eb3f9d35775a607803d06c8cebcb842",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Yoshi"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1b6e41c2270ce67e6fe15cc4977ef2debdd6e6ce",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

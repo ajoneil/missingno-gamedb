@@ -1,6 +1,40 @@
 (
-    title: "Konami Winter Games (Europe)",
-    region: Some("Europe"),
-    hashes: ["2b51f52560226dec0467e5bf4897cd12e8453888"],
-    source: None,
+    title: "Konami Winter Games",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "2b51f52560226dec0467e5bf4897cd12e8453888",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Hyper Olympic - Winter 2000"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "b8b0ea6e8a1093e7171ffe0eff73967a6cc00bce",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Millennium Winter Sports"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "f47321c3c1217467dc48240bf53b50ed9630b28a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

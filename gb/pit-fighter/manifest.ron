@@ -1,6 +1,20 @@
 (
-    title: "Pit-Fighter (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["2a399b0524e9983fd361a98ec4b99d562361223b"],
-    source: None,
+    title: "Pit-Fighter",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2a399b0524e9983fd361a98ec4b99d562361223b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

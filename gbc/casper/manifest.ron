@@ -1,6 +1,53 @@
 (
-    title: "Casper (Europe)",
-    region: Some("Europe"),
-    hashes: ["0a8560a35157dc5270309a7b4c0227e2f2a8c461", "18b90172789c87819fe4d606aa7874109bcd8024", "1a3d272d8afe81731862a240a77c0d3b80b1d62f", "1a964811c1d808403c4bae1adc7b7f78bf610399", "1d036bed67da4dc57add0e9e266fbdb993778823", "6f44a817c7424a5b24919b01e1e868d2c2650341", "82ac50380c3ed39fad13cc0bbe35e6457806a294"],
-    source: None,
+    title: "Casper",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "82ac50380c3ed39fad13cc0bbe35e6457806a294",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "1a964811c1d808403c4bae1adc7b7f78bf610399",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "0a8560a35157dc5270309a7b4c0227e2f2a8c461",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "6f44a817c7424a5b24919b01e1e868d2c2650341",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

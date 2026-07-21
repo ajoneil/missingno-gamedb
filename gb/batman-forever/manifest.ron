@@ -1,6 +1,35 @@
 (
-    title: "Batman Forever (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["4fab046d18addafbc625fe4cefec37098747d716", "cb76b6d3ec9903a734f70ff11195f40f13f4d83f"],
-    source: None,
+    title: "Batman Forever",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cb76b6d3ec9903a734f70ff11195f40f13f4d83f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4fab046d18addafbc625fe4cefec37098747d716",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

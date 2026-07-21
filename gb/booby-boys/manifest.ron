@@ -1,6 +1,19 @@
 (
-    title: "Booby Boys (Japan)",
-    region: Some("Japan"),
-    hashes: ["61fe27a4ce83bc6d9dba5d4d0652e83dbec45e6e"],
-    source: None,
+    title: "Booby Boys",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "61fe27a4ce83bc6d9dba5d4d0652e83dbec45e6e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

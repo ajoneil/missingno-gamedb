@@ -1,6 +1,33 @@
 (
-    title: "Zen - Intergalactic Ninja (Europe)",
-    region: Some("Europe"),
-    hashes: ["0e753ed48e28a0e6a820ac9b8403c50c004f22e2", "47bbc472071770783b3d930141390f48741176af"],
-    source: None,
+    title: "Zen - Intergalactic Ninja",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0e753ed48e28a0e6a820ac9b8403c50c004f22e2",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "47bbc472071770783b3d930141390f48741176af",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

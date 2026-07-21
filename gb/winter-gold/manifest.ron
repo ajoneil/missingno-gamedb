@@ -1,6 +1,51 @@
 (
-    title: "Winter Gold (Europe)",
-    region: Some("Europe"),
-    hashes: ["6ab5c2ee2157e81b5584562a5e386fb7434b3f80"],
-    source: None,
+    title: "Winter Gold",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6ab5c2ee2157e81b5584562a5e386fb7434b3f80",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Winter Olympic Games"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "95d664a8a0b74d6993501847d4ce065913bd1e08",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Winter Olympic Games"),
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6f66dc2ab6f302251591a1252be12367a8e8dfe4",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

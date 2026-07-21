@@ -1,6 +1,19 @@
 (
-    title: "Trump Collection GB (Japan)",
-    region: Some("Japan"),
-    hashes: ["fd8af42fecef8d1c826df7fed7859e2b03d861ba"],
-    source: None,
+    title: "Trump Collection GB",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "fd8af42fecef8d1c826df7fed7859e2b03d861ba",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

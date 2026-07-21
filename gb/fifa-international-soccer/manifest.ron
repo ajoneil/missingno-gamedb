@@ -1,6 +1,22 @@
 (
-    title: "FIFA International Soccer (USA, Europe) (En,Fr,De,Es) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["6f0affdec339d7beb9c565dc51abe59ee0398b7b"],
-    source: None,
+    title: "FIFA International Soccer",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6f0affdec339d7beb9c565dc51abe59ee0398b7b",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

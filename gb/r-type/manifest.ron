@@ -1,6 +1,35 @@
 (
-    title: "R-Type (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["28531a4eb668477df98caf0e87cedc0e5fdfe53b", "440573ce4ea3bab679e25315cd3f05c5530f6bd1"],
-    source: None,
+    title: "R-Type",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "28531a4eb668477df98caf0e87cedc0e5fdfe53b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "440573ce4ea3bab679e25315cd3f05c5530f6bd1",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

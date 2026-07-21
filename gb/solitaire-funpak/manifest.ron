@@ -1,6 +1,20 @@
 (
-    title: "Solitaire FunPak (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["185b95313d437b9e4bed2d10a346d16c4640325c"],
-    source: None,
+    title: "Solitaire FunPak",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "185b95313d437b9e4bed2d10a346d16c4640325c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

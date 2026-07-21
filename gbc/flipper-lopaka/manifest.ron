@@ -1,6 +1,17 @@
 (
-    title: "Flipper & Lopaka (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
-    region: Some("Europe"),
-    hashes: ["3d538b78ef5f1238f47531c069921056b00e33b3"],
-    source: None,
+    title: "Flipper & Lopaka",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt,Sv,No,Da"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "3d538b78ef5f1238f47531c069921056b00e33b3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Bakenou V3 (Japan)",
-    region: Some("Japan"),
-    hashes: ["b1bf86f4ffb9af9c5f1c592f0cabedb95b405437"],
-    source: None,
+    title: "Bakenou V3",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b1bf86f4ffb9af9c5f1c592f0cabedb95b405437",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

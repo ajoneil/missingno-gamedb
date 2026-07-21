@@ -1,6 +1,19 @@
 (
-    title: "Sports Illustrated for Kids - The Ultimate Triple Dare! (USA)",
-    region: Some("USA"),
-    hashes: ["170a9b400e7db3270883dbb58704fc141053faa9"],
-    source: None,
+    title: "Sports Illustrated for Kids - The Ultimate Triple Dare!",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "170a9b400e7db3270883dbb58704fc141053faa9",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

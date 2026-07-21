@@ -1,6 +1,20 @@
 (
-    title: "Pokonyan! - Yume no Daibouken (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["c5706e26f1cc591cd1fe762ace097df868703480"],
-    source: None,
+    title: "Pokonyan! - Yume no Daibouken",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c5706e26f1cc591cd1fe762ace097df868703480",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

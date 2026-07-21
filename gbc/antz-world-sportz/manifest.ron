@@ -1,6 +1,17 @@
 (
-    title: "Antz World Sportz (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["d8ddf04baad3beadedf85847964f986ba89bc5ee"],
-    source: None,
+    title: "Antz World Sportz",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d8ddf04baad3beadedf85847964f986ba89bc5ee",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

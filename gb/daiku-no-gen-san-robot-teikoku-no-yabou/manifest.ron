@@ -1,6 +1,19 @@
 (
-    title: "Daiku no Gen-san - Robot Teikoku no Yabou (Japan)",
-    region: Some("Japan"),
-    hashes: ["0c68250aadca89027b05659122c89682ff833298"],
-    source: None,
+    title: "Daiku no Gen-san - Robot Teikoku no Yabou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0c68250aadca89027b05659122c89682ff833298",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

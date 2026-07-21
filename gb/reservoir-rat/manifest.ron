@@ -1,6 +1,20 @@
 (
-    title: "Reservoir Rat (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["08dad9ac1f045d1c9e403c4ea1368aee991e0094", "7ee86635f9d9735cc57673b08995be7003ff6082"],
-    source: None,
+    title: "Reservoir Rat",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "08dad9ac1f045d1c9e403c4ea1368aee991e0094",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

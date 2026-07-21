@@ -1,6 +1,19 @@
 (
-    title: "Pocket Sonar (Japan)",
-    region: Some("Japan"),
-    hashes: ["788cdf148431b82b5308c68b3e45b133a7074196"],
-    source: None,
+    title: "Pocket Sonar",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "788cdf148431b82b5308c68b3e45b133a7074196",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

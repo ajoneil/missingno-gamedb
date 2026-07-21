@@ -1,6 +1,17 @@
 (
-    title: "Space Invasion & Karate Joe (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["96918cbd3648b227eb43e5a9711d1a9939541bea"],
-    source: None,
+    title: "Space Invasion & Karate Joe",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "96918cbd3648b227eb43e5a9711d1a9939541bea",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

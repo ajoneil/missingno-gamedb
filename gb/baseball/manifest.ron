@@ -1,6 +1,19 @@
 (
-    title: "Baseball (World)",
-    region: Some("World"),
-    hashes: ["bb613ed8d492d49db35370bec38d9f2515dc24c9"],
-    source: None,
+    title: "Baseball",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bb613ed8d492d49db35370bec38d9f2515dc24c9",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

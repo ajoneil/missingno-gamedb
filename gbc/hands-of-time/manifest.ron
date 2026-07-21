@@ -1,6 +1,18 @@
 (
-    title: "Hands of Time (USA, Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("USA, Europe"),
-    hashes: ["ae07e529f1c98432f37fa674ee4de6305807a92b"],
-    source: None,
+    title: "Hands of Time",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "ae07e529f1c98432f37fa674ee4de6305807a92b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

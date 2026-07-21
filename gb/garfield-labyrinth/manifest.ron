@@ -1,6 +1,65 @@
 (
-    title: "Garfield Labyrinth (Europe)",
-    region: Some("Europe"),
-    hashes: ["87913e557dfb98c5f2a0f42ea074c36eca57a4f7", "c9170113c3370523cf5d13132ed3e2253a3f9dde"],
-    source: None,
+    title: "Garfield Labyrinth",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "87913e557dfb98c5f2a0f42ea074c36eca57a4f7",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c9170113c3370523cf5d13132ed3e2253a3f9dde",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("The Real Ghostbusters"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f470bf48b02e95b7f2c0d82b5c676bd298ab6d52",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mickey Mouse IV - Mahou no Labyrinth"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d091d67890103ca97caf2c46d6bf4e2a85c92383",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

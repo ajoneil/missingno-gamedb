@@ -1,6 +1,16 @@
 (
-    title: "Rampart (Japan)",
-    region: Some("Japan"),
-    hashes: ["0e196236a21fc4558f3eab92ba38a574a1fde918", "40cef7a1af53d2da5cd7b9d7927f1f64399e69dc", "51e5408e5e8243c762f4218fd4138c849ee7d625"],
-    source: None,
+    title: "Rampart",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "40cef7a1af53d2da5cd7b9d7927f1f64399e69dc",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

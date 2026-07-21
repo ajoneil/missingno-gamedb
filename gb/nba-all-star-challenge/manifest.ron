@@ -1,6 +1,20 @@
 (
-    title: "NBA All-Star Challenge (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["ff2eddbb7fc60efdcab60bad53d404768afc9f40"],
-    source: None,
+    title: "NBA All-Star Challenge",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ff2eddbb7fc60efdcab60bad53d404768afc9f40",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

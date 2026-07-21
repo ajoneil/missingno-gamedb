@@ -1,6 +1,19 @@
 (
-    title: "Kikou Keisatsu Metal Jack (Japan)",
-    region: Some("Japan"),
-    hashes: ["8245f9f91126faad1f30502e1fc8012cc26c43c1"],
-    source: None,
+    title: "Kikou Keisatsu Metal Jack",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8245f9f91126faad1f30502e1fc8012cc26c43c1",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

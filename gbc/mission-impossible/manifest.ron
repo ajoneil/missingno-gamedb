@@ -1,6 +1,41 @@
 (
-    title: "Mission - Impossible (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["5eb8dad248ff23809016a2515657089116e8df33", "a987998cf57d2eb2275de94cd0e81254b711ccac", "f822bda01d881f34d1e17664465faf6a3ff64356"],
-    source: None,
+    title: "Mission - Impossible",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "5eb8dad248ff23809016a2515657089116e8df33",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It, Rev 1, Possible Proto"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "f822bda01d881f34d1e17664465faf6a3ff64356",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "a987998cf57d2eb2275de94cd0e81254b711ccac",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

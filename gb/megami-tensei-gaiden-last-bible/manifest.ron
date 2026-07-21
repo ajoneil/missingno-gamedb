@@ -1,6 +1,35 @@
 (
-    title: "Megami Tensei Gaiden - Last Bible (Japan)",
-    region: Some("Japan"),
-    hashes: ["419c5afdbc9b59e05e7861de8cc59ee367cd29f0", "537b38234da5164335e98f6aee3b792048624626"],
-    source: None,
+    title: "Megami Tensei Gaiden - Last Bible",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "537b38234da5164335e98f6aee3b792048624626",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Xin Nushen Zhuansheng Waizhuan - Zuihou de Shengjing"),
+            label: Some("Pirate"),
+            regions: [
+                Taiwan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f33091c0bfd840e0ce4c4f99c463cfb92f823a64",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

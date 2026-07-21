@@ -1,6 +1,20 @@
 (
-    title: "Nihon Daihyou Team France de Ganbare! - J.League Supporter Soccer (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["1f038df0b742a2d76d49eaefe7b753ed0dea3767"],
-    source: None,
+    title: "Nihon Daihyou Team France de Ganbare! - J.League Supporter Soccer",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1f038df0b742a2d76d49eaefe7b753ed0dea3767",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

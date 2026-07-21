@@ -1,6 +1,21 @@
 (
-    title: "Killer Instinct (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["65ae38588abc0e699b244b0854f698ddf72c7b46"],
-    source: None,
+    title: "Killer Instinct",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "65ae38588abc0e699b244b0854f698ddf72c7b46",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

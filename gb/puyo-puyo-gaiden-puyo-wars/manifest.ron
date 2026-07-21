@@ -1,6 +1,20 @@
 (
-    title: "Puyo Puyo Gaiden - Puyo Wars (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["b1802797e892d09e4da53304d096bdf35bac1118"],
-    source: None,
+    title: "Puyo Puyo Gaiden - Puyo Wars",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b1802797e892d09e4da53304d096bdf35bac1118",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

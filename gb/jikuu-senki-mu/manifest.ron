@@ -1,6 +1,19 @@
 (
-    title: "Jikuu Senki Mu (Japan)",
-    region: Some("Japan"),
-    hashes: ["799790fdf14c6202a44e5c9a18023fa4245243b8"],
-    source: None,
+    title: "Jikuu Senki Mu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "799790fdf14c6202a44e5c9a18023fa4245243b8",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

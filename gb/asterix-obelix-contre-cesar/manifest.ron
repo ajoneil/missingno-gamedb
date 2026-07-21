@@ -1,6 +1,20 @@
 (
-    title: "Asterix & Obelix Contre Cesar (Europe) (En,Fr,De,Es,Nl) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["a4b892d269957d84570c07856c81f48f037b5a03"],
-    source: None,
+    title: "Asterix & Obelix Contre Cesar",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a4b892d269957d84570c07856c81f48f037b5a03",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

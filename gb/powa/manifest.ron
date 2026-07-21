@@ -1,6 +1,22 @@
 (
-    title: "POWA! (World) (En) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["156d315b7a2a035d5cd429fb8c7e051e67e83c93", "3876f1aa896759f427ad2dc88a48788817e60c06", "c1602809cad54e6b3022bf1ca1d743c749b70d52"],
-    source: None,
+    title: "POWA!",
+    releases: [
+        (
+            label: Some("En"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "156d315b7a2a035d5cd429fb8c7e051e67e83c93",
+                ),
+                (
+                    sha1: "3876f1aa896759f427ad2dc88a48788817e60c06",
+                ),
+                (
+                    sha1: "c1602809cad54e6b3022bf1ca1d743c749b70d52",
+                ),
+            ],
+        ),
+    ],
 )

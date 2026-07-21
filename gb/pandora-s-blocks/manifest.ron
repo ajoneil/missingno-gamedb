@@ -1,6 +1,19 @@
 (
-    title: "Pandora's Blocks (World) (v1.8) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["71649d4d34b039bf37081ce2c31346f699f6c3b5", "f7e025e3e1550ba9dacdfb943a0f4328a017245f"],
-    source: None,
+    title: "Pandora\'s Blocks",
+    releases: [
+        (
+            label: Some("v1.8"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "71649d4d34b039bf37081ce2c31346f699f6c3b5",
+                ),
+                (
+                    sha1: "f7e025e3e1550ba9dacdfb943a0f4328a017245f",
+                ),
+            ],
+        ),
+    ],
 )

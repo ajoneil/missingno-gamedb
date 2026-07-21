@@ -1,6 +1,68 @@
 (
-    title: "Battle Arena Toshinden (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["9c337d3f56938aa46cfc8b85c0db4631bcbe217c", "f4cc9193ca0b98c69c966cc32e37eae444a8d53b"],
-    source: None,
+    title: "Battle Arena Toshinden",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f4cc9193ca0b98c69c966cc32e37eae444a8d53b",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Nettou Toushinden"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "61b99fbc4d56dad2e6002c7a8c6b5a1660a23137",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9c337d3f56938aa46cfc8b85c0db4631bcbe217c",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Nettou Toushinden"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5fd55a5d01817c770b251dbb9a0dc73a02d8c566",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

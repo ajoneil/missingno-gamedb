@@ -1,6 +1,20 @@
 (
-    title: "Go Go Ackman (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["28ce08f67b4fb26e7a5a46f853b053d20ec9d7cd"],
-    source: None,
+    title: "Go Go Ackman",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "28ce08f67b4fb26e7a5a46f853b053d20ec9d7cd",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

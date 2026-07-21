@@ -1,6 +1,20 @@
 (
-    title: "Doraemon no Game Boy de Asobouyo Deluxe 10 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["7ad70061c8afbbe0890e3d50accd40b2a8cb9790"],
-    source: None,
+    title: "Doraemon no Game Boy de Asobouyo Deluxe 10",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7ad70061c8afbbe0890e3d50accd40b2a8cb9790",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

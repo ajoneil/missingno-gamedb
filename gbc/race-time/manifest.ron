@@ -1,6 +1,17 @@
 (
-    title: "Race Time (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["157f15e601dfb858630a53313b71e4ecd0bb13e1"],
-    source: None,
+    title: "Race Time",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "157f15e601dfb858630a53313b71e4ecd0bb13e1",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

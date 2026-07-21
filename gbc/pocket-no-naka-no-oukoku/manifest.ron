@@ -1,6 +1,17 @@
 (
-    title: "Pocket no Naka no Oukoku (Japan) (Proto)",
-    region: Some("Japan"),
-    hashes: ["b91750cc805beb753e3c61a99c256d9cc006d3b8"],
-    source: None,
+    title: "Pocket no Naka no Oukoku",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "b91750cc805beb753e3c61a99c256d9cc006d3b8",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Darkman (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["f168733ddf4f083559e52198a503e4f295fabf0d"],
-    source: None,
+    title: "Darkman",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f168733ddf4f083559e52198a503e4f295fabf0d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

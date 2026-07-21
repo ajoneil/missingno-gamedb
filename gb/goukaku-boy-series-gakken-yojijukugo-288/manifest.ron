@@ -1,6 +1,34 @@
 (
-    title: "Goukaku Boy Series - Gakken - Yojijukugo 288 (Japan)",
-    region: Some("Japan"),
-    hashes: ["7df1d7b389814c6de2a1b201a00c71316b0ac856", "df253afb9c01615ad8219730573321a40fb5e230"],
-    source: None,
+    title: "Goukaku Boy Series - Gakken - Yojijukugo 288",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "df253afb9c01615ad8219730573321a40fb5e230",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7df1d7b389814c6de2a1b201a00c71316b0ac856",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

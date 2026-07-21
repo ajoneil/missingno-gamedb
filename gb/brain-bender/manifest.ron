@@ -1,6 +1,81 @@
 (
-    title: "Brain Bender (Europe)",
-    region: Some("Europe"),
-    hashes: ["56ff8684284765a56918d14620ad38477aaaf0ad", "9502181c62d8343b98cef9b881c29e4573e4fbc9", "c2e97d87bd0bf07ede962e0f3dca640320895926"],
-    source: None,
+    title: "Brain Bender",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9502181c62d8343b98cef9b881c29e4573e4fbc9",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mind Bender"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1991-03-04"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "235f61e7ccc6f9cffe6c30a0abc778f6745d3a5a",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "56ff8684284765a56918d14620ad38477aaaf0ad",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            title: Some("Migrain"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "98ea7eab4048cbd0e4aa5f88e9a831e522c493d5",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Evercade"),
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c2e97d87bd0bf07ede962e0f3dca640320895926",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

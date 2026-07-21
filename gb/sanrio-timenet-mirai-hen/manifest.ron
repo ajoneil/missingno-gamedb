@@ -1,6 +1,36 @@
 (
-    title: "Sanrio Timenet - Mirai Hen (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["5ccaf8450862dab90b45b06ab2df291d72ea6033", "65c4113401336784be4c53a51fe8d9b4b3d287da"],
-    source: None,
+    title: "Sanrio Timenet - Mirai Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "65c4113401336784be4c53a51fe8d9b4b3d287da",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5ccaf8450862dab90b45b06ab2df291d72ea6033",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

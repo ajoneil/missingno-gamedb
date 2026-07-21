@@ -1,6 +1,36 @@
 (
-    title: "Burai Fighter Deluxe (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["178e18b7e6e65e726b4e06f80d89c55332ea868b"],
-    source: None,
+    title: "Burai Fighter Deluxe",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "178e18b7e6e65e726b4e06f80d89c55332ea868b",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("Burai Senshi Deluxe"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f8c17e07d25420b7717f4415820c09491bb6a04c",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

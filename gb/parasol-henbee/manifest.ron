@@ -1,6 +1,19 @@
 (
-    title: "Parasol Henbee (Japan)",
-    region: Some("Japan"),
-    hashes: ["8f319d3d1929d953934e32ce900249ecf6b55fbd"],
-    source: None,
+    title: "Parasol Henbee",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8f319d3d1929d953934e32ce900249ecf6b55fbd",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Urusei Yatsura - Miss Tomobiki o Sagase! (Japan)",
-    region: Some("Japan"),
-    hashes: ["f7ac15b9b38027ae473120748e9686c985a40e87"],
-    source: None,
+    title: "Urusei Yatsura - Miss Tomobiki o Sagase!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f7ac15b9b38027ae473120748e9686c985a40e87",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

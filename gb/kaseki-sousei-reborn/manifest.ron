@@ -1,6 +1,36 @@
 (
-    title: "Kaseki Sousei Reborn (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["5759394e2e8bfd68ccf5519362572daaba003573", "c61050451f8731e35b1b983c610041cb59509ed2"],
-    source: None,
+    title: "Kaseki Sousei Reborn",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c61050451f8731e35b1b983c610041cb59509ed2",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5759394e2e8bfd68ccf5519362572daaba003573",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Sakata Gorou Kudan no Renju Kyoushitsu (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["f2330533b10c22e98c140bb550827618985253cb"],
-    source: None,
+    title: "Sakata Gorou Kudan no Renju Kyoushitsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f2330533b10c22e98c140bb550827618985253cb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,17 @@
 (
-    title: "WWF Betrayal (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["27773b6396ccb55051227ce7ce81d01c33ea75d1"],
-    source: None,
+    title: "WWF Betrayal",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "27773b6396ccb55051227ce7ce81d01c33ea75d1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

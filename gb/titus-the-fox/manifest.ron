@@ -1,6 +1,20 @@
 (
-    title: "Titus the Fox (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["3ec16a3ce1cfdc03b6f3b04a455c8b5c54a37eee", "b595c2e0a11bf843e91e9128e38252222133659b", "ba0037aeb21de0bbba3f9294a7861d90aefa5008"],
-    source: None,
+    title: "Titus the Fox",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ba0037aeb21de0bbba3f9294a7861d90aefa5008",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Rockman 8 (Taiwan) (Unl)",
-    region: Some("Taiwan"),
-    hashes: ["77e9367bcb9c264d2aa95260aefba534d421ff07"],
-    source: None,
+    title: "Rockman 8",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "77e9367bcb9c264d2aa95260aefba534d421ff07",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

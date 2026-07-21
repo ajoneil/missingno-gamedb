@@ -1,6 +1,20 @@
 (
-    title: "Otogibanashi Taisen (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["49176ced7152d6d411db1aa77d7a131f46e7a081"],
-    source: None,
+    title: "Otogibanashi Taisen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "49176ced7152d6d411db1aa77d7a131f46e7a081",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

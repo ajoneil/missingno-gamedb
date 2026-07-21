@@ -1,6 +1,83 @@
 (
-    title: "Game & Watch Gallery (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["31186cff6bb548ecd0c91c07f16dc98de9c19ea2", "4e4da0ed89c2baaed64600f7eaca90aeeadc084e", "f8c5ad6d6bf1a5a90dffebada1dbd69a93720c83"],
-    source: None,
+    title: "Game & Watch Gallery",
+    releases: [
+        (
+            title: Some("Game Boy Gallery 2"),
+            regions: [
+                Australia,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f002564f9cd9edb704b9c64f889aea3e7836a712",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "31186cff6bb548ecd0c91c07f16dc98de9c19ea2",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Game Boy Gallery"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9d9465486610ab470203236c614692bc7b86c328",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f8c5ad6d6bf1a5a90dffebada1dbd69a93720c83",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4e4da0ed89c2baaed64600f7eaca90aeeadc084e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

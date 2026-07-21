@@ -1,6 +1,19 @@
 (
-    title: "Game Boy Controller Kensa Cartridge (Japan)",
-    region: Some("Japan"),
-    hashes: ["1bed2a9ac25ac2f88b4fc45e729122abcad962f3"],
-    source: None,
+    title: "Game Boy Controller Kensa Cartridge",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1bed2a9ac25ac2f88b4fc45e729122abcad962f3",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

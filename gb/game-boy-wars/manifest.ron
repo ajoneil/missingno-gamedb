@@ -1,6 +1,19 @@
 (
-    title: "Game Boy Wars (Japan)",
-    region: Some("Japan"),
-    hashes: ["9f725d3cbbeb5e27b7ee36304f077f78d9ad074e"],
-    source: None,
+    title: "Game Boy Wars",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9f725d3cbbeb5e27b7ee36304f077f78d9ad074e",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

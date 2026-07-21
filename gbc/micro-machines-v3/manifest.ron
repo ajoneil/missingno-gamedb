@@ -1,6 +1,17 @@
 (
-    title: "Micro Machines V3 (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["8e9efbe195bcecfec4b233921b22b2e7fce38d3a"],
-    source: None,
+    title: "Micro Machines V3",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "8e9efbe195bcecfec4b233921b22b2e7fce38d3a",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

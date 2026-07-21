@@ -1,6 +1,19 @@
 (
-    title: "Lode Runner - Domudomu Dan no Yabou (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["c49569e4453f18b00bcf5ea3de43dee9ba3b4499"],
-    source: None,
+    title: "Lode Runner - Domudomu Dan no Yabou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c49569e4453f18b00bcf5ea3de43dee9ba3b4499",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

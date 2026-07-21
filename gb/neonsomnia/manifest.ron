@@ -1,6 +1,17 @@
 (
-    title: "Neonsomnia (World) (v0.1) (Proto) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["3d24808bf0bb1a06212a48309d8affe5d26eeeba"],
-    source: None,
+    title: "Neonsomnia",
+    releases: [
+        (
+            label: Some("v0.1"),
+            regions: [
+                World,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "3d24808bf0bb1a06212a48309d8affe5d26eeeba",
+                ),
+            ],
+        ),
+    ],
 )

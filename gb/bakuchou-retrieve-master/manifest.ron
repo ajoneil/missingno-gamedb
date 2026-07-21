@@ -1,6 +1,20 @@
 (
-    title: "Bakuchou Retrieve Master (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["bfea17b22b3ac91366156d8db1a7dc619c7b5a28"],
-    source: None,
+    title: "Bakuchou Retrieve Master",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bfea17b22b3ac91366156d8db1a7dc619c7b5a28",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

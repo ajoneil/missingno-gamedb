@@ -1,6 +1,20 @@
 (
-    title: "Bass Masters Classic (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["b1bd238640e99e3584c8c4e4fa174ff144b600d6"],
-    source: None,
+    title: "Bass Masters Classic",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b1bd238640e99e3584c8c4e4fa174ff144b600d6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

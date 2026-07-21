@@ -1,6 +1,21 @@
 (
-    title: "Vegas Stakes (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["93cdf04a473dcfd7f8f4fb06cc0af857d16d00f2"],
-    source: None,
+    title: "Vegas Stakes",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "93cdf04a473dcfd7f8f4fb06cc0af857d16d00f2",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

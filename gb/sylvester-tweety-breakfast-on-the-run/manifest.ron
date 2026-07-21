@@ -1,6 +1,36 @@
 (
-    title: "Sylvester & Tweety - Breakfast on the Run (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["8999a54b27b51a078fb3776ec7842c56287f05df"],
-    source: None,
+    title: "Sylvester & Tweety - Breakfast on the Run",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8999a54b27b51a078fb3776ec7842c56287f05df",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Looney Tunes - Twouble!"),
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f08bd36a0933ac56eeed2dd235d476d3b80a1f50",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

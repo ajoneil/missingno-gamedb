@@ -1,6 +1,36 @@
 (
-    title: "Nail 'n Scale (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["96d25741f02ea4744bb9ad81b32f04226847649c"],
-    source: None,
+    title: "Nail \'n Scale",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "96d25741f02ea4744bb9ad81b32f04226847649c",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Dragon Tail"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "390addf6bb52452dc6370eb54c702972e51968a2",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,50 @@
 (
-    title: "Diva Starz (Europe)",
-    region: Some("Europe"),
-    hashes: ["286d16d697caa2dfc1ebcad88a9633dd45c20e67", "9ae754470a116555373a47eae0fe611160219925", "fcbfbef077feec07f93b867de5b537f45812d5a4"],
-    source: None,
+    title: "Diva Starz",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "9ae754470a116555373a47eae0fe611160219925",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                France,
+            ],
+            artifacts: [
+                (
+                    sha1: "fcbfbef077feec07f93b867de5b537f45812d5a4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Germany,
+            ],
+            artifacts: [
+                (
+                    sha1: "286d16d697caa2dfc1ebcad88a9633dd45c20e67",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Diva Starz - Mall Mania"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "1d0edb87404409f1e4c124503be4cc59165c01da",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

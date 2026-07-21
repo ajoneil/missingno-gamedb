@@ -1,6 +1,19 @@
 (
-    title: "Super Robot Taisen (Japan)",
-    region: Some("Japan"),
-    hashes: ["267d77866c798d33c973fff25d246fff584bf9a3"],
-    source: None,
+    title: "Super Robot Taisen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "267d77866c798d33c973fff25d246fff584bf9a3",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

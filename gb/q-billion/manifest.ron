@@ -1,6 +1,34 @@
 (
-    title: "Q Billion (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["6344d6f2eefa56655c39c65c0595425799826498", "cfc54888f1ba368463009983f3cb3f6da66f3aec"],
-    source: None,
+    title: "Q Billion",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "cfc54888f1ba368463009983f3cb3f6da66f3aec",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6344d6f2eefa56655c39c65c0595425799826498",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

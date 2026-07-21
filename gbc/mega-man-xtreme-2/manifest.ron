@@ -1,6 +1,29 @@
 (
-    title: "Mega Man Xtreme 2 (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["cb1811ac8969f6b683df954b57138dd28ebb40ff"],
-    source: None,
+    title: "Mega Man Xtreme 2",
+    releases: [
+        (
+            title: Some("Rockman X2 - Soul Eraser"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "b7308301706c5414bb75f33232042124d9a608f1",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "cb1811ac8969f6b683df954b57138dd28ebb40ff",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

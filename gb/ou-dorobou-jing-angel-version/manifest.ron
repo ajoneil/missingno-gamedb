@@ -1,6 +1,20 @@
 (
-    title: "Ou Dorobou Jing - Angel Version (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["493e37dac6d8b037e44e64f9f31dba7f08a89e08"],
-    source: None,
+    title: "Ou Dorobou Jing - Angel Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "493e37dac6d8b037e44e64f9f31dba7f08a89e08",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

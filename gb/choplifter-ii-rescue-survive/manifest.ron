@@ -1,6 +1,49 @@
 (
-    title: "Choplifter II - Rescue & Survive (Europe)",
-    region: Some("Europe"),
-    hashes: ["08f5cdbcb650be51fe3998a28174e40997618349", "76ef770b9c75485cc29869fca6118887aee208da"],
-    source: None,
+    title: "Choplifter II - Rescue & Survive",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "08f5cdbcb650be51fe3998a28174e40997618349",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "76ef770b9c75485cc29869fca6118887aee208da",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Choplifter II"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9392ffc6831d5f029f5ad906af40b607b8eb221b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,16 @@
 (
-    title: "Donkey Kong GB - Dinky Kong & Dixie Kong (Japan)",
-    region: Some("Japan"),
-    hashes: ["55b133b739a5472d477336647cb9ec97b7fa85a2"],
-    source: None,
+    title: "Donkey Kong GB - Dinky Kong & Dixie Kong",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "55b133b739a5472d477336647cb9ec97b7fa85a2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

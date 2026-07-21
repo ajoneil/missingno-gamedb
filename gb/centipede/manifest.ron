@@ -1,6 +1,21 @@
 (
-    title: "Centipede (USA) (Majesco)",
-    region: Some("USA"),
-    hashes: ["0106c3dc8016398e9d24e2472c867487c3bd376f", "3e964fb53517c286b97375e6988208987f7bfa21", "a3a5755020c9cbe13fc1a815288830d2e143367f", "a74b337816d5f15df5d71efdff6aaa121d0335b1", "f8d2a8eab2a8a76a51006d438849509837f008d3"],
-    source: None,
+    title: "Centipede",
+    releases: [
+        (
+            label: Some("Accolade"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0106c3dc8016398e9d24e2472c867487c3bd376f",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

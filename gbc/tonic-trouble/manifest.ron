@@ -1,6 +1,17 @@
 (
-    title: "Tonic Trouble (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["d9ed647746cf23f2f9c7448d682ac34bb7f2ec1c"],
-    source: None,
+    title: "Tonic Trouble",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d9ed647746cf23f2f9c7448d682ac34bb7f2ec1c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

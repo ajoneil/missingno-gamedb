@@ -1,6 +1,17 @@
 (
-    title: "Karate Joe (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["bc9e760dcc851a01240b49b28cde8fe5ab18df91"],
-    source: None,
+    title: "Karate Joe",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "bc9e760dcc851a01240b49b28cde8fe5ab18df91",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

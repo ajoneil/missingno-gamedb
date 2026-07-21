@@ -1,6 +1,19 @@
 (
-    title: "Pocket Golf (Japan)",
-    region: Some("Japan"),
-    hashes: ["7747dc7e6beaf824c79dd4308735e259445d5e19", "bbe2651547c1f3c79bbf822b41ddbb54133a489f"],
-    source: None,
+    title: "Pocket Golf",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7747dc7e6beaf824c79dd4308735e259445d5e19",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

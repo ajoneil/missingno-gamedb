@@ -1,6 +1,19 @@
 (
-    title: "Undercover Cops Gaiden - Hakaishin Garumaa (Japan)",
-    region: Some("Japan"),
-    hashes: ["e391ea099ce371eef858d57e6c2da63a25944472"],
-    source: None,
+    title: "Undercover Cops Gaiden - Hakaishin Garumaa",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e391ea099ce371eef858d57e6c2da63a25944472",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

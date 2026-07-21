@@ -1,6 +1,28 @@
 (
-    title: "E.T. - The Extra-Terrestrial - Digital Companion (USA)",
-    region: Some("USA"),
-    hashes: ["14ad36a7939be12d1212c12a59de31d27e4df8f3", "7dd940c8044ccc0e18a511fa32c73551ce30463e"],
-    source: None,
+    title: "E.T. - The Extra-Terrestrial - Digital Companion",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "14ad36a7939be12d1212c12a59de31d27e4df8f3",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "7dd940c8044ccc0e18a511fa32c73551ce30463e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

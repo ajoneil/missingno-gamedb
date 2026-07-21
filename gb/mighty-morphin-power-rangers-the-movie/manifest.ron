@@ -1,6 +1,21 @@
 (
-    title: "Mighty Morphin Power Rangers - The Movie (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["0646bff26350059224a5dca807218ff02a4704af"],
-    source: None,
+    title: "Mighty Morphin Power Rangers - The Movie",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0646bff26350059224a5dca807218ff02a4704af",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

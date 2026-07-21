@@ -1,6 +1,20 @@
 (
-    title: "Nekketsu! Beach Volley Da yo Kunio-kun (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["d3ad43c40c21d9825b4879dbf28ca58835da658a"],
-    source: None,
+    title: "Nekketsu! Beach Volley Da yo Kunio-kun",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d3ad43c40c21d9825b4879dbf28ca58835da658a",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

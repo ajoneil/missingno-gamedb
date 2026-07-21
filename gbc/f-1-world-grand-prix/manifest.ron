@@ -1,6 +1,55 @@
 (
-    title: "F-1 World Grand Prix (Europe) (En,Fr,De,Es)",
-    region: Some("Europe"),
-    hashes: ["16aa2e02e9b7f236f12a49c3224ca4cc89cdf98c", "25c83cb589ce85917b99757090a94e588cb799b9", "9285bb4fbab8678b65cc8736f43e4ea3895c1cf4", "afc4b8f0487b0c6b0ca6470d4002eaca6616a04b"],
-    source: None,
+    title: "F-1 World Grand Prix",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "9285bb4fbab8678b65cc8736f43e4ea3895c1cf4",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En, Beta 1"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "afc4b8f0487b0c6b0ca6470d4002eaca6616a04b",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En, Beta 2"),
+            regions: [
+                Japan,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "25c83cb589ce85917b99757090a94e588cb799b9",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "16aa2e02e9b7f236f12a49c3224ca4cc89cdf98c",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

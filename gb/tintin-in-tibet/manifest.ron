@@ -1,0 +1,54 @@
+(
+    title: "Tintin in Tibet",
+    releases: [
+        (
+            label: Some("En,Es,It,Sv"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "63070514f0a692cef70e9344ca0a973f6af510c9",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Es,It,Sv"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a69bee8c26a520b648a780c67e4a73d54e1bf812",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8d8978fbd5a5634e2cce940122039d575e7b3646",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
+)

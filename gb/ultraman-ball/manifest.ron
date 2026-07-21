@@ -1,6 +1,20 @@
 (
-    title: "Ultraman Ball (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["3cdfcfb1a88d0cbfeb1c7b12751409faf69bba02"],
-    source: None,
+    title: "Ultraman Ball",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3cdfcfb1a88d0cbfeb1c7b12751409faf69bba02",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "Desert Strike - Return to the Gulf (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["325ee739ecf5aa403741e8dad36abcfa441dd26b", "b49bc8f5d292f0e2b71957c8c4af37b20cfead80"],
-    source: None,
+    title: "Desert Strike - Return to the Gulf",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b49bc8f5d292f0e2b71957c8c4af37b20cfead80",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "325ee739ecf5aa403741e8dad36abcfa441dd26b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

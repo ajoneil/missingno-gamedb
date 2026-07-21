@@ -1,6 +1,55 @@
 (
-    title: "Hexcite - The Shapes of Victory (USA, Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["bb00ff88af717b45e08ef421ac77e0546870b1f4"],
-    source: None,
+    title: "Hexcite - The Shapes of Victory",
+    releases: [
+        (
+            title: Some("Glocal Hexcite"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7d13220593c8d89af1b4cae955caacff7df3817a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bb00ff88af717b45e08ef421ac77e0546870b1f4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Hexcite"),
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9380ad9ccc193682eb98be7d7447dabadd67beae",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

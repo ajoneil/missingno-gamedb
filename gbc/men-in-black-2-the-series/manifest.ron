@@ -1,6 +1,29 @@
 (
-    title: "Men in Black 2 - The Series (Europe) (En,Fr,De)",
-    region: Some("Europe"),
-    hashes: ["ccfb89824e81d128a26a38f3e2c49aae1e9752ed", "f1527fd7f82329ef676a6d475596e7d91c4065cc"],
-    source: None,
+    title: "Men in Black 2 - The Series",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "f1527fd7f82329ef676a6d475596e7d91c4065cc",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "ccfb89824e81d128a26a38f3e2c49aae1e9752ed",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

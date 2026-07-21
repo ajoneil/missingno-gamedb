@@ -1,6 +1,18 @@
 (
-    title: "Conefuse (World)",
-    region: Some("World"),
-    hashes: ["c6aee5677eef50ab4123442a9a6ad191554e425a", "fbf0cfce434c26c0b783cfce332ec9966cc32609"],
-    source: None,
+    title: "Conefuse",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "c6aee5677eef50ab4123442a9a6ad191554e425a",
+                ),
+                (
+                    sha1: "fbf0cfce434c26c0b783cfce332ec9966cc32609",
+                ),
+            ],
+        ),
+    ],
 )

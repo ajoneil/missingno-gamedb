@@ -1,6 +1,17 @@
 (
-    title: "007 - The World Is Not Enough (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["dd6e952b730c4bd85f8734156d43a2616b68c053"],
-    source: None,
+    title: "007 - The World Is Not Enough",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "dd6e952b730c4bd85f8734156d43a2616b68c053",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Kawaii Pet Shop Monogatari (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["8392eccbac1d8ae23782c6d29d3ee604a03b5c05"],
-    source: None,
+    title: "Kawaii Pet Shop Monogatari",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8392eccbac1d8ae23782c6d29d3ee604a03b5c05",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

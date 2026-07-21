@@ -1,6 +1,35 @@
 (
-    title: "Pitfall - Beyond the Jungle (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["249e4c0370961eaff6bdcff20a0bd8e42aba2393"],
-    source: None,
+    title: "Pitfall - Beyond the Jungle",
+    releases: [
+        (
+            title: Some("Pitfall GB"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5b8ed6b038084890ce198133a7ae8ca93257d0f8",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "249e4c0370961eaff6bdcff20a0bd8e42aba2393",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

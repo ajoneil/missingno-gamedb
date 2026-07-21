@@ -1,6 +1,20 @@
 (
-    title: "Tanimura Hitoshi Ryuu Pachinko Kouryaku Daisakusen - Don Quijote ga Iku (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["f752e96602274a29006425a06086d8ab45e1075c"],
-    source: None,
+    title: "Tanimura Hitoshi Ryuu Pachinko Kouryaku Daisakusen - Don Quijote ga Iku",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f752e96602274a29006425a06086d8ab45e1075c",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

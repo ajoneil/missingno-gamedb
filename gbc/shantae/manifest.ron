@@ -1,6 +1,64 @@
 (
-    title: "Shantae (USA)",
-    region: Some("USA"),
-    hashes: ["141dc57955e84d51f0099c0709a0626d43ab8fa7", "520e48c50f6e997fcd841ca368fc9abc1dbddec1", "71bc428f2746df2a2c6238e14f594d3e5c8da131", "d14e8b0029b0aff52134a4fa6794eea72f25f4a6", "e1cc66f1950d585d5b644bf9720c87a356354e6a"],
-    source: None,
+    title: "Shantae",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "141dc57955e84d51f0099c0709a0626d43ab8fa7",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "520e48c50f6e997fcd841ca368fc9abc1dbddec1",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("GBA Enhanced, Switch"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "d14e8b0029b0aff52134a4fa6794eea72f25f4a6",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("Limited Run Games"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "71bc428f2746df2a2c6238e14f594d3e5c8da131",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            label: Some("Switch"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "e1cc66f1950d585d5b644bf9720c87a356354e6a",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

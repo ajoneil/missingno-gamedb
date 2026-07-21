@@ -1,6 +1,52 @@
 (
-    title: "International Track & Field (Europe) (En,Fr,De,It) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["3aecac0876dac69e9e1fb6f6c311d0af050f1f48", "80b7591470d0a26fe7cf5c80c8bff5d34f79f569"],
-    source: None,
+    title: "International Track & Field",
+    releases: [
+        (
+            title: Some("Hyper Olympic Series - Track & Field GB"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6dabafe260b53e61a810cbae2f14287adafffd8e",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "80b7591470d0a26fe7cf5c80c8bff5d34f79f569",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,It"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3aecac0876dac69e9e1fb6f6c311d0af050f1f48",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

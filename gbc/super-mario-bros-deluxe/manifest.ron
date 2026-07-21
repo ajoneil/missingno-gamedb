@@ -1,6 +1,66 @@
 (
-    title: "Super Mario Bros. Deluxe (Japan) (NP)",
-    region: Some("Japan"),
-    hashes: ["07295cd60ae44183ebecb013930727e0404169d5", "254f2254e9d54e2501e3e4ebe09491e03573a6a4", "94466f48d8b4f811608ce8641de5f82315cd60b5", "e61d564e1ff19eb4b7c62a6cd96214f2bca4b01d", "f84f26f22751b58ed57bd332274e18131660729a"],
-    source: None,
+    title: "Super Mario Bros. Deluxe",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "f84f26f22751b58ed57bd332274e18131660729a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("NP"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "94466f48d8b4f811608ce8641de5f82315cd60b5",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "07295cd60ae44183ebecb013930727e0404169d5",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1, NP"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "e61d564e1ff19eb4b7c62a6cd96214f2bca4b01d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 2"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "254f2254e9d54e2501e3e4ebe09491e03573a6a4",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

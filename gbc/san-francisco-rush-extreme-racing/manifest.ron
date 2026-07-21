@@ -1,6 +1,17 @@
 (
-    title: "San Francisco Rush - Extreme Racing (USA) (Proto)",
-    region: Some("USA"),
-    hashes: ["4d48a6cd886543bae555d0dc4b8012e13c7cdb55"],
-    source: None,
+    title: "San Francisco Rush - Extreme Racing",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "4d48a6cd886543bae555d0dc4b8012e13c7cdb55",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,30 @@
 (
-    title: "Action Replay Online (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["fa441c5e376b54b3503596fe8177b3a9ad79a9a8"],
-    source: None,
+    title: "Action Replay Online",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "fa441c5e376b54b3503596fe8177b3a9ad79a9a8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("GameShark Online"),
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "22f00e604acb827a48d4c9e109ba622f59a9d0a9",
+                    size: Some(81920),
+                ),
+            ],
+        ),
+    ],
 )

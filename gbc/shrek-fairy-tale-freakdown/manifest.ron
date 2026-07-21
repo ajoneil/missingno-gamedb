@@ -1,6 +1,18 @@
 (
-    title: "Shrek - Fairy Tale Freakdown (USA, Europe) (En,Fr,De,Es,It)",
-    region: Some("USA, Europe"),
-    hashes: ["e6a728cafd14a4df952467f2a7434ff14e53e268"],
-    source: None,
+    title: "Shrek - Fairy Tale Freakdown",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e6a728cafd14a4df952467f2a7434ff14e53e268",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,34 @@
 (
-    title: "Cool Hand (Europe)",
-    region: Some("Europe"),
-    hashes: ["a6fe59bcc29b6d9ae6712d99822a123d2434f3b3", "b26441e13b9dc806b182999ff8784cef46961010", "d116a77c501d5e553d1490993f8c0a9a92c3ea0c"],
-    source: None,
+    title: "Cool Hand",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a6fe59bcc29b6d9ae6712d99822a123d2434f3b3",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("Fr,De"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b26441e13b9dc806b182999ff8784cef46961010",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

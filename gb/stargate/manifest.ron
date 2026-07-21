@@ -1,6 +1,35 @@
 (
-    title: "Stargate (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["25bfdf9f60f551d8b819a3fff3d7cb9b71eebc63", "3d2d65252fd57dc1d96c234a436fa377a769c708"],
-    source: None,
+    title: "Stargate",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3d2d65252fd57dc1d96c234a436fa377a769c708",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En, Possible Proto"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "25bfdf9f60f551d8b819a3fff3d7cb9b71eebc63",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

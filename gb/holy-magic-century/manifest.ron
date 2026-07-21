@@ -1,6 +1,37 @@
 (
-    title: "Holy Magic Century (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["01ad2928e923c415671e6306d6d73016a1ca7bb9"],
-    source: None,
+    title: "Holy Magic Century",
+    releases: [
+        (
+            title: Some("Quest - Fantasy Challenge"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "86812b2cd4304dc7ee2dd3faf16737b0414aaffb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "01ad2928e923c415671e6306d6d73016a1ca7bb9",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

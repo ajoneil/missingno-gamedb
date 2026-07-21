@@ -1,6 +1,19 @@
 (
-    title: "J.League Winning Goal (Japan)",
-    region: Some("Japan"),
-    hashes: ["b8630f06e8b9682e667b7b1f2139162e2f022561"],
-    source: None,
+    title: "J.League Winning Goal",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b8630f06e8b9682e667b7b1f2139162e2f022561",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,35 @@
 (
-    title: "Animaniacs (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["031421f49f98a15187012dc3f15960b260b9979f", "a0732f81e0c4f1bba592563bdc0eaae9d759ef28"],
-    source: None,
+    title: "Animaniacs",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "031421f49f98a15187012dc3f15960b260b9979f",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a0732f81e0c4f1bba592563bdc0eaae9d759ef28",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

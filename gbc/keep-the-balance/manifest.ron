@@ -1,6 +1,17 @@
 (
-    title: "Keep the Balance (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["a0bbbb00f0ad1c62ad766b378c9a6c15fbd54991"],
-    source: None,
+    title: "Keep the Balance",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "a0bbbb00f0ad1c62ad766b378c9a6c15fbd54991",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

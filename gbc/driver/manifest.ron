@@ -1,6 +1,43 @@
 (
-    title: "Driver (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["07e25b8c7569e064d060258981814a151202edbb", "5001f0f4904ca4fb6ab287b52136d00ac94b49d7"],
-    source: None,
+    title: "Driver",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "07e25b8c7569e064d060258981814a151202edbb",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "5001f0f4904ca4fb6ab287b52136d00ac94b49d7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Driver - You Are the Wheelman"),
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "9add1e67f39f900f2c004e4d8bbd1fec368eef4c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

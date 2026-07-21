@@ -1,6 +1,20 @@
 (
-    title: "Medarot 2 - Kuwagata Version (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["48fc8c6e84c63ee47f5a2c5e99dc1666d6e9f496"],
-    source: None,
+    title: "Medarot 2 - Kuwagata Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "48fc8c6e84c63ee47f5a2c5e99dc1666d6e9f496",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

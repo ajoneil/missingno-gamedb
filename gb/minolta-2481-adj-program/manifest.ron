@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2481 Adj. Program (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["4d1a3176e4232984a14580382152ce5313a620e6"],
-    source: None,
+    title: "Minolta 2481 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4d1a3176e4232984a14580382152ce5313a620e6",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

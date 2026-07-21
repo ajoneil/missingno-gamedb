@@ -1,6 +1,16 @@
 (
-    title: "Portal Runner (USA)",
-    region: Some("USA"),
-    hashes: ["a8347366f15c0e454fa253bad5b4053d2a9613aa"],
-    source: None,
+    title: "Portal Runner",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "a8347366f15c0e454fa253bad5b4053d2a9613aa",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

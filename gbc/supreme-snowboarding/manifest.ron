@@ -1,6 +1,29 @@
 (
-    title: "Supreme Snowboarding (Europe) (En,Fr,De)",
-    region: Some("Europe"),
-    hashes: ["4f745ffa0146e21bb26408cf7431376887499919"],
-    source: None,
+    title: "Supreme Snowboarding",
+    releases: [
+        (
+            title: Some("Boarder Zone"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "116020a7c2d87ed16436e7710cfed7a93e81289a",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "4f745ffa0146e21bb26408cf7431376887499919",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

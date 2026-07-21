@@ -1,6 +1,18 @@
 (
-    title: "Harry Potter and the Chamber of Secrets (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Da)",
-    region: Some("USA, Europe"),
-    hashes: ["e3b9b22e3e528efc41e5b57fc9b3dcfa75dcd443"],
-    source: None,
+    title: "Harry Potter and the Chamber of Secrets",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl,Pt,Sv,Da"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "e3b9b22e3e528efc41e5b57fc9b3dcfa75dcd443",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

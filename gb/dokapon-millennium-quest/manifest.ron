@@ -1,6 +1,20 @@
 (
-    title: "Dokapon! - Millennium Quest (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["2ac27b1f9b8821fcf1cb4bf347156e29dcde689c"],
-    source: None,
+    title: "Dokapon! - Millennium Quest",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2ac27b1f9b8821fcf1cb4bf347156e29dcde689c",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

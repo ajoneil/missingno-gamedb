@@ -1,6 +1,20 @@
 (
-    title: "NBA Jam (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["ceca1552909acaad74241cb3cef360ebb845ac3b"],
-    source: None,
+    title: "NBA Jam",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ceca1552909acaad74241cb3cef360ebb845ac3b",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

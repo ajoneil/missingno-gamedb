@@ -1,6 +1,34 @@
 (
-    title: "Sunsoft Grand Prix (Europe)",
-    region: Some("Europe"),
-    hashes: ["ea2445e062c535f8d8a3129d7016f5e8a7ac82cf"],
-    source: None,
+    title: "Sunsoft Grand Prix",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ea2445e062c535f8d8a3129d7016f5e8a7ac82cf",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            title: Some("F1 Boy"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "632f0ccc2bcb1c33ad46724d7b1bc66b256303a2",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Potbound (World) (Proto) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["eb581935ad9223d723fdbc8339c03436df051947", "fbddf81a1663388ff0efeeb9051e68e0c323c839"],
-    source: None,
+    title: "Potbound",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "eb581935ad9223d723fdbc8339c03436df051947",
+                ),
+                (
+                    sha1: "fbddf81a1663388ff0efeeb9051e68e0c323c839",
+                ),
+            ],
+        ),
+    ],
 )

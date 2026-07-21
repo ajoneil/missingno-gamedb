@@ -1,6 +1,19 @@
 (
-    title: "Pachio-kun 3 (Japan)",
-    region: Some("Japan"),
-    hashes: ["a57e7919d962df82d77d39bf81dfcab124506aca"],
-    source: None,
+    title: "Pachio-kun 3",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a57e7919d962df82d77d39bf81dfcab124506aca",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

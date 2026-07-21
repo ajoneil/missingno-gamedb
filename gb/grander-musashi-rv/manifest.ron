@@ -1,6 +1,20 @@
 (
-    title: "Grander Musashi RV (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["d6fc45fd02e3d7c885c0e0244dc3c8073fb64ff4"],
-    source: None,
+    title: "Grander Musashi RV",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d6fc45fd02e3d7c885c0e0244dc3c8073fb64ff4",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

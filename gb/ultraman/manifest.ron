@@ -1,6 +1,19 @@
 (
-    title: "Ultraman (Japan)",
-    region: Some("Japan"),
-    hashes: ["a4fbe124b257109ba9566fae59ac008f52317f2d"],
-    source: None,
+    title: "Ultraman",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a4fbe124b257109ba9566fae59ac008f52317f2d",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

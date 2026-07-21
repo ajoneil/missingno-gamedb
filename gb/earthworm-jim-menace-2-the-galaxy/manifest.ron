@@ -1,6 +1,20 @@
 (
-    title: "Earthworm Jim - Menace 2 the Galaxy (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["78f9bd7f8c40274cf7282892a45e814103944060"],
-    source: None,
+    title: "Earthworm Jim - Menace 2 the Galaxy",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "78f9bd7f8c40274cf7282892a45e814103944060",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

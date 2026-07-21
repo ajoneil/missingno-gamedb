@@ -1,6 +1,36 @@
 (
-    title: "Vattle Giuce (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["ca41cd69249a9ee703acfad044759baa42ef2c9a"],
-    source: None,
+    title: "Vattle Giuce",
+    releases: [
+        (
+            title: Some("TripleA"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "61964dc324b57349c23d471f6887fad66f64e969",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ca41cd69249a9ee703acfad044759baa42ef2c9a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

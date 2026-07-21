@@ -1,6 +1,19 @@
 (
-    title: "Little Master 2 - Raikou no Kishi (Japan)",
-    region: Some("Japan"),
-    hashes: ["9cc2d0f5ec33ca5ebf382e68dd55503c75a889b5"],
-    source: None,
+    title: "Little Master 2 - Raikou no Kishi",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9cc2d0f5ec33ca5ebf382e68dd55503c75a889b5",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Chromanoids (World) (v1.0)",
-    region: Some("World"),
-    hashes: ["2885e9bfeca429a261f0871e31fdd3c5e682bd33", "2d1dc090806463a6ff8c2fc17c32061a9e731d6f"],
-    source: None,
+    title: "Chromanoids",
+    releases: [
+        (
+            label: Some("v1.0"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "2885e9bfeca429a261f0871e31fdd3c5e682bd33",
+                ),
+                (
+                    sha1: "2d1dc090806463a6ff8c2fc17c32061a9e731d6f",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,31 @@
 (
-    title: "3D Pocket Pool (Europe) (En,Fr,De,Es,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["11ee7ba924f80e1c546af4749ea46ac5c8c75a5d"],
-    source: None,
+    title: "3D Pocket Pool",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "11ee7ba924f80e1c546af4749ea46ac5c8c75a5d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("3D Pool Allstars"),
+            label: Some("En,Fr,Es"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "f7289c3eed275286d0fb3dc7097098276b746786",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

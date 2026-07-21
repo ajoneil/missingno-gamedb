@@ -1,6 +1,16 @@
 (
-    title: "14 Juillet (World) (Fr)",
-    region: Some("World"),
-    hashes: ["02f387457a779cbd2f493e52743cd32c169c098e"],
-    source: None,
+    title: "14 Juillet",
+    releases: [
+        (
+            label: Some("Fr"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "02f387457a779cbd2f493e52743cd32c169c098e",
+                ),
+            ],
+        ),
+    ],
 )

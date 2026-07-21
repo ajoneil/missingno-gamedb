@@ -1,6 +1,29 @@
 (
-    title: "F1 Championship Season 2000 (Europe) (En,Fr,De,Es,It)",
-    region: Some("Europe"),
-    hashes: ["4731a7442bbff31c6d470b84938a3f148a4f1f6c", "dc566028e0e86f32d99d5b0846d4b113525be0a2"],
-    source: None,
+    title: "F1 Championship Season 2000",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Brazil,
+            ],
+            artifacts: [
+                (
+                    sha1: "4731a7442bbff31c6d470b84938a3f148a4f1f6c",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es,It"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "dc566028e0e86f32d99d5b0846d4b113525be0a2",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Hugo 2 (Germany)",
-    region: Some("Germany"),
-    hashes: ["66324a9b4d6f8782b706e0d3942d7efdb2b1f141"],
-    source: None,
+    title: "Hugo 2",
+    releases: [
+        (
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "66324a9b4d6f8782b706e0d3942d7efdb2b1f141",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

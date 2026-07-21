@@ -1,6 +1,33 @@
 (
-    title: "Race Days (USA)",
-    region: Some("USA"),
-    hashes: ["750143b2057b604123972a978a51a14a7e8621bf", "eee5feb39af996804177f4a269d2a41f692120f9"],
-    source: None,
+    title: "Race Days",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "eee5feb39af996804177f4a269d2a41f692120f9",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "750143b2057b604123972a978a51a14a7e8621bf",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

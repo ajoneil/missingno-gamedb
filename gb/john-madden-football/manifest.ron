@@ -1,6 +1,39 @@
 (
-    title: "John Madden Football (USA) (Proto 2) (SGB Enhanced)",
-    region: Some("USA"),
-    hashes: ["8d9e6cb3c3fc60e3746355ac7a4e8b825aab57ea", "c79ecb697723f98448423d311c3d7c76328a46a8"],
-    source: None,
+    title: "John Madden Football",
+    releases: [
+        (
+            label: Some("Proto 1"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c79ecb697723f98448423d311c3d7c76328a46a8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 2"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8d9e6cb3c3fc60e3746355ac7a4e8b825aab57ea",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

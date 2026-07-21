@@ -1,6 +1,41 @@
 (
-    title: "Sabrina - The Animated Series - Zapped! (Europe) (En,Fr,De)",
-    region: Some("Europe"),
-    hashes: ["093832fbcb893b92db15ff4a51132b989ebb260f", "099e2ec855f47344f5d188cc57f540c88cdb33fd", "d2e207a07ffa7cd0cc5b168c95ad409cd3df3fa3"],
-    source: None,
+    title: "Sabrina - The Animated Series - Zapped!",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "099e2ec855f47344f5d188cc57f540c88cdb33fd",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "d2e207a07ffa7cd0cc5b168c95ad409cd3df3fa3",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("ModRetro Chromatic"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "093832fbcb893b92db15ff4a51132b989ebb260f",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

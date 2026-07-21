@@ -1,6 +1,37 @@
 (
-    title: "International Superstar Soccer (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["13f2fc0945fb7a90f4d87d8c4e310dec9af6b792"],
-    source: None,
+    title: "International Superstar Soccer",
+    releases: [
+        (
+            title: Some("World Soccer GB"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "aca208dabd8d110cf0334103dcb8dd28b68e450d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "13f2fc0945fb7a90f4d87d8c4e310dec9af6b792",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

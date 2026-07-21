@@ -1,6 +1,17 @@
 (
-    title: "Triple Play 2001 (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["326841285c54476c1fc231886a8cbd9c00e0195c"],
-    source: None,
+    title: "Triple Play 2001",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "326841285c54476c1fc231886a8cbd9c00e0195c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

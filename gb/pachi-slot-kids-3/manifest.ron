@@ -1,6 +1,19 @@
 (
-    title: "Pachi-Slot Kids 3 (Japan)",
-    region: Some("Japan"),
-    hashes: ["73fd8b3caf2c9a50fd5a5fa4be56c50557095a60"],
-    source: None,
+    title: "Pachi-Slot Kids 3",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "73fd8b3caf2c9a50fd5a5fa4be56c50557095a60",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

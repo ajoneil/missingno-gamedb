@@ -1,6 +1,20 @@
 (
-    title: "Capybara Village (World) (v1.0) (Proto) (Cozy Spring Jam)",
-    region: Some("World"),
-    hashes: ["057ade8edd41efbfb168ad709e95222c7c0118fa", "9c299efb05516075a67516875ecfe47a32d04ef0"],
-    source: None,
+    title: "Capybara Village",
+    releases: [
+        (
+            label: Some("v1.0, Cozy Spring Jam"),
+            regions: [
+                World,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "057ade8edd41efbfb168ad709e95222c7c0118fa",
+                ),
+                (
+                    sha1: "9c299efb05516075a67516875ecfe47a32d04ef0",
+                ),
+            ],
+        ),
+    ],
 )

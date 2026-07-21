@@ -1,6 +1,19 @@
 (
-    title: "Doraemon - Taiketsu HimitsuDougu!! (Japan)",
-    region: Some("Japan"),
-    hashes: ["5e89e34a2cec89e0aba4e12d18d96671151730ec"],
-    source: None,
+    title: "Doraemon - Taiketsu HimitsuDougu!!",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5e89e34a2cec89e0aba4e12d18d96671151730ec",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

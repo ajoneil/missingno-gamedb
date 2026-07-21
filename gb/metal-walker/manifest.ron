@@ -1,6 +1,51 @@
 (
-    title: "Metal Walker (USA) (GB Compatible)",
-    region: Some("USA"),
-    hashes: ["1ccb07d705ef68e078440118c178b87646e9b724"],
-    source: None,
+    title: "Metal Walker",
+    releases: [
+        (
+            title: Some("Bakusou Senki Metal Walker GB - Koutetsu no Yuujou"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1f8088a739df180ecceaff1b37ed5c1a50772405",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1ccb07d705ef68e078440118c178b87646e9b724",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Bakusou Senki Metal Walker GB - Koutetsu no Yuujou"),
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3d6ea44dd8426e3d7bf87a8778dd91e8095ddd35",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

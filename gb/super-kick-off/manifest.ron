@@ -1,6 +1,35 @@
 (
-    title: "Super Kick Off (Europe) (En,Fr,De,It,Nl)",
-    region: Some("Europe"),
-    hashes: ["c178dafc472de4c8dcdbc8361ee078641ae61b84"],
-    source: None,
+    title: "Super Kick Off",
+    releases: [
+        (
+            title: Some("Pro Soccer"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ccf50ae867633f608ba38302c8561654223dc14b",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,It,Nl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c178dafc472de4c8dcdbc8361ee078641ae61b84",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

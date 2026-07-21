@@ -1,6 +1,17 @@
 (
-    title: "Force 21 (USA) (En,Fr,De)",
-    region: Some("USA"),
-    hashes: ["a1a912851bf265d6228dc807c58339cd51ec9d44"],
-    source: None,
+    title: "Force 21",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "a1a912851bf265d6228dc807c58339cd51ec9d44",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,37 @@
 (
-    title: "Arcade Classic No. 2 - Centipede & Millipede (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["405bc3736cfbea3f2259ad3e53a9d64c6523de4a"],
-    source: None,
+    title: "Arcade Classic No. 2 - Centipede & Millipede",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "405bc3736cfbea3f2259ad3e53a9d64c6523de4a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Centipede"),
+            label: Some("Majesco"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a3a5755020c9cbe13fc1a815288830d2e143367f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

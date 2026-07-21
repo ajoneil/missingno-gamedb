@@ -1,6 +1,20 @@
 (
-    title: "DT - Lords of Genomes (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["66988a201f77cd4c33fb0a9b3981ff5831206c9d"],
-    source: None,
+    title: "DT - Lords of Genomes",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "66988a201f77cd4c33fb0a9b3981ff5831206c9d",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,16 @@
 (
-    title: "Test Drive 2001 (USA)",
-    region: Some("USA"),
-    hashes: ["8b34597b90d048c3d483acba60ebb49f86bd93cc"],
-    source: None,
+    title: "Test Drive 2001",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "8b34597b90d048c3d483acba60ebb49f86bd93cc",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Heracles no Eikou - Ugokidashita Kamigami (Japan)",
-    region: Some("Japan"),
-    hashes: ["c12c60b0c0a2ee1aaded61020fa72b5b467459e1"],
-    source: None,
+    title: "Heracles no Eikou - Ugokidashita Kamigami",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c12c60b0c0a2ee1aaded61020fa72b5b467459e1",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

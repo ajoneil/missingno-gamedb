@@ -1,6 +1,36 @@
 (
-    title: "Game Boy Wars Turbo (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["27121450bee04790e7a0d8a08086ad42302f17e9"],
-    source: None,
+    title: "Game Boy Wars Turbo",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "27121450bee04790e7a0d8a08086ad42302f17e9",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Game Boy Wars Turbo - Famitsu Version"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a0106f20aaf857a7ba033537821e31c6ec074dd6",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

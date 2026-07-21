@@ -1,6 +1,20 @@
 (
-    title: "Nikkan Berutomo Club (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["4403ddbc2faa6b540893814a7ecaafb218849ee9"],
-    source: None,
+    title: "Nikkan Berutomo Club",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4403ddbc2faa6b540893814a7ecaafb218849ee9",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

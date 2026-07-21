@@ -1,6 +1,20 @@
 (
-    title: "Batman - The Animated Series (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["4a8c1dd74b1279c0dc85ac2bebb5db2795cb67b0"],
-    source: None,
+    title: "Batman - The Animated Series",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4a8c1dd74b1279c0dc85ac2bebb5db2795cb67b0",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

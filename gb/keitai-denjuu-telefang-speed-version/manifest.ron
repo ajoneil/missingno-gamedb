@@ -1,6 +1,19 @@
 (
-    title: "Keitai Denjuu Telefang - Speed Version (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["1c273f9078c580e85e5c49e7114058f3e0fe5cca"],
-    source: None,
+    title: "Keitai Denjuu Telefang - Speed Version",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1c273f9078c580e85e5c49e7114058f3e0fe5cca",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,55 @@
 (
-    title: "Golf Ou - The King of Golf (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["d196af0aaf77ca67f9784d0ccd1ef4b25abed5c2"],
-    source: None,
+    title: "Golf Ou - The King of Golf",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d196af0aaf77ca67f9784d0ccd1ef4b25abed5c2",
+                    size: Some(4194304),
+                ),
+            ],
+        ),
+        (
+            title: Some("Supershot Golf Robot"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "aa1447d78e380d2a936fb5f713521e34420fe68c",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            title: Some("Golf King"),
+            label: Some("En,Fr,De"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d02e09251e7c5078e4b641e6d334958c2c814285",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

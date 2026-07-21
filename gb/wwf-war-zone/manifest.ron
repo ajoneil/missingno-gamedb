@@ -1,6 +1,20 @@
 (
-    title: "WWF War Zone (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["6ef34105a8944e5aa8e44f3aebb68b9bb45e9105"],
-    source: None,
+    title: "WWF War Zone",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6ef34105a8944e5aa8e44f3aebb68b9bb45e9105",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

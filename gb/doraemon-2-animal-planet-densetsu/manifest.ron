@@ -1,6 +1,19 @@
 (
-    title: "Doraemon 2 - Animal Planet Densetsu (Japan)",
-    region: Some("Japan"),
-    hashes: ["0d72e0310bbf0b23483f37688df61543048c4b31"],
-    source: None,
+    title: "Doraemon 2 - Animal Planet Densetsu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0d72e0310bbf0b23483f37688df61543048c4b31",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

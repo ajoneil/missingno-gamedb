@@ -1,6 +1,20 @@
 (
-    title: "Real Pro Yakyuu! - Pacific League Hen (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["a7a2cd7bbb4cae171b5f2c798293afefe2882afc"],
-    source: None,
+    title: "Real Pro Yakyuu! - Pacific League Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a7a2cd7bbb4cae171b5f2c798293afefe2882afc",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

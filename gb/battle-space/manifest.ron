@@ -1,6 +1,19 @@
 (
-    title: "Battle Space (Japan)",
-    region: Some("Japan"),
-    hashes: ["76e47ad844abdde9eff09ea29a014f9a1eae5093"],
-    source: None,
+    title: "Battle Space",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "76e47ad844abdde9eff09ea29a014f9a1eae5093",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

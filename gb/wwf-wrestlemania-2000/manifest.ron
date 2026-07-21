@@ -1,6 +1,20 @@
 (
-    title: "WWF WrestleMania 2000 (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["ee9a375a16ca77883b7e30c92fc6beb8f772df5f"],
-    source: None,
+    title: "WWF WrestleMania 2000",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ee9a375a16ca77883b7e30c92fc6beb8f772df5f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

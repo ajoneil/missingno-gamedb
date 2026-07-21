@@ -1,6 +1,19 @@
 (
-    title: "Shougi 3 (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["6927c466f838a913850a7eecb86fe75840f1cf09"],
-    source: None,
+    title: "Shougi 3",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6927c466f838a913850a7eecb86fe75840f1cf09",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

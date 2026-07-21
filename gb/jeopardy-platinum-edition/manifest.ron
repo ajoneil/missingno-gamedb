@@ -1,6 +1,20 @@
 (
-    title: "Jeopardy! - Platinum Edition (USA) (SGB Enhanced)",
-    region: Some("USA"),
-    hashes: ["35934633a9b301d734a6fced7c56d55eba0385aa"],
-    source: None,
+    title: "Jeopardy! - Platinum Edition",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "35934633a9b301d734a6fced7c56d55eba0385aa",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

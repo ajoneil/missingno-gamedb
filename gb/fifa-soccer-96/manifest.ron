@@ -1,6 +1,22 @@
 (
-    title: "FIFA Soccer 96 (USA, Europe) (En,Fr,De,Es) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["a434f0f96d1aa3ec50d35f82eb5ef876bcd22115"],
-    source: None,
+    title: "FIFA Soccer 96",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a434f0f96d1aa3ec50d35f82eb5ef876bcd22115",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

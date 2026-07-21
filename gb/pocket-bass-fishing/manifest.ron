@@ -1,6 +1,19 @@
 (
-    title: "Pocket Bass Fishing (Japan)",
-    region: Some("Japan"),
-    hashes: ["c59402eaf86fb8d52ddf81e3054ab78a06a07eb3"],
-    source: None,
+    title: "Pocket Bass Fishing",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c59402eaf86fb8d52ddf81e3054ab78a06a07eb3",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

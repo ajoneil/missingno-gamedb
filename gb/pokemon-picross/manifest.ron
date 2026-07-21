@@ -1,6 +1,21 @@
 (
-    title: "Pokemon Picross (Japan) (Proto) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["8204064b7149357939b57342820e7955749183b6"],
-    source: None,
+    title: "Pokemon Picross",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            status: Prototype,
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8204064b7149357939b57342820e7955749183b6",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,50 @@
 (
-    title: "Mr. Driller (Europe)",
-    region: Some("Europe"),
-    hashes: ["3bfda5edb7d125ee99b9235434488876dc6d8245", "6163cc65e7697ef77075a3665a234ce5d720ad9c", "b0d725dacea717be7109bd6a81817e717641da86", "fb64fa7da6a0fec3e358bb3357e66d68473ada67"],
-    source: None,
+    title: "Mr. Driller",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "6163cc65e7697ef77075a3665a234ce5d720ad9c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "b0d725dacea717be7109bd6a81817e717641da86",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "3bfda5edb7d125ee99b9235434488876dc6d8245",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("NP"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "fb64fa7da6a0fec3e358bb3357e66d68473ada67",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

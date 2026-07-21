@@ -1,6 +1,28 @@
 (
-    title: "Kirby - Tilt 'n' Tumble (USA)",
-    region: Some("USA"),
-    hashes: ["6ab8d666e2bebbb3fee7796c8968aab2ea21b8f9"],
-    source: None,
+    title: "Kirby - Tilt \'n\' Tumble",
+    releases: [
+        (
+            title: Some("Korokoro Kirby"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "8dd46f6d34c831c910c4574f252fa47ce6f67261",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "6ab8d666e2bebbb3fee7796c8968aab2ea21b8f9",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

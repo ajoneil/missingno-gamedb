@@ -1,6 +1,17 @@
 (
-    title: "NYR - New York Race (Europe) (En,Fr,De,Es,It,Pt)",
-    region: Some("Europe"),
-    hashes: ["001decc8331b4beb94a01a1b6ef08e1bf2920ece"],
-    source: None,
+    title: "NYR - New York Race",
+    releases: [
+        (
+            label: Some("En,Fr,De,Es,It,Pt"),
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "001decc8331b4beb94a01a1b6ef08e1bf2920ece",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

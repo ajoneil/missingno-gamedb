@@ -1,6 +1,20 @@
 (
-    title: "Namco Gallery Vol.2 (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["02b1d728a8c722bd2299c44b54beb4de6eb70e4f"],
-    source: None,
+    title: "Namco Gallery Vol.2",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "02b1d728a8c722bd2299c44b54beb4de6eb70e4f",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

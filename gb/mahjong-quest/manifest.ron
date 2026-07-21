@@ -1,6 +1,20 @@
 (
-    title: "Mahjong Quest (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["3ab49ce8aa69013c1b2d9427926513e21d5efe1d"],
-    source: None,
+    title: "Mahjong Quest",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3ab49ce8aa69013c1b2d9427926513e21d5efe1d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

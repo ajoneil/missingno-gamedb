@@ -1,6 +1,19 @@
 (
-    title: "Hugo 2 1-2 (Germany) (GB Compatible)",
-    region: Some("Germany"),
-    hashes: ["5d89a8b4de6e6b2ba5be3434f0a1eee03077eeda"],
-    source: None,
+    title: "Hugo 2 1-2",
+    releases: [
+        (
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5d89a8b4de6e6b2ba5be3434f0a1eee03077eeda",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

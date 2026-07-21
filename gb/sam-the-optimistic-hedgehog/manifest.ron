@@ -1,6 +1,18 @@
 (
-    title: "Sam the Optimistic Hedgehog (World) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["ab8d49a99d02eb5c97d75f62dfb3720eec2b5abd", "af25acc86f0eef4ce72199383b96fcb4c9f0115e"],
-    source: None,
+    title: "Sam the Optimistic Hedgehog",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "ab8d49a99d02eb5c97d75f62dfb3720eec2b5abd",
+                ),
+                (
+                    sha1: "af25acc86f0eef4ce72199383b96fcb4c9f0115e",
+                ),
+            ],
+        ),
+    ],
 )

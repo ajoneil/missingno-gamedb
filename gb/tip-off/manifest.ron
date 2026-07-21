@@ -1,6 +1,118 @@
 (
-    title: "Tip Off (Europe)",
-    region: Some("Europe"),
-    hashes: ["97126504bcc3fdc251287e9c7990720a5186d97a", "a43ee2c068053e49dfc6e22a0cd781df357905ec", "c95e9787b148a72f3ffb2d4b98331f4b3c9c0590", "de2dfc28e57fda7552600e9add92bc8277abcff8", "f913a5ca8cbd4bba4ad6361ecdef6a5dadfe669a"],
-    source: None,
+    title: "Tip Off",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a43ee2c068053e49dfc6e22a0cd781df357905ec",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1994-02-22"),
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c95e9787b148a72f3ffb2d4b98331f4b3c9c0590",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 1"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "97126504bcc3fdc251287e9c7990720a5186d97a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 2"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1992-11-10"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "de2dfc28e57fda7552600e9add92bc8277abcff8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 3"),
+            regions: [
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f913a5ca8cbd4bba4ad6361ecdef6a5dadfe669a",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("GB Basketball"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            date: Some("1992-12-10"),
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "40d9287267598c23b24300f7e9f6e11cbfcc53a2",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("GB Basketball"),
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "65f73db2942d400a4c555fbcfd6313f07303d4e4",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

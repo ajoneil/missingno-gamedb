@@ -1,6 +1,20 @@
 (
-    title: "Doraemon Kart (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["f19734b2cb19de0be2d9e80297f567806ce4cad5"],
-    source: None,
+    title: "Doraemon Kart",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f19734b2cb19de0be2d9e80297f567806ce4cad5",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

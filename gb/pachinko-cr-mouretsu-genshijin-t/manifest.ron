@@ -1,6 +1,19 @@
 (
-    title: "Pachinko CR Mouretsu Genshijin T (Japan) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["3c473f1e5e849d42e5412dc968d0514f1d85855f"],
-    source: None,
+    title: "Pachinko CR Mouretsu Genshijin T",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "3c473f1e5e849d42e5412dc968d0514f1d85855f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,19 @@
 (
-    title: "Seisenshi - Saint Paradise - Saikyou no Senshitachi (Japan)",
-    region: Some("Japan"),
-    hashes: ["e7cf9eabead0e5c0d3228871bb8219643e5bd7e0"],
-    source: None,
+    title: "Seisenshi - Saint Paradise - Saikyou no Senshitachi",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e7cf9eabead0e5c0d3228871bb8219643e5bd7e0",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

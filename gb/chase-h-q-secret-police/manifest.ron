@@ -1,6 +1,51 @@
 (
-    title: "Chase H.Q. - Secret Police (Europe) (SGB Enhanced) (GB Compatible)",
-    region: Some("Europe"),
-    hashes: ["030b45eb8929c1512826f288e4ba035e0083505c", "e8770aeb76042fe5001dd48f55379350fa092a6f"],
-    source: None,
+    title: "Chase H.Q. - Secret Police",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e8770aeb76042fe5001dd48f55379350fa092a6f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Taito Memorial - Chase H.Q. - Secret Police"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "d6d90667ebf295016f01b4604ab03ab5b1876d00",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "030b45eb8929c1512826f288e4ba035e0083505c",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

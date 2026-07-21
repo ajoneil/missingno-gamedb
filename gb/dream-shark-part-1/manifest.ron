@@ -1,6 +1,17 @@
 (
-    title: "Dream Shark - Part 1 (World) (Beta 2) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["9d11b4c12622961b7aa03d0c2d9ab57de4b4c541"],
-    source: None,
+    title: "Dream Shark - Part 1",
+    releases: [
+        (
+            label: Some("Beta 2"),
+            regions: [
+                World,
+            ],
+            status: Beta,
+            artifacts: [
+                (
+                    sha1: "9d11b4c12622961b7aa03d0c2d9ab57de4b4c541",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,22 @@
 (
-    title: "GB-Wordyl - Dutch (World) (Nl) (GB Compatible)",
-    region: Some("World"),
-    hashes: ["53efec377e279f317baea0fe44e8974154fb3375", "7617083f9b13b2f95bdf1b0b327ffb4f8ccbe3c9", "9bd1d4095039c776389fa105df0c515316ee0d9d"],
-    source: None,
+    title: "GB-Wordyl - Dutch",
+    releases: [
+        (
+            label: Some("Nl"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "53efec377e279f317baea0fe44e8974154fb3375",
+                ),
+                (
+                    sha1: "7617083f9b13b2f95bdf1b0b327ffb4f8ccbe3c9",
+                ),
+                (
+                    sha1: "9bd1d4095039c776389fa105df0c515316ee0d9d",
+                ),
+            ],
+        ),
+    ],
 )

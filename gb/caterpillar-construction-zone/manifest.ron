@@ -1,6 +1,20 @@
 (
-    title: "Caterpillar Construction Zone (USA, Europe) (GB Compatible)",
-    region: Some("USA, Europe"),
-    hashes: ["0ec92ea836c729efebcd76282f90dfb579396aa6"],
-    source: None,
+    title: "Caterpillar Construction Zone",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "0ec92ea836c729efebcd76282f90dfb579396aa6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

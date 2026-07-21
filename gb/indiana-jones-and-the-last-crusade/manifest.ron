@@ -1,6 +1,35 @@
 (
-    title: "Indiana Jones and the Last Crusade (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["b656ba6c03d0cb5c81c2ed8c5c64ea8e36660aaa"],
-    source: None,
+    title: "Indiana Jones and the Last Crusade",
+    releases: [
+        (
+            title: Some("Indiana Jones - Saigo no Seisen"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "238499f9fc98183e57222e8f1271b9bbad2af3ec",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b656ba6c03d0cb5c81c2ed8c5c64ea8e36660aaa",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

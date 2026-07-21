@@ -1,6 +1,40 @@
 (
-    title: "Ultimate Surfing (Europe)",
-    region: Some("Europe"),
-    hashes: ["15426e79cf1c0cafbf8972501b8478951023c21a", "264c19ab212d938839306f7e8230d5caee3cf3e7"],
-    source: None,
+    title: "Ultimate Surfing",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "15426e79cf1c0cafbf8972501b8478951023c21a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "264c19ab212d938839306f7e8230d5caee3cf3e7",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Naminori Yarou!"),
+            label: Some("NP"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "d305a76307bf05f4d31d395785784ba317a9689f",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

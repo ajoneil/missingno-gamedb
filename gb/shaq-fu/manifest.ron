@@ -1,6 +1,20 @@
 (
-    title: "Shaq Fu (USA) (SGB Enhanced)",
-    region: Some("USA"),
-    hashes: ["5e9e68d9235cf8149232b85fd6080ba8796cb85e"],
-    source: None,
+    title: "Shaq Fu",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5e9e68d9235cf8149232b85fd6080ba8796cb85e",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

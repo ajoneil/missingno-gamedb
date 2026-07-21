@@ -1,6 +1,20 @@
 (
-    title: "Ninku Dai-2-dan - Ninku Sensou Hen (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["52d3ab8b84e3e825280c6b5db80933ace1aa5909"],
-    source: None,
+    title: "Ninku Dai-2-dan - Ninku Sensou Hen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "52d3ab8b84e3e825280c6b5db80933ace1aa5909",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

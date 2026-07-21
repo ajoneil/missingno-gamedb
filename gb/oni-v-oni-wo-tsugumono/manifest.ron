@@ -1,6 +1,20 @@
 (
-    title: "Oni V - Oni wo Tsugumono (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["197e2d2980053104ecf1c0edbff9f4d235518320"],
-    source: None,
+    title: "Oni V - Oni wo Tsugumono",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "197e2d2980053104ecf1c0edbff9f4d235518320",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

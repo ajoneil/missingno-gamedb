@@ -1,6 +1,25 @@
 (
-    title: "Daisu-ki (World) (v1.1)",
-    region: Some("World"),
-    hashes: ["36c9649d4e99fdcaa4cf590963d0c49a3cf8084e", "3a310be21d5cc077da6eb8e3afa99ccff2eda84e", "4634631f2c0b4a618aeefc114e5b8e4ba9c7ee04", "7d5b22d1c528603007e340f9d3562c1e53f10796"],
-    source: None,
+    title: "Daisu-ki",
+    releases: [
+        (
+            label: Some("v1.1"),
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "36c9649d4e99fdcaa4cf590963d0c49a3cf8084e",
+                ),
+                (
+                    sha1: "3a310be21d5cc077da6eb8e3afa99ccff2eda84e",
+                ),
+                (
+                    sha1: "4634631f2c0b4a618aeefc114e5b8e4ba9c7ee04",
+                ),
+                (
+                    sha1: "7d5b22d1c528603007e340f9d3562c1e53f10796",
+                ),
+            ],
+        ),
+    ],
 )

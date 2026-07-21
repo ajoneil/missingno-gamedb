@@ -1,6 +1,20 @@
 (
-    title: "Game Boy Datenlogger 1 (Germany) (Unl)",
-    region: Some("Germany"),
-    hashes: ["bfeba84926a72498ea65fcae767df8ba13f28d49"],
-    source: None,
+    title: "Game Boy Datenlogger 1",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bfeba84926a72498ea65fcae767df8ba13f28d49",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

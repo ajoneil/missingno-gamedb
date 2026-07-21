@@ -1,6 +1,20 @@
 (
-    title: "Nintama Rantarou GB - Eawase Challenge Puzzle (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["5642c866711bd5057a2c7de2662d23a4a74d8be9"],
-    source: None,
+    title: "Nintama Rantarou GB - Eawase Challenge Puzzle",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "5642c866711bd5057a2c7de2662d23a4a74d8be9",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

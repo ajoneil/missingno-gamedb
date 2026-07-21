@@ -1,6 +1,29 @@
 (
-    title: "Bust-A-Move Millennium (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["2c14b4c82072f2a55f9f699956f71071481808ec"],
-    source: None,
+    title: "Bust-A-Move Millennium",
+    releases: [
+        (
+            title: Some("Puzzle Bobble Millennium"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "adbb7b1544cf26e017053137ed7e9668f442e608",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "2c14b4c82072f2a55f9f699956f71071481808ec",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

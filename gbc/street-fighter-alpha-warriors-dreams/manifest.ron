@@ -1,6 +1,51 @@
 (
-    title: "Street Fighter Alpha - Warriors' Dreams (Europe)",
-    region: Some("Europe"),
-    hashes: ["8baad8f1fe999d1ee352d534b1dbe6e10c0281fe", "b7c04a24e7f0355a0113109b5e97ad044057a006", "c0086c92381b1561153fbe97fa455fc8c6573c1d", "ca26852ee2c0e691cd0fc30a44de84fd1465b4de"],
-    source: None,
+    title: "Street Fighter Alpha - Warriors\' Dreams",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "8baad8f1fe999d1ee352d534b1dbe6e10c0281fe",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "c0086c92381b1561153fbe97fa455fc8c6573c1d",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "ca26852ee2c0e691cd0fc30a44de84fd1465b4de",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "b7c04a24e7f0355a0113109b5e97ad044057a006",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

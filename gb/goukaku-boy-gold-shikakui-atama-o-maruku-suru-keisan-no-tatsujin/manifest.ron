@@ -1,6 +1,35 @@
 (
-    title: "Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Keisan no Tatsujin (Japan) (Imagineer)",
-    region: Some("Japan"),
-    hashes: ["6b8726c69a31e674a4c5ab02631de073d42e7d52", "e2ac91493248869aba6b7d26a36e5ff6bd6d6f5a"],
-    source: None,
+    title: "Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Keisan no Tatsujin",
+    releases: [
+        (
+            label: Some("IE Institute"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6b8726c69a31e674a4c5ab02631de073d42e7d52",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Imagineer"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e2ac91493248869aba6b7d26a36e5ff6bd6d6f5a",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

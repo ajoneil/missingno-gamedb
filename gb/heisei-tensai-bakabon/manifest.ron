@@ -1,6 +1,19 @@
 (
-    title: "Heisei Tensai Bakabon (Japan)",
-    region: Some("Japan"),
-    hashes: ["aaccd5b75894916ef655082a4ab4e05cb3f6fee8"],
-    source: None,
+    title: "Heisei Tensai Bakabon",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "aaccd5b75894916ef655082a4ab4e05cb3f6fee8",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

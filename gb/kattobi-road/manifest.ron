@@ -1,6 +1,19 @@
 (
-    title: "Kattobi Road (Japan)",
-    region: Some("Japan"),
-    hashes: ["7ac064a877ecc8247dfb7213722dbd0f4be665f0"],
-    source: None,
+    title: "Kattobi Road",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "7ac064a877ecc8247dfb7213722dbd0f4be665f0",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

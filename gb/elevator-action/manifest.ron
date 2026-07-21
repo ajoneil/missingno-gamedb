@@ -1,6 +1,35 @@
 (
-    title: "Elevator Action (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["16dbf00df012c1216d9d4abec9abcd5512d053a3", "c0c9de672a31f314e98392160fc343cf46ee98b9"],
-    source: None,
+    title: "Elevator Action",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c0c9de672a31f314e98392160fc343cf46ee98b9",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "16dbf00df012c1216d9d4abec9abcd5512d053a3",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Tsuri Sensei (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["be079a98f072c4b694a10154c351379529897ff6"],
-    source: None,
+    title: "Tsuri Sensei",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "be079a98f072c4b694a10154c351379529897ff6",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

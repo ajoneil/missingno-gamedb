@@ -1,6 +1,48 @@
 (
-    title: "Goal! (Europe)",
-    region: Some("Europe"),
-    hashes: ["24fffa3db4153895546a346a38971b6946011679", "9bb15769b2674d41075b45256dbfffc18483fd84"],
-    source: None,
+    title: "Goal!",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "24fffa3db4153895546a346a38971b6946011679",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Jaleco J.Cup Soccer"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "984f4fd0127325311cad9fbceb5c71f305cb2b23",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9bb15769b2674d41075b45256dbfffc18483fd84",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,34 @@
 (
-    title: "Phantom Air Mission (Europe)",
-    region: Some("Europe"),
-    hashes: ["2a270597d7b814a1c8819a5698ab922200569206"],
-    source: None,
+    title: "Phantom Air Mission",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "2a270597d7b814a1c8819a5698ab922200569206",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            title: Some("Turn and Burn - The F-14 Dogfight Simulator"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "28bf175c8b3990f97039062c22d80bc7a524f060",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

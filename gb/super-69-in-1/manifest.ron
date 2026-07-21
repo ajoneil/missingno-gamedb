@@ -1,6 +1,20 @@
 (
-    title: "Super 69 in 1 (Europe) (Unl)",
-    region: Some("Europe"),
-    hashes: ["91e7012c1eeeea280117c245b031400d060bd978"],
-    source: None,
+    title: "Super 69 in 1",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "91e7012c1eeeea280117c245b031400d060bd978",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

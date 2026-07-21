@@ -1,6 +1,20 @@
 (
-    title: "Initial D Gaiden (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["1b3c4c1c4dfca46a009eb2e5cd45b343d7ee6681"],
-    source: None,
+    title: "Initial D Gaiden",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1b3c4c1c4dfca46a009eb2e5cd45b343d7ee6681",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

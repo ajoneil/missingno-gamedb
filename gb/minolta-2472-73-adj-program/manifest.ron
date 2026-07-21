@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2472-73 Adj. Program (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["b242bcf33d46b5642392e526d7466e63f0b6a718"],
-    source: None,
+    title: "Minolta 2472-73 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b242bcf33d46b5642392e526d7466e63f0b6a718",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

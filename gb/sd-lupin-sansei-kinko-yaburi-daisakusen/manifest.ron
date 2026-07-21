@@ -1,6 +1,19 @@
 (
-    title: "SD Lupin Sansei - Kinko Yaburi Daisakusen (Japan)",
-    region: Some("Japan"),
-    hashes: ["758ff1bf4fe54feba8750238cd062a1ad37843e7"],
-    source: None,
+    title: "SD Lupin Sansei - Kinko Yaburi Daisakusen",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "758ff1bf4fe54feba8750238cd062a1ad37843e7",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

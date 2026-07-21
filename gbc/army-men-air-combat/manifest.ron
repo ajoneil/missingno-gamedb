@@ -1,6 +1,18 @@
 (
-    title: "Army Men - Air Combat (USA, Europe) (En,Fr,De)",
-    region: Some("USA, Europe"),
-    hashes: ["4e1d964d31013e79ecae4a49dcd3777cc7e06af2"],
-    source: None,
+    title: "Army Men - Air Combat",
+    releases: [
+        (
+            label: Some("En,Fr,De"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "4e1d964d31013e79ecae4a49dcd3777cc7e06af2",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

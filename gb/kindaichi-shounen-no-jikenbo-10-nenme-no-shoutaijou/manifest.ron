@@ -1,6 +1,20 @@
 (
-    title: "Kindaichi Shounen no Jikenbo - 10 Nenme no Shoutaijou (Japan) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["468ea148eb15eac3b771a2520e0b5248ea5085a1"],
-    source: None,
+    title: "Kindaichi Shounen no Jikenbo - 10 Nenme no Shoutaijou",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "468ea148eb15eac3b771a2520e0b5248ea5085a1",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

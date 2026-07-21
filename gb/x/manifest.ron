@@ -1,6 +1,69 @@
 (
-    title: "X (Japan)",
-    region: Some("Japan"),
-    hashes: ["c72f0b494ceba72db244266cb29e4d2b4d514263"],
-    source: None,
+    title: "X",
+    releases: [
+        (
+            title: Some("Eclipse"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "de02a34675a57d450284103681951436a4c830cd",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "c72f0b494ceba72db244266cb29e4d2b4d514263",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            title: Some("Lunar Chase"),
+            label: Some("Proto 1"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "b1c5b60b82aaa0b824f7bf67fc8f111377ccfb6a",
+                    size: Some(245760),
+                ),
+            ],
+        ),
+        (
+            title: Some("Lunar Chase"),
+            label: Some("Proto 2"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f5e9ecd2f0d20b0d8d452a852c700a5223bdcb73",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

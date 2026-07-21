@@ -1,6 +1,35 @@
 (
-    title: "Adventure Island (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["4a61945c1e3a37301748314777835c0e122a67e6"],
-    source: None,
+    title: "Adventure Island",
+    releases: [
+        (
+            title: Some("Takahashi Meijin no Bouken-jima II"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "504d9096c9eace691ad23b2119749bc24f6e7d45",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "4a61945c1e3a37301748314777835c0e122a67e6",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

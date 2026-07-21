@@ -1,6 +1,68 @@
 (
-    title: "Gift (Europe)",
-    region: Some("Europe"),
-    hashes: ["12561be4c0979b9dc8ba22caff8ac3513e1611a6", "a8c6b7ca2e4ed75cf037625b603cfc8ab67c0aef", "a9e2d5e1fd5d3993acb87888d287612a09ecaa8b"],
-    source: None,
+    title: "Gift",
+    kind: Demo,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "a8c6b7ca2e4ed75cf037625b603cfc8ab67c0aef",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "a9e2d5e1fd5d3993acb87888d287612a09ecaa8b",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Gifty"),
+            label: Some("En"),
+            regions: [
+                Germany,
+            ],
+            artifacts: [
+                (
+                    sha1: "f92997128f6bce74f5e5c0787f98fa3d2b6c3133",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            title: Some("Gifty"),
+            label: Some("En, Rev 1"),
+            regions: [
+                Germany,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "b0c9eb2ad7a41f17d8621c40a5c0ae3e53166253",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Europe,
+            ],
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "12561be4c0979b9dc8ba22caff8ac3513e1611a6",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,6 +1,20 @@
 (
-    title: "Minolta 2428 Adj. Program (USA) (Unl)",
-    region: Some("USA"),
-    hashes: ["6192d29c564441ca2b42a06ef15cc6f56e90f90f"],
-    source: None,
+    title: "Minolta 2428 Adj. Program",
+    releases: [
+        (
+            label: Some("Unl"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "6192d29c564441ca2b42a06ef15cc6f56e90f90f",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

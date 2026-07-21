@@ -1,6 +1,19 @@
 (
-    title: "Tsumeshougi - Hyakuban Shoubu (Japan)",
-    region: Some("Japan"),
-    hashes: ["257a73694a6535aafa58d346b06d2ee386989578"],
-    source: None,
+    title: "Tsumeshougi - Hyakuban Shoubu",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "257a73694a6535aafa58d346b06d2ee386989578",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

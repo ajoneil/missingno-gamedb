@@ -1,6 +1,35 @@
 (
-    title: "Star Trek Generations - Beyond the Nexus (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["47af2970d4feada0b59db59af6130b1999bb5f3f", "86a97ad95738bbcbbe94fc9911d6fd6a92a7a636"],
-    source: None,
+    title: "Star Trek Generations - Beyond the Nexus",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "47af2970d4feada0b59db59af6130b1999bb5f3f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "86a97ad95738bbcbbe94fc9911d6fd6a92a7a636",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+    ],
 )

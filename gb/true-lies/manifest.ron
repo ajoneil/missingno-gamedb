@@ -1,6 +1,20 @@
 (
-    title: "True Lies (USA, Europe)",
-    region: Some("USA, Europe"),
-    hashes: ["95dda9821e6755c12fec9d4c0c9db8bb515843a6"],
-    source: None,
+    title: "True Lies",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "95dda9821e6755c12fec9d4c0c9db8bb515843a6",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

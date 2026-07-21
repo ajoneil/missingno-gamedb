@@ -1,6 +1,35 @@
 (
-    title: "Turok - Battle of the Bionosaurs (Japan)",
-    region: Some("Japan"),
-    hashes: ["332517218856313559c483c57256977e0ce07ad7", "8dcecc535909ef9d1b6dac658fa41ddcbb75c208"],
-    source: None,
+    title: "Turok - Battle of the Bionosaurs",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "332517218856313559c483c57256977e0ce07ad7",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+        (
+            label: Some("En,Fr,De,Es"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8dcecc535909ef9d1b6dac658fa41ddcbb75c208",
+                    size: Some(262144),
+                ),
+            ],
+        ),
+    ],
 )

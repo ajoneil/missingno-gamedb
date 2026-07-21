@@ -1,6 +1,20 @@
 (
-    title: "Monster Race (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["bb305ec61ec272a7a2fada1c03ba6784c5168f86"],
-    source: None,
+    title: "Monster Race",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "bb305ec61ec272a7a2fada1c03ba6784c5168f86",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

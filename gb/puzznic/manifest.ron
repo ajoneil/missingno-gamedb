@@ -1,6 +1,35 @@
 (
-    title: "Puzznic (Japan) (En)",
-    region: Some("Japan"),
-    hashes: ["74b26b502c5c728bc7b99f387f1aaf817d22b55a", "e58a1e143ec5b13d8196d64b0f73f2737505e37f"],
-    source: None,
+    title: "Puzznic",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "e58a1e143ec5b13d8196d64b0f73f2737505e37f",
+                    size: Some(131072),
+                ),
+            ],
+        ),
+        (
+            label: Some("En"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "74b26b502c5c728bc7b99f387f1aaf817d22b55a",
+                    size: Some(65536),
+                ),
+            ],
+        ),
+    ],
 )

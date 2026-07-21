@@ -1,6 +1,36 @@
 (
-    title: "Majokko Mari-chan no Kisekae Monogatari (Japan) (Rev 1) (SGB Enhanced) (GB Compatible)",
-    region: Some("Japan"),
-    hashes: ["8bdd3bd414da91c6ea05bc29435e09b0b72e3790", "a56e2a42d4a0b21e656bc928e4451cf0623486cf"],
-    source: None,
+    title: "Majokko Mari-chan no Kisekae Monogatari",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "8bdd3bd414da91c6ea05bc29435e09b0b72e3790",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: Enhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "a56e2a42d4a0b21e656bc928e4451cf0623486cf",
+                    size: Some(2097152),
+                ),
+            ],
+        ),
+    ],
 )

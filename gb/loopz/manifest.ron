@@ -1,6 +1,34 @@
 (
-    title: "Loopz (World)",
-    region: Some("World"),
-    hashes: ["01f87439294a2a06604ae0fd41df203713460510", "dd2ddac2310409287299c287f1959196e0b4d14e"],
-    source: None,
+    title: "Loopz",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            status: Beta,
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "01f87439294a2a06604ae0fd41df203713460510",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "dd2ddac2310409287299c287f1959196e0b4d14e",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
 )

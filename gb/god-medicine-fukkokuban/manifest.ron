@@ -1,6 +1,20 @@
 (
-    title: "God Medicine - Fukkokuban (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["61d3579293bf07166402d11d891e14bfd6fef6b4"],
-    source: None,
+    title: "God Medicine - Fukkokuban",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "61d3579293bf07166402d11d891e14bfd6fef6b4",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

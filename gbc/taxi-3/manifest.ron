@@ -1,6 +1,16 @@
 (
-    title: "Taxi 3 (France)",
-    region: Some("France"),
-    hashes: ["e43817c673d47b7587f542dcc9f74190c63629ff"],
-    source: None,
+    title: "Taxi 3",
+    releases: [
+        (
+            regions: [
+                France,
+            ],
+            artifacts: [
+                (
+                    sha1: "e43817c673d47b7587f542dcc9f74190c63629ff",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

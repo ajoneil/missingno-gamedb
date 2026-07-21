@@ -1,6 +1,19 @@
 (
-    title: "Micro Machines 2 - Turbo Tournament (Europe)",
-    region: Some("Europe"),
-    hashes: ["50fea244c7b8c982421fccd67bc8177cf510a306", "cbdefc7f63bf9a6c0fc15d7ab72b4b532b0d2422"],
-    source: None,
+    title: "Micro Machines 2 - Turbo Tournament",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "50fea244c7b8c982421fccd67bc8177cf510a306",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

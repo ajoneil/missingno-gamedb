@@ -1,6 +1,20 @@
 (
-    title: "Kandume Monsters (Japan) (SGB Enhanced)",
-    region: Some("Japan"),
-    hashes: ["9444196c413a13cf326c18c5aa457bcac92114a5"],
-    source: None,
+    title: "Kandume Monsters",
+    releases: [
+        (
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9444196c413a13cf326c18c5aa457bcac92114a5",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

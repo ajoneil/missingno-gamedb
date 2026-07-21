@@ -1,6 +1,19 @@
 (
-    title: "Wario Land - Super Mario Land 3 (World)",
-    region: Some("World"),
-    hashes: ["ae65800302438e37a99e623a71d1c954d73c843e"],
-    source: None,
+    title: "Wario Land - Super Mario Land 3",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            hardware: (
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "ae65800302438e37a99e623a71d1c954d73c843e",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

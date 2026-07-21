@@ -1,6 +1,21 @@
 (
-    title: "NBA Live 96 (USA, Europe) (SGB Enhanced)",
-    region: Some("USA, Europe"),
-    hashes: ["f4d13f947f7f8f074f7979a5889cc2c91c56f4ea"],
-    source: None,
+    title: "NBA Live 96",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f4d13f947f7f8f074f7979a5889cc2c91c56f4ea",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )

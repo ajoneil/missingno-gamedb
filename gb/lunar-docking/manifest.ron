@@ -1,6 +1,18 @@
 (
-    title: "Lunar Docking (World)",
-    region: Some("World"),
-    hashes: ["4d43a38e8b5df41309f5b6ec13e4829db739d980", "5f038ef3657d3fbfb3be6917b24c3f933363ad4c"],
-    source: None,
+    title: "Lunar Docking",
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "4d43a38e8b5df41309f5b6ec13e4829db739d980",
+                ),
+                (
+                    sha1: "5f038ef3657d3fbfb3be6917b24c3f933363ad4c",
+                ),
+            ],
+        ),
+    ],
 )

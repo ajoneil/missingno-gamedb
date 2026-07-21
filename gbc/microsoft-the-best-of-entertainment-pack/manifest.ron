@@ -1,6 +1,27 @@
 (
-    title: "Microsoft - The Best of Entertainment Pack (Europe)",
-    region: Some("Europe"),
-    hashes: ["38b4814afd24bf1fffa382ed3396b6413abc5616", "be52fa14e66f4b35c66f434db61da4cfcec71762"],
-    source: None,
+    title: "Microsoft - The Best of Entertainment Pack",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            artifacts: [
+                (
+                    sha1: "be52fa14e66f4b35c66f434db61da4cfcec71762",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            artifacts: [
+                (
+                    sha1: "38b4814afd24bf1fffa382ed3396b6413abc5616",
+                    size: Some(1048576),
+                ),
+            ],
+        ),
+    ],
 )

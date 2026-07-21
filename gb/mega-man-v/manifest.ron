@@ -1,6 +1,51 @@
 (
-    title: "Mega Man V (Europe) (SGB Enhanced)",
-    region: Some("Europe"),
-    hashes: ["1a377bb0571bbe48a58b5006ccb02046ec64b076", "9a7da0e4d3f49e4a0b94e85cd64e28a687d81260"],
-    source: None,
+    title: "Mega Man V",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "1a377bb0571bbe48a58b5006ccb02046ec64b076",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            title: Some("Rockman World 5"),
+            regions: [
+                Japan,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "f3904d2069a888e45ca44878461324e4c2a8b03d",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                sgb: Enhanced,
+                cgb: NotEnhanced,
+            ),
+            artifacts: [
+                (
+                    sha1: "9a7da0e4d3f49e4a0b94e85cd64e28a687d81260",
+                    size: Some(524288),
+                ),
+            ],
+        ),
+    ],
 )
