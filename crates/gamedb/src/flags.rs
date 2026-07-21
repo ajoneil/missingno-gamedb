@@ -26,6 +26,8 @@ pub enum FlagKind {
     UnknownQualifier,
     ConflictingField,
     RetiredHash,
+    /// The emulator diverges from the hardware for this game.
+    EmulationIncompatibility,
     Custom,
 }
 

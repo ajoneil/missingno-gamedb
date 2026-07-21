@@ -81,6 +81,23 @@ pub struct VcsHardware {
     /// Cartridge board code, e.g. "F8", "F6SC", "4K".
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<String>,
+    /// Controllers the game supports; empty = the default joystick alone.
+    /// A game playable with more than one lists each ([Joystick, Paddle]).
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub controllers: Vec<Controller>,
+}
+
+/// A VCS controller. An empty controller list means the joystick, which the
+/// great majority of games use; the list is spelled out only when a game needs
+/// something else or supports several.
+#[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum Controller {
+    Joystick,
+    Paddle,
+    Driving,
+    Keypad,
+    Trackball,
+    BoosterGrip,
 }
 
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]

@@ -38,6 +38,7 @@ conflict to report, not a licence to restage the date.
 | vcs | [Atarimania](https://www.atarimania.com) | publisher, **country**, year, model/reference number | The first stop once a dump is identified. Covers the obscure regional reissues (CCE, Genus, Dynacom, Funvision) that encyclopaedias omit entirely. Search by title rather than guessing numeric page ids; robots.txt is empty, so ordinary reading is permitted. |
 | vcs | AtariAge | — | **Behind a Cloudflare challenge.** Treat as blocked: note the gap rather than working around it. |
 | vcs | Stella's properties database | board/cart type when a playtest boots wrong | The board drives the emulator, so a garbled VCS playtest makes `cart_type` the first suspect. |
+| vcs | [Atari Compendium manual archive](https://www.ataricompendium.com/archives/manuals/vcs/vcs_manuals.html) | scanned game manuals (`Manual` link) | ~1000 static PDFs hosted on-site. **Get the exact filename from the index page — never guess a slug.** The filenames are unpredictable (`3dtictactoe.pdf`, not `3-d_tic-tac-toe.pdf`): WebFetch the index and read the `href`. Sears-branded scans are separate files (`…-sears.pdf`) for the Sears reissue. |
 | gb / gbc | [gbdev](https://gbdev.io) database, the project's own repo/site | homebrew authorship, licence, canonical cover art | Primary sources beat aggregators: prefer the author's repo to a catalogue entry. |
 | demoscene | [pouet.net](https://www.pouet.net) | party, release date, group, prod imagery | Primary for demoscene productions. |
 

@@ -23,8 +23,8 @@ pub use game::{
 pub use ids::{Date, ReleaseDate, Sha1, Slug};
 pub use load::{Database, Entry, LoadIssue, Tree};
 pub use platform::{
-    Enhancement, GameBoy, GameBoyColor, GbHardware, GbcHardware, Platform, TvFormat, Vcs,
-    VcsHardware,
+    Controller, Enhancement, GameBoy, GameBoyColor, GbHardware, GbcHardware, Platform, TvFormat,
+    Vcs, VcsHardware,
 };
 pub use region::Region;
 pub use source::Source;
