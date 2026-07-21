@@ -53,11 +53,12 @@ enum Answer {
 /// TOSEC-style bracket flags that mean "this dump is not the plain original".
 /// `[a]` (alternate) and `[!]` (verified good) are deliberately absent: an
 /// alternate dump still belongs to the game.
+// Longest flag first: a translation must not match [t (trained).
 const DERIVED_FLAGS: [(&str, &str); 6] = [
-    ("[h", "hack"),
-    ("[t", "trained"),
     ("[tr", "translation"),
     ("[cr", "cracked"),
+    ("[h", "hack"),
+    ("[t", "trained"),
     ("[b", "bad dump"),
     ("[o", "overdump"),
 ];
