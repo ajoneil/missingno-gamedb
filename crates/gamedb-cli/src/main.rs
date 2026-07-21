@@ -1,3 +1,4 @@
+mod fix_slugs;
 mod fix_titles;
 mod import_flags;
 mod import_nointro;
@@ -58,6 +59,16 @@ enum Command {
         #[arg(long, default_value = "migration-report.md")]
         report: PathBuf,
     },
+    /// One-shot: drop hardware qualifiers from slugs
+    FixSlugs {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+        /// Report the renames without touching the tree
+        #[arg(long)]
+        dry_run: bool,
+    },
     /// One-shot: move status/kind/licence qualifiers out of game titles
     FixTitles {
         #[arg(default_value = ".")]
@@ -105,6 +116,37 @@ fn main() -> ExitCode {
             run_migration(&path.clone(), &report, "migrate homebrew", |r| {
                 migrate_homebrew::run(&path, r).map(|s| format!("{} entries rewritten", s.migrated))
             })
+        }
+        Command::FixSlugs {
+            path,
+            report,
+            dry_run,
+        } => {
+            let data_root = resolve_db_root(&path);
+            if !dry_run && let Err(e) = ensure_clean_git(&path) {
+                eprintln!("{e}");
+                return ExitCode::from(2);
+            }
+            let mut findings = Report::default();
+            match fix_slugs::run(&path, &data_root, &mut findings, dry_run) {
+                Ok(s) => {
+                    let verb = if dry_run { "would rename" } else { "renamed" };
+                    println!(
+                        "{verb} {} slugs ({} flag subjects, {} left for merge)",
+                        s.renamed, s.subjects, s.collisions
+                    );
+                    if let Err(e) = findings.write(&report, "gamedb fix-slugs report") {
+                        eprintln!("failed to write report: {e}");
+                        return ExitCode::FAILURE;
+                    }
+                    println!("{} review items → {}", findings.item_count(), report.display());
+                    ExitCode::SUCCESS
+                }
+                Err(e) => {
+                    eprintln!("aborted: {e}");
+                    ExitCode::FAILURE
+                }
+            }
         }
         Command::FixTitles { path, report } => {
             let data_root = resolve_db_root(&path);
