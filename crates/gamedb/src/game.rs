@@ -34,9 +34,14 @@ pub struct Game<P: Platform> {
     /// Remote screenshot URLs.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub screenshots: Vec<String>,
-    /// Present when this game is a derived work patched onto another game's ROM.
+    /// Present when this game is a derived work patched onto another game's ROM
+    /// (total conversions and translations — works with their own identity).
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub mod_of: Option<ModOf>,
+    /// Smaller fan modifications of this game — QoL fixes, additions. Each is
+    /// its own thing with its own versions, listed under the game it modifies.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub mods: Vec<Mod>,
     /// Human endorsements of this entry; any automated change clears them
     /// (every curator vouched for the pre-change state).
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
@@ -158,6 +163,40 @@ pub struct ModOf {
     /// Absent when the work circulates only as a pre-patched ROM.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub patch: Option<Patch>,
+}
+
+/// A fan modification attached to the game it modifies.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct Mod {
+    pub name: String,
+    pub category: ModCategory,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub author: Option<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub links: Vec<Link>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub releases: Vec<ModRelease>,
+}
+
+/// One version of a mod.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct ModRelease {
+    /// Version or variant name: "v1.2", "easy mode".
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub label: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub date: Option<ReleaseDate>,
+    /// The base artifact this version applies to, when known.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub base_sha1: Option<Sha1>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub patch: Option<Patch>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub sources: Vec<Source>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub artifacts: Vec<Artifact>,
 }
 
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]

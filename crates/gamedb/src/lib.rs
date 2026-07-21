@@ -17,7 +17,7 @@ pub mod validate;
 
 pub use flags::{Flag, FlagFile, FlagKind};
 pub use game::{
-    Artifact, Curation, Game, GameKind, Link, LinkType, ModCategory, ModOf, Patch, PatchFormat, Release,
+    Artifact, Curation, Game, GameKind, Mod, ModRelease, Link, LinkType, ModCategory, ModOf, Patch, PatchFormat, Release,
     ReleaseStatus,
 };
 pub use ids::{Date, ReleaseDate, Sha1, Slug};

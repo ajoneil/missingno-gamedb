@@ -9,6 +9,20 @@ const GB_HOMEBREW: &str = r#"(
         (name: "Source Code", url: "https://github.com/pinobatch/240p-test-mini", link_type: Source),
     ],
     covers: ["https://example.org/covers/gb240p.png", "https://example.org/covers/gb240p-alt.png"],
+    mods: [
+        (
+            name: "Grid fix",
+            category: QualityOfLife,
+            author: Some("someone"),
+            releases: [
+                (
+                    label: Some("v1.1"),
+                    base_sha1: Some("0123456789abcdef0123456789abcdef01234567"),
+                    artifacts: [(sha1: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")],
+                ),
+            ],
+        ),
+    ],
     screenshots: ["https://example.org/shots/gb240p-linearity.png"],
     releases: [
         (
@@ -89,6 +103,8 @@ fn gb_homebrew_round_trips() {
     assert_eq!(release.hardware.cgb, Enhancement::Enhanced);
     assert_eq!(release.sources.len(), 2);
     assert_eq!(game.covers.len(), 2);
+    assert_eq!(game.mods.len(), 1);
+    assert_eq!(game.mods[0].releases[0].label.as_deref(), Some("v1.1"));
 }
 
 #[test]

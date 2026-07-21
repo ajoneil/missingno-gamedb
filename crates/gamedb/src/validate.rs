@@ -104,9 +104,38 @@ fn validate_tree<P: Platform>(db_root: &Path) -> io::Result<Vec<Finding>> {
                 }
             }
         }
+        for game_mod in &game.mods {
+            for release in &game_mod.releases {
+                for artifact in &release.artifacts {
+                    if let Some(first) = seen_sha1.insert(artifact.sha1.clone(), display.clone())
+                    {
+                        findings.push(Finding::error(
+                            display,
+                            format!("duplicate sha1 {} (also in {first})", artifact.sha1),
+                        ));
+                    }
+                }
+            }
+        }
     }
 
     for (display, game) in &games {
+        for game_mod in &game.mods {
+            for release in &game_mod.releases {
+                if let Some(base) = &release.base_sha1
+                    && !seen_sha1.contains_key(base)
+                {
+                    findings.push(Finding::warning(
+                        display,
+                        format!(
+                            "mod {:?} base sha1 {base} not found in the {} tree",
+                            game_mod.name,
+                            P::DIR
+                        ),
+                    ));
+                }
+            }
+        }
         if let Some(mod_of) = &game.mod_of
             && !seen_sha1.contains_key(&mod_of.base_sha1)
         {
