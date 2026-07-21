@@ -42,6 +42,9 @@ pub struct GbHardware {
     pub sgb: Enhancement,
     #[serde(default, skip_serializing_if = "Enhancement::is_unknown")]
     pub cgb: Enhancement,
+    /// Cartridge mapper, e.g. "MBC1", "MBC3+TIMER+BATTERY"; `None` = as the header says.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub mapper: Option<String>,
 }
 
 /// Whether a Game Boy release detects and uses an enhancing console.
@@ -61,10 +64,14 @@ impl Enhancement {
     }
 }
 
-/// CGB games are CGB-required by definition; per-release facts may land here later.
+/// CGB games are CGB-required by definition.
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
-pub struct GbcHardware {}
+pub struct GbcHardware {
+    /// Cartridge mapper, e.g. "MBC5+RUMBLE+RAM+BATTERY"; `None` = as the header says.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub mapper: Option<String>,
+}
 
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]

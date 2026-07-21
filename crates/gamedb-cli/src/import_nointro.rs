@@ -444,6 +444,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 } else {
                     Enhancement::NotEnhanced
                 },
+                mapper: None,
             };
             entries.push((
                 ParsedName {
