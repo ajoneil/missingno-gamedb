@@ -1,3 +1,11 @@
+mod import_nointro;
+mod legacy;
+mod migrate_homebrew;
+mod migrate_vcs;
+mod report;
+mod text;
+mod tree;
+
 use std::{
     path::{Path, PathBuf},
     process::ExitCode,
@@ -5,6 +13,8 @@ use std::{
 
 use clap::{Parser, Subcommand};
 use missingno_gamedb::{Severity, format_all, validate};
+
+use report::Report;
 
 #[derive(Parser)]
 #[command(
@@ -31,12 +41,60 @@ enum Command {
         #[arg(default_value = ".")]
         path: PathBuf,
     },
+    /// One-shot: collapse per-variant VCS entries into games with releases
+    MigrateVcs {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        /// Ambiguity report output
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+    },
+    /// One-shot: rewrite homebrew (sourced) GB/GBC entries in the new schema
+    MigrateHomebrew {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+    },
+    /// One-shot: re-import commercial GB/GBC entries from No-Intro DATs
+    ImportNointro {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        /// Logiqx XML DAT file(s); pass GB and GBC together
+        #[arg(long, required = true)]
+        dat: Vec<PathBuf>,
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+    },
 }
 
 fn main() -> ExitCode {
     match Cli::parse().command {
         Command::Validate { path } => run_validate(&path),
         Command::Fmt { path } => run_fmt(&path),
+        Command::MigrateVcs { path, report } => run_migration(&path, &report, "migrate vcs", |r| {
+            migrate_vcs::run(&path, r).map(|s| {
+                format!(
+                    "{} variant entries collapsed into {} games ({} releases)",
+                    s.entries_before, s.games_after, s.releases
+                )
+            })
+        }),
+        Command::MigrateHomebrew { path, report } => {
+            run_migration(&path, &report, "migrate homebrew", |r| {
+                migrate_homebrew::run(&path, r).map(|s| format!("{} entries rewritten", s.migrated))
+            })
+        }
+        Command::ImportNointro { path, dat, report } => {
+            run_migration(&path, &report, "import nointro", |r| {
+                import_nointro::run(&path, &dat, r).map(|s| {
+                    format!(
+                        "{} DAT entries → {} gb + {} gbc games ({} moved gbc→gb, {} merged with old entries, {} leftovers)",
+                        s.dat_entries, s.gb_games, s.gbc_games, s.moved_to_gb, s.merged, s.leftovers
+                    )
+                })
+            })
+        }
     }
 }
 
@@ -44,6 +102,62 @@ fn has_platform_tree(root: &Path) -> bool {
     ["gb", "gbc", "vcs"]
         .iter()
         .any(|dir| root.join(dir).is_dir())
+}
+
+fn ensure_clean_git(root: &Path) -> Result<(), String> {
+    let output = std::process::Command::new("git")
+        .arg("-C")
+        .arg(root)
+        .args(["status", "--porcelain"])
+        .output()
+        .map_err(|e| format!("git status failed: {e}"))?;
+    if !output.status.success() {
+        return Err("git status failed — is this a git repository?".to_owned());
+    }
+    if output.stdout.is_empty() {
+        Ok(())
+    } else {
+        Err("working tree is not clean — commit or stash first (the diff is the review)".to_owned())
+    }
+}
+
+fn run_migration(
+    root: &Path,
+    report_path: &Path,
+    title: &str,
+    body: impl FnOnce(&mut Report) -> Result<String, String>,
+) -> ExitCode {
+    if !has_platform_tree(root) {
+        eprintln!(
+            "no platform trees (gb/, gbc/, vcs/) under {}",
+            root.display()
+        );
+        return ExitCode::from(2);
+    }
+    if let Err(e) = ensure_clean_git(root) {
+        eprintln!("{e}");
+        return ExitCode::from(2);
+    }
+    let mut report = Report::default();
+    match body(&mut report) {
+        Ok(summary) => {
+            println!("{summary}");
+            if let Err(e) = report.write(report_path, &format!("gamedb {title} report")) {
+                eprintln!("failed to write report: {e}");
+                return ExitCode::FAILURE;
+            }
+            println!(
+                "{} review items → {}",
+                report.item_count(),
+                report_path.display()
+            );
+            ExitCode::SUCCESS
+        }
+        Err(e) => {
+            eprintln!("aborted, nothing written: {e}");
+            ExitCode::FAILURE
+        }
+    }
 }
 
 fn run_validate(root: &Path) -> ExitCode {

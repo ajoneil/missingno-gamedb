@@ -13,7 +13,9 @@ pub mod region;
 pub mod source;
 pub mod validate;
 
-pub use game::{Artifact, Game, Link, LinkType, ModCategory, ModOf, Patch, PatchFormat, Release};
+pub use game::{
+    Artifact, Game, GameKind, Link, LinkType, ModCategory, ModOf, Patch, PatchFormat, Release,
+};
 pub use ids::{ReleaseDate, Sha1, Slug};
 pub use load::{Database, Entry, LoadIssue, Tree};
 pub use platform::{

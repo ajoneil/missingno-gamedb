@@ -16,6 +16,8 @@ pub(crate) fn is_default<T: Default + PartialEq>(value: &T) -> bool {
 #[serde(deny_unknown_fields, bound = "")]
 pub struct Game<P: Platform> {
     pub title: String,
+    #[serde(default, skip_serializing_if = "is_default")]
+    pub kind: GameKind,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub developer: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -51,6 +53,16 @@ impl<P: Platform> Game<P> {
         text.push('\n');
         Ok(text)
     }
+}
+
+/// What kind of work this entry is. `Demo` is a playable preview of a game
+/// (kiosk/sample carts); `Demoscene` is a scene production in its own right.
+#[derive(Serialize, Deserialize, Default, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum GameKind {
+    #[default]
+    Game,
+    Demo,
+    Demoscene,
 }
 
 /// A concrete published form of a game: region, revision, hardware variant.
