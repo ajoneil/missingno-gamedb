@@ -35,11 +35,12 @@ pub struct Game<P: Platform> {
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub screenshots: Vec<String>,
     /// Present when this game is a derived work patched onto another game's ROM
-    /// (total conversions and translations — works with their own identity).
+    /// (total conversions — works with their own identity).
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub mod_of: Option<ModOf>,
-    /// Smaller fan modifications of this game — QoL fixes, additions. Each is
-    /// its own thing with its own versions, listed under the game it modifies.
+    /// Fan modifications of this game — QoL fixes, additions, translations
+    /// (a translated game is the same game, as official localizations are).
+    /// Each is its own thing with its own versions and curation.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub mods: Vec<Mod>,
     /// Human endorsements of this entry; any automated change clears them
