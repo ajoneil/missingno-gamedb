@@ -1,7 +1,28 @@
 (
     title: "Yars\' Revenge",
+    developer: Some("Howard Scott Warshaw"),
+    description: Some("The player flies a fly-like Yar freely around the screen, chewing or shooting through the cell barrier that shields the Qotile at the right. Clearing a path lets the Zorlon Cannon fire from the left, but it tracks the Yar\'s own position and its shot must be dodged. A flickering Ion Zone down the middle of the screen blocks incoming fire while the Yar sits in it, at the cost of being unable to shoot back."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Yars%27_Revenge",
+            link_type: Wiki,
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+            recommended: true,
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,19 +30,41 @@
             artifacts: [
                 (
                     sha1: "513f6ab134b72dc35ccf4f69789e2c82f6a5198d",
-                ),
-                (
-                    sha1: "5febb9f56a989ee6a672d498464744c622147869",
-                ),
-                (
-                    sha1: "884647ebc15df7d9388b2cba0318c240e593dbc0",
+                    label: Some("unidentified"),
                 ),
                 (
                     sha1: "e2cd8996c1cf929e29130690024d1ec23d3b0bde",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Yars\' Revenge (USA).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "dae93f03a1ccdab6f3296c7409fcc7402566ccba",
+                    label: Some("alt [a1]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Yar\'s Revenge (1981) (Atari) [a1].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -29,9 +72,64 @@
             artifacts: [
                 (
                     sha1: "6955c6f08070bc9e51fb6e4a8cc51218b25cca0d",
+                    label: Some("unidentified"),
                 ),
                 (
                     sha1: "aaeb19d1e5b3164659b3f18cbf32f3db924e500c",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Yars\' Revenge (1981)(Atari)(PAL)[CX2655].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            title: Some("Time Freeze"),
+            date: Some("1981-09-01"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "884647ebc15df7d9388b2cba0318c240e593dbc0",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Yars\' Revenge (Time Freeze) (09-01-81) (Atari, Howard Scott Warshaw - Sears) (CX2655 - 49-75167) (Prototype).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Canal 3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5febb9f56a989ee6a672d498464744c622147869",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Yars\' Revenge (Canal 3 - Intellivision).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -1,40 +1,268 @@
 (
-    title: "Pitfall",
+    title: "Pitfall!",
+    developer: Some("David Crane"),
+    description: Some("Pitfall Harry runs through a jungle gathering thirty-two treasures against a twenty-minute clock. He can jump, climb ladders into a tunnel system beneath the surface, and swing across pits on vines. Rolling logs and open holes cost points; quicksand, fire, scorpions, cobras and crocodiles cost a life."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pitfall!",
+            link_type: Wiki,
+        ),
+        (
+            name: "Atarimania — Pitfall! (Genus, Brazil)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-pitfall_18917.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9F65C9B2DBDE4E03431FBF43786468379F3DE40B",
+    ],
+    mods: [
+        (
+            name: "Unnamed hack of Pitfall!",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("8d525480445d48cc48460dc666ebad78c8fb7b73"),
+                    artifacts: [
+                        (
+                            sha1: "374ad3c09e737ec6e7eab3af01d4b22a75a93b97",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed hack of Pitfall! (no walls)",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("8d525480445d48cc48460dc666ebad78c8fb7b73"),
+                    artifacts: [
+                        (
+                            sha1: "eb7884e07c1761a8685dd6f1be11dd7383aacc7e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+            recommended: true,
+        ),
+    ],
     releases: [
         (
-            date: Some("1983"),
-            publisher: Some("CCE"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "2b7a575efa56afe6ab5d659aca29f3824d0ac67e",
+                    sha1: "8d525480445d48cc48460dc666ebad78c8fb7b73",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pitfall! (1982)(Activision)(NTSC)[AX-018].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
-                    sha1: "374ad3c09e737ec6e7eab3af01d4b22a75a93b97",
+                    sha1: "dab2775adaf55f7dac3d8195eba10077d904287b",
+                ),
+                (
+                    sha1: "ded6db887625793bc741b8e5d9a0c93a5d9b779a",
+                ),
+                (
+                    sha1: "a10308a33770859d0cee1c8fca43f19da57f3640",
+                    label: Some("overdump"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pitfall! (1982) (Activision) [o1].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f1b5fd9eefd04eec2df9aca6d7ca514f9495ba4e",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pitfall! - Pitfall Harry\'s Jungle Adventure (Unknown) (PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            title: Some("Jungle Runner"),
+            publisher: Some("Activision"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c084539ef888ef0ac8bde9e81cd497697ba2b42a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pitfall! - Pitfall Harry\'s Jungle Adventure (Jungle Runner) (1982) (Activision, David Crane) (AX-018, AX-018-04) (Prototype).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Activision"),
+            status: Beta,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fd79516f3db60978dc2645625ee028f5af76b637",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pitfall! (Beta).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b7a575efa56afe6ab5d659aca29f3824d0ac67e",
+                    label: Some("unattributed"),
                 ),
                 (
                     sha1: "861196f2425b9374c1aba5703bc15b88241e066b",
+                    label: Some("Supergame"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pitfall (AKA Pitfall!) (1984) (Supergame) (32).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "936693951383eaaa710f938debd0f7701a909c6d",
-                ),
-                (
-                    sha1: "a0a548bc6cc9e6af1401c37d43783590b670ae1d",
+                    label: Some("CCE"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pitfall! (CCE) (PAL-M) [!].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "ad28bee5492ce16f9ae69a59201a3790510c9a6d",
+                    label: Some("unattributed"),
                 ),
                 (
                     sha1: "d44b37c89ad9eaf5e2c0c75c59f35a9571a4156b",
-                ),
-                (
-                    sha1: "eb7884e07c1761a8685dd6f1be11dd7383aacc7e",
+                    label: Some("unattributed"),
                 ),
                 (
                     sha1: "f39ca9cf438f029d76551a94bb1d8e52f08c3270",
+                    label: Some("unattributed"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Treasure Hunting"),
+            publisher: Some("Funvision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "461d91dee959958f9107f1d72e716a17af3c1c92",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Treasure Hunting (AKA Pitfall!) (Funvision - Fund. International Co.).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Genus"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a0a548bc6cc9e6af1401c37d43783590b670ae1d",
+                    label: Some("Genus"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pitfall (AKA Pitfall!) (Genus).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

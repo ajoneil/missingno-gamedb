@@ -1,5 +1,285 @@
 (
     title: "River Raid",
+    developer: Some("Carol Shaw"),
+    description: Some("The player flies a jet down an endlessly scrolling river canyon, steering left and right and varying speed while shooting tankers, helicopters, bridges and fuel depots. Fuel drains constantly and is topped up by flying over a depot, so depots must be crossed rather than destroyed. Destroying the bridge that ends a section makes it the restart point after a life is lost."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/River_Raid",
+            link_type: Wiki,
+        ),
+    ],
+    mods: [
+        (
+            name: "Galaga (River Raid hack)",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "325a2374800b2cb78ab7ff9e4017759865109d7d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed hack of River Raid (Jone Yuan)",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "d3355b6ebc0885494cd6e6a1d9b67be9eaf34f26",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "River Raid (Hack) (2600 Screen Search Console) (Jone Yuan Telephonic Enterprise Co).bin",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed hack of River Raid (208 in 1)",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "96ae39e103fd46457b0da53074bdf16fee3704fc",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "River Raid (Hack) (208 in 1) (Unknown) (PAL).bin",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed hack of River Raid (SpkSoft)",
+            category: ContentChange,
+            author: Some("SpkSoft"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "0e44f226fa3e9e0f0f8737bda450eaefc0adc07d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed hack of River Raid (SpkSoft 98)",
+            category: ContentChange,
+            author: Some("SpkSoft"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "1175809c22df9e11677b096bd23d52e92f68e1f5",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed trainer of River Raid (SpkSoft)",
+            category: QualityOfLife,
+            author: Some("SpkSoft"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "959f46289452ce504238137f6a659688c8439ff3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed hack of River Raid (208 in 1) [a]",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "776a306788e1aeb5496454f493db15c2018feba9",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "River Raid (Hack) (208 in 1) (Unknown) (PAL) [a].bin",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid 4 Rivers",
+            category: ContentChange,
+            author: Some("Fred Quimby"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "855e860b4536ef8ca7604c98edf941e10b2e21ea",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid 4 Rivers Random",
+            category: ContentChange,
+            author: Some("Fred Quimby"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "906944044bd330b23268fa2a8e9b5cd7057879b8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "20435847de80b3c58e5ddc41cf3d3445a3c6962c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid Black V2",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "b537be43e4c87f884d60e76adfc7f91c7fce8ae6",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid Neo",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "69d7f8477090239e9b619151a0a4a05c0cc3283d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid Plus",
+            category: ContentChange,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "900841359947845f29bbd35a8626606f80494892",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid Tanks",
+            category: ContentChange,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "407c55606ac91792ab11ac1cce32d6b054147593",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid Infinite Lives",
+            category: QualityOfLife,
+            author: Some("Liuxiubo"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "63b12e34ed0676c69e9c6f05a41562966264b8ad",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "River Raid Invencible",
+            category: QualityOfLife,
+            author: Some("Ivan Machado"),
+            releases: [
+                (
+                    base_sha1: Some("40329780402f8247f294fe884ffc56cc3da0c62d"),
+                    artifacts: [
+                        (
+                            sha1: "eb05329f39f379304bbcaa733ae9bc6e5ace0fb9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1983"),
@@ -10,61 +290,16 @@
             ),
             artifacts: [
                 (
-                    sha1: "0aa80c4a8ff68b0c2d69b2dc85a0f13622d3209f",
-                ),
-                (
                     sha1: "0d73d308c8227ec46e43ad5b078a5a27abce2d66",
-                ),
-                (
-                    sha1: "0ddf0ed5cc817d899c3a80f1f7ea428494c1e996",
-                ),
-                (
-                    sha1: "1b6983d1973438705597fb1068aa72867faa4693",
-                ),
-                (
-                    sha1: "1dc450ba42393a53f7d2ee30e359d20963ba12ca",
-                ),
-                (
-                    sha1: "23e0a668ffdac0329bb60800d9593a0a35621930",
-                ),
-                (
-                    sha1: "325a2374800b2cb78ab7ff9e4017759865109d7d",
-                ),
-                (
-                    sha1: "40329780402f8247f294fe884ffc56cc3da0c62d",
-                ),
-                (
-                    sha1: "98b946bf70280f71910127d238643ee8c567f204",
-                ),
-                (
-                    sha1: "9f52eb9cd2f8a7deae3e51cae103d7b9f2b9591b",
-                ),
-                (
-                    sha1: "a2edabed54b12acded1e34613ac653fc9400cee1",
-                ),
-                (
-                    sha1: "b0e845e9f5bff2f562d360eb8b6c7a8775fbc7ce",
-                ),
-                (
-                    sha1: "b8f194cfa925624ab7fcaffd98bb7d724dca1dcf",
-                ),
-                (
-                    sha1: "bfa069c5ad45990c70abf81dfb43e692d1414b59",
-                ),
-                (
-                    sha1: "c1099ca7465ff617c6aa0e7ce4b0f5058bcaf1fb",
-                ),
-                (
-                    sha1: "d3355b6ebc0885494cd6e6a1d9b67be9eaf34f26",
-                ),
-                (
-                    sha1: "d600e20539aa9cdf88cc401d69f0f1b8fe26fd8e",
-                ),
-                (
-                    sha1: "e1467f2d0d60d6585ff7d3d15d12a95e1f850cc4",
-                ),
-                (
-                    sha1: "e64002394de321ad03abc46e66f89725978ff72f",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (1983) (Digitel).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
@@ -78,6 +313,15 @@
             artifacts: [
                 (
                     sha1: "973ffb93e8808bce66758250710269897f1c076f",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (16k Version).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
@@ -91,12 +335,19 @@
             artifacts: [
                 (
                     sha1: "8ba7177acde6ab99c0c62e231700e1a7495eaac2",
-                ),
-                (
-                    sha1: "96ae39e103fd46457b0da53074bdf16fee3704fc",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (1984) (Galaga Games) (PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "b1f3483f3f08d4d7adef1ef39f468b42a25a22e9",
+                    label: Some("unidentified"),
                 ),
             ],
         ),
@@ -110,6 +361,323 @@
             artifacts: [
                 (
                     sha1: "de041e2eb7f48fa32a47c82887faae81fb799122",
+                    label: Some("unidentified"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "40329780402f8247f294fe884ffc56cc3da0c62d",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (USA).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "c5fae19d9b7532accd2de9b0e92ff2b8e7838faa",
+                    label: Some("alt [a2]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (1982) (Activision) [a2].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Canal 3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ddf0ed5cc817d899c3a80f1f7ea428494c1e996",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (Canal 3 - Intellivision).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1b6983d1973438705597fb1068aa72867faa4693",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (Digivision).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Star Game"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1dc450ba42393a53f7d2ee30e359d20963ba12ca",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (Star Game) (003).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "23e0a668ffdac0329bb60800d9593a0a35621930",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (Brazil).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1984"),
+            publisher: Some("Supergame"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "98b946bf70280f71910127d238643ee8c567f204",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (1984) (Supergame) (71).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Robby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b8f194cfa925624ab7fcaffd98bb7d724dca1dcf",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (Robby) (18).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bfa069c5ad45990c70abf81dfb43e692d1414b59",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (CCE).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "c1099ca7465ff617c6aa0e7ce4b0f5058bcaf1fb",
+                    label: Some("alt (C-811)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (1983) (CCE) (C-811) [a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e64002394de321ad03abc46e66f89725978ff72f",
+                    label: Some("pirate cart [p1]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (1982) (Activision) (PAL) [p1][!].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified dumps"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0aa80c4a8ff68b0c2d69b2dc85a0f13622d3209f",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "9f52eb9cd2f8a7deae3e51cae103d7b9f2b9591b",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "a2edabed54b12acded1e34613ac653fc9400cee1",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "b0e845e9f5bff2f562d360eb8b6c7a8775fbc7ce",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "d600e20539aa9cdf88cc401d69f0f1b8fe26fd8e",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "e1467f2d0d60d6585ff7d3d15d12a95e1f850cc4",
+                    label: Some("unidentified"),
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2cc6c98442069bf32b00cc98b2ea156a4edfecb4",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River_tw.bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "491e994a89570be641f5bd80a6e578273d090367",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "River Raid (2600 Screen Search Console) (Jone Yuan Telephonic Enterprise Co).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            title: Some("River Raid - Jagdflieger"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c52435a42ab03ee2bf9474face24516707d29153",
                 ),
             ],
         ),

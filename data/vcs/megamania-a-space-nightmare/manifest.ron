@@ -1,5 +1,51 @@
 (
     title: "MegaMania - A Space Nightmare",
+    mods: [
+        (
+            name: "Space Invaders Invasion",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Invasion_MegaMania_Hack_2003_Scott_Dayton",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "1b3f24cbaa93ca3fb18f80acaa67beda7fef673d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Invasion Black",
+            category: ContentChange,
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Invasion_Black_MegaMania_Hack_2004_Scott_Dayton",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "446cbffd351bc04f91403552dcc2571866ec9b92",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
     releases: [
         (
             date: Some("1982"),

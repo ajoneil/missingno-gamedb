@@ -1,0 +1,192 @@
+(
+    title: "Pac-Man",
+    developer: Some("Tod Frye"),
+    description: Some("The player steers Pac-Man around a maze eating wafers while four ghosts give chase, escaping through passages at the top and bottom of the screen. Eating a flashing power pill turns the ghosts blue and edible for a short time. A single orange vitamin stands in for the arcade\'s fruit, and the ghosts each draw only once every four frames, so they flicker heavily."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pac-Man_(Atari_2600_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/282D889244548078403D38F80F0CD31F2CDA7200",
+    ],
+    mods: [
+        (
+            name: "Glorb",
+            category: ContentChange,
+            releases: [
+                (
+                    date: Some("2000"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "9ee09268281dc9d31b761acb32ff5fa866f983aa",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Supercharger fix of Pac-Man",
+            category: QualityOfLife,
+            author: Some("Nukey Shay"),
+            releases: [
+                (
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "996cef392055d60e73e22ff8fffc09aa02d69694",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "Pac-Man (1981)(Atari)(NTSC)[f Supercharger Nukey Shay].bin",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+            recommended: true,
+        ),
+    ],
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Digitel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "00fa1afc97c55a51f5dee9f0560e8059d6819d04",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pac Man (1983) (Digitel).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "11b6f997a295da01db87b396fb61d7245ccf979c",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "2bb8031c377bcef312e26b0cf5ebc6632374561b",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "9ea3b9929be16ce52549a26c22370de007941138",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "aa5c6b71132a133e4515fb7b95901d990f21257b",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "b265b74830a84f38ee74d639ecbce2a7a99aeb1b",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "be5cc05b2cf16656ba4cd850250bd352bcabd934",
+                    label: Some("unidentified"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e7ba1347755bdb313e06a54aaeca9e611eaa2b8",
+                ),
+                (
+                    sha1: "7abca7ace04fb690324cc36802489414b49a708e",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pac-Man (USA).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad375e303ef498b78e5dd1a29e9bfd77eaea5b1a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pac-Man (CCE).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "22b5905abc7298227acc841515472dd7464338fc",
+                    label: Some("signature says PAL"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pac-Man (CCE) (PAL) [!].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

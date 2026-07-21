@@ -1,5 +1,21 @@
 (
     title: "Indy 500 (Race Car) (Driving Controller)",
+    mods: [
+        (
+            name: "Combat 500",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("f6ca3ca4af6d9ac5a539f1bc4c7a3a04837c2e44"),
+                    artifacts: [
+                        (
+                            sha1: "be26b0942dd7ec86d724f0aa1cea5d1528ec5741",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
     releases: [
         (
             date: Some("1977"),

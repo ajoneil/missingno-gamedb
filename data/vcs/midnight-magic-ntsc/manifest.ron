@@ -1,5 +1,28 @@
 (
     title: "Midnight Magic",
+    mods: [
+        (
+            name: "Space Invaders Pinball",
+            category: ContentChange,
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Pinball_Midnight_Magic_Hack_2004_Scott_Dayton",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    base_sha1: Some("3d4951d21c2b422c1d8766f8b92da09999fa24ed"),
+                    artifacts: [
+                        (
+                            sha1: "d87c3b9e7f1ee2be6d20190cfab6c96267f28f83",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
     releases: [
         (
             date: Some("1986"),

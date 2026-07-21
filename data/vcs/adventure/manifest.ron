@@ -1,7 +1,80 @@
 (
     title: "Adventure",
+    developer: Some("Warren Robinett"),
+    description: Some("The player guides a square avatar through a connected world of thirty rooms, hunting a magical chalice and carrying it back to the Golden Castle. Three dragons roam the map and a bat flits about swapping items from place to place, including whatever the player is holding. Keys open the castles, and a sword is the only defence against the dragons."),
+    links: [
+        (
+            name: "Vimm\'s Lair — Adventure manual",
+            url: "https://vimm.net/manual/2",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Adventure_(1980_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/098DCE2B4DAB6EF6ABADEA20CCBEC3CD32CDCA99",
+    ],
+    mods: [
+        (
+            name: "Adventure SI",
+            category: ContentChange,
+            author: Some("Channel 2"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Adventure_SI_Adventure_Hack_2003_Channel_2",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("e07e48d463d30321239a8acc00c490f27f1f7422"),
+                    artifacts: [
+                        (
+                            sha1: "317a7b8693af44095c23437253a32cc748824ccf",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed graphics hack of Adventure",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("e07e48d463d30321239a8acc00c490f27f1f7422"),
+                    artifacts: [
+                        (
+                            sha1: "4ffe36c5113305714e27c72d7f3abecc9b08a630",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed trainer of Adventure",
+            category: QualityOfLife,
+            releases: [
+                (
+                    base_sha1: Some("e07e48d463d30321239a8acc00c490f27f1f7422"),
+                    artifacts: [
+                        (
+                            sha1: "a251e6fad58296444f9ac3427986e71426e08b34",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1980"),
             publisher: Some("Atari"),
             hardware: (
@@ -10,29 +83,32 @@
             ),
             artifacts: [
                 (
-                    sha1: "317a7b8693af44095c23437253a32cc748824ccf",
-                ),
-                (
-                    sha1: "4ffe36c5113305714e27c72d7f3abecc9b08a630",
-                ),
-                (
                     sha1: "7362b7eedc548b680721a8d8c77becb1349205f6",
                 ),
                 (
                     sha1: "9aac8abb87f9d0f65fd4d49ab3b2423ace8cf67f",
                 ),
                 (
-                    sha1: "a251e6fad58296444f9ac3427986e71426e08b34",
-                ),
-                (
                     sha1: "ab50312606440f76ea54fc537b2e8b879e1b3530",
                 ),
                 (
                     sha1: "e07e48d463d30321239a8acc00c490f27f1f7422",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Adventure (1978)(Atari)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1980"),
             publisher: Some("Atari"),
             hardware: (
@@ -42,6 +118,15 @@
             artifacts: [
                 (
                     sha1: "ec23bbea83cf47277482e775ad58ac8e6d1483fe",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Adventure (1978)(Atari)(PAL)[CX2613].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

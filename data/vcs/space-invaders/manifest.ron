@@ -1,7 +1,362 @@
 (
     title: "Space Invaders",
+    developer: Some("Rick Maurer"),
+    description: Some("The player slides a laser cannon along the foot of the screen, firing up at a block of thirty-six aliens that marches sideways and drops a row closer with each pass. Three hits on the cannon end the game; clearing a wave brings another. Console switches select the game setting, among them invisible aliens, moving shields and zig-zagging alien fire, and two people can play at the same time rather than alternating."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Space_Invaders_(Atari_2600_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FE3113D54E4323E32982B4F54F242E442C65F0C6",
+    ],
+    mods: [
+        (
+            name: "Unnamed explosion hack of Space Invaders",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "4605b220c2368ac641dd44ddce23ca73f9e8f1e4",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "Space Invaders (Explosion Hack).a26",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed hack of Space Invaders",
+            category: ContentChange,
+            author: Some("Ron Corcoran"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "78e0ccfd5a56f327e94c20b011e81075ef2a88f6",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "Space Invaders (2002) (Ron Corcoran) (Space Invaders Hack).a26",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed hack of Space Invaders (Rob Kudla)",
+            category: ContentChange,
+            author: Some("Rob Kudla"),
+            releases: [
+                (
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "08b78682fa7722a9c1ae5f6f8f458b273e697ff2",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "Space Invaders (hack).BIN",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed trainer of Space Invaders",
+            category: QualityOfLife,
+            releases: [
+                (
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "e9404280eb921520ccc7e0dc57c92b854bf099a3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Arcade Vector",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Arcade_Vector_Space_Invaders_Hack_2003_Scott_Dayton",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "6d0ba0c2f955b58af8fc9a84b42c3ea0dec20f00",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Atari",
+            category: ContentChange,
+            author: Some("Kurt Howe, Scott Dayton"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Atari_Space_Invaders_Hack_2007_Kurt_Howe_Scott_Dayton",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "691f4a0acc249fce467f85862aa8110773bbac0d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Deluxe Vector",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Deluxe_Vector_Space_Invaders_Hack_2004_Scott_Dayton",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "8a896d7eb80981121bcddb8372a6c609daccd4ba",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Rainbow",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Rainbow_Space_Invaders_Hack_2004_Kurt_Howe",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "2a5a4881da3b64022ca66178fb17a0be87ab75d8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Shot 2",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Shot_2_Space_Invaders_Hack_2004_Kurt_Howe",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "783393a7000b32cf974491604035ebd106a00fdb",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Vector Contest",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Vector_Contest_Space_Invaders_Hack_2004_Scott_Dayton",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "3e97b7c24b6dbfa59fa62cace799bfa013b28d54",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Explosion",
+            category: ContentChange,
+            author: Some("Franklin Cruz"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Explosion_Space_Invaders_Hack_1999_Franklin_Cruz",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("1999"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "09527225d0a7b9fc1d83b46ba79f3e189a43df3c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Hack Demo",
+            category: ContentChange,
+            author: Some("Greg Zumwalt"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Hack_Demo_Space_Invaders_Hack_2003_Greg_Zumwalt",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "b43aefe976ac27013a118e10c887fd1070adf3e8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Deluxe",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Deluxe_Space_Invaders_Hack_2004_Kurt_Howe",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "c06d902c9d528d6e14958e1bbf454316d8142ade",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Deluxe (8K)",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://archive.org/details/Space_Invaders_Deluxe_Space_Invaders_Hack_2005_Kurt_Howe_8K",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "aa6d69a9a6ed9f1b1d6943e968ba72822ffea2a5",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders 2",
+            category: ContentChange,
+            author: Some("Franklin Cruz"),
+            releases: [
+                (
+                    base_sha1: Some("31d9668fe5812c3d2e076987ca327ac6b2e280bf"),
+                    artifacts: [
+                        (
+                            sha1: "11a0e393096112477e7d36e90842d0c2cc3bf1bb",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+            recommended: true,
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1980"),
             publisher: Some("Atari"),
             hardware: (
@@ -11,15 +366,18 @@
             artifacts: [
                 (
                     sha1: "31d9668fe5812c3d2e076987ca327ac6b2e280bf",
-                ),
-                (
-                    sha1: "4605b220c2368ac641dd44ddce23ca73f9e8f1e4",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Space Invaders (USA).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "52ba017143b492780fc94594a0e18b36ac7db87a",
-                ),
-                (
-                    sha1: "78e0ccfd5a56f327e94c20b011e81075ef2a88f6",
                 ),
                 (
                     sha1: "ad9e4bfe2a64b9c71325b9de854112fdf106b935",
@@ -27,6 +385,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1980"),
             publisher: Some("Atari"),
             hardware: (
@@ -36,6 +397,42 @@
             artifacts: [
                 (
                     sha1: "8fed31490b107194cfbf3cd93f714b018606eb9e",
+                    label: Some("pirate cart [p1]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Space Invaders (1978) (Atari) (PAL) [p1][!].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "43a855d5af6e35aa77a52b03a4ecd325d7dbbb9b",
+                    label: Some("fixed dump (CX2632P)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Space Invaders (1980) (Atari, Richard Maurer) (CX2632, CX2632P) (PAL) [fixed].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "82798cf199a8f4730a9305fab261d929a5780d9b",
+                    label: Some("good dump"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Space Invaders (1978) (Atari) (PAL) [!].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
