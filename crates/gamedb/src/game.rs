@@ -129,6 +129,10 @@ pub enum ReleaseStatus {
 #[serde(deny_unknown_fields)]
 pub struct Artifact {
     pub sha1: Sha1,
+    /// What distinguishes this dump when a release has several: "alt",
+    /// "overdump", "[a1]" — dump-level variance, not release facts.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub label: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub size: Option<u64>,
 }

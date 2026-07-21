@@ -107,8 +107,7 @@ fn validate_tree<P: Platform>(db_root: &Path) -> io::Result<Vec<Finding>> {
         for game_mod in &game.mods {
             for release in &game_mod.releases {
                 for artifact in &release.artifacts {
-                    if let Some(first) = seen_sha1.insert(artifact.sha1.clone(), display.clone())
-                    {
+                    if let Some(first) = seen_sha1.insert(artifact.sha1.clone(), display.clone()) {
                         findings.push(Finding::error(
                             display,
                             format!("duplicate sha1 {} (also in {first})", artifact.sha1),

@@ -123,7 +123,11 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
             let mut artifacts = Vec::new();
             for hash in &m.hashes {
                 match hash.parse::<Sha1>() {
-                    Ok(sha1) => artifacts.push(Artifact { sha1, size: None }),
+                    Ok(sha1) => artifacts.push(Artifact {
+                        sha1,
+                        label: None,
+                        size: None,
+                    }),
                     Err(e) => report.add("Invalid hashes dropped", format!("{member_slug}: {e}")),
                 }
             }

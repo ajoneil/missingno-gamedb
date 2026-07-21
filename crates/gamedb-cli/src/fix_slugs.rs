@@ -10,9 +10,7 @@ use std::{
     path::Path,
 };
 
-use missingno_gamedb::{
-    FlagFile, Game, GameBoy, GameBoyColor, Platform, Tree, Vcs,
-};
+use missingno_gamedb::{FlagFile, Game, GameBoy, GameBoyColor, Platform, Tree, Vcs};
 
 use crate::{report::Report, tree};
 

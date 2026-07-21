@@ -196,6 +196,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 match sha1.parse::<Sha1>() {
                     Ok(sha1) => artifacts.push(Artifact {
                         sha1,
+                        label: None,
                         size: rom.attribute("size").and_then(|s| s.parse().ok()),
                     }),
                     Err(e) => report.add("Invalid DAT sha1 skipped", format!("{name:?}: {e}")),
@@ -419,7 +420,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
             covers: Vec::new(),
             screenshots: Vec::new(),
             mod_of: None,
-                mods: Vec::new(),
+            mods: Vec::new(),
             curated: Vec::new(),
             releases,
         }
@@ -582,7 +583,11 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
             .hashes
             .iter()
             .filter_map(|h| h.parse::<Sha1>().ok())
-            .map(|sha1| Artifact { sha1, size: None })
+            .map(|sha1| Artifact {
+                sha1,
+                label: None,
+                size: None,
+            })
             .collect();
         macro_rules! leftover {
             ($ptype:ty) => {
@@ -597,7 +602,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     covers: Vec::new(),
                     screenshots: Vec::new(),
                     mod_of: None,
-                mods: Vec::new(),
+                    mods: Vec::new(),
                     curated: Vec::new(),
                     releases: vec![Release {
                         title: None,

@@ -101,7 +101,11 @@ fn run_tree<P: Platform>(
         let mut artifacts = Vec::new();
         for hash in &m.hashes {
             match hash.parse::<Sha1>() {
-                Ok(sha1) => artifacts.push(Artifact { sha1, size: None }),
+                Ok(sha1) => artifacts.push(Artifact {
+                    sha1,
+                    label: None,
+                    size: None,
+                }),
                 Err(e) => report.add("Invalid hashes dropped", format!("{}/{slug}: {e}", P::DIR)),
             }
         }
@@ -131,7 +135,7 @@ fn run_tree<P: Platform>(
             covers,
             screenshots,
             mod_of: None,
-                mods: Vec::new(),
+            mods: Vec::new(),
             curated: Vec::new(),
             releases: vec![Release {
                 title: None,

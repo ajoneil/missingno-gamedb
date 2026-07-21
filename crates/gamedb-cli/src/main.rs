@@ -139,7 +139,11 @@ fn main() -> ExitCode {
                         eprintln!("failed to write report: {e}");
                         return ExitCode::FAILURE;
                     }
-                    println!("{} review items → {}", findings.item_count(), report.display());
+                    println!(
+                        "{} review items → {}",
+                        findings.item_count(),
+                        report.display()
+                    );
                     ExitCode::SUCCESS
                 }
                 Err(e) => {
@@ -165,7 +169,11 @@ fn main() -> ExitCode {
                         eprintln!("failed to write report: {e}");
                         return ExitCode::FAILURE;
                     }
-                    println!("{} review items → {}", findings.item_count(), report.display());
+                    println!(
+                        "{} review items → {}",
+                        findings.item_count(),
+                        report.display()
+                    );
                     ExitCode::SUCCESS
                 }
                 Err(e) => {
