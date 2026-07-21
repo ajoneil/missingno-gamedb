@@ -37,9 +37,10 @@ pub struct Game<P: Platform> {
     /// Present when this game is a derived work patched onto another game's ROM.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub mod_of: Option<ModOf>,
-    /// Date a human last confirmed this entry; automation clears it on change.
-    #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub curated: Option<Date>,
+    /// Human endorsements of this entry; any automated change clears them
+    /// (every curator vouched for the pre-change state).
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub curated: Vec<Curation>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub releases: Vec<Release<P>>,
 }
@@ -56,6 +57,17 @@ impl<P: Platform> Game<P> {
         text.push('\n');
         Ok(text)
     }
+}
+
+/// One curator's endorsement of an entry.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct Curation {
+    pub by: String,
+    pub date: Date,
+    /// An editor's-choice highlight, not just a correctness vouch.
+    #[serde(default, skip_serializing_if = "is_default")]
+    pub recommended: bool,
 }
 
 /// What kind of work this entry is. `Demo` is a playable preview of a game

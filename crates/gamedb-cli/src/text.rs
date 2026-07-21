@@ -44,20 +44,9 @@ pub fn fix_leading_articles(title: &str) -> String {
         .join(" - ")
 }
 
-/// Collation form for near-miss detection: casefolded, parentheticals and
-/// punctuation stripped.
+/// Collation form for near-miss detection (shared with every consumer).
 pub fn normalize_title(title: &str) -> String {
-    let mut out = String::new();
-    let mut depth = 0usize;
-    for c in title.chars() {
-        match c {
-            '(' | '[' => depth += 1,
-            ')' | ']' => depth = depth.saturating_sub(1),
-            c if depth == 0 && c.is_ascii_alphanumeric() => out.push(c.to_ascii_lowercase()),
-            _ => {}
-        }
-    }
-    out
+    missingno_gamedb::normalized_title(title)
 }
 
 /// One No-Intro region word → schema region. `Unknown` maps to no region.

@@ -12,11 +12,12 @@ pub mod load;
 pub mod platform;
 pub mod region;
 pub mod source;
+pub mod text;
 pub mod validate;
 
 pub use flags::{Flag, FlagFile, FlagKind};
 pub use game::{
-    Artifact, Game, GameKind, Link, LinkType, ModCategory, ModOf, Patch, PatchFormat, Release,
+    Artifact, Curation, Game, GameKind, Link, LinkType, ModCategory, ModOf, Patch, PatchFormat, Release,
     ReleaseStatus,
 };
 pub use ids::{Date, ReleaseDate, Sha1, Slug};
@@ -27,4 +28,5 @@ pub use platform::{
 };
 pub use region::Region;
 pub use source::Source;
+pub use text::normalized_title;
 pub use validate::{Finding, FormatReport, Severity, format_all, validate};
