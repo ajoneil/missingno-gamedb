@@ -152,10 +152,12 @@ pub enum LinkType {
 #[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct ModOf {
-    /// The base ROM the patch applies to.
+    /// The base ROM the derived work modifies.
     pub base_sha1: Sha1,
     pub category: ModCategory,
-    pub patch: Patch,
+    /// Absent when the work circulates only as a pre-patched ROM.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub patch: Option<Patch>,
 }
 
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]

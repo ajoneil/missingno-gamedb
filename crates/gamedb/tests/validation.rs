@@ -123,7 +123,7 @@ fn unresolved_mod_base_is_a_warning() {
             mod_of: Some((
                 base_sha1: "fedcba9876543210fedcba9876543210fedcba98",
                 category: Translation,
-                patch: (format: Ips, sha1: "0123456789abcdef0123456789abcdef01234567"),
+                patch: Some((format: Ips, sha1: "0123456789abcdef0123456789abcdef01234567")),
             )),
             releases: [
                 (sources: [Download(url: "https://example.org/patch.ips")]),

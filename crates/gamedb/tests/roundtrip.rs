@@ -61,7 +61,7 @@ const GB_MOD: &str = r#"(
     mod_of: Some((
         base_sha1: "0123456789abcdef0123456789abcdef01234567",
         category: ContentChange,
-        patch: (format: Bps, sha1: "89abcdef0123456789abcdef0123456789abcdef"),
+        patch: Some((format: Bps, sha1: "89abcdef0123456789abcdef0123456789abcdef")),
     )),
     releases: [
         (sources: [Download(url: "https://example.org/repainted.bps")]),
