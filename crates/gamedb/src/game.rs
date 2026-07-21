@@ -136,6 +136,31 @@ pub struct Artifact {
     pub label: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub size: Option<u64>,
+    /// Evidence that this dump is what the entry says it is. Unlike `curated`,
+    /// editing the entry never clears these: they are facts about a hash, and
+    /// the hash is the identity.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub verified: Vec<Verification>,
+}
+
+/// One check that a dump belongs where it sits, carrying how it was checked.
+/// A signature match and a playtest prove different things, so both can apply.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct Verification {
+    pub method: VerificationMethod,
+    pub date: Date,
+}
+
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
+pub enum VerificationMethod {
+    /// A signature database recognised the hash. `entry` is the name it
+    /// returned — the evidence itself, and what distinguishes an original
+    /// from a hack that hashes fine.
+    Signature { database: String, entry: String },
+    /// A human ran this exact dump and saw the game behave. Catches what no
+    /// signature database knows; proves less about which dump is canonical.
+    Playtest { by: String },
 }
 
 #[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]

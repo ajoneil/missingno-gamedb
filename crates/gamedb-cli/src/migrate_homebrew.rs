@@ -105,6 +105,7 @@ fn run_tree<P: Platform>(
                     sha1,
                     label: None,
                     size: None,
+                    verified: Vec::new(),
                 }),
                 Err(e) => report.add("Invalid hashes dropped", format!("{}/{slug}: {e}", P::DIR)),
             }

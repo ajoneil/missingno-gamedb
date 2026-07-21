@@ -198,6 +198,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         sha1,
                         label: None,
                         size: rom.attribute("size").and_then(|s| s.parse().ok()),
+                        verified: Vec::new(),
                     }),
                     Err(e) => report.add("Invalid DAT sha1 skipped", format!("{name:?}: {e}")),
                 }
@@ -587,6 +588,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 sha1,
                 label: None,
                 size: None,
+                verified: Vec::new(),
             })
             .collect();
         macro_rules! leftover {

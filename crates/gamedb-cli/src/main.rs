@@ -8,6 +8,7 @@ mod migrate_vcs;
 mod report;
 mod text;
 mod tree;
+mod verify_hashes;
 
 use std::{
     path::{Path, PathBuf},
@@ -68,6 +69,32 @@ enum Command {
         /// Report the renames without touching the tree
         #[arg(long)]
         dry_run: bool,
+    },
+    /// Ask a signature database what each dump actually is
+    VerifyHashes {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+        /// Milliseconds between requests
+        #[arg(long, default_value_t = 500)]
+        delay_ms: u64,
+        /// Only this entry, as tree/slug (e.g. vcs/adventure)
+        #[arg(long)]
+        key: Option<String>,
+        /// Stop after this many fresh lookups
+        #[arg(long)]
+        limit: Option<usize>,
+        /// Sweep the whole database — thousands of requests at someone else's
+        /// API; prefer --key as part of curating an entry
+        #[arg(long)]
+        all: bool,
+        /// Report without recording evidence in manifests
+        #[arg(long)]
+        dry_run: bool,
+        /// Answers already fetched, so a re-run resumes
+        #[arg(long, default_value = "hash-cache.json")]
+        cache: PathBuf,
     },
     /// One-shot: move status/kind/licence qualifiers out of game titles
     FixTitles {
@@ -144,6 +171,46 @@ fn main() -> ExitCode {
                         findings.item_count(),
                         report.display()
                     );
+                    ExitCode::SUCCESS
+                }
+                Err(e) => {
+                    eprintln!("aborted: {e}");
+                    ExitCode::FAILURE
+                }
+            }
+        }
+        Command::VerifyHashes { path, report, delay_ms, key, limit, all, dry_run, cache } => {
+            if key.is_none() && limit.is_none() && !all {
+                eprintln!(
+                    "refusing to sweep the whole database implicitly: pass --key <tree/slug> to \
+                     check one entry, --limit N to bound the run, or --all if you really mean it"
+                );
+                return ExitCode::from(2);
+            }
+            let data_root = resolve_db_root(&path);
+            if !dry_run && let Err(e) = ensure_clean_git(&path) {
+                eprintln!("{e}");
+                return ExitCode::from(2);
+            }
+            let options = verify_hashes::Options {
+                delay: std::time::Duration::from_millis(delay_ms),
+                key,
+                limit,
+                dry_run,
+                cache_path: cache,
+            };
+            let mut findings = Report::default();
+            match verify_hashes::run(&data_root, &mut findings, &options) {
+                Ok(s) => {
+                    println!(
+                        "{} confirmed, {} derived dumps in releases, {} unknown ({} fetched, {} cached)",
+                        s.confirmed, s.derived, s.unknown, s.looked_up, s.from_cache
+                    );
+                    if let Err(e) = findings.write(&report, "gamedb verify-hashes report") {
+                        eprintln!("failed to write report: {e}");
+                        return ExitCode::FAILURE;
+                    }
+                    println!("{} review items \u{2192} {}", findings.item_count(), report.display());
                     ExitCode::SUCCESS
                 }
                 Err(e) => {
