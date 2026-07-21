@@ -1,7 +1,20 @@
 (
     title: "Carillon WF",
     developer: Some("Aleksi Eeben"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "carillon-wf", filename: "carillon-wf.gb")),
-    screenshots: ["carillon-wf.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-wf/carillon-wf.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-wf/carillon-wf.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "carillon-wf",
+                    filename: "carillon-wf.gb",
+                ),
+            ],
+        ),
+    ],
 )

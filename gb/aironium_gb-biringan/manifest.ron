@@ -1,11 +1,41 @@
 (
     title: "Lagusan Sa Biringan",
     developer: Some("Aironium"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "aironium_gb-biringan", filename: "LBS0.3.5.gb")),
-    tags: ["Pixel Art", "2D", "Singleplayer", "Top-Down", "Visual Novel", "Role Playing", "Retro", "Adventure", "Exploration", "event:gbcompo25"],
-    screenshots: ["cover.jpg", "screenshots/yjW7rX.jpg", "screenshots/HED0wp.jpg", "screenshots/dEsa4M.jpg", "screenshots/8RZGET.jpg", "screenshots/acHQk2B.jpg", "screenshots/9BZrKF.jpg"],
-    links: [
-        (name: "Website", url: "https://aironium.itch.io/gb-biringan", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "2D",
+        "Singleplayer",
+        "Top-Down",
+        "Visual Novel",
+        "Role Playing",
+        "Retro",
+        "Adventure",
+        "Exploration",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/screenshots/yjW7rX.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/screenshots/HED0wp.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/screenshots/dEsa4M.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/screenshots/8RZGET.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/screenshots/acHQk2B.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/screenshots/9BZrKF.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "aironium_gb-biringan",
+                    filename: "LBS0.3.5.gb",
+                ),
+                Itch(
+                    url: "https://aironium.itch.io/gb-biringan",
+                ),
+            ],
+        ),
     ],
 )

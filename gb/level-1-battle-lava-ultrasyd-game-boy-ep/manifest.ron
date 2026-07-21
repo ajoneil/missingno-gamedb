@@ -1,8 +1,21 @@
 (
     title: "Level 1 - Battle Lava & Ultrasyd Game Boy EP",
-    date: Some("2009"),
     developer: Some("Battle Lava"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "level-1-battle-lava-ultrasyd-game-boy-ep", filename: "level-1-battle-lava-ultrasyd-game-boy-ep.gb")),
-    screenshots: ["level-1-battle-lava-ultrasyd-game-boy-ep.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/level-1-battle-lava-ultrasyd-game-boy-ep/level-1-battle-lava-ultrasyd-game-boy-ep.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/level-1-battle-lava-ultrasyd-game-boy-ep/level-1-battle-lava-ultrasyd-game-boy-ep.png",
+    ],
+    releases: [
+        (
+            date: Some("2009"),
+            sources: [
+                HomebrewHub(
+                    slug: "level-1-battle-lava-ultrasyd-game-boy-ep",
+                    filename: "level-1-battle-lava-ultrasyd-game-boy-ep.gb",
+                ),
+            ],
+        ),
+    ],
 )

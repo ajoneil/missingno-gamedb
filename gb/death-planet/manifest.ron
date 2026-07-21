@@ -1,11 +1,24 @@
 (
     title: "Death Planet",
-    date: Some("2019-08-01"),
     developer: Some("Mackerel Interactive"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "death-planet", filename: "deathplanet.gb")),
-    screenshots: ["deathplanet.png"],
-    links: [
-        (name: "Website", url: "https://makrill.itch.io/death-planet", link_type: Wiki),
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/death-planet/deathplanet.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/death-planet/deathplanet.png",
+    ],
+    releases: [
+        (
+            date: Some("2019-08-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "death-planet",
+                    filename: "deathplanet.gb",
+                ),
+                Itch(
+                    url: "https://makrill.itch.io/death-planet",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,11 +1,32 @@
 (
     title: "Slide Quest Demo",
     developer: Some("frogatr"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "frogatr-ribbot_slide-quest-demo", filename: "slidequest_jam.gb")),
-    tags: ["Short", "Adventure", "Puzzle", "Singleplayer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/IeFd86.png", "screenshots/OZs7G7.png", "screenshots/T4d3OL.png"],
-    links: [
-        (name: "Website", url: "https://frogatr-ribbot.itch.io/slide-quest-demo", link_type: Wiki),
+    tags: [
+        "Short",
+        "Adventure",
+        "Puzzle",
+        "Singleplayer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frogatr-ribbot_slide-quest-demo/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frogatr-ribbot_slide-quest-demo/screenshots/IeFd86.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frogatr-ribbot_slide-quest-demo/screenshots/OZs7G7.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frogatr-ribbot_slide-quest-demo/screenshots/T4d3OL.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "frogatr-ribbot_slide-quest-demo",
+                    filename: "slidequest_jam.gb",
+                ),
+                Itch(
+                    url: "https://frogatr-ribbot.itch.io/slide-quest-demo",
+                ),
+            ],
+        ),
     ],
 )

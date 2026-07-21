@@ -1,8 +1,21 @@
 (
     title: "Jumpik",
-    date: Some("2001-01-13"),
     developer: Some("Small Blue Cube"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jumpik", filename: "jumpik-bung-v4-pd-c.gbc")),
-    screenshots: ["jumpik.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jumpik/jumpik.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jumpik/jumpik.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "jumpik",
+                    filename: "jumpik-bung-v4-pd-c.gbc",
+                ),
+            ],
+        ),
+    ],
 )

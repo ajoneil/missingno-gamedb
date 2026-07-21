@@ -1,11 +1,40 @@
 (
     title: "CartBound - The GB Hardware Quest",
     developer: Some("ChunkySteveo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam", filename: "cartbound_jam.gb")),
-    tags: ["gameboyrom", "GBJam", "Adventure", "gbcompo2025", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/863Hd7.png", "screenshots/gF2hED.png", "screenshots/PigvS9.png", "screenshots/bqzw4b.png", "screenshots/uR5G2F6.jpg", "screenshots/zpcyW2.png", "screenshots/Whbf02B.jpg", "screenshots/w0SEfm.png", "screenshots/l4zZwT.jpg", "screenshots/ZjRn71.jpg", "screenshots/cnl0Yr.jpg"],
-    links: [
-        (name: "Website", url: "https://chunkysteveo.itch.io/cartbound-the-gb-hardware-quest-gbc25-jam", link_type: Wiki),
+    tags: [
+        "gameboyrom",
+        "GBJam",
+        "Adventure",
+        "gbcompo2025",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/863Hd7.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/gF2hED.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/PigvS9.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/bqzw4b.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/uR5G2F6.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/zpcyW2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/Whbf02B.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/w0SEfm.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/l4zZwT.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/ZjRn71.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/cnl0Yr.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam",
+                    filename: "cartbound_jam.gb",
+                ),
+                Itch(
+                    url: "https://chunkysteveo.itch.io/cartbound-the-gb-hardware-quest-gbc25-jam",
+                ),
+            ],
+        ),
     ],
 )

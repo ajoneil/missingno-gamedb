@@ -1,8 +1,21 @@
 (
     title: "The Unholy 2",
-    date: Some("2000-10-29"),
     developer: Some("SkyBaby"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "unholy-2", filename: "Unholy 2, The by SkyBaby (PD) [C].gbc")),
-    screenshots: ["Unholy 2, The by SkyBaby (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-2/Unholy 2, The by SkyBaby (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-2/Unholy 2, The by SkyBaby (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-10-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "unholy-2",
+                    filename: "Unholy 2, The by SkyBaby (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

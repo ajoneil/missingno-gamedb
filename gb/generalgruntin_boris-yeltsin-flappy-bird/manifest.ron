@@ -1,11 +1,41 @@
 (
     title: "Boris Yeltsin Flappy Bird",
     developer: Some("The Real General Grunt"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "generalgruntin_boris-yeltsin-flappy-bird", filename: "BorisYeltsinFlappyBird_jam.gb")),
-    tags: ["soviet", "borisyeltsin", "Homebrew", "Funny", "gameboycolor", "gbstudio", "Parody", "Arcade", "Flappy Bird", "Puzzle", "event:gbcompo25"],
-    screenshots: ["cover.jpg", "screenshots/2TpavG.jpg", "screenshots/ZmWvMG.gif", "screenshots/FmRtGg.jpg", "screenshots/mBRaaV.jpg", "screenshots/vt46EH.jpg"],
-    links: [
-        (name: "Website", url: "https://generalgruntin.itch.io/boris-yeltsin-flappy-bird", link_type: Wiki),
+    tags: [
+        "soviet",
+        "borisyeltsin",
+        "Homebrew",
+        "Funny",
+        "gameboycolor",
+        "gbstudio",
+        "Parody",
+        "Arcade",
+        "Flappy Bird",
+        "Puzzle",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/screenshots/2TpavG.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/screenshots/ZmWvMG.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/screenshots/FmRtGg.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/screenshots/mBRaaV.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/screenshots/vt46EH.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "generalgruntin_boris-yeltsin-flappy-bird",
+                    filename: "BorisYeltsinFlappyBird_jam.gb",
+                ),
+                Itch(
+                    url: "https://generalgruntin.itch.io/boris-yeltsin-flappy-bird",
+                ),
+            ],
+        ),
     ],
 )

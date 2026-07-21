@@ -1,13 +1,31 @@
 (
     title: "One Day",
-    date: Some("2023-05-20T21:59:00"),
     developer: Some("vrkitten, Ryuko5432100"),
     description: Some("a short, feel-good story"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "one-day", filename: "game.gb")),
-    tags: ["Visual Novel", "event:gbshowdown23"],
-    screenshots: ["cover.png", "mW5gAn.jpg", "g3hunC.jpg", "2FzAUbu.jpg", "P9WaEE.jpg"],
-    links: [
-        (name: "Website", url: "https://vrkitten.itch.io/one-day", link_type: Wiki),
+    tags: [
+        "Visual Novel",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-day/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-day/mW5gAn.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-day/g3hunC.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-day/2FzAUbu.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-day/P9WaEE.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "one-day",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://vrkitten.itch.io/one-day",
+                ),
+            ],
+        ),
     ],
 )

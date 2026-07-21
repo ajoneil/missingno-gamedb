@@ -1,7 +1,20 @@
 (
-    title: "JL's gameboy beat'em up",
+    title: "JL\'s gameboy beat\'em up",
     developer: Some("Jonas Lund"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jls-gameboy-beatem-up", filename: "game.gb")),
-    screenshots: ["game.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jls-gameboy-beatem-up/game.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jls-gameboy-beatem-up/game.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "jls-gameboy-beatem-up",
+                    filename: "game.gb",
+                ),
+            ],
+        ),
+    ],
 )

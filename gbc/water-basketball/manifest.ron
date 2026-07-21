@@ -1,8 +1,24 @@
 (
     title: "Water Basketball",
     developer: Some("cosmigo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "water-basketball", filename: "WaterBasketball.cgb")),
-    tags: ["Action", "event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_water_basketball.png"],
+    tags: [
+        "Action",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/water-basketball/20110402_water_basketball.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/water-basketball/20110402_water_basketball.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "water-basketball",
+                    filename: "WaterBasketball.cgb",
+                ),
+            ],
+        ),
+    ],
 )

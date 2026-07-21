@@ -1,11 +1,36 @@
 (
     title: "GoodLuck Baby",
     developer: Some("Kii"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "kittyn_goodluckbaby", filename: "goodluckbaby_jam.gbc")),
-    tags: ["Pixel Art", "Working Simulator", "Singleplayer", "Cozy", "storygame", "Simulation", "Cute", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/gfUPEj.png", "screenshots/dNB8Th.png", "screenshots/KeYigG.png", "screenshots/fwTWzA.png"],
-    links: [
-        (name: "Website", url: "https://kittyn.itch.io/goodluckbaby", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "Working Simulator",
+        "Singleplayer",
+        "Cozy",
+        "storygame",
+        "Simulation",
+        "Cute",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kittyn_goodluckbaby/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kittyn_goodluckbaby/screenshots/gfUPEj.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kittyn_goodluckbaby/screenshots/dNB8Th.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kittyn_goodluckbaby/screenshots/KeYigG.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kittyn_goodluckbaby/screenshots/fwTWzA.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "kittyn_goodluckbaby",
+                    filename: "goodluckbaby_jam.gbc",
+                ),
+                Itch(
+                    url: "https://kittyn.itch.io/goodluckbaby",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Font Demo",
-    date: Some("2000-05-20"),
     developer: Some("Jonathan Waugh"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "font-demo-waugh", filename: "Font Demo (Jonathan Waugh) (PD) [C].gbc")),
-    screenshots: ["Font Demo (Jonathan Waugh) (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/font-demo-waugh/Font Demo (Jonathan Waugh) (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/font-demo-waugh/Font Demo (Jonathan Waugh) (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-05-20"),
+            sources: [
+                HomebrewHub(
+                    slug: "font-demo-waugh",
+                    filename: "Font Demo (Jonathan Waugh) (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

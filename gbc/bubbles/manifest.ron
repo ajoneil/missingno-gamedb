@@ -1,8 +1,27 @@
 (
     title: "Bubbles",
-    date: Some("2001-01-01"),
     developer: Some("Tulou"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bubbles", filename: "tlu-bubbles.gbc")),
-    screenshots: ["24.png", "23.png", "22.png", "25.png", "26.png", "27.png", "28.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/24.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/24.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/23.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/22.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/25.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/26.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/27.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/28.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "bubbles",
+                    filename: "tlu-bubbles.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Jetpak DX",
-    developer: Some("{'name': 'QuangDX', 'link': 'https://asobitech.com/'}"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jetpak-dx", filename: "jetpak-dx.cgb")),
-    screenshots: ["jetpak-dx.png"],
+    developer: Some("{\'name\': \'QuangDX\', \'link\': \'https://asobitech.com/\'}"),
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jetpak-dx/jetpak-dx.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jetpak-dx/jetpak-dx.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "jetpak-dx",
+                    filename: "jetpak-dx.cgb",
+                ),
+            ],
+        ),
+    ],
 )

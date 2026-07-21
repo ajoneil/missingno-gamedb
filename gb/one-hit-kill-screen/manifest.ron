@@ -1,8 +1,21 @@
 (
     title: "One Hit Kill Screen",
-    date: Some("2024-10-19"),
     developer: Some("One Hit Kill"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "one-hit-kill-screen", filename: "one-hit-kill-screen.gb")),
-    screenshots: ["one-hit-kill-screen.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-hit-kill-screen/one-hit-kill-screen.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-hit-kill-screen/one-hit-kill-screen.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-10-19"),
+            sources: [
+                HomebrewHub(
+                    slug: "one-hit-kill-screen",
+                    filename: "one-hit-kill-screen.gb",
+                ),
+            ],
+        ),
+    ],
 )

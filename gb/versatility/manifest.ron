@@ -1,8 +1,25 @@
 (
     title: "Versatility",
-    date: Some("1998-01-01"),
     developer: Some("The New Image"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "versatility", filename: "VERSATIL.GB")),
-    screenshots: ["731.png", "732.png", "733.png", "734.png", "735.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/versatility/731.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/versatility/731.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/versatility/732.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/versatility/733.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/versatility/734.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/versatility/735.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "versatility",
+                    filename: "VERSATIL.GB",
+                ),
+            ],
+        ),
+    ],
 )

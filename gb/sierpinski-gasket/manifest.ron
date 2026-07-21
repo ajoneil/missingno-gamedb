@@ -1,8 +1,22 @@
 (
     title: "Sierpinski Gasket",
-    date: Some("1998-12-13"),
     developer: Some("PurpleFish"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sierpinski-gasket", filename: "Sierpinski Gasket (PD).gb")),
-    screenshots: ["Sierpinski Gasket (PD).png", "Sierpinski Gasket (PD)-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinski-gasket/Sierpinski Gasket (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinski-gasket/Sierpinski Gasket (PD).png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinski-gasket/Sierpinski Gasket (PD)-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-12-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "sierpinski-gasket",
+                    filename: "Sierpinski Gasket (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

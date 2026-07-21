@@ -1,9 +1,24 @@
 (
     title: "Nam Attack",
-    date: Some("1998-11-25"),
     developer: Some("Christian Andersson"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nam-attack", filename: "Nam Attack (PD) [C].gbc")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["Nam Attack (PD) [C].png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nam-attack/Nam Attack (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nam-attack/Nam Attack (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("1998-11-25"),
+            sources: [
+                HomebrewHub(
+                    slug: "nam-attack",
+                    filename: "Nam Attack (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

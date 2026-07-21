@@ -1,8 +1,21 @@
 (
     title: "Intro v1",
-    date: Some("2001-01-01"),
     developer: Some("Freeart"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "freeart-intro-v1", filename: "FREEART Intro V1.gbc")),
-    screenshots: ["218.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/freeart-intro-v1/218.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/freeart-intro-v1/218.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "freeart-intro-v1",
+                    filename: "FREEART Intro V1.gbc",
+                ),
+            ],
+        ),
+    ],
 )

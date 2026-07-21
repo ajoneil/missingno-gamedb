@@ -1,12 +1,29 @@
 (
     title: "Escape Obliterizer Deluxe",
-    date: Some("2020-05-17"),
     developer: Some("João Godinho"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "escape-obliterizer-dx", filename: "ESCAPE_OBLITERIZER_DX.gb")),
     license: Some("GPL-3.0"),
-    screenshots: ["ESCAPE_OBLITERIZER_DX.png"],
     links: [
-        (name: "Source Code", url: "https://github.com/jcnmsg/escape-obliterizer-gbc", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/jcnmsg/escape-obliterizer-gbc",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/escape-obliterizer-dx/ESCAPE_OBLITERIZER_DX.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/escape-obliterizer-dx/ESCAPE_OBLITERIZER_DX.png",
+    ],
+    releases: [
+        (
+            date: Some("2020-05-17"),
+            sources: [
+                HomebrewHub(
+                    slug: "escape-obliterizer-dx",
+                    filename: "ESCAPE_OBLITERIZER_DX.gb",
+                ),
+            ],
+        ),
     ],
 )

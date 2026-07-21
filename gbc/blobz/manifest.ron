@@ -1,8 +1,24 @@
 (
     title: "Blobz",
     developer: Some("Dave Vanee"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "blobz", filename: "Blobz.cgb")),
-    tags: ["Puzzle", "event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_blobz.png"],
+    tags: [
+        "Puzzle",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blobz/20110402_blobz.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blobz/20110402_blobz.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "blobz",
+                    filename: "Blobz.cgb",
+                ),
+            ],
+        ),
+    ],
 )

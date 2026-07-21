@@ -1,7 +1,20 @@
 (
     title: "Guns & Riders (Version 1.0)",
     developer: Some("J. M. Clement"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "guns--riders-version-10", filename: "gunsriders.gb")),
-    screenshots: ["gunsriders.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/guns--riders-version-10/gunsriders.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/guns--riders-version-10/gunsriders.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "guns--riders-version-10",
+                    filename: "gunsriders.gb",
+                ),
+            ],
+        ),
+    ],
 )

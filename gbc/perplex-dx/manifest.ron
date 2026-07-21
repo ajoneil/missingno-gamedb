@@ -1,8 +1,22 @@
 (
     title: "Perplex DX",
-    date: Some("2001-02-27"),
     developer: Some("Smacks-Designs"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "perplex-dx", filename: "perplexdx.gbc")),
-    screenshots: ["perplexdx.png", "20110402_perplex_deluxe.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/perplex-dx/perplexdx.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/perplex-dx/perplexdx.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/perplex-dx/20110402_perplex_deluxe.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-02-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "perplex-dx",
+                    filename: "perplexdx.gbc",
+                ),
+            ],
+        ),
+    ],
 )

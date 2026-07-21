@@ -1,13 +1,34 @@
 (
     title: "Friend Switch",
-    date: Some("2023-05-20T21:52:00"),
     developer: Some("kicdogames"),
     description: Some("Game Boy Showdown 2023 submission"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "friend-switch", filename: "friendswitch.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "U4v7dK.png", "jQTEYe.jpg", "cKXKjh.png", "DxNv22.png", "TX0wH8.png", "GGNrsY.png", "T4xGoY.png"],
-    links: [
-        (name: "Website", url: "https://kicdogames.itch.io/friend-switch", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/U4v7dK.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/jQTEYe.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/cKXKjh.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/DxNv22.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/TX0wH8.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/GGNrsY.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/T4xGoY.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "friend-switch",
+                    filename: "friendswitch.gb",
+                ),
+                Itch(
+                    url: "https://kicdogames.itch.io/friend-switch",
+                ),
+            ],
+        ),
     ],
 )

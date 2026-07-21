@@ -1,7 +1,20 @@
 (
     title: "Akaru Hime The Red Princess",
     developer: Some("Imanolea"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "akaru-hime-the-red-princess", filename: "akaru-hime-the-red-princess.gb")),
-    screenshots: ["akaru-hime-the-red-princess.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/akaru-hime-the-red-princess/akaru-hime-the-red-princess.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/akaru-hime-the-red-princess/akaru-hime-the-red-princess.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "akaru-hime-the-red-princess",
+                    filename: "akaru-hime-the-red-princess.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,11 +1,28 @@
 (
     title: "Miku Miku Walking ver.00",
-    date: Some("2013-01-12"),
     developer: Some("weep"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "miku-miku-walking", filename: "miku_miku_walking00.gb")),
-    screenshots: ["miku_miku_walking00-0.png"],
     links: [
-        (name: "Website", url: "http://multip.net/view/nJOiPD3JTY", link_type: Wiki),
+        (
+            name: "Website",
+            url: "http://multip.net/view/nJOiPD3JTY",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/miku-miku-walking/miku_miku_walking00-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/miku-miku-walking/miku_miku_walking00-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2013-01-12"),
+            sources: [
+                HomebrewHub(
+                    slug: "miku-miku-walking",
+                    filename: "miku_miku_walking00.gb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Pocket Panic",
     developer: Some("Steve Jones"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pocket-panic", filename: "PocketPanic.cgb")),
-    screenshots: ["20110402_pocket_panic.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-panic/20110402_pocket_panic.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-panic/20110402_pocket_panic.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pocket-panic",
+                    filename: "PocketPanic.cgb",
+                ),
+            ],
+        ),
+    ],
 )

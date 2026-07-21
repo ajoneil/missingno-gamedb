@@ -1,7 +1,20 @@
 (
     title: "Counting Sheep",
     developer: Some("cabbage"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "counting-sheep", filename: "counting-sheep.gb")),
-    screenshots: ["counting-sheep.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/counting-sheep/counting-sheep.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/counting-sheep/counting-sheep.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "counting-sheep",
+                    filename: "counting-sheep.gb",
+                ),
+            ],
+        ),
+    ],
 )

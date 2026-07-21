@@ -1,8 +1,23 @@
 (
     title: "Starfisher",
     developer: Some("Gambit Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "starfisher", filename: "starfisher.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["starfisher.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/starfisher/starfisher.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/starfisher/starfisher.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "starfisher",
+                    filename: "starfisher.gb",
+                ),
+            ],
+        ),
+    ],
 )

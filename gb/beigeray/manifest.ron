@@ -1,8 +1,21 @@
 (
     title: "BeigeRay",
-    date: Some("2022-11-12"),
     developer: Some("Beige"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "beigeray", filename: "beigeray.gb")),
-    screenshots: ["beigeray.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beigeray/beigeray.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beigeray/beigeray.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-11-12"),
+            sources: [
+                HomebrewHub(
+                    slug: "beigeray",
+                    filename: "beigeray.gb",
+                ),
+            ],
+        ),
+    ],
 )

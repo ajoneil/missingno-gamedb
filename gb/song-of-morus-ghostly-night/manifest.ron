@@ -1,12 +1,30 @@
 (
     title: "Song of Morus: Ghostly Night",
-    date: Some("2023-05-20T17:41:00"),
     developer: Some("SunnyChowTheGuy, 1kmountains"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "song-of-morus-ghostly-night", filename: "game.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "0Q7HlD.png", "OwaVEz.png", "Jrm12Fi.png", "zknGs8.png"],
-    links: [
-        (name: "Website", url: "https://sunnychowtheguy.itch.io/song-of-morus-ghostly-night", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/song-of-morus-ghostly-night/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/song-of-morus-ghostly-night/0Q7HlD.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/song-of-morus-ghostly-night/OwaVEz.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/song-of-morus-ghostly-night/Jrm12Fi.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/song-of-morus-ghostly-night/zknGs8.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "song-of-morus-ghostly-night",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://sunnychowtheguy.itch.io/song-of-morus-ghostly-night",
+                ),
+            ],
+        ),
     ],
 )

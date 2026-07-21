@@ -1,14 +1,34 @@
 (
     title: "GBHack",
-    date: Some("2026-04-16"),
     developer: Some("statico"),
     description: Some("A roguelike dungeon crawler for the Game Boy Color inspired by NetHack. Descend 15 procedurally generated dungeon levels through permadeath, unidentified items, hunger, pets, shops, and traps to retrieve the Amulet of Yendor. Runs on original GBC hardware. Written in C with GBDK and generated with Claude Code."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbhack", filename: "gbhack.gbc")),
     license: Some("MIT"),
-    tags: ["RPG", "Open Source"],
-    screenshots: ["cover.png", "screenshot-1.png"],
+    tags: [
+        "RPG",
+        "Open Source",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/statico/gbhack", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/statico/gbhack",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbhack/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbhack/screenshot-1.png",
+    ],
+    releases: [
+        (
+            date: Some("2026-04-16"),
+            sources: [
+                HomebrewHub(
+                    slug: "gbhack",
+                    filename: "gbhack.gbc",
+                ),
+            ],
+        ),
     ],
 )

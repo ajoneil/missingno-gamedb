@@ -1,8 +1,22 @@
 (
     title: "Winter Taiken (trial)",
-    date: Some("1999-11-28"),
     developer: Some("Parawo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "winter-taiken", filename: "taiken.gb")),
-    screenshots: ["taiken-0.png", "taiken-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/winter-taiken/taiken-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/winter-taiken/taiken-0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/winter-taiken/taiken-1.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-11-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "winter-taiken",
+                    filename: "taiken.gb",
+                ),
+            ],
+        ),
+    ],
 )

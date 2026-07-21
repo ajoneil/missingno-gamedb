@@ -2,7 +2,20 @@
     title: "Serpent Apocalypse",
     developer: Some("Glenn Bussell, Justin Rumpff"),
     description: Some("It’s snake with a different name 🙂"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "serpent-apocalypse", filename: "SerpentApocalypse.gbc")),
-    screenshots: ["20110402_serpent_apocalypse.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/serpent-apocalypse/20110402_serpent_apocalypse.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/serpent-apocalypse/20110402_serpent_apocalypse.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "serpent-apocalypse",
+                    filename: "SerpentApocalypse.gbc",
+                ),
+            ],
+        ),
+    ],
 )

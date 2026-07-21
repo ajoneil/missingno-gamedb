@@ -1,8 +1,26 @@
 (
     title: "Love Replica",
-    date: Some("2001-01-01"),
     developer: Some("Inka"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "love-replica", filename: "LoveReplica.GBC")),
-    screenshots: ["256.png", "257.png", "258.png", "259.png", "260.png", "261.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/256.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/256.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/257.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/258.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/259.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/260.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/261.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "love-replica",
+                    filename: "LoveReplica.GBC",
+                ),
+            ],
+        ),
+    ],
 )

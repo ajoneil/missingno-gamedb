@@ -1,8 +1,23 @@
 (
     title: "GHunter v0.5",
     developer: Some("Seth C. Nelson"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ghunter-v0-5", filename: "GHunter.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_ghunter.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ghunter-v0-5/20110402_ghunter.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ghunter-v0-5/20110402_ghunter.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ghunter-v0-5",
+                    filename: "GHunter.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,12 +1,32 @@
 (
     title: "Libbet and the Magic Floor",
-    date: Some("2018-10-16"),
     developer: Some("Damian Yerrick"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "libbet", filename: "libbet.gb")),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["libbet6x4.png"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/pinobatch/libbet", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/pinobatch/libbet",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/libbet/libbet6x4.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/libbet/libbet6x4.png",
+    ],
+    releases: [
+        (
+            date: Some("2018-10-16"),
+            sources: [
+                HomebrewHub(
+                    slug: "libbet",
+                    filename: "libbet.gb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,11 +1,32 @@
 (
     title: "Bubble Factory",
     developer: Some("Donald Hays"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bubble-factory", filename: "bubble-factory.gb")),
-    screenshots: ["bubble-factory.png"],
     links: [
-        (name: "Website", url: "https://donaldhays.com/projects/bubble-factory/", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/DonaldHays/bubblefactory", link_type: Source),
+        (
+            name: "Website",
+            url: "https://donaldhays.com/projects/bubble-factory/",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://github.com/DonaldHays/bubblefactory",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubble-factory/bubble-factory.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bubble-factory/bubble-factory.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "bubble-factory",
+                    filename: "bubble-factory.gb",
+                ),
+            ],
+        ),
     ],
 )

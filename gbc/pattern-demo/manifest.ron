@@ -1,7 +1,20 @@
 (
     title: "Pattern Demo",
-    date: Some("1999-09-11"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pattern-demo", filename: "Pattern Demo (PD) [C].gbc")),
-    screenshots: ["Pattern Demo (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pattern-demo/Pattern Demo (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pattern-demo/Pattern Demo (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "pattern-demo",
+                    filename: "Pattern Demo (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

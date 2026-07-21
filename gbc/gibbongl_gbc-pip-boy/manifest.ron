@@ -1,11 +1,35 @@
 (
     title: "GBC Pip-Boy",
     developer: Some("GibbonGL"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gibbongl_gbc-pip-boy", filename: "Pip-Boy by GibbonGL_jam.gbc")),
-    tags: ["gb-compo-2025", "gbc", "gb-studio", "fallout", "pip-boy", "gb-compo", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/9slKgi.png", "screenshots/Nigc7V.png", "screenshots/iBcbHL.gif", "screenshots/ZC0S75.png"],
-    links: [
-        (name: "Website", url: "https://gibbongl.itch.io/gbc-pip-boy", link_type: Wiki),
+    tags: [
+        "gb-compo-2025",
+        "gbc",
+        "gb-studio",
+        "fallout",
+        "pip-boy",
+        "gb-compo",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gibbongl_gbc-pip-boy/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gibbongl_gbc-pip-boy/screenshots/9slKgi.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gibbongl_gbc-pip-boy/screenshots/Nigc7V.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gibbongl_gbc-pip-boy/screenshots/iBcbHL.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gibbongl_gbc-pip-boy/screenshots/ZC0S75.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gibbongl_gbc-pip-boy",
+                    filename: "Pip-Boy by GibbonGL_jam.gbc",
+                ),
+                Itch(
+                    url: "https://gibbongl.itch.io/gbc-pip-boy",
+                ),
+            ],
+        ),
     ],
 )

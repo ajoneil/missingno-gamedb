@@ -1,11 +1,37 @@
 (
     title: "FUN VIDEO STORE",
     developer: Some("Raúl Rosso"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "elrosso_fun-video-store", filename: "Fun Video Store DEMO.gbc")),
-    tags: ["Point & Click", "No AI", "Pixel Art", "Female Protagonist", "Singleplayer", "storygame", "Retro", "Adventure", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/09GwsQ.png", "screenshots/755j8Z.png", "screenshots/p8uDdI.png", "screenshots/pN1I2BW.png"],
-    links: [
-        (name: "Website", url: "https://elrosso.itch.io/fun-video-store", link_type: Wiki),
+    tags: [
+        "Point & Click",
+        "No AI",
+        "Pixel Art",
+        "Female Protagonist",
+        "Singleplayer",
+        "storygame",
+        "Retro",
+        "Adventure",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/elrosso_fun-video-store/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/elrosso_fun-video-store/screenshots/09GwsQ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/elrosso_fun-video-store/screenshots/755j8Z.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/elrosso_fun-video-store/screenshots/p8uDdI.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/elrosso_fun-video-store/screenshots/pN1I2BW.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "elrosso_fun-video-store",
+                    filename: "Fun Video Store DEMO.gbc",
+                ),
+                Itch(
+                    url: "https://elrosso.itch.io/fun-video-store",
+                ),
+            ],
+        ),
     ],
 )

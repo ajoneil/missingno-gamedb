@@ -1,13 +1,29 @@
 (
     title: "A walk in snow",
-    date: Some("2023-05-20T20:22:00"),
     developer: Some("Diego García"),
     description: Some("A short first person game about finding soldiers in the snow."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "a-walk-in-snow", filename: "A_WALK_IN_SNOW.gbc")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.jpg", "WKighO.jpg"],
-    links: [
-        (name: "Website", url: "https://divgv.itch.io/a-walk-in-snow", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-snow/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-snow/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-snow/WKighO.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "a-walk-in-snow",
+                    filename: "A_WALK_IN_SNOW.gbc",
+                ),
+                Itch(
+                    url: "https://divgv.itch.io/a-walk-in-snow",
+                ),
+            ],
+        ),
     ],
 )

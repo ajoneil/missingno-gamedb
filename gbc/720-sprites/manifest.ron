@@ -1,8 +1,21 @@
 (
     title: "720 Sprites",
-    date: Some("2000-01-01"),
     developer: Some("One Man Band"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "720-sprites", filename: "720spr.gb")),
-    screenshots: ["723.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/720-sprites/723.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/720-sprites/723.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "720-sprites",
+                    filename: "720spr.gb",
+                ),
+            ],
+        ),
+    ],
 )

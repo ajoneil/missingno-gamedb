@@ -1,8 +1,21 @@
 (
     title: "Mines",
-    date: Some("1999-01-30"),
     developer: Some("Aaron St. John"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mines-gbc", filename: "Mines.gbc")),
-    screenshots: ["20110402_mines.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mines-gbc/20110402_mines.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mines-gbc/20110402_mines.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "mines-gbc",
+                    filename: "Mines.gbc",
+                ),
+            ],
+        ),
+    ],
 )

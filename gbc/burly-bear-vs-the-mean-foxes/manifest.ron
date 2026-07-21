@@ -1,8 +1,21 @@
 (
     title: "Burly Bear vs. The Mean Foxes",
-    date: Some("2016-08-14"),
     developer: Some("Sebastian Mihai"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "burly-bear-vs-the-mean-foxes", filename: "burly.gbc")),
-    screenshots: ["1.bmp"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/burly-bear-vs-the-mean-foxes/1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/burly-bear-vs-the-mean-foxes/1.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2016-08-14"),
+            sources: [
+                HomebrewHub(
+                    slug: "burly-bear-vs-the-mean-foxes",
+                    filename: "burly.gbc",
+                ),
+            ],
+        ),
+    ],
 )

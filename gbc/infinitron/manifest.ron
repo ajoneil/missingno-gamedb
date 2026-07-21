@@ -1,7 +1,20 @@
 (
     title: "Infinitron",
     developer: Some("Refresh Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "infinitron", filename: "infinitron.gbc")),
-    screenshots: ["infinitron.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infinitron/infinitron.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infinitron/infinitron.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "infinitron",
+                    filename: "infinitron.gbc",
+                ),
+            ],
+        ),
+    ],
 )

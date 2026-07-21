@@ -1,7 +1,21 @@
 (
     title: "Biotic Limit",
     description: Some("By Ryan Carson"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "biotic-limit", filename: "bioticlimit-1.gb")),
-    screenshots: ["bioticlimit.png", "bioticlimit-2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/biotic-limit/bioticlimit.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/biotic-limit/bioticlimit.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/biotic-limit/bioticlimit-2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "biotic-limit",
+                    filename: "bioticlimit-1.gb",
+                ),
+            ],
+        ),
+    ],
 )

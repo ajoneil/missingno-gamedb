@@ -1,8 +1,21 @@
 (
     title: "Menu #5 (Test Menu v1.2+5)",
-    date: Some("2001-01-01"),
     developer: Some("Resistance"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-5-resistance", filename: "rse-t_05.gbc")),
-    screenshots: ["187.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-5-resistance/187.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-5-resistance/187.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-5-resistance",
+                    filename: "rse-t_05.gbc",
+                ),
+            ],
+        ),
+    ],
 )

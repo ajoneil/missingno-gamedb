@@ -1,8 +1,21 @@
 (
     title: "We",
-    date: Some("2009-01-01"),
     developer: Some("Jumalauta"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "we", filename: "jml-we.gb")),
-    screenshots: ["we.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/we/we.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/we/we.png",
+    ],
+    releases: [
+        (
+            date: Some("2009-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "we",
+                    filename: "jml-we.gb",
+                ),
+            ],
+        ),
+    ],
 )

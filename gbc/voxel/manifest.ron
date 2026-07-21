@@ -1,8 +1,21 @@
 (
     title: "Voxel",
-    date: Some("1999-01-01"),
     developer: Some("Dox"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "voxel", filename: "vxl.gbc")),
-    screenshots: ["154.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/voxel/154.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/voxel/154.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "voxel",
+                    filename: "vxl.gbc",
+                ),
+            ],
+        ),
+    ],
 )

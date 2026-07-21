@@ -1,8 +1,24 @@
 (
-    title: "Noah's Arkaid",
+    title: "Noah\'s Arkaid",
     developer: Some("Ed Mandy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "noahs-arkaid", filename: "Arkaid.cgb")),
-    tags: ["Adventure", "event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_noahs_arkaid.png"],
+    tags: [
+        "Adventure",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/noahs-arkaid/20110402_noahs_arkaid.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/noahs-arkaid/20110402_noahs_arkaid.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "noahs-arkaid",
+                    filename: "Arkaid.cgb",
+                ),
+            ],
+        ),
+    ],
 )

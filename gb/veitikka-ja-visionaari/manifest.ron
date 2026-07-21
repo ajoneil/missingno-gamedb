@@ -1,8 +1,21 @@
 (
     title: "Veitikka ja visionääri",
-    date: Some("2024-10-05"),
     developer: Some("pakaste."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "veitikka-ja-visionaari", filename: "veitikka-ja-visionaari.gb")),
-    screenshots: ["veitikka-ja-visionaari.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/veitikka-ja-visionaari/veitikka-ja-visionaari.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/veitikka-ja-visionaari/veitikka-ja-visionaari.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-10-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "veitikka-ja-visionaari",
+                    filename: "veitikka-ja-visionaari.gb",
+                ),
+            ],
+        ),
+    ],
 )

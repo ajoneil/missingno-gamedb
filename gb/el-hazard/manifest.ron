@@ -1,8 +1,21 @@
 (
     title: "El Hazard Movie",
-    date: Some("1998-01-01"),
     developer: Some("Megaman_X"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "el-hazard", filename: "ELHMOVIE.GB")),
-    screenshots: ["el-hazard.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/el-hazard/el-hazard.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/el-hazard/el-hazard.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "el-hazard",
+                    filename: "ELHMOVIE.GB",
+                ),
+            ],
+        ),
+    ],
 )

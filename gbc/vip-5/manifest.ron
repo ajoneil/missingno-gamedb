@@ -1,8 +1,21 @@
 (
     title: "VIP +5",
-    date: Some("2001-11"),
     developer: Some("Venom"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "vip-5", filename: "vip-5.gbc")),
-    screenshots: ["vip-5.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/vip-5/vip-5.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/vip-5/vip-5.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "vip-5",
+                    filename: "vip-5.gbc",
+                ),
+            ],
+        ),
+    ],
 )

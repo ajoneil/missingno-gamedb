@@ -1,7 +1,20 @@
 (
     title: "Gesusa Hilfe",
     developer: Some("colorful-courier"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gesusa-hilfe", filename: "gesusa-hilfe.gb")),
-    screenshots: ["gesusa-hilfe.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gesusa-hilfe/gesusa-hilfe.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gesusa-hilfe/gesusa-hilfe.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gesusa-hilfe",
+                    filename: "gesusa-hilfe.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Gameboy Pong",
-    date: Some("1997-02-10"),
     developer: Some("Peter Gordon"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gameboy-pong", filename: "gbpong.gb")),
-    screenshots: ["gbpong.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-pong/gbpong.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-pong/gbpong.png",
+    ],
+    releases: [
+        (
+            date: Some("1997-02-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "gameboy-pong",
+                    filename: "gbpong.gb",
+                ),
+            ],
+        ),
+    ],
 )

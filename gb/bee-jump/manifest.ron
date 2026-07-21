@@ -1,11 +1,30 @@
 (
     title: "Bee Jump",
-    date: Some("2017-07-30"),
     developer: Some("Celestina Software"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bee-jump", filename: "bee jump music.gb")),
-    screenshots: ["162titlescreen.png", "162screenshot1.png", "162screenshot2.png"],
     links: [
-        (name: "Website", url: "https://www.romhacking.net/homebrew/162/", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://www.romhacking.net/homebrew/162/",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bee-jump/162titlescreen.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bee-jump/162titlescreen.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bee-jump/162screenshot1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bee-jump/162screenshot2.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-07-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "bee-jump",
+                    filename: "bee jump music.gb",
+                ),
+            ],
+        ),
     ],
 )

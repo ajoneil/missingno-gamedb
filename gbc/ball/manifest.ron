@@ -1,8 +1,23 @@
 (
     title: "Ball",
     developer: Some("Tomasz Slanina"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ball", filename: "BALL.GBC")),
-    tags: ["event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_ball.png"],
+    tags: [
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ball/20110402_ball.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ball/20110402_ball.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ball",
+                    filename: "BALL.GBC",
+                ),
+            ],
+        ),
+    ],
 )

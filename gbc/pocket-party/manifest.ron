@@ -1,7 +1,20 @@
 (
     title: "Pocket Party",
     developer: Some("PoroCYon"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pocket-party", filename: "pocket-party.cgb")),
-    screenshots: ["pocket-party.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-party/pocket-party.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-party/pocket-party.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pocket-party",
+                    filename: "pocket-party.cgb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -2,12 +2,32 @@
     title: "AIRPLANZ",
     developer: Some("NotImplementedLife"),
     description: Some("Battleship-like game for Gameboy written in Assembly"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "airplanz", filename: "AIRPLANZ.gb")),
     license: Some("GPL-3.0-only"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["screenshot.png"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/NotImplementedLife/AIRPLANZ", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/NotImplementedLife/AIRPLANZ",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/airplanz/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/airplanz/screenshot.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "airplanz",
+                    filename: "AIRPLANZ.gb",
+                ),
+            ],
+        ),
     ],
 )

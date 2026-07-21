@@ -1,7 +1,20 @@
 (
     title: "Cricket",
     developer: Some("james todd"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cricket", filename: "CRICKET.GB")),
-    screenshots: ["20110402_cricket.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cricket/20110402_cricket.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cricket/20110402_cricket.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cricket",
+                    filename: "CRICKET.GB",
+                ),
+            ],
+        ),
+    ],
 )

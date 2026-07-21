@@ -1,7 +1,20 @@
 (
     title: "Fruit Spin v1.0",
     developer: Some("Stu"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fruit-spin-v1-0", filename: "FruitSpin.cgb")),
-    screenshots: ["20110402_fruit_spin.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fruit-spin-v1-0/20110402_fruit_spin.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fruit-spin-v1-0/20110402_fruit_spin.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "fruit-spin-v1-0",
+                    filename: "FruitSpin.cgb",
+                ),
+            ],
+        ),
+    ],
 )

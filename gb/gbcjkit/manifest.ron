@@ -1,13 +1,34 @@
 (
     title: "Kanji driver kit",
-    date: Some("2024-03-23"),
     developer: Some("TeamKNOx"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbcjkit", filename: "jkit.gb")),
     license: Some("MIT"),
-    screenshots: ["jkit-0.png"],
     links: [
-        (name: "Website", url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_jkitj.html", link_type: Wiki),
-        (name: "Source Code", url: "https://gitlab.com/teamknox/gbcjkit", link_type: Source),
+        (
+            name: "Website",
+            url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_jkitj.html",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://gitlab.com/teamknox/gbcjkit",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcjkit/jkit-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcjkit/jkit-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-03-23"),
+            sources: [
+                HomebrewHub(
+                    slug: "gbcjkit",
+                    filename: "jkit.gb",
+                ),
+            ],
+        ),
     ],
 )

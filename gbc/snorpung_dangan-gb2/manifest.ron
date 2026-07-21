@@ -1,11 +1,33 @@
 (
     title: "Dangan GB2",
     developer: Some("snorpung"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "snorpung_dangan-gb2", filename: "DanganGB2.gbc")),
-    tags: ["Shoot 'Em Up", "Shooter", "Bullet Hell"],
-    screenshots: ["cover.png", "screenshots/jfi2mJ.gif", "screenshots/U1LhJ7.gif", "screenshots/wa2BxYi.gif", "screenshots/RcheLR.gif", "screenshots/2Bz8mK7.gif", "screenshots/09f2FG0.gif"],
-    links: [
-        (name: "Website", url: "https://snorpung.itch.io/dangan-gb2", link_type: Wiki),
+    tags: [
+        "Shoot \'Em Up",
+        "Shooter",
+        "Bullet Hell",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/screenshots/jfi2mJ.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/screenshots/U1LhJ7.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/screenshots/wa2BxYi.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/screenshots/RcheLR.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/screenshots/2Bz8mK7.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/screenshots/09f2FG0.gif",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "snorpung_dangan-gb2",
+                    filename: "DanganGB2.gbc",
+                ),
+                Itch(
+                    url: "https://snorpung.itch.io/dangan-gb2",
+                ),
+            ],
+        ),
     ],
 )

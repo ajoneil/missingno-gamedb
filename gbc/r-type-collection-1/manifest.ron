@@ -1,7 +1,20 @@
 (
     title: "R-Type Collection +1",
     developer: Some("Eurasia"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "r-type-collection-1", filename: "r-type-collection-1.gb")),
-    screenshots: ["r-type-collection-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/r-type-collection-1/r-type-collection-1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/r-type-collection-1/r-type-collection-1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "r-type-collection-1",
+                    filename: "r-type-collection-1.gb",
+                ),
+            ],
+        ),
+    ],
 )

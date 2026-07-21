@@ -1,8 +1,27 @@
 (
     title: "Demo Collection",
-    date: Some("1996-01-01"),
     developer: Some("Revival Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "demo-collection", filename: "vectdemo.gb")),
-    screenshots: ["330.png", "331.png", "332.png", "333.png", "334.png", "335.png", "336.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/330.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/330.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/331.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/332.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/333.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/334.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/335.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/336.png",
+    ],
+    releases: [
+        (
+            date: Some("1996-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "demo-collection",
+                    filename: "vectdemo.gb",
+                ),
+            ],
+        ),
+    ],
 )

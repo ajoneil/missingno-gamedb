@@ -1,11 +1,31 @@
 (
     title: "FATAL eRRoR Jazz OST",
     developer: Some("ExtremeJAy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "extremejay_fatal-error-jazz-ost", filename: "FATAL eRRoR Jazz OST_jam.gbc")),
-    tags: ["Retro", "chiptune", "Homebrew", "event:gbcompo25"],
-    screenshots: ["cover.jpg", "screenshots/YB2C6F.jpg", "screenshots/bONM4P.png"],
-    links: [
-        (name: "Website", url: "https://extremejay.itch.io/fatal-error-jazz-ost", link_type: Wiki),
+    tags: [
+        "Retro",
+        "chiptune",
+        "Homebrew",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/extremejay_fatal-error-jazz-ost/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/extremejay_fatal-error-jazz-ost/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/extremejay_fatal-error-jazz-ost/screenshots/YB2C6F.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/extremejay_fatal-error-jazz-ost/screenshots/bONM4P.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "extremejay_fatal-error-jazz-ost",
+                    filename: "FATAL eRRoR Jazz OST_jam.gbc",
+                ),
+                Itch(
+                    url: "https://extremejay.itch.io/fatal-error-jazz-ost",
+                ),
+            ],
+        ),
     ],
 )

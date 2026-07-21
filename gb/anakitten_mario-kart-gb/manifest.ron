@@ -1,11 +1,34 @@
 (
     title: "Mario Kart GB",
     developer: Some("Tacokitten"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "anakitten_mario-kart-gb", filename: "Mario Kart GB Version 1.01.gb")),
-    tags: ["No AI", "Top-Down", "8-Bit", "Racing", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/u4x10L.png", "screenshots/LzAJXr.png", "screenshots/VpRxWr.png", "screenshots/JM24xz.png", "screenshots/utKkel.png"],
-    links: [
-        (name: "Website", url: "https://anakitten.itch.io/mario-kart-gb", link_type: Wiki),
+    tags: [
+        "No AI",
+        "Top-Down",
+        "8-Bit",
+        "Racing",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/screenshots/u4x10L.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/screenshots/LzAJXr.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/screenshots/VpRxWr.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/screenshots/JM24xz.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/screenshots/utKkel.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "anakitten_mario-kart-gb",
+                    filename: "Mario Kart GB Version 1.01.gb",
+                ),
+                Itch(
+                    url: "https://anakitten.itch.io/mario-kart-gb",
+                ),
+            ],
+        ),
     ],
 )

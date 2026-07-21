@@ -1,11 +1,32 @@
 (
     title: "kupman",
     developer: Some("dubvulture"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "kupman", filename: "kupman.gb")),
-    tags: ["Open Source", "Action"],
-    screenshots: ["screenshot01.bmp", "screenshot02.bmp"],
+    tags: [
+        "Open Source",
+        "Action",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/dubvulture/gbdev", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/dubvulture/gbdev",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kupman/screenshot01.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kupman/screenshot01.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kupman/screenshot02.bmp",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "kupman",
+                    filename: "kupman.gb",
+                ),
+            ],
+        ),
     ],
 )

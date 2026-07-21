@@ -1,7 +1,20 @@
 (
     title: "Yo-grl Makes a Demo",
     developer: Some("Proxima"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "yo-grl-makes-a-demo", filename: "yo-grl-makes-a-demo.gb")),
-    screenshots: ["yo-grl-makes-a-demo.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yo-grl-makes-a-demo/yo-grl-makes-a-demo.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yo-grl-makes-a-demo/yo-grl-makes-a-demo.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "yo-grl-makes-a-demo",
+                    filename: "yo-grl-makes-a-demo.gb",
+                ),
+            ],
+        ),
+    ],
 )

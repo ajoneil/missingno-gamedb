@@ -1,7 +1,20 @@
 (
     title: "Ping Pong Diplomacy (Version 1.0)",
     developer: Some("Ryoga"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ping-pong-diplomacy-version-10", filename: "PingPongDiplomacy-gb-rom-v-1.0.gb")),
-    screenshots: ["pingpongdiplomacy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ping-pong-diplomacy-version-10/pingpongdiplomacy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ping-pong-diplomacy-version-10/pingpongdiplomacy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ping-pong-diplomacy-version-10",
+                    filename: "PingPongDiplomacy-gb-rom-v-1.0.gb",
+                ),
+            ],
+        ),
+    ],
 )

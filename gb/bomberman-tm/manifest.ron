@@ -1,8 +1,22 @@
 (
     title: "BOMBERMAN",
-    date: Some("2002-11-04"),
     developer: Some("T.M"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bomberman-tm", filename: "Bom.gb")),
-    screenshots: ["Bom-0.png", "Bom-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bomberman-tm/Bom-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bomberman-tm/Bom-0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bomberman-tm/Bom-1.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-11-04"),
+            sources: [
+                HomebrewHub(
+                    slug: "bomberman-tm",
+                    filename: "Bom.gb",
+                ),
+            ],
+        ),
+    ],
 )

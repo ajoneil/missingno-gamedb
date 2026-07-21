@@ -1,13 +1,27 @@
 (
     title: "friendlymen -- format\".gb\"--awecome",
-    date: Some("2023-05-20T18:30:00"),
     developer: Some("Vadimilyano"),
     description: Some("write what to do to make the game better!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "friendlymen", filename: "game.gb")),
-    tags: ["event:gbshowdown23"],
-    screenshots: ["cover.png", "vBM6x2B.png"],
-    links: [
-        (name: "Website", url: "https://vadimilyano.itch.io/friendlymen", link_type: Wiki),
+    tags: [
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendlymen/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendlymen/vBM6x2B.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "friendlymen",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://vadimilyano.itch.io/friendlymen",
+                ),
+            ],
+        ),
     ],
 )

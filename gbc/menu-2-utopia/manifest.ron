@@ -1,8 +1,21 @@
 (
     title: "Menu #2 (Tonka Raceway +6)",
-    date: Some("2000-01-01"),
     developer: Some("Utopia"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-2-utopia", filename: "utp-t_02.gbc")),
-    screenshots: ["223.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-utopia/223.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-utopia/223.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-2-utopia",
+                    filename: "utp-t_02.gbc",
+                ),
+            ],
+        ),
+    ],
 )

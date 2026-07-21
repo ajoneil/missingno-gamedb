@@ -1,7 +1,20 @@
 (
     title: "deadeus",
     developer: Some("izma"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "deadeus", filename: "deadeus.gb")),
-    screenshots: ["deadeus.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/deadeus/deadeus.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/deadeus/deadeus.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "deadeus",
+                    filename: "deadeus.gb",
+                ),
+            ],
+        ),
+    ],
 )

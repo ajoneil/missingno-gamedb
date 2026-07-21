@@ -1,7 +1,20 @@
 (
     title: "Take Care Of Yourself (Version 1.0.0)",
     developer: Some("DeltaGardner"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "take-care-of-yourself-version-100", filename: "tcoy.gb")),
-    screenshots: ["tcoy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/take-care-of-yourself-version-100/tcoy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/take-care-of-yourself-version-100/tcoy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "take-care-of-yourself-version-100",
+                    filename: "tcoy.gb",
+                ),
+            ],
+        ),
+    ],
 )

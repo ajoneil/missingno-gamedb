@@ -1,13 +1,33 @@
 (
     title: "Arkanoid Clone",
-    date: Some("1998-11-26"),
     developer: Some("Unknown"),
-    description: Some("A simple Arkanoid clone for the Game Boy, entered in Bung Enterprises' 2nd Game Boy Coding Competition."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "arkanoid-clone", filename: "ArkanoidClone.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_arkanoid_clone.png", "arkanoidclonegb2.png"],
+    description: Some("A simple Arkanoid clone for the Game Boy, entered in Bung Enterprises\' 2nd Game Boy Coding Competition."),
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
     links: [
-        (name: "Website", url: "https://web.archive.org/web/20000125144706/http://members.tripod.co.uk/GBCE/gbprogs/gbprogs.htm", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://web.archive.org/web/20000125144706/http://members.tripod.co.uk/GBCE/gbprogs/gbprogs.htm",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/arkanoid-clone/20110402_arkanoid_clone.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/arkanoid-clone/20110402_arkanoid_clone.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/arkanoid-clone/arkanoidclonegb2.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-11-26"),
+            sources: [
+                HomebrewHub(
+                    slug: "arkanoid-clone",
+                    filename: "ArkanoidClone.cgb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Wario Walking",
-    date: Some("1997-11-01"),
     developer: Some("Harry Mulder"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "wario-walking", filename: "Wario_Walking.gb")),
-    screenshots: ["Wario_Walking-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wario-walking/Wario_Walking-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wario-walking/Wario_Walking-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1997-11-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "wario-walking",
+                    filename: "Wario_Walking.gb",
+                ),
+            ],
+        ),
+    ],
 )

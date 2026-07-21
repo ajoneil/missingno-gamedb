@@ -1,8 +1,21 @@
 (
     title: "Simple Dictionary v1.2",
-    date: Some("2000-01-29"),
     developer: Some("Pui Binh Phan"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "simple-dictionary-v1-2", filename: "Simple Dictionary V1.2 (PD).gb")),
-    screenshots: ["Simple Dictionary V1.2 (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/simple-dictionary-v1-2/Simple Dictionary V1.2 (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/simple-dictionary-v1-2/Simple Dictionary V1.2 (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "simple-dictionary-v1-2",
+                    filename: "Simple Dictionary V1.2 (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

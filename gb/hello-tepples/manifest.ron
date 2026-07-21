@@ -1,11 +1,28 @@
 (
     title: "My first attempt",
-    date: Some("2018-05-12"),
     developer: Some("tepples"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hello-tepples", filename: "hello.gb")),
-    screenshots: ["hello.png"],
     links: [
-        (name: "Website", url: "https://forums.nesdev.org/viewtopic.php?t=17174", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://forums.nesdev.org/viewtopic.php?t=17174",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hello-tepples/hello.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hello-tepples/hello.png",
+    ],
+    releases: [
+        (
+            date: Some("2018-05-12"),
+            sources: [
+                HomebrewHub(
+                    slug: "hello-tepples",
+                    filename: "hello.gb",
+                ),
+            ],
+        ),
     ],
 )

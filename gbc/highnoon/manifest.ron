@@ -1,8 +1,21 @@
 (
     title: "HighNoon",
-    date: Some("2000-11-18"),
     developer: Some("Braindead"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "highnoon", filename: "HighNoon (PD) [C].gbc")),
-    screenshots: ["HighNoon (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/highnoon/HighNoon (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/highnoon/HighNoon (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-11-18"),
+            sources: [
+                HomebrewHub(
+                    slug: "highnoon",
+                    filename: "HighNoon (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

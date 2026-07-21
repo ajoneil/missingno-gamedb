@@ -2,7 +2,20 @@
     title: "Touhou GB",
     developer: Some("gnmmarechal"),
     description: Some("Homebrew clone of the Touhou bullet hell games."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "touhou-gb", filename: "touhou-gb.gb")),
-    screenshots: ["touhou-gb.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/touhou-gb/touhou-gb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/touhou-gb/touhou-gb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "touhou-gb",
+                    filename: "touhou-gb.gb",
+                ),
+            ],
+        ),
+    ],
 )

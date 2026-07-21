@@ -2,7 +2,20 @@
     title: "Roader GB",
     developer: Some("Jay Cook"),
     description: Some("Roader?"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "roader-gb", filename: "ROADER.GB")),
-    screenshots: ["20110402_roader_gb.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/roader-gb/20110402_roader_gb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/roader-gb/20110402_roader_gb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "roader-gb",
+                    filename: "ROADER.GB",
+                ),
+            ],
+        ),
+    ],
 )

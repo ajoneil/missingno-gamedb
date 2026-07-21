@@ -1,8 +1,24 @@
 (
     title: "Maze v1.02",
     developer: Some("Jeff Siebold"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "maze-v1-02", filename: "Maze.cgb")),
-    tags: ["Puzzle", "event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_maze.png"],
+    tags: [
+        "Puzzle",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-v1-02/20110402_maze.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-v1-02/20110402_maze.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "maze-v1-02",
+                    filename: "Maze.cgb",
+                ),
+            ],
+        ),
+    ],
 )

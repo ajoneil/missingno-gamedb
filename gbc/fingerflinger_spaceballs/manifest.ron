@@ -1,11 +1,29 @@
 (
     title: "SpaceBalls",
     developer: Some("fingerflinger"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fingerflinger_spaceballs", filename: "spaceballs_jam.gbc")),
-    tags: ["Action", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/D4Bdan.png", "screenshots/oAKV2r.png", "screenshots/MOdAwl.png"],
-    links: [
-        (name: "Website", url: "https://fingerflinger.itch.io/spaceballs", link_type: Wiki),
+    tags: [
+        "Action",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fingerflinger_spaceballs/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fingerflinger_spaceballs/screenshots/D4Bdan.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fingerflinger_spaceballs/screenshots/oAKV2r.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fingerflinger_spaceballs/screenshots/MOdAwl.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "fingerflinger_spaceballs",
+                    filename: "spaceballs_jam.gbc",
+                ),
+                Itch(
+                    url: "https://fingerflinger.itch.io/spaceballs",
+                ),
+            ],
+        ),
     ],
 )

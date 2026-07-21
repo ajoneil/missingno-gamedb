@@ -1,9 +1,25 @@
 (
     title: "Capman",
-    date: Some("2000-04-01"),
     developer: Some("Gianluca Cancelmi"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "capman", filename: "Capman.cgb")),
-    tags: ["Action", "event:liksang2000-compo"],
-    screenshots: ["20110402_capman.gif"],
+    tags: [
+        "Action",
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/capman/20110402_capman.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/capman/20110402_capman.gif",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "capman",
+                    filename: "Capman.cgb",
+                ),
+            ],
+        ),
+    ],
 )

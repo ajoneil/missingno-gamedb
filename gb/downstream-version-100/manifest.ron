@@ -1,7 +1,20 @@
 (
     title: "Downstream (Version 1.0.0)",
     developer: Some("DeltaGardner"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "downstream-version-100", filename: "downstream.gb")),
-    screenshots: ["downstream.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/downstream-version-100/downstream.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/downstream-version-100/downstream.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "downstream-version-100",
+                    filename: "downstream.gb",
+                ),
+            ],
+        ),
+    ],
 )

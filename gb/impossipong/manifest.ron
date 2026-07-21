@@ -1,7 +1,20 @@
 (
     title: "ImpossiPong!",
     developer: Some("Nicklausw"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "impossipong", filename: "pong.gb")),
-    screenshots: ["pong.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/impossipong/pong.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/impossipong/pong.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "impossipong",
+                    filename: "pong.gb",
+                ),
+            ],
+        ),
+    ],
 )

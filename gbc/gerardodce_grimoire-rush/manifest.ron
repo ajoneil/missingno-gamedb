@@ -1,11 +1,29 @@
 (
     title: "Grimoire Rush",
     developer: Some("Gerardodce"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gerardodce_grimoire-rush", filename: "GRush_jam.gbc")),
-    tags: ["Puzzle", "Top Down Adventure", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/aektLJ.png", "screenshots/JTrm8N.png"],
-    links: [
-        (name: "Website", url: "https://gerardodce.itch.io/grimoire-rush", link_type: Wiki),
+    tags: [
+        "Puzzle",
+        "Top Down Adventure",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gerardodce_grimoire-rush/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gerardodce_grimoire-rush/screenshots/aektLJ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gerardodce_grimoire-rush/screenshots/JTrm8N.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gerardodce_grimoire-rush",
+                    filename: "GRush_jam.gbc",
+                ),
+                Itch(
+                    url: "https://gerardodce.itch.io/grimoire-rush",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,13 +1,28 @@
 (
     title: "The Friendly CPU",
-    date: Some("2023-05-20T02:36:00"),
     developer: Some("Bad_Dad"),
     description: Some("We are saved offline"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-friendly-cpu", filename: "friendly_CPU.gb")),
-    tags: ["Interactive Fiction", "event:gbshowdown23"],
-    screenshots: ["cover.png", "j5mbTh.png"],
-    links: [
-        (name: "Website", url: "https://phil-bad-dad-games.itch.io/the-friendly-cpu", link_type: Wiki),
+    tags: [
+        "Interactive Fiction",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-friendly-cpu/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-friendly-cpu/j5mbTh.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-friendly-cpu",
+                    filename: "friendly_CPU.gb",
+                ),
+                Itch(
+                    url: "https://phil-bad-dad-games.itch.io/the-friendly-cpu",
+                ),
+            ],
+        ),
     ],
 )

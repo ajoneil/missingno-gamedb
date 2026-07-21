@@ -1,11 +1,39 @@
 (
     title: "OrmBlok",
     developer: Some("Mike Leisz, Ben Jelter"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "benjelter_ormblok", filename: "OrmBlok_jam.gbc")),
-    tags: ["No AI", "Pixel Art", "High Score", "Non violent", "8-Bit", "blocks", "Minimalist", "Arcade", "Puzzle", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/H5UK38.png", "screenshots/G27q55.png", "screenshots/I0rhGR.png", "screenshots/E9u9L6.png", "screenshots/ljhefK.png"],
-    links: [
-        (name: "Website", url: "https://benjelter.itch.io/ormblok", link_type: Wiki),
+    tags: [
+        "No AI",
+        "Pixel Art",
+        "High Score",
+        "Non violent",
+        "8-Bit",
+        "blocks",
+        "Minimalist",
+        "Arcade",
+        "Puzzle",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/screenshots/H5UK38.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/screenshots/G27q55.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/screenshots/I0rhGR.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/screenshots/E9u9L6.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/screenshots/ljhefK.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "benjelter_ormblok",
+                    filename: "OrmBlok_jam.gbc",
+                ),
+                Itch(
+                    url: "https://benjelter.itch.io/ormblok",
+                ),
+            ],
+        ),
     ],
 )

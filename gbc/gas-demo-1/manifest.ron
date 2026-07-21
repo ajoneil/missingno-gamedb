@@ -1,8 +1,21 @@
 (
     title: "GAS Demo 1",
-    date: Some("1999-10-20"),
     developer: Some("Peran, Revilon"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gas-demo-1", filename: "GAS Demo 1 (PD) [C].gbc")),
-    screenshots: ["GAS Demo 1 (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gas-demo-1/GAS Demo 1 (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gas-demo-1/GAS Demo 1 (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("1999-10-20"),
+            sources: [
+                HomebrewHub(
+                    slug: "gas-demo-1",
+                    filename: "GAS Demo 1 (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

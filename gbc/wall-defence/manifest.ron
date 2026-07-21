@@ -1,8 +1,22 @@
 (
     title: "Wall Defence",
-    date: Some("2004-07-09"),
     developer: Some("Ventzislav Tzvetko"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "wall-defence", filename: "walldefence.gbc")),
-    screenshots: ["walldefence.png", "20110402_wall_defence.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wall-defence/walldefence.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wall-defence/walldefence.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wall-defence/20110402_wall_defence.png",
+    ],
+    releases: [
+        (
+            date: Some("2004-07-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "wall-defence",
+                    filename: "walldefence.gbc",
+                ),
+            ],
+        ),
+    ],
 )

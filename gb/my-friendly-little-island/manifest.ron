@@ -1,13 +1,33 @@
 (
     title: "My Friendly Little Island",
-    date: Some("2023-05-20T10:19:00"),
     developer: Some("playinstinct"),
     description: Some("A cute adventure platformer about friendship and personal growth"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "my-friendly-little-island", filename: "My-Friendly-Little-Island.gb")),
-    tags: ["Adventure", "Platform", "event:gbshowdown23"],
-    screenshots: ["cover.png", "DdhOKU.png", "SCOLnh.png", "40jSBN.png", "w7nGna.png", "m2QP2FQ.png"],
-    links: [
-        (name: "Website", url: "https://playinstinct.itch.io/my-friendly-little-island", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "Platform",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/DdhOKU.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/SCOLnh.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/40jSBN.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/w7nGna.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/m2QP2FQ.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "my-friendly-little-island",
+                    filename: "My-Friendly-Little-Island.gb",
+                ),
+                Itch(
+                    url: "https://playinstinct.itch.io/my-friendly-little-island",
+                ),
+            ],
+        ),
     ],
 )

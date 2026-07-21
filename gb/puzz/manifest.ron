@@ -1,8 +1,24 @@
 (
     title: "Puzz",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "puzz", filename: "Puzz.gb")),
-    tags: ["Puzzle", "event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_puzz.png"],
+    tags: [
+        "Puzzle",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/puzz/20110402_puzz.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/puzz/20110402_puzz.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "puzz",
+                    filename: "Puzz.gb",
+                ),
+            ],
+        ),
+    ],
 )

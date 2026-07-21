@@ -1,7 +1,20 @@
 (
     title: "You Will Die",
     developer: Some("Refresh Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "you-will-die", filename: "onehour.gb")),
-    screenshots: ["onehour.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/you-will-die/onehour.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/you-will-die/onehour.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "you-will-die",
+                    filename: "onehour.gb",
+                ),
+            ],
+        ),
+    ],
 )

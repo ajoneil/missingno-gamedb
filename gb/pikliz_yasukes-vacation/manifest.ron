@@ -1,11 +1,32 @@
 (
-    title: "Yasuke's Vacation",
+    title: "Yasuke\'s Vacation",
     developer: Some("pikliz"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pikliz_yasukes-vacation", filename: "YasukesVacation_JAM.gb")),
-    tags: ["1bit", "monochrome", "gb-studio", "Platformer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/F6TQ3f.png", "screenshots/HjW1Zw.png", "screenshots/cjt8i8.png"],
-    links: [
-        (name: "Website", url: "https://pikliz.itch.io/yasukes-vacation", link_type: Wiki),
+    tags: [
+        "1bit",
+        "monochrome",
+        "gb-studio",
+        "Platformer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pikliz_yasukes-vacation/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pikliz_yasukes-vacation/screenshots/F6TQ3f.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pikliz_yasukes-vacation/screenshots/HjW1Zw.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pikliz_yasukes-vacation/screenshots/cjt8i8.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pikliz_yasukes-vacation",
+                    filename: "YasukesVacation_JAM.gb",
+                ),
+                Itch(
+                    url: "https://pikliz.itch.io/yasukes-vacation",
+                ),
+            ],
+        ),
     ],
 )

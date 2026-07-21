@@ -1,7 +1,20 @@
 (
     title: "Pak Man",
     developer: Some("Gambit Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pak-man", filename: "pak-man.gb")),
-    screenshots: ["pak-man.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pak-man/pak-man.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pak-man/pak-man.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pak-man",
+                    filename: "pak-man.gb",
+                ),
+            ],
+        ),
+    ],
 )

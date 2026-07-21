@@ -1,8 +1,21 @@
 (
     title: "Intro #1 (X-Men Mutant Academy)",
-    date: Some("2001-01-01"),
     developer: Some("Oldskool"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "intro-1-oldskool", filename: "os-i_01.gbc")),
-    screenshots: ["190.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-1-oldskool/190.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-1-oldskool/190.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "intro-1-oldskool",
+                    filename: "os-i_01.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,11 +1,28 @@
 (
     title: "Intro Collection",
-    date: Some("2001-01-01"),
     developer: Some("CHN"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "intro-collection", filename: "introcollection.gbc")),
-    screenshots: ["756.png"],
     links: [
-        (name: "Source Code", url: "http://web.archive.org/web/20040603064624/http://chn.roarvgm.com/gbc_introcollection_v2_bin+source_-_chn.rar", link_type: Source),
+        (
+            name: "Source Code",
+            url: "http://web.archive.org/web/20040603064624/http://chn.roarvgm.com/gbc_introcollection_v2_bin+source_-_chn.rar",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-collection/756.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-collection/756.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "intro-collection",
+                    filename: "introcollection.gbc",
+                ),
+            ],
+        ),
     ],
 )

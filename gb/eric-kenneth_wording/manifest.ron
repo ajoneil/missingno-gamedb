@@ -1,11 +1,35 @@
 (
     title: "ReWording (GB demo)",
     developer: Some("Eric Kenneth"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "eric-kenneth_wording", filename: "ReWording_jam.gb")),
-    tags: ["No AI", "Fast-Paced", "Word game", "High Score", "Arcade", "Puzzle", "event:gbcompo25"],
-    screenshots: ["cover.gif", "screenshots/z4xgKd.png", "screenshots/JcswJY.png", "screenshots/7YeIIk.png"],
-    links: [
-        (name: "Website", url: "https://eric-kenneth.itch.io/wording", link_type: Wiki),
+    tags: [
+        "No AI",
+        "Fast-Paced",
+        "Word game",
+        "High Score",
+        "Arcade",
+        "Puzzle",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_wording/cover.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_wording/cover.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_wording/screenshots/z4xgKd.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_wording/screenshots/JcswJY.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_wording/screenshots/7YeIIk.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "eric-kenneth_wording",
+                    filename: "ReWording_jam.gb",
+                ),
+                Itch(
+                    url: "https://eric-kenneth.itch.io/wording",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Lumberjack for Game Boy",
-    date: Some("2017-10-21"),
     developer: Some("JMD"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lumberjack-for-game-boy", filename: "lumberjack-for-game-boy.gb")),
-    screenshots: ["lumberjack-for-game-boy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lumberjack-for-game-boy/lumberjack-for-game-boy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lumberjack-for-game-boy/lumberjack-for-game-boy.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-10-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "lumberjack-for-game-boy",
+                    filename: "lumberjack-for-game-boy.gb",
+                ),
+            ],
+        ),
+    ],
 )

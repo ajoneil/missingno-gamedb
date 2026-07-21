@@ -1,11 +1,37 @@
 (
     title: "FATAL eRRoR Jazz",
     developer: Some("Multiple authors"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "extremejay_fatal-error-jazz", filename: "FATAL eRRoR Jazz_jam.gbc")),
-    tags: ["2D", "Homebrew", "Music Production", "Survivor-like", "Platformer", "Action", "Arena Shooter", "Retro", "Music", "event:gbcompo25"],
-    screenshots: ["cover.jpg", "screenshots/XgF2Ri.jpg", "screenshots/EWe3km.png"],
-    links: [
-        (name: "Website", url: "https://extremejay.itch.io/fatal-error-jazz", link_type: Wiki),
+    tags: [
+        "2D",
+        "Homebrew",
+        "Music Production",
+        "Survivor-like",
+        "Platformer",
+        "Action",
+        "Arena Shooter",
+        "Retro",
+        "Music",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/extremejay_fatal-error-jazz/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/extremejay_fatal-error-jazz/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/extremejay_fatal-error-jazz/screenshots/XgF2Ri.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/extremejay_fatal-error-jazz/screenshots/EWe3km.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "extremejay_fatal-error-jazz",
+                    filename: "FATAL eRRoR Jazz_jam.gbc",
+                ),
+                Itch(
+                    url: "https://extremejay.itch.io/fatal-error-jazz",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,7 +1,20 @@
 (
     title: "final-tankasy",
     developer: Some("Messij"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "final-tankasy", filename: "final-tankasy.gb")),
-    screenshots: ["final-tankasy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/final-tankasy/final-tankasy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/final-tankasy/final-tankasy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "final-tankasy",
+                    filename: "final-tankasy.gb",
+                ),
+            ],
+        ),
+    ],
 )

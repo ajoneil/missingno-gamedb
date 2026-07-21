@@ -1,8 +1,21 @@
 (
-    title: "Joshua Wise's Demo",
-    date: Some("2000-08-29"),
+    title: "Joshua Wise\'s Demo",
     developer: Some("Joshua Wise"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "joshua-wise-demo", filename: "Joshua Wise's Demo (Quang2000) (PD) [C].gbc")),
-    screenshots: ["Joshua Wise's Demo (Quang2000) (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/joshua-wise-demo/Joshua Wise\'s Demo (Quang2000) (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/joshua-wise-demo/Joshua Wise\'s Demo (Quang2000) (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "joshua-wise-demo",
+                    filename: "Joshua Wise\'s Demo (Quang2000) (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

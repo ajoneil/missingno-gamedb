@@ -1,11 +1,28 @@
 (
-    title: "Fast Conway's Life",
-    date: Some("2018-07-08"),
+    title: "Fast Conway\'s Life",
     developer: Some("NovaSquirrel"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "game-boy-life", filename: "life.gb")),
-    screenshots: ["life.png"],
     links: [
-        (name: "Website", url: "https://github.com/NovaSquirrel/GameBoyLife", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://github.com/NovaSquirrel/GameBoyLife",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-life/life.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-life/life.png",
+    ],
+    releases: [
+        (
+            date: Some("2018-07-08"),
+            sources: [
+                HomebrewHub(
+                    slug: "game-boy-life",
+                    filename: "life.gb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Phoenix",
-    date: Some("2000-06-26"),
     developer: Some("Jim Bagley"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "phoenix", filename: "Phoenix [Jim Bagley] (PD) [C].gbc")),
-    screenshots: ["Phoenix [Jim Bagley] (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/phoenix/Phoenix [Jim Bagley] (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/phoenix/Phoenix [Jim Bagley] (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-06-26"),
+            sources: [
+                HomebrewHub(
+                    slug: "phoenix",
+                    filename: "Phoenix [Jim Bagley] (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

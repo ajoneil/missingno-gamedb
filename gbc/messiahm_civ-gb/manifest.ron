@@ -1,11 +1,31 @@
 (
     title: "Civ GB",
     developer: Some("Messiahm"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "messiahm_civ-gb", filename: "CivGB Demo.gbc")),
-    tags: ["Strategy", "GBJam", "event:gbcompo25"],
-    screenshots: ["cover.jpeg", "screenshots/mE2mbs.jpeg", "screenshots/cbuS9E.jpeg", "screenshots/BvNKBW.jpeg"],
-    links: [
-        (name: "Website", url: "https://messiahm.itch.io/civ-gb", link_type: Wiki),
+    tags: [
+        "Strategy",
+        "GBJam",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/messiahm_civ-gb/cover.jpeg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/messiahm_civ-gb/cover.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/messiahm_civ-gb/screenshots/mE2mbs.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/messiahm_civ-gb/screenshots/cbuS9E.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/messiahm_civ-gb/screenshots/BvNKBW.jpeg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "messiahm_civ-gb",
+                    filename: "CivGB Demo.gbc",
+                ),
+                Itch(
+                    url: "https://messiahm.itch.io/civ-gb",
+                ),
+            ],
+        ),
     ],
 )

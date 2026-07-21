@@ -1,8 +1,33 @@
 (
     title: "Mental Respirator",
-    date: Some("2005-01-01"),
     developer: Some("Phantasy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mental-respirator", filename: "pht-mr.gbc")),
-    screenshots: ["123.png", "124.png", "126.png", "127.png", "128.png", "129.png", "130.png", "131.png", "132.png", "133.png", "134.png", "135.png", "136.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/123.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/123.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/124.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/126.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/127.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/128.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/129.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/130.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/131.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/132.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/133.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/134.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/135.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/136.png",
+    ],
+    releases: [
+        (
+            date: Some("2005-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "mental-respirator",
+                    filename: "pht-mr.gbc",
+                ),
+            ],
+        ),
+    ],
 )

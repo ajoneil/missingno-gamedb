@@ -1,13 +1,31 @@
 (
     title: "Friendly Fire",
-    date: Some("2023-05-20T21:54:00"),
     developer: Some("VideoGameStoryTime"),
     description: Some("A Game About Friends and Fire"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "friendly-fire", filename: "game.gb")),
-    tags: ["Puzzle", "event:gbshowdown23"],
-    screenshots: ["cover.png", "QSTU7R.png", "gRzqBC.png", "jEFAF6.png", "oPOiyX.png"],
-    links: [
-        (name: "Website", url: "https://videogamestorytime.itch.io/friendly-fire", link_type: Wiki),
+    tags: [
+        "Puzzle",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-fire/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-fire/QSTU7R.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-fire/gRzqBC.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-fire/jEFAF6.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-fire/oPOiyX.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "friendly-fire",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://videogamestorytime.itch.io/friendly-fire",
+                ),
+            ],
+        ),
     ],
 )

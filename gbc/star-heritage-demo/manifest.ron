@@ -1,8 +1,22 @@
 (
     title: "Star Heritage (Demo)",
-    date: Some("2001-07-15"),
     developer: Some("R-Lab"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "star-heritage-demo", filename: "star-heritage-demo-version-by-r-lab-pd-c.gbc")),
-    screenshots: ["1.bmp", "2.bmp"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/star-heritage-demo/1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/star-heritage-demo/1.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/star-heritage-demo/2.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2001-07-15"),
+            sources: [
+                HomebrewHub(
+                    slug: "star-heritage-demo",
+                    filename: "star-heritage-demo-version-by-r-lab-pd-c.gbc",
+                ),
+            ],
+        ),
+    ],
 )

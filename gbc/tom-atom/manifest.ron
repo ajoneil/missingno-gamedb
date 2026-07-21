@@ -1,8 +1,22 @@
 (
     title: "Tom Atom",
-    date: Some("2002-12-13"),
     developer: Some("Small Blue Cube"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tom-atom", filename: "tomatom.gbc")),
-    screenshots: ["tomatom.png", "20110402_tom_atom.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tom-atom/tomatom.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tom-atom/tomatom.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tom-atom/20110402_tom_atom.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-12-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "tom-atom",
+                    filename: "tomatom.gbc",
+                ),
+            ],
+        ),
+    ],
 )

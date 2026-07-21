@@ -1,8 +1,21 @@
 (
     title: "Puzzlex 2",
-    date: Some("2000-07-23"),
     developer: Some("Par Johannesson"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "puzzlex-2", filename: "Puzzlex 2 by Par Johannesson (PD) [C].gbc")),
-    screenshots: ["Puzzlex 2 by Par Johannesson (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzlex-2/Puzzlex 2 by Par Johannesson (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzlex-2/Puzzlex 2 by Par Johannesson (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-07-23"),
+            sources: [
+                HomebrewHub(
+                    slug: "puzzlex-2",
+                    filename: "Puzzlex 2 by Par Johannesson (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

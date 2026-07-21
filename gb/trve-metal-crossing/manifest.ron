@@ -1,13 +1,30 @@
 (
     title: "Trve Metal Crossing",
-    date: Some("2023-05-20T10:23:00"),
     developer: Some("Scotaire"),
     description: Some("Can you and your friends perform the most popular music show?"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "trve-metal-crossing", filename: "game.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "bGUuE2F.gif", "uRCGWr.png", "cIJAKo.png"],
-    links: [
-        (name: "Website", url: "https://scotaire.itch.io/trve-metal-crossing", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/trve-metal-crossing/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/trve-metal-crossing/bGUuE2F.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/trve-metal-crossing/uRCGWr.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/trve-metal-crossing/cIJAKo.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "trve-metal-crossing",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://scotaire.itch.io/trve-metal-crossing",
+                ),
+            ],
+        ),
     ],
 )

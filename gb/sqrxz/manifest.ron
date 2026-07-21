@@ -1,8 +1,21 @@
 (
     title: "Sqrxz",
-    date: Some("1999-05-05"),
     developer: Some("Icarus Productions"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sqrxz", filename: "sqrxz.gb")),
-    screenshots: ["sqrxz.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sqrxz/sqrxz.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sqrxz/sqrxz.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-05-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "sqrxz",
+                    filename: "sqrxz.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,22 @@
 (
     title: "SteinsGate 8-bit v0.40",
     developer: Some("calc84maniac"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "steinsgate_8-bit_v0-40", filename: "SteinsGate 8-Bit v0.40.gb")),
-    screenshots: ["screen1.png", "screen2.png", "screen3.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/steinsgate_8-bit_v0-40/screen1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/steinsgate_8-bit_v0-40/screen1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/steinsgate_8-bit_v0-40/screen2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/steinsgate_8-bit_v0-40/screen3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "steinsgate_8-bit_v0-40",
+                    filename: "SteinsGate 8-Bit v0.40.gb",
+                ),
+            ],
+        ),
+    ],
 )

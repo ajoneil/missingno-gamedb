@@ -1,15 +1,36 @@
 (
     title: "Game (Boy) of Life",
-    date: Some("2024-02-13"),
     developer: Some("StudioGuma"),
-    description: Some("Port of Conway's Game of Life"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "game_boy_of_life", filename: "life.gb")),
+    description: Some("Port of Conway\'s Game of Life"),
     license: Some("GPL-3.0-or-later"),
-    tags: ["Open Source"],
-    screenshots: ["cover_image.png"],
+    tags: [
+        "Open Source",
+    ],
     links: [
-        (name: "Website", url: "https://studioguma.itch.io/game-boy-of-life", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/StudioGuma/game_boy_of_life", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/StudioGuma/game_boy_of_life",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game_boy_of_life/cover_image.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game_boy_of_life/cover_image.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-02-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "game_boy_of_life",
+                    filename: "life.gb",
+                ),
+                Itch(
+                    url: "https://studioguma.itch.io/game-boy-of-life",
+                ),
+            ],
+        ),
     ],
 )

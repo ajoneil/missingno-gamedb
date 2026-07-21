@@ -1,8 +1,21 @@
 (
     title: "One Giant Mooo (Prince Naseem Boxing)",
-    date: Some("2001-01-01"),
     developer: Some("Capital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "one-giant-mooo", filename: "cpl-i_05.gbc")),
-    screenshots: ["208.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-giant-mooo/208.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/one-giant-mooo/208.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "one-giant-mooo",
+                    filename: "cpl-i_05.gbc",
+                ),
+            ],
+        ),
+    ],
 )

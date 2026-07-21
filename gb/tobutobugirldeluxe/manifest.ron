@@ -1,13 +1,37 @@
 (
     title: "Tobu Tobu Girl Deluxe",
     developer: Some("Tangram Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tobutobugirldeluxe", filename: "tobudx.gb")),
     license: Some("MIT"),
-    tags: ["Open Source", "Action"],
-    screenshots: ["1.png", "2.png", "3.png"],
+    tags: [
+        "Open Source",
+        "Action",
+    ],
     links: [
-        (name: "Website", url: "https://tangramgames.itch.io/tobu-tobu-girl-deluxe", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/SimonLarsen/tobutobugirl-dx", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/SimonLarsen/tobutobugirl-dx",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tobutobugirldeluxe/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tobutobugirldeluxe/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tobutobugirldeluxe/2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tobutobugirldeluxe/3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "tobutobugirldeluxe",
+                    filename: "tobudx.gb",
+                ),
+                Itch(
+                    url: "https://tangramgames.itch.io/tobu-tobu-girl-deluxe",
+                ),
+            ],
+        ),
     ],
 )

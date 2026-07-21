@@ -1,7 +1,20 @@
 (
     title: "UCBN",
     developer: Some("8 Cylinder"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ucbn", filename: "ucbn.gb")),
-    screenshots: ["ucbn.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ucbn/ucbn.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ucbn/ucbn.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ucbn",
+                    filename: "ucbn.gb",
+                ),
+            ],
+        ),
+    ],
 )

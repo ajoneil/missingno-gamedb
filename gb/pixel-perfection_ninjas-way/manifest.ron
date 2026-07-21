@@ -1,11 +1,29 @@
 (
-    title: "NINJA'S WAY - Gameboy color",
+    title: "NINJA\'S WAY - Gameboy color",
     developer: Some("Pixel Perfection"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pixel-perfection_ninjas-way", filename: "Ninja.gb")),
-    tags: ["Platform"],
-    screenshots: ["screenshots/7OMA7r.png", "screenshots/tbV0zO.gif", "screenshots/ZJBYbK.gif", "screenshots/OJ2h3N.png"],
-    links: [
-        (name: "Website", url: "https://pixel-perfection.itch.io/ninjas-way", link_type: Wiki),
+    tags: [
+        "Platform",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pixel-perfection_ninjas-way/screenshots/7OMA7r.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pixel-perfection_ninjas-way/screenshots/7OMA7r.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pixel-perfection_ninjas-way/screenshots/tbV0zO.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pixel-perfection_ninjas-way/screenshots/ZJBYbK.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pixel-perfection_ninjas-way/screenshots/OJ2h3N.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pixel-perfection_ninjas-way",
+                    filename: "Ninja.gb",
+                ),
+                Itch(
+                    url: "https://pixel-perfection.itch.io/ninjas-way",
+                ),
+            ],
+        ),
     ],
 )

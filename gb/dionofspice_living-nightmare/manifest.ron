@@ -1,11 +1,28 @@
 (
     title: "LIVING NIGHTMARE",
     developer: Some("DionOfSpice"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dionofspice_living-nightmare", filename: "LivingNightmare_jam.gb")),
-    tags: ["Horror", "Adventure", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/DiSMVP.png"],
-    links: [
-        (name: "Website", url: "https://dionofspice.itch.io/living-nightmare", link_type: Wiki),
+    tags: [
+        "Horror",
+        "Adventure",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dionofspice_living-nightmare/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dionofspice_living-nightmare/screenshots/DiSMVP.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "dionofspice_living-nightmare",
+                    filename: "LivingNightmare_jam.gb",
+                ),
+                Itch(
+                    url: "https://dionofspice.itch.io/living-nightmare",
+                ),
+            ],
+        ),
     ],
 )

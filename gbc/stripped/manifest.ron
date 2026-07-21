@@ -1,8 +1,25 @@
 (
     title: "Stripped",
-    date: Some("2000-01-01"),
     developer: Some("Triad"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "stripped", filename: "stripped.gbc")),
-    screenshots: ["69.png", "70.png", "71.png", "72.png", "73.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stripped/69.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stripped/69.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stripped/70.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stripped/71.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stripped/72.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stripped/73.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "stripped",
+                    filename: "stripped.gbc",
+                ),
+            ],
+        ),
+    ],
 )

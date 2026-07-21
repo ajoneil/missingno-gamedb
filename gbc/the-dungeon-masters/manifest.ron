@@ -1,8 +1,21 @@
 (
-    title: "The Dungeon Masters (Pooh and Tigger's Hunny Safari +7)",
-    date: Some("2002-01-01"),
+    title: "The Dungeon Masters (Pooh and Tigger\'s Hunny Safari +7)",
     developer: Some("Dual Crew & Shining"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-dungeon-masters", filename: "dcs-t_02.gbc")),
-    screenshots: ["202.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-dungeon-masters/202.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-dungeon-masters/202.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "the-dungeon-masters",
+                    filename: "dcs-t_02.gbc",
+                ),
+            ],
+        ),
+    ],
 )

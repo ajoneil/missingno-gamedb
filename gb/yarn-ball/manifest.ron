@@ -1,7 +1,20 @@
 (
     title: "Yarn Ball",
     developer: Some("Patchwork Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "yarn-ball", filename: "yarn-ball.gb")),
-    screenshots: ["yarn-ball.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yarn-ball/yarn-ball.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yarn-ball/yarn-ball.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "yarn-ball",
+                    filename: "yarn-ball.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Shantae +8",
-    date: Some("2002-06-10"),
     developer: Some("Dual Crew Shining"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "shantae-8", filename: "shantae-8.gbc")),
-    screenshots: ["shantae-8.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/shantae-8/shantae-8.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/shantae-8/shantae-8.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-06-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "shantae-8",
+                    filename: "shantae-8.gbc",
+                ),
+            ],
+        ),
+    ],
 )

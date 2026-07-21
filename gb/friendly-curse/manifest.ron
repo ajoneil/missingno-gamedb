@@ -1,13 +1,31 @@
 (
     title: "Friendly Curse",
-    date: Some("2023-05-20T07:11:00"),
     developer: Some("Disturbiografia"),
-    description: Some("There is only one thing we can do when we can't make new friends!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "friendly-curse", filename: "FriendlyCurse-1.2.gb")),
-    tags: ["Platform", "event:gbshowdown23"],
-    screenshots: ["cover.png", "b2F9o7d.png", "TNYpRd.png", "FKI6Si.gif", "q22FjIR.gif"],
-    links: [
-        (name: "Website", url: "https://joymachs.itch.io/friendly-curse", link_type: Wiki),
+    description: Some("There is only one thing we can do when we can\'t make new friends!"),
+    tags: [
+        "Platform",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-curse/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-curse/b2F9o7d.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-curse/TNYpRd.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-curse/FKI6Si.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-curse/q22FjIR.gif",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "friendly-curse",
+                    filename: "FriendlyCurse-1.2.gb",
+                ),
+                Itch(
+                    url: "https://joymachs.itch.io/friendly-curse",
+                ),
+            ],
+        ),
     ],
 )

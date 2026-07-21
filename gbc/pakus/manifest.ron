@@ -2,8 +2,23 @@
     title: "Pakus",
     developer: Some("Pawel Labojko"),
     description: Some("Control Pakus character throughout several mazes collecting dots and bonus fruits. Avoid enemy ghosts trying to catch you. Find power dots to hunt ghosts. Take the opportunity to score extra points during challanging stages."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pakus", filename: "PAKUS.GBC")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_pakus.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pakus/20110402_pakus.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pakus/20110402_pakus.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pakus",
+                    filename: "PAKUS.GBC",
+                ),
+            ],
+        ),
+    ],
 )

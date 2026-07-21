@@ -1,11 +1,28 @@
 (
     title: "DMG Keygen (GameBoy Music)",
     developer: Some("Kabcorp"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "kabcorp_dmg-keygen", filename: "DMGKEYGEN_jam.gb")),
-    tags: ["keygen", "chiptune", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/6Qf81n.png"],
-    links: [
-        (name: "Website", url: "https://kabcorp.itch.io/dmg-keygen", link_type: Wiki),
+    tags: [
+        "keygen",
+        "chiptune",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kabcorp_dmg-keygen/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kabcorp_dmg-keygen/screenshots/6Qf81n.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "kabcorp_dmg-keygen",
+                    filename: "DMGKEYGEN_jam.gb",
+                ),
+                Itch(
+                    url: "https://kabcorp.itch.io/dmg-keygen",
+                ),
+            ],
+        ),
     ],
 )

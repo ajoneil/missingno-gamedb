@@ -1,12 +1,34 @@
 (
     title: "Pelmanism",
     developer: Some("TeamKNOx"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbccardgame", filename: "pelmanism.gb")),
     license: Some("MIT"),
-    screenshots: ["pelmanism-0.png", "pelmanism-1.png"],
     links: [
-        (name: "Website", url: "https://gitlab.com/teamknox/gbccardgame", link_type: Wiki),
-        (name: "Source Code", url: "https://gitlab.com/teamknox/gbccardgame", link_type: Source),
+        (
+            name: "Website",
+            url: "https://gitlab.com/teamknox/gbccardgame",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://gitlab.com/teamknox/gbccardgame",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbccardgame/pelmanism-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbccardgame/pelmanism-0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbccardgame/pelmanism-1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gbccardgame",
+                    filename: "pelmanism.gb",
+                ),
+            ],
+        ),
     ],
 )

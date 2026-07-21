@@ -1,8 +1,21 @@
 (
     title: "Less Is More",
-    date: Some("2001-01-01"),
     developer: Some("Abyss"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "less-is-more", filename: "AYS-LiM.gb")),
-    screenshots: ["99.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/less-is-more/99.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/less-is-more/99.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "less-is-more",
+                    filename: "AYS-LiM.gb",
+                ),
+            ],
+        ),
+    ],
 )

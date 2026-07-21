@@ -1,8 +1,21 @@
 (
     title: "La MiniFlash",
-    date: Some("2024-10-05"),
     developer: Some("Latitude Independent Association"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "la-miniflash", filename: "la-miniflash.gbc")),
-    screenshots: ["la-miniflash.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/la-miniflash/la-miniflash.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/la-miniflash/la-miniflash.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-10-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "la-miniflash",
+                    filename: "la-miniflash.gbc",
+                ),
+            ],
+        ),
+    ],
 )

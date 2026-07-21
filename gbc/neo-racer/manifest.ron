@@ -1,8 +1,21 @@
 (
     title: "Neo-Racer",
-    date: Some("2000-08-28"),
     developer: Some("DCS"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "neo-racer", filename: "Neo-Racer (Quang2000) (PD) [C].gbc")),
-    screenshots: ["Neo-Racer (Quang2000) (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/neo-racer/Neo-Racer (Quang2000) (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/neo-racer/Neo-Racer (Quang2000) (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "neo-racer",
+                    filename: "Neo-Racer (Quang2000) (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

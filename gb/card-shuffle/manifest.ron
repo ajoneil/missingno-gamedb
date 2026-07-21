@@ -1,7 +1,20 @@
 (
     title: "Card Shuffle",
     developer: Some("S. Noddy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "card-shuffle", filename: "CardShuffle.gb")),
-    screenshots: ["20110402_card_shuffle.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/card-shuffle/20110402_card_shuffle.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/card-shuffle/20110402_card_shuffle.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "card-shuffle",
+                    filename: "CardShuffle.gb",
+                ),
+            ],
+        ),
+    ],
 )

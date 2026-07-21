@@ -1,7 +1,20 @@
 (
     title: "Hybrid GBPlot",
-    date: Some("1999-10-08"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hybrid-gbplot", filename: "Hybrid GBPlot (PD).gb")),
-    screenshots: ["Hybrid GBPlot (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hybrid-gbplot/Hybrid GBPlot (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hybrid-gbplot/Hybrid GBPlot (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1999-10-08"),
+            sources: [
+                HomebrewHub(
+                    slug: "hybrid-gbplot",
+                    filename: "Hybrid GBPlot (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

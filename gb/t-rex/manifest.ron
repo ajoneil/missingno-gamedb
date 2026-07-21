@@ -1,7 +1,20 @@
 (
     title: "T-Rex",
     developer: Some("Alejandro Delgado"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "t-rex", filename: "t-rex.gb")),
-    screenshots: ["t-rex.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/t-rex/t-rex.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/t-rex/t-rex.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "t-rex",
+                    filename: "t-rex.gb",
+                ),
+            ],
+        ),
+    ],
 )

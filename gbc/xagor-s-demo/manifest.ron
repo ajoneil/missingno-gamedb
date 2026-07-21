@@ -1,9 +1,24 @@
 (
-    title: "Xagor's Demo",
-    date: Some("2000-04-01"),
+    title: "Xagor\'s Demo",
     developer: Some("Xagor"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "xagor-s-demo", filename: "XagorsDemo.cgb")),
-    tags: ["event:liksang2000-compo"],
-    screenshots: ["755.png"],
+    tags: [
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/xagor-s-demo/755.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/xagor-s-demo/755.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "xagor-s-demo",
+                    filename: "XagorsDemo.cgb",
+                ),
+            ],
+        ),
+    ],
 )

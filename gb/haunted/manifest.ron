@@ -1,13 +1,29 @@
 (
     title: "Haunted",
-    date: Some("2023-05-20T19:07:00"),
     developer: Some("November"),
     description: Some("Your apartment is making weird sounds."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "haunted", filename: "haunted.gb")),
-    tags: ["event:gbshowdown23"],
-    screenshots: ["SpYmYW.png", "GpOhi0.png", "pd5uJd.png"],
-    links: [
-        (name: "Website", url: "https://locrianzone.itch.io/haunted", link_type: Wiki),
+    tags: [
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/haunted/SpYmYW.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/haunted/SpYmYW.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/haunted/GpOhi0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/haunted/pd5uJd.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "haunted",
+                    filename: "haunted.gb",
+                ),
+                Itch(
+                    url: "https://locrianzone.itch.io/haunted",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "MegAnime",
-    date: Some("1998-01-01"),
     developer: Some("Megaman_X"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "meganime", filename: "MEGANIME.GB")),
-    screenshots: ["meganime.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/meganime/meganime.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/meganime/meganime.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "meganime",
+                    filename: "MEGANIME.GB",
+                ),
+            ],
+        ),
+    ],
 )

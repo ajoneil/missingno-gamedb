@@ -1,9 +1,24 @@
 (
     title: "Southern Dreams",
-    date: Some("2000-04-01"),
     developer: Some("Southern Dreams"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "southern-dreams", filename: "b001.gb")),
-    tags: ["event:liksang2000-compo"],
-    screenshots: ["b001-0.png"],
+    tags: [
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams/b001-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams/b001-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "southern-dreams",
+                    filename: "b001.gb",
+                ),
+            ],
+        ),
+    ],
 )

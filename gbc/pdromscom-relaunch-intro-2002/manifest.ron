@@ -1,9 +1,22 @@
 (
     title: "Pdroms.com Relaunch Intro 2002",
-    date: Some("2002-06-20"),
     developer: Some("DuoDreamer, Kojote"),
     description: Some("This little shit-tro was thrown together by Duo in a really short time for the opening of WWW.PDROMS.COM."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pdromscom-relaunch-intro-2002", filename: "pdroms.gbc")),
-    screenshots: ["20110402_pdroms.com_relaunch_intro_2002.gif"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pdromscom-relaunch-intro-2002/20110402_pdroms.com_relaunch_intro_2002.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pdromscom-relaunch-intro-2002/20110402_pdroms.com_relaunch_intro_2002.gif",
+    ],
+    releases: [
+        (
+            date: Some("2002-06-20"),
+            sources: [
+                HomebrewHub(
+                    slug: "pdromscom-relaunch-intro-2002",
+                    filename: "pdroms.gbc",
+                ),
+            ],
+        ),
+    ],
 )

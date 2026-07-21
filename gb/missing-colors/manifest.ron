@@ -1,8 +1,21 @@
 (
     title: "Missing Colors",
-    date: Some("2018-03-17"),
     developer: Some("Dreamweb"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "missing-colors", filename: "missing-colors.gb")),
-    screenshots: ["missing-colors.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/missing-colors/missing-colors.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/missing-colors/missing-colors.png",
+    ],
+    releases: [
+        (
+            date: Some("2018-03-17"),
+            sources: [
+                HomebrewHub(
+                    slug: "missing-colors",
+                    filename: "missing-colors.gb",
+                ),
+            ],
+        ),
+    ],
 )

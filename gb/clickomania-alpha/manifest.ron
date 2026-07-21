@@ -1,7 +1,20 @@
 (
     title: "ClickOmania (Alpha)",
     developer: Some("ph0x"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "clickomania-alpha", filename: "clk.gb")),
-    screenshots: ["20110402_clickomania.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/clickomania-alpha/20110402_clickomania.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/clickomania-alpha/20110402_clickomania.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "clickomania-alpha",
+                    filename: "clk.gb",
+                ),
+            ],
+        ),
+    ],
 )

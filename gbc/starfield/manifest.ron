@@ -1,8 +1,21 @@
 (
     title: "Starfield",
-    date: Some("2000-01-01"),
     developer: Some("Richard van der Brugge"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "starfield", filename: "starfield.gb")),
-    screenshots: ["250.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/starfield/250.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/starfield/250.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "starfield",
+                    filename: "starfield.gb",
+                ),
+            ],
+        ),
+    ],
 )

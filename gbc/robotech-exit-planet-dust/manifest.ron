@@ -1,7 +1,20 @@
 (
     title: "RoboTech - Exit Planet Dust",
-    date: Some("2000-05-01"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "robotech-exit-planet-dust", filename: "RoboTech - Exit Planet Dust with Music (Lik-Sang) (PD) [C].gbc")),
-    screenshots: ["robotech_epd.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/robotech-exit-planet-dust/robotech_epd.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/robotech-exit-planet-dust/robotech_epd.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-05-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "robotech-exit-planet-dust",
+                    filename: "RoboTech - Exit Planet Dust with Music (Lik-Sang) (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

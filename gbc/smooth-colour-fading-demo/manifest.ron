@@ -1,8 +1,21 @@
 (
     title: "Smooth Colour Fading Demo",
-    date: Some("2000-07-27"),
     developer: Some("Theory"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "smooth-colour-fading-demo", filename: "Smooth Colour Fading Demo (PD) [C].gbc")),
-    screenshots: ["Smooth Colour Fading Demo (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/smooth-colour-fading-demo/Smooth Colour Fading Demo (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/smooth-colour-fading-demo/Smooth Colour Fading Demo (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-07-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "smooth-colour-fading-demo",
+                    filename: "Smooth Colour Fading Demo (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

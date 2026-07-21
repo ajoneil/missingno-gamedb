@@ -1,10 +1,26 @@
 (
     title: "Alien Planet",
-    date: Some("2001-09-25"),
     developer: Some("TNI"),
     description: Some("Alien Planet is a vertical shooter game."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "alien-planet", filename: "aplanet.gb")),
-    tags: ["event:freedom-2001-gameboy-developers-competition"],
-    screenshots: ["alienplanet.png", "20110402_alien_planet.png"],
+    tags: [
+        "event:freedom-2001-gameboy-developers-competition",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alien-planet/alienplanet.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alien-planet/alienplanet.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alien-planet/20110402_alien_planet.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-09-25"),
+            sources: [
+                HomebrewHub(
+                    slug: "alien-planet",
+                    filename: "aplanet.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Live in 8bit (Commander Keen)",
-    date: Some("2001-01-01"),
     developer: Some("Eurasia"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "live-in-8bit", filename: "eur-i_01.gbc")),
-    screenshots: ["192.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/live-in-8bit/192.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/live-in-8bit/192.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "live-in-8bit",
+                    filename: "eur-i_01.gbc",
+                ),
+            ],
+        ),
+    ],
 )

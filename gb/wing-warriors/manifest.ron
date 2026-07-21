@@ -1,11 +1,28 @@
 (
     title: "Wing Warriors",
-    date: Some("2020-01-26"),
     developer: Some("FranMatsusaka"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "wing-warriors", filename: "WingWarriors.gb")),
-    screenshots: ["WingWarriors.png"],
     links: [
-        (name: "Website", url: "https://gbdev.gg8.se/forums/viewtopic.php?id=682", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://gbdev.gg8.se/forums/viewtopic.php?id=682",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wing-warriors/WingWarriors.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wing-warriors/WingWarriors.png",
+    ],
+    releases: [
+        (
+            date: Some("2020-01-26"),
+            sources: [
+                HomebrewHub(
+                    slug: "wing-warriors",
+                    filename: "WingWarriors.gb",
+                ),
+            ],
+        ),
     ],
 )

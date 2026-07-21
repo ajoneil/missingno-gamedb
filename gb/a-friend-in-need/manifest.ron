@@ -1,13 +1,33 @@
 (
     title: "A Friend In Need",
-    date: Some("2023-05-20T17:33:00"),
     developer: Some("gorzylla"),
     description: Some("A long lost friend with a secret resurfaces and needs your help."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "a-friend-in-need", filename: "AFriendinNeed_rom_v1.1.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.jpg", "wfT6MU.jpg", "mXC9el.jpg", "68WRyR.jpg", "5beQVS.jpg", "2B2FT2Bgn.jpg"],
-    links: [
-        (name: "Website", url: "https://gorzylla.itch.io/a-friend-in-need", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/wfT6MU.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/mXC9el.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/68WRyR.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/5beQVS.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/2B2FT2Bgn.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "a-friend-in-need",
+                    filename: "AFriendinNeed_rom_v1.1.gb",
+                ),
+                Itch(
+                    url: "https://gorzylla.itch.io/a-friend-in-need",
+                ),
+            ],
+        ),
     ],
 )

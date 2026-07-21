@@ -1,7 +1,20 @@
 (
     title: "Flappy Bird",
     developer: Some("Toca Lucas"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "flappy-bird", filename: "flappybird.gb")),
-    screenshots: ["flappybird.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flappy-bird/flappybird.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flappy-bird/flappybird.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "flappy-bird",
+                    filename: "flappybird.gb",
+                ),
+            ],
+        ),
+    ],
 )

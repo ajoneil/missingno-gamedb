@@ -1,8 +1,23 @@
 (
     title: "The Downward Spiral",
     developer: Some("Jason Stern"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-downward-spiral", filename: "TheDownwardSpiral.cgb")),
-    tags: ["event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_the_downward_spiral.png"],
+    tags: [
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-downward-spiral/20110402_the_downward_spiral.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-downward-spiral/20110402_the_downward_spiral.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-downward-spiral",
+                    filename: "TheDownwardSpiral.cgb",
+                ),
+            ],
+        ),
+    ],
 )

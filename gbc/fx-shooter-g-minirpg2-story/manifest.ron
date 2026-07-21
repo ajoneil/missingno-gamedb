@@ -1,8 +1,21 @@
 (
     title: "FX Shooter G: MiniRPG2 Story",
-    date: Some("2001-02-28"),
     developer: Some("Jaws-V Soft"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fx-shooter-g-minirpg2-story", filename: "fxgbc.gbc")),
-    screenshots: ["fxshootr.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fx-shooter-g-minirpg2-story/fxshootr.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fx-shooter-g-minirpg2-story/fxshootr.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-02-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "fx-shooter-g-minirpg2-story",
+                    filename: "fxgbc.gbc",
+                ),
+            ],
+        ),
+    ],
 )

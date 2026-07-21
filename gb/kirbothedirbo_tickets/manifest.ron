@@ -1,11 +1,28 @@
 (
     title: "Ticket Check!",
     developer: Some("Kirbo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "kirbothedirbo_tickets", filename: "game.gb")),
-    tags: ["Trains", "Adventure", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/SS2F8yz.png"],
-    links: [
-        (name: "Website", url: "https://kirbothedirbo.itch.io/tickets", link_type: Wiki),
+    tags: [
+        "Trains",
+        "Adventure",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kirbothedirbo_tickets/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kirbothedirbo_tickets/screenshots/SS2F8yz.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "kirbothedirbo_tickets",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://kirbothedirbo.itch.io/tickets",
+                ),
+            ],
+        ),
     ],
 )

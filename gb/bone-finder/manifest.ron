@@ -1,11 +1,31 @@
 (
     title: "bone finder",
     developer: Some("DJARKY"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bone-finder", filename: "bone_finder.gb")),
-    tags: ["event:gbshowdown23"],
-    screenshots: ["cover.jpg", "oFzmV2.jpg", "6GCeyY.jpg", "Wfkw1q.jpg", "SN6fLX.jpg", "WDwgCf.jpg"],
-    links: [
-        (name: "Website", url: "https://djarky.itch.io/bone-finder", link_type: Wiki),
+    tags: [
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/oFzmV2.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/6GCeyY.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/Wfkw1q.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/SN6fLX.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/WDwgCf.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "bone-finder",
+                    filename: "bone_finder.gb",
+                ),
+                Itch(
+                    url: "https://djarky.itch.io/bone-finder",
+                ),
+            ],
+        ),
     ],
 )

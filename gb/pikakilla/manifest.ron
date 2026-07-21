@@ -1,7 +1,20 @@
 (
     title: "Pikakilla",
     developer: Some("Dacotter"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pikakilla", filename: "Pikakilla.gb")),
-    screenshots: ["20110402_pikakilla.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pikakilla/20110402_pikakilla.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pikakilla/20110402_pikakilla.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pikakilla",
+                    filename: "Pikakilla.gb",
+                ),
+            ],
+        ),
+    ],
 )

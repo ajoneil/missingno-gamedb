@@ -2,8 +2,23 @@
     title: "Paddle Mission",
     developer: Some("Jan Stiensma"),
     description: Some("The goal of this game is easy: try to score 10 points. If the computer scores 10 points, the game is over."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "paddle-mission", filename: "PaddleMission.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_paddle_mission.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/paddle-mission/20110402_paddle_mission.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/paddle-mission/20110402_paddle_mission.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "paddle-mission",
+                    filename: "PaddleMission.gb",
+                ),
+            ],
+        ),
+    ],
 )

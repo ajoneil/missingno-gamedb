@@ -1,7 +1,20 @@
 (
     title: "Tiles by Johnny13",
-    date: Some("2001-03-05"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tiles-johnny13", filename: "Tiles by Johnny13 (PD) [C].gbc")),
-    screenshots: ["Tiles by Johnny13 (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tiles-johnny13/Tiles by Johnny13 (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tiles-johnny13/Tiles by Johnny13 (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2001-03-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "tiles-johnny13",
+                    filename: "Tiles by Johnny13 (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

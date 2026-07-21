@@ -1,8 +1,21 @@
 (
     title: "brylknöl",
-    date: Some("2023-05-20"),
     developer: Some("xinux"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "brylknol", filename: "brylknol.gb")),
-    screenshots: ["brylknol.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/brylknol/brylknol.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/brylknol/brylknol.png",
+    ],
+    releases: [
+        (
+            date: Some("2023-05-20"),
+            sources: [
+                HomebrewHub(
+                    slug: "brylknol",
+                    filename: "brylknol.gb",
+                ),
+            ],
+        ),
+    ],
 )

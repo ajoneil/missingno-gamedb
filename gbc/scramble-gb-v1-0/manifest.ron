@@ -1,7 +1,20 @@
 (
     title: "Scramble GB v1.0",
     developer: Some("John Ward, Lee Bonner"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "scramble-gb-v1-0", filename: "Scramble.cgb")),
-    screenshots: ["20110402_scramble_gb.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/scramble-gb-v1-0/20110402_scramble_gb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/scramble-gb-v1-0/20110402_scramble_gb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "scramble-gb-v1-0",
+                    filename: "Scramble.cgb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Christmas 2004 Musicdisk",
-    date: Some("2004-01-01"),
     developer: Some("Jumalauta"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "christmas-2004-musicdisk", filename: "jml-joul.gb")),
-    screenshots: ["303.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/christmas-2004-musicdisk/303.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/christmas-2004-musicdisk/303.png",
+    ],
+    releases: [
+        (
+            date: Some("2004-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "christmas-2004-musicdisk",
+                    filename: "jml-joul.gb",
+                ),
+            ],
+        ),
+    ],
 )

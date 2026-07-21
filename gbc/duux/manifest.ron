@@ -1,8 +1,24 @@
 (
     title: "Duux",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "duux", filename: "Duux.cgb")),
-    tags: ["Adventure", "event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_duux.png"],
+    tags: [
+        "Adventure",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/duux/20110402_duux.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/duux/20110402_duux.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "duux",
+                    filename: "Duux.cgb",
+                ),
+            ],
+        ),
+    ],
 )

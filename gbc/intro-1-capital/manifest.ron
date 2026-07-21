@@ -1,8 +1,21 @@
 (
     title: "Intro #1 (Grand Theft Auto)",
-    date: Some("2002-01-01"),
     developer: Some("Capital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "intro-1-capital", filename: "cpl-i_01.gbc")),
-    screenshots: ["204.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-1-capital/204.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-1-capital/204.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "intro-1-capital",
+                    filename: "cpl-i_01.gbc",
+                ),
+            ],
+        ),
+    ],
 )

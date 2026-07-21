@@ -1,8 +1,23 @@
 (
     title: "Fatlicks",
     developer: Some("Steve Jones"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fatlicks", filename: "Fatlicks.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_fatlicks.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fatlicks/20110402_fatlicks.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fatlicks/20110402_fatlicks.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "fatlicks",
+                    filename: "Fatlicks.cgb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,24 @@
 (
     title: "Project-X-Stream",
     developer: Some("Craig Rothwell"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "project-x-stream", filename: "ProjectX-Stream.cgb")),
-    tags: ["Shooter", "event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_project-x-stream.png"],
+    tags: [
+        "Shooter",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/project-x-stream/20110402_project-x-stream.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/project-x-stream/20110402_project-x-stream.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "project-x-stream",
+                    filename: "ProjectX-Stream.cgb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "HeroZero Fractal Demo",
-    date: Some("1996-05-31"),
     developer: Some("Jeff Frohwein, Jens Christian Restemeier"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "herozero-fractal-demo", filename: "HeroZero_Fractal_Demo.gb")),
-    screenshots: ["HeroZero_Fractal_Demo-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/herozero-fractal-demo/HeroZero_Fractal_Demo-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/herozero-fractal-demo/HeroZero_Fractal_Demo-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1996-05-31"),
+            sources: [
+                HomebrewHub(
+                    slug: "herozero-fractal-demo",
+                    filename: "HeroZero_Fractal_Demo.gb",
+                ),
+            ],
+        ),
+    ],
 )

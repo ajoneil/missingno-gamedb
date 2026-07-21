@@ -1,8 +1,21 @@
 (
     title: "Clown",
-    date: Some("1996-01-01"),
     developer: Some("Norman Nithman"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "clown", filename: "CLOWN1.GB")),
-    screenshots: ["747.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/clown/747.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/clown/747.png",
+    ],
+    releases: [
+        (
+            date: Some("1996-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "clown",
+                    filename: "CLOWN1.GB",
+                ),
+            ],
+        ),
+    ],
 )

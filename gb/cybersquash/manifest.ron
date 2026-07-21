@@ -1,10 +1,25 @@
 (
     title: "Cyber Squash",
-    date: Some("2001-09-26"),
     developer: Some("Jordan Tuzsuzov"),
-    description: Some("Cyber Squash is an arcade sport game with rules similar to squash. Move your robot with the left and right keys of joypad, and make large or small jumps with up/down and 'A'/'B' keys. You can turn the sounds on/off with the 'select' button, and start/continue the game with the 'start' button."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cybersquash", filename: "cybersquash.gb")),
-    tags: ["event:freedom-2001-gameboy-developers-competition"],
-    screenshots: ["20110402_cybersquash.png"],
+    description: Some("Cyber Squash is an arcade sport game with rules similar to squash. Move your robot with the left and right keys of joypad, and make large or small jumps with up/down and \'A\'/\'B\' keys. You can turn the sounds on/off with the \'select\' button, and start/continue the game with the \'start\' button."),
+    tags: [
+        "event:freedom-2001-gameboy-developers-competition",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cybersquash/20110402_cybersquash.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cybersquash/20110402_cybersquash.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-09-26"),
+            sources: [
+                HomebrewHub(
+                    slug: "cybersquash",
+                    filename: "cybersquash.gb",
+                ),
+            ],
+        ),
+    ],
 )

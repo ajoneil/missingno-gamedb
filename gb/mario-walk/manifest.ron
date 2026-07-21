@@ -1,7 +1,20 @@
 (
     title: "Mario Walk",
-    date: Some("2001-11-21"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mario-walk", filename: "walk.gb")),
-    screenshots: ["walk-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mario-walk/walk-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mario-walk/walk-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-11-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "mario-walk",
+                    filename: "walk.gb",
+                ),
+            ],
+        ),
+    ],
 )

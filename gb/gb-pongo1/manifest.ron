@@ -1,13 +1,30 @@
 (
     title: "GB_PongoFriends",
-    date: Some("2023-05-19T23:04:00"),
     developer: Some("CreativaGS"),
     description: Some("A very small friendly and cute game"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-pongo1", filename: "game.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "fFJ2FYM.png", "Ffx5xQ.png", "8fk5dH.png"],
-    links: [
-        (name: "Website", url: "https://creativags.itch.io/gb-pongo1", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pongo1/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pongo1/fFJ2FYM.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pongo1/Ffx5xQ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pongo1/8fk5dH.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gb-pongo1",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://creativags.itch.io/gb-pongo1",
+                ),
+            ],
+        ),
     ],
 )

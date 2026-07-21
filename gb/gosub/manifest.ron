@@ -1,11 +1,29 @@
 (
     title: "GoSub",
-    date: Some("2022-06-09"),
     developer: Some("Chris Read"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gosub", filename: "gosub20220609.gb")),
-    screenshots: ["gosublevel5.png", "gosublevel6.png"],
     links: [
-        (name: "Website", url: "http://www.atari2600land.com/gameboy/gosub.html", link_type: Wiki),
+        (
+            name: "Website",
+            url: "http://www.atari2600land.com/gameboy/gosub.html",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gosub/gosublevel5.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gosub/gosublevel5.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gosub/gosublevel6.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-06-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "gosub",
+                    filename: "gosub20220609.gb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Frox",
     developer: Some("Thorsten Stockmeier"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "frox", filename: "Frox.cgb")),
-    screenshots: ["20110402_frox.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frox/20110402_frox.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frox/20110402_frox.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "frox",
+                    filename: "Frox.cgb",
+                ),
+            ],
+        ),
+    ],
 )

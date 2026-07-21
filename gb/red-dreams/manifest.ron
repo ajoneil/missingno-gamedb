@@ -1,10 +1,25 @@
 (
     title: "Red Dreams",
-    date: Some("2001-09-14"),
     developer: Some("Arcadiy Gobuzov"),
     description: Some("Red Dreams is a 3D shooter. story: U on Mars. U must to kill all enemy. Take fuel using scoops, take medicine kits of previous expedition. That’s all good luck!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "red-dreams", filename: "red.gb")),
-    tags: ["event:freedom-2001-gameboy-developers-competition"],
-    screenshots: ["20110402_red_dreams.png"],
+    tags: [
+        "event:freedom-2001-gameboy-developers-competition",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/red-dreams/20110402_red_dreams.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/red-dreams/20110402_red_dreams.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-09-14"),
+            sources: [
+                HomebrewHub(
+                    slug: "red-dreams",
+                    filename: "red.gb",
+                ),
+            ],
+        ),
+    ],
 )

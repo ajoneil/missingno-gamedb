@@ -1,11 +1,35 @@
 (
     title: "Colônia",
     developer: Some("Zani.Pixels ಠ_ಠ"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "zanipixels_colonia", filename: "COLONIA_JAM.gb")),
-    tags: ["Survival", "Pixel Art", "Horror", "Retro", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/p33oIs.png", "screenshots/KRRpNA.png", "screenshots/xxAr1d.png", "screenshots/Eox4Pe.png", "screenshots/AC2BTQv.png", "screenshots/z2FOy2FN.png"],
-    links: [
-        (name: "Website", url: "https://zanipixels.itch.io/colonia", link_type: Wiki),
+    tags: [
+        "Survival",
+        "Pixel Art",
+        "Horror",
+        "Retro",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/screenshots/p33oIs.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/screenshots/KRRpNA.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/screenshots/xxAr1d.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/screenshots/Eox4Pe.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/screenshots/AC2BTQv.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/screenshots/z2FOy2FN.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "zanipixels_colonia",
+                    filename: "COLONIA_JAM.gb",
+                ),
+                Itch(
+                    url: "https://zanipixels.itch.io/colonia",
+                ),
+            ],
+        ),
     ],
 )

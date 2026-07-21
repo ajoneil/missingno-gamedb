@@ -2,13 +2,38 @@
     title: "Flooder",
     developer: Some("Oliver Balfour"),
     description: Some("Can you flood the entire screen with a single color in less than 25 moves? Test your wits with this fun puzzle game."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "flooder", filename: "flooder.gb")),
     license: Some("MIT"),
-    tags: ["Puzzle"],
-    screenshots: ["1.png", "2.png", "3.png"],
+    tags: [
+        "Puzzle",
+    ],
     links: [
-        (name: "Website", url: "https://www.ferrantecrafts.com/listing/1173804126/flooder-game-cartridge-for-game-boy", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/Obalfour/Flooder", link_type: Source),
+        (
+            name: "Website",
+            url: "https://www.ferrantecrafts.com/listing/1173804126/flooder-game-cartridge-for-game-boy",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://github.com/Obalfour/Flooder",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flooder/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flooder/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flooder/2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flooder/3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "flooder",
+                    filename: "flooder.gb",
+                ),
+            ],
+        ),
     ],
 )

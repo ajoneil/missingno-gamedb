@@ -1,8 +1,23 @@
 (
     title: "Crash",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "crash", filename: "CRASH.GB")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_crash.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/crash/20110402_crash.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/crash/20110402_crash.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "crash",
+                    filename: "CRASH.GB",
+                ),
+            ],
+        ),
+    ],
 )

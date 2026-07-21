@@ -1,12 +1,29 @@
 (
     title: "Bung Sprite Demo",
-    date: Some("1999-02-10"),
     developer: Some("Bung Enterprises"),
-    description: Some("Gameboy Color format demo program with sprite effect. Press the control pad to move the background and the 'Start' button to stop it."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bung-sprite-demo", filename: "sprite.gb")),
-    screenshots: ["sprite-0.png"],
+    description: Some("Gameboy Color format demo program with sprite effect. Press the control pad to move the background and the \'Start\' button to stop it."),
     links: [
-        (name: "Website", url: "http://www.bung.com.hk/support/download.htm", link_type: Wiki),
+        (
+            name: "Website",
+            url: "http://www.bung.com.hk/support/download.htm",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bung-sprite-demo/sprite-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bung-sprite-demo/sprite-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-02-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "bung-sprite-demo",
+                    filename: "sprite.gb",
+                ),
+            ],
+        ),
     ],
 )

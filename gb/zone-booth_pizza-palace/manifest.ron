@@ -1,12 +1,38 @@
 (
     title: "Pizza Palace",
     developer: Some("Zone Booth"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "zone-booth_pizza-palace", filename: "pizza_palace.gb")),
-    tags: ["Short"],
-    screenshots: ["cover.png", "screenshots/RVN4NR.png", "screenshots/x215uu.png", "screenshots/RMPm2BH.png", "screenshots/8RUBKt.png", "screenshots/QnkW2Bi.png", "screenshots/RFx8gn.png"],
+    tags: [
+        "Short",
+    ],
     links: [
-        (name: "Website", url: "https://zone-booth.itch.io/pizza-palace", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/kinostl/Pizza-Palace", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/kinostl/Pizza-Palace",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zone-booth_pizza-palace/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zone-booth_pizza-palace/screenshots/RVN4NR.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zone-booth_pizza-palace/screenshots/x215uu.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zone-booth_pizza-palace/screenshots/RMPm2BH.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zone-booth_pizza-palace/screenshots/8RUBKt.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zone-booth_pizza-palace/screenshots/QnkW2Bi.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zone-booth_pizza-palace/screenshots/RFx8gn.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "zone-booth_pizza-palace",
+                    filename: "pizza_palace.gb",
+                ),
+                Itch(
+                    url: "https://zone-booth.itch.io/pizza-palace",
+                ),
+            ],
+        ),
     ],
 )

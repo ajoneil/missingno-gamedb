@@ -1,13 +1,32 @@
 (
     title: "Together Alone",
-    date: Some("2023-05-20T18:29:00"),
-    developer: Some("-ã Ê É É n Ê ~ o É á´ u ã-, Miyulake"),
+    developer: Some("-ã\u{80}\u{90} Ê\u{8e} É\u{9f} É\u{9f} n Ê\u{8d} ~ o É\u{94} á´\u{89} u ã\u{80}\u{91}-, Miyulake"),
     description: Some("A puzzle platformer for the original game-boy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "together-alone", filename: "TogetherAlone.gb")),
-    tags: ["Platform", "event:gbshowdown23"],
-    screenshots: ["cover.png", "lotMxO.gif", "vBE62FD.gif", "2BXtmvE.gif", "k6Rijk.png", "UpEtH2B.png"],
-    links: [
-        (name: "Website", url: "https://sjorsmaster.itch.io/together-alone", link_type: Wiki),
+    tags: [
+        "Platform",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/lotMxO.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/vBE62FD.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/2BXtmvE.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/k6Rijk.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/UpEtH2B.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "together-alone",
+                    filename: "TogetherAlone.gb",
+                ),
+                Itch(
+                    url: "https://sjorsmaster.itch.io/together-alone",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,11 +1,37 @@
 (
     title: "GbBBS95",
     developer: Some("beatscribe"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "beatscribe_gbbbs95", filename: "GbBBS95_1.4.4_ESPANOL.gb")),
-    tags: ["Pixel Art", "Role Playing", "Cozy", "Adventure", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/OFfRIx.png", "screenshots/xdd4AP.gif", "screenshots/33zx92.gif", "screenshots/2nXe5m.gif", "screenshots/rYG2BAN.gif", "screenshots/qAhqYH.png", "screenshots/rwW2yw.gif", "screenshots/uBWiTP.gif"],
-    links: [
-        (name: "Website", url: "https://beatscribe.itch.io/gbbbs95", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "Role Playing",
+        "Cozy",
+        "Adventure",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/screenshots/OFfRIx.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/screenshots/xdd4AP.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/screenshots/33zx92.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/screenshots/2nXe5m.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/screenshots/rYG2BAN.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/screenshots/qAhqYH.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/screenshots/rwW2yw.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beatscribe_gbbbs95/screenshots/uBWiTP.gif",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "beatscribe_gbbbs95",
+                    filename: "GbBBS95_1.4.4_ESPANOL.gb",
+                ),
+                Itch(
+                    url: "https://beatscribe.itch.io/gbbbs95",
+                ),
+            ],
+        ),
     ],
 )

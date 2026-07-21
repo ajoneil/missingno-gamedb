@@ -1,7 +1,20 @@
 (
     title: "Muddy GB",
     developer: Some("S.O"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "muddy-gb", filename: "muddy-gb.gb")),
-    screenshots: ["muddy-gb.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/muddy-gb/muddy-gb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/muddy-gb/muddy-gb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "muddy-gb",
+                    filename: "muddy-gb.gb",
+                ),
+            ],
+        ),
+    ],
 )

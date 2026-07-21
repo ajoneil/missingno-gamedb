@@ -1,12 +1,33 @@
 (
     title: "Boxed In",
-    date: Some("2023-05-20T21:17:00"),
     developer: Some("Developer0"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "boxed-in", filename: "Boxed_In.gb")),
-    tags: ["Adventure", "RPG", "event:gbshowdown23"],
-    screenshots: ["cover.png", "05FgAl.png", "O2HF4x.png", "MJcVdB.png", "EJj6Ah.png", "Ta1c5F.png", "bBfcaa.png"],
-    links: [
-        (name: "Website", url: "https://developer0.itch.io/boxed-in", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "RPG",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/05FgAl.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/O2HF4x.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/MJcVdB.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/EJj6Ah.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/Ta1c5F.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/bBfcaa.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "boxed-in",
+                    filename: "Boxed_In.gb",
+                ),
+                Itch(
+                    url: "https://developer0.itch.io/boxed-in",
+                ),
+            ],
+        ),
     ],
 )

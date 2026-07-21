@@ -1,8 +1,21 @@
 (
     title: "Star Fighter",
-    date: Some("2000-05-25"),
     developer: Some("Jonathan Waugh"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "star-fighter-demo", filename: "Star Fighter by Jonathan Waugh (PD) [C].gbc")),
-    screenshots: ["Star Fighter by Jonathan Waugh (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/star-fighter-demo/Star Fighter by Jonathan Waugh (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/star-fighter-demo/Star Fighter by Jonathan Waugh (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-05-25"),
+            sources: [
+                HomebrewHub(
+                    slug: "star-fighter-demo",
+                    filename: "Star Fighter by Jonathan Waugh (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

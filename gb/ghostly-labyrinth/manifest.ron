@@ -1,7 +1,20 @@
 (
     title: "Ghostly Labyrinth",
     developer: Some("Jared Chansen"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ghostly-labyrinth", filename: "ghostly-labyrinth.gb")),
-    screenshots: ["ghostly-labyrinth.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostly-labyrinth/ghostly-labyrinth.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostly-labyrinth/ghostly-labyrinth.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ghostly-labyrinth",
+                    filename: "ghostly-labyrinth.gb",
+                ),
+            ],
+        ),
+    ],
 )

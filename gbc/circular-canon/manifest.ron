@@ -1,7 +1,20 @@
 (
     title: "Circular Canon",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "circular-canon", filename: "CircularCanon.cgb")),
-    screenshots: ["20110402_circular_canon.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/circular-canon/20110402_circular_canon.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/circular-canon/20110402_circular_canon.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "circular-canon",
+                    filename: "CircularCanon.cgb",
+                ),
+            ],
+        ),
+    ],
 )

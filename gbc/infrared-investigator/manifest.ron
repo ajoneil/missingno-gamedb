@@ -1,8 +1,21 @@
 (
     title: "Infrared Investigator",
-    date: Some("2000-09-07"),
     developer: Some("Ken Kaarvik"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "infrared-investigator", filename: "Infrared Investigator by Ken Kaarvik (PD) [C].gbc")),
-    screenshots: ["Infrared Investigator by Ken Kaarvik (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infrared-investigator/Infrared Investigator by Ken Kaarvik (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infrared-investigator/Infrared Investigator by Ken Kaarvik (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-09-07"),
+            sources: [
+                HomebrewHub(
+                    slug: "infrared-investigator",
+                    filename: "Infrared Investigator by Ken Kaarvik (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

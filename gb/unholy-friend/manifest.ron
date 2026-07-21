@@ -1,13 +1,31 @@
 (
     title: "Unholy Friend",
-    date: Some("2023-05-19T18:30:00"),
     developer: Some("tcsouza"),
     description: Some("Platform GameBoy Homebrew"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "unholy-friend", filename: "Unholy_Friend.gb")),
-    tags: ["Platform", "event:gbshowdown23"],
-    screenshots: ["cover.png", "BvkRzX.jpg", "I2Frm3y.jpg", "74yo3w.jpg", "kIuhGq.jpg"],
-    links: [
-        (name: "Website", url: "https://tcsouza.itch.io/unholy-friend", link_type: Wiki),
+    tags: [
+        "Platform",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-friend/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-friend/BvkRzX.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-friend/I2Frm3y.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-friend/74yo3w.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-friend/kIuhGq.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "unholy-friend",
+                    filename: "Unholy_Friend.gb",
+                ),
+                Itch(
+                    url: "https://tcsouza.itch.io/unholy-friend",
+                ),
+            ],
+        ),
     ],
 )

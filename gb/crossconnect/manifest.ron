@@ -1,13 +1,35 @@
 (
     title: "CrossConnect",
-    date: Some("2022-05-13"),
     developer: Some("quinnp"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "crossconnect", filename: "CrossConnect.gbc")),
     license: Some("MIT"),
-    tags: ["Puzzle", "Open Source"],
-    screenshots: ["title.png", "gamecgb.png", "gamedmg.png"],
+    tags: [
+        "Puzzle",
+        "Open Source",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/QuinnPainter/CrossConnect", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/QuinnPainter/CrossConnect",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/crossconnect/title.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/crossconnect/title.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/crossconnect/gamecgb.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/crossconnect/gamedmg.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-05-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "crossconnect",
+                    filename: "CrossConnect.gbc",
+                ),
+            ],
+        ),
     ],
 )

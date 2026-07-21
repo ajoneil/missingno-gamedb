@@ -1,8 +1,21 @@
 (
     title: "Punk",
-    date: Some("1998-01-01"),
     developer: Some("Anders Granlund"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "punk", filename: "Punk.gb")),
-    screenshots: ["punk.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/punk/punk.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/punk/punk.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "punk",
+                    filename: "Punk.gb",
+                ),
+            ],
+        ),
+    ],
 )

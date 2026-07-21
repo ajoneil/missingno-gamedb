@@ -1,7 +1,20 @@
 (
     title: "Fruit Fly (Version 1.0.0)",
     developer: Some("DeltaGardner"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fruit-fly-version-100", filename: "fruitfly.gb")),
-    screenshots: ["fruitfly.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fruit-fly-version-100/fruitfly.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fruit-fly-version-100/fruitfly.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "fruit-fly-version-100",
+                    filename: "fruitfly.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -2,7 +2,20 @@
     title: "Rickroll PCM",
     developer: Some("FijiAura"),
     description: Some("Based off of the NES version."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rickroll-pcm", filename: "rickroll.gbc")),
-    screenshots: ["PCM.demo.wgraphics_003.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rickroll-pcm/PCM.demo.wgraphics_003.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rickroll-pcm/PCM.demo.wgraphics_003.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "rickroll-pcm",
+                    filename: "rickroll.gbc",
+                ),
+            ],
+        ),
+    ],
 )

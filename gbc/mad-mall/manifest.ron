@@ -1,9 +1,25 @@
 (
     title: "Mad Mall",
-    date: Some("2000-04-01"),
     developer: Some("Christian Andersson"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mad-mall", filename: "Madmall.cgb")),
-    tags: ["Platform", "event:liksang2000-compo"],
-    screenshots: ["20110402_mad_mall.png"],
+    tags: [
+        "Platform",
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mad-mall/20110402_mad_mall.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mad-mall/20110402_mad_mall.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "mad-mall",
+                    filename: "Madmall.cgb",
+                ),
+            ],
+        ),
+    ],
 )

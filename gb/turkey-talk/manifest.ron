@@ -1,11 +1,28 @@
 (
     title: "Turkey Talk",
-    date: Some("2018-03-30"),
     developer: Some("jobalisk"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "turkey-talk", filename: "turkeytalk.gb")),
-    screenshots: ["turkeytalk.png"],
     links: [
-        (name: "Website", url: "http://www.eternitywarestudios.xyz/download.html", link_type: Wiki),
+        (
+            name: "Website",
+            url: "http://www.eternitywarestudios.xyz/download.html",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turkey-talk/turkeytalk.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turkey-talk/turkeytalk.png",
+    ],
+    releases: [
+        (
+            date: Some("2018-03-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "turkey-talk",
+                    filename: "turkeytalk.gb",
+                ),
+            ],
+        ),
     ],
 )

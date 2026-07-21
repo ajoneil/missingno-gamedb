@@ -1,8 +1,21 @@
 (
     title: "James Bond Demo",
-    date: Some("1998-03-30"),
     developer: Some("Axis Design"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "james-bond-demo", filename: "James Bond Demo (PD).gb")),
-    screenshots: ["James Bond Demo (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/james-bond-demo/James Bond Demo (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/james-bond-demo/James Bond Demo (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1998-03-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "james-bond-demo",
+                    filename: "James Bond Demo (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

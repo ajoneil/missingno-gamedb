@@ -1,7 +1,20 @@
 (
     title: "All7",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "all7", filename: "All7.cgb")),
-    screenshots: ["20110402_all7.gif"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/all7/20110402_all7.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/all7/20110402_all7.gif",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "all7",
+                    filename: "All7.cgb",
+                ),
+            ],
+        ),
+    ],
 )

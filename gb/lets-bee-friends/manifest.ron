@@ -1,13 +1,32 @@
 (
-    title: "Let's Bee Friends",
-    date: Some("2023-05-20T12:56:00"),
+    title: "Let\'s Bee Friends",
     developer: Some("howdy riceball"),
     description: Some("Bee-Comb Best Friends with the Townsfolk"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lets-bee-friends", filename: "Lets_Bee_Friends.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.gif", "G6rRpo.gif", "zBFRz6.gif", "xLxgCy.gif", "pPOUVf.gif"],
-    links: [
-        (name: "Website", url: "https://howdyriceball.itch.io/lets-bee-friends", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/cover.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/cover.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/G6rRpo.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/zBFRz6.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/xLxgCy.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/pPOUVf.gif",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "lets-bee-friends",
+                    filename: "Lets_Bee_Friends.gb",
+                ),
+                Itch(
+                    url: "https://howdyriceball.itch.io/lets-bee-friends",
+                ),
+            ],
+        ),
     ],
 )

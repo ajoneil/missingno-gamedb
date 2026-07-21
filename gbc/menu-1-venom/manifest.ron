@@ -1,8 +1,21 @@
 (
     title: "Menu #1 (VIP +5)",
-    date: Some("2000-01-01"),
     developer: Some("Venom"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-1-venom", filename: "v-t_01.gbc")),
-    screenshots: ["194.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-venom/194.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-venom/194.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-1-venom",
+                    filename: "v-t_01.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,11 +1,35 @@
 (
     title: "DropBlox!",
     developer: Some("studio-anchor"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "studio-anchor_dropblox", filename: "dropblox!_prealpha_jam.gb")),
-    tags: ["gbcompo", "Action", "gbcompo2025", "gbdk2020", "gameboy-color", "gbdk", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/Rc2BnJf.png", "screenshots/ZZ7g6d.png", "screenshots/Gon82Fo.png", "screenshots/sDRU2Bl.png"],
-    links: [
-        (name: "Website", url: "https://studio-anchor.itch.io/dropblox", link_type: Wiki),
+    tags: [
+        "gbcompo",
+        "Action",
+        "gbcompo2025",
+        "gbdk2020",
+        "gameboy-color",
+        "gbdk",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/studio-anchor_dropblox/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/studio-anchor_dropblox/screenshots/Rc2BnJf.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/studio-anchor_dropblox/screenshots/ZZ7g6d.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/studio-anchor_dropblox/screenshots/Gon82Fo.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/studio-anchor_dropblox/screenshots/sDRU2Bl.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "studio-anchor_dropblox",
+                    filename: "dropblox!_prealpha_jam.gb",
+                ),
+                Itch(
+                    url: "https://studio-anchor.itch.io/dropblox",
+                ),
+            ],
+        ),
     ],
 )

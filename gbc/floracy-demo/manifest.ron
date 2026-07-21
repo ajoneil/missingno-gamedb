@@ -1,9 +1,24 @@
 (
     title: "Floracy (Demo)",
-    date: Some("2000-10-10"),
     developer: Some("Kritzelkratz 3000"),
     description: Some("\"Floracy\" is a roleplaying game with elements of strategy and action games, in which the player breeds plantlike creatures for exciting animated combats. This demo was made public by the developer - no publisher was found for the game even after several attempts."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "floracy-demo", filename: "floracy.gbc")),
-    screenshots: ["floracy.png", "floracy2.png", "floracy3.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/floracy-demo/floracy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/floracy-demo/floracy.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/floracy-demo/floracy2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/floracy-demo/floracy3.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-10-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "floracy-demo",
+                    filename: "floracy.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,12 +1,37 @@
 (
     title: "144p Test Suite",
-    date: Some("2018-04-17"),
     developer: Some("Damian Yerrick"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "144p-test-suite", filename: "gb240p.gb")),
-    tags: ["Open Source"],
-    screenshots: ["gb240p-linearity.png", "gb240p-megaton.png", "gb240p-audiosync.png", "gb240p-shadowsprite.png", "gb240p-stopwatch.png", "gb240p-smpte.png", "gb240p-bleed.png"],
+    tags: [
+        "Open Source",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/pinobatch/240p-test-mini", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/pinobatch/240p-test-mini",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p-linearity.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p-linearity.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p-megaton.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p-audiosync.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p-shadowsprite.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p-stopwatch.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p-smpte.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p-bleed.png",
+    ],
+    releases: [
+        (
+            date: Some("2018-04-17"),
+            sources: [
+                HomebrewHub(
+                    slug: "144p-test-suite",
+                    filename: "gb240p.gb",
+                ),
+            ],
+        ),
     ],
 )

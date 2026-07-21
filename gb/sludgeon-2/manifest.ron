@@ -1,7 +1,20 @@
 (
     title: "Sludgeon 2",
     developer: Some("8 Cylinder"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sludgeon-2", filename: "sludgeon-2.gb")),
-    screenshots: ["sludgeon-2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sludgeon-2/sludgeon-2.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sludgeon-2/sludgeon-2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "sludgeon-2",
+                    filename: "sludgeon-2.gb",
+                ),
+            ],
+        ),
+    ],
 )

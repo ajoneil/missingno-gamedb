@@ -1,8 +1,21 @@
 (
     title: "Akino Hitoshi Demo",
-    date: Some("1999-05-10"),
     developer: Some("Akino Hitoshi"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "akino-hitoshi-demo", filename: "Akino Hitoshi Demo (PD) [C].gbc")),
-    screenshots: ["Akino Hitoshi Demo (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/akino-hitoshi-demo/Akino Hitoshi Demo (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/akino-hitoshi-demo/Akino Hitoshi Demo (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("1999-05-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "akino-hitoshi-demo",
+                    filename: "Akino Hitoshi Demo (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

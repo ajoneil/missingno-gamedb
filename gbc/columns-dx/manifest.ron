@@ -1,7 +1,20 @@
 (
     title: "Columns DX",
-    date: Some("2000-05-09"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "columns-dx", filename: "columnsdx.cgb")),
-    screenshots: ["columnsdx.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/columns-dx/columnsdx.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/columns-dx/columnsdx.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-05-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "columns-dx",
+                    filename: "columnsdx.cgb",
+                ),
+            ],
+        ),
+    ],
 )

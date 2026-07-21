@@ -1,7 +1,20 @@
 (
     title: "NAN0FR0GGR",
     developer: Some("aeb"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nan0fr0ggr", filename: "nan0fr0ggr.gb")),
-    screenshots: ["nan0fr0ggr.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0fr0ggr/nan0fr0ggr.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0fr0ggr/nan0fr0ggr.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "nan0fr0ggr",
+                    filename: "nan0fr0ggr.gb",
+                ),
+            ],
+        ),
+    ],
 )

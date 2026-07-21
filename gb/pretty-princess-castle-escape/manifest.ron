@@ -1,7 +1,20 @@
 (
     title: "Pretty Princess Castle Escape",
     developer: Some("sergeeo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pretty-princess-castle-escape", filename: "pretty-princess-castle-escape.gb")),
-    screenshots: ["pretty-princess-castle-escape.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pretty-princess-castle-escape/pretty-princess-castle-escape.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pretty-princess-castle-escape/pretty-princess-castle-escape.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pretty-princess-castle-escape",
+                    filename: "pretty-princess-castle-escape.gb",
+                ),
+            ],
+        ),
+    ],
 )

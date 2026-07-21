@@ -1,9 +1,23 @@
 (
     title: "Turbo RC Racing",
-    date: Some("2000-11-23"),
     developer: Some("SkyRank Games"),
     description: Some("Was later renamed a further developed as Gear Effect Racing. Development was eventually halted and SkyRank made the game available to the public, free to play."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "turbo-rc-racing", filename: "turbo-rc-racing.gb")),
-    screenshots: ["turborcracing.png", "20110402_turbo_rc_racing.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turbo-rc-racing/turborcracing.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turbo-rc-racing/turborcracing.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turbo-rc-racing/20110402_turbo_rc_racing.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-11-23"),
+            sources: [
+                HomebrewHub(
+                    slug: "turbo-rc-racing",
+                    filename: "turbo-rc-racing.gb",
+                ),
+            ],
+        ),
+    ],
 )

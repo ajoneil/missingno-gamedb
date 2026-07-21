@@ -1,7 +1,20 @@
 (
     title: "Titanic 2000 (demo)",
-    date: Some("1999-09-21"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "titanic-2000-demo", filename: "Titantic 2000 Demo (PD) [C].gb")),
-    screenshots: ["Titantic 2000 Demo (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/titanic-2000-demo/Titantic 2000 Demo (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/titanic-2000-demo/Titantic 2000 Demo (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "titanic-2000-demo",
+                    filename: "Titantic 2000 Demo (PD) [C].gb",
+                ),
+            ],
+        ),
+    ],
 )

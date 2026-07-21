@@ -1,7 +1,20 @@
 (
     title: "CheckerCube",
-    date: Some("1998-02-28"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "checkercube", filename: "CheckerCube.gb")),
-    screenshots: ["CheckerCube-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/checkercube/CheckerCube-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/checkercube/CheckerCube-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-02-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "checkercube",
+                    filename: "CheckerCube.gb",
+                ),
+            ],
+        ),
+    ],
 )

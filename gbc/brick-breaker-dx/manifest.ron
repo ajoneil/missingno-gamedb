@@ -1,8 +1,23 @@
 (
     title: "Brick Breaker DX",
     developer: Some("Joseph Norman"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "brick-breaker-dx", filename: "BrickBreakerDX.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_brick_breaker_dx.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/brick-breaker-dx/20110402_brick_breaker_dx.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/brick-breaker-dx/20110402_brick_breaker_dx.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "brick-breaker-dx",
+                    filename: "BrickBreakerDX.cgb",
+                ),
+            ],
+        ),
+    ],
 )

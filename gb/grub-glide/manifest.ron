@@ -1,12 +1,34 @@
 (
     title: "Grub Glide",
     developer: Some("Ethan Hazel"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "grub-glide", filename: "GrubGlide.gb")),
     license: Some("Zlib"),
-    tags: ["Open Source", "Action"],
-    screenshots: ["1.png", "2.png", "3.png"],
+    tags: [
+        "Open Source",
+        "Action",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/Exetric/GrubGlide", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/Exetric/GrubGlide",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/grub-glide/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/grub-glide/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/grub-glide/2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/grub-glide/3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "grub-glide",
+                    filename: "GrubGlide.gb",
+                ),
+            ],
+        ),
     ],
 )

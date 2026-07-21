@@ -1,7 +1,20 @@
 (
     title: "Maze Runner - Atari-Style Version",
-    date: Some("2000-08-03"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "maze-runner-atari-style", filename: "Maze Runner - Atari-Style Version (Quang2000) (PD) [C].gbc")),
-    screenshots: ["Maze Runner - Atari-Style Version (Quang2000) (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-runner-atari-style/Maze Runner - Atari-Style Version (Quang2000) (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-runner-atari-style/Maze Runner - Atari-Style Version (Quang2000) (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-03"),
+            sources: [
+                HomebrewHub(
+                    slug: "maze-runner-atari-style",
+                    filename: "Maze Runner - Atari-Style Version (Quang2000) (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

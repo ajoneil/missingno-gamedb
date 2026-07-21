@@ -1,11 +1,41 @@
 (
     title: "Deejay Techno Monkey!",
     developer: Some("DaiSanPo27"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "daisanpo27_deejay-techno-monkey", filename: "DJ Techno Monkey!_jam.gbc")),
-    tags: ["8-Bit", "GBJam", "chiptune", "Simulation", "Music", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/5CW9nm.png", "screenshots/kzyBMD.png", "screenshots/wOlzLz.png", "screenshots/XdJsJ2.png", "screenshots/RgMfRz.png", "screenshots/mP218Z.png", "screenshots/DhX3YR.png", "screenshots/oqMpAP.png", "screenshots/4ihhhm.png", "screenshots/P8qsrW.png", "screenshots/D2FmQBh.png"],
-    links: [
-        (name: "Website", url: "https://daisanpo27.itch.io/deejay-techno-monkey", link_type: Wiki),
+    tags: [
+        "8-Bit",
+        "GBJam",
+        "chiptune",
+        "Simulation",
+        "Music",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/5CW9nm.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/kzyBMD.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/wOlzLz.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/XdJsJ2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/RgMfRz.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/mP218Z.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/DhX3YR.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/oqMpAP.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/4ihhhm.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/P8qsrW.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/D2FmQBh.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "daisanpo27_deejay-techno-monkey",
+                    filename: "DJ Techno Monkey!_jam.gbc",
+                ),
+                Itch(
+                    url: "https://daisanpo27.itch.io/deejay-techno-monkey",
+                ),
+            ],
+        ),
     ],
 )

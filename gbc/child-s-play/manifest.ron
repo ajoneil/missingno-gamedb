@@ -1,8 +1,27 @@
 (
-    title: "Child's Play",
-    date: Some("2002-01-01"),
+    title: "Child\'s Play",
     developer: Some("Carillon Cyberiad"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "child-s-play", filename: "childsplay.gbc")),
-    screenshots: ["54.png", "55.png", "56.png", "57.png", "58.png", "59.png", "60.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/54.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/54.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/55.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/56.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/57.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/58.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/59.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/60.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "child-s-play",
+                    filename: "childsplay.gbc",
+                ),
+            ],
+        ),
+    ],
 )

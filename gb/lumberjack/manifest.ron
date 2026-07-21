@@ -1,12 +1,31 @@
 (
     title: "Lumberjack",
-    date: Some("2017-10-21"),
     developer: Some("Koyot1222, JMD, and TmK"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lumberjack", filename: "ind-lj.gb")),
-    tags: ["Action"],
-    screenshots: ["screenshot.png"],
+    tags: [
+        "Action",
+    ],
     links: [
-        (name: "Website", url: "https://github.com/gitendo/lumberjack", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://github.com/gitendo/lumberjack",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lumberjack/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lumberjack/screenshot.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-10-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "lumberjack",
+                    filename: "ind-lj.gb",
+                ),
+            ],
+        ),
     ],
 )

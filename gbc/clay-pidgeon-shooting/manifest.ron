@@ -1,8 +1,21 @@
 (
     title: "Clay Pidgeon Shooting",
-    date: Some("2000-08-05"),
     developer: Some("Jim Bagley"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "clay-pidgeon-shooting", filename: "Clay Pidgeon Shooting by Jim Bagley (PD) [C].gbc")),
-    screenshots: ["Clay Pidgeon Shooting by Jim Bagley (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/clay-pidgeon-shooting/Clay Pidgeon Shooting by Jim Bagley (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/clay-pidgeon-shooting/Clay Pidgeon Shooting by Jim Bagley (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "clay-pidgeon-shooting",
+                    filename: "Clay Pidgeon Shooting by Jim Bagley (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

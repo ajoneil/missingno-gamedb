@@ -1,8 +1,21 @@
 (
     title: "WarioCraft",
-    date: Some("1999-01-22"),
     developer: Some("Harry Mulder"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "wariocraft", filename: "WarioCraft.gbc")),
-    screenshots: ["WarioCraft-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wariocraft/WarioCraft-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wariocraft/WarioCraft-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-22"),
+            sources: [
+                HomebrewHub(
+                    slug: "wariocraft",
+                    filename: "WarioCraft.gbc",
+                ),
+            ],
+        ),
+    ],
 )

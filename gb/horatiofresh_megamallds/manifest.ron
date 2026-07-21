@@ -1,11 +1,33 @@
 (
     title: "Mega Mall DS",
     developer: Some("Horatio Fresh"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "horatiofresh_megamallds", filename: "MegaMallDSv1_jam.gb")),
-    tags: ["4bit", "No AI", "Role Playing", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/g1EF1F.png", "screenshots/4zEMLr.png", "screenshots/c6aG7Y.png", "screenshots/jFz3Lk.png", "screenshots/hbdHFM.png"],
-    links: [
-        (name: "Website", url: "https://horatiofresh.itch.io/megamallds", link_type: Wiki),
+    tags: [
+        "4bit",
+        "No AI",
+        "Role Playing",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/screenshots/g1EF1F.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/screenshots/4zEMLr.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/screenshots/c6aG7Y.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/screenshots/jFz3Lk.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/screenshots/hbdHFM.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "horatiofresh_megamallds",
+                    filename: "MegaMallDSv1_jam.gb",
+                ),
+                Itch(
+                    url: "https://horatiofresh.itch.io/megamallds",
+                ),
+            ],
+        ),
     ],
 )

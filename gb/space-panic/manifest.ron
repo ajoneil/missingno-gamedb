@@ -1,10 +1,26 @@
 (
     title: "Space Panic",
-    date: Some("1999-06-30"),
     developer: Some("Steve Jones"),
     description: Some("2nd place at Bung 1st Coding Compo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "space-panic", filename: "spacepanic.gb")),
-    tags: ["Platform", "event:bung-1st-coding-compo"],
-    screenshots: ["spacepanic.gif"],
+    tags: [
+        "Platform",
+        "event:bung-1st-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-panic/spacepanic.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-panic/spacepanic.gif",
+    ],
+    releases: [
+        (
+            date: Some("1999-06-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "space-panic",
+                    filename: "spacepanic.gb",
+                ),
+            ],
+        ),
+    ],
 )

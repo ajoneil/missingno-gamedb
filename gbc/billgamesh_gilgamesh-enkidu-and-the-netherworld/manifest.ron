@@ -1,11 +1,30 @@
 (
     title: "Gilgamesh Enkidu and the Netherworld",
     developer: Some("billgamesh"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "billgamesh_gilgamesh-enkidu-and-the-netherworld", filename: "Enkidu_jam-CORRECTED.gbc")),
-    tags: ["gilgamesh", "enkidu", "Historical", "Platformer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/weyc12.png"],
-    links: [
-        (name: "Website", url: "https://billgamesh.itch.io/gilgamesh-enkidu-and-the-netherworld", link_type: Wiki),
+    tags: [
+        "gilgamesh",
+        "enkidu",
+        "Historical",
+        "Platformer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/billgamesh_gilgamesh-enkidu-and-the-netherworld/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/billgamesh_gilgamesh-enkidu-and-the-netherworld/screenshots/weyc12.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "billgamesh_gilgamesh-enkidu-and-the-netherworld",
+                    filename: "Enkidu_jam-CORRECTED.gbc",
+                ),
+                Itch(
+                    url: "https://billgamesh.itch.io/gilgamesh-enkidu-and-the-netherworld",
+                ),
+            ],
+        ),
     ],
 )

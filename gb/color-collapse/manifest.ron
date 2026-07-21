@@ -1,8 +1,23 @@
 (
     title: "Color Collapse",
     developer: Some("Spelchan Software"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "color-collapse", filename: "ColorCollapse.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_color_collapse.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/color-collapse/20110402_color_collapse.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/color-collapse/20110402_color_collapse.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "color-collapse",
+                    filename: "ColorCollapse.gb",
+                ),
+            ],
+        ),
+    ],
 )

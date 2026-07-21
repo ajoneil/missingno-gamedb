@@ -1,11 +1,33 @@
 (
     title: "Memory Loop",
     developer: Some("syfartistry"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "syfartistry_memory-loop", filename: "MEMORY LOOP_jam.gbc")),
-    tags: ["mnemonic", "Puzzle", "Singleplayer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/O0nIms.png", "screenshots/OPAF8n.png", "screenshots/s00tzF.png", "screenshots/AsgBQD.png", "screenshots/IiizC3.png"],
-    links: [
-        (name: "Website", url: "https://syfartistry.itch.io/memory-loop", link_type: Wiki),
+    tags: [
+        "mnemonic",
+        "Puzzle",
+        "Singleplayer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/screenshots/O0nIms.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/screenshots/OPAF8n.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/screenshots/s00tzF.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/screenshots/AsgBQD.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/screenshots/IiizC3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "syfartistry_memory-loop",
+                    filename: "MEMORY LOOP_jam.gbc",
+                ),
+                Itch(
+                    url: "https://syfartistry.itch.io/memory-loop",
+                ),
+            ],
+        ),
     ],
 )

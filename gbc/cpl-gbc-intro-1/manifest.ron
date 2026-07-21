@@ -1,7 +1,20 @@
 (
     title: "cpl gbc intro #1",
     developer: Some("Capital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cpl-gbc-intro-1", filename: "cpl-gbc-intro-1.gbc")),
-    screenshots: ["cpl-gbc-intro-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cpl-gbc-intro-1/cpl-gbc-intro-1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cpl-gbc-intro-1/cpl-gbc-intro-1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cpl-gbc-intro-1",
+                    filename: "cpl-gbc-intro-1.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,21 @@
 (
     title: "shmup",
     developer: Some("kresna"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "shmup", filename: "SHMUP.GB")),
-    screenshots: ["screen1.png", "screen2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/shmup/screen1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/shmup/screen1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/shmup/screen2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "shmup",
+                    filename: "SHMUP.GB",
+                ),
+            ],
+        ),
+    ],
 )

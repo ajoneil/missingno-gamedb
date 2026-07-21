@@ -1,8 +1,21 @@
 (
     title: "mGB",
-    date: Some("2016-08-30"),
     developer: Some("Trash80"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mgb", filename: "mgb.gb")),
-    screenshots: ["screenshot.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mgb/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mgb/screenshot.png",
+    ],
+    releases: [
+        (
+            date: Some("2016-08-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "mgb",
+                    filename: "mgb.gb",
+                ),
+            ],
+        ),
+    ],
 )

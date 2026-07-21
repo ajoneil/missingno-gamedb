@@ -1,8 +1,23 @@
 (
     title: "Cyberball",
     developer: Some("Jon Wingrove"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cyberball", filename: "Cyberball.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_cyberball.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cyberball/20110402_cyberball.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cyberball/20110402_cyberball.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cyberball",
+                    filename: "Cyberball.cgb",
+                ),
+            ],
+        ),
+    ],
 )

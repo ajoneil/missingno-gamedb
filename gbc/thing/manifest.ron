@@ -1,8 +1,24 @@
 (
     title: "Thing",
-    date: Some("2014-01-01"),
     developer: Some("g0blinish"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "thing", filename: "Thing.gbc")),
-    screenshots: ["678.png", "679.png", "680.png", "681.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/thing/678.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/thing/678.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/thing/679.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/thing/680.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/thing/681.png",
+    ],
+    releases: [
+        (
+            date: Some("2014-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "thing",
+                    filename: "Thing.gbc",
+                ),
+            ],
+        ),
+    ],
 )

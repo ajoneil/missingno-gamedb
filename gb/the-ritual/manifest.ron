@@ -1,7 +1,20 @@
 (
     title: "The Ritual",
     developer: Some("Patchwork Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-ritual", filename: "the-ritual.gb")),
-    screenshots: ["the-ritual.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-ritual/the-ritual.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-ritual/the-ritual.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-ritual",
+                    filename: "the-ritual.gb",
+                ),
+            ],
+        ),
+    ],
 )

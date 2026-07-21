@@ -1,12 +1,27 @@
 (
     title: "Cuppa Joe",
-    date: Some("2023-05-20T21:38:00"),
     developer: Some("birdsofafeather"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cuppajoe", filename: "Cuppa_Joe_(Jam_Version).gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "vVzYqd.png"],
-    links: [
-        (name: "Website", url: "https://birdsofafeather.itch.io/cuppajoe", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cuppajoe/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cuppajoe/vVzYqd.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cuppajoe",
+                    filename: "Cuppa_Joe_(Jam_Version).gb",
+                ),
+                Itch(
+                    url: "https://birdsofafeather.itch.io/cuppajoe",
+                ),
+            ],
+        ),
     ],
 )

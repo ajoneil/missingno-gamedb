@@ -1,8 +1,21 @@
 (
     title: "Menu #2 (Lucky Luke: Desperado Train +6)",
-    date: Some("2000-01-01"),
     developer: Some("Capital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-2-capital", filename: "cpl-t_02.gbc")),
-    screenshots: ["212.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-capital/212.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-capital/212.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-2-capital",
+                    filename: "cpl-t_02.gbc",
+                ),
+            ],
+        ),
+    ],
 )

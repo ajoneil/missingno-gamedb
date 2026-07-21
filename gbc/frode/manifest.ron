@@ -2,8 +2,24 @@
     title: "Frode",
     developer: Some("Mikael Andersson"),
     description: Some("1st place at Bung 1st Coding compo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "frode", filename: "Frode.cgb")),
-    tags: ["Arcade", "event:bung-1st-coding-compo"],
-    screenshots: ["20110402_frode.png"],
+    tags: [
+        "Arcade",
+        "event:bung-1st-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frode/20110402_frode.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frode/20110402_frode.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "frode",
+                    filename: "Frode.cgb",
+                ),
+            ],
+        ),
+    ],
 )

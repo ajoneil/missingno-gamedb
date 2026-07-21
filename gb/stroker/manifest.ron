@@ -1,6 +1,19 @@
 (
     title: "Stroker",
-    hashes: [],
-    source: Some(HomebrewHub(slug: "stroker", filename: "stroker.gb")),
-    screenshots: ["stroker.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stroker/stroker.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stroker/stroker.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "stroker",
+                    filename: "stroker.gb",
+                ),
+            ],
+        ),
+    ],
 )

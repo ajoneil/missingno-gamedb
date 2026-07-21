@@ -1,7 +1,20 @@
 (
     title: "Double Vision Demo",
-    date: Some("1999-01-27"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "double-vision-demo", filename: "Double Vision Demo (PD) [C].gbc")),
-    screenshots: ["Double Vision Demo (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/double-vision-demo/Double Vision Demo (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/double-vision-demo/Double Vision Demo (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "double-vision-demo",
+                    filename: "Double Vision Demo (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

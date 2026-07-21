@@ -1,7 +1,20 @@
 (
     title: "Faderfox Jr.",
     developer: Some("8 Cylinder"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "faderfox-jr", filename: "faderfox-jr.gb")),
-    screenshots: ["faderfox-jr.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/faderfox-jr/faderfox-jr.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/faderfox-jr/faderfox-jr.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "faderfox-jr",
+                    filename: "faderfox-jr.gb",
+                ),
+            ],
+        ),
+    ],
 )

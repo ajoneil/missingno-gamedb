@@ -1,8 +1,23 @@
 (
     title: "Hi-Colour Demo",
-    date: Some("1999-01-01"),
     developer: Some("Icarus Productions"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hi-colour-demo", filename: "gbhc.gbc")),
-    screenshots: ["461.png", "462.png", "463.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hi-colour-demo/461.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hi-colour-demo/461.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hi-colour-demo/462.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hi-colour-demo/463.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "hi-colour-demo",
+                    filename: "gbhc.gbc",
+                ),
+            ],
+        ),
+    ],
 )

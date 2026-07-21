@@ -1,8 +1,21 @@
 (
     title: "Last Crown Warriors",
-    date: Some("2019-12-01"),
     developer: Some("Light Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "last-crown", filename: "lastcrowndemo.gb")),
-    screenshots: ["screenshot1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/last-crown/screenshot1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/last-crown/screenshot1.png",
+    ],
+    releases: [
+        (
+            date: Some("2019-12-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "last-crown",
+                    filename: "lastcrowndemo.gb",
+                ),
+            ],
+        ),
+    ],
 )

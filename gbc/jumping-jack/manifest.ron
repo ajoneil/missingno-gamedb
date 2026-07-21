@@ -1,7 +1,20 @@
 (
     title: "Jumping Jack",
     developer: Some("Craig Rothwell"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jumping-jack", filename: "JumpingJack.cgb")),
-    screenshots: ["20110402_jumping_jack.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jumping-jack/20110402_jumping_jack.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jumping-jack/20110402_jumping_jack.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "jumping-jack",
+                    filename: "JumpingJack.cgb",
+                ),
+            ],
+        ),
+    ],
 )

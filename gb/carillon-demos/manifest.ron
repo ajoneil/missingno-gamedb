@@ -1,8 +1,26 @@
 (
     title: "Carillon Player Demos",
-    date: Some("2001-01-01"),
     developer: Some("Carillon Cyberiad"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "carillon-demos", filename: "fruitless.gb")),
-    screenshots: ["741.png", "742.png", "743.png", "744.png", "745.png", "746.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/741.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/741.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/742.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/743.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/744.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/745.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/746.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "carillon-demos",
+                    filename: "fruitless.gb",
+                ),
+            ],
+        ),
+    ],
 )

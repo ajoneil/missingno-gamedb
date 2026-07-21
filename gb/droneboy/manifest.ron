@@ -1,12 +1,32 @@
 (
     title: "Droneboy",
     developer: Some("purefunktion"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "droneboy", filename: "droneboy.gb")),
     license: Some("MIT"),
-    tags: ["Open Source"],
-    screenshots: ["1.png", "2.png"],
+    tags: [
+        "Open Source",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/purefunktion/Droneboy", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/purefunktion/Droneboy",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/droneboy/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/droneboy/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/droneboy/2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "droneboy",
+                    filename: "droneboy.gb",
+                ),
+            ],
+        ),
     ],
 )

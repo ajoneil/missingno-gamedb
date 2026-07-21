@@ -1,8 +1,21 @@
 (
     title: "Intro #5 (Marvin Strikes Back)",
-    date: Some("2001-01-01"),
     developer: Some("Dual Crew & Shining"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "intro-5-dcs", filename: "dcs-i_05.gbc")),
-    screenshots: ["198.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-5-dcs/198.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-5-dcs/198.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "intro-5-dcs",
+                    filename: "dcs-i_05.gbc",
+                ),
+            ],
+        ),
+    ],
 )

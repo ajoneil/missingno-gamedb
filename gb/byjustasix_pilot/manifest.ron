@@ -1,11 +1,28 @@
 (
     title: "Pilot Care",
     developer: Some("King the Asix"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "byjustasix_pilot", filename: "herogotchi-pilot_care.gb")),
-    tags: ["Simulation", "Virtual Pet", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/aHjinF.png"],
-    links: [
-        (name: "Website", url: "https://byjustasix.itch.io/pilot", link_type: Wiki),
+    tags: [
+        "Simulation",
+        "Virtual Pet",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/byjustasix_pilot/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/byjustasix_pilot/screenshots/aHjinF.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "byjustasix_pilot",
+                    filename: "herogotchi-pilot_care.gb",
+                ),
+                Itch(
+                    url: "https://byjustasix.itch.io/pilot",
+                ),
+            ],
+        ),
     ],
 )

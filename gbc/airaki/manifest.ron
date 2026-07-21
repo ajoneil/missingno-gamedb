@@ -1,13 +1,38 @@
 (
     title: "Airaki",
     developer: Some("furrtek"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "airaki", filename: "airaki.gb")),
     license: Some("GPL-3.0-or-later"),
-    tags: ["RPG", "Puzzle", "Open Source"],
-    screenshots: ["screenshot.png"],
+    tags: [
+        "RPG",
+        "Puzzle",
+        "Open Source",
+    ],
     links: [
-        (name: "Website", url: "http://furrtek.free.fr/fse/?p=airakien", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/furrtek/Airaki", link_type: Source),
+        (
+            name: "Website",
+            url: "http://furrtek.free.fr/fse/?p=airakien",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://github.com/furrtek/Airaki",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/airaki/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/airaki/screenshot.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "airaki",
+                    filename: "airaki.gb",
+                ),
+            ],
+        ),
     ],
 )

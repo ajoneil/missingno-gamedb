@@ -1,7 +1,20 @@
 (
     title: "NyanCat",
     developer: Some("Wabsta"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nyancat", filename: "nyan.gb")),
-    screenshots: ["nyan.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nyancat/nyan.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nyancat/nyan.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "nyancat",
+                    filename: "nyan.gb",
+                ),
+            ],
+        ),
+    ],
 )

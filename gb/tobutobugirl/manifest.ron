@@ -1,14 +1,35 @@
 (
     title: "Tobu Tobu Girl",
-    date: Some("12/01/2017"),
     developer: Some("Tangram Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tobutobugirl", filename: "tobu.gb")),
     license: Some("MIT"),
-    tags: ["Open Source", "Action"],
-    screenshots: ["screenshot1.bmp"],
+    tags: [
+        "Open Source",
+        "Action",
+    ],
     links: [
-        (name: "Website", url: "https://tangramgames.itch.io/tobutobugirl", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/SimonLarsen/tobutobugirl", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/SimonLarsen/tobutobugirl",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tobutobugirl/screenshot1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tobutobugirl/screenshot1.bmp",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "tobutobugirl",
+                    filename: "tobu.gb",
+                ),
+                Itch(
+                    url: "https://tangramgames.itch.io/tobutobugirl",
+                ),
+            ],
+        ),
     ],
 )

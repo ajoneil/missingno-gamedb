@@ -1,8 +1,26 @@
 (
-    title: "Where's the Chip-Hop?",
-    date: Some("2001-01-01"),
+    title: "Where\'s the Chip-Hop?",
     developer: Some("Oyd11"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "where-s-the-chip-hop", filename: "Wheres.gbc")),
-    screenshots: ["176.png", "177.png", "178.png", "179.png", "180.png", "181.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/176.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/176.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/177.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/178.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/179.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/180.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/181.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "where-s-the-chip-hop",
+                    filename: "Wheres.gbc",
+                ),
+            ],
+        ),
+    ],
 )

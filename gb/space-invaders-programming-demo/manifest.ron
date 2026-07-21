@@ -1,8 +1,21 @@
 (
     title: "Space Invaders-style Programming Demo",
-    date: Some("1997-10-26"),
     developer: Some("Jeff Frohwein"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "space-invaders-programming-demo", filename: "SI.GB")),
-    screenshots: ["SI-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invaders-programming-demo/SI-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invaders-programming-demo/SI-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1997-10-26"),
+            sources: [
+                HomebrewHub(
+                    slug: "space-invaders-programming-demo",
+                    filename: "SI.GB",
+                ),
+            ],
+        ),
+    ],
 )

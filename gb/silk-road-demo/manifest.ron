@@ -1,7 +1,23 @@
 (
     title: "Silk Road (demo)",
     developer: Some("SPRITE"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "silk-road-demo", filename: "silk.gb")),
-    screenshots: ["silk-3.png", "silk-0.png", "silk-1.png", "silk-2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/silk-road-demo/silk-3.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/silk-road-demo/silk-3.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/silk-road-demo/silk-0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/silk-road-demo/silk-1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/silk-road-demo/silk-2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "silk-road-demo",
+                    filename: "silk.gb",
+                ),
+            ],
+        ),
+    ],
 )

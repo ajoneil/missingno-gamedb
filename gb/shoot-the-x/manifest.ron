@@ -1,10 +1,26 @@
 (
     title: "Shoot the X (spr4col)",
-    date: Some("1999-06-29"),
     developer: Some("Derek Steinmoeller"),
     description: Some("Aka spr4col"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "shoot-the-x", filename: "spr4col.gb")),
-    tags: ["Action", "event:bung-1st-coding-compo"],
-    screenshots: ["spr4col.gif"],
+    tags: [
+        "Action",
+        "event:bung-1st-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/shoot-the-x/spr4col.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/shoot-the-x/spr4col.gif",
+    ],
+    releases: [
+        (
+            date: Some("1999-06-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "shoot-the-x",
+                    filename: "spr4col.gb",
+                ),
+            ],
+        ),
+    ],
 )

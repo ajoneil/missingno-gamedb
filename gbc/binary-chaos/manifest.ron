@@ -1,8 +1,27 @@
 (
     title: "Binary Chaos",
-    date: Some("2001-02-27"),
     developer: Some("Stoic Software"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "binary-chaos", filename: "chaos.gbc")),
-    screenshots: ["shoplady.gif", "bchaosss.png", "charsel.gif", "gameplay.gif", "mission.gif", "paused.gif", "shop.gif"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/shoplady.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/shoplady.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/bchaosss.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/charsel.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/gameplay.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/mission.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/paused.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/shop.gif",
+    ],
+    releases: [
+        (
+            date: Some("2001-02-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "binary-chaos",
+                    filename: "chaos.gbc",
+                ),
+            ],
+        ),
+    ],
 )

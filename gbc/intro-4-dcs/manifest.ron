@@ -1,8 +1,21 @@
 (
     title: "Intro #4 (Trouballs)",
-    date: Some("2001-01-01"),
     developer: Some("Dual Crew & Shining"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "intro-4-dcs", filename: "dcs-i_04.gbc")),
-    screenshots: ["197.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-4-dcs/197.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-4-dcs/197.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "intro-4-dcs",
+                    filename: "dcs-i_04.gbc",
+                ),
+            ],
+        ),
+    ],
 )

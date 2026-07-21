@@ -1,12 +1,33 @@
 (
     title: "uCity",
     developer: Some("AntonioND"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ucity", filename: "ucity.gbc")),
     license: Some("GPL-3.0-or-later"),
-    tags: ["Open Source", "RPG", "Adventure"],
-    screenshots: ["screenshot1.png"],
+    tags: [
+        "Open Source",
+        "RPG",
+        "Adventure",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/AntonioND/ucity", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/AntonioND/ucity",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ucity/screenshot1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ucity/screenshot1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ucity",
+                    filename: "ucity.gbc",
+                ),
+            ],
+        ),
     ],
 )

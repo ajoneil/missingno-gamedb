@@ -1,8 +1,24 @@
 (
     title: "Alpha Wing",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "alpha-wing", filename: "AlphaWing.cgb")),
-    tags: ["Action", "event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_alpha_wing.png"],
+    tags: [
+        "Action",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alpha-wing/20110402_alpha_wing.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alpha-wing/20110402_alpha_wing.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "alpha-wing",
+                    filename: "AlphaWing.cgb",
+                ),
+            ],
+        ),
+    ],
 )

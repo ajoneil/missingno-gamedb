@@ -1,7 +1,21 @@
 (
-    title: "Velcroid, Maikel Ortega's",
+    title: "Velcroid, Maikel Ortega\'s",
     description: Some("By Maikel Ortega"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "velcroid-maikel-ortegas", filename: "velcroid-bitbitjam4version.gb")),
-    screenshots: ["velcroid.png", "velcroid-2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/velcroid-maikel-ortegas/velcroid.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/velcroid-maikel-ortegas/velcroid.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/velcroid-maikel-ortegas/velcroid-2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "velcroid-maikel-ortegas",
+                    filename: "velcroid-bitbitjam4version.gb",
+                ),
+            ],
+        ),
+    ],
 )

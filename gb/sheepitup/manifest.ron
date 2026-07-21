@@ -1,13 +1,38 @@
 (
     title: "Sheep it up!",
-    date: Some("2017-07-07"),
     developer: Some("Dr. Ludos"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sheepitup", filename: "sheepitup.gb")),
-    tags: ["Platform", "Open Source"],
-    screenshots: ["screenshot.png", "Sheep-It-Up-Free-ROM-Version-Game-Boy-Game.png"],
+    tags: [
+        "Platform",
+        "Open Source",
+    ],
     links: [
-        (name: "Website", url: "https://gamejolt.com/games/sheepitup/267335", link_type: Wiki),
-        (name: "Source Code", url: "https://gamejolt.com/games/sheepitup/267335", link_type: Source),
+        (
+            name: "Website",
+            url: "https://gamejolt.com/games/sheepitup/267335",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://gamejolt.com/games/sheepitup/267335",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sheepitup/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sheepitup/screenshot.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sheepitup/Sheep-It-Up-Free-ROM-Version-Game-Boy-Game.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-07-07"),
+            sources: [
+                HomebrewHub(
+                    slug: "sheepitup",
+                    filename: "sheepitup.gb",
+                ),
+            ],
+        ),
     ],
 )

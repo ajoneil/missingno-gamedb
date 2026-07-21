@@ -2,7 +2,20 @@
     title: "Fatal Flame",
     developer: Some("Jaws-V Soft"),
     description: Some("In Fatal Flame by Jaws-V Soft you need to hunt down fireflies with a flamethrower. The game is not very complex, but pleases for a couple of minutes."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fatal-flame", filename: "FatalFlame_v2.gbc")),
-    screenshots: ["fatalflame_v2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fatal-flame/fatalflame_v2.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fatal-flame/fatalflame_v2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "fatal-flame",
+                    filename: "FatalFlame_v2.gbc",
+                ),
+            ],
+        ),
+    ],
 )

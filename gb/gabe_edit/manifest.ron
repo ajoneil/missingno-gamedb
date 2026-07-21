@@ -1,7 +1,20 @@
 (
     title: "Gabe Edit v0.1",
-    date: Some("1998-09-17"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gabe_edit", filename: "Gabe_Edit.gb")),
-    screenshots: ["Gabe_Edit-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gabe_edit/Gabe_Edit-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gabe_edit/Gabe_Edit-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-09-17"),
+            sources: [
+                HomebrewHub(
+                    slug: "gabe_edit",
+                    filename: "Gabe_Edit.gb",
+                ),
+            ],
+        ),
+    ],
 )

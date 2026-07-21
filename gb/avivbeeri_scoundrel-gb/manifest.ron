@@ -1,11 +1,30 @@
 (
     title: "Scoundrel",
     developer: Some("Aviv"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "avivbeeri_scoundrel-gb", filename: "SCOUNDREL_jam.gb")),
-    tags: ["solitaire", "Dungeon Crawler", "Card Game", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/H2FKInR.png", "screenshots/iM0jQK.png"],
-    links: [
-        (name: "Website", url: "https://avivbeeri.itch.io/scoundrel-gb", link_type: Wiki),
+    tags: [
+        "solitaire",
+        "Dungeon Crawler",
+        "Card Game",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/avivbeeri_scoundrel-gb/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/avivbeeri_scoundrel-gb/screenshots/H2FKInR.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/avivbeeri_scoundrel-gb/screenshots/iM0jQK.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "avivbeeri_scoundrel-gb",
+                    filename: "SCOUNDREL_jam.gb",
+                ),
+                Itch(
+                    url: "https://avivbeeri.itch.io/scoundrel-gb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Little Fantasy",
-    date: Some("2000-08-20"),
     developer: Some("Tomas Rychnovsky"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "little-fantasy", filename: "LittleFantasy.cgb")),
-    screenshots: ["20110402_little_fantasy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/little-fantasy/20110402_little_fantasy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/little-fantasy/20110402_little_fantasy.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-20"),
+            sources: [
+                HomebrewHub(
+                    slug: "little-fantasy",
+                    filename: "LittleFantasy.cgb",
+                ),
+            ],
+        ),
+    ],
 )

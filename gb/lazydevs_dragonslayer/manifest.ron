@@ -1,11 +1,33 @@
 (
     title: "DRAGONSLAYER",
     developer: Some("Lazy Dev Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lazydevs_dragonslayer", filename: "dragonslayer.gb")),
-    tags: ["Turn-Based Combat", "1-bit", "gb-studio", "Role Playing", "Retro", "Roguelite", "gbcompo2025", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/UwOBd7.png"],
-    links: [
-        (name: "Website", url: "https://lazydevs.itch.io/dragonslayer", link_type: Wiki),
+    tags: [
+        "Turn-Based Combat",
+        "1-bit",
+        "gb-studio",
+        "Role Playing",
+        "Retro",
+        "Roguelite",
+        "gbcompo2025",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lazydevs_dragonslayer/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lazydevs_dragonslayer/screenshots/UwOBd7.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "lazydevs_dragonslayer",
+                    filename: "dragonslayer.gb",
+                ),
+                Itch(
+                    url: "https://lazydevs.itch.io/dragonslayer",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,13 +1,34 @@
 (
     title: "Hover Defender",
-    date: Some("2024-02-27"),
     developer: Some("Konstantin Dobrev"),
     description: Some("A ground/air horizontal shooter"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hover-defender", filename: "hoverdefender.gb")),
-    tags: ["Action", "Shooter"],
-    screenshots: ["HovDefScrn1.png", "HovDefScrn2.png"],
+    tags: [
+        "Action",
+        "Shooter",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/kldobrev/HoverDefender", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/kldobrev/HoverDefender",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hover-defender/HovDefScrn1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hover-defender/HovDefScrn1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hover-defender/HovDefScrn2.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-02-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "hover-defender",
+                    filename: "hoverdefender.gb",
+                ),
+            ],
+        ),
     ],
 )

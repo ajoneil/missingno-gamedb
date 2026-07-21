@@ -1,9 +1,22 @@
 (
     title: "Infinity (Preview Version 1.0.0)",
-    date: Some("2016-08-12"),
     developer: Some("Affinix Software"),
     description: Some("An unreleased GBC game released to the public some 15 years after development was halted, no publisher was found. Infinity is around 90% complete."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "infinity-preview-version-100", filename: "infinity.gb")),
-    screenshots: ["infinity.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infinity-preview-version-100/infinity.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infinity-preview-version-100/infinity.png",
+    ],
+    releases: [
+        (
+            date: Some("2016-08-12"),
+            sources: [
+                HomebrewHub(
+                    slug: "infinity-preview-version-100",
+                    filename: "infinity.gb",
+                ),
+            ],
+        ),
+    ],
 )

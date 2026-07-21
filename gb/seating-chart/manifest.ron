@@ -1,13 +1,29 @@
 (
     title: "Seating Chart",
-    date: Some("2023-05-20T21:59:00"),
     developer: Some("Tyler Lombard, Tswined"),
     description: Some("Play as Mr. Oak, the substitute teacher, and seat students next to their friends in this puzzle game!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "seating-chart", filename: "game.gb")),
-    tags: ["Puzzle", "event:gbshowdown23"],
-    screenshots: ["cover.png", "fLs3V7.png", "4FBRZP.png"],
-    links: [
-        (name: "Website", url: "https://tylerlombard.itch.io/seating-chart", link_type: Wiki),
+    tags: [
+        "Puzzle",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/seating-chart/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/seating-chart/fLs3V7.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/seating-chart/4FBRZP.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "seating-chart",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://tylerlombard.itch.io/seating-chart",
+                ),
+            ],
+        ),
     ],
 )

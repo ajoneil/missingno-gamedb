@@ -1,9 +1,26 @@
 (
     title: "Slugs",
-    date: Some("2000-04-01"),
     developer: Some("Will Cotton"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "slugs", filename: "Slugs.cgb")),
-    tags: ["Action", "Adventure", "event:liksang2000-compo"],
-    screenshots: ["20110402_slugs.png"],
+    tags: [
+        "Action",
+        "Adventure",
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/slugs/20110402_slugs.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/slugs/20110402_slugs.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "slugs",
+                    filename: "Slugs.cgb",
+                ),
+            ],
+        ),
+    ],
 )

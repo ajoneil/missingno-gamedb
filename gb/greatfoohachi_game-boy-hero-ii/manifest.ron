@@ -1,12 +1,50 @@
 (
     title: "Game Boy Hero II",
-    date: Some("2025-08-31T21:40:00"),
     developer: Some("The Great Foohachi"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "greatfoohachi_game-boy-hero-ii", filename: "Game Boy Hero II_jam.gb")),
-    tags: ["GBJam", "Fangame", "Rhythm", "8-Bit", "guitar-hero", "Singleplayer", "Parody", "rock-band", "Music", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/S4nNQ2B.png", "screenshots/hbOc6h.png", "screenshots/3bFu5U.png", "screenshots/y70mQ2B.png", "screenshots/CvPP8h.png", "screenshots/Eg1OqV.png", "screenshots/PL6svl.png", "screenshots/fKG72Fi.png", "screenshots/GbplLV.png", "screenshots/GtNctf.png", "screenshots/2FrJVkN.jpg", "screenshots/cBKolc.jpg", "screenshots/MJm2BMp.jpg", "screenshots/0lAPRq.jpg", "screenshots/rjVxcX.jpg", "screenshots/PwK4Y2B.jpg"],
-    links: [
-        (name: "Website", url: "https://greatfoohachi.itch.io/game-boy-hero-ii", link_type: Wiki),
+    tags: [
+        "GBJam",
+        "Fangame",
+        "Rhythm",
+        "8-Bit",
+        "guitar-hero",
+        "Singleplayer",
+        "Parody",
+        "rock-band",
+        "Music",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/S4nNQ2B.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/hbOc6h.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/3bFu5U.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/y70mQ2B.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/CvPP8h.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/Eg1OqV.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/PL6svl.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/fKG72Fi.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/GbplLV.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/GtNctf.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/2FrJVkN.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/cBKolc.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/MJm2BMp.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/0lAPRq.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/rjVxcX.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/PwK4Y2B.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "greatfoohachi_game-boy-hero-ii",
+                    filename: "Game Boy Hero II_jam.gb",
+                ),
+                Itch(
+                    url: "https://greatfoohachi.itch.io/game-boy-hero-ii",
+                ),
+            ],
+        ),
     ],
 )

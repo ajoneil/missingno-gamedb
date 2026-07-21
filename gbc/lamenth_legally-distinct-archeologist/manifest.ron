@@ -1,11 +1,33 @@
 (
     title: "Legally Distinct Archeologist and the Historically Vague Relic of Inexplicable Importance",
     developer: Some("lamenth"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lamenth_legally-distinct-archeologist", filename: "LDA_jam.gbc")),
-    tags: ["Pixel Art", "Retro", "Adventure", "Platformer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/yW91Q2.png", "screenshots/Tcv9Kd.png", "screenshots/4hELoD.png", "screenshots/22F2FkdP.png"],
-    links: [
-        (name: "Website", url: "https://lamenth.itch.io/legally-distinct-archeologist", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "Retro",
+        "Adventure",
+        "Platformer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lamenth_legally-distinct-archeologist/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lamenth_legally-distinct-archeologist/screenshots/yW91Q2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lamenth_legally-distinct-archeologist/screenshots/Tcv9Kd.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lamenth_legally-distinct-archeologist/screenshots/4hELoD.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lamenth_legally-distinct-archeologist/screenshots/22F2FkdP.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "lamenth_legally-distinct-archeologist",
+                    filename: "LDA_jam.gbc",
+                ),
+                Itch(
+                    url: "https://lamenth.itch.io/legally-distinct-archeologist",
+                ),
+            ],
+        ),
     ],
 )

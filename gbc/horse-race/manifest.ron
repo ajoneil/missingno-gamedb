@@ -2,8 +2,23 @@
     title: "Horse Race",
     developer: Some("Norm Cramer"),
     description: Some("Horse Race is a horse race betting game. The goal of the game is to win as much money as possible."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "horse-race", filename: "HorseRace.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_horse_race.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/horse-race/20110402_horse_race.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/horse-race/20110402_horse_race.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "horse-race",
+                    filename: "HorseRace.cgb",
+                ),
+            ],
+        ),
+    ],
 )

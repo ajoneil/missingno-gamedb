@@ -1,6 +1,19 @@
 (
     title: "Sound Mode #1",
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sound-mode-1", filename: "sound.gb")),
-    screenshots: ["sound.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sound-mode-1/sound.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sound-mode-1/sound.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "sound-mode-1",
+                    filename: "sound.gb",
+                ),
+            ],
+        ),
+    ],
 )

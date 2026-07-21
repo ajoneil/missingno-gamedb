@@ -1,13 +1,32 @@
 (
     title: "The Trials of Goodbye",
-    date: Some("2023-05-20T21:46:00"),
     developer: Some("Yasmine"),
     description: Some("A verdict for a final friend"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-trials-of-goodbye", filename: "game.gb")),
-    tags: ["Visual Novel", "event:gbshowdown23"],
-    screenshots: ["cover.png", "xFH0wy.png", "cUVtia.png", "RwX4OQ.png", "UW3WXD.png", "GbEymC.png"],
-    links: [
-        (name: "Website", url: "https://baegho.itch.io/the-trials-of-goodbye", link_type: Wiki),
+    tags: [
+        "Visual Novel",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/xFH0wy.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/cUVtia.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/RwX4OQ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/UW3WXD.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/GbEymC.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-trials-of-goodbye",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://baegho.itch.io/the-trials-of-goodbye",
+                ),
+            ],
+        ),
     ],
 )

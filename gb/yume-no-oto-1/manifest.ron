@@ -1,8 +1,22 @@
 (
     title: "Yume no Oto 1",
-    date: Some("2011"),
     developer: Some("weep"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "yume-no-oto-1", filename: "yume-no-oto-1.gb")),
-    screenshots: ["yume-no-oto-1-0.png", "yume-no-oto-1-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yume-no-oto-1/yume-no-oto-1-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yume-no-oto-1/yume-no-oto-1-0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yume-no-oto-1/yume-no-oto-1-1.png",
+    ],
+    releases: [
+        (
+            date: Some("2011"),
+            sources: [
+                HomebrewHub(
+                    slug: "yume-no-oto-1",
+                    filename: "yume-no-oto-1.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,23 @@
 (
     title: "Spong",
     developer: Some("sai"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "spong", filename: "Spong.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_spong.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/spong/20110402_spong.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/spong/20110402_spong.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "spong",
+                    filename: "Spong.cgb",
+                ),
+            ],
+        ),
+    ],
 )

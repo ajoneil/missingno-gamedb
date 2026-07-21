@@ -1,9 +1,23 @@
 (
     title: "Hungry Birds",
-    date: Some("2019-07-28"),
     developer: Some("oshf"),
     description: Some("Made in 48 Hours for the ZGBJAM2 game jam."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hungry-birds", filename: "HungryBirds.gb")),
-    screenshots: ["screenshot1.png", "screenshot2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hungry-birds/screenshot1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hungry-birds/screenshot1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hungry-birds/screenshot2.png",
+    ],
+    releases: [
+        (
+            date: Some("2019-07-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "hungry-birds",
+                    filename: "HungryBirds.gb",
+                ),
+            ],
+        ),
+    ],
 )

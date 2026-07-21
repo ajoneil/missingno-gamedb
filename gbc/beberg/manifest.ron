@@ -1,8 +1,21 @@
 (
     title: "Beberg",
-    date: Some("1999-07-09"),
     developer: Some("Beber"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "beberg", filename: "beberg.gbc")),
-    screenshots: ["beberg-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beberg/beberg-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beberg/beberg-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-07-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "beberg",
+                    filename: "beberg.gbc",
+                ),
+            ],
+        ),
+    ],
 )

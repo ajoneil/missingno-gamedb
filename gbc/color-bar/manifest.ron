@@ -1,12 +1,33 @@
 (
     title: "Color bar display for GBC",
     developer: Some("TeamKNOx"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "color-bar", filename: "colorbar.gb")),
     license: Some("MIT"),
-    screenshots: ["colorbar-0.png"],
     links: [
-        (name: "Website", url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_softe.html", link_type: Wiki),
-        (name: "Source Code", url: "https://gitlab.com/teamknox/gbccolorbar", link_type: Source),
+        (
+            name: "Website",
+            url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_softe.html",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://gitlab.com/teamknox/gbccolorbar",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/color-bar/colorbar-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/color-bar/colorbar-0.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "color-bar",
+                    filename: "colorbar.gb",
+                ),
+            ],
+        ),
     ],
 )

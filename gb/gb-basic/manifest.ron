@@ -1,8 +1,21 @@
 (
     title: "GB Basic",
-    date: Some("2001-02-17"),
     developer: Some("Jeff Frohwein"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-basic", filename: "GBBASIC.GB")),
-    screenshots: ["GBB108.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-basic/GBB108.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-basic/GBB108.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-02-17"),
+            sources: [
+                HomebrewHub(
+                    slug: "gb-basic",
+                    filename: "GBBASIC.GB",
+                ),
+            ],
+        ),
+    ],
 )

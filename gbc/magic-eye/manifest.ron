@@ -1,8 +1,21 @@
 (
     title: "Magic Eye",
-    date: Some("2001-08-21"),
     developer: Some("Jason W. Thompson"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "magic-eye", filename: "Magic Eye (PD) [C].gbc")),
-    screenshots: ["Magic Eye (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/magic-eye/Magic Eye (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/magic-eye/Magic Eye (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2001-08-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "magic-eye",
+                    filename: "Magic Eye (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

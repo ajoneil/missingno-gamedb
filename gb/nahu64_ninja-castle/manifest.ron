@@ -1,11 +1,31 @@
 (
     title: "Ninja Castle",
     developer: Some("NAHU64"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nahu64_ninja-castle", filename: "NINJACASTLE_jam.gb")),
-    tags: ["Pixel Art", "castle", "Ninja", "Music", "Platformer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/t2aDO2F.png"],
-    links: [
-        (name: "Website", url: "https://nahu64.itch.io/ninja-castle", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "castle",
+        "Ninja",
+        "Music",
+        "Platformer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nahu64_ninja-castle/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nahu64_ninja-castle/screenshots/t2aDO2F.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "nahu64_ninja-castle",
+                    filename: "NINJACASTLE_jam.gb",
+                ),
+                Itch(
+                    url: "https://nahu64.itch.io/ninja-castle",
+                ),
+            ],
+        ),
     ],
 )

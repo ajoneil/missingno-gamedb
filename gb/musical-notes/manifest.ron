@@ -1,12 +1,30 @@
 (
     title: "Musical Notes",
     developer: Some("László Rajcsányi (WLS)"),
-    description: Some("An original release from WLS to Nintendo's Gameboy handheld console."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "musical-notes", filename: "game.gb")),
-    tags: ["Puzzle", "event:gbshowdown23"],
-    screenshots: ["cover.png", "DFHv3a.gif", "IAJixF.gif", "jz3nbM.png"],
-    links: [
-        (name: "Website", url: "https://lacoste42.itch.io/musical-notes", link_type: Wiki),
+    description: Some("An original release from WLS to Nintendo\'s Gameboy handheld console."),
+    tags: [
+        "Puzzle",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/musical-notes/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/musical-notes/DFHv3a.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/musical-notes/IAJixF.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/musical-notes/jz3nbM.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "musical-notes",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://lacoste42.itch.io/musical-notes",
+                ),
+            ],
+        ),
     ],
 )

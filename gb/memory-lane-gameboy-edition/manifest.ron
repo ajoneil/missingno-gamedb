@@ -1,8 +1,21 @@
 (
     title: "Memory Lane (Gameboy Edition)",
-    date: Some("2023-03-11"),
     developer: Some("ComSha"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "memory-lane-gameboy-edition", filename: "memory-lane-gameboy-edition.gb")),
-    screenshots: ["memory-lane-gameboy-edition.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/memory-lane-gameboy-edition/memory-lane-gameboy-edition.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/memory-lane-gameboy-edition/memory-lane-gameboy-edition.png",
+    ],
+    releases: [
+        (
+            date: Some("2023-03-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "memory-lane-gameboy-edition",
+                    filename: "memory-lane-gameboy-edition.gb",
+                ),
+            ],
+        ),
+    ],
 )

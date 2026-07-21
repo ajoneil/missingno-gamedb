@@ -1,7 +1,20 @@
 (
     title: "Unseen",
     developer: Some("Refresh Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "unseen", filename: "onehourtwo.gb")),
-    screenshots: ["onehourtwo.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unseen/onehourtwo.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/unseen/onehourtwo.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "unseen",
+                    filename: "onehourtwo.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Headache Boy",
     developer: Some("frax91"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "headache-boy", filename: "headache-boy.gb")),
-    screenshots: ["headache-boy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/headache-boy/headache-boy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/headache-boy/headache-boy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "headache-boy",
+                    filename: "headache-boy.gb",
+                ),
+            ],
+        ),
+    ],
 )

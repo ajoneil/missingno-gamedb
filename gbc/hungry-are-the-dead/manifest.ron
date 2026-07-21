@@ -1,8 +1,23 @@
 (
     title: "Hungry Are The Dead",
     developer: Some("Gambit Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hungry-are-the-dead", filename: "hungry-are-the-dead.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["hungry-are-the-dead.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hungry-are-the-dead/hungry-are-the-dead.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hungry-are-the-dead/hungry-are-the-dead.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "hungry-are-the-dead",
+                    filename: "hungry-are-the-dead.cgb",
+                ),
+            ],
+        ),
+    ],
 )

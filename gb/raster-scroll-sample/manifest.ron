@@ -1,8 +1,21 @@
 (
     title: "Raster Scroll Sample",
-    date: Some("2002-07-13"),
     developer: Some("T.M"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "raster-scroll-sample", filename: "raster.gb")),
-    screenshots: ["raster-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/raster-scroll-sample/raster-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/raster-scroll-sample/raster-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-07-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "raster-scroll-sample",
+                    filename: "raster.gb",
+                ),
+            ],
+        ),
+    ],
 )

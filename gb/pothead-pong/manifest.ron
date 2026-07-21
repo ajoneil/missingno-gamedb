@@ -1,9 +1,24 @@
 (
     title: "Pothead Pong",
-    date: Some("1999-09-29"),
     developer: Some("Psycosys"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pothead-pong", filename: "POTPONG.GB")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_pothead_pong.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pothead-pong/20110402_pothead_pong.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pothead-pong/20110402_pothead_pong.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "pothead-pong",
+                    filename: "POTPONG.GB",
+                ),
+            ],
+        ),
+    ],
 )

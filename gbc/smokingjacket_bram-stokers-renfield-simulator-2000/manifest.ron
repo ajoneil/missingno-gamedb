@@ -1,11 +1,35 @@
 (
-    title: "Bram Stoker's Renfield Simulator 2000",
+    title: "Bram Stoker\'s Renfield Simulator 2000",
     developer: Some("Smoking Jacket Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "smokingjacket_bram-stokers-renfield-simulator-2000", filename: "Bram Stoker's Renfield Simulator 2000 v1.0.gbc")),
-    tags: ["Pixel Art", "Fangame", "Vampire", "gbstudio", "Short", "Simulation", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/Tp0pBR.png", "screenshots/LmknaW.png", "screenshots/u6LV9H.png", "screenshots/2BdjUQE.png"],
-    links: [
-        (name: "Website", url: "https://smokingjacket.itch.io/bram-stokers-renfield-simulator-2000", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "Fangame",
+        "Vampire",
+        "gbstudio",
+        "Short",
+        "Simulation",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/smokingjacket_bram-stokers-renfield-simulator-2000/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/smokingjacket_bram-stokers-renfield-simulator-2000/screenshots/Tp0pBR.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/smokingjacket_bram-stokers-renfield-simulator-2000/screenshots/LmknaW.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/smokingjacket_bram-stokers-renfield-simulator-2000/screenshots/u6LV9H.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/smokingjacket_bram-stokers-renfield-simulator-2000/screenshots/2BdjUQE.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "smokingjacket_bram-stokers-renfield-simulator-2000",
+                    filename: "Bram Stoker\'s Renfield Simulator 2000 v1.0.gbc",
+                ),
+                Itch(
+                    url: "https://smokingjacket.itch.io/bram-stokers-renfield-simulator-2000",
+                ),
+            ],
+        ),
     ],
 )

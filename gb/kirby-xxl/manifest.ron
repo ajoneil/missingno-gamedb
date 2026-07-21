@@ -1,8 +1,21 @@
 (
     title: "Kirby XXL",
-    date: Some("1998-01-01"),
     developer: Some("Harry Mulder"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "kirby-xxl", filename: "KIRBYXXL.GB")),
-    screenshots: ["269.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kirby-xxl/269.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kirby-xxl/269.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "kirby-xxl",
+                    filename: "KIRBYXXL.GB",
+                ),
+            ],
+        ),
+    ],
 )

@@ -2,8 +2,23 @@
     title: "Combat Soccer",
     developer: Some("Mike Kasprzak"),
     description: Some("Combat Soccer is an intense game that somewhat looks like soccer.  You control the top player.  Your goal is to score 20 points against the bottom player.  To assist you in your game, you are provided with a Rubber Rocket Gun.  The Rockets can reflect the soccer ball in the other direction and temporarily make you opponent stop moving. Have Fun!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "combat-soccer", filename: "CombatSoccer.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_combat_soccer.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/combat-soccer/20110402_combat_soccer.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/combat-soccer/20110402_combat_soccer.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "combat-soccer",
+                    filename: "CombatSoccer.cgb",
+                ),
+            ],
+        ),
+    ],
 )

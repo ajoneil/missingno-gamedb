@@ -1,9 +1,24 @@
 (
     title: "FGB",
-    date: Some("2001-05-15"),
     developer: Some("PlasmaWorks"),
-    description: Some("We invite you to experience the weird and wonderful action odyssey that is 'FGB.' FGB is an unfinished action/adventure game on an epic scale for Game Boy Color. This is the final build of our unfinished action odyssey for Game Boy Color"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fgb", filename: "fgb.gb")),
-    screenshots: ["fgb.png", "fgb1.png", "fgb2.png"],
+    description: Some("We invite you to experience the weird and wonderful action odyssey that is \'FGB.\' FGB is an unfinished action/adventure game on an epic scale for Game Boy Color. This is the final build of our unfinished action odyssey for Game Boy Color"),
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fgb/fgb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fgb/fgb.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fgb/fgb1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fgb/fgb2.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-05-15"),
+            sources: [
+                HomebrewHub(
+                    slug: "fgb",
+                    filename: "fgb.gb",
+                ),
+            ],
+        ),
+    ],
 )

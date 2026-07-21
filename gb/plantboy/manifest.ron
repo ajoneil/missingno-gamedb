@@ -1,13 +1,32 @@
 (
     title: "PlantBoy",
-    date: Some("12-13-2015"),
     developer: Some("exezin"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "plantboy", filename: "PlantBoy.gb")),
     license: Some("MIT"),
-    tags: ["Open Source", "Action"],
-    screenshots: ["screenshot01.bmp"],
+    tags: [
+        "Open Source",
+        "Action",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/exezin/PlantBoy", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/exezin/PlantBoy",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plantboy/screenshot01.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plantboy/screenshot01.bmp",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "plantboy",
+                    filename: "PlantBoy.gb",
+                ),
+            ],
+        ),
     ],
 )

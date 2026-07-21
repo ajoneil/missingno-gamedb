@@ -1,9 +1,26 @@
 (
     title: "Friki Race",
-    date: Some("1999-09-26"),
     developer: Some("Enrique Sanchez"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "friki-race", filename: "frikirc.gb")),
-    tags: ["Racing", "event:bung-2nd-coding-compo"],
-    screenshots: ["frikirace.png", "20110402_friki_race.png"],
+    tags: [
+        "Racing",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friki-race/frikirace.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friki-race/frikirace.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friki-race/20110402_friki_race.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-26"),
+            sources: [
+                HomebrewHub(
+                    slug: "friki-race",
+                    filename: "frikirc.gb",
+                ),
+            ],
+        ),
+    ],
 )

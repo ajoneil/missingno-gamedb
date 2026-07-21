@@ -1,8 +1,24 @@
 (
     title: "PlanetX",
     developer: Some("Shane Horner"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "planetx", filename: "PlanetX.cgb")),
-    tags: ["Action", "event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_planetx.png"],
+    tags: [
+        "Action",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/planetx/20110402_planetx.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/planetx/20110402_planetx.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "planetx",
+                    filename: "PlanetX.cgb",
+                ),
+            ],
+        ),
+    ],
 )

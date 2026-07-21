@@ -1,7 +1,20 @@
 (
     title: "Cosmic Attack",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cosmic-attack", filename: "CosmicAttack.gbc")),
-    screenshots: ["20110402_cosmic_attack.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmic-attack/20110402_cosmic_attack.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmic-attack/20110402_cosmic_attack.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cosmic-attack",
+                    filename: "CosmicAttack.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,12 +1,29 @@
 (
-    title: "Conway's Life for Game Boy",
-    date: Some("2018-05-29T04:00:00"),
+    title: "Conway\'s Life for Game Boy",
     developer: Some("NovaSquirrel"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "novasquirrel_conways-life-for-game-boy", filename: "life.gb")),
-    tags: ["Homebrew", "Open Source"],
-    screenshots: ["cover.png", "screenshots/tTtsZz.png", "screenshots/PPOHY1.png", "screenshots/6eNAwT.png"],
-    links: [
-        (name: "Website", url: "https://novasquirrel.itch.io/conways-life-for-game-boy", link_type: Wiki),
+    tags: [
+        "Homebrew",
+        "Open Source",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/novasquirrel_conways-life-for-game-boy/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/novasquirrel_conways-life-for-game-boy/screenshots/tTtsZz.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/novasquirrel_conways-life-for-game-boy/screenshots/PPOHY1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/novasquirrel_conways-life-for-game-boy/screenshots/6eNAwT.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "novasquirrel_conways-life-for-game-boy",
+                    filename: "life.gb",
+                ),
+                Itch(
+                    url: "https://novasquirrel.itch.io/conways-life-for-game-boy",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,11 +1,34 @@
 (
     title: "GB Tile Editor",
     developer: Some("MrEx3c98"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mrex3c98_gb-tile-editor", filename: "gte.gb")),
-    tags: ["No AI", "Pixel Art", "2D", "Homebrew", "8-Bit", "Short", "Retro", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/qk5fif.png", "screenshots/71RhE8.png"],
-    links: [
-        (name: "Website", url: "https://mrex3c98.itch.io/gb-tile-editor", link_type: Wiki),
+    tags: [
+        "No AI",
+        "Pixel Art",
+        "2D",
+        "Homebrew",
+        "8-Bit",
+        "Short",
+        "Retro",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mrex3c98_gb-tile-editor/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mrex3c98_gb-tile-editor/screenshots/qk5fif.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mrex3c98_gb-tile-editor/screenshots/71RhE8.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "mrex3c98_gb-tile-editor",
+                    filename: "gte.gb",
+                ),
+                Itch(
+                    url: "https://mrex3c98.itch.io/gb-tile-editor",
+                ),
+            ],
+        ),
     ],
 )

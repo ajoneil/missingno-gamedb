@@ -1,12 +1,32 @@
 (
     title: "Calling Cloud",
-    date: Some("2023-05-20T18:40:00"),
     developer: Some("magicite"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cc", filename: "game.gb")),
-    tags: ["event:gbshowdown23"],
-    screenshots: ["cover.png", "fcZS5E.png", "A0DyAq.png", "Zatdlq.png", "PDlmsj.png", "rMZ0Jm.png", "JRQy0v.png", "Zn5NW8.png"],
-    links: [
-        (name: "Website", url: "https://magicite.itch.io/cc", link_type: Wiki),
+    tags: [
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cc/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cc/fcZS5E.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cc/A0DyAq.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cc/Zatdlq.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cc/PDlmsj.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cc/rMZ0Jm.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cc/JRQy0v.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cc/Zn5NW8.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cc",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://magicite.itch.io/cc",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,9 +1,25 @@
 (
     title: "Iron Hike",
-    date: Some("2000-01-15"),
     developer: Some("Mikael Andersson"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "iron-hike", filename: "ironhike.cgb")),
-    tags: ["Platform", "event:bung-3rd-coding-compo"],
-    screenshots: ["ironhike.png"],
+    tags: [
+        "Platform",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/iron-hike/ironhike.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/iron-hike/ironhike.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-15"),
+            sources: [
+                HomebrewHub(
+                    slug: "iron-hike",
+                    filename: "ironhike.cgb",
+                ),
+            ],
+        ),
+    ],
 )

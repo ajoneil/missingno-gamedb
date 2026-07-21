@@ -1,8 +1,23 @@
 (
     title: "Speed Finger",
     developer: Some("Ville Jarvi"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "speedfinger", filename: "Speed Finger.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["Speed Finger-0.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/speedfinger/Speed Finger-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/speedfinger/Speed Finger-0.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "speedfinger",
+                    filename: "Speed Finger.gb",
+                ),
+            ],
+        ),
+    ],
 )

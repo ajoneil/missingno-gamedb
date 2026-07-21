@@ -1,8 +1,25 @@
 (
     title: "MPlay Demos",
-    date: Some("1999-01-01"),
     developer: Some("Vibrants"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mplay-demos", filename: "MPLAY205.GB")),
-    screenshots: ["736.png", "737.png", "738.png", "739.png", "740.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay-demos/736.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay-demos/736.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay-demos/737.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay-demos/738.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay-demos/739.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay-demos/740.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "mplay-demos",
+                    filename: "MPLAY205.GB",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,15 @@
 (
     title: "Grey Screen With No Music",
-    date: Some("2018-08"),
     developer: Some("Spacepigs"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "grey-screen-with-no-music", filename: "grey-screen-with-no-music.gb")),
+    releases: [
+        (
+            date: Some("2018-08"),
+            sources: [
+                HomebrewHub(
+                    slug: "grey-screen-with-no-music",
+                    filename: "grey-screen-with-no-music.gb",
+                ),
+            ],
+        ),
+    ],
 )

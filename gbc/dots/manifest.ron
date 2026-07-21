@@ -1,13 +1,33 @@
 (
     title: "Dots",
-    date: Some("2019-04-10"),
     developer: Some("G Miller"),
     description: Some("Inspired by minimalist art, Dots was created with the notion that beauty and fun are not mutually exclusive"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dots", filename: "dots.gbc")),
-    tags: ["Puzzle"],
-    screenshots: ["1.bmp", "2.bmp"],
+    tags: [
+        "Puzzle",
+    ],
     links: [
-        (name: "Website", url: "http://www.gmiller.net/2019/04/dots-for-gameboy-color/", link_type: Wiki),
+        (
+            name: "Website",
+            url: "http://www.gmiller.net/2019/04/dots-for-gameboy-color/",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dots/1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dots/1.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dots/2.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2019-04-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "dots",
+                    filename: "dots.gbc",
+                ),
+            ],
+        ),
     ],
 )

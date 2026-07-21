@@ -1,8 +1,24 @@
 (
     title: "Block Badger",
     developer: Some("Tobias Cohen, Carolyn Staines"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "block-badger", filename: "BlockBadger.cgb")),
-    tags: ["Adventure", "event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_block_badger.png"],
+    tags: [
+        "Adventure",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/block-badger/20110402_block_badger.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/block-badger/20110402_block_badger.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "block-badger",
+                    filename: "BlockBadger.cgb",
+                ),
+            ],
+        ),
+    ],
 )

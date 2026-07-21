@@ -1,7 +1,20 @@
 (
     title: "Cosmic Cones",
     developer: Some("Zhamul"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cosmic-cones", filename: "cosmic-cones.gb")),
-    screenshots: ["cosmic-cones.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmic-cones/cosmic-cones.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmic-cones/cosmic-cones.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cosmic-cones",
+                    filename: "cosmic-cones.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,13 +1,28 @@
 (
-    title: "Ms. Hazel's Flower Garden",
-    date: Some("2023-05-20T21:51:00"),
+    title: "Ms. Hazel\'s Flower Garden",
     developer: Some("JacobMotlMedia"),
     description: Some("Help Ms. Hazel water her flowers."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ms-hazels-flower-garden", filename: "Ms_Hazels_Flower_Garden.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "Vx0d1q.png"],
-    links: [
-        (name: "Website", url: "https://jacobmotlmedia.itch.io/ms-hazels-flower-garden", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ms-hazels-flower-garden/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ms-hazels-flower-garden/Vx0d1q.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ms-hazels-flower-garden",
+                    filename: "Ms_Hazels_Flower_Garden.gb",
+                ),
+                Itch(
+                    url: "https://jacobmotlmedia.itch.io/ms-hazels-flower-garden",
+                ),
+            ],
+        ),
     ],
 )

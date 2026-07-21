@@ -1,11 +1,28 @@
 (
     title: "Going Bananas",
-    date: Some("2019-04-29"),
     developer: Some("Chris Read"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "going-bananas", filename: "banana7.gb")),
-    screenshots: ["banana7.png"],
     links: [
-        (name: "Website", url: "https://gbdev.gg8.se/forums/viewtopic.php?id=606", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://gbdev.gg8.se/forums/viewtopic.php?id=606",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/going-bananas/banana7.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/going-bananas/banana7.png",
+    ],
+    releases: [
+        (
+            date: Some("2019-04-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "going-bananas",
+                    filename: "banana7.gb",
+                ),
+            ],
+        ),
     ],
 )

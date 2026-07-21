@@ -1,13 +1,33 @@
 (
     title: "Safe File",
-    date: Some("2023-05-20T19:42:00"),
     developer: Some("WinglessPenny64"),
     description: Some("Save .files friends from viruses"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "safe-file", filename: "SafeFile.gb")),
-    tags: ["Platform", "Action", "event:gbshowdown23"],
-    screenshots: ["cover.png", "81FQwk.png", "IPVSbP.png", "m8U1IJ.png", "12BzU2FD.png", "sG2FMD9.png"],
-    links: [
-        (name: "Website", url: "https://winglesspenny64.itch.io/safe-file", link_type: Wiki),
+    tags: [
+        "Platform",
+        "Action",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/81FQwk.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/IPVSbP.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/m8U1IJ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/12BzU2FD.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/sG2FMD9.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "safe-file",
+                    filename: "SafeFile.gb",
+                ),
+                Itch(
+                    url: "https://winglesspenny64.itch.io/safe-file",
+                ),
+            ],
+        ),
     ],
 )

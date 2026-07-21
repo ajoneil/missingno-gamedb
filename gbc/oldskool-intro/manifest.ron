@@ -1,8 +1,21 @@
 (
     title: "Oldskool Intro",
-    date: Some("1998-01-01"),
     developer: Some("Oxygen"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "oldskool-intro", filename: "intro.gb")),
-    screenshots: ["137.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oldskool-intro/137.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oldskool-intro/137.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "oldskool-intro",
+                    filename: "intro.gb",
+                ),
+            ],
+        ),
+    ],
 )

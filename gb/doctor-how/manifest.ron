@@ -1,7 +1,21 @@
 (
     title: "Doctor How",
     developer: Some("ProGM & Flame"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "doctor-how", filename: "doctorhow.gb")),
-    screenshots: ["doctorhow.png", "doctorhow-2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/doctor-how/doctorhow.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/doctor-how/doctorhow.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/doctor-how/doctorhow-2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "doctor-how",
+                    filename: "doctorhow.gb",
+                ),
+            ],
+        ),
+    ],
 )

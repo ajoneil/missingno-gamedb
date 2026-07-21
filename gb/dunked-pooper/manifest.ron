@@ -1,8 +1,21 @@
 (
     title: "Dunked Pooper",
-    date: Some("2001-02-16"),
     developer: Some("Matt Ripston"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dunked-pooper", filename: "pooper.gb")),
-    screenshots: ["drunken_pooper.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dunked-pooper/drunken_pooper.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dunked-pooper/drunken_pooper.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-02-16"),
+            sources: [
+                HomebrewHub(
+                    slug: "dunked-pooper",
+                    filename: "pooper.gb",
+                ),
+            ],
+        ),
+    ],
 )

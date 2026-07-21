@@ -1,7 +1,20 @@
 (
     title: "Dejiko Move",
-    date: Some("2005-05-05"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "digico-move", filename: "Digico Move (PD) [C].gbc")),
-    screenshots: ["Digico Move (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/digico-move/Digico Move (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/digico-move/Digico Move (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2005-05-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "digico-move",
+                    filename: "Digico Move (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

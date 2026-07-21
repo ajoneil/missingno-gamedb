@@ -1,8 +1,21 @@
 (
     title: "The Last Splash (Shantae +8)",
-    date: Some("2002-01-01"),
     developer: Some("Dual Crew & Shining"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-last-splash", filename: "dcs-t_03.gbc")),
-    screenshots: ["203.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-last-splash/203.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-last-splash/203.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "the-last-splash",
+                    filename: "dcs-t_03.gbc",
+                ),
+            ],
+        ),
+    ],
 )

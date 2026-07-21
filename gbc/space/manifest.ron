@@ -1,7 +1,22 @@
 (
     title: "Space",
-    hashes: [],
-    source: Some(HomebrewHub(slug: "space", filename: "space.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["space-0.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space/space-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space/space-0.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "space",
+                    filename: "space.gb",
+                ),
+            ],
+        ),
+    ],
 )

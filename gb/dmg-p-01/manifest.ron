@@ -1,8 +1,29 @@
 (
     title: "DMG*P-01",
-    date: Some("2013-01-01"),
     developer: Some("Genesis Project"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dmg-p-01", filename: "dmgp-01.gb")),
-    screenshots: ["654.png", "655.png", "656.png", "657.png", "658.png", "659.png", "660.png", "661.png", "662.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/654.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/654.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/655.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/656.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/657.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/658.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/659.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/660.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/661.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/662.png",
+    ],
+    releases: [
+        (
+            date: Some("2013-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "dmg-p-01",
+                    filename: "dmgp-01.gb",
+                ),
+            ],
+        ),
+    ],
 )

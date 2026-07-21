@@ -1,7 +1,20 @@
 (
     title: "MERKÉN",
     developer: Some("bitnenfer"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "merken", filename: "merken.gb")),
-    screenshots: ["merken.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/merken/merken.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/merken/merken.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "merken",
+                    filename: "merken.gb",
+                ),
+            ],
+        ),
+    ],
 )

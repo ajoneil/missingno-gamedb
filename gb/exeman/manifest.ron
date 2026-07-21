@@ -1,12 +1,33 @@
 (
     title: "exeman",
-    date: Some("04-24-2017"),
     developer: Some("exezin"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "exeman", filename: "exeman.gb")),
-    tags: ["Open Source", "Action", "Platform"],
-    screenshots: ["screenshot01.bmp", "screenshot02.bmp"],
+    tags: [
+        "Open Source",
+        "Action",
+        "Platform",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/exezin/exeman", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/exezin/exeman",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/exeman/screenshot01.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/exeman/screenshot01.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/exeman/screenshot02.bmp",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "exeman",
+                    filename: "exeman.gb",
+                ),
+            ],
+        ),
     ],
 )

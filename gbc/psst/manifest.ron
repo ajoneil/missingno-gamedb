@@ -1,8 +1,23 @@
 (
     title: "Psst",
     developer: Some("Ramon de Abreu"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "psst", filename: "Psst.cgb")),
-    tags: ["event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_psst.png"],
+    tags: [
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/psst/20110402_psst.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/psst/20110402_psst.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "psst",
+                    filename: "Psst.cgb",
+                ),
+            ],
+        ),
+    ],
 )

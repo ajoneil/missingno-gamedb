@@ -1,9 +1,22 @@
 (
     title: "Starfight",
-    date: Some("1999-03-11"),
     developer: Some("Martin Korth"),
-    description: Some("STARFIGHT for GAMEBOY means real action PLEASURE in less than 4096 bytes (don't ask where the stars are in the game, that isn't the point anyways)"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "starfight", filename: "starfigh.gb")),
-    screenshots: ["starfigh.png"],
+    description: Some("STARFIGHT for GAMEBOY means real action PLEASURE in less than 4096 bytes (don\'t ask where the stars are in the game, that isn\'t the point anyways)"),
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/starfight/starfigh.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/starfight/starfigh.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-03-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "starfight",
+                    filename: "starfigh.gb",
+                ),
+            ],
+        ),
+    ],
 )

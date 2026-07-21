@@ -1,8 +1,31 @@
 (
     title: "Knark",
-    date: Some("2003-01-01"),
     developer: Some("Phantasy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "knark", filename: "pht-knrk.GBC")),
-    screenshots: ["29.png", "30.png", "31.png", "32.png", "33.png", "34.png", "35.png", "36.png", "37.png", "38.png", "39.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/29.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/29.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/30.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/31.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/32.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/33.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/34.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/35.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/36.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/37.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/38.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/39.png",
+    ],
+    releases: [
+        (
+            date: Some("2003-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "knark",
+                    filename: "pht-knrk.GBC",
+                ),
+            ],
+        ),
+    ],
 )

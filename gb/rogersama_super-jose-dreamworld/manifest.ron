@@ -1,11 +1,37 @@
 (
     title: "Super José Dreamworld!",
     developer: Some("roger.sama"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rogersama_super-jose-dreamworld", filename: "SuperJoseDreamWorld_jam.gb")),
-    tags: ["No AI", "Pixel Art", "2D", "GBJam", "My First Game Jam", "Retro", "Adventure", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/qn1ZKx.png", "screenshots/2FpdnZS.png", "screenshots/9bMAKA.png", "screenshots/I2F0aBv.png", "screenshots/feTjsl.png"],
-    links: [
-        (name: "Website", url: "https://rogersama.itch.io/super-jose-dreamworld", link_type: Wiki),
+    tags: [
+        "No AI",
+        "Pixel Art",
+        "2D",
+        "GBJam",
+        "My First Game Jam",
+        "Retro",
+        "Adventure",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rogersama_super-jose-dreamworld/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rogersama_super-jose-dreamworld/screenshots/qn1ZKx.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rogersama_super-jose-dreamworld/screenshots/2FpdnZS.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rogersama_super-jose-dreamworld/screenshots/9bMAKA.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rogersama_super-jose-dreamworld/screenshots/I2F0aBv.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rogersama_super-jose-dreamworld/screenshots/feTjsl.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "rogersama_super-jose-dreamworld",
+                    filename: "SuperJoseDreamWorld_jam.gb",
+                ),
+                Itch(
+                    url: "https://rogersama.itch.io/super-jose-dreamworld",
+                ),
+            ],
+        ),
     ],
 )

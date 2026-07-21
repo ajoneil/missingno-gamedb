@@ -1,7 +1,22 @@
 (
     title: "Run!!",
     developer: Some("Monetai"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "run", filename: "run.gb")),
-    screenshots: ["run.png", "run-2.png", "run-3.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/run/run.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/run/run.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/run/run-2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/run/run-3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "run",
+                    filename: "run.gb",
+                ),
+            ],
+        ),
+    ],
 )

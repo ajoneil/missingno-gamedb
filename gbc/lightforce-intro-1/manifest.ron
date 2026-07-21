@@ -1,8 +1,21 @@
 (
-    title: "Lightforce Intro 1 (The Emperor's New Groove +4)",
-    date: Some("2000-01-01"),
+    title: "Lightforce Intro 1 (The Emperor\'s New Groove +4)",
     developer: Some("Lightforce"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lightforce-intro-1", filename: "lfc1.gbc")),
-    screenshots: ["275.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lightforce-intro-1/275.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lightforce-intro-1/275.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "lightforce-intro-1",
+                    filename: "lfc1.gbc",
+                ),
+            ],
+        ),
+    ],
 )

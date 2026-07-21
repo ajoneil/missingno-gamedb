@@ -1,11 +1,28 @@
 (
     title: "Wobble",
-    date: Some("2021-04-19"),
     developer: Some("sttng"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "wobble-sttng", filename: "wobble.gb")),
-    screenshots: ["wobble.png"],
     links: [
-        (name: "Website", url: "https://github.com/sttng/gb-stuff/tree/main/wobble", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://github.com/sttng/gb-stuff/tree/main/wobble",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wobble-sttng/wobble.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wobble-sttng/wobble.png",
+    ],
+    releases: [
+        (
+            date: Some("2021-04-19"),
+            sources: [
+                HomebrewHub(
+                    slug: "wobble-sttng",
+                    filename: "wobble.gb",
+                ),
+            ],
+        ),
     ],
 )

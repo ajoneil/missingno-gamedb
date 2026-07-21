@@ -1,8 +1,21 @@
 (
     title: "Second Reality OMG CGB",
-    date: Some("2014-04"),
     developer: Some("Mills"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "second-reality-omg-cgb", filename: "second-reality-omg-cgb.gbc")),
-    screenshots: ["second-reality-omg-cgb.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/second-reality-omg-cgb/second-reality-omg-cgb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/second-reality-omg-cgb/second-reality-omg-cgb.png",
+    ],
+    releases: [
+        (
+            date: Some("2014-04"),
+            sources: [
+                HomebrewHub(
+                    slug: "second-reality-omg-cgb",
+                    filename: "second-reality-omg-cgb.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "The Syntax Pocket Party",
     developer: Some("Beige"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-syntax-pocket-party", filename: "the-syntax-pocket-party.gb")),
-    screenshots: ["the-syntax-pocket-party.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-syntax-pocket-party/the-syntax-pocket-party.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-syntax-pocket-party/the-syntax-pocket-party.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-syntax-pocket-party",
+                    filename: "the-syntax-pocket-party.gb",
+                ),
+            ],
+        ),
+    ],
 )

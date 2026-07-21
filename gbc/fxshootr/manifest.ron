@@ -1,7 +1,20 @@
 (
     title: "fxshootr",
     developer: Some("changev"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fxshootr", filename: "fxshootr.gbc")),
-    screenshots: ["fxshootr.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fxshootr/fxshootr.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fxshootr/fxshootr.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "fxshootr",
+                    filename: "fxshootr.gbc",
+                ),
+            ],
+        ),
+    ],
 )

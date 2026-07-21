@@ -1,8 +1,21 @@
 (
     title: "Menu #1 (Mr. Nutz)",
-    date: Some("2001-01-01"),
     developer: Some("High Society"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-1-high-society", filename: "hs-t_01.gbc")),
-    screenshots: ["191.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-high-society/191.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-high-society/191.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-1-high-society",
+                    filename: "hs-t_01.gbc",
+                ),
+            ],
+        ),
+    ],
 )

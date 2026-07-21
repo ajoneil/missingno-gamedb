@@ -1,7 +1,20 @@
 (
     title: "coucou",
     developer: Some("Piers Bishop"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "coucou", filename: "coucou.gb")),
-    screenshots: ["coucou.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/coucou/coucou.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/coucou/coucou.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "coucou",
+                    filename: "coucou.gb",
+                ),
+            ],
+        ),
+    ],
 )

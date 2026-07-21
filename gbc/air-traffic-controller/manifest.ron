@@ -1,7 +1,20 @@
 (
     title: "Air Traffic Controller",
     developer: Some("Graham Pickard"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "air-traffic-controller", filename: "AirTrafficController.cgb")),
-    screenshots: ["20110402_air_traffic_controller.jpg"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/air-traffic-controller/20110402_air_traffic_controller.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/air-traffic-controller/20110402_air_traffic_controller.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "air-traffic-controller",
+                    filename: "AirTrafficController.cgb",
+                ),
+            ],
+        ),
+    ],
 )

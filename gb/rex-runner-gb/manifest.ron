@@ -1,14 +1,38 @@
 (
     title: "Rex Runner GB",
-    date: Some("2024-08-04"),
     developer: Some("The Void"),
-    description: Some("A clone of Google Chrome's popular game built for the Game Boy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rex-runner-gb", filename: "rex-runner.gb")),
+    description: Some("A clone of Google Chrome\'s popular game built for the Game Boy"),
     license: Some("MIT"),
-    tags: ["Open Source", "Platform"],
-    screenshots: ["screenshot_00.png", "screenshot_01.png", "screenshot_02.png", "screenshot_03.png", "screenshot_04.png"],
+    tags: [
+        "Open Source",
+        "Platform",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/etdv-thevoid/rex-runner-gb", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/etdv-thevoid/rex-runner-gb",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rex-runner-gb/screenshot_00.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rex-runner-gb/screenshot_00.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rex-runner-gb/screenshot_01.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rex-runner-gb/screenshot_02.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rex-runner-gb/screenshot_03.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rex-runner-gb/screenshot_04.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-08-04"),
+            sources: [
+                HomebrewHub(
+                    slug: "rex-runner-gb",
+                    filename: "rex-runner.gb",
+                ),
+            ],
+        ),
     ],
 )

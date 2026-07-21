@@ -1,13 +1,30 @@
 (
     title: "Concert Grove",
-    date: Some("2023-05-20T20:42:00"),
     developer: Some("GamechangerMods"),
     description: Some("A short adventure game. Gather the parts of a song to sing the whole piece and break the curse."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "concert-grove", filename: "concertgrove1.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "6viSw1.png", "Xo0lby.png", "xoEPFF.png"],
-    links: [
-        (name: "Website", url: "https://gamechangermods.itch.io/concert-grove", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/concert-grove/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/concert-grove/6viSw1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/concert-grove/Xo0lby.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/concert-grove/xoEPFF.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "concert-grove",
+                    filename: "concertgrove1.gb",
+                ),
+                Itch(
+                    url: "https://gamechangermods.itch.io/concert-grove",
+                ),
+            ],
+        ),
     ],
 )

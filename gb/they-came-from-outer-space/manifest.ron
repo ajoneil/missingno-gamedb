@@ -1,8 +1,22 @@
 (
     title: "They came from outer space...",
-    date: Some("1998-08-30"),
     developer: Some("Carcatau Development"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "they-came-from-outer-space", filename: "tcfos.gb")),
-    screenshots: ["tcfos.png", "20110402_they_came_from_outer_space.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/they-came-from-outer-space/tcfos.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/they-came-from-outer-space/tcfos.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/they-came-from-outer-space/20110402_they_came_from_outer_space.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-08-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "they-came-from-outer-space",
+                    filename: "tcfos.gb",
+                ),
+            ],
+        ),
+    ],
 )

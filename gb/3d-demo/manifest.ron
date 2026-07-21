@@ -1,8 +1,21 @@
 (
     title: "3D Demo",
-    date: Some("1998-02-28"),
     developer: Some("PJ"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "3d-demo", filename: "3D_Demo.gb")),
-    screenshots: ["3D_Demo-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/3d-demo/3D_Demo-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/3d-demo/3D_Demo-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-02-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "3d-demo",
+                    filename: "3D_Demo.gb",
+                ),
+            ],
+        ),
+    ],
 )

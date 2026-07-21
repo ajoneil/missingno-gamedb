@@ -1,8 +1,21 @@
 (
     title: "Mario Clone",
-    date: Some("1999-09-09"),
     developer: Some("Pikachu14"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mario-clone", filename: "mario.gbc")),
-    screenshots: ["mario.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mario-clone/mario.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mario-clone/mario.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "mario-clone",
+                    filename: "mario.gbc",
+                ),
+            ],
+        ),
+    ],
 )

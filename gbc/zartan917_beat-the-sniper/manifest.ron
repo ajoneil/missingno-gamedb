@@ -1,11 +1,34 @@
 (
     title: "BEAT THE SNIPER Demo",
     developer: Some("RetroGamma"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "zartan917_beat-the-sniper", filename: "BeatTheSniper_jam.gbc")),
-    tags: ["demo", "Shooter", "FPS", "Rhythm", "sniper", "beat", "event:gbcompo25"],
-    screenshots: ["cover.jpg", "screenshots/mbZyX2B.png", "screenshots/9AT0ag.png"],
-    links: [
-        (name: "Website", url: "https://zartan917.itch.io/beat-the-sniper", link_type: Wiki),
+    tags: [
+        "demo",
+        "Shooter",
+        "FPS",
+        "Rhythm",
+        "sniper",
+        "beat",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zartan917_beat-the-sniper/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zartan917_beat-the-sniper/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zartan917_beat-the-sniper/screenshots/mbZyX2B.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zartan917_beat-the-sniper/screenshots/9AT0ag.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "zartan917_beat-the-sniper",
+                    filename: "BeatTheSniper_jam.gbc",
+                ),
+                Itch(
+                    url: "https://zartan917.itch.io/beat-the-sniper",
+                ),
+            ],
+        ),
     ],
 )

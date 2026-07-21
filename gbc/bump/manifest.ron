@@ -1,8 +1,21 @@
 (
     title: "Bump",
-    date: Some("1999-01-01"),
     developer: Some("Dox"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bump", filename: "bump.gbc")),
-    screenshots: ["151.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bump/151.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bump/151.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "bump",
+                    filename: "bump.gbc",
+                ),
+            ],
+        ),
+    ],
 )

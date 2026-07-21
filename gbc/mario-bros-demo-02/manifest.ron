@@ -1,7 +1,20 @@
 (
     title: "Mario Bros Demo 0.2",
-    date: Some("2022-08-24"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mario-bros-demo-02", filename: "mario.gb")),
-    screenshots: ["mario.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mario-bros-demo-02/mario.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mario-bros-demo-02/mario.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-08-24"),
+            sources: [
+                HomebrewHub(
+                    slug: "mario-bros-demo-02",
+                    filename: "mario.gb",
+                ),
+            ],
+        ),
+    ],
 )

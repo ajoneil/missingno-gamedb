@@ -1,6 +1,19 @@
 (
     title: "Staydown",
-    hashes: [],
-    source: Some(HomebrewHub(slug: "staydown", filename: "staydown.gb")),
-    screenshots: ["staydown.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/staydown/staydown.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/staydown/staydown.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "staydown",
+                    filename: "staydown.gb",
+                ),
+            ],
+        ),
+    ],
 )

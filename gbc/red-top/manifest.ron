@@ -1,8 +1,21 @@
 (
     title: "Red Top",
-    date: Some("2000-01-01"),
     developer: Some("Dual Crew & Shining"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "red-top", filename: "redtop.gbc")),
-    screenshots: ["722.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/red-top/722.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/red-top/722.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "red-top",
+                    filename: "redtop.gbc",
+                ),
+            ],
+        ),
+    ],
 )

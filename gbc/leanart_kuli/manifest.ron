@@ -1,12 +1,41 @@
 (
     title: "[PREVIEW] KULI",
-    date: Some("2025-08-31T21:00:00"),
     developer: Some("Lean Art"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "leanart_kuli", filename: "kuli_jam.gbc")),
-    tags: ["No AI", "GBJam", "8x8", "Multiplayer", "8-Bit", "Puzzle", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/gW5ZRI.png", "screenshots/K9Ie6a.png", "screenshots/1s5yEJ.png", "screenshots/9QZVjb.png", "screenshots/e2FXKbE.png", "screenshots/xIzQ2BX.png", "screenshots/1O2F12FH.png", "screenshots/rCC8j2B.png", "screenshots/HLtS5q.png", "screenshots/b87O72.png"],
-    links: [
-        (name: "Website", url: "https://leanart.itch.io/kuli", link_type: Wiki),
+    tags: [
+        "No AI",
+        "GBJam",
+        "8x8",
+        "Multiplayer",
+        "8-Bit",
+        "Puzzle",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/gW5ZRI.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/K9Ie6a.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/1s5yEJ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/9QZVjb.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/e2FXKbE.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/xIzQ2BX.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/1O2F12FH.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/rCC8j2B.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/HLtS5q.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/b87O72.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "leanart_kuli",
+                    filename: "kuli_jam.gbc",
+                ),
+                Itch(
+                    url: "https://leanart.itch.io/kuli",
+                ),
+            ],
+        ),
     ],
 )

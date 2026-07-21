@@ -1,8 +1,21 @@
 (
     title: "Downer",
-    date: Some("2024-02-11"),
     developer: Some("DevEd"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "downer", filename: "downer.gb")),
-    screenshots: ["downer.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/downer/downer.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/downer/downer.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-02-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "downer",
+                    filename: "downer.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Stalker",
-    date: Some("2001-02-28"),
     developer: Some("True Video"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "stalker", filename: "stalker.gbc")),
-    screenshots: ["stalker.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stalker/stalker.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stalker/stalker.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-02-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "stalker",
+                    filename: "stalker.gbc",
+                ),
+            ],
+        ),
+    ],
 )

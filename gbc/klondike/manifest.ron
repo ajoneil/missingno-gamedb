@@ -1,8 +1,21 @@
 (
     title: "Klondike",
-    date: Some("2000-10-13"),
     developer: Some("Harold Toler"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "klondike", filename: "klondike.gbc")),
-    screenshots: ["klondike.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/klondike/klondike.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/klondike/klondike.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-10-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "klondike",
+                    filename: "klondike.gbc",
+                ),
+            ],
+        ),
+    ],
 )

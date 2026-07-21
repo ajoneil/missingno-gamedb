@@ -1,12 +1,33 @@
 (
     title: "GB-Wordyl",
     developer: Some("bbbbbr"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-wordyl", filename: "GBWORDYL_0.85_en.gb")),
     license: Some("GPL-3.0"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["1.png", "2.png"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/bbbbbr/gb-wordle", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/bbbbbr/gb-wordle",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-wordyl/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-wordyl/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-wordyl/2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gb-wordyl",
+                    filename: "GBWORDYL_0.85_en.gb",
+                ),
+            ],
+        ),
     ],
 )

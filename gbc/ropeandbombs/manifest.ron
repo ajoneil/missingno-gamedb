@@ -1,8 +1,24 @@
 (
     title: "Rope & Bombs",
     developer: Some("Team Lampoil"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ropeandbombs", filename: "ropeandbombs.gb")),
-    tags: ["Puzzle"],
-    screenshots: ["screenshot-1.png", "screenshot-2.png"],
+    tags: [
+        "Puzzle",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ropeandbombs/screenshot-1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ropeandbombs/screenshot-1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ropeandbombs/screenshot-2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ropeandbombs",
+                    filename: "ropeandbombs.gb",
+                ),
+            ],
+        ),
+    ],
 )

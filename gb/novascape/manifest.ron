@@ -2,7 +2,20 @@
     title: "Novascape",
     developer: Some("Refresh Games"),
     description: Some("Novascape pits you deep inside the planet Novatron armed with your rather fuel hungry jetpack and trusty sidearm at your disposal. Can you escape the planet alive? Or will you fall foul to the planets denizens?"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "novascape", filename: "novascap.gb")),
-    screenshots: ["novascape.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/novascape/novascape.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/novascape/novascape.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "novascape",
+                    filename: "novascap.gb",
+                ),
+            ],
+        ),
+    ],
 )

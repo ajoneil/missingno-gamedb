@@ -1,10 +1,25 @@
 (
     title: "Skoardy",
-    date: Some("1999-09-21"),
     developer: Some("Darren Hebden"),
-    description: Some("Guide the red dot around the maze to the exit. You  can't stop, only turn. Too slow and you crash which loses a life.  You have 3 lives to finish all 10 levels. Oh yes, collect the pots too."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "skoardy", filename: "skoardy.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["skoardy.png"],
+    description: Some("Guide the red dot around the maze to the exit. You  can\'t stop, only turn. Too slow and you crash which loses a life.  You have 3 lives to finish all 10 levels. Oh yes, collect the pots too."),
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/skoardy/skoardy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/skoardy/skoardy.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "skoardy",
+                    filename: "skoardy.gb",
+                ),
+            ],
+        ),
+    ],
 )

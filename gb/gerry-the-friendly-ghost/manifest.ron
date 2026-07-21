@@ -1,12 +1,30 @@
 (
     title: "Gerry the friendly ghost",
-    date: Some("2023-05-20T16:21:00"),
     developer: Some("ceprotypes"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gerry-the-friendly-ghost", filename: "game.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "cAlCY6.png", "NUHc2Bm.png", "1Zu5tc.png", "wvWcNs.png"],
-    links: [
-        (name: "Website", url: "https://ceprotypes.itch.io/gerry-the-friendly-ghost", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gerry-the-friendly-ghost/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gerry-the-friendly-ghost/cAlCY6.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gerry-the-friendly-ghost/NUHc2Bm.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gerry-the-friendly-ghost/1Zu5tc.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gerry-the-friendly-ghost/wvWcNs.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gerry-the-friendly-ghost",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://ceprotypes.itch.io/gerry-the-friendly-ghost",
+                ),
+            ],
+        ),
     ],
 )

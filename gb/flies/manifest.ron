@@ -1,11 +1,28 @@
 (
     title: "Flies",
-    date: Some("2021-02-02"),
     developer: Some("Chris Read"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "flies", filename: "flies22.gb")),
-    screenshots: ["flies22.png"],
     links: [
-        (name: "Website", url: "https://gbdev.gg8.se/forums/viewtopic.php?id=739", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://gbdev.gg8.se/forums/viewtopic.php?id=739",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flies/flies22.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flies/flies22.png",
+    ],
+    releases: [
+        (
+            date: Some("2021-02-02"),
+            sources: [
+                HomebrewHub(
+                    slug: "flies",
+                    filename: "flies22.gb",
+                ),
+            ],
+        ),
     ],
 )

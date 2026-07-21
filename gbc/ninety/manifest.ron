@@ -1,8 +1,21 @@
 (
     title: "Ninety",
-    date: Some("1999-01-01"),
     developer: Some("Dox"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ninety", filename: "NINETY.GBC")),
-    screenshots: ["155.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ninety/155.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ninety/155.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "ninety",
+                    filename: "NINETY.GBC",
+                ),
+            ],
+        ),
+    ],
 )

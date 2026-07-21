@@ -1,8 +1,21 @@
 (
-    title: "Menu #2 (The Jungle Book: Mowgli's Wild Adventure +3)",
-    date: Some("2000-01-01"),
+    title: "Menu #2 (The Jungle Book: Mowgli\'s Wild Adventure +3)",
     developer: Some("Resistance"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-2-resistance", filename: "rse-t_02.gbc")),
-    screenshots: ["184.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-resistance/184.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-resistance/184.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-2-resistance",
+                    filename: "rse-t_02.gbc",
+                ),
+            ],
+        ),
+    ],
 )

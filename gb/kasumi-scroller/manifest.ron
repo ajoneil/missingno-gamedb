@@ -1,7 +1,20 @@
 (
     title: "Kasumi Scroller",
-    date: Some("1995-10-29"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "kasumi-scroller", filename: "Kasumi_Scroller.gb")),
-    screenshots: ["Kasumi_Scroller-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kasumi-scroller/Kasumi_Scroller-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kasumi-scroller/Kasumi_Scroller-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1995-10-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "kasumi-scroller",
+                    filename: "Kasumi_Scroller.gb",
+                ),
+            ],
+        ),
+    ],
 )

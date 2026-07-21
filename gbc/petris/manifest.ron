@@ -1,15 +1,41 @@
 (
     title: "Petris",
-    date: Some("2020-10-01"),
     developer: Some("bbbbbr"),
     description: Some("A puzzle game of shapely pets for the Game Boy Color (CGB)"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "petris", filename: "Petris_web.gbc")),
     license: Some("CC-BY-NC-SA"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["cartridge_sticker_petris_x300.png", "petris_001.png", "petris_002.png", "petris_003.png", "petris_004.png"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Website", url: "https://bbbbbr.itch.io/petris", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/bbbbbr/Petris", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/bbbbbr/Petris",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/petris/cartridge_sticker_petris_x300.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/petris/cartridge_sticker_petris_x300.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/petris/petris_001.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/petris/petris_002.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/petris/petris_003.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/petris/petris_004.png",
+    ],
+    releases: [
+        (
+            date: Some("2020-10-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "petris",
+                    filename: "Petris_web.gbc",
+                ),
+                Itch(
+                    url: "https://bbbbbr.itch.io/petris",
+                ),
+            ],
+        ),
     ],
 )

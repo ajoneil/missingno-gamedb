@@ -1,13 +1,28 @@
 (
     title: "Spark",
-    date: Some("2023-05-20T19:46:00"),
     developer: Some("LotusGameDev"),
     description: Some("A Lotus/Katharou game for Gameboy Showdown 2023"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "spark", filename: "game.gb")),
-    tags: ["Action", "event:gbshowdown23"],
-    screenshots: ["cover.png", "Hvm6pT.png"],
-    links: [
-        (name: "Website", url: "https://lotusgamedev.itch.io/spark", link_type: Wiki),
+    tags: [
+        "Action",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/spark/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/spark/Hvm6pT.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "spark",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://lotusgamedev.itch.io/spark",
+                ),
+            ],
+        ),
     ],
 )

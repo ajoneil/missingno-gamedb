@@ -1,9 +1,25 @@
 (
     title: "SWorld",
-    date: Some("2000-04-01"),
     developer: Some("Shen"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sworld", filename: "Sworld.cgb")),
-    tags: ["Action", "event:liksang2000-compo"],
-    screenshots: ["20110402_sworld.png"],
+    tags: [
+        "Action",
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sworld/20110402_sworld.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sworld/20110402_sworld.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "sworld",
+                    filename: "Sworld.cgb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -2,7 +2,20 @@
     title: "SolveKnight GB v1.1",
     developer: Some("drHirudo"),
     description: Some("This little program shows all the possible solutions of the game Knight and the game KnightMoves."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "solveknight-gb-v1-1", filename: "SolveKnightGB.gb")),
-    screenshots: ["20110402_solveknight_gb.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/solveknight-gb-v1-1/20110402_solveknight_gb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/solveknight-gb-v1-1/20110402_solveknight_gb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "solveknight-gb-v1-1",
+                    filename: "SolveKnightGB.gb",
+                ),
+            ],
+        ),
+    ],
 )

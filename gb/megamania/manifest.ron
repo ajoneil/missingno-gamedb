@@ -1,8 +1,21 @@
 (
     title: "Megamania",
-    date: Some("1997-10-23"),
     developer: Some("Genetic Fantasia"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "megamania", filename: "SHIP.GB")),
-    screenshots: ["SHIP-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/megamania/SHIP-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/megamania/SHIP-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1997-10-23"),
+            sources: [
+                HomebrewHub(
+                    slug: "megamania",
+                    filename: "SHIP.GB",
+                ),
+            ],
+        ),
+    ],
 )

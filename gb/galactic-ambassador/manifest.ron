@@ -1,13 +1,29 @@
 (
     title: "Galactic Ambassador",
-    date: Some("2023-05-20T17:14:00"),
     developer: Some("uso5"),
     description: Some("Aliens think all humans are evil. Prove them wrong!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "galactic-ambassador", filename: "galactic_ambassador.gb")),
-    tags: ["Adventure", "Puzzle", "event:gbshowdown23"],
-    screenshots: ["cover.png", "GPOHTi.png"],
-    links: [
-        (name: "Website", url: "https://uso5.itch.io/galactic-ambassador", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "Puzzle",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/galactic-ambassador/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/galactic-ambassador/GPOHTi.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "galactic-ambassador",
+                    filename: "galactic_ambassador.gb",
+                ),
+                Itch(
+                    url: "https://uso5.itch.io/galactic-ambassador",
+                ),
+            ],
+        ),
     ],
 )

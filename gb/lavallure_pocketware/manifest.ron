@@ -1,11 +1,31 @@
 (
     title: "PocketWare",
     developer: Some("lavallure"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lavallure_pocketware", filename: "PocketWare_v1_2.gb")),
-    tags: ["minigames", "8-Bit", "Action", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/SGNWYU.png", "screenshots/5rnQFt.png", "screenshots/qJQFcE.png"],
-    links: [
-        (name: "Website", url: "https://lavallure.itch.io/pocketware", link_type: Wiki),
+    tags: [
+        "minigames",
+        "8-Bit",
+        "Action",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lavallure_pocketware/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lavallure_pocketware/screenshots/SGNWYU.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lavallure_pocketware/screenshots/5rnQFt.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lavallure_pocketware/screenshots/qJQFcE.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "lavallure_pocketware",
+                    filename: "PocketWare_v1_2.gb",
+                ),
+                Itch(
+                    url: "https://lavallure.itch.io/pocketware",
+                ),
+            ],
+        ),
     ],
 )

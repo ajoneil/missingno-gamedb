@@ -2,7 +2,20 @@
     title: "Peggy",
     developer: Some("Dox"),
     description: Some("The goal is to remove pegs from the board by jumping over each peg with another peg – this removes the “jumped” peg. Only horizontal and vertical jumps are allowed."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "peggy", filename: "peggy.gbc")),
-    screenshots: ["20110402_peggy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/peggy/20110402_peggy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/peggy/20110402_peggy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "peggy",
+                    filename: "peggy.gbc",
+                ),
+            ],
+        ),
+    ],
 )

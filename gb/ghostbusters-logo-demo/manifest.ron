@@ -1,7 +1,20 @@
 (
     title: "Ghostbusters Logo Demo",
-    date: Some("1998-12-06"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ghostbusters-logo-demo", filename: "Ghostbusters Logo Demo (PD).gb")),
-    screenshots: ["Ghostbusters Logo Demo (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostbusters-logo-demo/Ghostbusters Logo Demo (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostbusters-logo-demo/Ghostbusters Logo Demo (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1998-12-06"),
+            sources: [
+                HomebrewHub(
+                    slug: "ghostbusters-logo-demo",
+                    filename: "Ghostbusters Logo Demo (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

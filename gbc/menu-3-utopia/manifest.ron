@@ -1,8 +1,21 @@
 (
     title: "Menu #3 (Donkey Kong GB +1)",
-    date: Some("2000-01-01"),
     developer: Some("Utopia"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-3-utopia", filename: "UTP-T_03.GBC")),
-    screenshots: ["276.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-3-utopia/276.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-3-utopia/276.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-3-utopia",
+                    filename: "UTP-T_03.GBC",
+                ),
+            ],
+        ),
+    ],
 )

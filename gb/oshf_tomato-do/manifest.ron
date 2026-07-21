@@ -1,11 +1,33 @@
 (
     title: "Tomato-do",
     developer: Some("_oshf"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "oshf_tomato-do", filename: "TOMATO-DO_jam.gb")),
-    tags: ["gbcompo25", "crosszgb", "pomodoro", "timer", "gbdk", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/JSb2B2U.png", "screenshots/wNHHef.jpg", "screenshots/jIu4m9.png"],
-    links: [
-        (name: "Website", url: "https://oshf.itch.io/tomato-do", link_type: Wiki),
+    tags: [
+        "gbcompo25",
+        "crosszgb",
+        "pomodoro",
+        "timer",
+        "gbdk",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oshf_tomato-do/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oshf_tomato-do/screenshots/JSb2B2U.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oshf_tomato-do/screenshots/wNHHef.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oshf_tomato-do/screenshots/jIu4m9.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "oshf_tomato-do",
+                    filename: "TOMATO-DO_jam.gb",
+                ),
+                Itch(
+                    url: "https://oshf.itch.io/tomato-do",
+                ),
+            ],
+        ),
     ],
 )

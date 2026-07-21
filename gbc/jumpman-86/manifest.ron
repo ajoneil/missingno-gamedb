@@ -1,8 +1,21 @@
 (
-    title: "Jumpman '86",
-    date: Some("2001-03-25"),
+    title: "Jumpman \'86",
     developer: Some("PÃƒÂ¤r Johannesson"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jumpman-86", filename: "jumpman86.gbc")),
-    screenshots: ["jumpman86.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jumpman-86/jumpman86.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jumpman-86/jumpman86.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-03-25"),
+            sources: [
+                HomebrewHub(
+                    slug: "jumpman-86",
+                    filename: "jumpman86.gbc",
+                ),
+            ],
+        ),
+    ],
 )

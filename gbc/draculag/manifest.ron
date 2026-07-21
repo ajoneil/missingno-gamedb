@@ -1,7 +1,20 @@
 (
     title: "draculag",
     developer: Some("changev"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "draculag", filename: "draculag.gbc")),
-    screenshots: ["draculag.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/draculag/draculag.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/draculag/draculag.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "draculag",
+                    filename: "draculag.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Dirty Pair Flash Picture",
-    date: Some("1998-08-08"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dirty-pair-flash-picture", filename: "Dirty_Pair_Flash_Picture.gb")),
-    screenshots: ["Dirty_Pair_Flash_Picture-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dirty-pair-flash-picture/Dirty_Pair_Flash_Picture-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dirty-pair-flash-picture/Dirty_Pair_Flash_Picture-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-08-08"),
+            sources: [
+                HomebrewHub(
+                    slug: "dirty-pair-flash-picture",
+                    filename: "Dirty_Pair_Flash_Picture.gb",
+                ),
+            ],
+        ),
+    ],
 )

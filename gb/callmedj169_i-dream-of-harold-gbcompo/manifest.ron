@@ -1,11 +1,27 @@
 (
     title: "I Dream of Harold (GBCompo)",
     developer: Some("callmeDJ"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "callmedj169_i-dream-of-harold-gbcompo", filename: "IDREAMOFHAROLD_jam.gb")),
-    tags: ["Adventure", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/qGWilf.png"],
-    links: [
-        (name: "Website", url: "https://callmedj169.itch.io/i-dream-of-harold-gbcompo", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/callmedj169_i-dream-of-harold-gbcompo/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/callmedj169_i-dream-of-harold-gbcompo/screenshots/qGWilf.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "callmedj169_i-dream-of-harold-gbcompo",
+                    filename: "IDREAMOFHAROLD_jam.gb",
+                ),
+                Itch(
+                    url: "https://callmedj169.itch.io/i-dream-of-harold-gbcompo",
+                ),
+            ],
+        ),
     ],
 )

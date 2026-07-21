@@ -1,11 +1,38 @@
 (
     title: "MEMORY PALACES",
     developer: Some("syfartistry"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "syfartistry_memory-palace", filename: "MEMORYPALACE_jam .gbc")),
-    tags: ["memory", "Pixel Art", "Retro", "Surreal", "Adventure", "Puzzle", "Top-Down", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/pYwqEG.gif", "screenshots/9Hnpzh.gif", "screenshots/AIOflb.gif", "screenshots/CYxVCj.gif", "screenshots/2FTJLM.png", "screenshots/HRwe8c.png"],
-    links: [
-        (name: "Website", url: "https://syfartistry.itch.io/memory-palace", link_type: Wiki),
+    tags: [
+        "memory",
+        "Pixel Art",
+        "Retro",
+        "Surreal",
+        "Adventure",
+        "Puzzle",
+        "Top-Down",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/screenshots/pYwqEG.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/screenshots/9Hnpzh.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/screenshots/AIOflb.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/screenshots/CYxVCj.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/screenshots/2FTJLM.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/screenshots/HRwe8c.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "syfartistry_memory-palace",
+                    filename: "MEMORYPALACE_jam .gbc",
+                ),
+                Itch(
+                    url: "https://syfartistry.itch.io/memory-palace",
+                ),
+            ],
+        ),
     ],
 )

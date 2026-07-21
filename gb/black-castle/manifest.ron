@@ -1,7 +1,20 @@
 (
     title: "Black Castle",
     developer: Some("User0x7f"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "black-castle", filename: "black-castle.gb")),
-    screenshots: ["black-castle.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/black-castle/black-castle.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/black-castle/black-castle.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "black-castle",
+                    filename: "black-castle.gb",
+                ),
+            ],
+        ),
+    ],
 )

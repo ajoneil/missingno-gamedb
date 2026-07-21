@@ -1,8 +1,21 @@
 (
     title: "Multi Puzzle",
-    date: Some("1999-09-29"),
     developer: Some("RD Project"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "multi-puzzle", filename: "Multi Puzzle (PD).gb")),
-    screenshots: ["Multi Puzzle (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/multi-puzzle/Multi Puzzle (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/multi-puzzle/Multi Puzzle (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "multi-puzzle",
+                    filename: "Multi Puzzle (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,11 +1,30 @@
 (
     title: "Santa Claus Journey",
-    date: Some("2022-04-23"),
     developer: Some("Celestina Software"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "santa-claus-journey", filename: "scjourney music.gb")),
-    screenshots: ["164titlescreen.png", "164screenshot1.png", "164screenshot2.png"],
     links: [
-        (name: "Website", url: "https://www.romhacking.net/homebrew/164/", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://www.romhacking.net/homebrew/164/",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/santa-claus-journey/164titlescreen.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/santa-claus-journey/164titlescreen.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/santa-claus-journey/164screenshot1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/santa-claus-journey/164screenshot2.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-04-23"),
+            sources: [
+                HomebrewHub(
+                    slug: "santa-claus-journey",
+                    filename: "scjourney music.gb",
+                ),
+            ],
+        ),
     ],
 )

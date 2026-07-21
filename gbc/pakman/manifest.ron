@@ -1,7 +1,20 @@
 (
     title: "Pakman",
     developer: Some("Rob Uttley"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pakman", filename: "Pakman.gbc")),
-    screenshots: ["20110402_pakman.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pakman/20110402_pakman.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pakman/20110402_pakman.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pakman",
+                    filename: "Pakman.gbc",
+                ),
+            ],
+        ),
+    ],
 )

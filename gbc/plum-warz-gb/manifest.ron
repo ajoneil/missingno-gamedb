@@ -1,8 +1,23 @@
 (
     title: "Plum Warz GB",
     developer: Some("JW2K"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "plum-warz-gb", filename: "PlumWarz.cgb")),
-    tags: ["event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_plum_warz_gb.png"],
+    tags: [
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plum-warz-gb/20110402_plum_warz_gb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plum-warz-gb/20110402_plum_warz_gb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "plum-warz-gb",
+                    filename: "PlumWarz.cgb",
+                ),
+            ],
+        ),
+    ],
 )

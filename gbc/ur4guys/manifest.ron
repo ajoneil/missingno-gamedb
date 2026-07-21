@@ -1,10 +1,31 @@
 (
     title: "U R 4 GUYS",
-    date: Some("2026-06-10"),
     developer: Some("Wolfman Digital"),
     description: Some("You are four guys, but you only have two buttons. An action/arcade game about frantic multitasking. You play as four characters simultaneously. Master the unique controls, climb the leaderboard, and clear the game to unlock a secret."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ur4guys", filename: "ur4guys.gbc")),
-    tags: ["Arcade", "Action"],
-    screenshots: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"],
+    tags: [
+        "Arcade",
+        "Action",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/3.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/4.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/5.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/6.png",
+    ],
+    releases: [
+        (
+            date: Some("2026-06-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "ur4guys",
+                    filename: "ur4guys.gbc",
+                ),
+            ],
+        ),
+    ],
 )

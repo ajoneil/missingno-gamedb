@@ -1,11 +1,36 @@
 (
     title: "Luigi Mansion Gameboy Demake - GB Compo 25",
     developer: Some("Distracted Coder"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "distractedcoder_luigi-mansion-gameboy-demake", filename: "LuigiMansionGameboy_jam.gbc")),
-    tags: ["Pixel Art", "Horror", "Top-Down", "Demake", "Action", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/5gpPd5.png", "screenshots/nyjbbQ.png", "screenshots/EfWZ74.png", "screenshots/2FsBTrU.png", "screenshots/VLAtKe.png", "screenshots/VB07oy.png"],
-    links: [
-        (name: "Website", url: "https://distractedcoder.itch.io/luigi-mansion-gameboy-demake", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "Horror",
+        "Top-Down",
+        "Demake",
+        "Action",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/screenshots/5gpPd5.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/screenshots/nyjbbQ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/screenshots/EfWZ74.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/screenshots/2FsBTrU.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/screenshots/VLAtKe.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/screenshots/VB07oy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "distractedcoder_luigi-mansion-gameboy-demake",
+                    filename: "LuigiMansionGameboy_jam.gbc",
+                ),
+                Itch(
+                    url: "https://distractedcoder.itch.io/luigi-mansion-gameboy-demake",
+                ),
+            ],
+        ),
     ],
 )

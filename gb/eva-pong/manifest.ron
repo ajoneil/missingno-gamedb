@@ -1,8 +1,21 @@
 (
     title: "EVA Pong",
-    date: Some("1999-03-26"),
     developer: Some("jedediah"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "eva-pong", filename: "EVA Pong (PD).gb")),
-    screenshots: ["EVA Pong (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eva-pong/EVA Pong (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eva-pong/EVA Pong (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1999-03-26"),
+            sources: [
+                HomebrewHub(
+                    slug: "eva-pong",
+                    filename: "EVA Pong (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

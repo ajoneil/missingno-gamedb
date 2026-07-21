@@ -1,12 +1,29 @@
 (
     title: "Love You To Death",
-    date: Some("2023-05-20T20:05:00"),
     developer: Some("gearfo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "love-you-to-death", filename: "lytd.gbc")),
-    tags: ["Action", "event:gbshowdown23"],
-    screenshots: ["zye24X.png", "vPqa2FP.png", "LNam3r.png"],
-    links: [
-        (name: "Website", url: "https://gearfo.itch.io/love-you-to-death", link_type: Wiki),
+    tags: [
+        "Action",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-you-to-death/zye24X.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-you-to-death/zye24X.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-you-to-death/vPqa2FP.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/love-you-to-death/LNam3r.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "love-you-to-death",
+                    filename: "lytd.gbc",
+                ),
+                Itch(
+                    url: "https://gearfo.itch.io/love-you-to-death",
+                ),
+            ],
+        ),
     ],
 )

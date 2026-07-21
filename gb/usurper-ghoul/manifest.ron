@@ -2,11 +2,32 @@
     title: "USURPER GHOUL",
     developer: Some("evandahm"),
     description: Some("Discover the remains of a fallen kingdom and its people. Made in GB Studio, Fall 2020."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "usurper-ghoul", filename: "usurperghoul.1.9.gb")),
-    tags: ["RPG", "Puzzle"],
-    screenshots: ["cover.jpeg", "Rzdg77.jpeg", "mmr2FSs.jpeg", "2BHeGXo.jpeg", "Hq8dO2F.jpeg", "ucM20a.jpeg"],
-    links: [
-        (name: "Website", url: "https://evandahm.itch.io/usurper-ghoul", link_type: Wiki),
+    tags: [
+        "RPG",
+        "Puzzle",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/cover.jpeg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/cover.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/Rzdg77.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/mmr2FSs.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/2BHeGXo.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/Hq8dO2F.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/ucM20a.jpeg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "usurper-ghoul",
+                    filename: "usurperghoul.1.9.gb",
+                ),
+                Itch(
+                    url: "https://evandahm.itch.io/usurper-ghoul",
+                ),
+            ],
+        ),
     ],
 )

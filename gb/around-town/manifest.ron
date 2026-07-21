@@ -1,13 +1,32 @@
 (
     title: "Around Town",
-    date: Some("2023-05-20T16:20:00"),
     developer: Some("Toadstoolpicnic"),
     description: Some("Help Dart the Frog earn money to upgrade his bike!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "around-town", filename: "AroundTown.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "QoytGR.png", "2E6Lj2.png", "U9OK66.png", "vChmao.png", "Xe7iDK.png"],
-    links: [
-        (name: "Website", url: "https://toadstoolpicnic.itch.io/around-town", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/around-town/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/around-town/QoytGR.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/around-town/2E6Lj2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/around-town/U9OK66.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/around-town/vChmao.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/around-town/Xe7iDK.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "around-town",
+                    filename: "AroundTown.gb",
+                ),
+                Itch(
+                    url: "https://toadstoolpicnic.itch.io/around-town",
+                ),
+            ],
+        ),
     ],
 )

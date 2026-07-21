@@ -1,7 +1,20 @@
 (
     title: "Lab3D",
     developer: Some("cUrdon"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lab3d", filename: "Lab3D.gbc")),
-    screenshots: ["20110402_lab3d.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lab3d/20110402_lab3d.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lab3d/20110402_lab3d.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "lab3d",
+                    filename: "Lab3D.gbc",
+                ),
+            ],
+        ),
+    ],
 )

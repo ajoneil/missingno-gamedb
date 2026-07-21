@@ -1,8 +1,21 @@
 (
     title: "Funny Numbers",
-    date: Some("2025-11-19"),
     developer: Some("FijiAura"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "funny-numbers", filename: "funny-numbers.gb")),
-    screenshots: ["funny-numbers.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/funny-numbers/funny-numbers.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/funny-numbers/funny-numbers.png",
+    ],
+    releases: [
+        (
+            date: Some("2025-11-19"),
+            sources: [
+                HomebrewHub(
+                    slug: "funny-numbers",
+                    filename: "funny-numbers.gb",
+                ),
+            ],
+        ),
+    ],
 )

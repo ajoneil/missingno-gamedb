@@ -1,11 +1,38 @@
 (
     title: "Project G.E.A.R. - MechJam VI - GB Compo 2025",
     developer: Some("Protopixel"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "protopixel_project-gear", filename: "Project GEARS V0.1.1.gbc")),
-    tags: ["Pixel Art", "GBJam", "Female Protagonist", "Mechs", "Action", "Platformer", "gbstudio", "gbcompo2025", "mechjamvi", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/qO7Jj2B.png", "screenshots/B3GqQA.png", "screenshots/0fxxrk.png", "screenshots/tSK0KF.png"],
-    links: [
-        (name: "Website", url: "https://protopixel.itch.io/project-gear", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "GBJam",
+        "Female Protagonist",
+        "Mechs",
+        "Action",
+        "Platformer",
+        "gbstudio",
+        "gbcompo2025",
+        "mechjamvi",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/protopixel_project-gear/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/protopixel_project-gear/screenshots/qO7Jj2B.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/protopixel_project-gear/screenshots/B3GqQA.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/protopixel_project-gear/screenshots/0fxxrk.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/protopixel_project-gear/screenshots/tSK0KF.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "protopixel_project-gear",
+                    filename: "Project GEARS V0.1.1.gbc",
+                ),
+                Itch(
+                    url: "https://protopixel.itch.io/project-gear",
+                ),
+            ],
+        ),
     ],
 )

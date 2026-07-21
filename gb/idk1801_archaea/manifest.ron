@@ -1,11 +1,37 @@
 (
     title: "ARCHAEA",
     developer: Some("Idk"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "idk1801_archaea", filename: "ARCHAEA.gb")),
-    tags: ["Action-Adventure", "Retro", "GBJam", "gameb", "Space", "Adventure", "8-Bit", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/DmaQs6.png", "screenshots/VkqYCY.png", "screenshots/9MTn4L.png", "screenshots/jRCQ45.png", "screenshots/TUNDEv.png"],
-    links: [
-        (name: "Website", url: "https://idk1801.itch.io/archaea", link_type: Wiki),
+    tags: [
+        "Action-Adventure",
+        "Retro",
+        "GBJam",
+        "gameb",
+        "Space",
+        "Adventure",
+        "8-Bit",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/screenshots/DmaQs6.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/screenshots/VkqYCY.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/screenshots/9MTn4L.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/screenshots/jRCQ45.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/screenshots/TUNDEv.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "idk1801_archaea",
+                    filename: "ARCHAEA.gb",
+                ),
+                Itch(
+                    url: "https://idk1801.itch.io/archaea",
+                ),
+            ],
+        ),
     ],
 )

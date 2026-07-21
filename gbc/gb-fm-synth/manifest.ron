@@ -1,11 +1,28 @@
 (
     title: "FM Synthesis",
-    date: Some("2009-04-09"),
     developer: Some("Bookworm"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-fm-synth", filename: "gb_fm.gbc")),
-    screenshots: ["gb_fm-0.png"],
     links: [
-        (name: "Website", url: "http://mydocuments.g2.xrea.com/html/gb/fm.html", link_type: Wiki),
+        (
+            name: "Website",
+            url: "http://mydocuments.g2.xrea.com/html/gb/fm.html",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-fm-synth/gb_fm-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-fm-synth/gb_fm-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2009-04-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "gb-fm-synth",
+                    filename: "gb_fm.gbc",
+                ),
+            ],
+        ),
     ],
 )

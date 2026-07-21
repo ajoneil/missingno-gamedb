@@ -1,11 +1,28 @@
 (
     title: "Loderunner",
-    date: Some("2010-08-02"),
     developer: Some("Dr. Thomas Tensi"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "loderunner", filename: "loderunner-en.gbc")),
-    screenshots: ["loderunner-en.png"],
     links: [
-        (name: "Website", url: "https://www.tensi.eu/thomas/programming/gameboy/loderunner.html", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://www.tensi.eu/thomas/programming/gameboy/loderunner.html",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/loderunner/loderunner-en.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/loderunner/loderunner-en.png",
+    ],
+    releases: [
+        (
+            date: Some("2010-08-02"),
+            sources: [
+                HomebrewHub(
+                    slug: "loderunner",
+                    filename: "loderunner-en.gbc",
+                ),
+            ],
+        ),
     ],
 )

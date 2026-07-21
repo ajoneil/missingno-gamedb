@@ -1,8 +1,21 @@
 (
     title: "Nuku7",
-    date: Some("2000-01-01"),
     developer: Some("Megaman_X"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nuku7", filename: "NUKU7.GB")),
-    screenshots: ["nuku7.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nuku7/nuku7.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nuku7/nuku7.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "nuku7",
+                    filename: "NUKU7.GB",
+                ),
+            ],
+        ),
+    ],
 )

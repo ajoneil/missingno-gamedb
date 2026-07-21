@@ -1,9 +1,25 @@
 (
     title: "Brickster",
-    date: Some("1999-09-29"),
     developer: Some("Stephane Hockenhull"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "brickster", filename: "brikster.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["brickster.png", "20110402_brickster.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/brickster/brickster.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/brickster/brickster.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/brickster/20110402_brickster.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "brickster",
+                    filename: "brikster.cgb",
+                ),
+            ],
+        ),
+    ],
 )

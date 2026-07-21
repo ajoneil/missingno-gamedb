@@ -1,6 +1,21 @@
 (
     title: "gbdev14-snake",
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbdev14-snake", filename: "snake.gb")),
-    screenshots: ["screen1.png", "screen2.png", "screen3.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbdev14-snake/screen1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbdev14-snake/screen1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbdev14-snake/screen2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbdev14-snake/screen3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gbdev14-snake",
+                    filename: "snake.gb",
+                ),
+            ],
+        ),
+    ],
 )

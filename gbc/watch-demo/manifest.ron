@@ -1,7 +1,20 @@
 (
     title: "Watch Demo",
-    date: Some("2001-12-21"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "watch-demo", filename: "Watch Demo for GBC (PD) [C].gbc")),
-    screenshots: ["Watch Demo for GBC (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/watch-demo/Watch Demo for GBC (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/watch-demo/Watch Demo for GBC (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2001-12-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "watch-demo",
+                    filename: "Watch Demo for GBC (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

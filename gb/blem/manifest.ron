@@ -1,7 +1,20 @@
 (
     title: "Blem!",
-    date: Some("1999-07-03"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "blem", filename: "BLEM! (PD).gb")),
-    screenshots: ["BLEM! (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blem/BLEM! (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blem/BLEM! (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1999-07-03"),
+            sources: [
+                HomebrewHub(
+                    slug: "blem",
+                    filename: "BLEM! (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

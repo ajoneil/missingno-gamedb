@@ -1,15 +1,43 @@
 (
-    title: "Pluto's Corner",
-    date: Some("2019-06-19"),
+    title: "Pluto\'s Corner",
     developer: Some("bbbbbr"),
-    description: Some("A home-brew 2D platformer about Lil' Matchy's adventures. Built for the Game Boy (DMG) and will run on original hardware. Lil' Matchy the cat hears that the Cat King of the block, Pluto, is on the prowl. Matchy's got a lot to do! Help her complete the day's checklist, including a showdown with Pluto. Can she make it to the end and get a good nap?"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "plutos-corner", filename: "PLUTOS_CORNER.gb")),
+    description: Some("A home-brew 2D platformer about Lil\' Matchy\'s adventures. Built for the Game Boy (DMG) and will run on original hardware. Lil\' Matchy the cat hears that the Cat King of the block, Pluto, is on the prowl. Matchy\'s got a lot to do! Help her complete the day\'s checklist, including a showdown with Pluto. Can she make it to the end and get a good nap?"),
     license: Some("CC-BY-NC-SA"),
-    tags: ["Platform", "Open Source", "Adventure"],
-    screenshots: ["pluto_001.png", "pluto_002.png", "pluto_003.png", "pluto_004.png", "pluto_005.png", "pluto_006.png"],
+    tags: [
+        "Platform",
+        "Open Source",
+        "Adventure",
+    ],
     links: [
-        (name: "Website", url: "https://bbbbbr.itch.io/plutos-corner", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/bbbbbr/plutoscorner", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/bbbbbr/plutoscorner",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plutos-corner/pluto_001.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plutos-corner/pluto_001.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plutos-corner/pluto_002.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plutos-corner/pluto_003.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plutos-corner/pluto_004.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plutos-corner/pluto_005.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plutos-corner/pluto_006.png",
+    ],
+    releases: [
+        (
+            date: Some("2019-06-19"),
+            sources: [
+                HomebrewHub(
+                    slug: "plutos-corner",
+                    filename: "PLUTOS_CORNER.gb",
+                ),
+                Itch(
+                    url: "https://bbbbbr.itch.io/plutos-corner",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,7 +1,21 @@
 (
     title: "Freebie-GBs-2018",
     developer: Some("nitro2k01 (code), nordloef, arpsonix, immortan, graz, Tommy Creep, donotrun withpixels, the other days (songs)"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "freebie-gbs-2018", filename: "Freebie-GBs-2018.gb")),
-    screenshots: ["01.png", "freebie-gbs-2018.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/freebie-gbs-2018/01.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/freebie-gbs-2018/01.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/freebie-gbs-2018/freebie-gbs-2018.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "freebie-gbs-2018",
+                    filename: "Freebie-GBs-2018.gb",
+                ),
+            ],
+        ),
+    ],
 )

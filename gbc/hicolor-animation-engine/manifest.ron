@@ -1,8 +1,21 @@
 (
     title: "Hicolor Animation Engine",
-    date: Some("1999-09-16"),
     developer: Some("Jeff Frohwein"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hicolor-animation-engine", filename: "GFX.GB")),
-    screenshots: ["GFX.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hicolor-animation-engine/GFX.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hicolor-animation-engine/GFX.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-16"),
+            sources: [
+                HomebrewHub(
+                    slug: "hicolor-animation-engine",
+                    filename: "GFX.GB",
+                ),
+            ],
+        ),
+    ],
 )

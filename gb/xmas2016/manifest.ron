@@ -1,6 +1,19 @@
 (
     title: "Xmas 2016",
-    hashes: [],
-    source: Some(HomebrewHub(slug: "xmas2016", filename: "XMAS2016PUBLICFULL.gb")),
-    screenshots: ["xmas2016.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/xmas2016/xmas2016.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/xmas2016/xmas2016.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "xmas2016",
+                    filename: "XMAS2016PUBLICFULL.gb",
+                ),
+            ],
+        ),
+    ],
 )

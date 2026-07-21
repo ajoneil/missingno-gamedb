@@ -1,8 +1,21 @@
 (
     title: "The Chorus Continues",
-    date: Some("2023-07-01"),
     developer: Some("Inversion"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-chorus-continues", filename: "the-chorus-continues.gb")),
-    screenshots: ["the-chorus-continues.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-chorus-continues/the-chorus-continues.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-chorus-continues/the-chorus-continues.png",
+    ],
+    releases: [
+        (
+            date: Some("2023-07-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "the-chorus-continues",
+                    filename: "the-chorus-continues.gb",
+                ),
+            ],
+        ),
+    ],
 )

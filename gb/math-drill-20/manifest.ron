@@ -2,8 +2,23 @@
     title: "Math Drill 20",
     developer: Some("Susan Cramer, Norm Cramer"),
     description: Some("Math Drill 20 is an addition/subtraction trainer for children. It uses the numbers 0 – 20 as the maximum result and the maximum for any value in the equation."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "math-drill-20", filename: "MathDrill20.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_math_drill_20.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/math-drill-20/20110402_math_drill_20.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/math-drill-20/20110402_math_drill_20.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "math-drill-20",
+                    filename: "MathDrill20.gb",
+                ),
+            ],
+        ),
+    ],
 )

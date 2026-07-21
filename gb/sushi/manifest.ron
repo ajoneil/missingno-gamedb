@@ -1,7 +1,20 @@
 (
     title: "sushi",
     developer: Some("justsid"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sushi", filename: "sushi.gb")),
-    screenshots: ["sushi.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sushi/sushi.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sushi/sushi.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "sushi",
+                    filename: "sushi.gb",
+                ),
+            ],
+        ),
+    ],
 )

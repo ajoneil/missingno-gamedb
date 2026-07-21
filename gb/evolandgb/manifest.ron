@@ -1,14 +1,41 @@
 (
     title: "Evoland.gb",
-    date: Some("2019-04-21"),
     developer: Some("Fabien LOISON (FLOZz)"),
     description: Some("A fan-made port of the Evoland, a game from Shiro Games studio."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "evolandgb", filename: "evoland_0.3.0_en.gb")),
-    tags: ["RPG"],
-    screenshots: ["screenshot_01.png", "screenshot_02.png", "screenshot_03.png", "screenshot_04.png", "screenshot_05.png"],
+    tags: [
+        "RPG",
+    ],
     links: [
-        (name: "Website", url: "https://evogb.flozz.org/", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/flozz/evoland.gb", link_type: Source),
+        (
+            name: "Website",
+            url: "https://evogb.flozz.org/",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://github.com/flozz/evoland.gb",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/evolandgb/screenshot_01.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/evolandgb/screenshot_01.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/evolandgb/screenshot_02.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/evolandgb/screenshot_03.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/evolandgb/screenshot_04.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/evolandgb/screenshot_05.png",
+    ],
+    releases: [
+        (
+            date: Some("2019-04-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "evolandgb",
+                    filename: "evoland_0.3.0_en.gb",
+                ),
+            ],
+        ),
     ],
 )

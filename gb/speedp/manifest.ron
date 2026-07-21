@@ -1,12 +1,32 @@
 (
     title: "SpeedP",
-    date: Some("2021-10-28"),
     developer: Some("Konstantin Dobrev"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "speedp", filename: "speedp.gb")),
-    tags: ["Sports"],
-    screenshots: ["SpeedPScrn1.png", "SpeedPScrn2.png"],
+    tags: [
+        "Sports",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/kldobrev/SpeedP", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/kldobrev/SpeedP",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/speedp/SpeedPScrn1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/speedp/SpeedPScrn1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/speedp/SpeedPScrn2.png",
+    ],
+    releases: [
+        (
+            date: Some("2021-10-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "speedp",
+                    filename: "speedp.gb",
+                ),
+            ],
+        ),
     ],
 )

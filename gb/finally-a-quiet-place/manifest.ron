@@ -1,13 +1,32 @@
 (
     title: "Finally, a quiet place.",
-    date: Some("2023-05-20T21:46:00"),
     developer: Some("Joono"),
     description: Some("A young boy locked inside his house finds a talking key."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "finally-a-quiet-place", filename: "game.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "2T2F0dv.png", "zxGtc2.png", "n13XRA.png", "6tEjf9.png", "ZYvZZk.png"],
-    links: [
-        (name: "Website", url: "https://joono.itch.io/finally-a-quiet-place", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/finally-a-quiet-place/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/finally-a-quiet-place/2T2F0dv.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/finally-a-quiet-place/zxGtc2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/finally-a-quiet-place/n13XRA.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/finally-a-quiet-place/6tEjf9.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/finally-a-quiet-place/ZYvZZk.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "finally-a-quiet-place",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://joono.itch.io/finally-a-quiet-place",
+                ),
+            ],
+        ),
     ],
 )

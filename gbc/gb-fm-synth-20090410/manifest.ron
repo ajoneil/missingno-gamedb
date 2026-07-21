@@ -1,8 +1,21 @@
 (
     title: "GB FM Synth (2009.04.10)",
-    date: Some("2009-04-10"),
     developer: Some("Leaf"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-fm-synth-20090410", filename: "gb_fm.gbc")),
-    screenshots: ["1.bmp"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-fm-synth-20090410/1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-fm-synth-20090410/1.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2009-04-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "gb-fm-synth-20090410",
+                    filename: "gb_fm.gbc",
+                ),
+            ],
+        ),
+    ],
 )

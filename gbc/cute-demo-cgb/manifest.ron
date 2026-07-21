@@ -1,10 +1,27 @@
 (
     title: "Cute Demo CGB",
     developer: Some("Mills"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cute-demo-cgb", filename: "cute-demo-cgb.gbc")),
-    screenshots: ["cute-demo-cgb.png"],
     links: [
-        (name: "Source Code", url: "https://github.com/mills32/CUTE_DEMO", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/mills32/CUTE_DEMO",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cute-demo-cgb/cute-demo-cgb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cute-demo-cgb/cute-demo-cgb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cute-demo-cgb",
+                    filename: "cute-demo-cgb.gbc",
+                ),
+            ],
+        ),
     ],
 )

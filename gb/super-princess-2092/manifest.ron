@@ -1,10 +1,31 @@
 (
-    title: "Super Princess' 2092 Exodus",
+    title: "Super Princess\' 2092 Exodus",
     developer: Some("Zalo"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "super-princess-2092", filename: "super-princess-2092.gb")),
-    screenshots: ["bgb00001.png", "bgb00004.png", "fly.gif", "bgb00007.png", "bgb00009.png"],
     links: [
-        (name: "Source Code", url: "https://github.com/Zal0/Super-Princess-2092-Exodus", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/Zal0/Super-Princess-2092-Exodus",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-princess-2092/bgb00001.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-princess-2092/bgb00001.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-princess-2092/bgb00004.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-princess-2092/fly.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-princess-2092/bgb00007.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-princess-2092/bgb00009.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "super-princess-2092",
+                    filename: "super-princess-2092.gb",
+                ),
+            ],
+        ),
     ],
 )

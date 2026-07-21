@@ -2,8 +2,24 @@
     title: "Color Lines",
     developer: Some("cosmigo"),
     description: Some("This game is very popular in eastern Europe and especially Russia."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "color-lines", filename: "ColorLines.cgb")),
-    tags: ["Puzzle", "event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_color_lines.png"],
+    tags: [
+        "Puzzle",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/color-lines/20110402_color_lines.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/color-lines/20110402_color_lines.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "color-lines",
+                    filename: "ColorLines.cgb",
+                ),
+            ],
+        ),
+    ],
 )

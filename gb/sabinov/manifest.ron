@@ -1,7 +1,20 @@
 (
     title: "Sabinov",
     developer: Some("Keldon Alleyne, David Kirkland"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sabinov", filename: "gbgame.gb")),
-    screenshots: ["20110402_sabinov.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sabinov/20110402_sabinov.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sabinov/20110402_sabinov.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "sabinov",
+                    filename: "gbgame.gb",
+                ),
+            ],
+        ),
+    ],
 )

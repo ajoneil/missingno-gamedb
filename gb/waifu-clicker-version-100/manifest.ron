@@ -1,7 +1,20 @@
 (
     title: "Waifu Clicker (Version 1.0.0)",
     developer: Some("Refresh Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "waifu-clicker-version-100", filename: "waifu.gb")),
-    screenshots: ["waifu.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/waifu-clicker-version-100/waifu.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/waifu-clicker-version-100/waifu.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "waifu-clicker-version-100",
+                    filename: "waifu.gb",
+                ),
+            ],
+        ),
+    ],
 )

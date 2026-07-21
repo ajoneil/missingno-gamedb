@@ -1,8 +1,29 @@
 (
     title: "Demon Blood",
-    date: Some("2012-01-01"),
     developer: Some("Youth Uprising"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "demon-blood", filename: "yup-demonblood.gb")),
-    screenshots: ["635.png", "636.png", "637.png", "638.png", "639.png", "640.png", "641.png", "642.png", "643.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/635.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/635.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/636.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/637.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/638.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/639.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/640.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/641.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/642.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/643.png",
+    ],
+    releases: [
+        (
+            date: Some("2012-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "demon-blood",
+                    filename: "yup-demonblood.gb",
+                ),
+            ],
+        ),
+    ],
 )

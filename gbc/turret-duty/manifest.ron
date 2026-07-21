@@ -1,8 +1,23 @@
 (
     title: "Turret Duty",
     developer: Some("Jon Wingrove"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "turret-duty", filename: "TurretDuty.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_turret_duty.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turret-duty/20110402_turret_duty.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turret-duty/20110402_turret_duty.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "turret-duty",
+                    filename: "TurretDuty.cgb",
+                ),
+            ],
+        ),
+    ],
 )

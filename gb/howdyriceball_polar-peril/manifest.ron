@@ -1,11 +1,39 @@
 (
     title: "Polar Peril",
     developer: Some("howdy riceball"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "howdyriceball_polar-peril", filename: "polarperil_jam.gb")),
-    tags: ["Pixel Art", "2D", "8-Bit", "Top-Down", "Cute", "Short", "Retro", "Adventure", "Puzzle", "event:gbcompo25"],
-    screenshots: ["cover.jpg", "screenshots/ZpJfMD.jpg", "screenshots/c1l8n1.jpg", "screenshots/OkVpWD.jpg", "screenshots/UgMuD8.jpg"],
-    links: [
-        (name: "Website", url: "https://howdyriceball.itch.io/polar-peril", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "2D",
+        "8-Bit",
+        "Top-Down",
+        "Cute",
+        "Short",
+        "Retro",
+        "Adventure",
+        "Puzzle",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/screenshots/ZpJfMD.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/screenshots/c1l8n1.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/screenshots/OkVpWD.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/screenshots/UgMuD8.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "howdyriceball_polar-peril",
+                    filename: "polarperil_jam.gb",
+                ),
+                Itch(
+                    url: "https://howdyriceball.itch.io/polar-peril",
+                ),
+            ],
+        ),
     ],
 )

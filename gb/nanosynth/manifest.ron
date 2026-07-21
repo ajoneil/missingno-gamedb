@@ -1,7 +1,20 @@
 (
     title: "nanosynth",
     developer: Some("Oliver Wittchow"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nanosynth", filename: "nanosynth.gb")),
-    screenshots: ["nanosynth.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nanosynth/nanosynth.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nanosynth/nanosynth.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "nanosynth",
+                    filename: "nanosynth.gb",
+                ),
+            ],
+        ),
+    ],
 )

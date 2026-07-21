@@ -1,11 +1,32 @@
 (
     title: "Random Walk Generator",
     developer: Some("I_dig_holes"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "i-dig-holes_random-walk-generator", filename: "RWG_jam.gb")),
-    tags: ["2D", "Pixel Art", "gb-studio", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/y6r7mO.png", "screenshots/LbQkDo.png", "screenshots/wcSOFs.png", "screenshots/NJowEx.png"],
-    links: [
-        (name: "Website", url: "https://i-dig-holes.itch.io/random-walk-generator", link_type: Wiki),
+    tags: [
+        "2D",
+        "Pixel Art",
+        "gb-studio",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/i-dig-holes_random-walk-generator/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/i-dig-holes_random-walk-generator/screenshots/y6r7mO.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/i-dig-holes_random-walk-generator/screenshots/LbQkDo.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/i-dig-holes_random-walk-generator/screenshots/wcSOFs.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/i-dig-holes_random-walk-generator/screenshots/NJowEx.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "i-dig-holes_random-walk-generator",
+                    filename: "RWG_jam.gb",
+                ),
+                Itch(
+                    url: "https://i-dig-holes.itch.io/random-walk-generator",
+                ),
+            ],
+        ),
     ],
 )

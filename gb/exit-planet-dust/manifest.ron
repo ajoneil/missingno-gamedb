@@ -1,9 +1,25 @@
 (
     title: "Exit Planet Dust",
-    date: Some("2000-04-01"),
     developer: Some("Robotech"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "exit-planet-dust", filename: "b004.gb")),
-    tags: ["Action", "event:liksang2000-compo"],
-    screenshots: ["b004-0.png"],
+    tags: [
+        "Action",
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/exit-planet-dust/b004-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/exit-planet-dust/b004-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "exit-planet-dust",
+                    filename: "b004.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,13 +1,32 @@
 (
     title: "River Styx Round-Up",
-    date: Some("2023-05-20T21:41:00"),
     developer: Some("IdnitMedia, RABBITKING"),
     description: Some("Your friendly neighborhood Ferryman"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "river-styx-round-up", filename: "River_Styx_Round-Up_1.0.0.gb")),
-    tags: ["Puzzle", "event:gbshowdown23"],
-    screenshots: ["cover.png", "TtgLu4.png", "TeuKA1.png", "W12CgZ.png", "mRB4Wo.png", "N12Bjrp.png"],
-    links: [
-        (name: "Website", url: "https://idnitmedia.itch.io/river-styx-round-up", link_type: Wiki),
+    tags: [
+        "Puzzle",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/TtgLu4.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/TeuKA1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/W12CgZ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/mRB4Wo.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/N12Bjrp.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "river-styx-round-up",
+                    filename: "River_Styx_Round-Up_1.0.0.gb",
+                ),
+                Itch(
+                    url: "https://idnitmedia.itch.io/river-styx-round-up",
+                ),
+            ],
+        ),
     ],
 )

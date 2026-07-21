@@ -1,8 +1,23 @@
 (
     title: "Video Poker",
     developer: Some("David Etherton"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "video-poker", filename: "VideoPoker.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_video_poker.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/video-poker/20110402_video_poker.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/video-poker/20110402_video_poker.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "video-poker",
+                    filename: "VideoPoker.cgb",
+                ),
+            ],
+        ),
+    ],
 )

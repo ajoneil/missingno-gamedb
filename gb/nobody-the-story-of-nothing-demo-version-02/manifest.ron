@@ -1,7 +1,20 @@
 (
     title: "Nobody: The Story of Nothing (Demo Version 0.2)",
     developer: Some("Lyth"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nobody-the-story-of-nothing-demo-version-02", filename: "nobodydemo.gb")),
-    screenshots: ["storyofnothingdemo.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nobody-the-story-of-nothing-demo-version-02/storyofnothingdemo.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nobody-the-story-of-nothing-demo-version-02/storyofnothingdemo.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "nobody-the-story-of-nothing-demo-version-02",
+                    filename: "nobodydemo.gb",
+                ),
+            ],
+        ),
+    ],
 )

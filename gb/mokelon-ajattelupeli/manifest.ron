@@ -1,8 +1,21 @@
 (
     title: "Mökelön ajattelupeli",
-    date: Some("2024-10-05"),
     developer: Some("Ajatustenhautomopaja"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mokelon-ajattelupeli", filename: "mokelon-ajattelupeli.gb")),
-    screenshots: ["mokelon-ajattelupeli.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mokelon-ajattelupeli/mokelon-ajattelupeli.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mokelon-ajattelupeli/mokelon-ajattelupeli.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-10-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "mokelon-ajattelupeli",
+                    filename: "mokelon-ajattelupeli.gb",
+                ),
+            ],
+        ),
+    ],
 )

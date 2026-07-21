@@ -1,8 +1,28 @@
 (
     title: "This Side Up",
-    date: Some("2004-01-01"),
     developer: Some("Amuq Creations"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "this-side-up", filename: "q-tsu.gb")),
-    screenshots: ["235.png", "236.png", "237.png", "238.png", "239.png", "240.png", "241.png", "242.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/235.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/235.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/236.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/237.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/238.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/239.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/240.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/241.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/242.png",
+    ],
+    releases: [
+        (
+            date: Some("2004-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "this-side-up",
+                    filename: "q-tsu.gb",
+                ),
+            ],
+        ),
+    ],
 )

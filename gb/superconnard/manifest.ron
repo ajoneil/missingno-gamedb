@@ -1,13 +1,37 @@
 (
     title: "Super Connard",
     developer: Some("furrtek"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "superconnard", filename: "sc_prod.gb")),
     license: Some("CC-BY-NC-SA-4.0"),
-    tags: ["Open Source"],
-    screenshots: ["screenshot-1.png", "screenshot-2.png"],
+    tags: [
+        "Open Source",
+    ],
     links: [
-        (name: "Website", url: "http://furrtek.free.fr/superconnard/index.php", link_type: Wiki),
-        (name: "Source Code", url: "http://furrtek.free.fr/superconnard/source.php", link_type: Source),
+        (
+            name: "Website",
+            url: "http://furrtek.free.fr/superconnard/index.php",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "http://furrtek.free.fr/superconnard/source.php",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/superconnard/screenshot-1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/superconnard/screenshot-1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/superconnard/screenshot-2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "superconnard",
+                    filename: "sc_prod.gb",
+                ),
+            ],
+        ),
     ],
 )

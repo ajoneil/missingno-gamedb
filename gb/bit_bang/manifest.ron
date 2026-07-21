@@ -1,15 +1,37 @@
 (
     title: "Bit Bang",
-    date: Some("2024-06-09"),
     developer: Some("StudioGuma"),
     description: Some("A numbers game"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bit_bang", filename: "bit_bang.gb")),
     license: Some("GPL-3.0-or-later"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["bit_bang_logo.png"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Website", url: "https://studioguma.itch.io/bit-bang", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/StudioGuma/bit_bang", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/StudioGuma/bit_bang",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bit_bang/bit_bang_logo.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bit_bang/bit_bang_logo.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-06-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "bit_bang",
+                    filename: "bit_bang.gb",
+                ),
+                Itch(
+                    url: "https://studioguma.itch.io/bit-bang",
+                ),
+            ],
+        ),
     ],
 )

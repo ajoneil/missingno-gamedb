@@ -1,7 +1,20 @@
 (
     title: "JetSet Willy",
     developer: Some("Gambit Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jetset-willy", filename: "jetset-willy.gb")),
-    screenshots: ["jetset-willy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jetset-willy/jetset-willy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jetset-willy/jetset-willy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "jetset-willy",
+                    filename: "jetset-willy.gb",
+                ),
+            ],
+        ),
+    ],
 )

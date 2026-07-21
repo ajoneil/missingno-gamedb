@@ -1,7 +1,20 @@
 (
     title: "Dynamite",
     developer: Some("MattPW"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dynamite", filename: "Dynamite.gb")),
-    screenshots: ["20110402_dynamite.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dynamite/20110402_dynamite.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dynamite/20110402_dynamite.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "dynamite",
+                    filename: "Dynamite.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,13 +1,34 @@
 (
     title: "Tyro Shaman",
-    date: Some("20250308"),
     developer: Some("Tristan Repolusk"),
-    description: Some("The Sun Festival is about to start! But, alas, people have become sick. You are Naura, the Shaman's apprentice, and you are destined to perform rhythmic rituals on the diseased by healing their spirits with your tambourine. Can you save the Sun Festival? For a detailed description of the game mechanics, please refer to the instruction manual in the GitHub repo."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tyro-shaman", filename: "TyroShaman.gbc")),
-    tags: ["Open Source", "Adventure"],
-    screenshots: ["1.png", "2.png", "3.png"],
+    description: Some("The Sun Festival is about to start! But, alas, people have become sick. You are Naura, the Shaman\'s apprentice, and you are destined to perform rhythmic rituals on the diseased by healing their spirits with your tambourine. Can you save the Sun Festival? For a detailed description of the game mechanics, please refer to the instruction manual in the GitHub repo."),
+    tags: [
+        "Open Source",
+        "Adventure",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/meteoritenhagel/TyroShaman", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/meteoritenhagel/TyroShaman",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tyro-shaman/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tyro-shaman/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tyro-shaman/2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tyro-shaman/3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "tyro-shaman",
+                    filename: "TyroShaman.gbc",
+                ),
+            ],
+        ),
     ],
 )

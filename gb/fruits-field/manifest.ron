@@ -1,8 +1,21 @@
 (
     title: "Fruits Field",
-    date: Some("1998-08-13"),
     developer: Some("Eiji Kako"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fruits-field", filename: "FRUIT.GB")),
-    screenshots: ["FRUIT-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fruits-field/FRUIT-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fruits-field/FRUIT-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-08-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "fruits-field",
+                    filename: "FRUIT.GB",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,25 @@
 (
     title: "GBFlyer",
-    date: Some("2000-04-01"),
     developer: Some("Bob - One Man Band"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbflyer", filename: "a009.gb")),
-    tags: ["Action", "event:liksang2000-compo"],
-    screenshots: ["a009-0.png"],
+    tags: [
+        "Action",
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbflyer/a009-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbflyer/a009-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "gbflyer",
+                    filename: "a009.gb",
+                ),
+            ],
+        ),
+    ],
 )

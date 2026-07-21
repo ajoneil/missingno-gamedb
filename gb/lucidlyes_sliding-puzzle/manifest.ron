@@ -1,11 +1,27 @@
 (
     title: "Sliding Puzzle",
     developer: Some("LucidLyes"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lucidlyes_sliding-puzzle", filename: "Sliding_Puzzle_GB.gb")),
-    tags: ["Puzzle", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/7RvIii.png"],
-    links: [
-        (name: "Website", url: "https://lucidlyes.itch.io/sliding-puzzle", link_type: Wiki),
+    tags: [
+        "Puzzle",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lucidlyes_sliding-puzzle/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lucidlyes_sliding-puzzle/screenshots/7RvIii.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "lucidlyes_sliding-puzzle",
+                    filename: "Sliding_Puzzle_GB.gb",
+                ),
+                Itch(
+                    url: "https://lucidlyes.itch.io/sliding-puzzle",
+                ),
+            ],
+        ),
     ],
 )

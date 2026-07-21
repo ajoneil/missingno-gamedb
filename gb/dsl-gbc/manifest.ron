@@ -1,8 +1,21 @@
 (
     title: "How to code your GameBoy part 1",
-    date: Some("1995-08-13"),
     developer: Some("HeroZero/DiESEL"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dsl-gbc", filename: "DSL-GBC.GB")),
-    screenshots: ["DSL-GBC-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dsl-gbc/DSL-GBC-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dsl-gbc/DSL-GBC-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1995-08-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "dsl-gbc",
+                    filename: "DSL-GBC.GB",
+                ),
+            ],
+        ),
+    ],
 )

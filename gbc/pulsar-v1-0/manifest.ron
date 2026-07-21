@@ -1,10 +1,25 @@
 (
     title: "Pulsar v1.0",
-    date: Some("2001-09-27"),
     developer: Some("ph0x"),
-    description: Some("Pulsar is a GameBoy update of the old scrolling race game. Keep your ship on the road or 'crash'."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pulsar-v1-0", filename: "pulsar.gbc")),
-    tags: ["event:freedom-2001-gameboy-developers-competition"],
-    screenshots: ["20110402_pulsar.png"],
+    description: Some("Pulsar is a GameBoy update of the old scrolling race game. Keep your ship on the road or \'crash\'."),
+    tags: [
+        "event:freedom-2001-gameboy-developers-competition",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pulsar-v1-0/20110402_pulsar.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pulsar-v1-0/20110402_pulsar.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-09-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "pulsar-v1-0",
+                    filename: "pulsar.gbc",
+                ),
+            ],
+        ),
+    ],
 )

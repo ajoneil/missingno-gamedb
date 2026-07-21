@@ -1,8 +1,21 @@
 (
-    title: "Stoic Software's Tribute to the United States",
-    date: Some("2001-09-13"),
+    title: "Stoic Software\'s Tribute to the United States",
     developer: Some("Stoic Software"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "stoic-software-tribute-usa", filename: "Stoic Software's Tribute to the United States (PD) [C].gbc")),
-    screenshots: ["Stoic Software's Tribute to the United States (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stoic-software-tribute-usa/Stoic Software\'s Tribute to the United States (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stoic-software-tribute-usa/Stoic Software\'s Tribute to the United States (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2001-09-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "stoic-software-tribute-usa",
+                    filename: "Stoic Software\'s Tribute to the United States (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

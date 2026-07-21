@@ -1,11 +1,28 @@
 (
     title: "SAND - Survive A Neverending Desert",
-    date: Some("2018-05-06"),
     developer: Some("jobalisk"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sand", filename: "sand.gb")),
-    screenshots: ["sand.png"],
     links: [
-        (name: "Website", url: "http://www.eternitywarestudios.xyz/download.html", link_type: Wiki),
+        (
+            name: "Website",
+            url: "http://www.eternitywarestudios.xyz/download.html",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sand/sand.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sand/sand.png",
+    ],
+    releases: [
+        (
+            date: Some("2018-05-06"),
+            sources: [
+                HomebrewHub(
+                    slug: "sand",
+                    filename: "sand.gb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,11 +1,35 @@
 (
     title: "Operation: Followthrough",
     developer: Some("Cobra!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "stormplay_operation-followthrough", filename: "OPERATIONFOLLOWTHROUGH_Jam.gb")),
-    tags: ["No AI", "On-Rails Shooter", "Shooter", "Arcade", "Homebrew", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/bJ52Bul.png", "screenshots/VHyhiG.png", "screenshots/zypx2BZ.png", "screenshots/xxCayP.png", "screenshots/ccDwb1.png"],
-    links: [
-        (name: "Website", url: "https://stormplay.itch.io/operation-followthrough", link_type: Wiki),
+    tags: [
+        "No AI",
+        "On-Rails Shooter",
+        "Shooter",
+        "Arcade",
+        "Homebrew",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/screenshots/bJ52Bul.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/screenshots/VHyhiG.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/screenshots/zypx2BZ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/screenshots/xxCayP.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/screenshots/ccDwb1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "stormplay_operation-followthrough",
+                    filename: "OPERATIONFOLLOWTHROUGH_Jam.gb",
+                ),
+                Itch(
+                    url: "https://stormplay.itch.io/operation-followthrough",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,11 +1,28 @@
 (
     title: "Rick Dangerous 2",
-    date: Some("2017-10-07"),
     developer: Some("Mills"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rick2", filename: "Rick2.gbc")),
-    screenshots: ["Rick2.png"],
     links: [
-        (name: "Website", url: "https://gbdev.gg8.se/forums/viewtopic.php?id=384", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://gbdev.gg8.se/forums/viewtopic.php?id=384",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rick2/Rick2.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rick2/Rick2.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-10-07"),
+            sources: [
+                HomebrewHub(
+                    slug: "rick2",
+                    filename: "Rick2.gbc",
+                ),
+            ],
+        ),
     ],
 )

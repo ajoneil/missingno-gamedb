@@ -1,7 +1,20 @@
 (
     title: "Nerdrix",
     developer: Some("Chip Oukoku"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nerdrix", filename: "nerdrix.gb")),
-    screenshots: ["nerdrix.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nerdrix/nerdrix.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nerdrix/nerdrix.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "nerdrix",
+                    filename: "nerdrix.gb",
+                ),
+            ],
+        ),
+    ],
 )

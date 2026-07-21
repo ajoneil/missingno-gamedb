@@ -1,8 +1,21 @@
 (
     title: "Lemon Player Demo",
-    date: Some("2000-01-01"),
     developer: Some("Lemon"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lemon-player-demo", filename: "Lemon Player Demo by Lemon Productions (PD).gb")),
-    screenshots: ["Lemon Player Demo by Lemon Productions (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lemon-player-demo/Lemon Player Demo by Lemon Productions (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lemon-player-demo/Lemon Player Demo by Lemon Productions (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "lemon-player-demo",
+                    filename: "Lemon Player Demo by Lemon Productions (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

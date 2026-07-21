@@ -1,11 +1,28 @@
 (
     title: "Snake",
-    date: Some("2022-05-22"),
     developer: Some("Christian Reinbacher"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-snake-reini1305", filename: "snake.gb")),
-    screenshots: ["title.png"],
     links: [
-        (name: "Website", url: "https://github.com/reini1305/gb_snake", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://github.com/reini1305/gb_snake",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-snake-reini1305/title.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-snake-reini1305/title.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-05-22"),
+            sources: [
+                HomebrewHub(
+                    slug: "gb-snake-reini1305",
+                    filename: "snake.gb",
+                ),
+            ],
+        ),
     ],
 )

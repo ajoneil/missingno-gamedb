@@ -1,8 +1,21 @@
 (
     title: "Intro #3 (Cannon Fodder)",
-    date: Some("2002-01-01"),
     developer: Some("Capital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "intro-3-capital", filename: "cpl-i_03.gbc")),
-    screenshots: ["206.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-3-capital/206.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-3-capital/206.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "intro-3-capital",
+                    filename: "cpl-i_03.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Terminator 2",
-    date: Some("1999-01-01"),
     developer: Some("Megaman_X"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "terminator-2", filename: "T2.gb")),
-    screenshots: ["terminator-2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/terminator-2/terminator-2.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/terminator-2/terminator-2.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "terminator-2",
+                    filename: "T2.gb",
+                ),
+            ],
+        ),
+    ],
 )

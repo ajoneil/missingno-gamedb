@@ -1,7 +1,20 @@
 (
     title: "Tic-Tac-Toe",
     developer: Some("Johnny13"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tic-tac-toe", filename: "TicTacToe.GB")),
-    screenshots: ["20110402_tic-tac-toe.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tic-tac-toe/20110402_tic-tac-toe.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tic-tac-toe/20110402_tic-tac-toe.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "tic-tac-toe",
+                    filename: "TicTacToe.GB",
+                ),
+            ],
+        ),
+    ],
 )

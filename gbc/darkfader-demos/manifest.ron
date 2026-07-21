@@ -1,8 +1,21 @@
 (
     title: "DarkFader Demo Collection",
-    date: Some("1999-09-09"),
     developer: Some("DarkFader"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "darkfader-demos", filename: "MacGB Demo by DarkFader (PD) [C].gbc")),
-    screenshots: ["MacGB Demo by DarkFader (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/darkfader-demos/MacGB Demo by DarkFader (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/darkfader-demos/MacGB Demo by DarkFader (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("1999-09-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "darkfader-demos",
+                    filename: "MacGB Demo by DarkFader (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

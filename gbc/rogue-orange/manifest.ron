@@ -1,8 +1,23 @@
 (
     title: "Rogue Orange",
     developer: Some("Rich Aidley"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rogue-orange", filename: "RougeOrange.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_rouge_orange.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rogue-orange/20110402_rouge_orange.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rogue-orange/20110402_rouge_orange.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "rogue-orange",
+                    filename: "RougeOrange.cgb",
+                ),
+            ],
+        ),
+    ],
 )

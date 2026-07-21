@@ -1,8 +1,21 @@
 (
     title: "Southern Dreams Smart Demo",
-    date: Some("2000-08-27"),
     developer: Some("Southern Dreams"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "southern-dreams-smart-demo", filename: "Southern Dreams - SMART Demo (Quang2000) (PD) [C].gbc")),
-    screenshots: ["Southern Dreams - SMART Demo (Quang2000) (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams-smart-demo/Southern Dreams - SMART Demo (Quang2000) (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams-smart-demo/Southern Dreams - SMART Demo (Quang2000) (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "southern-dreams-smart-demo",
+                    filename: "Southern Dreams - SMART Demo (Quang2000) (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

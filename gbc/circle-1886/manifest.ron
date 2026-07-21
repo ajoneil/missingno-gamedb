@@ -1,8 +1,22 @@
 (
     title: "Circle 1886",
-    date: Some("2000-01-01"),
     developer: Some("Carillon Cyberiad"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "circle-1886", filename: "CNCD_CIRCLE1886.gbc")),
-    screenshots: ["47.png", "48.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/circle-1886/47.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/circle-1886/47.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/circle-1886/48.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "circle-1886",
+                    filename: "CNCD_CIRCLE1886.gbc",
+                ),
+            ],
+        ),
+    ],
 )

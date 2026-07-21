@@ -1,7 +1,20 @@
 (
     title: "SIERPINSKIBOY",
     developer: Some("basxto"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sierpinskiboy", filename: "sierpinskiboy.cgb")),
-    screenshots: ["sierpinskiboy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinskiboy/sierpinskiboy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinskiboy/sierpinskiboy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "sierpinskiboy",
+                    filename: "sierpinskiboy.cgb",
+                ),
+            ],
+        ),
+    ],
 )

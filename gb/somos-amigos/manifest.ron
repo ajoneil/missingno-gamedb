@@ -2,11 +2,26 @@
     title: "Somos Amigos",
     developer: Some("El_Papu1111"),
     description: Some("Jam Game"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "somos-amigos", filename: "game.gb")),
-    tags: ["event:gbshowdown23"],
-    screenshots: ["cover.png", "XdokY1.png"],
-    links: [
-        (name: "Website", url: "https://el-papu1111.itch.io/somos-amigos", link_type: Wiki),
+    tags: [
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/somos-amigos/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/somos-amigos/XdokY1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "somos-amigos",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://el-papu1111.itch.io/somos-amigos",
+                ),
+            ],
+        ),
     ],
 )

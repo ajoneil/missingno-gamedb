@@ -1,11 +1,31 @@
 (
     title: "Millennium Gun",
     developer: Some("Finny (@flightbun)"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "flightbun_millennium-gun", filename: "millennium-gun_jam.gb")),
-    tags: ["weird", "8-Bit", "Wild West", "Sci-fi", "Platformer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/O96gkJ.png"],
-    links: [
-        (name: "Website", url: "https://flightbun.itch.io/millennium-gun", link_type: Wiki),
+    tags: [
+        "weird",
+        "8-Bit",
+        "Wild West",
+        "Sci-fi",
+        "Platformer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flightbun_millennium-gun/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flightbun_millennium-gun/screenshots/O96gkJ.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "flightbun_millennium-gun",
+                    filename: "millennium-gun_jam.gb",
+                ),
+                Itch(
+                    url: "https://flightbun.itch.io/millennium-gun",
+                ),
+            ],
+        ),
     ],
 )

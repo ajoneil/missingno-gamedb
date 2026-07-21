@@ -1,8 +1,21 @@
 (
     title: "SaB0t4g3 Color Demo",
-    date: Some("1999-02-23"),
     developer: Some("SaB0t4g3"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sabotage-color-demo", filename: "Sabotage Color Demo (PD) [C].gbc")),
-    screenshots: ["Sabotage Color Demo (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sabotage-color-demo/Sabotage Color Demo (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sabotage-color-demo/Sabotage Color Demo (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("1999-02-23"),
+            sources: [
+                HomebrewHub(
+                    slug: "sabotage-color-demo",
+                    filename: "Sabotage Color Demo (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

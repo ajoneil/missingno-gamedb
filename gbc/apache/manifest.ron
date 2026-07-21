@@ -2,8 +2,24 @@
     title: "Apache",
     developer: Some("Pawel Labojko, Black Box, Guiseppe Musardo, Jukka-Pekka, Luukkonen"),
     description: Some("Aim to destroy other enemies and proceed to the victory"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "apache", filename: "Apache.cgb")),
-    tags: ["Action", "event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_apache.png"],
+    tags: [
+        "Action",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/apache/20110402_apache.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/apache/20110402_apache.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "apache",
+                    filename: "Apache.cgb",
+                ),
+            ],
+        ),
+    ],
 )

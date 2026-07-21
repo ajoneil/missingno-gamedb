@@ -1,11 +1,30 @@
 (
     title: "Game Boy Color Picker",
-    date: Some("2022-05-15"),
     developer: Some("xenophile"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "game-boy-color-picker", filename: "GBColorPicker.gb")),
-    screenshots: ["166titlescreen.png", "166screenshot1.png", "166screenshot2.png"],
     links: [
-        (name: "Website", url: "https://www.romhacking.net/homebrew/166/", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://www.romhacking.net/homebrew/166/",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-color-picker/166titlescreen.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-color-picker/166titlescreen.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-color-picker/166screenshot1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-color-picker/166screenshot2.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-05-15"),
+            sources: [
+                HomebrewHub(
+                    slug: "game-boy-color-picker",
+                    filename: "GBColorPicker.gb",
+                ),
+            ],
+        ),
     ],
 )

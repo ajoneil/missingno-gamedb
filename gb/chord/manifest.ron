@@ -1,7 +1,20 @@
 (
     title: "Chord",
     developer: Some("Humble"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "chord", filename: "chord.gb")),
-    screenshots: ["chord.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chord/chord.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chord/chord.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "chord",
+                    filename: "chord.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,11 +1,29 @@
 (
     title: "Text Reader GB",
     developer: Some("Rodrigo Rocha"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rodrigocard_text-reader-gb", filename: "TXTReaderGB-DEMO.gb")),
-    tags: ["tool", "application", "Text based", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/D1kQwh.jpg"],
-    links: [
-        (name: "Website", url: "https://rodrigocard.itch.io/text-reader-gb", link_type: Wiki),
+    tags: [
+        "tool",
+        "application",
+        "Text based",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rodrigocard_text-reader-gb/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rodrigocard_text-reader-gb/screenshots/D1kQwh.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "rodrigocard_text-reader-gb",
+                    filename: "TXTReaderGB-DEMO.gb",
+                ),
+                Itch(
+                    url: "https://rodrigocard.itch.io/text-reader-gb",
+                ),
+            ],
+        ),
     ],
 )

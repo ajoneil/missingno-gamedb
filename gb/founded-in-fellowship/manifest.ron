@@ -1,13 +1,33 @@
 (
     title: "Founded in Fellowship",
-    date: Some("2023-05-20T21:28:00"),
     developer: Some("ElectroParlor Games"),
     description: Some("The Friendly Witch Town Management Sim!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "founded-in-fellowship", filename: "FoundedinFellowship_1.gb")),
-    tags: ["Simulation", "Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "w1FOoV.png", "3anaYx.png", "lcXF90.png", "KCs9NJ.png", "8ypayi.png"],
-    links: [
-        (name: "Website", url: "https://electroparlorgames.itch.io/founded-in-fellowship", link_type: Wiki),
+    tags: [
+        "Simulation",
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/w1FOoV.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/3anaYx.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/lcXF90.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/KCs9NJ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/8ypayi.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "founded-in-fellowship",
+                    filename: "FoundedinFellowship_1.gb",
+                ),
+                Itch(
+                    url: "https://electroparlorgames.itch.io/founded-in-fellowship",
+                ),
+            ],
+        ),
     ],
 )

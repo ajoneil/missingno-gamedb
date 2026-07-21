@@ -1,11 +1,35 @@
 (
     title: "Princess and Wizard: Town of Labu",
     developer: Some("redoctorok"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "redoctorok_princess-and-wizard-town-of-labu", filename: "Princess and Wizard_jam.gb")),
-    tags: ["sword", "originalgameboy", "GBJam", "princess", "Adventure", "Wizards", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/sayyRn.gif", "screenshots/umHEuj.png", "screenshots/9MH2FvS.png", "screenshots/Izqjhp.png"],
-    links: [
-        (name: "Website", url: "https://redoctorok.itch.io/princess-and-wizard-town-of-labu", link_type: Wiki),
+    tags: [
+        "sword",
+        "originalgameboy",
+        "GBJam",
+        "princess",
+        "Adventure",
+        "Wizards",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/redoctorok_princess-and-wizard-town-of-labu/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/redoctorok_princess-and-wizard-town-of-labu/screenshots/sayyRn.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/redoctorok_princess-and-wizard-town-of-labu/screenshots/umHEuj.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/redoctorok_princess-and-wizard-town-of-labu/screenshots/9MH2FvS.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/redoctorok_princess-and-wizard-town-of-labu/screenshots/Izqjhp.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "redoctorok_princess-and-wizard-town-of-labu",
+                    filename: "Princess and Wizard_jam.gb",
+                ),
+                Itch(
+                    url: "https://redoctorok.itch.io/princess-and-wizard-town-of-labu",
+                ),
+            ],
+        ),
     ],
 )

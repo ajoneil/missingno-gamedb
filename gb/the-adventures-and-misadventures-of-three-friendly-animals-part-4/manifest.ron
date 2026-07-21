@@ -1,12 +1,27 @@
 (
-    title: "The Adventures and Misadventures of Three FriendlyÂ Animals:Â PartÂ 4",
-    date: Some("2023-05-20T21:30:00"),
+    title: "The Adventures and Misadventures of Three FriendlyÂ\u{a0}Animals:Â\u{a0}PartÂ\u{a0}4",
     developer: Some("thincavalcanti"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-adventures-and-misadventures-of-three-friendly-animals-part-4", filename: "TAMTFA.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "ClEKeX.png"],
-    links: [
-        (name: "Website", url: "https://thincavalcanti.itch.io/the-adventures-and-misadventures-of-three-friendly-animals-part-4", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-adventures-and-misadventures-of-three-friendly-animals-part-4/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-adventures-and-misadventures-of-three-friendly-animals-part-4/ClEKeX.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-adventures-and-misadventures-of-three-friendly-animals-part-4",
+                    filename: "TAMTFA.gb",
+                ),
+                Itch(
+                    url: "https://thincavalcanti.itch.io/the-adventures-and-misadventures-of-three-friendly-animals-part-4",
+                ),
+            ],
+        ),
     ],
 )

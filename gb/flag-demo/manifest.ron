@@ -1,7 +1,20 @@
 (
     title: "Flag Demo",
-    date: Some("1998-04-04"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "flag-demo", filename: "Flag_Demo.gb")),
-    screenshots: ["Flag_Demo-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flag-demo/Flag_Demo-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/flag-demo/Flag_Demo-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-04-04"),
+            sources: [
+                HomebrewHub(
+                    slug: "flag-demo",
+                    filename: "Flag_Demo.gb",
+                ),
+            ],
+        ),
+    ],
 )

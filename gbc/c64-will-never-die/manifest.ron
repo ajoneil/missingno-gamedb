@@ -1,8 +1,21 @@
 (
     title: "C64 will never die (VIP)",
-    date: Some("2001-01-01"),
     developer: Some("Capital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "c64-will-never-die", filename: "cpl-i_06.gbc")),
-    screenshots: ["210.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/c64-will-never-die/210.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/c64-will-never-die/210.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "c64-will-never-die",
+                    filename: "cpl-i_06.gbc",
+                ),
+            ],
+        ),
+    ],
 )

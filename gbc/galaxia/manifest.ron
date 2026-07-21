@@ -1,7 +1,20 @@
 (
     title: "Galaxia",
     developer: Some("Dox"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "galaxia", filename: "galaxia.gbc")),
-    screenshots: ["20110402_galaxia.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/galaxia/20110402_galaxia.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/galaxia/20110402_galaxia.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "galaxia",
+                    filename: "galaxia.gbc",
+                ),
+            ],
+        ),
+    ],
 )

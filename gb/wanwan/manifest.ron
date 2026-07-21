@@ -1,8 +1,22 @@
 (
     title: "WanWan",
-    date: Some("2000-02-03"),
     developer: Some("Akino Hitoshi"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "wanwan", filename: "WanWan (PD).gb")),
-    screenshots: ["WanWan (PD).png", "WanWan (PD)-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wanwan/WanWan (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wanwan/WanWan (PD).png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wanwan/WanWan (PD)-1.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-02-03"),
+            sources: [
+                HomebrewHub(
+                    slug: "wanwan",
+                    filename: "WanWan (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

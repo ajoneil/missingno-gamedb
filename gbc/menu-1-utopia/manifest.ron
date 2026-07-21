@@ -1,8 +1,21 @@
 (
     title: "Menu #1 (Wings of Fury +2)",
-    date: Some("2000-01-01"),
     developer: Some("Utopia"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-1-utopia", filename: "utp-t_01.gbc")),
-    screenshots: ["222.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-utopia/222.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-utopia/222.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-1-utopia",
+                    filename: "utp-t_01.gbc",
+                ),
+            ],
+        ),
+    ],
 )

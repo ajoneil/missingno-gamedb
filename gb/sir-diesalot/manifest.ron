@@ -1,13 +1,31 @@
 (
     title: "Sir Diesalot",
-    date: Some("2023-05-20T07:08:00"),
     developer: Some("Nemuristar"),
     description: Some("Defeat the great evil!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sir-diesalot", filename: "game.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "dZXedB.png", "4hVG1x.png", "lo8Rjm.png", "HqAiH7.png"],
-    links: [
-        (name: "Website", url: "https://nemuristar.itch.io/sir-diesalot", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sir-diesalot/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sir-diesalot/dZXedB.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sir-diesalot/4hVG1x.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sir-diesalot/lo8Rjm.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sir-diesalot/HqAiH7.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "sir-diesalot",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://nemuristar.itch.io/sir-diesalot",
+                ),
+            ],
+        ),
     ],
 )

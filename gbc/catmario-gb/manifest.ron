@@ -2,13 +2,38 @@
     title: "CatMario-GB",
     developer: Some("Lazy_V"),
     description: Some("GB version of CatMario."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "catmario-gb", filename: "catmario-gb.gbc")),
     license: Some("MIT"),
-    tags: ["Open Source", "Platform"],
-    screenshots: ["title.png", "lives.png", "level1_1.png", "death.png"],
+    tags: [
+        "Open Source",
+        "Platform",
+    ],
     links: [
-        (name: "Website", url: "https://lazy-v.itch.io/catmario-gb", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/zzxzzk115/CatMarioGB", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/zzxzzk115/CatMarioGB",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/catmario-gb/title.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/catmario-gb/title.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/catmario-gb/lives.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/catmario-gb/level1_1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/catmario-gb/death.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "catmario-gb",
+                    filename: "catmario-gb.gbc",
+                ),
+                Itch(
+                    url: "https://lazy-v.itch.io/catmario-gb",
+                ),
+            ],
+        ),
     ],
 )

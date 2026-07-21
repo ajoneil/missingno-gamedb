@@ -1,8 +1,29 @@
 (
     title: "20y",
-    date: Some("2009-01-01"),
     developer: Some("Snorpung"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "20y", filename: "20y.gb")),
-    screenshots: ["538.png", "539.png", "540.png", "541.png", "542.png", "543.png", "544.png", "545.png", "546.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/538.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/538.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/539.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/540.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/541.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/542.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/543.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/544.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/545.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/546.png",
+    ],
+    releases: [
+        (
+            date: Some("2009-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "20y",
+                    filename: "20y.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,11 +1,27 @@
 (
     title: "GBCompo Cargame 2025",
     developer: Some("JL It & Media"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jlim_gbcompo-2025", filename: "game.gb")),
-    tags: ["Racing", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/7N2BLiY.png"],
-    links: [
-        (name: "Website", url: "https://jlim.itch.io/gbcompo-2025", link_type: Wiki),
+    tags: [
+        "Racing",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jlim_gbcompo-2025/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jlim_gbcompo-2025/screenshots/7N2BLiY.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "jlim_gbcompo-2025",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://jlim.itch.io/gbcompo-2025",
+                ),
+            ],
+        ),
     ],
 )

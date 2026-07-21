@@ -1,7 +1,20 @@
 (
     title: "Ichi Ni San",
     developer: Some("QuangDX"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ichi-ni-san", filename: "ichi-ni-san.gb")),
-    screenshots: ["ichi-ni-san.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ichi-ni-san/ichi-ni-san.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ichi-ni-san/ichi-ni-san.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "ichi-ni-san",
+                    filename: "ichi-ni-san.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Kenny And The Evil Blob",
     developer: Some("Kenny Won"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "kenny-and-the-evil-blob", filename: "KennyAndTheEvilBlob.gbc")),
-    screenshots: ["20110402_kenny_and_the_evil_blob.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kenny-and-the-evil-blob/20110402_kenny_and_the_evil_blob.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kenny-and-the-evil-blob/20110402_kenny_and_the_evil_blob.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "kenny-and-the-evil-blob",
+                    filename: "KennyAndTheEvilBlob.gbc",
+                ),
+            ],
+        ),
+    ],
 )

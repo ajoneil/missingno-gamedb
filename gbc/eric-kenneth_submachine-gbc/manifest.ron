@@ -1,11 +1,35 @@
 (
     title: "Submachine GBC Demo",
     developer: Some("Eric Kenneth"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "eric-kenneth_submachine-gbc", filename: "SubmachineGBC_jam.gbc")),
-    tags: ["Point & Click", "Demake", "Adventure", "Atmospheric", "Puzzle", "event:gbcompo25"],
-    screenshots: ["cover.jpeg", "screenshots/xp55mZ.png", "screenshots/oXKBdI.png", "screenshots/7Nc6xX.png", "screenshots/C2i06D.png"],
-    links: [
-        (name: "Website", url: "https://eric-kenneth.itch.io/submachine-gbc", link_type: Wiki),
+    tags: [
+        "Point & Click",
+        "Demake",
+        "Adventure",
+        "Atmospheric",
+        "Puzzle",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/cover.jpeg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/cover.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/screenshots/xp55mZ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/screenshots/oXKBdI.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/screenshots/7Nc6xX.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/screenshots/C2i06D.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "eric-kenneth_submachine-gbc",
+                    filename: "SubmachineGBC_jam.gbc",
+                ),
+                Itch(
+                    url: "https://eric-kenneth.itch.io/submachine-gbc",
+                ),
+            ],
+        ),
     ],
 )

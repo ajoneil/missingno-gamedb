@@ -2,8 +2,24 @@
     title: "Oyoyo",
     developer: Some("Lemon Production"),
     description: Some("Oyoyo is a game in a medieval time and start in a castle, you will need to use all your skill to pass the traps and dangerous places ! 😉 … (just kidding) and as well you will encounter a terrible gardian … MUSHBACK !! so to pass your way and found money during your quest, you will need to hit him several times…"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "oyoyo", filename: "Oyoyo.gbc")),
-    tags: ["Platform", "event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_oyoyo.png"],
+    tags: [
+        "Platform",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oyoyo/20110402_oyoyo.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oyoyo/20110402_oyoyo.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "oyoyo",
+                    filename: "Oyoyo.gbc",
+                ),
+            ],
+        ),
+    ],
 )

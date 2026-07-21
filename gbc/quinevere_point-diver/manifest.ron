@@ -1,10 +1,22 @@
 (
     title: "Point Diver",
     developer: Some("quinevere"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "quinevere_point-diver", filename: "pointdiver_jam.gbc")),
-    tags: ["underwater", "Female Protagonist", "event:gbcompo25"],
-    links: [
-        (name: "Website", url: "https://quinevere.itch.io/point-diver", link_type: Wiki),
+    tags: [
+        "underwater",
+        "Female Protagonist",
+        "event:gbcompo25",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "quinevere_point-diver",
+                    filename: "pointdiver_jam.gbc",
+                ),
+                Itch(
+                    url: "https://quinevere.itch.io/point-diver",
+                ),
+            ],
+        ),
     ],
 )

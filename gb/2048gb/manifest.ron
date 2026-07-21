@@ -1,12 +1,33 @@
 (
     title: "2048gb",
     developer: Some("Sanqui"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "2048gb", filename: "2048.gb")),
     license: Some("Zlib"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["1.png", "2.png"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/Sanqui/2048-gb", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/Sanqui/2048-gb",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2048gb/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2048gb/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2048gb/2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "2048gb",
+                    filename: "2048.gb",
+                ),
+            ],
+        ),
     ],
 )

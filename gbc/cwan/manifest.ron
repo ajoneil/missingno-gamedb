@@ -1,8 +1,21 @@
 (
     title: "Cwan",
-    date: Some("1999-07-13"),
     developer: Some("Sabre Wulf"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cwan", filename: "Cwan.cgb")),
-    screenshots: ["20110402_cwan.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cwan/20110402_cwan.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cwan/20110402_cwan.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-07-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "cwan",
+                    filename: "Cwan.cgb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "GB 303",
     developer: Some("furrtek"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-303", filename: "gb-303.gb")),
-    screenshots: ["gb-303.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-303/gb-303.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-303/gb-303.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gb-303",
+                    filename: "gb-303.gb",
+                ),
+            ],
+        ),
+    ],
 )

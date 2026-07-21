@@ -1,7 +1,20 @@
 (
     title: "Up on the housetop",
     developer: Some("Jared Chansen"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "up-on-the-housetop", filename: "up-on-the-housetop.gb")),
-    screenshots: ["up-on-the-housetop.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/up-on-the-housetop/up-on-the-housetop.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/up-on-the-housetop/up-on-the-housetop.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "up-on-the-housetop",
+                    filename: "up-on-the-housetop.gb",
+                ),
+            ],
+        ),
+    ],
 )

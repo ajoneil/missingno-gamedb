@@ -1,7 +1,20 @@
 (
     title: "Dan Laser",
     developer: Some("Gambit Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dan-laser", filename: "dan-laser.gb")),
-    screenshots: ["dan-laser.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dan-laser/dan-laser.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dan-laser/dan-laser.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "dan-laser",
+                    filename: "dan-laser.gb",
+                ),
+            ],
+        ),
+    ],
 )

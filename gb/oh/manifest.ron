@@ -1,8 +1,33 @@
 (
     title: "Oh!",
-    date: Some("2009-01-01"),
     developer: Some("Snorpung"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "oh", filename: "oh.gb")),
-    screenshots: ["555.png", "556.png", "557.png", "558.png", "559.png", "560.png", "561.png", "562.png", "563.png", "564.png", "565.png", "566.png", "567.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/555.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/555.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/556.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/557.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/558.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/559.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/560.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/561.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/562.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/563.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/564.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/565.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/566.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/567.png",
+    ],
+    releases: [
+        (
+            date: Some("2009-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "oh",
+                    filename: "oh.gb",
+                ),
+            ],
+        ),
+    ],
 )

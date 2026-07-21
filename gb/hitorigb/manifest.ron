@@ -1,11 +1,28 @@
 (
     title: "HitoriGB",
-    date: Some("2021-11-20"),
     developer: Some("Max Gerckens"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hitorigb", filename: "hitori.gb")),
-    screenshots: ["hitori.png"],
     links: [
-        (name: "Website", url: "https://github.com/MGerckens/HitoriGB", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://github.com/MGerckens/HitoriGB",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hitorigb/hitori.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hitorigb/hitori.png",
+    ],
+    releases: [
+        (
+            date: Some("2021-11-20"),
+            sources: [
+                HomebrewHub(
+                    slug: "hitorigb",
+                    filename: "hitori.gb",
+                ),
+            ],
+        ),
     ],
 )

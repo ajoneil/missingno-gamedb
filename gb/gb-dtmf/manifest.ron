@@ -1,12 +1,33 @@
 (
     title: "DTMF Dialer for GBC",
     developer: Some("TeamKNOx"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-dtmf", filename: "GB-DTMF.GB")),
     license: Some("MIT"),
-    screenshots: ["GB-DTMF-0.png"],
     links: [
-        (name: "Website", url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_softe.html", link_type: Wiki),
-        (name: "Source Code", url: "https://gitlab.com/teamknox/gbcdtmf", link_type: Source),
+        (
+            name: "Website",
+            url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_softe.html",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://gitlab.com/teamknox/gbcdtmf",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-dtmf/GB-DTMF-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-dtmf/GB-DTMF-0.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gb-dtmf",
+                    filename: "GB-DTMF.GB",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,11 +1,28 @@
 (
     title: "Bounced +5",
-    date: Some("2020-09"),
     developer: Some("Capital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bounced-5", filename: "bounced-5.gbc")),
-    screenshots: ["bounced-5.png"],
     links: [
-        (name: "Source Code", url: "https://github.com/DevEd2/BouncedTrainer", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/DevEd2/BouncedTrainer",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bounced-5/bounced-5.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bounced-5/bounced-5.png",
+    ],
+    releases: [
+        (
+            date: Some("2020-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "bounced-5",
+                    filename: "bounced-5.gbc",
+                ),
+            ],
+        ),
     ],
 )

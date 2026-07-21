@@ -1,8 +1,22 @@
 (
     title: "Infinite Bobs",
-    date: Some("2000-01-01"),
     developer: Some("Ethanol Soft Inc"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "infinite-bobs", filename: "InfiniteBobs.gbc")),
-    screenshots: ["215.png", "216.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infinite-bobs/215.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infinite-bobs/215.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/infinite-bobs/216.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "infinite-bobs",
+                    filename: "InfiniteBobs.gbc",
+                ),
+            ],
+        ),
+    ],
 )

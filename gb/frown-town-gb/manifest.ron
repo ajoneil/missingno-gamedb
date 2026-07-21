@@ -1,12 +1,30 @@
 (
     title: "Frown Town GB",
-    date: Some("2023-05-20T19:57:00"),
     developer: Some("Stark"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "frown-town-gb", filename: "game.gb")),
-    tags: ["event:gbshowdown23"],
-    screenshots: ["cover.png", "gC9tj2B.png", "EQ2BtX0.png", "GsVR7r.png", "9HI5Ta.png", "d52epK.png"],
-    links: [
-        (name: "Website", url: "https://starksnow.itch.io/frown-town-gb", link_type: Wiki),
+    tags: [
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/gC9tj2B.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/EQ2BtX0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/GsVR7r.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/9HI5Ta.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/d52epK.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "frown-town-gb",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://starksnow.itch.io/frown-town-gb",
+                ),
+            ],
+        ),
     ],
 )

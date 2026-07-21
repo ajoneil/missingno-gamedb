@@ -1,8 +1,21 @@
 (
     title: "Fire",
-    date: Some("1999-01-01"),
     developer: Some("Dox"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fire", filename: "FIRE.GB")),
-    screenshots: ["153.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fire/153.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fire/153.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "fire",
+                    filename: "FIRE.GB",
+                ),
+            ],
+        ),
+    ],
 )

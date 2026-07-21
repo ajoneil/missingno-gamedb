@@ -1,8 +1,21 @@
 (
     title: "Dodgy Flood/Pour Routine",
-    date: Some("2000-04-18"),
     developer: Some("Quang"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dodgy-flood-pour-routine", filename: "flood.gbc")),
-    screenshots: ["flood.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dodgy-flood-pour-routine/flood.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dodgy-flood-pour-routine/flood.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-18"),
+            sources: [
+                HomebrewHub(
+                    slug: "dodgy-flood-pour-routine",
+                    filename: "flood.gbc",
+                ),
+            ],
+        ),
+    ],
 )

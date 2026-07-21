@@ -1,13 +1,37 @@
 (
     title: "Friendship Never Dies",
-    date: Some("2023-05-20T04:46:00"),
     developer: Some("Johndo21"),
     description: Some("Help Ethan to save world friendships !"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "fnd", filename: "FriendshipNeverDiesGameBoy.gb")),
-    tags: ["Platform", "Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "WVQXQ2F.png", "9TbDaC.png", "z1kvOX.png", "On3QsE.png", "s2cvWW.png", "88z2EZ.png", "QY3yeb.png", "rWeIV4.png", "y8JY2e.png"],
-    links: [
-        (name: "Website", url: "https://johndo21.itch.io/fnd", link_type: Wiki),
+    tags: [
+        "Platform",
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/WVQXQ2F.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/9TbDaC.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/z1kvOX.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/On3QsE.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/s2cvWW.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/88z2EZ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/QY3yeb.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/rWeIV4.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/y8JY2e.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "fnd",
+                    filename: "FriendshipNeverDiesGameBoy.gb",
+                ),
+                Itch(
+                    url: "https://johndo21.itch.io/fnd",
+                ),
+            ],
+        ),
     ],
 )

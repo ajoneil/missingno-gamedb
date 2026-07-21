@@ -1,8 +1,24 @@
 (
     title: "Alt Too",
-    date: Some("2002-01-01"),
     developer: Some("Carillon Cyberiad"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "alt-too", filename: "alttoo.gb")),
-    screenshots: ["49.png", "50.png", "51.png", "53.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-too/49.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-too/49.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-too/50.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-too/51.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-too/53.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "alt-too",
+                    filename: "alttoo.gb",
+                ),
+            ],
+        ),
+    ],
 )

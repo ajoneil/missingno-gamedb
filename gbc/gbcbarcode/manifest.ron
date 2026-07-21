@@ -1,12 +1,33 @@
 (
     title: "Barcode reader",
     developer: Some("TeamKNOx"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbcbarcode", filename: "gb-bar.gb")),
     license: Some("MIT"),
-    screenshots: ["gb-bar-0.png"],
     links: [
-        (name: "Website", url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_bare.html", link_type: Wiki),
-        (name: "Source Code", url: "https://gitlab.com/teamknox/gbcbarcode", link_type: Source),
+        (
+            name: "Website",
+            url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_bare.html",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://gitlab.com/teamknox/gbcbarcode",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcbarcode/gb-bar-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcbarcode/gb-bar-0.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gbcbarcode",
+                    filename: "gb-bar.gb",
+                ),
+            ],
+        ),
     ],
 )

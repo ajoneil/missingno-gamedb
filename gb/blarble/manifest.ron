@@ -1,7 +1,20 @@
 (
     title: "Blarble",
     developer: Some("Patchwork Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "blarble", filename: "blarble.gb")),
-    screenshots: ["blarble.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blarble/blarble.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blarble/blarble.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "blarble",
+                    filename: "blarble.gb",
+                ),
+            ],
+        ),
+    ],
 )

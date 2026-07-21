@@ -1,11 +1,30 @@
 (
     title: "Mastermind",
-    date: Some("2017-07-30"),
     developer: Some("Celestina Software"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mastermind", filename: "mastermind plus.gb")),
-    screenshots: ["163titlescreen.png", "163screenshot1.png", "163screenshot2.png"],
     links: [
-        (name: "Website", url: "https://www.romhacking.net/homebrew/163/", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://www.romhacking.net/homebrew/163/",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mastermind/163titlescreen.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mastermind/163titlescreen.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mastermind/163screenshot1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mastermind/163screenshot2.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-07-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "mastermind",
+                    filename: "mastermind plus.gb",
+                ),
+            ],
+        ),
     ],
 )

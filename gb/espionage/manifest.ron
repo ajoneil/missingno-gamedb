@@ -1,7 +1,20 @@
 (
     title: "Espionage",
     developer: Some("Momeka"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "espionage", filename: "Espionage.gb")),
-    screenshots: ["screenshot.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/espionage/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/espionage/screenshot.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "espionage",
+                    filename: "Espionage.gb",
+                ),
+            ],
+        ),
+    ],
 )

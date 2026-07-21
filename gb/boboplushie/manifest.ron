@@ -1,13 +1,30 @@
 (
     title: "BOBO&PLUSHIE",
-    date: Some("2023-05-20T16:38:00"),
     developer: Some("QuentinM"),
     description: Some("The journey of Bobo and his plushie to find a new home."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "boboplushie", filename: "BoboPlushie_V0_8.gb")),
-    tags: ["Platform", "event:gbshowdown23"],
-    screenshots: ["cover.png", "LZLlBD.png", "mYd9Sc.png", "dgs7FE.png"],
-    links: [
-        (name: "Website", url: "https://quentinm.itch.io/boboplushie", link_type: Wiki),
+    tags: [
+        "Platform",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boboplushie/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boboplushie/LZLlBD.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boboplushie/mYd9Sc.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boboplushie/dgs7FE.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "boboplushie",
+                    filename: "BoboPlushie_V0_8.gb",
+                ),
+                Itch(
+                    url: "https://quentinm.itch.io/boboplushie",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,7 +1,20 @@
 (
     title: "The Faerie Princess (Version 1.1.0)",
     developer: Some("Videlais"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-faerie-princess-version-110", filename: "the-faerie-princess.gb")),
-    screenshots: ["the-faerie-princess.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-faerie-princess-version-110/the-faerie-princess.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-faerie-princess-version-110/the-faerie-princess.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-faerie-princess-version-110",
+                    filename: "the-faerie-princess.gb",
+                ),
+            ],
+        ),
+    ],
 )

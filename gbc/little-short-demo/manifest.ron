@@ -1,8 +1,25 @@
 (
     title: "Little Short Demo",
-    date: Some("2001-01-01"),
     developer: Some("Oyd11"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "little-short-demo", filename: "lsd.gbc")),
-    screenshots: ["171.png", "172.png", "173.png", "174.png", "175.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/little-short-demo/171.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/little-short-demo/171.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/little-short-demo/172.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/little-short-demo/173.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/little-short-demo/174.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/little-short-demo/175.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "little-short-demo",
+                    filename: "lsd.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,27 @@
 (
     title: "Utopia",
-    date: Some("2004-01-01"),
     developer: Some("Black Box"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "utopia", filename: "utopia.gb")),
-    screenshots: ["5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/5.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/5.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/6.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/7.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/8.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/9.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/10.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/11.png",
+    ],
+    releases: [
+        (
+            date: Some("2004-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "utopia",
+                    filename: "utopia.gb",
+                ),
+            ],
+        ),
+    ],
 )

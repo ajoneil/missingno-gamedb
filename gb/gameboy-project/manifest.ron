@@ -1,7 +1,20 @@
 (
     title: "Gameboy Project",
     developer: Some("Marc Rawer"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gameboy-project", filename: "steffen.gb")),
-    screenshots: ["steffen.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-project/steffen.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-project/steffen.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gameboy-project",
+                    filename: "steffen.gb",
+                ),
+            ],
+        ),
+    ],
 )

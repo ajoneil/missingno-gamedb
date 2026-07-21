@@ -1,11 +1,36 @@
 (
     title: "Piropa",
     developer: Some("sg"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "zenzoa_piropa", filename: "piropa-2.1.gb")),
-    tags: ["Frogs", "Pixel Art", "Cozy", "Virtual Pet", "Simulation", "8-Bit", "Cute", "Open Source", "Singleplayer"],
-    screenshots: ["cover.png", "screenshots/kcXe6Y.png", "screenshots/nyEGbK.png", "screenshots/nhBfI3.png"],
-    links: [
-        (name: "Website", url: "https://zenzoa.itch.io/piropa", link_type: Wiki),
+    tags: [
+        "Frogs",
+        "Pixel Art",
+        "Cozy",
+        "Virtual Pet",
+        "Simulation",
+        "8-Bit",
+        "Cute",
+        "Open Source",
+        "Singleplayer",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zenzoa_piropa/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zenzoa_piropa/screenshots/kcXe6Y.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zenzoa_piropa/screenshots/nyEGbK.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/zenzoa_piropa/screenshots/nhBfI3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "zenzoa_piropa",
+                    filename: "piropa-2.1.gb",
+                ),
+                Itch(
+                    url: "https://zenzoa.itch.io/piropa",
+                ),
+            ],
+        ),
     ],
 )

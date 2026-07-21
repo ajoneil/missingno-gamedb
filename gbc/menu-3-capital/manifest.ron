@@ -1,8 +1,21 @@
 (
     title: "Menu #3 (Fix + Foxi: Ludo +3)",
-    date: Some("2001-01-01"),
     developer: Some("Capital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-3-capital", filename: "cpl-t_03.gbc")),
-    screenshots: ["213.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-3-capital/213.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-3-capital/213.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-3-capital",
+                    filename: "cpl-t_03.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,24 @@
 (
     title: "Lawnboy",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lawnboy", filename: "LAWNBOY.GBC")),
-    tags: ["Adventure", "event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_lawnboy.png"],
+    tags: [
+        "Adventure",
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lawnboy/20110402_lawnboy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lawnboy/20110402_lawnboy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "lawnboy",
+                    filename: "LAWNBOY.GBC",
+                ),
+            ],
+        ),
+    ],
 )

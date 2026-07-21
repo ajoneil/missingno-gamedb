@@ -1,7 +1,20 @@
 (
     title: "Popcorn Caravan",
     developer: Some("cabbage"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "popcorn-caravan", filename: "popcorn-caravan.gb")),
-    screenshots: ["popcorn-caravan.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/popcorn-caravan/popcorn-caravan.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/popcorn-caravan/popcorn-caravan.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "popcorn-caravan",
+                    filename: "popcorn-caravan.gb",
+                ),
+            ],
+        ),
+    ],
 )

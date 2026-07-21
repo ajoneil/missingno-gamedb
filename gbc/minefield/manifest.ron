@@ -1,9 +1,25 @@
 (
     title: "Minefield",
-    date: Some("2000-04-01"),
     developer: Some("Derek Steinmoeller"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "minefield", filename: "Minefield.cgb")),
-    tags: ["Action", "event:liksang2000-compo"],
-    screenshots: ["20110402_minefield.png"],
+    tags: [
+        "Action",
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/minefield/20110402_minefield.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/minefield/20110402_minefield.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "minefield",
+                    filename: "Minefield.cgb",
+                ),
+            ],
+        ),
+    ],
 )

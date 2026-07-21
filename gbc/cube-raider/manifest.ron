@@ -2,8 +2,24 @@
     title: "Cube Raider",
     developer: Some("Dark Fader, Black Thunder"),
     description: Some("CubeRaider is a puzzle game in which Tara Loft (a play on the famous protagonist Lara Croft) must collect white cubes within an isometric 3D game board."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cube-raider", filename: "CubeRaider.cgb")),
-    tags: ["Platform", "event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_cube_raider.jpg"],
+    tags: [
+        "Platform",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cube-raider/20110402_cube_raider.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cube-raider/20110402_cube_raider.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "cube-raider",
+                    filename: "CubeRaider.cgb",
+                ),
+            ],
+        ),
+    ],
 )

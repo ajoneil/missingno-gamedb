@@ -1,15 +1,37 @@
 (
     title: "madpews battlegrounds",
-    date: Some("2020-02-28"),
     developer: Some("madpew"),
     description: Some("A short game about cats throwing rocks in a backyard."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "madpews-battlegrounds", filename: "battlegrounds.gb")),
     license: Some("Unlicense"),
-    tags: ["Open Source"],
-    screenshots: ["title.png", "game.png"],
+    tags: [
+        "Open Source",
+    ],
     links: [
-        (name: "Website", url: "https://madpew.itch.io/madpews-battleground", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/madpew/hello-asm", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/madpew/hello-asm",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/madpews-battlegrounds/title.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/madpews-battlegrounds/title.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/madpews-battlegrounds/game.png",
+    ],
+    releases: [
+        (
+            date: Some("2020-02-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "madpews-battlegrounds",
+                    filename: "battlegrounds.gb",
+                ),
+                Itch(
+                    url: "https://madpew.itch.io/madpews-battleground",
+                ),
+            ],
+        ),
     ],
 )

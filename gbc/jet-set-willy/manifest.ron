@@ -1,8 +1,24 @@
 (
     title: "Jet Set Willy",
     developer: Some("Paul Taylor"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jet-set-willy", filename: "JetsetWilly.cgb")),
-    tags: ["Arcade", "event:bung-1st-coding-compo"],
-    screenshots: ["20110402_jet_set_willy.png"],
+    tags: [
+        "Arcade",
+        "event:bung-1st-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jet-set-willy/20110402_jet_set_willy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jet-set-willy/20110402_jet_set_willy.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "jet-set-willy",
+                    filename: "JetsetWilly.cgb",
+                ),
+            ],
+        ),
+    ],
 )

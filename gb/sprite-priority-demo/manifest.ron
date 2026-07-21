@@ -1,8 +1,21 @@
 (
     title: "Sprite Priority Demo",
-    date: Some("1997-05-05"),
     developer: Some("Pascal Felber"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sprite-priority-demo", filename: "SPRITE.GB")),
-    screenshots: ["SPRITE.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sprite-priority-demo/SPRITE.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sprite-priority-demo/SPRITE.png",
+    ],
+    releases: [
+        (
+            date: Some("1997-05-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "sprite-priority-demo",
+                    filename: "SPRITE.GB",
+                ),
+            ],
+        ),
+    ],
 )

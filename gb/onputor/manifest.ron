@@ -1,7 +1,20 @@
 (
     title: "Onputor",
     developer: Some("romphax"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "onputor", filename: "onputor.gb")),
-    screenshots: ["onputor.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/onputor/onputor.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/onputor/onputor.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "onputor",
+                    filename: "onputor.gb",
+                ),
+            ],
+        ),
+    ],
 )

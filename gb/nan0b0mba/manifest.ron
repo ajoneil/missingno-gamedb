@@ -1,7 +1,20 @@
 (
     title: "NAN0B0MBA",
     developer: Some("aeb"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "nan0b0mba", filename: "nan0b0mba.gb")),
-    screenshots: ["nan0b0mba.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0b0mba/nan0b0mba.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0b0mba/nan0b0mba.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "nan0b0mba",
+                    filename: "nan0b0mba.gb",
+                ),
+            ],
+        ),
+    ],
 )

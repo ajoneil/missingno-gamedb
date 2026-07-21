@@ -1,11 +1,34 @@
 (
     title: "Longing for Life [Demo]",
     developer: Some("taeyukki"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "taeyukki_longing-for-life-demo", filename: "Longing-for-Life_jam.gb")),
-    tags: ["Pixel Art", "2D", "Homebrew", "Story Rich", "Narrative", "Retro", "Adventure", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/FBe5Bv.png", "screenshots/DbFOwd.png"],
-    links: [
-        (name: "Website", url: "https://taeyukki.itch.io/longing-for-life-demo", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "2D",
+        "Homebrew",
+        "Story Rich",
+        "Narrative",
+        "Retro",
+        "Adventure",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/taeyukki_longing-for-life-demo/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/taeyukki_longing-for-life-demo/screenshots/FBe5Bv.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/taeyukki_longing-for-life-demo/screenshots/DbFOwd.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "taeyukki_longing-for-life-demo",
+                    filename: "Longing-for-Life_jam.gb",
+                ),
+                Itch(
+                    url: "https://taeyukki.itch.io/longing-for-life-demo",
+                ),
+            ],
+        ),
     ],
 )

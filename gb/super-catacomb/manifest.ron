@@ -1,7 +1,20 @@
 (
     title: "Super Catacomb",
     developer: Some("Trangram Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "super-catacomb", filename: "catacomb.gb")),
-    screenshots: ["catacomb.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-catacomb/catacomb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-catacomb/catacomb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "super-catacomb",
+                    filename: "catacomb.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "tinymirrorboy",
-    date: Some("2022-02-12"),
     developer: Some("basxto"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tinymirrorboy", filename: "tinymirrorboy.gbc")),
-    screenshots: ["tinymirrorboy.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tinymirrorboy/tinymirrorboy.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tinymirrorboy/tinymirrorboy.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-02-12"),
+            sources: [
+                HomebrewHub(
+                    slug: "tinymirrorboy",
+                    filename: "tinymirrorboy.gbc",
+                ),
+            ],
+        ),
+    ],
 )

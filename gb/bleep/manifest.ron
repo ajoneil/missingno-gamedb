@@ -1,7 +1,20 @@
 (
     title: "bleep",
     developer: Some("Andrew G. Crowell"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bleep", filename: "bleep.gb")),
-    screenshots: ["screen1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bleep/screen1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bleep/screen1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "bleep",
+                    filename: "bleep.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -2,8 +2,23 @@
     title: "The Princess & The Pauper",
     developer: Some("Jason Thompson"),
     description: Some("The Princess & the Pauper is a comical game about the misadventures of a young poor boy and a stuck up snotty lady.  The game takes place in various episodes and is written in serial."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-princess-and-the-pauper", filename: "princess.GBC")),
-    tags: ["event:freedom-2001-gameboy-developers-competition"],
-    screenshots: ["screenshot.png"],
+    tags: [
+        "event:freedom-2001-gameboy-developers-competition",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-princess-and-the-pauper/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-princess-and-the-pauper/screenshot.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-princess-and-the-pauper",
+                    filename: "princess.GBC",
+                ),
+            ],
+        ),
+    ],
 )

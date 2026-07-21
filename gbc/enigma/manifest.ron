@@ -1,7 +1,20 @@
 (
     title: "Enigma",
     developer: Some("Paul Taylor"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "enigma", filename: "Enigma.gbc")),
-    screenshots: ["20110402_enigma.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/enigma/20110402_enigma.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/enigma/20110402_enigma.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "enigma",
+                    filename: "Enigma.gbc",
+                ),
+            ],
+        ),
+    ],
 )

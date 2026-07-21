@@ -1,13 +1,28 @@
 (
     title: "LoFi Chiptune Beats To Relax To Vol 1",
     developer: Some("Beatscribe"),
-    description: Some("Showing off the softer side of the GB soundchip. This collection of 13 remixes of calming songs from games I've worked on over the past two years are perfect background music for relaxing or studying.  Use the D-Pad to switch between songs or just let them roll on automatically."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lofi-gb-beats-1", filename: "lofi-chiptune-1.gb")),
+    description: Some("Showing off the softer side of the GB soundchip. This collection of 13 remixes of calming songs from games I\'ve worked on over the past two years are perfect background music for relaxing or studying.  Use the D-Pad to switch between songs or just let them roll on automatically."),
     license: Some("Zlib"),
-    tags: ["RPG"],
-    screenshots: ["gbsb.png"],
-    links: [
-        (name: "Website", url: "https://beatscribe.itch.io/lo-fi-game-boy-chiptune-beats-to-relax-to-volume-1", link_type: Wiki),
+    tags: [
+        "RPG",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lofi-gb-beats-1/gbsb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lofi-gb-beats-1/gbsb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "lofi-gb-beats-1",
+                    filename: "lofi-chiptune-1.gb",
+                ),
+                Itch(
+                    url: "https://beatscribe.itch.io/lo-fi-game-boy-chiptune-beats-to-relax-to-volume-1",
+                ),
+            ],
+        ),
     ],
 )

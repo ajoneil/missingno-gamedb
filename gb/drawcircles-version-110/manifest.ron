@@ -1,7 +1,20 @@
 (
     title: "DrawCircles (Version 1.1.0)",
     developer: Some("DeltaGardner"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "drawcircles-version-110", filename: "drawcircles.gb")),
-    screenshots: ["drawcircles.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/drawcircles-version-110/drawcircles.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/drawcircles-version-110/drawcircles.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "drawcircles-version-110",
+                    filename: "drawcircles.gb",
+                ),
+            ],
+        ),
+    ],
 )

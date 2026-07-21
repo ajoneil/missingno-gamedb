@@ -1,12 +1,28 @@
 (
-    title: "Mona and the Witch's Hat",
-    date: Some("2017-12-12"),
+    title: "Mona and the Witch\'s Hat",
     developer: Some("CTNeptune"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mona", filename: "Mona_And_The_Witch_Hat.gb")),
-    tags: ["Open Source", "Platform"],
-    screenshots: ["screenshot.bmp"],
-    links: [
-        (name: "Website", url: "https://ctneptune.itch.io/mona-and-the-witchs-hat", link_type: Wiki),
+    tags: [
+        "Open Source",
+        "Platform",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mona/screenshot.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mona/screenshot.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2017-12-12"),
+            sources: [
+                HomebrewHub(
+                    slug: "mona",
+                    filename: "Mona_And_The_Witch_Hat.gb",
+                ),
+                Itch(
+                    url: "https://ctneptune.itch.io/mona-and-the-witchs-hat",
+                ),
+            ],
+        ),
     ],
 )

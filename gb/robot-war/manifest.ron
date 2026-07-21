@@ -1,8 +1,22 @@
 (
     title: "Robot War",
-    date: Some("2000-11-11"),
     developer: Some("Jose Moreno"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "robot-war", filename: "Robot War (PD).gb")),
-    screenshots: ["Robot War (PD).png", "Robot War (PD)-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/robot-war/Robot War (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/robot-war/Robot War (PD).png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/robot-war/Robot War (PD)-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-11-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "robot-war",
+                    filename: "Robot War (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

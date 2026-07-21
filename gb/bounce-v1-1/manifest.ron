@@ -2,8 +2,23 @@
     title: "Bounce v1.1",
     developer: Some("Jarvik7"),
     description: Some("Bounce the ball with your paddle and try to make computer miss. Created for the second Bung Coding Competition."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bounce-v1-1", filename: "Bounce.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_bounce.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bounce-v1-1/20110402_bounce.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bounce-v1-1/20110402_bounce.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "bounce-v1-1",
+                    filename: "Bounce.gb",
+                ),
+            ],
+        ),
+    ],
 )

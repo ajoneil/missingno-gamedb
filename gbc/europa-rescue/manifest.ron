@@ -2,12 +2,33 @@
     title: "Europa rescue!",
     developer: Some("godai / Gniazdo Światów"),
     description: Some("Repair a defunct space station. Single-handedly."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "europa-rescue", filename: "Europa Rescue.gbc")),
     license: Some("CC-BY-SA 4.0"),
-    tags: ["Adventure", "Puzzle"],
-    screenshots: ["spaceship.jpg", "panels.jpg"],
+    tags: [
+        "Adventure",
+        "Puzzle",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/godai78/europa", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/godai78/europa",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/europa-rescue/spaceship.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/europa-rescue/spaceship.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/europa-rescue/panels.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "europa-rescue",
+                    filename: "Europa Rescue.gbc",
+                ),
+            ],
+        ),
     ],
 )

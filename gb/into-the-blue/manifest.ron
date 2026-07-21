@@ -1,7 +1,20 @@
 (
     title: "Into The Blue",
     developer: Some("Jonas Fischback"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "into-the-blue", filename: "into-the-blue.gb")),
-    screenshots: ["into-the-blue.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/into-the-blue/into-the-blue.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/into-the-blue/into-the-blue.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "into-the-blue",
+                    filename: "into-the-blue.gb",
+                ),
+            ],
+        ),
+    ],
 )

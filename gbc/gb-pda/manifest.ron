@@ -1,13 +1,35 @@
 (
     title: "GB-PDA",
-    date: Some("2002-05-19"),
     developer: Some("TeamKNOx"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-pda", filename: "pda.gb")),
     license: Some("MIT"),
-    screenshots: ["pda-0.png", "pda-1.png"],
     links: [
-        (name: "Website", url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_pdae.html", link_type: Wiki),
-        (name: "Source Code", url: "https://gitlab.com/teamknox/gbcpda", link_type: Source),
+        (
+            name: "Website",
+            url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_pdae.html",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://gitlab.com/teamknox/gbcpda",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pda/pda-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pda/pda-0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pda/pda-1.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-05-19"),
+            sources: [
+                HomebrewHub(
+                    slug: "gb-pda",
+                    filename: "pda.gb",
+                ),
+            ],
+        ),
     ],
 )

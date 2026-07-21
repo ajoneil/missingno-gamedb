@@ -1,8 +1,21 @@
 (
     title: "Intro #2 (Harvest Moon 3)",
-    date: Some("2001-01-01"),
     developer: Some("Quartex"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "intro-2-quartex", filename: "qtx-i_02.gbc")),
-    screenshots: ["189.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-2-quartex/189.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-2-quartex/189.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "intro-2-quartex",
+                    filename: "qtx-i_02.gbc",
+                ),
+            ],
+        ),
+    ],
 )

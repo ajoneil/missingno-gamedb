@@ -2,8 +2,23 @@
     title: "Boxes",
     developer: Some("Chuck Mason"),
     description: Some("Boxes has been rewritten and rewritten by many people and companies alike. Versions exist for the TI calculator series, as well as Nintendo’s Nintendo Entertainment System (R), Gameboy (R), and Super Nintendo Entertainment System(R)."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "boxes", filename: "Boxes.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_boxes.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxes/20110402_boxes.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/boxes/20110402_boxes.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "boxes",
+                    filename: "Boxes.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Game 1",
     developer: Some("Nick Kockakian"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "game-1", filename: "GAME1.GB")),
-    screenshots: ["20110402_game_1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-1/20110402_game_1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-1/20110402_game_1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "game-1",
+                    filename: "GAME1.GB",
+                ),
+            ],
+        ),
+    ],
 )

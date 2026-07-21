@@ -1,7 +1,20 @@
 (
     title: "Beauty Girls Volume 1",
     developer: Some("Dox"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "beauty-girls-volume-1", filename: "beauty-girls-volume-1.gbc")),
-    screenshots: ["beauty-girls-volume-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beauty-girls-volume-1/beauty-girls-volume-1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/beauty-girls-volume-1/beauty-girls-volume-1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "beauty-girls-volume-1",
+                    filename: "beauty-girls-volume-1.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,23 @@
 (
     title: "Realtime",
-    date: Some("2000-01-01"),
     developer: Some("AGO"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "realtime", filename: "Realtime.gb")),
-    screenshots: ["228.png", "229.png", "230.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/realtime/228.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/realtime/228.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/realtime/229.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/realtime/230.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "realtime",
+                    filename: "Realtime.gb",
+                ),
+            ],
+        ),
+    ],
 )

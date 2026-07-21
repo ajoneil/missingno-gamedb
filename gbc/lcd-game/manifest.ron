@@ -1,10 +1,25 @@
 (
     title: "LCD Game",
-    date: Some("2001-09-11"),
     developer: Some("Dark Fader"),
     description: Some("LCD Game is a unique maze game.  You have to push the walls around to find your way out."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "lcd-game", filename: "LCDGame.gbc")),
-    tags: ["event:freedom-2001-gameboy-developers-competition"],
-    screenshots: ["20110402_lcd_game.png"],
+    tags: [
+        "event:freedom-2001-gameboy-developers-competition",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lcd-game/20110402_lcd_game.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/lcd-game/20110402_lcd_game.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-09-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "lcd-game",
+                    filename: "LCDGame.gbc",
+                ),
+            ],
+        ),
+    ],
 )

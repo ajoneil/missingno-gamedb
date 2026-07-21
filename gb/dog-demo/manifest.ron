@@ -1,8 +1,21 @@
 (
     title: "Dog Demo",
-    date: Some("1998-03-29"),
     developer: Some("Michael Ross"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dog-demo", filename: "Dog_Demo.gb")),
-    screenshots: ["Dog_Demo-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dog-demo/Dog_Demo-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dog-demo/Dog_Demo-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-03-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "dog-demo",
+                    filename: "Dog_Demo.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,10 +1,27 @@
 (
     title: "BotB Invitro",
     developer: Some("Battle of the Bits"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "botb-invitro", filename: "botb-invitro.gb")),
-    screenshots: ["botb-invitro.png"],
     links: [
-        (name: "Source Code", url: "https://github.com/DevEd2/BotBInvite", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/DevEd2/BotBInvite",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/botb-invitro/botb-invitro.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/botb-invitro/botb-invitro.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "botb-invitro",
+                    filename: "botb-invitro.gb",
+                ),
+            ],
+        ),
     ],
 )

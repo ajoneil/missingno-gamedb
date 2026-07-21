@@ -1,8 +1,24 @@
 (
     title: "Dimension of Miracles",
-    date: Some("2000-01-01"),
     developer: Some("AGO"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dimension-of-miracles", filename: "dimens.GB")),
-    screenshots: ["224.png", "225.png", "226.png", "227.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dimension-of-miracles/224.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dimension-of-miracles/224.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dimension-of-miracles/225.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dimension-of-miracles/226.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dimension-of-miracles/227.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "dimension-of-miracles",
+                    filename: "dimens.GB",
+                ),
+            ],
+        ),
+    ],
 )

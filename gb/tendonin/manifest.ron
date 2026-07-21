@@ -1,7 +1,20 @@
 (
     title: "Tendonin",
     developer: Some("Rebels"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tendonin", filename: "tendonin.gb")),
-    screenshots: ["tendonin.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tendonin/tendonin.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tendonin/tendonin.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "tendonin",
+                    filename: "tendonin.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Guess The Number 3",
-    date: Some("2000-01-08"),
     developer: Some("BigRedPimp"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "guess-the-number-3", filename: "Guess The Number 3 (PD) [C].gbc")),
-    screenshots: ["Guess The Number 3 (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/guess-the-number-3/Guess The Number 3 (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/guess-the-number-3/Guess The Number 3 (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-08"),
+            sources: [
+                HomebrewHub(
+                    slug: "guess-the-number-3",
+                    filename: "Guess The Number 3 (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,11 +1,28 @@
 (
     title: "uaflag",
-    date: Some("2022-02-28"),
     developer: Some("tepples"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "uaflag", filename: "uaflag.gb")),
-    screenshots: ["uaflag.png"],
     links: [
-        (name: "Website", url: "https://forums.nesdev.org/viewtopic.php?t=23726", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://forums.nesdev.org/viewtopic.php?t=23726",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/uaflag/uaflag.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/uaflag/uaflag.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-02-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "uaflag",
+                    filename: "uaflag.gb",
+                ),
+            ],
+        ),
     ],
 )

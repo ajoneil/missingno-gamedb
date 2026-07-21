@@ -1,8 +1,21 @@
 (
     title: "2560 Colors Demo",
-    date: Some("1999-01-01"),
     developer: Some("Icarus Productions"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "2560-colors-demo", filename: "COLORS.GBC")),
-    screenshots: ["294.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2560-colors-demo/294.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2560-colors-demo/294.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "2560-colors-demo",
+                    filename: "COLORS.GBC",
+                ),
+            ],
+        ),
+    ],
 )

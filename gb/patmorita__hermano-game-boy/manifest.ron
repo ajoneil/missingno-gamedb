@@ -1,13 +1,39 @@
 (
     title: "Hermano (Game Boy)",
-    date: Some("2023-09-15"),
     developer: Some("Pat Morita Team"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "patmorita__hermano-game-boy", filename: "Hermano_1.1_jam.gb")),
-    tags: ["event:gbcompo23", "Action"],
-    screenshots: ["fAkFkL.png", "xdhLjE.png", "Ku0XMb.png", "UgACzl.png", "lASw2BX.png", "cover.png"],
+    tags: [
+        "event:gbcompo23",
+        "Action",
+    ],
     links: [
-        (name: "Website", url: "https://patmorita.itch.io/hermano-game-boy", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/greenwebsevilla/Hermano", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/greenwebsevilla/Hermano",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/patmorita__hermano-game-boy/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/patmorita__hermano-game-boy/fAkFkL.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/patmorita__hermano-game-boy/xdhLjE.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/patmorita__hermano-game-boy/Ku0XMb.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/patmorita__hermano-game-boy/UgACzl.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/patmorita__hermano-game-boy/lASw2BX.png",
+    ],
+    releases: [
+        (
+            date: Some("2023-09-15"),
+            sources: [
+                HomebrewHub(
+                    slug: "patmorita__hermano-game-boy",
+                    filename: "Hermano_1.1_jam.gb",
+                ),
+                Itch(
+                    url: "https://patmorita.itch.io/hermano-game-boy",
+                ),
+            ],
+        ),
     ],
 )

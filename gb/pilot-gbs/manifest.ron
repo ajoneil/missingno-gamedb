@@ -1,13 +1,28 @@
 (
     title: "pilot - game boy showdown jam",
-    date: Some("2023-05-20T20:54:00"),
     developer: Some("Wish Volo"),
     description: Some("Everyone likes flowers, and Pilot likes to give them out."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pilot-gbs", filename: "game.gb")),
-    tags: ["RPG", "event:gbshowdown23"],
-    screenshots: ["cover.png", "NIhcsC.png"],
-    links: [
-        (name: "Website", url: "https://wish-volo.itch.io/pilot-gbs", link_type: Wiki),
+    tags: [
+        "RPG",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pilot-gbs/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pilot-gbs/NIhcsC.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pilot-gbs",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://wish-volo.itch.io/pilot-gbs",
+                ),
+            ],
+        ),
     ],
 )

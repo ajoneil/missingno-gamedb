@@ -1,8 +1,24 @@
 (
     title: "Dark Intentions",
-    date: Some("2000-01-01"),
     developer: Some("Black Thunder"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dark-intentions", filename: "Dark Intensions.gbc")),
-    screenshots: ["724.png", "725.png", "726.png", "727.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dark-intentions/724.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dark-intentions/724.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dark-intentions/725.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dark-intentions/726.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dark-intentions/727.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "dark-intentions",
+                    filename: "Dark Intensions.gbc",
+                ),
+            ],
+        ),
+    ],
 )

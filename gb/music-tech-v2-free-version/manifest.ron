@@ -1,7 +1,20 @@
 (
     title: "Music Tech V2 Free Version",
     developer: Some("Pixel8"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "music-tech-v2-free-version", filename: "music-tech-v2-free-version.gb")),
-    screenshots: ["music-tech-v2-free-version.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/music-tech-v2-free-version/music-tech-v2-free-version.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/music-tech-v2-free-version/music-tech-v2-free-version.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "music-tech-v2-free-version",
+                    filename: "music-tech-v2-free-version.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,12 +1,33 @@
 (
     title: "IrViewer",
     developer: Some("TeamKNOx"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbcirviewer", filename: "ir_view.gb")),
     license: Some("MIT"),
-    screenshots: ["ir_view-0.png"],
     links: [
-        (name: "Website", url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_viewe.html", link_type: Wiki),
-        (name: "Source Code", url: "https://gitlab.com/teamknox/gbcirviewer", link_type: Source),
+        (
+            name: "Website",
+            url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_viewe.html",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://gitlab.com/teamknox/gbcirviewer",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcirviewer/ir_view-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcirviewer/ir_view-0.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gbcirviewer",
+                    filename: "ir_view.gb",
+                ),
+            ],
+        ),
     ],
 )

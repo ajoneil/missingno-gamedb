@@ -1,12 +1,31 @@
 (
     title: "Snake",
-    date: Some("2013-08-28"),
     developer: Some("Sanky"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "snake-sanky", filename: "snake.gbc")),
-    tags: ["Open Source"],
-    screenshots: ["screenshot.bmp"],
+    tags: [
+        "Open Source",
+    ],
     links: [
-        (name: "Source Code", url: "https://bitbucket.org/Sanqui/snake/src/?at=master", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://bitbucket.org/Sanqui/snake/src/?at=master",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snake-sanky/screenshot.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snake-sanky/screenshot.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2013-08-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "snake-sanky",
+                    filename: "snake.gbc",
+                ),
+            ],
+        ),
     ],
 )

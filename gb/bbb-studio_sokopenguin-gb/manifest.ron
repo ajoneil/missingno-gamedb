@@ -1,11 +1,47 @@
 (
     title: "SokoPenguin GB",
     developer: Some("BurterButterBeans Studio"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bbb-studio_sokopenguin-gb", filename: "Soko Penguin GB_jam.gb")),
-    tags: ["Sokoban", "Indie", "Fangame", "Cute", "Role Playing", "Retro", "Arcade", "Demake", "Puzzle", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/5u52Bfc.png", "screenshots/NNKvWy.png", "screenshots/s2BYNqm.png", "screenshots/Y2F8GX3.png", "screenshots/Z2mlSJ.png", "screenshots/PaU8q3.png", "screenshots/MY6eBP.png", "screenshots/VvjNkQ.png", "screenshots/TPP7Wx.png", "screenshots/xASyII.png", "screenshots/mG0JDw.png", "screenshots/2Bps0LW.png", "screenshots/DpOR2FQ.png"],
-    links: [
-        (name: "Website", url: "https://bbb-studio.itch.io/sokopenguin-gb", link_type: Wiki),
+    tags: [
+        "Sokoban",
+        "Indie",
+        "Fangame",
+        "Cute",
+        "Role Playing",
+        "Retro",
+        "Arcade",
+        "Demake",
+        "Puzzle",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/5u52Bfc.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/NNKvWy.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/s2BYNqm.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/Y2F8GX3.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/Z2mlSJ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/PaU8q3.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/MY6eBP.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/VvjNkQ.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/TPP7Wx.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/xASyII.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/mG0JDw.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/2Bps0LW.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/DpOR2FQ.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "bbb-studio_sokopenguin-gb",
+                    filename: "Soko Penguin GB_jam.gb",
+                ),
+                Itch(
+                    url: "https://bbb-studio.itch.io/sokopenguin-gb",
+                ),
+            ],
+        ),
     ],
 )

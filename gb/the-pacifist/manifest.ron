@@ -1,13 +1,30 @@
 (
     title: "The Pacifist",
-    date: Some("2023-05-20T09:29:00"),
     developer: Some("Rico Harbor"),
     description: Some("Save the hostages, without violence."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-pacifist", filename: "ThePacifist_GBSD-2023.gbc")),
-    tags: ["Action", "event:gbshowdown23"],
-    screenshots: ["cover.png", "Gb2qRd.png", "sRTPWb.png", "GFKVfB.png"],
-    links: [
-        (name: "Website", url: "https://rico-harbor.itch.io/the-pacifist", link_type: Wiki),
+    tags: [
+        "Action",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-pacifist/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-pacifist/Gb2qRd.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-pacifist/sRTPWb.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-pacifist/GFKVfB.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-pacifist",
+                    filename: "ThePacifist_GBSD-2023.gbc",
+                ),
+                Itch(
+                    url: "https://rico-harbor.itch.io/the-pacifist",
+                ),
+            ],
+        ),
     ],
 )

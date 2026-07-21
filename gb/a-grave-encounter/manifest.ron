@@ -1,13 +1,30 @@
 (
     title: "A Grave Encounter",
-    date: Some("2023-05-20T18:30:00"),
     developer: Some("fireflanger"),
     description: Some("Save your town from the impending threats. And make some friends along the way!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "a-grave-encounter", filename: "AGraveEncounter1.3.gb")),
-    tags: ["Adventure", "Action", "Puzzle", "event:gbshowdown23"],
-    screenshots: ["cover.png", "BTUB2o.png"],
-    links: [
-        (name: "Website", url: "https://fireflanger.itch.io/a-grave-encounter", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "Action",
+        "Puzzle",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-grave-encounter/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-grave-encounter/BTUB2o.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "a-grave-encounter",
+                    filename: "AGraveEncounter1.3.gb",
+                ),
+                Itch(
+                    url: "https://fireflanger.itch.io/a-grave-encounter",
+                ),
+            ],
+        ),
     ],
 )

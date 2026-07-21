@@ -1,7 +1,20 @@
 (
     title: "SWorld 2",
     developer: Some("Bug Skull Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sworld-2", filename: "SWorld2.gbc")),
-    screenshots: ["20110402_sworld_2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sworld-2/20110402_sworld_2.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sworld-2/20110402_sworld_2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "sworld-2",
+                    filename: "SWorld2.gbc",
+                ),
+            ],
+        ),
+    ],
 )

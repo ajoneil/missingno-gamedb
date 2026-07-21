@@ -1,8 +1,23 @@
 (
     title: "Labyrinth",
     developer: Some("Martin Ekelof"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "labyrinth", filename: "Labyrinth.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_labyrinth.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/labyrinth/20110402_labyrinth.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/labyrinth/20110402_labyrinth.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "labyrinth",
+                    filename: "Labyrinth.gb",
+                ),
+            ],
+        ),
+    ],
 )

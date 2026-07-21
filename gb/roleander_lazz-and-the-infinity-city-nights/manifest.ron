@@ -1,11 +1,31 @@
 (
     title: "Lazz & \"The City\"",
     developer: Some("Roleander"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "roleander_lazz-and-the-infinity-city-nights", filename: "game.gb")),
-    tags: ["videogame", "Isometric", "Platformer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/6hq4Ml.png", "screenshots/qemyoV.png", "screenshots/kX2Oh0.png"],
-    links: [
-        (name: "Website", url: "https://roleander.itch.io/lazz-and-the-infinity-city-nights", link_type: Wiki),
+    tags: [
+        "videogame",
+        "Isometric",
+        "Platformer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/roleander_lazz-and-the-infinity-city-nights/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/roleander_lazz-and-the-infinity-city-nights/screenshots/6hq4Ml.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/roleander_lazz-and-the-infinity-city-nights/screenshots/qemyoV.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/roleander_lazz-and-the-infinity-city-nights/screenshots/kX2Oh0.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "roleander_lazz-and-the-infinity-city-nights",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://roleander.itch.io/lazz-and-the-infinity-city-nights",
+                ),
+            ],
+        ),
     ],
 )

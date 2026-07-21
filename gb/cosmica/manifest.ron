@@ -1,7 +1,20 @@
 (
     title: "Cosmica",
-    date: Some("2001-01-03"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cosmica", filename: "cosmica.gb")),
-    screenshots: ["screenshot.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmica/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmica/screenshot.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-03"),
+            sources: [
+                HomebrewHub(
+                    slug: "cosmica",
+                    filename: "cosmica.gb",
+                ),
+            ],
+        ),
+    ],
 )

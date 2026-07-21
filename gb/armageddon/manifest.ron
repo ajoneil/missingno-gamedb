@@ -1,8 +1,23 @@
 (
     title: "Armageddon",
-    date: Some("1999-01-01"),
     developer: Some("Megaman_X"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "armageddon", filename: "Armageddon.gb")),
-    screenshots: ["285.png", "286.png", "287.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/armageddon/285.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/armageddon/285.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/armageddon/286.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/armageddon/287.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "armageddon",
+                    filename: "Armageddon.gb",
+                ),
+            ],
+        ),
+    ],
 )

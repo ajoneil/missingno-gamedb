@@ -1,8 +1,21 @@
 (
-    title: "JRP'01 Invite",
-    date: Some("2001-01-01"),
+    title: "JRP\'01 Invite",
     developer: Some("Nukleus"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jrp-01-invite", filename: "GINTRO.GBC")),
-    screenshots: ["150.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jrp-01-invite/150.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jrp-01-invite/150.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "jrp-01-invite",
+                    filename: "GINTRO.GBC",
+                ),
+            ],
+        ),
+    ],
 )

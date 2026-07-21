@@ -1,8 +1,29 @@
 (
     title: "It Came from Planet Zilog",
-    date: Some("2015-01-01"),
     developer: Some("Phantasy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "it-came-from-planet-zilog", filename: "pht-pz.gbc")),
-    screenshots: ["697.png", "698.png", "699.png", "700.png", "701.png", "702.png", "703.png", "704.png", "705.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/697.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/697.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/698.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/699.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/700.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/701.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/702.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/703.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/704.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/705.png",
+    ],
+    releases: [
+        (
+            date: Some("2015-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "it-came-from-planet-zilog",
+                    filename: "pht-pz.gbc",
+                ),
+            ],
+        ),
+    ],
 )

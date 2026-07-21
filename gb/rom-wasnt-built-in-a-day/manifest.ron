@@ -1,7 +1,25 @@
 (
-    title: "ROM Wasn't Built in a Day",
+    title: "ROM Wasn\'t Built in a Day",
     developer: Some("gorgh (code), AceMan (music), Piesiu and Raphis (gfx)"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rom-wasnt-built-in-a-day", filename: "rom-wasnt-built-in-a-day.gb")),
-    screenshots: ["0.png", "1.png", "2.png", "3.png", "4.png", "5.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/3.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/4.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/5.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "rom-wasnt-built-in-a-day",
+                    filename: "rom-wasnt-built-in-a-day.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,13 +1,28 @@
 (
     title: "Bin Day!",
-    date: Some("2023-05-20T12:49:00"),
     developer: Some("sjd"),
     description: Some("Game Boy Showdown 2023"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bin-day", filename: "BinDay.gb")),
-    tags: ["event:gbshowdown23"],
-    screenshots: ["cover.png", "ZZzs0t.png", "gva8Dx.png"],
-    links: [
-        (name: "Website", url: "https://sjd-sjd.itch.io/bin-day", link_type: Wiki),
+    tags: [
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bin-day/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bin-day/ZZzs0t.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bin-day/gva8Dx.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "bin-day",
+                    filename: "BinDay.gb",
+                ),
+                Itch(
+                    url: "https://sjd-sjd.itch.io/bin-day",
+                ),
+            ],
+        ),
     ],
 )

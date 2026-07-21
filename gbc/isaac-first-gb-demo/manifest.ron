@@ -1,8 +1,21 @@
 (
-    title: "Isaac's First GB Demo",
-    date: Some("2000-08-27"),
+    title: "Isaac\'s First GB Demo",
     developer: Some("Isaac Rounds"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "isaac-first-gb-demo", filename: "Issac's First GB Demo (Quang2000) (PD) [C].gbc")),
-    screenshots: ["Issac's First GB Demo (Quang2000) (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/isaac-first-gb-demo/Issac\'s First GB Demo (Quang2000) (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/isaac-first-gb-demo/Issac\'s First GB Demo (Quang2000) (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "isaac-first-gb-demo",
+                    filename: "Issac\'s First GB Demo (Quang2000) (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

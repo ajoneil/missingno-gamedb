@@ -1,8 +1,24 @@
 (
     title: "PuzzleX",
     developer: Some("Gambit Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "puzzlex", filename: "PuzzleX.gb")),
-    tags: ["Puzzle", "event:bung-1st-coding-compo"],
-    screenshots: ["20110402_puzzlex.png"],
+    tags: [
+        "Puzzle",
+        "event:bung-1st-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzlex/20110402_puzzlex.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzlex/20110402_puzzlex.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "puzzlex",
+                    filename: "PuzzleX.gb",
+                ),
+            ],
+        ),
+    ],
 )

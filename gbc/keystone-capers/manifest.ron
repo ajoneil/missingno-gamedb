@@ -1,7 +1,20 @@
 (
     title: "Keystone Capers",
     developer: Some("haroldo-ok"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "keystone-capers", filename: "keystone-capers.gb")),
-    screenshots: ["keystone-capers.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/keystone-capers/keystone-capers.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/keystone-capers/keystone-capers.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "keystone-capers",
+                    filename: "keystone-capers.gb",
+                ),
+            ],
+        ),
+    ],
 )

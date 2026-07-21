@@ -1,8 +1,21 @@
 (
     title: "Super Ninja",
-    date: Some("2001-02-27"),
     developer: Some("TornPocket Production"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "super-ninja", filename: "super_ninja.gbc")),
-    screenshots: ["superninja.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-ninja/superninja.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-ninja/superninja.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-02-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "super-ninja",
+                    filename: "super_ninja.gbc",
+                ),
+            ],
+        ),
+    ],
 )

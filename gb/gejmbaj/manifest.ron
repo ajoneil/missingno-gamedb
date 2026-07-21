@@ -1,8 +1,32 @@
 (
     title: "Gejmbåj",
-    date: Some("2010-01-01"),
     developer: Some("Snorpung"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gejmbaj", filename: "gejmboj.gb")),
-    screenshots: ["614.png", "615.png", "616.png", "617.png", "618.png", "619.png", "620.png", "621.png", "622.png", "623.png", "624.png", "625.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/614.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/614.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/615.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/616.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/617.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/618.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/619.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/620.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/621.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/622.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/623.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/624.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/625.png",
+    ],
+    releases: [
+        (
+            date: Some("2010-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "gejmbaj",
+                    filename: "gejmboj.gb",
+                ),
+            ],
+        ),
+    ],
 )

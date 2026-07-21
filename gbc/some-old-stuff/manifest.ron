@@ -1,8 +1,26 @@
 (
     title: "Some Old Stuff",
-    date: Some("2000-01-01"),
     developer: Some("R-Lab"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "some-old-stuff", filename: "SOS.gbc")),
-    screenshots: ["89.png", "90.png", "91.png", "92.png", "93.png", "94.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/89.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/89.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/90.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/91.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/92.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/93.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/94.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "some-old-stuff",
+                    filename: "SOS.gbc",
+                ),
+            ],
+        ),
+    ],
 )

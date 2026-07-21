@@ -1,11 +1,28 @@
 (
     title: "Restaurant Rumble",
     developer: Some("2BrownBoyz"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "2brownboyz_restaurant-rumble-demo", filename: "ResturantRumble_jam.gb")),
-    tags: ["No AI", "2D", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/kCfZZn.png"],
-    links: [
-        (name: "Website", url: "https://2brownboyz.itch.io/restaurant-rumble-demo", link_type: Wiki),
+    tags: [
+        "No AI",
+        "2D",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2brownboyz_restaurant-rumble-demo/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2brownboyz_restaurant-rumble-demo/screenshots/kCfZZn.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "2brownboyz_restaurant-rumble-demo",
+                    filename: "ResturantRumble_jam.gb",
+                ),
+                Itch(
+                    url: "https://2brownboyz.itch.io/restaurant-rumble-demo",
+                ),
+            ],
+        ),
     ],
 )

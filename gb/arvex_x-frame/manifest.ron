@@ -1,11 +1,31 @@
 (
     title: "X-Frame (Prototype)",
     developer: Some("Arvex"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "arvex_x-frame", filename: "xframe-128KB-2025-08-31a_jam.gb")),
-    tags: ["Side Scroller", "Shoot 'Em Up", "Action", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/VNUCYT.png", "screenshots/YZ7WOE.png", "screenshots/fEBlZe.png"],
-    links: [
-        (name: "Website", url: "https://arvex.itch.io/x-frame", link_type: Wiki),
+    tags: [
+        "Side Scroller",
+        "Shoot \'Em Up",
+        "Action",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/arvex_x-frame/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/arvex_x-frame/screenshots/VNUCYT.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/arvex_x-frame/screenshots/YZ7WOE.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/arvex_x-frame/screenshots/fEBlZe.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "arvex_x-frame",
+                    filename: "xframe-128KB-2025-08-31a_jam.gb",
+                ),
+                Itch(
+                    url: "https://arvex.itch.io/x-frame",
+                ),
+            ],
+        ),
     ],
 )

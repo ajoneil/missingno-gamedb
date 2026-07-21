@@ -1,9 +1,23 @@
 (
     title: "Tochi",
-    date: Some("2000-08-29"),
     developer: Some("Ben Hopkins"),
-    description: Some("Tochi is a puzzle game in the vein of Sonic Team's Chu Chu Rocket. Different colored Tochis must be directed to their appropriate home by placing arrows in their path."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tochi", filename: "tochi.gbc")),
-    screenshots: ["tochi.png", "20110402_tochi.png"],
+    description: Some("Tochi is a puzzle game in the vein of Sonic Team\'s Chu Chu Rocket. Different colored Tochis must be directed to their appropriate home by placing arrows in their path."),
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tochi/tochi.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tochi/tochi.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tochi/20110402_tochi.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "tochi",
+                    filename: "tochi.gbc",
+                ),
+            ],
+        ),
+    ],
 )

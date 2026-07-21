@@ -1,8 +1,22 @@
 (
     title: "Jetpak DX (Greek)",
-    date: Some("2003-03-01"),
     developer: Some("Gambit Studios/GreekRoms"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jetpak-dx-gr", filename: "jetpakdx-gr.gb")),
-    screenshots: ["jetpakdx-gr-0.png", "jetpakdx-gr-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jetpak-dx-gr/jetpakdx-gr-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jetpak-dx-gr/jetpakdx-gr-0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jetpak-dx-gr/jetpakdx-gr-1.png",
+    ],
+    releases: [
+        (
+            date: Some("2003-03-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "jetpak-dx-gr",
+                    filename: "jetpakdx-gr.gb",
+                ),
+            ],
+        ),
+    ],
 )

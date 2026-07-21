@@ -1,8 +1,21 @@
 (
     title: "To The Lighthouse!",
-    date: Some("2022-08-06"),
     developer: Some("Titan"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "to-the-lighthouse", filename: "to-the-lighthouse.gbc")),
-    screenshots: ["to-the-lighthouse.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/to-the-lighthouse/to-the-lighthouse.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/to-the-lighthouse/to-the-lighthouse.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-08-06"),
+            sources: [
+                HomebrewHub(
+                    slug: "to-the-lighthouse",
+                    filename: "to-the-lighthouse.gbc",
+                ),
+            ],
+        ),
+    ],
 )

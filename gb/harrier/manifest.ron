@@ -1,7 +1,20 @@
 (
     title: "Harrier",
-    date: Some("2002-11-05"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "harrier", filename: "harrier.gb")),
-    screenshots: ["harrier-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/harrier/harrier-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/harrier/harrier-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-11-05"),
+            sources: [
+                HomebrewHub(
+                    slug: "harrier",
+                    filename: "harrier.gb",
+                ),
+            ],
+        ),
+    ],
 )

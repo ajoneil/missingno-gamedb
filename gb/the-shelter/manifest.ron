@@ -1,13 +1,31 @@
 (
     title: "The shelter",
-    date: Some("2023-05-20T15:04:00"),
     developer: Some("Selbryn"),
     description: Some("GB gamecreated for the Game Boy Showdown 2023"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-shelter", filename: "TheShelter.gb")),
-    tags: ["Puzzle", "event:gbshowdown23"],
-    screenshots: ["cover.png", "KGm4cE.png", "1pdeCk.png", "btZ4jV.png", "18ZkQ5.png"],
-    links: [
-        (name: "Website", url: "https://selbryn.itch.io/the-shelter", link_type: Wiki),
+    tags: [
+        "Puzzle",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-shelter/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-shelter/KGm4cE.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-shelter/1pdeCk.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-shelter/btZ4jV.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-shelter/18ZkQ5.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-shelter",
+                    filename: "TheShelter.gb",
+                ),
+                Itch(
+                    url: "https://selbryn.itch.io/the-shelter",
+                ),
+            ],
+        ),
     ],
 )

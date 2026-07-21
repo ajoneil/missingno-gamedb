@@ -1,8 +1,21 @@
 (
     title: "GBClock V1.0",
-    date: Some("1997-11-29"),
     developer: Some("Jeff Frohwein"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbclock-v1-0", filename: "Clk.gb")),
-    screenshots: ["Clk-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbclock-v1-0/Clk-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbclock-v1-0/Clk-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1997-11-29"),
+            sources: [
+                HomebrewHub(
+                    slug: "gbclock-v1-0",
+                    filename: "Clk.gb",
+                ),
+            ],
+        ),
+    ],
 )

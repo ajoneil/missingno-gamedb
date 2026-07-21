@@ -1,13 +1,30 @@
 (
     title: "Grannies",
-    date: Some("2023-05-20T21:49:00"),
     developer: Some("Hohenstaufer"),
     description: Some("Help grannie cross the street"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "grannies", filename: "grannies.gb")),
-    tags: ["Action", "event:gbshowdown23"],
-    screenshots: ["cover.png", "6vpDdx.png", "SF9H7Q.png", "eDFcXv.png"],
-    links: [
-        (name: "Website", url: "https://hohenstaufer.itch.io/grannies", link_type: Wiki),
+    tags: [
+        "Action",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/grannies/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/grannies/6vpDdx.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/grannies/SF9H7Q.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/grannies/eDFcXv.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "grannies",
+                    filename: "grannies.gb",
+                ),
+                Itch(
+                    url: "https://hohenstaufer.itch.io/grannies",
+                ),
+            ],
+        ),
     ],
 )

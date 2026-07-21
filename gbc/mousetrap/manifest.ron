@@ -1,7 +1,20 @@
 (
     title: "Mousetrap",
     developer: Some("Gambit Studios"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mousetrap", filename: "mousetrap.gbc")),
-    screenshots: ["mousetrap.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mousetrap/mousetrap.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mousetrap/mousetrap.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "mousetrap",
+                    filename: "mousetrap.gbc",
+                ),
+            ],
+        ),
+    ],
 )

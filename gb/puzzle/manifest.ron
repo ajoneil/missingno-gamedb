@@ -1,7 +1,20 @@
 (
     title: "Puzzle",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "puzzle", filename: "Puzzle.gb")),
-    screenshots: ["20110402_puzzle.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzle/20110402_puzzle.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzle/20110402_puzzle.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "puzzle",
+                    filename: "Puzzle.gb",
+                ),
+            ],
+        ),
+    ],
 )

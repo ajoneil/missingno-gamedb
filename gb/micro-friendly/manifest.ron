@@ -1,12 +1,28 @@
 (
     title: "Micro Friendly",
-    developer: Some("MYTH'S"),
+    developer: Some("MYTH\'S"),
     description: Some("Game Made in 2 Days"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "micro-friendly", filename: "game.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "XGwB1E.png"],
-    links: [
-        (name: "Website", url: "https://myths-ai.itch.io/micro-friendly", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/micro-friendly/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/micro-friendly/XGwB1E.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "micro-friendly",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://myths-ai.itch.io/micro-friendly",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "GB Debug",
-    date: Some("1995-10-27"),
     developer: Some("Jeff Frohwein"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gb-debug", filename: "GBD.GB")),
-    screenshots: ["GBD.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-debug/GBD.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-debug/GBD.png",
+    ],
+    releases: [
+        (
+            date: Some("1995-10-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "gb-debug",
+                    filename: "GBD.GB",
+                ),
+            ],
+        ),
+    ],
 )

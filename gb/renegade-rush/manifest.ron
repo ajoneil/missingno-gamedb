@@ -1,14 +1,40 @@
 (
     title: "Renegade Rush",
-    date: Some("2021-10-01"),
     developer: Some("quinnp"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "renegade-rush", filename: "RenegadeRush.gb")),
     license: Some("MIT"),
-    tags: ["gbcompo21", "Open Source", "gbcompo21-shortlist"],
-    screenshots: ["1.png", "nnLM3+.png", "o6puoY.png", "iS2_Dv.png"],
+    tags: [
+        "gbcompo21",
+        "Open Source",
+        "gbcompo21-shortlist",
+    ],
     links: [
-        (name: "Website", url: "https://quinnp.itch.io/renegade-rush", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/QuinnPainter/Renegade-Rush", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/QuinnPainter/Renegade-Rush",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/renegade-rush/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/renegade-rush/1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/renegade-rush/nnLM3+.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/renegade-rush/o6puoY.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/renegade-rush/iS2_Dv.png",
+    ],
+    releases: [
+        (
+            date: Some("2021-10-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "renegade-rush",
+                    filename: "RenegadeRush.gb",
+                ),
+                Itch(
+                    url: "https://quinnp.itch.io/renegade-rush",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Scrolling Blue Demo",
-    date: Some("2000-01-09"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "scrolling-blue-demo", filename: "Scrolling Blue Demo (PD) [C].gbc")),
-    screenshots: ["Scrolling Blue Demo (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/scrolling-blue-demo/Scrolling Blue Demo (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/scrolling-blue-demo/Scrolling Blue Demo (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "scrolling-blue-demo",
+                    filename: "Scrolling Blue Demo (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

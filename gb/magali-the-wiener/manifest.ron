@@ -1,13 +1,30 @@
 (
     title: "Magali The Wiener",
-    date: Some("2023-05-20T20:05:00"),
     developer: Some("lab_bueno"),
     description: Some("A game about friendship between a guy and a winier dog"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "magali-the-wiener", filename: "magali-the-wiener.gb")),
-    tags: ["Simulation", "event:gbshowdown23"],
-    screenshots: ["cover.png", "Z8sCR3.png", "GcJr2FI.png", "qlBUP2F.png"],
-    links: [
-        (name: "Website", url: "https://lab-bueno.itch.io/magali-the-wiener", link_type: Wiki),
+    tags: [
+        "Simulation",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/magali-the-wiener/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/magali-the-wiener/Z8sCR3.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/magali-the-wiener/GcJr2FI.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/magali-the-wiener/qlBUP2F.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "magali-the-wiener",
+                    filename: "magali-the-wiener.gb",
+                ),
+                Itch(
+                    url: "https://lab-bueno.itch.io/magali-the-wiener",
+                ),
+            ],
+        ),
     ],
 )

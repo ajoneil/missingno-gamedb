@@ -1,11 +1,36 @@
 (
     title: "Bad Apple!!",
-    date: Some("2011-01-01"),
     developer: Some("Bookworm"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bad-apple", filename: "BADAPPLE.GBC")),
-    screenshots: ["644.png", "645.png", "646.png", "647.png", "648.png", "649.png", "650.png", "651.png", "652.png"],
     links: [
-        (name: "Website", url: "http://mydocuments.g2.xrea.com/html/gb/apple.html", link_type: Wiki),
+        (
+            name: "Website",
+            url: "http://mydocuments.g2.xrea.com/html/gb/apple.html",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/644.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/644.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/645.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/646.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/647.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/648.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/649.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/650.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/651.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/652.png",
+    ],
+    releases: [
+        (
+            date: Some("2011-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "bad-apple",
+                    filename: "BADAPPLE.GBC",
+                ),
+            ],
+        ),
     ],
 )

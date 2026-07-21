@@ -1,8 +1,21 @@
 (
     title: "Dimensionless Sample",
-    date: Some("2000-01-06"),
     developer: Some("Jerry Crash"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dimensionless-sample", filename: "Dimensionless Sample (PD) [C].gbc")),
-    screenshots: ["Dimensionless Sample (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dimensionless-sample/Dimensionless Sample (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dimensionless-sample/Dimensionless Sample (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-06"),
+            sources: [
+                HomebrewHub(
+                    slug: "dimensionless-sample",
+                    filename: "Dimensionless Sample (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,13 +1,28 @@
 (
     title: "Super Bunny Mission",
-    date: Some("2023-05-20T19:57:00"),
-    developer: Some("SÅdoDev"),
+    developer: Some("SÅ\u{8d}doDev"),
     description: Some("Get to the end and have a friendly conversation with the boss!"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "super-bunny-mission", filename: "SuperBunnyMission.gb")),
-    tags: ["Platform", "event:gbshowdown23"],
-    screenshots: ["cover.png", "vwk5nu.png"],
-    links: [
-        (name: "Website", url: "https://sododev.itch.io/super-bunny-mission", link_type: Wiki),
+    tags: [
+        "Platform",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-bunny-mission/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/super-bunny-mission/vwk5nu.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "super-bunny-mission",
+                    filename: "SuperBunnyMission.gb",
+                ),
+                Itch(
+                    url: "https://sododev.itch.io/super-bunny-mission",
+                ),
+            ],
+        ),
     ],
 )

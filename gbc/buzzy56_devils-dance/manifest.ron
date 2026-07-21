@@ -1,11 +1,36 @@
 (
-    title: "The Devil's Dance (DEMO)",
+    title: "The Devil\'s Dance (DEMO)",
     developer: Some("Buzzy"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "buzzy56_devils-dance", filename: "TheDevil'sDanceDEMO_jam.gbc")),
-    tags: ["Pixel Art", "Short", "Retro", "Music", "Rhythm", "Singleplayer", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/crul7B.png", "screenshots/2yVAsi.png", "screenshots/BPK6Ld.png", "screenshots/92DGes.png", "screenshots/J1fzlp.png"],
-    links: [
-        (name: "Website", url: "https://buzzy56.itch.io/devils-dance", link_type: Wiki),
+    tags: [
+        "Pixel Art",
+        "Short",
+        "Retro",
+        "Music",
+        "Rhythm",
+        "Singleplayer",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/buzzy56_devils-dance/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/buzzy56_devils-dance/screenshots/crul7B.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/buzzy56_devils-dance/screenshots/2yVAsi.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/buzzy56_devils-dance/screenshots/BPK6Ld.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/buzzy56_devils-dance/screenshots/92DGes.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/buzzy56_devils-dance/screenshots/J1fzlp.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "buzzy56_devils-dance",
+                    filename: "TheDevil\'sDanceDEMO_jam.gbc",
+                ),
+                Itch(
+                    url: "https://buzzy56.itch.io/devils-dance",
+                ),
+            ],
+        ),
     ],
 )

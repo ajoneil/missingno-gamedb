@@ -1,11 +1,28 @@
 (
     title: "Roboto",
-    date: Some("2017-05-06"),
     developer: Some("naavis"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "roboto", filename: "roboto.gb")),
-    screenshots: ["roboto.png"],
     links: [
-        (name: "Source Code", url: "https://github.com/naavis/roboto-demo", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/naavis/roboto-demo",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/roboto/roboto.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/roboto/roboto.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-05-06"),
+            sources: [
+                HomebrewHub(
+                    slug: "roboto",
+                    filename: "roboto.gb",
+                ),
+            ],
+        ),
     ],
 )

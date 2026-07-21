@@ -1,11 +1,28 @@
 (
     title: "Luna",
-    date: Some("2017-09-18"),
     developer: Some("Mills"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "luna", filename: "MOON.gbc")),
-    screenshots: ["MOON.png"],
     links: [
-        (name: "Website", url: "https://gbdev.gg8.se/forums/viewtopic.php?id=384", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://gbdev.gg8.se/forums/viewtopic.php?id=384",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/luna/MOON.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/luna/MOON.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-09-18"),
+            sources: [
+                HomebrewHub(
+                    slug: "luna",
+                    filename: "MOON.gbc",
+                ),
+            ],
+        ),
     ],
 )

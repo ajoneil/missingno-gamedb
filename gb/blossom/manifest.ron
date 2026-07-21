@@ -2,7 +2,20 @@
     title: "Blossom",
     developer: Some("colorful_courier"),
     description: Some("Blossom is a meditative Game Boy program by colorful_courier."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "blossom", filename: "tu_b_shvat.gb")),
-    screenshots: ["20180219_blossom_(gbc_misc).gif"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blossom/20180219_blossom_(gbc_misc).gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blossom/20180219_blossom_(gbc_misc).gif",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "blossom",
+                    filename: "tu_b_shvat.gb",
+                ),
+            ],
+        ),
+    ],
 )

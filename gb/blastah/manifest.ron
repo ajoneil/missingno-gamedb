@@ -1,10 +1,26 @@
 (
     title: "Blastah",
-    date: Some("2000-03-20"),
     developer: Some("Black Box"),
-    description: Some("Blastah is a small free GBC shoot'em up game. It is mostly a quick game comedy was done in a few hours to take a part in a small game competition was organised for hobby GBC programmers."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "blastah", filename: "blastah.gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["blastah.png", "20110402_blastah.png"],
+    description: Some("Blastah is a small free GBC shoot\'em up game. It is mostly a quick game comedy was done in a few hours to take a part in a small game competition was organised for hobby GBC programmers."),
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blastah/blastah.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blastah/blastah.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blastah/20110402_blastah.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-03-20"),
+            sources: [
+                HomebrewHub(
+                    slug: "blastah",
+                    filename: "blastah.gb",
+                ),
+            ],
+        ),
+    ],
 )

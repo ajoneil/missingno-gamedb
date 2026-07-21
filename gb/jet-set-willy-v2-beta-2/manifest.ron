@@ -1,8 +1,21 @@
 (
     title: "Jet Set Willy (V.2 Beta 2",
-    date: Some("2000-07-01"),
     developer: Some("Paul Taylor"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jet-set-willy-v2-beta-2", filename: "jsw.gb")),
-    screenshots: ["jswgb2b2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jet-set-willy-v2-beta-2/jswgb2b2.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jet-set-willy-v2-beta-2/jswgb2b2.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-07-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "jet-set-willy-v2-beta-2",
+                    filename: "jsw.gb",
+                ),
+            ],
+        ),
+    ],
 )

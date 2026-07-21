@@ -1,7 +1,20 @@
 (
     title: "Segmond (First Demo)",
-    date: Some("1998-11-30"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "segmond-first-demo", filename: "Segmond First Demo (PD).gb")),
-    screenshots: ["Segmond First Demo (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/segmond-first-demo/Segmond First Demo (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/segmond-first-demo/Segmond First Demo (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1998-11-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "segmond-first-demo",
+                    filename: "Segmond First Demo (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

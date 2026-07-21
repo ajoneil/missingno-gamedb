@@ -1,8 +1,21 @@
 (
     title: "GBamaTron",
-    date: Some("2006-04-02"),
     developer: Some("Ventzislav Tzvetko"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbamatron", filename: "gbamatron.gb")),
-    screenshots: ["gbramatron.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbamatron/gbramatron.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbamatron/gbramatron.png",
+    ],
+    releases: [
+        (
+            date: Some("2006-04-02"),
+            sources: [
+                HomebrewHub(
+                    slug: "gbamatron",
+                    filename: "gbamatron.gb",
+                ),
+            ],
+        ),
+    ],
 )

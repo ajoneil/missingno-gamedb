@@ -1,7 +1,20 @@
 (
     title: "Soul Raiders: Jailbreak",
     developer: Some("Team KwaKwa"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "soul-raiders-jailbreak", filename: "soul-raiders-jailbreak.gb")),
-    screenshots: ["soul-raiders-jailbreak.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/soul-raiders-jailbreak/soul-raiders-jailbreak.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/soul-raiders-jailbreak/soul-raiders-jailbreak.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "soul-raiders-jailbreak",
+                    filename: "soul-raiders-jailbreak.gb",
+                ),
+            ],
+        ),
+    ],
 )

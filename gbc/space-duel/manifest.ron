@@ -1,8 +1,23 @@
 (
     title: "Space Duel",
     developer: Some("Denis Rosset"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "space-duel", filename: "SpaceDuel.cgb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["20110402_space_duel.png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-duel/20110402_space_duel.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-duel/20110402_space_duel.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "space-duel",
+                    filename: "SpaceDuel.cgb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,21 @@
 (
     title: "TurtlePuzzle",
     developer: Some("UraKn0x"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "turtlepuzzle", filename: "turtle.gb")),
-    screenshots: ["screen1.png", "screen2.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turtlepuzzle/screen1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turtlepuzzle/screen1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/turtlepuzzle/screen2.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "turtlepuzzle",
+                    filename: "turtle.gb",
+                ),
+            ],
+        ),
+    ],
 )

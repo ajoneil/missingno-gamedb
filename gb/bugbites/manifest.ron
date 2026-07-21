@@ -1,13 +1,27 @@
 (
     title: "Bug Bites",
-    date: Some("2023-05-20T21:39:00"),
     developer: Some("MOL"),
     description: Some("A game that might bug you a little..."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "bugbites", filename: "Bug_Bites!.gb")),
-    tags: ["event:gbshowdown23"],
-    screenshots: ["cover.png", "86Fu8L.png"],
-    links: [
-        (name: "Website", url: "https://dunktasty.itch.io/bugbites", link_type: Wiki),
+    tags: [
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bugbites/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bugbites/86Fu8L.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "bugbites",
+                    filename: "Bug_Bites!.gb",
+                ),
+                Itch(
+                    url: "https://dunktasty.itch.io/bugbites",
+                ),
+            ],
+        ),
     ],
 )

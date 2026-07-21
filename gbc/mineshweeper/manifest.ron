@@ -1,7 +1,20 @@
 (
     title: "Mineshweeper",
     developer: Some("Stephen Stair"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mineshweeper", filename: "minewin.gbc")),
-    screenshots: ["20110402_mineshweeper.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mineshweeper/20110402_mineshweeper.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mineshweeper/20110402_mineshweeper.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "mineshweeper",
+                    filename: "minewin.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,12 +1,32 @@
 (
     title: "Tuff",
     developer: Some("BonsaiDen"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tuff", filename: "game.gb")),
     license: Some("MIT"),
-    tags: ["Open Source", "Platform"],
-    screenshots: ["1.png"],
+    tags: [
+        "Open Source",
+        "Platform",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/BonsaiDen/Tuff.gb", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/BonsaiDen/Tuff.gb",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tuff/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tuff/1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "tuff",
+                    filename: "game.gb",
+                ),
+            ],
+        ),
     ],
 )

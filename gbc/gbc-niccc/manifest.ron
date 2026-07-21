@@ -1,10 +1,27 @@
 (
     title: "GBC-NICCC",
     developer: Some("All You Can Execute"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "gbc-niccc", filename: "gbc-niccc.gbc")),
-    screenshots: ["gbc-niccc.png"],
     links: [
-        (name: "Source Code", url: "https://github.com/AYCEdemo/GBC-NICCC", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/AYCEdemo/GBC-NICCC",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbc-niccc/gbc-niccc.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/gbc-niccc/gbc-niccc.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "gbc-niccc",
+                    filename: "gbc-niccc.gbc",
+                ),
+            ],
+        ),
     ],
 )

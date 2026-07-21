@@ -1,14 +1,41 @@
 (
     title: "Big2Small",
-    date: Some("2021-10-22"),
     developer: Some("mdsteele"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "big2small", filename: "big2small.gb")),
     license: Some("GPL-3.0-or-later"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["screenshot1.png", "screenshot2.png", "screenshot3.png", "screenshot4.png"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Website", url: "https://mdsteele.games/big2small/", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/mdsteele/big2small", link_type: Source),
+        (
+            name: "Website",
+            url: "https://mdsteele.games/big2small/",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://github.com/mdsteele/big2small",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/big2small/screenshot1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/big2small/screenshot1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/big2small/screenshot2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/big2small/screenshot3.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/big2small/screenshot4.png",
+    ],
+    releases: [
+        (
+            date: Some("2021-10-22"),
+            sources: [
+                HomebrewHub(
+                    slug: "big2small",
+                    filename: "big2small.gb",
+                ),
+            ],
+        ),
     ],
 )

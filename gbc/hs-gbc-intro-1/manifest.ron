@@ -1,7 +1,20 @@
 (
     title: "hs gbc intro #1",
     developer: Some("High Society"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hs-gbc-intro-1", filename: "hs-gbc-intro-1.gbc")),
-    screenshots: ["hs-gbc-intro-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hs-gbc-intro-1/hs-gbc-intro-1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hs-gbc-intro-1/hs-gbc-intro-1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "hs-gbc-intro-1",
+                    filename: "hs-gbc-intro-1.gbc",
+                ),
+            ],
+        ),
+    ],
 )

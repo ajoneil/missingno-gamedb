@@ -1,11 +1,30 @@
 (
     title: "a Glitch in Slime",
     developer: Some("MissingNo.Studio"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "missingnostudio_a-glitch-in-slime", filename: "GameDemoAGIS.gb")),
-    tags: ["Role Playing", "glitch", "Slime", "event:gbcompo25"],
-    screenshots: ["cover.jpg", "screenshots/ZguCp6.jpg"],
-    links: [
-        (name: "Website", url: "https://missingnostudio.itch.io/a-glitch-in-slime", link_type: Wiki),
+    tags: [
+        "Role Playing",
+        "glitch",
+        "Slime",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/missingnostudio_a-glitch-in-slime/cover.jpg",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/missingnostudio_a-glitch-in-slime/cover.jpg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/missingnostudio_a-glitch-in-slime/screenshots/ZguCp6.jpg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "missingnostudio_a-glitch-in-slime",
+                    filename: "GameDemoAGIS.gb",
+                ),
+                Itch(
+                    url: "https://missingnostudio.itch.io/a-glitch-in-slime",
+                ),
+            ],
+        ),
     ],
 )

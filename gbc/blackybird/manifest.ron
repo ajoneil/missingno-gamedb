@@ -1,10 +1,27 @@
 (
     title: "Blacky Bird",
-    date: Some("2022-05-01"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "blackybird", filename: "BlackyBirdCol.gb")),
-    screenshots: ["BlackyBirdCol-0.png"],
     links: [
-        (name: "Website", url: "https://gb-dev.blogspot.com/", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://gb-dev.blogspot.com/",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blackybird/BlackyBirdCol-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/blackybird/BlackyBirdCol-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2022-05-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "blackybird",
+                    filename: "BlackyBirdCol.gb",
+                ),
+            ],
+        ),
     ],
 )

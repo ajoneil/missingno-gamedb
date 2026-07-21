@@ -1,8 +1,21 @@
 (
     title: "Rocket Man",
-    date: Some("2017-07-21"),
     developer: Some("Light Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rocket-man", filename: "rocketmandemo.gb")),
-    screenshots: ["screenshot1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rocket-man/screenshot1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rocket-man/screenshot1.png",
+    ],
+    releases: [
+        (
+            date: Some("2017-07-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "rocket-man",
+                    filename: "rocketmandemo.gb",
+                ),
+            ],
+        ),
+    ],
 )

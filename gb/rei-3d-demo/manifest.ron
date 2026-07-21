@@ -1,7 +1,20 @@
 (
     title: "Rei 3D Demo",
-    date: Some("1996-06-17"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rei-3d-demo", filename: "REI3D.GB")),
-    screenshots: ["Rei_3D_Demo-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rei-3d-demo/Rei_3D_Demo-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rei-3d-demo/Rei_3D_Demo-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1996-06-17"),
+            sources: [
+                HomebrewHub(
+                    slug: "rei-3d-demo",
+                    filename: "REI3D.GB",
+                ),
+            ],
+        ),
+    ],
 )

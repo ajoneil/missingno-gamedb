@@ -1,9 +1,24 @@
 (
     title: "Apple",
-    date: Some("1999-10-03"),
     developer: Some("Karin Horberg"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "apple-demo", filename: "Apple Demo (PD).gb")),
-    tags: ["event:bung-2nd-coding-compo"],
-    screenshots: ["Apple Demo (PD).png"],
+    tags: [
+        "event:bung-2nd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/apple-demo/Apple Demo (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/apple-demo/Apple Demo (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1999-10-03"),
+            sources: [
+                HomebrewHub(
+                    slug: "apple-demo",
+                    filename: "Apple Demo (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

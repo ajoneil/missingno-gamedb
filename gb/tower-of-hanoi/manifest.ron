@@ -1,7 +1,20 @@
 (
     title: "Tower Of Hanoi",
     developer: Some("makrill"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tower-of-hanoi", filename: "tower-of-hanoi.gb")),
-    screenshots: ["tower-of-hanoi.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tower-of-hanoi/tower-of-hanoi.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tower-of-hanoi/tower-of-hanoi.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "tower-of-hanoi",
+                    filename: "tower-of-hanoi.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Breakout Demo",
     developer: Some("Anders Granlund"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "breakout-demo", filename: "BreakoutDemo .cgb")),
-    screenshots: ["20110402_breakout_demo.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/breakout-demo/20110402_breakout_demo.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/breakout-demo/20110402_breakout_demo.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "breakout-demo",
+                    filename: "BreakoutDemo .cgb",
+                ),
+            ],
+        ),
+    ],
 )

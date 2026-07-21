@@ -1,8 +1,23 @@
 (
     title: "T2",
-    date: Some("1998-01-01"),
     developer: Some("Megaman_X"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "t2", filename: "T2.GB")),
-    screenshots: ["715.png", "716.png", "717.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/t2/715.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/t2/715.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/t2/716.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/t2/717.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "t2",
+                    filename: "T2.GB",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,9 +1,25 @@
 (
     title: "Egg Racer",
-    date: Some("2000-04-01"),
     developer: Some("Mr Quang Nguyen"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "egg-racer", filename: "egg-racer-lik-sang-pd-c.gbc")),
-    tags: ["Action", "event:liksang2000-compo"],
-    screenshots: ["20110402_egg_racer.png"],
+    tags: [
+        "Action",
+        "event:liksang2000-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/egg-racer/20110402_egg_racer.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/egg-racer/20110402_egg_racer.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "egg-racer",
+                    filename: "egg-racer-lik-sang-pd-c.gbc",
+                ),
+            ],
+        ),
+    ],
 )

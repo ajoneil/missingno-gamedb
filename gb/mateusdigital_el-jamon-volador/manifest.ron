@@ -1,13 +1,35 @@
 (
     title: "El Jamon Volador",
-    date: Some("2023-06-02T03:00:00"),
     developer: Some("mateus.digital"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mateusdigital_el-jamon-volador", filename: "el-jamon-volador_1.2.1.gb")),
-    tags: ["Action", "Flappy Bird"],
-    screenshots: ["cover.gif", "screenshots/Eljamonvolador.png"],
+    tags: [
+        "Action",
+        "Flappy Bird",
+    ],
     links: [
-        (name: "Website", url: "https://mateusdigital.itch.io/el-jamon-volador", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/mateusdigital/el_jamon_volador", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/mateusdigital/el_jamon_volador",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mateusdigital_el-jamon-volador/cover.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mateusdigital_el-jamon-volador/cover.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mateusdigital_el-jamon-volador/screenshots/Eljamonvolador.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "mateusdigital_el-jamon-volador",
+                    filename: "el-jamon-volador_1.2.1.gb",
+                ),
+                Itch(
+                    url: "https://mateusdigital.itch.io/el-jamon-volador",
+                ),
+            ],
+        ),
     ],
 )

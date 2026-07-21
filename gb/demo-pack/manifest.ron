@@ -1,8 +1,27 @@
 (
     title: "Demo Pack",
-    date: Some("1998-01-01"),
     developer: Some("Mango"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "demo-pack", filename: "TOONS.GB")),
-    screenshots: ["748.png", "749.png", "750.png", "751.png", "752.png", "753.png", "754.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-pack/748.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-pack/748.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-pack/749.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-pack/750.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-pack/751.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-pack/752.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-pack/753.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-pack/754.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "demo-pack",
+                    filename: "TOONS.GB",
+                ),
+            ],
+        ),
+    ],
 )

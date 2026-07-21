@@ -1,9 +1,25 @@
 (
     title: "Mygame",
-    date: Some("2000-01-19"),
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mygame", filename: "Mygame.gb")),
-    tags: ["Adventure", "event:bung-3rd-coding-compo"],
-    screenshots: ["Mygame-0.png"],
+    tags: [
+        "Adventure",
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mygame/Mygame-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mygame/Mygame-0.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-19"),
+            sources: [
+                HomebrewHub(
+                    slug: "mygame",
+                    filename: "Mygame.gb",
+                ),
+            ],
+        ),
+    ],
 )

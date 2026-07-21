@@ -1,8 +1,21 @@
 (
     title: "reflectendo",
-    date: Some("2023-02-11"),
     developer: Some("elyon"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "reflectendo", filename: "reflectendo.gb")),
-    screenshots: ["reflectendo.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/reflectendo/reflectendo.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/reflectendo/reflectendo.png",
+    ],
+    releases: [
+        (
+            date: Some("2023-02-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "reflectendo",
+                    filename: "reflectendo.gb",
+                ),
+            ],
+        ),
+    ],
 )

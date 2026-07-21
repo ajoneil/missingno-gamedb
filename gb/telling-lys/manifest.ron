@@ -1,11 +1,28 @@
 (
     title: "Telling LYs?",
-    date: Some("2018-11-11"),
     developer: Some("tepples"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "telling-lys", filename: "tellinglys.gb")),
-    screenshots: ["tellinglys.png"],
     links: [
-        (name: "Website", url: "https://forums.nesdev.org/viewtopic.php?t=18026", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://forums.nesdev.org/viewtopic.php?t=18026",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/telling-lys/tellinglys.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/telling-lys/tellinglys.png",
+    ],
+    releases: [
+        (
+            date: Some("2018-11-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "telling-lys",
+                    filename: "tellinglys.gb",
+                ),
+            ],
+        ),
     ],
 )

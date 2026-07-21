@@ -1,12 +1,34 @@
 (
     title: "PostBot",
     developer: Some("Tobias Rojahn"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "postbot", filename: "PostBot.gb")),
     license: Some("MIT"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["screenshot1.bmp", "screenshot2.bmp", "screenshot3.bmp"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/MasterIV/PostBot", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/MasterIV/PostBot",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/postbot/screenshot1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/postbot/screenshot1.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/postbot/screenshot2.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/postbot/screenshot3.bmp",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "postbot",
+                    filename: "PostBot.gb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,14 +1,35 @@
 (
     title: "Max Pirate",
-    date: Some("2024-05-11"),
     developer: Some("Lemmy Hawkins"),
     description: Some("A small action game. Smash zombies with your anchor and your cannon Bessie. Made with GBDK-2020."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "maxpirate", filename: "maxpirate.gb")),
     license: Some("MIT"),
-    tags: ["Open Source", "Action"],
-    screenshots: ["cover.png", "screen1.png", "screen2.png"],
+    tags: [
+        "Open Source",
+        "Action",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/MWehrstedt/MaxPirate", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/MWehrstedt/MaxPirate",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/maxpirate/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/maxpirate/screen1.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/maxpirate/screen2.png",
+    ],
+    releases: [
+        (
+            date: Some("2024-05-11"),
+            sources: [
+                HomebrewHub(
+                    slug: "maxpirate",
+                    filename: "maxpirate.gb",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Manic Miner",
-    date: Some("1999-08-27"),
     developer: Some("Paul Taylor"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "manic-miner", filename: "maniacminer.cgb")),
-    screenshots: ["manicminer.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/manic-miner/manicminer.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/manic-miner/manicminer.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-08-27"),
+            sources: [
+                HomebrewHub(
+                    slug: "manic-miner",
+                    filename: "maniacminer.cgb",
+                ),
+            ],
+        ),
+    ],
 )

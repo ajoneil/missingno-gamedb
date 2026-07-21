@@ -1,10 +1,25 @@
 (
     title: "Cook (SimBurgerKing)",
-    date: Some("2001-09-26"),
     developer: Some("Joshua Wise"),
     description: Some("Cook (SimBurgerKing) is a very simple game. Press the button that is represented by the icon onscreen."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "cook-simburgerking", filename: "cook.gbc")),
-    tags: ["event:freedom-2001-gameboy-developers-competition"],
-    screenshots: ["20110402_cook_(simburgerking).png"],
+    tags: [
+        "event:freedom-2001-gameboy-developers-competition",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cook-simburgerking/20110402_cook_(simburgerking).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/cook-simburgerking/20110402_cook_(simburgerking).png",
+    ],
+    releases: [
+        (
+            date: Some("2001-09-26"),
+            sources: [
+                HomebrewHub(
+                    slug: "cook-simburgerking",
+                    filename: "cook.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,11 +1,36 @@
 (
     title: "Cosmo Command - GB Compo 2025",
     developer: Some("claytheturtle"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "claytheturtle_cosmo-command-gb-compo-2025", filename: "CosmoCommand_jam.gbc")),
-    tags: ["Retro", "Shooter", "Furry", "Sci-fi", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/2FcH7rW.png", "screenshots/F5hp21.png", "screenshots/PeQw2t.png", "screenshots/D4uSvr.png", "screenshots/rcqcwD.png", "screenshots/wb1PCV.png", "screenshots/FzTduN.png"],
-    links: [
-        (name: "Website", url: "https://claytheturtle.itch.io/cosmo-command-gb-compo-2025", link_type: Wiki),
+    tags: [
+        "Retro",
+        "Shooter",
+        "Furry",
+        "Sci-fi",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/screenshots/2FcH7rW.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/screenshots/F5hp21.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/screenshots/PeQw2t.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/screenshots/D4uSvr.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/screenshots/rcqcwD.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/screenshots/wb1PCV.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/screenshots/FzTduN.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "claytheturtle_cosmo-command-gb-compo-2025",
+                    filename: "CosmoCommand_jam.gbc",
+                ),
+                Itch(
+                    url: "https://claytheturtle.itch.io/cosmo-command-gb-compo-2025",
+                ),
+            ],
+        ),
     ],
 )

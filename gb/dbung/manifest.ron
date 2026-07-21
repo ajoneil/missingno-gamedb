@@ -1,8 +1,21 @@
 (
     title: "Bung Cart Slideshow",
-    date: Some("1999-07-09"),
     developer: Some("Derek Steinmoeller"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "dbung", filename: "dbung.gb")),
-    screenshots: ["dbung-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dbung/dbung-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/dbung/dbung-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-07-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "dbung",
+                    filename: "dbung.gb",
+                ),
+            ],
+        ),
+    ],
 )

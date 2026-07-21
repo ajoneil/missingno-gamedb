@@ -1,13 +1,33 @@
 (
     title: "Geometrix",
-    date: Some("01-29-2016"),
     developer: Some("AntonioND"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "geometrix", filename: "geometrix.gbc")),
     license: Some("GPL-3.0-or-later"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["screenshot01.bmp", "screenshot02.bmp"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/AntonioND/geometrix", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/AntonioND/geometrix",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/geometrix/screenshot01.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/geometrix/screenshot01.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/geometrix/screenshot02.bmp",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "geometrix",
+                    filename: "geometrix.gbc",
+                ),
+            ],
+        ),
     ],
 )

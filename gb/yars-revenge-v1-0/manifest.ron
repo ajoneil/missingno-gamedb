@@ -2,7 +2,20 @@
     title: "Yars Revenge v1.0",
     developer: Some("Genetic Fantasia"),
     description: Some("Shooter game, does NOT work on real hardware, nor in most emulators."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "yars-revenge-v1-0", filename: "YAR.GB")),
-    screenshots: ["20110402_yars_revenge.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yars-revenge-v1-0/20110402_yars_revenge.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/yars-revenge-v1-0/20110402_yars_revenge.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "yars-revenge-v1-0",
+                    filename: "YAR.GB",
+                ),
+            ],
+        ),
+    ],
 )

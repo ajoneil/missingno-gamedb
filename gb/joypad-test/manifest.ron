@@ -1,8 +1,21 @@
 (
     title: "JOYTST.GB ver .1",
-    date: Some("1998-02-02"),
     developer: Some("Nick Kochakian"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "joypad-test", filename: "Joypad_Test.gb")),
-    screenshots: ["Joypad_Test-0.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/joypad-test/Joypad_Test-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/joypad-test/Joypad_Test-0.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-02-02"),
+            sources: [
+                HomebrewHub(
+                    slug: "joypad-test",
+                    filename: "Joypad_Test.gb",
+                ),
+            ],
+        ),
+    ],
 )

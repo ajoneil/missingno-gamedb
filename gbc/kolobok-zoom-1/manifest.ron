@@ -1,7 +1,20 @@
 (
     title: "KOLOBOK ZOOM 1",
     developer: Some("FreeArt"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "kolobok-zoom-1", filename: "KOLOBOK ZOOM 1 (PD) [C].gbc")),
-    screenshots: ["KOLOBOK ZOOM 1 (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kolobok-zoom-1/KOLOBOK ZOOM 1 (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/kolobok-zoom-1/KOLOBOK ZOOM 1 (PD) [C].png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "kolobok-zoom-1",
+                    filename: "KOLOBOK ZOOM 1 (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )

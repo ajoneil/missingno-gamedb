@@ -1,11 +1,28 @@
 (
     title: "Forehead Block Guy GB",
-    date: Some("2019-02-08"),
     developer: Some("NovaSquirrel"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "forehead-block-guy-gb", filename: "fhbg.gb")),
-    screenshots: ["fhbg.png"],
     links: [
-        (name: "Website", url: "https://github.com/NovaSquirrel/GameBoyFHBG", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://github.com/NovaSquirrel/GameBoyFHBG",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/forehead-block-guy-gb/fhbg.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/forehead-block-guy-gb/fhbg.png",
+    ],
+    releases: [
+        (
+            date: Some("2019-02-08"),
+            sources: [
+                HomebrewHub(
+                    slug: "forehead-block-guy-gb",
+                    filename: "fhbg.gb",
+                ),
+            ],
+        ),
     ],
 )

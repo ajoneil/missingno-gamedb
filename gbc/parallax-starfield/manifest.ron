@@ -1,8 +1,21 @@
 (
     title: "175-sprite Parallax Starfield",
-    date: Some("2000-01-01"),
     developer: Some("One Man Band"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "parallax-starfield", filename: "Stars.gb")),
-    screenshots: ["718.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/parallax-starfield/718.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/parallax-starfield/718.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "parallax-starfield",
+                    filename: "Stars.gb",
+                ),
+            ],
+        ),
+    ],
 )

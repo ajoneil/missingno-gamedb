@@ -1,8 +1,30 @@
 (
     title: "Pickpocket",
-    date: Some("2002-01-01"),
     developer: Some("Inka"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pickpocket", filename: "inka-PP.GBC")),
-    screenshots: ["74.png", "75.png", "76.png", "77.png", "78.png", "79.png", "80.png", "81.png", "82.png", "83.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/74.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/74.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/75.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/76.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/77.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/78.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/79.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/80.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/81.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/82.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/83.png",
+    ],
+    releases: [
+        (
+            date: Some("2002-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "pickpocket",
+                    filename: "inka-PP.GBC",
+                ),
+            ],
+        ),
+    ],
 )

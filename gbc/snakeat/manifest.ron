@@ -1,7 +1,20 @@
 (
     title: "SnakEat",
     developer: Some("Patriek Lesparre"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "snakeat", filename: "SnakEat.gbc")),
-    screenshots: ["20110402_snakeat.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snakeat/20110402_snakeat.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/snakeat/20110402_snakeat.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "snakeat",
+                    filename: "SnakEat.gbc",
+                ),
+            ],
+        ),
+    ],
 )

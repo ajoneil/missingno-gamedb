@@ -1,7 +1,20 @@
 (
     title: "qtx gbc intro #1",
     developer: Some("Quartex"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "qtx-gbc-intro-1", filename: "qtx-gbc-intro-1.gbc")),
-    screenshots: ["qtx-gbc-intro-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/qtx-gbc-intro-1/qtx-gbc-intro-1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/qtx-gbc-intro-1/qtx-gbc-intro-1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "qtx-gbc-intro-1",
+                    filename: "qtx-gbc-intro-1.gbc",
+                ),
+            ],
+        ),
+    ],
 )

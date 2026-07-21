@@ -1,13 +1,28 @@
 (
     title: "Cinnamon & Bean In The Unfriendly Forest",
-    date: Some("2023-05-20T07:02:00"),
     developer: Some("SillySadieLady, IridiaLux"),
-    description: Some("Help two bunny buddies get through a forest full of rude animals in this Gameboy game made for GBShowdown '23."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "friendly", filename: "unfriendly_forest_final_v4.gb")),
-    tags: ["Platform", "event:gbshowdown23"],
-    screenshots: ["cover.png", "b2Ffkjn.png"],
-    links: [
-        (name: "Website", url: "https://sillysadielady.itch.io/friendly", link_type: Wiki),
+    description: Some("Help two bunny buddies get through a forest full of rude animals in this Gameboy game made for GBShowdown \'23."),
+    tags: [
+        "Platform",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly/b2Ffkjn.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "friendly",
+                    filename: "unfriendly_forest_final_v4.gb",
+                ),
+                Itch(
+                    url: "https://sillysadielady.itch.io/friendly",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "My GB is your GB and your GB is my GB",
-    date: Some("1999-08-21"),
     developer: Some("Black Box"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "my-gb-is-your-gb-and-your-gb-is-my-gb", filename: "mygb.gb")),
-    screenshots: ["1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/my-gb-is-your-gb-and-your-gb-is-my-gb/1.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/my-gb-is-your-gb-and-your-gb-is-my-gb/1.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-08-21"),
+            sources: [
+                HomebrewHub(
+                    slug: "my-gb-is-your-gb-and-your-gb-is-my-gb",
+                    filename: "mygb.gb",
+                ),
+            ],
+        ),
+    ],
 )

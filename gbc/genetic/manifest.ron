@@ -1,8 +1,21 @@
 (
     title: "Genetic",
-    date: Some("2000-01-01"),
     developer: Some("Dox"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "genetic", filename: "Genetic.cgb")),
-    screenshots: ["152.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/genetic/152.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/genetic/152.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "genetic",
+                    filename: "Genetic.cgb",
+                ),
+            ],
+        ),
+    ],
 )

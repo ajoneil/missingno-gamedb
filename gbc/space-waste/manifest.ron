@@ -1,8 +1,30 @@
 (
     title: "Space Waste",
-    date: Some("2003-01-01"),
     developer: Some("Octarine"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "space-waste", filename: "oct-spw.gbc")),
-    screenshots: ["12.png", "13.png", "14.png", "15.png", "16.png", "17.png", "18.png", "19.png", "20.png", "21.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/12.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/12.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/13.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/14.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/15.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/16.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/17.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/18.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/19.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/20.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/21.png",
+    ],
+    releases: [
+        (
+            date: Some("2003-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "space-waste",
+                    filename: "oct-spw.gbc",
+                ),
+            ],
+        ),
+    ],
 )

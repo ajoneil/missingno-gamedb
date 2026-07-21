@@ -1,10 +1,25 @@
 (
     title: "The Horrible Demon 4",
-    date: Some("2001-09-09"),
     developer: Some("Bertil Hörberg"),
     description: Some("The Horrible Demon 4 is a side-scrolling action/adventure game."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-horrible-demon-iv-v0-1", filename: "THD4.gbc")),
-    tags: ["event:freedom-2001-gameboy-developers-competition"],
-    screenshots: ["20110402_the_horrible_demon_iv.png"],
+    tags: [
+        "event:freedom-2001-gameboy-developers-competition",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon-iv-v0-1/20110402_the_horrible_demon_iv.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon-iv-v0-1/20110402_the_horrible_demon_iv.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-09-09"),
+            sources: [
+                HomebrewHub(
+                    slug: "the-horrible-demon-iv-v0-1",
+                    filename: "THD4.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,21 @@
 (
     title: "Hikaru",
-    date: Some("1998-01-01"),
     developer: Some("Megaman_X"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hikaru", filename: "HIKARU.GB")),
-    screenshots: ["hikaru.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hikaru/hikaru.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hikaru/hikaru.png",
+    ],
+    releases: [
+        (
+            date: Some("1998-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "hikaru",
+                    filename: "HIKARU.GB",
+                ),
+            ],
+        ),
+    ],
 )

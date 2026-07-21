@@ -2,11 +2,33 @@
     title: "Days Without",
     developer: Some("Elvies"),
     description: Some("A short narrative about a lonely man in the apocalypse."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "days-without", filename: "Days_Without_-_Elvies_[More_Endings].gbc")),
-    tags: ["Survival", "Interactive Fiction", "Platform", "event:gbshowdown23"],
-    screenshots: ["cover.gif", "Nj33ij.gif", "2FqR1sQ.gif", "pB2QRK.gif", "882p95.gif"],
-    links: [
-        (name: "Website", url: "https://elvies.itch.io/days-without", link_type: Wiki),
+    tags: [
+        "Survival",
+        "Interactive Fiction",
+        "Platform",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/cover.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/cover.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/Nj33ij.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/2FqR1sQ.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/pB2QRK.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/882p95.gif",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "days-without",
+                    filename: "Days_Without_-_Elvies_[More_Endings].gbc",
+                ),
+                Itch(
+                    url: "https://elvies.itch.io/days-without",
+                ),
+            ],
+        ),
     ],
 )

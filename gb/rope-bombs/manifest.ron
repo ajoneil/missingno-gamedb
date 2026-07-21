@@ -1,7 +1,20 @@
 (
     title: "Rope & Bombs",
     developer: Some("Team Lampoil"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rope-bombs", filename: "rope-bombs.gb")),
-    screenshots: ["rope-bombs.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rope-bombs/rope-bombs.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rope-bombs/rope-bombs.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "rope-bombs",
+                    filename: "rope-bombs.gb",
+                ),
+            ],
+        ),
+    ],
 )

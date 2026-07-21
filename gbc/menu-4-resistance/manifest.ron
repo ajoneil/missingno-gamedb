@@ -1,8 +1,21 @@
 (
     title: "Menu #4 (Elevator Action DX +5)",
-    date: Some("2001-01-01"),
     developer: Some("Resistance"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "menu-4-resistance", filename: "rse-t_04.gbc")),
-    screenshots: ["186.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-4-resistance/186.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-4-resistance/186.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "menu-4-resistance",
+                    filename: "rse-t_04.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,12 +1,32 @@
 (
     title: "Retroid",
-    date: Some("2016-09-10"),
     developer: Some("Jonas Fischbach"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "retroid", filename: "Retroid.gb")),
-    tags: ["Action"],
-    screenshots: ["screenshot1.bmp", "screenshot2.bmp"],
+    tags: [
+        "Action",
+    ],
     links: [
-        (name: "Website", url: "https://retroidgameboy.wordpress.com/", link_type: Wiki),
+        (
+            name: "Website",
+            url: "https://retroidgameboy.wordpress.com/",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/retroid/screenshot1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/retroid/screenshot1.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/retroid/screenshot2.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2016-09-10"),
+            sources: [
+                HomebrewHub(
+                    slug: "retroid",
+                    filename: "Retroid.gb",
+                ),
+            ],
+        ),
     ],
 )

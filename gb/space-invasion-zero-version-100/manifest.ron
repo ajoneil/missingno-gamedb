@@ -1,7 +1,20 @@
 (
     title: "Space Invasion Zero (Version 1.0.0)",
     developer: Some("Refresh Games"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "space-invasion-zero-version-100", filename: "warmup.gb")),
-    screenshots: ["spaceinvasionzero.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invasion-zero-version-100/spaceinvasionzero.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invasion-zero-version-100/spaceinvasionzero.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "space-invasion-zero-version-100",
+                    filename: "warmup.gb",
+                ),
+            ],
+        ),
+    ],
 )

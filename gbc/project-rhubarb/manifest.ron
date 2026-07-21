@@ -2,8 +2,23 @@
     title: "Project Rhubarb",
     developer: Some("Unknown"),
     description: Some("Pacman clone"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "project-rhubarb", filename: "ProjectRhubarb.cgb")),
-    tags: ["event:bung-3rd-coding-compo"],
-    screenshots: ["20110402_project_rhubarb.png"],
+    tags: [
+        "event:bung-3rd-coding-compo",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/project-rhubarb/20110402_project_rhubarb.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/project-rhubarb/20110402_project_rhubarb.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "project-rhubarb",
+                    filename: "ProjectRhubarb.cgb",
+                ),
+            ],
+        ),
+    ],
 )

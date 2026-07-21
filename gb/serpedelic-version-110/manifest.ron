@@ -1,7 +1,20 @@
 (
     title: "Serpedelic (Version 1.1.0)",
     developer: Some("DeltaGardner"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "serpedelic-version-110", filename: "serpedelic.gb")),
-    screenshots: ["serpedelic.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/serpedelic-version-110/serpedelic.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/serpedelic-version-110/serpedelic.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "serpedelic-version-110",
+                    filename: "serpedelic.gb",
+                ),
+            ],
+        ),
+    ],
 )

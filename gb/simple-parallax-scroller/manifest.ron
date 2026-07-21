@@ -1,8 +1,21 @@
 (
     title: "Simple Parallax Scroller",
-    date: Some("2001-04-08"),
     developer: Some("Ville Helin"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "simple-parallax-scroller", filename: "Simple Parallax Scroller (PD).gb")),
-    screenshots: ["Simple Parallax Scroller (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/simple-parallax-scroller/Simple Parallax Scroller (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/simple-parallax-scroller/Simple Parallax Scroller (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("2001-04-08"),
+            sources: [
+                HomebrewHub(
+                    slug: "simple-parallax-scroller",
+                    filename: "Simple Parallax Scroller (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

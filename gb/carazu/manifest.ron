@@ -1,13 +1,38 @@
 (
     title: "Carazu",
     developer: Some("Martin Holtkamp"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "carazu", filename: "carazu.gb")),
     license: Some("GPL-3.0-or-later"),
-    tags: ["Platform", "Open Source"],
-    screenshots: ["screenshot01.bmp", "screenshot02.bmp"],
+    tags: [
+        "Platform",
+        "Open Source",
+    ],
     links: [
-        (name: "Website", url: "https://gamejolt.com/games/carazu/184403", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/mholtkamp/carazu", link_type: Source),
+        (
+            name: "Website",
+            url: "https://gamejolt.com/games/carazu/184403",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://github.com/mholtkamp/carazu",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carazu/screenshot01.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carazu/screenshot01.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/carazu/screenshot02.bmp",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "carazu",
+                    filename: "carazu.gb",
+                ),
+            ],
+        ),
     ],
 )

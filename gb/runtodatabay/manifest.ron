@@ -1,11 +1,30 @@
 (
     title: "Run to Databay",
     developer: Some("Momeka"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "runtodatabay", filename: "databay.gb")),
-    tags: ["Open Source"],
-    screenshots: ["screenshot.png"],
+    tags: [
+        "Open Source",
+    ],
     links: [
-        (name: "Source Code", url: "https://github.com/Momeka/Databay", link_type: Source),
+        (
+            name: "Source Code",
+            url: "https://github.com/Momeka/Databay",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runtodatabay/screenshot.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runtodatabay/screenshot.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "runtodatabay",
+                    filename: "databay.gb",
+                ),
+            ],
+        ),
     ],
 )

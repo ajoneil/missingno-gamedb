@@ -2,11 +2,28 @@
     title: "Pspsps",
     developer: Some("fluxmasterfix"),
     description: Some("Cat Petting Game"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "pspsps", filename: "Pspsps_(Updated).gb")),
-    tags: ["Rhythm", "event:gbshowdown23"],
-    screenshots: ["cover.png", "zzwlcx.png", "ooXJrf.png"],
-    links: [
-        (name: "Website", url: "https://fluxmasterfix.itch.io/pspsps", link_type: Wiki),
+    tags: [
+        "Rhythm",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pspsps/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pspsps/zzwlcx.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/pspsps/ooXJrf.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "pspsps",
+                    filename: "Pspsps_(Updated).gb",
+                ),
+                Itch(
+                    url: "https://fluxmasterfix.itch.io/pspsps",
+                ),
+            ],
+        ),
     ],
 )

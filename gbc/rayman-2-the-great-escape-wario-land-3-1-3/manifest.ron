@@ -1,7 +1,20 @@
 (
     title: "Rayman 2 - The Great Escape / Wario Land 3 1/3",
     developer: Some("Venom"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rayman-2-the-great-escape-wario-land-3-1-3", filename: "rayman-2-the-great-escape-wario-land-3-1-3.gbc")),
-    screenshots: ["rayman-2-the-great-escape-wario-land-3-1-3.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rayman-2-the-great-escape-wario-land-3-1-3/rayman-2-the-great-escape-wario-land-3-1-3.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rayman-2-the-great-escape-wario-land-3-1-3/rayman-2-the-great-escape-wario-land-3-1-3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "rayman-2-the-great-escape-wario-land-3-1-3",
+                    filename: "rayman-2-the-great-escape-wario-land-3-1-3.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,8 +1,22 @@
 (
     title: "Chunk Out",
-    date: Some("2016-08-14"),
     developer: Some("James Todd"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "chunk-out", filename: "chunkout.gbc")),
-    screenshots: ["chunkout.png", "20110402_chunkout.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunk-out/chunkout.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunk-out/chunkout.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/chunk-out/20110402_chunkout.png",
+    ],
+    releases: [
+        (
+            date: Some("2016-08-14"),
+            sources: [
+                HomebrewHub(
+                    slug: "chunk-out",
+                    filename: "chunkout.gbc",
+                ),
+            ],
+        ),
+    ],
 )

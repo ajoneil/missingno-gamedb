@@ -1,7 +1,20 @@
 (
     title: "MG-888",
     developer: Some("UnKnown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mg-888", filename: "MG-888.cgb")),
-    screenshots: ["20110402_mg-888.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mg-888/20110402_mg-888.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mg-888/20110402_mg-888.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "mg-888",
+                    filename: "MG-888.cgb",
+                ),
+            ],
+        ),
+    ],
 )

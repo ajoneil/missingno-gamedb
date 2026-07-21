@@ -1,7 +1,20 @@
 (
     title: "Rotagraph",
     developer: Some("Unknown"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "rotagraph", filename: "Rotagraph.cgb")),
-    screenshots: ["20110402_rotagraph.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rotagraph/20110402_rotagraph.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/rotagraph/20110402_rotagraph.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "rotagraph",
+                    filename: "Rotagraph.cgb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,15 +1,42 @@
 (
     title: "Domination",
-    date: Some("2021-06-28"),
     developer: Some("Graham Coulby (IonicLimb)"),
     description: Some("A player-vs-ai puzzle card game"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "domination", filename: "domination.gb")),
     license: Some("MIT"),
-    tags: ["Open Source", "Puzzle"],
-    screenshots: ["domination-screenshot-1.bmp", "domination-screenshot-2.bmp", "domination-screenshot-3.bmp", "domination-screenshot-4.bmp"],
+    tags: [
+        "Open Source",
+        "Puzzle",
+    ],
     links: [
-        (name: "Website", url: "https://www.grahamcoulby.co.uk/projects/domination-a-homebrew-card-game-for-nintendo-gameboy", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/gcoulby/Domination", link_type: Source),
+        (
+            name: "Website",
+            url: "https://www.grahamcoulby.co.uk/projects/domination-a-homebrew-card-game-for-nintendo-gameboy",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://github.com/gcoulby/Domination",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/domination/domination-screenshot-1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/domination/domination-screenshot-1.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/domination/domination-screenshot-2.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/domination/domination-screenshot-3.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/domination/domination-screenshot-4.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2021-06-28"),
+            sources: [
+                HomebrewHub(
+                    slug: "domination",
+                    filename: "domination.gb",
+                ),
+            ],
+        ),
     ],
 )

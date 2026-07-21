@@ -1,13 +1,37 @@
 (
     title: "RunieStory - Gameboy color / Analogue Pocket",
-    date: Some("2023-05-20T10:24:00"),
     developer: Some("Spicyfuse"),
     description: Some("Action rpg about making friends with a fantasy town"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "runiestory", filename: "RunieStory.gb")),
-    tags: ["Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.gif", "Xjo6LG.gif", "DDUmIf.gif", "67V8aM.gif", "CfyiwH.jpeg", "F8i0kr.jpeg", "GpAjn1.jpeg", "JeIbtS.jpeg", "nCvAo5.jpeg", "2B2FKAYY.jpeg"],
-    links: [
-        (name: "Website", url: "https://spicyfuse.itch.io/runiestory", link_type: Wiki),
+    tags: [
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/cover.gif",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/cover.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/Xjo6LG.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/DDUmIf.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/67V8aM.gif",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/CfyiwH.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/F8i0kr.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/GpAjn1.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/JeIbtS.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/nCvAo5.jpeg",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/2B2FKAYY.jpeg",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "runiestory",
+                    filename: "RunieStory.gb",
+                ),
+                Itch(
+                    url: "https://spicyfuse.itch.io/runiestory",
+                ),
+            ],
+        ),
     ],
 )

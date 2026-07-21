@@ -1,7 +1,22 @@
 (
     title: "Temple of Velcro, Sticky Hooves in the",
     description: Some("By 2-bit bros"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "temple-of-velcro-sticky-hooves-in-the", filename: "templeofvelcro.gb")),
-    screenshots: ["templeofvelcro.png", "templeofvelcro-2.png", "templeofvelcro-3.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/temple-of-velcro-sticky-hooves-in-the/templeofvelcro.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/temple-of-velcro-sticky-hooves-in-the/templeofvelcro.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/temple-of-velcro-sticky-hooves-in-the/templeofvelcro-2.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/temple-of-velcro-sticky-hooves-in-the/templeofvelcro-3.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "temple-of-velcro-sticky-hooves-in-the",
+                    filename: "templeofvelcro.gb",
+                ),
+            ],
+        ),
+    ],
 )

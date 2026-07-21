@@ -1,8 +1,21 @@
 (
-    title: "Intro #3 (Alfred's Adventure)",
-    date: Some("2001-01-01"),
+    title: "Intro #3 (Alfred\'s Adventure)",
     developer: Some("Dual Crew & Shining"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "intro-3-dcs", filename: "dcs-i_03.gbc")),
-    screenshots: ["200.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-3-dcs/200.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-3-dcs/200.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "intro-3-dcs",
+                    filename: "dcs-i_03.gbc",
+                ),
+            ],
+        ),
+    ],
 )

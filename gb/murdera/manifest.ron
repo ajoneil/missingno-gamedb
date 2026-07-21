@@ -1,8 +1,32 @@
 (
     title: "Murdera",
-    date: Some("2006-01-01"),
     developer: Some("Matt Current"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "murdera", filename: "mc-mrder.gb")),
-    screenshots: ["318.png", "319.png", "320.png", "321.png", "322.png", "323.png", "324.png", "325.png", "326.png", "327.png", "328.png", "329.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/318.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/318.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/319.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/320.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/321.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/322.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/323.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/324.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/325.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/326.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/327.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/328.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/329.png",
+    ],
+    releases: [
+        (
+            date: Some("2006-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "murdera",
+                    filename: "mc-mrder.gb",
+                ),
+            ],
+        ),
+    ],
 )

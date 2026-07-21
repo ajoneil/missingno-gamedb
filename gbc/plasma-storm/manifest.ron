@@ -1,8 +1,21 @@
 (
     title: "Plasma Storm",
-    date: Some("2000-01-01"),
     developer: Some("Blue"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "plasma-storm", filename: "PlasmaStorm.gbc")),
-    screenshots: ["244.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plasma-storm/244.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/plasma-storm/244.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "plasma-storm",
+                    filename: "PlasmaStorm.gbc",
+                ),
+            ],
+        ),
+    ],
 )

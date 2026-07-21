@@ -1,7 +1,20 @@
 (
     title: "Hyper Cat",
     developer: Some("Andrew G. Crowell"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "hyper-cat", filename: "hypercat.gb")),
-    screenshots: ["hypercat.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hyper-cat/hypercat.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/hyper-cat/hypercat.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "hyper-cat",
+                    filename: "hypercat.gb",
+                ),
+            ],
+        ),
+    ],
 )

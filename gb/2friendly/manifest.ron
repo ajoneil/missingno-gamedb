@@ -1,13 +1,32 @@
 (
     title: "2 Friendly",
-    date: Some("2023-05-20T20:17:00"),
     developer: Some("isacben"),
     description: Some("Two cats. One of them is too friendly."),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "2friendly", filename: "2friendly.gb")),
-    tags: ["Puzzle", "event:gbshowdown23"],
-    screenshots: ["cover.png", "Kx2SDv.png", "9stq6q.png", "TBaUxt.png", "tJ1zzV.png", "aZx2Ry.png"],
-    links: [
-        (name: "Website", url: "https://isacben.itch.io/2friendly", link_type: Wiki),
+    tags: [
+        "Puzzle",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/Kx2SDv.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/9stq6q.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/TBaUxt.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/tJ1zzV.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/aZx2Ry.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "2friendly",
+                    filename: "2friendly.gb",
+                ),
+                Itch(
+                    url: "https://isacben.itch.io/2friendly",
+                ),
+            ],
+        ),
     ],
 )

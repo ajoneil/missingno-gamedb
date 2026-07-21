@@ -1,11 +1,27 @@
 (
     title: "Zako Xylo",
     developer: Some("sasor7i"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "sasor7i_zako-xylo", filename: "ZakoXylo_jam_gbc.gb")),
-    tags: ["Rhythm", "event:gbcompo25"],
-    screenshots: ["cover.png", "screenshots/tI6tHx.gif"],
-    links: [
-        (name: "Website", url: "https://sasor7i.itch.io/zako-xylo", link_type: Wiki),
+    tags: [
+        "Rhythm",
+        "event:gbcompo25",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sasor7i_zako-xylo/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/sasor7i_zako-xylo/screenshots/tI6tHx.gif",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "sasor7i_zako-xylo",
+                    filename: "ZakoXylo_jam_gbc.gb",
+                ),
+                Itch(
+                    url: "https://sasor7i.itch.io/zako-xylo",
+                ),
+            ],
+        ),
     ],
 )

@@ -1,8 +1,21 @@
 (
     title: "WWF Betrayal +5 / Are You Real?!",
-    date: Some("2001-08-13"),
     developer: Some("Dual Crew Shining"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "wwf-betrayal-5-are-you-real", filename: "wwf-betrayal-5-are-you-real.gbc")),
-    screenshots: ["wwf-betrayal-5-are-you-real.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wwf-betrayal-5-are-you-real/wwf-betrayal-5-are-you-real.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/wwf-betrayal-5-are-you-real/wwf-betrayal-5-are-you-real.png",
+    ],
+    releases: [
+        (
+            date: Some("2001-08-13"),
+            sources: [
+                HomebrewHub(
+                    slug: "wwf-betrayal-5-are-you-real",
+                    filename: "wwf-betrayal-5-are-you-real.gbc",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,13 +1,31 @@
 (
     title: "The Fetch Quest",
-    date: Some("2023-05-20T18:22:00"),
     developer: Some("BanDana"),
     description: Some("A short Game Boy Game for the Game Boy Showdown 2023"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "the-fetch-quest", filename: "game.gb")),
-    tags: ["Simulation", "Adventure", "event:gbshowdown23"],
-    screenshots: ["cover.png", "TLJpBf.png", "1crHES.png", "uhYZh1.png"],
-    links: [
-        (name: "Website", url: "https://bandana-d.itch.io/the-fetch-quest", link_type: Wiki),
+    tags: [
+        "Simulation",
+        "Adventure",
+        "event:gbshowdown23",
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-fetch-quest/cover.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-fetch-quest/TLJpBf.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-fetch-quest/1crHES.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/the-fetch-quest/uhYZh1.png",
+    ],
+    releases: [
+        (
+            sources: [
+                HomebrewHub(
+                    slug: "the-fetch-quest",
+                    filename: "game.gb",
+                ),
+                Itch(
+                    url: "https://bandana-d.itch.io/the-fetch-quest",
+                ),
+            ],
+        ),
     ],
 )

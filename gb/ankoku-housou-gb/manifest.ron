@@ -1,8 +1,22 @@
 (
     title: "Ankoku Housou GB",
-    date: Some("2011"),
     developer: Some("weep"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "ankoku-housou-gb", filename: "ankoku-housou.gb")),
-    screenshots: ["ankoku-housou-0.png", "ankoku-housou-1.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ankoku-housou-gb/ankoku-housou-0.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ankoku-housou-gb/ankoku-housou-0.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/ankoku-housou-gb/ankoku-housou-1.png",
+    ],
+    releases: [
+        (
+            date: Some("2011"),
+            sources: [
+                HomebrewHub(
+                    slug: "ankoku-housou-gb",
+                    filename: "ankoku-housou.gb",
+                ),
+            ],
+        ),
+    ],
 )

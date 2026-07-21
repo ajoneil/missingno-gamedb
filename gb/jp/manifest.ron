@@ -1,15 +1,42 @@
 (
     title: "JP",
-    date: Some("2021-06-15"),
     developer: Some("Graham Coulby (IonicLimb)"),
     description: Some("A casual jumping platform game"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "jp", filename: "jp.gb")),
     license: Some("MIT"),
-    tags: ["Open Source", "Platform"],
-    screenshots: ["jp-screenshot-1.bmp", "jp-screenshot-2.bmp", "jp-screenshot-3.bmp", "jp-screenshot-4.bmp"],
+    tags: [
+        "Open Source",
+        "Platform",
+    ],
     links: [
-        (name: "Website", url: "https://grahamcoulby.co.uk/projects/jp-a-homebrew-gameboy-developed-in-c", link_type: Wiki),
-        (name: "Source Code", url: "https://github.com/gcoulby/JP", link_type: Source),
+        (
+            name: "Website",
+            url: "https://grahamcoulby.co.uk/projects/jp-a-homebrew-gameboy-developed-in-c",
+            link_type: Wiki,
+        ),
+        (
+            name: "Source Code",
+            url: "https://github.com/gcoulby/JP",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jp/jp-screenshot-1.bmp",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jp/jp-screenshot-1.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jp/jp-screenshot-2.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jp/jp-screenshot-3.bmp",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/jp/jp-screenshot-4.bmp",
+    ],
+    releases: [
+        (
+            date: Some("2021-06-15"),
+            sources: [
+                HomebrewHub(
+                    slug: "jp",
+                    filename: "jp.gb",
+                ),
+            ],
+        ),
     ],
 )

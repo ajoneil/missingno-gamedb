@@ -1,8 +1,21 @@
 (
     title: "Game Boy Sound Manipulator",
-    date: Some("2000-08-18"),
     developer: Some("Plasmaworks Digital Entertainment"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "game-boy-sound-manipulator", filename: "gbsound.gb")),
-    screenshots: ["gbsound.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-sound-manipulator/gbsound.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-sound-manipulator/gbsound.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-08-18"),
+            sources: [
+                HomebrewHub(
+                    slug: "game-boy-sound-manipulator",
+                    filename: "gbsound.gb",
+                ),
+            ],
+        ),
+    ],
 )

@@ -1,7 +1,20 @@
 (
     title: "Mplay2 Demo: Showroom Music",
-    date: Some("2000-01-22"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "mplay2-demo-showroom-music", filename: "mplay2demo---showroom-music-pd-c.gbc")),
-    screenshots: ["showroommusic.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay2-demo-showroom-music/showroommusic.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay2-demo-showroom-music/showroommusic.png",
+    ],
+    releases: [
+        (
+            date: Some("2000-01-22"),
+            sources: [
+                HomebrewHub(
+                    slug: "mplay2-demo-showroom-music",
+                    filename: "mplay2demo---showroom-music-pd-c.gbc",
+                ),
+            ],
+        ),
+    ],
 )

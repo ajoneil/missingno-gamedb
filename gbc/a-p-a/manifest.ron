@@ -1,8 +1,28 @@
 (
     title: "A.P.A.",
-    date: Some("1999-01-01"),
     developer: Some("Jeff Frohwein"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "a-p-a", filename: "APA.GB")),
-    screenshots: ["764.png", "757.png", "758.png", "759.png", "760.png", "761.png", "762.png", "763.png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/764.png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/764.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/757.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/758.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/759.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/760.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/761.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/762.png",
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/a-p-a/763.png",
+    ],
+    releases: [
+        (
+            date: Some("1999-01-01"),
+            sources: [
+                HomebrewHub(
+                    slug: "a-p-a",
+                    filename: "APA.GB",
+                ),
+            ],
+        ),
+    ],
 )

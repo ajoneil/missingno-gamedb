@@ -1,7 +1,20 @@
 (
     title: "Tam Bitmap Demo",
-    date: Some("1999-03-07"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "tam-bitmap-demo", filename: "Tam Bitmap Demo (PD).gb")),
-    screenshots: ["Tam Bitmap Demo (PD).png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tam-bitmap-demo/Tam Bitmap Demo (PD).png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/tam-bitmap-demo/Tam Bitmap Demo (PD).png",
+    ],
+    releases: [
+        (
+            date: Some("1999-03-07"),
+            sources: [
+                HomebrewHub(
+                    slug: "tam-bitmap-demo",
+                    filename: "Tam Bitmap Demo (PD).gb",
+                ),
+            ],
+        ),
+    ],
 )

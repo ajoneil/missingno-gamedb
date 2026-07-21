@@ -1,8 +1,21 @@
 (
     title: "Southern Dreams Slideshow",
-    date: Some("2000-04-30"),
     developer: Some("Southern Dreams"),
-    hashes: [],
-    source: Some(HomebrewHub(slug: "southern-dreams-slideshow", filename: "Southern Dreams - Slideshow (Lik-Sang) (PD) [C].gbc")),
-    screenshots: ["Southern Dreams - Slideshow (Lik-Sang) (PD) [C].png"],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams-slideshow/Southern Dreams - Slideshow (Lik-Sang) (PD) [C].png",
+    ],
+    screenshots: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams-slideshow/Southern Dreams - Slideshow (Lik-Sang) (PD) [C].png",
+    ],
+    releases: [
+        (
+            date: Some("2000-04-30"),
+            sources: [
+                HomebrewHub(
+                    slug: "southern-dreams-slideshow",
+                    filename: "Southern Dreams - Slideshow (Lik-Sang) (PD) [C].gbc",
+                ),
+            ],
+        ),
+    ],
 )
