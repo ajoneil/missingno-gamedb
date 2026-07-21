@@ -237,6 +237,79 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
         }
     }
 
+    // ── Merge pre-release-only families into their retail family.
+    // Clone ids never span DATs, so a game's prototypes (GB DAT) and its
+    // retail releases (GBC DAT) arrive as separate same-titled families. ─────
+    fn canonical_title<T>(
+        family: &(usize, String),
+        group: &[T],
+        family_title: &BTreeMap<(usize, String), String>,
+        parsed: &impl Fn(&T) -> &ParsedName,
+    ) -> String {
+        family_title
+            .get(family)
+            .cloned()
+            .unwrap_or_else(|| group.iter().map(|m| parsed(m).title.clone()).min().unwrap())
+    }
+    fn merge_preproduction_families<T>(
+        groups: &mut BTreeMap<(usize, String), Vec<T>>,
+        family_title: &BTreeMap<(usize, String), String>,
+        parsed: impl Fn(&T) -> &ParsedName,
+        report: &mut Report,
+    ) {
+        let mut by_title: BTreeMap<String, Vec<(usize, String)>> = BTreeMap::new();
+        for (family, group) in groups.iter() {
+            by_title
+                .entry(canonical_title(family, group, family_title, &parsed))
+                .or_default()
+                .push(family.clone());
+        }
+        for (title, families) in by_title {
+            if families.len() < 2 {
+                continue;
+            }
+            let released: Vec<&(usize, String)> = families
+                .iter()
+                .filter(|f| {
+                    groups[*f]
+                        .iter()
+                        .any(|m| parsed(m).status == ReleaseStatus::Released)
+                })
+                .collect();
+            let [target] = released[..] else {
+                report.add(
+                    "Same-title families left separate (review candidates)",
+                    format!("{title:?}: {} families", families.len()),
+                );
+                continue;
+            };
+            let target = target.clone();
+            for family in families {
+                if family == target {
+                    continue;
+                }
+                if groups[&family]
+                    .iter()
+                    .all(|m| parsed(m).status != ReleaseStatus::Released)
+                {
+                    let members = groups.remove(&family).unwrap();
+                    report.add(
+                        "Pre-release families merged into their retail game",
+                        title.clone(),
+                    );
+                    groups.get_mut(&target).unwrap().extend(members);
+                } else {
+                    report.add(
+                        "Same-title families left separate (review candidates)",
+                        title.clone(),
+                    );
+                }
+            }
+        }
+    }
+    merge_preproduction_families(&mut gb_groups, &family_title, |m| &m.0, report);
+    merge_preproduction_families(&mut gbc_groups, &family_title, |m| &m.0, report);
+
     // ── Load old commercial entries for merge + leftovers ────────────
     let mut old_commercial: Vec<(String, String, LegacyManifest)> = Vec::new(); // (tree, slug, m)
     for (tree_name, entries) in [
