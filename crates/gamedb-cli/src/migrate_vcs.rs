@@ -206,6 +206,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 covers: Vec::new(),
                 screenshots: Vec::new(),
                 mod_of: None,
+                curated: None,
                 releases,
             },
         ));

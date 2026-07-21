@@ -95,34 +95,84 @@ impl ReleaseDate {
     }
 }
 
+fn valid_year_month_day(value: &str) -> (bool, bool, bool) {
+    let b = value.as_bytes();
+    let digits = |range: std::ops::Range<usize>| b[range].iter().all(u8::is_ascii_digit);
+    let two = |at: usize| (b[at] - b'0') * 10 + (b[at + 1] - b'0');
+    match b.len() {
+        4 => (digits(0..4), false, false),
+        7 => (
+            digits(0..4) && b[4] == b'-' && digits(5..7) && (1..=12).contains(&two(5)),
+            true,
+            false,
+        ),
+        10 => (
+            digits(0..4)
+                && b[4] == b'-'
+                && digits(5..7)
+                && (1..=12).contains(&two(5))
+                && b[7] == b'-'
+                && digits(8..10)
+                && (1..=31).contains(&two(8)),
+            true,
+            true,
+        ),
+        _ => (false, false, false),
+    }
+}
+
 impl TryFrom<String> for ReleaseDate {
     type Error = String;
 
     fn try_from(value: String) -> Result<Self, Self::Error> {
-        let b = value.as_bytes();
-        let digits = |range: std::ops::Range<usize>| b[range].iter().all(u8::is_ascii_digit);
-        let two = |at: usize| (b[at] - b'0') * 10 + (b[at + 1] - b'0');
-        let valid = match b.len() {
-            4 => digits(0..4),
-            7 => digits(0..4) && b[4] == b'-' && digits(5..7) && (1..=12).contains(&two(5)),
-            10 => {
-                digits(0..4)
-                    && b[4] == b'-'
-                    && digits(5..7)
-                    && (1..=12).contains(&two(5))
-                    && b[7] == b'-'
-                    && digits(8..10)
-                    && (1..=31).contains(&two(8))
-            }
-            _ => false,
-        };
-        if valid {
-            Ok(Self(value))
-        } else {
-            Err(format!(
+        match valid_year_month_day(&value) {
+            (true, ..) => Ok(Self(value)),
+            _ => Err(format!(
                 "invalid date {value:?}: expected YYYY, YYYY-MM, or YYYY-MM-DD"
-            ))
+            )),
         }
+    }
+}
+
+/// A precise calendar day, "YYYY-MM-DD" — event stamps, not publication dates.
+#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, PartialOrd, Ord, Hash, Debug)]
+#[serde(try_from = "String", into = "String")]
+pub struct Date(String);
+
+impl Date {
+    pub fn as_str(&self) -> &str {
+        &self.0
+    }
+}
+
+impl TryFrom<String> for Date {
+    type Error = String;
+
+    fn try_from(value: String) -> Result<Self, Self::Error> {
+        match valid_year_month_day(&value) {
+            (true, true, true) => Ok(Self(value)),
+            _ => Err(format!("invalid date {value:?}: expected YYYY-MM-DD")),
+        }
+    }
+}
+
+impl FromStr for Date {
+    type Err = String;
+
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        Self::try_from(s.to_owned())
+    }
+}
+
+impl From<Date> for String {
+    fn from(date: Date) -> Self {
+        date.0
+    }
+}
+
+impl fmt::Display for Date {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        f.write_str(&self.0)
     }
 }
 
@@ -168,6 +218,14 @@ mod tests {
         assert!("2brownboyz_restaurant-rumble-demo".parse::<Slug>().is_ok());
         assert!("".parse::<Slug>().is_err());
         assert!("Bad Slug".parse::<Slug>().is_err());
+    }
+
+    #[test]
+    fn date_requires_full_precision() {
+        assert!("2026-07-21".parse::<Date>().is_ok());
+        for bad in ["2026", "2026-07", "2026-13-01", "yesterday"] {
+            assert!(bad.parse::<Date>().is_err(), "{bad}");
+        }
     }
 
     #[test]

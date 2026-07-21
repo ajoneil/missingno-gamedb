@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 use crate::{
-    ids::{ReleaseDate, Sha1},
+    ids::{Date, ReleaseDate, Sha1},
     platform::Platform,
     region::Region,
     source::Source,
@@ -37,6 +37,9 @@ pub struct Game<P: Platform> {
     /// Present when this game is a derived work patched onto another game's ROM.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub mod_of: Option<ModOf>,
+    /// Date a human last confirmed this entry; automation clears it on change.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub curated: Option<Date>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub releases: Vec<Release<P>>,
 }

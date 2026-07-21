@@ -1,3 +1,4 @@
+mod import_flags;
 mod import_nointro;
 mod legacy;
 mod migrate_homebrew;
@@ -56,6 +57,14 @@ enum Command {
         #[arg(long, default_value = "migration-report.md")]
         report: PathBuf,
     },
+    /// Seed curation/flags.ron from migration-report markdown files
+    ImportFlags {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        /// Report file(s) to import
+        #[arg(long, required = true)]
+        report: Vec<PathBuf>,
+    },
     /// One-shot: re-import commercial GB/GBC entries from No-Intro DATs
     ImportNointro {
         #[arg(default_value = ".")]
@@ -88,6 +97,22 @@ fn main() -> ExitCode {
             run_migration(&path.clone(), &report, "migrate homebrew", |r| {
                 migrate_homebrew::run(&path, r).map(|s| format!("{} entries rewritten", s.migrated))
             })
+        }
+        Command::ImportFlags { path, report } => {
+            let mut unused = Report::default();
+            match import_flags::run(&path, &report, &mut unused) {
+                Ok(s) => {
+                    println!(
+                        "{} flags imported, {} duplicates skipped",
+                        s.imported, s.duplicates
+                    );
+                    ExitCode::SUCCESS
+                }
+                Err(e) => {
+                    eprintln!("{e}");
+                    ExitCode::FAILURE
+                }
+            }
         }
         Command::ImportNointro { path, dat, report } => {
             let path = resolve_db_root(&path);

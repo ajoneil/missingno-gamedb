@@ -131,6 +131,7 @@ fn run_tree<P: Platform>(
             covers,
             screenshots,
             mod_of: None,
+            curated: None,
             releases: vec![Release {
                 title: None,
                 label: None,

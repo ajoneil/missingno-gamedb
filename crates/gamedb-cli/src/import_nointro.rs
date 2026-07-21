@@ -419,6 +419,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
             covers: Vec::new(),
             screenshots: Vec::new(),
             mod_of: None,
+            curated: None,
             releases,
         }
     };
@@ -521,6 +522,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 covers: game.covers,
                 screenshots: game.screenshots,
                 mod_of: None,
+                curated: None,
                 releases: game
                     .releases
                     .into_iter()
@@ -592,6 +594,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     covers: Vec::new(),
                     screenshots: Vec::new(),
                     mod_of: None,
+                    curated: None,
                     releases: vec![Release {
                         title: None,
                         label: parsed.label.clone(),
