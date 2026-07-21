@@ -179,6 +179,10 @@ pub struct Mod {
     pub author: Option<String>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub links: Vec<Link>,
+    /// Independently of the game: curating a game does not vouch for its
+    /// mods, and a mod can earn its own recommendation.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub curated: Vec<Curation>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub releases: Vec<ModRelease>,
 }
