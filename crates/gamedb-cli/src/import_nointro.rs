@@ -547,13 +547,22 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
     for sha1 in tree::sha1_multiset(&gbc_games) {
         new_sha1s.insert(sha1);
     }
-    for (tree_name, slug, m) in &old_commercial {
+    for (i, (tree_name, slug, m)) in old_commercial.iter().enumerate() {
         for hash in &m.hashes {
             let hash = hash.to_ascii_lowercase();
             if hash.parse::<Sha1>().is_ok() && !new_sha1s.contains(&hash) {
-                return Err(format!(
-                    "sha1 preservation violated: {hash} from {tree_name}/{slug} lost"
-                ));
+                // A claimed entry can carry hashes the current DATs retired;
+                // dropping them is allowed only out loud, via the report.
+                if old_claimed.contains(&i) {
+                    report.add(
+                        "Old hashes absent from current DATs — dropped",
+                        format!("{tree_name}/{slug}: {hash}"),
+                    );
+                } else {
+                    return Err(format!(
+                        "sha1 preservation violated: {hash} from {tree_name}/{slug} lost"
+                    ));
+                }
             }
         }
     }
