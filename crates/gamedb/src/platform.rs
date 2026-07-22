@@ -104,6 +104,10 @@ pub enum Controller {
 pub enum TvFormat {
     Ntsc,
     Pal,
+    /// Standard PAL colour at a 60 Hz/525-line raster: correct colours on a PAL
+    /// set but NTSC-speed timing. Common as a second build of homebrew and
+    /// demoscene productions alongside the NTSC one; distinct from PAL-M.
+    Pal60,
     /// Brazil's PAL-M: PAL colour encoding on System M's 525-line, 59.94 Hz
     /// raster, so it runs at NTSC timing rather than PAL's.
     PalM,
