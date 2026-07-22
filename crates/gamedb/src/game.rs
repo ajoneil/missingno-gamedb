@@ -43,8 +43,8 @@ pub struct Game<P: Platform> {
     /// Each is its own thing with its own versions and curation.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub mods: Vec<Mod>,
-    /// Human endorsements of this entry; any automated change clears them
-    /// (every curator vouched for the pre-change state).
+    /// Human endorsements of this entry. Edits happen at a curator's request, so
+    /// they never clear these; only a curator retracts their own vouch.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub curated: Vec<Curation>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
