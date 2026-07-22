@@ -42,6 +42,11 @@ conflict to report, not a licence to restage the date.
 | gb / gbc | [gbdev](https://gbdev.io) database, the project's own repo/site | homebrew authorship, licence, canonical cover art | Primary sources beat aggregators: prefer the author's repo to a catalogue entry. |
 | demoscene | [pouet.net](https://www.pouet.net) | party, release date, group, prod imagery | Primary for demoscene productions. |
 
+A `Manual` link should point at the **direct PDF** wherever one exists (the
+Atari Compendium `.pdf`, an author's hosted PDF), not at a page that merely
+links the manual — the reader wants the document, not a landing page. Fall back
+to a containing page only when no direct file is available.
+
 ## Cover art
 
 Remote URLs only — the database stores a link, never the bytes; it hosts and
