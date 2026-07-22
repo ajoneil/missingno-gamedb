@@ -181,6 +181,12 @@ pub enum LinkType {
     TechnicalReference,
     Guide,
     Community,
+    /// Where to get the ROM: a page to obtain it from (a forum thread or
+    /// "download here" page, followed by a human), and a direct, fetchable ROM
+    /// file URL. Split so a freeware game can carry whichever it has — some
+    /// hosts (AtariAge) offer only a page, others also a direct file.
+    DownloadPage,
+    Download,
 }
 
 /// The derivation block of a mod/romhack: which artifact it patches and how.
