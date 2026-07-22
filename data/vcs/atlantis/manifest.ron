@@ -1,0 +1,275 @@
+(
+    title: "Atlantis",
+    developer: Some("Dennis Koble"),
+    description: Some("Defend the undersea city of Atlantis from the Gorgon fleet. Waves of enemy ships streak across the sky at three heights while you man three ground batteries — two angled sentry posts and a central command post that fires straight up — and you must pick the gun that matches each ship\'s altitude. Every Gorgon that slips past bombards one of Atlantis\'s installations, and when the last one falls the city is lost. A lone Atlantean ship survives to escape to Imagic\'s Cosmic Ark."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Atlantis_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual — day version (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/atlantis-day.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual — night version (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/atlantis-night.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/82600ADE8DBCEB03719869DA25E0C775810C444A",
+    ],
+    mods: [
+        (
+            name: "Atlantis FH",
+            category: ContentChange,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("c6b1dcdb2f024ab682316db45763bacc6949c33c"),
+                    artifacts: [
+                        (
+                            sha1: "9181e718139f65b7655d0ab9e91edede17352d5d",
+                        ),
+                        (
+                            sha1: "aa15b6b8bed388608718d5fd0a724b517bfe3b73",
+                            label: Some("alt [a]"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Atlantis Trainer",
+            category: ContentChange,
+            author: Some("Steve Engelhardt"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("c6b1dcdb2f024ab682316db45763bacc6949c33c"),
+                    artifacts: [
+                        (
+                            sha1: "9c91750696300247005db1fce0691576a548d720",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Atlantis 1 & 2 (Supercharger conversion)",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("c6b1dcdb2f024ab682316db45763bacc6949c33c"),
+                    artifacts: [
+                        (
+                            sha1: "287481e92eb9430d9cbe5d2a438a0d060e86cd6e",
+                        ),
+                        (
+                            sha1: "8009c122590301fcaa5cdc8b88afb76d127289f4",
+                            label: Some("PAL"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Digitel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "086ca9c0bab692104590338ce8aaa061dfa2dde4",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "3dcc96d80cf745b39a32b1a77e0a5c10f4d5ab4c",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "a8be744059933367923fdb25429919f9a5f33463",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "c22fde31c885b3b6f531bbee96f916907e5e3daf",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "cbdace660923e0b2c6d97c24877b0dc16521d913",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "d585300e0ad5bc8b6802debbc90883514d772ce3",
+                    label: Some("unidentified [?]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e9d6ac3fd807cc71de6d9144177c18f3a7881b5b",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis (1982)(CCE)(NTSC)(BR)[C832].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "5c9be3bd180e4627117fbab3fa4a9a80f32552d5",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis (1982)(CCE)(NTSC)(BR)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1988"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "87b234b3893d4e8e9f27ec2f2bb83e985e72b4b3",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis (1988)(Activision)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "3d800e2e6b97d03f9fd8b8955cde451dff1961fc",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis (1988)(Activision)(NTSC)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c6b1dcdb2f024ab682316db45763bacc6949c33c",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis (1982)(Imagic)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "fc21eb2b926573d70dd47569e46777e0f9dab259",
+                    label: Some("Atlantis [o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis (1982)(Imagic)(NTSC)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "08c54371fd7c72df1f36aae43188705561a3f8bd",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "7b9975dc1aabc34def2d19854b39f237e4afe088",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis (1982)(HES - Imagic - Koble, Dennis)(PAL)(AU)[aka Lost City of Atlantis][720103-2A, EIX-010-04I].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "8eeb85d98e4319a23b76cccab925734b782dca8b",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis (1982)(HES)(PAL)(AU)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

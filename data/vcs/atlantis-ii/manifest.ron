@@ -1,7 +1,51 @@
 (
     title: "Atlantis II",
+    developer: Some("Dennis Koble"),
+    description: Some("The rare \"contest\" edition of Atlantis, awarded to top scorers in Imagic\'s Lost City of Atlantis competition. The city\'s defence plays like the original — three ground batteries against waves of Gorgons — but the raiders are far faster and the scoring is retuned, making it a punishing test rather than the retail game\'s gentler one. Very few cartridges were made, and it is among the most sought-after Atari 2600 releases."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Atlantis_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual — contest edition (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/atlantis_contest.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B3CA96A97669AE56ABEF9551BB68DB3BFF381E62",
+    ],
+    mods: [
+        (
+            name: "Attack on Roswell",
+            category: ContentChange,
+            author: Some("Codyr783"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("f4e838de9159c149ac080ab85e4f830d5b299963"),
+                    artifacts: [
+                        (
+                            sha1: "ca745a4bffd6d18ce63756760fc853a8ad44230c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             hardware: (
@@ -11,6 +55,15 @@
             artifacts: [
                 (
                     sha1: "f4e838de9159c149ac080ab85e4f830d5b299963",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atlantis II (1982)(Imagic)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

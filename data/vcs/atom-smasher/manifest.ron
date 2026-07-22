@@ -1,5 +1,23 @@
 (
     title: "Atom Smasher",
+    developer: Some("Video Soft"),
+    description: Some("An unreleased two-player duel set in the \"Atomic Arena\". On the first screen two astronauts blast atomic particles through shifting doorways while dodging the particles themselves; on the second the fighters cling to the arena walls, sliding up and down to survive the barrage. The prototype even offered a left-handed control scheme and a computer-versus-computer demo mode. Video Soft — the studio of Jerry Lawson, designer of the Fairchild Channel F and a pioneer of the ROM game cartridge — left the market during the 1983–84 industry crash before Atom Smasher shipped."),
+    links: [
+        (
+            name: "AtariProtos — Atom Smasher",
+            url: "http://www.atariprotos.com/2600/software/atomsmasher/atomsmasher.htm",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8965D896D4C89133AAAF42A8C6E732ACC02EC606",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1984"),
@@ -12,6 +30,29 @@
             artifacts: [
                 (
                     sha1: "ff2a4cec8005a1b04c20671f9d06aefebbb0fda1",
+                    label: Some("[b] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atom Smasher (1984)(Video Soft)(proto)[b].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "c0466c0d87b4faf2319d5ee1bc940db54fea03d8",
+                    label: Some("[fixed] (stack pointer)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atom Smasher (1984)(Video Soft)(proto)[f stack pointer].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
