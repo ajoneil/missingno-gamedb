@@ -98,6 +98,12 @@ pub enum Controller {
     Keypad,
     Trackball,
     BoosterGrip,
+    /// Coleco's Kid Vid Voice Module: an audio-cassette peripheral that plays
+    /// story tapes synced to the game. A handful of Coleco titles require it.
+    KidVid,
+    /// Atari's MindLink: a headband read as forehead-muscle movement. Only a
+    /// couple of (mostly unreleased) titles use it.
+    MindLink,
 }
 
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
