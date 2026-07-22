@@ -1,5 +1,37 @@
 (
     title: "32 in 1 Game Cartridge",
+    description: Some("A compilation of 32 early Atari 2600 games on one cartridge, among them Combat, Boxing, Surround, Outlaw, Bowling, Air-Sea Battle and 3-D Tic-Tac-Toe. There is no on-screen menu: the cartridge advances through the games in a fixed sequence, moving to the next one each time the console is switched off and on again, so you reach a particular game by power-cycling the required number of times."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/32in1/32in1.htm",
+            link_type: Community,
+        ),
+        (
+            name: "arcade-history (full game list)",
+            url: "https://www.arcade-history.com/?id=50002&n=32-in-1-model-cx26163p&page=detail",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/32in1.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Game-selection circuit (reverse-engineered)",
+            url: "https://www.sheep-thrills.net/Atari_2600_32_in_1_game_selection_fun.html",
+            link_type: TechnicalReference,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/05939EE8539F6AB1D691EA2E842C6BCF2FC82E5E",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1988"),
@@ -11,6 +43,15 @@
             artifacts: [
                 (
                     sha1: "97ffc252438a5c9361096a1151bdbf79bd717cb3",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "32-in-1 Game Cartridge (1988)(Atari)(PAL)[CX26163].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -1,0 +1,120 @@
+(
+    title: "The Activision Decathlon",
+    developer: Some("David Crane"),
+    description: Some("A track-and-field decathlon of ten events — the 100-metre dash, long jump, shot put, high jump, 400 metres, 110-metre hurdles, discus, pole vault, javelin and the 1500 metres — played straight through in sequence or picked individually, by up to four athletes taking turns. The running events are driven by waggling the joystick left and right as fast as you can to build speed, with the button timing each jump, vault or throw."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/decathlon.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Activision_Decathlon",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/libretro-thumbnails/Atari_-_2600/master/Named_Boxarts/Activision%20Decathlon%2C%20The%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "The Activision Decathlon (F6 conversion)",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("e0d47565df935c064bc4055636f37a0432ab3727"),
+                    artifacts: [
+                        (
+                            sha1: "b2b1f238f00f2f8ed5b44b65db9f34dd8922e93c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                France,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Secam),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7da9cc2383d09835d345ec7d6e76d223591d2a2a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Decathlon (1983)(Activision)(SECAM).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e0d47565df935c064bc4055636f37a0432ab3727",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Decathlon (1983)(Activision)(US).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            label: Some("Zehnkampf (EAZ-030)"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "082fc914d6ebf415926fbb6cf781de209a4d052d",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Decathlon (1983)(Activision)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

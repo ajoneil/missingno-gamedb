@@ -1,5 +1,28 @@
 (
     title: "3-D Havoc",
+    developer: Some("VideoSoft"),
+    description: Some("You pilot a stellar cruiser trapped in an asteroid field, steering with the joystick and firing at the rocks; the left difficulty switch raises and lowers your shield, which drops a little with every asteroid that hits you. After around a dozen kills the view changes to a first-person tunnel where enemy craft attack. The display uses an anaglyph 3-D effect that the Color/B&W switch turns on and off, so it can be played without red/blue glasses. The prototype stops short of an ending: past the \"HERO\" screen shots stop connecting, the fuel gauge is dead, and the game never finishes."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/3dhavok/3dhavok.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (2010 Video Soft reproduction)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/3d_havoc.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4AF4C8E8E43B1539F61A9C2AAA2B91DB983052E2",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1983"),
@@ -12,6 +35,15 @@
             artifacts: [
                 (
                     sha1: "ce616d66d4ed90ddc972ea22555df73f6b41af8c",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Havoc (1983)(Amiga)(US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

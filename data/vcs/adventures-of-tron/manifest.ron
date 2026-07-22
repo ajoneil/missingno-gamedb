@@ -1,5 +1,28 @@
 (
     title: "Adventures of TRON",
+    developer: Some("APh Technological Consulting"),
+    description: Some("A single-screen platformer set in a four-storey building. As Tron you ride elevators between floors and jump over or drop away from a stream of enemies drawn from the film — Recognizers, Grid Bugs, Tanks and Solar Sailers — which you cannot fight, only evade, while collecting the Bits that drift through the floors for points."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Adventures_of_Tron",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/adv_tron.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3CEADB7622E9A20DE8FDB2DA5F588BBD12205D1F",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1983"),
@@ -11,6 +34,15 @@
             artifacts: [
                 (
                     sha1: "03a495c7bfa0671e24aa4d9460d232731f68cb43",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Adventures of Tron (1982)(Mattel)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

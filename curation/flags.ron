@@ -18388,5 +18388,21 @@
             ],
             note: "\"Seven Full Sized Digits\" was titled \"(Demo)\" — kind set to Demo; verify it is not a demoscene production",
         ),
+        (
+            id: 2879,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/32-in-1-game-cartridge",
+            ],
+            note: "missingno does not switch between the cartridge\'s 32 games. On hardware the game is selected by power-cycling the console: a CD4024 counter in the cart is clocked by the falling edge of Vcc, its low 5 bits selecting the 2 KB bank. The VCS core (board F0) does not advance the bank on power-cycle. See the entry\'s linked references.",
+        ),
+        (
+            id: 2880,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/alpha-beam-with-ernie",
+            ],
+            note: "missingno does not emulate the Atari Kids Controller (keypad) that Alpha Beam with Ernie requires, so its retail and prototype dumps are unplayable in the emulator.",
+        ),
     ],
 )

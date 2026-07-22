@@ -4,14 +4,14 @@
     description: Some("The player guides a square avatar through a connected world of thirty rooms, hunting a magical chalice and carrying it back to the Golden Castle. Three dragons roam the map and a bat flits about swapping items from place to place, including whatever the player is holding. Keys open the castles, and a sword is the only defence against the dragons."),
     links: [
         (
-            name: "Vimm\'s Lair — Adventure manual",
-            url: "https://vimm.net/manual/2",
-            link_type: Manual,
-        ),
-        (
             name: "Wikipedia",
             url: "https://en.wikipedia.org/wiki/Adventure_(1980_video_game)",
             link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/adventure.pdf",
+            link_type: Manual,
         ),
     ],
     covers: [
@@ -70,6 +70,13 @@
             ],
         ),
     ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+            recommended: true,
+        ),
+    ],
     releases: [
         (
             regions: [
@@ -84,12 +91,15 @@
             artifacts: [
                 (
                     sha1: "7362b7eedc548b680721a8d8c77becb1349205f6",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "9aac8abb87f9d0f65fd4d49ab3b2423ace8cf67f",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "ab50312606440f76ea54fc537b2e8b879e1b3530",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "e07e48d463d30321239a8acc00c490f27f1f7422",

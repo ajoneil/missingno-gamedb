@@ -1,5 +1,28 @@
 (
     title: "Air Raid",
+    developer: Some("Men-A-Vision"),
+    description: Some("A fixed shooter defending a city. Your ship slides left and right along the top of the screen above two buildings, and you fire upward at a wave of UFOs that are dropping bombs on the skyline; let the buildings take enough hits and the game is over. The draw is scale and speed rather than variety — one relentless screen to survive."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/air_raid.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Air_Raid_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6BCE9AF480EBB18951C2C47202D732B9D8F4787F",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1982"),
@@ -11,9 +34,19 @@
             artifacts: [
                 (
                     sha1: "05e200acd52bea478cad32417a481f96ffce5471",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "3b02e7dacb418c44d0d3dc77d60a9663b90b0fbc",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Air Raid (19xx)(Men-A-Vision).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

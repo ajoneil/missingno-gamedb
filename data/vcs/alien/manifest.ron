@@ -1,0 +1,100 @@
+(
+    title: "Alien",
+    developer: Some("Doug Neubauer"),
+    description: Some("A maze game in the Pac-Man mould, themed on the film. You steer a crew member through the corridors of a spaceship, clearing every alien egg from the maze while three aliens chase you. Grabbing a pulsar briefly turns the aliens vulnerable so you can touch them away, and a flamethrower gives you one emergency blast per life; clearing a maze leads to a short bonus dash."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Alien_(1982_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/alien.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4273E5FCECB98B2F1F72FD3A401276B2C3825CAD",
+    ],
+    mods: [
+        (
+            name: "Alien (Supercharger conversion)",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("01d99bf307262825db58631e8002dd008a42cb1e"),
+                    artifacts: [
+                        (
+                            sha1: "2673f421975890b8e0ee2f889d2183b354e2ae6f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("20th Century Fox"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "01d99bf307262825db58631e8002dd008a42cb1e",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Alien (1982)(20th Century Fox)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "924e95a58c66fd44e0a27bd949b7aa330e3722b8",
+                    label: Some("unidentified [?]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("CCE"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "abf186c0108791d998f7738324d0e49a977b015b",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Alien (198x)(CCE)(NTSC)(BR).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

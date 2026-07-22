@@ -1,8 +1,51 @@
 (
     title: "Air Raiders",
+    description: Some("A first-person aerial combat game seen from the cockpit. You fly out over an airstrip, shoot down waves of enemy aircraft while dodging their cannon fire, and keep an eye on a draining fuel gauge — run dry or take too many hits and you go down, so part of the game is breaking off in time to land safely and refuel."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Air_Raiders",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/air_raiders.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/420AA2A92ECD72EF8B6B998A2FE9AD086BB94C7C",
+    ],
+    mods: [
+        (
+            name: "Air Raiders (Unlimited Ammo)",
+            category: QualityOfLife,
+            author: Some("Manuel Rotschkar, Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("29f5c73d1fe806a4284547274dd73f9972a7ed70"),
+                    artifacts: [
+                        (
+                            sha1: "39a98b42f0670dfe6a842645f09f24583ae8ee60",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -11,22 +54,48 @@
             artifacts: [
                 (
                     sha1: "29f5c73d1fe806a4284547274dd73f9972a7ed70",
-                ),
-                (
-                    sha1: "39a98b42f0670dfe6a842645f09f24583ae8ee60",
+                    label: Some("original"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Air Raiders (1982)(Mattel)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "60c79be608441000a3d9f429a111796af12e0819",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "b2d8845abfd64fe9509a22e331fc20fc487a0a2e",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "eb612022bb5a95c74b83e506b6507951345003dc",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "a9a51405b521ae0b465f521fa098e8b3aedd018b",
+                    label: Some("alt [a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Air Raiders (1982)(Mattel)(NTSC)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Mattel"),
             hardware: (
@@ -36,6 +105,15 @@
             artifacts: [
                 (
                     sha1: "e65a0c6c5a1f9f05ebcfaaa7b2c9ee6625bf2d83",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Air Raiders (1982)(Mattel)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

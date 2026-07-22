@@ -1,19 +1,57 @@
 (
     title: "Acid Drop",
-    releases: [
+    developer: Some("Salu (Dennis M. Kiss)"),
+    description: Some("A falling-block puzzle in the Columns mould. Coloured blocks descend three at a time, and as in Columns you reorder the colours within each falling triple to line up three or more of one colour horizontally or vertically; matched blocks vanish and everything above drops into the gap. Let the stack reach the top and the game ends. At score milestones a special \"acid drop\" block appears and clears several columns at once."),
+    links: [
         (
-            date: Some("2002"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F8"),
-            ),
-            artifacts: [
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/acid_drop.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "arcade-history",
+            url: "https://www.arcade-history.com/?id=50009&n=acid-drop&page=detail",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E243C3030AD822F0E33A717390815AF573C66D6F",
+    ],
+    mods: [
+        (
+            name: "Acid Drop (NTSC conversion)",
+            category: QualityOfLife,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "2ad5e47e360842bb5f9c23bbe2c19866d890f427",
+                    date: Some("2002"),
+                    base_sha1: Some("d7c62df8300a68b21ce672cfaa4d0f2f4b3d0ce1"),
+                    artifacts: [
+                        (
+                            sha1: "2ad5e47e360842bb5f9c23bbe2c19866d890f427",
+                            label: Some("NTSC conversion (Jentzsch)"),
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "Acid Drop (1992)(Salu)(NTSC)[f NTSC Jentzsch, Thomas].bin",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
                 ),
             ],
         ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
         (
             date: Some("1992"),
             publisher: Some("Salu"),
@@ -24,19 +62,28 @@
             artifacts: [
                 (
                     sha1: "d7c62df8300a68b21ce672cfaa4d0f2f4b3d0ce1",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Acid Drop (1992)(Salu)(PAL)[460758].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
-            ],
-        ),
-        (
-            date: Some("1992"),
-            publisher: Some("Salu"),
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("F8"),
-            ),
-            artifacts: [
                 (
                     sha1: "66216ed98295f3fde35a0cc9398b4f2fc79f2375",
+                    label: Some("bad dump [b]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Acid Drop (1992)(Salu)(PAL)[b].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

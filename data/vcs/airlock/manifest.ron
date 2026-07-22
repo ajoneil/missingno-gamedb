@@ -1,7 +1,33 @@
 (
     title: "Airlock",
+    developer: Some("Data Age"),
+    description: Some("A race against a rising flood inside a sinking submarine. On each level you must find two hatch keys and reach the elevator before the water climbs high enough to drown the floor, all while dodging loose torpedoes knocked free by the crash. Reach the top before the pressure and time run out."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/airlock.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Airlock_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DD60C2A9714BA3F63A7274A15E09C628CBE567C6",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Data Age"),
             hardware: (
@@ -11,10 +37,22 @@
             artifacts: [
                 (
                     sha1: "0376c242819b785310b8af43c03b1d1156bd5f02",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Airlock (1982)(Data Age)(NTSC)[DA1004].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Gameworld"),
             hardware: (
@@ -24,6 +62,42 @@
             artifacts: [
                 (
                     sha1: "a94b103806d33546aa8fac0056cd57b818bfed8c",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Airlock (1983)(Gameworld)(EU).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            label: Some("beta (\"Air Lock\")"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "09ae3715873a88386b3bc11e429f82919b91fa1a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Airlock (1982)(Data Age)(US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -1,9 +1,31 @@
 (
-    title: "Actionauts (Microbots)",
+    title: "Actionauts",
+    developer: Some("Rob Fulop"),
+    description: Some("A programming puzzle. On an editor screen you write a short sequence of instructions — move forward, turn left, turn right, shoot — and set how fast the robot runs, then switch to the maze screen and watch your Actionaut carry the program out step by step. Get the sequence or the timing wrong and it runs into a wall, so each of the nine mazes is a round of trial and error."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/actionauts/actionauts.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F8C108D270DF93BF70F0809091A7C3F5DD151F79",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Imagic"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -11,6 +33,15 @@
             artifacts: [
                 (
                     sha1: "1804ad169e2af9e14876ffb1261817b7eb846f1b",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Actionauts (1984-06-22)(Imagic)(US).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -1,16 +1,85 @@
 (
     title: "G.I. Joe - Cobra Strike",
+    developer: Some("Parker Brothers (John Emerson)"),
+    description: Some("One or two players defend a base at the foot of the screen, each working a laser cannon from behind a protective shield. A giant Cobra-controlled robot snake winds down the screen and must be hit eight times to destroy it before it batters through the shield and wrecks the base. Beyond the solo game there are two-player cooperative and head-to-head competitive modes."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/gi_joe.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/G.I._Joe:_Cobra_Strike",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4929319CE945F694DFEA29DCF28249C107F61A67",
+        "https://hasheous.org/api/v1/images/47DDAD27036B5BB24DD1AC1AD750C9A9D99C2097",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Parker Brothers"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "9cfb6288a5c2dae63ee6f5e9325200ccd21a3055",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "G.I. Joe - Cobra Strike (1983)(Parker Bros)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            title: Some("Action Force"),
+            regions: [
+                UnitedKingdom,
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "9e6fb047ee9fa0a454ca23673ed9693430032dc6",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Action Force (1983)(Parker Brothers)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

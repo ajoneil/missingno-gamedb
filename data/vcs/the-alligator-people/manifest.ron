@@ -1,0 +1,41 @@
+(
+    title: "The Alligator People",
+    description: Some("Based on the 1959 horror film. You play a scientist — rendered on screen as a syringe — racing to cure six victims who are slowly turning into alligator people: reach each one and inject the antidote before the mutation advances, because the further it has gone the more doses the cure takes. Meanwhile real alligators roam the swamp and cost you a life on contact, though you can shoot them without spending any antidote."),
+    covers: [
+        "https://hasheous.org/api/v1/images/ED7DEE5765D31C66D6B6BCFE2C12BA6EC5FBA63E",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("20th Century Fox"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a1795d6371ddb0bc93ba6df70299cc548dc88b99",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Alligator People (1983)(20th Century Fox)(NTSC)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

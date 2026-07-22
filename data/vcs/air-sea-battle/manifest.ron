@@ -1,0 +1,110 @@
+(
+    title: "Air-Sea Battle",
+    developer: Some("Larry Kaplan"),
+    description: Some("A cartridge of 27 numbered target-shooting games, chosen with the console\'s Game Select switch rather than an on-screen menu. Depending on the number you pick, you fire at aircraft crossing overhead, ships from a submarine below, rabbits, ducks and clowns in a shooting gallery, or Polaris-style bombing runs; the mode fixes whether the gun\'s angle or its speed is under your control, and some pit two players or a player against the computer. A round ends at a short time limit or when someone reaches 99 points."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Air-Sea_Battle",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/air-sea_battle.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Sears — Target Fun)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/target_fun.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/31BC02971F65597EE75F6895E392BB4339047A1D",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b96c7a509bf610f61f82377bfd506db3dba2b423",
+                    label: Some("CX2602"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Air-Sea Battle (1977)(Atari)(PAL)[aka Target Fun (Anti-Aircraft)][CX2602].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "055c7e4186626fdb022a89eb8d8c3078acb58112",
+                    label: Some("pirate [p]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Air-Sea Battle (1977)(Atari)(PAL)[p].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a746fdc82b336a9d499bf17f50b41e0193ba595e",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Air-Sea Battle (1977)(Atari)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "d3897fc60585e420ae816a2db909400f6cbadd88",
+                    label: Some("overdump [o]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Air-Sea Battle (1977)(Atari)(NTSC)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

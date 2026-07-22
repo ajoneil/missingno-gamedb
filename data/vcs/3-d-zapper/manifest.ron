@@ -1,5 +1,23 @@
 (
-    title: "3-D Zapper (3D Space)",
+    title: "3-D Zapper",
+    developer: Some("Wickstead Design"),
+    description: Some("You slide a zapper along the bottom of the screen, moving it left and right and firing at geometric shapes that drift through space. Pressing up and down aims deeper or shallower into the scene, so each shot has to pick the right distance as well as the right horizontal position. The picture is an anaglyph 3-D image made from offset red and blue frames and needs red/blue glasses to read properly."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/zapper/zapper.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C27C5BE1C2CEF5CE65972E48EBF5D1BCDD7AB4F5",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1983"),
@@ -12,6 +30,31 @@
             artifacts: [
                 (
                     sha1: "af75d0e4b9c3f46d444121c9cf96ceb3a349fc1d",
+                    label: Some("\"3D 2\" playable demo"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Zapper (198x)(U.S. Games)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("U.S. Games Corporation"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5bef293d891747e790cc083f1d663efe372cec3b",
+                    label: Some("\"3D Space\" 12/15/82 non-playable demo"),
                 ),
             ],
         ),

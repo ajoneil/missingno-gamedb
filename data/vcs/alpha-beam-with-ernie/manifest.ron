@@ -1,47 +1,185 @@
 (
-    title: "Alpha Beam With Ernie (Joystick Conversion)",
+    title: "Alpha Beam with Ernie",
+    developer: Some("Michael Callahan, Preston Stuart"),
+    description: Some("An educational game for young children starring Sesame Street\'s Ernie. You fly a small shuttle around the screen to collect fuel tanks, each labelled with a letter of the alphabet, and carry them back to Ernie\'s spaceship so he can fly home to Earth — a letter-recognition exercise dressed up as a space rescue, aimed at pre-readers."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/alpha_beam.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Alpha_Beam_with_Ernie",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BE7F9A92EE42AEB3FD78FFC57D70A8199D6CB313",
+    ],
+    mods: [
+        (
+            name: "Alpha Beam with Ernie (joystick conversion)",
+            category: Compatibility,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    date: Some("2013"),
+                    base_sha1: Some("a1f660827ce291f19719a5672f2c5d277d903b03"),
+                    artifacts: [
+                        (
+                            sha1: "4fb9eb44e20df4390e9e7737fcd554b744aff30e",
+                        ),
+                        (
+                            sha1: "6276b204d486f4c4144ab31841d58fbae99912d3",
+                            label: Some("NTSC alt"),
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    base_sha1: Some("a1f660827ce291f19719a5672f2c5d277d903b03"),
+                    artifacts: [
+                        (
+                            sha1: "c5eb0f0944480fb4604e348b9c848a4dff44ba9b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
-            date: Some("2013"),
-            publisher: Some("Omegamatrix"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
             ),
             artifacts: [
                 (
-                    sha1: "4fb9eb44e20df4390e9e7737fcd554b744aff30e",
-                ),
-                (
-                    sha1: "6276b204d486f4c4144ab31841d58fbae99912d3",
-                ),
-                (
-                    sha1: "7118f2401a0d34996762d9838d2f4bacf745fde3",
-                ),
-                (
                     sha1: "a1f660827ce291f19719a5672f2c5d277d903b03",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Alpha Beam with Ernie (1983)(Atari - CCW)(NTSC)[Kid\'s Controller][CX26103].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
-            date: Some("2013"),
-            publisher: Some("Omegamatrix"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "32c615956879dae5ac2a13976c9be72829e9e483",
+                    label: Some("alt [a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Alpha Beam with Ernie (1983)(Atari - CCW)(PAL)[a][Kid\'s Controller].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "4be3ff4904fc75e047c72ec7e1b1b361c7ae6d50",
+                    label: Some("CX26103"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Alpha Beam with Ernie (1983)(Atari - CCW)(PAL)[Kid\'s Controller][CX26103].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-12-22"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
                 (
-                    sha1: "c5eb0f0944480fb4604e348b9c848a4dff44ba9b",
+                    sha1: "7118f2401a0d34996762d9838d2f4bacf745fde3",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Alpha Beam with Ernie (1982-12-22)(Atari)(JP-US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983-06-03"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
                 (
                     sha1: "ea1124a3eac39133f59d664545c33cc514022067",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Alpha Beam with Ernie (1983-06-03)(Atari)(EU)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

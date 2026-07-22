@@ -1,5 +1,28 @@
 (
     title: "3-D Tic-Tac-Toe",
+    developer: Some("Carol Shaw"),
+    description: Some("Noughts-and-crosses expanded to a 4×4×4 cube, shown as four stacked 4×4 grids. You win by claiming four squares that form a straight line — within one grid, straight up through all four levels, or along any diagonal that runs through the stack — which makes both attack and defence far harder to read than the flat game. You can play a second person or the console itself, whose skill runs across eight levels of look-ahead, the highest taking a very long time to move."),
+    links: [
+        (
+            name: "Atari Archive",
+            url: "https://www.atariarchive.org/blog/3-d-tic-tac-toe-july-1980/",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (Atari CX2618)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/3dtictactoe.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E9D595622EA757C08343BB59679343A70FA00F88",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1980"),
@@ -11,19 +34,28 @@
             artifacts: [
                 (
                     sha1: "21d983f2f52b84c22ecae84b0943678ae2c31c10",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Tic-Tac-Toe (1978)(Atari)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
-            ],
-        ),
-        (
-            date: Some("1980"),
-            publisher: Some("Atari"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "f93a1067958a17c14ee72c6b611cffc16901f58b",
+                    label: Some("overdump [o]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Tic-Tac-Toe (1978)(Atari)(NTSC)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
@@ -37,25 +69,65 @@
             artifacts: [
                 (
                     sha1: "6b163aa967e4204a5bd98a59bd8e80f159004e34",
+                    label: Some("standalone [CX2618]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Tic-Tac-Toe (1978)(Atari)(PAL)[CX2618].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
-                    sha1: "fd8f2a6eb9248227edca6ae60de93ca38c0ed2ea",
+                    sha1: "c497f97fb4f140b875728a636e3a46c8d0804e1c",
+                    label: Some("bad overdump [o][b]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Tic-Tac-Toe (1978)(Atari)(PAL)[o][b].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "e5a370e4f9531836e5b12951e44ea4a4afe9f5d7",
+                    label: Some("pirate overdump [p][o]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Tic-Tac-Toe (1978)(Atari)(PAL)[p][o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
-            date: Some("1980"),
+            label: Some("32-in-1 compilation"),
+            date: Some("1988"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
-                cart_type: Some("4K"),
+                cart_type: Some("2K"),
             ),
             artifacts: [
                 (
-                    sha1: "c497f97fb4f140b875728a636e3a46c8d0804e1c",
-                ),
-                (
-                    sha1: "e5a370e4f9531836e5b12951e44ea4a4afe9f5d7",
+                    sha1: "fd8f2a6eb9248227edca6ae60de93ca38c0ed2ea",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "32-in-1 - 03 - 3-D Tic-Tac-Toe (1988)(Atari)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

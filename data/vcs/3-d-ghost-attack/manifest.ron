@@ -1,5 +1,20 @@
 (
     title: "3-D Ghost Attack",
+    developer: Some("VideoSoft"),
+    description: Some("A first-person shooting gallery across three stages — a mansion exterior, a graveyard, and a portal to the ghost world. Ghosts appear at different depths, and your \"photobeam\" only hits one when its targeting sight is raised or lowered onto the same plane as the ghost, so each shot is a matter of judging distance before firing. The display alternates red and blue frames for an anaglyph 3-D effect and is close to unplayable without red/blue glasses. It cannot be played through: the second stage has no collision detection and the third has no ending."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/3dghostattack/3dghostattack.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1983"),
@@ -12,6 +27,15 @@
             artifacts: [
                 (
                     sha1: "29e431c27ddb8649ec3f15966011505822907139",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Ghost Attack (1983)(Amiga)(US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -1,5 +1,23 @@
 (
     title: "3-D Genesis",
+    developer: Some("VideoSoft"),
+    description: Some("A Tempest-style shooter played on the faces of a three-dimensional cube. You steer a scorpion around the outside of the cube, shooting spiders that climb toward you; a spider that reaches the edge can knock a piece out of it and leave a hole. A moving hazard, the rail snail, patrols the field, and timing a pass over it as it changes direction earns a bonus."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/3dgenesis/3dgenesis.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0AD3A264E9CE09E45BDE127381F837ECFE505AAF",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("1983"),
@@ -12,6 +30,15 @@
             artifacts: [
                 (
                     sha1: "0e146e5eb1a68cba4f8fa55ec6f125438efcfcb4",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "3-D Genesis (1983)(Amiga)(US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
