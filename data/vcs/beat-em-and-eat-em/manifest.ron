@@ -1,29 +1,153 @@
 (
-    title: "Beat \'Em and Eat \'Em (Supercharger Conversion Hack)",
-    releases: [
+    title: "Beat \'Em & Eat \'Em",
+    developer: Some("JHM Ltd."),
+    description: Some("A Mystique adult paddle game: you slide the catchers along the foot of the screen to grab what falls from the figure above, all drawn as caricatured nudes."),
+    mods: [
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
+            name: "Beat \'Em & Eat \'Em (Supercharger conversion)",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
                 (
-                    sha1: "8b3825b2016bf160b211f4820ea9eabb0d5ed256",
+                    date: Some("2008"),
+                    base_sha1: Some("e2c29d0a73a4575028b62dca745476a17f07c8f0"),
+                    artifacts: [
+                        (
+                            sha1: "8b3825b2016bf160b211f4820ea9eabb0d5ed256",
+                        ),
+                        (
+                            sha1: "ee6156826605dd13f422d4f5bd8a33e6604c80e3",
+                            label: Some("PAL"),
+                        ),
+                    ],
                 ),
             ],
         ),
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            name: "Beat \'Em & Eat \'Em (Supercharger)",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("e2c29d0a73a4575028b62dca745476a17f07c8f0"),
+                    artifacts: [
+                        (
+                            sha1: "5295de93efea7266f913c0db28bda2a8790ffc1e",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "Beat \'Em and Eat \'Em (1982)(Mystique - Playaround)(NTSC)[f][Supercharger].bin",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                        (
+                            sha1: "fd67c0844925e3030d3a1e4a61b9894beb9bd11c",
+                            label: Some("PAL-60"),
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "Beat \'Em and Eat \'Em (1982)(Mystique - Playaround)(PAL-60)[f][Supercharger].bin",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("Dynacom"),
             hardware: (
-                tv_format: Some(Pal),
+                tv_format: Some(PalM),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
-                    sha1: "ee6156826605dd13f422d4f5bd8a33e6604c80e3",
+                    sha1: "8e8e334fa481698d0adb7f9cb7852e49ac462eb9",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Beat\'Em and Eat\'Em (1983)(Dynacom)(BR).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Mystique"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "8b7d6a0c5e14c52ddb18e7be7c84f45abef94bc0",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Beat\'Em and Eat\'Em (1982)(Mystique)(AU).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Mystique"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "e2c29d0a73a4575028b62dca745476a17f07c8f0",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Beat \'Em and Eat \'Em (1982)(Mystique - Playaround)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -1,7 +1,23 @@
 (
     title: "Barnstorming",
+    developer: Some("Steve Cartwright"),
+    description: Some("Fly a biplane across the countryside against the clock. Dive and climb to thread your plane through a run of open barns while dodging windmills and flocks of geese — clip an obstacle or a bird and you bleed speed. It is a pure time trial: clear the set number of barns as fast as you can."),
+    covers: [
+        "https://hasheous.org/api/v1/images/80CF4D3BD2B86B5F23A71EE18C8E5516680932C6",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,28 +25,99 @@
             artifacts: [
                 (
                     sha1: "101d9ec13577809d091976872e9fca4b65eb3189",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "372663097b419ced64f44ef743fe8d0af4317f46",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Barnstorming (1982)(Activision)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
-                    sha1: "568d790d1dc8c28167b6c061ae4c00bea738353c",
-                ),
-                (
-                    sha1: "72f0bd35b49e4a35f6e51df6ec8ea579b5a673eb",
+                    sha1: "128e435106242352c8bb264dd24278ba982a60b8",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Barnstorming (1982)(Activision)(NTSC)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Activision"),
             hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "128e435106242352c8bb264dd24278ba982a60b8",
+                    sha1: "0e146b4081ae08d7a527bd0e7abd23bb1d42dffb",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Barnstorming (1982)(Activision)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "568d790d1dc8c28167b6c061ae4c00bea738353c",
+                    label: Some("[p] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Barnstorming (1982)(-)(PAL)[p].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "e9a4f47c73ff2803917af1b1b0854648d6d998c8",
+                    label: Some("unidentified [a] [?]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "72f0bd35b49e4a35f6e51df6ec8ea579b5a673eb",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Barnstorming (1982)(CCE)(NTSC)(BR).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

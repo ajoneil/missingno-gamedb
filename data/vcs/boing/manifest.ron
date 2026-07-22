@@ -1,0 +1,84 @@
+(
+    title: "Boing!",
+    developer: Some("Alex Leavens, Shirley Ann Russell"),
+    description: Some("First Star Software\'s bubble game by Alex Leavens and Shirley Ann Russell, jokingly subtitled \"The Emphysema Game\": steer a soap bubble around a grid-filled playfield without letting it burst."),
+    covers: [
+        "https://hasheous.org/api/v1/images/E231DD632ADA144AD7EB6984C90475FCFE7B3EF3",
+    ],
+    mods: [
+        (
+            name: "Boing! 2004",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("d106bb41a38ed222dead608d839e8a3f0d0ecc18"),
+                    artifacts: [
+                        (
+                            sha1: "d40a526e83c47aeb4acdef9f4a3de98ff59af2f9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("First Star Software"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d106bb41a38ed222dead608d839e8a3f0d0ecc18",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Boing! (1983)(First Star Software)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("First Star Software"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d7a079a8874dcf059d10dc49831d6d9e2db68917",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Boing! (1983)(First Star Software)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

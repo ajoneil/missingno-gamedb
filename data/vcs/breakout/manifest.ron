@@ -1,0 +1,152 @@
+(
+    title: "Breakout",
+    developer: Some("Brad Stewart"),
+    description: Some("Atari\'s home version of the arcade brick-breaker: slide the paddle along the foot of the screen to bounce a ball up into a wall of bricks, knocking them out one at a time; clear the wall and a second takes its place. Five balls to a game, one to four players."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Breakout_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/breakout.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/18BA461A5F333638808FD255B969E4D4EA481977",
+    ],
+    mods: [
+        (
+            name: "Breakout (trainer)",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("8d473b87b70e26890268e6c417c0bb7f01e402eb"),
+                    artifacts: [
+                        (
+                            sha1: "02484c1349c1926bf9733a2ee49cd98e5901e579",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "8d473b87b70e26890268e6c417c0bb7f01e402eb",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Breakout - Breakaway IV (1978)(Atari)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "4c60a8d5f60fe7e24b133338fae5bcc8eeded5be",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Breakout - Breakaway IV (1978)(Atari)(NTSC)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "e4fd226c66d40581e63ee3200e07eba409cb28f3",
+                    label: Some("[o2] (overdump, possibly 4-in-1)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Breakout - Breakaway IV (1978)(Atari)[o2][possibly 4-in-1].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "ef1a5b2e1fbf890e6cd7491201b0eb8264f63a23",
+                    label: Some("[o][b] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Breakout - Breakaway IV (1978)(Atari)(NTSC)[o][b].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "4d37ccf1d983917ff59659b78573d1430ad4f273",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Breakout - Breakaway IV (1978)(Atari)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "ac61d94308f29b95b93295c2e0b61354aaefcbf8",
+                    label: Some("[o][b] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Breakout - Breakaway IV (1978)(Atari)(PAL)[o][b].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,16 +1,49 @@
 (
-    title: "Birthday Mania (Paddle)",
+    title: "Birthday Mania",
+    developer: Some("Robert A. Tokar"),
+    description: Some("The rarest of all Atari 2600 releases: a personalized birthday cartridge Robert Tokar sold by newspaper ad, of which only 10–15 copies went out. It opens with a named \"Happy Birthday\" greeting, then you slide \"Mr. N. Ervous\" along the bottom of the screen, puffing wind upward to blow out falling candles."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Birthday_Mania",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0F7D2B81F867ED208904A2078B0F43C2102428C7",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Personal Games Company"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "d51e8f48f985557da31a70ed79b044dd52381b25",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Birthday Mania (1984)(Tokar, Robert A.)(US).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

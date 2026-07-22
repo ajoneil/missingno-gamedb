@@ -1,7 +1,28 @@
 (
     title: "BMX Air Master",
+    developer: Some("Adam Clayton"),
+    description: Some("TNT Games\' BMX freestyle sim, by Adam Clayton: ride the ramps of a skatepark, launch off the lips and pull aerial tricks for points, landing clean to keep your run going."),
+    links: [
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/bmx_air_master.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4BBBA4E1D0918AD5788B6C28F206FBFB43BC59F2",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1989"),
             publisher: Some("TNT Games"),
             hardware: (
@@ -11,11 +32,23 @@
             artifacts: [
                 (
                     sha1: "ff25ed062dcc430448b358d2ac745787410e1169",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "BMX Air Master (1989)(TNT Games)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
-            date: Some("1990"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1989"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
@@ -24,9 +57,40 @@
             artifacts: [
                 (
                     sha1: "30d52041c59a240a8ebe2749e4de32bbc74988ee",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "BMX Air Master (1989)(Atari)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1989"),
+            publisher: Some("TNT Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
                 (
                     sha1: "b54ab700ec9441aeb72665d095475035a155aa22",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "BMX Air Master (1989)(TNT Games)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

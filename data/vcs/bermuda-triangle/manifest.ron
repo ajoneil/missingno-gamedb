@@ -1,8 +1,23 @@
 (
     title: "Bermuda Triangle",
+    developer: Some("J. Ray Dettling"),
+    description: Some("Data Age\'s undersea salvage game: pilot a one-man mini-sub down to a sunken city and use its tractor beam to gather priceless artifacts, then ferry them up to the research ship on the surface — all while dodging giant squid, sharks, mines, patrolling drones and the laser beams that streak across the deep."),
+    links: [
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/bermuda_triangle.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4EC952CD925639577CB474A7290858196AEE9E7B",
+    ],
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
             publisher: Some("Data Age"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -11,10 +26,22 @@
             artifacts: [
                 (
                     sha1: "fcad0e5130de24f06b98fb86a7c3214841ca42e2",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bermuda Triangle (1982)(Data Age)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Gameworld"),
             hardware: (
@@ -24,6 +51,15 @@
             artifacts: [
                 (
                     sha1: "9a566ae9354fc94da9fe7a53db49dba57f53c260",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bermuda Triangle (1983)(Gameworld)(EU).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

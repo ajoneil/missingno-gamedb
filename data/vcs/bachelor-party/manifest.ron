@@ -1,16 +1,49 @@
 (
     title: "Bachelor Party",
+    developer: Some("JHM Ltd."),
+    description: Some("An adult-themed Breakout variant from Mystique\'s \"Swedish Erotica\" line. Using the paddle, you bounce a bachelor sprite back and forth along the foot of the screen to clear the row of targets above; the figures are drawn as caricatured nudes. Its gender-swapped companion is Bachelorette Party."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bachelor_Party_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/23B811E648124E7480AC217F4BA63957E21CE1CD",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
-            publisher: Some("PlayAround"),
+            publisher: Some("Mystique"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "75e7efa861f7e7d8e367c09bf7c0cc351b472f03",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bachelor Party (1982)(Mystique - Playaround)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

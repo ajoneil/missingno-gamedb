@@ -1,0 +1,88 @@
+(
+    title: "BASIC Programming",
+    developer: Some("Warren Robinett"),
+    description: Some("Atari\'s most literal \"Game Program\": a cartridge for writing and running your own programs in a stripped-down BASIC, typed in on the two keypad controllers. The screen splits into windows for the program, the stack, output, variables and graphics; a program can hold only a handful of statements, but you can move a ball around, do arithmetic and watch the machine execute your code. Written by Warren Robinett, who went on to make Adventure."),
+    links: [
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/basic_programming.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/BASIC_Programming",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/EB9523D812CBBD4B9E6383CD6751D55B0D095856",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1980-04"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "6c56fad688b2e9bb783f8a5a2360c80ad2338e47",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Basic Programming (1979)(Atari)(NTSC)[Atari Keypad][CX2620].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "e750ce6c9cbc84570060a51c2e9eb0afc7cfb928",
+                    label: Some("unidentified [?]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "ff4da01319153a2bde2d2cb1bb1dd900ae105e9a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Basic Programming (1979)(Atari)(PAL)[Atari Keypad][CX2620].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

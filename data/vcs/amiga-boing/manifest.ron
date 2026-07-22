@@ -1,0 +1,52 @@
+(
+    title: "Amiga Boing",
+    developer: Some("Rob Kudla"),
+    description: Some("A public-domain Atari 2600 recreation of the famous Amiga \"Boing Ball\" demo, by Rob Kudla: a red-and-white checkered ball bouncing against a grid backdrop."),
+    license: Some("Public domain"),
+    releases: [
+        (
+            date: Some("1999"),
+            publisher: Some("Rob Kudla"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6fdc66e9d6b2a7669b729f200031b630afc2e737",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Amiga Boing (200x)(Kudla, Rob)(NTSC)(PD).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            date: Some("1999"),
+            publisher: Some("Rob Kudla"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd75d2d70bc53ef334e9eafaa8fca9b902ad9d16",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Amiga Boing (200x)(Kudla, Rob)(NTSC)(PD)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

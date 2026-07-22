@@ -1,0 +1,105 @@
+(
+    title: "Brain Games",
+    developer: Some("Larry Kaplan"),
+    description: Some("Atari\'s collection of children\'s memory and learning games, played on the Keyboard Controller: nineteen variations — Touch Me, Count Me, Picture Me, Find Me, Add Me and Play Me — running from a Simon-style match-the-tone-sequence to counting and simple arithmetic, one player or two."),
+    links: [
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/brain_games.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D1E243382A1BD29A1992DE4837406A7F63396510",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "238915cafd26f69bc8a3b9aa7d880dde59f6f12d",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Brain Games (1982)(Atari)(NTSC)[Atari Keypad].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "6fd900234a057b4ed98daca086870bea179fec41",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Brain Games (1982)(Atari)(NTSC)[o][Atari Keypad].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "7b9d9ac288ea1fda8e8cbbde75e84b4e2ed37a5e",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Brain Games (1982)(Atari)(PAL)[Atari Keypad][CX2664].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "f252a358c674834e19a3ab8ed3f1bb537b3b8df3",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Brain Games (1982)(Atari)(PAL)[o][Atari Keypad].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

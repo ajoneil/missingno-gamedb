@@ -1,0 +1,100 @@
+(
+    title: "Beany Bopper",
+    developer: Some("Sirius Software"),
+    description: Some("A Sirius Software shooter: as a one-eyed \"bopper\" you swivel a 360-degree stun-gun to zap the propeller-hatted \"beanies\" and grab them before they slip past, snatching bonus items along the way."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Beany_Bopper",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/beany_bopper.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BC81E5E451BD9C5E84C4004B2C293D82BFC0A83C",
+    ],
+    mods: [
+        (
+            name: "Beany Bopper (Supercharger conversion)",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("fad0c97331a525a4aeba67987552ba324629a7a0"),
+                    artifacts: [
+                        (
+                            sha1: "a2e81483ae5bb39a848f837358649d15ccfb088c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-09"),
+            publisher: Some("20th Century Fox"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "859ba27703aa2f1bade78824bdd6c2462a69ce55",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "fad0c97331a525a4aeba67987552ba324629a7a0",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Beany Bopper (1982)(20th Century Fox)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "73d55cf63ccabf881148e71dfdbd7d4445889f80",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Beany Bopper (1982)(CCE)(NTSC)(BR).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

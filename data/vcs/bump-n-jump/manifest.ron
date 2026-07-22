@@ -1,7 +1,28 @@
 (
     title: "Bump \'n\' Jump",
+    developer: Some("David Akers, Joe King, Patricia Lewis Du Long, Jeff Ratcliff"),
+    description: Some("A top-down driving game ported from Data East\'s arcade hit: race along a scrolling road, bumping rival cars into the roadside to wreck them and, at high enough speed, leaping over water and other gaps. Wreck into a barrier, splash down, or clip an obstacle and you lose a car; trucks can only be jumped, never bumped."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bump_%27n%27_Jump",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/158A410D549CD2B70D8C192DB63E70A1425191FF",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("M Network"),
             hardware: (
@@ -11,10 +32,48 @@
             artifacts: [
                 (
                     sha1: "f3a61be1e29b42c0675db51c01f80852ad31d915",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bump \'n\' Jump (USA).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "1819ef408c1216c83dcfeceec28d13f6ea5ca477",
+                    label: Some("[a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bump \'N\' Jump (1983)(Mattel)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "5614c32e76c8b272c38c16720ebbb1818d3d3103",
+                    label: Some("[b] (bad dump, screen rolls)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bump \'N\' Jump (1983)(Mattel)(NTSC)[b Screen Rolls].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1988"),
             publisher: Some("Telegames"),
             hardware: (
@@ -24,6 +83,15 @@
             artifacts: [
                 (
                     sha1: "35bc4048f58bb170313872a0bce44fb1ca3217cc",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bump \'N\' Jump (1983)(Telegames)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

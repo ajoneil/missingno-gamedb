@@ -1,0 +1,108 @@
+(
+    title: "Basic Math",
+    developer: Some("Gary Palmer"),
+    description: Some("Atari\'s early arithmetic teacher, later reissued as Fun with Numbers. The console sets problems in the four operations — addition, subtraction, multiplication and division — and you dial in each answer with the joystick against a running tally. The cartridge offers both ordered \"table\" problems, which drill a chosen number in sequence, and mixed \"random\" ones."),
+    links: [
+        (
+            name: "Manual — Basic Math (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/basic_math.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual — Fun with Numbers (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fun_with_numbers.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/15F810CB3D0FB0DA921D15AFB28CD3293E5F22FA",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5cc4010eb2858afe8ce77f53a89d37c7584e15b4",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Fun with Numbers (1977)(Atari)(NTSC)[aka Basic Math].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "88b8e8e7ce9b1792647af68ffe154d0d99251cdb",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Fun with Numbers (1977)(Atari)(NTSC)[o][aka Basic Math].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dda685cea74e202e1b473b0f890c3910c89c7f79",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "ebdc9fc929a6ef47daea8ab539b769a244243a1a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Fun with Numbers (1977)(Atari)(PAL)[aka Basic Math][CX2661].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "3f9dd8bdff81da2fa8a541b827d95074531f49bb",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Fun with Numbers (1977)(Atari)(PAL)[o][aka Basic Math].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

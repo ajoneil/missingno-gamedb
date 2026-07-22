@@ -1,9 +1,31 @@
 (
-    title: "Boggle (Proto) (1978-08-07)",
+    title: "Boggle",
+    developer: Some("David Crane"),
+    description: Some("David Crane\'s unreleased Atari adaptation of the word game Boggle: two players race to spot words in a shared grid of lettered dice before the time runs out."),
+    links: [
+        (
+            name: "AtariProtos — Boggle",
+            url: "http://www.atariprotos.com/2600/software/boggle/boggle.htm",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/06FCF4FEAB92795138603F5B2827429A7DDA258C",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
-            date: Some("1978"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1978-08-07"),
             publisher: Some("Atari"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
@@ -11,6 +33,15 @@
             artifacts: [
                 (
                     sha1: "4accd4cc4f8f3a935ca178449a4ac62283639c53",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Boggle (1978-08-07)(Atari)(NTSC)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

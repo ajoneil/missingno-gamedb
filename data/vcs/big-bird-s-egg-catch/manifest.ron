@@ -1,0 +1,186 @@
+(
+    title: "Big Bird\'s Egg Catch",
+    developer: Some("Christopher H. Omarzu"),
+    description: Some("A Sesame Street game for young children from Atari\'s CCW label, played with the Kid\'s Controller: eggs roll down twisting chutes from the hens above, and you move Big Bird so the basket on his head catches each one before it drops — a gold egg is worth extra."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Big_Bird\'s_Egg_Catch",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/big_bird.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AED7D3EDE88E7A0E0DB3ACC2F611CB0EDFFD8727",
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "418db57875e69a7dc5e535d71a7953bf74c30798",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "5e4517db83c061926130ab65975e3b83d9401cc9",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Big Bird\'s Egg Catch (1983)(Atari - CCW)(NTSC)[Kid\'s Controller][aka Grover\'s Egg Catc][CX26104].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-12-08"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "a3ab3699d945ac356aeff637046f197f9d6f7063",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Big Bird\'s Egg Catch (1982-12-08)(Atari)(JP-US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05-02"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "aafb88ef8f95b1051cb8b6a153b165215c95c7bd",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Big Bird\'s Egg Catch (1983-05-02)(Atari)(JP-US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05-17"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "e2b0304de695cea7c98344642254b7f181e928d2",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Big Bird\'s Egg Catch (1983-05-17)(Atari)(JP-US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "0496d66eabe51b23fd10c2c08a7074d9e6af9124",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "fd9822ec54add04569b629d631182d9deac7184d",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Big Bird\'s Egg Catch (1983)(Atari - CCW)(PAL)[Kid\'s Controller][aka Grover\'s Egg Catch][CX26104].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "037b23748f1351abf965571ec48975eb4c59c0c2",
+                    label: Some("[a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Big Bird\'s Egg Catch (1983)(Atari - CCW)(PAL)[a][Kid\'s Controller].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

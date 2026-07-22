@@ -1,32 +1,89 @@
 (
     title: "Bumper Bash",
+    developer: Some("David Lubar"),
+    description: Some("A single-screen pinball simulation: launch the ball with the plunger, then work the two flippers to keep it alive across five balls, scoring off the bumpers, drop targets, rollover lanes and spinner. Spell out the rollover letters for ball-savers and an extra ball, and clear the drop targets to build your bonus multiplier."),
+    links: [
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/bumper_bash.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/525752C66BB30BB3F646AED3D268BD6AA8D40DA2",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Spectravideo"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "6c199782c79686dc0cbce6d5fe805f276a86a3f5",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bumper Bash (1983)(Spectravision)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Spectravideo"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "79c008568167bec1426280690c45e7ba5bd71b3e",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bumper Bash (Europe).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "ad48f4952e867a2b97900d965b69f50fddf8ba2d",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bumper Bash (1983)(Spectravision)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

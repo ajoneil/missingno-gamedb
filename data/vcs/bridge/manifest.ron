@@ -1,7 +1,28 @@
 (
     title: "Bridge",
+    developer: Some("Larry Kaplan"),
+    description: Some("Activision\'s solitaire take on contract bridge: you play each hand with a computer partner that bids by the rules, against two computer opponents, across a vast library of deals."),
+    links: [
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/bridge.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3226CA641E05882C35FBAC8F8A09ED8FD26A6866",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1980"),
             publisher: Some("Activision"),
             hardware: (
@@ -11,13 +32,39 @@
             artifacts: [
                 (
                     sha1: "2873eb6effd35003d13e2f8f997b76dbc85d0f64",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bridge (1981)(Activision)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "b3f8f910b0a8af7379cae33f9ef698cff30f6b34",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "6df43b75ae080240d97754ab69c39c32370800a7",
+                    label: Some("[fixed]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bridge.a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1980"),
             publisher: Some("Activision"),
             hardware: (
@@ -27,12 +74,23 @@
             artifacts: [
                 (
                     sha1: "066193a13acbc1abfa6fdec29d41f7ad14869a5b",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bridge (Europe).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "2ec31813906d4fcb1160ba756d0f93db8f93089a",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "3d9377619c34412758645e9f4e7dfcbb052b93e6",
+                    label: Some("unidentified [?]"),
                 ),
             ],
         ),

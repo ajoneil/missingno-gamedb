@@ -1,7 +1,33 @@
 (
     title: "Pete Rose Baseball",
+    developer: Some("Alex DeMeo"),
+    description: Some("Absolute Entertainment\'s baseball simulation, designed by Alex DeMeo and carrying Cincinnati Reds star Pete Rose\'s endorsement. The view shifts as play unfolds — a \"behind the pitcher\" angle for pitching and batting, and bird\'s-eye views of the field that follow where the ball is hit — across a one- or two-player game. When the Pete Rose licence lapsed the game was reissued simply as \"Baseball\", the form in which Skyworks re-released it on cartridge in 2002 and the Activision Anthology bundled it."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pete_Rose_Baseball",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pete_rose_baseball.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/libretro-thumbnails/Atari_-_2600/master/Named_Boxarts/Pete%20Rose%20Baseball%20(USA).png",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1988"),
             publisher: Some("Absolute Entertainment"),
             hardware: (
@@ -11,10 +37,22 @@
             artifacts: [
                 (
                     sha1: "19c3ad034466c0433501a415a996ed7155d6063a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pete Rose Baseball.a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             publisher: Some("HES"),
             hardware: (
                 tv_format: Some(Pal),
@@ -23,6 +61,33 @@
             artifacts: [
                 (
                     sha1: "a9e0d464755c36b291cdad7136a4e90090df7df9",
+                    label: Some("unidentified [?] (HES PAL)"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("2002"),
+            publisher: Some("Skyworks Technology Inc."),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f1c850e0e7f0d6ff47dd7a64d5d04a7caa803fbb",
+                    label: Some("Baseball (licence-expired rename)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Pete Rose Baseball (2002)(Skyworks)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

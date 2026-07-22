@@ -1,8 +1,61 @@
 (
     title: "Battlezone",
+    developer: Some("General Computer Corporation"),
+    description: Some("Atari\'s home port of the arcade tank game, programmed at GCC by Mike Feinstein and Brad Rice. The 2600 version swaps the arcade\'s first-person wireframe view for solid raster graphics and a third-person angle that keeps your own tank on screen as you fight across the battlefield."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battlezone_(1980_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/battlezone.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/EC925E10A751ABFE1EEF4E1C1D38B8164F1865FF",
+    ],
+    mods: [
+        (
+            name: "Battlezone TC",
+            category: ContentChange,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("e4134a3b4a065c856802bc935c12fa7e9868110a"),
+                    artifacts: [
+                        (
+                            sha1: "89726488e57088bd670d436d9ad313ed664bf048",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Battlezone PAL Color Hack",
+            category: ContentChange,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    base_sha1: Some("d33a367fc4890bea8c2d9a7283d84720b20cabf8"),
+                    artifacts: [
+                        (
+                            sha1: "11e386129d5d900ee39ee0a0acf86df370d6edd1",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-08"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -10,17 +63,23 @@
             ),
             artifacts: [
                 (
-                    sha1: "3e226d8ffa975b937d808f73f79b3f052c3b067e",
-                ),
-                (
                     sha1: "e4134a3b4a065c856802bc935c12fa7e9868110a",
-                ),
-                (
-                    sha1: "fafd522e36a4888dfc2a40b1d5879ee8a33d7931",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Battlezone (1983)(Atari)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -30,6 +89,80 @@
             artifacts: [
                 (
                     sha1: "d33a367fc4890bea8c2d9a7283d84720b20cabf8",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Battlezone (1983)(Atari)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "5cac793eb076c3ee559ec4eb7276629eae849d8f",
+                    label: Some("[a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Battlezone (1983)(Atari)(PAL)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05-02"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fafd522e36a4888dfc2a40b1d5879ee8a33d7931",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Battlezone (1983-05-02)(Atari)(JP-US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05-12"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e226d8ffa975b937d808f73f79b3f052c3b067e",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Battlezone (1983-05-12)(Atari)(JP-US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

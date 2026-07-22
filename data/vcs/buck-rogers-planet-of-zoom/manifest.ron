@@ -1,8 +1,51 @@
 (
     title: "Buck Rogers - Planet of Zoom",
+    description: Some("Sega\'s home version of its pseudo-3D arcade shooter: you pilot a ship seen from behind as it races into the screen, blasting waves of enemy craft and robots to clear each stretch — through open space, a Star Wars-style trench, fields of planetary pylons, and boss ships you dismantle engine by engine — before the clock runs out."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Buck_Rogers:_Planet_of_Zoom",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/buck_rogers.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D6DBDCC2EDF05F768BC35E4F0AF8FC0838FFA05B",
+    ],
+    mods: [
+        (
+            name: "Buck Rogers Sprite Edit",
+            category: ContentChange,
+            author: Some("KevinMos3"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("a65dea2d9790f3eb308c048a01566e35e8c24549"),
+                    artifacts: [
+                        (
+                            sha1: "36ff97d0f12cef6ff75f52a4d23a8d0635d2e0ed",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-11"),
             publisher: Some("SEGA"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -11,10 +54,22 @@
             artifacts: [
                 (
                     sha1: "a65dea2d9790f3eb308c048a01566e35e8c24549",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Buck Rogers - Planet of Zoom (1983)(Sega)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("SEGA"),
             hardware: (
@@ -24,6 +79,15 @@
             artifacts: [
                 (
                     sha1: "70f6310a522da76c18f3dedc050ef44217efb771",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Buck Rogers - Planet of Zoom (1983)(Sega)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

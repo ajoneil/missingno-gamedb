@@ -1,7 +1,28 @@
 (
-    title: "Bouncin\' Baby Bunnies (Baby Boom Boom, Bouncing Baby Monkeys)",
+    title: "Bouncin\' Baby Bunnies",
+    developer: Some("Alex Leavens"),
+    description: Some("An unreleased Telesys game by Alex Leavens: a stork drops bundles of baby bunnies, and you work a pair of monkeys with a platform to bounce them into a house before they hit the ground — miss three and it\'s over."),
+    links: [
+        (
+            name: "AtariProtos — Bouncin\' Baby Bunnies",
+            url: "http://www.atariprotos.com/2600/software/bouncingbabybunnies/bouncingbabybunnies.htm",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B3977F8FDE2C04DA4303B469F811D829FF8B2371",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Telesys"),
             status: Prototype,
@@ -12,6 +33,15 @@
             artifacts: [
                 (
                     sha1: "af4a8a31f8dd24fe9904b5685da8780bea078236",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bouncin\' Baby Bunnies (USA) (Proto).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -18412,5 +18412,53 @@
             ],
             note: "In missingno, Artillery Duel produces no sound and its on-screen barrel/powder/wind readouts do not update as they should. Confirmed across all NTSC and PAL dumps, so it is not a tv_format/timing artefact.",
         ),
+        (
+            id: 2882,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/berenstain-bears",
+            ],
+            note: "Requires the Coleco Kid Vid Voice Module (an audio-cassette peripheral), which missingno does not emulate. Without it the game cannot play as intended. Same limitation affects the other Kid Vid titles (Smurfs Save the Day, Tooth Protectors).",
+        ),
+        (
+            id: 2883,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/big-bird-s-egg-catch",
+            ],
+            note: "Requires the Atari Kid\'s Controller (a keypad-type controller) for input, which missingno does not emulate — the game is not playable as intended. Catalogued as controllers:[Keypad] (same electrical family), but the input isn\'t supported.",
+        ),
+        (
+            id: 2884,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/basic-programming",
+            ],
+            note: "Requires the Atari Keyboard/Keypad Controller (both) to enter and edit programs; missingno does not emulate this input, so the programming interface isn\'t usable. Catalogued as controllers:[Keypad].",
+        ),
+        (
+            id: 2885,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/bionic-breakthrough",
+            ],
+            note: "Requires the Atari MindLink controller (a forehead-muscle headband), which missingno does not emulate; the game is not playable. Unreleased prototype.",
+        ),
+        (
+            id: 2886,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/brain-games",
+            ],
+            note: "Requires the Atari Keyboard/Keypad Controller for input, which missingno does not emulate; not playable as intended. Catalogued as controllers:[Keypad].",
+        ),
+        (
+            id: 2887,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/bump-n-jump",
+            ],
+            note: "NTSC (M Network) release only: it\'s the 8K variant of the E7 (M-Network) mapper (Stella auto-detects E7; ROM 8192 bytes), and missingno doesn\'t load it — E7 shows no picture, forcing F8/F8SC boots then freezes on the first E7 bank/RAM access. Looks like missingno\'s E7 support misses the 8K E7 variant. The Telegames PAL release is a different board (standard F8) and plays fine, so the game is reachable via that dump; the gap is specifically 8K E7 carts.",
+        ),
     ],
 )

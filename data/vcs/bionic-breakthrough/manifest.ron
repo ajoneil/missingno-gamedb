@@ -1,8 +1,22 @@
 (
-    title: "Bionic Breakthrough (Headband - Super Breakout) (Mindlink Controller) (06-22-1984)",
+    title: "Bionic Breakthrough",
+    developer: Some("Paul Donaldson"),
+    description: Some("An unreleased Super Breakout variant Atari built to show off the MindLink controller — a headband read from the twitches of your forehead muscles. You steer the paddle by tensing your brow instead of turning a dial."),
+    covers: [
+        "https://hasheous.org/api/v1/images/C97262DD08053C643130A9F72BE7386D37F0AD59",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
-            date: Some("1984"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984-06-22"),
             publisher: Some("Atari"),
             status: Prototype,
             hardware: (
@@ -12,9 +26,19 @@
             artifacts: [
                 (
                     sha1: "eeed5312b62f9a5c2bce785956bd61c421dd4431",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "f6a41507b8cf890ab7c59bb1424f0500534385ce",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bionic Breakthrough (1984)(Atari)(proto)[MindLink Controller Required].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

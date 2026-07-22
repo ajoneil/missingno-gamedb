@@ -1,0 +1,83 @@
+(
+    title: "Bugs",
+    description: Some("Data Age\'s bug-blasting shooter: giant Super-Bugs crawl out of nests along the top of the screen, and you slide an aiming cursor beneath each one so your ship\'s ultrasonic pulses shoot up and destroy it before it breaks free to damage your ship. Watch for the Phylax, which can knock out your weapon — take three hits and you\'re overrun."),
+    links: [
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/bugs.pdf",
+            link_type: Manual,
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "52caed95002ad8775efb2a0a7ca9799c827ac597",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "67387d0d3d48a44800c44860bf15339a81f41aa9",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bugs (1982)(Data Age)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "42834c29d3aed7f847c336fa8c7f932eb02514c0",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "a8aedea627c67c38032cdde441fb98dad226916a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bugs (1983)(Game World)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

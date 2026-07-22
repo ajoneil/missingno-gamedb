@@ -1,40 +1,251 @@
 (
     title: "Bowling",
+    developer: Some("Larry Kaplan"),
+    description: Some("Atari\'s Bowling by Larry Kaplan: line up your bowler, set the ball\'s curve and roll it down the lane to knock down the pins across ten frames, solo or against a friend."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bowling_(1979_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/bowling.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2F9EC9BFECA893318C0773C51AC6E249498A006E",
+    ],
+    mods: [
+        (
+            name: "Bowling 2",
+            category: ContentChange,
+            author: Some("Rick Skrbina"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("cf6ce244b3edaad7ad5e9ca5f01668135c2f93d0"),
+                    artifacts: [
+                        (
+                            sha1: "6c9ccbe4b7e30df95a1cd4bfa87577337e53a4db",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Bowling Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("cf6ce244b3edaad7ad5e9ca5f01668135c2f93d0"),
+                    artifacts: [
+                        (
+                            sha1: "0e81e570f8ab2d0f146e15967f1119cc98cd828c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
-            date: Some("1978"),
-            publisher: Some("Dactar"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1979"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
             ),
             artifacts: [
                 (
-                    sha1: "4c6189fc465cc0353bec82de7cddde7aad269e93",
-                ),
-                (
                     sha1: "5c26fb7c0a5e12be5184994a45f8d647a86bf9a6",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "cf6ce244b3edaad7ad5e9ca5f01668135c2f93d0",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Atari)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "a03495ef841e28fa1cf52eea380a763312fbc00e",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Atari)(NTSC)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "075814a8e7fda7e6a097221cf2dabc9e1a1820ff",
+                    label: Some("[a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Atari)(NTSC)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "ae03b493891c50deb3b9a32dc080a0f12dcb74c3",
+                    label: Some("[b] (bad dump, screen rolls)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Atari)(NTSC)[b Screen Rolls].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "73979dc21c170a98a724c80aa99db4da50a8c21d",
+                    label: Some("[o][b] (bad dump, screen rolls)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Atari)(NTSC)[o][b Screen Rolls].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "e27eda01c247cc32ab148aaee0e6b81d48451eb0",
+                    label: Some("[o][b2] (bad dump, screen rolls)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Atari)(NTSC)[o][b2 Screen Rolls].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1979"),
             publisher: Some("Atari"),
             hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
             ),
             artifacts: [
                 (
-                    sha1: "a03495ef841e28fa1cf52eea380a763312fbc00e",
+                    sha1: "da5ed7a4a100fa4830b635981774a11ba4b0a60d",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Atari)(PAL)[CX2628].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "f388d4b33ee2b6f1d03e9691fb4144d0b27cda42",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Atari)(PAL)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
-            date: Some("1979"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1978"),
+            publisher: Some("Dactar"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4c6189fc465cc0353bec82de7cddde7aad269e93",
+                    label: Some("[p] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (1978)(Dactar)(NTSC-PAL)[p].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e7ff9ded67c599586a533a3c6fb9684afd9e26bd",
+                    label: Some("208-in-1 multicart extract"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bowling (208 in 1) (Unknown) (PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
@@ -43,28 +254,29 @@
             artifacts: [
                 (
                     sha1: "68ea43ea0e678cb5419a437a9bdab5c84f5ee1b9",
+                    label: Some("32-in-1 (Bowling #30)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "32-in-1 - 30 - Bowling (1988)(Atari)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
-                (
-                    sha1: "da5ed7a4a100fa4830b635981774a11ba4b0a60d",
-                ),
-                (
-                    sha1: "e7ff9ded67c599586a533a3c6fb9684afd9e26bd",
-                ),
-            ],
-        ),
-        (
-            date: Some("1979"),
-            publisher: Some("Atari"),
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "026a3bda032d1af6096804533e330e48662ddad5",
-                ),
-                (
-                    sha1: "f388d4b33ee2b6f1d03e9691fb4144d0b27cda42",
+                    label: Some("32-in-1 (Bowling #30) [o]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "32-in-1 - 30 - Bowling (1988)(Atari)(PAL)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

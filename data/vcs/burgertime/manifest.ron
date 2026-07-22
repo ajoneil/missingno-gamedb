@@ -1,7 +1,28 @@
 (
     title: "BurgerTime",
+    developer: Some("Patricia Lewis Du Long, Ron Surratt"),
+    description: Some("A port of Data East\'s arcade platformer: as chef Peter Pepper you run across giant burger ingredients strung along a maze of ladders and platforms, dropping each onto the buns below to build the burgers — while Mr. Hot Dog, Mr. Pickle and Mr. Egg chase you. A shake of pepper stuns them briefly, and squashing one under a falling ingredient is worth a bonus."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/BurgerTime",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2B57B30DA14D1AAE5E1ADED7A000006D868C8511",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("M Network"),
             hardware: (
@@ -11,9 +32,32 @@
             artifacts: [
                 (
                     sha1: "2c48f64600dbc5e5fd618f3a13fdd610b189a905",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "49e01b8048ae344cb65838f6b1c1de0e1f416f29",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Burgertime (1982)(Mattel)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "75737fc6fd85749e30582d7c7dced7309b852643",
+                    label: Some("[a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Burgertime (1982)(Mattel)(NTSC)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

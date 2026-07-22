@@ -1,0 +1,469 @@
+(
+    title: "Freeway",
+    developer: Some("David Crane"),
+    description: Some("David Crane\'s Activision classic: guide your chicken up across ten lanes of freeway traffic, scoring a point for each crossing while the two-minute clock runs down — get hit by a vehicle and you\'re knocked back down the lanes. One or two players."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Freeway_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/freeway.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/500DC2925E8D7002112B223B5AA55243F89E278C",
+    ],
+    mods: [
+        (
+            name: "Bloody Human Freeway (PAL conversion)",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("feb0d05f4f9203d6f4df01095cebacae9ad3f42f"),
+                    artifacts: [
+                        (
+                            sha1: "0da7fb4ac7648c8e1014121f0542f45ed247a355",
+                            verified: [
+                                (
+                                    method: Signature(
+                                        database: "Hasheous",
+                                        entry: "Bloody Human Freeway (1981)(Activision)(PAL)(proto)[f PAL].bin",
+                                    ),
+                                    date: "2026-07-22",
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Boring Freeway",
+            category: ContentChange,
+            author: Some("Charles Morgan"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("91cc7e5cd6c0d4a6f42ed66353b7ee7bb972fa3f"),
+                    artifacts: [
+                        (
+                            sha1: "8d9daeec0ee154dee75d70f571335abc44c7430f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Don\'t Get Hit!",
+            category: ContentChange,
+            author: Some("vb Master"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("91cc7e5cd6c0d4a6f42ed66353b7ee7bb972fa3f"),
+                    artifacts: [
+                        (
+                            sha1: "1073907bccda2225ebbe6687d11eda63c29bdf29",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "E.T. Phone Home",
+            category: ContentChange,
+            author: Some("MayDay"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("91cc7e5cd6c0d4a6f42ed66353b7ee7bb972fa3f"),
+                    artifacts: [
+                        (
+                            sha1: "5f42e164c1b1831e1cc21143d461455ff8357d67",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Bloodbath",
+            category: ContentChange,
+            author: Some("Tim Martin"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("feb0d05f4f9203d6f4df01095cebacae9ad3f42f"),
+                    artifacts: [
+                        (
+                            sha1: "a9df03a6d301a5706c92a5454f77afde4f35918a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Bloody Chicken Road",
+            category: ContentChange,
+            author: Some("cosmosiss"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("feb0d05f4f9203d6f4df01095cebacae9ad3f42f"),
+                    artifacts: [
+                        (
+                            sha1: "82f3334b1267f099062e476d7cadd22be4f463b7",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Bobby Is Going Home 2",
+            category: ContentChange,
+            author: Some("Codyr783"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("feb0d05f4f9203d6f4df01095cebacae9ad3f42f"),
+                    artifacts: [
+                        (
+                            sha1: "93457572d5c892f7e147c14674e8698ce5ad1544",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "91cc7e5cd6c0d4a6f42ed66353b7ee7bb972fa3f",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(Activision)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "68e429f37887efcc2d509943df4589a3467c346f",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(Activision)(NTSC)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "131b2b4f9d2e1594009989a73235594c3e6f6851",
+                    label: Some("[o][a] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(Activision)(NTSC)[o][a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "65192f51a271ecbdd0168c9d24ac3b8d64d63f49",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(Activision)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "a7aaed14ff652d07ea7344c7ed2802c62048ce0c",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(Activision)(PAL)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "02f90d614a2a4480a77dfc5fc1a60c1eca5a8272",
+                    label: Some("[o][a] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(Activision)(PAL)[o][a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "c664cf8d210e5c9395de21af57f2ff3373387f07",
+                    label: Some("unidentified [?]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "37535b791a63c3e35d04ea0d14c0215680d71eda",
+                    label: Some("32-in-1 (Freeway Chicken)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "32-in-1 - 18 - Freeway Chicken (1988)(Atari)(PAL)[aka Freeway].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "48e69087591fe54380117f2c2ab74f8d65ffe977",
+                    label: Some("32-in-1 (Freeway Chicken) [o]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "32-in-1 - 18 - Freeway Chicken (1988)(Atari)(PAL)[o][aka Freeway].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "292156b1ad05bbcb9749ded787801841d6beed0d",
+                    label: Some("32-in-1 (Freeway Rabbit)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "32-in-1 - 10 - Freeway Rabbit (1988)(Atari)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "4a3c0a569e6735d255cd7df16b3e3428ba01ef7c",
+                    label: Some("32-in-1 (Freeway Rabbit) [o]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "32-in-1 - 10 - Freeway Rabbit (1988)(Atari)(PAL)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            title: Some("Bloody Human Freeway"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "feb0d05f4f9203d6f4df01095cebacae9ad3f42f",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bloody Human Freeway (1981)(Activision)(NTSC)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1981"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a02e9b750b5da8ee28958a3831675db9b70e72e",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(CCE)(NTSC)(BR).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "6f6ae684fc09806be4ebbfd694bd4880cf28e789",
+                    label: Some("[o] (overdump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(CCE)(NTSC)(BR)[o].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1981"),
+            publisher: Some("Dactar"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7ee724f0f8df862e510e4bad6c027dca0e4900d",
+                    label: Some("[p] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(Dactar)(NTSC)[p].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "30813c691bacc27b18bdeeeb9fd57cd858a267b6",
+                    label: Some("[p] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (1981)(Dactar)(PAL)[p].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Canada,
+            ],
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "52eee69b08e7dc32e1732702a5fbf3ac8993f099",
+                    label: Some("[p] (bad dump)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (198x)(Zellers)(NTSC)(CA)[p].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Canal 3"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d9ca1a2f4b39c045a6c4f184d887668ed721936f",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Freeway (Canal 3 - Intellivision).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

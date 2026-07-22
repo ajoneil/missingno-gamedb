@@ -1,8 +1,29 @@
 (
-    title: "Bugs Bunny (08-04-1983)",
+    title: "Bugs Bunny",
+    developer: Some("Alan J. Murphy, Robert C. Polaro"),
+    description: Some("An unreleased Atari game starring Bugs Bunny: dodge Elmer Fudd\'s shotgun and dive into the hole a hound leaves after digging up each carrot, before Elmer draws a bead on you. Swipe the bullets from under Elmer\'s house to disable him and grab the glowing bonus carrots — but he only gets faster and quicker on the trigger."),
+    links: [
+        (
+            name: "AtariProtos — Bugs Bunny",
+            url: "http://www.atariprotos.com/2600/software/bugsbunny/bugsbunny.htm",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2BAB1D86A93E3B33EE60B3260111F8F694131C0F",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-08-04"),
             publisher: Some("Atari"),
             status: Prototype,
             hardware: (
@@ -12,9 +33,29 @@
             artifacts: [
                 (
                     sha1: "9c0e13af336a986c271fe828fafdca250afba647",
+                    label: Some("build 1983-08-04"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bugs Bunny (1983)(Atari)(NTSC)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "b3ff124891de0fb3d44c35115d838fd7e135ca04",
+                    label: Some("Proto 2 (later build)"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Bugs Bunny (USA) (Proto 2).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -1,7 +1,21 @@
 (
     title: "Berenstain Bears",
+    developer: Some("Coleco"),
+    description: Some("A Coleco children\'s game based on the Berenstain Bears books, part of the Kid Vid \"Talking Video Game\" line. It runs with the Kid Vid Voice Module, which plays synchronised audio cassettes to narrate letter, number and spelling activities for young players."),
+    covers: [
+        "https://hasheous.org/api/v1/images/3069ABB6E0D8761924AAAE19341DDC476AC8C334",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Coleco"),
             hardware: (
@@ -11,6 +25,15 @@
             artifacts: [
                 (
                     sha1: "c3afd7909b72b49ca7d4485465b622d5e55f8913",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Berenstain Bears (1983)(Coleco)(NTSC)[Requires Kid Vid Controller and Audio Tape Files].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

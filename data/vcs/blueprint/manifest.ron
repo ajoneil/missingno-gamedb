@@ -1,0 +1,148 @@
+(
+    title: "Blueprint",
+    developer: Some("Tom DiDomenico"),
+    description: Some("CBS Electronics\' port of the arcade game Blue Print, by Tom DiDomenico: dash between the houses of a maze gathering scattered machine parts, assemble them into a cannon, and blast the ogre chasing your girlfriend before he catches her."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Blue_Print_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/blue-print.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/089EE4FCA53846E00711E0FAD7E3A972DF87FED0",
+    ],
+    mods: [
+        (
+            name: "Blueprint Arcade",
+            category: ContentChange,
+            author: Some("Dr. Kwack"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("0fadef01ce28192880f745b23a5fbb64c5a96efe"),
+                    artifacts: [
+                        (
+                            sha1: "47b12ab6f90ad8192ebe6a7017c898ad9d68c883",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0fadef01ce28192880f745b23a5fbb64c5a96efe",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Blueprint (1983)(CBS Electronics)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1b7bdc477b5b8488fc1c5566ca910297dc81f488",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Blueprint (1983)(CBS Electronics)(PAL)[4L4171, 4L2477, 4L2482].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            status: Beta,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "15f85ec09e755d8be0924f349649d86e5fbd9c39",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Blueprint (USA) (Beta 1).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "66753a7fffaa432bdacdb18e7dcf0976e27d8abe",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Blueprint (1983)(CBS Electronics)(US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

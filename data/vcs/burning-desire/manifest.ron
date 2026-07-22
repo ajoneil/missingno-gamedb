@@ -1,7 +1,25 @@
 (
     title: "Burning Desire",
+    developer: Some("Joel H. Martin"),
+    description: Some("An unlicensed adult game for the 2600: the player flies a helicopter above a woman trapped in flames, dodging stones thrown by cannibals below, works to put the fire out, then lifts her clear. One of PlayAround\'s crude pornographic cartridges, made by gender-reversing the sprites of Mystique\'s earlier adult titles."),
+    links: [
+        (
+            name: "PlayAround (Wikipedia)",
+            url: "https://en.wikipedia.org/wiki/PlayAround",
+            link_type: Wiki,
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("PlayAround"),
             hardware: (
@@ -11,13 +29,26 @@
             artifacts: [
                 (
                     sha1: "6abefbfca9cb2d276435ab4db567266a486bfd7c",
+                    label: Some("unverified [?]"),
                 ),
                 (
                     sha1: "b233c37aa5164a54e2e7cc3dc621b331ddc6e55b",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Burning Desire (1982)(Playaround)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Mystique"),
             hardware: (
@@ -27,9 +58,19 @@
             artifacts: [
                 (
                     sha1: "e09eaff714a7eabf9a00dc22de720f944de86313",
+                    label: Some("unverified [?]"),
                 ),
                 (
                     sha1: "fcf8eeac23e146d20f93812ab5a9872045f95b52",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Burning Desire.a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
