@@ -238,6 +238,9 @@ pub enum ModCategory {
     Translation,
     QualityOfLife,
     ContentChange,
+    /// Makes the same game run on hardware or a region it otherwise wouldn't
+    /// (NTSC/PAL conversion, a bankswitch re-encoding) — no gameplay change.
+    Compatibility,
     TotalConversion,
 }
 

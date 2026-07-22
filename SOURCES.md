@@ -44,13 +44,17 @@ conflict to report, not a licence to restage the date.
 
 ## Cover art
 
-Remote URLs only — this database hosts no images. Take the image from the record
-of the dump actually meant: a hack's record carries the hack's art.
+Remote URLs only — the database stores a link, never the bytes; it hosts and
+redistributes no image. That is why third-party box art is fine here: pointing at
+a service's image is not republishing it. Take the image from the record of the
+dump actually meant: a hack's record carries the hack's art.
 
-1. Hasheous (`.../api/v1/images/<id>`) for commercial games — it exists to serve
-   frontends. Note it serves JPEG bytes under an `image/png` content type.
-2. libretro-thumbnails, then a Wikipedia article's box art (usually fair-use, not
-   free-licensed — worth noting when staged).
+1. Hasheous (`.../api/v1/images/<id>`) for commercial games — it is built to serve
+   emulator libraries, so it is the right primary source, not a fallback. Note it
+   serves JPEG bytes under an `image/png` content type.
+2. libretro-thumbnails when Hasheous has no image — also purpose-built for
+   frontends, keyed by No-Intro filename (article suffixed: `… , The (USA).png`).
+   A Wikipedia article's box art is a last resort (usually fair-use, worth noting).
 3. Homebrew and demoscene: the project's own canonical host (GitHub raw URLs, the
    pouet prod page).
 
