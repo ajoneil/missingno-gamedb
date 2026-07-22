@@ -1,0 +1,43 @@
+(
+    title: "Anguna",
+    developer: Some("Nathan Tolbert"),
+    description: Some("A 2600 demake of Nathan Tolbert\'s 2008 Game Boy Advance action-adventure: thrown into a monster prison, you fight your way out with a sword — gathering a bow, lantern and keys — then range across the land to hunt down the Goblin King. Beaten enemies level you up; the console\'s B/W switch flips to your inventory and map."),
+    links: [
+        (
+            name: "AtariAge release thread",
+            url: "https://forums.atariage.com/topic/252220-anguna-wip-homebrew-feedback-wanted/",
+            link_type: Source,
+        ),
+        (
+            name: "AtariAge Store",
+            url: "https://store.atariage.com/products/anguna-atari-2600",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B25CB4AEBE546D46B63B592758E1ED8A307DBC3C",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2016"),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "8bfbf3d404a15df315bf9c8bf0e5741ac1a42c96",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+    ],
+)

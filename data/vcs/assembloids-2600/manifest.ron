@@ -1,0 +1,56 @@
+(
+    title: "Assembloids 2600",
+    developer: Some("Martin Wendt"),
+    description: Some("A fast-paced 4K reaction puzzle: a coloured quarter-face keeps appearing in a central window, and you flick the joystick up, right, down or left to drop it onto an empty tile before the next one arrives. Complete whole faces to score — more when the colours match. Wendt\'s 2600 take on his Commodore 64 Assembloids."),
+    license: Some("Freeware"),
+    links: [
+        (
+            name: "AtariAge release thread",
+            url: "https://forums.atariage.com/topic/216403-new-game-assembloids-2600/",
+            link_type: Source,
+        ),
+        (
+            name: "AtariAge Store",
+            url: "https://store.atariage.com/products/assembloids-atari-2600",
+            link_type: Community,
+        ),
+        (
+            name: "Free ROM binaries — r9 NTSC+PAL (PriorArt Games)",
+            url: "https://priorartgames.eu/wp-content/uploads/2018/10/assembloids2600_r9.zip",
+            link_type: Download,
+        ),
+        (
+            name: "Assembloids 2600 binaries (PriorArt Games)",
+            url: "https://priorartgames.eu/2018/10/20/assembloids2600-binaries-for-free/",
+            link_type: DownloadPage,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7570D54853EC55D94A267B2540413111708D9D1D",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2018"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "46e789a5843d5ce002932fd05386c580f3aeb026",
+                    label: Some("r9"),
+                    size: Some(4096),
+                ),
+            ],
+        ),
+    ],
+)

@@ -18460,5 +18460,21 @@
             ],
             note: "NTSC (M Network) release only: it\'s the 8K variant of the E7 (M-Network) mapper (Stella auto-detects E7; ROM 8192 bytes), and missingno doesn\'t load it — E7 shows no picture, forcing F8/F8SC boots then freezes on the first E7 bank/RAM access. Looks like missingno\'s E7 support misses the 8K E7 variant. The Telegames PAL release is a different board (standard F8) and plays fine, so the game is reachable via that dump; the gap is specifically 8K E7 carts.",
         ),
+        (
+            id: 2888,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/atari-video-cube",
+            ],
+            note: "The Atari Anthology dump (ac141bb18cacc5d197ff4f9b5bef18683c989474, labelled \"Atari Anthology\" in the USA/NTSC release) renders with severe flashing and looks broken in missingno. The retail NTSC dump (d1563c24) renders correctly.",
+        ),
+        (
+            id: 2889,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/burgertime",
+            ],
+            note: "The PROPER 12K fan re-dump (54a44dc9b2145f40bb7398e7d031ea4c8d091afe, 12288 bytes) fails to load in missingno: \"failed to construct console from media\". The retail 16K E7 dumps load and play.",
+        ),
     ],
 )
