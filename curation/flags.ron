@@ -18404,5 +18404,13 @@
             ],
             note: "missingno does not emulate the Atari Kids Controller (keypad) that Alpha Beam with Ernie requires, so its retail and prototype dumps are unplayable in the emulator.",
         ),
+        (
+            id: 2881,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/artillery-duel",
+            ],
+            note: "In missingno, Artillery Duel produces no sound and its on-screen barrel/powder/wind readouts do not update as they should. Confirmed across all NTSC and PAL dumps, so it is not a tv_format/timing artefact.",
+        ),
     ],
 )

@@ -1,0 +1,91 @@
+(
+    title: "Astroblast",
+    description: Some("A fast fixed shooter, the home version of Mattel\'s Intellivision game Astrosmash. A laser base slides along the bottom of the screen and you blast a constant rain of falling objects — meteors of various sizes that split into smaller ones when hit, plus faster hazards — racking up points while never letting them reach you or the ground. The pace ramps up relentlessly the longer you survive."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/astroblast.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8FF25A376AE11630662A5EDD407106AACF0023CE",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "8e83fd77e198b27eb5b02a6dc02a5ab37b5a76bd",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Astroblast (1982)(Mattel)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+                (
+                    sha1: "b850bd72d18906d9684e1c7251cb699588cbcf64",
+                    label: Some("early [controller bugs]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Astroblast (1982)(Mattel)(NTSC)[Early Version - Controller Bugs].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "ab8af3c4e0d8858481f3e52b59b5040b18ceb4d7",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Astroblast (198x)(Telegames)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

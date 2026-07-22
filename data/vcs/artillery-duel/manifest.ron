@@ -1,7 +1,33 @@
 (
     title: "Artillery Duel",
+    developer: Some("Michael Schwartz"),
+    description: Some("A turn-based artillery duel across a mountainous landscape. Two cannons take turns lobbing shells at each other, and before each shot you set the barrel\'s angle and the powder charge and read the wind, then fire and watch where the shell lands — walking your aim onto the enemy gun over successive rounds. It can be played against the computer or a second person."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/artillery_duel.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Artillery_Duel",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8E6F15362D2B8ED7618F83C7750394EC3D2C6FA3",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Xonox"),
             hardware: (
@@ -11,14 +37,60 @@
             artifacts: [
                 (
                     sha1: "8c249e9eaa83fc6be16039f05ec304efdf987beb",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Artillery Duel (1983)(Xonox)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
-                    sha1: "eb27866f2af80d9f2e047cfbd88d59e042f08bc4",
+                    sha1: "8b51a97b3a28686db6f1fcd7ae07580258608346",
+                    label: Some("alt [a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Artillery Duel (1983)(Xonox)(NTSC)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
+            publisher: Some("Xonox"),
+            hardware: (
+                tv_format: Some(Pal60),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "013142aa1338d132724876c1d55a322a1d049380",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Artillery Duel (1983)(Xonox)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
             publisher: Some("Xonox"),
             hardware: (
                 tv_format: Some(Pal),
@@ -26,7 +98,17 @@
             ),
             artifacts: [
                 (
-                    sha1: "013142aa1338d132724876c1d55a322a1d049380",
+                    sha1: "eb27866f2af80d9f2e047cfbd88d59e042f08bc4",
+                    label: Some("alt [a]"),
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Artillery Duel (1983)(Xonox)(PAL)[a].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

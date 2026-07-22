@@ -1,5 +1,23 @@
 (
-    title: "Angry Video Game Nerd K.O. Boxing (Aftermarket) (Unl)",
+    title: "Angry Video Game Nerd K.O. Boxing",
+    developer: Some("Devin Cook"),
+    description: Some("A homebrew boxing game in the Punch-Out mould, pitting you against the cast of James Rolfe\'s Angry Video Game Nerd web series — the Nerd himself, Bugs Bunny, the Joker, Jason and others, up to a final bout with the Super Nerd. Each opponent has its own attack patterns you have to read and block, since a solid defence is what opens the window to counterpunch. It is a sequel to the same author\'s K.O. Cruiser."),
+    links: [
+        (
+            name: "AtariAge (homebrew thread)",
+            url: "https://forums.atariage.com/topic/149089-angry-video-game-nerd-ko-boxing/",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/941C8B7C1719B2BA8A55FFB4E53027EC08F464B8",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
             date: Some("2009"),
@@ -11,9 +29,37 @@
             artifacts: [
                 (
                     sha1: "bbcac5c5b2384ab6aa83574e6b9486c4b60822d4",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Angry Video Game Nerd K.O. Boxing (2009-09-06)(Devin)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
+            ],
+        ),
+        (
+            date: Some("2009"),
+            publisher: Some("Devin Cook"),
+            hardware: (
+                tv_format: Some(Pal60),
+                cart_type: Some("F4"),
+            ),
+            artifacts: [
                 (
                     sha1: "f723b83145bd43e2fb4767e35bcb25958c8b2d03",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Angry Video Game Nerd K.O. Boxing (2009-09-06)(Devin)(PAL60).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

@@ -1,0 +1,75 @@
+(
+    title: "Atari Video Cube",
+    developer: Some("Doug Macrae"),
+    description: Some("A Rubik\'s Cube-style puzzle. You guide Hubie the Cube Master hopping across the faces of a scrambled cube, picking up a coloured square and setting it down elsewhere to sort each face into a single colour — but he can\'t step onto a square the same colour as the one he\'s carrying, so working out the order of moves is the whole puzzle. The game counts your moves and rewards efficient solutions, across cubes that grow from a Pocket Cube up to a Rubik\'s Revenge."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Atari_Video_Cube",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (PDF)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/atari_video_cube.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/EF36DA0F2FEEEDC0982A80C82CC99576848372B4",
+    ],
+    mods: [
+        (
+            name: "Atari Video Cube (Supercharger conversion)",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("d1563c24208766cf8d28de7af995021a9f89d7e1"),
+                    artifacts: [
+                        (
+                            sha1: "3fcebcbff39423bef7070ff386da6a8c4e3eb37b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d345e2ea04c218882b1878e18173e97e918be6a",
+                    label: Some("unidentified [?]"),
+                ),
+                (
+                    sha1: "d1563c24208766cf8d28de7af995021a9f89d7e1",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Atari Video Cube (1982)(Atari)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

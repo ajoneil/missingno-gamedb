@@ -1,0 +1,71 @@
+(
+    title: "Astrowar",
+    description: Some("A fast space shooter. You blast a steady stream of cosmic hazards descending on you — shooting stars, enemy craft, spinning bombs and space creatures — while dodging them, and the pace quickens the higher your score climbs."),
+    covers: [
+        "https://hasheous.org/api/v1/images/158EB1947C360203EBE1F14999604881E6B39859",
+    ],
+    mods: [
+        (
+            name: "Unnamed hack of Astrowar",
+            category: ContentChange,
+            author: Some("Charles F. Gray"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("b6f01797e3e8d80f4e33da73e64aa2935af96038"),
+                    artifacts: [
+                        (
+                            sha1: "d6eeff2c1f73f8f4e32e3686c07aed1cd93bea0a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Taiwan Cooper"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b6f01797e3e8d80f4e33da73e64aa2935af96038",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Astro War (19xx)(-)(NTSC)[\'Taiwan Cooper\'].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eca0764f26168424633b620a9ff9b274b236135f",
+                ),
+            ],
+        ),
+    ],
+)
