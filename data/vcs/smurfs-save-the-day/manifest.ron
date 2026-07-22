@@ -7,6 +7,10 @@
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
+                controllers: [
+                    Joystick,
+                    KidVid,
+                ],
             ),
             artifacts: [
                 (
