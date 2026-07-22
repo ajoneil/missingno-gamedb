@@ -1,7 +1,33 @@
 (
     title: "I Want My Mommy",
+    description: Some("The player guides a teddy bear, Teddy, up a six-storey tower — rising not by jumping but by stepping into teleporter beams that carry him from one floor to the next. The first stage is a climb to reach an apple, the second to reach mommy at the top, while monsters patrol the floors; you can bait them by starting up a teleporter and dropping back down. The goal is to clear both stages as fast as you can."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/i_want_my_mommy.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/I_Want_My_Mommy",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/libretro-thumbnails/Atari_-_2600/master/Named_Boxarts/I%20Want%20My%20Mommy%20(USA).png",
+        "https://hasheous.org/api/v1/images/BCAB98CDBEEED1761E16395D6B2E6DF9EDB87B34",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("ZiMAG"),
             hardware: (
@@ -11,6 +37,40 @@
             artifacts: [
                 (
                     sha1: "f7e782214b5f9227e34c00f590be50534f1fda91",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "I Want My Mommy.bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            title: Some("Apples and Dolls"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "62e92508cf43acc28bff8b03a197137d56a5df79",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Apples and Dolls (19xx)(CCE)(NTSC)(BR)[aka Open, Sesame!].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

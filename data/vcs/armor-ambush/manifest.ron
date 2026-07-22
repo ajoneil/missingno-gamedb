@@ -1,7 +1,33 @@
 (
     title: "Armor Ambush",
+    developer: Some("Hal Finney"),
+    description: Some("A two-player tank duel, ported from Mattel\'s Intellivision game Armor Battle. Each player commands a pair of tanks — switching between the two on command — and fights across a fresh, randomly generated battlefield every round, where forest, water and natural barriers slow or block movement. Pulling down while firing lays a mine that stays live for the rest of the battle and destroys any tank that rolls over it. There is no computer opponent, so it takes two players."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Armor_Ambush",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/armor_ambush.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D66AB0F89A3F8C0A1CF47510B8F4909CA8983A42",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (
@@ -11,10 +37,22 @@
             artifacts: [
                 (
                     sha1: "9b6a54969240baf64928118741c3affee148d721",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Armor Ambush (1982)(Mattel)(NTSC).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1988"),
             publisher: Some("Telegames"),
             hardware: (
@@ -24,6 +62,15 @@
             artifacts: [
                 (
                     sha1: "6122220c8fbf42fdf0437073ebe2407d6f875a40",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Armor Ambush (1982)(Telegames)(PAL).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

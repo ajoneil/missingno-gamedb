@@ -1,9 +1,31 @@
 (
-    title: "Aquaventure (Proto) (1983-08-12)",
+    title: "Aquaventure",
+    developer: Some("Gary Shannon, Tod Frye"),
+    description: Some("An unreleased underwater treasure hunt. You dive to the bottom of a scrolling undersea cavern to grab a fabulous treasure, then have to swim all the way back up and reach a mermaid on the first screen before your air supply runs out — fending off sea creatures with a spear gun along the way."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/aquaventure/aquaventure.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/libretro-thumbnails/Atari_-_2600/master/Named_Boxarts/Aquaventure%20(USA)%20(Proto).png",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-08-12"),
             publisher: Some("Atari"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
@@ -11,9 +33,39 @@
             artifacts: [
                 (
                     sha1: "7d132ab776ff755b86bf4f204165aa54e9e1f1cf",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Aquaventure 8-12 (1983-08-12)(Atari)(NTSC)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
                 (
                     sha1: "cb400de2653e125e704abd8b0fe5dddb43e3438b",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Aquaventure (198x)(CCE)(NTSC)(BR).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

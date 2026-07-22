@@ -1,0 +1,116 @@
+(
+    title: "Skindiver",
+    developer: Some("Bit Corporation"),
+    description: Some("An underwater diving game over two stages. First you guide a diver and pick off fish one at a time with your spear for points, while a 60-second oxygen supply counts down at the bottom of the screen — and you must time your rises so a fish is never directly beneath you, or it catches you. Surviving that lets you enter a sunken ship to gather treasure chests, now dodging three sea monsters and the wreck\'s obstacles before your air runs out."),
+    covers: [
+        "https://raw.githubusercontent.com/libretro-thumbnails/Atari_-_2600/master/Named_Boxarts/Skindiver%20(Europe).png",
+        "https://hasheous.org/api/v1/images/7F71478154625B301D26B8AE884E8B3F7F277D52",
+    ],
+    mods: [
+        (
+            name: "Cyplix",
+            category: ContentChange,
+            author: Some("Charles F. Gray"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("a86bf5762c4766c4de00b49b29d0df9a7ee417e0"),
+                    artifacts: [
+                        (
+                            sha1: "aa80931b7f8b40378453871ce7208cc9ffad0454",
+                        ),
+                        (
+                            sha1: "30592dfff115bf9d5363e41537cb0bf36cfb6e1e",
+                            label: Some("PAL"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Worstix",
+            category: ContentChange,
+            author: Some("Fabventure2600"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("a86bf5762c4766c4de00b49b29d0df9a7ee417e0"),
+                    artifacts: [
+                        (
+                            sha1: "9a82569731656db14399a89d7cbbecab7657e8d2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "S.I.Plix",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("a86bf5762c4766c4de00b49b29d0df9a7ee417e0"),
+                    artifacts: [
+                        (
+                            sha1: "4d8384301f3e0b7d187b2e4236940812a4561395",
+                        ),
+                        (
+                            sha1: "3dfd5395d9e4b7c55f6bc591201f6882a7f22ef2",
+                            label: Some("PAL"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Bi! Bi! 292 Scanlines",
+            category: ContentChange,
+            author: Some("Zach Matley"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("a86bf5762c4766c4de00b49b29d0df9a7ee417e0"),
+                    artifacts: [
+                        (
+                            sha1: "168b89b16c4b829d630b545bdcc534338bcfcdbb",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Sancho"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a86bf5762c4766c4de00b49b29d0df9a7ee417e0",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Skindiver.a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+)

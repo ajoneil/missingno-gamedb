@@ -1,7 +1,30 @@
 (
     title: "M.A.D.",
+    description: Some("A Missile Command-style defence game. Your photon cannon sits at the bottom centre of the screen flanked by six energy stations, and enemy missiles stream in horizontally across the sky; when one turns white it dives for your base, and you must shoot it down before it lands. A two-player mode is unusual: one player works the cannon while the other steers some of the attackers, and the two swap roles after each round."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mad.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/libretro-thumbnails/Atari_-_2600/master/Named_Boxarts/M.A.D.%20(USA).png",
+        "https://hasheous.org/api/v1/images/0741E26C57C6B39415E94DE4E127F5BDA81F1BDA",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("U.S. Games"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,13 +32,26 @@
             artifacts: [
                 (
                     sha1: "3e3d004c33de7ed3ecf1a38e79118c1a47a98381",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "d6e2b7765a9d30f91c9b2b8d0adf61ec5dc2b30a",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "M.A.D. (USA).a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
         (
+            regions: [
+                France,
+            ],
             date: Some("1983"),
             publisher: Some("Carrere Video"),
             hardware: (
@@ -25,6 +61,41 @@
             artifacts: [
                 (
                     sha1: "86df578e913485089d9b3b3e7384076b53a98450",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "M.A.D. (1982) (Carrere Video) (PAL) [!].a26",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            title: Some("Angriff der Luftflotten"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ac58ac94ceab78725a1182cc7b907376c011b0c8",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Angriff der Luftflotten (198x)(Quelle)(PAL)(DE)[aka Paris Attack, aka M.A.D.][495.463 2, 746381].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

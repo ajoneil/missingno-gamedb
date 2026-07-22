@@ -1,7 +1,32 @@
 (
     title: "Amidar",
+    description: Some("A port of Konami\'s arcade maze game. You move around a fixed grid of rectangles, and — alternating by level between a paint-roller and a coin-collecting gorilla — you colour in the lines: trace all four sides of a rectangle to fill it, and fill every rectangle to clear the board. Enemies patrol in the fixed up-and-down \"Amidar\" pattern; the jump button makes them all hop so you can slip underneath, and painting the four corners briefly lets you touch them away."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/amidar.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Amidar",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0D4479401A3F5EA43DFEA5B9FD47FD60689C4683",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Parker Brothers"),
             hardware: (
@@ -11,17 +36,31 @@
             artifacts: [
                 (
                     sha1: "1500b33f5f1ff80926b6271212b73c8d81604a5a",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "b89a5ac6593e83fbebee1fe7d4cec81a7032c544",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Amidar (1982)(Parker Bros)(NTSC)[PB5310].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
                 (
                     sha1: "c9eb5557a2cce4d1dc0cee98f51104e191e348d8",
+                    label: Some("unidentified [?]"),
                 ),
             ],
         ),
         (
-            date: Some("1982"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
             publisher: Some("Parker Brothers"),
             hardware: (
                 tv_format: Some(Pal),
@@ -30,9 +69,19 @@
             artifacts: [
                 (
                     sha1: "5f778b1086b297707d83b17a073f97f51f4eec6d",
+                    label: Some("unidentified [?]"),
                 ),
                 (
                     sha1: "fb9bba6556fc45904dac8750fa18155e6196b2c0",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "Amidar (1983)(Parker Bros)(PAL)[931504].bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),

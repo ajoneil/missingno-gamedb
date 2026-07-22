@@ -1,7 +1,28 @@
 (
     title: "AndroMan on the Moon",
+    developer: Some("Michael Case"),
+    description: Some("An unreleased game built around the AndroMan robot — a small white robot that trundled across a floor mat while you played. On screen you lead AndroMan through underground mine mazes, dodging aliens and dropping time bombs, then pilot down a 3-D tunnel past swarming Moon Bats before heading home with the minerals you have dug out."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/androman/androman.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0C28A3D79AA5AB596A7AE9A1FF13ABE32D847C4E",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-22",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Androbot"),
             status: Prototype,
@@ -12,6 +33,15 @@
             artifacts: [
                 (
                     sha1: "3d3623fa0d87ea02f2a080d959a127223e757b3f",
+                    verified: [
+                        (
+                            method: Signature(
+                                database: "Hasheous",
+                                entry: "AndroMan on the Moon (1984)(Androbot)(US)(proto).bin",
+                            ),
+                            date: "2026-07-22",
+                        ),
+                    ],
                 ),
             ],
         ),
