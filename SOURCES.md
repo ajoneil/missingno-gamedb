@@ -76,6 +76,9 @@ dump actually meant: a hack's record carries the hack's art.
    serves JPEG bytes under an `image/png` content type.
 2. libretro-thumbnails when Hasheous has no image — also purpose-built for
    frontends, keyed by No-Intro filename (article suffixed: `… , The (USA).png`).
+   Link their own host, `thumbnails.libretro.com/<system>/Named_Boxarts/<name>.png`
+   (URL-encode spaces AND apostrophes: `%20`, `%27`), not raw.githubusercontent —
+   the GitHub raw path is coupled to the repo's branch layout.
    A Wikipedia article's box art is a last resort (usually fair-use, worth noting).
 3. Homebrew and demoscene: the project's own canonical host (GitHub raw URLs, the
    pouet prod page).
