@@ -2,6 +2,18 @@
     title: "King’s Korner",
     developer: Some("Harold Toler"),
     description: Some("After writing Klondike, I had almost everything needed for this game, so I went ahead and wrote it in a few hours.  It is harder to win than it first seems.  Please send *ANY* comments or suggestions to my email address."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kings-korner/KingsKorner.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kings-korner",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kings-korner/20110402_kings_korner.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kings-korner/20110402_kings_korner.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "kings-korner",
-                    filename: "KingsKorner.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

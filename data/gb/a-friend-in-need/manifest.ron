@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/AFriendinNeed_rom_v1.1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/a-friend-in-need",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/cover.jpg",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-friend-in-need/2B2FT2Bgn.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "a-friend-in-need",
-                    filename: "AFriendinNeed_rom_v1.1.gb",
-                ),
-                Itch(
-                    url: "https://gorzylla.itch.io/a-friend-in-need",
-                ),
-            ],
-        ),
+        (),
     ],
 )

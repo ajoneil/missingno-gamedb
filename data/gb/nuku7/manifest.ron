@@ -1,6 +1,18 @@
 (
     title: "Nuku7",
     developer: Some("Megaman_X"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nuku7/NUKU7.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nuku7",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nuku7/nuku7.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "nuku7",
-                    filename: "NUKU7.GB",
-                ),
-            ],
         ),
     ],
 )

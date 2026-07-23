@@ -1,5 +1,17 @@
 (
     title: "Staydown",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/staydown/staydown.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/staydown",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/staydown/staydown.png",
     ],
@@ -7,13 +19,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/staydown/staydown.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "staydown",
-                    filename: "staydown.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Death Planet",
     developer: Some("Mackerel Interactive"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/death-planet/deathplanet.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/death-planet",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/death-planet/deathplanet.png",
     ],
@@ -10,15 +22,6 @@
     releases: [
         (
             date: Some("2019-08-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "death-planet",
-                    filename: "deathplanet.gb",
-                ),
-                Itch(
-                    url: "https://makrill.itch.io/death-planet",
-                ),
-            ],
         ),
     ],
 )

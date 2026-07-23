@@ -1,6 +1,18 @@
 (
     title: "Menu #2 (Lucky Luke: Desperado Train +6)",
     developer: Some("Capital"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-capital/cpl-t_02.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-2-capital",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-capital/212.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-2-capital",
-                    filename: "cpl-t_02.gbc",
-                ),
-            ],
         ),
     ],
 )

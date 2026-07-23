@@ -1,6 +1,18 @@
 (
     title: "KOLOBOK ZOOM 2",
     developer: Some("FreeArt"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kolobok-zoom-2/KOLOBOK ZOOM 2 (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kolobok-zoom-2",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kolobok-zoom-2/KOLOBOK ZOOM 2 (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-11-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "kolobok-zoom-2",
-                    filename: "KOLOBOK ZOOM 2 (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

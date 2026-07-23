@@ -3,6 +3,16 @@
     developer: Some("tepples"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nosuchthing/nosuchthing.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nosuchthing",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://forums.nesdev.org/viewtopic.php?t=21162",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2020-11-04"),
-            sources: [
-                HomebrewHub(
-                    slug: "nosuchthing",
-                    filename: "nosuchthing.gb",
-                ),
-            ],
         ),
     ],
 )

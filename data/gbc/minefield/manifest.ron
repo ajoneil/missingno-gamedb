@@ -5,6 +5,18 @@
         "Action",
         "event:liksang2000-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/minefield/Minefield.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/minefield",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/minefield/20110402_minefield.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2000-04-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "minefield",
-                    filename: "Minefield.cgb",
-                ),
-            ],
         ),
     ],
 )

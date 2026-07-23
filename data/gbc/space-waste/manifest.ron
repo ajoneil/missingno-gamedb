@@ -1,6 +1,18 @@
 (
     title: "Space Waste",
     developer: Some("Octarine"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/oct-spw.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/space-waste",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-waste/12.png",
     ],
@@ -19,12 +31,6 @@
     releases: [
         (
             date: Some("2003-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "space-waste",
-                    filename: "oct-spw.gbc",
-                ),
-            ],
         ),
     ],
 )

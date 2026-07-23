@@ -1,7 +1,33 @@
 (
     title: "Condor Attack",
+    description: Some("A fixed shooter in the Space Invaders mould: waves of condors descend the screen while you slide beneath them, picking birds out of the flock before they reach you. Ultravision\'s original (serial 1043) travelled far under other people\'s flags — K-Tel Vision sold it in Canada as Vulture Attack, and pirate labels across Europe and Taiwan retitled it Galactic, among a dozen recorded names."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/pgesoft.awp?soft=7418",
+            link_type: Community,
+        ),
+        (
+            name: "Atarimania (versions)",
+            url: "https://www.atarimania.com/game-vulture-attack_s10689.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C4E3BFF97D7C0C5DAE5344C5395291D68D48B869",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            title: Some("Vulture Attack"),
+            regions: [
+                Canada,
+            ],
             date: Some("1982"),
             publisher: Some("K-Tel Vision"),
             hardware: (
@@ -11,9 +37,11 @@
             artifacts: [
                 (
                     sha1: "2ebd0f43ee76833f75759ac1bbb45a8e0c3b86e9",
+                    label: Some("bad dump [b]"),
                 ),
                 (
                     sha1: "b83ae33ce3b764f90baa0a5bb78020eb8a36d427",
+                    label: Some("alt"),
                 ),
             ],
         ),
@@ -27,12 +55,64 @@
             artifacts: [
                 (
                     sha1: "05dede1debc04fb1c81a8d940e32ac08e85af29b",
+                    label: Some("alt"),
                 ),
+            ],
+        ),
+        (
+            title: Some("Galactic"),
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c24551fcc2cff769c122fe0f4089e8bb4a77eaa2",
+                    label: Some("alt [a]"),
+                ),
+                (
+                    sha1: "3eee4439082dc93f9e4d79c419faa432f280617f",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("High-Score Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "c1930d130bdf668f3c0b4f026a980328eeb00482",
                 ),
+            ],
+        ),
+        (
+            title: Some("Galactic"),
+            publisher: Some("Funvision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "e19de12bde02958dc57e254b0fe917b390f5f944",
+                    label: Some("pirate [p]"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Galactic"),
+            publisher: Some("Starsoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5117b08e2709261b0eed41bdac65713a073b9048",
                 ),
             ],
         ),

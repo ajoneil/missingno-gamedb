@@ -1,6 +1,18 @@
 (
     title: "Little Fantasy",
     developer: Some("Tomas Rychnovsky"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/little-fantasy/LittleFantasy.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/little-fantasy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/little-fantasy/20110402_little_fantasy.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-08-20"),
-            sources: [
-                HomebrewHub(
-                    slug: "little-fantasy",
-                    filename: "LittleFantasy.cgb",
-                ),
-            ],
         ),
     ],
 )

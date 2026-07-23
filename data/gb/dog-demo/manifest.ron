@@ -1,6 +1,18 @@
 (
     title: "Dog Demo",
     developer: Some("Michael Ross"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dog-demo/Dog_Demo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dog-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dog-demo/Dog_Demo-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-03-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "dog-demo",
-                    filename: "Dog_Demo.gb",
-                ),
-            ],
         ),
     ],
 )

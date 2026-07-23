@@ -6,6 +6,18 @@
         "RPG",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/buddy-book-battle/Buddy_Book_Battle.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/buddy-book-battle",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/buddy-book-battle/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/buddy-book-battle/eNXyj8.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "buddy-book-battle",
-                    filename: "Buddy_Book_Battle.gb",
-                ),
-                Itch(
-                    url: "https://bownly.itch.io/buddy-book-battle",
-                ),
-            ],
-        ),
+        (),
     ],
 )

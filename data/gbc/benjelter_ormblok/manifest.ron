@@ -13,6 +13,18 @@
         "Puzzle",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/OrmBlok_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/benjelter_ormblok",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/cover.png",
     ],
@@ -24,16 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/benjelter_ormblok/screenshots/ljhefK.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "benjelter_ormblok",
-                    filename: "OrmBlok_jam.gbc",
-                ),
-                Itch(
-                    url: "https://benjelter.itch.io/ormblok",
-                ),
-            ],
-        ),
+        (),
     ],
 )

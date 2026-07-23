@@ -1,6 +1,18 @@
 (
     title: "Run!!",
     developer: Some("Monetai"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/run/run.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/run",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/run/run.png",
     ],
@@ -10,13 +22,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/run/run-3.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "run",
-                    filename: "run.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

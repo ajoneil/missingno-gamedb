@@ -1,6 +1,18 @@
 (
     title: "Atop The Witch\'s Tower GB",
     developer: Some("John Thyer, asie"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/atop-the-witchs-tower-gb/atwt_v1.1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/atop-the-witchs-tower-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/atop-the-witchs-tower-gb/f5anHT.png",
     ],
@@ -11,15 +23,6 @@
     releases: [
         (
             date: Some("2022-08-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "atop-the-witchs-tower-gb",
-                    filename: "atwt_v1.1.gb",
-                ),
-                Itch(
-                    url: "https://asie.itch.io/atop-the-witchs-tower-gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Hyper Cat",
     developer: Some("Andrew G. Crowell"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hyper-cat/hypercat.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hyper-cat",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hyper-cat/hypercat.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hyper-cat/hypercat.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "hyper-cat",
-                    filename: "hypercat.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

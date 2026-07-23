@@ -1,6 +1,18 @@
 (
     title: "UCBN",
     developer: Some("8 Cylinder"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ucbn/ucbn.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ucbn",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ucbn/ucbn.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ucbn/ucbn.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ucbn",
-                    filename: "ucbn.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

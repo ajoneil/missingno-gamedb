@@ -5,6 +5,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cook-simburgerking/cook.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cook-simburgerking",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cook-simburgerking/20110402_cook_(simburgerking).png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2001-09-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "cook-simburgerking",
-                    filename: "cook.gbc",
-                ),
-            ],
         ),
     ],
 )

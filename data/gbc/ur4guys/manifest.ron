@@ -6,6 +6,18 @@
         "Arcade",
         "Action",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/ur4guys.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ur4guys",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ur4guys/1.png",
     ],
@@ -20,12 +32,6 @@
     releases: [
         (
             date: Some("2026-06-10"),
-            sources: [
-                HomebrewHub(
-                    slug: "ur4guys",
-                    filename: "ur4guys.gbc",
-                ),
-            ],
         ),
     ],
 )

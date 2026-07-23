@@ -8,6 +8,18 @@
         "Platformer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/billgamesh_gilgamesh-enkidu-and-the-netherworld/Enkidu_jam-CORRECTED.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/billgamesh_gilgamesh-enkidu-and-the-netherworld",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/billgamesh_gilgamesh-enkidu-and-the-netherworld/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/billgamesh_gilgamesh-enkidu-and-the-netherworld/screenshots/weyc12.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "billgamesh_gilgamesh-enkidu-and-the-netherworld",
-                    filename: "Enkidu_jam-CORRECTED.gbc",
-                ),
-                Itch(
-                    url: "https://billgamesh.itch.io/gilgamesh-enkidu-and-the-netherworld",
-                ),
-            ],
-        ),
+        (),
     ],
 )

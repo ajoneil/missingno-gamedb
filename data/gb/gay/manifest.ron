@@ -1,6 +1,18 @@
 (
     title: "Gay",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gay/GAY.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gay",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gay/20110402_gay.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gay/20110402_gay.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gay",
-                    filename: "GAY.GB",
-                ),
-            ],
-        ),
+        (),
     ],
 )

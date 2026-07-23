@@ -9,6 +9,18 @@
         "Music",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/DJ Techno Monkey!_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/daisanpo27_deejay-techno-monkey",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/cover.png",
     ],
@@ -26,16 +38,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/daisanpo27_deejay-techno-monkey/screenshots/D2FmQBh.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "daisanpo27_deejay-techno-monkey",
-                    filename: "DJ Techno Monkey!_jam.gbc",
-                ),
-                Itch(
-                    url: "https://daisanpo27.itch.io/deejay-techno-monkey",
-                ),
-            ],
-        ),
+        (),
     ],
 )

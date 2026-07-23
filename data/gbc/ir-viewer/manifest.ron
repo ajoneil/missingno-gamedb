@@ -1,5 +1,17 @@
 (
     title: "IR-Viewer",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ir-viewer/IR-Viewer (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ir-viewer",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ir-viewer/IR-Viewer (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2000-03-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "ir-viewer",
-                    filename: "IR-Viewer (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

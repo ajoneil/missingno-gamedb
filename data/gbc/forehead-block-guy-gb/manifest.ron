@@ -3,6 +3,16 @@
     developer: Some("NovaSquirrel"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/forehead-block-guy-gb/fhbg.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/forehead-block-guy-gb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://github.com/NovaSquirrel/GameBoyFHBG",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2019-02-08"),
-            sources: [
-                HomebrewHub(
-                    slug: "forehead-block-guy-gb",
-                    filename: "fhbg.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Titty Twister (Tonka Construction Site +6)",
     developer: Some("Phantasy"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pht-gbc-01/pht-t_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pht-gbc-01",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pht-gbc-01/84.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2003-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "pht-gbc-01",
-                    filename: "pht-t_01.gbc",
-                ),
-            ],
         ),
     ],
 )

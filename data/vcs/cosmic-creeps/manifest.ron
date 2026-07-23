@@ -1,7 +1,27 @@
 (
     title: "Cosmic Creeps",
+    description: Some("Played in two acts under a doomsday clock: first pilot an Orbinaut from the decaying planet through red plasma and Space Skeeters to the space station\'s flashing portals — every Orbinaut lost drops the planet a notch, and twelve notches is oblivion. Reaching the station starts the rescue proper: take control of it and save the Cosmic Kids before their world falls out of orbit."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/cosmic_creeps.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A9F889D1832383DAD2B62A5B3C14B68357429379",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Telesys"),
             hardware: (
@@ -12,9 +32,16 @@
                 (
                     sha1: "22ff281b1e698e8a5d7a6f6173c86c46d3cd8561",
                 ),
+                (
+                    sha1: "c49604a13a021f7250c5f01494052234adf15859",
+                    label: Some("alt [a]"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Telesys"),
             hardware: (
@@ -27,6 +54,7 @@
                 ),
                 (
                     sha1: "eb992e41c626c223b7d422117196270ebd0a7070",
+                    label: Some("pirate [p]"),
                 ),
             ],
         ),

@@ -1,6 +1,18 @@
 (
     title: "Menu #1 (Montezuma\'s Return +6)",
     developer: Some("Zizero"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-zizero/zz-t_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-1-zizero",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-zizero/220.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-1-zizero",
-                    filename: "zz-t_01.gbc",
-                ),
-            ],
         ),
     ],
 )

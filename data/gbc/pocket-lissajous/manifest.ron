@@ -1,6 +1,18 @@
 (
     title: "Pocket Lissajous",
     developer: Some("Joker"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-lissajous/pocket_lissajous.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pocket-lissajous",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-lissajous/pocket-lissajous.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-lissajous/pocket-lissajous.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pocket-lissajous",
-                    filename: "pocket_lissajous.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

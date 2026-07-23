@@ -8,6 +8,18 @@
         "Sci-fi",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/spicyfuse_god-destroyer-2/GD2 music Player.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/spicyfuse_god-destroyer-2",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/spicyfuse_god-destroyer-2/cover.png",
     ],
@@ -24,16 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/spicyfuse_god-destroyer-2/screenshots/P1gjl7.jpeg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "spicyfuse_god-destroyer-2",
-                    filename: "GD2 music Player.gbc",
-                ),
-                Itch(
-                    url: "https://spicyfuse.itch.io/god-destroyer-2",
-                ),
-            ],
-        ),
+        (),
     ],
 )

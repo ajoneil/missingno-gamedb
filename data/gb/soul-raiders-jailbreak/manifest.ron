@@ -1,6 +1,18 @@
 (
     title: "Soul Raiders: Jailbreak",
     developer: Some("Team KwaKwa"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/soul-raiders-jailbreak/soul-raiders-jailbreak.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/soul-raiders-jailbreak",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/soul-raiders-jailbreak/soul-raiders-jailbreak.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/soul-raiders-jailbreak/soul-raiders-jailbreak.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "soul-raiders-jailbreak",
-                    filename: "soul-raiders-jailbreak.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

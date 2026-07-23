@@ -13,6 +13,18 @@
         "Cute",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lightlytoasteddave_heartsheroes/HEARTS&HEROES_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lightlytoasteddave_heartsheroes",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lightlytoasteddave_heartsheroes/cover.png",
     ],
@@ -27,16 +39,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lightlytoasteddave_heartsheroes/screenshots/6EJ1sw.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "lightlytoasteddave_heartsheroes",
-                    filename: "HEARTS&HEROES_jam.gb",
-                ),
-                Itch(
-                    url: "https://lightlytoasteddave.itch.io/heartsheroes",
-                ),
-            ],
-        ),
+        (),
     ],
 )

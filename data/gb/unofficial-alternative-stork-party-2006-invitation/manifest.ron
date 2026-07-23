@@ -1,6 +1,18 @@
 (
     title: "Unofficial Alternative Stork Party 2006 Invitation",
     developer: Some("Jumalauta"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/unofficial-alternative-stork-party-2006-invitation/jml-stor.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/unofficial-alternative-stork-party-2006-invitation",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/unofficial-alternative-stork-party-2006-invitation/291.png",
     ],
@@ -12,12 +24,6 @@
     releases: [
         (
             date: Some("2006-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "unofficial-alternative-stork-party-2006-invitation",
-                    filename: "jml-stor.gb",
-                ),
-            ],
         ),
     ],
 )

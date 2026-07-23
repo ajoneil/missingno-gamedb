@@ -6,6 +6,18 @@
         "Visual Novel",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/one-day/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/one-day",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/one-day/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/one-day/P9WaEE.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "one-day",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://vrkitten.itch.io/one-day",
-                ),
-            ],
-        ),
+        (),
     ],
 )

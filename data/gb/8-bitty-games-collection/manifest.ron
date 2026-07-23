@@ -1,6 +1,18 @@
 (
     title: "8 Bitty Games Collection",
     developer: Some("Patchwork Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/8-bitty-games-collection/8-bitty-games-collection.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/8-bitty-games-collection",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/8-bitty-games-collection/8-bitty-games-collection.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/8-bitty-games-collection/8-bitty-games-collection.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "8-bitty-games-collection",
-                    filename: "8-bitty-games-collection.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

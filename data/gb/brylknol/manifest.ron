@@ -1,6 +1,18 @@
 (
     title: "brylknöl",
     developer: Some("xinux"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/brylknol/brylknol.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/brylknol",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/brylknol/brylknol.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2023-05-20"),
-            sources: [
-                HomebrewHub(
-                    slug: "brylknol",
-                    filename: "brylknol.gb",
-                ),
-            ],
         ),
     ],
 )

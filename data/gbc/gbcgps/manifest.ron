@@ -5,6 +5,16 @@
     license: Some("MIT"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcgps/gb-gps.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbcgps",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_gpse.html",
             link_type: Wiki,
@@ -22,13 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcgps/gb-gps.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gbcgps",
-                    filename: "gb-gps.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

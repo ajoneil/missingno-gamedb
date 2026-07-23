@@ -6,6 +6,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/seating-chart/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/seating-chart",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/seating-chart/cover.png",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/seating-chart/4FBRZP.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "seating-chart",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://tylerlombard.itch.io/seating-chart",
-                ),
-            ],
-        ),
+        (),
     ],
 )

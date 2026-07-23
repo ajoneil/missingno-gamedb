@@ -3,6 +3,16 @@
     developer: Some("Max Gerckens"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hitorigb/hitori.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hitorigb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://github.com/MGerckens/HitoriGB",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2021-11-20"),
-            sources: [
-                HomebrewHub(
-                    slug: "hitorigb",
-                    filename: "hitori.gb",
-                ),
-            ],
         ),
     ],
 )

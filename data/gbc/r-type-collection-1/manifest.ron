@@ -1,6 +1,18 @@
 (
     title: "R-Type Collection +1",
     developer: Some("Eurasia"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/r-type-collection-1/r-type-collection-1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/r-type-collection-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/r-type-collection-1/r-type-collection-1.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/r-type-collection-1/r-type-collection-1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "r-type-collection-1",
-                    filename: "r-type-collection-1.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

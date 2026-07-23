@@ -9,6 +9,18 @@
         "Platformer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nahu64_ninja-castle/NINJACASTLE_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nahu64_ninja-castle",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nahu64_ninja-castle/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nahu64_ninja-castle/screenshots/t2aDO2F.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "nahu64_ninja-castle",
-                    filename: "NINJACASTLE_jam.gb",
-                ),
-                Itch(
-                    url: "https://nahu64.itch.io/ninja-castle",
-                ),
-            ],
-        ),
+        (),
     ],
 )

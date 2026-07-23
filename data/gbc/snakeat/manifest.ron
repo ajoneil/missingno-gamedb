@@ -1,6 +1,18 @@
 (
     title: "SnakEat",
     developer: Some("Patriek Lesparre"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/snakeat/SnakEat.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/snakeat",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snakeat/20110402_snakeat.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snakeat/20110402_snakeat.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "snakeat",
-                    filename: "SnakEat.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

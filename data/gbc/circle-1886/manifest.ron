@@ -1,6 +1,18 @@
 (
     title: "Circle 1886",
     developer: Some("Carillon Cyberiad"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/circle-1886/CNCD_CIRCLE1886.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/circle-1886",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/circle-1886/47.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "circle-1886",
-                    filename: "CNCD_CIRCLE1886.gbc",
-                ),
-            ],
         ),
     ],
 )

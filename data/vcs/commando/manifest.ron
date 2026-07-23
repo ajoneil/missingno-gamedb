@@ -1,7 +1,32 @@
 (
     title: "Commando",
+    description: Some("Activision\'s late-era port of Capcom\'s run-and-gun: as Super Joe you push up the battlefield with an endless assault rifle and a pocketful of grenades, the throwables clearing obstacles and knots of enemies that the rifle cannot. One of the last big-label Activision carts for the 2600, arriving in 1988 well after the arcade original."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Commando_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/commando.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/88EE6AD892BFCBEB46E969885A178E2E5859AED4",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1988"),
             publisher: Some("Activision"),
             hardware: (
@@ -15,19 +40,9 @@
             ],
         ),
         (
-            date: Some("1984"),
-            publisher: Some("Edu Games"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F8"),
-            ),
-            artifacts: [
-                (
-                    sha1: "eaa4bed3159a688a9873fd73c9efafa171c92aa4",
-                ),
+            regions: [
+                Europe,
             ],
-        ),
-        (
             date: Some("1988"),
             publisher: Some("Activision"),
             hardware: (
@@ -37,6 +52,20 @@
             artifacts: [
                 (
                     sha1: "de4a12036650577b544c2fc091b981f18f771e34",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e47de0536a874a500bd6586eb6ec819e14b47f12",
+                    label: Some("alt [a] (different logo)"),
                 ),
             ],
         ),

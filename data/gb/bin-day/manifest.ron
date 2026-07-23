@@ -5,6 +5,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bin-day/BinDay.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bin-day",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bin-day/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bin-day/gva8Dx.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "bin-day",
-                    filename: "BinDay.gb",
-                ),
-                Itch(
-                    url: "https://sjd-sjd.itch.io/bin-day",
-                ),
-            ],
-        ),
+        (),
     ],
 )

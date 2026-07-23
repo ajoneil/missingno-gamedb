@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/friendswitch.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friend-switch",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/cover.png",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-switch/T4xGoY.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "friend-switch",
-                    filename: "friendswitch.gb",
-                ),
-                Itch(
-                    url: "https://kicdogames.itch.io/friend-switch",
-                ),
-            ],
-        ),
+        (),
     ],
 )

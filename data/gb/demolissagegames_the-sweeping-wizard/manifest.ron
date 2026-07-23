@@ -14,6 +14,18 @@
         "gbdk",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/demolissagegames_the-sweeping-wizard/TheSweepingWizard_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/demolissagegames_the-sweeping-wizard",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/demolissagegames_the-sweeping-wizard/cover.png",
     ],
@@ -24,16 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/demolissagegames_the-sweeping-wizard/screenshots/tAXe9d.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "demolissagegames_the-sweeping-wizard",
-                    filename: "TheSweepingWizard_jam.gb",
-                ),
-                Itch(
-                    url: "https://demolissagegames.itch.io/the-sweeping-wizard",
-                ),
-            ],
-        ),
+        (),
     ],
 )

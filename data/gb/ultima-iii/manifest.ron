@@ -1,6 +1,18 @@
 (
     title: "Ultima III",
     developer: Some("Sven Carlberg"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ultima-iii/ult3.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ultima-iii",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ultima-iii/ultima3.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-04-19"),
-            sources: [
-                HomebrewHub(
-                    slug: "ultima-iii",
-                    filename: "ult3.gb",
-                ),
-            ],
         ),
     ],
 )

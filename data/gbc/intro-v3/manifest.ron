@@ -1,6 +1,18 @@
 (
     title: "Intro v3",
     developer: Some("Freeart"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-v3/FREEART Intro V3.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/intro-v3",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-v3/219.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "intro-v3",
-                    filename: "FREEART Intro V3.gbc",
-                ),
-            ],
         ),
     ],
 )

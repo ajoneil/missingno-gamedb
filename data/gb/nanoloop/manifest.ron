@@ -1,6 +1,18 @@
 (
     title: "Nanoloop",
     developer: Some("Oliver Wittchow"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nanoloop/nanoloop.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nanoloop",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nanoloop/nanoloop.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nanoloop/nanoloop.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "nanoloop",
-                    filename: "nanoloop.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

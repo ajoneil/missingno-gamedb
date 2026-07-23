@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lawnmower/Lawnmower.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lawnmower",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lawnmower/20110402_lawnmower.png",
     ],
@@ -11,13 +23,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lawnmower/20110402_lawnmower.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "lawnmower",
-                    filename: "Lawnmower.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

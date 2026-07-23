@@ -1,5 +1,17 @@
 (
     title: "Rotating Face Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rotating-face-demo/Rotating Face Demo (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rotating-face-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rotating-face-demo/Rotating Face Demo (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2000-08-17"),
-            sources: [
-                HomebrewHub(
-                    slug: "rotating-face-demo",
-                    filename: "Rotating Face Demo (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -13,6 +13,18 @@
         "Puzzle",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/Soko Penguin GB_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bbb-studio_sokopenguin-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/cover.png",
     ],
@@ -32,16 +44,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bbb-studio_sokopenguin-gb/screenshots/DpOR2FQ.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "bbb-studio_sokopenguin-gb",
-                    filename: "Soko Penguin GB_jam.gb",
-                ),
-                Itch(
-                    url: "https://bbb-studio.itch.io/sokopenguin-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

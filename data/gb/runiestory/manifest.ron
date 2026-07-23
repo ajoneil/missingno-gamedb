@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/RunieStory.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/runiestory",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/cover.gif",
     ],
@@ -22,16 +34,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/runiestory/2B2FKAYY.jpeg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "runiestory",
-                    filename: "RunieStory.gb",
-                ),
-                Itch(
-                    url: "https://spicyfuse.itch.io/runiestory",
-                ),
-            ],
-        ),
+        (),
     ],
 )

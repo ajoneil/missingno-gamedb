@@ -1,6 +1,18 @@
 (
     title: "VCaldan",
     developer: Some("Julio Lemos"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/vcaldan/VCALDAN.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/vcaldan",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/vcaldan/VCALDAN-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-08-12"),
-            sources: [
-                HomebrewHub(
-                    slug: "vcaldan",
-                    filename: "VCALDAN.GB",
-                ),
-            ],
         ),
     ],
 )

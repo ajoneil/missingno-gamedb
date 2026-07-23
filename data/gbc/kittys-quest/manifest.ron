@@ -1,6 +1,18 @@
 (
     title: "Kittys Quest",
     developer: Some("Shen Mansell"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kittys-quest/kquest.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kittys-quest",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kittys-quest/kittyquest.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-03-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "kittys-quest",
-                    filename: "kquest.gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -5,6 +5,18 @@
         "gbbasic",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tonywang_gbb-reversi/Reversi_gbcompo25_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tonywang_gbb-reversi",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tonywang_gbb-reversi/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tonywang_gbb-reversi/screenshots/2B7w26s.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tonywang_gbb-reversi",
-                    filename: "Reversi_gbcompo25_jam.gb",
-                ),
-                Itch(
-                    url: "https://tonywang.itch.io/gbb-reversi",
-                ),
-            ],
-        ),
+        (),
     ],
 )

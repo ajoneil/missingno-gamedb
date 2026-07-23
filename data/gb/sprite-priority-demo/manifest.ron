@@ -1,6 +1,18 @@
 (
     title: "Sprite Priority Demo",
     developer: Some("Pascal Felber"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sprite-priority-demo/SPRITE.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sprite-priority-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sprite-priority-demo/SPRITE.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1997-05-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "sprite-priority-demo",
-                    filename: "SPRITE.GB",
-                ),
-            ],
         ),
     ],
 )

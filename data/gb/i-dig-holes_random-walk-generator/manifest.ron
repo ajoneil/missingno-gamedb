@@ -7,6 +7,18 @@
         "gb-studio",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/i-dig-holes_random-walk-generator/RWG_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/i-dig-holes_random-walk-generator",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/i-dig-holes_random-walk-generator/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/i-dig-holes_random-walk-generator/screenshots/NJowEx.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "i-dig-holes_random-walk-generator",
-                    filename: "RWG_jam.gb",
-                ),
-                Itch(
-                    url: "https://i-dig-holes.itch.io/random-walk-generator",
-                ),
-            ],
-        ),
+        (),
     ],
 )

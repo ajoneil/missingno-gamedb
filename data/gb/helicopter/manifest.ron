@@ -1,6 +1,18 @@
 (
     title: "Helicopter",
     developer: Some("hayley"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/helicopter/helicopter.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/helicopter",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/helicopter/helicopter.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/helicopter/helicopter.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "helicopter",
-                    filename: "helicopter.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

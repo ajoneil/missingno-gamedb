@@ -6,6 +6,18 @@
         "Adventure",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/labymon/Labymon.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/labymon",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/labymon/20110402_labymon.png",
     ],
@@ -13,13 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/labymon/20110402_labymon.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "labymon",
-                    filename: "Labymon.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

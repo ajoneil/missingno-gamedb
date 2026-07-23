@@ -1,6 +1,18 @@
 (
     title: "DrawCircles (Version 1.1.0)",
     developer: Some("DeltaGardner"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/drawcircles-version-110/drawcircles.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/drawcircles-version-110",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/drawcircles-version-110/drawcircles.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/drawcircles-version-110/drawcircles.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "drawcircles-version-110",
-                    filename: "drawcircles.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

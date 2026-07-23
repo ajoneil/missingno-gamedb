@@ -6,6 +6,18 @@
         "Virtual Pet",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/byjustasix_pilot/herogotchi-pilot_care.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/byjustasix_pilot",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/byjustasix_pilot/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/byjustasix_pilot/screenshots/aHjinF.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "byjustasix_pilot",
-                    filename: "herogotchi-pilot_care.gb",
-                ),
-                Itch(
-                    url: "https://byjustasix.itch.io/pilot",
-                ),
-            ],
-        ),
+        (),
     ],
 )

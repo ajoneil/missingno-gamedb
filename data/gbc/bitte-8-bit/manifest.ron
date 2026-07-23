@@ -1,6 +1,18 @@
 (
     title: "Bitte 8 Bit",
     developer: Some("Hitmen"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bitte-8-bit/8bit.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bitte-8-bit",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bitte-8-bit/108.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "bitte-8-bit",
-                    filename: "8bit.gb",
-                ),
-            ],
         ),
     ],
 )

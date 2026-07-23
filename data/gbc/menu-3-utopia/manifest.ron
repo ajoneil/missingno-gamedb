@@ -1,6 +1,18 @@
 (
     title: "Menu #3 (Donkey Kong GB +1)",
     developer: Some("Utopia"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-3-utopia/UTP-T_03.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-3-utopia",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-3-utopia/276.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-3-utopia",
-                    filename: "UTP-T_03.GBC",
-                ),
-            ],
         ),
     ],
 )

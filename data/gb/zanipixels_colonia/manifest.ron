@@ -8,6 +8,18 @@
         "Retro",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/COLONIA_JAM.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/zanipixels_colonia",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/cover.png",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/zanipixels_colonia/screenshots/z2FOy2FN.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "zanipixels_colonia",
-                    filename: "COLONIA_JAM.gb",
-                ),
-                Itch(
-                    url: "https://zanipixels.itch.io/colonia",
-                ),
-            ],
-        ),
+        (),
     ],
 )

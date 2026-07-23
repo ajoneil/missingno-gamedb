@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/libbet/libbet.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/libbet",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/pinobatch/libbet",
             link_type: Source,
@@ -21,12 +31,6 @@
     releases: [
         (
             date: Some("2018-10-16"),
-            sources: [
-                HomebrewHub(
-                    slug: "libbet",
-                    filename: "libbet.gb",
-                ),
-            ],
         ),
     ],
 )

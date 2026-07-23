@@ -1,6 +1,18 @@
 (
     title: "Yo-grl Makes a Demo",
     developer: Some("Proxima"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/yo-grl-makes-a-demo/yo-grl-makes-a-demo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/yo-grl-makes-a-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/yo-grl-makes-a-demo/yo-grl-makes-a-demo.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/yo-grl-makes-a-demo/yo-grl-makes-a-demo.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "yo-grl-makes-a-demo",
-                    filename: "yo-grl-makes-a-demo.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

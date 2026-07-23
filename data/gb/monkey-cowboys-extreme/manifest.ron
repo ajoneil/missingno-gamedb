@@ -1,6 +1,18 @@
 (
     title: "Monkey Cowboys Extreme",
     developer: Some("Jumalauta"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/monkey-cowboys-extreme/jml-mce.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/monkey-cowboys-extreme",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/monkey-cowboys-extreme/295.png",
     ],
@@ -17,12 +29,6 @@
     releases: [
         (
             date: Some("2006-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "monkey-cowboys-extreme",
-                    filename: "jml-mce.gb",
-                ),
-            ],
         ),
     ],
 )

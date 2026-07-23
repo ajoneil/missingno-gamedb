@@ -2,6 +2,18 @@
     title: "Quadrop v0.93",
     developer: Some("Dave VanEe"),
     description: Some("This game was made as an entry for the game portion of the PDRoms Coding Competition."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/quadrop-v0-93/quadrop.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/quadrop-v0-93",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/quadrop-v0-93/20110402_quadrop.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2003-11-02"),
-            sources: [
-                HomebrewHub(
-                    slug: "quadrop-v0-93",
-                    filename: "quadrop.gbc",
-                ),
-            ],
         ),
     ],
 )

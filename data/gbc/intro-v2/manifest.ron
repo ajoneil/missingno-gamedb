@@ -1,15 +1,21 @@
 (
     title: "Intro v2",
     developer: Some("Freeart"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-v2/FREEART Intro V2.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/intro-v2",
+            link_type: DownloadPage,
+        ),
+    ],
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "intro-v2",
-                    filename: "FREEART Intro V2.gbc",
-                ),
-            ],
         ),
     ],
 )

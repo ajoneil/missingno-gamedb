@@ -1,6 +1,18 @@
 (
     title: "Air Traffic Controller",
     developer: Some("Graham Pickard"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/air-traffic-controller/AirTrafficController.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/air-traffic-controller",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/air-traffic-controller/20110402_air_traffic_controller.jpg",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/air-traffic-controller/20110402_air_traffic_controller.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "air-traffic-controller",
-                    filename: "AirTrafficController.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

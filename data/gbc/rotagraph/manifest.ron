@@ -1,6 +1,18 @@
 (
     title: "Rotagraph",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rotagraph/Rotagraph.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rotagraph",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rotagraph/20110402_rotagraph.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rotagraph/20110402_rotagraph.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rotagraph",
-                    filename: "Rotagraph.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

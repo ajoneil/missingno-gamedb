@@ -5,6 +5,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pakus/PAKUS.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pakus",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pakus/20110402_pakus.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pakus/20110402_pakus.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pakus",
-                    filename: "PAKUS.GBC",
-                ),
-            ],
-        ),
+        (),
     ],
 )

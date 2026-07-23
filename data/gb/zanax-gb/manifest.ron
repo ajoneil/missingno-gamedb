@@ -3,6 +3,16 @@
     developer: Some("sankichi"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/zanax-gb/Z_TEST5.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/zanax-gb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://www.angelfire.com/pokemon/gamelover/gbdk.html",
             link_type: Wiki,
@@ -18,12 +28,6 @@
     releases: [
         (
             date: Some("2001-05-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "zanax-gb",
-                    filename: "Z_TEST5.GB",
-                ),
-            ],
         ),
     ],
 )

@@ -3,6 +3,16 @@
     developer: Some("tepples"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hello-tepples/hello.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hello-tepples",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://forums.nesdev.org/viewtopic.php?t=17174",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2018-05-12"),
-            sources: [
-                HomebrewHub(
-                    slug: "hello-tepples",
-                    filename: "hello.gb",
-                ),
-            ],
         ),
     ],
 )

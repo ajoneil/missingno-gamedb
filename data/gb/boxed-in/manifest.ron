@@ -6,6 +6,18 @@
         "RPG",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/Boxed_In.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/boxed-in",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/boxed-in/bBfcaa.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "boxed-in",
-                    filename: "Boxed_In.gb",
-                ),
-                Itch(
-                    url: "https://developer0.itch.io/boxed-in",
-                ),
-            ],
-        ),
+        (),
     ],
 )

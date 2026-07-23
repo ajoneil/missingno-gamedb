@@ -1,6 +1,18 @@
 (
     title: "Level 1 - Battle Lava & Ultrasyd Game Boy EP",
     developer: Some("Battle Lava"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/level-1-battle-lava-ultrasyd-game-boy-ep/level-1-battle-lava-ultrasyd-game-boy-ep.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/level-1-battle-lava-ultrasyd-game-boy-ep",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/level-1-battle-lava-ultrasyd-game-boy-ep/level-1-battle-lava-ultrasyd-game-boy-ep.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2009"),
-            sources: [
-                HomebrewHub(
-                    slug: "level-1-battle-lava-ultrasyd-game-boy-ep",
-                    filename: "level-1-battle-lava-ultrasyd-game-boy-ep.gb",
-                ),
-            ],
         ),
     ],
 )

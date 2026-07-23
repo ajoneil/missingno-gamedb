@@ -9,6 +9,18 @@
         "Homebrew",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/OPERATIONFOLLOWTHROUGH_Jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/stormplay_operation-followthrough",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/cover.png",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/stormplay_operation-followthrough/screenshots/ccDwb1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "stormplay_operation-followthrough",
-                    filename: "OPERATIONFOLLOWTHROUGH_Jam.gb",
-                ),
-                Itch(
-                    url: "https://stormplay.itch.io/operation-followthrough",
-                ),
-            ],
-        ),
+        (),
     ],
 )

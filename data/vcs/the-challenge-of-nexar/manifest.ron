@@ -1,0 +1,66 @@
+(
+    title: "The Challenge of.... NEXAR",
+    description: Some("A crosshair shooter set inside a space warp of ninety-nine levels: on each one you must blast every radioactive beacon before the clock empties, while the impact-exploding saucers guarding them close in. The crosshair marks your own position, so standing still means collision — each one costs a shield, and the difficulty switches set whether you carry three or five and what running out of time forfeits."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/nexar.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B0D53AAA1FFA97EBDFA9390693FD5DB0358774A6",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4a6bbd96f2c805cda13238486c828379257c5a44",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "9eb28d00384f8a2cac44a5add24afa4c0229d926",
+                    label: Some("alt 2"),
+                ),
+                (
+                    sha1: "ac9b0c62ba0ca7a975d08fabbbc7c7448ecdf18d",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "15ed5f1533256816980e0f315d1d1a5a43b3d5aa",
+                ),
+                (
+                    sha1: "c7c9ca986e76b5222ee976a7603d4ccf870014fc",
+                    label: Some("pirate [p]"),
+                ),
+            ],
+        ),
+    ],
+)

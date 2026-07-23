@@ -1,6 +1,18 @@
 (
     title: "Drum Tech Free Version",
     developer: Some("Pixel8"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/drum-tech-free-version/drum-tech-free-version.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/drum-tech-free-version",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/drum-tech-free-version/drum-tech-free-version.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/drum-tech-free-version/drum-tech-free-version.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "drum-tech-free-version",
-                    filename: "drum-tech-free-version.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,5 +1,20 @@
 (
     title: "Colors",
+    kind: Test,
+    description: Some("An internal Atari diagnostic, never released: it fills the screen with colour charts so programmers converting games from NTSC to PAL could check how hues survived the trip. The PAL prototype cart surfaced from Atari\'s archives, and a lightly revised build appeared decades later as a bonus curio on the 2004 Atari Anthology compilation."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-colors_19786.html",
+            link_type: Community,
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
             date: Some("1980"),
@@ -12,6 +27,18 @@
             artifacts: [
                 (
                     sha1: "33db3151c8ad794eeb7bdf23c415b923f9839a93",
+                ),
+            ],
+        ),
+        (
+            title: Some("Colours"),
+            label: Some("Atari Anthology"),
+            date: Some("2004"),
+            publisher: Some("Atari"),
+            artifacts: [
+                (
+                    sha1: "fbdc0cd86c15653bba0c7a220ffe5db6a771e76c",
+                    size: Some(2048),
                 ),
             ],
         ),

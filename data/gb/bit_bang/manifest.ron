@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bit_bang/bit_bang.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bit_bang",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/StudioGuma/bit_bang",
             link_type: Source,
@@ -23,15 +33,6 @@
     releases: [
         (
             date: Some("2024-06-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "bit_bang",
-                    filename: "bit_bang.gb",
-                ),
-                Itch(
-                    url: "https://studioguma.itch.io/bit-bang",
-                ),
-            ],
         ),
     ],
 )

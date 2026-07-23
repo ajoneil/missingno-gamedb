@@ -7,6 +7,18 @@
         "Female Protagonist",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/timespacewarrior_temporal-lightprelude-to-hyperion/prelude to hyperion-standard version_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/timespacewarrior_temporal-lightprelude-to-hyperion",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/timespacewarrior_temporal-lightprelude-to-hyperion/cover.png",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/timespacewarrior_temporal-lightprelude-to-hyperion/screenshots/TJkeLx.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "timespacewarrior_temporal-lightprelude-to-hyperion",
-                    filename: "prelude to hyperion-standard version_jam.gb",
-                ),
-                Itch(
-                    url: "https://timespacewarrior.itch.io/temporal-lightprelude-to-hyperion",
-                ),
-            ],
-        ),
+        (),
     ],
 )

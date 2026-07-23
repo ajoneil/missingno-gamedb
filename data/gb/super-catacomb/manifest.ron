@@ -1,6 +1,18 @@
 (
     title: "Super Catacomb",
     developer: Some("Trangram Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/super-catacomb/catacomb.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/super-catacomb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/super-catacomb/catacomb.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/super-catacomb/catacomb.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "super-catacomb",
-                    filename: "catacomb.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

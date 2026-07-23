@@ -5,6 +5,18 @@
         "Adventure",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/duux/Duux.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/duux",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/duux/20110402_duux.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/duux/20110402_duux.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "duux",
-                    filename: "Duux.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

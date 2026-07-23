@@ -1,6 +1,18 @@
 (
     title: "Joshua Wise\'s Demo",
     developer: Some("Joshua Wise"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/joshua-wise-demo/Joshua Wise\'s Demo (Quang2000) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/joshua-wise-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/joshua-wise-demo/Joshua Wise\'s Demo (Quang2000) (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-08-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "joshua-wise-demo",
-                    filename: "Joshua Wise\'s Demo (Quang2000) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

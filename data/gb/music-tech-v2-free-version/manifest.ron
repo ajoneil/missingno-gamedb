@@ -1,6 +1,18 @@
 (
     title: "Music Tech V2 Free Version",
     developer: Some("Pixel8"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/music-tech-v2-free-version/music-tech-v2-free-version.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/music-tech-v2-free-version",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/music-tech-v2-free-version/music-tech-v2-free-version.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/music-tech-v2-free-version/music-tech-v2-free-version.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "music-tech-v2-free-version",
-                    filename: "music-tech-v2-free-version.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

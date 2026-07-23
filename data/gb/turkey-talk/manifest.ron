@@ -3,6 +3,16 @@
     developer: Some("jobalisk"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/turkey-talk/turkeytalk.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/turkey-talk",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://www.eternitywarestudios.xyz/download.html",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2018-03-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "turkey-talk",
-                    filename: "turkeytalk.gb",
-                ),
-            ],
         ),
     ],
 )

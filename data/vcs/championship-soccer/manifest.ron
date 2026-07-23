@@ -1,0 +1,77 @@
+(
+    title: "Championship Soccer",
+    description: Some("Four-a-side soccer — a forward, two defenders and a goalkeeper per team — steered by joystick, with 54 variations spanning single-player and head-to-head play at different speeds, match lengths and goal widths. Endorsed by Pelé late in development, it was reissued under picture labels as Pelé\'s Soccer, while Sears\' Tele-Games line sold it plainly as Soccer."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/peles_championship_soccer.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pel%C3%A9%27s_Soccer",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5962AE47C2EAD7A081EE193CC1466360FD49D31E",
+    ],
+    mods: [
+        (
+            name: "Unnamed 32-in-1 multicart hack of Championship Soccer",
+            category: Compatibility,
+            releases: [
+                (
+                    artifacts: [
+                        (
+                            sha1: "48b2127419d436b5902c7011af3cfcc56fdbfedf",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "832283530f5dee332f29cf8c4854dd554f2030a0",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1981"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "02b013daa8d910fb5fada352dfae76bb95906fd6",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "c887ceedc2216f1b403df8c449c89b08334ff2f6",
+                ),
+            ],
+        ),
+    ],
+)

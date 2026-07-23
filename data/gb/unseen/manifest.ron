@@ -1,6 +1,18 @@
 (
     title: "Unseen",
     developer: Some("Refresh Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/unseen/onehourtwo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/unseen",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/unseen/onehourtwo.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/unseen/onehourtwo.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "unseen",
-                    filename: "onehourtwo.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

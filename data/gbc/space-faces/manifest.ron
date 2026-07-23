@@ -1,6 +1,18 @@
 (
     title: "Space Faces",
     developer: Some("Cuchipandi Technologies"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/space-faces/SpaceFaces.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/space-faces",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-faces/20110402_space_faces.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-faces/20110402_space_faces.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "space-faces",
-                    filename: "SpaceFaces.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

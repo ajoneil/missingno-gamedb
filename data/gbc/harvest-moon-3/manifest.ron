@@ -1,6 +1,18 @@
 (
     title: "Harvest Moon 3",
     developer: Some("Quartex"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/harvest-moon-3/harvest-moon-3.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/harvest-moon-3",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/harvest-moon-3/harvest-moon-3.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-11-03"),
-            sources: [
-                HomebrewHub(
-                    slug: "harvest-moon-3",
-                    filename: "harvest-moon-3.gbc",
-                ),
-            ],
         ),
     ],
 )

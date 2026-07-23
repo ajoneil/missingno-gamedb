@@ -7,6 +7,18 @@
         "Adventure",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tizummo_piranesian/Piranesian.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tizummo_piranesian",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tizummo_piranesian/cover.jpg",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tizummo_piranesian/screenshots/cH2Fdfo.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tizummo_piranesian",
-                    filename: "Piranesian.gb",
-                ),
-                Itch(
-                    url: "https://tizummo.itch.io/piranesian",
-                ),
-            ],
-        ),
+        (),
     ],
 )

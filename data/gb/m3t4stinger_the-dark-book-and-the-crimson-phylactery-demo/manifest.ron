@@ -7,17 +7,19 @@
         "Role Playing",
         "event:gbcompo25",
     ],
-    releases: [
+    links: [
         (
-            sources: [
-                HomebrewHub(
-                    slug: "m3t4stinger_the-dark-book-and-the-crimson-phylactery-demo",
-                    filename: "The Dark Book and The Crimson Phylactery_Jam.gb",
-                ),
-                Itch(
-                    url: "https://m3t4stinger.itch.io/the-dark-book-and-the-crimson-phylactery-demo",
-                ),
-            ],
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/m3t4stinger_the-dark-book-and-the-crimson-phylactery-demo/The Dark Book and The Crimson Phylactery_Jam.gb",
+            link_type: Download,
         ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/m3t4stinger_the-dark-book-and-the-crimson-phylactery-demo",
+            link_type: DownloadPage,
+        ),
+    ],
+    releases: [
+        (),
     ],
 )

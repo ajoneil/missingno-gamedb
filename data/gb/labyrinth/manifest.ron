@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/labyrinth/Labyrinth.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/labyrinth",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/labyrinth/20110402_labyrinth.png",
     ],
@@ -11,13 +23,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/labyrinth/20110402_labyrinth.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "labyrinth",
-                    filename: "Labyrinth.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

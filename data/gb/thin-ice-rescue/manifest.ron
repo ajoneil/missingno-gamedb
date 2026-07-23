@@ -1,6 +1,18 @@
 (
     title: "Thin Ice Rescue",
     developer: Some("snorpung"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/thin-ice-rescue/thin-ice-rescue.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/thin-ice-rescue",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/thin-ice-rescue/thin-ice-rescue.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/thin-ice-rescue/thin-ice-rescue.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "thin-ice-rescue",
-                    filename: "thin-ice-rescue.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

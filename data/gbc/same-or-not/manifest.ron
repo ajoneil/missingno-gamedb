@@ -1,6 +1,18 @@
 (
     title: "Same Or Not",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/same-or-not/SameOrNot.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/same-or-not",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/same-or-not/20110402_same_or_not.gif",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/same-or-not/20110402_same_or_not.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "same-or-not",
-                    filename: "SameOrNot.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

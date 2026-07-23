@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/brick-breaker-dx/BrickBreakerDX.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/brick-breaker-dx",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/brick-breaker-dx/20110402_brick_breaker_dx.png",
     ],
@@ -11,13 +23,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/brick-breaker-dx/20110402_brick_breaker_dx.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "brick-breaker-dx",
-                    filename: "BrickBreakerDX.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

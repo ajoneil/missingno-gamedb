@@ -10,6 +10,18 @@
         "Puzzle",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_wording/ReWording_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/eric-kenneth_wording",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_wording/cover.gif",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_wording/screenshots/7YeIIk.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "eric-kenneth_wording",
-                    filename: "ReWording_jam.gb",
-                ),
-                Itch(
-                    url: "https://eric-kenneth.itch.io/wording",
-                ),
-            ],
-        ),
+        (),
     ],
 )

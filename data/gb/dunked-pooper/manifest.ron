@@ -1,6 +1,18 @@
 (
     title: "Dunked Pooper",
     developer: Some("Matt Ripston"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dunked-pooper/pooper.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dunked-pooper",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dunked-pooper/drunken_pooper.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-02-16"),
-            sources: [
-                HomebrewHub(
-                    slug: "dunked-pooper",
-                    filename: "pooper.gb",
-                ),
-            ],
         ),
     ],
 )

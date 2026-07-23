@@ -1,6 +1,18 @@
 (
     title: "Fruits Field",
     developer: Some("Eiji Kako"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fruits-field/FRUIT.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fruits-field",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fruits-field/FRUIT-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-08-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "fruits-field",
-                    filename: "FRUIT.GB",
-                ),
-            ],
         ),
     ],
 )

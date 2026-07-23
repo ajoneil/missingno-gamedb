@@ -1,6 +1,18 @@
 (
     title: "C64 will never die (VIP)",
     developer: Some("Capital"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/c64-will-never-die/cpl-i_06.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/c64-will-never-die",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/c64-will-never-die/210.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "c64-will-never-die",
-                    filename: "cpl-i_06.gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -1,5 +1,17 @@
 (
     title: "Xmas 2016",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/xmas2016/XMAS2016PUBLICFULL.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/xmas2016",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/xmas2016/xmas2016.png",
     ],
@@ -7,13 +19,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/xmas2016/xmas2016.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "xmas2016",
-                    filename: "XMAS2016PUBLICFULL.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

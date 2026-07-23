@@ -1,6 +1,18 @@
 (
     title: "Pickpocket",
     developer: Some("Inka"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/inka-PP.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pickpocket",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pickpocket/74.png",
     ],
@@ -19,12 +31,6 @@
     releases: [
         (
             date: Some("2002-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "pickpocket",
-                    filename: "inka-PP.GBC",
-                ),
-            ],
         ),
     ],
 )

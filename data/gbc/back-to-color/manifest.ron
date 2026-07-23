@@ -1,6 +1,18 @@
 (
     title: "Back to Color",
     developer: Some("AntonioND"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/back-to-color/demo.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/back-to-color",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/back-to-color/682.png",
     ],
@@ -24,12 +36,6 @@
     releases: [
         (
             date: Some("2014-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "back-to-color",
-                    filename: "demo.gbc",
-                ),
-            ],
         ),
     ],
 )

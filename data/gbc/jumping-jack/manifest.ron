@@ -1,6 +1,18 @@
 (
     title: "Jumping Jack",
     developer: Some("Craig Rothwell"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jumping-jack/JumpingJack.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jumping-jack",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jumping-jack/20110402_jumping_jack.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jumping-jack/20110402_jumping_jack.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "jumping-jack",
-                    filename: "JumpingJack.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

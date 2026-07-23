@@ -2,6 +2,18 @@
     title: "FGB",
     developer: Some("PlasmaWorks"),
     description: Some("We invite you to experience the weird and wonderful action odyssey that is \'FGB.\' FGB is an unfinished action/adventure game on an epic scale for Game Boy Color. This is the final build of our unfinished action odyssey for Game Boy Color"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fgb/fgb.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fgb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fgb/fgb.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2001-05-15"),
-            sources: [
-                HomebrewHub(
-                    slug: "fgb",
-                    filename: "fgb.gb",
-                ),
-            ],
         ),
     ],
 )

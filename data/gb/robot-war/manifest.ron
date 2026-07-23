@@ -1,6 +1,18 @@
 (
     title: "Robot War",
     developer: Some("Jose Moreno"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/robot-war/Robot War (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/robot-war",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/robot-war/Robot War (PD).png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2000-11-11"),
-            sources: [
-                HomebrewHub(
-                    slug: "robot-war",
-                    filename: "Robot War (PD).gb",
-                ),
-            ],
         ),
     ],
 )

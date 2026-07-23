@@ -12,6 +12,18 @@
         "Open Source",
         "Singleplayer",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/zenzoa_piropa/piropa-2.1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/zenzoa_piropa",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/zenzoa_piropa/cover.png",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/zenzoa_piropa/screenshots/nhBfI3.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "zenzoa_piropa",
-                    filename: "piropa-2.1.gb",
-                ),
-                Itch(
-                    url: "https://zenzoa.itch.io/piropa",
-                ),
-            ],
-        ),
+        (),
     ],
 )

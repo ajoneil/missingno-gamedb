@@ -1,6 +1,18 @@
 (
     title: "Chuckie Egg DX (Version 0.33)",
     developer: Some("Hive"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/chuckie-egg-dx-version-033/chuckie.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/chuckie-egg-dx-version-033",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/chuckie-egg-dx-version-033/chuckie.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-02-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "chuckie-egg-dx-version-033",
-                    filename: "chuckie.gbc",
-                ),
-            ],
         ),
     ],
 )

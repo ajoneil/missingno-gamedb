@@ -1,7 +1,33 @@
 (
     title: "Crackpots",
+    developer: Some("Dan Kitchen"),
+    description: Some("As Potsy the gardener you patrol a Brooklyn rooftop, dropping flower pots on the bugs scaling the wall before they slip inside the windows — four species climb four different ways, from straight ascents to zig-zags between sills. Dan Kitchen\'s idea came from watching objects fall at a construction site over lunch; it began life as a prototype called Flower Power."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/crackpots.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Crackpots",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/61BAA9AA4DCDCED5A638BDB4281080387B8A7F3C",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
             date: Some("1983"),
             publisher: Some("CCE"),
             hardware: (
@@ -10,45 +36,34 @@
             ),
             artifacts: [
                 (
-                    sha1: "20860ac787ea5874c74318e6f874183ab8011528",
-                ),
-                (
-                    sha1: "3c3370a2f842f219477e89842870e7ea23097f8b",
-                ),
-                (
-                    sha1: "4d5abd9cf73e738cdc6f88727d35fdd32c6df437",
-                ),
-                (
                     sha1: "62b67cc0b7601b9662880aa39ead323aecd41c44",
-                ),
-                (
-                    sha1: "6ee0a26af4643ff250198dfc1c2b7c6568b4f207",
-                ),
-                (
-                    sha1: "8d58c6a95bc7639b08e27a837b5d2580edff59ed",
-                ),
-                (
-                    sha1: "972db0f6170fad498ff7d2113cf2f9d5ea75a58f",
-                ),
-                (
-                    sha1: "b186a2eb0f57c303c3191be026322b4e39cea801",
                 ),
             ],
         ),
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
+                cart_type: Some("4K"),
             ),
             artifacts: [
                 (
                     sha1: "eb9c7bd296672244616e18849a7267689034c437",
                 ),
+                (
+                    sha1: "6ee0a26af4643ff250198dfc1c2b7c6568b4f207",
+                    label: Some("alt [a]"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
@@ -58,9 +73,43 @@
             artifacts: [
                 (
                     sha1: "3ce4115bfeeb00da51b95d1161f831947b0e97f6",
+                    label: Some("pirate alt [p][a]"),
                 ),
                 (
                     sha1: "b36bebe88ccf2424a9e76bef221b02ca2c7e0f96",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "20860ac787ea5874c74318e6f874183ab8011528",
+                    label: Some("unidentified 1"),
+                ),
+                (
+                    sha1: "3c3370a2f842f219477e89842870e7ea23097f8b",
+                    label: Some("unidentified 2"),
+                ),
+                (
+                    sha1: "4d5abd9cf73e738cdc6f88727d35fdd32c6df437",
+                    label: Some("unidentified 3"),
+                ),
+                (
+                    sha1: "8d58c6a95bc7639b08e27a837b5d2580edff59ed",
+                    label: Some("unidentified 4"),
+                ),
+                (
+                    sha1: "972db0f6170fad498ff7d2113cf2f9d5ea75a58f",
+                    label: Some("unidentified 5"),
+                ),
+                (
+                    sha1: "b186a2eb0f57c303c3191be026322b4e39cea801",
+                    label: Some("unidentified 6"),
                 ),
             ],
         ),

@@ -1,6 +1,18 @@
 (
     title: "Tiny Dancer",
     developer: Some("Patchwork Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tiny-dancer/tiny-dancer.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tiny-dancer",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tiny-dancer/tiny-dancer.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tiny-dancer/tiny-dancer.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tiny-dancer",
-                    filename: "tiny-dancer.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

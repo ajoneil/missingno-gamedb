@@ -1,6 +1,18 @@
 (
     title: "Shitwave",
     developer: Some("nitro2k01"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/shitwave/shitwave.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/shitwave",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shitwave/shitwave.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shitwave/shitwave.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "shitwave",
-                    filename: "shitwave.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

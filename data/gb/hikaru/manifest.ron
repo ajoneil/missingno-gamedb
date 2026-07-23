@@ -1,6 +1,18 @@
 (
     title: "Hikaru",
     developer: Some("Megaman_X"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hikaru/HIKARU.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hikaru",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hikaru/hikaru.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "hikaru",
-                    filename: "HIKARU.GB",
-                ),
-            ],
         ),
     ],
 )

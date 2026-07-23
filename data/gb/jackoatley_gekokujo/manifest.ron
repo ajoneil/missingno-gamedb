@@ -5,6 +5,18 @@
         "Strategy",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jackoatley_gekokujo/gekokujo_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jackoatley_gekokujo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jackoatley_gekokujo/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jackoatley_gekokujo/screenshots/8zv172B.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "jackoatley_gekokujo",
-                    filename: "gekokujo_jam.gb",
-                ),
-                Itch(
-                    url: "https://jackoatley.itch.io/gekokujo",
-                ),
-            ],
-        ),
+        (),
     ],
 )

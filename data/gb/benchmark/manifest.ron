@@ -3,6 +3,16 @@
     developer: Some("Bookworm"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/benchmark/FNum.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/benchmark",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://mydocuments.g2.xrea.com/html/gb/number.html",
             link_type: Wiki,
@@ -11,12 +21,6 @@
     releases: [
         (
             date: Some("2005-10-15"),
-            sources: [
-                HomebrewHub(
-                    slug: "benchmark",
-                    filename: "FNum.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -7,6 +7,18 @@
         "Card Game",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/avivbeeri_scoundrel-gb/SCOUNDREL_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/avivbeeri_scoundrel-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/avivbeeri_scoundrel-gb/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/avivbeeri_scoundrel-gb/screenshots/iM0jQK.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "avivbeeri_scoundrel-gb",
-                    filename: "SCOUNDREL_jam.gb",
-                ),
-                Itch(
-                    url: "https://avivbeeri.itch.io/scoundrel-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

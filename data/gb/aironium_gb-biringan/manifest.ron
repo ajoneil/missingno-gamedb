@@ -13,6 +13,18 @@
         "Exploration",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/LBS0.3.5.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/aironium_gb-biringan",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/cover.jpg",
     ],
@@ -26,16 +38,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/aironium_gb-biringan/screenshots/9BZrKF.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "aironium_gb-biringan",
-                    filename: "LBS0.3.5.gb",
-                ),
-                Itch(
-                    url: "https://aironium.itch.io/gb-biringan",
-                ),
-            ],
-        ),
+        (),
     ],
 )

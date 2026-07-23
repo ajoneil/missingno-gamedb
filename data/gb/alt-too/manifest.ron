@@ -1,6 +1,18 @@
 (
     title: "Alt Too",
     developer: Some("Carillon Cyberiad"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-too/alttoo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/alt-too",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-too/49.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2002-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "alt-too",
-                    filename: "alttoo.gb",
-                ),
-            ],
         ),
     ],
 )

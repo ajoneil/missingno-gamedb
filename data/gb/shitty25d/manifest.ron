@@ -3,6 +3,16 @@
     developer: Some("sttng"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/shitty25d/shitty25D01.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/shitty25d",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://github.com/sttng/gb-stuff/tree/main/shitty-25D",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2021-04-25"),
-            sources: [
-                HomebrewHub(
-                    slug: "shitty25d",
-                    filename: "shitty25D01.gb",
-                ),
-            ],
         ),
     ],
 )

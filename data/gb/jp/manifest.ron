@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jp/jp.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jp",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://grahamcoulby.co.uk/projects/jp-a-homebrew-gameboy-developed-in-c",
             link_type: Wiki,
@@ -31,12 +41,6 @@
     releases: [
         (
             date: Some("2021-06-15"),
-            sources: [
-                HomebrewHub(
-                    slug: "jp",
-                    filename: "jp.gb",
-                ),
-            ],
         ),
     ],
 )

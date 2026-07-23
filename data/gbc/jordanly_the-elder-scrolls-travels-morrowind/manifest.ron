@@ -13,6 +13,18 @@
         "Fantasy",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jordanly_the-elder-scrolls-travels-morrowind/TEST Morrowind 0.6.5.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jordanly_the-elder-scrolls-travels-morrowind",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jordanly_the-elder-scrolls-travels-morrowind/cover.png",
     ],
@@ -26,16 +38,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jordanly_the-elder-scrolls-travels-morrowind/screenshots/A7dQRR.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "jordanly_the-elder-scrolls-travels-morrowind",
-                    filename: "TEST Morrowind 0.6.5.gbc",
-                ),
-                Itch(
-                    url: "https://jordanly.itch.io/the-elder-scrolls-travels-morrowind",
-                ),
-            ],
-        ),
+        (),
     ],
 )

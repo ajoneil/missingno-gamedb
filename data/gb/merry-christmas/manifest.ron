@@ -1,6 +1,18 @@
 (
     title: "Merry Christmas",
     developer: Some("Anders Granlund"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/merry-christmas/MerryXMAS.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/merry-christmas",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/merry-christmas/728.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1997-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "merry-christmas",
-                    filename: "MerryXMAS.gb",
-                ),
-            ],
         ),
     ],
 )

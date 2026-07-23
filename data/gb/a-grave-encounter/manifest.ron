@@ -8,6 +8,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/a-grave-encounter/AGraveEncounter1.3.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/a-grave-encounter",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-grave-encounter/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-grave-encounter/BTUB2o.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "a-grave-encounter",
-                    filename: "AGraveEncounter1.3.gb",
-                ),
-                Itch(
-                    url: "https://fireflanger.itch.io/a-grave-encounter",
-                ),
-            ],
-        ),
+        (),
     ],
 )

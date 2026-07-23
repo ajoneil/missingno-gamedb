@@ -2,6 +2,18 @@
     title: "Back to Earth",
     developer: Some("R-Lab"),
     description: Some("Developed by Russian R-Lab but development was halted early on. \"This is our 3D shooter. Game was freezed on early stage of development, but we decided to release the engine for download.\""),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/back-to-earth/bte.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/back-to-earth",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/back-to-earth/back_to_earth.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2001-06-03"),
-            sources: [
-                HomebrewHub(
-                    slug: "back-to-earth",
-                    filename: "bte.gb",
-                ),
-            ],
         ),
     ],
 )

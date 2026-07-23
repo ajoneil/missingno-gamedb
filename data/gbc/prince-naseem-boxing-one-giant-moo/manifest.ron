@@ -1,6 +1,18 @@
 (
     title: "Prince Naseem Boxing / One Giant Moo",
     developer: Some("Capital"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/prince-naseem-boxing-one-giant-moo/prince-naseem-boxing-one-giant-moo.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/prince-naseem-boxing-one-giant-moo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/prince-naseem-boxing-one-giant-moo/prince-naseem-boxing-one-giant-moo.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-08-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "prince-naseem-boxing-one-giant-moo",
-                    filename: "prince-naseem-boxing-one-giant-moo.gbc",
-                ),
-            ],
         ),
     ],
 )

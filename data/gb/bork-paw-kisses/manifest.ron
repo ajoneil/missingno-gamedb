@@ -7,6 +7,18 @@
         "Visual Novel",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bork-paw-kisses/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bork-paw-kisses",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bork-paw-kisses/cover.png",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bork-paw-kisses/BD7aTl.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "bork-paw-kisses",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://visiface.itch.io/bork-paw-kisses",
-                ),
-            ],
-        ),
+        (),
     ],
 )

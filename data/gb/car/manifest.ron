@@ -6,6 +6,18 @@
         "Racing",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/car/Car.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/car",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/car/20110402_car.png",
     ],
@@ -13,13 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/car/20110402_car.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "car",
-                    filename: "Car.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

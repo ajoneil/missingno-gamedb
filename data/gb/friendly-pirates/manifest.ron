@@ -5,6 +5,18 @@
         "Platform",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-pirates/afriendlypirates.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friendly-pirates",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-pirates/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-pirates/F6Xv5A.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "friendly-pirates",
-                    filename: "afriendlypirates.gb",
-                ),
-                Itch(
-                    url: "https://mbaran.itch.io/friendly-pirates",
-                ),
-            ],
-        ),
+        (),
     ],
 )

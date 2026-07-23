@@ -1,6 +1,18 @@
 (
     title: "Isaac\'s First GB Demo",
     developer: Some("Isaac Rounds"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/isaac-first-gb-demo/Issac\'s First GB Demo (Quang2000) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/isaac-first-gb-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/isaac-first-gb-demo/Issac\'s First GB Demo (Quang2000) (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-08-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "isaac-first-gb-demo",
-                    filename: "Issac\'s First GB Demo (Quang2000) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

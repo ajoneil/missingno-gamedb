@@ -1,7 +1,27 @@
 (
     title: "Cross Force",
+    description: Some("You steer the Spectron — twin ships mirrored at the top and bottom of the screen — catching the mechanoid Morpuls in a two-way crossfire, from lowly Gupoids up to the merciless Nastroid elite pouring in from Tzoris. The holographic dual laser can overheat, and the variants lock the pair into diagonal or parallel motion; Germany knew the cart as Kreuzfeuer."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/cross_force.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C1F361C9722BA54359846C66DB322C2FE4F90903",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Spectravision"),
             hardware: (
@@ -14,6 +34,7 @@
                 ),
                 (
                     sha1: "bcf3551767bedb7c4c5f9432ec02c1a86da82234",
+                    label: Some("alt"),
                 ),
             ],
         ),
@@ -25,9 +46,27 @@
             artifacts: [
                 (
                     sha1: "33033947a4f43586fa2cfa388c9b9e4240686058",
+                    label: Some("unidentified"),
                 ),
                 (
                     sha1: "e1694ec252529d923b08797b7baa7030fb9ae79d",
+                    label: Some("pirate [p]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a7c67d83d8e5d0f9fc0a78c17153756aa043972",
                 ),
             ],
         ),

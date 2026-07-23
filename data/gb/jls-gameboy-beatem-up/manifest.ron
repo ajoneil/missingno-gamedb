@@ -1,6 +1,18 @@
 (
     title: "JL\'s gameboy beat\'em up",
     developer: Some("Jonas Lund"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jls-gameboy-beatem-up/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jls-gameboy-beatem-up",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jls-gameboy-beatem-up/game.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jls-gameboy-beatem-up/game.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "jls-gameboy-beatem-up",
-                    filename: "game.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

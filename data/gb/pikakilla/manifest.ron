@@ -1,6 +1,18 @@
 (
     title: "Pikakilla",
     developer: Some("Dacotter"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pikakilla/Pikakilla.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pikakilla",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pikakilla/20110402_pikakilla.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pikakilla/20110402_pikakilla.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pikakilla",
-                    filename: "Pikakilla.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/big2small/big2small.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/big2small",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://mdsteele.games/big2small/",
             link_type: Wiki,
@@ -30,12 +40,6 @@
     releases: [
         (
             date: Some("2021-10-22"),
-            sources: [
-                HomebrewHub(
-                    slug: "big2small",
-                    filename: "big2small.gb",
-                ),
-            ],
         ),
     ],
 )

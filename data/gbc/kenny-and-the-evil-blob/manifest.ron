@@ -1,6 +1,18 @@
 (
     title: "Kenny And The Evil Blob",
     developer: Some("Kenny Won"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kenny-and-the-evil-blob/KennyAndTheEvilBlob.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kenny-and-the-evil-blob",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kenny-and-the-evil-blob/20110402_kenny_and_the_evil_blob.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kenny-and-the-evil-blob/20110402_kenny_and_the_evil_blob.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "kenny-and-the-evil-blob",
-                    filename: "KennyAndTheEvilBlob.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

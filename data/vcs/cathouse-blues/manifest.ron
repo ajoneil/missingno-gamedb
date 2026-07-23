@@ -1,7 +1,32 @@
 (
     title: "Cathouse Blues",
+    description: Some("A memory game in adult dress: seven women live somewhere in a sprawling neighborhood, and you must remember which houses are theirs and visit them all, while wrong doors raise alarms and the police and a mugger prowl the streets. PlayAround shipped it on a double-ender cartridge with Philly Flasher on the other end; its gender-reversed companion Gigolo sends a woman on the same rounds."),
+    links: [
+        (
+            name: "Wikipedia (PlayAround)",
+            url: "https://en.wikipedia.org/wiki/PlayAround",
+            link_type: Wiki,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-cathouse-blues_16225.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4F2DC6E435DE5B593911B9885EAD2944711ED5B6",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("PlayAround"),
             hardware: (
@@ -14,6 +39,7 @@
                 ),
                 (
                     sha1: "f45bee37dd9e1bc56033eb8ef015d7abe0913feb",
+                    label: Some("alt"),
                 ),
             ],
         ),

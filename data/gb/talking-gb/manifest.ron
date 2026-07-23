@@ -1,6 +1,18 @@
 (
     title: "Talking GB - Pi to 20 decimal places in English",
     developer: Some("Jeff Frohwein"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/talking-gb/PI.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/talking-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/talking-gb/pi-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1997-11-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "talking-gb",
-                    filename: "PI.GB",
-                ),
-            ],
         ),
     ],
 )

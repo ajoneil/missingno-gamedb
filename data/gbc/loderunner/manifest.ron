@@ -3,6 +3,16 @@
     developer: Some("Dr. Thomas Tensi"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/loderunner/loderunner-en.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/loderunner",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://www.tensi.eu/thomas/programming/gameboy/loderunner.html",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2010-08-02"),
-            sources: [
-                HomebrewHub(
-                    slug: "loderunner",
-                    filename: "loderunner-en.gbc",
-                ),
-            ],
         ),
     ],
 )

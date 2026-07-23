@@ -5,6 +5,18 @@
     tags: [
         "Platform",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/a-slime-travel/aslimetravel.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/a-slime-travel",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-slime-travel/aslimetravel0.png",
     ],
@@ -14,13 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-slime-travel/aslimetravel2.bmp",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "a-slime-travel",
-                    filename: "aslimetravel.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

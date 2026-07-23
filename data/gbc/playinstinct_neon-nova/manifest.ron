@@ -10,6 +10,18 @@
         "Racing",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/playinstinct_neon-nova/NEON-NOVA_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/playinstinct_neon-nova",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/playinstinct_neon-nova/cover.png",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/playinstinct_neon-nova/screenshots/tzQ6pR.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "playinstinct_neon-nova",
-                    filename: "NEON-NOVA_jam.gbc",
-                ),
-                Itch(
-                    url: "https://playinstinct.itch.io/neon-nova",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -6,6 +6,18 @@
         "Adventure",
         "event:liksang2000-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/slugs/Slugs.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/slugs",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/slugs/20110402_slugs.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2000-04-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "slugs",
-                    filename: "Slugs.cgb",
-                ),
-            ],
         ),
     ],
 )

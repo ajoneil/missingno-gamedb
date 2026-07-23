@@ -1,6 +1,18 @@
 (
     title: "My GB is your GB and your GB is my GB",
     developer: Some("Black Box"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/my-gb-is-your-gb-and-your-gb-is-my-gb/mygb.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/my-gb-is-your-gb-and-your-gb-is-my-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/my-gb-is-your-gb-and-your-gb-is-my-gb/1.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-08-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "my-gb-is-your-gb-and-your-gb-is-my-gb",
-                    filename: "mygb.gb",
-                ),
-            ],
         ),
     ],
 )

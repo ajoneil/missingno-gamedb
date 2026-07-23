@@ -1,6 +1,18 @@
 (
     title: "Minesweeper",
     developer: Some("Mattias Wadman"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/minesweeper/Minesweeper.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/minesweeper",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/minesweeper/20110402_minesweeper.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/minesweeper/20110402_minesweeper.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "minesweeper",
-                    filename: "Minesweeper.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "GB Printer Emulator v1.0",
     developer: Some("Jeff Frohwein"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-printer-emulator-v1-0/Gameboy Printer Emulator V1.0 by Jeff Frohwein (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-printer-emulator-v1-0",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-printer-emulator-v1-0/Gameboy Printer Emulator V1.0 by Jeff Frohwein (PD).png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-07-17"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-printer-emulator-v1-0",
-                    filename: "Gameboy Printer Emulator V1.0 by Jeff Frohwein (PD).gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,9 +1,34 @@
 (
     title: "Chuck Norris Superkicks",
+    description: Some("Guide Chuck Norris up a scrolling path toward an ancient monastery against a six-minute clock, as warriors spring ambushes that drop you into punch-kick-and-block duels. Checkpoints award new karate belts and extra minutes, and the monastery holds invisible ninjas for the finale. When the Norris licence lapsed the game was reissued as Kung Fu Superkicks, with the Telegames PAL cart subtitled Pursuit of the Ninja."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/chuck_norris_superkicks.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Chuck_Norris_Superkicks",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E1ABCD849B93774C33BBC976091DD96D8DAB5FB4",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
-            date: Some("1988"),
-            publisher: Some("Telegames"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Xonox"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
@@ -11,6 +36,23 @@
             artifacts: [
                 (
                     sha1: "1637b6b9cd1a918339ec054cf95b924e7ce4789a",
+                ),
+            ],
+        ),
+        (
+            title: Some("Kung Fu Superkicks - Pursuit of the Ninja"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "061e5196af3b559766d4158a13faef04f7365cd5",
                 ),
             ],
         ),

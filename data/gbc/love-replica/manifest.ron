@@ -1,6 +1,18 @@
 (
     title: "Love Replica",
     developer: Some("Inka"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/LoveReplica.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/love-replica",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/love-replica/256.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "love-replica",
-                    filename: "LoveReplica.GBC",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Nobody: The Story of Nothing (Demo Version 0.2)",
     developer: Some("Lyth"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nobody-the-story-of-nothing-demo-version-02/nobodydemo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nobody-the-story-of-nothing-demo-version-02",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nobody-the-story-of-nothing-demo-version-02/storyofnothingdemo.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nobody-the-story-of-nothing-demo-version-02/storyofnothingdemo.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "nobody-the-story-of-nothing-demo-version-02",
-                    filename: "nobodydemo.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

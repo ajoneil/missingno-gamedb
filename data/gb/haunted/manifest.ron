@@ -5,6 +5,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/haunted/haunted.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/haunted",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/haunted/SpYmYW.png",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/haunted/pd5uJd.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "haunted",
-                    filename: "haunted.gb",
-                ),
-                Itch(
-                    url: "https://locrianzone.itch.io/haunted",
-                ),
-            ],
-        ),
+        (),
     ],
 )

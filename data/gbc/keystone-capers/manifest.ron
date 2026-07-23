@@ -1,6 +1,18 @@
 (
     title: "Keystone Capers",
     developer: Some("haroldo-ok"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/keystone-capers/keystone-capers.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/keystone-capers",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/keystone-capers/keystone-capers.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/keystone-capers/keystone-capers.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "keystone-capers",
-                    filename: "keystone-capers.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

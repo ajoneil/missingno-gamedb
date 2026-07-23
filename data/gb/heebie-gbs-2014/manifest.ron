@@ -1,5 +1,17 @@
 (
     title: "Heebie-GBs-2014",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/heebie-gbs-2014/Heebie-GBs-2014.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/heebie-gbs-2014",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/heebie-gbs-2014/heebie-gbs-2014.png",
     ],
@@ -7,13 +19,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/heebie-gbs-2014/heebie-gbs-2014.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "heebie-gbs-2014",
-                    filename: "Heebie-GBs-2014.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

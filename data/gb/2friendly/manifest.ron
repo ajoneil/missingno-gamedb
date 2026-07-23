@@ -6,6 +6,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/2friendly.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/2friendly",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/2friendly/aZx2Ry.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "2friendly",
-                    filename: "2friendly.gb",
-                ),
-                Itch(
-                    url: "https://isacben.itch.io/2friendly",
-                ),
-            ],
-        ),
+        (),
     ],
 )

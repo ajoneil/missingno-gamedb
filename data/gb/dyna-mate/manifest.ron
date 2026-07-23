@@ -1,6 +1,18 @@
 (
     title: "Dyna Mate",
     developer: Some("Jonas Norberg"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dyna-mate/dynamate.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dyna-mate",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dyna-mate/20110402_dyna_mate.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dyna-mate/20110402_dyna_mate.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "dyna-mate",
-                    filename: "dynamate.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

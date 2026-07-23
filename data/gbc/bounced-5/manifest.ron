@@ -3,6 +3,16 @@
     developer: Some("Capital"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bounced-5/bounced-5.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bounced-5",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/DevEd2/BouncedTrainer",
             link_type: Source,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2020-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "bounced-5",
-                    filename: "bounced-5.gbc",
-                ),
-            ],
         ),
     ],
 )

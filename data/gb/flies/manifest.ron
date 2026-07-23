@@ -3,6 +3,16 @@
     developer: Some("Chris Read"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/flies/flies22.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/flies",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://gbdev.gg8.se/forums/viewtopic.php?id=739",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2021-02-02"),
-            sources: [
-                HomebrewHub(
-                    slug: "flies",
-                    filename: "flies22.gb",
-                ),
-            ],
         ),
     ],
 )

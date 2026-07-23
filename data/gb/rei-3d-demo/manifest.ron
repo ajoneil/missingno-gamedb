@@ -1,5 +1,17 @@
 (
     title: "Rei 3D Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rei-3d-demo/REI3D.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rei-3d-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rei-3d-demo/Rei_3D_Demo-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1996-06-17"),
-            sources: [
-                HomebrewHub(
-                    slug: "rei-3d-demo",
-                    filename: "REI3D.GB",
-                ),
-            ],
         ),
     ],
 )

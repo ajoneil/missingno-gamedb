@@ -2,6 +2,18 @@
     title: "GameBoy SokoBan",
     developer: Some("Obsession Development"),
     description: Some("Obsession Development\'s implementation of the popular little puzzle game"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sokoban/sokoban.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sokoban",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sokoban/sokoban.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("1998-03-04"),
-            sources: [
-                HomebrewHub(
-                    slug: "sokoban",
-                    filename: "sokoban.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,5 +1,17 @@
 (
     title: "Dirty Pair Flash Picture",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dirty-pair-flash-picture/Dirty_Pair_Flash_Picture.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dirty-pair-flash-picture",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dirty-pair-flash-picture/Dirty_Pair_Flash_Picture-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1998-08-08"),
-            sources: [
-                HomebrewHub(
-                    slug: "dirty-pair-flash-picture",
-                    filename: "Dirty_Pair_Flash_Picture.gb",
-                ),
-            ],
         ),
     ],
 )

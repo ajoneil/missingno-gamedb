@@ -5,6 +5,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-quest/FriendQuest.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friend-quest",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-quest/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-quest/i4Wjzv.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "friend-quest",
-                    filename: "FriendQuest.gb",
-                ),
-                Itch(
-                    url: "https://briziant.itch.io/friend-quest",
-                ),
-            ],
-        ),
+        (),
     ],
 )

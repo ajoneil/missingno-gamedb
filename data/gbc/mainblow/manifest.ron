@@ -2,6 +2,18 @@
     title: "MainBlow",
     developer: Some("Fatality Software Institute"),
     description: Some("Your target: drive jeap and fly to kill enemys and clear zone. Collect bonus to increase weapon and lives."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mainblow/Mainblow.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mainblow",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mainblow/20110402_mainblow.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mainblow/20110402_mainblow.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "mainblow",
-                    filename: "Mainblow.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "The Syntax Pocket Party",
     developer: Some("Beige"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-syntax-pocket-party/the-syntax-pocket-party.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-syntax-pocket-party",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-syntax-pocket-party/the-syntax-pocket-party.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-syntax-pocket-party/the-syntax-pocket-party.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-syntax-pocket-party",
-                    filename: "the-syntax-pocket-party.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

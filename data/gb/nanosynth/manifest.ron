@@ -1,6 +1,18 @@
 (
     title: "nanosynth",
     developer: Some("Oliver Wittchow"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nanosynth/nanosynth.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nanosynth",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nanosynth/nanosynth.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nanosynth/nanosynth.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "nanosynth",
-                    filename: "nanosynth.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

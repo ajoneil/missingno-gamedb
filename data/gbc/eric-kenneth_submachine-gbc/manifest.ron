@@ -9,6 +9,18 @@
         "Puzzle",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/SubmachineGBC_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/eric-kenneth_submachine-gbc",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/cover.jpeg",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/eric-kenneth_submachine-gbc/screenshots/C2i06D.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "eric-kenneth_submachine-gbc",
-                    filename: "SubmachineGBC_jam.gbc",
-                ),
-                Itch(
-                    url: "https://eric-kenneth.itch.io/submachine-gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

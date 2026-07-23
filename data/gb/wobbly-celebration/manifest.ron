@@ -1,6 +1,18 @@
 (
     title: "Wobbly Celebration",
     developer: Some("Pasi Toska"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/wobbly-celebration/wobbly-celebration.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/wobbly-celebration",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/wobbly-celebration/wobbly-celebration.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/wobbly-celebration/wobbly-celebration.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "wobbly-celebration",
-                    filename: "wobbly-celebration.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

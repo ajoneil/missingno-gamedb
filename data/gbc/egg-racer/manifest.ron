@@ -5,6 +5,18 @@
         "Action",
         "event:liksang2000-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/egg-racer/egg-racer-lik-sang-pd-c.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/egg-racer",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/egg-racer/20110402_egg_racer.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2000-04-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "egg-racer",
-                    filename: "egg-racer-lik-sang-pd-c.gbc",
-                ),
-            ],
         ),
     ],
 )

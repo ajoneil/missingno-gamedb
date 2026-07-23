@@ -5,6 +5,18 @@
         "Card Game",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/torysciacca_bababal/Bababal_Jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/torysciacca_bababal",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/torysciacca_bababal/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/torysciacca_bababal/screenshots/YZGB9Q.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "torysciacca_bababal",
-                    filename: "Bababal_Jam.gb",
-                ),
-                Itch(
-                    url: "https://torysciacca.itch.io/bababal",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Mines",
     developer: Some("Aaron St. John"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mines-gbc/Mines.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mines-gbc",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mines-gbc/20110402_mines.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-01-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "mines-gbc",
-                    filename: "Mines.gbc",
-                ),
-            ],
         ),
     ],
 )

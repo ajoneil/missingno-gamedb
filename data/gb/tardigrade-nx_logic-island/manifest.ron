@@ -5,6 +5,18 @@
         "Puzzle",
         "Black and White",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tardigrade-nx_logic-island/LogicIsland-v2.1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tardigrade-nx_logic-island",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tardigrade-nx_logic-island/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tardigrade-nx_logic-island/screenshots/g6d4Np.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tardigrade-nx_logic-island",
-                    filename: "LogicIsland-v2.1.gb",
-                ),
-                Itch(
-                    url: "https://tardigrade-nx.itch.io/logic-island",
-                ),
-            ],
-        ),
+        (),
     ],
 )

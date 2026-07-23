@@ -7,6 +7,18 @@
         "Platformer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/roleander_lazz-and-the-infinity-city-nights/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/roleander_lazz-and-the-infinity-city-nights",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/roleander_lazz-and-the-infinity-city-nights/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/roleander_lazz-and-the-infinity-city-nights/screenshots/kX2Oh0.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "roleander_lazz-and-the-infinity-city-nights",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://roleander.itch.io/lazz-and-the-infinity-city-nights",
-                ),
-            ],
-        ),
+        (),
     ],
 )

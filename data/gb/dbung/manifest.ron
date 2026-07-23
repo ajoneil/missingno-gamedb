@@ -1,6 +1,18 @@
 (
     title: "Bung Cart Slideshow",
     developer: Some("Derek Steinmoeller"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dbung/dbung.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dbung",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dbung/dbung-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-07-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "dbung",
-                    filename: "dbung.gb",
-                ),
-            ],
         ),
     ],
 )

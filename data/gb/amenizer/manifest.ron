@@ -1,6 +1,18 @@
 (
     title: "Amenizer",
     developer: Some("nitro2k01"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/amenizer/amenizer.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/amenizer",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/amenizer/amenizer.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/amenizer/amenizer.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "amenizer",
-                    filename: "amenizer.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

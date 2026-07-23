@@ -1,6 +1,18 @@
 (
     title: "Gunman Clive",
     developer: Some("Bertil Horberg"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gunman-clive/gunman-clive.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gunman-clive",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gunman-clive/gunman-clive.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gunman-clive/gunman-clive.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gunman-clive",
-                    filename: "gunman-clive.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

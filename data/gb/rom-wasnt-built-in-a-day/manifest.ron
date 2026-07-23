@@ -1,6 +1,18 @@
 (
     title: "ROM Wasn\'t Built in a Day",
     developer: Some("gorgh (code), AceMan (music), Piesiu and Raphis (gfx)"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/rom-wasnt-built-in-a-day.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rom-wasnt-built-in-a-day",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/0.png",
     ],
@@ -13,13 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rom-wasnt-built-in-a-day/5.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rom-wasnt-built-in-a-day",
-                    filename: "rom-wasnt-built-in-a-day.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

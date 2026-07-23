@@ -1,16 +1,46 @@
 (
     title: "Cookie Monster Munch",
+    developer: Some("Children\'s Computer Workshop"),
+    description: Some("Guide Cookie Monster along cookie-strewn maze paths to the cookie jar — a pre-reading exercise in tracing and directional arrows dressed up as a Sesame Street outing, with ten game levels spanning solo, cooperative and competitive play for ages three to seven. It plays on the Kid\'s Controller keypad with its snap-in cardboard overlay, sold separately from the cart."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/cookie_monster.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cookie_Monster_Munch",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DDB62AEB5AB0B895892F1F4F74939B877CCBA365",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "ef8fa65cf4916932f19a6837a4fe657a7c317f17",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "f4a62ba0ff59803c5f40d59eeed1e126fe37979b",
@@ -18,18 +48,26 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "3e03319ac9fdb095ace67ca1586be2cd1dbbbf64",
+                    label: Some("alt [a]"),
                 ),
                 (
                     sha1: "d29eeda6f7b965552c7c425597a71562726289fe",
+                    label: Some("alt 2"),
                 ),
                 (
                     sha1: "fd47df700820295ead34a9d9cf5c73eccf1101bd",

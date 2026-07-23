@@ -13,6 +13,18 @@
         "Puzzle",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/polarperil_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/howdyriceball_polar-peril",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/cover.jpg",
     ],
@@ -24,16 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/howdyriceball_polar-peril/screenshots/UgMuD8.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "howdyriceball_polar-peril",
-                    filename: "polarperil_jam.gb",
-                ),
-                Itch(
-                    url: "https://howdyriceball.itch.io/polar-peril",
-                ),
-            ],
-        ),
+        (),
     ],
 )

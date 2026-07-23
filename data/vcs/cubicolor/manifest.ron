@@ -1,7 +1,25 @@
 (
     title: "Cubicolor",
+    developer: Some("Rob Fulop"),
+    description: Some("Rob Fulop\'s take on Rubik\'s Race: slide the twenty-four coloured tiles of a five-by-five grid through its one empty space until the centre matches a generated three-by-three pattern, solo or racing a second player. Imagic wanted action games instead, so the finished puzzle never shipped — Fulop squirrelled away his fifty prototype carts and sold them to collectors years later, about sixty in all, making it a byword for 2600 rarity."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/cubicolor/cubicolor.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             status: Prototype,

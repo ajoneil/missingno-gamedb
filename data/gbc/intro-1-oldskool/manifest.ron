@@ -1,6 +1,18 @@
 (
     title: "Intro #1 (X-Men Mutant Academy)",
     developer: Some("Oldskool"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-1-oldskool/os-i_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/intro-1-oldskool",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-1-oldskool/190.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "intro-1-oldskool",
-                    filename: "os-i_01.gbc",
-                ),
-            ],
         ),
     ],
 )

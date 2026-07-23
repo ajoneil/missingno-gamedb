@@ -1,6 +1,18 @@
 (
     title: "3D Demo",
     developer: Some("PJ"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/3d-demo/3D_Demo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/3d-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/3d-demo/3D_Demo-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-02-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "3d-demo",
-                    filename: "3D_Demo.gb",
-                ),
-            ],
         ),
     ],
 )

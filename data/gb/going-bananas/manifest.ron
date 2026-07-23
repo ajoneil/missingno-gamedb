@@ -3,6 +3,16 @@
     developer: Some("Chris Read"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/going-bananas/banana7.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/going-bananas",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://gbdev.gg8.se/forums/viewtopic.php?id=606",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2019-04-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "going-bananas",
-                    filename: "banana7.gb",
-                ),
-            ],
         ),
     ],
 )

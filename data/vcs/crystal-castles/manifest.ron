@@ -1,0 +1,95 @@
+(
+    title: "Crystal Castles",
+    description: Some("Bentley Bear trots through isometric castle mazes hoovering up gems ahead of the witch Berthilda and her creatures, hunting the honey pots and secret warps that made the arcade a score-chaser\'s favourite. The port trades the arcade\'s trackball for the joystick — a change even the original\'s programmer lamented — but keeps the maze-clearing loop faithfully intact."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/crystal_castles.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Crystal_Castles_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D5974BC9C32575857A694444AEC4E3DAD45EAD3C",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "09570b639d5ab69a24c659a3db5faa5710095bdf",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "2e4ee5ee040b08be1fe568602d1859664e607efb",
+                ),
+                (
+                    sha1: "7661d6b26d19f4e9f34c35d59707b05958449fe9",
+                    label: Some("pirate [p]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3311ea53afc8901d665e487036e7da0ae1cdb276",
+                ),
+            ],
+        ),
+        (
+            label: Some("build 1984-01-04"),
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d0b6e70de5ba3830f21fa477438be15eac484ed",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a0db2fdcafc4b38f2ec8e5a41acca45f6ba9bc4e",
+                ),
+            ],
+        ),
+    ],
+)

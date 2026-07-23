@@ -1,6 +1,18 @@
 (
     title: "ssas stepgirl",
     developer: Some("S.O"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ssas-stepgirl/ssas-stepgirl.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ssas-stepgirl",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ssas-stepgirl/ssas-stepgirl.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ssas-stepgirl/ssas-stepgirl.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ssas-stepgirl",
-                    filename: "ssas-stepgirl.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

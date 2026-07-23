@@ -7,6 +7,18 @@
         "Slime",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/missingnostudio_a-glitch-in-slime/GameDemoAGIS.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/missingnostudio_a-glitch-in-slime",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/missingnostudio_a-glitch-in-slime/cover.jpg",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/missingnostudio_a-glitch-in-slime/screenshots/ZguCp6.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "missingnostudio_a-glitch-in-slime",
-                    filename: "GameDemoAGIS.gb",
-                ),
-                Itch(
-                    url: "https://missingnostudio.itch.io/a-glitch-in-slime",
-                ),
-            ],
-        ),
+        (),
     ],
 )

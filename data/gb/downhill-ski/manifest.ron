@@ -1,6 +1,18 @@
 (
     title: "Downhill Ski",
     developer: Some("John Pericos"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/downhill-ski/DownhillSki.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/downhill-ski",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/downhill-ski/20110402_downhill_ski.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/downhill-ski/20110402_downhill_ski.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "downhill-ski",
-                    filename: "DownhillSki.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

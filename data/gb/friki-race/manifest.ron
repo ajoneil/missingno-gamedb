@@ -5,6 +5,18 @@
         "Racing",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friki-race/frikirc.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friki-race",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friki-race/frikirace.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("1999-09-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "friki-race",
-                    filename: "frikirc.gb",
-                ),
-            ],
         ),
     ],
 )

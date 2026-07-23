@@ -6,6 +6,18 @@
         "Shooter",
         "Bullet Hell",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/DanganGB2.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/snorpung_dangan-gb2",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snorpung_dangan-gb2/screenshots/09f2FG0.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "snorpung_dangan-gb2",
-                    filename: "DanganGB2.gbc",
-                ),
-                Itch(
-                    url: "https://snorpung.itch.io/dangan-gb2",
-                ),
-            ],
-        ),
+        (),
     ],
 )

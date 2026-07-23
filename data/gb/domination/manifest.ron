@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/domination/domination.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/domination",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://www.grahamcoulby.co.uk/projects/domination-a-homebrew-card-game-for-nintendo-gameboy",
             link_type: Wiki,
@@ -31,12 +41,6 @@
     releases: [
         (
             date: Some("2021-06-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "domination",
-                    filename: "domination.gb",
-                ),
-            ],
         ),
     ],
 )

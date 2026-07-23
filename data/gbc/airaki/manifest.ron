@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/airaki/airaki.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/airaki",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://furrtek.free.fr/fse/?p=airakien",
             link_type: Wiki,
@@ -26,13 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/airaki/screenshot.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "airaki",
-                    filename: "airaki.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,5 +1,17 @@
 (
     title: "Luigo Scroller",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/luigo-scroller/Luigo Scroller (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/luigo-scroller",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/luigo-scroller/Luigo Scroller (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-10-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "luigo-scroller",
-                    filename: "Luigo Scroller (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

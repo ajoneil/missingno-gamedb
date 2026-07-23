@@ -1,6 +1,18 @@
 (
     title: "TurtlePuzzle",
     developer: Some("UraKn0x"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/turtlepuzzle/turtle.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/turtlepuzzle",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/turtlepuzzle/screen1.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/turtlepuzzle/screen2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "turtlepuzzle",
-                    filename: "turtle.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

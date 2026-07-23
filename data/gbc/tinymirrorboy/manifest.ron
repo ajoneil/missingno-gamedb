@@ -1,6 +1,18 @@
 (
     title: "tinymirrorboy",
     developer: Some("basxto"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tinymirrorboy/tinymirrorboy.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tinymirrorboy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tinymirrorboy/tinymirrorboy.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2022-02-12"),
-            sources: [
-                HomebrewHub(
-                    slug: "tinymirrorboy",
-                    filename: "tinymirrorboy.gbc",
-                ),
-            ],
         ),
     ],
 )

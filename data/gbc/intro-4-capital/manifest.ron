@@ -1,6 +1,18 @@
 (
     title: "Intro #4 (Monkey Puncher)",
     developer: Some("Capital"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-4-capital/cpl-i_04.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/intro-4-capital",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-4-capital/207.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2002-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "intro-4-capital",
-                    filename: "cpl-i_04.gbc",
-                ),
-            ],
         ),
     ],
 )

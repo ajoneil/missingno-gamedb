@@ -2,6 +2,18 @@
     title: "Pdroms.com Relaunch Intro 2002",
     developer: Some("DuoDreamer, Kojote"),
     description: Some("This little shit-tro was thrown together by Duo in a really short time for the opening of WWW.PDROMS.COM."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pdromscom-relaunch-intro-2002/pdroms.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pdromscom-relaunch-intro-2002",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pdromscom-relaunch-intro-2002/20110402_pdroms.com_relaunch_intro_2002.gif",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2002-06-20"),
-            sources: [
-                HomebrewHub(
-                    slug: "pdromscom-relaunch-intro-2002",
-                    filename: "pdroms.gbc",
-                ),
-            ],
         ),
     ],
 )

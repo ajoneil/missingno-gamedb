@@ -3,6 +3,16 @@
     developer: Some("Celestina Software"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/christmas-light-simulator/star.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/christmas-light-simulator",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://www.romhacking.net/homebrew/165/",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2017-07-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "christmas-light-simulator",
-                    filename: "star.gbc",
-                ),
-            ],
         ),
     ],
 )

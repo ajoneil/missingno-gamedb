@@ -1,5 +1,17 @@
 (
     title: "CheckerCube",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/checkercube/CheckerCube.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/checkercube",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/checkercube/CheckerCube-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1998-02-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "checkercube",
-                    filename: "CheckerCube.gb",
-                ),
-            ],
         ),
     ],
 )

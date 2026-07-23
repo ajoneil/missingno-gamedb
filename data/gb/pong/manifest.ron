@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pong/Pong.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pong",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://web.archive.org/web/20010121105700/http://www.bung.com.hk:80/GBCodingCompetition/2ndGBCodingCompetition/2nd_results.htm",
             link_type: Wiki,
@@ -23,12 +33,6 @@
     releases: [
         (
             date: Some("1998-11-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "pong",
-                    filename: "Pong.gb",
-                ),
-            ],
         ),
     ],
 )

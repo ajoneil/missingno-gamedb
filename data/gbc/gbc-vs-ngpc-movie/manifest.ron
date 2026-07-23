@@ -1,5 +1,17 @@
 (
     title: "GBC vs NGPC Movie",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbc-vs-ngpc-movie/GBC vs NGPC Movie (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbc-vs-ngpc-movie",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gbc-vs-ngpc-movie/GBC vs NGPC Movie (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-11-24"),
-            sources: [
-                HomebrewHub(
-                    slug: "gbc-vs-ngpc-movie",
-                    filename: "GBC vs NGPC Movie (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

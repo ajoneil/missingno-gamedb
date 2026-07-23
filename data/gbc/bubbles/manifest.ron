@@ -1,6 +1,18 @@
 (
     title: "Bubbles",
     developer: Some("Tulou"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/tlu-bubbles.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bubbles",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bubbles/24.png",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "bubbles",
-                    filename: "tlu-bubbles.gbc",
-                ),
-            ],
         ),
     ],
 )

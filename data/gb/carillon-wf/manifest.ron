@@ -1,6 +1,18 @@
 (
     title: "Carillon WF",
     developer: Some("Aleksi Eeben"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-wf/carillon-wf.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/carillon-wf",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-wf/carillon-wf.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-wf/carillon-wf.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "carillon-wf",
-                    filename: "carillon-wf.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

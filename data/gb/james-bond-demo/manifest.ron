@@ -1,6 +1,18 @@
 (
     title: "James Bond Demo",
     developer: Some("Axis Design"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/james-bond-demo/James Bond Demo (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/james-bond-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/james-bond-demo/James Bond Demo (PD).png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-03-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "james-bond-demo",
-                    filename: "James Bond Demo (PD).gb",
-                ),
-            ],
         ),
     ],
 )

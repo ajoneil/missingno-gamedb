@@ -1,6 +1,18 @@
 (
     title: "Terminator 2",
     developer: Some("Megaman_X"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/terminator-2/T2.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/terminator-2",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/terminator-2/terminator-2.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "terminator-2",
-                    filename: "T2.gb",
-                ),
-            ],
         ),
     ],
 )

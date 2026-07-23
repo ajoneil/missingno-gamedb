@@ -2,6 +2,18 @@
     title: "The Bouncing Ball",
     developer: Some("HuCABBAGE"),
     description: Some("Guide your bouncing balls around obstacles or try to avoid them at all. There are really plenty of levels, which makes this game outstanding. Coded by HuCABBAGE for GB Jam 4."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-bouncing-ball/THEBOUNCINGBALL.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-bouncing-ball",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-bouncing-ball/20151112_the_bouncing_ball_(17-08-2015)_(gb_game).png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-bouncing-ball/20151112_the_bouncing_ball_(17-08-2015)_(gb_game).png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-bouncing-ball",
-                    filename: "THEBOUNCINGBALL.GB",
-                ),
-            ],
-        ),
+        (),
     ],
 )

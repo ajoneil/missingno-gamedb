@@ -4,6 +4,16 @@
     license: Some("MIT"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcshell/shell.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbcshell",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_shelle.html",
             link_type: Wiki,
@@ -21,13 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcshell/shell-0.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gbcshell",
-                    filename: "shell.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

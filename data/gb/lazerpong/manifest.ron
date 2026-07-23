@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lazerpong/lazerpong.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lazerpong",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/huderlem/lazerpong",
             link_type: Source,
@@ -21,12 +31,6 @@
     releases: [
         (
             date: Some("2015-05-02"),
-            sources: [
-                HomebrewHub(
-                    slug: "lazerpong",
-                    filename: "lazerpong.gb",
-                ),
-            ],
         ),
     ],
 )

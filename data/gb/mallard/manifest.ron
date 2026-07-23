@@ -1,6 +1,18 @@
 (
     title: "Sam Mallard – The Case of the Missing Swan",
     developer: Some("Snorpung, Nordloef"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mallard/mallard.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mallard",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mallard/gEHIJy.gif",
     ],
@@ -10,16 +22,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mallard/lS90Fg.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "mallard",
-                    filename: "mallard.gb",
-                ),
-                Itch(
-                    url: "https://snorpung.itch.io/sam-mallard-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

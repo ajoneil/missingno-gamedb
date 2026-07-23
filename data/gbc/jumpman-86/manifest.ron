@@ -1,6 +1,18 @@
 (
     title: "Jumpman \'86",
     developer: Some("PÃƒÂ¤r Johannesson"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jumpman-86/jumpman86.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jumpman-86",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jumpman-86/jumpman86.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-03-25"),
-            sources: [
-                HomebrewHub(
-                    slug: "jumpman-86",
-                    filename: "jumpman86.gbc",
-                ),
-            ],
         ),
     ],
 )

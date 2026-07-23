@@ -1,6 +1,18 @@
 (
     title: "A Statement On The Platform Wars",
     developer: Some("Moonbase Allstars"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/a-statement-on-the-platform-wars/a-statement-on-the-platform-wars.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/a-statement-on-the-platform-wars",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-statement-on-the-platform-wars/a-statement-on-the-platform-wars.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2024-03-31"),
-            sources: [
-                HomebrewHub(
-                    slug: "a-statement-on-the-platform-wars",
-                    filename: "a-statement-on-the-platform-wars.gbc",
-                ),
-            ],
         ),
     ],
 )

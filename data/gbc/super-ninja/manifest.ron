@@ -1,6 +1,18 @@
 (
     title: "Super Ninja",
     developer: Some("TornPocket Production"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/super-ninja/super_ninja.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/super-ninja",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/super-ninja/superninja.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-02-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "super-ninja",
-                    filename: "super_ninja.gbc",
-                ),
-            ],
         ),
     ],
 )

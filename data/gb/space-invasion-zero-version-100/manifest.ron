@@ -1,6 +1,18 @@
 (
     title: "Space Invasion Zero (Version 1.0.0)",
     developer: Some("Refresh Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invasion-zero-version-100/warmup.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/space-invasion-zero-version-100",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invasion-zero-version-100/spaceinvasionzero.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invasion-zero-version-100/spaceinvasionzero.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "space-invasion-zero-version-100",
-                    filename: "warmup.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

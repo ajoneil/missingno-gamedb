@@ -1,6 +1,18 @@
 (
     title: "fxshootr",
     developer: Some("changev"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fxshootr/fxshootr.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fxshootr",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fxshootr/fxshootr.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fxshootr/fxshootr.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "fxshootr",
-                    filename: "fxshootr.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

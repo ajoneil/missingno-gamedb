@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/apple-demo/Apple Demo (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/apple-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/apple-demo/Apple Demo (PD).png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("1999-10-03"),
-            sources: [
-                HomebrewHub(
-                    slug: "apple-demo",
-                    filename: "Apple Demo (PD).gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Renaissance Filler",
     developer: Some("eimink"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/renaissance-filler/renaissance-filler.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/renaissance-filler",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/renaissance-filler/renaissance-filler.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/renaissance-filler/renaissance-filler.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "renaissance-filler",
-                    filename: "renaissance-filler.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

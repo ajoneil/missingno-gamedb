@@ -1,6 +1,18 @@
 (
     title: "Sheep Kaboom",
     description: Some("By Light Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sheep-kaboom/sheep-kaboom.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sheep-kaboom",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sheep-kaboom/sheep-kaboom.png",
     ],
@@ -10,13 +22,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sheep-kaboom/sheep-kaboom3.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "sheep-kaboom",
-                    filename: "sheep-kaboom.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

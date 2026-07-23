@@ -1,6 +1,18 @@
 (
     title: "Gejmbåj",
     developer: Some("Snorpung"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/gejmboj.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gejmbaj",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gejmbaj/614.png",
     ],
@@ -21,12 +33,6 @@
     releases: [
         (
             date: Some("2010-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "gejmbaj",
-                    filename: "gejmboj.gb",
-                ),
-            ],
         ),
     ],
 )

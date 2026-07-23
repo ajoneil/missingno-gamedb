@@ -1,6 +1,18 @@
 (
     title: "fancy dance moves",
     developer: Some("Pasi Toska"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fancy-dance-moves/fancy-dance-moves.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fancy-dance-moves",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fancy-dance-moves/fancy-dance-moves.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fancy-dance-moves/fancy-dance-moves.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "fancy-dance-moves",
-                    filename: "fancy-dance-moves.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

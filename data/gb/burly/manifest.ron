@@ -1,6 +1,18 @@
 (
     title: "Burly",
     developer: Some("Sebastian Mihai"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/burly/burly.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/burly",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/burly/burly.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/burly/burly.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "burly",
-                    filename: "burly.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

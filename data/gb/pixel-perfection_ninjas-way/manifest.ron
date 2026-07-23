@@ -4,6 +4,18 @@
     tags: [
         "Platform",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pixel-perfection_ninjas-way/Ninja.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pixel-perfection_ninjas-way",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pixel-perfection_ninjas-way/screenshots/7OMA7r.png",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pixel-perfection_ninjas-way/screenshots/OJ2h3N.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pixel-perfection_ninjas-way",
-                    filename: "Ninja.gb",
-                ),
-                Itch(
-                    url: "https://pixel-perfection.itch.io/ninjas-way",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -2,6 +2,18 @@
     title: "Space Invasion (Version 0.1)",
     developer: Some("Thalamus Interactive"),
     description: Some("A freeware version of the game released in 2000, the game was later released on cartridge by Rocket Games, aka. Datel."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invasion-version-01/spaceinvasion01.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/space-invasion-version-01",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invasion-version-01/spaceinvasion.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2000-03-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "space-invasion-version-01",
-                    filename: "spaceinvasion01.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/carazu/carazu.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/carazu",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://gamejolt.com/games/carazu/184403",
             link_type: Wiki,
@@ -26,13 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/carazu/screenshot02.bmp",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "carazu",
-                    filename: "carazu.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

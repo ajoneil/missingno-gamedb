@@ -1,6 +1,18 @@
 (
     title: "Game 1",
     developer: Some("Nick Kockakian"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/game-1/GAME1.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/game-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/game-1/20110402_game_1.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/game-1/20110402_game_1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "game-1",
-                    filename: "GAME1.GB",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Samuel",
     developer: Some("Jumalauta"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/samuel/jml-sam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/samuel",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/samuel/312.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2006-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "samuel",
-                    filename: "jml-sam.gb",
-                ),
-            ],
         ),
     ],
 )

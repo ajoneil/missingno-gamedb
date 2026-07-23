@@ -1,6 +1,18 @@
 (
     title: "BBS Demo",
     developer: Some("Nario"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nario-bbs-demo/BBS Demo (Quang2000) (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nario-bbs-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nario-bbs-demo/BBS Demo (Quang2000) (PD).png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "nario-bbs-demo",
-                    filename: "BBS Demo (Quang2000) (PD).gb",
-                ),
-            ],
         ),
     ],
 )

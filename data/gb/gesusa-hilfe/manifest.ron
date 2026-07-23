@@ -1,6 +1,18 @@
 (
     title: "Gesusa Hilfe",
     developer: Some("colorful-courier"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gesusa-hilfe/gesusa-hilfe.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gesusa-hilfe",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gesusa-hilfe/gesusa-hilfe.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gesusa-hilfe/gesusa-hilfe.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gesusa-hilfe",
-                    filename: "gesusa-hilfe.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

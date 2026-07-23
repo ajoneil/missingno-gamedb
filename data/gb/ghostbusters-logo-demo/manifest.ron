@@ -1,5 +1,17 @@
 (
     title: "Ghostbusters Logo Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostbusters-logo-demo/Ghostbusters Logo Demo (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ghostbusters-logo-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostbusters-logo-demo/Ghostbusters Logo Demo (PD).png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1998-12-06"),
-            sources: [
-                HomebrewHub(
-                    slug: "ghostbusters-logo-demo",
-                    filename: "Ghostbusters Logo Demo (PD).gb",
-                ),
-            ],
         ),
     ],
 )

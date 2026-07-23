@@ -2,6 +2,18 @@
     title: "ASCII Wars v1.0",
     developer: Some("Sean Hatfield"),
     description: Some("ASCII WARS is my first gameboy program, and my first C program. The object is to shoot down as many UFO’s as possible."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ascii-wars-v1-0/AsciiWars.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ascii-wars-v1-0",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ascii-wars-v1-0/20110402_ascii_wars.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ascii-wars-v1-0/20110402_ascii_wars.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ascii-wars-v1-0",
-                    filename: "AsciiWars.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

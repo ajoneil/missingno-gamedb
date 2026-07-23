@@ -4,6 +4,16 @@
     license: Some("MIT"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-key/gb-key.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-key",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_keye.html",
             link_type: Wiki,
@@ -23,12 +33,6 @@
     releases: [
         (
             date: Some("2000-07-31"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-key",
-                    filename: "gb-key.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,5 +1,60 @@
 (
     title: "Cat Trax",
+    description: Some("You are the cat; Rover, Lassie and Fido charge out of the doghouse after you while you gobble the catnip dotted along the trax. Snapping up the Power Potion transforms you into a dog-catching truck — slam the dogs home while the siren lasts — with a bag of gold under each fresh maze and a thousand-point bonus for clearing every catnip while the dogs are locked up. Two variations: the blue maze for beginners, the pink maze with a faster purple dog for pros."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/cat_trax.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-cat-trax_17181.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/447955625BB680871A774CD59EFCB2E882DE2A71",
+    ],
+    mods: [
+        (
+            name: "Cat Trax Supercharger conversion",
+            category: Compatibility,
+            author: Some("Nukey Shay"),
+            releases: [
+                (
+                    base_sha1: Some("ccd34827a8d960d4d9062220bfca848d762912f7"),
+                    artifacts: [
+                        (
+                            sha1: "fddf25a4065007bd32e5e26ebbd3e47db78eb680",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Cat Trax PAL conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("ccd34827a8d960d4d9062220bfca848d762912f7"),
+                    artifacts: [
+                        (
+                            sha1: "ae5859cf97ce7c6ed892eafd15acacdef439b2d3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
             date: Some("1983"),
@@ -11,22 +66,10 @@
             artifacts: [
                 (
                     sha1: "e979de719cecab2115affd9c0552c6c596b1999a",
+                    label: Some("alt [a]"),
                 ),
                 (
-                    sha1: "fddf25a4065007bd32e5e26ebbd3e47db78eb680",
-                ),
-            ],
-        ),
-        (
-            date: Some("2002"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
-                (
-                    sha1: "ae5859cf97ce7c6ed892eafd15acacdef439b2d3",
+                    sha1: "ccd34827a8d960d4d9062220bfca848d762912f7",
                 ),
             ],
         ),

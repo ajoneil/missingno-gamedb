@@ -5,6 +5,18 @@
         "Action",
         "event:liksang2000-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/exit-planet-dust/b004.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/exit-planet-dust",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/exit-planet-dust/b004-0.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2000-04-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "exit-planet-dust",
-                    filename: "b004.gb",
-                ),
-            ],
         ),
     ],
 )

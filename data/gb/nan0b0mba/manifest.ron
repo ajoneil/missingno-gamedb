@@ -1,6 +1,18 @@
 (
     title: "NAN0B0MBA",
     developer: Some("aeb"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0b0mba/nan0b0mba.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nan0b0mba",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0b0mba/nan0b0mba.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0b0mba/nan0b0mba.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "nan0b0mba",
-                    filename: "nan0b0mba.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/petris/Petris_web.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/petris",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/bbbbbr/Petris",
             link_type: Source,
@@ -27,15 +37,6 @@
     releases: [
         (
             date: Some("2020-10-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "petris",
-                    filename: "Petris_web.gbc",
-                ),
-                Itch(
-                    url: "https://bbbbbr.itch.io/petris",
-                ),
-            ],
         ),
     ],
 )

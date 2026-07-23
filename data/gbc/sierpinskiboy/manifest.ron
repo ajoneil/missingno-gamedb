@@ -1,6 +1,18 @@
 (
     title: "SIERPINSKIBOY",
     developer: Some("basxto"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinskiboy/sierpinskiboy.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sierpinskiboy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinskiboy/sierpinskiboy.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinskiboy/sierpinskiboy.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "sierpinskiboy",
-                    filename: "sierpinskiboy.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Rocket Man",
     developer: Some("Light Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rocket-man/rocketmandemo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rocket-man",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rocket-man/screenshot1.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2017-07-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "rocket-man",
-                    filename: "rocketmandemo.gb",
-                ),
-            ],
         ),
     ],
 )

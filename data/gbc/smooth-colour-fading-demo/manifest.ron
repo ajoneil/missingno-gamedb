@@ -1,6 +1,18 @@
 (
     title: "Smooth Colour Fading Demo",
     developer: Some("Theory"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/smooth-colour-fading-demo/Smooth Colour Fading Demo (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/smooth-colour-fading-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/smooth-colour-fading-demo/Smooth Colour Fading Demo (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-07-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "smooth-colour-fading-demo",
-                    filename: "Smooth Colour Fading Demo (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -2,6 +2,18 @@
     title: "Tyrian 2000",
     developer: Some("World Tree Games"),
     description: Some("Made available in 2007 by Jason Emery, developer of Tyrian 2000. Publisher Symmetry Entertainment went out of business and the game went unreleased. A Gameboy Advance version was also made and had the same fate happen to it."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tyrian-2000/t.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tyrian-2000",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tyrian-2000/tyrian2000.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2004-08-12"),
-            sources: [
-                HomebrewHub(
-                    slug: "tyrian-2000",
-                    filename: "t.gb",
-                ),
-            ],
         ),
     ],
 )

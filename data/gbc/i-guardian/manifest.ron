@@ -1,6 +1,18 @@
 (
     title: "I Guardian",
     developer: Some("Dreambit"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/i-guardian/I Guardian (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/i-guardian",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/i-guardian/I Guardian (PD) [C].png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2001-01-24"),
-            sources: [
-                HomebrewHub(
-                    slug: "i-guardian",
-                    filename: "I Guardian (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

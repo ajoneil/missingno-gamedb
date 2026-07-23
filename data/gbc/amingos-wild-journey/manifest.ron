@@ -1,6 +1,18 @@
 (
     title: "Amingos Wild Journey",
     developer: Some("Joseph Norman"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/amingos-wild-journey/AmingosWildJourney.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/amingos-wild-journey",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/amingos-wild-journey/20110402_amingos_wild_journey.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/amingos-wild-journey/20110402_amingos_wild_journey.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "amingos-wild-journey",
-                    filename: "AmingosWildJourney.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

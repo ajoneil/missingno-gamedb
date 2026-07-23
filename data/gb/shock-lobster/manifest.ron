@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/shock-lobster/shocklobster.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/shock-lobster",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/tbsp/shock-lobster",
             link_type: Source,
@@ -23,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shock-lobster/k5Mb8Z.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "shock-lobster",
-                    filename: "shocklobster.gb",
-                ),
-                Itch(
-                    url: "https://tbsp.itch.io/shock-lobster",
-                ),
-            ],
-        ),
+        (),
     ],
 )

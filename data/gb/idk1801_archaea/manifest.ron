@@ -11,6 +11,18 @@
         "8-Bit",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/ARCHAEA.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/idk1801_archaea",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/cover.png",
     ],
@@ -22,16 +34,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/idk1801_archaea/screenshots/TUNDEv.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "idk1801_archaea",
-                    filename: "ARCHAEA.gb",
-                ),
-                Itch(
-                    url: "https://idk1801.itch.io/archaea",
-                ),
-            ],
-        ),
+        (),
     ],
 )

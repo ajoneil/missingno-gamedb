@@ -1,5 +1,17 @@
 (
     title: "Watch Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/watch-demo/Watch Demo for GBC (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/watch-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/watch-demo/Watch Demo for GBC (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2001-12-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "watch-demo",
-                    filename: "Watch Demo for GBC (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

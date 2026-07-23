@@ -1,6 +1,18 @@
 (
     title: "Fire",
     developer: Some("Dox"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fire/FIRE.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fire",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fire/153.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "fire",
-                    filename: "FIRE.GB",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Beberg",
     developer: Some("Beber"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/beberg/beberg.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/beberg",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/beberg/beberg-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-07-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "beberg",
-                    filename: "beberg.gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -3,6 +3,16 @@
     developer: Some("Bookworm"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-fm-synth/gb_fm.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-fm-synth",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://mydocuments.g2.xrea.com/html/gb/fm.html",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2009-04-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-fm-synth",
-                    filename: "gb_fm.gbc",
-                ),
-            ],
         ),
     ],
 )

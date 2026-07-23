@@ -1,6 +1,18 @@
 (
     title: "Chunk Out",
     developer: Some("James Todd"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/chunk-out/chunkout.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/chunk-out",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/chunk-out/chunkout.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2016-08-14"),
-            sources: [
-                HomebrewHub(
-                    slug: "chunk-out",
-                    filename: "chunkout.gbc",
-                ),
-            ],
         ),
     ],
 )

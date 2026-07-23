@@ -1,6 +1,18 @@
 (
     title: "Pak Man",
     developer: Some("Gambit Studios"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pak-man/pak-man.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pak-man",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pak-man/pak-man.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pak-man/pak-man.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pak-man",
-                    filename: "pak-man.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

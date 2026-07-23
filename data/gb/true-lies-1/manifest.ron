@@ -1,6 +1,18 @@
 (
     title: "True Lies +1",
     developer: Some("Asgard"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/true-lies-1/ASG-T_01.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/true-lies-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/true-lies-1/710.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2006-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "true-lies-1",
-                    filename: "ASG-T_01.GB",
-                ),
-            ],
         ),
     ],
 )

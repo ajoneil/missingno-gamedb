@@ -1,6 +1,18 @@
 (
     title: "Commando Death",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/commando-death/CommandoDeath.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/commando-death",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/commando-death/20110402_commando_death.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/commando-death/20110402_commando_death.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "commando-death",
-                    filename: "CommandoDeath.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -8,6 +8,18 @@
         "Platform",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/Days_Without_-_Elvies_[More_Endings].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/days-without",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/cover.gif",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/days-without/882p95.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "days-without",
-                    filename: "Days_Without_-_Elvies_[More_Endings].gbc",
-                ),
-                Itch(
-                    url: "https://elvies.itch.io/days-without",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Counting Sheep",
     developer: Some("cabbage"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/counting-sheep/counting-sheep.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/counting-sheep",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/counting-sheep/counting-sheep.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/counting-sheep/counting-sheep.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "counting-sheep",
-                    filename: "counting-sheep.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

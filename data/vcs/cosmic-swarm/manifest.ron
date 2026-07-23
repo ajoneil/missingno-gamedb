@@ -1,7 +1,29 @@
 (
     title: "Cosmic Swarm",
+    description: Some("Giant mineral-eating termites have woken aboard the WAYPOINT depot, and you fly a fragile remote probe into the power chamber to clear the nest they are building. Nest blocks only fall while energized — snipe one squarely off a carrier\'s back to charge the rest red — and when fuel runs low you must break off and dock with the passing tanker, or the game ends on the spot."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/cosmic_swarm.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AA02ABA3EAED2584B9A60E3865E0B1DF4E43A884",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
@@ -9,28 +31,31 @@
             artifacts: [
                 (
                     sha1: "1086057e9c8985a0bb9a1efdd1ab08d9cab4fd41",
-                ),
-                (
-                    sha1: "4ce10f7f78febd29547239f36464ba4def80c06e",
+                    label: Some("alt 1"),
                 ),
                 (
                     sha1: "b4acf8b4106dbaeeecec959f5b2b485141b05832",
+                    label: Some("alt 2"),
                 ),
                 (
                     sha1: "c01354760f2ca8d6e4d01b230f31611973c6ae2d",
                 ),
+                (
+                    sha1: "24963c9673bdc2fd599f39308a71d45763daabbc",
+                    label: Some("overdump [o]"),
+                ),
             ],
         ),
         (
-            date: Some("1982"),
-            publisher: Some("CommaVid"),
+            label: Some("Screen Search Console"),
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
+                cart_type: Some("2K"),
             ),
             artifacts: [
                 (
-                    sha1: "24963c9673bdc2fd599f39308a71d45763daabbc",
+                    sha1: "4ce10f7f78febd29547239f36464ba4def80c06e",
                 ),
             ],
         ),

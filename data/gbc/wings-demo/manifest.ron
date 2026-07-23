@@ -1,6 +1,18 @@
 (
     title: "Wings",
     kind: Demo,
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/wings-demo/Wings Demo (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/wings-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/wings-demo/Wings Demo (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-02-16"),
-            sources: [
-                HomebrewHub(
-                    slug: "wings-demo",
-                    filename: "Wings Demo (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

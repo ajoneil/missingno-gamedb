@@ -5,6 +5,18 @@
         "Arcade",
         "event:bung-1st-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ballgamedx-demo/BallgameDXDemo.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ballgamedx-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ballgamedx-demo/20110402_ballgamedx_demo.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ballgamedx-demo/20110402_ballgamedx_demo.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ballgamedx-demo",
-                    filename: "BallgameDXDemo.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

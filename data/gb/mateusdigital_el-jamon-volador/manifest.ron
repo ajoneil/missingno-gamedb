@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mateusdigital_el-jamon-volador/el-jamon-volador_1.2.1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mateusdigital_el-jamon-volador",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/mateusdigital/el_jamon_volador",
             link_type: Source,
@@ -20,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mateusdigital_el-jamon-volador/screenshots/Eljamonvolador.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "mateusdigital_el-jamon-volador",
-                    filename: "el-jamon-volador_1.2.1.gb",
-                ),
-                Itch(
-                    url: "https://mateusdigital.itch.io/el-jamon-volador",
-                ),
-            ],
-        ),
+        (),
     ],
 )

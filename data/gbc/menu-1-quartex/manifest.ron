@@ -1,6 +1,18 @@
 (
     title: "Menu #1 (Zoboomafoo +2)",
     developer: Some("Quartex"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-quartex/qtx-t_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-1-quartex",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-quartex/243.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-1-quartex",
-                    filename: "qtx-t_01.gbc",
-                ),
-            ],
         ),
     ],
 )

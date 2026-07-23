@@ -1,6 +1,18 @@
 (
     title: "Ikinari Bopper",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ikinari-bopper/ikinari-bopper.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ikinari-bopper",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ikinari-bopper/ikinari-bopper.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ikinari-bopper/ikinari-bopper.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ikinari-bopper",
-                    filename: "ikinari-bopper.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -5,6 +5,18 @@
         "Adventure",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/noahs-arkaid/Arkaid.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/noahs-arkaid",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/noahs-arkaid/20110402_noahs_arkaid.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/noahs-arkaid/20110402_noahs_arkaid.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "noahs-arkaid",
-                    filename: "Arkaid.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

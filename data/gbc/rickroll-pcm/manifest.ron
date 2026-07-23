@@ -2,6 +2,18 @@
     title: "Rickroll PCM",
     developer: Some("FijiAura"),
     description: Some("Based off of the NES version."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rickroll-pcm/rickroll.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rickroll-pcm",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rickroll-pcm/PCM.demo.wgraphics_003.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rickroll-pcm/PCM.demo.wgraphics_003.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rickroll-pcm",
-                    filename: "rickroll.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

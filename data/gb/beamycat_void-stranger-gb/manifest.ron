@@ -13,6 +13,18 @@
         "Puzzle",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/beamycat_void-stranger-gb/void_stranger_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/beamycat_void-stranger-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/beamycat_void-stranger-gb/cover.png",
     ],
@@ -24,16 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/beamycat_void-stranger-gb/screenshots/4bjFY9.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "beamycat_void-stranger-gb",
-                    filename: "void_stranger_jam.gb",
-                ),
-                Itch(
-                    url: "https://beamycat.itch.io/void-stranger-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

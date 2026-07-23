@@ -4,6 +4,16 @@
     license: Some("MIT"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-rem/gb-rem.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-rem",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_reme.html",
             link_type: Wiki,
@@ -23,12 +33,6 @@
     releases: [
         (
             date: Some("2000-10-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-rem",
-                    filename: "gb-rem.gb",
-                ),
-            ],
         ),
     ],
 )

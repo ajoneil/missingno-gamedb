@@ -5,6 +5,18 @@
         "Shooter",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/project-x-stream/ProjectX-Stream.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/project-x-stream",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/project-x-stream/20110402_project-x-stream.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/project-x-stream/20110402_project-x-stream.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "project-x-stream",
-                    filename: "ProjectX-Stream.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

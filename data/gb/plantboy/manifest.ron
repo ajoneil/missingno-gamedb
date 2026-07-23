@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/plantboy/PlantBoy.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/plantboy",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/exezin/PlantBoy",
             link_type: Source,
@@ -20,13 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/plantboy/screenshot01.bmp",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "plantboy",
-                    filename: "PlantBoy.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

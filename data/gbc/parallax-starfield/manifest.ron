@@ -1,6 +1,18 @@
 (
     title: "175-sprite Parallax Starfield",
     developer: Some("One Man Band"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/parallax-starfield/Stars.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/parallax-starfield",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/parallax-starfield/718.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "parallax-starfield",
-                    filename: "Stars.gb",
-                ),
-            ],
         ),
     ],
 )

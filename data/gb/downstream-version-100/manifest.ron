@@ -1,6 +1,18 @@
 (
     title: "Downstream (Version 1.0.0)",
     developer: Some("DeltaGardner"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/downstream-version-100/downstream.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/downstream-version-100",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/downstream-version-100/downstream.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/downstream-version-100/downstream.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "downstream-version-100",
-                    filename: "downstream.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

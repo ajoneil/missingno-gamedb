@@ -1,6 +1,18 @@
 (
     title: "Scramble GB v1.0",
     developer: Some("John Ward, Lee Bonner"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/scramble-gb-v1-0/Scramble.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/scramble-gb-v1-0",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/scramble-gb-v1-0/20110402_scramble_gb.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/scramble-gb-v1-0/20110402_scramble_gb.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "scramble-gb-v1-0",
-                    filename: "Scramble.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

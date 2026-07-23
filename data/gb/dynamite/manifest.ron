@@ -1,6 +1,18 @@
 (
     title: "Dynamite",
     developer: Some("MattPW"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dynamite/Dynamite.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dynamite",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dynamite/20110402_dynamite.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dynamite/20110402_dynamite.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "dynamite",
-                    filename: "Dynamite.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "HighNoon",
     developer: Some("Braindead"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/highnoon/HighNoon (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/highnoon",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/highnoon/HighNoon (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-11-18"),
-            sources: [
-                HomebrewHub(
-                    slug: "highnoon",
-                    filename: "HighNoon (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

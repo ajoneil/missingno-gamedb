@@ -6,6 +6,18 @@
         "Simulation",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/goose-a-gotchi/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/goose-a-gotchi",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/goose-a-gotchi/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/goose-a-gotchi/W7MZs9.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "goose-a-gotchi",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://kxaxcy.itch.io/goose-a-gotchi",
-                ),
-            ],
-        ),
+        (),
     ],
 )

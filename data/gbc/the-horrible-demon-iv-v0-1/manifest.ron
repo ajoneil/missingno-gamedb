@@ -5,6 +5,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon-iv-v0-1/THD4.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-horrible-demon-iv-v0-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon-iv-v0-1/20110402_the_horrible_demon_iv.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2001-09-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "the-horrible-demon-iv-v0-1",
-                    filename: "THD4.gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -3,6 +3,16 @@
     developer: Some("Hammer Keyboard Studios"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/music-mod-gb-test/Music Mod GameBoy Test (GB).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/music-mod-gb-test",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://www.romhacking.net/homebrew/157/",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2022-03-06"),
-            sources: [
-                HomebrewHub(
-                    slug: "music-mod-gb-test",
-                    filename: "Music Mod GameBoy Test (GB).gb",
-                ),
-            ],
         ),
     ],
 )

@@ -14,6 +14,18 @@
         "Puzzle",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/BorisYeltsinFlappyBird_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/generalgruntin_boris-yeltsin-flappy-bird",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/cover.jpg",
     ],
@@ -26,16 +38,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/generalgruntin_boris-yeltsin-flappy-bird/screenshots/vt46EH.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "generalgruntin_boris-yeltsin-flappy-bird",
-                    filename: "BorisYeltsinFlappyBird_jam.gb",
-                ),
-                Itch(
-                    url: "https://generalgruntin.itch.io/boris-yeltsin-flappy-bird",
-                ),
-            ],
-        ),
+        (),
     ],
 )

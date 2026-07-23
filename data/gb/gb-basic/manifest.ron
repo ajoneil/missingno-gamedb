@@ -1,6 +1,18 @@
 (
     title: "GB Basic",
     developer: Some("Jeff Frohwein"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-basic/GBBASIC.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-basic",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-basic/GBB108.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-02-17"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-basic",
-                    filename: "GBBASIC.GB",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Perplex DX",
     developer: Some("Smacks-Designs"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/perplex-dx/perplexdx.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/perplex-dx",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/perplex-dx/perplexdx.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2001-02-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "perplex-dx",
-                    filename: "perplexdx.gbc",
-                ),
-            ],
         ),
     ],
 )

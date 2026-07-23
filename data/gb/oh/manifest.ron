@@ -1,6 +1,18 @@
 (
     title: "Oh!",
     developer: Some("Snorpung"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/oh.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/oh",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/oh/555.png",
     ],
@@ -22,12 +34,6 @@
     releases: [
         (
             date: Some("2009-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "oh",
-                    filename: "oh.gb",
-                ),
-            ],
         ),
     ],
 )

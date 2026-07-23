@@ -2,6 +2,18 @@
     title: "Touhou GB",
     developer: Some("gnmmarechal"),
     description: Some("Homebrew clone of the Touhou bullet hell games."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/touhou-gb/touhou-gb.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/touhou-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/touhou-gb/touhou-gb.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/touhou-gb/touhou-gb.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "touhou-gb",
-                    filename: "touhou-gb.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

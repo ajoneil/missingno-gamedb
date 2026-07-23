@@ -1,5 +1,17 @@
 (
     title: "Maze Runner - Atari-Style Version",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-runner-atari-style/Maze Runner - Atari-Style Version (Quang2000) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/maze-runner-atari-style",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-runner-atari-style/Maze Runner - Atari-Style Version (Quang2000) (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2000-08-03"),
-            sources: [
-                HomebrewHub(
-                    slug: "maze-runner-atari-style",
-                    filename: "Maze Runner - Atari-Style Version (Quang2000) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

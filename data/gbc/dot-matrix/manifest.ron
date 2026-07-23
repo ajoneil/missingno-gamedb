@@ -1,6 +1,18 @@
 (
     title: "Dot Matrix",
     developer: Some("One Man Band"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dot-matrix/DotMatrix.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dot-matrix",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dot-matrix/721.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "dot-matrix",
-                    filename: "DotMatrix.cgb",
-                ),
-            ],
         ),
     ],
 )

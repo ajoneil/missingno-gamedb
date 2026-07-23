@@ -6,6 +6,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/River_Styx_Round-Up_1.0.0.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/river-styx-round-up",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/river-styx-round-up/N12Bjrp.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "river-styx-round-up",
-                    filename: "River_Styx_Round-Up_1.0.0.gb",
-                ),
-                Itch(
-                    url: "https://idnitmedia.itch.io/river-styx-round-up",
-                ),
-            ],
-        ),
+        (),
     ],
 )

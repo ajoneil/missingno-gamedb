@@ -5,6 +5,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/red-dreams/red.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/red-dreams",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/red-dreams/20110402_red_dreams.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2001-09-14"),
-            sources: [
-                HomebrewHub(
-                    slug: "red-dreams",
-                    filename: "red.gb",
-                ),
-            ],
         ),
     ],
 )

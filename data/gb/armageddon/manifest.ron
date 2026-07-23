@@ -1,6 +1,18 @@
 (
     title: "Armageddon",
     developer: Some("Megaman_X"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/armageddon/Armageddon.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/armageddon",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/armageddon/285.png",
     ],
@@ -12,12 +24,6 @@
     releases: [
         (
             date: Some("1999-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "armageddon",
-                    filename: "Armageddon.gb",
-                ),
-            ],
         ),
     ],
 )

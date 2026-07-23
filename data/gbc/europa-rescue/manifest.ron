@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/europa-rescue/Europa Rescue.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/europa-rescue",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/godai78/europa",
             link_type: Source,
@@ -22,13 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/europa-rescue/panels.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "europa-rescue",
-                    filename: "Europa Rescue.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

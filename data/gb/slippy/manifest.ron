@@ -1,6 +1,18 @@
 (
     title: "Slippy",
     developer: Some("Mattias Wadman"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/slippy/Slippy.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/slippy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/slippy/20110402_slippy.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/slippy/20110402_slippy.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "slippy",
-                    filename: "Slippy.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

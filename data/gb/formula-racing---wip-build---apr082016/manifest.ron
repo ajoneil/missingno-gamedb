@@ -2,6 +2,18 @@
     title: "Formula Racing - WIP Build - APR.08.2016",
     developer: Some("Refresh Games"),
     description: Some("Formula Racing is a classic overhead view racing game inspired from retro racers such as The arcade classic Monaco GP and F1 Race on the gameboy."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/formula-racing---wip-build---apr082016/racemedo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/formula-racing---wip-build---apr082016",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/formula-racing---wip-build---apr082016/formularacing.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2016-08-23"),
-            sources: [
-                HomebrewHub(
-                    slug: "formula-racing---wip-build---apr082016",
-                    filename: "racemedo.gb",
-                ),
-            ],
         ),
     ],
 )

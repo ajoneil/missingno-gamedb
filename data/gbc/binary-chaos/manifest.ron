@@ -1,6 +1,18 @@
 (
     title: "Binary Chaos",
     developer: Some("Stoic Software"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/chaos.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/binary-chaos",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/binary-chaos/shoplady.gif",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("2001-02-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "binary-chaos",
-                    filename: "chaos.gbc",
-                ),
-            ],
         ),
     ],
 )

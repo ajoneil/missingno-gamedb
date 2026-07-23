@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/superconnard/sc_prod.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/superconnard",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://furrtek.free.fr/superconnard/index.php",
             link_type: Wiki,
@@ -25,13 +35,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/superconnard/screenshot-2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "superconnard",
-                    filename: "sc_prod.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -10,6 +10,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/plyr0_qulqy/qulqy_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/plyr0_qulqy",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://codeberg.org/plyr0/qulqy",
             link_type: Source,
@@ -27,16 +37,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/plyr0_qulqy/screenshots/aXejSw.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "plyr0_qulqy",
-                    filename: "qulqy_jam.gbc",
-                ),
-                Itch(
-                    url: "https://plyr0.itch.io/qulqy",
-                ),
-            ],
-        ),
+        (),
     ],
 )

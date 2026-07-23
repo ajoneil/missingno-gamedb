@@ -2,6 +2,18 @@
     title: "PaZeek",
     developer: Some("SkyRank Games"),
     description: Some("SkyRank Games scrapped this game and moved on to GBA development, they wrote \"The wait is over, PaZeek GBC is NOW available for download. The game is 85% complete with more then 50 playable levels.\""),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pazeek/skyrank-games---pazeek-6-9-01.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pazeek",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pazeek/pazeek.png",
     ],
@@ -12,12 +24,6 @@
     releases: [
         (
             date: Some("2001-06-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "pazeek",
-                    filename: "skyrank-games---pazeek-6-9-01.gb",
-                ),
-            ],
         ),
     ],
 )

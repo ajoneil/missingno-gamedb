@@ -5,6 +5,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-the-woods/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/a-walk-in-the-woods",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-the-woods/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-the-woods/6IhPXD.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "a-walk-in-the-woods",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://mooncaller.itch.io/a-walk-in-the-woods",
-                ),
-            ],
-        ),
+        (),
     ],
 )

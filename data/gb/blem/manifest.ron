@@ -1,5 +1,17 @@
 (
     title: "Blem!",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/blem/BLEM! (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/blem",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/blem/BLEM! (PD).png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-07-03"),
-            sources: [
-                HomebrewHub(
-                    slug: "blem",
-                    filename: "BLEM! (PD).gb",
-                ),
-            ],
         ),
     ],
 )

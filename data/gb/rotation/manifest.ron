@@ -1,6 +1,18 @@
 (
     title: "Rotation",
     developer: Some("S. Noody"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rotation/Rotation.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rotation",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rotation/20110402_rotation.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rotation/20110402_rotation.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rotation",
-                    filename: "Rotation.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

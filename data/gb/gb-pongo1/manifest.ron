@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pongo1/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-pongo1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pongo1/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pongo1/8fk5dH.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gb-pongo1",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://creativags.itch.io/gb-pongo1",
-                ),
-            ],
-        ),
+        (),
     ],
 )

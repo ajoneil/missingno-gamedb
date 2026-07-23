@@ -5,6 +5,18 @@
         "Rhythm",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sasor7i_zako-xylo/ZakoXylo_jam_gbc.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sasor7i_zako-xylo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sasor7i_zako-xylo/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sasor7i_zako-xylo/screenshots/tI6tHx.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "sasor7i_zako-xylo",
-                    filename: "ZakoXylo_jam_gbc.gb",
-                ),
-                Itch(
-                    url: "https://sasor7i.itch.io/zako-xylo",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "JRP\'01 Invite",
     developer: Some("Nukleus"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jrp-01-invite/GINTRO.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jrp-01-invite",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jrp-01-invite/150.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "jrp-01-invite",
-                    filename: "GINTRO.GBC",
-                ),
-            ],
         ),
     ],
 )

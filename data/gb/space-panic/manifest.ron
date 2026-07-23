@@ -6,6 +6,18 @@
         "Platform",
         "event:bung-1st-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/space-panic/spacepanic.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/space-panic",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-panic/spacepanic.gif",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("1999-06-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "space-panic",
-                    filename: "spacepanic.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -5,17 +5,19 @@
     tags: [
         "event:gbshowdown23",
     ],
-    releases: [
+    links: [
         (
-            sources: [
-                HomebrewHub(
-                    slug: "freind",
-                    filename: "Friend.gb",
-                ),
-                Itch(
-                    url: "https://gb-studio-central.itch.io/freind",
-                ),
-            ],
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/freind/Friend.gb",
+            link_type: Download,
         ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/freind",
+            link_type: DownloadPage,
+        ),
+    ],
+    releases: [
+        (),
     ],
 )

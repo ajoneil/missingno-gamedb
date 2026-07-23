@@ -1,6 +1,18 @@
 (
     title: "Guess The Number 2",
     developer: Some("Pete"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/guess-the-number-2/GuessTheNumber_2.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/guess-the-number-2",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/guess-the-number-2/20110402_guess_the_number_2.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/guess-the-number-2/20110402_guess_the_number_2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "guess-the-number-2",
-                    filename: "GuessTheNumber_2.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

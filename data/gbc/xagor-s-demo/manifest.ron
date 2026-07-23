@@ -4,6 +4,18 @@
     tags: [
         "event:liksang2000-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/xagor-s-demo/XagorsDemo.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/xagor-s-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/xagor-s-demo/755.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2000-04-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "xagor-s-demo",
-                    filename: "XagorsDemo.cgb",
-                ),
-            ],
         ),
     ],
 )

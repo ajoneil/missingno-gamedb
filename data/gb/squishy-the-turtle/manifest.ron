@@ -4,6 +4,16 @@
     license: Some("MIT"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/squishy-the-turtle/squishy-magfest.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/squishy-the-turtle",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/potatolain/SquishyTheTurtle",
             link_type: Source,
@@ -18,12 +28,6 @@
     releases: [
         (
             date: Some("2015-12-14"),
-            sources: [
-                HomebrewHub(
-                    slug: "squishy-the-turtle",
-                    filename: "squishy-magfest.gb",
-                ),
-            ],
         ),
     ],
 )

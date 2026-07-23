@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/master-your-multiplication/MasterYourMultiplication.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/master-your-multiplication",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/master-your-multiplication/20110402_master_your_multiplication.png",
     ],
@@ -11,13 +23,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/master-your-multiplication/20110402_master_your_multiplication.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "master-your-multiplication",
-                    filename: "MasterYourMultiplication.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

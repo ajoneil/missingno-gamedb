@@ -6,6 +6,18 @@
         "Action",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gerzytet_race-for-the-ps9/PS9Race.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gerzytet_race-for-the-ps9",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gerzytet_race-for-the-ps9/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gerzytet_race-for-the-ps9/screenshots/JRaKx2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gerzytet_race-for-the-ps9",
-                    filename: "PS9Race.gbc",
-                ),
-                Itch(
-                    url: "https://gerzytet.itch.io/race-for-the-ps9",
-                ),
-            ],
-        ),
+        (),
     ],
 )

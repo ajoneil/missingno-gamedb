@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tobutobugirldeluxe/tobudx.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tobutobugirldeluxe",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/SimonLarsen/tobutobugirl-dx",
             link_type: Source,
@@ -22,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tobutobugirldeluxe/3.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tobutobugirldeluxe",
-                    filename: "tobudx.gb",
-                ),
-                Itch(
-                    url: "https://tangramgames.itch.io/tobu-tobu-girl-deluxe",
-                ),
-            ],
-        ),
+        (),
     ],
 )

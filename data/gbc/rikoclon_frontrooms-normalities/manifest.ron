@@ -13,6 +13,18 @@
         "gb-studio",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rikoclon_frontrooms-normalities/Frontrooms Normalities  0.2.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rikoclon_frontrooms-normalities",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rikoclon_frontrooms-normalities/cover.gif",
     ],
@@ -31,16 +43,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rikoclon_frontrooms-normalities/screenshots/08svBg.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rikoclon_frontrooms-normalities",
-                    filename: "Frontrooms Normalities  0.2.gbc",
-                ),
-                Itch(
-                    url: "https://rikoclon.itch.io/frontrooms-normalities",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "All7",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/all7/All7.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/all7",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/all7/20110402_all7.gif",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/all7/20110402_all7.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "all7",
-                    filename: "All7.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

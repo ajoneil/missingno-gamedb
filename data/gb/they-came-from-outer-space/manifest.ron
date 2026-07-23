@@ -1,6 +1,18 @@
 (
     title: "They came from outer space...",
     developer: Some("Carcatau Development"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/they-came-from-outer-space/tcfos.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/they-came-from-outer-space",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/they-came-from-outer-space/tcfos.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("1998-08-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "they-came-from-outer-space",
-                    filename: "tcfos.gb",
-                ),
-            ],
         ),
     ],
 )

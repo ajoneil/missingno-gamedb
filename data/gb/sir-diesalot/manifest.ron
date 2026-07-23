@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sir-diesalot/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sir-diesalot",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sir-diesalot/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sir-diesalot/HqAiH7.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "sir-diesalot",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://nemuristar.itch.io/sir-diesalot",
-                ),
-            ],
-        ),
+        (),
     ],
 )

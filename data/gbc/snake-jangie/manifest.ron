@@ -5,6 +5,18 @@
         "Arcade",
         "event:bung-1st-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/snake-jangie/Snake.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/snake-jangie",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snake-jangie/20110402_snake.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snake-jangie/20110402_snake.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "snake-jangie",
-                    filename: "Snake.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rex-runner-gb/rex-runner.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rex-runner-gb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/etdv-thevoid/rex-runner-gb",
             link_type: Source,
@@ -27,12 +37,6 @@
     releases: [
         (
             date: Some("2024-08-04"),
-            sources: [
-                HomebrewHub(
-                    slug: "rex-runner-gb",
-                    filename: "rex-runner.gb",
-                ),
-            ],
         ),
     ],
 )

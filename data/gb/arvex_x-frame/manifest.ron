@@ -7,6 +7,18 @@
         "Action",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/arvex_x-frame/xframe-128KB-2025-08-31a_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/arvex_x-frame",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/arvex_x-frame/cover.png",
     ],
@@ -18,15 +30,6 @@
     releases: [
         (
             status: Prototype,
-            sources: [
-                HomebrewHub(
-                    slug: "arvex_x-frame",
-                    filename: "xframe-128KB-2025-08-31a_jam.gb",
-                ),
-                Itch(
-                    url: "https://arvex.itch.io/x-frame",
-                ),
-            ],
         ),
     ],
 )

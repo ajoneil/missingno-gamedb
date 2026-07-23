@@ -2,6 +2,18 @@
     title: "Rumble & Tumble (E3 2001 Demo)",
     developer: Some("SkyRank Games"),
     description: Some("Join Rumble & Tumble on their Wild Adventure for the Game Boy Color. Travel through Forests, Deserts, Caves, Oceans and the heavens to defeat the Evil Thunder King and his henchmen to set the land free."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rumble--tumble-e3-2001-demo/rumble--tumble-early-beta-5-17.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rumble--tumble-e3-2001-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rumble--tumble-e3-2001-demo/rumble_and_tumble.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2001-06-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "rumble--tumble-e3-2001-demo",
-                    filename: "rumble--tumble-early-beta-5-17.gbc",
-                ),
-            ],
         ),
     ],
 )

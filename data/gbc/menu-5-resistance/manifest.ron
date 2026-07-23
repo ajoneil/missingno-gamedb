@@ -1,6 +1,18 @@
 (
     title: "Menu #5 (Test Menu v1.2+5)",
     developer: Some("Resistance"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-5-resistance/rse-t_05.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-5-resistance",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-5-resistance/187.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-5-resistance",
-                    filename: "rse-t_05.gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -1,5 +1,17 @@
 (
     title: "Hybrid GBPlot",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hybrid-gbplot/Hybrid GBPlot (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hybrid-gbplot",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hybrid-gbplot/Hybrid GBPlot (PD).png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-10-08"),
-            sources: [
-                HomebrewHub(
-                    slug: "hybrid-gbplot",
-                    filename: "Hybrid GBPlot (PD).gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "DMG*P-01",
     developer: Some("Genesis Project"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/dmgp-01.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dmg-p-01",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dmg-p-01/654.png",
     ],
@@ -18,12 +30,6 @@
     releases: [
         (
             date: Some("2013-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "dmg-p-01",
-                    filename: "dmgp-01.gb",
-                ),
-            ],
         ),
     ],
 )

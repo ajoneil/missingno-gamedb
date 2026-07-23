@@ -5,6 +5,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-princess-and-the-pauper/princess.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-princess-and-the-pauper",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-princess-and-the-pauper/screenshot.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-princess-and-the-pauper/screenshot.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-princess-and-the-pauper",
-                    filename: "princess.GBC",
-                ),
-            ],
-        ),
+        (),
     ],
 )

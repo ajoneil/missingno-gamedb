@@ -5,6 +5,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/proxima/proxima.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/proxima",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/proxima/20110402_proxima.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/proxima/20110402_proxima.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "proxima",
-                    filename: "proxima.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Beauty Girls Volume 1",
     developer: Some("Dox"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/beauty-girls-volume-1/beauty-girls-volume-1.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/beauty-girls-volume-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/beauty-girls-volume-1/beauty-girls-volume-1.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/beauty-girls-volume-1/beauty-girls-volume-1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "beauty-girls-volume-1",
-                    filename: "beauty-girls-volume-1.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

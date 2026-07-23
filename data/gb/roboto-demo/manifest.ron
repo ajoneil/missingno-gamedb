@@ -3,6 +3,16 @@
     developer: Some("naavis"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/roboto-demo/skrollidemo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/roboto-demo",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/naavis/roboto-demo",
             link_type: Source,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2017-05-06"),
-            sources: [
-                HomebrewHub(
-                    slug: "roboto-demo",
-                    filename: "skrollidemo.gb",
-                ),
-            ],
         ),
     ],
 )

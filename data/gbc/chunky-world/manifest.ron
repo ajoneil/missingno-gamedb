@@ -1,6 +1,18 @@
 (
     title: "Chunky World",
     developer: Some("Dream Team"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/chunky-world/GBDEV.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/chunky-world",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/chunky-world/262.png",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "chunky-world",
-                    filename: "GBDEV.GBC",
-                ),
-            ],
         ),
     ],
 )

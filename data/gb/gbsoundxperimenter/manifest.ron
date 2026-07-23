@@ -1,6 +1,18 @@
 (
     title: "GBSoundXperimenter v1.3",
     developer: Some("MJCulross"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbsoundxperimenter/Soundx.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbsoundxperimenter",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gbsoundxperimenter/Soundx-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-08-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "gbsoundxperimenter",
-                    filename: "Soundx.gb",
-                ),
-            ],
         ),
     ],
 )

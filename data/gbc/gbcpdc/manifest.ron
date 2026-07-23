@@ -4,6 +4,16 @@
     license: Some("MIT"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcpdc/gb-pdc.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbcpdc",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_pdce.html",
             link_type: Wiki,
@@ -21,13 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcpdc/gb-pdc-0.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gbcpdc",
-                    filename: "gb-pdc.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,5 +1,17 @@
 (
     title: "Segmond (First Demo)",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/segmond-first-demo/Segmond First Demo (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/segmond-first-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/segmond-first-demo/Segmond First Demo (PD).png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1998-11-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "segmond-first-demo",
-                    filename: "Segmond First Demo (PD).gb",
-                ),
-            ],
         ),
     ],
 )

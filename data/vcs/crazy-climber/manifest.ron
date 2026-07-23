@@ -1,7 +1,33 @@
 (
     title: "Crazy Climber",
+    description: Some("Scale four skyscrapers window by window while the buildings fight back — the Mad Doctor rains flowerpots and buckets, a giant condor divebombs with eggs, girders sweep the walls and windows snap shut on your hands: one caught hand survives if you freeze, two means the street. Top each tower inside the helicopter\'s thirty-second hover to fly onward; there is no climbing down. Atari sold the cart only through its mail-order fan club."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Crazy_Climber",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/crazy_climber.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4664C575602C3CEC77E9C9027F7A63CCAC6F5471",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            label: Some("Atari Fan Club exclusive"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -14,6 +40,29 @@
                 ),
                 (
                     sha1: "9ae3bca3cc6a00d716fe065da3106346006b54ba",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fd8a4fa64955ffb73fb41151c768c178c630e21b",
+                    label: Some("[a1]"),
+                ),
+                (
+                    sha1: "13df76152c8f200fb088413923c16f431e12b79b",
+                    label: Some("[a2]"),
+                ),
+                (
+                    sha1: "f016d1923828e7bd4df5ad6a5ecabbb9f0c42688",
+                    label: Some("[a3]"),
                 ),
             ],
         ),

@@ -1,6 +1,18 @@
 (
     title: "Guns & Riders (Version 1.0)",
     developer: Some("J. M. Clement"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/guns--riders-version-10/gunsriders.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/guns--riders-version-10",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/guns--riders-version-10/gunsriders.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/guns--riders-version-10/gunsriders.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "guns--riders-version-10",
-                    filename: "gunsriders.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

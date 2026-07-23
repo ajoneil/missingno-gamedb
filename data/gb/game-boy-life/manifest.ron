@@ -3,6 +3,16 @@
     developer: Some("NovaSquirrel"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-life/life.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/game-boy-life",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://github.com/NovaSquirrel/GameBoyLife",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2018-07-08"),
-            sources: [
-                HomebrewHub(
-                    slug: "game-boy-life",
-                    filename: "life.gb",
-                ),
-            ],
         ),
     ],
 )

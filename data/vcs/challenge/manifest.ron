@@ -1,7 +1,42 @@
 (
     title: "Challenge",
+    description: Some("You are a duck threading a maze from the bottom-right corner to the top-left, where flashing walls bar the way and prowling rodents cost you one of six lives. Every level runs against a six-minute clock, scoring 200 points for the first wall passed and 100 for each after."),
+    links: [
+        (
+            name: "Atarimania (Challenge)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-challenge_7919.html",
+            link_type: Community,
+        ),
+        (
+            name: "Atarimania (My Way)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-my-way_15361.html",
+            link_type: Community,
+        ),
+        (
+            name: "AtariAge (Zellers)",
+            url: "https://atariage.com/software_page.php?SoftwareID=2200",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (AtariAge)",
+            url: "https://atariage.com/manual_html_page.php?SoftwareLabelID=349",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7D749A0401CBB5EDF329A55B7905E7060EF5241A",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Canada,
+            ],
             publisher: Some("Zellers"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -10,9 +45,6 @@
             artifacts: [
                 (
                     sha1: "b2b1bd165b3c10cde5316ed0f9f05a509aac828d",
-                ),
-                (
-                    sha1: "e81b5e49cfbb283edba2c8f21f31a8148d8645a1",
                 ),
             ],
         ),
@@ -28,14 +60,39 @@
             ],
         ),
         (
+            title: Some("Challenge"),
+            regions: [
+                Australia,
+            ],
             publisher: Some("HES"),
             hardware: (
                 tv_format: Some(Pal),
-                cart_type: Some("F8"),
+                cart_type: Some("4K"),
             ),
             artifacts: [
                 (
                     sha1: "1191ed3cac491bab487ab3c3b52ecf56bd817b58",
+                    label: Some("alt [a] (8K)"),
+                ),
+                (
+                    sha1: "e81b5e49cfbb283edba2c8f21f31a8148d8645a1",
+                ),
+            ],
+        ),
+        (
+            title: Some("Mein Weg - My Way"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "683fa09578bcdd129500c51fdc5dd059ff2f7c68",
                 ),
             ],
         ),

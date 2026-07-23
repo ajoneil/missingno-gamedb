@@ -1,6 +1,18 @@
 (
     title: "Nervous",
     developer: Some("Fatality"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nervous/NERVOUS.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nervous",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nervous/164.png",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("1999-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "nervous",
-                    filename: "NERVOUS.GB",
-                ),
-            ],
         ),
     ],
 )

@@ -4,6 +4,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/bone_finder.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bone-finder",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/cover.jpg",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bone-finder/WDwgCf.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "bone-finder",
-                    filename: "bone_finder.gb",
-                ),
-                Itch(
-                    url: "https://djarky.itch.io/bone-finder",
-                ),
-            ],
-        ),
+        (),
     ],
 )

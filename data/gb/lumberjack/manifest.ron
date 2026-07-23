@@ -6,6 +6,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lumberjack/ind-lj.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lumberjack",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://github.com/gitendo/lumberjack",
             link_type: Wiki,
@@ -20,12 +30,6 @@
     releases: [
         (
             date: Some("2017-10-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "lumberjack",
-                    filename: "ind-lj.gb",
-                ),
-            ],
         ),
     ],
 )

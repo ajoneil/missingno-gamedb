@@ -1,6 +1,18 @@
 (
     title: "Veitikka ja visionääri",
     developer: Some("pakaste."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/veitikka-ja-visionaari/veitikka-ja-visionaari.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/veitikka-ja-visionaari",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/veitikka-ja-visionaari/veitikka-ja-visionaari.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2024-10-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "veitikka-ja-visionaari",
-                    filename: "veitikka-ja-visionaari.gb",
-                ),
-            ],
         ),
     ],
 )

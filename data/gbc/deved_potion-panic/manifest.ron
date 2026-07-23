@@ -13,6 +13,18 @@
         "Singleplayer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/deved_potion-panic/potionpanic_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/deved_potion-panic",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/deved_potion-panic/cover.png",
     ],
@@ -22,16 +34,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/deved_potion-panic/screenshots/512Tev.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "deved_potion-panic",
-                    filename: "potionpanic_jam.gbc",
-                ),
-                Itch(
-                    url: "https://deved.itch.io/potion-panic",
-                ),
-            ],
-        ),
+        (),
     ],
 )

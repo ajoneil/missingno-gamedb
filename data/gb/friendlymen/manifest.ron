@@ -5,6 +5,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friendlymen/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friendlymen",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendlymen/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendlymen/vBM6x2B.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "friendlymen",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://vadimilyano.itch.io/friendlymen",
-                ),
-            ],
-        ),
+        (),
     ],
 )

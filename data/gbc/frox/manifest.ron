@@ -1,6 +1,18 @@
 (
     title: "Frox",
     developer: Some("Thorsten Stockmeier"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/frox/Frox.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/frox",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/frox/20110402_frox.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/frox/20110402_frox.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "frox",
-                    filename: "Frox.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

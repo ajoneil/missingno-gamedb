@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kupman/kupman.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kupman",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/dubvulture/gbdev",
             link_type: Source,
@@ -20,13 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kupman/screenshot02.bmp",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "kupman",
-                    filename: "kupman.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

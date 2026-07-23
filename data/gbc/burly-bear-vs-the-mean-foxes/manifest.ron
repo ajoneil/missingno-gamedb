@@ -1,6 +1,18 @@
 (
     title: "Burly Bear vs. The Mean Foxes",
     developer: Some("Sebastian Mihai"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/burly-bear-vs-the-mean-foxes/burly.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/burly-bear-vs-the-mean-foxes",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/burly-bear-vs-the-mean-foxes/1.bmp",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2016-08-14"),
-            sources: [
-                HomebrewHub(
-                    slug: "burly-bear-vs-the-mean-foxes",
-                    filename: "burly.gbc",
-                ),
-            ],
         ),
     ],
 )

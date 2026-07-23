@@ -1,6 +1,18 @@
 (
     title: "Where\'s the Chip-Hop?",
     developer: Some("Oyd11"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/Wheres.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/where-s-the-chip-hop",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-the-chip-hop/176.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "where-s-the-chip-hop",
-                    filename: "Wheres.gbc",
-                ),
-            ],
         ),
     ],
 )

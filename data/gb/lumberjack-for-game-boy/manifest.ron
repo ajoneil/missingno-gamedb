@@ -1,6 +1,18 @@
 (
     title: "Lumberjack for Game Boy",
     developer: Some("JMD"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lumberjack-for-game-boy/lumberjack-for-game-boy.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lumberjack-for-game-boy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lumberjack-for-game-boy/lumberjack-for-game-boy.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2017-10-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "lumberjack-for-game-boy",
-                    filename: "lumberjack-for-game-boy.gb",
-                ),
-            ],
         ),
     ],
 )

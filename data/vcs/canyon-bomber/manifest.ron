@@ -1,0 +1,67 @@
+(
+    title: "Canyon Bomber",
+    description: Some("Your bomber criss-crosses a canyon stacked with eight layers of bricks, dropping bombs on each pass — deeper layers score more, cleared canyons refill, and six wasted runs end the game short of the 1,000-point goal. Sea Bomber variations swap the canyon for ships at five depths, worth more the deeper they sail, with the knob setting how deep each charge explodes."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Canyon_Bomber",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/canyon_bomber.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/49534517F9824170CDD7E19515471BC5FBCC3D53",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "b89443a0029e765c2716774fe2582be37650115c",
+                ),
+                (
+                    sha1: "0952d1682df8bed150f831fca045f9240247a2f2",
+                    label: Some("overdump [o]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "5d27b7e9c492112734160abbb44570f02e2aec67",
+                ),
+            ],
+        ),
+    ],
+)

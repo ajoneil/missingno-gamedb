@@ -6,6 +6,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/musical-notes/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/musical-notes",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/musical-notes/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/musical-notes/jz3nbM.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "musical-notes",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://lacoste42.itch.io/musical-notes",
-                ),
-            ],
-        ),
+        (),
     ],
 )

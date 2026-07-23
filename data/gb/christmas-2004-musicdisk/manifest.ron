@@ -1,6 +1,18 @@
 (
     title: "Christmas 2004 Musicdisk",
     developer: Some("Jumalauta"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/christmas-2004-musicdisk/jml-joul.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/christmas-2004-musicdisk",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/christmas-2004-musicdisk/303.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2004-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "christmas-2004-musicdisk",
-                    filename: "jml-joul.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -5,6 +5,18 @@
         "Action",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/froggo-spood-gb-showdown-2023/F&S_jam_version.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/froggo-spood-gb-showdown-2023",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/froggo-spood-gb-showdown-2023/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/froggo-spood-gb-showdown-2023/7lMCMP.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "froggo-spood-gb-showdown-2023",
-                    filename: "F&S_jam_version.gb",
-                ),
-                Itch(
-                    url: "https://grave-reaper-cushions.itch.io/froggo-spood-gb-showdown-2023",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Music Box",
     developer: Some("Black Box"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/music-box-bb/musicbox.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/music-box-bb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/music-box-bb/musicbox.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-02-25"),
-            sources: [
-                HomebrewHub(
-                    slug: "music-box-bb",
-                    filename: "musicbox.gb",
-                ),
-            ],
         ),
     ],
 )

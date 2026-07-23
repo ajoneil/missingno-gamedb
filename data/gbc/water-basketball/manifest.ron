@@ -5,6 +5,18 @@
         "Action",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/water-basketball/WaterBasketball.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/water-basketball",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/water-basketball/20110402_water_basketball.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/water-basketball/20110402_water_basketball.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "water-basketball",
-                    filename: "WaterBasketball.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

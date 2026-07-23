@@ -1,5 +1,17 @@
 (
     title: "Tiles by Johnny13",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tiles-johnny13/Tiles by Johnny13 (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tiles-johnny13",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tiles-johnny13/Tiles by Johnny13 (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2001-03-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "tiles-johnny13",
-                    filename: "Tiles by Johnny13 (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "SteinsGate 8-bit v0.40",
     developer: Some("calc84maniac"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/steinsgate_8-bit_v0-40/SteinsGate 8-Bit v0.40.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/steinsgate_8-bit_v0-40",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/steinsgate_8-bit_v0-40/screen1.png",
     ],
@@ -10,13 +22,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/steinsgate_8-bit_v0-40/screen3.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "steinsgate_8-bit_v0-40",
-                    filename: "SteinsGate 8-Bit v0.40.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

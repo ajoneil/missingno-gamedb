@@ -3,6 +3,16 @@
     developer: Some("Mills"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fuzzys-world/FWORLD.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fuzzys-world",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://gbdev.gg8.se/forums/viewtopic.php?id=384",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2017-10-07"),
-            sources: [
-                HomebrewHub(
-                    slug: "fuzzys-world",
-                    filename: "FWORLD.gbc",
-                ),
-            ],
         ),
     ],
 )

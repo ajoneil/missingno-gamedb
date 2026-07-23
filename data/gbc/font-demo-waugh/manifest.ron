@@ -1,6 +1,18 @@
 (
     title: "Font Demo",
     developer: Some("Jonathan Waugh"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/font-demo-waugh/Font Demo (Jonathan Waugh) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/font-demo-waugh",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/font-demo-waugh/Font Demo (Jonathan Waugh) (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-05-20"),
-            sources: [
-                HomebrewHub(
-                    slug: "font-demo-waugh",
-                    filename: "Font Demo (Jonathan Waugh) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

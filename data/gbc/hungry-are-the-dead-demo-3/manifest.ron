@@ -2,6 +2,18 @@
     title: "Hungry are the Dead (Demo 3)",
     developer: Some("Berserker Industries"),
     description: Some("Hungry are the Dead is a turn-based game. This means that you have a number of moves per turn and then the enemies have a number of moves per turn. This cycle continues until you complete all tasks, are attacked by an enemy, or decide to stop playing."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hungry-are-the-dead-demo-3/hungrydm3.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hungry-are-the-dead-demo-3",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hungry-are-the-dead-demo-3/hatd.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2000-10-31"),
-            sources: [
-                HomebrewHub(
-                    slug: "hungry-are-the-dead-demo-3",
-                    filename: "hungrydm3.gbc",
-                ),
-            ],
         ),
     ],
 )

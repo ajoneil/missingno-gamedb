@@ -1,6 +1,18 @@
 (
     title: "Black Castle",
     developer: Some("User0x7f"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/black-castle/black-castle.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/black-castle",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/black-castle/black-castle.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/black-castle/black-castle.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "black-castle",
-                    filename: "black-castle.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

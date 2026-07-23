@@ -1,6 +1,18 @@
 (
     title: "Funny Numbers",
     developer: Some("FijiAura"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/funny-numbers/funny-numbers.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/funny-numbers",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/funny-numbers/funny-numbers.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2025-11-19"),
-            sources: [
-                HomebrewHub(
-                    slug: "funny-numbers",
-                    filename: "funny-numbers.gb",
-                ),
-            ],
         ),
     ],
 )

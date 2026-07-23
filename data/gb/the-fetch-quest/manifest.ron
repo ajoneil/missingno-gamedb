@@ -7,6 +7,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-fetch-quest/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-fetch-quest",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-fetch-quest/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-fetch-quest/uhYZh1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-fetch-quest",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://bandana-d.itch.io/the-fetch-quest",
-                ),
-            ],
-        ),
+        (),
     ],
 )

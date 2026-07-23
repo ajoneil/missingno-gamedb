@@ -2,6 +2,18 @@
     title: "Serpent Apocalypse",
     developer: Some("Glenn Bussell, Justin Rumpff"),
     description: Some("It’s snake with a different name 🙂"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/serpent-apocalypse/SerpentApocalypse.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/serpent-apocalypse",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/serpent-apocalypse/20110402_serpent_apocalypse.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/serpent-apocalypse/20110402_serpent_apocalypse.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "serpent-apocalypse",
-                    filename: "SerpentApocalypse.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

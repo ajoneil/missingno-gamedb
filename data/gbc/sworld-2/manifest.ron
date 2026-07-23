@@ -1,6 +1,18 @@
 (
     title: "SWorld 2",
     developer: Some("Bug Skull Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sworld-2/SWorld2.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sworld-2",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sworld-2/20110402_sworld_2.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sworld-2/20110402_sworld_2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "sworld-2",
-                    filename: "SWorld2.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

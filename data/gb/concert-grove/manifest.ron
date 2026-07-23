@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/concert-grove/concertgrove1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/concert-grove",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/concert-grove/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/concert-grove/xoEPFF.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "concert-grove",
-                    filename: "concertgrove1.gb",
-                ),
-                Itch(
-                    url: "https://gamechangermods.itch.io/concert-grove",
-                ),
-            ],
-        ),
+        (),
     ],
 )

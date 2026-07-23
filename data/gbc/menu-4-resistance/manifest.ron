@@ -1,6 +1,18 @@
 (
     title: "Menu #4 (Elevator Action DX +5)",
     developer: Some("Resistance"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-4-resistance/rse-t_04.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-4-resistance",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-4-resistance/186.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-4-resistance",
-                    filename: "rse-t_04.gbc",
-                ),
-            ],
         ),
     ],
 )

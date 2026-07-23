@@ -1,6 +1,18 @@
 (
     title: "Menu #1 (Pocket Bomberman +5)",
     developer: Some("Capital"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-capital/cpl-t_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-1-capital",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-capital/211.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-1-capital",
-                    filename: "cpl-t_01.gbc",
-                ),
-            ],
         ),
     ],
 )

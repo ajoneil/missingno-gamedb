@@ -1,5 +1,17 @@
 (
     title: "Mario Walk",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mario-walk/walk.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mario-walk",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mario-walk/walk-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2001-11-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "mario-walk",
-                    filename: "walk.gb",
-                ),
-            ],
         ),
     ],
 )

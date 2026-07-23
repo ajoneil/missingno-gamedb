@@ -1,6 +1,18 @@
 (
     title: "Last Crown Warriors",
     developer: Some("Light Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/last-crown/lastcrowndemo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/last-crown",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/last-crown/screenshot1.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2019-12-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "last-crown",
-                    filename: "lastcrowndemo.gb",
-                ),
-            ],
         ),
     ],
 )

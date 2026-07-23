@@ -1,6 +1,18 @@
 (
     title: "Less Is More",
     developer: Some("Abyss"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/less-is-more/AYS-LiM.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/less-is-more",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/less-is-more/99.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "less-is-more",
-                    filename: "AYS-LiM.gb",
-                ),
-            ],
         ),
     ],
 )

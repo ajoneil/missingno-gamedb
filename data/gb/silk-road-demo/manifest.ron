@@ -1,6 +1,18 @@
 (
     title: "Silk Road (demo)",
     developer: Some("SPRITE"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/silk-road-demo/silk.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/silk-road-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/silk-road-demo/silk-3.png",
     ],
@@ -11,13 +23,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/silk-road-demo/silk-2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "silk-road-demo",
-                    filename: "silk.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

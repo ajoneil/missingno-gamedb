@@ -1,6 +1,18 @@
 (
     title: "Stripped",
     developer: Some("Triad"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/stripped/stripped.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/stripped",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/stripped/69.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "stripped",
-                    filename: "stripped.gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "NAN0W0RM",
     developer: Some("aeb"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0w0rm/nan0w0rm.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nan0w0rm",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0w0rm/nan0w0rm.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nan0w0rm/nan0w0rm.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "nan0w0rm",
-                    filename: "nan0w0rm.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

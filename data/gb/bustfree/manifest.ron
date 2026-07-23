@@ -3,6 +3,16 @@
     developer: Some("adamsmasher"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bustfree/bustfree.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bustfree",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://github.com/adamsmasher/bustfree",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2021-03-02"),
-            sources: [
-                HomebrewHub(
-                    slug: "bustfree",
-                    filename: "bustfree.gb",
-                ),
-            ],
         ),
     ],
 )

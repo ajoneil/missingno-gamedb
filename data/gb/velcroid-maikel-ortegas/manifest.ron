@@ -1,6 +1,18 @@
 (
     title: "Velcroid, Maikel Ortega\'s",
     description: Some("By Maikel Ortega"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/velcroid-maikel-ortegas/velcroid-bitbitjam4version.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/velcroid-maikel-ortegas",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/velcroid-maikel-ortegas/velcroid.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/velcroid-maikel-ortegas/velcroid-2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "velcroid-maikel-ortegas",
-                    filename: "velcroid-bitbitjam4version.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

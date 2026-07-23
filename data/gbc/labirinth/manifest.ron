@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/labirinth/Labirinth.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/labirinth",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/godai78/labirinth",
             link_type: Source,
@@ -22,13 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/labirinth/town.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "labirinth",
-                    filename: "Labirinth.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

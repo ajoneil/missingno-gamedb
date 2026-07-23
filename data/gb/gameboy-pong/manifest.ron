@@ -1,6 +1,18 @@
 (
     title: "Gameboy Pong",
     developer: Some("Peter Gordon"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-pong/gbpong.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gameboy-pong",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-pong/gbpong.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1997-02-10"),
-            sources: [
-                HomebrewHub(
-                    slug: "gameboy-pong",
-                    filename: "gbpong.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -3,6 +3,16 @@
     developer: Some("Christian Reinbacher"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-snake-reini1305/snake.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-snake-reini1305",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://github.com/reini1305/gb_snake",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2022-05-22"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-snake-reini1305",
-                    filename: "snake.gb",
-                ),
-            ],
         ),
     ],
 )

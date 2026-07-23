@@ -2,6 +2,18 @@
     title: "SolveKnight GB v1.1",
     developer: Some("drHirudo"),
     description: Some("This little program shows all the possible solutions of the game Knight and the game KnightMoves."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/solveknight-gb-v1-1/SolveKnightGB.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/solveknight-gb-v1-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/solveknight-gb-v1-1/20110402_solveknight_gb.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/solveknight-gb-v1-1/20110402_solveknight_gb.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "solveknight-gb-v1-1",
-                    filename: "SolveKnightGB.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

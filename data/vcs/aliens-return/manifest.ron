@@ -1,7 +1,7 @@
 (
     title: "Alien\'s Return",
     developer: Some("Gem International Corporation"),
-    description: Some("A maze-and-rooms chase game. You are an alien stranded on Earth who must recover the four scattered pieces of your crashed spacecraft: enter each room and press the button, and with luck a piece appears in a corner for you to collect, all while guardians pursue you around the rooms and try to trap you."),
+    description: Some("A maze-and-rooms chase game. You are an alien stranded on Earth who must recover the four scattered pieces of your crashed spacecraft: enter each room and press the button, and with luck a piece appears in a corner for you to collect, all while guardians pursue you around the rooms and try to trap you. The Gem International game circulated under several names — Home Vision\'s Col \'N\', Go Go Home, and E.T. Go Home among them."),
     links: [
         (
             name: "Wikipedia",
@@ -15,7 +15,7 @@
     curated: [
         (
             by: "Andrew O\'Neil",
-            date: "2026-07-22",
+            date: "2026-07-23",
         ),
     ],
     releases: [
@@ -32,15 +32,32 @@
             artifacts: [
                 (
                     sha1: "4c41379f0dd9880384fcbb46bad9fbaaf109a477",
-                    verified: [
-                        (
-                            method: Signature(
-                                database: "Hasheous",
-                                entry: "Alien\'s Return (198x)(ITT Family Games)(PAL).bin",
-                            ),
-                            date: "2026-07-22",
-                        ),
-                    ],
+                ),
+            ],
+        ),
+        (
+            title: Some("Col \'N\'"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f78c478aacf6536522e8d37a3888a975e1a383cd",
+                ),
+            ],
+        ),
+        (
+            title: Some("Go Go Home"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "32d0a75fdce82d0a4aa7c114c2079cfa3e263f5b",
+                    label: Some("alt [a], unknown to TOSEC"),
                 ),
             ],
         ),

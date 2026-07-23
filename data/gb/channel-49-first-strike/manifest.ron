@@ -4,6 +4,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/channel-49-first-strike/Channel49-firststrike.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/channel-49-first-strike",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/channel-49-first-strike/firststrike.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "channel-49-first-strike",
-                    filename: "Channel49-firststrike.gb",
-                ),
-            ],
         ),
     ],
 )

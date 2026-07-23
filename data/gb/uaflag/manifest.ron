@@ -3,6 +3,16 @@
     developer: Some("tepples"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/uaflag/uaflag.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/uaflag",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://forums.nesdev.org/viewtopic.php?t=23726",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2022-02-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "uaflag",
-                    filename: "uaflag.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Popcorn Caravan",
     developer: Some("cabbage"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/popcorn-caravan/popcorn-caravan.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/popcorn-caravan",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/popcorn-caravan/popcorn-caravan.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/popcorn-caravan/popcorn-caravan.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "popcorn-caravan",
-                    filename: "popcorn-caravan.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

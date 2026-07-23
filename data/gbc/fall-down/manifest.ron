@@ -5,6 +5,18 @@
         "Action",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fall-down/Falldown.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fall-down",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fall-down/20110402_fall_down.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fall-down/20110402_fall_down.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "fall-down",
-                    filename: "Falldown.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

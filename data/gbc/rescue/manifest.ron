@@ -2,6 +2,18 @@
     title: "Rescue",
     developer: Some("Dox"),
     description: Some("Don’t shot, don’t kill, don’t eat –  rescue  😉"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rescue/rescue.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rescue",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rescue/20110402_rescue.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rescue/20110402_rescue.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rescue",
-                    filename: "rescue.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

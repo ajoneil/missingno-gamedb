@@ -7,6 +7,18 @@
         "Action",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lavallure_pocketware/PocketWare_v1_2.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lavallure_pocketware",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lavallure_pocketware/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lavallure_pocketware/screenshots/qJQFcE.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "lavallure_pocketware",
-                    filename: "PocketWare_v1_2.gb",
-                ),
-                Itch(
-                    url: "https://lavallure.itch.io/pocketware",
-                ),
-            ],
-        ),
+        (),
     ],
 )

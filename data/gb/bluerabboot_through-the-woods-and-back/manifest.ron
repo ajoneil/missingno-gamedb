@@ -6,6 +6,18 @@
         "Pixel Art",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bluerabboot_through-the-woods-and-back/TTWAB_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bluerabboot_through-the-woods-and-back",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bluerabboot_through-the-woods-and-back/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bluerabboot_through-the-woods-and-back/screenshots/h5RzUq.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "bluerabboot_through-the-woods-and-back",
-                    filename: "TTWAB_jam.gb",
-                ),
-                Itch(
-                    url: "https://bluerabboot.itch.io/through-the-woods-and-back",
-                ),
-            ],
-        ),
+        (),
     ],
 )

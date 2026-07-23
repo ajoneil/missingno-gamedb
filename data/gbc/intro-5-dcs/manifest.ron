@@ -1,6 +1,18 @@
 (
     title: "Intro #5 (Marvin Strikes Back)",
     developer: Some("Dual Crew & Shining"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-5-dcs/dcs-i_05.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/intro-5-dcs",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-5-dcs/198.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "intro-5-dcs",
-                    filename: "dcs-i_05.gbc",
-                ),
-            ],
         ),
     ],
 )

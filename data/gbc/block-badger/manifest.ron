@@ -5,6 +5,18 @@
         "Adventure",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/block-badger/BlockBadger.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/block-badger",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/block-badger/20110402_block_badger.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/block-badger/20110402_block_badger.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "block-badger",
-                    filename: "BlockBadger.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -6,6 +6,18 @@
     tags: [
         "RPG",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lofi-gb-beats-1/lofi-chiptune-1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lofi-gb-beats-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lofi-gb-beats-1/gbsb.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lofi-gb-beats-1/gbsb.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "lofi-gb-beats-1",
-                    filename: "lofi-chiptune-1.gb",
-                ),
-                Itch(
-                    url: "https://beatscribe.itch.io/lo-fi-game-boy-chiptune-beats-to-relax-to-volume-1",
-                ),
-            ],
-        ),
+        (),
     ],
 )

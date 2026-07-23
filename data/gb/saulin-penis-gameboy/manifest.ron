@@ -1,15 +1,21 @@
 (
     title: "Saulin Penis Gameboy",
     developer: Some("Jumalauta"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/saulin-penis-gameboy/saulin-penis-gameboy.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/saulin-penis-gameboy",
+            link_type: DownloadPage,
+        ),
+    ],
     releases: [
         (
             date: Some("2008-06"),
-            sources: [
-                HomebrewHub(
-                    slug: "saulin-penis-gameboy",
-                    filename: "saulin-penis-gameboy.gb",
-                ),
-            ],
         ),
     ],
 )

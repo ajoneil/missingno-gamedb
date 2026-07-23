@@ -1,6 +1,18 @@
 (
     title: "They Are Everywhere (Version 0.1.0)",
     developer: Some("Refresh Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/they-are-everywhere-version-010/tae-multibank.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/they-are-everywhere-version-010",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/they-are-everywhere-version-010/tae-multibank.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/they-are-everywhere-version-010/tae-multibank.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "they-are-everywhere-version-010",
-                    filename: "tae-multibank.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

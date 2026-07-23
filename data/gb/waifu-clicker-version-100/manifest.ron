@@ -1,6 +1,18 @@
 (
     title: "Waifu Clicker (Version 1.0.0)",
     developer: Some("Refresh Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/waifu-clicker-version-100/waifu.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/waifu-clicker-version-100",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/waifu-clicker-version-100/waifu.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/waifu-clicker-version-100/waifu.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "waifu-clicker-version-100",
-                    filename: "waifu.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

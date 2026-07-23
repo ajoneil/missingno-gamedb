@@ -1,6 +1,18 @@
 (
     title: "Apocalypse Now",
     developer: Some("Matthew Johnson"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/apocalypse-now/APOCNOW.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/apocalypse-now",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/apocalypse-now/APOCNOW-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-05-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "apocalypse-now",
-                    filename: "APOCNOW.GB",
-                ),
-            ],
         ),
     ],
 )

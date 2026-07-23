@@ -4,6 +4,18 @@
     tags: [
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hypertechgames_where-da-jam-at/WhereDaJamAt_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hypertechgames_where-da-jam-at",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hypertechgames_where-da-jam-at/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hypertechgames_where-da-jam-at/screenshots/2BAfR0s.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "hypertechgames_where-da-jam-at",
-                    filename: "WhereDaJamAt_jam.gb",
-                ),
-                Itch(
-                    url: "https://hypertechgames.itch.io/where-da-jam-at",
-                ),
-            ],
-        ),
+        (),
     ],
 )

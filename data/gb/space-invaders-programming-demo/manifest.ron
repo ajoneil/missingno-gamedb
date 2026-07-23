@@ -1,6 +1,18 @@
 (
     title: "Space Invaders-style Programming Demo",
     developer: Some("Jeff Frohwein"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invaders-programming-demo/SI.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/space-invaders-programming-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-invaders-programming-demo/SI-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1997-10-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "space-invaders-programming-demo",
-                    filename: "SI.GB",
-                ),
-            ],
         ),
     ],
 )

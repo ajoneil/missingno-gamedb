@@ -1,6 +1,18 @@
 (
     title: "SaB0t4g3 Color Demo",
     developer: Some("SaB0t4g3"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sabotage-color-demo/Sabotage Color Demo (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sabotage-color-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sabotage-color-demo/Sabotage Color Demo (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-02-23"),
-            sources: [
-                HomebrewHub(
-                    slug: "sabotage-color-demo",
-                    filename: "Sabotage Color Demo (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

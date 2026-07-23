@@ -1,5 +1,17 @@
 (
     title: "GB Electric Drum",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-electric-drum/GB Electric Drum (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-electric-drum",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-electric-drum/GB Electric Drum (PD).png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2001-12-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-electric-drum",
-                    filename: "GB Electric Drum (PD).gb",
-                ),
-            ],
         ),
     ],
 )

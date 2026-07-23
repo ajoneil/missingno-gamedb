@@ -1,6 +1,18 @@
 (
     title: "GB FM Synth (2009.04.10)",
     developer: Some("Leaf"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-fm-synth-20090410/gb_fm.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-fm-synth-20090410",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-fm-synth-20090410/1.bmp",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2009-04-10"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-fm-synth-20090410",
-                    filename: "gb_fm.gbc",
-                ),
-            ],
         ),
     ],
 )

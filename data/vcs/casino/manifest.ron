@@ -1,0 +1,75 @@
+(
+    title: "Casino",
+    description: Some("Three casino card games on one paddle-driven cartridge: blackjack for up to four players (with hand-splitting in the two-player variant), five-card stud with betting, and a poker-solitaire mode that lays out twenty-five cards to score twelve hands at once across rows, columns and diagonals."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Casino_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/casino.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Poker Plus)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/poker_plus.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A650C54C80F76B2928DF1D3CC748CF0B85FD5B5D",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "0a7c41b4215f792e499d20ff86fd6da9c2648d17",
+                ),
+                (
+                    sha1: "ae5c097ee1f006c94579da32f1bc4cac504b54c0",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Poker Plus"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1979"),
+            publisher: Some("Sears"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "08598101e38756916613f37581ef1b61c719016f",
+                ),
+            ],
+        ),
+    ],
+)

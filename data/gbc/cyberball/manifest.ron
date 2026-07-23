@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cyberball/Cyberball.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cyberball",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cyberball/20110402_cyberball.png",
     ],
@@ -11,13 +23,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cyberball/20110402_cyberball.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "cyberball",
-                    filename: "Cyberball.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/crossconnect/CrossConnect.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/crossconnect",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/QuinnPainter/CrossConnect",
             link_type: Source,
@@ -24,12 +34,6 @@
     releases: [
         (
             date: Some("2022-05-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "crossconnect",
-                    filename: "CrossConnect.gbc",
-                ),
-            ],
         ),
     ],
 )

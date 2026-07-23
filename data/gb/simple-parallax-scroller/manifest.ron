@@ -1,6 +1,18 @@
 (
     title: "Simple Parallax Scroller",
     developer: Some("Ville Helin"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/simple-parallax-scroller/Simple Parallax Scroller (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/simple-parallax-scroller",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/simple-parallax-scroller/Simple Parallax Scroller (PD).png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-04-08"),
-            sources: [
-                HomebrewHub(
-                    slug: "simple-parallax-scroller",
-                    filename: "Simple Parallax Scroller (PD).gb",
-                ),
-            ],
         ),
     ],
 )

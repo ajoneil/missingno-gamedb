@@ -1,6 +1,18 @@
 (
     title: "Aqueous",
     developer: Some("Predator Development"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/aqueous/Aqueous.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/aqueous",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/aqueous/20110402_aqueous.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/aqueous/20110402_aqueous.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "aqueous",
-                    filename: "Aqueous.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

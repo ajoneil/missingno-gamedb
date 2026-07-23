@@ -6,6 +6,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/you-are-my-new-friend/You_are_my_New_friend.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/you-are-my-new-friend",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/you-are-my-new-friend/cover.png",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/you-are-my-new-friend/5wbbiV.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "you-are-my-new-friend",
-                    filename: "You_are_my_New_friend.gb",
-                ),
-                Itch(
-                    url: "https://projectsrya.itch.io/you-are-my-new-friend",
-                ),
-            ],
-        ),
+        (),
     ],
 )

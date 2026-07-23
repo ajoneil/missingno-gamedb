@@ -1,7 +1,34 @@
 (
     title: "Color Bar Generator",
+    kind: Test,
+    developer: Some("Jerry Lawson"),
+    description: Some("Not a game but a technician\'s instrument: the cartridge turns a 2600 into a TV test-pattern source — colour bars, vertical lines, solid colour fields, a circle — for adjusting a set\'s picture. Jerry Lawson, the Fairchild engineer who pioneered the ROM game cartridge itself, sold it through his startup VideoSoft at $29.95 to TV repair shops as a stand-in for pattern generators costing a thousand dollars or more; it was never aimed at players, and few were made."),
+    links: [
+        (
+            name: "The Strong Museum",
+            url: "https://www.museumofplay.org/blog/rare-atari-cartridge-is-another-clever-invention-of-a-video-game-pioneer/",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (AtariAge)",
+            url: "https://atariage.com/manual_html_page.php?SoftwareID=934",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9D210A7D26CA6AB152CA503BA0AB58F433785B8C",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("VideoSoft"),
             hardware: (

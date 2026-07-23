@@ -1,6 +1,18 @@
 (
     title: "quartet",
     developer: Some("All You Can Execute"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/quartet/quartet.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/quartet",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/quartet/quartet.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/quartet/quartet.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "quartet",
-                    filename: "quartet.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

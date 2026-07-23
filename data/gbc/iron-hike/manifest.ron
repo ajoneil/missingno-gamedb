@@ -5,6 +5,18 @@
         "Platform",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/iron-hike/ironhike.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/iron-hike",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/iron-hike/ironhike.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2000-01-15"),
-            sources: [
-                HomebrewHub(
-                    slug: "iron-hike",
-                    filename: "ironhike.cgb",
-                ),
-            ],
         ),
     ],
 )

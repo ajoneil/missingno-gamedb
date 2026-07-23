@@ -1,6 +1,18 @@
 (
     title: "Muddy GB",
     developer: Some("S.O"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/muddy-gb/muddy-gb.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/muddy-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/muddy-gb/muddy-gb.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/muddy-gb/muddy-gb.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "muddy-gb",
-                    filename: "muddy-gb.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

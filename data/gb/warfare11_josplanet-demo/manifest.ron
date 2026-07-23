@@ -4,17 +4,19 @@
     tags: [
         "event:gbcompo25",
     ],
-    releases: [
+    links: [
         (
-            sources: [
-                HomebrewHub(
-                    slug: "warfare11_josplanet-demo",
-                    filename: "josplanet_demo_jam.gb",
-                ),
-                Itch(
-                    url: "https://warfare11.itch.io/josplanet-demo",
-                ),
-            ],
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/warfare11_josplanet-demo/josplanet_demo_jam.gb",
+            link_type: Download,
         ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/warfare11_josplanet-demo",
+            link_type: DownloadPage,
+        ),
+    ],
+    releases: [
+        (),
     ],
 )

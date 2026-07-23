@@ -1,6 +1,18 @@
 (
     title: "Doctor How",
     developer: Some("ProGM & Flame"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/doctor-how/doctorhow.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/doctor-how",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/doctor-how/doctorhow.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/doctor-how/doctorhow-2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "doctor-how",
-                    filename: "doctorhow.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

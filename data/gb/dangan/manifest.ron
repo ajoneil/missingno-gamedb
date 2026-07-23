@@ -1,6 +1,18 @@
 (
     title: "dangan GB",
     developer: Some("Snorpung, Nordloef"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dangan/dangan.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dangan",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dangan/screenshot.png",
     ],
@@ -8,16 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dangan/screenshot.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "dangan",
-                    filename: "dangan.gb",
-                ),
-                Itch(
-                    url: "https://snorpung.itch.io/dangan-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

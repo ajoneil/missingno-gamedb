@@ -13,6 +13,18 @@
         "Music",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/Game Boy Hero II_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/greatfoohachi_game-boy-hero-ii",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/cover.png",
     ],
@@ -35,16 +47,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/greatfoohachi_game-boy-hero-ii/screenshots/PwK4Y2B.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "greatfoohachi_game-boy-hero-ii",
-                    filename: "Game Boy Hero II_jam.gb",
-                ),
-                Itch(
-                    url: "https://greatfoohachi.itch.io/game-boy-hero-ii",
-                ),
-            ],
-        ),
+        (),
     ],
 )

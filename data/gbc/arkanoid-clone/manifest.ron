@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/arkanoid-clone/ArkanoidClone.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/arkanoid-clone",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://web.archive.org/web/20000125144706/http://members.tripod.co.uk/GBCE/gbprogs/gbprogs.htm",
             link_type: Wiki,
@@ -22,12 +32,6 @@
     releases: [
         (
             date: Some("1998-11-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "arkanoid-clone",
-                    filename: "ArkanoidClone.cgb",
-                ),
-            ],
         ),
     ],
 )

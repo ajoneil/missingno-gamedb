@@ -11,6 +11,18 @@
         "Cute",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kittyn_goodluckbaby/goodluckbaby_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kittyn_goodluckbaby",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kittyn_goodluckbaby/cover.png",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kittyn_goodluckbaby/screenshots/fwTWzA.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "kittyn_goodluckbaby",
-                    filename: "goodluckbaby_jam.gbc",
-                ),
-                Itch(
-                    url: "https://kittyn.itch.io/goodluckbaby",
-                ),
-            ],
-        ),
+        (),
     ],
 )

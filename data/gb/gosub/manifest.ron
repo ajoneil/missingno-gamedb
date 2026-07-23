@@ -3,6 +3,16 @@
     developer: Some("Chris Read"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gosub/gosub20220609.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gosub",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://www.atari2600land.com/gameboy/gosub.html",
             link_type: Wiki,
@@ -18,12 +28,6 @@
     releases: [
         (
             date: Some("2022-06-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "gosub",
-                    filename: "gosub20220609.gb",
-                ),
-            ],
         ),
     ],
 )

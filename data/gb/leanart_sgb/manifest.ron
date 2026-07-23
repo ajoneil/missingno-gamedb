@@ -14,6 +14,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_sgb/sgb_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/leanart_sgb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/TheLeanArt/StillGotTheBlues/",
             link_type: Source,
@@ -31,16 +41,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_sgb/screenshots/yN5cA7.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "leanart_sgb",
-                    filename: "sgb_jam.gb",
-                ),
-                Itch(
-                    url: "https://leanart.itch.io/sgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -4,6 +4,16 @@
     license: Some("MIT"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbcjkit/jkit.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbcjkit",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_jkitj.html",
             link_type: Wiki,
@@ -23,12 +33,6 @@
     releases: [
         (
             date: Some("2024-03-23"),
-            sources: [
-                HomebrewHub(
-                    slug: "gbcjkit",
-                    filename: "jkit.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "HeroZero Fractal Demo",
     developer: Some("Jeff Frohwein, Jens Christian Restemeier"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/herozero-fractal-demo/HeroZero_Fractal_Demo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/herozero-fractal-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/herozero-fractal-demo/HeroZero_Fractal_Demo-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1996-05-31"),
-            sources: [
-                HomebrewHub(
-                    slug: "herozero-fractal-demo",
-                    filename: "HeroZero_Fractal_Demo.gb",
-                ),
-            ],
         ),
     ],
 )

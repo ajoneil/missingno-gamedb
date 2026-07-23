@@ -6,6 +6,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cache-cache/cachecahe.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cache-cache",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cache-cache/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cache-cache/o0EAKx.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "cache-cache",
-                    filename: "cachecahe.gb",
-                ),
-                Itch(
-                    url: "https://farfadet46.itch.io/cache-cache",
-                ),
-            ],
-        ),
+        (),
     ],
 )

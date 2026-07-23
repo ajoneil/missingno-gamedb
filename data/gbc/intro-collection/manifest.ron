@@ -3,6 +3,16 @@
     developer: Some("CHN"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-collection/introcollection.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/intro-collection",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "http://web.archive.org/web/20040603064624/http://chn.roarvgm.com/gbc_introcollection_v2_bin+source_-_chn.rar",
             link_type: Source,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "intro-collection",
-                    filename: "introcollection.gbc",
-                ),
-            ],
         ),
     ],
 )

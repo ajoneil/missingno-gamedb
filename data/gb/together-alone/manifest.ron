@@ -6,6 +6,18 @@
         "Platform",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/TogetherAlone.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/together-alone",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/together-alone/UpEtH2B.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "together-alone",
-                    filename: "TogetherAlone.gb",
-                ),
-                Itch(
-                    url: "https://sjorsmaster.itch.io/together-alone",
-                ),
-            ],
-        ),
+        (),
     ],
 )

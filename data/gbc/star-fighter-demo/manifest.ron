@@ -1,6 +1,18 @@
 (
     title: "Star Fighter",
     developer: Some("Jonathan Waugh"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/star-fighter-demo/Star Fighter by Jonathan Waugh (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/star-fighter-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/star-fighter-demo/Star Fighter by Jonathan Waugh (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-05-25"),
-            sources: [
-                HomebrewHub(
-                    slug: "star-fighter-demo",
-                    filename: "Star Fighter by Jonathan Waugh (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

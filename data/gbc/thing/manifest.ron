@@ -1,6 +1,18 @@
 (
     title: "Thing",
     developer: Some("g0blinish"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/thing/Thing.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/thing",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/thing/678.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2014-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "thing",
-                    filename: "Thing.gbc",
-                ),
-            ],
         ),
     ],
 )

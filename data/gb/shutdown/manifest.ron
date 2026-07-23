@@ -2,6 +2,18 @@
     title: "ShutDown",
     developer: Some("Adam Hay"),
     description: Some("The objective of the game is simple – shut down all of the blocks. The problem is that each block affects its neighbours."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/shutdown/ShutDown.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/shutdown",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shutdown/20110402_shutdown.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shutdown/20110402_shutdown.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "shutdown",
-                    filename: "ShutDown.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

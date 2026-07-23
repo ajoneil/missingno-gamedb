@@ -3,6 +3,16 @@
     developer: Some("Bookworm"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bad-apple/BADAPPLE.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bad-apple",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://mydocuments.g2.xrea.com/html/gb/apple.html",
             link_type: Wiki,
@@ -25,12 +35,6 @@
     releases: [
         (
             date: Some("2011-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "bad-apple",
-                    filename: "BADAPPLE.GBC",
-                ),
-            ],
         ),
     ],
 )

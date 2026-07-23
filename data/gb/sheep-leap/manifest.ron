@@ -2,6 +2,18 @@
     title: "Sheep Leap",
     developer: Some("oshf"),
     description: Some("Made for the bitbitjam4 game jam."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sheep-leap/SheepLeap.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sheep-leap",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sheep-leap/screenshot1.png",
     ],
@@ -12,12 +24,6 @@
     releases: [
         (
             date: Some("2018-07-07"),
-            sources: [
-                HomebrewHub(
-                    slug: "sheep-leap",
-                    filename: "SheepLeap.gb",
-                ),
-            ],
         ),
     ],
 )

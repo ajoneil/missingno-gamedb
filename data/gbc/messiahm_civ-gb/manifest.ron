@@ -6,6 +6,18 @@
         "GBJam",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/messiahm_civ-gb/CivGB Demo.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/messiahm_civ-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/messiahm_civ-gb/cover.jpeg",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/messiahm_civ-gb/screenshots/BvNKBW.jpeg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "messiahm_civ-gb",
-                    filename: "CivGB Demo.gbc",
-                ),
-                Itch(
-                    url: "https://messiahm.itch.io/civ-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

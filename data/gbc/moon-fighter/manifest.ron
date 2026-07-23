@@ -2,6 +2,18 @@
     title: "Moon Fighter",
     developer: Some("MPQC"),
     description: Some("A fast paced shoot\'em\'up."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/moon-fighter/moon.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/moon-fighter",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/moon-fighter/moon-0.png",
     ],
@@ -10,13 +22,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/moon-fighter/moon-1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "moon-fighter",
-                    filename: "moon.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

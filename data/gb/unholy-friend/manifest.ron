@@ -6,6 +6,18 @@
         "Platform",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-friend/Unholy_Friend.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/unholy-friend",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-friend/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/unholy-friend/kIuhGq.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "unholy-friend",
-                    filename: "Unholy_Friend.gb",
-                ),
-                Itch(
-                    url: "https://tcsouza.itch.io/unholy-friend",
-                ),
-            ],
-        ),
+        (),
     ],
 )

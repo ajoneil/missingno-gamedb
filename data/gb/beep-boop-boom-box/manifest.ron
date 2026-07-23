@@ -1,6 +1,18 @@
 (
     title: "Beep Boop Boom Box",
     developer: Some("Patchwork Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/beep-boop-boom-box/beep-boop-boom-box.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/beep-boop-boom-box",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/beep-boop-boom-box/beep-boop-boom-box.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/beep-boop-boom-box/beep-boop-boom-box.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "beep-boop-boom-box",
-                    filename: "beep-boop-boom-box.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

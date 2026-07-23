@@ -1,6 +1,18 @@
 (
     title: "Akino Hitoshi Demo",
     developer: Some("Akino Hitoshi"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/akino-hitoshi-demo/Akino Hitoshi Demo (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/akino-hitoshi-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/akino-hitoshi-demo/Akino Hitoshi Demo (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-05-10"),
-            sources: [
-                HomebrewHub(
-                    slug: "akino-hitoshi-demo",
-                    filename: "Akino Hitoshi Demo (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

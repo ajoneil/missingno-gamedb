@@ -1,6 +1,18 @@
 (
     title: "T-Rex",
     developer: Some("Alejandro Delgado"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/t-rex/t-rex.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/t-rex",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/t-rex/t-rex.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/t-rex/t-rex.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "t-rex",
-                    filename: "t-rex.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

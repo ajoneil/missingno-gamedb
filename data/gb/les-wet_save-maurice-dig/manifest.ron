@@ -9,6 +9,18 @@
         "Exploration",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/les-wet_save-maurice-dig/SAVEMAURICE_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/les-wet_save-maurice-dig",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/les-wet_save-maurice-dig/cover.jpg",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/les-wet_save-maurice-dig/screenshots/cn7vzJ.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "les-wet_save-maurice-dig",
-                    filename: "SAVEMAURICE_jam.gb",
-                ),
-                Itch(
-                    url: "https://les-wet.itch.io/save-maurice-dig",
-                ),
-            ],
-        ),
+        (),
     ],
 )

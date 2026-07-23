@@ -1,6 +1,18 @@
 (
     title: "Card Shuffle",
     developer: Some("S. Noddy"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/card-shuffle/CardShuffle.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/card-shuffle",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/card-shuffle/20110402_card_shuffle.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/card-shuffle/20110402_card_shuffle.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "card-shuffle",
-                    filename: "CardShuffle.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

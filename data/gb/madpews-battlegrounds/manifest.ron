@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/madpews-battlegrounds/battlegrounds.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/madpews-battlegrounds",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/madpew/hello-asm",
             link_type: Source,
@@ -23,15 +33,6 @@
     releases: [
         (
             date: Some("2020-02-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "madpews-battlegrounds",
-                    filename: "battlegrounds.gb",
-                ),
-                Itch(
-                    url: "https://madpew.itch.io/madpews-battleground",
-                ),
-            ],
         ),
     ],
 )

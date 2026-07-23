@@ -1,6 +1,18 @@
 (
     title: "Wall Defence",
     developer: Some("Ventzislav Tzvetko"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/wall-defence/walldefence.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/wall-defence",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/wall-defence/walldefence.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2004-07-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "wall-defence",
-                    filename: "walldefence.gbc",
-                ),
-            ],
         ),
     ],
 )

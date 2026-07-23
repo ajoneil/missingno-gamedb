@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/micro-friendly/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/micro-friendly",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/micro-friendly/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/micro-friendly/XGwB1E.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "micro-friendly",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://myths-ai.itch.io/micro-friendly",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Ankoku Housou GB",
     developer: Some("weep"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ankoku-housou-gb/ankoku-housou.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ankoku-housou-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ankoku-housou-gb/ankoku-housou-0.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2011"),
-            sources: [
-                HomebrewHub(
-                    slug: "ankoku-housou-gb",
-                    filename: "ankoku-housou.gb",
-                ),
-            ],
         ),
     ],
 )

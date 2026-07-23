@@ -1,6 +1,18 @@
 (
     title: "Fader Demo",
     developer: Some("BouKiChi"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fader-demo/Fader_Demo.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fader-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fader-demo/Fader_Demo-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-12-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "fader-demo",
-                    filename: "Fader_Demo.gbc",
-                ),
-            ],
         ),
     ],
 )

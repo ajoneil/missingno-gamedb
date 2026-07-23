@@ -1,6 +1,18 @@
 (
     title: "DiZ GameBoy Disassembler Demo",
     developer: Some("HeroZero/Oldskool"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/os-diz11/test.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/os-diz11",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/os-diz11/test.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2016-07-25"),
-            sources: [
-                HomebrewHub(
-                    slug: "os-diz11",
-                    filename: "test.gb",
-                ),
-            ],
         ),
     ],
 )

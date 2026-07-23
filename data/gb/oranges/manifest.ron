@@ -1,6 +1,18 @@
 (
     title: "Oranges",
     developer: Some("Chris Read"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/oranges/oranges52.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/oranges",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/oranges/oranges.png",
     ],
@@ -10,13 +22,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/oranges/oranges-3.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "oranges",
-                    filename: "oranges52.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

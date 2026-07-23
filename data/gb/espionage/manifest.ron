@@ -1,6 +1,18 @@
 (
     title: "Espionage",
     developer: Some("Momeka"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/espionage/Espionage.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/espionage",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/espionage/screenshot.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/espionage/screenshot.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "espionage",
-                    filename: "Espionage.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

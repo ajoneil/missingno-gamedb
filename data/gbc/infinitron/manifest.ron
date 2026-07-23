@@ -1,6 +1,18 @@
 (
     title: "Infinitron",
     developer: Some("Refresh Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/infinitron/infinitron.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/infinitron",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/infinitron/infinitron.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/infinitron/infinitron.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "infinitron",
-                    filename: "infinitron.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

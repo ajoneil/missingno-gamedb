@@ -6,6 +6,18 @@
         "Top Down Adventure",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gerardodce_grimoire-rush/GRush_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gerardodce_grimoire-rush",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gerardodce_grimoire-rush/cover.png",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gerardodce_grimoire-rush/screenshots/JTrm8N.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gerardodce_grimoire-rush",
-                    filename: "GRush_jam.gbc",
-                ),
-                Itch(
-                    url: "https://gerardodce.itch.io/grimoire-rush",
-                ),
-            ],
-        ),
+        (),
     ],
 )

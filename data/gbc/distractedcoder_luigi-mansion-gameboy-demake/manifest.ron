@@ -9,6 +9,18 @@
         "Action",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/LuigiMansionGameboy_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/distractedcoder_luigi-mansion-gameboy-demake",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/cover.png",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/distractedcoder_luigi-mansion-gameboy-demake/screenshots/VB07oy.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "distractedcoder_luigi-mansion-gameboy-demake",
-                    filename: "LuigiMansionGameboy_jam.gbc",
-                ),
-                Itch(
-                    url: "https://distractedcoder.itch.io/luigi-mansion-gameboy-demake",
-                ),
-            ],
-        ),
+        (),
     ],
 )

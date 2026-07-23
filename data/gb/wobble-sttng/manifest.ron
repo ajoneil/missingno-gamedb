@@ -3,6 +3,16 @@
     developer: Some("sttng"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/wobble-sttng/wobble.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/wobble-sttng",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://github.com/sttng/gb-stuff/tree/main/wobble",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2021-04-19"),
-            sources: [
-                HomebrewHub(
-                    slug: "wobble-sttng",
-                    filename: "wobble.gb",
-                ),
-            ],
         ),
     ],
 )

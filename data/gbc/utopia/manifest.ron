@@ -1,6 +1,18 @@
 (
     title: "Utopia",
     developer: Some("Black Box"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/utopia.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/utopia",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/utopia/5.png",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("2004-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "utopia",
-                    filename: "utopia.gb",
-                ),
-            ],
         ),
     ],
 )

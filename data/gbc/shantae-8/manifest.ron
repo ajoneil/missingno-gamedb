@@ -1,6 +1,18 @@
 (
     title: "Shantae +8",
     developer: Some("Dual Crew Shining"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/shantae-8/shantae-8.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/shantae-8",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shantae-8/shantae-8.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2002-06-10"),
-            sources: [
-                HomebrewHub(
-                    slug: "shantae-8",
-                    filename: "shantae-8.gbc",
-                ),
-            ],
         ),
     ],
 )

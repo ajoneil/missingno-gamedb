@@ -1,5 +1,17 @@
 (
     title: "Sound Mode #1",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sound-mode-1/sound.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sound-mode-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sound-mode-1/sound.png",
     ],
@@ -7,13 +19,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sound-mode-1/sound.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "sound-mode-1",
-                    filename: "sound.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

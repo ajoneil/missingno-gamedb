@@ -7,6 +7,18 @@
         "Text based",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rodrigocard_text-reader-gb/TXTReaderGB-DEMO.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rodrigocard_text-reader-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rodrigocard_text-reader-gb/cover.png",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rodrigocard_text-reader-gb/screenshots/D1kQwh.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rodrigocard_text-reader-gb",
-                    filename: "TXTReaderGB-DEMO.gb",
-                ),
-                Itch(
-                    url: "https://rodrigocard.itch.io/text-reader-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

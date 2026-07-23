@@ -1,6 +1,18 @@
 (
     title: "Where\'s my A500 ?! (Denki Blocks)",
     developer: Some("Quartex"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-my-a500/qtx-i_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/where-s-my-a500",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/where-s-my-a500/188.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "where-s-my-a500",
-                    filename: "qtx-i_01.gbc",
-                ),
-            ],
         ),
     ],
 )

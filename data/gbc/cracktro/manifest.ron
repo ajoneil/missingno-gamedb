@@ -1,6 +1,18 @@
 (
     title: "Cracktro",
     developer: Some("The Corporation"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cracktro/tcintro3.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cracktro",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cracktro/711.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2006-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "cracktro",
-                    filename: "tcintro3.gb",
-                ),
-            ],
         ),
     ],
 )

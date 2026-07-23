@@ -13,6 +13,18 @@
         "gbcompo2025",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lmkdots_sheepsplit/SheepSplit_v1.0_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lmkdots_sheepsplit",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lmkdots_sheepsplit/cover.png",
     ],
@@ -25,16 +37,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lmkdots_sheepsplit/screenshots/d3GY9A.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "lmkdots_sheepsplit",
-                    filename: "SheepSplit_v1.0_jam.gbc",
-                ),
-                Itch(
-                    url: "https://lmkdots.itch.io/sheepsplit",
-                ),
-            ],
-        ),
+        (),
     ],
 )

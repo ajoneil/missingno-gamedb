@@ -1,6 +1,18 @@
 (
     title: "reflectendo",
     developer: Some("elyon"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/reflectendo/reflectendo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/reflectendo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/reflectendo/reflectendo.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2023-02-11"),
-            sources: [
-                HomebrewHub(
-                    slug: "reflectendo",
-                    filename: "reflectendo.gb",
-                ),
-            ],
         ),
     ],
 )

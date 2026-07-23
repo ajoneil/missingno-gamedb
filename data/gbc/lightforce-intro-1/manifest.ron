@@ -1,6 +1,18 @@
 (
     title: "Lightforce Intro 1 (The Emperor\'s New Groove +4)",
     developer: Some("Lightforce"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lightforce-intro-1/lfc1.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lightforce-intro-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lightforce-intro-1/275.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "lightforce-intro-1",
-                    filename: "lfc1.gbc",
-                ),
-            ],
         ),
     ],
 )

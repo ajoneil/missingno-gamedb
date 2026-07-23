@@ -7,6 +7,18 @@
         "Singleplayer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/MEMORY LOOP_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/syfartistry_memory-loop",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-loop/screenshots/IiizC3.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "syfartistry_memory-loop",
-                    filename: "MEMORY LOOP_jam.gbc",
-                ),
-                Itch(
-                    url: "https://syfartistry.itch.io/memory-loop",
-                ),
-            ],
-        ),
+        (),
     ],
 )

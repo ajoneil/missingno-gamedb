@@ -1,0 +1,109 @@
+(
+    title: "Circus Atari",
+    description: Some("A Breakout variant in circus dress: you slide a seesaw along the bottom of the tent, launching one clown skyward while the other waits, popping three rows of balloons that pay more the higher the row. Miss the catch and the clown flattens; clear rows to speed the show up. Zellers sold an unlicensed rebadge titled simply Circus, converted to joystick control where Atari\'s original plays on paddles."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/circus_atari.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Circus_Atari",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F3F2DC1B1F54816B6E7726BA61143F1B761C9F42",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "0461f11aec13c0610612be9337fc2d2d4cbe6cab",
+                    label: Some("alt 1"),
+                ),
+                (
+                    sha1: "8a91ecdbd8bf9d412da051c3422abb004eab8603",
+                ),
+                (
+                    sha1: "e420ea6724a5735ea16a642c06b5648bea953ab0",
+                    label: Some("alt 2"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "342cabe30592db8dcf692994666e40fb176c8d86",
+                ),
+            ],
+        ),
+        (
+            title: Some("Circus"),
+            regions: [
+                Canada,
+            ],
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Joystick,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "b600b33506d1e8901972cef0a40cbf5b376a910e",
+                ),
+            ],
+        ),
+        (
+            title: Some("Circus"),
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Joystick,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "2883df530b0832e9d84ade740ab95fbc7e3a7bac",
+                    label: Some("pirate [p]"),
+                ),
+            ],
+        ),
+    ],
+)

@@ -3,6 +3,16 @@
     developer: Some("Chris Read"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/save-the-puppies/stp29.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/save-the-puppies",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://www.atari2600land.com/gameboy/savethepuppies.html",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2021-11-25"),
-            sources: [
-                HomebrewHub(
-                    slug: "save-the-puppies",
-                    filename: "stp29.gb",
-                ),
-            ],
         ),
     ],
 )

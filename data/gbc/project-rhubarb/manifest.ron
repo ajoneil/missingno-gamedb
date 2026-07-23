@@ -5,6 +5,18 @@
     tags: [
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/project-rhubarb/ProjectRhubarb.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/project-rhubarb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/project-rhubarb/20110402_project_rhubarb.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/project-rhubarb/20110402_project_rhubarb.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "project-rhubarb",
-                    filename: "ProjectRhubarb.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

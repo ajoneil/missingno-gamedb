@@ -1,6 +1,18 @@
 (
     title: "South Pong",
     developer: Some("Jason"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/south-pong/SouthPong.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/south-pong",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/south-pong/20110402_south_pong.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/south-pong/20110402_south_pong.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "south-pong",
-                    filename: "SouthPong.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

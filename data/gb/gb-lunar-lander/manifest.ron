@@ -6,6 +6,18 @@
         "Simulation",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-lunar-lander/gb_lunar_lander.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-lunar-lander",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-lunar-lander/cover.png",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-lunar-lander/I7ASi2F.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gb-lunar-lander",
-                    filename: "gb_lunar_lander.gb",
-                ),
-                Itch(
-                    url: "https://pigeonaut.itch.io/gb-lunar-lander",
-                ),
-            ],
-        ),
+        (),
     ],
 )

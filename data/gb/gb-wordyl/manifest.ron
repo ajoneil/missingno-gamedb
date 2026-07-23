@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-wordyl/GBWORDYL_0.85_en.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-wordyl",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/bbbbbr/gb-wordle",
             link_type: Source,
@@ -21,13 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-wordyl/2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gb-wordyl",
-                    filename: "GBWORDYL_0.85_en.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

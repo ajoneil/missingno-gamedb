@@ -1,6 +1,18 @@
 (
     title: "Intro #2 (Harvest Moon 3)",
     developer: Some("Quartex"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-2-quartex/qtx-i_02.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/intro-2-quartex",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-2-quartex/189.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "intro-2-quartex",
-                    filename: "qtx-i_02.gbc",
-                ),
-            ],
         ),
     ],
 )

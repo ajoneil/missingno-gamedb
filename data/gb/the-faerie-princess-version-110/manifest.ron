@@ -1,6 +1,18 @@
 (
     title: "The Faerie Princess (Version 1.1.0)",
     developer: Some("Videlais"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-faerie-princess-version-110/the-faerie-princess.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-faerie-princess-version-110",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-faerie-princess-version-110/the-faerie-princess.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-faerie-princess-version-110/the-faerie-princess.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-faerie-princess-version-110",
-                    filename: "the-faerie-princess.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

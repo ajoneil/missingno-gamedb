@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/snake/snake.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/snake",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://forums.nesdev.com/viewtopic.php?f=20&t=16787&sid=86fe28e1d07a7d0a7cf9775104d6a4a9",
             link_type: Wiki,
@@ -24,13 +34,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snake/screenshot.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "snake",
-                    filename: "snake.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

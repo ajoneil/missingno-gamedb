@@ -1,5 +1,17 @@
 (
     title: "Mplay2 Demo: Showroom Music",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay2-demo-showroom-music/mplay2demo---showroom-music-pd-c.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mplay2-demo-showroom-music",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mplay2-demo-showroom-music/showroommusic.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2000-01-22"),
-            sources: [
-                HomebrewHub(
-                    slug: "mplay2-demo-showroom-music",
-                    filename: "mplay2demo---showroom-music-pd-c.gbc",
-                ),
-            ],
         ),
     ],
 )

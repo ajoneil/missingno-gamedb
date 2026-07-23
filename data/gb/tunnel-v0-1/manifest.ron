@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tunnel-v0-1/Tunnel.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tunnel-v0-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tunnel-v0-1/20110402_tunnel.png",
     ],
@@ -11,13 +23,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tunnel-v0-1/20110402_tunnel.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tunnel-v0-1",
-                    filename: "Tunnel.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

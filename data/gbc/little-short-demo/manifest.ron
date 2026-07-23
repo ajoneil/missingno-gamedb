@@ -1,6 +1,18 @@
 (
     title: "Little Short Demo",
     developer: Some("Oyd11"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/little-short-demo/lsd.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/little-short-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/little-short-demo/171.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "little-short-demo",
-                    filename: "lsd.gbc",
-                ),
-            ],
         ),
     ],
 )

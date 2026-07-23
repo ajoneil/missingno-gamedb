@@ -1,6 +1,18 @@
 (
     title: "Serpedelic (Version 1.1.0)",
     developer: Some("DeltaGardner"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/serpedelic-version-110/serpedelic.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/serpedelic-version-110",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/serpedelic-version-110/serpedelic.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/serpedelic-version-110/serpedelic.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "serpedelic-version-110",
-                    filename: "serpedelic.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -7,6 +7,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/galactic-ambassador/galactic_ambassador.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/galactic-ambassador",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/galactic-ambassador/cover.png",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/galactic-ambassador/GPOHTi.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "galactic-ambassador",
-                    filename: "galactic_ambassador.gb",
-                ),
-                Itch(
-                    url: "https://uso5.itch.io/galactic-ambassador",
-                ),
-            ],
-        ),
+        (),
     ],
 )

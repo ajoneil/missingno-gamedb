@@ -1,6 +1,18 @@
 (
     title: "Second Reality",
     developer: Some("Mills"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/second-reality/2ND - FINISHED.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/second-reality",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/second-reality/663.png",
     ],
@@ -24,12 +36,6 @@
     releases: [
         (
             date: Some("2014-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "second-reality",
-                    filename: "2ND - FINISHED.gb",
-                ),
-            ],
         ),
     ],
 )

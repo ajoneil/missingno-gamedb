@@ -1,6 +1,18 @@
 (
     title: "Sqrxz",
     developer: Some("Icarus Productions"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sqrxz/sqrxz.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sqrxz",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sqrxz/sqrxz.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-05-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "sqrxz",
-                    filename: "sqrxz.gb",
-                ),
-            ],
         ),
     ],
 )

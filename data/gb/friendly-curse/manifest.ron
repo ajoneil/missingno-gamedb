@@ -6,6 +6,18 @@
         "Platform",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-curse/FriendlyCurse-1.2.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friendly-curse",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-curse/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-curse/q22FjIR.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "friendly-curse",
-                    filename: "FriendlyCurse-1.2.gb",
-                ),
-                Itch(
-                    url: "https://joymachs.itch.io/friendly-curse",
-                ),
-            ],
-        ),
+        (),
     ],
 )

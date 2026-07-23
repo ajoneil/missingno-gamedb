@@ -11,6 +11,18 @@
         "gbcompo2025",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lazydevs_dragonslayer/dragonslayer.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lazydevs_dragonslayer",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lazydevs_dragonslayer/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lazydevs_dragonslayer/screenshots/UwOBd7.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "lazydevs_dragonslayer",
-                    filename: "dragonslayer.gb",
-                ),
-                Itch(
-                    url: "https://lazydevs.itch.io/dragonslayer",
-                ),
-            ],
-        ),
+        (),
     ],
 )

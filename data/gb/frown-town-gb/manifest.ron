@@ -4,6 +4,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/frown-town-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/frown-town-gb/d52epK.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "frown-town-gb",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://starksnow.itch.io/frown-town-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

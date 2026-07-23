@@ -1,5 +1,17 @@
 (
     title: "Scrolling Blue Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/scrolling-blue-demo/Scrolling Blue Demo (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/scrolling-blue-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/scrolling-blue-demo/Scrolling Blue Demo (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2000-01-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "scrolling-blue-demo",
-                    filename: "Scrolling Blue Demo (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

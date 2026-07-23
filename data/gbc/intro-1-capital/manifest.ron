@@ -1,6 +1,18 @@
 (
     title: "Intro #1 (Grand Theft Auto)",
     developer: Some("Capital"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-1-capital/cpl-i_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/intro-1-capital",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/intro-1-capital/204.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2002-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "intro-1-capital",
-                    filename: "cpl-i_01.gbc",
-                ),
-            ],
         ),
     ],
 )

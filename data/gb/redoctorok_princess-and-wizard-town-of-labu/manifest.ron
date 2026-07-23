@@ -10,6 +10,18 @@
         "Wizards",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/redoctorok_princess-and-wizard-town-of-labu/Princess and Wizard_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/redoctorok_princess-and-wizard-town-of-labu",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/redoctorok_princess-and-wizard-town-of-labu/cover.png",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/redoctorok_princess-and-wizard-town-of-labu/screenshots/Izqjhp.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "redoctorok_princess-and-wizard-town-of-labu",
-                    filename: "Princess and Wizard_jam.gb",
-                ),
-                Itch(
-                    url: "https://redoctorok.itch.io/princess-and-wizard-town-of-labu",
-                ),
-            ],
-        ),
+        (),
     ],
 )

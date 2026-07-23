@@ -5,6 +5,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gerry-the-friendly-ghost/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gerry-the-friendly-ghost",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gerry-the-friendly-ghost/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gerry-the-friendly-ghost/wvWcNs.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gerry-the-friendly-ghost",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://ceprotypes.itch.io/gerry-the-friendly-ghost",
-                ),
-            ],
-        ),
+        (),
     ],
 )

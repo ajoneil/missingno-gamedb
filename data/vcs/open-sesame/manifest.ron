@@ -1,25 +1,67 @@
 (
     title: "Open Sesame",
-    releases: [
+    description: Some("As Ali Baba you scale a treasure hill floor by floor, throwing out two ropes on each storey to open a way up while guards patrol after you; lingering high on a rope keeps you out of their reach. Catching the magic ball briefly turns your touch deadly, freezing guards into golden statues, and a 5,000-point time bonus drains as you climb toward the treasury. One of only two Atari 2600 games with synthesised speech; in the US it shipped re-themed by ZiMAG as I Want My Mommy, with Teddy the bear riding teleporter beams up a six-storey tower in place of Ali Baba\'s ropes."),
+    links: [
         (
-            date: Some("2001"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/I_Want_My_Mommy",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/open_sesame.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-open-sesame_25175.html",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (I Want My Mommy)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/i_want_my_mommy.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BFD91D73AD5ADA1F4D72C50157929C56C50D1A55",
+        "https://raw.githubusercontent.com/libretro-thumbnails/Atari_-_2600/master/Named_Boxarts/I%20Want%20My%20Mommy%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Open Sesame NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "0876f06abe11369f21892ea8631cca3d84cc07f8",
-                ),
-                (
-                    sha1: "5b4a6b264be7782af4c2f779725f98ceba478f7e",
+                    date: Some("2001"),
+                    base_sha1: Some("cd968c2a983f9adf4d8d8d56823923b31c33980f"),
+                    artifacts: [
+                        (
+                            sha1: "0876f06abe11369f21892ea8631cca3d84cc07f8",
+                        ),
+                        (
+                            sha1: "5b4a6b264be7782af4c2f779725f98ceba478f7e",
+                            label: Some("alt"),
+                        ),
+                    ],
                 ),
             ],
         ),
+    ],
+    curated: [
         (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
-            publisher: Some("Puzzy"),
+            publisher: Some("Bit Corporation"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -27,12 +69,72 @@
             artifacts: [
                 (
                     sha1: "3fcff056232bb7dca13e84ebe9bb2dc6bb5cd5fd",
-                ),
-                (
-                    sha1: "cc4d66da0182819a8067dbc6b73ff1bc33fc165b",
+                    label: Some("4 Game in One extract"),
                 ),
                 (
                     sha1: "cd968c2a983f9adf4d8d8d56823923b31c33980f",
+                ),
+            ],
+        ),
+        (
+            title: Some("Abre-te, Sesamo!"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cc00c5138fd1a3b723c5f1acc90ff8e6e87942c1",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cc4d66da0182819a8067dbc6b73ff1bc33fc165b",
+                ),
+            ],
+        ),
+        (
+            title: Some("I Want My Mommy"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f7e782214b5f9227e34c00f590be50534f1fda91",
+                ),
+            ],
+        ),
+        (
+            title: Some("Apples and Dolls"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "62e92508cf43acc28bff8b03a197137d56a5df79",
                 ),
             ],
         ),

@@ -3,6 +3,16 @@
     developer: Some("Grayfox unLTD."),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/grayfox-gbdk-scroll-sample/SAMP03B1.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/grayfox-gbdk-scroll-sample",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://home.interlink.or.jp/~grayfox",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("1997-10-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "grayfox-gbdk-scroll-sample",
-                    filename: "SAMP03B1.GB",
-                ),
-            ],
         ),
     ],
 )

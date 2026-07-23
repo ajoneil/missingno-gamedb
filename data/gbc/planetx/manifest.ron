@@ -5,6 +5,18 @@
         "Action",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/planetx/PlanetX.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/planetx",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/planetx/20110402_planetx.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/planetx/20110402_planetx.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "planetx",
-                    filename: "PlanetX.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

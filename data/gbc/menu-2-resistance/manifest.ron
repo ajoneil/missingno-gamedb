@@ -1,6 +1,18 @@
 (
     title: "Menu #2 (The Jungle Book: Mowgli\'s Wild Adventure +3)",
     developer: Some("Resistance"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-resistance/rse-t_02.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-2-resistance",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-resistance/184.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-2-resistance",
-                    filename: "rse-t_02.gbc",
-                ),
-            ],
         ),
     ],
 )

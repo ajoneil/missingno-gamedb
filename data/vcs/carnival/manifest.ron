@@ -1,7 +1,47 @@
 (
     title: "Carnival",
+    description: Some("A shooting-gallery port of Sega\'s arcade game: owls, rabbits and ducks parade across the rows while you slide your gun along the bottom, spending a strictly limited bullet supply. Ducks you miss dive down to eat ten bullets at a bite, extra-bullet boxes and a plus-minus target swing your stock and score, and clearing the pipes early keeps the duck swarms at bay."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/carnival.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Carnival_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6576148BB2E1C9D7A7F0AF1D4EBF6BC29ECBD429",
+    ],
+    mods: [
+        (
+            name: "Unnamed 208-in-1 multicart hack of Carnival",
+            category: Compatibility,
+            releases: [
+                (
+                    artifacts: [
+                        (
+                            sha1: "eca46938b98ce7d908e14c4a126560a9b453f69c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Coleco"),
             hardware: (
@@ -11,6 +51,7 @@
             artifacts: [
                 (
                     sha1: "95ebf178072d0bd29d5bf736990a69b6a78465cb",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "e1acf7a845b56e4b3d18192a75a81c7afa6f341a",
@@ -18,6 +59,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("CBS Electronics"),
             hardware: (
@@ -30,9 +74,7 @@
                 ),
                 (
                     sha1: "167cc85fc6aea40e82be1f6aeccfd8233fe24ef1",
-                ),
-                (
-                    sha1: "eca46938b98ce7d908e14c4a126560a9b453f69c",
+                    label: Some("alt"),
                 ),
             ],
         ),

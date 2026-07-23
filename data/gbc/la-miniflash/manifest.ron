@@ -1,6 +1,18 @@
 (
     title: "La MiniFlash",
     developer: Some("Latitude Independent Association"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/la-miniflash/la-miniflash.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/la-miniflash",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/la-miniflash/la-miniflash.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2024-10-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "la-miniflash",
-                    filename: "la-miniflash.gbc",
-                ),
-            ],
         ),
     ],
 )

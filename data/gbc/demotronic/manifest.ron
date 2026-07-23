@@ -1,6 +1,18 @@
 (
     title: "Demotronic",
     developer: Some("Megaboys"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/demotronic/mb-dtrnc.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/demotronic",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/demotronic/40.png",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("2002-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "demotronic",
-                    filename: "mb-dtrnc.gbc",
-                ),
-            ],
         ),
     ],
 )

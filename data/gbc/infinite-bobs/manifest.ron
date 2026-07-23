@@ -1,6 +1,18 @@
 (
     title: "Infinite Bobs",
     developer: Some("Ethanol Soft Inc"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/infinite-bobs/InfiniteBobs.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/infinite-bobs",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/infinite-bobs/215.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "infinite-bobs",
-                    filename: "InfiniteBobs.gbc",
-                ),
-            ],
         ),
     ],
 )

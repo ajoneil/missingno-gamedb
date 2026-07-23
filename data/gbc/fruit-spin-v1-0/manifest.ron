@@ -1,6 +1,18 @@
 (
     title: "Fruit Spin v1.0",
     developer: Some("Stu"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fruit-spin-v1-0/FruitSpin.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fruit-spin-v1-0",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fruit-spin-v1-0/20110402_fruit_spin.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fruit-spin-v1-0/20110402_fruit_spin.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "fruit-spin-v1-0",
-                    filename: "FruitSpin.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -7,6 +7,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/FriendshipNeverDiesGameBoy.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fnd",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/cover.png",
     ],
@@ -22,16 +34,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fnd/y8JY2e.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "fnd",
-                    filename: "FriendshipNeverDiesGameBoy.gb",
-                ),
-                Itch(
-                    url: "https://johndo21.itch.io/fnd",
-                ),
-            ],
-        ),
+        (),
     ],
 )

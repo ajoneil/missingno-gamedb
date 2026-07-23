@@ -5,6 +5,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-adventures-and-misadventures-of-three-friendly-animals-part-4/TAMTFA.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-adventures-and-misadventures-of-three-friendly-animals-part-4",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-adventures-and-misadventures-of-three-friendly-animals-part-4/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-adventures-and-misadventures-of-three-friendly-animals-part-4/ClEKeX.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-adventures-and-misadventures-of-three-friendly-animals-part-4",
-                    filename: "TAMTFA.gb",
-                ),
-                Itch(
-                    url: "https://thincavalcanti.itch.io/the-adventures-and-misadventures-of-three-friendly-animals-part-4",
-                ),
-            ],
-        ),
+        (),
     ],
 )

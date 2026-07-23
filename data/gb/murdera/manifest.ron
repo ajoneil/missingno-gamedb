@@ -1,6 +1,18 @@
 (
     title: "Murdera",
     developer: Some("Matt Current"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/mc-mrder.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/murdera",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/murdera/318.png",
     ],
@@ -21,12 +33,6 @@
     releases: [
         (
             date: Some("2006-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "murdera",
-                    filename: "mc-mrder.gb",
-                ),
-            ],
         ),
     ],
 )

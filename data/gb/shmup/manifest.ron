@@ -1,6 +1,18 @@
 (
     title: "shmup",
     developer: Some("kresna"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/shmup/SHMUP.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/shmup",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shmup/screen1.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shmup/screen2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "shmup",
-                    filename: "SHMUP.GB",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Realtime",
     developer: Some("AGO"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/realtime/Realtime.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/realtime",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/realtime/228.png",
     ],
@@ -12,12 +24,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "realtime",
-                    filename: "Realtime.gb",
-                ),
-            ],
         ),
     ],
 )

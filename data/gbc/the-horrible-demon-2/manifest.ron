@@ -5,6 +5,18 @@
         "Adventure",
         "event:liksang2000-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon-2/TheHorribleDemon2.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-horrible-demon-2",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon-2/20110402_the_horrible_demon_2.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2000-04-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "the-horrible-demon-2",
-                    filename: "TheHorribleDemon2.cgb",
-                ),
-            ],
         ),
     ],
 )

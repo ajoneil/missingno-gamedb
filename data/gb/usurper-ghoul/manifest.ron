@@ -6,6 +6,18 @@
         "RPG",
         "Puzzle",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/usurperghoul.1.9.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/usurper-ghoul",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/cover.jpeg",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/usurper-ghoul/ucM20a.jpeg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "usurper-ghoul",
-                    filename: "usurperghoul.1.9.gb",
-                ),
-                Itch(
-                    url: "https://evandahm.itch.io/usurper-ghoul",
-                ),
-            ],
-        ),
+        (),
     ],
 )

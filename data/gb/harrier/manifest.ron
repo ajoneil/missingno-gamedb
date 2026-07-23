@@ -1,5 +1,17 @@
 (
     title: "Harrier",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/harrier/harrier.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/harrier",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/harrier/harrier-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2002-11-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "harrier",
-                    filename: "harrier.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Dimension of Miracles",
     developer: Some("AGO"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dimension-of-miracles/dimens.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dimension-of-miracles",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dimension-of-miracles/224.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "dimension-of-miracles",
-                    filename: "dimens.GB",
-                ),
-            ],
         ),
     ],
 )

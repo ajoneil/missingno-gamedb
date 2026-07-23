@@ -6,6 +6,18 @@
         "Action",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-pacifist/ThePacifist_GBSD-2023.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-pacifist",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-pacifist/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-pacifist/GFKVfB.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-pacifist",
-                    filename: "ThePacifist_GBSD-2023.gbc",
-                ),
-                Itch(
-                    url: "https://rico-harbor.itch.io/the-pacifist",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Hangman 99",
     developer: Some("Thomas Vee"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hangman-99/Hangman_02.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hangman-99",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hangman-99/20110402_hangman_99.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hangman-99/20110402_hangman_99.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "hangman-99",
-                    filename: "Hangman_02.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

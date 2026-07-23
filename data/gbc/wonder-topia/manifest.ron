@@ -1,6 +1,18 @@
 (
     title: "Wonder Topia",
     developer: Some("Unkown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/wonder-topia/WonderTopia.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/wonder-topia",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/wonder-topia/20110402_wonder_topia.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/wonder-topia/20110402_wonder_topia.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "wonder-topia",
-                    filename: "WonderTopia.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

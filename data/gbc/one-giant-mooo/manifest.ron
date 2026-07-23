@@ -1,6 +1,18 @@
 (
     title: "One Giant Mooo (Prince Naseem Boxing)",
     developer: Some("Capital"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/one-giant-mooo/cpl-i_05.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/one-giant-mooo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/one-giant-mooo/208.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "one-giant-mooo",
-                    filename: "cpl-i_05.gbc",
-                ),
-            ],
         ),
     ],
 )

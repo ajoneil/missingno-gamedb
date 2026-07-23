@@ -1,6 +1,18 @@
 (
     title: "GB-Lander v0.02",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-lander-v0-02/GB-Lander.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-lander-v0-02",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-lander-v0-02/20110402_gb-lander.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-lander-v0-02/20110402_gb-lander.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gb-lander-v0-02",
-                    filename: "GB-Lander.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

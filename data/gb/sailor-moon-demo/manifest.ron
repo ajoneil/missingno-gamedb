@@ -1,5 +1,17 @@
 (
     title: "Sailor Moon Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sailor-moon-demo/Sailor Moon Demo (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sailor-moon-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sailor-moon-demo/Sailor Moon Demo (PD).png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-10-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "sailor-moon-demo",
-                    filename: "Sailor Moon Demo (PD).gb",
-                ),
-            ],
         ),
     ],
 )

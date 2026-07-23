@@ -1,6 +1,18 @@
 (
     title: "FX Shooter G: MiniRPG2 Story",
     developer: Some("Jaws-V Soft"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fx-shooter-g-minirpg2-story/fxgbc.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fx-shooter-g-minirpg2-story",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fx-shooter-g-minirpg2-story/fxshootr.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-02-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "fx-shooter-g-minirpg2-story",
-                    filename: "fxgbc.gbc",
-                ),
-            ],
         ),
     ],
 )

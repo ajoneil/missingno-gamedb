@@ -1,7 +1,46 @@
 (
     title: "Crash Dive",
+    developer: Some("Bill Aspromonte"),
+    description: Some("You fly the Sea Hunter, a flying submarine hunting enemy craft from planes down to angler fish and lifting sunken treasures worth up to a five-thousand-point key — fastest in the air, half-speed underwater, pinned still on the sea floor. Fuel comes from clinging to the Sea View mother ship, filling six treasure slots earns a spare sub, and every seventh obstacle group is an indestructible minefield you must thread, never shoot."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/crash_dive.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A46FCB07F71B6029B4B3E163B747FAEBC12E3254",
+    ],
+    mods: [
+        (
+            name: "Crash Dive PAL conversion",
+            category: Compatibility,
+            author: Some("Fabrizio Zavagli"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("73d68f32d1fb73883ceb183d5150bff5f1065de4"),
+                    artifacts: [
+                        (
+                            sha1: "75b31e30b87d1555d6f4f6ebc1fd95ea1ae7a44e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("20th Century Fox Video Games"),
             hardware: (
@@ -11,6 +50,7 @@
             artifacts: [
                 (
                     sha1: "54c9490e2cfd4d343494d07e285836df9b20f5a4",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "73d68f32d1fb73883ceb183d5150bff5f1065de4",
@@ -18,21 +58,22 @@
             ],
         ),
         (
-            date: Some("2002"),
-            publisher: Some("Fabrizio Zavagli"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("20th Century Fox Video Games"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "75b31e30b87d1555d6f4f6ebc1fd95ea1ae7a44e",
-                ),
-                (
                     sha1: "878647d78f943f95e0aec5607ba640c011226f91",
                 ),
                 (
                     sha1: "c57cc1f37e39e7e530fe8ab1801db16334d0befb",
+                    label: Some("alt"),
                 ),
             ],
         ),

@@ -2,6 +2,18 @@
     title: "Where\'s My Cake?",
     developer: Some("Cabbage, Gredler"),
     description: Some("Made for #bitbitjam3 between June 27 and July 4, 2016."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/wheres-my-cake/cake2016.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/wheres-my-cake",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/wheres-my-cake/cake2016.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2016-07-04"),
-            sources: [
-                HomebrewHub(
-                    slug: "wheres-my-cake",
-                    filename: "cake2016.gbc",
-                ),
-            ],
         ),
     ],
 )

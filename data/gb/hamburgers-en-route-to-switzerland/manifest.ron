@@ -3,6 +3,16 @@
     developer: Some("Chris Read"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hamburgers-en-route-to-switzerland/hamburger32.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hamburgers-en-route-to-switzerland",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://atari2600land.com/gameboy/hamburgers.html",
             link_type: Wiki,
@@ -18,12 +28,6 @@
     releases: [
         (
             date: Some("2022-01-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "hamburgers-en-route-to-switzerland",
-                    filename: "hamburger32.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,5 +1,17 @@
 (
     title: "Cosmica",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmica/cosmica.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cosmica",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmica/screenshot.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2001-01-03"),
-            sources: [
-                HomebrewHub(
-                    slug: "cosmica",
-                    filename: "cosmica.gb",
-                ),
-            ],
         ),
     ],
 )

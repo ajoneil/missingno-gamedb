@@ -6,6 +6,18 @@
         "Platform",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/robot-x-slime/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/robot-x-slime",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/robot-x-slime/cover.jpg",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/robot-x-slime/zQ2FQcZ.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "robot-x-slime",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://michlwild.itch.io/robot-x-slime",
-                ),
-            ],
-        ),
+        (),
     ],
 )

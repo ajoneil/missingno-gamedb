@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dionofspice_living-nightmare/LivingNightmare_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dionofspice_living-nightmare",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dionofspice_living-nightmare/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dionofspice_living-nightmare/screenshots/DiSMVP.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "dionofspice_living-nightmare",
-                    filename: "LivingNightmare_jam.gb",
-                ),
-                Itch(
-                    url: "https://dionofspice.itch.io/living-nightmare",
-                ),
-            ],
-        ),
+        (),
     ],
 )

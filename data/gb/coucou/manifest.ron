@@ -1,6 +1,18 @@
 (
     title: "coucou",
     developer: Some("Piers Bishop"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/coucou/coucou.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/coucou",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/coucou/coucou.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/coucou/coucou.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "coucou",
-                    filename: "coucou.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Bomber",
     developer: Some("Richard Town"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bomber/Bomber.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bomber",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bomber/20110402_bomber.gif",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/bomber/20110402_bomber.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "bomber",
-                    filename: "Bomber.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

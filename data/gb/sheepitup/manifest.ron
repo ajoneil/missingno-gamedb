@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sheepitup/sheepitup.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sheepitup",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://gamejolt.com/games/sheepitup/267335",
             link_type: Wiki,
@@ -27,12 +37,6 @@
     releases: [
         (
             date: Some("2017-07-07"),
-            sources: [
-                HomebrewHub(
-                    slug: "sheepitup",
-                    filename: "sheepitup.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/snek-gbc/pong.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/snek-gbc",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/zlago/snek-gbc",
             link_type: Source,
@@ -23,13 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snek-gbc/title-s.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "snek-gbc",
-                    filename: "pong.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

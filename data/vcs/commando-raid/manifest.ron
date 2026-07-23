@@ -1,7 +1,29 @@
 (
     title: "Commando Raid",
+    description: Some("Android paratroopers spill from helicopters over your city while you swing an anti-aircraft gun to shoot them out of the sky — three landings level a building, captured rooftops let the androids tunnel toward your gun, and a bomber\'s single devastating bomb has to be shot down mid-fall. Every 10,000 points rings a bell and rebuilds your worst-hit building, and the console switches choose steerable missiles over straight bullets, automatic fire, and whether the bomber flies at all."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/commando_raid.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A05937800C1DBF56E11079760388DCC85B8C950F",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("U.S. Games"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,6 +31,7 @@
             artifacts: [
                 (
                     sha1: "7a5963368a7490a8022332f82ce9c9729501c05f",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "8dad05085657e95e567f47836502be515b42f66b",
@@ -23,9 +46,14 @@
             artifacts: [
                 (
                     sha1: "8f63c5010008551f8e5fe5ada414f0c2bc44e5e5",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "bdaf4a9071109c6ecdb3d381ef92efa02c184fd8",
+                ),
+                (
+                    sha1: "af7fa7741183a43f6aebb033c35b8be51f214409",
+                    label: Some("pirate [p]"),
                 ),
             ],
         ),

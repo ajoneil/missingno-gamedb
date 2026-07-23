@@ -1,5 +1,17 @@
 (
     title: "Gabe Edit v0.1",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gabe_edit/Gabe_Edit.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gabe_edit",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gabe_edit/Gabe_Edit-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1998-09-17"),
-            sources: [
-                HomebrewHub(
-                    slug: "gabe_edit",
-                    filename: "Gabe_Edit.gb",
-                ),
-            ],
         ),
     ],
 )

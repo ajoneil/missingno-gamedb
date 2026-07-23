@@ -8,6 +8,18 @@
         "Racing",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/Mario Kart GB Version 1.01.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/anakitten_mario-kart-gb",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/cover.png",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/anakitten_mario-kart-gb/screenshots/utKkel.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "anakitten_mario-kart-gb",
-                    filename: "Mario Kart GB Version 1.01.gb",
-                ),
-                Itch(
-                    url: "https://anakitten.itch.io/mario-kart-gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

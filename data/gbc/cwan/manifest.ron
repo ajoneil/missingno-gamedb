@@ -1,6 +1,18 @@
 (
     title: "Cwan",
     developer: Some("Sabre Wulf"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cwan/Cwan.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cwan",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cwan/20110402_cwan.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-07-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "cwan",
-                    filename: "Cwan.cgb",
-                ),
-            ],
         ),
     ],
 )

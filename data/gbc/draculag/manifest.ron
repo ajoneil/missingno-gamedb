@@ -1,6 +1,18 @@
 (
     title: "draculag",
     developer: Some("changev"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/draculag/draculag.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/draculag",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/draculag/draculag.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/draculag/draculag.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "draculag",
-                    filename: "draculag.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Q*bert (Version 1.00) (Greek)",
     developer: Some("Paul Chinn/GreekRoms"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/qbert-version-100-gr/qbertgr.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/qbert-version-100-gr",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/qbert-version-100-gr/qbert-0.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2003-04-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "qbert-version-100-gr",
-                    filename: "qbertgr.gbc",
-                ),
-            ],
         ),
     ],
 )

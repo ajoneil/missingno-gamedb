@@ -1,6 +1,18 @@
 (
     title: "Ping Pong Diplomacy (Version 1.0)",
     developer: Some("Ryoga"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ping-pong-diplomacy-version-10/PingPongDiplomacy-gb-rom-v-1.0.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ping-pong-diplomacy-version-10",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ping-pong-diplomacy-version-10/pingpongdiplomacy.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ping-pong-diplomacy-version-10/pingpongdiplomacy.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ping-pong-diplomacy-version-10",
-                    filename: "PingPongDiplomacy-gb-rom-v-1.0.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

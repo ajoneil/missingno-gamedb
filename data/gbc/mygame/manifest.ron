@@ -5,6 +5,18 @@
         "Adventure",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mygame/Mygame.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mygame",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mygame/Mygame-0.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2000-01-19"),
-            sources: [
-                HomebrewHub(
-                    slug: "mygame",
-                    filename: "Mygame.gb",
-                ),
-            ],
         ),
     ],
 )

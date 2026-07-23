@@ -4,6 +4,16 @@
     license: Some("MIT"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-pda/pda.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-pda",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://home.att.ne.jp/gamma/TeamKNOx/gameboy/gb_pdae.html",
             link_type: Wiki,
@@ -24,12 +34,6 @@
     releases: [
         (
             date: Some("2002-05-19"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-pda",
-                    filename: "pda.gb",
-                ),
-            ],
         ),
     ],
 )

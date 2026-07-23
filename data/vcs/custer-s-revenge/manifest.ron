@@ -1,7 +1,40 @@
 (
     title: "Custer\'s Revenge",
+    description: Some("The most notorious cartridge of the 2600 era: the player steers General Custer across a field of arrows toward a bound Native American woman, in a premise built to shock — and it did, drawing condemnation from women\'s organizations and Native American groups, county bans, and an Atari lawsuit that saw it withdrawn within a year. The scandal sold roughly eighty thousand carts, and the game has anchored worst-games-ever lists since."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Custer%27s_Revenge",
+            link_type: Wiki,
+        ),
+    ],
+    mods: [
+        (
+            name: "Custer\'s Revenge Supercharger conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("4b3d02b59e17520b4d60236568d5cb50a4e6aeb3"),
+                    artifacts: [
+                        (
+                            sha1: "4a2eb084ffa8201fcce339b17a1333df482fc8ef",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Mystique"),
             hardware: (
@@ -10,16 +43,11 @@
             ),
             artifacts: [
                 (
-                    sha1: "4a2eb084ffa8201fcce339b17a1333df482fc8ef",
-                ),
-                (
                     sha1: "4b3d02b59e17520b4d60236568d5cb50a4e6aeb3",
                 ),
             ],
         ),
         (
-            date: Some("1982"),
-            publisher: Some("Mystique"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -27,9 +55,11 @@
             artifacts: [
                 (
                     sha1: "30a076f1db53f85799f0ad9cfce96724c39887f7",
+                    label: Some("unidentified 1"),
                 ),
                 (
                     sha1: "8465e5fbea8dc7a1e2efdb4d970f110b336abd16",
+                    label: Some("unidentified 2"),
                 ),
             ],
         ),

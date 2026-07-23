@@ -1,6 +1,18 @@
 (
     title: "Manic Miner",
     developer: Some("Paul Taylor"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/manic-miner/maniacminer.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/manic-miner",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/manic-miner/manicminer.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-08-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "manic-miner",
-                    filename: "maniacminer.cgb",
-                ),
-            ],
         ),
     ],
 )

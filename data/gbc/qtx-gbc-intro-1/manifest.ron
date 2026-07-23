@@ -1,6 +1,18 @@
 (
     title: "qtx gbc intro #1",
     developer: Some("Quartex"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/qtx-gbc-intro-1/qtx-gbc-intro-1.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/qtx-gbc-intro-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/qtx-gbc-intro-1/qtx-gbc-intro-1.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/qtx-gbc-intro-1/qtx-gbc-intro-1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "qtx-gbc-intro-1",
-                    filename: "qtx-gbc-intro-1.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

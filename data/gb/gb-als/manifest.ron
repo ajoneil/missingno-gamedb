@@ -1,6 +1,18 @@
 (
     title: "GB ALS v1.0f",
     developer: Some("Andy Kavanagh"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-als/GB ALS V1.0f (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-als",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-als/GB ALS V1.0f (PD).png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-02-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-als",
-                    filename: "GB ALS V1.0f (PD).gb",
-                ),
-            ],
         ),
     ],
 )

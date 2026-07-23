@@ -3,6 +3,16 @@
     developer: Some("Celestina Software"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mastermind/mastermind plus.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mastermind",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://www.romhacking.net/homebrew/163/",
             link_type: Wiki,
@@ -19,12 +29,6 @@
     releases: [
         (
             date: Some("2017-07-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "mastermind",
-                    filename: "mastermind plus.gb",
-                ),
-            ],
         ),
     ],
 )

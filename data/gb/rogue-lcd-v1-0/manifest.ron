@@ -2,6 +2,18 @@
     title: "Rogue LCD v1.0",
     developer: Some("Haroldo de Oliveira Pinheiro"),
     description: Some("This is my entry for the PDRoms Coding Competition 2.5. It’s a simple rogue-like game, made according to the rules of the competition (Monochrome, no smooth scrolling, no animation, no overlapping sprites, single sound channel)."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rogue-lcd-v1-0/roguelcd.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rogue-lcd-v1-0",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rogue-lcd-v1-0/20110402_rogue_lcd.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rogue-lcd-v1-0/20110402_rogue_lcd.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rogue-lcd-v1-0",
-                    filename: "roguelcd.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

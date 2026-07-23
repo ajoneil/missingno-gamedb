@@ -1,6 +1,18 @@
 (
     title: "StarTex",
     developer: Some("Neolith Productions"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/startex/Star Tex (Quang2000) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/startex",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/startex/Star Tex (Quang2000) (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-08-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "startex",
-                    filename: "Star Tex (Quang2000) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

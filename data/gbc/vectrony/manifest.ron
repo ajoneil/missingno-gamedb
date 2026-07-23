@@ -1,6 +1,18 @@
 (
     title: "Vectrony",
     developer: Some("Black Thunder"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/vectrony/vectrony.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/vectrony",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/vectrony/719.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "vectrony",
-                    filename: "vectrony.gbc",
-                ),
-            ],
         ),
     ],
 )

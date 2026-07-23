@@ -8,6 +8,18 @@
         "Action",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nilltronic_squarenose-one-shot/SquarenoseJam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nilltronic_squarenose-one-shot",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nilltronic_squarenose-one-shot/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nilltronic_squarenose-one-shot/screenshots/fItaZ0.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "nilltronic_squarenose-one-shot",
-                    filename: "SquarenoseJam.gb",
-                ),
-                Itch(
-                    url: "https://nilltronic.itch.io/squarenose-one-shot",
-                ),
-            ],
-        ),
+        (),
     ],
 )

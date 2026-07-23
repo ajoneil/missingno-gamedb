@@ -10,6 +10,18 @@
         "gb-compo",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gibbongl_gbc-pip-boy/Pip-Boy by GibbonGL_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gibbongl_gbc-pip-boy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gibbongl_gbc-pip-boy/cover.png",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gibbongl_gbc-pip-boy/screenshots/ZC0S75.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gibbongl_gbc-pip-boy",
-                    filename: "Pip-Boy by GibbonGL_jam.gbc",
-                ),
-                Itch(
-                    url: "https://gibbongl.itch.io/gbc-pip-boy",
-                ),
-            ],
-        ),
+        (),
     ],
 )

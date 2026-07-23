@@ -11,6 +11,18 @@
         "gb-studio",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/takago_desertion/DESERTION_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/takago_desertion",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/takago_desertion/cover.png",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/takago_desertion/screenshots/2fuTY4.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "takago_desertion",
-                    filename: "DESERTION_jam.gb",
-                ),
-                Itch(
-                    url: "https://takago.itch.io/desertion",
-                ),
-            ],
-        ),
+        (),
     ],
 )

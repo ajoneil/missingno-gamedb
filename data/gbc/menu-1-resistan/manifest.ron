@@ -1,6 +1,18 @@
 (
     title: "Menu #1 (Donald Duck M5 +3)",
     developer: Some("Resistance"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-resistan/rse-t_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-1-resistan",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-resistan/183.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-1-resistan",
-                    filename: "rse-t_01.gbc",
-                ),
-            ],
         ),
     ],
 )

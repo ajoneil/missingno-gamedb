@@ -1,5 +1,17 @@
 (
     title: "Titanic 2000 (demo)",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/titanic-2000-demo/Titantic 2000 Demo (PD) [C].gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/titanic-2000-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/titanic-2000-demo/Titantic 2000 Demo (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-09-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "titanic-2000-demo",
-                    filename: "Titantic 2000 Demo (PD) [C].gb",
-                ),
-            ],
         ),
     ],
 )

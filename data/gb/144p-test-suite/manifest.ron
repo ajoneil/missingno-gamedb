@@ -6,6 +6,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/144p-test-suite",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/pinobatch/240p-test-mini",
             link_type: Source,
@@ -26,12 +36,6 @@
     releases: [
         (
             date: Some("2018-04-17"),
-            sources: [
-                HomebrewHub(
-                    slug: "144p-test-suite",
-                    filename: "gb240p.gb",
-                ),
-            ],
         ),
     ],
 )

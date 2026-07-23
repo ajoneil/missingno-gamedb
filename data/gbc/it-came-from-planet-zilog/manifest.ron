@@ -1,6 +1,18 @@
 (
     title: "It Came from Planet Zilog",
     developer: Some("Phantasy"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/pht-pz.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/it-came-from-planet-zilog",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/it-came-from-planet-zilog/697.png",
     ],
@@ -18,12 +30,6 @@
     releases: [
         (
             date: Some("2015-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "it-came-from-planet-zilog",
-                    filename: "pht-pz.gbc",
-                ),
-            ],
         ),
     ],
 )

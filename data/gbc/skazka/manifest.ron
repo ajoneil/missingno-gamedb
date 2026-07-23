@@ -1,6 +1,18 @@
 (
     title: "skazka",
     developer: Some("thebillington"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/skazka/skazka.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/skazka",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/skazka/skazka.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/skazka/skazka.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "skazka",
-                    filename: "skazka.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

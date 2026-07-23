@@ -1,6 +1,18 @@
 (
     title: "Mökelön ajattelupeli",
     developer: Some("Ajatustenhautomopaja"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mokelon-ajattelupeli/mokelon-ajattelupeli.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mokelon-ajattelupeli",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mokelon-ajattelupeli/mokelon-ajattelupeli.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2024-10-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "mokelon-ajattelupeli",
-                    filename: "mokelon-ajattelupeli.gb",
-                ),
-            ],
         ),
     ],
 )

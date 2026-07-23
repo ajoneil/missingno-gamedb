@@ -1,6 +1,18 @@
 (
     title: "Downer",
     developer: Some("DevEd"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/downer/downer.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/downer",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/downer/downer.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2024-02-11"),
-            sources: [
-                HomebrewHub(
-                    slug: "downer",
-                    filename: "downer.gb",
-                ),
-            ],
         ),
     ],
 )

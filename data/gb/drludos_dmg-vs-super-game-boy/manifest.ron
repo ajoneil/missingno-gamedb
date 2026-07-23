@@ -9,6 +9,18 @@
         "Action",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/drludos_dmg-vs-super-game-boy/DMGvsSGB_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/drludos_dmg-vs-super-game-boy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/drludos_dmg-vs-super-game-boy/cover.png",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/drludos_dmg-vs-super-game-boy/screenshots/dXGlfe.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "drludos_dmg-vs-super-game-boy",
-                    filename: "DMGvsSGB_jam.gb",
-                ),
-                Itch(
-                    url: "https://drludos.itch.io/dmg-vs-super-game-boy",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Flappy Bird",
     developer: Some("Toca Lucas"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/flappy-bird/flappybird.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/flappy-bird",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/flappy-bird/flappybird.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/flappy-bird/flappybird.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "flappy-bird",
-                    filename: "flappybird.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

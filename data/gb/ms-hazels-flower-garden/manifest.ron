@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ms-hazels-flower-garden/Ms_Hazels_Flower_Garden.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ms-hazels-flower-garden",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ms-hazels-flower-garden/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ms-hazels-flower-garden/Vx0d1q.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ms-hazels-flower-garden",
-                    filename: "Ms_Hazels_Flower_Garden.gb",
-                ),
-                Itch(
-                    url: "https://jacobmotlmedia.itch.io/ms-hazels-flower-garden",
-                ),
-            ],
-        ),
+        (),
     ],
 )

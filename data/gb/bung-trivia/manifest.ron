@@ -2,6 +2,16 @@
     title: "Bung Enterprises Limited Product Test",
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bung-trivia/TRIVIA.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/bung-trivia",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://www.bung.com.hk/support/download.htm",
             link_type: Wiki,
@@ -16,12 +26,6 @@
     releases: [
         (
             date: Some("1999-02-03"),
-            sources: [
-                HomebrewHub(
-                    slug: "bung-trivia",
-                    filename: "TRIVIA.GB",
-                ),
-            ],
         ),
     ],
 )

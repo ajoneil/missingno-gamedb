@@ -2,6 +2,18 @@
     title: "I Shall Be Queen",
     developer: Some("Refresh Games"),
     description: Some("A double dragon-style beat-em-up. There are a couple of bugs with the game and it gets bloody tough to beat. Also I had to cut out the boss fight due to ROM and time limitations. ThereÃ¢â‚¬â„¢s a few easter eggs dotted around, have fun!"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/i-shall-be-queen/ishallbequeen.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/i-shall-be-queen",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/i-shall-be-queen/ishallbequeen.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2016-08-14"),
-            sources: [
-                HomebrewHub(
-                    slug: "i-shall-be-queen",
-                    filename: "ishallbequeen.gb",
-                ),
-            ],
         ),
     ],
 )

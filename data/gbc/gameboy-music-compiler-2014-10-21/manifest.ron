@@ -2,6 +2,18 @@
     title: "GameBoy Music Compiler (2014/10/21)",
     developer: Some("Leaf"),
     description: Some("PC application, but contains Gameboy binaries."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-music-compiler-2014-10-21/bgm03.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gameboy-music-compiler-2014-10-21",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-music-compiler-2014-10-21/gbmc.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2014-10-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "gameboy-music-compiler-2014-10-21",
-                    filename: "bgm03.gbc",
-                ),
-            ],
         ),
     ],
 )

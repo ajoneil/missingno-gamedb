@@ -1,6 +1,18 @@
 (
     title: "This Side Up",
     developer: Some("Amuq Creations"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/q-tsu.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/this-side-up",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/this-side-up/235.png",
     ],
@@ -17,12 +29,6 @@
     releases: [
         (
             date: Some("2004-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "this-side-up",
-                    filename: "q-tsu.gb",
-                ),
-            ],
         ),
     ],
 )

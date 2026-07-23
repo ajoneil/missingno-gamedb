@@ -1,5 +1,17 @@
 (
     title: "Commando",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/commando/Commando (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/commando",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/commando/Commando (PD).png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-11-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "commando",
-                    filename: "Commando (PD).gb",
-                ),
-            ],
         ),
     ],
 )

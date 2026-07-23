@@ -1,6 +1,18 @@
 (
     title: "deadeus",
     developer: Some("izma"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/deadeus/deadeus.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/deadeus",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/deadeus/deadeus.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/deadeus/deadeus.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "deadeus",
-                    filename: "deadeus.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

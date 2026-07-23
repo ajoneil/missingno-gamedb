@@ -1,6 +1,18 @@
 (
     title: "Carillon Player Demos",
     developer: Some("Carillon Cyberiad"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/fruitless.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/carillon-demos",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-demos/741.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "carillon-demos",
-                    filename: "fruitless.gb",
-                ),
-            ],
         ),
     ],
 )

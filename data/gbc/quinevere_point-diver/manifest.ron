@@ -6,17 +6,19 @@
         "Female Protagonist",
         "event:gbcompo25",
     ],
-    releases: [
+    links: [
         (
-            sources: [
-                HomebrewHub(
-                    slug: "quinevere_point-diver",
-                    filename: "pointdiver_jam.gbc",
-                ),
-                Itch(
-                    url: "https://quinevere.itch.io/point-diver",
-                ),
-            ],
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/quinevere_point-diver/pointdiver_jam.gbc",
+            link_type: Download,
         ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/quinevere_point-diver",
+            link_type: DownloadPage,
+        ),
+    ],
+    releases: [
+        (),
     ],
 )

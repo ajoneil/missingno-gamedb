@@ -1,6 +1,18 @@
 (
     title: "Alt. party 09",
     developer: Some("Jumalauta"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-party-09/jml-a09.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/alt-party-09",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/alt-party-09/547.png",
     ],
@@ -17,12 +29,6 @@
     releases: [
         (
             date: Some("2009-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "alt-party-09",
-                    filename: "jml-a09.gb",
-                ),
-            ],
         ),
     ],
 )

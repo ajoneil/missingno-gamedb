@@ -1,6 +1,18 @@
 (
     title: "On-Board GB Tile Creator v1.1",
     developer: Some("E. Allen Soard"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/obgbtc/OBGBTC (Tile Creator) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/obgbtc",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/obgbtc/OBGBTC (Tile Creator) (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-06-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "obgbtc",
-                    filename: "OBGBTC (Tile Creator) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

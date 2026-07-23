@@ -1,6 +1,18 @@
 (
     title: "Game Boy Sound Manipulator",
     developer: Some("Plasmaworks Digital Entertainment"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-sound-manipulator/gbsound.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/game-boy-sound-manipulator",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-sound-manipulator/gbsound.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-08-18"),
-            sources: [
-                HomebrewHub(
-                    slug: "game-boy-sound-manipulator",
-                    filename: "gbsound.gb",
-                ),
-            ],
         ),
     ],
 )

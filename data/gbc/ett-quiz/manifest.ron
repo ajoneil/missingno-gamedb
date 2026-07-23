@@ -1,5 +1,17 @@
 (
     title: "Escola Técnica Tupy Quiz",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ett-quiz/Quizz (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ett-quiz",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ett-quiz/Quizz (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2001-10-12"),
-            sources: [
-                HomebrewHub(
-                    slug: "ett-quiz",
-                    filename: "Quizz (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

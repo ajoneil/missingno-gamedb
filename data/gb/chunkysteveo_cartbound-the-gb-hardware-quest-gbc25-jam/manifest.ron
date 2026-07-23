@@ -8,6 +8,18 @@
         "gbcompo2025",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/cartbound_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/cover.png",
     ],
@@ -25,16 +37,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam/screenshots/cnl0Yr.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "chunkysteveo_cartbound-the-gb-hardware-quest-gbc25-jam",
-                    filename: "cartbound_jam.gb",
-                ),
-                Itch(
-                    url: "https://chunkysteveo.itch.io/cartbound-the-gb-hardware-quest-gbc25-jam",
-                ),
-            ],
-        ),
+        (),
     ],
 )

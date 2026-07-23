@@ -5,6 +5,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lcd-game/LCDGame.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lcd-game",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lcd-game/20110402_lcd_game.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2001-09-11"),
-            sources: [
-                HomebrewHub(
-                    slug: "lcd-game",
-                    filename: "LCDGame.gbc",
-                ),
-            ],
         ),
     ],
 )

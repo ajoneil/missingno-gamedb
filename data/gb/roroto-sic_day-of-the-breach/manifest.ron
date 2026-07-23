@@ -12,6 +12,18 @@
         "fast-paced-shooter",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/roroto-sic_day-of-the-breach/day_of_the_breach_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/roroto-sic_day-of-the-breach",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/roroto-sic_day-of-the-breach/cover.png",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/roroto-sic_day-of-the-breach/screenshots/e4Tla6.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "roroto-sic_day-of-the-breach",
-                    filename: "day_of_the_breach_jam.gb",
-                ),
-                Itch(
-                    url: "https://roroto-sic.itch.io/day-of-the-breach",
-                ),
-            ],
-        ),
+        (),
     ],
 )

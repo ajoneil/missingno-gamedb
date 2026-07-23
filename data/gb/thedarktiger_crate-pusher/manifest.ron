@@ -7,6 +7,18 @@
         "Arcade",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/thedarktiger_crate-pusher/CRATEPUSHER_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/thedarktiger_crate-pusher",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/thedarktiger_crate-pusher/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/thedarktiger_crate-pusher/screenshots/7hLMpB.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "thedarktiger_crate-pusher",
-                    filename: "CRATEPUSHER_jam.gb",
-                ),
-                Itch(
-                    url: "https://thedarktiger.itch.io/crate-pusher",
-                ),
-            ],
-        ),
+        (),
     ],
 )

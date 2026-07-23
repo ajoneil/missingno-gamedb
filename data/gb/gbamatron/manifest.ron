@@ -1,6 +1,18 @@
 (
     title: "GBamaTron",
     developer: Some("Ventzislav Tzvetko"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbamatron/gbamatron.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbamatron",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gbamatron/gbramatron.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2006-04-02"),
-            sources: [
-                HomebrewHub(
-                    slug: "gbamatron",
-                    filename: "gbamatron.gb",
-                ),
-            ],
         ),
     ],
 )

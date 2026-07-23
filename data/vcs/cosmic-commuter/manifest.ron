@@ -1,8 +1,52 @@
 (
     title: "Cosmic Commuter",
+    developer: Some("John Van Ryzin"),
+    description: Some("You drive the Astrobus: a Choplifter-inspired shuttle run collecting commuters from lunar bus stops, juggling fuel while clearing meteors and fireballs from the route, then making the launch pad with at least one passenger aboard before the next, harder run. Nine months in the making, it was shelved when playtesters judged it technically sound but joyless — Van Ryzin went off to write H.E.R.O. instead, and this shipped quietly in Activision\'s late catalogue."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/cosmic_commuter.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cosmic_Commuter",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F2B0D681A91B1E1A15DCF3056CCF85644F59FC30",
+    ],
+    mods: [
+        (
+            name: "Cosmic Commuter PAL conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("3717c97bbb0f547e4389db8fc954d1bad992444c"),
+                    artifacts: [
+                        (
+                            sha1: "cab51fd58b7eec17726c5d45af5af9913b72dc57",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
-            date: Some("1984"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1985"),
             publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -13,33 +57,23 @@
                     sha1: "3717c97bbb0f547e4389db8fc954d1bad992444c",
                 ),
                 (
-                    sha1: "4cbe082f2248ce8cc632a78636ce8d486e76522c",
+                    sha1: "dad079e39b03110fe56ce0b727c8476de7dcf174",
+                    label: Some("overdump [o]"),
                 ),
             ],
         ),
         (
-            date: Some("1984"),
-            publisher: Some("Activision"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
-                (
-                    sha1: "dad079e39b03110fe56ce0b727c8476de7dcf174",
-                ),
-            ],
-        ),
-        (
-            date: Some("2002"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "cab51fd58b7eec17726c5d45af5af9913b72dc57",
+                    sha1: "4cbe082f2248ce8cc632a78636ce8d486e76522c",
                 ),
             ],
         ),

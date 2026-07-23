@@ -1,6 +1,18 @@
 (
     title: "Right!",
     developer: Some("One Man Band"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/right/Right! (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/right",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/right/Right! (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-05-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "right",
-                    filename: "Right! (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

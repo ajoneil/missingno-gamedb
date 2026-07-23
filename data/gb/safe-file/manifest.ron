@@ -7,6 +7,18 @@
         "Action",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/SafeFile.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/safe-file",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/safe-file/sG2FMD9.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "safe-file",
-                    filename: "SafeFile.gb",
-                ),
-                Itch(
-                    url: "https://winglesspenny64.itch.io/safe-file",
-                ),
-            ],
-        ),
+        (),
     ],
 )

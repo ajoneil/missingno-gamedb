@@ -1,6 +1,18 @@
 (
     title: "GB-Quiz For Kids",
     developer: Some("Inspeis"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-quiz-for-kids/Quiz.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-quiz-for-kids",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-quiz-for-kids/20110402_gb-quiz_for_kids.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-quiz-for-kids/20110402_gb-quiz_for_kids.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gb-quiz-for-kids",
-                    filename: "Quiz.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

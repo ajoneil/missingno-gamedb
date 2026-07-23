@@ -1,6 +1,18 @@
 (
     title: "LCP2000",
     developer: Some("Megaboys"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lcp2000/1MB - LCP2000.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lcp2000",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lcp2000/100.png",
     ],
@@ -12,12 +24,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "lcp2000",
-                    filename: "1MB - LCP2000.gbc",
-                ),
-            ],
         ),
     ],
 )

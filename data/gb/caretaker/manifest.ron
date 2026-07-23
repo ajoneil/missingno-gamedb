@@ -5,6 +5,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/caretaker/Caretaker_(v.1.0.2).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/caretaker",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/caretaker/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/caretaker/43NnYg.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "caretaker",
-                    filename: "Caretaker_(v.1.0.2).gb",
-                ),
-                Itch(
-                    url: "https://losttokens.itch.io/caretaker",
-                ),
-            ],
-        ),
+        (),
     ],
 )

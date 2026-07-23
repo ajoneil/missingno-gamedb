@@ -1,6 +1,18 @@
 (
     title: "Pocket Tangrams Vol. 1",
     developer: Some("Fizzer"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-tangrams-vol-1/pocket-tangrams-vol-1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pocket-tangrams-vol-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-tangrams-vol-1/pocket-tangrams-vol-1.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-tangrams-vol-1/pocket-tangrams-vol-1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pocket-tangrams-vol-1",
-                    filename: "pocket-tangrams-vol-1.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -6,6 +6,18 @@
         "Visual Novel",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/noah-demo/Noah_1_5_2_by_Sloopygoop.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/noah-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/noah-demo/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/noah-demo/K6L1GA.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "noah-demo",
-                    filename: "Noah_1_5_2_by_Sloopygoop.gb",
-                ),
-                Itch(
-                    url: "https://sloopygoop.itch.io/noah-demo",
-                ),
-            ],
-        ),
+        (),
     ],
 )

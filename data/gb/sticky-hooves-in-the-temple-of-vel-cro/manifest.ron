@@ -1,6 +1,18 @@
 (
     title: "Sticky Hooves In The Temple Of Vel-Cro",
     developer: Some("Infected Bytes"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sticky-hooves-in-the-temple-of-vel-cro/sticky-hooves-in-the-temple-of-vel-cro.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sticky-hooves-in-the-temple-of-vel-cro",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sticky-hooves-in-the-temple-of-vel-cro/sticky-hooves-in-the-temple-of-vel-cro.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sticky-hooves-in-the-temple-of-vel-cro/sticky-hooves-in-the-temple-of-vel-cro.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "sticky-hooves-in-the-temple-of-vel-cro",
-                    filename: "sticky-hooves-in-the-temple-of-vel-cro.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

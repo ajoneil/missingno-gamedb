@@ -1,6 +1,18 @@
 (
     title: "Knark",
     developer: Some("Phantasy"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/pht-knrk.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/knark",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/knark/29.png",
     ],
@@ -20,12 +32,6 @@
     releases: [
         (
             date: Some("2003-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "knark",
-                    filename: "pht-knrk.GBC",
-                ),
-            ],
         ),
     ],
 )

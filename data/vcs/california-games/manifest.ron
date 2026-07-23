@@ -1,8 +1,33 @@
 (
     title: "California Games",
+    description: Some("One to eight players pick corporate sponsors and compete across four events — footbag juggling, half-pipe skateboarding, BMX racing and surfing — chasing ribbons in each event and the best overall score. Timing carries everything, from pumping the half-pipe for air to kick combinations that double and triple a footbag run, and a burst of Louie Louie closes out each event."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/California_Games",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/cali_games.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2815F9E83C3E8C3341D61EAC9C209C4503770DB9",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
-            date: Some("1987"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1988"),
             publisher: Some("Epyx"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -15,7 +40,10 @@
             ],
         ),
         (
-            date: Some("1987"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
             publisher: Some("Epyx"),
             hardware: (
                 tv_format: Some(Pal),

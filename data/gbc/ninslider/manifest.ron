@@ -5,6 +5,18 @@
         "Puzzle",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ninslider/NinSlider.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ninslider",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ninslider/20110402_ninslider.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ninslider/20110402_ninslider.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ninslider",
-                    filename: "NinSlider.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

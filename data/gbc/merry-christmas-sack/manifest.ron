@@ -1,6 +1,18 @@
 (
     title: "Merry Christmas",
     developer: Some("Sack"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/merry-christmas-sack/xmas.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/merry-christmas-sack",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/merry-christmas-sack/245.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "merry-christmas-sack",
-                    filename: "xmas.gb",
-                ),
-            ],
         ),
     ],
 )

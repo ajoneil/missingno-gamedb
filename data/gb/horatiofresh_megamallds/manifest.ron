@@ -7,6 +7,18 @@
         "Role Playing",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/MegaMallDSv1_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/horatiofresh_megamallds",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/horatiofresh_megamallds/screenshots/hbdHFM.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "horatiofresh_megamallds",
-                    filename: "MegaMallDSv1_jam.gb",
-                ),
-                Itch(
-                    url: "https://horatiofresh.itch.io/megamallds",
-                ),
-            ],
-        ),
+        (),
     ],
 )

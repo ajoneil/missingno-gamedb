@@ -1,6 +1,18 @@
 (
     title: "Magic Eye",
     developer: Some("Jason W. Thompson"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/magic-eye/Magic Eye (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/magic-eye",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/magic-eye/Magic Eye (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-08-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "magic-eye",
-                    filename: "Magic Eye (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -11,6 +11,18 @@
         "Top-Down",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/MEMORYPALACE_jam .gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/syfartistry_memory-palace",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/cover.png",
     ],
@@ -23,16 +35,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/syfartistry_memory-palace/screenshots/HRwe8c.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "syfartistry_memory-palace",
-                    filename: "MEMORYPALACE_jam .gbc",
-                ),
-                Itch(
-                    url: "https://syfartistry.itch.io/memory-palace",
-                ),
-            ],
-        ),
+        (),
     ],
 )

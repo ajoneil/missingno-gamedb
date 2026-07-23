@@ -8,6 +8,18 @@
         "Sci-fi",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/CosmoCommand_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/claytheturtle_cosmo-command-gb-compo-2025",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/cover.png",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/claytheturtle_cosmo-command-gb-compo-2025/screenshots/FzTduN.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "claytheturtle_cosmo-command-gb-compo-2025",
-                    filename: "CosmoCommand_jam.gbc",
-                ),
-                Itch(
-                    url: "https://claytheturtle.itch.io/cosmo-command-gb-compo-2025",
-                ),
-            ],
-        ),
+        (),
     ],
 )

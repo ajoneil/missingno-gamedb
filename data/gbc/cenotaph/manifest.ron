@@ -1,6 +1,18 @@
 (
     title: "Cenotaph",
     developer: Some("Dual Crew & Shining"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cenotaph/dcs-ctph.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cenotaph",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cenotaph/629.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2012-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "cenotaph",
-                    filename: "dcs-ctph.gbc",
-                ),
-            ],
         ),
     ],
 )

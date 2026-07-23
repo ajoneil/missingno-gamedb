@@ -2,6 +2,18 @@
     title: "Blossom",
     developer: Some("colorful_courier"),
     description: Some("Blossom is a meditative Game Boy program by colorful_courier."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/blossom/tu_b_shvat.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/blossom",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/blossom/20180219_blossom_(gbc_misc).gif",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/blossom/20180219_blossom_(gbc_misc).gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "blossom",
-                    filename: "tu_b_shvat.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Breakout Demo",
     developer: Some("Anders Granlund"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/breakout-demo/BreakoutDemo .cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/breakout-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/breakout-demo/20110402_breakout_demo.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/breakout-demo/20110402_breakout_demo.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "breakout-demo",
-                    filename: "BreakoutDemo .cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

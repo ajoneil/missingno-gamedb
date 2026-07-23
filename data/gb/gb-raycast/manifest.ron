@@ -1,5 +1,17 @@
 (
     title: "GB Raycast",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-raycast/RAYCAST.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gb-raycast",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gb-raycast/RAYCAST-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2001-05-16"),
-            sources: [
-                HomebrewHub(
-                    slug: "gb-raycast",
-                    filename: "RAYCAST.GB",
-                ),
-            ],
         ),
     ],
 )

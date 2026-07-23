@@ -1,6 +1,18 @@
 (
     title: "The Gameboy Demo Collection",
     developer: Some("Revival Studios"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-gameboy-demo-collection/the-gameboy-demo-collection.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-gameboy-demo-collection",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-gameboy-demo-collection/the-gameboy-demo-collection.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-gameboy-demo-collection/the-gameboy-demo-collection.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-gameboy-demo-collection",
-                    filename: "the-gameboy-demo-collection.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

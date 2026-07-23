@@ -13,6 +13,18 @@
         "Open Source",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/creativenamegames_pocket-aquarium/Pocket Aquarium 2.5_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/creativenamegames_pocket-aquarium",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/creativenamegames_pocket-aquarium/cover.jpg",
     ],
@@ -21,16 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/creativenamegames_pocket-aquarium/screenshots/ZkdpPe.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "creativenamegames_pocket-aquarium",
-                    filename: "Pocket Aquarium 2.5_jam.gb",
-                ),
-                Itch(
-                    url: "https://creativenamegames.itch.io/pocket-aquarium",
-                ),
-            ],
-        ),
+        (),
     ],
 )

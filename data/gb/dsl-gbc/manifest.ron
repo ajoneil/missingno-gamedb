@@ -1,6 +1,18 @@
 (
     title: "How to code your GameBoy part 1",
     developer: Some("HeroZero/DiESEL"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dsl-gbc/DSL-GBC.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dsl-gbc",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dsl-gbc/DSL-GBC-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1995-08-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "dsl-gbc",
-                    filename: "DSL-GBC.GB",
-                ),
-            ],
         ),
     ],
 )

@@ -1,5 +1,17 @@
 (
     title: "Kasumi Scroller",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kasumi-scroller/Kasumi_Scroller.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kasumi-scroller",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kasumi-scroller/Kasumi_Scroller-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1995-10-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "kasumi-scroller",
-                    filename: "Kasumi_Scroller.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/flappy-boy/flappyboy.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/flappy-boy",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://voidptr.io/blog/2017/01/21/GameBoy.html",
             link_type: Wiki,
@@ -26,12 +36,6 @@
     releases: [
         (
             date: Some("2017-01-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "flappy-boy",
-                    filename: "flappyboy.gb",
-                ),
-            ],
         ),
     ],
 )

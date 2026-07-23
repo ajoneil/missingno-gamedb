@@ -6,6 +6,18 @@
         "Action",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/grannies/grannies.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/grannies",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/grannies/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/grannies/eDFcXv.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "grannies",
-                    filename: "grannies.gb",
-                ),
-                Itch(
-                    url: "https://hohenstaufer.itch.io/grannies",
-                ),
-            ],
-        ),
+        (),
     ],
 )

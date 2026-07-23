@@ -1,6 +1,18 @@
 (
     title: "The Chorus Continues",
     developer: Some("Inversion"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-chorus-continues/the-chorus-continues.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-chorus-continues",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-chorus-continues/the-chorus-continues.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2023-07-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "the-chorus-continues",
-                    filename: "the-chorus-continues.gb",
-                ),
-            ],
         ),
     ],
 )

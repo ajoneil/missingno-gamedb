@@ -1,6 +1,18 @@
 (
     title: "Ghostly Labyrinth",
     developer: Some("Jared Chansen"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostly-labyrinth/ghostly-labyrinth.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ghostly-labyrinth",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostly-labyrinth/ghostly-labyrinth.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ghostly-labyrinth/ghostly-labyrinth.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ghostly-labyrinth",
-                    filename: "ghostly-labyrinth.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

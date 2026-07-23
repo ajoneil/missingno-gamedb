@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/evolandgb/evoland_0.3.0_en.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/evolandgb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://evogb.flozz.org/",
             link_type: Wiki,
@@ -30,12 +40,6 @@
     releases: [
         (
             date: Some("2019-04-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "evolandgb",
-                    filename: "evoland_0.3.0_en.gb",
-                ),
-            ],
         ),
     ],
 )

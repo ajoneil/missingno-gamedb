@@ -1,6 +1,18 @@
 (
     title: "Infrared Investigator",
     developer: Some("Ken Kaarvik"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/infrared-investigator/Infrared Investigator by Ken Kaarvik (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/infrared-investigator",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/infrared-investigator/Infrared Investigator by Ken Kaarvik (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-09-07"),
-            sources: [
-                HomebrewHub(
-                    slug: "infrared-investigator",
-                    filename: "Infrared Investigator by Ken Kaarvik (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

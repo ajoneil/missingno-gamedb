@@ -2,6 +2,16 @@
     title: "Blacky Bird",
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/blackybird/BlackyBirdCol.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/blackybird",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://gb-dev.blogspot.com/",
             link_type: Wiki,
@@ -16,12 +26,6 @@
     releases: [
         (
             date: Some("2022-05-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "blackybird",
-                    filename: "BlackyBirdCol.gb",
-                ),
-            ],
         ),
     ],
 )

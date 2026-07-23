@@ -1,5 +1,17 @@
 (
     title: "Tam Bitmap Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tam-bitmap-demo/Tam Bitmap Demo (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tam-bitmap-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tam-bitmap-demo/Tam Bitmap Demo (PD).png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-03-07"),
-            sources: [
-                HomebrewHub(
-                    slug: "tam-bitmap-demo",
-                    filename: "Tam Bitmap Demo (PD).gb",
-                ),
-            ],
         ),
     ],
 )

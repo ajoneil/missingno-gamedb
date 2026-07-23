@@ -1,6 +1,18 @@
 (
     title: "Are you real? (WWF Betrayal +5)",
     developer: Some("Dual Crew & Shining"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/are-you-real/dcs-t_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/are-you-real",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/are-you-real/201.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "are-you-real",
-                    filename: "dcs-t_01.gbc",
-                ),
-            ],
         ),
     ],
 )

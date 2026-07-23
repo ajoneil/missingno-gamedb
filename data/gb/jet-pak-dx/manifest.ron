@@ -6,6 +6,18 @@
         "Arcade",
         "event:bung-1st-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jet-pak-dx/jetpakdx.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jet-pak-dx",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jet-pak-dx/jetpakdx.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("1999-07-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "jet-pak-dx",
-                    filename: "jetpakdx.gb",
-                ),
-            ],
         ),
     ],
 )

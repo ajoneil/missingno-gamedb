@@ -6,6 +6,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-fire/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friendly-fire",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-fire/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-fire/oPOiyX.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "friendly-fire",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://videogamestorytime.itch.io/friendly-fire",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Paragon5 Album",
     developer: Some("Paragon5"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/paragon5-music-cart/P5_ALBUM.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/paragon5-music-cart",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/paragon5-music-cart/148.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("1999-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "paragon5-music-cart",
-                    filename: "P5_ALBUM.GB",
-                ),
-            ],
         ),
     ],
 )

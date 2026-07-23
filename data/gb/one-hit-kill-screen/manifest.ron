@@ -1,6 +1,18 @@
 (
     title: "One Hit Kill Screen",
     developer: Some("One Hit Kill"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/one-hit-kill-screen/one-hit-kill-screen.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/one-hit-kill-screen",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/one-hit-kill-screen/one-hit-kill-screen.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2024-10-19"),
-            sources: [
-                HomebrewHub(
-                    slug: "one-hit-kill-screen",
-                    filename: "one-hit-kill-screen.gb",
-                ),
-            ],
         ),
     ],
 )

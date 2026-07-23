@@ -5,6 +5,18 @@
         "Puzzle",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-tale-of-two-dreams/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-tale-of-two-dreams",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-tale-of-two-dreams/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-tale-of-two-dreams/Ydzs5A.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-tale-of-two-dreams",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://lukemm12.itch.io/the-tale-of-two-dreams",
-                ),
-            ],
-        ),
+        (),
     ],
 )

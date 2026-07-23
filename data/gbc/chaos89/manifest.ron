@@ -1,6 +1,18 @@
 (
     title: "Chaos89",
     developer: Some("Charles Doty"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/chaos89/Chaos89 by Charles Doty (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/chaos89",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/chaos89/Chaos89 by Charles Doty (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-11-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "chaos89",
-                    filename: "Chaos89 by Charles Doty (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

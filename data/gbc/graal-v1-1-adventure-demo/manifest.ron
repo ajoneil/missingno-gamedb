@@ -1,5 +1,17 @@
 (
     title: "Graal v1.1 Adventure Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/graal-v1-1-adventure-demo/Graal V1.1 Adventure Demo (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/graal-v1-1-adventure-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/graal-v1-1-adventure-demo/Graal V1.1 Adventure Demo (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-09-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "graal-v1-1-adventure-demo",
-                    filename: "Graal V1.1 Adventure Demo (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

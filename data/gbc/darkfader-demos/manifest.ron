@@ -1,6 +1,18 @@
 (
     title: "DarkFader Demo Collection",
     developer: Some("DarkFader"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/darkfader-demos/MacGB Demo by DarkFader (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/darkfader-demos",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/darkfader-demos/MacGB Demo by DarkFader (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-09-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "darkfader-demos",
-                    filename: "MacGB Demo by DarkFader (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

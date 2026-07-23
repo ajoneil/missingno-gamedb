@@ -1,6 +1,18 @@
 (
     title: "To The Lighthouse!",
     developer: Some("Titan"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/to-the-lighthouse/to-the-lighthouse.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/to-the-lighthouse",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/to-the-lighthouse/to-the-lighthouse.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2022-08-06"),
-            sources: [
-                HomebrewHub(
-                    slug: "to-the-lighthouse",
-                    filename: "to-the-lighthouse.gbc",
-                ),
-            ],
         ),
     ],
 )

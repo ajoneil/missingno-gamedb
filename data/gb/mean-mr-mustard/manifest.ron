@@ -6,6 +6,18 @@
         "Platform",
         "event:liksang2000-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mean-mr-mustard/mean-mr-mustard-lik-sang-pd-c.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mean-mr-mustard",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mean-mr-mustard/mustard.png",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("2000-05-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "mean-mr-mustard",
-                    filename: "mean-mr-mustard-lik-sang-pd-c.gb",
-                ),
-            ],
         ),
     ],
 )

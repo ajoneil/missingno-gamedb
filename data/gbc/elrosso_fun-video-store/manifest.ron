@@ -12,6 +12,18 @@
         "Adventure",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/elrosso_fun-video-store/Fun Video Store DEMO.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/elrosso_fun-video-store",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/elrosso_fun-video-store/cover.png",
     ],
@@ -22,16 +34,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/elrosso_fun-video-store/screenshots/pN1I2BW.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "elrosso_fun-video-store",
-                    filename: "Fun Video Store DEMO.gbc",
-                ),
-                Itch(
-                    url: "https://elrosso.itch.io/fun-video-store",
-                ),
-            ],
-        ),
+        (),
     ],
 )

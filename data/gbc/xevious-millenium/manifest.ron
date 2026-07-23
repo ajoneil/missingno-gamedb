@@ -1,6 +1,18 @@
 (
     title: "Xevious Millennium",
     developer: Some("Matchang"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/xevious-millenium/Xevious Millennium (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/xevious-millenium",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/xevious-millenium/Xevious Millennium (PD) [C]-0.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2008-10-07"),
-            sources: [
-                HomebrewHub(
-                    slug: "xevious-millenium",
-                    filename: "Xevious Millennium (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

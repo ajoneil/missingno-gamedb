@@ -1,6 +1,18 @@
 (
     title: "Live in 8bit (Commander Keen)",
     developer: Some("Eurasia"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/live-in-8bit/eur-i_01.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/live-in-8bit",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/live-in-8bit/192.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "live-in-8bit",
-                    filename: "eur-i_01.gbc",
-                ),
-            ],
         ),
     ],
 )

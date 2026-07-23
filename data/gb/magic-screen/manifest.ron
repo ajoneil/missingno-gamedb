@@ -1,6 +1,18 @@
 (
     title: "Magic Screen",
     developer: Some("Hammer Keyboard Studios"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/magic-screen/Magic Screen (Etch-A-Sketch) (SGB).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/magic-screen",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/magic-screen/MagicScreen-cap00001.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2022-03-22"),
-            sources: [
-                HomebrewHub(
-                    slug: "magic-screen",
-                    filename: "Magic Screen (Etch-A-Sketch) (SGB).gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Dimensionless Sample",
     developer: Some("Jerry Crash"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dimensionless-sample/Dimensionless Sample (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dimensionless-sample",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dimensionless-sample/Dimensionless Sample (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-06"),
-            sources: [
-                HomebrewHub(
-                    slug: "dimensionless-sample",
-                    filename: "Dimensionless Sample (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

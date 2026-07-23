@@ -5,6 +5,18 @@
         "Adventure",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon/The Horrible Demon.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-horrible-demon",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon/The Horrible Demon-0.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-horrible-demon/The Horrible Demon-0.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-horrible-demon",
-                    filename: "The Horrible Demon.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

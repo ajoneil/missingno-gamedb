@@ -1,6 +1,18 @@
 (
     title: "Southern Dreams Smart Demo",
     developer: Some("Southern Dreams"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams-smart-demo/Southern Dreams - SMART Demo (Quang2000) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/southern-dreams-smart-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams-smart-demo/Southern Dreams - SMART Demo (Quang2000) (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-08-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "southern-dreams-smart-demo",
-                    filename: "Southern Dreams - SMART Demo (Quang2000) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

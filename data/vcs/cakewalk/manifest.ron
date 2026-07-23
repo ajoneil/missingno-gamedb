@@ -1,7 +1,49 @@
 (
     title: "Cakewalk",
+    description: Some("Cakes pour off six runaway conveyor belts and the baker must dash between them, boxing each pastry before it falls while never touching the knife and fork. The fire button freezes the belt nearest him for a few seconds, a janitor sweeps up drops until the reserve of cleanups runs dry, and catching enough pastries earns a coffee break before a faster onslaught — 16 variations tweak the chaos."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/cakewalk.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-cakewalk_12465.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A50C8CD6AF4828126A853979DE9DD845424DB5BB",
+    ],
+    mods: [
+        (
+            name: "Cakewalk PAL conversion",
+            category: Compatibility,
+            author: Some("Fabrizio Zavagli"),
+            releases: [
+                (
+                    base_sha1: Some("3f1f17cf620f462355009f5302cddffa730fa2fa"),
+                    artifacts: [
+                        (
+                            sha1: "4ca390f8dc4d0f8dce889dfc21ddd675c5860095",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("CommaVid"),
             hardware: (
@@ -12,8 +54,22 @@
                 (
                     sha1: "3f1f17cf620f462355009f5302cddffa730fa2fa",
                 ),
+            ],
+        ),
+        (
+            title: Some("Alarm in der Backstube"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
-                    sha1: "4ca390f8dc4d0f8dce889dfc21ddd675c5860095",
+                    sha1: "392a3216ffbb616b8f123eaab3cd3938a63e1191",
                 ),
             ],
         ),

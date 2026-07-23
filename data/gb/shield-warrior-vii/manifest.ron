@@ -1,6 +1,18 @@
 (
     title: "Shield Warrior VII",
     description: Some("By Refresh Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/shield-warrior-vii/ld36.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/shield-warrior-vii",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shield-warrior-vii/shieldwarriorvii.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shield-warrior-vii/shieldwarriorvii-2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "shield-warrior-vii",
-                    filename: "ld36.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -2,6 +2,18 @@
     title: "Whackemon",
     developer: Some("Decay"),
     description: Some("Whackemon is a recreation of my favourite sub-game in Mystical Ninja on the SNES. The idea of the game is to whack the critters that pop up before they disappear. There are 3 game modes, Timed Attack, Persecution and Whackathon, details are given in the game."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/whackemon/Whackemon.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/whackemon",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/whackemon/20110402_whackemon.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/whackemon/20110402_whackemon.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "whackemon",
-                    filename: "Whackemon.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

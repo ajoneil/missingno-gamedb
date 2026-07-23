@@ -2,6 +2,18 @@
     title: "Dashy No Witch",
     developer: Some("voxel"),
     license: Some("0BSD"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dashy-no-witch/DashyHalloween2019.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dashy-no-witch",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dashy-no-witch/bgb00002.bmp",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dashy-no-witch/bgb00005.bmp",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "dashy-no-witch",
-                    filename: "DashyHalloween2019.gb",
-                ),
-                Itch(
-                    url: "https://voxel.itch.io/dashy-no-witch",
-                ),
-            ],
-        ),
+        (),
     ],
 )

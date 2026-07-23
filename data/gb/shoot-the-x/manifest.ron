@@ -6,6 +6,18 @@
         "Action",
         "event:bung-1st-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/shoot-the-x/spr4col.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/shoot-the-x",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/shoot-the-x/spr4col.gif",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("1999-06-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "shoot-the-x",
-                    filename: "spr4col.gb",
-                ),
-            ],
         ),
     ],
 )

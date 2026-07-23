@@ -1,6 +1,18 @@
 (
     title: "Simon Clone",
     developer: Some("Jason"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/simon-clone/SimonClone.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/simon-clone",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/simon-clone/20110402_simon_clone.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/simon-clone/20110402_simon_clone.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "simon-clone",
-                    filename: "SimonClone.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

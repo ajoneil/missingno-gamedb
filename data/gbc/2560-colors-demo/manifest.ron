@@ -1,6 +1,18 @@
 (
     title: "2560 Colors Demo",
     developer: Some("Icarus Productions"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/2560-colors-demo/COLORS.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/2560-colors-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/2560-colors-demo/294.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "2560-colors-demo",
-                    filename: "COLORS.GBC",
-                ),
-            ],
         ),
     ],
 )

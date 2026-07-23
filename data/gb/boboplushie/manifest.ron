@@ -6,6 +6,18 @@
         "Platform",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/boboplushie/BoboPlushie_V0_8.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/boboplushie",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/boboplushie/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/boboplushie/dgs7FE.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "boboplushie",
-                    filename: "BoboPlushie_V0_8.gb",
-                ),
-                Itch(
-                    url: "https://quentinm.itch.io/boboplushie",
-                ),
-            ],
-        ),
+        (),
     ],
 )

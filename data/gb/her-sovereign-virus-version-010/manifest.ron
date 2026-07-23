@@ -1,6 +1,18 @@
 (
     title: "Her Sovereign Virus (Version 0.1.0)",
     developer: Some("Upho"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/her-sovereign-virus-version-010/hersovereignvirus.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/her-sovereign-virus-version-010",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/her-sovereign-virus-version-010/sovereignvirus.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/her-sovereign-virus-version-010/sovereignvirus.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "her-sovereign-virus-version-010",
-                    filename: "hersovereignvirus.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

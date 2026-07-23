@@ -5,6 +5,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/books-of-the-bible-v1-4/BotBfGB_14.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/books-of-the-bible-v1-4",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/books-of-the-bible-v1-4/20110402_books_of_the_bible.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("2001-08-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "books-of-the-bible-v1-4",
-                    filename: "BotBfGB_14.gb",
-                ),
-            ],
         ),
     ],
 )

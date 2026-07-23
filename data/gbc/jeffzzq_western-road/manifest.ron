@@ -7,6 +7,18 @@
         "gbdk",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jeffzzq_western-road/western_road_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jeffzzq_western-road",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jeffzzq_western-road/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jeffzzq_western-road/screenshots/4PqOlK.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "jeffzzq_western-road",
-                    filename: "western_road_jam.gbc",
-                ),
-                Itch(
-                    url: "https://jeffzzq.itch.io/western-road",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "You Will Die",
     developer: Some("Refresh Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/you-will-die/onehour.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/you-will-die",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/you-will-die/onehour.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/you-will-die/onehour.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "you-will-die",
-                    filename: "onehour.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

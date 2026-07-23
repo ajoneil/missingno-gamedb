@@ -1,7 +1,24 @@
 (
     title: "Confrontation",
+    description: Some("A two-player abstract-strategy prototype from Answer Software: each side marches four pawns to the far edge of the board and then escorts its captain across, steering a horizontal control bar over the pieces and pressing the button to pick which one moves. Energy is the tactical currency — run yours dry and you stand frozen for three seconds while your opponent moves freely. Kim Ellis finished the game, but it reached only the handful of people who ordered directly from Answer at the 1983 CES before the crash took the company."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/confrontation/confrontation.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Answer Software Corporation"),
             status: Prototype,
@@ -15,6 +32,7 @@
                 ),
                 (
                     sha1: "acc2d5a1777aa9aee3cad2e18541a7c3793c0ccd",
+                    label: Some("alt"),
                 ),
             ],
         ),

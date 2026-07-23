@@ -1,7 +1,32 @@
 (
     title: "Chase the Chuck Wagon",
+    description: Some("Guide Chuckie the dog through maze screens to the opening just below the chuck wagon, dodging the dogcatcher — three lives — and bouncing objects that freeze him and drain your score. Escaping a maze earns a reward screen where a well-timed button press sends Chuckie to his dish for 100 points, and the expert difficulty switch cuts each maze to thirty seconds. It was never sold in shops — Purina mailed it out for Chuck Wagon dog-food proofs of purchase and destroyed the unshipped stock, making the cart a fixture of collecting lore."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/chase_chuck_wagon.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Chase_the_Chuck_Wagon",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/35F89D94F47DBD3DF8480F5E44C2F555E50DDC71",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Spectravideo"),
             hardware: (

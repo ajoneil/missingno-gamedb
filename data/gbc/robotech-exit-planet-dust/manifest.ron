@@ -1,5 +1,17 @@
 (
     title: "RoboTech - Exit Planet Dust",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/robotech-exit-planet-dust/RoboTech - Exit Planet Dust with Music (Lik-Sang) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/robotech-exit-planet-dust",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/robotech-exit-planet-dust/robotech_epd.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("2000-05-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "robotech-exit-planet-dust",
-                    filename: "RoboTech - Exit Planet Dust with Music (Lik-Sang) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

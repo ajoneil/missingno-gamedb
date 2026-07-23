@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rqtjam/Retro_Quiz_Tower_JAM_1.2.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rqtjam",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rqtjam/cover.jpg",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rqtjam/ZIn1zu.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rqtjam",
-                    filename: "Retro_Quiz_Tower_JAM_1.2.gb",
-                ),
-                Itch(
-                    url: "https://rubenretro.itch.io/rqtjam",
-                ),
-            ],
-        ),
+        (),
     ],
 )

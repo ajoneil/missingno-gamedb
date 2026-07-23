@@ -5,6 +5,18 @@
         "Open Source",
         "Platform",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mona/Mona_And_The_Witch_Hat.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mona",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mona/screenshot.bmp",
     ],
@@ -14,15 +26,6 @@
     releases: [
         (
             date: Some("2017-12-12"),
-            sources: [
-                HomebrewHub(
-                    slug: "mona",
-                    filename: "Mona_And_The_Witch_Hat.gb",
-                ),
-                Itch(
-                    url: "https://ctneptune.itch.io/mona-and-the-witchs-hat",
-                ),
-            ],
         ),
     ],
 )

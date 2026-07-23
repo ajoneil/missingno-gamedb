@@ -1,6 +1,18 @@
 (
     title: "Menu #1 (Bomberman Max Red +4)",
     developer: Some("Tristar & Red Sector Inc"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-tristar/trsi-t_1.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-1-tristar",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-1-tristar/221.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-1-tristar",
-                    filename: "trsi-t_1.gbc",
-                ),
-            ],
         ),
     ],
 )

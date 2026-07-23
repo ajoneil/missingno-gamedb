@@ -1,6 +1,18 @@
 (
     title: "Mineshweeper",
     developer: Some("Stephen Stair"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mineshweeper/minewin.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mineshweeper",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mineshweeper/20110402_mineshweeper.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mineshweeper/20110402_mineshweeper.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "mineshweeper",
-                    filename: "minewin.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

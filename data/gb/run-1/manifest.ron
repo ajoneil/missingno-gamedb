@@ -2,6 +2,18 @@
     title: "Run!!",
     developer: Some("monetai"),
     description: Some("monetai‘s Gameboy game Run!! made it into Ludum Dare 36. Try to stay alive as long as possible by avoiding obstacles."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/run-1/Run!!.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/run-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/run-1/20161210_run_v1.0.0_(gb_game).png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/run-1/20161210_run_v1.0.0_(gb_game).png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "run-1",
-                    filename: "Run!!.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

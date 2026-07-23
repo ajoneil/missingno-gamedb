@@ -1,6 +1,18 @@
 (
     title: "Sabinov",
     developer: Some("Keldon Alleyne, David Kirkland"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sabinov/gbgame.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sabinov",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sabinov/20110402_sabinov.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sabinov/20110402_sabinov.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "sabinov",
-                    filename: "gbgame.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

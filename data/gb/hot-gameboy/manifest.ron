@@ -1,6 +1,18 @@
 (
     title: "Hot Gameboy",
     developer: Some("Icebird"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hot-gameboy/hotgb.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hot-gameboy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hot-gameboy/304.png",
     ],
@@ -17,12 +29,6 @@
     releases: [
         (
             date: Some("1998-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "hot-gameboy",
-                    filename: "hotgb.gb",
-                ),
-            ],
         ),
     ],
 )

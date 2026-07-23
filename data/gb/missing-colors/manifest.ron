@@ -1,6 +1,18 @@
 (
     title: "Missing Colors",
     developer: Some("Dreamweb"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/missing-colors/missing-colors.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/missing-colors",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/missing-colors/missing-colors.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2018-03-17"),
-            sources: [
-                HomebrewHub(
-                    slug: "missing-colors",
-                    filename: "missing-colors.gb",
-                ),
-            ],
         ),
     ],
 )

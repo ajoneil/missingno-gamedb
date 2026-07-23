@@ -1,6 +1,18 @@
 (
     title: "Landscape",
     developer: Some("Anders Granlund"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/landscape/Ls.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/landscape",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/landscape/720.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "landscape",
-                    filename: "Ls.gb",
-                ),
-            ],
         ),
     ],
 )

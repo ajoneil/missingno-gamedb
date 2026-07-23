@@ -6,6 +6,18 @@
         "Visual Novel",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/the-trials-of-goodbye",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/the-trials-of-goodbye/GbEymC.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "the-trials-of-goodbye",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://baegho.itch.io/the-trials-of-goodbye",
-                ),
-            ],
-        ),
+        (),
     ],
 )

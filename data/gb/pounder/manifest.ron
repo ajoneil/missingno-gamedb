@@ -1,6 +1,18 @@
 (
     title: "Pounder",
     developer: Some("8 Cylinder"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pounder/pounder.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pounder",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pounder/pounder.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pounder/pounder.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pounder",
-                    filename: "pounder.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

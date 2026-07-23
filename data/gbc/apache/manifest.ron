@@ -6,6 +6,18 @@
         "Action",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/apache/Apache.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/apache",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/apache/20110402_apache.png",
     ],
@@ -13,13 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/apache/20110402_apache.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "apache",
-                    filename: "Apache.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

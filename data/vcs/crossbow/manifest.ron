@@ -1,8 +1,33 @@
 (
     title: "Crossbow",
+    description: Some("Exidy\'s gallery shooter brought home: your unarmed friends walk each Danger Zone on their own, and the joystick-steered crossbow sight is their only shield against scorpions, swooping bats, coconut-hurling monkeys and the castle\'s archers, all the way to the dragon-guarded treasure. You choose each leg on the Paths screen, the harder levels make the sight invisible until you fire, and the Evil Master\'s watching eye pays a thousand points on every screen."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/crossbow.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Crossbow_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/68F426E9C6651622BC44F97028EA956A3D26781E",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
-            date: Some("1988"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1987"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -15,6 +40,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1987"),
             publisher: Some("Atari"),
             hardware: (

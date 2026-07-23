@@ -3,6 +3,16 @@
     developer: Some("xenophile"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/game-boy-color-picker/GBColorPicker.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/game-boy-color-picker",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://www.romhacking.net/homebrew/166/",
             link_type: Wiki,
@@ -19,12 +29,6 @@
     releases: [
         (
             date: Some("2022-05-15"),
-            sources: [
-                HomebrewHub(
-                    slug: "game-boy-color-picker",
-                    filename: "GBColorPicker.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hover-defender/hoverdefender.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hover-defender",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/kldobrev/HoverDefender",
             link_type: Source,
@@ -23,12 +33,6 @@
     releases: [
         (
             date: Some("2024-02-27"),
-            sources: [
-                HomebrewHub(
-                    slug: "hover-defender",
-                    filename: "hoverdefender.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "ImpossiPong!",
     developer: Some("Nicklausw"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/impossipong/pong.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/impossipong",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/impossipong/pong.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/impossipong/pong.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "impossipong",
-                    filename: "pong.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

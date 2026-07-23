@@ -3,6 +3,16 @@
     developer: Some("Celestina Software"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/santa-claus-journey/scjourney music.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/santa-claus-journey",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://www.romhacking.net/homebrew/164/",
             link_type: Wiki,
@@ -19,12 +29,6 @@
     releases: [
         (
             date: Some("2022-04-23"),
-            sources: [
-                HomebrewHub(
-                    slug: "santa-claus-journey",
-                    filename: "scjourney music.gb",
-                ),
-            ],
         ),
     ],
 )

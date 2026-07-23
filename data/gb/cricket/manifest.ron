@@ -1,6 +1,18 @@
 (
     title: "Cricket",
     developer: Some("james todd"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cricket/CRICKET.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cricket",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cricket/20110402_cricket.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cricket/20110402_cricket.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "cricket",
-                    filename: "CRICKET.GB",
-                ),
-            ],
-        ),
+        (),
     ],
 )

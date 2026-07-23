@@ -1,7 +1,33 @@
 (
     title: "Centipede",
+    description: Some("You steer the Bug Blaster along the bottom of a mushroom field, shooting apart a centipede that snakes down the screen and splits wherever it is hit. Fleas rain fresh mushrooms, scorpions poison them, and the spider weaves close for big points — with an extra life every 12,000. The port thins the arcade\'s mushroom field and trades the trackball for the standard controller."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/centipede.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Centipede_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8D9D4B35D5CA69A98C66371F5CD76779897175DB",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+                Japan,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -14,10 +40,14 @@
                 ),
                 (
                     sha1: "f5509dcc68b65d2cb8e37443a96c013fc00e4955",
+                    label: Some("alt"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -28,6 +58,16 @@
                 (
                     sha1: "1841ce27fc14cc2aa741d67e91f64f7924e3bf3e",
                 ),
+            ],
+        ),
+        (
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
                 (
                     sha1: "c5ff64d7593f0d0103d6bb50a150e8a87d222ef3",
                 ),

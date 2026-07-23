@@ -2,6 +2,18 @@
     title: "POKE Mission 97",
     developer: Some("Anders Granlund"),
     description: Some("The first version of POKE Mission was written in 1990-1991 by Anders and Leif Granlund. It was written in STOS-Basic for the Atari ST. A couple of weeks ago I discovered the Dr.Pan of Anthrox document, and became more and more interested in programming on the Gameboy. I have never used assembler before, but thanks to the excellent document I soon learned how to use sprites, background, etc… There has been two official demo-versions (ver0.1 and ver 0.2) released before this FINAL version was completed!"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/poke-mission-97/Poke97.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/poke-mission-97",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/poke-mission-97/20110402_poke_mission_97.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/poke-mission-97/20110402_poke_mission_97.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "poke-mission-97",
-                    filename: "Poke97.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

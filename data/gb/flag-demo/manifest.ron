@@ -1,5 +1,17 @@
 (
     title: "Flag Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/flag-demo/Flag_Demo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/flag-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/flag-demo/Flag_Demo-0.png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1998-04-04"),
-            sources: [
-                HomebrewHub(
-                    slug: "flag-demo",
-                    filename: "Flag_Demo.gb",
-                ),
-            ],
         ),
     ],
 )

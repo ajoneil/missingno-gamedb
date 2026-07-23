@@ -10,6 +10,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/plutos-corner/PLUTOS_CORNER.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/plutos-corner",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/bbbbbr/plutoscorner",
             link_type: Source,
@@ -29,15 +39,6 @@
     releases: [
         (
             date: Some("2019-06-19"),
-            sources: [
-                HomebrewHub(
-                    slug: "plutos-corner",
-                    filename: "PLUTOS_CORNER.gb",
-                ),
-                Itch(
-                    url: "https://bbbbbr.itch.io/plutos-corner",
-                ),
-            ],
         ),
     ],
 )

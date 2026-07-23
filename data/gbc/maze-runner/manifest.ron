@@ -2,6 +2,18 @@
     title: "Maze Runner",
     developer: Some("Jason"),
     description: Some("There isn’t a goal, nor badguys. It’s just running around a maze."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-runner/MAZERUN.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/maze-runner",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-runner/20110402_maze_runner.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/maze-runner/20110402_maze_runner.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "maze-runner",
-                    filename: "MAZERUN.GBC",
-                ),
-            ],
-        ),
+        (),
     ],
 )

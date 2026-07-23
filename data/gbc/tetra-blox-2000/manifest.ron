@@ -5,6 +5,18 @@
         "Puzzle",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tetra-blox-2000/TetraBlox2000.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tetra-blox-2000",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tetra-blox-2000/20110402_tetra_blox_2000.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tetra-blox-2000/20110402_tetra_blox_2000.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tetra-blox-2000",
-                    filename: "TetraBlox2000.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

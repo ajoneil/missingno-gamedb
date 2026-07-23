@@ -1,5 +1,17 @@
 (
     title: "Freebie-GBs-2019",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/freebie-gbs-2019/Freebie-GBs-2019.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/freebie-gbs-2019",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/freebie-gbs-2019/freebie-gbs-2019.png",
     ],
@@ -7,13 +19,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/freebie-gbs-2019/freebie-gbs-2019.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "freebie-gbs-2019",
-                    filename: "Freebie-GBs-2019.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

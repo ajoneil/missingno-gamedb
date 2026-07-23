@@ -1,6 +1,18 @@
 (
     title: "F-1 Racing 2000 Demo",
     developer: Some("Michael DiGiovanni"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/f1-racing-2000-demo/F-1 Racing 2000 Demo (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/f1-racing-2000-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/f1-racing-2000-demo/F-1 Racing 2000 Demo (PD).png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-12-23"),
-            sources: [
-                HomebrewHub(
-                    slug: "f1-racing-2000-demo",
-                    filename: "F-1 Racing 2000 Demo (PD).gb",
-                ),
-            ],
         ),
     ],
 )

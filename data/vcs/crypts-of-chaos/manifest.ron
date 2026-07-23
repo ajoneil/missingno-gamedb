@@ -1,35 +1,67 @@
 (
-    title: "Crypts Of Chaos (Supercharger Conversion Hack)",
+    title: "Crypts of Chaos",
+    description: Some("A first-person crawl through colour-coded crypt corridors: descend floor after floor of repeating mazes, fighting eight ranks of monster from green trolls to gold dragons with sword, wand and life-draining ring — the sword cannot touch wizards, the wand cannot touch dragons. Every lair holds treasure for your sack, the Hit Count serves as health and ransom in one, and the only way to win is to judge when to climb back out alive."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/crypts_chaos.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D2A24B6DD789B70817D5F6EEBDCA33F6BEE659E3",
+    ],
+    mods: [
+        (
+            name: "Crypts of Chaos Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("a57062f44e7ac793d4c39d1350521dc5bc2a665f"),
+                    artifacts: [
+                        (
+                            sha1: "01703b8cf47befa015ea4419872ed8466b45fdae",
+                        ),
+                        (
+                            sha1: "71ee7617688121d6ae332de87632ac99497013cd",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    base_sha1: Some("a57062f44e7ac793d4c39d1350521dc5bc2a665f"),
+                    artifacts: [
+                        (
+                            sha1: "a7941e63ec2b36efe29f392377f3625d8fd2b932",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("20th Century Fox Video Games"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "01703b8cf47befa015ea4419872ed8466b45fdae",
-                ),
-                (
-                    sha1: "71ee7617688121d6ae332de87632ac99497013cd",
-                ),
-                (
                     sha1: "a57062f44e7ac793d4c39d1350521dc5bc2a665f",
-                ),
-            ],
-        ),
-        (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
-                (
-                    sha1: "a7941e63ec2b36efe29f392377f3625d8fd2b932",
                 ),
             ],
         ),

@@ -1,6 +1,18 @@
 (
     title: "Clay Pidgeon Shooting",
     developer: Some("Jim Bagley"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/clay-pidgeon-shooting/Clay Pidgeon Shooting by Jim Bagley (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/clay-pidgeon-shooting",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/clay-pidgeon-shooting/Clay Pidgeon Shooting by Jim Bagley (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-08-05"),
-            sources: [
-                HomebrewHub(
-                    slug: "clay-pidgeon-shooting",
-                    filename: "Clay Pidgeon Shooting by Jim Bagley (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

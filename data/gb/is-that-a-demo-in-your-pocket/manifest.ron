@@ -1,6 +1,18 @@
 (
     title: "Is That a Demo in Your Pocket?",
     developer: Some("Snorpung"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/is-that-a-demo-in-your-pocket/pocket.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/is-that-a-demo-in-your-pocket",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/is-that-a-demo-in-your-pocket/765.png",
     ],
@@ -24,12 +36,6 @@
     releases: [
         (
             date: Some("2015-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "is-that-a-demo-in-your-pocket",
-                    filename: "pocket.gb",
-                ),
-            ],
         ),
     ],
 )

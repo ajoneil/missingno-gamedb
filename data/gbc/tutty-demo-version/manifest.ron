@@ -2,6 +2,18 @@
     title: "Tutty (Demo Version)",
     developer: Some("R-Lab"),
     description: Some("Developed by Russian R-Lab and on their website they wrote \"  Action game derived from BoulderDash style, but more advanced and more fun. Player explore different underground worlds of the ancient civilisations.\""),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tutty-demo-version/tutty.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tutty-demo-version",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tutty-demo-version/tutty.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2001-05-11"),
-            sources: [
-                HomebrewHub(
-                    slug: "tutty-demo-version",
-                    filename: "tutty.gbc",
-                ),
-            ],
         ),
     ],
 )

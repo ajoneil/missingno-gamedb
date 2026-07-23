@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/trve-metal-crossing/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/trve-metal-crossing",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/trve-metal-crossing/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/trve-metal-crossing/cIJAKo.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "trve-metal-crossing",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://scotaire.itch.io/trve-metal-crossing",
-                ),
-            ],
-        ),
+        (),
     ],
 )

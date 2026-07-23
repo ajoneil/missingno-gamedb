@@ -1,0 +1,78 @@
+(
+    title: "Codebreaker",
+    description: Some("Mastermind on a keypad: the console — or your opponent — hides a three- or four-digit code and you get twelve guesses (eight with the difficulty switch on A), typed on the Keyboard Controllers, with black and white markers grading each digit as right-in-place or right-but-misplaced. The lowest guess count wins across consecutive rounds, players can author codes for each other, and the cart\'s twenty variations also include the matchstick game Nim."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/codebreaker.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Sears)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/codebreaker-sears.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Codebreaker_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/18B57752F3863FB42C88190AD09958DA2DA2C9E1",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "137bd3d3f36e2549c6e1cc3a60f2a7574f767775",
+                ),
+                (
+                    sha1: "216e2aeaa6126c723db7b6caa839b441844761fd",
+                    label: Some("overdump [o]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "0252bb61f8ca0462cc57a273d575c4bcdb5a95f2",
+                ),
+                (
+                    sha1: "70301994a513b037b4fea49a71a2672c0aaf4a30",
+                    label: Some("overdump [o]"),
+                ),
+            ],
+        ),
+    ],
+)

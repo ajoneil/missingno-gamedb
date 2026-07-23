@@ -6,6 +6,18 @@
         "Visual Novel",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-of-the-void/FriendoftheVoid.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friend-of-the-void",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-of-the-void/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friend-of-the-void/4Kc05n.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "friend-of-the-void",
-                    filename: "FriendoftheVoid.gb",
-                ),
-                Itch(
-                    url: "https://sleepless-seven.itch.io/friend-of-the-void",
-                ),
-            ],
-        ),
+        (),
     ],
 )

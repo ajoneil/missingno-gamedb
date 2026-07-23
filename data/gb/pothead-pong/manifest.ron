@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pothead-pong/POTPONG.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pothead-pong",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pothead-pong/20110402_pothead_pong.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("1999-09-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "pothead-pong",
-                    filename: "POTPONG.GB",
-                ),
-            ],
         ),
     ],
 )

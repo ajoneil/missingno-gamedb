@@ -7,6 +7,18 @@
         "Platform",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/My-Friendly-Little-Island.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/my-friendly-little-island",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/my-friendly-little-island/m2QP2FQ.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "my-friendly-little-island",
-                    filename: "My-Friendly-Little-Island.gb",
-                ),
-                Itch(
-                    url: "https://playinstinct.itch.io/my-friendly-little-island",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -2,6 +2,18 @@
     title: "Grecotron v0.91",
     developer: Some("Dave VanEe"),
     description: Some("This game was made as an entry for the game portion of the PDRoms Coding Competition #2."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/grecotron-v0-91/grecotron.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/grecotron-v0-91",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/grecotron-v0-91/20110402_grecotron.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/grecotron-v0-91/20110402_grecotron.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "grecotron-v0-91",
-                    filename: "grecotron.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

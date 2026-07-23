@@ -1,6 +1,18 @@
 (
     title: "Megamania",
     developer: Some("Genetic Fantasia"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/megamania/SHIP.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/megamania",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/megamania/SHIP-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1997-10-23"),
-            sources: [
-                HomebrewHub(
-                    slug: "megamania",
-                    filename: "SHIP.GB",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Child\'s Play",
     developer: Some("Carillon Cyberiad"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/childsplay.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/child-s-play",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/child-s-play/54.png",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("2002-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "child-s-play",
-                    filename: "childsplay.gbc",
-                ),
-            ],
         ),
     ],
 )

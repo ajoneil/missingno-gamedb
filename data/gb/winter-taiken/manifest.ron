@@ -1,6 +1,18 @@
 (
     title: "Winter Taiken (trial)",
     developer: Some("Parawo"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/winter-taiken/taiken.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/winter-taiken",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/winter-taiken/taiken-0.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("1999-11-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "winter-taiken",
-                    filename: "taiken.gb",
-                ),
-            ],
         ),
     ],
 )

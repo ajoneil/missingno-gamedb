@@ -1,6 +1,18 @@
 (
     title: "JOYTST.GB ver .1",
     developer: Some("Nick Kochakian"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/joypad-test/Joypad_Test.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/joypad-test",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/joypad-test/Joypad_Test-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1998-02-02"),
-            sources: [
-                HomebrewHub(
-                    slug: "joypad-test",
-                    filename: "Joypad_Test.gb",
-                ),
-            ],
         ),
     ],
 )

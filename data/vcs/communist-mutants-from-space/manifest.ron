@@ -1,0 +1,62 @@
+(
+    title: "Communist Mutants from Space",
+    description: Some("A Supercharger-cassette fixed shooter: mutants hatch from a rank of drifting eggs laid by the Mother Creature — an alien driven mad by irradiated vodka — and your cannon holds the ground below. The cassette\'s extra memory pays for toggleable twists standard carts couldn\'t fit: shields, time warp, penetrating and guided fire, and up to four players taking turns."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Communist_Mutants_from_Space",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/ADE3DFF6C3510A4F7880795317A2E69460ABB215",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Arcadia Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9a113bacc576d1d1f80a26622359c49df97b16bc",
+                ),
+                (
+                    sha1: "ad18885ed38516c3e136293ae565c113f299d223",
+                    label: Some("rolling demo"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9ab6e90c2a41684f46592b8e2b71fd19e540b055",
+                ),
+                (
+                    sha1: "b0483e5de99833d630433281953a670dd72a0df4",
+                    label: Some("rolling demo"),
+                ),
+            ],
+        ),
+    ],
+)

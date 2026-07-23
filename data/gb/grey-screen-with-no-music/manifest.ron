@@ -1,15 +1,21 @@
 (
     title: "Grey Screen With No Music",
     developer: Some("Spacepigs"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/grey-screen-with-no-music/grey-screen-with-no-music.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/grey-screen-with-no-music",
+            link_type: DownloadPage,
+        ),
+    ],
     releases: [
         (
             date: Some("2018-08"),
-            sources: [
-                HomebrewHub(
-                    slug: "grey-screen-with-no-music",
-                    filename: "grey-screen-with-no-music.gb",
-                ),
-            ],
         ),
     ],
 )

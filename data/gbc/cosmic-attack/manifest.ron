@@ -1,6 +1,18 @@
 (
     title: "Cosmic Attack",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmic-attack/CosmicAttack.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cosmic-attack",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmic-attack/20110402_cosmic_attack.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cosmic-attack/20110402_cosmic_attack.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "cosmic-attack",
-                    filename: "CosmicAttack.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

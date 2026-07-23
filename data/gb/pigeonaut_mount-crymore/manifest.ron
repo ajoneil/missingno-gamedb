@@ -6,6 +6,18 @@
         "Platformer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pigeonaut_mount-crymore/mount_crymore_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pigeonaut_mount-crymore",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pigeonaut_mount-crymore/cover.png",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pigeonaut_mount-crymore/screenshots/B8khaq.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pigeonaut_mount-crymore",
-                    filename: "mount_crymore_jam.gb",
-                ),
-                Itch(
-                    url: "https://pigeonaut.itch.io/mount-crymore",
-                ),
-            ],
-        ),
+        (),
     ],
 )

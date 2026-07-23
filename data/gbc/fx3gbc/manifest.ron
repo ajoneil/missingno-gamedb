@@ -1,6 +1,18 @@
 (
     title: "fx3gbc",
     developer: Some("changev"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/fx3gbc/fx3gbc.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/fx3gbc",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fx3gbc/fx3gbc.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/fx3gbc/fx3gbc.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "fx3gbc",
-                    filename: "fx3gbc.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

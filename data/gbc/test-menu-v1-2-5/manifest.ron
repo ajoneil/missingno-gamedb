@@ -1,6 +1,18 @@
 (
     title: "Test Menu V1.2 +5",
     developer: Some("Resistance"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/test-menu-v1-2-5/test-menu-v1-2-5.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/test-menu-v1-2-5",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/test-menu-v1-2-5/test-menu-v1-2-5.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2002"),
-            sources: [
-                HomebrewHub(
-                    slug: "test-menu-v1-2-5",
-                    filename: "test-menu-v1-2-5.gbc",
-                ),
-            ],
         ),
     ],
 )

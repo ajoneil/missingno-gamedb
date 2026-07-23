@@ -2,6 +2,18 @@
     title: "MazezaM",
     developer: Some("Dr Hirudo"),
     description: Some("MazezaM (pronounced “may-zam”) is a simple puzzle game. You enter the mazezam on the left and you have to get to the exit on the right by pushing rows of blocks left and right. If you get stuck you can retry the mazezam, but this will cost you a life."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mazezam/MazezaM.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mazezam",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mazezam/20110402_mazezam.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mazezam/20110402_mazezam.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "mazezam",
-                    filename: "MazezaM.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

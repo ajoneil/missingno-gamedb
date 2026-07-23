@@ -1,6 +1,18 @@
 (
     title: "Clown",
     developer: Some("Norman Nithman"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/clown/CLOWN1.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/clown",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/clown/747.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1996-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "clown",
-                    filename: "CLOWN1.GB",
-                ),
-            ],
         ),
     ],
 )

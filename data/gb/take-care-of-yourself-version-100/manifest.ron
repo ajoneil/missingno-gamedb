@@ -1,6 +1,18 @@
 (
     title: "Take Care Of Yourself (Version 1.0.0)",
     developer: Some("DeltaGardner"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/take-care-of-yourself-version-100/tcoy.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/take-care-of-yourself-version-100",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/take-care-of-yourself-version-100/tcoy.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/take-care-of-yourself-version-100/tcoy.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "take-care-of-yourself-version-100",
-                    filename: "tcoy.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

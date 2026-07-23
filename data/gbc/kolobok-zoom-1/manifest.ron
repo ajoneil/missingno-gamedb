@@ -1,6 +1,18 @@
 (
     title: "KOLOBOK ZOOM 1",
     developer: Some("FreeArt"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kolobok-zoom-1/KOLOBOK ZOOM 1 (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kolobok-zoom-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kolobok-zoom-1/KOLOBOK ZOOM 1 (PD) [C].png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kolobok-zoom-1/KOLOBOK ZOOM 1 (PD) [C].png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "kolobok-zoom-1",
-                    filename: "KOLOBOK ZOOM 1 (PD) [C].gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

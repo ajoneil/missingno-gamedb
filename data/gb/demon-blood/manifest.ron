@@ -1,6 +1,18 @@
 (
     title: "Demon Blood",
     developer: Some("Youth Uprising"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/yup-demonblood.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/demon-blood",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/demon-blood/635.png",
     ],
@@ -18,12 +30,6 @@
     releases: [
         (
             date: Some("2012-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "demon-blood",
-                    filename: "yup-demonblood.gb",
-                ),
-            ],
         ),
     ],
 )

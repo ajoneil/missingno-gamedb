@@ -1,6 +1,18 @@
 (
     title: "Phoenix",
     developer: Some("Jim Bagley"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/phoenix/Phoenix [Jim Bagley] (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/phoenix",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/phoenix/Phoenix [Jim Bagley] (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-06-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "phoenix",
-                    filename: "Phoenix [Jim Bagley] (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

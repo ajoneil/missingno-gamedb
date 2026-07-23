@@ -6,6 +6,18 @@
         "Simulation",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dont-forget-to-smile/Dont_Forget_To_Smile_1.1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dont-forget-to-smile",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dont-forget-to-smile/cover.png",
     ],
@@ -13,16 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dont-forget-to-smile/SiHwI5.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "dont-forget-to-smile",
-                    filename: "Dont_Forget_To_Smile_1.1.gb",
-                ),
-                Itch(
-                    url: "https://dionofspice.itch.io/dont-forget-to-smile",
-                ),
-            ],
-        ),
+        (),
     ],
 )

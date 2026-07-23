@@ -1,7 +1,48 @@
 (
     title: "Chopper Command",
+    description: Some("Defender takes to the desert: you fly a helicopter over scrolling dunes shielding a truck convoy from waves of enemy choppers and jets, with a Long Range Scanner tracking threats beyond the screen edge. Helicopters score 100, jets 200, and every truck still rolling at a waves end pays a bonus; Activision mailed a Chopper Commandos patch to anyone photographing 10,000 points. Abroad it wore many names — Ariolasofts Captain Helicopter in Germany, pirate carts as Pyramid War and Wüstenschlacht."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Chopper_Command",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/chopper_command.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/205F66A6F8B712747940A4B3BBF82ED05742E418",
+    ],
+    mods: [
+        (
+            name: "Chopper Command Supercharger conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("51a53bbfdbcc22925515ae0af79df434df6ee68a"),
+                    artifacts: [
+                        (
+                            sha1: "e2bd09e160649f178375f9bfbfdf8c7591c5a0d7",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Activision"),
             hardware: (
@@ -10,47 +51,35 @@
             ),
             artifacts: [
                 (
-                    sha1: "153437a7e10cc3e3f2dfe3c55cdbc80c0da91f18",
-                ),
-                (
                     sha1: "51a53bbfdbcc22925515ae0af79df434df6ee68a",
                 ),
                 (
                     sha1: "529634d1eaf0e13c3e807f052a0f117e6d8306dc",
+                    label: Some("alt 1"),
                 ),
                 (
                     sha1: "676b8e9991a0998cba856cdbd8b3caf360a0522c",
+                    label: Some("alt 2"),
                 ),
                 (
                     sha1: "804e3acaec15650b6ca8d2966c5bfd7a655a272e",
-                ),
-                (
-                    sha1: "8407a8be1f95c55399457604cae2fc11a525d947",
+                    label: Some("alt 3"),
                 ),
                 (
                     sha1: "91ac9c115b3598e67bf5371dc7747155ad941fcb",
+                    label: Some("alt 4"),
                 ),
                 (
                     sha1: "c71199e9928ce0c24bba6f5e45cd78ba72df0a3e",
-                ),
-                (
-                    sha1: "e2bd09e160649f178375f9bfbfdf8c7591c5a0d7",
+                    label: Some("alt 5"),
                 ),
                 (
                     sha1: "fc97643a90447adc904da5e794c3614683f9fc52",
+                    label: Some("alt 6"),
                 ),
-            ],
-        ),
-        (
-            date: Some("1982"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
                 (
                     sha1: "616a96e130ad34aa019dbc8817852efbac37e07a",
+                    label: Some("overdump [o1] (possibly 4-in-1)"),
                 ),
             ],
         ),
@@ -67,9 +96,98 @@
                 ),
                 (
                     sha1: "738fb28bc043aa1b4786de022f30ccd7f8bcafc6",
+                    label: Some("alt 1"),
                 ),
                 (
                     sha1: "eba7a68e46452bca94a6966b0f26b77d7eb3a544",
+                    label: Some("alt 2"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a47bf3c35b47729330d3e1b0a1e0b5deec6ba213",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8407a8be1f95c55399457604cae2fc11a525d947",
+                ),
+            ],
+        ),
+        (
+            title: Some("Choplifter"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "153437a7e10cc3e3f2dfe3c55cdbc80c0da91f18",
+                    label: Some("pirate overdump [p][o]"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pyramid War"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1294b32dd1ac8069c15a55d0061b181a70e7be4a",
+                ),
+            ],
+        ),
+        (
+            title: Some("Pyramid War"),
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "863be051c1c55f611555d228b6e35fd24509b6a0",
+                ),
+            ],
+        ),
+        (
+            title: Some("Wüstenschlacht"),
+            regions: [
+                Germany,
+            ],
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc483097f94f2bf9c4d3366b3bd25200f2e2f22a",
+                    label: Some("pirate [p]"),
                 ),
             ],
         ),

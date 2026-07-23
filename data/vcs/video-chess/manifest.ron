@@ -1,7 +1,88 @@
 (
     title: "Video Chess",
+    description: Some("Full chess against the console, cursor-driven from an overhead board: eight difficulty levels ranging from seconds of thinking time to ten hours, a setup mode for arranging custom positions, illegal moves refused with a warning tone, and castling and en passant both honoured. Rendering eight pieces per rank on hardware limited to three sprites a scanline took the programmers\' famous \"Venetian blinds\" flicker technique. The Computer Chess prototype release preserves Larry Wagner and Bob Whitehead\'s 1978 development build, before the program was reworked for the shipped cartridge."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/video_chess.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Chessprogramming wiki",
+            url: "https://www.chessprogramming.org/Video_Chess",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Video_Chess",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3A7705E342E1A1CB3DB913DDC9A7F0CC45506A21",
+    ],
+    mods: [
+        (
+            name: "Chess",
+            category: ContentChange,
+            author: Some("Manuel Rotchkar"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    artifacts: [
+                        (
+                            sha1: "4341f65204901c7ca79831ddf8e78fe81d739f7d",
+                        ),
+                        (
+                            sha1: "a58e92352c72ecb73286dc60617feb0a02c00558",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Knightmate",
+            category: ContentChange,
+            author: Some("Zach Matley"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    artifacts: [
+                        (
+                            sha1: "6d30ed6fdadc482da07156cdec61bba2e4d19235",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Video Chess Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    artifacts: [
+                        (
+                            sha1: "782d4609c12af67c55150c27a645004805a28796",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1979"),
             publisher: Some("Atari"),
             hardware: (
@@ -18,6 +99,10 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -28,6 +113,24 @@
                 ),
                 (
                     sha1: "c7c792c91f9fa7c3e291d0e0f0dd71a7181369a5",
+                ),
+            ],
+        ),
+        (
+            title: Some("Computer Chess"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dbc0c0451dee44425810e04df8f1d26d1c2d3993",
                 ),
             ],
         ),

@@ -1,6 +1,18 @@
 (
     title: "Pretty Princess Castle Escape",
     developer: Some("sergeeo"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pretty-princess-castle-escape/pretty-princess-castle-escape.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pretty-princess-castle-escape",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pretty-princess-castle-escape/pretty-princess-castle-escape.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pretty-princess-castle-escape/pretty-princess-castle-escape.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pretty-princess-castle-escape",
-                    filename: "pretty-princess-castle-escape.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/patmorita__hermano-game-boy/Hermano_1.1_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/patmorita__hermano-game-boy",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/greenwebsevilla/Hermano",
             link_type: Source,
@@ -25,15 +35,6 @@
     releases: [
         (
             date: Some("2023-09-15"),
-            sources: [
-                HomebrewHub(
-                    slug: "patmorita__hermano-game-boy",
-                    filename: "Hermano_1.1_jam.gb",
-                ),
-                Itch(
-                    url: "https://patmorita.itch.io/hermano-game-boy",
-                ),
-            ],
         ),
     ],
 )

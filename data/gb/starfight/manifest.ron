@@ -2,6 +2,18 @@
     title: "Starfight",
     developer: Some("Martin Korth"),
     description: Some("STARFIGHT for GAMEBOY means real action PLEASURE in less than 4096 bytes (don\'t ask where the stars are in the game, that isn\'t the point anyways)"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/starfight/starfigh.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/starfight",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/starfight/starfigh.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("1999-03-11"),
-            sources: [
-                HomebrewHub(
-                    slug: "starfight",
-                    filename: "starfigh.gb",
-                ),
-            ],
         ),
     ],
 )

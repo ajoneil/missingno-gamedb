@@ -13,6 +13,18 @@
         "gb-studio",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/kannonblitz85_gbdoom/GBDoom_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/kannonblitz85_gbdoom",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kannonblitz85_gbdoom/cover.png",
     ],
@@ -25,16 +37,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/kannonblitz85_gbdoom/screenshots/MSGNtv.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "kannonblitz85_gbdoom",
-                    filename: "GBDoom_jam.gb",
-                ),
-                Itch(
-                    url: "https://kannonblitz85.itch.io/gbdoom",
-                ),
-            ],
-        ),
+        (),
     ],
 )

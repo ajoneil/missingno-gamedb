@@ -1,6 +1,18 @@
 (
     title: "Quick Push",
     developer: Some("S.Noddy"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/quick-push/QuickPush.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/quick-push",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/quick-push/20110402_quick_push.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/quick-push/20110402_quick_push.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "quick-push",
-                    filename: "QuickPush.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

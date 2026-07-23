@@ -7,6 +7,18 @@
         "Platformer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/videogamestorytime_fortune-and-glory/FORTUNEANDGLORY_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/videogamestorytime_fortune-and-glory",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/videogamestorytime_fortune-and-glory/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/videogamestorytime_fortune-and-glory/screenshots/7Fzj2k.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "videogamestorytime_fortune-and-glory",
-                    filename: "FORTUNEANDGLORY_jam.gbc",
-                ),
-                Itch(
-                    url: "https://videogamestorytime.itch.io/fortune-and-glory",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,8 +1,33 @@
 (
     title: "Congo Bongo",
+    description: Some("A safari hunter scales the mountain to settle a score with Bongo the ape, dodging thrown coconuts and the three monkeys working to pitch him off the cliffs. The port keeps two of the arcade\'s four stages and trades its famous isometric view for a flatter perspective the 2600 could draw."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Congo_Bongo",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/congo_bongo.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9E02EF65A95D8F778A8EECE4F041DE5EEA4B2BF6",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
             publisher: Some("SEGA"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -12,10 +37,17 @@
                 (
                     sha1: "3a77db43b6583e8689435f0f14aa04b9e57bdded",
                 ),
+                (
+                    sha1: "3ec21fcdc14bdb6e9caee1f7d9b81107703da55b",
+                    label: Some("alt [a] (fixed)"),
+                ),
             ],
         ),
         (
-            date: Some("1983"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1984"),
             publisher: Some("SEGA"),
             hardware: (
                 tv_format: Some(Pal),

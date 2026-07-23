@@ -9,6 +9,18 @@
         "Platformer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/flightbun_millennium-gun/millennium-gun_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/flightbun_millennium-gun",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/flightbun_millennium-gun/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/flightbun_millennium-gun/screenshots/O96gkJ.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "flightbun_millennium-gun",
-                    filename: "millennium-gun_jam.gb",
-                ),
-                Itch(
-                    url: "https://flightbun.itch.io/millennium-gun",
-                ),
-            ],
-        ),
+        (),
     ],
 )

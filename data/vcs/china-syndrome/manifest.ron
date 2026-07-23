@@ -1,7 +1,27 @@
 (
     title: "China Syndrome",
+    description: Some("An earthquake has crippled the Spectra Island reactor, and you steer the D.D.V. — a decontamination vacuum arm — through its nine levels, grabbing escaped fuel particles that split and multiply as they bounce, while steering clear of each zone\'s deadly core vent. One difficulty switch grants three or five arms per game, the other makes the arm faster or slower; the four selectable games range from a practice mode through the full certification test to a variant for young children, and losing every arm triggers an unstoppable meltdown sequence."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/china_syndrome.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B5803AD50E958D698D64E953583F0FD151D4629B",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Spectravision"),
             hardware: (
@@ -15,6 +35,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Spectravision"),
             hardware: (

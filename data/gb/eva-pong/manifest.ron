@@ -1,6 +1,18 @@
 (
     title: "EVA Pong",
     developer: Some("jedediah"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/eva-pong/EVA Pong (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/eva-pong",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/eva-pong/EVA Pong (PD).png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-03-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "eva-pong",
-                    filename: "EVA Pong (PD).gb",
-                ),
-            ],
         ),
     ],
 )

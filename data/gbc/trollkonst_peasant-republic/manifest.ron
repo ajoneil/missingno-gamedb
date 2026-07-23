@@ -5,6 +5,18 @@
         "Role Playing",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/trollkonst_peasant-republic/peasant_republic_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/trollkonst_peasant-republic",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/trollkonst_peasant-republic/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/trollkonst_peasant-republic/screenshots/Pv6Ska.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "trollkonst_peasant-republic",
-                    filename: "peasant_republic_jam.gbc",
-                ),
-                Itch(
-                    url: "https://trollkonst.itch.io/peasant-republic",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,7 +1,32 @@
 (
     title: "Combat Two",
+    description: Some("Atari\'s unreleased sequel to its launch-title Combat trades the single arena for a landscape of forests, rivers and bridges: tanks carry three layers of armour, bases lob cruise missiles, water bogs you down and treelines hide you, with a level designer on the cart. The shift from fast grudge-match to slow two-player strategy — with no computer opponent — is what killed it; the GCC-built prototype reached late work-in-progress before cancellation."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/combat2/combat2.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Combat_Two",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C333BBC13B343BF6082F02DCC18EC04015A396CC",
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             status: Prototype,

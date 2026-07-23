@@ -1,15 +1,21 @@
 (
     title: "Dangan GB +4",
     developer: Some("Phantasy"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dangan-gb-4/dangan-gb-4.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dangan-gb-4",
+            link_type: DownloadPage,
+        ),
+    ],
     releases: [
         (
             date: Some("2019-03-12"),
-            sources: [
-                HomebrewHub(
-                    slug: "dangan-gb-4",
-                    filename: "dangan-gb-4.gbc",
-                ),
-            ],
         ),
     ],
 )

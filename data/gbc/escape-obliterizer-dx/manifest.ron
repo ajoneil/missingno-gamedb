@@ -4,6 +4,16 @@
     license: Some("GPL-3.0"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/escape-obliterizer-dx/ESCAPE_OBLITERIZER_DX.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/escape-obliterizer-dx",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/jcnmsg/escape-obliterizer-gbc",
             link_type: Source,
@@ -18,12 +28,6 @@
     releases: [
         (
             date: Some("2020-05-17"),
-            sources: [
-                HomebrewHub(
-                    slug: "escape-obliterizer-dx",
-                    filename: "ESCAPE_OBLITERIZER_DX.gb",
-                ),
-            ],
         ),
     ],
 )

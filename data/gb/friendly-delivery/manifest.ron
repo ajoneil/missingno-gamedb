@@ -6,6 +6,18 @@
         "Interactive Fiction",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-delivery/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/friendly-delivery",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-delivery/cover.png",
     ],
@@ -16,16 +28,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/friendly-delivery/2FW5Ve5.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "friendly-delivery",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://lowstakesdev.itch.io/friendly-delivery",
-                ),
-            ],
-        ),
+        (),
     ],
 )

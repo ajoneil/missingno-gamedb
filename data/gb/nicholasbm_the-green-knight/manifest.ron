@@ -10,6 +10,18 @@
         "Hack and Slash",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/nicholasbm_the-green-knight/The-Green-Knight-v2.2.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/nicholasbm_the-green-knight",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nicholasbm_the-green-knight/cover.png",
     ],
@@ -24,16 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/nicholasbm_the-green-knight/screenshots/wG3sGM.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "nicholasbm_the-green-knight",
-                    filename: "The-Green-Knight-v2.2.gb",
-                ),
-                Itch(
-                    url: "https://nicholasbm.itch.io/the-green-knight",
-                ),
-            ],
-        ),
+        (),
     ],
 )

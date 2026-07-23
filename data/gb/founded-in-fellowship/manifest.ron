@@ -7,6 +7,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/FoundedinFellowship_1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/founded-in-fellowship",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/founded-in-fellowship/8ypayi.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "founded-in-fellowship",
-                    filename: "FoundedinFellowship_1.gb",
-                ),
-                Itch(
-                    url: "https://electroparlorgames.itch.io/founded-in-fellowship",
-                ),
-            ],
-        ),
+        (),
     ],
 )

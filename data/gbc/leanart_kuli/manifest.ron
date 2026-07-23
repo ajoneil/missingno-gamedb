@@ -10,6 +10,18 @@
         "Puzzle",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/kuli_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/leanart_kuli",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/cover.png",
     ],
@@ -26,16 +38,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/leanart_kuli/screenshots/b87O72.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "leanart_kuli",
-                    filename: "kuli_jam.gbc",
-                ),
-                Itch(
-                    url: "https://leanart.itch.io/kuli",
-                ),
-            ],
-        ),
+        (),
     ],
 )

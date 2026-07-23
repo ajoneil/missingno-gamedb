@@ -1,6 +1,18 @@
 (
     title: "Dungeon Escape",
     developer: Some("Anders Granlund"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dungeon-escape/Dungeon_Escape.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dungeon-escape",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dungeon-escape/Dungeon_Escape-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1997-11-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "dungeon-escape",
-                    filename: "Dungeon_Escape.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Puzzle",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzle/Puzzle.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/puzzle",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzle/20110402_puzzle.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/puzzle/20110402_puzzle.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "puzzle",
-                    filename: "Puzzle.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

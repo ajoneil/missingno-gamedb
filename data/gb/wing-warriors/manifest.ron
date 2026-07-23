@@ -3,6 +3,16 @@
     developer: Some("FranMatsusaka"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/wing-warriors/WingWarriors.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/wing-warriors",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "https://gbdev.gg8.se/forums/viewtopic.php?id=682",
             link_type: Wiki,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2020-01-26"),
-            sources: [
-                HomebrewHub(
-                    slug: "wing-warriors",
-                    filename: "WingWarriors.gb",
-                ),
-            ],
         ),
     ],
 )

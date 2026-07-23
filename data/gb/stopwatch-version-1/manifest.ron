@@ -1,6 +1,18 @@
 (
     title: "StopWatch Version 1",
     developer: Some("Chris Antonellis"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/stopwatch-version-1/stopwatch-v1.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/stopwatch-version-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/stopwatch-version-1/stopwatch.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/stopwatch-version-1/stopwatch.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "stopwatch-version-1",
-                    filename: "stopwatch-v1.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

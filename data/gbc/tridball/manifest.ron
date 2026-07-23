@@ -1,6 +1,18 @@
 (
     title: "Tridball",
     developer: Some("Aaron St. John"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tridball/Tridball.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tridball",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tridball/20110402_tridball.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tridball/20110402_tridball.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tridball",
-                    filename: "Tridball.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -11,6 +11,18 @@
         "Retro",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mrex3c98_gb-tile-editor/gte.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mrex3c98_gb-tile-editor",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mrex3c98_gb-tile-editor/cover.png",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mrex3c98_gb-tile-editor/screenshots/71RhE8.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "mrex3c98_gb-tile-editor",
-                    filename: "gte.gb",
-                ),
-                Itch(
-                    url: "https://mrex3c98.itch.io/gb-tile-editor",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,0 +1,102 @@
+(
+    title: "Cabbage Patch Kids - Adventures in the Park",
+    description: Some("You guide Anna Lee across a park full of hazards — bouncing balls, water-filled pits, floating platforms, bees and fires — clearing each level\'s ten scenes before the timer runs out, with trampoline bounces into the treetops uncovering hidden bonus objects. A port of the ColecoVision game (itself a re-skin of Konami\'s MSX Athletic Land), it was finished in September 1984 just as Coleco wound down its 2600 operations, and survives only as dated prototype builds recovered from EPROMs found at a flea market in 2008."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/cpk/cpk.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cabbage_Patch_Kids:_Adventures_in_the_Park",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/15147C55D595E9C707DD0A1848F3D1CE7DCFFD42",
+    ],
+    mods: [
+        (
+            name: "Cabbage Patch Kids PAL conversion",
+            category: Compatibility,
+            author: Some("Rick Skrbina"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://atariage.com/forums/topic/159106-cabbage-patch-kids-pal-conversion/",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2010"),
+                    artifacts: [
+                        (
+                            sha1: "6b6c9323b99a1ba7b23d3ecaf777ebcd08e60416",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: [
+        (
+            by: "Andrew O\'Neil",
+            date: "2026-07-23",
+        ),
+    ],
+    releases: [
+        (
+            date: Some("1984"),
+            publisher: Some("Coleco"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "159b2ead2e5455c87264565c628396cca997a7f3",
+                    label: Some("rev 4 (1984-07-24)"),
+                ),
+                (
+                    sha1: "2a12324f04e22c86fd4f9933a223936c1117bba2",
+                    label: Some("rev 7 (1984-09-07)"),
+                ),
+                (
+                    sha1: "33ee9f36608e9e8bb879a27235d04226121c5f6b",
+                    label: Some("rev 2 (1984-06-14)"),
+                ),
+                (
+                    sha1: "63ce3795f48a2b1f5988f01d8bf7cc10f311223e",
+                    label: Some("rev 5 (1984-08-21)"),
+                ),
+                (
+                    sha1: "8c7e04c6ed084d8dedc1e8eae12b72161c04f536",
+                    label: Some("rev 6 (1984-09-04)"),
+                ),
+                (
+                    sha1: "9b922b590f1ae041f1473336068cdca765a62e6e",
+                    label: Some("rev 1 (1984-05-24)"),
+                ),
+                (
+                    sha1: "a4ecf3757b78282dac1d16668f3820ca9da41ad9",
+                    label: Some("rev 2-1 (1984-06)"),
+                ),
+                (
+                    sha1: "cd7f18bf865501e7b918522e00ddbe434fd57e21",
+                    label: Some("rev 3 (1984-07-03)"),
+                ),
+                (
+                    sha1: "ffdba8ae22784ccc81a5a2e81a236ace09e5b7f4",
+                    label: Some("rev 9 (1984-09-13)"),
+                ),
+                (
+                    sha1: "521035afc427e4be5c85a5c1a4b84126c49bd10f",
+                    label: Some("rev 8 (1984-09-13)"),
+                ),
+            ],
+        ),
+    ],
+)

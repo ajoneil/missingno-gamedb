@@ -1,6 +1,18 @@
 (
     title: "Menu #2 (Tonka Raceway +6)",
     developer: Some("Utopia"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-utopia/utp-t_02.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/menu-2-utopia",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/menu-2-utopia/223.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "menu-2-utopia",
-                    filename: "utp-t_02.gbc",
-                ),
-            ],
         ),
     ],
 )

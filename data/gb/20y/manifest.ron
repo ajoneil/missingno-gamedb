@@ -1,6 +1,18 @@
 (
     title: "20y",
     developer: Some("Snorpung"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/20y.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/20y",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/20y/538.png",
     ],
@@ -18,12 +30,6 @@
     releases: [
         (
             date: Some("2009-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "20y",
-                    filename: "20y.gb",
-                ),
-            ],
         ),
     ],
 )

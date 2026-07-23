@@ -1,6 +1,18 @@
 (
     title: "Southern Dreams Slideshow",
     developer: Some("Southern Dreams"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams-slideshow/Southern Dreams - Slideshow (Lik-Sang) (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/southern-dreams-slideshow",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/southern-dreams-slideshow/Southern Dreams - Slideshow (Lik-Sang) (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-04-30"),
-            sources: [
-                HomebrewHub(
-                    slug: "southern-dreams-slideshow",
-                    filename: "Southern Dreams - Slideshow (Lik-Sang) (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

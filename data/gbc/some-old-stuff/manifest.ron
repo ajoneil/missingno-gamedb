@@ -1,6 +1,18 @@
 (
     title: "Some Old Stuff",
     developer: Some("R-Lab"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/SOS.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/some-old-stuff",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/some-old-stuff/89.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "some-old-stuff",
-                    filename: "SOS.gbc",
-                ),
-            ],
         ),
     ],
 )

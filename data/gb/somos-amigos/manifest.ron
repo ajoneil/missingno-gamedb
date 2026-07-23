@@ -5,6 +5,18 @@
     tags: [
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/somos-amigos/game.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/somos-amigos",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/somos-amigos/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/somos-amigos/XdokY1.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "somos-amigos",
-                    filename: "game.gb",
-                ),
-                Itch(
-                    url: "https://el-papu1111.itch.io/somos-amigos",
-                ),
-            ],
-        ),
+        (),
     ],
 )

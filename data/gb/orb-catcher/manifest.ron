@@ -1,6 +1,18 @@
 (
     title: "Orb Catcher",
     developer: Some("Patchwork Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/orb-catcher/orb-catcher.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/orb-catcher",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/orb-catcher/orb-catcher.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/orb-catcher/orb-catcher.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "orb-catcher",
-                    filename: "orb-catcher.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

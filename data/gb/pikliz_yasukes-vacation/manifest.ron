@@ -8,6 +8,18 @@
         "Platformer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pikliz_yasukes-vacation/YasukesVacation_JAM.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pikliz_yasukes-vacation",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pikliz_yasukes-vacation/cover.png",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pikliz_yasukes-vacation/screenshots/cjt8i8.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pikliz_yasukes-vacation",
-                    filename: "YasukesVacation_JAM.gb",
-                ),
-                Itch(
-                    url: "https://pikliz.itch.io/yasukes-vacation",
-                ),
-            ],
-        ),
+        (),
     ],
 )

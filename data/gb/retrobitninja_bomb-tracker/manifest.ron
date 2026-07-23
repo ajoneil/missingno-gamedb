@@ -8,6 +8,18 @@
         "Singleplayer",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/retrobitninja_bomb-tracker/bomb-tracker_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/retrobitninja_bomb-tracker",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/retrobitninja_bomb-tracker/cover.jpg",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/retrobitninja_bomb-tracker/screenshots/RHUEca.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "retrobitninja_bomb-tracker",
-                    filename: "bomb-tracker_jam.gb",
-                ),
-                Itch(
-                    url: "https://retrobitninja.itch.io/bomb-tracker",
-                ),
-            ],
-        ),
+        (),
     ],
 )

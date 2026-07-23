@@ -1,6 +1,18 @@
 (
     title: "Raster Scroll Sample",
     developer: Some("T.M"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/raster-scroll-sample/raster.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/raster-scroll-sample",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/raster-scroll-sample/raster-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2002-07-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "raster-scroll-sample",
-                    filename: "raster.gb",
-                ),
-            ],
         ),
     ],
 )

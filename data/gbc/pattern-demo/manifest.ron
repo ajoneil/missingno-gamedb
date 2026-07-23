@@ -1,5 +1,17 @@
 (
     title: "Pattern Demo",
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pattern-demo/Pattern Demo (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pattern-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pattern-demo/Pattern Demo (PD) [C].png",
     ],
@@ -9,12 +21,6 @@
     releases: [
         (
             date: Some("1999-09-11"),
-            sources: [
-                HomebrewHub(
-                    slug: "pattern-demo",
-                    filename: "Pattern Demo (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

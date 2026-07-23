@@ -11,6 +11,18 @@
         "Anime",
         "Indie",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/zeichigames_saint-seiya-el-regreso-del-fnix-gbc/LCZ - El regreso del fenix v1.4.1S (Update 21-01-2023 + Credits) casual mode.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/zeichigames_saint-seiya-el-regreso-del-fnix-gbc",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/zeichigames_saint-seiya-el-regreso-del-fnix-gbc/cover.png",
     ],
@@ -30,16 +42,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/zeichigames_saint-seiya-el-regreso-del-fnix-gbc/screenshots/DBrYyN.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "zeichigames_saint-seiya-el-regreso-del-fnix-gbc",
-                    filename: "LCZ - El regreso del fenix v1.4.1S (Update 21-01-2023 + Credits) casual mode.gbc",
-                ),
-                Itch(
-                    url: "https://zeichigames.itch.io/saint-seiya-el-regreso-del-fnix-gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/Lets_Bee_Friends.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lets-bee-friends",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/cover.gif",
     ],
@@ -17,16 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lets-bee-friends/pPOUVf.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "lets-bee-friends",
-                    filename: "Lets_Bee_Friends.gb",
-                ),
-                Itch(
-                    url: "https://howdyriceball.itch.io/lets-bee-friends",
-                ),
-            ],
-        ),
+        (),
     ],
 )

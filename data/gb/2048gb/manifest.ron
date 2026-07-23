@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/2048gb/2048.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/2048gb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/Sanqui/2048-gb",
             link_type: Source,
@@ -21,13 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/2048gb/2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "2048gb",
-                    filename: "2048.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

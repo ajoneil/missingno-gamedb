@@ -10,6 +10,18 @@
         "beat",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/zartan917_beat-the-sniper/BeatTheSniper_jam.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/zartan917_beat-the-sniper",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/zartan917_beat-the-sniper/cover.jpg",
     ],
@@ -19,16 +31,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/zartan917_beat-the-sniper/screenshots/9AT0ag.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "zartan917_beat-the-sniper",
-                    filename: "BeatTheSniper_jam.gbc",
-                ),
-                Itch(
-                    url: "https://zartan917.itch.io/beat-the-sniper",
-                ),
-            ],
-        ),
+        (),
     ],
 )

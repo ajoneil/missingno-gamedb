@@ -1,6 +1,18 @@
 (
     title: "Gameboy Project",
     developer: Some("Marc Rawer"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-project/steffen.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gameboy-project",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-project/steffen.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gameboy-project/steffen.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "gameboy-project",
-                    filename: "steffen.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -6,6 +6,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/snake-gb/snake.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/snake-gb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Website",
             url: "http://donaldhays.com/projects/snake/",
             link_type: Wiki,
@@ -23,13 +33,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/snake-gb/screenshot.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "snake-gb",
-                    filename: "snake.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

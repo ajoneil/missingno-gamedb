@@ -12,6 +12,18 @@
         "gbdk",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/dancar_puzzleboy-logic-quest/puzzleboy_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/dancar_puzzleboy-logic-quest",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dancar_puzzleboy-logic-quest/cover.gif",
     ],
@@ -24,16 +36,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/dancar_puzzleboy-logic-quest/screenshots/JrPXVm.gif",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "dancar_puzzleboy-logic-quest",
-                    filename: "puzzleboy_jam.gb",
-                ),
-                Itch(
-                    url: "https://dancar.itch.io/puzzleboy-logic-quest",
-                ),
-            ],
-        ),
+        (),
     ],
 )

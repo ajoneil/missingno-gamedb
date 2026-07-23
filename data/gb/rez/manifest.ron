@@ -2,6 +2,18 @@
     title: "Rez",
     developer: Some("nitro2k01"),
     description: Some("Rez is a unique synthesizer program for the Nintendo Gameboy by nitro2k01. It crudely simulates a resonant filter in a way inspired by the resonance algorithm used by the Casio CZ series phase distortion synthesis. It can both produce sounds meant to emulate this effect, and sounds more reminiscent of a hard sync oscillator. It also produces a graphical pattern on the Gameboy screen."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/rez/rez.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/rez",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rez/20130105_rez_(11-12-2012)_(gb_application).png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/rez/20130105_rez_(11-12-2012)_(gb_application).png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "rez",
-                    filename: "rez.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -9,6 +9,18 @@
         "gbdk",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/oshf_tomato-do/TOMATO-DO_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/oshf_tomato-do",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/oshf_tomato-do/cover.png",
     ],
@@ -18,16 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/oshf_tomato-do/screenshots/jIu4m9.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "oshf_tomato-do",
-                    filename: "TOMATO-DO_jam.gb",
-                ),
-                Itch(
-                    url: "https://oshf.itch.io/tomato-do",
-                ),
-            ],
-        ),
+        (),
     ],
 )

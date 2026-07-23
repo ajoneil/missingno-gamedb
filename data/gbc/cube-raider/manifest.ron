@@ -6,6 +6,18 @@
         "Platform",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/cube-raider/CubeRaider.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/cube-raider",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cube-raider/20110402_cube_raider.jpg",
     ],
@@ -13,13 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/cube-raider/20110402_cube_raider.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "cube-raider",
-                    filename: "CubeRaider.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

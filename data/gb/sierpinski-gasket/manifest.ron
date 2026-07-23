@@ -1,6 +1,18 @@
 (
     title: "Sierpinski Gasket",
     developer: Some("PurpleFish"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinski-gasket/Sierpinski Gasket (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/sierpinski-gasket",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/sierpinski-gasket/Sierpinski Gasket (PD).png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("1998-12-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "sierpinski-gasket",
-                    filename: "Sierpinski Gasket (PD).gb",
-                ),
-            ],
         ),
     ],
 )

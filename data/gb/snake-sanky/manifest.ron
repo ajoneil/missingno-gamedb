@@ -6,6 +6,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/snake-sanky/snake.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/snake-sanky",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://bitbucket.org/Sanqui/snake/src/?at=master",
             link_type: Source,
@@ -20,12 +30,6 @@
     releases: [
         (
             date: Some("2013-08-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "snake-sanky",
-                    filename: "snake.gbc",
-                ),
-            ],
         ),
     ],
 )

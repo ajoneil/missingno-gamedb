@@ -1,6 +1,18 @@
 (
     title: "LogX",
     developer: Some("Abel Vincze"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/logx/LogX.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/logx",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/logx/20110402_logx.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/logx/20110402_logx.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "logx",
-                    filename: "LogX.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

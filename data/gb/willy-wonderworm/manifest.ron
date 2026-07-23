@@ -6,6 +6,18 @@
         "Arcade",
         "event:bung-1st-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/willy-wonderworm/pv_worm.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/willy-wonderworm",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/willy-wonderworm/pv_worm.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("1999-11-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "willy-wonderworm",
-                    filename: "pv_worm.gb",
-                ),
-            ],
         ),
     ],
 )

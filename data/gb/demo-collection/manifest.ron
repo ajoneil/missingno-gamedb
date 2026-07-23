@@ -1,6 +1,18 @@
 (
     title: "Demo Collection",
     developer: Some("Revival Studios"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/vectdemo.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/demo-collection",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/demo-collection/330.png",
     ],
@@ -16,12 +28,6 @@
     releases: [
         (
             date: Some("1996-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "demo-collection",
-                    filename: "vectdemo.gb",
-                ),
-            ],
         ),
     ],
 )

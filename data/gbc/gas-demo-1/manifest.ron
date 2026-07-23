@@ -1,6 +1,18 @@
 (
     title: "GAS Demo 1",
     developer: Some("Peran, Revilon"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gas-demo-1/GAS Demo 1 (PD) [C].gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gas-demo-1",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gas-demo-1/GAS Demo 1 (PD) [C].png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-10-20"),
-            sources: [
-                HomebrewHub(
-                    slug: "gas-demo-1",
-                    filename: "GAS Demo 1 (PD) [C].gbc",
-                ),
-            ],
         ),
     ],
 )

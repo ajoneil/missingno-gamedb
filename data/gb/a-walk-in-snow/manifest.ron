@@ -6,6 +6,18 @@
         "Adventure",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-snow/A_WALK_IN_SNOW.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/a-walk-in-snow",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-snow/cover.jpg",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/a-walk-in-snow/WKighO.jpg",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "a-walk-in-snow",
-                    filename: "A_WALK_IN_SNOW.gbc",
-                ),
-                Itch(
-                    url: "https://divgv.itch.io/a-walk-in-snow",
-                ),
-            ],
-        ),
+        (),
     ],
 )

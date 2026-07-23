@@ -9,6 +9,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbhack/gbhack.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbhack",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/statico/gbhack",
             link_type: Source,
@@ -23,12 +33,6 @@
     releases: [
         (
             date: Some("2026-04-16"),
-            sources: [
-                HomebrewHub(
-                    slug: "gbhack",
-                    filename: "gbhack.gbc",
-                ),
-            ],
         ),
     ],
 )

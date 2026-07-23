@@ -2,6 +2,18 @@
     title: "Balloon Man v1.0",
     developer: Some("Johan MacLeod"),
     description: Some("Stop the balloons from hitting the spikes. This is done by moving the small bat at the top of the screen left and right, catching the balloons before they burst."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/balloon-man-v1-0/BalloonMan.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/balloon-man-v1-0",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/balloon-man-v1-0/20110402_balloon_man.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/balloon-man-v1-0/20110402_balloon_man.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "balloon-man-v1-0",
-                    filename: "BalloonMan.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

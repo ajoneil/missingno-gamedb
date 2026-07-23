@@ -2,6 +2,18 @@
     title: "Present Panic (Version 1.0)",
     developer: Some("SuperNova Software"),
     description: Some("An original free game for Game Boy and Game Boy Color. Santa\'s Elves have spread presents for all the children of the world throughout Santa\'s North Pole Complex. As Santa, it\'s up to you to find the presents and save Christmas!"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/present-panic-version-10/ppanic.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/present-panic-version-10",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/present-panic-version-10/ppanic.png",
     ],
@@ -13,12 +25,6 @@
     releases: [
         (
             date: Some("2001-07-10"),
-            sources: [
-                HomebrewHub(
-                    slug: "present-panic-version-10",
-                    filename: "ppanic.gbc",
-                ),
-            ],
         ),
     ],
 )

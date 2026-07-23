@@ -5,6 +5,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/skoardy/skoardy.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/skoardy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/skoardy/skoardy.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("1999-09-21"),
-            sources: [
-                HomebrewHub(
-                    slug: "skoardy",
-                    filename: "skoardy.gb",
-                ),
-            ],
         ),
     ],
 )

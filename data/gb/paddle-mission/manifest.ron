@@ -5,6 +5,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/paddle-mission/PaddleMission.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/paddle-mission",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/paddle-mission/20110402_paddle_mission.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/paddle-mission/20110402_paddle_mission.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "paddle-mission",
-                    filename: "PaddleMission.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

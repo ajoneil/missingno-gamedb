@@ -1,6 +1,18 @@
 (
     title: "Carillon Editor",
     description: Some("Partly PC application, but contains Gameboy binaries."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-editor/carillon.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/carillon-editor",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/carillon-editor/carillon.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2001-01-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "carillon-editor",
-                    filename: "carillon.gb",
-                ),
-            ],
         ),
     ],
 )

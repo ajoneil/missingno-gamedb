@@ -1,6 +1,18 @@
 (
     title: "Retro Gathering",
     developer: Some("Dual Crew & Shining"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/retro-gathering/dcs-rtrg.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/retro-gathering",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/retro-gathering/653.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2012-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "retro-gathering",
-                    filename: "dcs-rtrg.gbc",
-                ),
-            ],
         ),
     ],
 )

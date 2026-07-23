@@ -4,6 +4,18 @@
     tags: [
         "Puzzle",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/ropeandbombs/ropeandbombs.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/ropeandbombs",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ropeandbombs/screenshot-1.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/ropeandbombs/screenshot-2.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "ropeandbombs",
-                    filename: "ropeandbombs.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Grind Jet",
     developer: Some("voxel"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/grind-jet/grind-jet.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/grind-jet",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/grind-jet/grind-jet.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/grind-jet/grind-jet.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "grind-jet",
-                    filename: "grind-jet.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

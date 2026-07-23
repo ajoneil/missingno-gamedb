@@ -1,6 +1,18 @@
 (
     title: "Drymouth v1.0",
     developer: Some("Demiforce"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/drymouth-v1-0/Drymouth.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/drymouth-v1-0",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/drymouth-v1-0/20110402_drymouth.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/drymouth-v1-0/20110402_drymouth.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "drymouth-v1-0",
-                    filename: "Drymouth.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

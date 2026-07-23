@@ -1,6 +1,18 @@
 (
     title: "Lemon Player Demo",
     developer: Some("Lemon"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lemon-player-demo/Lemon Player Demo by Lemon Productions (PD).gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lemon-player-demo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lemon-player-demo/Lemon Player Demo by Lemon Productions (PD).png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("2000-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "lemon-player-demo",
-                    filename: "Lemon Player Demo by Lemon Productions (PD).gb",
-                ),
-            ],
         ),
     ],
 )

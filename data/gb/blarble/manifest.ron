@@ -1,6 +1,18 @@
 (
     title: "Blarble",
     developer: Some("Patchwork Games"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/blarble/blarble.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/blarble",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/blarble/blarble.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/blarble/blarble.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "blarble",
-                    filename: "blarble.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

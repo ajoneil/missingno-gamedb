@@ -5,6 +5,18 @@
         "Homebrew",
         "Open Source",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/novasquirrel_conways-life-for-game-boy/life.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/novasquirrel_conways-life-for-game-boy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/novasquirrel_conways-life-for-game-boy/cover.png",
     ],
@@ -14,16 +26,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/novasquirrel_conways-life-for-game-boy/screenshots/6eNAwT.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "novasquirrel_conways-life-for-game-boy",
-                    filename: "life.gb",
-                ),
-                Itch(
-                    url: "https://novasquirrel.itch.io/conways-life-for-game-boy",
-                ),
-            ],
-        ),
+        (),
     ],
 )

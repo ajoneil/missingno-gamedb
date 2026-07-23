@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/life-gb/life.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/life-gb",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/Brehana/LIFE_gb",
             link_type: Source,
@@ -20,13 +30,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/life-gb/splash.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "life-gb",
-                    filename: "life.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

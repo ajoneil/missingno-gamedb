@@ -2,6 +2,18 @@
     title: "Space Mission DX",
     developer: Some("Chris Nowak, Stefan Nowak"),
     description: Some("This GBC game is based upon a 1987’s(?) idea of Stefan Nowak. You must destroy all sattelites in each level with the gun of your starship, but the brakes of your starship are broken. D’oh ! So you also have to keep track of and avoid all the obstacles in the levels."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/space-mission-dx/SpaceMissionDX.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/space-mission-dx",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-mission-dx/20110402_space_mission_dx.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/space-mission-dx/20110402_space_mission_dx.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "space-mission-dx",
-                    filename: "SpaceMissionDX.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

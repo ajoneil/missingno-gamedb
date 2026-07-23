@@ -3,6 +3,16 @@
     developer: Some("All You Can Execute"),
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/turbocharged/turbocharged.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/turbocharged",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/AYCEdemo/Turbocharged",
             link_type: Source,
@@ -17,12 +27,6 @@
     releases: [
         (
             date: Some("2022-08-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "turbocharged",
-                    filename: "turbocharged.gb",
-                ),
-            ],
         ),
     ],
 )

@@ -4,6 +4,18 @@
     tags: [
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/brickster/brikster.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/brickster",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/brickster/brickster.png",
     ],
@@ -14,12 +26,6 @@
     releases: [
         (
             date: Some("1999-09-29"),
-            sources: [
-                HomebrewHub(
-                    slug: "brickster",
-                    filename: "brikster.cgb",
-                ),
-            ],
         ),
     ],
 )

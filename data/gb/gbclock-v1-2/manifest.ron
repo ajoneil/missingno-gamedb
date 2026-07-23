@@ -1,6 +1,18 @@
 (
     title: "GBClock V1.2",
     developer: Some("Jeff Frohwein"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/gbclock-v1-2/CLK.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/gbclock-v1-2",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/gbclock-v1-2/CLK-0.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1997-12-07"),
-            sources: [
-                HomebrewHub(
-                    slug: "gbclock-v1-2",
-                    filename: "CLK.GB",
-                ),
-            ],
         ),
     ],
 )

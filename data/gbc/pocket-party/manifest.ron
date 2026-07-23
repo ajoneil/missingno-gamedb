@@ -1,6 +1,18 @@
 (
     title: "Pocket Party",
     developer: Some("PoroCYon"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-party/pocket-party.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pocket-party",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-party/pocket-party.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pocket-party/pocket-party.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pocket-party",
-                    filename: "pocket-party.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Mental Respirator",
     developer: Some("Phantasy"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/pht-mr.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/mental-respirator",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/mental-respirator/123.png",
     ],
@@ -22,12 +34,6 @@
     releases: [
         (
             date: Some("2005-01-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "mental-respirator",
-                    filename: "pht-mr.gbc",
-                ),
-            ],
         ),
     ],
 )

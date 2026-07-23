@@ -5,6 +5,18 @@
         "Adventure",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/callmedj169_i-dream-of-harold-gbcompo/IDREAMOFHAROLD_jam.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/callmedj169_i-dream-of-harold-gbcompo",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/callmedj169_i-dream-of-harold-gbcompo/cover.png",
     ],
@@ -12,16 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/callmedj169_i-dream-of-harold-gbcompo/screenshots/qGWilf.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "callmedj169_i-dream-of-harold-gbcompo",
-                    filename: "IDREAMOFHAROLD_jam.gb",
-                ),
-                Itch(
-                    url: "https://callmedj169.itch.io/i-dream-of-harold-gbcompo",
-                ),
-            ],
-        ),
+        (),
     ],
 )

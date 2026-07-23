@@ -10,6 +10,18 @@
         "Simulation",
         "event:gbcompo25",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/smokingjacket_bram-stokers-renfield-simulator-2000/Bram Stoker\'s Renfield Simulator 2000 v1.0.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/smokingjacket_bram-stokers-renfield-simulator-2000",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/smokingjacket_bram-stokers-renfield-simulator-2000/cover.png",
     ],
@@ -20,16 +32,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/smokingjacket_bram-stokers-renfield-simulator-2000/screenshots/2BdjUQE.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "smokingjacket_bram-stokers-renfield-simulator-2000",
-                    filename: "Bram Stoker\'s Renfield Simulator 2000 v1.0.gbc",
-                ),
-                Itch(
-                    url: "https://smokingjacket.itch.io/bram-stokers-renfield-simulator-2000",
-                ),
-            ],
-        ),
+        (),
     ],
 )

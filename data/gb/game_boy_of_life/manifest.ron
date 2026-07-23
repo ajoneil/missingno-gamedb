@@ -8,6 +8,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/game_boy_of_life/life.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/game_boy_of_life",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/StudioGuma/game_boy_of_life",
             link_type: Source,
@@ -22,15 +32,6 @@
     releases: [
         (
             date: Some("2024-02-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "game_boy_of_life",
-                    filename: "life.gb",
-                ),
-                Itch(
-                    url: "https://studioguma.itch.io/game-boy-of-life",
-                ),
-            ],
         ),
     ],
 )

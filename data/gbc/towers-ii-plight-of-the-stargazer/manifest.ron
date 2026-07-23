@@ -2,6 +2,18 @@
     title: "Towers II: Plight of the Stargazer",
     developer: Some("JVGames"),
     description: Some("Towers II: Plight of the Stargazer. Unreleased GBC version of JV Games\' dungeon crawler from about 2000 made available by the developer in 2020. Appears to work in hardware. Second download includes some pictures, design documents and more besides."),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/towers-ii-plight-of-the-stargazer/TOWERS.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/towers-ii-plight-of-the-stargazer",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/towers-ii-plight-of-the-stargazer/TOWERS.png",
     ],
@@ -9,13 +21,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/towers-ii-plight-of-the-stargazer/TOWERS.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "towers-ii-plight-of-the-stargazer",
-                    filename: "TOWERS.GBC",
-                ),
-            ],
-        ),
+        (),
     ],
 )

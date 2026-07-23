@@ -1,6 +1,18 @@
 (
     title: "Black Jack",
     developer: Some("Unknown"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/black-jack/BlackJack.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/black-jack",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/black-jack/20110402_black_jack.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/black-jack/20110402_black_jack.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "black-jack",
-                    filename: "BlackJack.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

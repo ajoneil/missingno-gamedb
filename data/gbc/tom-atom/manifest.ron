@@ -1,6 +1,18 @@
 (
     title: "Tom Atom",
     developer: Some("Small Blue Cube"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tom-atom/tomatom.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tom-atom",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tom-atom/tomatom.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2002-12-13"),
-            sources: [
-                HomebrewHub(
-                    slug: "tom-atom",
-                    filename: "tomatom.gbc",
-                ),
-            ],
         ),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "Hicolor Animation Engine",
     developer: Some("Jeff Frohwein"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/hicolor-animation-engine/GFX.GB",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/hicolor-animation-engine",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/hicolor-animation-engine/GFX.png",
     ],
@@ -10,12 +22,6 @@
     releases: [
         (
             date: Some("1999-09-16"),
-            sources: [
-                HomebrewHub(
-                    slug: "hicolor-animation-engine",
-                    filename: "GFX.GB",
-                ),
-            ],
         ),
     ],
 )

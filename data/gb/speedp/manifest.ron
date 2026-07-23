@@ -6,6 +6,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/speedp/speedp.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/speedp",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/kldobrev/SpeedP",
             link_type: Source,
@@ -21,12 +31,6 @@
     releases: [
         (
             date: Some("2021-10-28"),
-            sources: [
-                HomebrewHub(
-                    slug: "speedp",
-                    filename: "speedp.gb",
-                ),
-            ],
         ),
     ],
 )

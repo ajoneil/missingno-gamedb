@@ -5,6 +5,18 @@
         "Action",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/alpha-wing/AlphaWing.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/alpha-wing",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/alpha-wing/20110402_alpha_wing.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/alpha-wing/20110402_alpha_wing.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "alpha-wing",
-                    filename: "AlphaWing.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

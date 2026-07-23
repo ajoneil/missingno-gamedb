@@ -18476,5 +18476,38 @@
             ],
             note: "The PROPER 12K fan re-dump (54a44dc9b2145f40bb7398e7d031ea4c8d091afe, 12288 bytes) fails to load in missingno: \"failed to construct console from media\". The retail 16K E7 dumps load and play.",
         ),
+        (
+            id: 2890,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/codebreaker",
+            ],
+            note: "Requires the Atari Keyboard Controllers (keypad) for all input — missingno has no keypad support, so the game cannot be played beyond its demo screen.",
+        ),
+        (
+            id: 2891,
+            kind: Custom,
+            subject: [
+                "vcs/commando",
+            ],
+            note: "The Edu Games 1984 release holds a TOSEC-unknown dump on an F8 (8K) board — it cannot be the 16K Activision Commando it sits beside. Atarimania documents Edu Games (Argentina) selling a pirate 2-in-1 \"Commando / Buggy\" (AED-12008); which game this dump actually contains is unestablished. Needs identification (boot it?) and probably its own entry.",
+            resolved: Some("2026-07-23"),
+        ),
+        (
+            id: 2892,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/communist-mutants-from-space",
+            ],
+            note: "Developer playtest 2026-07-23: the Supercharger dumps do not run properly in missingno (both retail and rolling-demo loads affected). Images are correct 0x2100 fastload containers matching ar.rs IMAGE_SIZE, cart_type AR staged — the file setup is right, so the Board::Ar emulation itself diverges for this title.",
+        ),
+        (
+            id: 2893,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/cookie-monster-munch",
+            ],
+            note: "Requires the Atari Kids Controller (keypad family, CX26102 series) — missingno has no keypad support, so the game cannot be played beyond attract/demo screens.",
+        ),
     ],
 )

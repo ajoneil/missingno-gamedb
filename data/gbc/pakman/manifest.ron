@@ -1,6 +1,18 @@
 (
     title: "Pakman",
     developer: Some("Rob Uttley"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/pakman/Pakman.gbc",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/pakman",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pakman/20110402_pakman.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/pakman/20110402_pakman.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "pakman",
-                    filename: "Pakman.gbc",
-                ),
-            ],
-        ),
+        (),
     ],
 )

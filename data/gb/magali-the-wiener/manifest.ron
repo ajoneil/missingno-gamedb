@@ -6,6 +6,18 @@
         "Simulation",
         "event:gbshowdown23",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/magali-the-wiener/magali-the-wiener.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/magali-the-wiener",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/magali-the-wiener/cover.png",
     ],
@@ -15,16 +27,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/magali-the-wiener/qlBUP2F.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "magali-the-wiener",
-                    filename: "magali-the-wiener.gb",
-                ),
-                Itch(
-                    url: "https://lab-bueno.itch.io/magali-the-wiener",
-                ),
-            ],
-        ),
+        (),
     ],
 )

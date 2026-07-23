@@ -6,6 +6,18 @@
         "Action",
         "event:bung-3rd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/tanks/Tanks.cgb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/tanks",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tanks/20110402_tanks.png",
     ],
@@ -13,13 +25,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/tanks/20110402_tanks.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "tanks",
-                    filename: "Tanks.cgb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

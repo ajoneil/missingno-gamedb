@@ -5,6 +5,18 @@
     tags: [
         "event:freedom-2001-gameboy-developers-competition",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/alien-planet/aplanet.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/alien-planet",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/alien-planet/alienplanet.png",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2001-09-25"),
-            sources: [
-                HomebrewHub(
-                    slug: "alien-planet",
-                    filename: "aplanet.gb",
-                ),
-            ],
         ),
     ],
 )

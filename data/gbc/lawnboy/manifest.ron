@@ -5,6 +5,18 @@
         "Adventure",
         "event:bung-2nd-coding-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/lawnboy/LAWNBOY.GBC",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/lawnboy",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lawnboy/20110402_lawnboy.png",
     ],
@@ -12,13 +24,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/lawnboy/20110402_lawnboy.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "lawnboy",
-                    filename: "LAWNBOY.GBC",
-                ),
-            ],
-        ),
+        (),
     ],
 )

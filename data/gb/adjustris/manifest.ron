@@ -7,6 +7,16 @@
     ],
     links: [
         (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/adjustris/adjustris.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/adjustris",
+            link_type: DownloadPage,
+        ),
+        (
             name: "Source Code",
             url: "https://github.com/tbsp/Adjustris",
             link_type: Source,
@@ -19,13 +29,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/adjustris/20110402_adjustris.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "adjustris",
-                    filename: "adjustris.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

@@ -1,6 +1,18 @@
 (
     title: "MERKÉN",
     developer: Some("bitnenfer"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/merken/merken.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/merken",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/merken/merken.png",
     ],
@@ -8,13 +20,6 @@
         "https://raw.githubusercontent.com/gbdev/database/master/entries/merken/merken.png",
     ],
     releases: [
-        (
-            sources: [
-                HomebrewHub(
-                    slug: "merken",
-                    filename: "merken.gb",
-                ),
-            ],
-        ),
+        (),
     ],
 )

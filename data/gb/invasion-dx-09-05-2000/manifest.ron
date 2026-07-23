@@ -6,6 +6,18 @@
         "Action",
         "event:liksang2000-compo",
     ],
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/invasion-dx-09-05-2000/invasion.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/invasion-dx-09-05-2000",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/invasion-dx-09-05-2000/20110402_invasion_dx.JPG",
     ],
@@ -15,12 +27,6 @@
     releases: [
         (
             date: Some("2000-05-09"),
-            sources: [
-                HomebrewHub(
-                    slug: "invasion-dx-09-05-2000",
-                    filename: "invasion.gb",
-                ),
-            ],
         ),
     ],
 )

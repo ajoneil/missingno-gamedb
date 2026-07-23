@@ -1,6 +1,18 @@
 (
     title: "Jetpak DX (Greek)",
     developer: Some("Gambit Studios/GreekRoms"),
+    links: [
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/jetpak-dx-gr/jetpakdx-gr.gb",
+            link_type: Download,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/games/jetpak-dx-gr",
+            link_type: DownloadPage,
+        ),
+    ],
     covers: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/jetpak-dx-gr/jetpakdx-gr-0.png",
     ],
@@ -11,12 +23,6 @@
     releases: [
         (
             date: Some("2003-03-01"),
-            sources: [
-                HomebrewHub(
-                    slug: "jetpak-dx-gr",
-                    filename: "jetpakdx-gr.gb",
-                ),
-            ],
         ),
     ],
 )
