@@ -1,6 +1,8 @@
 use std::path::Path;
 
-use missingno_gamedb::{Artifact, Game, GameBoy, GameBoyColor, Link, LinkType, Platform, Release, Sha1};
+use missingno_gamedb::{
+    Artifact, Game, GameBoy, GameBoyColor, Link, LinkType, Platform, Release, Sha1,
+};
 
 use crate::{
     legacy::{self, LegacySource},
@@ -154,7 +156,9 @@ fn run_tree<P: Platform>(
             screenshots,
             mod_of: None,
             mods: Vec::new(),
-            curated: Vec::new(),
+            curated: false,
+            adult: false,
+            recommended_by: Vec::new(),
             releases: vec![Release {
                 title: None,
                 label: None,

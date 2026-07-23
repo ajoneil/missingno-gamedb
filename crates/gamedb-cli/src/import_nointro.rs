@@ -198,7 +198,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         sha1,
                         label: None,
                         size: rom.attribute("size").and_then(|s| s.parse().ok()),
-                        }),
+                    }),
                     Err(e) => report.add("Invalid DAT sha1 skipped", format!("{name:?}: {e}")),
                 }
             }
@@ -420,7 +420,9 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
             screenshots: Vec::new(),
             mod_of: None,
             mods: Vec::new(),
-            curated: Vec::new(),
+            curated: false,
+            adult: false,
+            recommended_by: Vec::new(),
             releases,
         }
     };
@@ -525,7 +527,9 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 screenshots: game.screenshots,
                 mod_of: None,
                 mods: Vec::new(),
-                curated: Vec::new(),
+                curated: false,
+                adult: false,
+                recommended_by: Vec::new(),
                 releases: game
                     .releases
                     .into_iter()
@@ -601,7 +605,9 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     screenshots: Vec::new(),
                     mod_of: None,
                     mods: Vec::new(),
-                    curated: Vec::new(),
+                    curated: false,
+                    adult: false,
+                    recommended_by: Vec::new(),
                     releases: vec![Release {
                         title: None,
                         label: parsed.label.clone(),

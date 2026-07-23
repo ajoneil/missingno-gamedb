@@ -176,7 +176,15 @@ fn main() -> ExitCode {
                 }
             }
         }
-        Command::VerifyHashes { path, report, delay_ms, key, limit, all, cache } => {
+        Command::VerifyHashes {
+            path,
+            report,
+            delay_ms,
+            key,
+            limit,
+            all,
+            cache,
+        } => {
             if key.is_none() && limit.is_none() && !all {
                 eprintln!(
                     "refusing to sweep the whole database implicitly: pass --key <tree/slug> to \
@@ -202,7 +210,11 @@ fn main() -> ExitCode {
                         eprintln!("failed to write report: {e}");
                         return ExitCode::FAILURE;
                     }
-                    println!("{} review items \u{2192} {}", findings.item_count(), report.display());
+                    println!(
+                        "{} review items \u{2192} {}",
+                        findings.item_count(),
+                        report.display()
+                    );
                     ExitCode::SUCCESS
                 }
                 Err(e) => {

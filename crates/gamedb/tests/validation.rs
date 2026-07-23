@@ -82,9 +82,7 @@ fn unlocatable_unverifiable_release_is_an_error() {
     write_canonical::<GameBoy>(root.path(), "ghost", r#"(title: "Ghost", releases: [()])"#);
     let findings = validate(root.path()).unwrap();
     assert!(
-        findings
-            .iter()
-            .any(|f| f.message.contains("no artifacts")),
+        findings.iter().any(|f| f.message.contains("no artifacts")),
         "{findings:?}"
     );
 }

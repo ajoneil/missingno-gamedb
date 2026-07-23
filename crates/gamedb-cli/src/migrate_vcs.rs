@@ -127,7 +127,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                         sha1,
                         label: None,
                         size: None,
-                        }),
+                    }),
                     Err(e) => report.add("Invalid hashes dropped", format!("{member_slug}: {e}")),
                 }
             }
@@ -211,7 +211,9 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 screenshots: Vec::new(),
                 mod_of: None,
                 mods: Vec::new(),
-                curated: Vec::new(),
+                curated: false,
+                adult: false,
+                recommended_by: Vec::new(),
                 releases,
             },
         ));

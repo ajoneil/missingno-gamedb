@@ -6,13 +6,7 @@
 //! answer — including anything that contradicts where the hash sits. Nothing
 //! is written to the manifest: the hash is re-checkable at any time.
 
-use std::{
-    collections::BTreeMap,
-    path::Path,
-    process::Command,
-    thread::sleep,
-    time::Duration,
-};
+use std::{collections::BTreeMap, path::Path, process::Command, thread::sleep, time::Duration};
 
 use missingno_gamedb::{Game, GameBoy, GameBoyColor, Platform, Tree, Vcs};
 
@@ -212,4 +206,3 @@ fn sweep<P: Platform>(
     }
     Ok(())
 }
-

@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 use crate::{
-    ids::{Date, ReleaseDate, Sha1},
+    ids::{ReleaseDate, Sha1},
     platform::Platform,
     region::Region,
 };
@@ -42,10 +42,17 @@ pub struct Game<P: Platform> {
     /// Each is its own thing with its own versions and curation.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub mods: Vec<Mod>,
-    /// Human endorsements of this entry. Edits happen at a curator's request, so
-    /// they never clear these; only a curator retracts their own vouch.
+    /// Whether a human has reviewed this entry — the draft/non-draft line.
+    /// Edits happen at a curator's request, so they never clear it.
+    #[serde(default, skip_serializing_if = "is_default")]
+    pub curated: bool,
+    /// Sexually explicit content — lets a frontend gate or badge the entry.
+    #[serde(default, skip_serializing_if = "is_default")]
+    pub adult: bool,
+    /// Editor's-choice highlights, by curator identifier ("andy"), not
+    /// display name; presentation is the frontend's decision.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub curated: Vec<Curation>,
+    pub recommended_by: Vec<String>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub releases: Vec<Release<P>>,
 }
@@ -62,17 +69,6 @@ impl<P: Platform> Game<P> {
         text.push('\n');
         Ok(text)
     }
-}
-
-/// One curator's endorsement of an entry.
-#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
-#[serde(deny_unknown_fields)]
-pub struct Curation {
-    pub by: String,
-    pub date: Date,
-    /// An editor's-choice highlight, not just a correctness vouch.
-    #[serde(default, skip_serializing_if = "is_default")]
-    pub recommended: bool,
 }
 
 /// What kind of work this entry is. `Demo` is a playable preview of a game
@@ -187,8 +183,10 @@ pub struct Mod {
     pub links: Vec<Link>,
     /// Independently of the game: curating a game does not vouch for its
     /// mods, and a mod can earn its own recommendation.
+    #[serde(default, skip_serializing_if = "is_default")]
+    pub curated: bool,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub curated: Vec<Curation>,
+    pub recommended_by: Vec<String>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub releases: Vec<ModRelease>,
 }
