@@ -1,9 +1,30 @@
 (
     title: "Fast Eddie",
+    developer: Some("Mark Turmell (Sirius Software)"),
+    description: Some("Eddie sprints and leaps through a four-storey building of ladders and platforms, grabbing prizes while the marching Sneakers patrol every floor. Nine prizes arm the finale: vault the giant High-Top guarding the top floor to take the last one and start over faster. Eight variations tune the chase — an early credit from Mark Turmell, who went on to make NBA Jam."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fast_eddie.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Fast_Eddie_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/162223A49F20B76805A1C45287E6D779B351267D",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
-            publisher: Some("Activision"),
+            publisher: Some("20th Century Fox Video Games"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -11,6 +32,7 @@
             artifacts: [
                 (
                     sha1: "664b1d3c86dcd3005e7d02f00949a37f16ee437f",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "a5614c751f29118ddb3dec9794612b98a0f00b98",
@@ -18,8 +40,38 @@
                 (
                     sha1: "a623895764658efede234ae9134eea6aae638513",
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "b3b30de820b85e454a1510c60cadb30511b655f7",
+                ),
+            ],
+        ),
+        (
+            title: Some("Der moderne Ritter - Mr. T"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0a24059914ac078caee857219555ae25905447d4",
+                    label: Some("6-byte PAL patch of the NTSC ROM"),
                 ),
             ],
         ),

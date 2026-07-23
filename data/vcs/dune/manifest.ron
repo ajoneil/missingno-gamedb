@@ -1,5 +1,15 @@
 (
     title: "Dune",
+    developer: Some("Bruce Poehlman, Gary Stark"),
+    description: Some("A very early demo of the 1984 film tie-in, abandoned when Jack Tramiel\'s takeover ended 2600 development: Paul Atreides — a square, in the Adventure mould — collects tools against Baron Harkonnen to free Arrakis. The room-structure code was never written, so the surviving build wanders a multicoloured test maze instead of a desert."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/dune/dune.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1984"),
@@ -12,6 +22,7 @@
             artifacts: [
                 (
                     sha1: "5e2b2d07dba3692db0ec0582b0a2cb4c2b6ad31f",
+                    label: Some("07-10-1984 early demo"),
                 ),
             ],
         ),

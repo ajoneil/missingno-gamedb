@@ -1,0 +1,55 @@
+(
+    title: "Double Dunk",
+    developer: Some("Matthew Hubbard"),
+    description: Some("Two-on-two half-court basketball with a play-calling layer: before every possession both sides pick a play — pick-and-roll, give-and-go, or just clear out and drive — then execute it live. Optional referees enforce fouls and the three-second lane. One of Atari\'s very last 2600 releases, from Dolphin\'s programmer."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Double_Dunk",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/double_dunk.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DCDBBC67E7F84AA5A8D09E1E8296D505F9571D6A",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8e2ea320b23994dc87abe69d61249489f3a0fccc",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "78bba6d28b86f5ec080a6eae17d20ee5b25d63d7",
+                ),
+            ],
+        ),
+    ],
+)

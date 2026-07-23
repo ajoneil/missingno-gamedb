@@ -1,0 +1,71 @@
+(
+    title: "Dukes of Hazzard",
+    developer: Some("Mark R. Hahn"),
+    description: Some("Atari\'s twice-attempted, never-released TV tie-in. The 1983 version (CX2678) is an overhead driving game by Mark Hahn of Atari\'s New York group — cancelled so abruptly that production ROM chips had already been burned, which its programmer still finds mysterious. The entry also holds the unrelated 1980 first attempt, built on Stunt Cycle\'s bones. General Lee never shipped either way."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/dukes/dukes.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Hidden Palace",
+            url: "https://hiddenpalace.org/Dukes_of_Hazzard_(prototype)",
+            link_type: Community,
+        ),
+    ],
+    mods: [
+        (
+            name: "Better Dukes of Hazzard",
+            category: ContentChange,
+            author: Some("OutofGas"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("c061d753435dcb7275a8764f4ad003b05fa100ed"),
+                    artifacts: [
+                        (
+                            sha1: "c4fbc23d5ea5b95899af83837dedac3aa73d7381",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c061d753435dcb7275a8764f4ad003b05fa100ed",
+                ),
+            ],
+        ),
+        (
+            label: Some("Stunt Cycle version"),
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9caf114c9582d5e0c14396b13d2bd1a89cad90b1",
+                ),
+                (
+                    sha1: "5da98e39d2ce2dbf889e770e963e531ac9098df0",
+                    label: Some("alt [a] (2K)"),
+                ),
+            ],
+        ),
+    ],
+)

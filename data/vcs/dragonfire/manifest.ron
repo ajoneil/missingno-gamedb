@@ -1,7 +1,25 @@
 (
     title: "Dragonfire",
+    developer: Some("Bob Smith"),
+    description: Some("Two screens alternate per level: a side-view sprint across the drawbridge, ducking high fireballs and hopping low ones, then a top-down treasure hall where a dragon patrols the doorway spitting fire as you sweep up the hoard. Both you and the fireballs get faster each level; seven lives stand between the prince and a very warm end. Arkie Certificate of Merit for its audio-visual effects."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dragonfire_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B9EBA51AF8AB972415FB2C164B516B57C38D6129",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-05-21"),
+            publisher: Some("Imagic"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -19,6 +37,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             hardware: (
@@ -34,6 +55,7 @@
                 ),
                 (
                     sha1: "de33eecf30e39c5a68db9afc3c866a35cc739ca1",
+                    label: Some("pirate [p]"),
                 ),
             ],
         ),

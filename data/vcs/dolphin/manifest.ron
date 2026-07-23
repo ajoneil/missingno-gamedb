@@ -1,7 +1,28 @@
 (
     title: "Dolphin",
+    developer: Some("Matthew Hubbard"),
+    description: Some("A dolphin flees a giant squid through walls of seahorses, and your ears are the map: its sonar pings high when the gap is near the surface, low when it\'s along the seafloor. Currents speed and slow the chase, and brushing the seagull overhead turns the tables with a burst of invincibility. Won 1984\'s Electronic Games award for audio-visual effects — echolocation as game design."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dolphin_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dolphin.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3D8D3E59DE7E70168259EA44A8AF0D5CA45B562C",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
             publisher: Some("CCE"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -11,21 +32,25 @@
                 (
                     sha1: "7b34f31992da460e2c741245add5f7f19db60a04",
                 ),
-                (
-                    sha1: "e3985d759f8a8f4705f543ce7eb5e93bf63722b5",
-                ),
             ],
         ),
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05"),
             publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
+                cart_type: Some("4K"),
             ),
             artifacts: [
                 (
                     sha1: "8a38052b884edd6fb9522a9aa590d099efd9548e",
+                ),
+                (
+                    sha1: "e3985d759f8a8f4705f543ce7eb5e93bf63722b5",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

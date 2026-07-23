@@ -1,7 +1,45 @@
 (
     title: "Donkey Kong",
+    developer: Some("Garry Kitchen"),
+    description: Some("Coleco\'s famous port of the arcade barrel-jumper, squeezed into 4K by Garry Kitchen — who cut two of the four arcade levels to fit and shipped after 72 sleepless hours. What survived is the barrels screen and the rivets screen: climb, hop the rolling barrels, knock the rivets out from under Kong, rescue the girl, repeat faster. Critics grumbled; four million cartridges sold anyway."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Donkey_Kong_(arcade)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/donkey_kong.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3FF45AA03D5DB328FB6FBE8EC412324EFD6459B2",
+    ],
+    mods: [
+        (
+            name: "Unnamed Supercharger fix of Donkey Kong",
+            category: Compatibility,
+            author: Some("Nukey Shay"),
+            releases: [
+                (
+                    base_sha1: Some("6e6e37ec8d66aea1c13ed444863e3db91497aa35"),
+                    artifacts: [
+                        (
+                            sha1: "46f9804d660dcf636a9192ac3ed446cf7e4cd974",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Coleco"),
             hardware: (
@@ -9,9 +47,6 @@
                 cart_type: Some("4K"),
             ),
             artifacts: [
-                (
-                    sha1: "46f9804d660dcf636a9192ac3ed446cf7e4cd974",
-                ),
                 (
                     sha1: "6e6e37ec8d66aea1c13ed444863e3db91497aa35",
                 ),
@@ -27,6 +62,9 @@
             ],
         ),
         (
+            regions: [
+                France,
+            ],
             date: Some("1983"),
             publisher: Some("Pet Boat"),
             hardware: (
@@ -37,11 +75,43 @@
                 (
                     sha1: "44914e6b410837c42d5c45589527360ab0d367c2",
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "48523b5e33aaa5ecda88fa0a7057512c658fcc03",
+                    label: Some("alt [a]"),
                 ),
                 (
+                    sha1: "359e662da02bf0a2184472e25d05bc597b6c497a",
+                    label: Some("alt [a1]"),
+                ),
+                (
+                    sha1: "c946af787c7398b916f62aa8bc95abb0521c9c4b",
+                    label: Some("alt [a2]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
                     sha1: "58c4ddd4aa5466b6885c5410717e564d71ff29d8",
+                    label: Some("208-in-1 multicart extract"),
                 ),
             ],
         ),

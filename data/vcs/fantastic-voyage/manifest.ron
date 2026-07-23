@@ -1,8 +1,29 @@
 (
     title: "Fantastic Voyage",
+    developer: Some("David Lubar (Sirius Software)"),
+    description: Some("Fox\'s tie-in to the 1966 film: a miniaturised submarine runs a patient\'s bloodstream toward a clot, lasering enzymes and dodging the indestructible blood cells in the way — fifteen clean hits on the clot win the operation. A timer and a beating heart-monitor track the patient fading while you work."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Fantastic_Voyage_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fantastic_voyage.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/20D0F2ACCC3179A724A5B16E98A134275C7D90CD",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1982"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-12"),
             publisher: Some("20th Century Fox Video Games"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -21,6 +42,7 @@
             ],
         ),
         (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -28,6 +50,7 @@
             artifacts: [
                 (
                     sha1: "5d84b54f672b92f870985277d6ea0ac9c1f6e9f5",
+                    label: Some("208-in-1 multicart extract"),
                 ),
                 (
                     sha1: "b9b896d353b9e0fb39896cc483d9f3a26d5e4c13",

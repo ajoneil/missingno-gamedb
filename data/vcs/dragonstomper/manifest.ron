@@ -1,0 +1,97 @@
+(
+    title: "Dragonstomper",
+    developer: Some("Stephen Landrum"),
+    description: Some("The 2600\'s only true RPG, streamed in three tape loads: level up your adventurer against the Enchanted Countryside\'s monsters, spend the loot in the Oppressed Village on equipment and hired soldiers, then take everything into the Dragon\'s Cave for the finale. Stats, inventory, shops and hirelings on a console that shipped with 128 bytes of RAM — 1983\'s Adventure Game of the Year, begun under the working title Excalibur."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dragonstomper",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dragonstomper.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BF0C73B98F1D86B368A9789341BFB148E70B49FD",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Starpath"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f00e06ae2f42e59637d73b37b9ccc3b130ede13",
+                    label: Some("Part 2 of 3"),
+                ),
+                (
+                    sha1: "9283e892dca1ad463443d347c99826bd623e0fdc",
+                    label: Some("Part 1 of 3"),
+                ),
+                (
+                    sha1: "aa63009fb7dc4ece8cda3078d37f4e93b326c4df",
+                    label: Some("Preview [a]"),
+                ),
+                (
+                    sha1: "b463d3da55cfa27c4f75550afcd07bcf28683d26",
+                    label: Some("Part 3 of 3"),
+                ),
+                (
+                    sha1: "d0777b4572903756c25559538ecde1a301a0b003",
+                    label: Some("combined image"),
+                ),
+                (
+                    sha1: "586dca0ac896a02195a8dcbaf82da597c40f776e",
+                    label: Some("Part 1 of 3 alt [a]"),
+                ),
+                (
+                    sha1: "f909013e1b6edc24389cdf315fde515cfb4d37df",
+                    label: Some("combined image alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Starpath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0450f52c501c1018c7f2b8d6f18767daf17bdadc",
+                    label: Some("Part 3 of 3"),
+                ),
+                (
+                    sha1: "0f4bed960092061a5e3a8a118118793b16b902b4",
+                    label: Some("Part 1 of 3"),
+                ),
+                (
+                    sha1: "56944147fd494f8734460a89925cd945c1c7c5a5",
+                    label: Some("combined image"),
+                ),
+                (
+                    sha1: "6080703b9f16357e581be69a6154ac7186a91fac",
+                    label: Some("Part 2 of 3"),
+                ),
+                (
+                    sha1: "7a893558f01e21b4708622cbc4b4db30c849acc6",
+                    label: Some("Preview"),
+                ),
+            ],
+        ),
+    ],
+)

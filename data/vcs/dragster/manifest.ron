@@ -1,7 +1,28 @@
 (
     title: "Dragster",
+    developer: Some("David Crane"),
+    description: Some("Activision\'s very first cartridge: a drag race measured in hundredths, over in under six seconds. Rev on the countdown without popping the clutch early, then snap through four gears — mistime a shift and the engine blows in a cloud of smoke. The perfect run is 5.57 seconds, a figure that eventually unseated a 35-year-old fraudulent 5.51 \'world record\' and its holder. Two lanes, so a second player can blow an engine right beside you."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dragster.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dragster_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/83A5CEC943CE1D72DE665756E5994971C2B5E2C7",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1980"),
             publisher: Some("Activision"),
             hardware: (
@@ -10,39 +31,48 @@
             ),
             artifacts: [
                 (
-                    sha1: "5a1113b39547954a8b2cf15258a5a52612fefb69",
-                ),
-                (
                     sha1: "944c52de85464070a946813b050518977750e939",
                 ),
-            ],
-        ),
-        (
-            date: Some("1980"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "a3ad9e4b84f3a6dbfc027a3a6c26911ad8908861",
+                    label: Some("overdump [o]"),
                 ),
                 (
-                    sha1: "bdad08932fd44d4bb61186cd1b7f61dbf5ea3d0f",
+                    sha1: "9811a250185b8ea57b2960af8eb370eeff72287c",
+                    label: Some("overdump [o][a]"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1980"),
             publisher: Some("Activision"),
             hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
             ),
             artifacts: [
                 (
-                    sha1: "9811a250185b8ea57b2960af8eb370eeff72287c",
+                    sha1: "bdad08932fd44d4bb61186cd1b7f61dbf5ea3d0f",
+                    label: Some("overdump [o][a]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("Screen Search Console"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Jone Yuan Telephonic Enterprise"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5a1113b39547954a8b2cf15258a5a52612fefb69",
                 ),
             ],
         ),

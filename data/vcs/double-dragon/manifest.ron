@@ -1,7 +1,44 @@
 (
     title: "Double Dragon",
+    developer: Some("Dan Kitchen"),
+    description: Some("Activision\'s 1989 brawler port, arriving as the 2600 wound down: Billy fights through the Black Warriors\' turf with punches, kicks and elbows to bring Marian home. It sold nearly half a million carts late in the console\'s life — and earned a reputation as one of the hardest games on the system, a difficulty period reviewers called beyond anything else on the 2600."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Double_Dragon_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/double_dragon.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D3E070F8B5771C05BB7E561DEA30E20EED8997B5",
+    ],
+    mods: [
+        (
+            name: "Unnamed hack of Double Dragon",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("251e02ac583d84eb43f1451d55b62c7c70e9644f"),
+                    artifacts: [
+                        (
+                            sha1: "cc99dba0a78fedd171387f492e9810f3037a5f05",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1989"),
             publisher: Some("Activision"),
             hardware: (
@@ -10,11 +47,14 @@
             ),
             artifacts: [
                 (
-                    sha1: "cc99dba0a78fedd171387f492e9810f3037a5f05",
+                    sha1: "251e02ac583d84eb43f1451d55b62c7c70e9644f",
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1989"),
             publisher: Some("Activision"),
             hardware: (
@@ -25,6 +65,18 @@
                 (
                     sha1: "3f482acc1914c6bc92fd1fd823d6ed10c7ca65a8",
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
                 (
                     sha1: "fc334fede2eb506a6c5b557e0109cd61f7a30919",
                 ),

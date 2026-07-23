@@ -46,6 +46,34 @@
                 ),
             ],
         ),
+        (
+            name: "Tom Boy",
+            category: ContentChange,
+            author: Some("Suntek"),
+            releases: [
+                (
+                    base_sha1: Some("8d525480445d48cc48460dc666ebad78c8fb7b73"),
+                    artifacts: [
+                        (
+                            sha1: "396a96c91c0992f8726933766099a3f2c0669b31",
+                        ),
+                        (
+                            sha1: "fd68866b59bc9ff2fdeba0cb92012bfcc044de32",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Dschungle Boy (Starsoft, DE)"),
+                    base_sha1: Some("8d525480445d48cc48460dc666ebad78c8fb7b73"),
+                    artifacts: [
+                        (
+                            sha1: "f536dea39f64d1fd72e4ee0a98394eda39ddc3da",
+                        ),
+                    ],
+                ),
+            ],
+        ),
     ],
     curated: true,
     recommended_by: [

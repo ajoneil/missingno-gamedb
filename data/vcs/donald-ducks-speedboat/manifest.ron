@@ -1,0 +1,53 @@
+(
+    title: "Donald Duck\'s Speedboat",
+    developer: Some("Suki Lee, Dave Joly"),
+    description: Some("Atari\'s cancelled Disney tie-in, finished enough to appear boxed in European catalogues for a September 1983 release that never came: Donald races his speedboat through rocks, whirlpools and water hazards against the clock, and his nephews grade the run with a bronze, silver or gold cup. Two builds survive, six days apart, from when the game was still tentatively Donald Duck\'s Regatta."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/donaldduck/donaldduck.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Hidden Palace",
+            url: "https://hiddenpalace.org/Donald_Duck%27s_Speedboat_(Apr_12,_1983_prototype)",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Donald%20Duck%27s%20Speedboat%20(USA)%20(Proto).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4606c0751f560200aede6598ec9c8e6249a105f5",
+                    label: Some("04-12-1983 build"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b496e540dbc84b19185e2e597d559868cb1b10bc",
+                    label: Some("PAL 04-18-1983 build"),
+                ),
+            ],
+        ),
+    ],
+)

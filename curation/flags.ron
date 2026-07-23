@@ -18525,5 +18525,13 @@
             ],
             note: "Multiload Supercharger game cannot be played: the combined image (33792 bytes = 4 concatenated 8448-byte loads) is rejected at load (\"failed to construct console from media\") because the AR board accepts exactly one 8448-byte fastload image (ar::IMAGE_SIZE 0x2100). Single-part dumps construct, but the game requests further tape loads between levels and no multiload/tape-swap mechanism exists, so progression past each load boundary is impossible.",
         ),
+        (
+            id: 2896,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/dragonstomper",
+            ],
+            note: "Multiload Supercharger game cannot be played: the combined three-load image is rejected at load (AR board accepts exactly one 8448-byte fastload image; no multiload/tape-swap mechanism), confirmed in playtest. Single parts construct but cannot progress past their load boundary. Same gap as flag #2895 (Escape from the Mindmaster).",
+        ),
     ],
 )

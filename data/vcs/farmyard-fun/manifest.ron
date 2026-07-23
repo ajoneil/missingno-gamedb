@@ -1,19 +1,38 @@
 (
     title: "Farmyard Fun",
+    description: Some("Tom the egg thief works his way around the farmyard pinching every egg in sight while the hens patrol — one peck and he\'s done. Clear the yard and the eggs re-scatter with faster, cannier hens. A European-only release from Taiwan\'s Suntek, also sold as Play Farm on Ariola\'s generic-looking carts."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/pgesoft.awp?version=32955",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/86CE2D7A9FB60632E6EABEE941D62D56C10BDFDA",
+    ],
+    curated: true,
     releases: [
         (
-            publisher: Some("Video Game Cartridge"),
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Telegames"),
             hardware: (
-                tv_format: Some(Ntsc),
+                tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
                     sha1: "63a24d4f86529974ee38f0e3bd6602470835c993",
+                    label: Some("bad [b]"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Suntek"),
             hardware: (

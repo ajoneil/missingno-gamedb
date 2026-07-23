@@ -1,9 +1,45 @@
 (
     title: "Donkey Kong Junior",
+    description: Some("The tables turned: Mario has caged Papa Kong, and Junior climbs through vine-and-chain screens to spring him — sliding down single vines fast, climbing doubles quick, dodging the snapping Snapjaws and pushing fruit onto their heads. The port carries the arcade\'s climb toward the key screens where Junior shoves the locks loose one by one."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Donkey_Kong_Jr.",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/donkey_kong_jr.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/59077A3424787A3C64D5FBF31A541F690E2C868F",
+    ],
+    mods: [
+        (
+            name: "Unnamed hack of Donkey Kong Junior",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("98f98ac0728c68de66afda6500cafbdffe8ab50a"),
+                    artifacts: [
+                        (
+                            sha1: "f2e1d93b994911f815a38bda5fed8d9796ef4fda",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1987"),
-            publisher: Some("Atari"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
@@ -12,12 +48,12 @@
                 (
                     sha1: "98f98ac0728c68de66afda6500cafbdffe8ab50a",
                 ),
-                (
-                    sha1: "f2e1d93b994911f815a38bda5fed8d9796ef4fda",
-                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("CBS Electronics"),
             hardware: (

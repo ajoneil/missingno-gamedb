@@ -1,20 +1,40 @@
 (
     title: "Dragon Defender",
-    releases: [
+    description: Some("You are the dragon, holding a mountain pass with your breath weapon against waves pouring in from the right: ramming ball-creatures, saucers that take four hits and shrink with each one, and a crawler sneaking along the valley floor that must be bombed. Another Taiwanese PAL exclusive sold under Suntek and Ariola/Rainbow Vision labels — repetitive by period consensus, with ten thousand points as the finish line."),
+    links: [
         (
-            date: Some("2001"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-dragon-defender_16419.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/25C03D6C7BEA9EB84CE587E2F084DFB5FCE4D30B",
+    ],
+    mods: [
+        (
+            name: "Unnamed NTSC conversion of Dragon Defender",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "64b85f9845e5097ec4d06847cbfbc9e0e371e3ce",
+                    date: Some("2001"),
+                    base_sha1: Some("e474ad1864df56750ded71e9e457051eabfb03ee"),
+                    artifacts: [
+                        (
+                            sha1: "64b85f9845e5097ec4d06847cbfbc9e0e371e3ce",
+                        ),
+                    ],
                 ),
             ],
         ),
+    ],
+    curated: true,
+    releases: [
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Suntek"),
             hardware: (
@@ -27,6 +47,7 @@
                 ),
                 (
                     sha1: "e474ad1864df56750ded71e9e457051eabfb03ee",
+                    label: Some("Ariola/Rainbow Vision"),
                 ),
             ],
         ),

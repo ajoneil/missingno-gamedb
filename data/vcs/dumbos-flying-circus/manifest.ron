@@ -1,0 +1,51 @@
+(
+    title: "Dumbo\'s Flying Circus",
+    developer: Some("Peter Niday, Jerome Domurat"),
+    description: Some("Dumbo swoops around the big top catching balloons and shooting the dangerous ones down with thrown peanuts — bomb balloons must be popped at range, clown balloons popped and their riders caught as they fall, while every escapee lowers the tent ceiling on you. Announced as Dumbo Flies Home and advertised in European catalogues with packaging prepared for an October 1983 release, but never shipped."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/dumbo/dumbo.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7fc8e19365b6c49037a8e447c2cbffc74a486ea8",
+                ),
+                (
+                    sha1: "fa8b32359035c51df9baca2881582bb09ab4a3d4",
+                    label: Some("04-04-1983 build"),
+                ),
+            ],
+        ),
+        (
+            label: Some("PAL 07-11-1983 build"),
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "97be2338afd40e9092de374ca86a754046dad556",
+                ),
+                (
+                    sha1: "d16eba13ab1313f375e86b488181567f846f1dc4",
+                ),
+            ],
+        ),
+    ],
+)
