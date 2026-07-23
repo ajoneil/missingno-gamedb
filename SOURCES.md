@@ -4,8 +4,22 @@ Where the facts in this database come from, per tree, and which sources answer
 which fields. A staged fact should carry the page that backed it as a `links`
 entry, so the receipt lives in the manifest rather than in someone's memory.
 
+**Never construct a URL on any of these sites — not a page, not a listing, not
+an index.** Every URL you fetch must come from somewhere: a search result, a
+link read off a page you already fetched, or a filename convention this file
+explicitly documents as constructible (libretro's No-Intro-named thumbnails are
+the only current one). A guessed URL that 404s pollutes the site's logs like a
+probe, and a guessed URL that *resolves* is worse — you may be reading the
+wrong page while believing you searched. Reach a site through its search box,
+a web search, or its index pages, and read the real `href`.
+
 Add to this file when a source proves itself — it is the durable home for
 per-system cataloguing knowledge.
+
+**No Internet Archive links in the database for now** (Andrew, 2026-07-23):
+the legality of linking archive.org items is undecided. Reading IA — Wayback
+copies of blocked pages, item metadata for research — stays fine; what's out
+is `archive.org` URLs in `links`. Revisit when the policy is settled.
 
 ## Dump identity, every tree
 
@@ -15,8 +29,11 @@ original from a hack, a bad dump, or a prototype, so it is the first question to
 ask about any artifact:
 
 ```
-gamedb verify-hashes --key <tree>/<slug>    # asks per hash, records the answer
+gamedb verify-hashes --key <tree>/<slug>    # asks per hash, reports the answer
 ```
+
+The answer is reported, never stored: a hash is re-checkable at any time, so
+the manifest carries no verification evidence.
 
 Ask it per entry, as part of curating that entry — never sweep the database.
 
@@ -35,7 +52,7 @@ conflict to report, not a licence to restage the date.
 
 | Tree | Source | Good for | Notes |
 |------|--------|----------|-------|
-| vcs | [Atarimania](https://www.atarimania.com) | publisher, **country**, year, model/reference number | The first stop once a dump is identified. Covers the obscure regional reissues (CCE, Genus, Dynacom, Funvision) that encyclopaedias omit entirely. Search by title rather than guessing numeric page ids; robots.txt is empty, so ordinary reading is permitted. |
+| vcs | [Atarimania](https://www.atarimania.com) | publisher, **country**, year, model/reference number | The first stop once a dump is identified. Covers the obscure regional reissues (CCE, Genus, Dynacom, Funvision) that encyclopaedias omit entirely. **No constructed URLs of any kind** — page ids are numeric and the listing-page naming is irregular, so reach a game page only via a web search or the site's own search; robots.txt is empty, so ordinary reading is permitted. |
 | vcs | AtariAge | — | **Behind a Cloudflare challenge.** Treat as blocked: note the gap rather than working around it. |
 | vcs | Stella's properties database | board/cart type when a playtest boots wrong | The board drives the emulator, so a garbled VCS playtest makes `cart_type` the first suspect. |
 | vcs | [Atari Compendium manual archive](https://www.ataricompendium.com/archives/manuals/vcs/vcs_manuals.html) | scanned game manuals (`Manual` link) | ~1000 static PDFs hosted on-site. **Get the exact filename from the index page — never guess a slug.** The filenames are unpredictable (`3dtictactoe.pdf`, not `3-d_tic-tac-toe.pdf`): WebFetch the index and read the `href`. Sears-branded scans are separate files (`…-sears.pdf`) for the Sears reissue. |
@@ -63,8 +80,8 @@ dump actually meant: a hack's record carries the hack's art.
 3. Homebrew and demoscene: the project's own canonical host (GitHub raw URLs, the
    pouet prod page).
 
-Never store-CDN URLs (itch/Steam image links churn) — a store page belongs in
-`sources`, not `covers`.
+Never store-CDN URLs (itch/Steam image links churn) — a store page belongs as a
+`DownloadPage` link, not in `covers`.
 
 ## Licensing
 

@@ -2,9 +2,9 @@
 //!
 //! An entry's artifacts are a claim — that these hashes are dumps of this
 //! game. Nothing re-checks that claim after import, so a hack filed as an
-//! original stays filed as one. This asks Hasheous per hash and records the
-//! answer as evidence on the artifact, reporting anything that contradicts
-//! where the hash sits.
+//! original stays filed as one. This asks Hasheous per hash and reports the
+//! answer — including anything that contradicts where the hash sits. Nothing
+//! is written to the manifest: the hash is re-checkable at any time.
 
 use std::{
     collections::BTreeMap,
@@ -14,13 +14,10 @@ use std::{
     time::Duration,
 };
 
-use missingno_gamedb::{
-    Game, GameBoy, GameBoyColor, Platform, Tree, Vcs, Verification, VerificationMethod,
-};
+use missingno_gamedb::{Game, GameBoy, GameBoyColor, Platform, Tree, Vcs};
 
-use crate::{report::Report, tree};
+use crate::report::Report;
 
-const DATABASE: &str = "Hasheous";
 const ENDPOINT: &str = "https://hasheous.org/api/v1/Lookup/ByHash/sha1";
 
 #[derive(Default)]
@@ -37,7 +34,6 @@ pub struct Options {
     /// Restrict the sweep to one `tree/slug`.
     pub key: Option<String>,
     pub limit: Option<usize>,
-    pub dry_run: bool,
     pub cache_path: std::path::PathBuf,
 }
 
@@ -145,8 +141,7 @@ fn sweep<P: Platform>(
         {
             continue;
         }
-        let mut game: Game<P> = entry.game;
-        let mut changed = false;
+        let game: Game<P> = entry.game;
 
         let hashes: Vec<String> = game
             .releases
@@ -209,55 +204,12 @@ fn sweep<P: Platform>(
             }
 
             stats.confirmed += 1;
-            if record(&mut game, &sha1, &signature) {
-                changed = true;
-            }
-        }
-
-        if changed && !options.dry_run {
-            tree::write_game(db_root, &slug, &game).map_err(|e| e.to_string())?;
+            report.add(
+                "Confirmed by the signature database",
+                format!("{}/{slug}: {sha1} is {signature:?}", P::DIR),
+            );
         }
     }
     Ok(())
 }
 
-/// Attach the signature as evidence, replacing an earlier answer from the same
-/// database rather than stacking duplicates. Returns whether anything changed.
-fn record<P: Platform>(game: &mut Game<P>, sha1: &str, signature: &str) -> bool {
-    let evidence = Verification {
-        method: VerificationMethod::Signature {
-            database: DATABASE.to_owned(),
-            entry: signature.to_owned(),
-        },
-        date: today(),
-    };
-    for release in &mut game.releases {
-        for artifact in &mut release.artifacts {
-            if artifact.sha1.as_str() != sha1 {
-                continue;
-            }
-            let existing = artifact.verified.iter_mut().find(|v| {
-                matches!(&v.method, VerificationMethod::Signature { database, .. }
-                    if database == DATABASE)
-            });
-            match existing {
-                Some(slot) if *slot == evidence => return false,
-                Some(slot) => *slot = evidence,
-                None => artifact.verified.push(evidence),
-            }
-            return true;
-        }
-    }
-    false
-}
-
-fn today() -> missingno_gamedb::Date {
-    let output = Command::new("date")
-        .args(["-u", "+%Y-%m-%d"])
-        .output()
-        .expect("date is available");
-    String::from_utf8_lossy(&output.stdout)
-        .trim()
-        .parse()
-        .expect("date -I is YYYY-MM-DD")
-}

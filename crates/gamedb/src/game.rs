@@ -4,7 +4,6 @@ use crate::{
     ids::{Date, ReleaseDate, Sha1},
     platform::Platform,
     region::Region,
-    source::Source,
 };
 
 pub(crate) fn is_default<T: Default + PartialEq>(value: &T) -> bool {
@@ -77,13 +76,15 @@ pub struct Curation {
 }
 
 /// What kind of work this entry is. `Demo` is a playable preview of a game
-/// (kiosk/sample carts); `Demoscene` is a scene production in its own right.
+/// (kiosk/sample carts); `Demoscene` is a scene production in its own right;
+/// `Test` is a diagnostic or calibration utility (pattern generators, test carts).
 #[derive(Serialize, Deserialize, Default, Clone, Copy, PartialEq, Eq, Debug)]
 pub enum GameKind {
     #[default]
     Game,
     Demo,
     Demoscene,
+    Test,
 }
 
 /// A concrete published form of a game: region, revision, hardware variant.
@@ -107,8 +108,6 @@ pub struct Release<P: Platform> {
     pub status: ReleaseStatus,
     #[serde(default, skip_serializing_if = "is_default")]
     pub hardware: P::ReleaseHardware,
-    #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub sources: Vec<Source>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub artifacts: Vec<Artifact>,
 }
@@ -136,31 +135,6 @@ pub struct Artifact {
     pub label: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub size: Option<u64>,
-    /// Evidence that this dump is what the entry says it is. Unlike `curated`,
-    /// editing the entry never clears these: they are facts about a hash, and
-    /// the hash is the identity.
-    #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub verified: Vec<Verification>,
-}
-
-/// One check that a dump belongs where it sits, carrying how it was checked.
-/// A signature match and a playtest prove different things, so both can apply.
-#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
-#[serde(deny_unknown_fields)]
-pub struct Verification {
-    pub method: VerificationMethod,
-    pub date: Date,
-}
-
-#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
-pub enum VerificationMethod {
-    /// A signature database recognised the hash. `entry` is the name it
-    /// returned — the evidence itself, and what distinguishes an original
-    /// from a hack that hashes fine.
-    Signature { database: String, entry: String },
-    /// A human ran this exact dump and saw the game behave. Catches what no
-    /// signature database knows; proves less about which dump is canonical.
-    Playtest { by: String },
 }
 
 #[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
@@ -233,8 +207,7 @@ pub struct ModRelease {
     pub base_sha1: Option<Sha1>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub patch: Option<Patch>,
-    #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub sources: Vec<Source>,
+
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub artifacts: Vec<Artifact>,
 }

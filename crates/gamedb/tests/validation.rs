@@ -84,7 +84,7 @@ fn unlocatable_unverifiable_release_is_an_error() {
     assert!(
         findings
             .iter()
-            .any(|f| f.message.contains("no sources and no artifacts")),
+            .any(|f| f.message.contains("no artifacts")),
         "{findings:?}"
     );
 }
@@ -126,7 +126,7 @@ fn unresolved_mod_base_is_a_warning() {
                 patch: Some((format: Ips, sha1: "0123456789abcdef0123456789abcdef01234567")),
             )),
             releases: [
-                (sources: [Download(url: "https://example.org/patch.ips")]),
+                (artifacts: [(sha1: "cccccccccccccccccccccccccccccccccccccccc")]),
             ],
         )"#,
     );

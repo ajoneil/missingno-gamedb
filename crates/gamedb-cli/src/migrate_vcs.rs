@@ -127,8 +127,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                         sha1,
                         label: None,
                         size: None,
-                        verified: Vec::new(),
-                    }),
+                        }),
                     Err(e) => report.add("Invalid hashes dropped", format!("{member_slug}: {e}")),
                 }
             }
@@ -153,8 +152,8 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 hardware: VcsHardware {
                     tv_format: m.tv_format,
                     cart_type: m.cart_type.clone(),
+                    controllers: Vec::new(),
                 },
-                sources: Vec::new(),
                 artifacts,
             });
         }

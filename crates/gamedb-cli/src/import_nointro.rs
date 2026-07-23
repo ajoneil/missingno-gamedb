@@ -198,8 +198,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         sha1,
                         label: None,
                         size: rom.attribute("size").and_then(|s| s.parse().ok()),
-                        verified: Vec::new(),
-                    }),
+                        }),
                     Err(e) => report.add("Invalid DAT sha1 skipped", format!("{name:?}: {e}")),
                 }
             }
@@ -406,7 +405,6 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 publisher: merged.and_then(|m| m.publisher.clone()),
                 status: p.status,
                 hardware: hardware.clone(),
-                sources: Vec::new(),
                 artifacts: artifacts.clone(),
             })
             .collect();
@@ -539,7 +537,6 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         publisher: r.publisher,
                         status: r.status,
                         hardware: Default::default(),
-                        sources: r.sources,
                         artifacts: r.artifacts,
                     })
                     .collect(),
@@ -588,7 +585,6 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 sha1,
                 label: None,
                 size: None,
-                verified: Vec::new(),
             })
             .collect();
         macro_rules! leftover {
@@ -614,7 +610,6 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         publisher: m.publisher.clone(),
                         status: parsed.status,
                         hardware: Default::default(),
-                        sources: Vec::new(),
                         artifacts: artifacts.clone(),
                     }],
                 }

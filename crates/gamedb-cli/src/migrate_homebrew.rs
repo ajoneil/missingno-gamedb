@@ -1,6 +1,6 @@
 use std::path::Path;
 
-use missingno_gamedb::{Artifact, Game, GameBoy, GameBoyColor, Platform, Release, Sha1, Source};
+use missingno_gamedb::{Artifact, Game, GameBoy, GameBoyColor, Link, LinkType, Platform, Release, Sha1};
 
 use crate::{
     legacy::{self, LegacySource},
@@ -105,24 +105,41 @@ fn run_tree<P: Platform>(
                     sha1,
                     label: None,
                     size: None,
-                    verified: Vec::new(),
                 }),
                 Err(e) => report.add("Invalid hashes dropped", format!("{}/{slug}: {e}", P::DIR)),
             }
         }
 
-        let (itch_links, links): (Vec<_>, Vec<_>) = m
+        let (itch_links, mut links): (Vec<_>, Vec<_>) = m
             .links
             .iter()
             .cloned()
             .partition(|link| link.url.contains(".itch.io/"));
-        let mut sources = vec![match source {
-            LegacySource::HomebrewHub { slug, filename } => Source::HomebrewHub { slug, filename },
-            LegacySource::Url(url) => Source::Download { url },
-        }];
-        sources.extend(itch_links.into_iter().map(|link| Source::Itch {
+        // Where to obtain the ROM lives as game-level links: a direct file
+        // URL as Download, obtain-from pages as DownloadPage.
+        match source {
+            LegacySource::HomebrewHub { slug, filename } => {
+                links.push(Link {
+                    name: "Homebrew Hub ROM".to_owned(),
+                    url: format!("{GBDEV_ENTRIES}/{slug}/{filename}"),
+                    link_type: LinkType::Download,
+                });
+                links.push(Link {
+                    name: "Homebrew Hub".to_owned(),
+                    url: format!("https://hh.gbdev.io/games/{slug}"),
+                    link_type: LinkType::DownloadPage,
+                });
+            }
+            LegacySource::Url(url) => links.push(Link {
+                name: "Download".to_owned(),
+                url,
+                link_type: LinkType::Download,
+            }),
+        }
+        links.extend(itch_links.into_iter().map(|link| Link {
+            name: "itch.io".to_owned(),
             url: link.url,
-            paid: None,
+            link_type: LinkType::DownloadPage,
         }));
 
         let game = Game::<P> {
@@ -146,7 +163,6 @@ fn run_tree<P: Platform>(
                 publisher: m.publisher.clone(),
                 status: Default::default(),
                 hardware: Default::default(),
-                sources,
                 artifacts,
             }],
         };
@@ -161,7 +177,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn homebrew_entry_gains_urls_and_sources() {
+    fn homebrew_entry_gains_urls_and_links() {
         let root = tempfile::tempdir().unwrap();
         let dir = root.path().join("gb/144p-test-suite");
         std::fs::create_dir_all(&dir).unwrap();
@@ -187,15 +203,13 @@ mod tests {
             game.screenshots,
             vec![format!("{GBDEV_ENTRIES}/144p-test-suite/a.png")]
         );
-        assert!(matches!(
-            game.releases[0].sources[0],
-            Source::HomebrewHub { .. }
-        ));
-        assert!(matches!(
-            &game.releases[0].sources[1],
-            Source::Itch { paid: None, .. }
-        ));
-        assert_eq!(game.links.len(), 1, "itch link moved out of links");
+        let urls: Vec<&str> = game.links.iter().map(|l| l.url.as_str()).collect();
+        assert!(urls.contains(&"https://raw.githubusercontent.com/gbdev/database/master/entries/144p-test-suite/gb240p.gb"));
+        assert!(urls.contains(&"https://hh.gbdev.io/games/144p-test-suite"));
+        assert!(
+            urls.contains(&"https://pinobatch.itch.io/240p-test-suite"),
+            "itch page kept as a DownloadPage link"
+        );
         assert!(missingno_gamedb::validate(root.path()).unwrap().is_empty());
     }
 }

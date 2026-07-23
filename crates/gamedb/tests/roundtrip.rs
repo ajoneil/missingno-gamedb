@@ -28,10 +28,6 @@ const GB_HOMEBREW: &str = r#"(
         (
             date: Some("2018-04-17"),
             hardware: (sgb: Enhanced, cgb: Enhanced),
-            sources: [
-                HomebrewHub(slug: "144p-test-suite", filename: "gb240p.gb"),
-                Download(url: "https://github.com/pinobatch/240p-test-mini/releases"),
-            ],
             artifacts: [
                 (sha1: "0123456789abcdef0123456789abcdef01234567", size: Some(262144)),
             ],
@@ -77,8 +73,11 @@ const GB_MOD: &str = r#"(
         category: ContentChange,
         patch: Some((format: Bps, sha1: "89abcdef0123456789abcdef0123456789abcdef")),
     )),
+    links: [
+        (name: "Patch", url: "https://example.org/repainted.bps", link_type: Download),
+    ],
     releases: [
-        (sources: [Download(url: "https://example.org/repainted.bps")]),
+        (artifacts: [(sha1: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")]),
     ],
 )
 "#;
@@ -101,7 +100,6 @@ fn gb_homebrew_round_trips() {
     let release = &game.releases[0];
     assert_eq!(release.hardware.sgb, Enhancement::Enhanced);
     assert_eq!(release.hardware.cgb, Enhancement::Enhanced);
-    assert_eq!(release.sources.len(), 2);
     assert_eq!(game.covers.len(), 2);
     assert_eq!(game.mods.len(), 1);
     assert_eq!(game.mods[0].releases[0].label.as_deref(), Some("v1.1"));

@@ -81,8 +81,11 @@ pub struct VcsHardware {
     /// Cartridge board code, e.g. "F8", "F6SC", "4K".
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<String>,
-    /// Controllers the game supports; empty = the default joystick alone.
-    /// A game playable with more than one lists each ([Joystick, Paddle]).
+    /// Controllers the release needs, staged only when it deviates from the
+    /// platform default (VCS: joystick) or when sibling releases of one game
+    /// differ and the contrast is the fact (a joystick conversion beside the
+    /// paddle original). Empty = the default; every platform added later
+    /// picks one default and follows the same rule.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub controllers: Vec<Controller>,
 }

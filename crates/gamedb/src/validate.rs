@@ -88,11 +88,19 @@ fn validate_tree<P: Platform>(db_root: &Path) -> io::Result<Vec<Finding>> {
         if game.releases.is_empty() {
             findings.push(Finding::error(display, "game has no releases".to_owned()));
         }
+        // A game is locatable when a link says where to obtain it; a release
+        // without artifacts is only an error when the game is unlocatable too.
+        let locatable = game.links.iter().any(|l| {
+            matches!(
+                l.link_type,
+                crate::LinkType::Download | crate::LinkType::DownloadPage
+            )
+        });
         for release in &game.releases {
-            if release.sources.is_empty() && release.artifacts.is_empty() {
+            if release.artifacts.is_empty() && !locatable {
                 findings.push(Finding::error(
                     display,
-                    "release has no sources and no artifacts".to_owned(),
+                    "release has no artifacts and the game has no download link".to_owned(),
                 ));
             }
             for artifact in &release.artifacts {

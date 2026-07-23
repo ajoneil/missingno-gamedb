@@ -89,9 +89,6 @@ enum Command {
         /// API; prefer --key as part of curating an entry
         #[arg(long)]
         all: bool,
-        /// Report without recording evidence in manifests
-        #[arg(long)]
-        dry_run: bool,
         /// Answers already fetched, so a re-run resumes
         #[arg(long, default_value = "hash-cache.json")]
         cache: PathBuf,
@@ -179,7 +176,7 @@ fn main() -> ExitCode {
                 }
             }
         }
-        Command::VerifyHashes { path, report, delay_ms, key, limit, all, dry_run, cache } => {
+        Command::VerifyHashes { path, report, delay_ms, key, limit, all, cache } => {
             if key.is_none() && limit.is_none() && !all {
                 eprintln!(
                     "refusing to sweep the whole database implicitly: pass --key <tree/slug> to \
@@ -188,15 +185,10 @@ fn main() -> ExitCode {
                 return ExitCode::from(2);
             }
             let data_root = resolve_db_root(&path);
-            if !dry_run && let Err(e) = ensure_clean_git(&path) {
-                eprintln!("{e}");
-                return ExitCode::from(2);
-            }
             let options = verify_hashes::Options {
                 delay: std::time::Duration::from_millis(delay_ms),
                 key,
                 limit,
-                dry_run,
                 cache_path: cache,
             };
             let mut findings = Report::default();
