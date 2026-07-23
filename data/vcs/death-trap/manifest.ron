@@ -1,7 +1,28 @@
 (
     title: "Death Trap",
+    developer: Some("Jim Jacob"),
+    description: Some("A single-screen duel with an orbiting alien intelligence called IT: keep your ship weaving — its plasma fireballs lock onto anything that sits still — while threading torpedoes up through the shield layers, steering each shot with the joystick while the button is held. Knock out both power stations\' guns, then finish the exposed core before the final shield closes in on you; each hit taken drops a six-step readiness scale that an onboard repair crew slowly restores."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/death_trap.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-death-trap_8076.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E5F2ED615BD3B8FDFE02CE071BD813D4D0BCE72D",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Avalon Hill"),
             hardware: (

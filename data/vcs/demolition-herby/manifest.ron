@@ -1,7 +1,28 @@
 (
     title: "Demolition Herby",
+    developer: Some("Don Ruffcorn"),
+    description: Some("Herby drives the white lines of a grid, painting them red — box in all four sides of a square and it blacks out for points and fuel. Three chase cars re-paint your lines white and try to ram you off the track; rear-ending them first bounces them away for bonus points, and the button shifts into a fuel-hungry overdrive. A second joystick hands an opponent control of the chase cars themselves."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/demolition_herby.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-demolition-herby_16918.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/64EFA371151C40EC22C2F199AA1691337B029D4B",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Telesys"),
             hardware: (
@@ -21,8 +42,7 @@
             ],
         ),
         (
-            date: Some("1982"),
-            publisher: Some("Telesys"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -30,6 +50,7 @@
             artifacts: [
                 (
                     sha1: "434e876226bea00ab19324804b18de14c93d096b",
+                    label: Some("pirate [p]"),
                 ),
                 (
                     sha1: "72bd6f16d9d65ac9d47af005560454191cccc257",

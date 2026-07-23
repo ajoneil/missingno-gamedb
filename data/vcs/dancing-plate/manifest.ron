@@ -1,7 +1,42 @@
 (
     title: "Dancing Plate",
+    description: Some("A circus plate-spinning act: plates appear one by one atop tall wands and gradually wobble, and you steer the juggler beneath the shakiest pole, hammering the button to spin its plate back into balance — or dashing to catch one that falls. Scoring is survival time, a spare plate is earned every 10,000 points, and each shattered plate costs one; eight selectable variations change the act."),
+    links: [
+        (
+            name: "Manual (Dancing Plates)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dancing_plates.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Dishaster)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dishaster.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-dancing-plate_13686.html",
+            link_type: Community,
+        ),
+        (
+            name: "Atarimania (Tanzende Teller)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-dancing-plates-tanzende-teller_15751.html",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dishaster",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7063CCD4C295AF549597293D48D705D422BDFFD3",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Taiwan,
+            ],
             date: Some("1982"),
             publisher: Some("Bit Corporation"),
             hardware: (
@@ -15,6 +50,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Puzzy"),
             hardware: (
@@ -28,8 +66,60 @@
                 (
                     sha1: "85500dc5f7b083ce2d743c223c56163ff95b39e3",
                 ),
+            ],
+        ),
+        (
+            title: Some("Dancing Plate - A Dança dos Pratos"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b6b46ca6f090bb437ac2f4d1b7df7aef3b914efc",
+                ),
+            ],
+        ),
+        (
+            title: Some("Dishaster"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7485cf55201ef98ded201aec73c4141f9f74f863",
+                ),
+            ],
+        ),
+        (
+            title: Some("Teller-Jonglieren!"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d144243c0afc541df0400654ae37f38f0bdb5967",
+                ),
                 (
                     sha1: "94a43b4aa6860315d9991bbaa144eb5b09a03081",
+                    label: Some("alt"),
                 ),
             ],
         ),

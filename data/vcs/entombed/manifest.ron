@@ -1,8 +1,29 @@
 (
     title: "Entombed",
+    developer: Some("Tom Sloper, Steven Sidley"),
+    description: Some("Your archeologists have fallen into the catacombs of the zombies, and the maze scrolls relentlessly — keep descending or be entombed against the top of the screen. Make-breaks punch holes through walls, or build one behind you when a zombie\'s closing; blue zombies must follow the corridors, orange ones phase straight through. Two players run the catacombs together, opening passages for each other — or, as the manual cheerfully recommends, playing nasty and walling a partner in. Its procedurally generated mazes later became a small academic mystery."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/entombed.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Entombed_(Atari_2600)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/324FD991D94BDB8BC70918AFFD8C4742CDC7D9F8",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-03"),
             publisher: Some("U.S. Games Corporation"),
             hardware: (
                 tv_format: Some(Ntsc),

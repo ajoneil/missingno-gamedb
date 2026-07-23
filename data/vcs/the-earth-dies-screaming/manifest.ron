@@ -1,0 +1,56 @@
+(
+    title: "The Earth Dies Screaming",
+    developer: Some("Dan Thompson (Sirius Software)"),
+    description: Some("From a Space Destroyer\'s cockpit you hunt Trillian raiders between a top-down radar strip and a crosshair view window — the cannon\'s tracking arms lock your aim to the enemy\'s height automatically, leaving you only to steer and fire. Kamikaze satellites and fighters that slip past drain Earth\'s energy field, and the one way to refill is to hold a white-striped returning fighter in view for five seconds until it betrays its attack base — then blow the base apart."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/earth_dies_screaming.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Earth_Dies_Screaming_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/778B3D1C292C11BBD133284B70772FA5B4DC1607",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f834923eac271bf04c18621ac2aada68d426917",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e71071d99f5877a498d53df48c4065e7fd1e07aa",
+                    label: Some("pirate [p]"),
+                ),
+            ],
+        ),
+    ],
+)

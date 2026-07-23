@@ -1,5 +1,20 @@
 (
-    title: "Elf Adventure (04-22-1983)",
+    title: "Elf Adventure",
+    developer: Some("Warren Robinett"),
+    description: Some("Warren Robinett\'s abandoned sequel to Adventure, three months in when the crash killed it: six looping rooms, item-collecting, and its one genuinely new idea — elves with simulated moods, who warm to gifts, rage at theft, and hurl axes when angry. You can throw axes back, the intended seven-jewel quest was never implemented, and the surviving builds are playable but rough — this entry holds three dated EPROMs from April and May 1983."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/elfadventure/elfadventure.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Hidden Palace",
+            url: "https://hiddenpalace.org/Elf_Adventure_(May_25,_1983_prototype)",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -12,6 +27,7 @@
             artifacts: [
                 (
                     sha1: "93cf13c16d995c69c78085effb555f17105f8b01",
+                    label: Some("04-22-1983 build"),
                 ),
                 (
                     sha1: "c5d0f915ff6c67d36086bcb540b286cc7d0788ab",

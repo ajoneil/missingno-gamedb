@@ -1,0 +1,63 @@
+(
+    title: "Dark Cavern",
+    description: Some("Trapped in an underground maze once the trap door locks behind you, you shoot it out with robots while spiders and bullet-stealing blobs pour in through the side doors. Ammunition is tight — one shot on screen at a time, topped up by landing on a briefly-flashing gun — and destroying a yellow robot earns an extra man. The left difficulty switch swaps one-headed robots for four faster-respawning two-headed ones."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Night_Stalker_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dark_cavern.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F11DB01D78EE08B8A48DB0B6CBD5D09AA646A4A5",
+    ],
+    mods: [
+        (
+            name: "Unnamed Supercharger conversion of Dark Cavern",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("0ae2fc87f87a5cc199c3b9a17444bf3c2f6a829b"),
+                    artifacts: [
+                        (
+                            sha1: "ef835ef9c7103211c9416e1b5f09891822c4524c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-11"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ae2fc87f87a5cc199c3b9a17444bf3c2f6a829b",
+                ),
+                (
+                    sha1: "436c16d1492e4fa7f78f4b94e1052ea67c366b00",
+                ),
+                (
+                    sha1: "5cfd37e376da0dc2e061336a2c3f7d0a61bb0e74",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+    ],
+)

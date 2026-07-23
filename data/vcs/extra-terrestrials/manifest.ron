@@ -1,7 +1,28 @@
 (
     title: "Extra Terrestrials",
+    developer: Some("The Banting brothers"),
+    description: Some("The rarest licensed-era cart on the system: a family-made Canadian game sold door-to-door around Southern Ontario in 1984 — roughly a hundred copies — then lost entirely until one surfaced at Brantford\'s Personal Computer Museum in 2011. The game itself is two-player only: one player steers an alien through the maze hoovering up dots while the other hunts it down, with a sprite that pointedly resembles a certain other extra-terrestrial."),
+    links: [
+        (
+            name: "Kotaku: the rediscovery",
+            url: "https://kotaku.com/the-rarest-longest-lost-atari-2600-cartridge-once-sold-5847530",
+            link_type: Community,
+        ),
+        (
+            name: "Atari: Three Games Almost Lost Forever",
+            url: "https://atari.com/blogs/atari/three-atari-2600-games-that-were-almost-lost-forever",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B99C8D01BFC653B46FFF4655FE0EE2E9864B9F92",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Canada,
+            ],
             date: Some("1984"),
             publisher: Some("Skill Screen Games"),
             hardware: (

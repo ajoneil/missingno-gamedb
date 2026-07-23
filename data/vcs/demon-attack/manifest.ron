@@ -1,8 +1,67 @@
 (
     title: "Demon Attack",
+    developer: Some("Rob Fulop"),
+    description: Some("Winged demons materialize in shimmering waves above your laser cannon, splitting into smaller creatures and diving as the assault deepens. You start with three reserve bunkers — every hit taken costs one, every wave survived untouched banks another — and tracer-shot variations let your fire curve across the screen. Ten variations span solo play, alternating two-player, and a co-op mode that swaps cannon control every four seconds on shared bunkers."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/demon_attack.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Demon_Attack",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0502F27BAE2B3980AF1227805FD8DAC9176A5584",
+    ],
+    mods: [
+        (
+            name: "Unnamed Supercharger fix of Demon Attack",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("a580d886c191a069f6b9036c3f879e83e09500c2"),
+                    artifacts: [
+                        (
+                            sha1: "269d188a9ede6fbcf8f15c03f13a866612d4d2f6",
+                        ),
+                        (
+                            sha1: "6695627f367371bef432afcd62a616a268012a4c",
+                            label: Some("alt [a]"),
+                        ),
+                        (
+                            sha1: "b5dc036792717d8bee953564cc1b587de02f0e57",
+                            label: Some("alt [a2]"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed trainer of Demon Attack",
+            category: QualityOfLife,
+            releases: [
+                (
+                    base_sha1: Some("a580d886c191a069f6b9036c3f879e83e09500c2"),
+                    artifacts: [
+                        (
+                            sha1: "17d2dc86947327f7927c230e61fbdca2a61e9d0b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1982"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-03"),
             publisher: Some("Imagic"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -10,44 +69,18 @@
             ),
             artifacts: [
                 (
-                    sha1: "05a8c122ad6b29c417dc830b562bbb125cd1712c",
-                ),
-                (
-                    sha1: "1270f2da04f46f86c1d8c4a41202480aa318c365",
-                ),
-                (
-                    sha1: "17d2dc86947327f7927c230e61fbdca2a61e9d0b",
-                ),
-                (
-                    sha1: "48b05337b2e9cab3a4a0b6467ded166eb54c6abc",
-                ),
-                (
-                    sha1: "5e727edbf77af68cfa1d228a4ae89ad631b2ee4f",
-                ),
-                (
-                    sha1: "66d49e5c029919ead4e890b5d3d93ce6b96a71b4",
-                ),
-                (
-                    sha1: "72d431246bbccc5c1a6d6701a2a0294af6e81868",
-                ),
-                (
-                    sha1: "82b2cc774a2d156c2a75d7409cc9a8bb861b59f8",
-                ),
-                (
-                    sha1: "865c264310811111391bc81e32a17c57fdc6e3bf",
-                ),
-                (
-                    sha1: "93bf55528ff9ecde3bdd08c97b3b710733468b85",
-                ),
-                (
                     sha1: "a580d886c191a069f6b9036c3f879e83e09500c2",
                 ),
                 (
-                    sha1: "b3e18249e87f93563571904ee0b216d8235b1c4c",
+                    sha1: "e5011b85a0e3c148087865bebd7e9b6608c32292",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             hardware: (
@@ -57,9 +90,108 @@
             artifacts: [
                 (
                     sha1: "03a9ea4191358ea65778b74b2f265089706a9a9a",
+                    label: Some("pirate [p]"),
                 ),
                 (
                     sha1: "91a78b32fe6229509008be3f2fa087049f16da3c",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "66d49e5c029919ead4e890b5d3d93ce6b96a71b4",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Canal 3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "72d431246bbccc5c1a6d6701a2a0294af6e81868",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "82b2cc774a2d156c2a75d7409cc9a8bb861b59f8",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Robby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1270f2da04f46f86c1d8c4a41202480aa318c365",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Supergame"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "865c264310811111391bc81e32a17c57fdc6e3bf",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "05a8c122ad6b29c417dc830b562bbb125cd1712c",
+                ),
+                (
+                    sha1: "48b05337b2e9cab3a4a0b6467ded166eb54c6abc",
+                ),
+                (
+                    sha1: "5e727edbf77af68cfa1d228a4ae89ad631b2ee4f",
+                ),
+                (
+                    sha1: "93bf55528ff9ecde3bdd08c97b3b710733468b85",
+                ),
+                (
+                    sha1: "b3e18249e87f93563571904ee0b216d8235b1c4c",
                 ),
             ],
         ),

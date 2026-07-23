@@ -1,8 +1,29 @@
 (
     title: "Deadly Duck",
+    developer: Some("Ed Hodapp (Sirius Software)"),
+    description: Some("A duck paddles its pond, firing bill-bullets straight up at the eight crabs hauling bricks overhead — bricks float where they splash down, boxing you in, and a direct hit sinks you. Dragonflies can\'t be killed: pot-shotting one is worth ten points but provokes an aimed bomb. Clearing the crabs earns a spare duck and advances the level, adding dragonflies and multiplying the brick bounty."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/deadly_duck.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Deadly_Duck",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/82B66563BC7C59E2716CD6FF7DC347D97DC74F65",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1982"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-01-20"),
             publisher: Some("20th Century Fox Video Games"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -14,6 +35,10 @@
                 ),
                 (
                     sha1: "dbbb1d872ed064df1a17679bb32eb00e7a9c0618",
+                ),
+                (
+                    sha1: "9e4ced9e3675d335d7fdd7051ab035db3621543d",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

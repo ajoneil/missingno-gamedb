@@ -1,11 +1,23 @@
 (
     title: "Exocet",
+    description: Some("A UFO skims a scrolling fortress surface, weaving through the fire of tall and short defence towers with full eight-way movement. Destroy ten and a tunnel opens — you get three chances to dive in before the barrage accelerates — and the underground levels replay the fight in passages that squeeze tighter each time. A Taiwanese original that resurfaced for years under new names: Space Eagle, and in 1987 as Froggo\'s Cruise Missile and Zellers\' Radar."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-exocet_8486.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3D58F5AC1964DCBAC1D5E8AC4BDC3170BBDCF59D",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
             publisher: Some("Panda"),
             hardware: (
-                tv_format: Some(Ntsc),
+                tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
@@ -15,6 +27,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Sancho"),
             hardware: (
@@ -27,6 +42,39 @@
                 ),
                 (
                     sha1: "8722b52dfb4c25298cfbff02feeaa6691c1155ee",
+                ),
+            ],
+        ),
+        (
+            title: Some("Radar"),
+            regions: [
+                Canada,
+            ],
+            date: Some("1987"),
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ff77ba2cee629de526fc9a0cc6d5cbcb5eedbf34",
+                ),
+            ],
+        ),
+        (
+            title: Some("Cruise Missile"),
+            regions: [
+                Usa,
+            ],
+            publisher: Some("Froggo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5f1f2b5b407b0624b59409e02060a3a9e8eed8fc",
                 ),
             ],
         ),

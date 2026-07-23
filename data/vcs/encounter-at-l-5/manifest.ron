@@ -1,0 +1,55 @@
+(
+    title: "Encounter at L-5",
+    description: Some("Defence of a space colony at the L-5 Lagrange point, all on the paddle: the knob both slides your base and steers your aim as waves of Megalon attackers swarm down, faster and meaner each wave. Reviewers pitched it as Space Invaders crossed with Missile Command at a quicker tempo — Data Age\'s first release, serial DA1001."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-encounter-at-l-5_8160.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5C67911C2ABD5DAE6A4608140970E59594888CDB",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "205af4051ea39fb5a038a8545c78bff91df321b7",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "6b1e0787ef595af5f85fef3bf780553b3fba4c7d",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,69 @@
+(
+    title: "Desert Falcon",
+    developer: Some("Bob Polaro"),
+    description: Some("A falcon skims a scrolling isometric desert, collecting the Pharaoh\'s scattered treasures while trading fire with vultures, warriors and flying fish. Hieroglyphs picked from the sand combine in threes into powers — invincibility, a decoy, an air bomb, even a teleport to the level\'s end — and each stage closes against a howling sphinx."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Desert_Falcon",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/desert_falcon.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B909033AB667F42B7961545415BD78185669EF4B",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ccea2d5095441d7e1b1468e3879a6ab556dc8b7a",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b6ed9257bd542acfa8c4a3426094f46adbc6a93b",
+                ),
+            ],
+        ),
+        (
+            date: Some("1987-05-27"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d9619410fd058ab8315f25910a38f4805c4b1c2",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,7 +1,88 @@
 (
     title: "Stargate",
+    description: Some("Defender\'s humanoid-rescue war, extended and driven with two joysticks: the left flies and fires, while the right drops Smartbombs, triggers the Inviso cloak, or jumps to hyperspace. Stellar Gateways warp you straight to wherever Landers are lifting humanoids — carry four rescued ones through a Gateway early on and you skip three waves — and Yllabian Dog Fights and Firebomber showdowns punctuate a campaign of up to 100 waves."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Stargate_(1981_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/defender2.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2CEFD0AA3F6B6686604D29208218E9A78707919B",
+    ],
+    mods: [
+        (
+            name: "Defender Arcade",
+            category: ContentChange,
+            author: Some("Bob DeCrescenzo"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("4f87be0ef16a1d0389226d1fbda9b4c16b06e13e"),
+                    artifacts: [
+                        (
+                            sha1: "862ae244627b622ac7f4f66d3aefadb6517b145e",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    base_sha1: Some("4f87be0ef16a1d0389226d1fbda9b4c16b06e13e"),
+                    artifacts: [
+                        (
+                            sha1: "c769b0db0e4479a3ff9fa9b82b36c82f046cea71",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("Defender II"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d7b506b84f28e1b917a2978753d5a40eb197537a",
+                ),
+            ],
+        ),
+        (
+            title: Some("Defender II"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aba4e94d01b10cdf9b882f25e620a126dd80df19",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,9 +93,16 @@
                 (
                     sha1: "4f87be0ef16a1d0389226d1fbda9b4c16b06e13e",
                 ),
+                (
+                    sha1: "df2881c652e3ca73cc695c7ce9ac98d01087be57",
+                    label: Some("overdump [o1]"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             hardware: (

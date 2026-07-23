@@ -1,0 +1,120 @@
+(
+    title: "Demons to Diamonds",
+    developer: Some("Nick Turner, Alan Murphy"),
+    description: Some("A cosmic carnival shooting gallery driven by the paddle: your laser base slides along the screen edge, and the longer you hold the button, the deeper each beam reaches into the range. Demons of your own colour pulse into diamonds when hit — shoot the diamond before it fades for a bonus — while the wrong colour hardens into skulls that spray fire in both directions. Two players duel from opposite edges over the same demons."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Demons_to_Diamonds",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/demons_diamonds.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/29EE0B45FECB4C857C54F8C9C431C39DC01E4B8D",
+    ],
+    mods: [
+        (
+            name: "Unnamed Supercharger fix of Demons to Diamonds",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("b45582de81c48b04c2bb758d69021e8088c70ce7"),
+                    artifacts: [
+                        (
+                            sha1: "58d15132991c9c4007859b8db64c1f3afa65be07",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed joystick conversion of Demons to Diamonds",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("b45582de81c48b04c2bb758d69021e8088c70ce7"),
+                    artifacts: [
+                        (
+                            sha1: "8219e578c925de05e0415f2e5f13a79d20ffc7c4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "S.I.Plix 3",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("b45582de81c48b04c2bb758d69021e8088c70ce7"),
+                    artifacts: [
+                        (
+                            sha1: "4987f1f865d4dcbfc4fb163ee2f478f3e18d1350",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-07"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "b45582de81c48b04c2bb758d69021e8088c70ce7",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "18c83930841b052b4339ccf054cd0fce6964facf",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "38e24871d35c6c25b8fa9157244aaaff2b2b6e27",
+                ),
+            ],
+        ),
+    ],
+)

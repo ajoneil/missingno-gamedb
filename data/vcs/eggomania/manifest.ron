@@ -1,12 +1,36 @@
 (
     title: "Eggomania",
+    developer: Some("Henry Will, Wes Trager (James Wickstead Design Associates)"),
+    description: Some("A furious technicolor turkey carpet-bombs your blue bear with eggs, and the paddle slides him along the floor to catch them in his hat — miss and the yolk piles up underfoot. Catch an entire wave and the tables turn: you fire the eggs back at the dancing bird for bonus points, cleaning some of the mess with every hit. Ten levels ramp the barrage, up to four players rotate in, and the difficulty switches literally change the size of your hat."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/eggomania.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Eggomania",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8F26DBEF0F0EF0B501BF6239304CDAFF65D87D47",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1982"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-01"),
             publisher: Some("U.S. Games Corporation"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (

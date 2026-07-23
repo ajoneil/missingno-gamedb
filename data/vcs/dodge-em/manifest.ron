@@ -1,0 +1,64 @@
+(
+    title: "Dodge \'Em",
+    developer: Some("Carla Meninsky"),
+    description: Some("Your car circles four concentric lanes hoovering up dots while a computer car runs the loop the other way, hunting you head-on. The joystick shifts lanes through the track\'s four gaps and the button is a gas pedal for accelerating out of trouble; clearing the dots earns a bonus and a fresh set, three crashes end a heat, and a second joystick puts a rival driver in the other car."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dodge_%27Em",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dodge_em.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D735FFE9D2CB7FE7C360B74ED3CC8A94BFEDB0D9",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1980-09"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "157117df23cb5229386d06bbdb3af20a208722e0",
+                    label: Some("alt [a]"),
+                ),
+                (
+                    sha1: "0ffc02c54190e9dd51ac1e52c911d3d7d730a40a",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b26674d6e30d1a0bb2719b9bb1b3ccfa346260cf",
+                    label: Some("fixed [f][a]"),
+                ),
+                (
+                    sha1: "e2418f72c144b0e6ced549cbb963849d53020ef4",
+                    label: Some("pirate [p]"),
+                ),
+            ],
+        ),
+    ],
+)

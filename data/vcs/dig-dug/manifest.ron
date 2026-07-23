@@ -1,8 +1,28 @@
 (
     title: "Dig Dug",
+    description: Some("Dig tunnels through four layers of dirt, stunning the balloon-like Pookas and fire-breathing Fygars with the pump and inflating them until they burst — or undermine a boulder to crush a chain of them at once for the big scores. Both meanies can turn into ghosts that drift through undug ground, a vegetable prize surfaces each round at your starting shaft to be covered before it vanishes, and the Easy variation — marked by a teddy-bear head in the score — repeats one gentle round forever."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dig_dug.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dig_Dug",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/CEE725DCC151DB61592D2DCBFA2BDAD565320CBB",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-10"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -15,9 +35,16 @@
                 (
                     sha1: "79e746524520da546249149c33614fc23a4f2a51",
                 ),
+                (
+                    sha1: "c4bf3a6b4339dd681facb47baecb6c9e69f7804e",
+                    label: Some("alt [a]"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -30,6 +57,10 @@
                 ),
                 (
                     sha1: "816abcef9cc8fca5007cc400534e84d00285f199",
+                ),
+                (
+                    sha1: "9169c11747dc52f03ab52c54fc7cb4a0106f4423",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

@@ -1,7 +1,22 @@
 (
     title: "Espial",
+    description: Some("A port of Orca\'s arcade shooter: your fighter sweeps low over the deck of an endless enemy dreadnought, weaving between its superstructure while waves of aircraft dive from ahead and gun emplacements return fire below. Period players noted the enemies flicker hard — squint through it and there\'s a brisk little shooter underneath."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-espial_7308.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AA81F9C26EBA82A6000E34BC2916698223C5AA64",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Tigervision"),
             hardware: (
@@ -11,17 +26,8 @@
             artifacts: [
                 (
                     sha1: "5db168bb450dc82f618dfa60b9f271ade3a057c7",
+                    label: Some("bad [b2]"),
                 ),
-            ],
-        ),
-        (
-            date: Some("1984"),
-            publisher: Some("Tigervision"),
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("3F"),
-            ),
-            artifacts: [
                 (
                     sha1: "27d925d482553deff23f0889b3051091977d6920",
                 ),

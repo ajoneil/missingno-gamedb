@@ -18509,5 +18509,21 @@
             ],
             note: "Requires the Atari Kids Controller (keypad family, CX26102 series) — missingno has no keypad support, so the game cannot be played beyond attract/demo screens.",
         ),
+        (
+            id: 2894,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/elis-ladder",
+            ],
+            note: "No response to any player input in playtest or headless probe: left-port joystick directions, fire (INPT4), Game Select, and paddle axis (pot 0) all produce no screen change after 120+ frames; console Reset visibly responds. Game runs (screen changes on reset) but cannot be interacted with. Right controller port is not reachable through the current seam controls, so a right-port-reading game is untestable.",
+        ),
+        (
+            id: 2895,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/escape-from-the-mindmaster",
+            ],
+            note: "Multiload Supercharger game cannot be played: the combined image (33792 bytes = 4 concatenated 8448-byte loads) is rejected at load (\"failed to construct console from media\") because the AR board accepts exactly one 8448-byte fastload image (ar::IMAGE_SIZE 0x2100). Single-part dumps construct, but the game requests further tape loads between levels and no multiload/tape-swap mechanism exists, so progression past each load boundary is impossible.",
+        ),
     ],
 )

@@ -1,0 +1,75 @@
+(
+    title: "Tomcat - The F-14 Fighter Simulator",
+    developer: Some("Dan Kitchen, Steven Kitchen"),
+    description: Some("A carrier-based flight simulator: catapult-launch an F-14 off the U.S.S. Enterprise, fly by instruments across several computer-display screens, fight incoming bogeys with the M-61 cannon, three types of guided missile and electronic countermeasures, then set down on the deck again — later missions run in total darkness. The console\'s difficulty switches work the landing gear and arresting hook, and every flight ends with a mission rating from 0 to 9."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tomcat.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-tomcat-the-f-14-fighter-simulator_13442.html",
+            link_type: Community,
+        ),
+        (
+            name: "Atarimania (Fighter Pilot)",
+            url: "https://www.atarimania.com/game-fighter-pilot_s10584.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/libretro-thumbnails/Atari_-_2600/master/Named_Boxarts/Tomcat%20-%20The%20F-14%20Fighter%20Simulator%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1988"),
+            publisher: Some("Absolute Entertainment"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b2742281fea96ab6a3a2f30e676352bcf424390",
+                ),
+            ],
+        ),
+        (
+            title: Some("Fighter Pilot"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "684275b22f2bac7d577cf48cf42fa14fa6f69678",
+                ),
+            ],
+        ),
+        (
+            label: Some("Activision Anthology - Remix Edition"),
+            date: Some("2002"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d85e90adbb4106b9c14ec95de4798111331e939c",
+                ),
+            ],
+        ),
+    ],
+)

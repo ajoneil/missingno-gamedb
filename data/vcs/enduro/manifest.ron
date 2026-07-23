@@ -1,74 +1,48 @@
 (
     title: "Enduro",
+    developer: Some("Larry Miller"),
+    description: Some("An endurance race across changing days rather than laps: pass 200 cars before the first dusk, 300 every day after, or the race ends at daybreak. The button is your accelerator — held longer for more speed, released with a pull back to brake — while the road itself fights you: ice deadens the steering, fog shortens your sight, and at night the traffic shrinks to pairs of tail lights. Survive five days and an on-screen trophy appears; Activision\'s Roadbusters patch awaited a photo of it."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/enduro.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Enduro_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/EC8B4278B30670F244C83E21537CFB0A09EEE1DD",
+    ],
+    curated: true,
+    recommended_by: [
+        "andy",
+    ],
     releases: [
         (
-            date: Some("1983"),
-            publisher: Some("Dynacom"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "0123e7914a050c9442aa389402a3295d8ffa8440",
-                ),
-                (
-                    sha1: "1594689eddcfcd1740e8084f29b3e37df4375f56",
-                ),
-                (
-                    sha1: "1ed9ee32a5be8955be7b487d45838e331c5f73a5",
-                ),
-                (
-                    sha1: "2e87a394a482b3b6eea39b54b299e1c321583858",
-                ),
-                (
-                    sha1: "50fcecb67884c683071091936b4ae33b50f609eb",
-                ),
-                (
-                    sha1: "5c327c4e8789f49d381f6c8ed3751e4d334efd91",
-                ),
-                (
-                    sha1: "7882bbe9ec2606e40f310159b3ba93f26fb0290b",
-                ),
-                (
-                    sha1: "7c931a1ab9548e02f55853ea369b68847c2d8d01",
-                ),
-                (
                     sha1: "82e9b2dd6d99f15381506a76ef958a1773a7ba21",
                 ),
                 (
-                    sha1: "8a36f42e26fd7ddda7cb5db83002134522bc8e37",
-                ),
-                (
-                    sha1: "8eb026df2ed0e07fe6af4d358ae9cfddff0d6b53",
-                ),
-                (
-                    sha1: "9e7961d20dba8369cd1db65c1a07e913b0ded90f",
-                ),
-                (
-                    sha1: "b7a166374b7f0d285c6395400e563b1a210940c3",
-                ),
-                (
-                    sha1: "c4ba92a7f2918f3f8e222091d6c47d03ccb7403b",
-                ),
-                (
-                    sha1: "dd89676a38eeac903f326d2bc4022f7ceac35a4a",
-                ),
-                (
-                    sha1: "ea9dfbda243dd7bccb148e3353797d5a764dca62",
-                ),
-            ],
-        ),
-        (
-            date: Some("1983"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
-                (
                     sha1: "de6241a049735564457f0895ff81dca3386e0004",
+                    label: Some("overdump [o]"),
+                ),
+                (
+                    sha1: "9d51d6b8c45d04b684a215bd3f392762f7f2af8f",
+                    label: Some("pirate [p]"),
                 ),
             ],
         ),
@@ -83,6 +57,196 @@
                 (
                     sha1: "6e6ab19770a71abb6f015650aa118dcd8546b87a",
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Robby"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1594689eddcfcd1740e8084f29b3e37df4375f56",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Dynacom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ed9ee32a5be8955be7b487d45838e331c5f73a5",
+                ),
+            ],
+        ),
+        (
+            title: Some("Grand Prize"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Funvision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "50fcecb67884c683071091936b4ae33b50f609eb",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Tron"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5c327c4e8789f49d381f6c8ed3751e4d334efd91",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7c931a1ab9548e02f55853ea369b68847c2d8d01",
+                    label: Some("pirate [p]"),
+                ),
+                (
+                    sha1: "a9a0dcca0d00ceea51a9d699b987fec3163be52c",
+                    label: Some("pirate [p] alt"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digitel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8eb026df2ed0e07fe6af4d358ae9cfddff0d6b53",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Canal 3"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c4ba92a7f2918f3f8e222091d6c47d03ccb7403b",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd89676a38eeac903f326d2bc4022f7ceac35a4a",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1984"),
+            publisher: Some("Supergame"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ea9dfbda243dd7bccb148e3353797d5a764dca62",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0123e7914a050c9442aa389402a3295d8ffa8440",
+                ),
+                (
+                    sha1: "01b4f51b9511eec4ff71fda0c1043284cd3e3224",
+                ),
+                (
+                    sha1: "932537cd225dde2aa22871a509b9485a3b5b0c5b",
+                ),
+                (
+                    sha1: "2e87a394a482b3b6eea39b54b299e1c321583858",
+                ),
+                (
+                    sha1: "7882bbe9ec2606e40f310159b3ba93f26fb0290b",
+                ),
+                (
+                    sha1: "8a36f42e26fd7ddda7cb5db83002134522bc8e37",
+                ),
+                (
+                    sha1: "9e7961d20dba8369cd1db65c1a07e913b0ded90f",
+                ),
+                (
+                    sha1: "b7a166374b7f0d285c6395400e563b1a210940c3",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Dactar"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "9b19202e3ba1f16d3261c2ce7f7106ab39c0ce19",
                 ),

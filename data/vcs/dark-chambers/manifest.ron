@@ -1,0 +1,63 @@
+(
+    title: "Dark Chambers",
+    developer: Some("Adam Clayton, John Howard Palevich"),
+    description: Some("A 26-level descent through a ghoul-infested dungeon, alone or with a partner: enemies mutate into the next weaker form each time they\'re shot — grim reapers down through wizards and skeletons to exploding zombies — while spawners hatch new ones and hide the loot. Strength is life: touches, traps and poison drain it and potions restore it, with guns, daggers, shields and bombs to tilt the fight, keys for the locked doors, and a hidden gate on every level leading further down."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dandy_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/dark_chambers.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-dark-chambers_7275.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F30EEAFE51FB21F2DC12A5272283CD0FD4D3F1F3",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fbb4814973fcb4e101521515e04daa6424c45f5c",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ea0dea570acedc806aae630a92f68b3e1d63868",
+                ),
+                (
+                    sha1: "72563f872ebfd285ef51b9f2fe7d3a8f55f1b0fa",
+                ),
+            ],
+        ),
+    ],
+)
