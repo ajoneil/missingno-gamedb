@@ -1,9 +1,20 @@
 (
     title: "Frog Demo",
+    developer: Some("Joseph Biel"),
+    description: Some("A one-screen technical demo rather than a finished game: a frog sits amid a few stationary moths, and pressing fire flicks out its tongue — drawn as what looks distinctly like a laser beam."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/frogdemo/frogdemo.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
             publisher: Some("CommaVid"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("2K"),

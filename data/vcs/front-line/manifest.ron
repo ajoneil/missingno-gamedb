@@ -1,7 +1,49 @@
 (
     title: "Front Line",
+    description: Some("A lone soldier pushes up through waves of enemy infantry, lobbing grenades and firing as he advances across the battlefield — until he can climb into an abandoned tank and roll on through heavier resistance. The march ends at the enemy fortress, which can only be cracked open by hurling a grenade over its brick wall on foot."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/front_line.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Front_Line_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A131A16337AF85D7F33C939B8DA08D7CB6B647AB",
+    ],
+    mods: [
+        (
+            name: "Front Line Arcade",
+            category: ContentChange,
+            author: Some("KevinMos3"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("cf32bfcd7f2c3b7d2a6ad2f298aea2dfad8242e7"),
+                    artifacts: [
+                        (
+                            sha1: "cb3e3412da221aa2a6d5b8efe5afa55d8df0270d",
+                        ),
+                        (
+                            sha1: "e82e6f6a50f1565e0df97ad277b7c7bea4eac384",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Coleco"),
             hardware: (

@@ -1,24 +1,66 @@
 (
     title: "Fatal Run",
-    releases: [
+    developer: Some("Sculptured Software"),
+    description: Some("The player races an anti-radiation vaccine across 32 stages of ruined, post-apocalyptic highway, blasting and swerving past enemy cars against a relentless countdown — arrive too late and the waiting townsfolk explode. Cash banked between runs buys repairs, armour and engine upgrades, while pickups like nitro, oil slicks, weapons and collision-proof \"death crystals\" keep the car alive; passwords carry progress onward."),
+    links: [
         (
-            date: Some("2002"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F4SC"),
-            ),
-            artifacts: [
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Fatal_Run",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fatal_run.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/18797D797914C77A050C750F8F362626B090B91E",
+    ],
+    mods: [
+        (
+            name: "Fatal Run (NTSC)",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "59d004547e693aa05bb3333f055163ade2c9ea95",
-                ),
-                (
-                    sha1: "86b11d0a276c1cc9a777f3cf174577fe863b4298",
+                    date: Some("2002"),
+                    base_sha1: Some("d0bb58ea1fc37e929e5f7cdead037bb14a166451"),
+                    artifacts: [
+                        (
+                            sha1: "59d004547e693aa05bb3333f055163ade2c9ea95",
+                        ),
+                        (
+                            sha1: "86b11d0a276c1cc9a777f3cf174577fe863b4298",
+                            label: Some("alt [f]"),
+                        ),
+                    ],
                 ),
             ],
         ),
         (
-            date: Some("1991"),
+            name: "Fatal Run Trainer",
+            category: QualityOfLife,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    artifacts: [
+                        (
+                            sha1: "8c7b0fbc4f6a5b28a976a066d7703378ac8ada48",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1990"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
@@ -30,6 +72,7 @@
                 ),
                 (
                     sha1: "e2ec51e4f4fd3d73b67977950b1ea9e3d6f3f06b",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

@@ -1,0 +1,67 @@
+(
+    title: "Fire Fighter",
+    developer: Some("Brad Stewart"),
+    description: Some("The player battles a blaze in a multi-storey building, spraying water from a fire truck to beat the flames back floor by floor. Trapped occupants can only be reached once their floor is clear of fire, so you clear a path and extend the ladder to carry each one down to safety; larger buildings mean more floors to fight through."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fire_fighter.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Fire_Fighter_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FC98AA2C95EB4A760043362B4A204D5433BC9FA1",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f76cc14afd7aef367c5a5defbd84f3bbb2f98ba3",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cf152600adf945d741c421f21f510c8e77ae1ecb",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc6da87cb76fa5edf695617acc74fcaeba460463",
+                ),
+            ],
+        ),
+    ],
+)

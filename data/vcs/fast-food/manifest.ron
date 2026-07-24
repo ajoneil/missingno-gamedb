@@ -1,7 +1,87 @@
 (
     title: "Fast Food",
+    developer: Some("Don Ruffcorn"),
+    description: Some("Mighty Mouth — a pair of disembodied lips — snaps up burgers, fries, drinks and other fast food as it streaks past, scoring by the calorie, while the pace ratchets up with each mocking \"YOU\'RE GETTING FATTER.\" The purple pickles are poison, though: gulp down six and the mouth lets out a \"BURP!\" and the diner slams shut."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fast_food.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Fast_Food_(1982_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3412297F171AB2EC150BA8806B0D16F0A0B5EA58",
+    ],
+    curated: true,
     releases: [
         (
+            date: Some("1982"),
+            publisher: Some("Telesys"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c62a70645939480b184e3b2e378ec4bcbd484bc7",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Telesys"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8191514af62e280cd2261f9f2403eab6aae1c098",
+                ),
+            ],
+        ),
+        (
+            title: Some("Der Vielfraß"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starsoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3017342f592acc878f16ed41bdb2a9db5d554112",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Zirok"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ae26b181c68d179b6c193167776b95a663c3a54f",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -14,12 +94,6 @@
                     sha1: "3efc8b1673af0446ec64749e7203c590d61b4d79",
                 ),
                 (
-                    sha1: "ae26b181c68d179b6c193167776b95a663c3a54f",
-                ),
-                (
-                    sha1: "c62a70645939480b184e3b2e378ec4bcbd484bc7",
-                ),
-                (
                     sha1: "e79a3d05aec2f416479cf6dea57f11fee88d5e8c",
                 ),
                 (
@@ -28,18 +102,12 @@
             ],
         ),
         (
-            publisher: Some("Starsoft"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
-                (
-                    sha1: "3017342f592acc878f16ed41bdb2a9db5d554112",
-                ),
-                (
-                    sha1: "8191514af62e280cd2261f9f2403eab6aae1c098",
-                ),
                 (
                     sha1: "b48bf14b4958362109068e525bc9c289a6817cb5",
                 ),

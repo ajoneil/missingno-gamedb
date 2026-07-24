@@ -1,7 +1,62 @@
 (
     title: "Frogger",
+    description: Some("A frog must cross a busy highway and then a hazard-strewn river to reach the safety of the home bays at the top of the screen. Dodge the streams of cars and trucks, then hop from log to log and turtle to turtle across the water — minding the turtles that dive and sink beneath you — and fill every bay before the timer runs out to move on."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/frogger.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Frogger",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Frogger%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Unnamed Supercharger fix of Frogger",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("e859b935a36494f3c4b4bf5547392600fb9c96f0"),
+                    artifacts: [
+                        (
+                            sha1: "bef1c7fb085a95af77c3018bb1b7b9cb75b99cd0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Frogger Arcade",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("e859b935a36494f3c4b4bf5547392600fb9c96f0"),
+                    artifacts: [
+                        (
+                            sha1: "d66439803069440eccd2839dedbfd139b925c229",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Parker Brothers"),
             hardware: (
@@ -10,17 +65,14 @@
             ),
             artifacts: [
                 (
-                    sha1: "bef1c7fb085a95af77c3018bb1b7b9cb75b99cd0",
-                ),
-                (
-                    sha1: "df857785dd2d3051a77634863a8e97987e01ae57",
-                ),
-                (
                     sha1: "e859b935a36494f3c4b4bf5547392600fb9c96f0",
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Parker Brothers"),
             hardware: (
@@ -30,6 +82,21 @@
             artifacts: [
                 (
                     sha1: "b27aa85432f8704c4b3e14f6049e625cf9729aa8",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "df857785dd2d3051a77634863a8e97987e01ae57",
                 ),
             ],
         ),

@@ -1,7 +1,27 @@
 (
     title: "Nuts",
+    developer: Some("TechnoVision"),
+    description: Some("A purple squirrel scurries along the foot of a tree, firing nuts straight up at the bomb-dropping creatures creeping across the branches overhead — let ten of them slip past unhit and a life is lost. Rapid fire keeps the nuts flying as the branches fill up."),
+    links: [
+        (
+            name: "Video Game Critic",
+            url: "https://videogamecritic.com/mobile/2600no.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-double-game-package-fox--goat-pygmy_16369.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7B26FBD3A6605C0F7C6662DBDA8443FEC0D8B5F8",
+    ],
+    curated: true,
     releases: [
         (
+            date: Some("1983"),
+            publisher: Some("TechnoVision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -10,9 +30,52 @@
                 (
                     sha1: "ec79943f9bb42174d9adb15335ee08af5f58759b",
                 ),
+                (
+                    sha1: "2aaa25ec2f7dab8e5e34bafe01ae10156037248f",
+                    label: Some("alt [a]"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("TechnoVision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3c0f973f2b31c14dc3ad2d91fe8bbbb42bce269",
+                ),
+            ],
+        ),
+        (
+            title: Some("Fox & Goat"),
+            label: Some("Double-Game Package (with Pygmy)"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Otto Versand"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6ced6c763b9843c11af6c45ffa7ab9a295cc78bb",
+                ),
+            ],
+        ),
+        (
+            title: Some("Fox & Goat"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
             publisher: Some("Starsoft"),
             hardware: (
                 tv_format: Some(Pal),
@@ -21,9 +84,7 @@
             artifacts: [
                 (
                     sha1: "9b6421326fd8434277ec88e0cec307be700be99d",
-                ),
-                (
-                    sha1: "d3c0f973f2b31c14dc3ad2d91fe8bbbb42bce269",
+                    label: Some("[p]"),
                 ),
             ],
         ),

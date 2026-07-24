@@ -1,0 +1,94 @@
+(
+    title: "Flag Capture",
+    developer: Some("Jim Huether"),
+    description: Some("On a grid of blank squares the player hunts for a hidden flag, each guess answered by an arrow or a number pointing the way toward it — the goal is to uncover it in as few tries as possible. A two-player mode brings a second flag-hunter into the same grid."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/flag_capture.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Flag_Capture",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/48A484105AFCDBF91E91B5C6B5FA1EF4910DC8F1",
+    ],
+    mods: [
+        (
+            name: "Flag Capture Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("ac05f05f3365f5e348e1e618410065a1c2a88ee4"),
+                    artifacts: [
+                        (
+                            sha1: "79eeedcce1ffea63891436a62a2fa3300b9d9d54",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ac05f05f3365f5e348e1e618410065a1c2a88ee4",
+                ),
+                (
+                    sha1: "7ce954296b7742e5fa072723d0d8299fd5726e93",
+                    label: Some("overdump [o]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("32 in 1"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a519d25d60737605b9b83fc4d1cb7402bfed082d",
+                ),
+                (
+                    sha1: "a89490ec3f2a69ac0cc317cb30d6622a8e5c5f68",
+                    label: Some("overdump [o]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5f4fa8c7a40f1ec62b03b8e86807c98c86a0819e",
+                ),
+            ],
+        ),
+    ],
+)

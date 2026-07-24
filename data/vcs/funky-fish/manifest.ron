@@ -1,9 +1,26 @@
 (
-    title: "Funky Fish (2)",
+    title: "Funky Fish",
+    developer: Some("UA Limited"),
+    description: Some("An underwater shooter in which the player\'s fish blasts bubbles at the guard fish ringing each of five boss monsters — downed guards drop as fruit to be gobbled up before they revert to enemies. A power gauge drains steadily, so every boss must be reached and beaten before it empties, with a sonar sweep to hunt them down and a brief recharge each time a ring is cleared."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/funkyfish/funkyfish.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9DF0F81676637A778A5E854CC896117CF861AEB8",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("UA Limited"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("UA"),

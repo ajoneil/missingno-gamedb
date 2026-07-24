@@ -1,7 +1,22 @@
 (
     title: "Final Approach",
+    description: Some("As an air-traffic controller at a busy international airport, the player steers incoming aircraft around a radar screen, keeping them spaced apart, then switches to a ground-approach view to line each plane up on the glide slope and localizer for a safe touchdown. Let two aircraft drift too close and it counts as a near-miss; any plane that starts flashing has an emergency and must be given priority and landed at once."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/final_approach.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B0ED55033EB15212BE1D5D03D738694CCC86C435",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Apollo"),
             hardware: (

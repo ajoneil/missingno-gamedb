@@ -1,7 +1,41 @@
 (
     title: "Football",
+    developer: Some("Bob Whitehead"),
+    description: Some("A two-player game of gridiron — orange team versus white — where each side programs one of five offensive or defensive formations before every snap. The offense has four downs to move the ball past the first-down marker by running, passing or punting, while the defense hunts down the ball carrier to end the drive, all racing a five-minute clock that ticks only during live play."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/football.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A852DD173C9F200BFCE6243C5F9C4C0093BE485D",
+    ],
+    mods: [
+        (
+            name: "Footballz",
+            category: ContentChange,
+            author: Some("Lord Mike"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("c6fe4ce24bc1ebd538258d98cfe829963323acca"),
+                    artifacts: [
+                        (
+                            sha1: "ef6ed09031799d2064404c1ce12b11e122e11733",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1979"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,22 +46,14 @@
                 (
                     sha1: "c6fe4ce24bc1ebd538258d98cfe829963323acca",
                 ),
-            ],
-        ),
-        (
-            date: Some("1979"),
-            publisher: Some("Atari"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "8c7a39c952fb59c6fc7e3a59e3ae704d7b32cf23",
+                    label: Some("overdump [o]"),
                 ),
             ],
         ),
         (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("2K"),
@@ -35,11 +61,12 @@
             artifacts: [
                 (
                     sha1: "91575d27f4d8711c677bd528dcaeffee0df7e5b0",
+                    label: Some("208-in-1 extract"),
                 ),
             ],
         ),
         (
-            publisher: Some("4K"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -48,8 +75,22 @@
                 (
                     sha1: "5136110cbee0538cdefe4ceb024ec87bdd71270c",
                 ),
+            ],
+        ),
+        (
+            label: Some("Demo"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
-                    sha1: "9a26faddd1025c0fec88ab0e03bef931f37261ff",
+                    sha1: "76d2117698bc90cd5277fdc058a1abc2b37bd767",
                 ),
             ],
         ),

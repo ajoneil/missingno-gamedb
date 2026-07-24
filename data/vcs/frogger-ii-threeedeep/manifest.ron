@@ -1,0 +1,75 @@
+(
+    title: "Frogger II - Threeedeep!",
+    description: Some("The Frogger sequel stacks three interconnected screens into every level: the player steers a frog steadily upward, screen by screen, threading past the drifting hazards of each until it reaches a safe berth at the top. Fill every berth across all three tiers to leap to the next, tougher level."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Frogger_II:_ThreeeDeep!",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/frogger2.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Frogger%20II%20-%20Threeedeep%21%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Frogger II (F6 conversion)",
+            category: Compatibility,
+            author: Some("batari"),
+            releases: [
+                (
+                    base_sha1: Some("6b9e591cc53844795725fc66c564f0364d1fbe40"),
+                    artifacts: [
+                        (
+                            sha1: "20af9ffd6e3d77f57978ae18e07b8071c29b6dd7",
+                        ),
+                        (
+                            sha1: "26603d42db5d5db49897aa10bc69fa8c7eea1979",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6b9e591cc53844795725fc66c564f0364d1fbe40",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bce92de22fc8950f0eebb643d96fe9fa5dba2b72",
+                ),
+            ],
+        ),
+    ],
+)

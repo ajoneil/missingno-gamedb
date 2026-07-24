@@ -1,9 +1,54 @@
 (
     title: "Flash Gordon",
+    developer: Some("Sirius Software"),
+    description: Some("Flash Gordon pilots a rocket ship through the wrap-around tunnels of Spider City, rescuing the spacemen stranded there and wiping out the city\'s hatching pods. Nudging a pod hatches Spider Warriors he must gun down before they flee — five in a row earns a temporary shield — all while dodging indestructible Disruptors and patrol ships, and never shooting the very spacemen he came to save."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/flash_gordon.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C826423B827CC898EB441EDC1E4B7C41729F2793",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fb870ec3d51468fa4cf40e0efae9617e60c1c91c",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("20th Century Fox Video Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9df3f13e143a8f36095d5b751867baf822d04dca",
+                    label: Some("[p]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -14,22 +59,6 @@
                 ),
                 (
                     sha1: "c9675e6a52f4378e29ad9450103f86ca3eed6499",
-                ),
-                (
-                    sha1: "fb870ec3d51468fa4cf40e0efae9617e60c1c91c",
-                ),
-            ],
-        ),
-        (
-            date: Some("1983"),
-            publisher: Some("20th Century Fox"),
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
-                (
-                    sha1: "9df3f13e143a8f36095d5b751867baf822d04dca",
                 ),
             ],
         ),

@@ -1,7 +1,22 @@
 (
     title: "Fire Fly",
+    description: Some("Marooned on a planet whose insect inhabitants have rebuilt themselves as murderous machines, the player pilots the Firefly across a run of single-screen gauntlets, blasting each foe with energy shots. The first task is to rescue the Pixy — the planet\'s last living creature, guarded by a killer bee — then survive escalating threats like a seed-spitting flaming pumpkin, demons and coiled serpents, with defeated enemies leaving treasures to collect."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fire_fly.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/308BAFD7184E9D27594D674C43712DE39FBD0DF1",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Mythicon"),
             hardware: (
@@ -10,10 +25,20 @@
             ),
             artifacts: [
                 (
-                    sha1: "965af39767b2c88cfb53017d06a8205895177232",
-                ),
-                (
                     sha1: "df5420eb0f71e681e7222ede8e211a7601e7a327",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            publisher: Some("Mythicon"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "965af39767b2c88cfb53017d06a8205895177232",
                 ),
             ],
         ),

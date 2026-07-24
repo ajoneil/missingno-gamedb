@@ -1,7 +1,45 @@
 (
     title: "Frogs and Flies",
+    developer: Some("Peter Kaminski, Tom Soulanille"),
+    description: Some("Two frogs face off across a pond, each leaping between lily pads and flicking out its tongue to snatch the flies buzzing past — the tongue only connects when the frog is lined up just ahead of or behind a bug, so timing is everything. As the sky darkens from day to dusk over the round, whichever frog has swallowed the most flies by nightfall wins."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Frogs_and_Flies",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/frogs_flies.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Frogs%20and%20Flies%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Frogs and Flies (Screen Search Console)",
+            category: ContentChange,
+            author: Some("Jone Yuan Telephonic Enterprise Co"),
+            releases: [
+                (
+                    base_sha1: Some("f344d5a8dc895c5a2ae0288f3c6cb66650e49167"),
+                    artifacts: [
+                        (
+                            sha1: "b5a143cb046953a69f76cb2f903e61350f0de265",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (
@@ -10,14 +48,14 @@
             ),
             artifacts: [
                 (
-                    sha1: "b5a143cb046953a69f76cb2f903e61350f0de265",
-                ),
-                (
                     sha1: "f344d5a8dc895c5a2ae0288f3c6cb66650e49167",
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1988"),
             publisher: Some("Telegames"),
             hardware: (
@@ -27,6 +65,7 @@
             artifacts: [
                 (
                     sha1: "7682b4b6d45865b7eec1244e5d76f0f2efdb17e7",
+                    label: Some("[p]"),
                 ),
             ],
         ),

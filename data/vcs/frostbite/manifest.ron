@@ -1,41 +1,48 @@
 (
     title: "Frostbite",
+    developer: Some("Steve Cartwright"),
+    description: Some("Frostbite Bailey leaps across four rows of drifting ice floes, stamping each white floe — it flips to blue — to haul back another block and raise his igloo before the temperature gauge ticks down to nothing. Killer clams, snow geese, king crabs and a prowling polar bear all want him in the water; grab a passing fish for bonus points, then dive into the finished igloo to bank the leftover warmth."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Frostbite_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/frostbite.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Frostbite%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
-            publisher: Some("CCE"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "2f0ed5e015689a0cea33a95d990dedca2ab76142",
-                ),
-                (
-                    sha1: "33504583a21ccb3788a237a3effc49836b52589d",
-                ),
-                (
-                    sha1: "3a5de073323a26fda9a6ad1590d26c74d7a42192",
-                ),
-                (
-                    sha1: "7bab7c79d867c4fdbde8678fd2b5942e26d3ce02",
-                ),
-                (
-                    sha1: "7fbf0d1f8aa9f9ff85b513143c9fce653e8b6569",
-                ),
-                (
-                    sha1: "a56fe9989467d60856b3e3b27a6a1c913a281bd4",
-                ),
-                (
                     sha1: "b9e60437e7691d5ef9002cfc7d15ae95f1c03a12",
                 ),
                 (
-                    sha1: "c9a7f8bd97d154cb9d4286429bf71bf227924040",
+                    sha1: "186d9e8d0505e0b489a49573664a112053c230ed",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
@@ -45,7 +52,85 @@
             artifacts: [
                 (
                     sha1: "1c529b13c1f77af1c9f4d2a74e7ad6ab2b44a1fd",
+                    label: Some("[p]"),
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f0ed5e015689a0cea33a95d990dedca2ab76142",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digitel"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3a5de073323a26fda9a6ad1590d26c74d7a42192",
+                    label: Some("[p]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7fbf0d1f8aa9f9ff85b513143c9fce653e8b6569",
+                    label: Some("[p]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33504583a21ccb3788a237a3effc49836b52589d",
+                ),
+                (
+                    sha1: "7bab7c79d867c4fdbde8678fd2b5942e26d3ce02",
+                ),
+                (
+                    sha1: "a56fe9989467d60856b3e3b27a6a1c913a281bd4",
+                ),
+                (
+                    sha1: "c9a7f8bd97d154cb9d4286429bf71bf227924040",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "1d34604d61653ab2600e63490ad0d1055a9781d2",
                 ),

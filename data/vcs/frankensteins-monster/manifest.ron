@@ -1,0 +1,91 @@
+(
+    title: "Frankenstein\'s Monster",
+    description: Some("To keep Dr. Frankenstein\'s monster from waking, the player hauls bricks up from the castle dungeon — six loads in all — to wall the creature in before a rising electrical storm charges the Power Probe that would animate it. Acid pits, spiders and bats harry the climb; fail to finish the barricade in time and the monster tears free, lurching forward until it fills the screen."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/frankensteins_monster.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Frankenstein%27s_Monster_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AF1423574BCA5B44FA2CC62389DD36237CB086FE",
+    ],
+    mods: [
+        (
+            name: "Frankenstein\'s Monster Trainer",
+            category: QualityOfLife,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("c6023bf73818c78b2e477a9c6dac411cdbf9c0aa"),
+                    artifacts: [
+                        (
+                            sha1: "0bbe084c78a80e6155f8592f39990e06e9dc5c68",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c6023bf73818c78b2e477a9c6dac411cdbf9c0aa",
+                ),
+                (
+                    sha1: "bab5ddd55cd57bb3c5e2c3ca621e48b183f945f4",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d3dfa61835b96aae6855f7caba0c456a2a9816a4",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4552ec40f67bb627cbc016344580f82e62357e41",
+                ),
+            ],
+        ),
+    ],
+)

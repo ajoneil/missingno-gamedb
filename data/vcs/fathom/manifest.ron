@@ -1,0 +1,78 @@
+(
+    title: "Fathom",
+    developer: Some("Rob Fulop"),
+    description: Some("The player is Proteus, a shape-shifter who dives as a dolphin — collecting seahorses while dodging octopuses and seaweed — then turns into a seagull to soar overhead, gathering clouds past hostile birds and erupting volcanoes. Each starfish that appears yields a shard of Neptune\'s trident; gather all three and dive to free the caged mermaid Neptina, whereupon the map widens and the hunt starts again."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fathom.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Fathom_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/53C37746FCC2DD0C93FC7F4A69F470CA40273FD0",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "686427cc47b69980d292d04597270347942773ff",
+                ),
+                (
+                    sha1: "6c78d1efa872828e758f432a157b83d3a87a1223",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "806e3eb977dffe86fb09ad2d8d4e1766fb7aa539",
+                ),
+                (
+                    sha1: "3be90b09c6bd5f38b0a15bf6401250f6eeeea58b",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5ea2b3dade89f1d9a9ffdcbd28ea77295a7bdc0a",
+                ),
+            ],
+        ),
+    ],
+)

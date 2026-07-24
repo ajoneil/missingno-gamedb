@@ -1,9 +1,41 @@
 (
     title: "Forest",
+    description: Some("A poor woodcutter sets out to fell trees for his family, but a witch has turned the forest\'s animals against him, sending them at him along the ground while a bird drops stones from above. He hacks the creatures down with his ax or leaps over them — the snake can only be jumped, never killed — and every third screen he must chop through a tree, four blows to a side, before the run begins again a little faster."),
+    links: [
+        (
+            name: "AtariAge",
+            url: "https://atariage.com/software_page.php?SoftwareID=3022",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://atariage.com/manual_thumbs.php?SoftwareLabelID=1591",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B00030584043ED0E840F96BC117792445B50099B",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
-            publisher: Some("Goliath"),
+            publisher: Some("Sancho"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "790e0a597270a5090110e3bfbdc3a076a47ced14",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -11,9 +43,6 @@
             artifacts: [
                 (
                     sha1: "2914f525f21cc28c352f631c95a29c8f32a775d8",
-                ),
-                (
-                    sha1: "790e0a597270a5090110e3bfbdc3a076a47ced14",
                 ),
             ],
         ),

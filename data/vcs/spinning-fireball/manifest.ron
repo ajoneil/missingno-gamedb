@@ -1,7 +1,36 @@
 (
     title: "Spinning Fireball",
+    description: Some("The player is a wizard who winds up a spinning fireball, holding it to build rotation before loosing it at the enemy catapult across the field — the direction of spin bends the shot\'s flight path. Landing a hit clears the level, while a fireball that ricochets back, the catapult\'s return fire, or the ever-shrinking time limit each cost a life."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/firespinner/firespinner.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3D14DE15AF7DF0D985EB39FCD41E7E86FC18A978",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e30e6195642884954bc98df2e82c3e972db49a57",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -13,6 +42,11 @@
             ],
         ),
         (
+            title: Some("Fire Spinner"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
             publisher: Some("Emag"),
             hardware: (
                 tv_format: Some(Pal),
@@ -21,6 +55,7 @@
             artifacts: [
                 (
                     sha1: "a979bb0bc94dcb74d67ca1591e75d42318766767",
+                    label: Some("[p]"),
                 ),
             ],
         ),

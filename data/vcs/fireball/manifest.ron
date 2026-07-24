@@ -1,0 +1,87 @@
+(
+    title: "Fireball",
+    description: Some("A Breakout descendant in which the player works an animated juggler along the foot of the screen — one who can catch a fireball and hurl it back into the brick walls, not merely bat it away. Up to six fireballs can be in play at once, and the wall patterns shift across five modes (Firetrap, Knock-a-block, Marching Blocks, Migrating Blocks and Cascade) as the bricks march, migrate and cascade."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Fireball_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/fireball.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/CEB852182317AE99D0298318BD32FB72BC803C0B",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Arcadia Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "20322ad5eb2ad1c11b454d99126ce3b185351e99",
+                    label: Some("Preview"),
+                ),
+                (
+                    sha1: "9fa9ed2622d29636f175b8745892dde48a871fd1",
+                ),
+                (
+                    sha1: "50e6078a5e433c66c8b16671b1a44336f595b238",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "f7133999d072ac0560c5a9a4ec46fdd94b52dde6",
+                ),
+                (
+                    sha1: "f936c2ebc26c025e4904ae8d01be5f3e66249adb",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "fd9ba06548a16067f1a3ab1ef48e3f32d6199191",
+                ),
+            ],
+        ),
+    ],
+)
