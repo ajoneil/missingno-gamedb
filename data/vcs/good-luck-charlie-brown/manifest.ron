@@ -1,8 +1,21 @@
 (
-    title: "Good Luck, Charlie Brown (04-18-1984)",
+    title: "Good Luck, Charlie Brown",
+    developer: Some("Christopher Omarzu"),
+    description: Some("An unfinished Atari game of Charlie Brown flying a kite: you walk him left and right and work the joystick up and down to feed out or reel in the string, keeping the kite aloft as long as you can while dodging birds, balloons, rockets and the dreaded Kite-Eating Tree. It never got far — a single screen, no sound, and the planned leaf-raking penalty for a lost kite went unbuilt."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/charliebrown/charliebrown.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D2CCE164C03AE7B821729C8AE694E762D10C62B8",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1984"),
+            date: Some("1984-04-18"),
             publisher: Some("Atari"),
             status: Prototype,
             hardware: (

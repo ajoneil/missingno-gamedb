@@ -1,5 +1,23 @@
 (
     title: "Gopher",
+    developer: Some("Sylvia Day"),
+    description: Some("A farmer guards three carrots from a gopher that burrows back and forth underground and pops up to snatch them. With a shovel you bonk it back down or fill in its holes before it surfaces; when a carrot is lost, you catch the seeds a passing duck drops to replant it. The gopher only speeds up, and the game ends once all three carrots are gone."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Gopher_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/gopher.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/52497BA0D70EE59BD2F092328F0D72200383BAF0",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),
@@ -12,14 +30,11 @@
                 (
                     sha1: "97fb489ba4ce0f8a306563063563617321352cfb",
                 ),
-                (
-                    sha1: "b4368249e372aae53fdd226833b6d1b168623343",
-                ),
             ],
         ),
         (
+            label: Some("unidentified"),
             date: Some("1982"),
-            publisher: Some("US Games"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -27,9 +42,26 @@
             artifacts: [
                 (
                     sha1: "0f15ee48cc68630ebbf3e43d37528c5088506245",
+                    label: Some("[p] pirate"),
                 ),
                 (
                     sha1: "5d8226c4bcbad63a11884d0e2cc6a6e55daafe15",
+                ),
+                (
+                    sha1: "599910eaeb65de07883280ba8d86e10bd382e9af",
+                    label: Some("208-in-1 extract"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b4368249e372aae53fdd226833b6d1b168623343",
                 ),
             ],
         ),

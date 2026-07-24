@@ -18549,5 +18549,29 @@
             ],
             note: "Fireball is a Starpath/Arcadia Supercharger (AR cart_type) single-load cassette game. It does not load correctly in missingno: on boot only a few lines render at the top of the screen and the rest is static/noise — it never reaches a playable state. missingno\'s AR (Supercharger) support needs work. Another AR/Supercharger data point alongside earlier Supercharger flags (#2892 Supercharger behaviour; Mindmaster/Dragonstomper multiload #2895/#2896).",
         ),
+        (
+            id: 2899,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/ghost-manor",
+            ],
+            note: "missingno does not load overdumped ([o]) dumps: an 8K [o] dump of this 4K game does not boot when the release carries the game\'s true 4K board (only the correctly-sized 4K dump loads). Overdump padding is not reduced to the smaller board. General emulator limitation, surfaced on this entry (its NTSC and PAL dumps are all [o] overdumps).",
+        ),
+        (
+            id: 2900,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/going-up",
+            ],
+            note: "Starpath Supercharger (cart_type AR) title does not load in missingno: the Supercharger/AR board is unsupported, so this prototype does not boot. Same limitation as the other AR/Supercharger entries (Supercharger multiloads and AR carts generally).",
+        ),
+        (
+            id: 2901,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/grovers-music-maker",
+            ],
+            note: "Requires the Atari Kid\'s Controller (a large keypad-style controller); missingno does not support the Keypad/Kid\'s Controller, so the game cannot be played as intended. Same limitation as other Keypad-controller games.",
+        ),
     ],
 )

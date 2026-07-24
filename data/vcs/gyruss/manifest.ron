@@ -1,7 +1,27 @@
 (
     title: "Gyruss",
+    description: Some("A tube shooter where your ship circles the rim of the screen rather than sliding across it, guns pointed inward at the enemies swarming up from the centre. You are threading the solar system from beyond Neptune toward Earth, surviving waves of attack formations, meteors and runaway satellites at each planet along the way and grabbing a satellite power-up for a twin cannon. Orbit right, arc left, blast, and push one planet closer to home."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/gyruss.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Gyruss",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Gyruss%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Parker Brothers"),
             hardware: (
@@ -12,12 +32,12 @@
                 (
                     sha1: "4bd87ba8b3b6d7850e3ea41b4d494c3b12659f27",
                 ),
-                (
-                    sha1: "a28ff706f0a3f44ad3f4dd7f31622e023bb9240c",
-                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1984"),
             publisher: Some("Parker Brothers"),
             hardware: (
@@ -28,6 +48,50 @@
                 (
                     sha1: "598f710b7474ed6e4e7c13cc0294a4deba8faa87",
                 ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c159f76f0b8de3f2b73dd4163bfd3c86bf002cb5",
+                    label: Some("[a] PAL"),
+                ),
+                (
+                    sha1: "07276e7c5c2073d5f46ed55f15422f8da87b1f82",
+                    label: Some("[a1] NTSC"),
+                ),
+                (
+                    sha1: "96011c201b87d7c35d3c4fccb4163042bea3dc78",
+                    label: Some("[a2] NTSC"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a28ff706f0a3f44ad3f4dd7f31622e023bb9240c",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
                 (
                     sha1: "eb282e2a0bcc644afb65bf19544099a616d52193",
                 ),

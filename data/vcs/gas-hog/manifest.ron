@@ -1,0 +1,90 @@
+(
+    title: "Gas Hog",
+    description: Some("On an alien battlefield you drive a laser-armed car across the terrain, blasting or leaping the craft that swarm in while dodging the bombs a ship overhead keeps dropping. The catch is fuel: your tank drains fast, and once it runs dry you must turn back to collect gas — surrendering hard-won ground — before pressing on toward the far side."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-gas-hog_16712.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/410C212579F2320A84B9A5B84BC22C03DB4EDE0F",
+    ],
+    mods: [
+        (
+            name: "Supercharger Conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("0da1f2de5a9b5a6604ccdb0f30b9da4e5f799b40"),
+                    artifacts: [
+                        (
+                            sha1: "cf2fb3d0a084fb2a94b69cb43ac2697af8a68a53",
+                        ),
+                        (
+                            sha1: "e2ea7eb00afd5ae12dcec9cac3e0b5158595c440",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0da1f2de5a9b5a6604ccdb0f30b9da4e5f799b40",
+                ),
+                (
+                    sha1: "e919ee03e8a17fd85be1e53b4d5ff76dae54d099",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a3bdb746acdc02267ddf6e3975a44c0acc09334",
+                ),
+                (
+                    sha1: "977ab3219dd8099c3b0e632d099208117d87ebfb",
+                ),
+                (
+                    sha1: "98a824afa916b11f31f32e489749ba92ccb48944",
+                ),
+            ],
+        ),
+        (
+            title: Some("Piraten Schiff"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3696575988be6814b6c0eebab2285c471f94a127",
+                ),
+            ],
+        ),
+    ],
+)

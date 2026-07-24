@@ -1,5 +1,17 @@
 (
     title: "Ghostbusters",
+    description: Some("You bankroll a Ghostbusters franchise — kitting out a car with capture gear and driving to the hauntings that flash across a city map to trap ghosts and collect the fees. Every escaped spirit raises the city\'s PK energy and feeds a rampaging Stay Puft Marshmallow Man that must be headed off; when the meter finally maxes out, you make a last dash past him to bring down the Temple of Zuul."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Ghostbusters_(1984_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Ghostbusters%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1985"),
@@ -11,9 +23,6 @@
             artifacts: [
                 (
                     sha1: "5ed0b2cb346d20720e3c526da331551aa16a23a4",
-                ),
-                (
-                    sha1: "a7146e759f9590d920c06e3851c3668f612f85c9",
                 ),
             ],
         ),
@@ -30,6 +39,23 @@
                 ),
                 (
                     sha1: "f5d719d51550248c3039ef20a2ad4080cfdae064",
+                    label: Some("alt [EAZ-108-04B]"),
+                ),
+                (
+                    sha1: "50f2bcb9423b29e3f6a84c07e327ad114f405101",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a7146e759f9590d920c06e3851c3668f612f85c9",
                 ),
             ],
         ),

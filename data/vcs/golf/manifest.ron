@@ -1,0 +1,102 @@
+(
+    title: "Golf",
+    description: Some("A nine-hole, par-36 round played from overhead. You have a single club: hold the button to wind up a longer backswing for more power, and set your aim by walking the golfer around the ball. Water costs a penalty stroke, trees knock the ball back, and sand and rough swallow it and sap its momentum. Reach the green and the view zooms in for the putt."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Golf_(Atari_2600_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Golf%20%28USA%29.png",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a25d52770408314dec6f41aaf5f9f0a2a3e2c18f",
+                ),
+                (
+                    sha1: "00cd8fe0c6a9b0a41491e011d361651643d6a8ce",
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b87fbeb369b21f733e0eeb28b9a19a8e24f30c9e",
+                ),
+            ],
+        ),
+        (
+            label: Some("32-in-1"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6a514b2cffbe7f30d92be33d1fb7fa8ef4e74bc6",
+                    label: Some("32-in-1 [o]"),
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "e728c46f6c1608b43a59229fb463f3f87f00e993",
+                    label: Some("32-in-1 extract"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a8a8701088bc69fd4c888502c2bfa2c9f9e2a46",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3c39d2fdecec8b3fcf3603d9c663b84c682f637c",
+                ),
+                (
+                    sha1: "b7e7e81d2bfded7c16075a8e75be6fc816318f9f",
+                    label: Some("[p][o] MiniGolf"),
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+    ],
+)

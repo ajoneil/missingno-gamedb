@@ -1,7 +1,28 @@
 (
     title: "Grand Prix",
+    developer: Some("David Crane"),
+    description: Some("A Formula One time trial across four horizontally-scrolling tracks of rising difficulty, seen from above. You hold the button to accelerate and weave up and down the road to thread past the slower cars strewn in your way — clip one and you bleed speed — chasing the fastest possible time to the finish. There is no rival to beat, only the clock."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Grand_Prix_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/grand_prix.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0BFDB2AE7AD18EA37A8BC8CFCDDB8933454BC94B",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Activision"),
             hardware: (
@@ -12,26 +33,11 @@
                 (
                     sha1: "24fab817728216582b6d95558c361ace66abf96f",
                 ),
-                (
-                    sha1: "289abf145dc62b5a86589e39239ff1c400c4be0c",
-                ),
-                (
-                    sha1: "5c57d8954357651e11bfba492444f69a9c7443eb",
-                ),
-                (
-                    sha1: "8701757011891e49b6df7b0dcb9016a25b1b0021",
-                ),
-                (
-                    sha1: "c2da358a5eefb4a136fd678d03e8fe8879a3a6f1",
-                ),
-                (
-                    sha1: "f34157f444d2f55699014d81e82d054eff1afc41",
-                ),
             ],
         ),
         (
+            label: Some("16K version"),
             date: Some("1982"),
-            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F6"),
@@ -43,6 +49,11 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -51,6 +62,65 @@
                 (
                     sha1: "32c9f57e79f07e56808cece24e503fbc325a60df",
                 ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5c57d8954357651e11bfba492444f69a9c7443eb",
+                ),
+                (
+                    sha1: "8701757011891e49b6df7b0dcb9016a25b1b0021",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Robby"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c2da358a5eefb4a136fd678d03e8fe8879a3a6f1",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "289abf145dc62b5a86589e39239ff1c400c4be0c",
+                ),
+                (
+                    sha1: "f34157f444d2f55699014d81e82d054eff1afc41",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "e3e4f49eb6f8e0e721fd0157ede88865b75de1b2",
                 ),

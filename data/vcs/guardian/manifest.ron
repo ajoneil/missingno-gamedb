@@ -1,17 +1,44 @@
 (
     title: "Guardian",
+    description: Some("You steer the starship Guardian along the foot of the screen while the enemy Dromeda drifts across the top, raining thermo-molecular bombs down on the three worlds you protect. Your laser can\'t reach Dromeda itself, so you pick off each bomb before it lands — miss, and it tears through a planet\'s force field; let the gap widen and the next one through destroys a world. Hold on until the last planet falls."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/guardian.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8737230CE2C5B6EFB3172AC46BC0891AEAF8C32A",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Apollo"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "7d30ff565ad7b2a3143d049c5b39e4a6ac3f9cd5",
                 ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "a034090e4a72ac4006952a7f021ea0d08639f577",
                 ),

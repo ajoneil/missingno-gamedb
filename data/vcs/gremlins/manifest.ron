@@ -1,7 +1,28 @@
 (
     title: "Gremlins",
+    developer: Some("Scott Smith"),
+    description: Some("A two-screen movie tie-in. First you scramble Billy Peltzer side to side to catch the falling mogwai before they reach the food and turn into gremlins — and keep them clear of the puddles, since water makes anything that touches it multiply. Then it flips to a shooting gallery where you gun down the descending gremlin waves, with a few flash cubes held back to clear the screen when the swarm doubles and triples."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Gremlins_(Atari_2600)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/gremlins.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Gremlins%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,6 +33,18 @@
                 (
                     sha1: "7a027329309e018b0d51adcb6ae13c9d13e54f4a",
                 ),
+            ],
+        ),
+        (
+            title: Some("Gargoyle"),
+            date: Some("1984-03-12"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
                 (
                     sha1: "df506a506eb333295e56cb9e4204e327ef63127d",
                 ),

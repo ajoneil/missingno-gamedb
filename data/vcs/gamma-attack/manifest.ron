@@ -1,5 +1,39 @@
 (
     title: "Gamma-Attack",
+    description: Some("You pilot the last Gamma ship, hovering above a planet overrun by Vegan laser-pulse tanks and destroying them as you range across the surface. Every pulse that strikes you drops your hovering altitude a notch; clear the tanks to press on, but absorb enough hits and your ship crashes into the ground and the fight is over."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-gamma-attack_20510.html",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Gamma-Attack",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Gamma-Attack%20%28USA%29.png",
+    ],
+    mods: [
+        (
+            name: "Gamma Attack Left Joystick Edition",
+            category: Compatibility,
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("20abf6ba6a9685627220128babf74c303b7c8d30"),
+                    artifacts: [
+                        (
+                            sha1: "d472ba912b07d865762d27acaa3f7a9b522714e8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),

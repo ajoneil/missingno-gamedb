@@ -1,5 +1,18 @@
 (
     title: "Glacier Patrol",
+    developer: Some("VSS, Inc."),
+    description: Some("An alien mother ship hangs overhead, raining ice to bury the planet, and your super-heated laser is the only answer — you blast the falling blocks apart before they blanket the ground while leaping the snowballs that roll in at your feet. Take a snowball hit and you are stunned for a moment as the ice keeps stacking up."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/atari-2600/glacier-patrol",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/200570D3A3F91093539C75B75F50DC4B7B6955D9",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1988"),
@@ -15,8 +28,8 @@
             ],
         ),
         (
+            label: Some("unidentified"),
             date: Some("1988"),
-            publisher: Some("Telegames"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),

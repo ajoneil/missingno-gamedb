@@ -1,5 +1,83 @@
 (
     title: "Gangster Alley",
+    description: Some("Outlaws pop from the windows and rooftop of a building down the alley, and you swing a gunsight across the scene to pick them off before they draw on you. Ammunition is limited, and every hit you take strips away one of your bulletproof vests; the rooftop bomber must be dropped the instant he raises a grenade or it is game over at once."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-gangster-alley_16717.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/83074067EBF1EDAFCDD48F5E7D1BECB8CC1BFF1C",
+    ],
+    mods: [
+        (
+            name: "1932",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("8cf49d43bd62308df788cfacbfcd80e9226c7590"),
+                    artifacts: [
+                        (
+                            sha1: "58dbd58a95aa3e7e6db0fb2b316b3c95ea8e46c0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Fast Draw",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("8cf49d43bd62308df788cfacbfcd80e9226c7590"),
+                    artifacts: [
+                        (
+                            sha1: "245a6720a55fdd79cb60dea1b2055904de660593",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Punisher 2600",
+            category: ContentChange,
+            author: Some("Ronnie Dingman"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("8cf49d43bd62308df788cfacbfcd80e9226c7590"),
+                    artifacts: [
+                        (
+                            sha1: "0adab08d02996eecd164fc9b0e1cd486abafb0f7",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Showdown at Cactus Gulch",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("8cf49d43bd62308df788cfacbfcd80e9226c7590"),
+                    artifacts: [
+                        (
+                            sha1: "47cacd651322c2dd350fcb86d2e39b2fd48f32c2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),
@@ -12,8 +90,34 @@
                 (
                     sha1: "8cf49d43bd62308df788cfacbfcd80e9226c7590",
                 ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "ee7e37d5d6c8ba9b31fcd41124a72217b28d6a29",
+                ),
+            ],
+        ),
+        (
+            title: Some("Gangster Ruine"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "09c5017cff09ebb400573742cc99abc6e1577371",
                 ),
             ],
         ),

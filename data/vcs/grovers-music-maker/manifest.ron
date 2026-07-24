@@ -1,0 +1,41 @@
+(
+    title: "Grover\'s Music Maker",
+    developer: Some("Stephan Keith"),
+    description: Some("An unreleased Sesame Street music toy for young children. You pick letters to set Grover dancing to built-in tunes — each of his ten dance moves tied to a musical note — or switch to a record mode and punch in a sequence of up to fifty notes and moves for him to play back, composing a little song or a silly dance of your own."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/grover/grover.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/749AB9E4555AD355B79D02447638F3CEA4598B70",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-12-29"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "b9760ffba05139bca0fac3f7d3dc1e5d57600eda",
+                ),
+                (
+                    sha1: "c90acaee066f97efc6a520deb7fa3e5760a471fa",
+                ),
+            ],
+        ),
+    ],
+)

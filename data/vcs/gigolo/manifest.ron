@@ -1,5 +1,17 @@
 (
     title: "Gigolo",
+    description: Some("You steer a woman around a neighbourhood of twelve houses, memorising which seven the men slipped into after leaving the jail. Draw cash from the teller, then call on an occupied house to score — but a wrong or repeated door, or an empty wallet, leaves you open to the police, and holding too much money draws a mugger after you. Each bust costs one of your limited turns."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Gigolo_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Gigolo%20%28USA%29.png",
+    ],
+    curated: true,
     adult: true,
     releases: [
         (
@@ -11,10 +23,19 @@
             ),
             artifacts: [
                 (
-                    sha1: "2daf642e18b93037d269688658cb7e1cc6847ab1",
-                ),
-                (
                     sha1: "b64ed2d5a2f8fdac4ff0ce56939ba72e343fec33",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2daf642e18b93037d269688658cb7e1cc6847ab1",
                 ),
             ],
         ),

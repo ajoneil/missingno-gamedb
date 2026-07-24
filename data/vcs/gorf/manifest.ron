@@ -1,5 +1,22 @@
 (
     title: "Gorf",
+    description: Some("A multi-mission arcade shooter: you pilot a ship up through four escalating battles — a shielded stand against a Space Invaders-style swarm, a Laser Attack of dive-bombing formations, a Space Warp where enemies spiral out from the centre, and a final assault to punch through a flagship\'s force field and destroy its core. Clear each to advance, with the enemies stiffening as your rank climbs."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Gorf",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/gorf.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6CB4185914B56F520226B55AE8E5CCE8F1F1F233",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),
@@ -12,15 +29,12 @@
                 (
                     sha1: "35f8341c73c7e6e896cb065977427b3f98ae9f08",
                 ),
-                (
-                    sha1: "642d1afc6cdac96bbf2908fe69119823d077ef77",
-                ),
-                (
-                    sha1: "dd0625c442921cc65d91bbd0f2217837c1ce33b2",
-                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("CBS Electronics"),
             hardware: (
@@ -30,6 +44,21 @@
             artifacts: [
                 (
                     sha1: "d530e73e3a44b91f0f2cf74c520edf1c258d07ce",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "642d1afc6cdac96bbf2908fe69119823d077ef77",
+                ),
+                (
+                    sha1: "dd0625c442921cc65d91bbd0f2217837c1ce33b2",
                 ),
             ],
         ),

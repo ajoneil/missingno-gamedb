@@ -1,0 +1,53 @@
+(
+    title: "Ghost Manor",
+    description: Some("You guide a rescuer — boy or girl — through five screens of a haunted manor to free their captured friend. It opens in a graveyard, where brushing the skeletons on the gravestones earns spears to hurl at flying spooks and a chopping mummy at the gate; inside, you climb between floors dodging deadly sliding walls and raiding coffins for the crosses that finally drive Dracula up into the ceiling."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Ghost_Manor",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E1C6521DAB6F6F219B88A993743C9CA8B74D6290",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Xonox"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "12d2f7e75e9107093182dfcf3fb74370b0167c42",
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "e49f6f8352163c4d0cd9271265b48ac2da566185",
+                    label: Some("alt [a]"),
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Xonox"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8b8540f7be7ca6475d9ec7c7b1ea8f0471c8b1fb",
+                ),
+                (
+                    sha1: "4b533776dcd9d538f9206ad1e28b30116d08df1e",
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+    ],
+)

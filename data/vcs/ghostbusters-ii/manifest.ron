@@ -1,20 +1,44 @@
 (
     title: "Ghostbusters II",
-    releases: [
+    description: Some("A two-part game from the film. First a Ghostbuster is winched on a cable down the Van Horne shaft, swinging side to side to gather the three pieces of a slime scooper and bottles of courage while ghosts saw at the cable — proton beams, bombs and a shield fend them off — then scoops the river of slime at the bottom. Afterward, on Broadway, you aim the Statue of Liberty\'s torch to blast ghosts out of the sky and keep the slime beaker topped up."),
+    links: [
         (
-            date: Some("1992"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-ghostbusters-ii_7333.html",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/ghostbusters2.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B5DB0A592946C3E6C7268A303C495527A7EBE213",
+    ],
+    mods: [
+        (
+            name: "NTSC Conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "6c70db6a07ecb2c8bab4780b2e70585400342cfc",
+                    base_sha1: Some("e032876305647a95b622e5c4971f7096ef72acdb"),
+                    artifacts: [
+                        (
+                            sha1: "6c70db6a07ecb2c8bab4780b2e70585400342cfc",
+                        ),
+                    ],
                 ),
             ],
         ),
+    ],
+    curated: true,
+    releases: [
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1992"),
             publisher: Some("Salu"),
             hardware: (
@@ -24,6 +48,10 @@
             artifacts: [
                 (
                     sha1: "e032876305647a95b622e5c4971f7096ef72acdb",
+                ),
+                (
+                    sha1: "1bcf03e1129015a46ad7028e0e74253653944e86",
+                    label: Some("alt [a] (different tune)"),
                 ),
             ],
         ),

@@ -1,7 +1,28 @@
 (
     title: "Gravitar",
+    developer: Some("Dan Hitchens"),
+    description: Some("A gravity-bound space shooter. You fly a small ship through a star system, fighting the pull toward its central star as you dive onto planets — each a side-view cavern where you blast the red bunkers firing up at you and tug fuel pods aboard with a tractor beam while gravity drags you down. Clear a planet\'s guns, or thread the reactor tunnel and flee before it blows, then push on to systems where gravity itself turns against you."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Gravitar",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/gravitar.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Gravitar%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -10,10 +31,19 @@
             ),
             artifacts: [
                 (
-                    sha1: "22e1988e0bc5c40fe4247055d95b792e3c096380",
-                ),
-                (
                     sha1: "a372d4dd3d95b3866553cae2336e4565e00cc25b",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22e1988e0bc5c40fe4247055d95b792e3c096380",
                 ),
                 (
                     sha1: "acf83fcd64b326d7e2f0cd397473e44b6168c10c",

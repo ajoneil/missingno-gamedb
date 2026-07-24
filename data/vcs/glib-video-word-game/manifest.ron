@@ -1,9 +1,22 @@
 (
     title: "Glib - Video Word Game",
+    developer: Some("Qualtronic Devices, Inc."),
+    description: Some("A word game from the makers of Scrabble. Letters carrying Scrabble values wait in an upper rack, and you nudge them down into a lower one to spell words before a sliding time bar runs out — then Enter to bank the word or Pass to skip. Across five modes the letters behave differently, some parading across to be caught on the fly, others gone once they slide off the edge."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/glib.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5F371BC3682B9BF00FEC26F149E1F51F47442B4A",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
-            publisher: Some("QDI"),
+            publisher: Some("Selchow & Righter"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
