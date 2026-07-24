@@ -126,6 +126,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                     Ok(sha1) => artifacts.push(Artifact {
                         sha1,
                         label: None,
+                        defect: None,
                         size: None,
                     }),
                     Err(e) => report.add("Invalid hashes dropped", format!("{member_slug}: {e}")),

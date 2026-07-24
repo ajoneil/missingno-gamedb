@@ -197,6 +197,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     Ok(sha1) => artifacts.push(Artifact {
                         sha1,
                         label: None,
+                        defect: None,
                         size: rom.attribute("size").and_then(|s| s.parse().ok()),
                     }),
                     Err(e) => report.add("Invalid DAT sha1 skipped", format!("{name:?}: {e}")),
@@ -588,6 +589,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
             .map(|sha1| Artifact {
                 sha1,
                 label: None,
+                defect: None,
                 size: None,
             })
             .collect();

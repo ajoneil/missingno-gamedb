@@ -106,6 +106,7 @@ fn run_tree<P: Platform>(
                 Ok(sha1) => artifacts.push(Artifact {
                     sha1,
                     label: None,
+                    defect: None,
                     size: None,
                 }),
                 Err(e) => report.add("Invalid hashes dropped", format!("{}/{slug}: {e}", P::DIR)),

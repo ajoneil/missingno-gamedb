@@ -110,11 +110,13 @@ pub struct Release<P: Platform> {
 
 /// How finished a release is. `WorkInProgress` is an unfinished version the
 /// author published; `Beta`/`Prototype` are pre-release builds, usually dumps
-/// that were never meant to circulate.
+/// that were never meant to circulate. `Demo` is a limited promotional build
+/// that shipped as its own product (a store-demo cartridge), not the full game.
 #[derive(Serialize, Deserialize, Default, Clone, Copy, PartialEq, Eq, Debug)]
 pub enum ReleaseStatus {
     #[default]
     Released,
+    Demo,
     WorkInProgress,
     Beta,
     Prototype,
@@ -125,12 +127,39 @@ pub enum ReleaseStatus {
 #[serde(deny_unknown_fields)]
 pub struct Artifact {
     pub sha1: Sha1,
-    /// What distinguishes this dump when a release has several: "alt",
-    /// "overdump", "[a1]" — dump-level variance, not release facts.
+    /// What distinguishes this dump when a release has several: "alt", "[a1]" —
+    /// benign dump-level variance, not release facts. A quality *problem* goes
+    /// in `defect`, not here.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub label: Option<String>,
+    /// A quality problem with this dump, if any. Separate from `label` so the
+    /// two severities are queryable: an overdump still plays, a bad dump does not.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub defect: Option<Defect>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub size: Option<u64>,
+}
+
+/// A quality problem with a specific dump — distinct from the benign `label`
+/// that merely tells sibling dumps apart.
+#[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum Defect {
+    /// A padded dump: larger than the ROM, so it fingerprints as a bigger
+    /// board, but still plays correctly. Harmless — recorded so it is not
+    /// mistaken for a distinct release (TOSEC `[o]`).
+    Overdump,
+    /// A corrupt or truncated dump that does not play correctly (TOSEC `[b]`).
+    BadDump,
+}
+
+impl Defect {
+    /// Short human-readable name for display.
+    pub fn label(self) -> &'static str {
+        match self {
+            Defect::Overdump => "overdump",
+            Defect::BadDump => "bad dump",
+        }
+    }
 }
 
 #[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
