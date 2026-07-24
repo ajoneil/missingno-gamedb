@@ -126,23 +126,27 @@ fn run_tree<P: Platform>(
                     name: "Homebrew Hub ROM".to_owned(),
                     url: format!("{GBDEV_ENTRIES}/{slug}/{filename}"),
                     link_type: LinkType::Download,
+                    languages: Vec::new(),
                 });
                 links.push(Link {
                     name: "Homebrew Hub".to_owned(),
                     url: format!("https://hh.gbdev.io/games/{slug}"),
                     link_type: LinkType::DownloadPage,
+                    languages: Vec::new(),
                 });
             }
             LegacySource::Url(url) => links.push(Link {
                 name: "Download".to_owned(),
                 url,
                 link_type: LinkType::Download,
+                languages: Vec::new(),
             }),
         }
         links.extend(itch_links.into_iter().map(|link| Link {
             name: "itch.io".to_owned(),
             url: link.url,
             link_type: LinkType::DownloadPage,
+            languages: Vec::new(),
         }));
 
         let game = Game::<P> {

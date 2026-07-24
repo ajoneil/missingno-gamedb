@@ -168,6 +168,43 @@ pub struct Link {
     pub name: String,
     pub url: String,
     pub link_type: LinkType,
+    /// The languages this link's text is in. Empty = English (the database is
+    /// English-first, so most links carry no tag). A populated list names every
+    /// language present, so a trilingual manual reads `[English, German, French]`.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub languages: Vec<Language>,
+}
+
+/// A human language, for tagging non-English (or multilingual) links and — in
+/// future — releases whose text differs by language.
+#[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum Language {
+    English,
+    French,
+    German,
+    Spanish,
+    Italian,
+    Portuguese,
+    Dutch,
+    Japanese,
+    Swedish,
+}
+
+impl Language {
+    /// Short human-readable name for display.
+    pub fn label(self) -> &'static str {
+        match self {
+            Language::English => "English",
+            Language::French => "French",
+            Language::German => "German",
+            Language::Spanish => "Spanish",
+            Language::Italian => "Italian",
+            Language::Portuguese => "Portuguese",
+            Language::Dutch => "Dutch",
+            Language::Japanese => "Japanese",
+            Language::Swedish => "Swedish",
+        }
+    }
 }
 
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
@@ -180,6 +217,9 @@ pub enum LinkType {
     TechnicalReference,
     Guide,
     Community,
+    /// A page to buy the game — a store product page for a paid aftermarket or
+    /// homebrew cart, as opposed to a free `DownloadPage`.
+    Store,
     /// Where to get the ROM: a page to obtain it from (a forum thread or
     /// "download here" page, followed by a human), and a direct, fetchable ROM
     /// file URL. Split so a freeware game can carry whichever it has — some
