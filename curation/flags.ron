@@ -18534,14 +18534,6 @@
             note: "Multiload Supercharger game cannot be played: the combined three-load image is rejected at load (AR board accepts exactly one 8448-byte fastload image; no multiload/tape-swap mechanism), confirmed in playtest. Single parts construct but cannot progress past their load boundary. Same gap as flag #2895 (Escape from the Mindmaster).",
         ),
         (
-            id: 2897,
-            kind: EmulationIncompatibility,
-            subject: [
-                "vcs/fatal-run",
-            ],
-            note: "Extra road/playfield lines appear on screen that should not be present. Observed on BOTH the PAL Atari original dumps (d0bb58ea, e2ec51e4) AND Thomas Jentzsch\'s NTSC conversion (59d00454) — so it is the base game\'s rendering, not conversion-specific. Board is F4SC (Stella auto-detects F4SC for all Fatal Run dumps), so not a cart_type mismatch.",
-        ),
-        (
             id: 2898,
             kind: EmulationIncompatibility,
             subject: [
