@@ -1,0 +1,121 @@
+(
+    title: "Haunted House",
+    developer: Some("James Andreasen"),
+    description: Some("A pair of eyes drifting through Zachary Graves\' pitch-dark mansion — 24 rooms across four floors — hunting the three scattered pieces of a magic urn and carrying them back to the entrance one at a time. Matches light a room for a moment, a master key opens the locked doors, and an old scepter wards off the bats and spiders, though not always the ghost."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Haunted_House_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/haunted_house.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F70AB603A2812D126F66D4A33E23DA8ECBB9C877",
+    ],
+    mods: [
+        (
+            name: "Haunted House Stella",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("1476c869619075b551b20f2c7f95b11e0d16aec1"),
+                    artifacts: [
+                        (
+                            sha1: "b2bf655e119745df4d765a3d7dc8919b4f6bdbb8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-02"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1476c869619075b551b20f2c7f95b11e0d16aec1",
+                ),
+            ],
+        ),
+        (
+            label: Some("working titles: Mystery Mansion / Graves\' Manor / Nightmare Manor"),
+            date: Some("1981-08-12"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b98382af9287ab1fbfe375dd630b96bc0df78ec1",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "78f0894ab9386ff1dfb6f3e936e2473c5fa1a720",
+                ),
+            ],
+        ),
+        (
+            label: Some("Sears, CX2654 / 49-75141"),
+            date: Some("1981-09-28"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b841411b2c719a4a89498e8cac06c1c1986c794d",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "28739ef413912f0872fc93832830986ac148e0ca",
+                ),
+                (
+                    sha1: "9f3833b841cd154f775061bba97d383bae8de407",
+                ),
+                (
+                    sha1: "dadaf8ffd1d90835c4d54c8f43a78f4a6162e855",
+                ),
+            ],
+        ),
+    ],
+)

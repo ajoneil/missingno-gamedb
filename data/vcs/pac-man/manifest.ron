@@ -8,6 +8,11 @@
             url: "https://en.wikipedia.org/wiki/Pac-Man_(Atari_2600_video_game)",
             link_type: Wiki,
         ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pac-man.pdf",
+            link_type: Manual,
+        ),
     ],
     covers: [
         "https://hasheous.org/api/v1/images/282D889244548078403D38F80F0CD31F2CDA7200",
@@ -43,6 +48,221 @@
                 ),
             ],
         ),
+        (
+            name: "4 Direction Pac-Man",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "3472d5f038d1a237ac70ed01fdd5d33629eaef67",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Boring Pac-Man",
+            category: ContentChange,
+            author: Some("Charles Morgan"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "aaeee6911b06eaa8ee34dc165cb39e286a262423",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "E.T.\'s Candy Bars",
+            category: ContentChange,
+            author: Some("Wade Casaldi"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "de84c75da109e7c6f086a5e7be66ac6884a867ad",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("z26"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "86309692486c133e42d35eb4509ff2aa98d7fd4b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "E.T. vs. HSW",
+            category: ContentChange,
+            author: Some("Charles F. Gray"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "a8e8ae2969761a4412c21b6c9743138b522e519b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man 4",
+            category: ContentChange,
+            author: Some("George Veeder"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "9386d8c9e3e8dc84add5f0ef56ad809156036e9d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man 8K",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    artifacts: [
+                        (
+                            sha1: "968d90ec3b867b80fdc3a6d0f6eec9d1f1e6ba63",
+                        ),
+                        (
+                            sha1: "85c3c3fc7e5a0264f86b3cf5bdfc86a1cb5e238c",
+                            label: Some("alt [a]"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man and Ghost Song",
+            category: ContentChange,
+            author: Some("Paul Slocum"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "6120b5c70e8213b250d28c0dc2ea861a24a4f42b",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("B side"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "e23f3e6e210efc4d947f57dfb2e050022396f738",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man Black",
+            category: ContentChange,
+            author: Some("Christian Giegerich"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "61eabaa31bb39be3161c59400f0a16b453e08f76",
+                        ),
+                        (
+                            sha1: "f61bdf9c5f0757335c519682f80cfd57cc97d951",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man Black Background",
+            category: ContentChange,
+            author: Some("Rubixcube"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "073481cdf01825ac2844d54e1990ea703985571a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac Munchkin",
+            category: ContentChange,
+            author: Some("Wade Casaldi"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("0940fea7f04cdb6d4b90c5ad1a7e344e68f6dbb1"),
+                    artifacts: [
+                        (
+                            sha1: "96cc4a47bf83fdf7313395c98138af8b6f057033",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac Pollux 2600",
+            category: ContentChange,
+            author: Some("Shawn Davis Sr."),
+            releases: [
+                (
+                    date: Some("2006"),
+                    artifacts: [
+                        (
+                            sha1: "e84525287266fdd346282ddf53cc43e2025b9ca2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "WC Munchkin 8K",
+            category: ContentChange,
+            author: Some("Wade Casaldi"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    artifacts: [
+                        (
+                            sha1: "8fcfb75d1caa7f7e6906a3edd04beb79e36a0949",
+                        ),
+                    ],
+                ),
+            ],
+        ),
     ],
     curated: true,
     recommended_by: [
@@ -50,6 +270,9 @@
     ],
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
             date: Some("1983"),
             publisher: Some("Digitel"),
             hardware: (
@@ -59,30 +282,6 @@
             artifacts: [
                 (
                     sha1: "00fa1afc97c55a51f5dee9f0560e8059d6819d04",
-                ),
-                (
-                    sha1: "11b6f997a295da01db87b396fb61d7245ccf979c",
-                    label: Some("unidentified"),
-                ),
-                (
-                    sha1: "2bb8031c377bcef312e26b0cf5ebc6632374561b",
-                    label: Some("unidentified"),
-                ),
-                (
-                    sha1: "9ea3b9929be16ce52549a26c22370de007941138",
-                    label: Some("unidentified"),
-                ),
-                (
-                    sha1: "aa5c6b71132a133e4515fb7b95901d990f21257b",
-                    label: Some("unidentified"),
-                ),
-                (
-                    sha1: "b265b74830a84f38ee74d639ecbce2a7a99aeb1b",
-                    label: Some("unidentified"),
-                ),
-                (
-                    sha1: "be5cc05b2cf16656ba4cd850250bd352bcabd934",
-                    label: Some("unidentified"),
                 ),
             ],
         ),
@@ -99,9 +298,6 @@
             artifacts: [
                 (
                     sha1: "3e7ba1347755bdb313e06a54aaeca9e611eaa2b8",
-                ),
-                (
-                    sha1: "7abca7ace04fb690324cc36802489414b49a708e",
                 ),
             ],
         ),
@@ -137,6 +333,65 @@
                 (
                     sha1: "22b5905abc7298227acc841515472dd7464338fc",
                     label: Some("signature says PAL"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "11b6f997a295da01db87b396fb61d7245ccf979c",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "2bb8031c377bcef312e26b0cf5ebc6632374561b",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "9ea3b9929be16ce52549a26c22370de007941138",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "aa5c6b71132a133e4515fb7b95901d990f21257b",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "b265b74830a84f38ee74d639ecbce2a7a99aeb1b",
+                    label: Some("unidentified"),
+                ),
+                (
+                    sha1: "be5cc05b2cf16656ba4cd850250bd352bcabd934",
+                    label: Some("unidentified"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified pirate"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7abca7ace04fb690324cc36802489414b49a708e",
+                    label: Some("pirate [p1]"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pacman"),
+            publisher: Some("Edu Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fdf10707523fde40b5402184bb3df49626b6dcf2",
                 ),
             ],
         ),

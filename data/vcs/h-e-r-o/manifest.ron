@@ -1,0 +1,180 @@
+(
+    title: "H.E.R.O.",
+    developer: Some("John Van Ryzin"),
+    description: Some("Volcanic activity has trapped miners deep inside Mount Leone, and Roderick Hero flies down the shafts after them on a propeller backpack. A helmet-mounted microlaser burns through walls and picks off the bats, spiders and snakes infesting the mine, six sticks of dynamite per level blast what the beam is too slow to cut, and every movement drains a power gauge that has to last until the miner is reached."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/H.E.R.O._(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/hero.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-hero_s6839.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/48194F085699FDFCE8501A93CC2BE3E2518A844E",
+    ],
+    mods: [
+        (
+            name: "H.E.R.O. 2",
+            category: ContentChange,
+            author: Some("Mr. Tim"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("282f94817401e3725c622b73a0c05685ce761783"),
+                    artifacts: [
+                        (
+                            sha1: "b90d05a8b648036c72e3076243a34f28b055ad59",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "H.E.R.O. 3",
+            category: ContentChange,
+            author: Some("Mr. Tim"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("282f94817401e3725c622b73a0c05685ce761783"),
+                    artifacts: [
+                        (
+                            sha1: "1532320dce58f9ce17bdcf9896c921f7361820c7",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "282f94817401e3725c622b73a0c05685ce761783",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1984"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3186a670ba626127151e364f33ca1bf0e189dfea",
+                ),
+                (
+                    sha1: "e136698b5a9a0aaf83bf3350c497d811e3e833bb",
+                    label: Some("alt [a2]"),
+                ),
+                (
+                    sha1: "0328d9015467038bab4d132113095b91ab5db424",
+                    label: Some("16K dump"),
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Secam),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "04e9462254ae9db4804b3d331f2ad22c61901311",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9cd944fa7cbe166f4caa558223a093b627e0ad4b",
+                    label: Some("alt [a1]"),
+                ),
+            ],
+        ),
+        (
+            title: Some("H.E.R.O. - Helicopter-Held"),
+            label: Some("711 036-720"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1984"),
+            publisher: Some("Ariolasoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5e4f98210ef5a6682581b60a9fc939fce6b22d97",
+                ),
+            ],
+        ),
+        (
+            title: Some("HERO"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("JVP"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de0b7ee7226831a4c8f4d57badc025e1da42f1d4",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d1f48fd30026f84f6c1c08fe69d423fa437f40f",
+                ),
+                (
+                    sha1: "9e599284cdc8ad4aa803210a19c0485f1412b35f",
+                ),
+                (
+                    sha1: "ff1d60a9b3e60e4d5c092e6e4c5403a647790e8e",
+                ),
+            ],
+        ),
+    ],
+)

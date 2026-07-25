@@ -1,20 +1,42 @@
 (
     title: "Hell Driver",
-    releases: [
+    developer: Some("R.J.P.G."),
+    description: Some("An overhead drive up a multi-lane highway, weaving between slower cars scattered across the lanes as grass verges narrow the road."),
+    links: [
         (
-            date: Some("2001"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
+            name: "Atarimania",
+            url: "https://www.atarimania.com/pgesoft.awp?version=8198",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7CB9E70070A28A479ACA9E72E879668BB05014F5",
+    ],
+    mods: [
+        (
+            name: "Hell Driver (NTSC conversion)",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "d87799d7373c69fb99b7f47d1ec3f9331d78f5b6",
+                    date: Some("2001"),
+                    base_sha1: Some("65bd036bffd90ae34baa3817fee6ea70c76478ac"),
+                    artifacts: [
+                        (
+                            sha1: "d87799d7373c69fb99b7f47d1ec3f9331d78f5b6",
+                        ),
+                    ],
                 ),
             ],
         ),
+    ],
+    curated: true,
+    releases: [
         (
+            label: Some("554-37 729"),
+            regions: [
+                Germany,
+            ],
             date: Some("1983"),
             publisher: Some("ITT Family Games"),
             hardware: (
@@ -24,6 +46,28 @@
             artifacts: [
                 (
                     sha1: "65bd036bffd90ae34baa3817fee6ea70c76478ac",
+                ),
+            ],
+        ),
+        (
+            title: Some("Racing Car"),
+            label: Some("VCS 83124"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "54aa264254d8dd6e237f3f62b6e9c9a21fcb4eb1",
+                ),
+                (
+                    sha1: "fa8956815d29bb9f176b38959fac6927259018da",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

@@ -1,0 +1,163 @@
+(
+    title: "Human Cannonball",
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Human_Cannonball_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AD1BC4EADA419C27C89124EB8EB9E2527C0294B0",
+    ],
+    mods: [
+        (
+            name: "Human Cannonball 2008",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("d4b0b2aa379893356c72414ee0065a3a91cf9f97"),
+                    artifacts: [
+                        (
+                            sha1: "8898c448880572e6ba6ab00756a4f5dd6a3182c3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Borg Cannonball",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("d4b0b2aa379893356c72414ee0065a3a91cf9f97"),
+                    artifacts: [
+                        (
+                            sha1: "e809b7670da3619119f2a8983eeeb27b4c0c0e6f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Backwards Cannonball v1",
+            category: ContentChange,
+            author: Some("Atari Troll"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("d4b0b2aa379893356c72414ee0065a3a91cf9f97"),
+                    artifacts: [
+                        (
+                            sha1: "91c02e5033eb1ba1d68690c247f6bcd5bfd796d0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Backwards Cannonball v2",
+            category: ContentChange,
+            author: Some("Jack Kortkamp"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("d4b0b2aa379893356c72414ee0065a3a91cf9f97"),
+                    artifacts: [
+                        (
+                            sha1: "ea61f644eedb257a5acbf5a6ca3fe6833792d714",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Boom!",
+            category: ContentChange,
+            author: Some("OutofGas"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("d4b0b2aa379893356c72414ee0065a3a91cf9f97"),
+                    artifacts: [
+                        (
+                            sha1: "96b54c656f8e978173daf2cfeabf277970177f1e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    releases: [
+        (
+            label: Some("CX2627 / 6-99841"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d4b0b2aa379893356c72414ee0065a3a91cf9f97",
+                ),
+                (
+                    sha1: "c67176da0db451d636e60cc6e1fc213674318d08",
+                    label: Some("4K dump"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59e8efa3eaad0829915bcffe9b2ae2487e6636be",
+                ),
+                (
+                    sha1: "adc8c6ec2c5b0d0f495d088b5e015d4a351e1c24",
+                ),
+                (
+                    sha1: "c5df16d4ea935fc88460c42028cfa1ee6fd54182",
+                ),
+            ],
+        ),
+        (
+            label: Some("128 in 1 Junior Console"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2caad302466f268e420632dfdf0f4943e660bf11",
+                ),
+                (
+                    sha1: "dfbcda00b79a6250a2b6602eb7896f43609b56cb",
+                ),
+                (
+                    sha1: "fc196afecc4f669049b81748444201619e43d483",
+                ),
+            ],
+        ),
+    ],
+)

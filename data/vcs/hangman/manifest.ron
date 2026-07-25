@@ -1,7 +1,406 @@
 (
     title: "Hangman",
+    developer: Some("Alan Miller"),
+    description: Some("An alphabet cycles at the edge of the screen and you lock in one letter at a time, filling a hidden word of up to six characters drawn from lists graded from first grade to high school. Eleven wrong guesses complete the gallows — from which a monkey, not a man, hangs by one arm."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Hangman_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/hangman.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4801538398B50EA7F6DF78500F628FA9149CCA8C",
+    ],
+    mods: [
+        (
+            name: "Hangman Ghost",
+            category: ContentChange,
+            author: Some("Glenn Bussell"),
+            releases: [
+                (
+                    label: Some("original words"),
+                    date: Some("2003"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "3205f15a1a4455a96f040bb4a043362e2e6b6b8e",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("4 letter"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "f8bd0500e84cca4acfd70281af8d5e3d25c1c097",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist1"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "d7665ddaab17f4b9806e5a81b9abe2aafd2a2e99",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist2"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "3792de76f1b82dfadc24f26048c7f5b068247b65",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist3"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "81b766ca12b171e8c0c011643d3cad0c80997c03",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("wordlist"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "9f9be3c55403ad940c046d167f355c8b30a84447",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Hangman Ghost Halloween",
+            category: ContentChange,
+            author: Some("Kris"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "94e15e986da632863045a319417df17666430be8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Hangman Invader",
+            category: ContentChange,
+            author: Some("Glenn Bussell"),
+            releases: [
+                (
+                    label: Some("original words"),
+                    date: Some("2003"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "e88dace1d9c145cea9f4380d7ef5145dc163ec47",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("4 letter"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "e7202d4c1b0352b741205bd95ecac92b5bdb07c2",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist1"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "cf421e0697f91f4a5d9adc17ab4bb4fcd2ab55c8",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist2"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "bae971280cd7f24e1c5cc1e265f3df089ec44327",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist3"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "4ed2cb2adb5b7ab6b7eb20efb6044160f93a2713",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("wordlist"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "804f242191a78493864cbb18bbf084e4c876e845",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Hangman Man",
+            category: ContentChange,
+            author: Some("Glenn Bussell"),
+            releases: [
+                (
+                    label: Some("original words"),
+                    date: Some("2003"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "e475c45209509e12bbef95bc881871bcfb2fca89",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("4 letter"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "4f48bbd414048b775166054bc367c49af3d058e5",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist1"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "1315f36099d234236d945a4d65231d39140732fa",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist2"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "73c861ee0a48bf06868c7ee42eb02abeb3ff0e4f",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist3"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "845ab3864aa571f08dd72b5d660de82bc062c222",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("wordlist"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "ba98dc686a97d5651714d4e99aeaaf258adab52e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Hangman Monkey",
+            category: ContentChange,
+            author: Some("Glenn Bussell"),
+            releases: [
+                (
+                    label: Some("original words"),
+                    date: Some("2003"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "1bccfe325fae82865d4e22587d3ebc668055c4c6",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("4 letter"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "d4e5d4635df241fcd245f139af675446a57fb51e",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist1"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "c1658aaa1b4d68f06b595893ceaf052f3835d4e5",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist2"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "932181d8334cccca05479cc33053ad49bbc1eb41",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist3"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "118bef4631b0f699daf6f83deed6906155f560a4",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("wordlist"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "c9b737bf43f212800c6a3e5a7596a5bf1e8a15f0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Hangman Pac-Man",
+            category: ContentChange,
+            author: Some("Glenn Bussell"),
+            releases: [
+                (
+                    label: Some("original words"),
+                    date: Some("2003"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "f64ca4a0227ab7341051cc1c465cff43f48e76bb",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("4 letter"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "e01ed02190c10ac7c327c8261b0c4cee163552d3",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist1"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "42d18f4eea9a26455943c1e75b3b7413e83e8a70",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist2"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "c00612d00b11d6835318130883375d80ac75feb3",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("biglist3"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "ef2e818c86f31b1b5c91d2973b6599a6126f9313",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("wordlist"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "37d79bcbea11dff7dd88b31c40096b513c7c80d3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Hangman Bird Better Alphabet",
+            category: ContentChange,
+            author: Some("Greg Zumwalt"),
+            releases: [
+                (
+                    label: Some("original words"),
+                    date: Some("2003"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "abe3fbb8a1bfe50ce2d2cde6b8b5fe6164ccf2ad",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Hangman Pacman Demo",
+            category: ContentChange,
+            author: Some("Cropsy"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("561bccf508e162bc70c42d85c170cf0d1d4691a3"),
+                    artifacts: [
+                        (
+                            sha1: "42537df0336016b6d4c4c33a530fba402acaccc5",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "561bccf508e162bc70c42d85c170cf0d1d4691a3",
+                ),
+            ],
+        ),
+        (
+            label: Some("CX2662P"),
+            regions: [
+                Europe,
+            ],
             date: Some("1978"),
             publisher: Some("Atari"),
             hardware: (

@@ -1,7 +1,22 @@
 (
-    title: "Hard-Head",
+    title: "Hard Head",
+    description: Some("Blocks ride in on a conveyor belt and you bump them upward to build a tower, then climb it and escape before it collapses. Yellow blocks knock you back down a level while blue ones pay a bonus, and from the third level on there are aliens roaming the structure to dodge."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/unknown2/unknown2.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/34577502B061E0764D38A2C0D905EB7C015257E1",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             status: Prototype,

@@ -1,7 +1,23 @@
 (
     title: "Hole Hunter",
+    description: Some("Moles surface from one burrow after another across a field of sand while you run between the holes swinging at whatever pops up, against a clock counting the round down."),
+    links: [
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-hole-hunter_s13741.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Hole%20Hunter%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("TP-606"),
+            regions: [
+                Europe,
+            ],
             publisher: Some("Video Game Cartridge"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -10,6 +26,20 @@
             artifacts: [
                 (
                     sha1: "f275c7ca9a76fb758f52548b8597bc13245263b6",
+                ),
+            ],
+        ),
+        (
+            title: Some("Topy"),
+            label: Some("2600 Screen Search Console"),
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "59b5f61a8a6009a2ac9903fb3d72ee817fd849bb",
                 ),
             ],
         ),

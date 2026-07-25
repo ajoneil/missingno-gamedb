@@ -1,7 +1,45 @@
 (
     title: "Halloween",
+    developer: Some("Tim Martin, Robert Barber"),
+    description: Some("A babysitter searches the sixteen rooms of a two-storey house for terrified children, locking each one onto her and racing it to one of the four safe rooms while the killer roams. A single knife hidden somewhere in the house is her only defence, useless while she is carrying a child, and blackouts on the faulty upper floor can leave her in the dark with him still coming."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/halloween.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Halloween_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7AB9F49DD6EF77DF338739E6E767CBD533AB2D2E",
+    ],
+    mods: [
+        (
+            name: "Supercharger fix of Halloween",
+            category: Compatibility,
+            author: Some("Nukey Shay"),
+            releases: [
+                (
+                    base_sha1: Some("4c72cec151f219866bf870fa7ac749a19ca501c9"),
+                    artifacts: [
+                        (
+                            sha1: "0949c81c2f31f65b1c7af7fda8eaade87c3ef4d9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Wizard Video Games"),
             hardware: (
@@ -10,13 +48,29 @@
             ),
             artifacts: [
                 (
-                    sha1: "0949c81c2f31f65b1c7af7fda8eaade87c3ef4d9",
+                    sha1: "4c72cec151f219866bf870fa7ac749a19ca501c9",
                 ),
+                (
+                    sha1: "7e760cdb6f2893aa24bff21675ab1e5c4864d0d7",
+                    label: Some("alt [a1]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("007"),
+            publisher: Some("Wizard Video Games"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "2322e3acfd02b12098ff50ee745613f3bdc346ad",
                 ),
                 (
-                    sha1: "4c72cec151f219866bf870fa7ac749a19ca501c9",
+                    sha1: "ecc609203c2e26ab20fbd92d13943fc1faed5ecb",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

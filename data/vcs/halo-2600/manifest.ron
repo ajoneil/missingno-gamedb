@@ -1,0 +1,63 @@
+(
+    title: "Halo 2600",
+    developer: Some("Ed Fries"),
+    description: Some("Master Chief works his way through 64 screens spread over four zones — an outdoor landscape, a Covenant base, an ice world and a final boss arena — picking up weapons and power-ups as he goes. A single hit kills him unless he is carrying a shield, and finishing the game unlocks a harder Legendary mode."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Halo_2600",
+            link_type: Wiki,
+        ),
+        (
+            name: "AtariAge release thread",
+            url: "https://forums.atariage.com/topic/166916-halo-for-the-2600-released-at-cge-download-the-game-here/",
+            link_type: DownloadPage,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/064F4C02A5A93BABEDF9E42CBB997C9324039503",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2010"),
+            publisher: Some("AtariAge"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2a9647e27ab27e6cf82b3bf122edf212fa34ae86",
+                ),
+                (
+                    sha1: "63cce8368fba28a30595f1b6de9721b3c0ea527e",
+                    label: Some("unidentified"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("2010"),
+            publisher: Some("AtariAge"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc41e5dc18f55027369b20228a4d622a23d56666",
+                ),
+                (
+                    sha1: "f5025fd621a75827b5a3c31ebefe8955069433ed",
+                    label: Some("unidentified"),
+                ),
+            ],
+        ),
+    ],
+)

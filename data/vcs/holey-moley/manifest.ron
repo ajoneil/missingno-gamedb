@@ -1,19 +1,60 @@
 (
-    title: "Holey Moley (Joystick Conversion)",
+    title: "Holey Moley",
+    developer: Some("Bob Polaro"),
+    description: Some("Whack-a-mole with one button per hole: each key on the pad maps to a burrow, and pressing it swings the hammer there. Moles are worth ten to forty points, crowned king moles up to a hundred, and acorns cost you. Every third round fills the screen with moles and shuffles which button goes where."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/holeymoley/holeymoley.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/CBA87938C108B7533F8FCBF344EE7E58AE57932A",
+    ],
+    mods: [
+        (
+            name: "Holey Moley (joystick conversion)",
+            category: Compatibility,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    date: Some("2011"),
+                    base_sha1: Some("8196209ef7048c5494dbdc932adbf1c7abf79f4e"),
+                    hardware: (
+                        controllers: [
+                            Joystick,
+                        ],
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "b599385047fbf6ed27c3f612cee6ebe88922a693",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("2011"),
-            publisher: Some("Omegamatrix"),
+            label: Some("CX26130"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984-02-29"),
+            publisher: Some("Atari"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "8196209ef7048c5494dbdc932adbf1c7abf79f4e",
-                ),
-                (
-                    sha1: "b599385047fbf6ed27c3f612cee6ebe88922a693",
                 ),
             ],
         ),

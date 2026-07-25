@@ -1,8 +1,51 @@
 (
     title: "Home Run",
+    developer: Some("Bob Whitehead, David Rolfe"),
+    description: Some("Baseball with barely a team: a pitch can be bent into a curve, screwball or change-up after it has left the pitcher\'s hand, the batter swings with a flick, and depending on the variation there are anywhere from no infielders to two, who have to run the ball to a player to tag them out."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/home_run.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Home_Run_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2FEC928D6749622A1172AEB852F85621BD7E93B9",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("CX2623"),
+            regions: [
+                Usa,
+            ],
             date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f362d2b3a50e5ae3c2b412b6c08ecdcfee47a688",
+                ),
+                (
+                    sha1: "ef4dbf9d84eb1fff3c8ceef10ace8bf1f305354f",
+                    label: Some("4K dump"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("2K"),
@@ -11,17 +54,30 @@
                 (
                     sha1: "7bdab234762d498b7c6517eed8a2f292f5fdd129",
                 ),
+                (
+                    sha1: "b652826cef1a2803948ffea0b1a103e38287e377",
+                    label: Some("4K dump"),
+                ),
             ],
         ),
         (
-            date: Some("1978"),
+            label: Some("32 in 1 reissue"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
-                cart_type: Some("4K"),
+                cart_type: Some("2K"),
             ),
             artifacts: [
                 (
-                    sha1: "b652826cef1a2803948ffea0b1a103e38287e377",
+                    sha1: "4ef32864a59cef6e1daafb809a44a588fbeb354c",
+                ),
+                (
+                    sha1: "8167f82e94e5e1fc5753e6e81196bd91ee0d8c2e",
+                    label: Some("4K dump"),
                 ),
             ],
         ),

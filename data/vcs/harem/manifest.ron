@@ -1,9 +1,27 @@
 (
     title: "Harem",
+    developer: Some("Michael Case"),
+    description: Some("A tiered climb from the bottom left of the screen toward the woman waiting at the right, past snipers in the bushes, a river to jump, a fire-breathing dragon and gargoyles pouring lava down the castle wall. Reaching her starts a button-timing sequence scored against a tone that rises the closer you get to failing."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/harem/harem.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Harem%20(USA)%20(Proto).png",
+    ],
+    curated: true,
+    adult: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Multivision"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),

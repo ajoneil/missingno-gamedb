@@ -18565,5 +18565,21 @@
             ],
             note: "Requires the Atari Kid\'s Controller (a large keypad-style controller); missingno does not support the Keypad/Kid\'s Controller, so the game cannot be played as intended. Same limitation as other Keypad-controller games.",
         ),
+        (
+            id: 2902,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/hell-driver",
+            ],
+            note: "The game reads the right joystick port, which missingno cannot reach — input has no effect.",
+        ),
+        (
+            id: 2903,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/holey-moley",
+            ],
+            note: "Requires the Atari Keyboard Controller, which missingno does not emulate — one button per hole, so the game cannot be played.",
+        ),
     ],
 )

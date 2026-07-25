@@ -1,9 +1,26 @@
 (
-    title: "Hobo (3)",
+    title: "Hobo",
+    description: Some("Three screens stand between you and the way out of Grand Central Railway Station: a dash across a busy freeway, a climb up ladders through three platforms patrolled by cops while gathering what is lying around, and a hop across eight scrolling lines of trains, the last four walled in. Clearing all three starts the round again, harder."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/hobo/hobo.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "http://www.atariprotos.com/2600/software/hobo/hobo_box_1.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Cartridge No. 3"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("UA Limited"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("UA"),
