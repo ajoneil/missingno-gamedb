@@ -3,7 +3,6 @@ use missingno_gamedb::{Enhancement, Game, GameBoy, GameBoyColor, TvFormat, Vcs};
 const GB_HOMEBREW: &str = r#"(
     title: "144p Test Suite",
     developer: Some("Damian Yerrick"),
-    license: Some("GPL-3.0-or-later"),
     tags: ["Open Source"],
     links: [
         (name: "Source Code", url: "https://github.com/pinobatch/240p-test-mini", link_type: Source),

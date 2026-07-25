@@ -21,8 +21,6 @@ pub struct Game<P: Platform> {
     pub developer: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub description: Option<String>,
-    #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub license: Option<String>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub tags: Vec<String>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
@@ -41,7 +39,7 @@ pub struct Game<P: Platform> {
     /// (a translated game is the same game, as official localizations are).
     /// Each is its own thing with its own versions and curation.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub mods: Vec<Mod>,
+    pub mods: Vec<Mod<P>>,
     /// Whether a human has reviewed this entry — the draft/non-draft line.
     /// Edits happen at a curator's request, so they never clear it.
     #[serde(default, skip_serializing_if = "is_default")]
@@ -241,9 +239,9 @@ pub struct ModOf {
 }
 
 /// A fan modification attached to the game it modifies.
-#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
-#[serde(deny_unknown_fields)]
-pub struct Mod {
+#[derive(Serialize, Deserialize, Clone, PartialEq, Debug)]
+#[serde(deny_unknown_fields, bound = "")]
+pub struct Mod<P: Platform> {
     pub name: String,
     pub category: ModCategory,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -257,13 +255,13 @@ pub struct Mod {
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub recommended_by: Vec<String>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub releases: Vec<ModRelease>,
+    pub releases: Vec<ModRelease<P>>,
 }
 
 /// One version of a mod.
-#[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
-#[serde(deny_unknown_fields)]
-pub struct ModRelease {
+#[derive(Serialize, Deserialize, Clone, PartialEq, Debug)]
+#[serde(deny_unknown_fields, bound = "")]
+pub struct ModRelease<P: Platform> {
     /// Version or variant name: "v1.2", "easy mode".
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub label: Option<String>,
@@ -274,6 +272,10 @@ pub struct ModRelease {
     pub base_sha1: Option<Sha1>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub patch: Option<Patch>,
+    /// Where the build differs from the game's own hardware — the controller a
+    /// conversion swaps to, the TV standard a regional build targets.
+    #[serde(default, skip_serializing_if = "is_default")]
+    pub hardware: P::ReleaseHardware,
 
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub artifacts: Vec<Artifact>,

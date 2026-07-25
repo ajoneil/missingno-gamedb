@@ -154,7 +154,6 @@ fn run_tree<P: Platform>(
             kind: Default::default(),
             developer: m.developer.clone(),
             description: m.description.clone(),
-            license: m.license.clone(),
             tags: m.tags.clone(),
             links,
             covers,

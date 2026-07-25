@@ -86,6 +86,16 @@ dump actually meant: a hack's record carries the hack's art.
 Never store-CDN URLs (itch/Steam image links churn) — a store page belongs as a
 `DownloadPage` link, not in `covers`.
 
+## Download links
+
+A forum release thread is linked as the **page**, never as the attachment URL
+underneath it (Andrew, 2026-07-25): a post's attachment id is an internal
+identifier that rots and says nothing about what it holds, so the reader gets
+the thread and takes the download from there. This is the one forum link that
+belongs in the database — the announcement the author released the ROM from,
+verified as such by reading it — and it is a `DownloadPage`, not a `Download`.
+Reserve `Download` for a creator's own hosted file.
+
 ## Licensing
 
 This database is **CC0**. Wikipedia is **CC BY-SA**, and the two do not compose:

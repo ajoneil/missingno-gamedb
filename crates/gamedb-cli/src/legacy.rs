@@ -27,8 +27,6 @@ pub struct LegacyManifest {
     #[serde(default)]
     pub source: Option<LegacySource>,
     #[serde(default)]
-    pub license: Option<String>,
-    #[serde(default)]
     pub tags: Vec<String>,
     #[serde(default)]
     pub screenshots: Vec<String>,

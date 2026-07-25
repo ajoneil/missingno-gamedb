@@ -233,8 +233,8 @@ fn main() -> ExitCode {
             match fix_titles::run(&path, &data_root, &mut findings) {
                 Ok(s) => {
                     println!(
-                        "{} titles cleaned ({} release statuses set, {} demo flags, {} PD licences)",
-                        s.cleaned, s.statuses, s.demo_flags, s.pd_licensed
+                        "{} titles cleaned ({} release statuses set, {} demo flags)",
+                        s.cleaned, s.statuses, s.demo_flags
                     );
                     if let Err(e) = findings.write(&report, "gamedb fix-titles report") {
                         eprintln!("failed to write report: {e}");

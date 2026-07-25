@@ -174,7 +174,6 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
             "description",
             report,
         );
-        let license = unify_scalar(&members, |m| m.license.as_ref(), &title, "license", report);
         let mut tags: Vec<String> = members
             .iter()
             .flat_map(|(_, m, _)| m.tags.clone())
@@ -205,7 +204,6 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 kind: Default::default(),
                 developer,
                 description,
-                license,
                 tags,
                 links,
                 covers: Vec::new(),

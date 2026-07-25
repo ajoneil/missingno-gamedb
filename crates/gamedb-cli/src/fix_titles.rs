@@ -15,7 +15,6 @@ pub struct Stats {
     pub cleaned: usize,
     pub statuses: usize,
     pub demo_flags: usize,
-    pub pd_licensed: usize,
 }
 
 /// The trailing " (…)" chunk of a title, when present.
@@ -106,12 +105,7 @@ fn fix_tree<P: Platform>(
                     });
                     stats.demo_flags += 1;
                 }
-                Qual::PublicDomain => {
-                    if game.license.is_none() {
-                        game.license = Some("Public domain".to_owned());
-                        stats.pd_licensed += 1;
-                    }
-                }
+                Qual::PublicDomain => {}
             }
             game.title = base;
             changed = true;
