@@ -1,0 +1,69 @@
+(
+    title: "Immies & Aggies",
+    developer: Some("ZiMAG"),
+    description: Some("A colour-matching shooter: marbles scatter across the screen as coloured squares, a swatch at the top names the one to hit, and you swing a blaster to shoot every matching square before the swatch changes to another colour. Oval marbles occasionally roll in from the side. Fourteen variations differ only in how fast the colour turns over and how quickly those rollers move."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/immies/immies.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9E427AB4F91CE0A44D2A97B751352A18F1DB3965",
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("715-111"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "603b4ecc797972d32f2f3b8e66ebdde5aaf51a07",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c43ab196ecbb32b71d2bd0ac5c86ed866286415d",
+                ),
+                (
+                    sha1: "fb715ec8d781fbfec4d845298b7463d75ecd8757",
+                ),
+            ],
+        ),
+        (
+            title: Some("Spectracube Invasion"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1e5b6049ce75441937b6af878c22db1c689de678",
+                ),
+            ],
+        ),
+    ],
+)

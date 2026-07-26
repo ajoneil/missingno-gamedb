@@ -1,5 +1,21 @@
 (
-    title: "Indy 500 (Race Car) (Driving Controller)",
+    title: "Indy 500",
+    description: Some("Steer with a knob and hold the button to accelerate. Race an opponent twenty-five laps around the Grand Prix or Devil\'s Elbow circuits, or the Ice Sprint and Ice Rally tracks where the surface fights your steering. Crash \'n Score inverts the goal — ram the white square, which reappears elsewhere each time you hit it. In Tag, the blinking car is \"it\" and you score for every second you stay untagged."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Indy_500_(1977_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/indy_500.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7D8B935AC90BD9B33E34F90A28621C70994080A3",
+    ],
     mods: [
         (
             name: "Combat 500",
@@ -16,30 +32,68 @@
             ],
         ),
     ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1977"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("2K"),
+                controllers: [
+                    Driving,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "f6ca3ca4af6d9ac5a539f1bc4c7a3a04837c2e44",
                 ),
+                (
+                    sha1: "84fddb8bb8335c585161e2024aad3f4c599ad7c7",
+                    label: Some("pirate"),
+                    defect: Some(Overdump),
+                ),
             ],
         ),
         (
+            label: Some("CX2611"),
+            regions: [
+                Usa,
+            ],
             date: Some("1977"),
             publisher: Some("Atari"),
             hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("4K"),
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+                controllers: [
+                    Driving,
+                ],
             ),
             artifacts: [
                 (
-                    sha1: "84fddb8bb8335c585161e2024aad3f4c599ad7c7",
+                    sha1: "620ab88d63cdd3f8ce67deac00a22257c7205c8b",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1977"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Driving,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "441132d381b77dbae8df175b9e29c408f87dc658",
                 ),
             ],
         ),

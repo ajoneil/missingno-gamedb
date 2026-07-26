@@ -1,0 +1,76 @@
+(
+    title: "Ice Hockey",
+    developer: Some("Alan Miller"),
+    description: Some("Two-on-two hockey at speed: you skate whichever player is nearest the puck while your goalie holds the net, and your shot angle depends on where the puck sits along your stick — thirty-two of them, so a loose puck can be fired off sharply the moment it lands. Check opponents to the ice, bank passes off the boards, and outscore the other side inside three minutes."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/ice_hockey.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Ice_Hockey_(1981_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6200A7B2EA781604CB813345E61154C90795D632",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "00f9800c18cb0c276d2e1ff92b3fabad30193bd7",
+                ),
+                (
+                    sha1: "21de0f034e5dad03fa91eb7ae6cc081c142be35c",
+                ),
+                (
+                    sha1: "4c02f0d3a830d9745733d384002915a95279c9d5",
+                ),
+                (
+                    sha1: "5ebcc5938bb8b23bb438efa21d388a85fc9b7fe9",
+                ),
+                (
+                    sha1: "eaa22eaefeb42396f8c440cd1e01a84809866177",
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ed4dbbc48d1d5a5dfe221bb014b4a486503d966c",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Edu Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "261ef05694f92902b5be81e3a19a78566007286a",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,10 +1,16 @@
 (
     title: "Human Cannonball",
+    description: Some("Angle the cannon, set the muzzle speed and fire a stuntman at a distant water tower. The first four variations let you shove the tower left or right while he is still in the air; the last four fix it in place and hang a moving window in front that he has to pass through. Seven hits or seven misses ends the game."),
     links: [
         (
             name: "Wikipedia",
             url: "https://en.wikipedia.org/wiki/Human_Cannonball_(video_game)",
             link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/human_cannonball.pdf",
+            link_type: Manual,
         ),
     ],
     covers: [
@@ -92,6 +98,7 @@
             ],
         ),
     ],
+    curated: true,
     releases: [
         (
             label: Some("CX2627 / 6-99841"),
@@ -127,12 +134,14 @@
             artifacts: [
                 (
                     sha1: "59e8efa3eaad0829915bcffe9b2ae2487e6636be",
+                    label: Some("pirate"),
                 ),
                 (
                     sha1: "adc8c6ec2c5b0d0f495d088b5e015d4a351e1c24",
                 ),
                 (
                     sha1: "c5df16d4ea935fc88460c42028cfa1ee6fd54182",
+                    label: Some("32-in-1 extract"),
                 ),
             ],
         ),
@@ -150,12 +159,18 @@
             artifacts: [
                 (
                     sha1: "2caad302466f268e420632dfdf0f4943e660bf11",
+                    label: Some("pirate (Cannonfire)"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "dfbcda00b79a6250a2b6602eb7896f43609b56cb",
+                    label: Some("32-in-1 extract"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "fc196afecc4f669049b81748444201619e43d483",
+                    label: Some("pirate"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),

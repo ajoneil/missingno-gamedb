@@ -1,9 +1,31 @@
 (
     title: "Ikari Warriors",
+    developer: Some("Dan Kitchen"),
+    description: Some("Two soldiers push through jungle behind enemy lines to free a captured colonel, on foot or in a commandeered tank. Machine gun and grenades run down as you go — fifty grenades and ninety-nine rounds to start — so supply icons matter, and the tank explodes under you if its fuel runs out. Rocks and rubble stop bullets but not grenades."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/ikari_warriors.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-ikari-warriors_7888.html",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Ikari_Warriors",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Ikari%20Warriors%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1990"),
-            publisher: Some("Thomas Jentzsch"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F6"),
@@ -15,13 +37,14 @@
                 (
                     sha1: "79ae3180aebb476dc46321eaa98113cf851d762e",
                 ),
-                (
-                    sha1: "d8f7b908f60fe49667c7c55d48ce15a05ad95a28",
-                ),
             ],
         ),
         (
-            date: Some("1990"),
+            label: Some("CX26177"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1989"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
@@ -29,7 +52,27 @@
             ),
             artifacts: [
                 (
+                    sha1: "e5b9c3a3638bd42f96a26b651463da96a9432315",
+                ),
+                (
                     sha1: "5ced92d13f8becd96d175b38d179e353f8c33660",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8f7b908f60fe49667c7c55d48ce15a05ad95a28",
                 ),
             ],
         ),

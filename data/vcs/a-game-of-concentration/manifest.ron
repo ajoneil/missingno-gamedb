@@ -1,0 +1,48 @@
+(
+    title: "A Game of Concentration",
+    developer: Some("Jim Heuther"),
+    description: Some("A memory game across a grid of sixteen or thirty numbered squares, each hiding one of a paired set of objects — a llama, a flying saucer, a castle. Key in two numbers a turn to turn them face up: match the pair and the squares clear and you go again, miss and the numbers drop back over them. Some variations salt the grid with wild cards that match anything."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/A_Game_of_Concentration",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (Sears — Memory Match)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/memory_match.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Hunt & Score)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/hunt_score.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B3147395D7DE74A3388990E7EC214714CA1BE729",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "a6e42c63138a2fd527cdbe9b7e60f5feabdd55c8",
+                ),
+                (
+                    sha1: "a9694a528fddf3a41b93f36bca7de572009de2c2",
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+    ],
+)

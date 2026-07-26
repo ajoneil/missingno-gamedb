@@ -48,6 +48,25 @@ Signature-database years also disagree with encyclopaedias — TOSEC in particul
 is often a year or two off a documented release date. A disagreement is a
 conflict to report, not a licence to restage the date.
 
+## Finding a game's Wikipedia article
+
+`opensearch` matches on title *prefix* and ranks by popularity, so it is not
+evidence of absence for a commercially released game: searching "Ice Hockey"
+returns the sport and a dozen Olympic tournaments, burying
+`Ice Hockey (1981 video game)` entirely. Guessing the disambiguated title fails
+too — `Ice Hockey (video game)` is a redirect to a disambiguation page.
+
+Settle it with full-text search, which finds the parenthetical titles:
+
+```
+https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=<title>+<publisher>+Atari+2600&format=json
+```
+
+Only then is "no article exists" a result worth recording. Obscure prototypes
+and homebrew genuinely have none, and both methods agree on those; the gap is
+specifically the notable game whose title is a common noun. A franchise or list
+article (*Sesame Street video games*) is not this game's article — don't stage it.
+
 ## Release facts, per tree
 
 | Tree | Source | Good for | Notes |

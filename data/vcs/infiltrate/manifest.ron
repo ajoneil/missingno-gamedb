@@ -1,7 +1,23 @@
 (
     title: "Infiltrate",
+    description: Some("A secret agent works through a fortress of corridors and elevators, shooting the assassins posted on every floor and ducking to let their laser fire pass overhead — though ducking leaves him unable to shoot back. Crossing every level, top to bottom or bottom to top, is where the points are rather than the kills. One variation hides the assassins except while they ride the elevators."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/infiltrate.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Infiltrate%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("AP-2006"),
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Apollo"),
             hardware: (
@@ -25,6 +41,28 @@
             artifacts: [
                 (
                     sha1: "59e5b760217bfd77ea6a5a65ef141443fe805d81",
+                ),
+                (
+                    sha1: "9e2b4035d64fc13347c880e1526cd24862e9c22f",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Hi-Rise"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b765e36ad1f5b57abe68ce1bb532feed4d69ee46",
                 ),
             ],
         ),

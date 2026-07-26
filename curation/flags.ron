@@ -18597,5 +18597,13 @@
             note: "Requires the Atari Keyboard Controller, which missingno does not emulate — one button per hole, so the game cannot be played.",
             resolved: Some("2026-07-26"),
         ),
+        (
+            id: 2904,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/indy-500",
+            ],
+            note: "Requires the Atari Driving Controller, which missingno does not emulate. The game plays with a joystick, but the car\'s steering range is limited and it cannot be turned far.",
+        ),
     ],
 )

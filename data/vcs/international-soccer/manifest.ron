@@ -1,7 +1,32 @@
 (
     title: "International Soccer",
+    description: Some("Team football on a pitch that scrolls to keep the ball in view, with no offsides, goalies or set pieces to interrupt it. You steer one man at a time, dribbling slows him down, and a pass flies in whichever direction you last pushed the stick. Anyone running off the top or bottom reappears at the opposite edge — so the quickest way back to defend your goal is to run away from it."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/NASL_Soccer",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/international_soccer.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Telegames)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/international_soccer_telegames.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/International%20Soccer%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (
@@ -12,9 +37,16 @@
                 (
                     sha1: "fa5bf10d9058eeb2e32ab65a25a906c17b445903",
                 ),
+                (
+                    sha1: "84e44661a5fdd5ad8b670c097e4aaed99e36032b",
+                    label: Some("alt [a]"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1988"),
             publisher: Some("Telegames"),
             hardware: (
@@ -30,6 +62,18 @@
                 ),
                 (
                     sha1: "3046f6e7ad1d5bb9ff7178929cb3127f94e0143f",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1118483b0af7298bbfc259ad84435458e0d85209",
                 ),
             ],
         ),
