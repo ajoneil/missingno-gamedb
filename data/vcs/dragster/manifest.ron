@@ -35,11 +35,12 @@
                 ),
                 (
                     sha1: "a3ad9e4b84f3a6dbfc027a3a6c26911ad8908861",
-                    label: Some("overdump [o]"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "9811a250185b8ea57b2960af8eb370eeff72287c",
-                    label: Some("overdump [o][a]"),
+                    label: Some("alt [a]"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -56,7 +57,8 @@
             artifacts: [
                 (
                     sha1: "bdad08932fd44d4bb61186cd1b7f61dbf5ea3d0f",
-                    label: Some("overdump [o][a]"),
+                    label: Some("alt [a]"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),

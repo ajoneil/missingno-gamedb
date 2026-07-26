@@ -80,11 +80,12 @@
                 ),
                 (
                     sha1: "6e2a374ef2806b1d099ebc3644209794b34eb40d",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "79d4018221258b38bb3c663f7d02f46d806a1b99",
-                    label: Some("[o][a2] (overdump)"),
+                    label: Some("alt [a2]"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "c6182dc0a1a9122e7ade39220a26d34a0ced5194",
@@ -92,7 +93,8 @@
                 ),
                 (
                     sha1: "a3acb490045dcf9bef2aae64e531af3f8b6596ff",
-                    label: Some("[o][a] (overdump)"),
+                    label: Some("alt [a]"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -112,15 +114,16 @@
                 ),
                 (
                     sha1: "13a37212632a0fb1f3ea807cd47c458e62c4dc32",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "3b9ea5794d7411a83b6a37916c7f54dff4aa6087",
-                    label: Some("[p][o] (bad dump)"),
+                    label: Some("pirate"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "a74ab3e955d8f7656e977282636686632ba79648",
-                    label: Some("[p] (bad dump)"),
+                    label: Some("pirate"),
                 ),
                 (
                     sha1: "3d625b2dc44e09691dbbb7e8a8dfea5450a81467",
@@ -145,7 +148,8 @@
                 ),
                 (
                     sha1: "320eabbd2ceecee0689f9cb412fc2b3a50861176",
-                    label: Some("[p][o][b] (bad dump)"),
+                    label: Some("pirate"),
+                    defect: Some(BadDump),
                 ),
             ],
         ),
@@ -198,7 +202,8 @@
                 ),
                 (
                     sha1: "22a3789a416d00c00382157707a0a8c94c555ea4",
-                    label: Some("32-in-1 (Boxing #16) [o][b]"),
+                    label: Some("32-in-1 (Boxing #16)"),
+                    defect: Some(BadDump),
                 ),
             ],
         ),

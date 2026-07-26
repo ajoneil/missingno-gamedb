@@ -14,6 +14,7 @@
     curated: true,
     releases: [
         (
+            title: Some("Brick Kick"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -25,6 +26,7 @@
             ],
         ),
         (
+            title: Some("Peter Penguin"),
             regions: [
                 Europe,
             ],
@@ -38,9 +40,18 @@
                 (
                     sha1: "59cc30a376901462e43bc78586495c72bab81fce",
                 ),
+            ],
+        ),
+        (
+            title: Some("Brick Kick"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "6e7a5a171a2bb70c8dee1df8480498a68ba36ce6",
-                    label: Some("[p]"),
+                    label: Some("pirate"),
                 ),
             ],
         ),

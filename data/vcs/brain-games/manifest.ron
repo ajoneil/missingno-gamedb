@@ -4,7 +4,12 @@
     description: Some("Atari\'s collection of children\'s memory and learning games, played on the Keyboard Controller: nineteen variations — Touch Me, Count Me, Picture Me, Find Me, Add Me and Play Me — running from a Simon-style match-the-tone-sequence to counting and simple arithmetic, one player or two."),
     links: [
         (
-            name: "Manual (PDF)",
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Brain_Games",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/brain_games.pdf",
             link_type: Manual,
         ),
@@ -33,7 +38,7 @@
                 ),
                 (
                     sha1: "6fd900234a057b4ed98daca086870bea179fec41",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -56,7 +61,7 @@
                 ),
                 (
                     sha1: "f252a358c674834e19a3ab8ed3f1bb537b3b8df3",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),

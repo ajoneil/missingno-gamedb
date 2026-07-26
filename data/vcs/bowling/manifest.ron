@@ -9,7 +9,7 @@
             link_type: Wiki,
         ),
         (
-            name: "Manual (PDF)",
+            name: "Manual",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/bowling.pdf",
             link_type: Manual,
         ),
@@ -73,7 +73,7 @@
                 ),
                 (
                     sha1: "a03495ef841e28fa1cf52eea380a763312fbc00e",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "075814a8e7fda7e6a097221cf2dabc9e1a1820ff",
@@ -81,15 +81,18 @@
                 ),
                 (
                     sha1: "ae03b493891c50deb3b9a32dc080a0f12dcb74c3",
-                    label: Some("[b] (bad dump, screen rolls)"),
+                    label: Some("screen rolls"),
+                    defect: Some(BadDump),
                 ),
                 (
                     sha1: "73979dc21c170a98a724c80aa99db4da50a8c21d",
-                    label: Some("[o][b] (bad dump, screen rolls)"),
+                    label: Some("screen rolls"),
+                    defect: Some(BadDump),
                 ),
                 (
                     sha1: "e27eda01c247cc32ab148aaee0e6b81d48451eb0",
-                    label: Some("[o][b2] (bad dump, screen rolls)"),
+                    label: Some("screen rolls"),
+                    defect: Some(BadDump),
                 ),
             ],
         ),
@@ -109,7 +112,7 @@
                 ),
                 (
                     sha1: "f388d4b33ee2b6f1d03e9691fb4144d0b27cda42",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -126,7 +129,6 @@
             artifacts: [
                 (
                     sha1: "4c6189fc465cc0353bec82de7cddde7aad269e93",
-                    label: Some("[p] (bad dump)"),
                 ),
             ],
         ),
@@ -163,7 +165,8 @@
                 ),
                 (
                     sha1: "026a3bda032d1af6096804533e330e48662ddad5",
-                    label: Some("32-in-1 (Bowling #30) [o]"),
+                    label: Some("32-in-1 (Bowling #30)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),

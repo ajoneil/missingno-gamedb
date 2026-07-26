@@ -44,7 +44,7 @@
                 ),
                 (
                     sha1: "1c93c1b3f16dbeaa069ec798c61c3da690711046",
-                    label: Some("overdump [o]"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -61,7 +61,7 @@
             artifacts: [
                 (
                     sha1: "7954b04ed26bb7ecaa57062b2efeeb59bd959b9e",
-                    label: Some("bad overdump [o][b]"),
+                    defect: Some(BadDump),
                 ),
                 (
                     sha1: "0c0cd0f0f768afcef0e7ce32a8640c6914d9ff99",

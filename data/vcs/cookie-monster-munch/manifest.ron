@@ -17,6 +17,24 @@
     covers: [
         "https://hasheous.org/api/v1/images/DDB62AEB5AB0B895892F1F4F74939B877CCBA365",
     ],
+    mods: [
+        (
+            name: "Elmo",
+            category: ContentChange,
+            author: Some("Tim Martin"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("f4a62ba0ff59803c5f40d59eeed1e126fe37979b"),
+                    artifacts: [
+                        (
+                            sha1: "fd6240439cd819e812fbbc0ce0ffbe1adf1eb65d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
     curated: true,
     releases: [
         (
@@ -33,10 +51,6 @@
                 ],
             ),
             artifacts: [
-                (
-                    sha1: "ef8fa65cf4916932f19a6837a4fe657a7c317f17",
-                    label: Some("alt"),
-                ),
                 (
                     sha1: "f4a62ba0ff59803c5f40d59eeed1e126fe37979b",
                 ),
@@ -61,11 +75,37 @@
                     label: Some("alt [a]"),
                 ),
                 (
-                    sha1: "d29eeda6f7b965552c7c425597a71562726289fe",
-                    label: Some("alt 2"),
-                ),
-                (
                     sha1: "fd47df700820295ead34a9d9cf5c73eccf1101bd",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "ef8fa65cf4916932f19a6837a4fe657a7c317f17",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "d29eeda6f7b965552c7c425597a71562726289fe",
                 ),
             ],
         ),

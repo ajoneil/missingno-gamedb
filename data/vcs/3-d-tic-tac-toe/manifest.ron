@@ -32,7 +32,7 @@
                 ),
                 (
                     sha1: "f93a1067958a17c14ee72c6b611cffc16901f58b",
-                    label: Some("overdump [o]"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -50,11 +50,12 @@
                 ),
                 (
                     sha1: "c497f97fb4f140b875728a636e3a46c8d0804e1c",
-                    label: Some("bad overdump [o][b]"),
+                    defect: Some(BadDump),
                 ),
                 (
                     sha1: "e5a370e4f9531836e5b12951e44ea4a4afe9f5d7",
-                    label: Some("pirate overdump [p][o]"),
+                    label: Some("pirate"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),

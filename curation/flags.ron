@@ -18403,6 +18403,7 @@
                 "vcs/alpha-beam-with-ernie",
             ],
             note: "missingno does not emulate the Atari Kids Controller (keypad) that Alpha Beam with Ernie requires, so its retail and prototype dumps are unplayable in the emulator.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2881,
@@ -18427,6 +18428,7 @@
                 "vcs/big-bird-s-egg-catch",
             ],
             note: "Requires the Atari Kid\'s Controller (a keypad-type controller) for input, which missingno does not emulate — the game is not playable as intended. Catalogued as controllers:[Keypad] (same electrical family), but the input isn\'t supported.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2884,
@@ -18435,6 +18437,7 @@
                 "vcs/basic-programming",
             ],
             note: "Requires the Atari Keyboard/Keypad Controller (both) to enter and edit programs; missingno does not emulate this input, so the programming interface isn\'t usable. Catalogued as controllers:[Keypad].",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2885,
@@ -18451,6 +18454,7 @@
                 "vcs/brain-games",
             ],
             note: "Requires the Atari Keyboard/Keypad Controller for input, which missingno does not emulate; not playable as intended. Catalogued as controllers:[Keypad].",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2887,
@@ -18483,6 +18487,7 @@
                 "vcs/codebreaker",
             ],
             note: "Requires the Atari Keyboard Controllers (keypad) for all input — missingno has no keypad support, so the game cannot be played beyond its demo screen.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2891,
@@ -18500,6 +18505,7 @@
                 "vcs/communist-mutants-from-space",
             ],
             note: "Developer playtest 2026-07-23: the Supercharger dumps do not run properly in missingno (both retail and rolling-demo loads affected). Images are correct 0x2100 fastload containers matching ar.rs IMAGE_SIZE, cart_type AR staged — the file setup is right, so the Board::Ar emulation itself diverges for this title.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2893,
@@ -18508,6 +18514,7 @@
                 "vcs/cookie-monster-munch",
             ],
             note: "Requires the Atari Kids Controller (keypad family, CX26102 series) — missingno has no keypad support, so the game cannot be played beyond attract/demo screens.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2894,
@@ -18516,6 +18523,7 @@
                 "vcs/elis-ladder",
             ],
             note: "No response to any player input in playtest or headless probe: left-port joystick directions, fire (INPT4), Game Select, and paddle axis (pot 0) all produce no screen change after 120+ frames; console Reset visibly responds. Game runs (screen changes on reset) but cannot be interacted with. Right controller port is not reachable through the current seam controls, so a right-port-reading game is untestable.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2895,
@@ -18524,6 +18532,7 @@
                 "vcs/escape-from-the-mindmaster",
             ],
             note: "Multiload Supercharger game cannot be played: the combined image (33792 bytes = 4 concatenated 8448-byte loads) is rejected at load (\"failed to construct console from media\") because the AR board accepts exactly one 8448-byte fastload image (ar::IMAGE_SIZE 0x2100). Single-part dumps construct, but the game requests further tape loads between levels and no multiload/tape-swap mechanism exists, so progression past each load boundary is impossible.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2896,
@@ -18532,6 +18541,7 @@
                 "vcs/dragonstomper",
             ],
             note: "Multiload Supercharger game cannot be played: the combined three-load image is rejected at load (AR board accepts exactly one 8448-byte fastload image; no multiload/tape-swap mechanism), confirmed in playtest. Single parts construct but cannot progress past their load boundary. Same gap as flag #2895 (Escape from the Mindmaster).",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2898,
@@ -18540,6 +18550,7 @@
                 "vcs/fireball",
             ],
             note: "Fireball is a Starpath/Arcadia Supercharger (AR cart_type) single-load cassette game. It does not load correctly in missingno: on boot only a few lines render at the top of the screen and the rest is static/noise — it never reaches a playable state. missingno\'s AR (Supercharger) support needs work. Another AR/Supercharger data point alongside earlier Supercharger flags (#2892 Supercharger behaviour; Mindmaster/Dragonstomper multiload #2895/#2896).",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2899,
@@ -18548,6 +18559,7 @@
                 "vcs/ghost-manor",
             ],
             note: "missingno does not load overdumped ([o]) dumps: an 8K [o] dump of this 4K game does not boot when the release carries the game\'s true 4K board (only the correctly-sized 4K dump loads). Overdump padding is not reduced to the smaller board. General emulator limitation, surfaced on this entry (its NTSC and PAL dumps are all [o] overdumps).",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2900,
@@ -18556,6 +18568,7 @@
                 "vcs/going-up",
             ],
             note: "Starpath Supercharger (cart_type AR) title does not load in missingno: the Supercharger/AR board is unsupported, so this prototype does not boot. Same limitation as the other AR/Supercharger entries (Supercharger multiloads and AR carts generally).",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2901,
@@ -18564,6 +18577,7 @@
                 "vcs/grovers-music-maker",
             ],
             note: "Requires the Atari Kid\'s Controller (a large keypad-style controller); missingno does not support the Keypad/Kid\'s Controller, so the game cannot be played as intended. Same limitation as other Keypad-controller games.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2902,
@@ -18572,6 +18586,7 @@
                 "vcs/hell-driver",
             ],
             note: "The game reads the right joystick port, which missingno cannot reach — input has no effect.",
+            resolved: Some("2026-07-26"),
         ),
         (
             id: 2903,
@@ -18580,6 +18595,7 @@
                 "vcs/holey-moley",
             ],
             note: "Requires the Atari Keyboard Controller, which missingno does not emulate — one button per hole, so the game cannot be played.",
+            resolved: Some("2026-07-26"),
         ),
     ],
 )

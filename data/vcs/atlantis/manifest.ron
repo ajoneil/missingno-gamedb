@@ -9,12 +9,12 @@
             link_type: Wiki,
         ),
         (
-            name: "Manual — day version (PDF)",
+            name: "Manual — day version",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/atlantis-day.pdf",
             link_type: Manual,
         ),
         (
-            name: "Manual — night version (PDF)",
+            name: "Manual — night version",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/atlantis-night.pdf",
             link_type: Manual,
         ),
@@ -170,7 +170,8 @@
                 ),
                 (
                     sha1: "fc21eb2b926573d70dd47569e46777e0f9dab259",
-                    label: Some("Atlantis [o] (overdump)"),
+                    label: Some("Atlantis"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),

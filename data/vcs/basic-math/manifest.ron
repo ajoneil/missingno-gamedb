@@ -4,12 +4,12 @@
     description: Some("Atari\'s early arithmetic teacher, later reissued as Fun with Numbers. The console sets problems in the four operations — addition, subtraction, multiplication and division — and you dial in each answer with the joystick against a running tally. The cartridge offers both ordered \"table\" problems, which drill a chosen number in sequence, and mixed \"random\" ones."),
     links: [
         (
-            name: "Manual — Basic Math (PDF)",
+            name: "Manual — Basic Math",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/basic_math.pdf",
             link_type: Manual,
         ),
         (
-            name: "Manual — Fun with Numbers (PDF)",
+            name: "Manual — Fun with Numbers",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/fun_with_numbers.pdf",
             link_type: Manual,
         ),
@@ -35,7 +35,7 @@
                 ),
                 (
                     sha1: "88b8e8e7ce9b1792647af68ffe154d0d99251cdb",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -59,7 +59,7 @@
                 ),
                 (
                     sha1: "3f9dd8bdff81da2fa8a541b827d95074531f49bb",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),

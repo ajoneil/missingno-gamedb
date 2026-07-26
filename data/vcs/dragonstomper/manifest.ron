@@ -39,10 +39,6 @@
                     label: Some("Part 1 of 3"),
                 ),
                 (
-                    sha1: "aa63009fb7dc4ece8cda3078d37f4e93b326c4df",
-                    label: Some("Preview [a]"),
-                ),
-                (
                     sha1: "b463d3da55cfa27c4f75550afcd07bcf28683d26",
                     label: Some("Part 3 of 3"),
                 ),
@@ -87,9 +83,42 @@
                     sha1: "6080703b9f16357e581be69a6154ac7186a91fac",
                     label: Some("Part 2 of 3"),
                 ),
+            ],
+        ),
+        (
+            label: Some("Preview"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Starpath"),
+            status: Demo,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aa63009fb7dc4ece8cda3078d37f4e93b326c4df",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("Preview"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Starpath"),
+            status: Demo,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
                 (
                     sha1: "7a893558f01e21b4708622cbc4b4db30c849acc6",
-                    label: Some("Preview"),
                 ),
             ],
         ),

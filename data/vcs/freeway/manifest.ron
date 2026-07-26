@@ -9,7 +9,7 @@
             link_type: Wiki,
         ),
         (
-            name: "Manual (PDF)",
+            name: "Manual",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/freeway.pdf",
             link_type: Manual,
         ),
@@ -149,11 +149,12 @@
                 ),
                 (
                     sha1: "68e429f37887efcc2d509943df4589a3467c346f",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "131b2b4f9d2e1594009989a73235594c3e6f6851",
-                    label: Some("[o][a] (bad dump)"),
+                    label: Some("alt [a]"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -173,11 +174,12 @@
                 ),
                 (
                     sha1: "a7aaed14ff652d07ea7344c7ed2802c62048ce0c",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "02f90d614a2a4480a77dfc5fc1a60c1eca5a8272",
-                    label: Some("[o][a] (bad dump)"),
+                    label: Some("alt [a]"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "c664cf8d210e5c9395de21af57f2ff3373387f07",
@@ -202,7 +204,8 @@
                 ),
                 (
                     sha1: "48e69087591fe54380117f2c2ab74f8d65ffe977",
-                    label: Some("32-in-1 (Freeway Chicken) [o]"),
+                    label: Some("32-in-1 (Freeway Chicken)"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "292156b1ad05bbcb9749ded787801841d6beed0d",
@@ -210,7 +213,8 @@
                 ),
                 (
                     sha1: "4a3c0a569e6735d255cd7df16b3e3428ba01ef7c",
-                    label: Some("32-in-1 (Freeway Rabbit) [o]"),
+                    label: Some("32-in-1 (Freeway Rabbit)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -248,7 +252,7 @@
                 ),
                 (
                     sha1: "6f6ae684fc09806be4ebbfd694bd4880cf28e789",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -265,11 +269,10 @@
             artifacts: [
                 (
                     sha1: "a7ee724f0f8df862e510e4bad6c027dca0e4900d",
-                    label: Some("[p] (bad dump)"),
                 ),
                 (
                     sha1: "30813c691bacc27b18bdeeeb9fd57cd858a267b6",
-                    label: Some("[p] (bad dump)"),
+                    label: Some("alt"),
                 ),
             ],
         ),
@@ -285,7 +288,6 @@
             artifacts: [
                 (
                     sha1: "52eee69b08e7dc32e1732702a5fbf3ac8993f099",
-                    label: Some("[p] (bad dump)"),
                 ),
             ],
         ),

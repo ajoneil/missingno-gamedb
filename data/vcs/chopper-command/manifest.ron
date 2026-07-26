@@ -74,7 +74,8 @@
                 ),
                 (
                     sha1: "616a96e130ad34aa019dbc8817852efbac37e07a",
-                    label: Some("overdump [o1] (possibly 4-in-1)"),
+                    label: Some("possibly 4-in-1"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -139,7 +140,8 @@
             artifacts: [
                 (
                     sha1: "153437a7e10cc3e3f2dfe3c55cdbc80c0da91f18",
-                    label: Some("pirate overdump [p][o]"),
+                    label: Some("pirate"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -182,7 +184,6 @@
             artifacts: [
                 (
                     sha1: "bc483097f94f2bf9c4d3366b3bd25200f2e2f22a",
-                    label: Some("pirate [p]"),
                 ),
             ],
         ),

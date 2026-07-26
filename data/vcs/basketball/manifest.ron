@@ -9,7 +9,7 @@
             link_type: Wiki,
         ),
         (
-            name: "Manual (PDF)",
+            name: "Manual",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/basketball.pdf",
             link_type: Manual,
         ),
@@ -39,7 +39,7 @@
                 ),
                 (
                     sha1: "e9644515f2a119121472dc80fea8cd2bf98699de",
-                    label: Some("[o] (overdump)"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -80,11 +80,13 @@
             artifacts: [
                 (
                     sha1: "7001a926bb75f0d4c508d6af830dd5c7cbf5b0cc",
-                    label: Some("32-in-1 extract [b][o] (bad dump)"),
+                    label: Some("32-in-1 extract"),
+                    defect: Some(BadDump),
                 ),
                 (
                     sha1: "f404399d8456ac7acc9209251b77f7cb3b7cf0f7",
-                    label: Some("32-in-1 extract [o] (overdump)"),
+                    label: Some("32-in-1 extract"),
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "3a5736b2fb19451463801bb76a818a93f6c5dc29",

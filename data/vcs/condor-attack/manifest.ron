@@ -32,7 +32,7 @@
             artifacts: [
                 (
                     sha1: "2ebd0f43ee76833f75759ac1bbb45a8e0c3b86e9",
-                    label: Some("bad dump [b]"),
+                    defect: Some(BadDump),
                 ),
                 (
                     sha1: "b83ae33ce3b764f90baa0a5bb78020eb8a36d427",
@@ -94,7 +94,6 @@
             artifacts: [
                 (
                     sha1: "e19de12bde02958dc57e254b0fe917b390f5f944",
-                    label: Some("pirate [p]"),
                 ),
             ],
         ),

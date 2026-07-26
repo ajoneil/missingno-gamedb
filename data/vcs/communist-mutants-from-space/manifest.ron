@@ -1,11 +1,16 @@
 (
     title: "Communist Mutants from Space",
-    description: Some("A Supercharger-cassette fixed shooter: mutants hatch from a rank of drifting eggs laid by the Mother Creature — an alien driven mad by irradiated vodka — and your cannon holds the ground below. The cassette\'s extra memory pays for toggleable twists standard carts couldn\'t fit: shields, time warp, penetrating and guided fire, and up to four players taking turns."),
+    description: Some("A Supercharger-cassette fixed shooter: a Mother Creature filled with irradiated vodka transforms captured slaves into mutants, which begin as eggs and hatch to dive on the anti-mutant cannon below — while the eggs that never hatch are disguised shield-penetrating bombs. An options menu switches on shields, time warp, penetrating and guided fire, and one to four players alternate turns."),
     links: [
         (
             name: "Wikipedia",
             url: "https://en.wikipedia.org/wiki/Communist_Mutants_from_Space",
             link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/commie_mutants.pdf",
+            link_type: Manual,
         ),
     ],
     covers: [
@@ -27,10 +32,6 @@
                 (
                     sha1: "9a113bacc576d1d1f80a26622359c49df97b16bc",
                 ),
-                (
-                    sha1: "ad18885ed38516c3e136293ae565c113f299d223",
-                    label: Some("rolling demo"),
-                ),
             ],
         ),
         (
@@ -47,9 +48,41 @@
                 (
                     sha1: "9ab6e90c2a41684f46592b8e2b71fd19e540b055",
                 ),
+            ],
+        ),
+        (
+            label: Some("Rolling demo"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Arcadia Corporation"),
+            status: Demo,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad18885ed38516c3e136293ae565c113f299d223",
+                ),
+            ],
+        ),
+        (
+            label: Some("Rolling demo"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Starpath Corporation"),
+            status: Demo,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
                 (
                     sha1: "b0483e5de99833d630433281953a670dd72a0df4",
-                    label: Some("rolling demo"),
                 ),
             ],
         ),
