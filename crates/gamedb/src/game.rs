@@ -143,8 +143,9 @@ pub struct Artifact {
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
 pub enum Defect {
     /// A padded dump: larger than the ROM, so it fingerprints as a bigger
-    /// board, but still plays correctly. Harmless — recorded so it is not
-    /// mistaken for a distinct release (TOSEC `[o]`).
+    /// board. The emulator loads it on the release's stated board and ignores
+    /// the padding; recorded so it is not mistaken for a distinct release
+    /// (TOSEC `[o]`).
     Overdump,
     /// A corrupt or truncated dump that does not play correctly (TOSEC `[b]`).
     BadDump,
