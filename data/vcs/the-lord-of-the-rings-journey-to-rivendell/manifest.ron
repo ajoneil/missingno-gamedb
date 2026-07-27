@@ -1,0 +1,58 @@
+(
+    title: "The Lord of the Rings - Journey to Rivendell",
+    developer: Some("Mark Lesser"),
+    description: Some("Frodo carries the One Ring from Hobbiton toward Rivendell with the nine Black Riders hunting him — a tone rises as they close, and a spy bird overhead can give his position away. Roads carry him faster but quicken his pursuers too, forests are refuge they cannot enter, and the Loudwater can only be crossed at its two bridges. Wearing the Ring hides him from the bird while making the Riders faster, and companions picked up along the way — Sam, Aragorn, Gandalf, Tom Bombadil, Glorfindel — lend him speed or shield him from a wound. Three wounds, or seven days gone, and the journey is over."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_Journey_to_Rivendell",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E2F9747B6DE6BB9F51B06E0B12556170AD85C8CC",
+    ],
+    mods: [
+        (
+            name: "The Lord of the Rings Fences",
+            category: QualityOfLife,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("ef02fdb94ac092247bfcd5f556e01a68c06a4832"),
+                    artifacts: [
+                        (
+                            sha1: "96e71c1749735262520c7ffc6b6cf6ff9953867a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("PB5950"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef02fdb94ac092247bfcd5f556e01a68c06a4832",
+                ),
+                (
+                    sha1: "9010530904f78ad10a6164174cb657d1f4717337",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+    ],
+)

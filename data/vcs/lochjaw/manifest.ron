@@ -1,8 +1,30 @@
 (
     title: "Lochjaw",
+    developer: Some("Steve Stringfellow"),
+    description: Some("A deep-sea diver works a kelp maze for the diamonds spilled by a Spanish galleon that went down in the sixteenth century, banking them at the shark cage in the middle. Sharks cut straight across the maze walls the diver has to follow, eating diamonds as they pass and the diver if they reach him, and the Loch Ness monster hunts him through the kelp. Sixteen variations decide whether diamonds are carried back one at a time or swallowed on the swim over, and whether the cage door stands open, shuts at your command, or closes at random."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/lochjaw.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Lochjaw",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Lochjaw%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1982"),
+            label: Some("AP-2005"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-06"),
             publisher: Some("Apollo"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -11,6 +33,46 @@
             artifacts: [
                 (
                     sha1: "fe208ad775cbf9523e7a99632b9f10f2c9c7aa87",
+                ),
+                (
+                    sha1: "0c6e6dc07a260b19c2a0270a0fc58108c11b66de",
+                    label: Some("moving cloud"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Shark Attack"),
+            label: Some("AP-2005"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6e91759756c34f40a2c26936df6c0ca1a3850e80",
+                ),
+            ],
+        ),
+        (
+            title: Some("Shark Attack"),
+            label: Some("AP-2005"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5d667cbbeebec5f18a513e045704e5cc7ecc0301",
                 ),
             ],
         ),

@@ -1,7 +1,109 @@
 (
-    title: "Maze Craze",
+    title: "Maze Craze - A Game of Cops \'n Robbers",
+    developer: Some("Rick Maurer"),
+    description: Some("You are a cop racing your opponent across a maze of city blocks to the exit on the right, while robbers lurk around the corners and knock you out on contact. Some of the sixteen games make you capture three robbers first, and you can drop a blockade shaped like a dead end to send your rival the wrong way. Visibility settings black out part or all of the maze, leaving you to remember the route or wait for the layout to flash back."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/maze_craze.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Maze_Craze",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Maze%20Craze%20-%20A%20Game%20of%20Cops%20%27n%20Robbers%20~%20Maze%20Mania%20-%20A%20Game%20of%20Cops%20%27n%20Robbers%20%28USA%29.png",
+    ],
+    mods: [
+        (
+            name: "Maze Craze Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("aba25089d87cd6fee8d206b880baa5d938aae255"),
+                    artifacts: [
+                        (
+                            sha1: "02685b5dd73ca546b1a06bb92f92f9d70054b1fb",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Maze Craze Smilies",
+            category: ContentChange,
+            author: Some("Wade Casaldi"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("aba25089d87cd6fee8d206b880baa5d938aae255"),
+                    artifacts: [
+                        (
+                            sha1: "cb9dafc4354cfe8dbf3e7cab82e6dc8597ed0dea",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Maze Craze Stick Men",
+            category: ContentChange,
+            author: Some("Wade Casaldi"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("aba25089d87cd6fee8d206b880baa5d938aae255"),
+                    artifacts: [
+                        (
+                            sha1: "553e1560e0421c48ca1ab631fbc6f9ee72e2f1b3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "aba25089d87cd6fee8d206b880baa5d938aae255",
+                ),
+            ],
+        ),
+        (
+            title: Some("Labyrinth"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "adbc884601016ebf1b3bca03dce56d95b7a90a22",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,6 +111,22 @@
             artifacts: [
                 (
                     sha1: "b7b9e65159af23307da54cf371aac8536c5d227c",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4a255c1d277f9ceb98dfe61ec2c6f7537ca4e7bf",
                 ),
             ],
         ),

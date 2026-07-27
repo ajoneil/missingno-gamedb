@@ -1,7 +1,67 @@
 (
     title: "Lock \'n\' Chase",
+    developer: Some("Bruce Pedersen"),
+    description: Some("A cops-and-robbers chase through the corridors of a bank vault: your thief runs the maze scooping up gold bars while four policemen close in, and a single touch ends his run. Clear every bar and the red door at the top of the screen opens for the escape, with a fresh vault-full waiting after it. Treasures surface in the middle of the maze for a few seconds at a time and are worth the detour, but you only get five thieves."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/lockn_chase.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Lock_%27n%27_Chase",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Lock%20%27n%27%20Chase%20%28USA%29.png",
+    ],
+    mods: [
+        (
+            name: "Unnamed hack of Lock \'n\' Chase",
+            category: ContentChange,
+            author: Some("John Payson"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("fc3d75d46d917457aa1701bf47844817d0ba96c3"),
+                    artifacts: [
+                        (
+                            sha1: "006fe72ecd20abf2e59b65ec495ea8db745ceca2",
+                        ),
+                        (
+                            sha1: "941e8f19a9ce0c4d87610545004a1f8a9e7c081c",
+                            label: Some("alt [a]"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Unnamed 32-in-1 hack of Lock \'n\' Chase",
+            category: Compatibility,
+            author: Some("Bit Corporation"),
+            releases: [
+                (
+                    label: Some("R320"),
+                    base_sha1: Some("fc3d75d46d917457aa1701bf47844817d0ba96c3"),
+                    artifacts: [
+                        (
+                            sha1: "ba31e86333dc16badc83d8e4239f9a50a5402f9b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("MT5663"),
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (
@@ -10,17 +70,14 @@
             ),
             artifacts: [
                 (
-                    sha1: "006fe72ecd20abf2e59b65ec495ea8db745ceca2",
-                ),
-                (
-                    sha1: "ba31e86333dc16badc83d8e4239f9a50a5402f9b",
-                ),
-                (
                     sha1: "fc3d75d46d917457aa1701bf47844817d0ba96c3",
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1988"),
             publisher: Some("Telegames"),
             hardware: (
@@ -31,6 +88,15 @@
                 (
                     sha1: "075ec3678ceabbee46a7d576fdd199a4ab908cc0",
                 ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "119171935ed9ea877de4f2a68aee31cd55bc697d",
                 ),

@@ -1,7 +1,29 @@
 (
     title: "London Blitz",
+    developer: Some("William J. Sheppard, Rebecca Heineman"),
+    description: Some("You are a Royal Engineer working the London Blitz, sent out to clear your sector of the bombs that fell without going off. A street map flashes up where bombs have been reported and you plan a route to one, then walk the streets in first person until you are standing on it. Every bomb presents three coloured sliding bars and a set of indicator lights to read before you commit, and the job ends one of three ways: promotion to Captain, dismissal for incompetence, or a posthumous Victoria Cross."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/london_blitz.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Rebecca Heineman (Wikipedia)",
+            url: "https://en.wikipedia.org/wiki/Rebecca_Heineman",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/London%20Blitz%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("5002002"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Avalon Hill"),
             hardware: (

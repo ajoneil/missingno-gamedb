@@ -1,0 +1,68 @@
+(
+    title: "Lady in Wading",
+    description: Some("A lady builds a bridge across a castle moat plank by plank, jumping the crocodile that surfaces to grab her and the little monster that gives chase once the bridge is part built — and, on the harder setting, a flying dragon dropping fireballs. With the bridge finished she climbs the tower to the captive prince. Turns are unlimited: the clock is what you play against."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/lady_wading.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "PlayAround (Wikipedia)",
+            url: "https://en.wikipedia.org/wiki/PlayAround",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Lady%20in%20Wading%20%28USA%29.png",
+    ],
+    mods: [
+        (
+            name: "Lady in Wading Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("6d59dfea26b7a06545a817f03f62a59be8993587"),
+                    artifacts: [
+                        (
+                            sha1: "13c13a6e43dc3f94c2f811668a7a54f7bc7e80bd",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    date: Some("2008"),
+                    base_sha1: Some("6d59dfea26b7a06545a817f03f62a59be8993587"),
+                    artifacts: [
+                        (
+                            sha1: "4ecf10c07b472a39ce841a9406e989992a16535b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    adult: true,
+    releases: [
+        (
+            label: Some("204"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("PlayAround"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6d59dfea26b7a06545a817f03f62a59be8993587",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,5 +1,33 @@
 (
     title: "Dark Mage (PD) (4K)",
+    mods: [
+        (
+            name: "Lord of the Rings",
+            category: ContentChange,
+            author: Some("Adam Thornton"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://www.packratvg.com/lotr.html",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2002"),
+                    artifacts: [
+                        (
+                            sha1: "721514e5c31c8f2b30b4a2bf2cda69a810cac75b",
+                        ),
+                        (
+                            sha1: "43575ed97f8a585c5bae6fb1a7b2133c87b4d256",
+                            label: Some("alt [a]"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
     releases: [
         (
             date: Some("1997"),

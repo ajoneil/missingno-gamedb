@@ -1,0 +1,165 @@
+(
+    title: "Laser Blast",
+    developer: Some("David Crane"),
+    description: Some("You fly a saucer over a landscape of enemy ground emplacements, diving to strafe them with a laser fired from the ship\'s underside. Hovering is fatal: the gun crews\' radar locks onto a stationary ship, and each new wave forces you higher until there is no low ground left to hide in. A direct hit costs you a ship, though a crippled one can still be steered down onto an attacker to take it with you."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/laser_blast.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Laser_Blast",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Laser%20Blast%20%28USA%29.png",
+    ],
+    mods: [
+        (
+            name: "Unnamed hack of Laser Blast",
+            category: ContentChange,
+            releases: [
+                (
+                    artifacts: [
+                        (
+                            sha1: "cc45af0a45a6e5d0581683c3589476c0da4b5600",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Airwolf Second Season",
+            category: ContentChange,
+            author: Some("Fabventure2600"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("ea8ecc2f6818e1c9479f55c0a3356edcf7a4d657"),
+                    artifacts: [
+                        (
+                            sha1: "e0596805d6f22209236e7e1179dec2274d99baa4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4c68497b35cc0254738bf9bffee6eed672c7cea3",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ea8ecc2f6818e1c9479f55c0a3356edcf7a4d657",
+                ),
+                (
+                    sha1: "32e2f2992db4eb752e8a240b80c09f10673a3abb",
+                    label: Some("4K padding"),
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "f14cd01c48c70245069e745ddb5f9d6ee139c4a0",
+                    label: Some("16K padding"),
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            title: Some("Lazer"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1980-08-08"),
+            publisher: Some("Activision"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ab5a841caaf0d5ab506eebd2b13d62a56f812f98",
+                ),
+            ],
+        ),
+        (
+            label: Some("Screen Search Console"),
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c7df5904cdc6a1658cad89b83e3e523b42a2b45d",
+                ),
+            ],
+        ),
+        (
+            title: Some("Laser Blast - Duell im Weltall"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1981"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f43046e44100f123e04432dfed61a487c10e36d9",
+                ),
+            ],
+        ),
+        (
+            label: Some("32 in 1"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7c01dc0bc9f87c01dc93f68b3cc9bfabeda77f83",
+                ),
+                (
+                    sha1: "d76cd958e92a5cf833ada0860561a5389c94d91d",
+                    label: Some("4K padding"),
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+    ],
+)

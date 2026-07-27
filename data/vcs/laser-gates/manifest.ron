@@ -1,7 +1,46 @@
 (
     title: "Laser Gates",
+    developer: Some("Dan Oliver"),
+    description: Some("The Cryptic Computer that has kept the galaxies at peace has malfunctioned, and four Failsafe Detonators inside it are counting down to universal self-destruct. You spiral the Dante Dart down through the Computer\'s passages, blasting Densepack Columns, Radar Mortars, Rock Munchers and Byte Bats while timing your run through flashing, flexing and fixed forcefields. Energy drains as you fly, so touch Energy Pods to top it up, and reach each Detonator before its D-Time expires."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/laser_gates.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-laser-gates_s7345.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Laser%20Gates%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Laser Gates Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("cdf55b73b4322428a001e545019eaa591d3479cf"),
+                    artifacts: [
+                        (
+                            sha1: "6c835055a8984326498f23faebf589337a61557f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Imagic"),
             hardware: (
@@ -10,21 +49,12 @@
             ),
             artifacts: [
                 (
-                    sha1: "3e20254c9347d2b525eb1c398b3ab50cd6cdc485",
-                ),
-                (
-                    sha1: "6c835055a8984326498f23faebf589337a61557f",
-                ),
-                (
-                    sha1: "71edbf566e3af30052fe3892d64b9b55c13ba2c3",
-                ),
-                (
                     sha1: "cdf55b73b4322428a001e545019eaa591d3479cf",
                 ),
             ],
         ),
         (
-            publisher: Some("Future Video Games"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -33,8 +63,114 @@
                 (
                     sha1: "56d3d4ab75a646a473da043ae7e3dd13916c8a91",
                 ),
+            ],
+        ),
+        (
+            title: Some("Weltraumtunnel"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c513703d638c01b0c26922d5e3e7bfb65ea597da",
+                ),
+            ],
+        ),
+        (
+            title: Some("Laser Gate"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c768f44235766bdebdb7c2c6b61cfa84b40b04bb",
+                ),
+            ],
+        ),
+        (
+            title: Some("Innerspace"),
+            date: Some("1983"),
+            publisher: Some("VentureVision"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "943c7bb926c71e94f3a53185ac3bec1c27ffbee0",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Ulog"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e20254c9347d2b525eb1c398b3ab50cd6cdc485",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Fotomania"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "71edbf566e3af30052fe3892d64b9b55c13ba2c3",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "759eccf0cc8134a2ff787ba39087da045ddface1",
+                ),
+            ],
+        ),
+        (
+            title: Some("Laser Volley"),
+            regions: [
+                Canada,
+            ],
+            date: Some("1983"),
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "afab795719386a776b5fb2165fc84f4858e16e05",
                 ),
             ],
         ),

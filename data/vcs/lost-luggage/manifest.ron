@@ -1,7 +1,47 @@
 (
     title: "Lost Luggage",
+    developer: Some("Ed Salvo, Larry Minor, Ernie Runyon"),
+    description: Some("An airport carousel goes amok and starts flinging suitcases across the baggage hall, and you run about underneath catching them before they hit the floor and burst open. Planes keep landing in the background, and the torrent of cases multiplies the longer you last. On the easier setting two catchers work the hall between them; on the harder one you are down there alone."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/lost_luggage.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Lost_Luggage_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/817F992768F7A36B3BDFBA0FCF92ED4F220D5902",
+    ],
+    mods: [
+        (
+            name: "Bioresearch Station 2084",
+            category: ContentChange,
+            author: Some("James Catalano"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("e8492fe9d62750df682358fe59a4d4272655eb96"),
+                    artifacts: [
+                        (
+                            sha1: "a93566627b220b0b8ea69877498cda3a0f9d6ebf",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("AP-2004"),
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Apollo"),
             hardware: (
@@ -11,6 +51,28 @@
             artifacts: [
                 (
                     sha1: "e8492fe9d62750df682358fe59a4d4272655eb96",
+                ),
+                (
+                    sha1: "7f03162fa0a3b08145e17d1de01208314ebf441f",
+                    label: Some("no opening scene, fewer points per suitcase"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Lost Luggage - La valise piégée"),
+            label: Some("AP-2004"),
+            regions: [
+                France,
+            ],
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e83024e007e103b84f83d31233627daf741df609",
                 ),
             ],
         ),

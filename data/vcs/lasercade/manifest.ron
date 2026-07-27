@@ -1,7 +1,24 @@
 (
     title: "Lasercade",
+    developer: Some("Lee Actor"),
+    description: Some("A shooting gallery seen in three-quarter perspective: clear every target across the back of the range before the round\'s clock runs out, with each new round adding targets and shrinking them. Three mirrors turn in the middle distance — catch one from behind and it shatters, hit its face and your own beam comes straight back at you and costs you time. Clearing a round earns a trick-shot bonus and a candelabra to snuff out before the candles burn down."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/lasercade/lasercade.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/12FC3C3B1AADD6211D21164E8F389853E7A34A49",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("11037"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("20th Century Fox Video Games"),
             status: Prototype,

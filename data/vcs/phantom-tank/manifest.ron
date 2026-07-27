@@ -1,7 +1,61 @@
 (
     title: "Phantom Tank",
+    description: Some("Phantom tanks come down on your energy base and you meet them in an armored car — first among the walls of the streets, then across a river, then out on the open prairie. Shooting one scores 100 points; ramming one scores 200 but wrecks your car with it, and clearing all twenty in a battle earns you a spare. Let a single phantom tank reach the base and it is over."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/phantom_tank.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-phantom-tank_14119.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Phantom%20Tank%20(Europe).png",
+    ],
+    mods: [
+        (
+            name: "Tank Patrol",
+            category: ContentChange,
+            author: Some("Wade Casaldi"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("c286916f75e11f623209b2a790c6bd2854e3889a"),
+                    artifacts: [
+                        (
+                            sha1: "fac744fafeb68773188393acd640e9bdcb894f6a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Tanks DX",
+            category: ContentChange,
+            author: Some("Charles Morgan"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("13a9d86cbde32a1478ef0c7ef412427b13bd6222"),
+                    artifacts: [
+                        (
+                            sha1: "fcde84a4d0a86071d730ec59afbc7897cb8ed20d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Bit Corporation"),
             hardware: (
@@ -12,12 +66,14 @@
                 (
                     sha1: "c286916f75e11f623209b2a790c6bd2854e3889a",
                 ),
-                (
-                    sha1: "d432ce6d2133101ce668368c52ce2c91737b6965",
-                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Bit Corporation"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -26,8 +82,78 @@
                 (
                     sha1: "959aca4b44269b1e5ac58791fc3c7c461a6a4a17",
                 ),
+            ],
+        ),
+        (
+            title: Some("Labyrint"),
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "02a521354575d2270f75250e79bc18f69f666c7f",
+                    label: Some("Puzzy branding on screen"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Phantom Tank - Tanque Fantasma"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "432c1264dc2d24d76e25c8750dfc387cccb2bc2f",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d432ce6d2133101ce668368c52ce2c91737b6965",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "ac10193bd786ca3c2a735809c95d130898e6c784",
+                ),
+            ],
+        ),
+        (
+            title: Some("Tanks But No Tanks"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13a9d86cbde32a1478ef0c7ef412427b13bd6222",
                 ),
             ],
         ),

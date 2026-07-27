@@ -1,7 +1,49 @@
 (
     title: "Lilly Adventure",
+    description: Some("Little Lilly is making her way home through 256 scenes that cycle round the four seasons, four scenes to each. She leaps the animals prowling the ground and dodges the hawks overhead, and crosses the water by bouncing off a tortoise\'s back and a crocodile\'s closed mouth. Each scene starts at a thousand points and counts down until she is through it, and clearing one earns her another life."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-lilly-adventure_11783.html",
+            link_type: Manual,
+            languages: [
+                English,
+                German,
+                French,
+                Italian,
+                Spanish,
+                Dutch,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Lilly%20Adventure%20%28Europe%29.png",
+    ],
+    mods: [
+        (
+            name: "Lilly Adventure NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("63f4776aa4c35d124001918b733cdb4d46dfbe9b"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "4f3e51f68c10d2fa7c4b9764b0cb81fdded0fde4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -10,11 +52,36 @@
                 (
                     sha1: "352ef2c94da6d85896a5115c1b6ce4a4869b9943",
                 ),
+            ],
+        ),
+        (
+            label: Some("VCS83117"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
-                    sha1: "4f3e51f68c10d2fa7c4b9764b0cb81fdded0fde4",
+                    sha1: "63f4776aa4c35d124001918b733cdb4d46dfbe9b",
                 ),
+            ],
+        ),
+        (
+            label: Some("Screen Search Console"),
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "8ff6b530c0208defac18c96a51de95fda7228be8",
+                    label: Some("NTSC timing, PAL colour values"),
                 ),
             ],
         ),

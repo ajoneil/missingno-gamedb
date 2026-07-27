@@ -1,7 +1,29 @@
 (
     title: "Looping",
+    developer: Some("Ed Temple"),
+    description: Some("Your plane cannot simply be steered — pulling the stick arcs it into a loop, and it flies fast enough that a misjudged one puts you into the scenery. Each level opens at an airfield you take off from, with a terminal to destroy, a missile, or both, and balloons bouncing across the runway. Beyond the airfield lies the Pipe Maze, a chain of rooms defended by dripping ooze, a bouncing monster, and three balls barring the door of the last one."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/looping/looping.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Looping_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C118B60AB8E6A86E8DBD3B5AE141B504B0522119",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("2654"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Coleco"),
             status: Prototype,
