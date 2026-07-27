@@ -1,7 +1,24 @@
 (
     title: "Kyphus",
+    developer: Some("Tim Martin"),
+    description: Some("A figure runs through a pseudo-3D maze of 64 differently coloured rooms, each with exits at the sides, top and bottom, pursued by a robot and a glowing cloud that fires lasers. The build is early enough that collision detection is missing and the score display still shows debug values."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/kyphus/kyphus.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0866910860BBDDCEB7F66A753A0C6A9E041B720A",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("AP-2007"),
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Apollo"),
             status: Prototype,

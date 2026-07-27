@@ -1,8 +1,39 @@
 (
     title: "Kabobber",
+    developer: Some("Rex Bradford"),
+    description: Some("A grid-hopper in which you crush an enemy by landing on it before it lands on you. Troops you summon appear in the squares surrounding you and move with you in formation; they start as babies that anything can crush until they conquer a weak enemy and reach full strength."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/kabobber/kabobber.htm",
+            link_type: Community,
+        ),
+    ],
+    mods: [
+        (
+            name: "Spy Bob",
+            category: ContentChange,
+            author: Some("Steve Engelhardt"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("ce8ac88b799c282567495ce509402a5a4c2c4d82"),
+                    artifacts: [
+                        (
+                            sha1: "4458af16236ae6d7e0958a1035500e23ffb47da4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-07-25"),
             publisher: Some("Activision"),
             status: Prototype,
             hardware: (

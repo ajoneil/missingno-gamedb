@@ -1,7 +1,29 @@
 (
     title: "Klax",
+    developer: Some("Steve DeFrisco"),
+    description: Some("Coloured tiles tumble down a ramp into a paddle you slide left and right, stacking up to five before flipping them into the bins below. Three in a row — straight or diagonal — makes a Klax, and each of the hundred waves sets its own target; let too many tiles drop and the game ends."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Klax_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/klax.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Klax%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("CX26192"),
+            regions: [
+                Usa,
+            ],
             date: Some("1990"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,12 +34,13 @@
                 (
                     sha1: "3162259c6dbfbb57a2ea41d849155702151ee39b",
                 ),
-                (
-                    sha1: "991089a63734a859c89eb465f3fc074e57c3ee4d",
-                ),
             ],
         ),
         (
+            label: Some("CX26192"),
+            regions: [
+                Europe,
+            ],
             date: Some("1991"),
             publisher: Some("Atari"),
             hardware: (
@@ -27,6 +50,33 @@
             artifacts: [
                 (
                     sha1: "45623a1c8fb5074de98c37f005edd5b1d0937dae",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4c9e218a6e1e44f0159d08241b7c6e77957613b9",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+        (
+            date: Some("1990-06-14"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "991089a63734a859c89eb465f3fc074e57c3ee4d",
                 ),
             ],
         ),

@@ -1,17 +1,52 @@
 (
-    title: "Ixion (PAL Conversion)",
+    title: "Ixion",
+    developer: Some("Jeff Lorenz"),
+    description: Some("A tank-like ship roams a grid of 110 tiles, grabbing five white squares to spell out Ixion before a creeping timer reaches your reserve ships. Shooting or ramming a brown sphere sends it caroming across the grid, revealing the missing tiles you need to travel on and flattening enemy drones."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/ixion/ixion.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7162F0D45F977AE86BF841B80EA63DA5FDE9A7A9",
+    ],
+    mods: [
+        (
+            name: "Ixion PAL conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("a11538157529b42a2840f518b95af5c59143cced"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "1a325129f9d264f79a88fec427b4286e2666c0ba",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("2005"),
-            publisher: Some("Thomas Jentzsch"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Sega"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
             ),
             artifacts: [
-                (
-                    sha1: "1a325129f9d264f79a88fec427b4286e2666c0ba",
-                ),
                 (
                     sha1: "a11538157529b42a2840f518b95af5c59143cced",
                 ),

@@ -1,31 +1,59 @@
 (
     title: "Krull",
+    developer: Some("Jerome Domurat, Dave Staugas"),
+    description: Some("Four scenes: sword off the Slayers raiding Colwyn and Lyssa\'s wedding, ride the Fire Mares across the Iron Desert collecting Glaives, read the blinking light on the Widow\'s cocoon to pick the right one of eight paths, then dodge the Beast\'s fireballs to free Lyssa. The Black Fortress moves at every sunrise."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/krull.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6C54674411EB81866599041B8F4BE1F35ADBA059",
+    ],
+    mods: [
+        (
+            name: "Krull PAL conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("4bdf1cf73316bdb0002606facf11b6ddcb287207"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "eeac23237aaa4da1d85e6599444e37d1514d49af",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            publisher: Some("CCE"),
+            label: Some("CX2682"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
             ),
             artifacts: [
                 (
-                    sha1: "07a1c1b1a2297c4edde0e16f610b5ec23c775217",
-                ),
-                (
                     sha1: "4bdf1cf73316bdb0002606facf11b6ddcb287207",
-                ),
-                (
-                    sha1: "c5b9e25fc6e493c8f290f92a598330c391758c75",
-                ),
-                (
-                    sha1: "eeac23237aaa4da1d85e6599444e37d1514d49af",
-                ),
-                (
-                    sha1: "fb7402ff554d32441ea93066288a465a1cc694b9",
                 ),
             ],
         ),
         (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("F8"),
@@ -33,6 +61,54 @@
             artifacts: [
                 (
                     sha1: "fc4e9548ddc75e84b47123ca436b61035084fd06",
+                ),
+            ],
+        ),
+        (
+            label: Some("CX2682"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05-27"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fb7402ff554d32441ea93066288a465a1cc694b9",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "07a1c1b1a2297c4edde0e16f610b5ec23c775217",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c5b9e25fc6e493c8f290f92a598330c391758c75",
                 ),
             ],
         ),

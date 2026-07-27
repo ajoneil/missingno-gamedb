@@ -1,7 +1,56 @@
 (
     title: "Jungle Hunt",
+    developer: Some("GCC"),
+    description: Some("Sir Dudley Dashly must cross four stretches of jungle to reach his kidnapped wife: swinging along the vines of the Deadly Forest, swimming Reptile River past its crocodiles as an air meter drains, dodging a landslide of bouncing boulders, and jumping the spears of two masked cannibals."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/jungle_hunt.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Jungle_Hunt",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Jungle%20Hunt%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Jungle Hunt (Vine Fix)",
+            category: QualityOfLife,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    date: Some("2009"),
+                    base_sha1: Some("83a32a2d686355438c915540cfe0bb13b76c1113"),
+                    artifacts: [
+                        (
+                            sha1: "5d3906bd42c5dc4a2f8dd183971a817bcc669027",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    base_sha1: Some("83a32a2d686355438c915540cfe0bb13b76c1113"),
+                    artifacts: [
+                        (
+                            sha1: "a8b7fd5f8da58fc38ba959bc7a3c7a54af0509d9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("CX2688"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -10,26 +59,15 @@
             ),
             artifacts: [
                 (
-                    sha1: "1a911b08c48721e9280e0df07d7df4f7bfecb724",
-                ),
-                (
-                    sha1: "304b22919ce4a278fa5560a70901f0af08114e8d",
-                ),
-                (
-                    sha1: "5d3906bd42c5dc4a2f8dd183971a817bcc669027",
-                ),
-                (
                     sha1: "83a32a2d686355438c915540cfe0bb13b76c1113",
-                ),
-                (
-                    sha1: "8903aada563b4f5735274092d4e1b246f3d0f76d",
-                ),
-                (
-                    sha1: "fe52af1b54e146be187e425fef229751212eeee1",
                 ),
             ],
         ),
         (
+            label: Some("CX2688P"),
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -38,13 +76,67 @@
             ),
             artifacts: [
                 (
-                    sha1: "a8b7fd5f8da58fc38ba959bc7a3c7a54af0509d9",
-                ),
-                (
                     sha1: "b3ab5b0c1c4929dcca777fe2441f0c8aba03944f",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "c261d75144f7ae90568010ae19025f6be4280f77",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983-02-03"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "304b22919ce4a278fa5560a70901f0af08114e8d",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983-02-25"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a911b08c48721e9280e0df07d7df4f7bfecb724",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fe52af1b54e146be187e425fef229751212eeee1",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8903aada563b4f5735274092d4e1b246f3d0f76d",
                 ),
             ],
         ),

@@ -1,0 +1,77 @@
+(
+    title: "Kool-Aid Man",
+    developer: Some("Stephen Tatsumi, Jane Terjung"),
+    description: Some("Thirsties are draining Kool-Aid Man\'s swimming pool through their straws, and he clears a round by bumping into all thirty before the water runs out. Swallowing a floating W, S or K makes him briefly bigger, immune to being knocked about, and tops the pool back up a little."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/kool-aid_man.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Kool-Aid_Man_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Kool-Aid%20Man%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Kool Aid Man (Fixed)",
+            category: QualityOfLife,
+            author: Some("Christopher Tumber"),
+            releases: [
+                (
+                    date: Some("2002-11-15"),
+                    base_sha1: Some("2f550743e237f6dc8c75c389a01b02e9a396fdad"),
+                    artifacts: [
+                        (
+                            sha1: "f5c193ed00bf557ddd5ab698d92a7483b89c6519",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Kool Aid Man PAL conversion",
+            category: Compatibility,
+            author: Some("Fabrizio Zavagli"),
+            releases: [
+                (
+                    date: Some("2002-11-16"),
+                    base_sha1: Some("2f550743e237f6dc8c75c389a01b02e9a396fdad"),
+                    hardware: (
+                        tv_format: Some(Pal60),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "38f55fc76bec14eb661a7b594301c271aa5f5f3b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("MT4648"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f550743e237f6dc8c75c389a01b02e9a396fdad",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,5 +1,6 @@
 (
     title: "Infiltrate",
+    developer: Some("Donley B. Hoffman"),
     description: Some("A secret agent works through a fortress of corridors and elevators, shooting the assassins posted on every floor and ducking to let their laser fire pass overhead — though ducking leaves him unable to shoot back. Crossing every level, top to bottom or bottom to top, is where the points are rather than the kills. One variation hides the assassins except while they ride the elevators."),
     links: [
         (
@@ -7,9 +8,53 @@
             url: "https://www.ataricompendium.com/archives/manuals/vcs/infiltrate.pdf",
             link_type: Manual,
         ),
+        (
+            name: "Atarimania (Infiltrate)",
+            url: "http://www.atarimania.com/game-atari-2600-vcs-infiltrate_8132.html",
+            link_type: Community,
+        ),
+        (
+            name: "Atarimania (Die Springteufel)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-springteufel-die_8518.html",
+            link_type: Community,
+        ),
     ],
     covers: [
         "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Infiltrate%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Battle of the Planets",
+            category: ContentChange,
+            author: Some("David Weavil (s0c7)"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("922cd171ef132bf6c5bed00ad01410ada4b20729"),
+                    artifacts: [
+                        (
+                            sha1: "a22a382d6a053ee80c0a5fe8ca0f63cebc3f3b3a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "R2-D2\'s Jawa Trouble",
+            category: ContentChange,
+            author: Some("James Catalano (Jamcat)"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("922cd171ef132bf6c5bed00ad01410ada4b20729"),
+                    artifacts: [
+                        (
+                            sha1: "5f5f7f90021b1d8cf3e42bf42f7313d12e43f0d8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
     ],
     curated: true,
     releases: [
@@ -25,9 +70,6 @@
                 cart_type: Some("4K"),
             ),
             artifacts: [
-                (
-                    sha1: "7fcff6d5e470531b5808190f7b50e99ea6996e3c",
-                ),
                 (
                     sha1: "922cd171ef132bf6c5bed00ad01410ada4b20729",
                 ),
@@ -63,6 +105,36 @@
             artifacts: [
                 (
                     sha1: "b765e36ad1f5b57abe68ce1bb532feed4d69ee46",
+                ),
+            ],
+        ),
+        (
+            title: Some("Die Springteufel"),
+            label: Some("176.654 2"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a48eeebabd8d786ae78cde6b2cd7dc9cff89519",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7fcff6d5e470531b5808190f7b50e99ea6996e3c",
                 ),
             ],
         ),

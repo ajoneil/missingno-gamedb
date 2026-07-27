@@ -1,8 +1,174 @@
 (
     title: "Jr. Pac-Man",
+    developer: Some("Ava Robin-Cohen (GCC)"),
+    description: Some("Junior runs a playground maze too big for the screen, scrolling when he reaches the top or bottom, hoovering dots while up to four ghost bullies chase him. A power pill reverses the chase; a trundling toy candy fattens dots into higher-scoring ones but destroys the power pills if left alone."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/jr_pac-man.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Jr._Pac-Man",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Jr.%20Pac-Man%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Fat Freddie",
+            category: ContentChange,
+            author: Some("James Francis (OutofGas)"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "f5d3d031d3b4540f159ace8a222d2247f5547928",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("pre-release 2004-05-04"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "2be12e193f95b70856a9fe590c70599d6340a26e",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("pre-release 2004-05-07"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "c10de2ec5c4a799ed6a3ba20dfee2fce06224085",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("RC5, 2004-05-10"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "ca1eb1cd127654700a1ffe5ce095b75dc7443705",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("RC6, 2004-05-10"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "02cffb86f058b4028116278ea89d32eac50dd502",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Jr. Pac-Man Throttle",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "bc2331f5b68b9e3ea0ef85afafdb3fa06223d370",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "8a6e59559f0bcde8149f9207c225d1a73c82356d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Bubble Trubble",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    label: Some("work in progress"),
+                    date: Some("2008"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "e3a26dc00504785756e4df979f5a3c120f6a911e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Dragon Maze",
+            category: ContentChange,
+            author: Some("Rabbit 2600"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "c90a81f8fbb94507c4f954d71e4336dd21d0c11c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Monkeyshines!",
+            category: ContentChange,
+            author: Some("James Catalano (Jamcat)"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "177cefb938044e858d015bc4bde451fe3e779a85",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "SpongeBob",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("cd2cf245d6e924ff2100cc93d20223c4a231e160"),
+                    artifacts: [
+                        (
+                            sha1: "6679a393fabf64a57cd03c6ffd9131b16121c9af",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1986"),
+            label: Some("CX26123"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1986-10"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -12,9 +178,17 @@
                 (
                     sha1: "cd2cf245d6e924ff2100cc93d20223c4a231e160",
                 ),
+                (
+                    sha1: "e9bcc3242a1ab21b415ffca894ed6c628a37a2ee",
+                    label: Some("alt [a]"),
+                ),
             ],
         ),
         (
+            label: Some("CX26123P"),
+            regions: [
+                Europe,
+            ],
             date: Some("1986"),
             publisher: Some("Atari"),
             hardware: (

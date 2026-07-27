@@ -1,0 +1,94 @@
+(
+    title: "Kung-Fu Master",
+    developer: Some("Dan Kitchen"),
+    description: Some("Five floors of a temple stand between you and Princess Victoria, each ending with a boss whose energy bar has to be emptied. Henchmen crowd in from both sides and grab to drain your strength, knife-throwers and tumblers want ducking or a low kick, and falling balls and baskets hide dragons and snakes."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/kung-fu_master.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Kung-Fu_Master_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Kung-Fu%20Master%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Kung Fu Master (Genesis)",
+            category: Compatibility,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    date: Some("2010"),
+                    base_sha1: Some("3b93a34ba2a6b7db387ea588c48d939eee5d71a1"),
+                    artifacts: [
+                        (
+                            sha1: "a700062edc839c707a88a95710c1589b246858ee",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("AG-039-04"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1987"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b93a34ba2a6b7db387ea588c48d939eee5d71a1",
+                ),
+            ],
+        ),
+        (
+            label: Some("EAX-039-04B, EAX-039-04I"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1987"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "81abed650600ede00a00e23491b79d46a9b4f173",
+                ),
+                (
+                    sha1: "7a02c0226d9d0aa55c8ce9a0e506640b4c95b7b8",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "13240d0decd944f7d5d7a87a7d1b47578f489711",
+                ),
+            ],
+        ),
+    ],
+)

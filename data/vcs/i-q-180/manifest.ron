@@ -1,8 +1,31 @@
 (
     title: "I.Q. 180",
+    developer: Some("Gem International Corporation"),
+    description: Some("A memory-match game played over two screens of thirty numbered letters and figures. You study both layouts while a tune plays, then everything turns face-down and a timer counts from 1000 as you move a cursor over the squares, pairing each letter or figure with its twin."),
+    links: [
+        (
+            name: "Atarimania (I.Q. Memory Teaser)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-iq-memory-teaser_12811.html",
+            link_type: Community,
+        ),
+        (
+            name: "Atarimania (IQ 180)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-iq-180_15672.html",
+            link_type: Community,
+        ),
+        (
+            name: "Instructions",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/iq180.txt",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9D23A2F67BA27EE83A79D5799AF44EF4D8CFF3B2",
+    ],
+    curated: true,
     releases: [
         (
-            publisher: Some("HomeVision"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -10,6 +33,39 @@
             artifacts: [
                 (
                     sha1: "8483fd18dddafbdfbcbd1c43bc7de2cc05a1894d",
+                ),
+            ],
+        ),
+        (
+            label: Some("2600 Screen Search Console"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f157de7adac8d14231d3f8e6f35df8c39bb1b75f",
+                ),
+            ],
+        ),
+        (
+            title: Some("I.Q. Memory Teaser"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fa05a35de4c401704538cc256f46440f42de3ddb",
                 ),
             ],
         ),

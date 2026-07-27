@@ -1,0 +1,102 @@
+(
+    title: "James Bond 007",
+    developer: Some("On-Time Software"),
+    description: Some("One craft that drives, flies and submerges carries Bond through three film missions, jumping radioactive craters and dodging satellite lasers and helicopter bombs. Its shots alternate between a lobbed bomb and a fixed upward angle, and only the light of a shattered diamond reveals the oil rig you have to land on."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/james_bond_007.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/James_Bond_007_(1984_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/James%20Bond%20007%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("PB5110"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2bbc124cead9aa49b364268735dad8cb1eb6594f",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d6685058c83206c6ae8a879471c0aa112375be2f",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983-12-08"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8b03e2bd93321ad75fac514fdfc49e3436db5758",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9598b44de394fad416a6000abc4b2b27bfc8d16c",
+                ),
+                (
+                    sha1: "98f7674d3f0bbb7368b0cdbd2ece107b0f086bdd",
+                    label: Some("alt [a1]"),
+                ),
+                (
+                    sha1: "220beedd4835e13713bc430549a8b595bdb13cbd",
+                    label: Some("alt [a2]"),
+                ),
+                (
+                    sha1: "190644a87da4502ed9756594d570dbf22156eef1",
+                    label: Some("alt [a3]"),
+                ),
+                (
+                    sha1: "fb190bac19a834f978a0c0e4b9fa1008f68918f4",
+                    label: Some("alt [a4]"),
+                ),
+                (
+                    sha1: "f061e3dedeca8882ab5f6e574f5f43c9ed977be5",
+                    label: Some("alt [a5]"),
+                ),
+            ],
+        ),
+    ],
+)

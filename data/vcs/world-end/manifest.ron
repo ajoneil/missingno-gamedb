@@ -1,7 +1,48 @@
 (
     title: "World End",
+    description: Some("An alien station hangs out of reach at the top of the screen, sending down two robots that rain destroyer probes and galaxy spiders on your laser base. You slide along the bottom picking them off — spiders first, since any that lands costs you a cannon — while keeping clear of the robots\' death rays."),
+    links: [
+        (
+            name: "Atarimania (World End)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-world-end_15662.html",
+            link_type: Community,
+        ),
+        (
+            name: "Atarimania (Laser Base)",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-laser-base_8199.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C387F35F889D5F0EF47739ECE4E6715AD24440ED",
+    ],
+    mods: [
+        (
+            name: "Laser Base NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "75b9cc7f59f5304edd77a6a8a4cea3dbbc1f7975",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("VCS 83109"),
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Home Vision"),
             hardware: (
@@ -11,6 +52,42 @@
             artifacts: [
                 (
                     sha1: "0e981d6baa7e3e218608eb46ad51fb30675babac",
+                ),
+            ],
+        ),
+        (
+            title: Some("End of the World"),
+            label: Some("2600 Screen Search Console"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fcf34450bfd4a36a4a2a277eff0dbe5f1318e97f",
+                ),
+            ],
+        ),
+        (
+            title: Some("Laser Blaser"),
+            label: Some("4 Game in One, CP405"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b10e384c7dd5d84b3ed6629ef9288e67759fcb1",
+                    label: Some("multicart extract"),
                 ),
             ],
         ),

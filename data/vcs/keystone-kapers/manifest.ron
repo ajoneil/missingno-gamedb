@@ -1,7 +1,104 @@
 (
     title: "Keystone Kapers",
+    developer: Some("Garry Kitchen"),
+    description: Some("Keystone Kelly chases a shoplifter through the floors of a department store, riding elevators and escalators, jumping shopping carts and beachballs and ducking the toy biplanes. Each collision costs nine seconds off the timer, and letting the crook reach the roof — or running the clock down — ends the pursuit."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Keystone_Kapers",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/keystone_kapers.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Keystone%20Kapers%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Halloween II",
+            category: ContentChange,
+            author: Some("Tim Martin"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("3eefc193dec3b242bcfd43f5a4d9f023e55378a4"),
+                    artifacts: [
+                        (
+                            sha1: "7e51179aee87eb25a39722b816435e922544223e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Laserman 2K3",
+            category: ContentChange,
+            author: Some("Dan Iacovelli"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("3eefc193dec3b242bcfd43f5a4d9f023e55378a4"),
+                    artifacts: [
+                        (
+                            sha1: "cbd1c9819ebee2c07433b2837bbec90c16774708",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Streaker",
+            category: ContentChange,
+            author: Some("sefoil"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("3eefc193dec3b242bcfd43f5a4d9f023e55378a4"),
+                    artifacts: [
+                        (
+                            sha1: "860296e662191d144840d7a8f7c6cb30ef8bbc22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Ms. Streaker",
+            category: ContentChange,
+            author: Some("sefoil, Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("3eefc193dec3b242bcfd43f5a4d9f023e55378a4"),
+                    artifacts: [
+                        (
+                            sha1: "ba8308b4d129795f0a8489b945053dc2fafeda48",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Ms. Streaker F"),
+                    base_sha1: Some("3eefc193dec3b242bcfd43f5a4d9f023e55378a4"),
+                    artifacts: [
+                        (
+                            sha1: "03475dad2744821790f19dbf67ec42f1f06960c3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("AX-025"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
@@ -12,35 +109,10 @@
                 (
                     sha1: "3eefc193dec3b242bcfd43f5a4d9f023e55378a4",
                 ),
-                (
-                    sha1: "45956d06115f59580d3eaba14cd4b6c00c028cc1",
-                ),
-                (
-                    sha1: "4ae6b64f9a93cf4e7cb3ddd495aa0ca088ba6569",
-                ),
-                (
-                    sha1: "4b397d7165825ebfe8f8dd6dddba7051b07185eb",
-                ),
-                (
-                    sha1: "578ef982a8add6d7f652f9c68702a55356a1cdd0",
-                ),
-                (
-                    sha1: "74fccedb3554a411f15e0d7f173cc18a1505f60f",
-                ),
-                (
-                    sha1: "7e722f1184d5291ca53b0aca619915d3ec272926",
-                ),
-                (
-                    sha1: "ab7b8d5db7ae1298e63c4ff10ae3bbb2f6a66740",
-                ),
-                (
-                    sha1: "c05d225766dfde9aaeab25c975aadaf4e8b9c556",
-                ),
             ],
         ),
         (
-            date: Some("1983"),
-            publisher: Some("Activision"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -50,11 +122,16 @@
                     sha1: "146e520febeb9a4d5df3ab5c374da60684eb3548",
                 ),
                 (
-                    sha1: "463ee19e4b1c4b3036f5e406347228f2a8b7bb27",
+                    sha1: "5033af5b506ef1f03997b141a8c040fbb67f921b",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),
         (
+            label: Some("EAX-025"),
+            regions: [
+                France,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
@@ -64,6 +141,298 @@
             artifacts: [
                 (
                     sha1: "b3df50f1df780a8f7cbcdf15d803d2b85bb586ff",
+                ),
+            ],
+        ),
+        (
+            title: Some("Keystone"),
+            publisher: Some("Tiger Vision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2836a67954f3d94c27e09642e123a2b0c1d4ab39",
+                ),
+            ],
+        ),
+        (
+            title: Some("Keystone Kapers - Räuber und Gendarm"),
+            label: Some("EAX-025, EAX-025-04I"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "525e9054343916e2a7271278cf3610e0ed1efb71",
+                ),
+                (
+                    sha1: "5d9e15402ea47188bfd7502fe9857cfb973fce29",
+                    label: Some("16K padded"),
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            title: Some("Keystone Kappers"),
+            label: Some("C-816"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "de2a47710287f5052bfe123b4a356f5b6bc122dc",
+                ),
+                (
+                    sha1: "137ad103f74c0fa4f5ec0df3f56c726b63c13361",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Keystone Keypers"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("Zirok"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "401b811cc01c3370f5e0d18dc16a18b0bbf3bf87",
+                ),
+            ],
+        ),
+        (
+            title: Some("Busy Police"),
+            regions: [
+                Canada,
+            ],
+            publisher: Some("Zellers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a663f13ce7f31e3451e944e9f03c9aac2c3e8f21",
+                ),
+            ],
+        ),
+        (
+            title: Some("Hey! Stop!"),
+            label: Some("2600 Screen Search Console"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "207826657b948ab15ea379592c28d74aa6ef8552",
+                ),
+            ],
+        ),
+        (
+            title: Some("Hey! Stop!"),
+            label: Some("SS-012"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4b808c975f8a8345c72d0f6281ea5ba93963d7fb",
+                ),
+            ],
+        ),
+        (
+            title: Some("Kaystone Kapers"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("Digitel"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "54cd3848704563399784426e7d00eccd7f96836b",
+                ),
+            ],
+        ),
+        (
+            title: Some("Pega Ladrão"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Dismac"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7d154f99027418a7717d101cd7ad69cbe1c484b9",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Fotomania"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "45956d06115f59580d3eaba14cd4b6c00c028cc1",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Shock Vision"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4ae6b64f9a93cf4e7cb3ddd495aa0ca088ba6569",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4b397d7165825ebfe8f8dd6dddba7051b07185eb",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Dynacom"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "578ef982a8add6d7f652f9c68702a55356a1cdd0",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Robby"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "74fccedb3554a411f15e0d7f173cc18a1505f60f",
+                ),
+            ],
+        ),
+        (
+            label: Some("C 3014"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Canal 3 / Intellivision"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7e722f1184d5291ca53b0aca619915d3ec272926",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Play Video"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ab7b8d5db7ae1298e63c4ff10ae3bbb2f6a66740",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c05d225766dfde9aaeab25c975aadaf4e8b9c556",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            publisher: Some("SuperVision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "463ee19e4b1c4b3036f5e406347228f2a8b7bb27",
                 ),
             ],
         ),

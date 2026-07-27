@@ -1,59 +1,104 @@
 (
     title: "Kaboom!",
+    developer: Some("Larry Kaplan, David Crane"),
+    description: Some("The Mad Bomber lobs bombs from the top of the screen and you slide a stack of three water buckets to catch them, each group falling faster and scoring more than the last. Miss one and everything on screen detonates, costing you a bucket and dropping you back a group until you catch up."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Kaboom!_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/kaboom.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Kaboom%21%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("AG-010"),
+            regions: [
+                Usa,
+            ],
             date: Some("1981"),
             publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "40d4df4f8e4a69a299ae7678c17e72bedeb70105",
                 ),
                 (
-                    sha1: "ae5af59b3503858bd847c07fea8033139890ff34",
+                    sha1: "46d4f6ded6b87858f84db9df53fd69a62a06ab28",
+                    label: Some("4K doubled"),
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "8e2fa031f48c2d76576f46482919dd5e70aac5cd",
+                    label: Some("16K padded"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
         (
-            date: Some("1981"),
-            publisher: Some("Activision"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Canal 3 / Intellivision"),
             hardware: (
-                tv_format: Some(Ntsc),
+                tv_format: Some(PalM),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "18eaac95e59947ff4b2e647572e082f75387028c",
                 ),
-                (
-                    sha1: "46d4f6ded6b87858f84db9df53fd69a62a06ab28",
-                ),
             ],
         ),
         (
-            date: Some("1981"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
-                (
-                    sha1: "8e2fa031f48c2d76576f46482919dd5e70aac5cd",
-                ),
-            ],
-        ),
-        (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "d8aa213ad2171eeef5165fa704c70ac56c3152a0",
+                    label: Some("4K doubled"),
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "ae5af59b3503858bd847c07fea8033139890ff34",
                 ),
             ],
         ),

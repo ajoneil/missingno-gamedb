@@ -1,33 +1,80 @@
 (
-    title: "Knight On The Town (Supercharger Conversion Hack)",
+    title: "Knight on the Town",
+    description: Some("A knight builds a bridge across a castle moat, jumping the beast and the crocodile that patrol it — and, on the harder setting, a dragon dropping fireballs. With the bridge finished he climbs the tower to the captive princess, and the faster he gets there the better."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/knight_town.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Knight_on_the_Town",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F7203B7013A912219A8DA8CACE0389BC1A9AC76D",
+    ],
+    mods: [
+        (
+            name: "Knight on the Town Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("759597d1d779cfdfd7aa30fd28a59acc58ca2533"),
+                    artifacts: [
+                        (
+                            sha1: "2ce74509bff9198e14ad6b442ff11957e123de18",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL60"),
+                    base_sha1: Some("759597d1d779cfdfd7aa30fd28a59acc58ca2533"),
+                    artifacts: [
+                        (
+                            sha1: "174477a21b8c72b6781af9224829b9dade532644",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    adult: true,
     releases: [
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            label: Some("203"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("PlayAround"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "2ce74509bff9198e14ad6b442ff11957e123de18",
-                ),
-                (
                     sha1: "759597d1d779cfdfd7aa30fd28a59acc58ca2533",
                 ),
             ],
         ),
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            label: Some("203"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("PlayAround"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
-                (
-                    sha1: "174477a21b8c72b6781af9224829b9dade532644",
-                ),
                 (
                     sha1: "d8033e1ba6efcac9d198757b41423b6963b6ffd7",
                 ),

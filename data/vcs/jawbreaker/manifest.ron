@@ -1,39 +1,142 @@
 (
     title: "Jawbreaker",
+    developer: Some("John Harris"),
+    description: Some("A pair of jaws rolls through a candy-factory maze of candy bars, sliding doors and pursuing smiling faces, carrying on until it hits a wall unless you halt it. The vitamin pill at the centre turns the faces into prey for a few seconds, and clearing all 135 bars earns a bonus and a teeth-brushing."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/jawbreaker.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Jawbreaker_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4AB22216B1417F5CA0245B7E113E7C50AE840073",
+    ],
+    mods: [
+        (
+            name: "Jawbreaker Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("af4d6867a8bc4818fc6bb701a765a3c907feb628"),
+                    artifacts: [
+                        (
+                            sha1: "8c2b10416af5144419dd9a7b829ea2a148c5a746",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL60"),
+                    base_sha1: Some("af4d6867a8bc4818fc6bb701a765a3c907feb628"),
+                    artifacts: [
+                        (
+                            sha1: "545785998362b0ad84b8113e38df0f2395cbf715",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Jawbreaker Easy",
+            category: QualityOfLife,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("af4d6867a8bc4818fc6bb701a765a3c907feb628"),
+                    artifacts: [
+                        (
+                            sha1: "a78bbe0a0b0aae250a5b417b36d05dee4c47ef12",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Jawbreaker Trainer",
+            category: QualityOfLife,
+            author: Some("Steve Engelhardt"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("af4d6867a8bc4818fc6bb701a765a3c907feb628"),
+                    artifacts: [
+                        (
+                            sha1: "eccd11565f3007d38ff4b7be6ecb376bc41254ca",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
-            publisher: Some("CCE"),
+            label: Some("7-002"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Tigervision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "8c2b10416af5144419dd9a7b829ea2a148c5a746",
-                ),
-                (
                     sha1: "af4d6867a8bc4818fc6bb701a765a3c907feb628",
-                ),
-                (
-                    sha1: "fba52c4d96f27aea8731c0f56a5745befea0c787",
                 ),
             ],
         ),
         (
-            date: Some("1982"),
-            publisher: Some("Tigervision"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "545785998362b0ad84b8113e38df0f2395cbf715",
-                ),
-                (
                     sha1: "8bd8620346dd08b4be17dad75ae24aabefb4f6e8",
                 ),
+                (
+                    sha1: "a6e5c519ca8ae36ca25a20663475abe7416fa24e",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("32 in 1, R320"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fba52c4d96f27aea8731c0f56a5745befea0c787",
+                    label: Some("32 in 1 multicart extract"),
+                ),
+            ],
+        ),
+        (
+            label: Some("3.60002 VE"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("Teldec"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "98ac19f7b445687b72af4c1dabbce8e269f41e91",
                 ),

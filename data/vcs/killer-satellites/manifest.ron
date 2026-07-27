@@ -1,0 +1,74 @@
+(
+    title: "Killer Satellites",
+    developer: Some("Kevin Norman"),
+    description: Some("A dead orbital junkyard of satellites has woken up and is falling on your hometown, and one rocket ship has to intercept them. Fuel drains from 4,800 pounds each wave, and the ship is lost to any satellite, any meteorite, or the force field along the bottom of the screen."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/killer_satellites.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/91A3D96715AC38AECB5DFCC67C2CFD499132B473",
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("AR-4103"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "64125e796f96aa472bb2191367c6501c657712d9",
+                ),
+                (
+                    sha1: "29fd69fb728e0ccaa7fff065d8b82e808b425914",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("AR-4103"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7ab5597ca336d3eebd21a7ad82989af366f2dcd3",
+                ),
+            ],
+        ),
+        (
+            label: Some("AR-4103"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-07-17"),
+            publisher: Some("Starpath Corporation"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd0a82dac03298a8ce945c4b612cf8944927f5e8",
+                ),
+            ],
+        ),
+    ],
+)

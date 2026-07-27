@@ -1,29 +1,81 @@
 (
-    title: "Jungle Fever (Supercharger Conversion Hack)",
+    title: "Jungle Fever",
+    description: Some("A helicopter-borne heroine douses a flaming pyre with a fire extinguisher to free the man on it, dodging the rocks two bad guys throw and watching her fuel gauge. Once the flames are low he grabs hold and the two fly off, and every successful rescue is followed by an adult reward scene."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/jungle_fever.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Atarimania",
+            url: "https://www.atarimania.com/game-atari-2600-vcs-jungle-fever-knight-on-the-town_12090.html",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Jungle%20Fever%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Jungle Fever Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("9a0ee845d9928d4db003b07b927bb2c1f628e725"),
+                    artifacts: [
+                        (
+                            sha1: "948871dc6a15a747be3abf886a1415a80a86438c",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL60"),
+                    base_sha1: Some("9a0ee845d9928d4db003b07b927bb2c1f628e725"),
+                    artifacts: [
+                        (
+                            sha1: "16def77ce31252345d0b1593fe6116e3c8dcb1f4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Rescue Bira Bira",
+            category: ContentChange,
+            author: Some("Chris Cracknell"),
+            releases: [
+                (
+                    date: Some("1997"),
+                    base_sha1: Some("9a0ee845d9928d4db003b07b927bb2c1f628e725"),
+                    artifacts: [
+                        (
+                            sha1: "04656bc8e3f070dc0809c3e825eac25aa1cc8872",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    adult: true,
     releases: [
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            label: Some("203"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("PlayAround"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "948871dc6a15a747be3abf886a1415a80a86438c",
-                ),
-            ],
-        ),
-        (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
-                (
-                    sha1: "16def77ce31252345d0b1593fe6116e3c8dcb1f4",
+                    sha1: "9a0ee845d9928d4db003b07b927bb2c1f628e725",
                 ),
             ],
         ),

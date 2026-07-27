@@ -1,0 +1,138 @@
+(
+    title: "Midnight Magic",
+    developer: Some("Glenn Axworthy"),
+    description: Some("A pinball table where shooting the target with the arrow lights the bumpers and switches on the kickers and centre post. Clearing all five drop targets raises the score multiplier, and once it is lit the top rollovers will hand out an extra ball."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/midnight_magic.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Midnight_Magic_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Midnight%20Magic%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Space Invaders Pinball",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("7fcf95459ea597a332bf5b6f56c8f891307b45b4"),
+                    artifacts: [
+                        (
+                            sha1: "d87c3b9e7f1ee2be6d20190cfab6c96267f28f83",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Free Play Florida 2017",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2017"),
+                    base_sha1: Some("7fcf95459ea597a332bf5b6f56c8f891307b45b4"),
+                    artifacts: [
+                        (
+                            sha1: "3ac90be5ae2117f028e6ffdfe908b0107ee82b87",
+                            size: Some(16384),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Borg Pinball",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("7fcf95459ea597a332bf5b6f56c8f891307b45b4"),
+                    artifacts: [
+                        (
+                            sha1: "26de22ba80a45fe61dbf17a5eef038721509bc4e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Midnight Magic 3D",
+            category: ContentChange,
+            author: Some("Kevin W."),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("7fcf95459ea597a332bf5b6f56c8f891307b45b4"),
+                    artifacts: [
+                        (
+                            sha1: "4dd4ea5850d8f734e7da45adff4c8d70aaf52bb3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("CX26129"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1986"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7fcf95459ea597a332bf5b6f56c8f891307b45b4",
+                ),
+            ],
+        ),
+        (
+            label: Some("CX26129"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1986"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dfdcbba166396faeab1ffc40f167189498dfc113",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984-02-13"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3d4951d21c2b422c1d8766f8b92da09999fa24ed",
+                ),
+            ],
+        ),
+    ],
+)

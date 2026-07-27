@@ -1,7 +1,106 @@
 (
     title: "Kangaroo",
+    developer: Some("GCC"),
+    description: Some("Mother Kangaroo climbs ladders and hops along branches and broken logs to reach her baby, punching the monkeys that chase her and the apples they throw. Picking fruit scores extra, and ringing the bell — up to three times a screen — brings more fruit out to collect."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Kangaroo_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/kangaroo.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Kangaroo%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Caveman",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("01fd30311e028944eafb6d14bb001035f816ced7"),
+                    artifacts: [
+                        (
+                            sha1: "24f250e824f020f6fc796b984d21e4936e6ce7cd",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("WIP2.2, 2004-07-15"),
+                    base_sha1: Some("01fd30311e028944eafb6d14bb001035f816ced7"),
+                    artifacts: [
+                        (
+                            sha1: "c03ee3c8b6597ad1e202d7a2d589949e5d276e12",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("WIP4, 2004-07-15"),
+                    base_sha1: Some("01fd30311e028944eafb6d14bb001035f816ced7"),
+                    artifacts: [
+                        (
+                            sha1: "059ac7191565aaef17cb9f6a612af2f41bd257da",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("V2, 2004-07-20"),
+                    base_sha1: Some("01fd30311e028944eafb6d14bb001035f816ced7"),
+                    artifacts: [
+                        (
+                            sha1: "3d7708df459bb57bf946d108e0ca4a37d34b8092",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Popeye",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("01fd30311e028944eafb6d14bb001035f816ced7"),
+                    artifacts: [
+                        (
+                            sha1: "8bcfae69045378b2edbf079673cc6a23d4a7183b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Kangaroo (Genesis)",
+            category: Compatibility,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    date: Some("2010"),
+                    base_sha1: Some("01fd30311e028944eafb6d14bb001035f816ced7"),
+                    artifacts: [
+                        (
+                            sha1: "a65aebd74092cd8038f12c9f1ef43c0a011457a5",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("CX2689"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,18 +111,13 @@
                 (
                     sha1: "01fd30311e028944eafb6d14bb001035f816ced7",
                 ),
-                (
-                    sha1: "04c4d0004d335ecc44884425a9282453e68493f8",
-                ),
-                (
-                    sha1: "8a0596e3e735f1bc518d74e7f545ede422754ef6",
-                ),
-                (
-                    sha1: "a65aebd74092cd8038f12c9f1ef43c0a011457a5",
-                ),
             ],
         ),
         (
+            label: Some("CX2689P"),
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -33,6 +127,38 @@
             artifacts: [
                 (
                     sha1: "dac53b95626b68d3686430ccfda8c1a10946bad2",
+                ),
+                (
+                    sha1: "e418fe90d1707e95c605517362b87a059c6af52a",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983-01-19"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8a0596e3e735f1bc518d74e7f545ede422754ef6",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983-02-25"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "04c4d0004d335ecc44884425a9282453e68493f8",
                 ),
             ],
         ),

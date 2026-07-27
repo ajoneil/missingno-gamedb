@@ -1,21 +1,45 @@
 (
     title: "Karate",
+    description: Some("Two white belts trade punches and kicks at close quarters over two-minute rounds, dodging and blocking as much as attacking. Whoever takes a match climbs a belt while the loser stays put, and the fighting quickens the closer you get to the black belt you then have to defend."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/karate.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Karate_(1982_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7F73367101E5148FFB7B373861C35AE3F7657BF8",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("1044"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Ultravision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "5614009997cb93ba9f7bef1d9ac516c2880fd9e9",
-                ),
-                (
                     sha1: "c0db7d295e2ce5e00e00b8a83075b1103688ea15",
                 ),
             ],
         ),
         (
+            label: Some("102"),
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Funvision"),
             hardware: (
@@ -26,8 +50,52 @@
                 (
                     sha1: "c78feaec45604cda85eb5809e8814c3e49e8c73c",
                 ),
+            ],
+        ),
+        (
+            title: Some("Kung Fu"),
+            label: Some("4 Game in One (Dark Green), PGP229"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b5fad0b608095c7ea3c11b77ade460aec50614a6",
+                    label: Some("multicart extract"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5614009997cb93ba9f7bef1d9ac516c2880fd9e9",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
                 (
                     sha1: "e2a9450103e5da76ed273d9fabc7239841255121",
+                ),
+                (
+                    sha1: "c8cd0a04edea449151e6349db2455d48f23dc213",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

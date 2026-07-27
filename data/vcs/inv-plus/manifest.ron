@@ -1,0 +1,90 @@
+(
+    title: "INV+",
+    developer: Some("Erik Mooney, Piero Cavina"),
+    description: Some("A Space Invaders clone that fields the full five rows of eleven aliens the 2600\'s official conversion cut down. They descend dropping bombs while you slide a laser cannon along the bottom, sheltering behind four eroding shields and picking off the command ship that crosses the top for a bonus."),
+    links: [
+        (
+            name: "Erik Mooney\'s Atari 2600 page",
+            url: "http://www.dos486.com/atari/",
+            link_type: Source,
+        ),
+        (
+            name: "INV+ binary and source",
+            url: "http://www.dos486.com/atari/inv-plus.zip",
+            link_type: Download,
+        ),
+        (
+            name: "AtariAge Store",
+            url: "https://store.atariage.com/products/inv-atari-2600",
+            link_type: Store,
+        ),
+        (
+            name: "AtariAge",
+            url: "https://atariage.com/software_page.php?SystemID=2600&SoftwareLabelID=2691",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/inv.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E3726A632FC5200DCCC7D647434EB73FB3F68212",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2004"),
+            publisher: Some("AtariAge"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "74dc0247a9c9e4ecec1c173e01274e2391643a60",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2004-04-08"),
+            publisher: Some("Erik Mooney, Piero Cavina"),
+            status: Beta,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "42e4a814fed49f36316e0ddd13fafd72b6bce8a0",
+                    size: Some(4096),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2004-04-29"),
+            publisher: Some("Erik Mooney, Piero Cavina"),
+            status: Beta,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4789e2d47bbbb529e40d4e0c0364fd937ba87393",
+                    size: Some(4096),
+                ),
+            ],
+        ),
+    ],
+)

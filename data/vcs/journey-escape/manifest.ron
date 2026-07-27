@@ -1,8 +1,96 @@
 (
     title: "Journey Escape",
+    developer: Some("J. Ray Dettling"),
+    description: Some("The five members of Journey must each be walked through waves of groupies, promoters and photographers to the Scarab escape vehicle before time runs out, every contact costing seconds and a bite out of $50,000 in concert cash. A roadie grants brief invulnerability; the manager clears the crowd outright."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/journey_escape.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Journey_Escape",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FDBA7B3849F58D8921B17E8D7CC4D188ABA89E0F",
+    ],
+    mods: [
+        (
+            name: "Journey Escape Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("928eaa424b36d98078f9251d67fb13a8fddfafbd"),
+                    artifacts: [
+                        (
+                            sha1: "2647c00f3000ec8a2fb5b21440c5ed7d7a9d429d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "As If",
+            category: ContentChange,
+            author: Some("Clang"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("928eaa424b36d98078f9251d67fb13a8fddfafbd"),
+                    artifacts: [
+                        (
+                            sha1: "a0e0e50e83a2ee845edb7f1b57218701c6ac6e62",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Boring Journey Escape",
+            category: ContentChange,
+            author: Some("Charles Morgan"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("928eaa424b36d98078f9251d67fb13a8fddfafbd"),
+                    artifacts: [
+                        (
+                            sha1: "0c707ea15d8747bb5e488315ebf3bca9c21786c0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "KISS My Atari",
+            category: ContentChange,
+            author: Some("ILA2600"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("928eaa424b36d98078f9251d67fb13a8fddfafbd"),
+                    artifacts: [
+                        (
+                            sha1: "d09288020d02e27fab97e0399217412de885434a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            label: Some("112-006"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
             publisher: Some("Data Age"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -10,10 +98,25 @@
             ),
             artifacts: [
                 (
-                    sha1: "2647c00f3000ec8a2fb5b21440c5ed7d7a9d429d",
-                ),
-                (
                     sha1: "928eaa424b36d98078f9251d67fb13a8fddfafbd",
+                ),
+            ],
+        ),
+        (
+            title: Some("Rock \'n\' Roll Escape"),
+            label: Some("133-006"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2367830a13361dc070ac961009e4450d6191dccd",
                 ),
             ],
         ),

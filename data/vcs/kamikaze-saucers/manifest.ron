@@ -1,7 +1,20 @@
 (
     title: "Kamikaze Saucers",
+    developer: Some("Dan Wolf"),
+    description: Some("Saucers streak across the screen and have to be shot down before they turn kamikaze: three large ships then dive from the top, and a collision costs a life. Shots angle inward towards the centre, and separate ammo meters on each side limit how much you can fire from the left or the right."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/kamikaze/kamikaze.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Syncro"),
             status: Prototype,

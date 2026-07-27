@@ -1,26 +1,88 @@
 (
     title: "King Kong",
+    developer: Some("Karl T. Olinger"),
+    description: Some("Kong has stashed the girl atop the Empire State Building and pelts the floors with bombs as you climb the ladders after her. Jumping a bomb scores, a magic bomb boosts you up a floor, and gaps in the floors need a running jump; a bonus counts down from 990 and reaching zero is fatal."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/king_kong.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/King_Kong_(1982_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/399F80063F08A9A9B86A0D5237A67E5068099A2F",
+    ],
+    mods: [
+        (
+            name: "King Kong NTSC conversion",
+            category: Compatibility,
+            author: Some("Peter Rittwage"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("af679eb19d7e4ac0ea620332edbb7081567a55db"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "1845ac1a0208cdca050e19b0d0400c8636986492",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "AL#1",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("af679eb19d7e4ac0ea620332edbb7081567a55db"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "7e6184dd2d69728e3ddb1358913c0b4a572eb9e3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("7-001"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Tigervision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "1845ac1a0208cdca050e19b0d0400c8636986492",
-                ),
-                (
-                    sha1: "4cc65250fbd8a09ee6b9dbea7ce06d2412ee9350",
-                ),
-                (
                     sha1: "59f485ea345cf1b9e3663b45b246f13936a32972",
                 ),
             ],
         ),
         (
+            label: Some("3.60001 VE"),
+            regions: [
+                Germany,
+            ],
             date: Some("1982"),
-            publisher: Some("Tigervision"),
+            publisher: Some("Teldec"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -28,6 +90,22 @@
             artifacts: [
                 (
                     sha1: "af679eb19d7e4ac0ea620332edbb7081567a55db",
+                ),
+                (
+                    sha1: "839e13ffedcbed22d51a24c001900c3474a078f2",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4cc65250fbd8a09ee6b9dbea7ce06d2412ee9350",
                 ),
             ],
         ),
