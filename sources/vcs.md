@@ -51,21 +51,26 @@ correct rather than a normalisation bug:
 ## Determining a dump's TV standard
 
 The core does not auto-detect — the gamedb value drives the emulator, so a wrong
-one shows as a wrong picture. Measure the frame the ROM actually generates and
-compare against known cases:
+one shows as a wrong picture. Boot the dump headless and read the frame height:
 
-| | frame height |
-|---|---|
-| known NTSC dumps | 258–259 lines |
-| known PAL dumps | 305–310 lines |
+```
+missingno-debugger <rom> [--cart-type F0] --port 3401
+curl -X POST localhost:3401/run && sleep 2 && curl -X POST localhost:3401/pause
+curl -s localhost:3401/frame/raw     # → "height"
+```
 
-The region setting does not change the line count — the ROM drives the raster,
-and the region only sets the master clock. A Brazilian dump measuring in the
-NTSC band is `PalM`.
+| height | standard |
+|--------|----------|
+| 228 | NTSC timing |
+| 274 | PAL timing |
 
-Note the headless debugger CLI cannot load a bankswitched cart it fails to
-auto-detect (no `--cart-type` flag), which is exactly the case most likely to
-need measuring.
+The region the emulator is set to does not change this — the ROM drives the
+raster, and the region only sets the master clock. So a Brazilian dump measuring
+228 is `PalM`: PAL colour on NTSC timing.
+
+**A bankswitched cart needs `--cart-type`.** VCS carts carry no header, so an
+image the core cannot size-detect fails to construct at all; name the board and
+it loads.
 
 ## Recurring import defects
 
