@@ -167,6 +167,7 @@ fn run_tree<P: Platform>(
                 title: None,
                 label: None,
                 regions,
+                languages: Vec::new(),
                 date,
                 publisher: m.publisher.clone(),
                 status: Default::default(),

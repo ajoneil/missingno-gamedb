@@ -2,9 +2,8 @@ use std::{fs, io, path::Path};
 
 use serde::{Deserialize, Serialize};
 
-use crate::ids::Date;
-
-/// An importer's unresolved question about the data, tracked to a decision.
+/// A piece of future work on the data. A flag lives until the work is done,
+/// then it is deleted — git carries the history.
 #[derive(Serialize, Deserialize, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct Flag {
@@ -14,8 +13,6 @@ pub struct Flag {
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub subject: Vec<String>,
     pub note: String,
-    #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub resolved: Option<Date>,
 }
 
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
@@ -65,6 +62,6 @@ impl FlagFile {
     }
 
     pub fn open(&self) -> impl Iterator<Item = &Flag> {
-        self.flags.iter().filter(|f| f.resolved.is_none())
+        self.flags.iter()
     }
 }

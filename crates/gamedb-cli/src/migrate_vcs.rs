@@ -143,6 +143,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 title: None,
                 label: None,
                 regions: Vec::new(),
+                languages: Vec::new(),
                 date,
                 publisher: m.publisher.clone(),
                 status: if *wip {

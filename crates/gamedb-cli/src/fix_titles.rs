@@ -101,7 +101,6 @@ fn fix_tree<P: Platform>(
                              not a demoscene production",
                             base
                         ),
-                        resolved: None,
                     });
                     stats.demo_flags += 1;
                 }

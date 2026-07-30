@@ -97,7 +97,6 @@ pub fn run(
                 kind,
                 subject: subjects(item),
                 note,
-                resolved: None,
             });
             next_id += 1;
             stats.imported += 1;
