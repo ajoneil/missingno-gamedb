@@ -1,7 +1,42 @@
 (
     title: "Marauder",
+    developer: Some("Rorke Weigandt"),
+    description: Some("You have landed on an alien planet and pushed into a robot-defended base, hunting the power centre of its weapon system through six rooms before a bonus gauge runs down. Walls hide the robots until you round a corner into one, so the useful trick is recall: press fire again before your shot lands and the Marauder snatches the bullet back to fire once more."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/marauder.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Marauder%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Marauder II",
+            category: ContentChange,
+            author: Some("Steve Engelhardt"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("249a11bb4872a24f22dff1027ff256c1408140c2"),
+                    artifacts: [
+                        (
+                            sha1: "3b63625473e46c9060c6e254e48f0a9a3d6a25db",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("7-005"),
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Tigervision"),
             hardware: (
@@ -10,10 +45,11 @@
             ),
             artifacts: [
                 (
-                    sha1: "010add7c360052198a4f81b2be96350f4178da2e",
+                    sha1: "249a11bb4872a24f22dff1027ff256c1408140c2",
                 ),
                 (
-                    sha1: "249a11bb4872a24f22dff1027ff256c1408140c2",
+                    sha1: "010add7c360052198a4f81b2be96350f4178da2e",
+                    label: Some("alt"),
                 ),
             ],
         ),

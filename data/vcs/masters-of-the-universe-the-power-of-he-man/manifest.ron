@@ -1,9 +1,47 @@
 (
     title: "Masters of the Universe - The Power of He-Man",
+    description: Some("Two halves. First you fly He-Man\'s Wind Raider across Eternia toward Castle Grayskull, dodging energy bolts that rise straight up and warp trakkers that home in wherever you move. Land, and it becomes a duel in a dungeon room: two walls slide back and forth, each with three gaps, and you thread them to reach Skeletor."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/he-man.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Masters_of_the_Universe:_The_Power_of_He-Man",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Masters%20of%20the%20Universe%20-%20The%20Power%20of%20He-Man%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "F4 conversion",
+            category: Compatibility,
+            author: Some("batari"),
+            releases: [
+                (
+                    base_sha1: Some("6db8fa65755db86438ada3d90f4c39cc288dcf84"),
+                    artifacts: [
+                        (
+                            sha1: "2c8332b781ee0ab7249df4adb14e465b1df243a1",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("4319"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
-            publisher: Some("M Network"),
+            publisher: Some("Mattel Electronics"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("E7"),

@@ -1,7 +1,23 @@
 (
     title: "Sea Hawk",
+    developer: Some("Tang\'s Electronic Co."),
+    description: Some("You fly a red fighter over a sea busy with friendly and hostile shipping, torpedoing black ships and machine-gunning the helicopters that hunt you. Being shot down need not be fatal: the pilot bails out, and steering his parachute onto an allied ship saves him, while the water or an enemy deck costs a life."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/seahawk.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F3B3F52D6EAAEAAA2C4E9C368F8B608407F5CB60",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Panda"),
             hardware: (
@@ -10,13 +26,48 @@
             ),
             artifacts: [
                 (
-                    sha1: "4ec6982b2da25b29840428fd993a391e63f53730",
-                ),
-                (
                     sha1: "87cb2eb01f8e82fddb3a66e468fab68ae55778da",
                 ),
                 (
+                    sha1: "4ec6982b2da25b29840428fd993a391e63f53730",
+                ),
+                (
                     sha1: "dc722409e833496b7cc8159dae35cdd47c5d6b5c",
+                ),
+            ],
+        ),
+        (
+            title: Some("Overkill"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Goliath"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b4ead7656696a983dec3192c71cc4d63e9a67825",
+                ),
+            ],
+        ),
+        (
+            title: Some("Marineflieger"),
+            label: Some("176.764 9"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "919fb7d1531aa6b181e96f8648168491be7a2f20",
                 ),
             ],
         ),

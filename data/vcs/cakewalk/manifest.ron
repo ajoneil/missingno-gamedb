@@ -7,11 +7,6 @@
             url: "https://www.ataricompendium.com/archives/manuals/vcs/cakewalk.pdf",
             link_type: Manual,
         ),
-        (
-            name: "Atarimania",
-            url: "https://www.atarimania.com/game-atari-2600-vcs-cakewalk_12465.html",
-            link_type: Community,
-        ),
     ],
     covers: [
         "https://hasheous.org/api/v1/images/A50C8CD6AF4828126A853979DE9DD845424DB5BB",
@@ -27,6 +22,22 @@
                     artifacts: [
                         (
                             sha1: "4ca390f8dc4d0f8dce889dfc21ddd675c5860095",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "McDonald\'s",
+            category: ContentChange,
+            author: Some("James Catalano"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("3f1f17cf620f462355009f5302cddffa730fa2fa"),
+                    artifacts: [
+                        (
+                            sha1: "ef3d26e864d8ed755b0909cbfc82937e799ecd53",
                         ),
                     ],
                 ),

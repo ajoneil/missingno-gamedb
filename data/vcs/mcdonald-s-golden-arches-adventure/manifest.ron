@@ -1,7 +1,23 @@
 (
     title: "McDonald\'s - Golden Arches Adventure",
+    developer: Some("Dave Engman, Isabel Garrett"),
+    description: Some("Ronald McDonald flies a spaceship above the Golden Arches while hungry aliens descend to eat them, and you drop to the ground for food to feed them — shakes, fries or hamburgers, matched to the right alien. None of it survives in the only build there is: the prototype puts the Arches on screen and does nothing else."),
+    links: [
+        (
+            name: "Design documents",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mcdonalds.pdf",
+            link_type: UnusedContent,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2ABF22BD72EA83C3CCD4A65018C56A526BA0F36A",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Parker Brothers"),
             status: Prototype,

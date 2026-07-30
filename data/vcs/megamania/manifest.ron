@@ -1,0 +1,199 @@
+(
+    title: "MegaMania",
+    developer: Some("Steve Cartwright"),
+    description: Some("Waves of household junk — hamburgers, cookies, radial tyres, steam irons — sweep at your blaster along orbital paths that carry them off one edge and back in at the other. An energy bar drains as you work: empty it before the wave is clear and you lose a ship, clear it early and the remainder pays out as bonus."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Megamania",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/megamania.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4C325F9C4D5367EA5D34F2284FB6C19236E7488A",
+    ],
+    mods: [
+        (
+            name: "Space Invaders Invasion",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "1b3f24cbaa93ca3fb18f80acaa67beda7fef673d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Space Invaders Invasion Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "446cbffd351bc04f91403552dcc2571866ec9b92",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "MegaMania Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "029fac354ceb2d3a8d8cc4d400b377c0cb0eddea",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("build 2"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "4b91a0b0ce83680b8e7881a642165bba0bed6398",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("build 3"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "5e930ed0b62f6850306a8a5226886b0b791656b3",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("build 4"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "987e245e83ecd455196750f55873d80e75fe3941",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("build 5"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "9fad62bd9a47b4b45af814d80e775ce74f37800c",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("build 6"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "d0bf768b5e9434d9aefadd43db42b75a28c3363f",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("build 7"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "e1cb69822085d075e58d1b8d5bd2f12edea5a3f5",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "MegaMania Trainer",
+            category: QualityOfLife,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da"),
+                    artifacts: [
+                        (
+                            sha1: "ff26a8c1e8c9b59ea56fe8793260b2fbc689ffe0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("AX-017"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9c5748b38661dbadcbc9cd1ec6a6b0c550b0e3da",
+                ),
+                (
+                    sha1: "0c7522e1153809c40cc492d3411f5918ce8c3579",
+                    label: Some("16K, unidentified"),
+                ),
+            ],
+        ),
+        (
+            title: Some("MegaMania - Ein Alptraum im Weltall"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "756396b5d89831909d3d55cba143f5d1a101e366",
+                ),
+            ],
+        ),
+        (
+            label: Some("AX-017"),
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b6a826064295220502e1cee1df8c32bf1cd7189",
+                    label: Some("alt [a]"),
+                ),
+                (
+                    sha1: "e2313c328ef85b455666e061bd474a207852e786",
+                ),
+            ],
+        ),
+    ],
+)

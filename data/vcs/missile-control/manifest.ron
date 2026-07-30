@@ -1,5 +1,17 @@
 (
     title: "Missile Control",
+    description: Some("Alien ships bomb your cities and you shoot the bombs down, but the ships themselves sit behind force fields — so the way to kill them is to bank a shot off their own moving platforms. Six parts step up the bomb speed and make the shields progressively impenetrable, each with its own spacecraft design."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/missile_control.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D3DC8DAAE8C8DCFE5FE6B86B311BF1704E274765",
+    ],
+    curated: true,
     releases: [
         (
             hardware: (
@@ -16,6 +28,10 @@
             ],
         ),
         (
+            label: Some("VG-01"),
+            regions: [
+                Germany,
+            ],
             date: Some("1983"),
             publisher: Some("Video Gems"),
             hardware: (
@@ -25,6 +41,21 @@
             artifacts: [
                 (
                     sha1: "224e7a310afdb91c6915743e72b7b53b38eb5754",
+                ),
+            ],
+        ),
+        (
+            title: Some("Raketen-Angriff"),
+            regions: [
+                Germany,
+            ],
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "55dba8cf66d8e63f95f8be68981feba832bdc0eb",
                 ),
             ],
         ),

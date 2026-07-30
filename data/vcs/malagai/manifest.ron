@@ -1,7 +1,24 @@
 (
     title: "Malagai",
+    developer: Some("Mike Wentz"),
+    description: Some("Commander Harry Crag\'s ship is held for ransom on a Malagai starbase, and the way out is three airlocks whose keys are carried by three of the aliens. Catch them in the order shown at the top of the screen and reach the matching airlock before they turn hostile; take the wrong one and only a run back to your compartment will calm them."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/malagai.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/814F5441ADF2416263637AC8EBA8D8347A02CE69",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("ASC 1001"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Answer Software Corporation"),
             hardware: (
@@ -10,10 +27,11 @@
             ),
             artifacts: [
                 (
-                    sha1: "094ce88dfd3d31fe88ddd9a770cf1a3c6de3514e",
+                    sha1: "cdc7e65d965a7a00adda1e8bedfbe6200e349497",
                 ),
                 (
-                    sha1: "cdc7e65d965a7a00adda1e8bedfbe6200e349497",
+                    sha1: "094ce88dfd3d31fe88ddd9a770cf1a3c6de3514e",
+                    label: Some("alt"),
                 ),
             ],
         ),

@@ -1,7 +1,32 @@
 (
     title: "Millipede",
+    developer: Some("Dave Staugas"),
+    description: Some("Millipedes wind down through a garden of mushrooms while spiders, bees, beetles and earwigs work the edges, and you shoot arrows up at all of it. Mushrooms turn the millipede back, but a poisoned one sends it charging straight down at you. Shoot an inchworm and everything slows for four seconds; shoot a DDT bomb and its vapour triples what it kills."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/millipede.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Millipede_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Millipede%20(USA).png",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
+            label: Some("CX26118"),
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             hardware: (
@@ -11,15 +36,18 @@
             artifacts: [
                 (
                     sha1: "06092998a30e816a97fe9e4d3f27085b913ec9f9",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "0616f0dde6d697816dda92ed9e5a4c3d77a39408",
                 ),
                 (
                     sha1: "42e97d1ba19781187e605430fd70049f0450ef75",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "6be6c8c8193e43e9fd0fd37e5344848d5a42bb4f",
+                    label: Some("alt"),
                 ),
             ],
         ),

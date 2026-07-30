@@ -1,9 +1,26 @@
 (
     title: "Mind Maze",
+    developer: Some("Gary Shannon, Howard Scott Warshaw"),
+    description: Some("Two to four cards appear and you guess which one the computer has picked, highlighting it and pressing fire; everything but the correct card then vanishes. First to twenty points wins, and you can pass for a fresh set without losing your turn. Variations switch between pictures and colours, and decide whether the computer chooses before or after you do."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/mindmaze/mindmaze.htm",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8F92B1B6B2DBEDBC33D9AF4E6E866F4E162B7FAB",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),

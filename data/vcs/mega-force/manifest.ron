@@ -1,9 +1,26 @@
 (
     title: "Mega Force",
+    developer: Some("Doug Neubauer"),
+    description: Some("You ride the Moto-Fighter across desert toward an enemy headquarters, burning a gallon of fuel every second and firing downward on the ground but straight ahead once airborne. The friendly city behind you is worth points and fuel if you shell it yourself — at the price of ending your scoring for the round."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mega_force.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8307707845700D985AD66909732086C283BB89D2",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("11005"),
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
-            publisher: Some("20th Century Fox Video Games"),
+            publisher: Some("Fox Video Games"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -14,12 +31,14 @@
                 ),
                 (
                     sha1: "c5df27376689b4a605069568218e61c0379532fc",
+                    label: Some("alt"),
                 ),
             ],
         ),
         (
+            label: Some("11005"),
             date: Some("1982"),
-            publisher: Some("20th Century Fox Video Games"),
+            publisher: Some("Fox Video Games"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -27,6 +46,10 @@
             artifacts: [
                 (
                     sha1: "da60cc4597681bf955eed5d03f7323ad3fa5c525",
+                ),
+                (
+                    sha1: "542d45c4b4873e58b4da63fa2fa9dfc389aa4bf6",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

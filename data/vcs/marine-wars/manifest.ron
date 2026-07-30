@@ -1,7 +1,23 @@
 (
     title: "Marine Wars",
+    description: Some("A war at sea in four looping scenes — battleships by day and night, then fighter attacks over each. Fire a shell while you are moving and it flies off opposite your heading, so hitting anything means picking your moment to stand still; at night the far row of ships stays invisible until a hit lights the water."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/marine_wars.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/CAD5D1CB1B6A4620184DBC7F867F3D9C3555AD0D",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("RC 102-X 02"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Konami"),
             hardware: (

@@ -1,16 +1,38 @@
 (
     title: "MagiCard",
+    kind: Tool,
+    developer: Some("John Bronstein"),
+    description: Some("A plug-in module that turns the console into a small 6502 development machine: 2K of ROM holds a monitor program and 1K of on-board RAM holds whatever you write. You key machine code in by hand, examine and edit memory, view it disassembled, run it, and save your work to cassette."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/magicard.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A35BB0D85CC5DDA188D5AD5EB8AF46C7BF3169B1",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("CM-001"),
+            regions: [
+                Usa,
+            ],
             date: Some("1981"),
             publisher: Some("Computer Magic"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("CV"),
+                controllers: [
+                    Keypad,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "124dc2aaed365809342075f2ddb3001f2aa78f4a",
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "4c66b84ab0d25e46729bbcf23f985d59ca8520ad",

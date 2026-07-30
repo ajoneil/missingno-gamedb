@@ -1,7 +1,55 @@
 (
     title: "Mangia\'",
+    description: Some("Mama shuttles between stove and table and every trip lands another plate of pasta in front of you: joystick right to lift a plate, left to eat it. The table gives way past nine plates and the boy bursts after twenty, so the real game is slipping pasta to the dog and the cat while she has her back turned."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mangia.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Mangia",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/519DECB9CB9E0B0D3907D6980F7035CD736D8E19",
+    ],
+    mods: [
+        (
+            name: "Mangia\' Color Edit",
+            category: ContentChange,
+            author: Some("KevinMos3"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("ee8f9bf7cdb55f25f4d99e1a23f4c90106fadc39"),
+                    artifacts: [
+                        (
+                            sha1: "4e052926242b836f82386a84c688c0a23171af0e",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("B"),
+                    base_sha1: Some("ee8f9bf7cdb55f25f4d99e1a23f4c90106fadc39"),
+                    artifacts: [
+                        (
+                            sha1: "cce95977b7c6155c08553b45df03a8a90ee33da4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("SA-212"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Spectravideo"),
             hardware: (
@@ -11,13 +59,16 @@
             artifacts: [
                 (
                     sha1: "189cefb0e053bc59e6548ef7e5c19f0a171e3b59",
+                    label: Some("catalogued as Spectravision"),
                 ),
                 (
                     sha1: "ee8f9bf7cdb55f25f4d99e1a23f4c90106fadc39",
+                    label: Some("catalogued as Spectravideo"),
                 ),
             ],
         ),
         (
+            label: Some("SA-212"),
             date: Some("1983"),
             publisher: Some("Spectravideo"),
             hardware: (

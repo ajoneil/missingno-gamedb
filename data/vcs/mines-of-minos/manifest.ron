@@ -1,7 +1,27 @@
 (
     title: "Mines of Minos",
+    description: Some("The last working robot in a mine overrun by aliens, scavenging its fellows\' parts: carry a piece to the centre of a level\'s top or bottom row and it becomes a spare life. Time bombs are the only weapon. Linger and water rises from the top of the level, slowing you and stopping you bombing at all — and a second player can take the part of an alien."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mines_of_minos.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Mines_of_Minos",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3FA564178DFC843C6E7C4DCFCC23C5E44772CD32",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("CommaVid"),
             hardware: (
@@ -15,13 +35,36 @@
             ],
         ),
         (
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
+                    sha1: "24b9463d3e8da102a4156ac7e28d9a5afa453395",
+                    label: Some("alt [a]"),
+                ),
+                (
                     sha1: "de678ec548665f71c9762dee3d50420760032a0e",
+                ),
+            ],
+        ),
+        (
+            title: Some("Mines of Minos - Im Labyrinth des Roboters"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7d71ca3e9d3a81fb50d76f9983a1c0f61335e211",
                 ),
             ],
         ),

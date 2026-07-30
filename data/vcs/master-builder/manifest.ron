@@ -1,7 +1,33 @@
 (
     title: "Master Builder",
+    description: Some("A blueprint flashes up for five seconds and then vanishes; after that you work from memory, fetching bricks from the street-level stores and laying them course by course. A kid waits to steal your ladder and lightning strikes anyone loitering at the top, and calling the helicopter out costs you a chance if the building doesn\'t match."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/master_builder.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                French,
+                German,
+                Italian,
+                Spanish,
+                Dutch,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C3ABB0D136E7FA8F295714CE85CCC6A41F14B597",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("SA-210"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Spectravideo"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,9 +35,27 @@
             artifacts: [
                 (
                     sha1: "a61b45b8d7adf632fa1072caa78a23e3c80279b7",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "fbe7a78764407743b43a91136903ede65306f4e7",
+                ),
+            ],
+        ),
+        (
+            title: Some("Der flinke Architekt"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a53f4d601c17aa146fdcbdd5d62107eca9821258",
                 ),
             ],
         ),

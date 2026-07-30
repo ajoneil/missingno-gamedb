@@ -1,7 +1,47 @@
 (
     title: "Miniature Golf ~ Arcade Golf",
+    developer: Some("Tom Reuterdahl"),
+    description: Some("Nine holes of crazy golf with moving obstacles, and an unusual way of taking a shot: the club sits on top of the ball, and you drag it away before firing — the farther back you pull it, the harder the ball is struck. The club creeps slowly when it is near the ball, so short putts can be aimed precisely."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/miniature_golf.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Miniature_Golf_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1E0272D2BBE43A86EA183F4A69BD4A73060450A3",
+    ],
+    mods: [
+        (
+            name: "Miniature Golf Plus",
+            category: ContentChange,
+            author: Some("Glenn Bussell"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("be24b42e3744a81fb217c86c4ed5ce51bff28e65"),
+                    artifacts: [
+                        (
+                            sha1: "dc00f5023ef4f2b2ddefb98078a6c62d71d6bea4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("CX2626"),
+            regions: [
+                Usa,
+            ],
             date: Some("1979"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,18 +52,45 @@
                 (
                     sha1: "be24b42e3744a81fb217c86c4ed5ce51bff28e65",
                 ),
+                (
+                    sha1: "bc7325211c324b2a182c0d9d07a0c2a37bf9c7d2",
+                    defect: Some(Overdump),
+                ),
             ],
         ),
         (
             date: Some("1979"),
             publisher: Some("Atari"),
             hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
             ),
             artifacts: [
                 (
-                    sha1: "bc7325211c324b2a182c0d9d07a0c2a37bf9c7d2",
+                    sha1: "9feebc2f41d0013e387275be2d5d525dd81ed8df",
+                ),
+                (
+                    sha1: "4e6e1ea84355dc84b789595ca6e0179bc67b95f1",
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            title: Some("Miniaturer Golf"),
+            label: Some("32 in 1"),
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "277396e0d4fe82512d994c77e539bf06310bd8f1",
+                ),
+                (
+                    sha1: "88e6fff6319a1a7d7c5690ac18eecae159ab406a",
+                    defect: Some(Overdump),
                 ),
             ],
         ),

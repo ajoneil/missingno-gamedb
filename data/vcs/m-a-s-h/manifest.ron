@@ -1,5 +1,23 @@
 (
-    title: "M.A.S.H",
+    title: "M*A*S*H",
+    developer: Some("Doug Neubauer"),
+    description: Some("As Hawkeye of the 4077th you fly a helicopter over a wooded battlefield, picking up wounded soldiers and parachuting medics and ferrying them home while a North Korean tank shells you. Between rounds the action cuts to the operating room, where you have fifteen seconds to draw shrapnel from a patient without touching him."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/M*A*S*H_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mash.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F9FBA24098AC996D942139118EA5CFADFB9AF35F",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -16,14 +34,15 @@
                     sha1: "c9f8da757bbd67b3797e19b39658c06f80a87314",
                 ),
                 (
-                    sha1: "dcd96913a1c840c8b57848986242eeb928bfd2ff",
+                    sha1: "ec195c76be5981dc6353cf6c121a95c0568ef9e2",
                 ),
                 (
-                    sha1: "ec195c76be5981dc6353cf6c121a95c0568ef9e2",
+                    sha1: "fbc075766313f04a808236189daa2bf49f584f44",
                 ),
             ],
         ),
         (
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -40,6 +59,43 @@
                 ),
                 (
                     sha1: "b022969a71967a925817180688884474fa090c70",
+                ),
+                (
+                    sha1: "a2ef13317712f56685355b648ca9358efadacb3c",
+                ),
+            ],
+        ),
+        (
+            title: Some("Katastrophen-Einsatz"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d5ce6dae728700ef24a7cddc95e1e42d0e2d20f9",
+                ),
+            ],
+        ),
+        (
+            label: Some("11011"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dcd96913a1c840c8b57848986242eeb928bfd2ff",
                 ),
             ],
         ),

@@ -1,0 +1,35 @@
+(
+    title: "Miss Piggy\'s Wedding",
+    developer: Some("Gary Shannon, Dave Joly"),
+    description: Some("A two-player chase through a church: Kermit runs the maze for the cab waiting outside while Miss Piggy hunts him down and wedding guests block the aisles. A key drifts around the maze and controls the exits — Kermit opens them by touching it, Miss Piggy closes them again."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/misspiggy/misspiggy.htm",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6A4D6DD69796A19FF2C8369D05B700C752BFED0F",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f721d1f750e19b9e1788eed5e3872923ab46a91d",
+                ),
+            ],
+        ),
+    ],
+)

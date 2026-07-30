@@ -1,7 +1,55 @@
 (
     title: "Miner 2049er",
+    description: Some("Bounty Bob works an abandoned uranium mine, and the floor turns solid behind him: you must walk every section of the framework to claim a station, and missing one section blocks the way out. Mutants kill on contact until you pick up a miner\'s lost possession, which turns them briefly edible. A timer runs throughout and pays out whatever is left."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Miner_2049er",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/miner_2049er.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Miner%202049er%20-%20Starring%20Bounty%20Bob%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Miner Vol I (Infinite Lives)",
+            category: QualityOfLife,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    date: Some("2009"),
+                    base_sha1: Some("5470afe5961f9fdd2f6388f53f682f3264a95ce9"),
+                    artifacts: [
+                        (
+                            sha1: "c7e925355c1a233127e5fcbc76fcd3156691fafe",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    base_sha1: Some("5470afe5961f9fdd2f6388f53f682f3264a95ce9"),
+                    artifacts: [
+                        (
+                            sha1: "f5e41e2094914442614188d995f06cf9970c3ce5",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("7-008"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Tigervision"),
             hardware: (
@@ -10,7 +58,38 @@
             ),
             artifacts: [
                 (
+                    sha1: "5470afe5961f9fdd2f6388f53f682f3264a95ce9",
+                ),
+                (
                     sha1: "0e56b48e88f69d405eabf544e57663bd180b3b1e",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Tigervision"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "78606c2f3dd418e903a0760746d11714e74a55a6",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Tigervision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c44b2f87695440828d6844ae630d3f975b582385",
                 ),
             ],
         ),

@@ -1,7 +1,32 @@
 (
     title: "Mario Bros.",
+    developer: Some("Dan Hitchens"),
+    description: Some("The pipes in Mario and Luigi\'s house are clogged with crawling pests, and clearing one takes two moves: punch the floor from underneath to flip the creature onto its back, then get up there and kick it off before it rights itself. A POW switch between the lower storeys turns everything over at once, but only three times."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Mario_Bros.",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mario_bros.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D7A84D503C45E6BB3B5D740EA8368F7F9115CCA3",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
+            label: Some("CX2697"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -14,10 +39,15 @@
                 ),
                 (
                     sha1: "6282da81472c2c95f8efc1e20e0eebade7be8cc1",
+                    label: Some("alt"),
                 ),
             ],
         ),
         (
+            label: Some("CX2697"),
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -27,6 +57,10 @@
             artifacts: [
                 (
                     sha1: "a83f5f9a075ccfee1e7b74c8082ec2ff3d7e1f78",
+                ),
+                (
+                    sha1: "5a2924a05b0c1b0eb89d22d13397a22c08a9956f",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

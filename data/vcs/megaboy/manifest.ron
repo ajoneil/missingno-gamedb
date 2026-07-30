@@ -1,0 +1,62 @@
+(
+    title: "MegaBoy",
+    description: Some("The 64K cartridge packed with Dynacom\'s MegaBoy, a handheld Atari 2600 clone sold in Brazil as a children\'s learning machine. It is a menu rather than a game: arithmetic and English drills, music, and a set of small games. At 64K it is the largest 2600 cartridge known."),
+    covers: [
+        "https://hasheous.org/api/v1/images/FA41C1370F3AB8182F4351425C9A49D74B16C179",
+    ],
+    mods: [
+        (
+            name: "EF conversion",
+            category: Compatibility,
+            author: Some("Fred Quimby"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("46977baf0e1ee6124b524258879c46f80d624fae"),
+                    artifacts: [
+                        (
+                            sha1: "54399ce15b443e789b8537306bc5ac3bb48b888d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "X07 conversion",
+            category: Compatibility,
+            author: Some("Fred Quimby"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("46977baf0e1ee6124b524258879c46f80d624fae"),
+                    artifacts: [
+                        (
+                            sha1: "c11f59ae0ecd376af52ae57b5be8b6f039de0d0e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Brazil,
+            ],
+            languages: [
+                Portuguese,
+            ],
+            publisher: Some("Dynacom"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("F0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "46977baf0e1ee6124b524258879c46f80d624fae",
+                ),
+            ],
+        ),
+    ],
+)

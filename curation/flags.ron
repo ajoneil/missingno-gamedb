@@ -18605,5 +18605,22 @@
             ],
             note: "Requires the Atari Driving Controller, which missingno does not emulate. The game plays with a joystick, but the car\'s steering range is limited and it cannot be turned far.",
         ),
+        (
+            id: 2905,
+            kind: Custom,
+            subject: [
+                "vcs/sea-hawk",
+            ],
+            note: "Label attribution unresolved for four of the five dumps. The game is Sancho / Tang\'s Electronic Co., 1982, serial TEC002 (Atarimania), and the developer playtest 2026-07-30 confirmed an on-screen Sancho copyright in both the NTSC dump and the PAL \'Seahawk (Europe)\' dump — so every dump here carries Sancho\'s code and the on-screen notice identifies the author, not the cart\'s label. Atarimania catalogues ~22 label variants: same title (Sancho/Tang\'s, John Sands Electronics, Canal 3, Digivision, Home Video Computor Games, Matra 3600/Kingway/MAX\'ER, Panda, Super 2600, Video Vision, Zellers, four Taiwanese label variants) and retitled (Malvinas, Marineflieger, Mid Way, Midway, Nafia, Overkill, Sea Houck, Sea Hwak, Sea-Hawk, Sea-Smash, Seahawk). Attributions cleared as unsupported: the NTSC release\'s \'Panda 1983\' (candidates Panda 1983 and Froggo 1987 FG 1008, nothing distinguishes them), and the PAL release\'s \'Goliath 1983 / Overkill\' (that dump\'s signature and No-Intro names are both plain Seahawk, naming no label). Only the Quelle release stands: its dump\'s signature name is Marineflieger (1983)(Quelle)(PAL)[176.764 9], matching the Quelle catalogue number. Resolving this needs cart-label photographs or a per-label dump comparison, not catalogue reading.",
+            resolved: Some("2026-07-30"),
+        ),
+        (
+            id: 2906,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/mind-maze",
+            ],
+            note: "Renders a repeating 29-scanline frame instead of a full field, on every 8K board tried. Documented elsewhere as playable.",
+        ),
     ],
 )

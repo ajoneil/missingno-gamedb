@@ -1,7 +1,29 @@
 (
     title: "Math Gran Prix",
+    developer: Some("Suki Lee"),
+    description: Some("An arithmetic race: each turn you choose to advance two spaces or three, the shorter hop buying an easier sum, then dial the answer in digit by digit on the joystick. Right answers move your car, wrong ones leave it where it was, and landing on your opponent breaks their car down until they solve a repair problem."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/math_gran_prix.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Math_Gran_Prix",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B2033F3BF84E3E1674151BD3AD336139238198CB",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("CX2658"),
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (
@@ -11,16 +33,25 @@
             artifacts: [
                 (
                     sha1: "13c4fd4bd1b6205c4ee868d28ee41693a1683f09",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "18fac606400c08a0469aebd9b071ae3aec2a3cf2",
                 ),
                 (
                     sha1: "b37c922cd6c57b5f44dff25450aad02a24a20c99",
+                    label: Some("alt"),
                 ),
             ],
         ),
         (
+            title: Some("Maths Grand Prix"),
+            label: Some("CX2658"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -28,6 +59,7 @@
             artifacts: [
                 (
                     sha1: "3132590354ba0ec6922ef064bbecd41a3323ab58",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "3ac92529e4c146eb15365486778052e6892bab32",

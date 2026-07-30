@@ -71,7 +71,9 @@ impl<P: Platform> Game<P> {
 
 /// What kind of work this entry is. `Demo` is a playable preview of a game
 /// (kiosk/sample carts); `Demoscene` is a scene production in its own right;
-/// `Test` is a diagnostic or calibration utility (pattern generators, test carts).
+/// `Test` is a diagnostic or calibration utility (pattern generators, test carts);
+/// `Tool` is software for authoring or programming rather than playing (BASIC
+/// cartridges, sound editors, machine-language monitors).
 #[derive(Serialize, Deserialize, Default, Clone, Copy, PartialEq, Eq, Debug)]
 pub enum GameKind {
     #[default]
@@ -79,6 +81,7 @@ pub enum GameKind {
     Demo,
     Demoscene,
     Test,
+    Tool,
 }
 
 /// A concrete published form of a game: region, revision, hardware variant.
@@ -94,6 +97,11 @@ pub struct Release<P: Platform> {
     pub label: Option<String>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub regions: Vec<Region>,
+    /// The languages this release presents to the player. Empty means either
+    /// English or too little text to matter — most Atari carts say almost
+    /// nothing, so record it where a release genuinely reads in a language.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub languages: Vec<Language>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub date: Option<ReleaseDate>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
