@@ -1,0 +1,21 @@
+(
+    title: "Bad Apple",
+    kind: Demoscene,
+    description: Some("A monochrome adaptation of the Bad Apple video for hardware never meant to show video at all: 3 minutes 40 seconds of footage at 40x32 pixels and 20 frames per second, packed by lossless compression into roughly 390 KB of a half-megabyte cartridge. It runs silent — the author left audio out, the 2600\'s sound hardware not being up to the tune."),
+    releases: [
+        (
+            date: Some("2014"),
+            publisher: Some("fb39ca4"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3E"),
+            ),
+            artifacts: [
+                (
+                    sha1: "91096b12152760318a5dfb933d5615d2f94c45c5",
+                    size: Some(491520),
+                ),
+            ],
+        ),
+    ],
+)
