@@ -1,4 +1,6 @@
-use missingno_gamedb::{Enhancement, Game, GameBoy, GameBoyColor, TvFormat, Vcs};
+use missingno_gamedb::{
+    Enhancement, Game, GameBoy, GameBoyColor, Sg1000, Sg1000CartType, TvFormat, Vcs, VcsCartType,
+};
 
 const GB_HOMEBREW: &str = r#"(
     title: "144p Test Suite",
@@ -122,7 +124,39 @@ fn vcs_variants_round_trip() {
     assert_eq!(game.releases.len(), 2);
     assert_eq!(game.releases[0].hardware.tv_format, Some(TvFormat::Ntsc));
     assert_eq!(game.releases[1].hardware.tv_format, Some(TvFormat::Pal));
-    assert_eq!(game.releases[1].hardware.cart_type.as_deref(), Some("F8"));
+    assert_eq!(
+        game.releases[1].hardware.cart_type,
+        Some(VcsCartType::Atari8K)
+    );
+}
+
+const SG1000_RAM_CART: &str = r#"(
+    title: "Othello",
+    releases: [
+        (
+            regions: [Japan],
+            hardware: (cart_type: Some("OTHELLO")),
+            artifacts: [(sha1: "d0cd594ddb321f707ddba8a044fa3e9b906e720a", size: Some(32768))],
+        ),
+    ],
+)
+"#;
+
+#[test]
+fn sg1000_board_round_trips() {
+    let (game, canonical) = round_trip::<Sg1000>(SG1000_RAM_CART);
+    assert_eq!(
+        game.releases[0].hardware.cart_type,
+        Some(Sg1000CartType::OthelloRam)
+    );
+    assert!(canonical.contains(r#"cart_type: Some("OTHELLO")"#), "{canonical}");
+}
+
+#[test]
+fn a_board_code_no_core_builds_is_a_parse_error() {
+    let text = r#"(title: "x", releases: [(hardware: (cart_type: Some("DPC+")))])"#;
+    let error = Game::<Vcs>::from_ron(text).expect_err("no such board");
+    assert!(error.to_string().contains("DPC+"), "{error}");
 }
 
 #[test]

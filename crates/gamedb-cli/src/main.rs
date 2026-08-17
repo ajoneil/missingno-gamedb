@@ -35,13 +35,13 @@ struct Cli {
 enum Command {
     /// Check every manifest against the schema and database rules
     Validate {
-        /// Database root (contains gb/, gbc/, vcs/)
+        /// Database root (contains gb/, gbc/, sg1000/, vcs/)
         #[arg(default_value = ".")]
         path: PathBuf,
     },
     /// Rewrite manifests in canonical formatting
     Fmt {
-        /// Database root (contains gb/, gbc/, vcs/)
+        /// Database root (contains gb/, gbc/, sg1000/, vcs/)
         #[arg(default_value = ".")]
         path: PathBuf,
     },
@@ -284,7 +284,7 @@ fn main() -> ExitCode {
 }
 
 fn has_platform_tree(root: &Path) -> bool {
-    ["gb", "gbc", "vcs"]
+    ["gb", "gbc", "sg1000", "vcs"]
         .iter()
         .any(|dir| root.join(dir).is_dir())
 }
@@ -325,7 +325,7 @@ fn run_migration(
 ) -> ExitCode {
     if !has_platform_tree(root) {
         eprintln!(
-            "no platform trees (gb/, gbc/, vcs/) under {}",
+            "no platform trees (gb/, gbc/, sg1000/, vcs/) under {}",
             root.display()
         );
         return ExitCode::from(2);
@@ -359,7 +359,7 @@ fn run_migration(
 fn run_validate(root: &Path) -> ExitCode {
     if !has_platform_tree(root) {
         eprintln!(
-            "no platform trees (gb/, gbc/, vcs/) under {}",
+            "no platform trees (gb/, gbc/, sg1000/, vcs/) under {}",
             root.display()
         );
         return ExitCode::from(2);
@@ -393,7 +393,7 @@ fn run_validate(root: &Path) -> ExitCode {
 fn run_fmt(root: &Path) -> ExitCode {
     if !has_platform_tree(root) {
         eprintln!(
-            "no platform trees (gb/, gbc/, vcs/) under {}",
+            "no platform trees (gb/, gbc/, sg1000/, vcs/) under {}",
             root.display()
         );
         return ExitCode::from(2);

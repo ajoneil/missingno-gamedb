@@ -2,6 +2,12 @@ use std::fmt::Debug;
 
 use serde::{Deserialize, Serialize, de::DeserializeOwned};
 
+/// The board vocabularies are the emulator cores' own, so a hardware payload
+/// names a board some silicon model builds and an unlisted code fails to parse.
+pub use missingno_gb::cartridge::GbCartType;
+pub use missingno_sg1000::cartridge::CartType as Sg1000CartType;
+pub use missingno_vcs::CartType as VcsCartType;
+
 /// The platform axis of the database: one tree per platform, and a
 /// platform-specific block of per-release hardware facts.
 pub trait Platform {
@@ -20,6 +26,9 @@ pub struct GameBoyColor;
 #[derive(Clone, Copy, PartialEq, Eq, Debug, Default)]
 pub struct Vcs;
 
+#[derive(Clone, Copy, PartialEq, Eq, Debug, Default)]
+pub struct Sg1000;
+
 impl Platform for GameBoy {
     type ReleaseHardware = GbHardware;
     const DIR: &'static str = "gb";
@@ -35,6 +44,11 @@ impl Platform for Vcs {
     const DIR: &'static str = "vcs";
 }
 
+impl Platform for Sg1000 {
+    type ReleaseHardware = Sg1000Hardware;
+    const DIR: &'static str = "sg1000";
+}
+
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct GbHardware {
@@ -44,7 +58,7 @@ pub struct GbHardware {
     pub cgb: Enhancement,
     /// Cartridge mapper, e.g. "MBC1", "MBC3+TIMER+BATTERY"; `None` = as the header says.
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub mapper: Option<String>,
+    pub mapper: Option<GbCartType>,
 }
 
 /// Whether a Game Boy release detects and uses an enhancing console.
@@ -70,7 +84,17 @@ impl Enhancement {
 pub struct GbcHardware {
     /// Cartridge mapper, e.g. "MBC5+RUMBLE+RAM+BATTERY"; `None` = as the header says.
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub mapper: Option<String>,
+    pub mapper: Option<GbCartType>,
+}
+
+/// An SG-1000 dump carries no header and no length that tells a RAM-bearing
+/// board from a plain one, so the board is a database fact or nothing.
+#[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
+pub struct Sg1000Hardware {
+    /// Cartridge board code, e.g. "OTHELLO", "DAHJEE-A"; `None` = a plain ROM.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub cart_type: Option<Sg1000CartType>,
 }
 
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
@@ -80,7 +104,7 @@ pub struct VcsHardware {
     pub tv_format: Option<TvFormat>,
     /// Cartridge board code, e.g. "F8", "F6SC", "4K".
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub cart_type: Option<String>,
+    pub cart_type: Option<VcsCartType>,
     /// Controllers the release needs, staged only when it deviates from the
     /// platform default (VCS: joystick) or when sibling releases of one game
     /// differ and the contrast is the fact (a joystick conversion beside the

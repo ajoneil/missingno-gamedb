@@ -34,7 +34,7 @@ impl SlugTokens for Vcs {
                 tokens.insert(format!("{format:?}").to_lowercase());
             }
             if let Some(cart) = &release.hardware.cart_type {
-                tokens.insert(cart.to_lowercase());
+                tokens.insert(cart.code().to_lowercase());
             }
         }
         tokens
@@ -43,13 +43,13 @@ impl SlugTokens for Vcs {
 
 impl SlugTokens for GameBoy {
     fn tokens(game: &Game<Self>) -> BTreeSet<String> {
-        mapper_tokens(game.releases.iter().map(|r| r.hardware.mapper.as_deref()))
+        mapper_tokens(game.releases.iter().map(|r| r.hardware.mapper.map(|m| m.code())))
     }
 }
 
 impl SlugTokens for GameBoyColor {
     fn tokens(game: &Game<Self>) -> BTreeSet<String> {
-        mapper_tokens(game.releases.iter().map(|r| r.hardware.mapper.as_deref()))
+        mapper_tokens(game.releases.iter().map(|r| r.hardware.mapper.map(|m| m.code())))
     }
 }
 

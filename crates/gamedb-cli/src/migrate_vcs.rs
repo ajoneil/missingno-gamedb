@@ -1,6 +1,8 @@
 use std::{collections::BTreeMap, path::Path};
 
-use missingno_gamedb::{Artifact, Game, Release, ReleaseStatus, Sha1, Vcs, VcsHardware};
+use missingno_gamedb::{
+    Artifact, Game, Release, ReleaseStatus, Sha1, Vcs, VcsCartType, VcsHardware,
+};
 
 use crate::{
     legacy::{self, LegacyManifest},
@@ -153,7 +155,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 },
                 hardware: VcsHardware {
                     tv_format: m.tv_format,
-                    cart_type: m.cart_type.clone(),
+                    cart_type: m.cart_type.as_deref().and_then(VcsCartType::from_code),
                     controllers: Vec::new(),
                 },
                 artifacts,

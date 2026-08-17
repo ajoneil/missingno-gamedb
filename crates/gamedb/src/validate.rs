@@ -4,7 +4,7 @@ use crate::{
     game::Game,
     ids::{Sha1, Slug},
     load::manifest_paths,
-    platform::{GameBoy, GameBoyColor, Platform, Vcs},
+    platform::{GameBoy, GameBoyColor, Platform, Sg1000, Vcs},
 };
 
 #[derive(Clone, Copy, PartialEq, Eq, Debug)]
@@ -51,6 +51,7 @@ impl Finding {
 pub fn validate(db_root: &Path) -> io::Result<Vec<Finding>> {
     let mut findings = validate_tree::<GameBoy>(db_root)?;
     findings.extend(validate_tree::<GameBoyColor>(db_root)?);
+    findings.extend(validate_tree::<Sg1000>(db_root)?);
     findings.extend(validate_tree::<Vcs>(db_root)?);
     Ok(findings)
 }
@@ -173,6 +174,7 @@ pub fn format_all(db_root: &Path) -> io::Result<FormatReport> {
     let mut report = FormatReport::default();
     format_tree::<GameBoy>(db_root, &mut report)?;
     format_tree::<GameBoyColor>(db_root, &mut report)?;
+    format_tree::<Sg1000>(db_root, &mut report)?;
     format_tree::<Vcs>(db_root, &mut report)?;
     Ok(report)
 }
