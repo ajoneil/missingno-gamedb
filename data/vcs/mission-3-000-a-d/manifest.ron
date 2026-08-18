@@ -1,5 +1,17 @@
 (
     title: "Mission 3,000 A.D.",
+    description: Some("You pilot the Thunderhawk through open space, hunting six hidden starbases while waves of enemy starfighters harry you from every side. A radar strip along the bottom of the screen plots the bases you have yet to reach, and the coloured bands flanking it warn how fast the fighters are closing. Clearing all six earns another ship."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mission_3000ad.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/20A73A6EDAAB83C55189EFC453C340345AB15CE1",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -27,6 +39,26 @@
                 ),
                 (
                     sha1: "d897b90ae92d338664e02c6ca70ff60d5921b9a0",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "a4ca8a80202e52851102146a2533bca2b9c0628e",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            label: Some("Demonstration cartridge"),
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            status: Demo,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dafa65780ebb5bc63e48a6cfd0f78ea3b11a7a1b",
                 ),
             ],
         ),

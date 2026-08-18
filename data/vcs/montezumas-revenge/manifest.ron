@@ -1,0 +1,160 @@
+(
+    title: "Montezuma\'s Revenge",
+    description: Some("You guide Panama Joe down through the chambers of Montezuma\'s fortress, climbing ladders and chains, leaping the creatures that patrol each room, and picking up keys, torches and swords along the way. The chambers connect into a maze you have to remember and backtrack through, hunting the treasure without letting greed get the better of you."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/montezuma.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Montezuma%27s_Revenge_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/96451B7C057F8658EE4A9694ABBE35D77DA8131A",
+    ],
+    mods: [
+        (
+            name: "PAL conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("7dfeb1a8ec863c1e0f297113a1cc4185c215e81c"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "3a998dcffef52d3c808a74c42e4fb218008dd96a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "F6 conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    base_sha1: Some("7dfeb1a8ec863c1e0f297113a1cc4185c215e81c"),
+                    artifacts: [
+                        (
+                            sha1: "3d5ad1eac850bdc3497971e59b3ce90447f71ea0",
+                        ),
+                        (
+                            sha1: "5920d86cbdf81ab6fdfd552d355db69b83cd7124",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Trainer",
+            category: QualityOfLife,
+            author: Some("Steve Engelhardt"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("7dfeb1a8ec863c1e0f297113a1cc4185c215e81c"),
+                    artifacts: [
+                        (
+                            sha1: "17b12e1c84cdd6c643e61ef0a149b3209d3611a6",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Tomb Raider",
+            category: ContentChange,
+            author: Some("Stan Jr."),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=168",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    label: Some("Classic"),
+                    date: Some("2009"),
+                    base_sha1: Some("7dfeb1a8ec863c1e0f297113a1cc4185c215e81c"),
+                    artifacts: [
+                        (
+                            sha1: "4e6cede07c67172d030ecfbfcd14dc8fa275b1ce",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Modern"),
+                    base_sha1: Some("7dfeb1a8ec863c1e0f297113a1cc4185c215e81c"),
+                    artifacts: [
+                        (
+                            sha1: "e0228ceffe8a07da2052b55eb277d226c9ca9cda",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Underworld"),
+                    base_sha1: Some("7dfeb1a8ec863c1e0f297113a1cc4185c215e81c"),
+                    artifacts: [
+                        (
+                            sha1: "285d41cc9a0a7b6c1eab7e5596aa2ac4991aeed8",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Original Colors"),
+                    base_sha1: Some("7dfeb1a8ec863c1e0f297113a1cc4185c215e81c"),
+                    artifacts: [
+                        (
+                            sha1: "fb974f02b78e56025a681fa9e3464b16f559b3fe",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Tomb Raider 2600 - The Mystery of the Scarlet Dragon",
+            category: ContentChange,
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("7dfeb1a8ec863c1e0f297113a1cc4185c215e81c"),
+                    artifacts: [
+                        (
+                            sha1: "075b42f5225dcf52c67eb838065ef6acfad6b02f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7dfeb1a8ec863c1e0f297113a1cc4185c215e81c",
+                ),
+            ],
+        ),
+    ],
+)

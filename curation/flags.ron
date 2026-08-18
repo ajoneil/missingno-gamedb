@@ -1152,5 +1152,13 @@
             ],
             note: "Renders a repeating 29-scanline frame instead of a full field, on every 8K board tried. Documented elsewhere as playable.",
         ),
+        (
+            id: 2907,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/mission-survive",
+            ],
+            note: "Game never starts: sprites animate in place, but neither RESET nor the joystick begins play.",
+        ),
     ],
 )

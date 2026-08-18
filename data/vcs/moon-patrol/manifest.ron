@@ -1,5 +1,25 @@
 (
     title: "Moon Patrol",
+    description: Some("You drive a moon buggy across the lunar surface against a clock, jumping the craters, rocks and mines that would wreck it. Your laser fires upward and forward at once, which you need: UFOs bomb the ground into fresh craters while enemy cars and tanks close from behind. Twenty-six segments make a course."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/moon_patrol.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Moon_Patrol",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Moon%20Patrol%20(USA).png",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             date: Some("1983"),
@@ -34,9 +54,6 @@
                     sha1: "cc6054ffef91ab98fbef24b450a4470b598ec17e",
                 ),
                 (
-                    sha1: "dce778f397a325113f035722b7769492645d69eb",
-                ),
-                (
                     sha1: "e082923c89418ce7c49a770369a73a39d2bb1583",
                 ),
             ],
@@ -54,6 +71,22 @@
                 ),
                 (
                     sha1: "b867f98fbfed95ec7b5171edd783e7dfb62f9782",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dce778f397a325113f035722b7769492645d69eb",
                 ),
             ],
         ),

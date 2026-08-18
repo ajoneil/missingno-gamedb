@@ -1,5 +1,35 @@
 (
     title: "Moonsweeper",
+    description: Some("Two views of one rescue: you orbit a sun dodging flares and photon torches until a moon swings past, then drop to skim its surface, shooting towers and destroyers while picking up six stranded miners. Fly through the accelerator rings to leave, and pick your next moon — its colour tells you how hard the pickup will be."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/moonsweeper.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Moonsweeper%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Space Harrier",
+            category: ContentChange,
+            author: Some("Jack Spencer Jr"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("05ab04dc30eae31b98ebf6f43fec6793a53e0a23"),
+                    artifacts: [
+                        (
+                            sha1: "7375e442e02a8de0611cfa2bcb4bcc53f6d1cf4d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -27,6 +57,10 @@
             artifacts: [
                 (
                     sha1: "173d7427d6ab024cc9ef75a0281a85fd4ee013dd",
+                ),
+                (
+                    sha1: "42e0083557ff540524f3a68eb062d045ed9a7f41",
+                    label: Some("alt"),
                 ),
             ],
         ),

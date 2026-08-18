@@ -1,22 +1,50 @@
 (
     title: "Mission Survive",
-    releases: [
+    description: Some("You drive a wheeled battle craft along a desert horizon while flying saucers cross the sky above, dropping bombs on you. Blocks jut out of the ground in your path, so getting past them and shooting down the saucers are the two halves of the job."),
+    covers: [
+        "https://hasheous.org/api/v1/images/B16BB4F6DBB22FF10B3ABDD79F4081FFE78A36DB",
+    ],
+    mods: [
         (
-            date: Some("2001"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "09663bc88923d45cf10f9b53b9c895b7efb2e438",
-                ),
-                (
-                    sha1: "dfde899db49dd02dc2bfe800d79e1e2aaa2ee6f4",
+                    date: Some("2001"),
+                    base_sha1: Some("93520821ce406a7aa6cc30472f76bca543805fd4"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "09663bc88923d45cf10f9b53b9c895b7efb2e438",
+                        ),
+                        (
+                            sha1: "dfde899db49dd02dc2bfe800d79e1e2aaa2ee6f4",
+                            label: Some("alt"),
+                        ),
+                    ],
                 ),
             ],
         ),
+        (
+            name: "Sound hack",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("93520821ce406a7aa6cc30472f76bca543805fd4"),
+                    artifacts: [
+                        (
+                            sha1: "209b54546bf9bfab0daf3aaad46d8a53167a5d0c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
         (
             date: Some("1983"),
             publisher: Some("Video Gems"),
@@ -30,6 +58,7 @@
                 ),
                 (
                     sha1: "a30c6a42f946409cceaf8e83a9de778d4bd7d3b3",
+                    label: Some("alt"),
                 ),
             ],
         ),

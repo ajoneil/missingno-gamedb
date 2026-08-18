@@ -1,0 +1,38 @@
+(
+    title: "Monstercise",
+    description: Some("A row of monsters works through something like jumping jacks while a blue blob below sweeps a spotlight along the line. Picking out one monster lets you drive its head, arms or legs separately, each part answering to a different action. Only an incomplete demo was ever built, and it never became a game."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/monstercise/monstercise.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "81a4d56820b1e00130e368a3532c409929aff5fb",
+                ),
+                (
+                    sha1: "1c5dce36fd34593cdca069673b6b01d522faca49",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+    ],
+)
