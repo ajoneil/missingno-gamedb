@@ -1,0 +1,66 @@
+(
+    title: "A Mysterious Thief",
+    description: Some("A thief works a four-storey building against the clock, grabbing treasure floor by floor and swinging between them on a grappling hook through access holes. Guard dogs patrol most floors and a security man moves along the windows; gather enough loot and a helicopter comes to lift you off the roof, with whatever time is left paid as bonus."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/mysteriousthief/mysteriousthief.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/98C89BB1C954DA63DB64E52A3ABF8F8F1AE7DA84",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Vidco"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d1c963ea040c60b296a26c46faaad472890499f",
+                ),
+                (
+                    sha1: "0208e4b4e099cd5798f123b098435da80b02fbe3",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Eddy Langfinger, der Museumsdieb"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starsoft - Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e1ac830a8cd2ca27f92cb5d7e78c89c563e4c10",
+                ),
+            ],
+        ),
+        (
+            title: Some("Criminal Pursuit"),
+            date: Some("1983"),
+            publisher: Some("Emag"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "19c2880dba08b56ce10494131d468c39921a0d34",
+                ),
+            ],
+        ),
+    ],
+)

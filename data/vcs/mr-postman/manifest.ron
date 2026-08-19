@@ -1,9 +1,42 @@
 (
     title: "Mr. Postman",
+    developer: Some("Bit Corporation"),
+    description: Some("A mail carrier must get an important package to a house in the City of Silence, and his ride is an eagle that has to be tamed first. Climb the tree at the right of the screen, leap to a swinging vine and drop onto the bird\'s back — all while dodging the droppings that cost you a life."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/21532-mr-postman",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mr_postman.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DA634B23441FF15332EEE47292EAC3E79AAAB5CA",
+    ],
+    mods: [
+        (
+            name: "Trainer",
+            category: QualityOfLife,
+            releases: [
+                (
+                    base_sha1: Some("4a48548012bc977a4a51e4b1865f8c3e8029d8ac"),
+                    artifacts: [
+                        (
+                            sha1: "6474fbc4848c00d7a971e08d0c7caa69060538f8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
-            publisher: Some("Starsoft"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -14,12 +47,82 @@
                 ),
                 (
                     sha1: "62e80bf7f8fe4d048c254987e5e93f7ca0e59fd3",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "742536d9b2291c527b39b52c5d4e82e6dd2a97a7",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("O Carteiro"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "304622be85501fd7f5c7ea51b96516d685b8edaa",
                 ),
                 (
+                    sha1: "c92afe20ae2cb9a8085c938e2ae7eec433ea3c20",
+                    defect: Some(BadDump),
+                ),
+            ],
+        ),
+        (
+            title: Some("Der Postmann"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f9e1491d4cfea97822949349559a41d87a235d27",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("Digitel"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
                     sha1: "e3b167951ae5084262aea3253711083359e2441b",
+                ),
+            ],
+        ),
+        (
+            title: Some("Der Geheimkurier"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starsoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "18a105bf297ae1e7e9343747a002ffa97ec08ea9",
                 ),
             ],
         ),

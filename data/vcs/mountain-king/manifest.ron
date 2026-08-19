@@ -1,7 +1,27 @@
 (
     title: "Mountain King",
+    description: Some("Explore a mountain\'s caverns by flashlight, gathering diamonds and treasure until you have enough to claim the Golden Crown, then carry it up to the Perpetual Flame at the summit before the timer runs out. A giant spider lurks at the bottom, fires kill on contact, and bats will snatch the crown from you on the climb."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Mountain_King_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mountain_king.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Mountain%20King%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("CBS Electronics"),
             hardware: (
@@ -11,6 +31,10 @@
             artifacts: [
                 (
                     sha1: "0a84b0a6bd0e79f5fa0b1bb9112160cb564ab836",
+                ),
+                (
+                    sha1: "ef4112e86d6a3e8f7b8e482d294a5917f162b38c",
+                    label: Some("alt"),
                 ),
             ],
         ),

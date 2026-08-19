@@ -1,0 +1,49 @@
+(
+    title: "MotoRodeo",
+    description: Some("A split-screen monster truck contest run over eight obstacles — walls to smash through, cars to crush, mud to plough, ramps and suspended platforms. Race an opponent or the computer, spinning the truck in mid-air and landing upright for extra points. Nitro pickups buy a burst of speed and a small hop."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/motorodeo.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/976A9D98C2AD02CF940BAFD34B90DE5B3A673ACD",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1990"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dea1506ba107b9544cd9b179f83bc61ced9101ac",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1991"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ece97bda734faffcf847a8bcdfa474789c377d8d",
+                ),
+            ],
+        ),
+    ],
+)

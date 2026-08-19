@@ -1,0 +1,59 @@
+(
+    title: "The Official Frogger",
+    description: Some("A frog crosses a freeway of cars, trucks and bulldozers, then a river — hopping between drifting logs and the backs of turtles to reach the bays on the far bank. The turtles dive, and can only be ridden while they float; later waves add snakes, otters and crocodiles to the water."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/frogger-starpath.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Frogger",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/36712FA11844A95F182575F6E7468E72155B2D16",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f84c15579d22f2536e94f1679642b9dc73b6f2fe",
+                ),
+            ],
+        ),
+        (
+            title: Some("Frogger - The Official Preview"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            status: Demo,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2edb64be1bb6f4215f520ec2f487b19f29724b8d",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,7 +1,59 @@
 (
     title: "Mr. Do!",
+    description: Some("Tunnel through an orchard to pick its cherries while the Badguys close in. Throw your Power Ball to squelch one, then keep running until it returns to you, or push an apple down onto them instead. Wipe out all five Alphamonsters to spell EXTRA and earn an extra Mr. Do."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Mr._Do!",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mr_do.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Mr.%20Do!%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Digger",
+            category: ContentChange,
+            author: Some("Csonicgo"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("e4c912199779bba25f1b9950007f14dca3d19c84"),
+                    artifacts: [
+                        (
+                            sha1: "716c8e278d03778beebb0601338c734565676e22",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Trainer",
+            category: QualityOfLife,
+            releases: [
+                (
+                    base_sha1: Some("e4c912199779bba25f1b9950007f14dca3d19c84"),
+                    artifacts: [
+                        (
+                            sha1: "377406aa39f4292fb69816cf3c438992bd664bee",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Coleco"),
             hardware: (
@@ -15,6 +67,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("CBS Electronics"),
             hardware: (

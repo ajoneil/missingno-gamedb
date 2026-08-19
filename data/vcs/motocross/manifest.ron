@@ -1,0 +1,75 @@
+(
+    title: "Motocross",
+    description: Some("A handicap race: you start with a full tank and a count, posted at the bottom of the screen, of how many bikes you must overtake to take the lead. Petrol drains as you ride, so collect the fuel cans marked by pennants along the way. Take the lead and a new race begins."),
+    links: [
+        (
+            name: "AtariAge",
+            url: "https://atariage.com/box_page.php?SoftwareLabelID=2029",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3C15C1C23EB4C6624275C154376C89730683E331",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("0ec67ffe60ed91c682e0149a9e68e3a27e12de2d"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "84d740a5c285ca2ad84c5a4a2e7c4e519436a201",
+                        ),
+                        (
+                            sha1: "b26c1e0d898ebe1ad65a4f456c93f73fc6ed989b",
+                            label: Some("alt [a]"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Joystik"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d8a1eb094851ff067e0775fd39da5c0b790d8273",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ec67ffe60ed91c682e0149a9e68e3a27e12de2d",
+                ),
+                (
+                    sha1: "bcafaa60338cf55ac72a940d04a5ad72003f7cf0",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+    ],
+)

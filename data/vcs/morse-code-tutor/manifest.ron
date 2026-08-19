@@ -1,9 +1,20 @@
 (
     title: "Morse Code Tutor",
+    developer: Some("Brad Stewart"),
+    description: Some("A training program for Morse code. Set word speed, character speed and the pitch of the beep, then flip the left difficulty switch to begin; the screen shows the characters to tap out. Reset cycles through letter groups, the full alphabet, numbers, punctuation, and finally every character together."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/morse/morse.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1979"),
             publisher: Some("Atari"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),

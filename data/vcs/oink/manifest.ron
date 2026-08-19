@@ -1,10 +1,31 @@
 (
     title: "Oink!",
+    developer: Some("Mike Lorenzen"),
+    description: Some("Bigelow B. Wolf huffs holes in the pigs\' wall and you patch them: grab an object from the supply, carry it to the gap and drop it into place before he blows through. Each row of the wall scores more than the one below, and a second player can take the Wolf\'s side rather than wait a turn."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/oink.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Oink!_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E9518874AB678517548093C2924370BA4122FE1D",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
             publisher: Some("CCE"),
             hardware: (
-                tv_format: Some(Ntsc),
+                tv_format: Some(PalM),
                 cart_type: Some("4K"),
             ),
             artifacts: [
@@ -13,6 +34,24 @@
                 ),
                 (
                     sha1: "dad7534ea09aee6d8e2f3ab5e3b288da8609e462",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bf7b4e84537013593e2197fefa2b59d657ed8cdf",
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "ea674cf2c90d407b8f8b96eac692690b602b73f9",
@@ -20,19 +59,9 @@
             ],
         ),
         (
-            date: Some("1983"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
-                (
-                    sha1: "bf7b4e84537013593e2197fefa2b59d657ed8cdf",
-                ),
+            regions: [
+                Europe,
             ],
-        ),
-        (
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (

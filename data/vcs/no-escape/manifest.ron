@@ -1,35 +1,87 @@
 (
-    title: "No Escape (Supercharger Conversion Hack)",
+    title: "No Escape!",
+    developer: Some("Imagic"),
+    description: Some("Jason is imprisoned in Aphrodite\'s temple, hurling stones up at the roof to knock sacred bricks loose — only a falling brick can destroy a Fury, and a stone that strikes one directly makes it split in two. Move as you throw and the stone curves; dodge the Furies\' fire and the bricks raining back down."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/no_escape.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/No_Escape!",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D82EB83843D90CF5D8D39C6F6DC07BF61C677ED1",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Nukey Shay"),
+            releases: [
+                (
+                    base_sha1: Some("e2e8750b8856dd44d914c43a7d277188cc148e5c"),
+                    artifacts: [
+                        (
+                            sha1: "9b1308cfbecdcd7de32cd12ed8e22369ea626026",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL-60"),
+                    base_sha1: Some("e2e8750b8856dd44d914c43a7d277188cc148e5c"),
+                    artifacts: [
+                        (
+                            sha1: "477d982af72ba3b140a76c0a299465fb1cf1e320",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Imagic"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "9b1308cfbecdcd7de32cd12ed8e22369ea626026",
+                    sha1: "e2e8750b8856dd44d914c43a7d277188cc148e5c",
                 ),
                 (
-                    sha1: "e2e8750b8856dd44d914c43a7d277188cc148e5c",
+                    sha1: "172ee0d08c8780df9f70d3d9a5551c4c20f1a40c",
+                    label: Some("alt [a1]"),
                 ),
             ],
         ),
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Imagic"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "477d982af72ba3b140a76c0a299465fb1cf1e320",
+                    sha1: "fb9fc3e2b2e391952bfb090ec6e189dcc40aa0fa",
                 ),
                 (
-                    sha1: "fb9fc3e2b2e391952bfb090ec6e189dcc40aa0fa",
+                    sha1: "6997a7ff9375ad0b7f62c984f63523139bfbea78",
+                    defect: Some(BadDump),
                 ),
             ],
         ),

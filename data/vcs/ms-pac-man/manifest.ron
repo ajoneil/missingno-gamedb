@@ -1,0 +1,376 @@
+(
+    title: "Ms. Pac-Man",
+    developer: Some("GCC"),
+    description: Some("Clear each maze of pellets while the ghosts hunt you, and swallow an energizer to turn the tables and eat them for points. Four mazes alternate as you progress, the ghosts move semi-randomly so no memorised route will save you, and the fruit bounces through the maze and out of the warp tunnels rather than sitting still."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Ms._Pac-Man",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/ms_pac-man.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Ms.%20Pac-Man%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Pac-Man",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "f3c2bf306d078ad61ee7b42276629f6a3e051827",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Crazy Otto",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "a1141a5d7d8220310f13c1680e6e7a77cac2b298",
+                        ),
+                        (
+                            sha1: "a262ce8abc98b4ae324134bbe6c3dedaba5a9773",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Glutton",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "327533751a40fe1f28e939205ad5b5c615f76e43",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Griffey The Dog",
+            category: ContentChange,
+            author: Some("Pac-Man Vs Puck-Man"),
+            releases: [
+                (
+                    date: Some("2010"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "3eb994ca990fb6ade0d70d89fbeb3cc9e6878635",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Larry The Looter",
+            category: ContentChange,
+            author: Some("Rabbit 2600"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "60c2a2b1286e7c3246aaee33b4bc7cf78036d06d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Maze Invaders",
+            category: ContentChange,
+            author: Some("Matthew Bowman"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "580f21d8007906814f0e7393d676137d79e29113",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Ms. Ghost",
+            category: ContentChange,
+            author: Some("Matthew Bowman"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "648cefd9f89412cf27206f83e826e059b9ffd190",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Ms. Pac-Man Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "90b1ad7d0f2825416f9c69bc79ec6f0f98c3655f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Speed Up",
+            category: QualityOfLife,
+            author: Some("Dennis Debro"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "9cf0c8bc1c5bca275f4e22e9b00da7dbe752f0ce",
+                        ),
+                        (
+                            sha1: "3b56744c5abe968ec5feea21bc535b9730f2c3d2",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Ms. Suc-Man",
+            category: ContentChange,
+            author: Some("James Catalano"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "69d4d5d3a4fe2cf764dbdb11c3e6eb352b025d83",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "MunchMaze",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "171d9e12a85ccf2166fe39a094e77ecf14e15849",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man Arcade",
+            category: ContentChange,
+            author: Some("Stefan Haddewig"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "b5d1036dcd7992556ec5f5fafbf51e29242fe556",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man Arcade Enhanced",
+            category: ContentChange,
+            author: Some("Rob Kudla"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "effea83064a558309865edb58c0f9eb491b54240",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man Arcade Enhanced Original Frills",
+            category: ContentChange,
+            author: Some("Rob Kudla"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "7c3b210b678a1f5970dd89da12e36ecca6623095",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man Plus",
+            category: ContentChange,
+            author: Some("Bob DeCrescenzo"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "b931bd05007d9e1f7900748f7b96dbb63965b940",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pac-Man Vector",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "e290145bf8293e5df69d1c9697dc53df4df90525",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Vector Ms. Pac-Man",
+            category: ContentChange,
+            author: Some("Ronnie Dingman"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("62b933cdd8844bb1816ce57889203954fe782603"),
+                    artifacts: [
+                        (
+                            sha1: "bf9050e725bf23a7e51b822badc94ee48dedf7eb",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "62b933cdd8844bb1816ce57889203954fe782603",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ccd4313a8643008581d303185d601ad2fdad3d51",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1982"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "63b79bd237a4f4883320c6726518f6140491cdbd",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "63be2edf42eb3ac965542f6e1aac901f5f2f64bd",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "dba3fa256c1ab99566d2cfc2c7daa2908408fbff",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "fab9f82ac3f039f787095a915ac7914af04ce7d4",
+                ),
+            ],
+        ),
+    ],
+)

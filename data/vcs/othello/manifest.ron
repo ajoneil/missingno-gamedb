@@ -1,8 +1,34 @@
 (
     title: "Othello",
+    developer: Some("Ed Logg, Carol Shaw"),
+    description: Some("The board is a grid of sixty-four squares and each player owns a colour. Take turns capturing squares: every one you take flips to your colour, and the running totals sit at the top of the screen. Strategy and foresight decide who finishes holding the most."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Othello_(1981_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (Atari)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/othello.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Sears)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/othello-sears.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0B3027BD9FF8E0368715EC5BC421EF779AF750DC",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1981"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1981-03"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -11,6 +37,10 @@
             artifacts: [
                 (
                     sha1: "cbecf1a32d9366a3dd4ad643916cd59cdc820a8b",
+                ),
+                (
+                    sha1: "5b3bbefe037951307317555a79981c7a7c8fb240",
+                    label: Some("no grid markers"),
                 ),
             ],
         ),
@@ -28,6 +58,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1981"),
             publisher: Some("Atari"),
             hardware: (
@@ -36,7 +69,11 @@
             ),
             artifacts: [
                 (
+                    sha1: "bf340ef27cbc436c6f7d6fa908977830e8d17675",
+                ),
+                (
                     sha1: "7a253ac3a4769c0dbd3fff462b0069351f862be9",
+                    label: Some("alt"),
                 ),
             ],
         ),

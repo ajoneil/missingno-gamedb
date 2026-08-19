@@ -1,8 +1,36 @@
 (
     title: "Obelix",
+    developer: Some("Suki Lee"),
+    description: Some("Asterix charges at Roman legionaries: each one he hits turns white with fright and freezes on the spot. Obelix follows behind, dropping menhirs on the stunned soldiers to score — in Roman numerals, naturally — and the faster a soldier was moving when Asterix caught him, the more he is worth. Fail to finish a stunned soldier and he flares red with rage."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/obelix.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                French,
+                German,
+                Italian,
+                Spanish,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Obelix_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/ACE6D7CEDC8E2523A54FFD06C5ABC5800957D9E9",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1984"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -11,6 +39,7 @@
             artifacts: [
                 (
                     sha1: "3c2e2b53197674e169ea0a0e095e4afd0506fb05",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "9155f7fa57480a12a03c6a84213cc5dc7be739b5",
@@ -18,6 +47,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             hardware: (
@@ -27,6 +59,10 @@
             artifacts: [
                 (
                     sha1: "f5f8619035c73ef35a6fa197b39bc504e1a09b88",
+                ),
+                (
+                    sha1: "be3f4beeb322cddc7223d6d77e17302aa811e43a",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

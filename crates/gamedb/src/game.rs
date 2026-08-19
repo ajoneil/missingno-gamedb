@@ -233,6 +233,9 @@ pub enum LinkType {
     /// hosts (AtariAge) offer only a page, others also a direct file.
     DownloadPage,
     Download,
+    /// Where to pay the author directly for a game they give away — the
+    /// donation target on a freeware release's own page.
+    Donate,
 }
 
 /// The derivation block of a mod/romhack: which artifact it patches and how.

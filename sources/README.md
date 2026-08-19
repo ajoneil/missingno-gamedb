@@ -174,6 +174,3 @@ hash-matching the dump.
 This database is **CC0**. Wikipedia is **CC BY-SA**, and the two do not compose:
 take the facts, never the prose. A description must be written in your own words,
 or the repo's LICENSE quietly stops being true for that entry.
-
-`license: Freeware` **only** when the creator released a free ROM and you can cite
-it. A paid aftermarket cart with no free ROM gets `license` left blank.

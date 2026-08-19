@@ -1,0 +1,46 @@
+(
+    title: "Oozy the Goo Slime Quest",
+    developer: Some("Vladimir Zúñiga"),
+    description: Some("A dungeon slime with heroic ambitions works his way through a three-floor maze of 75 rooms, hunting the keys that open the way down and the guardian waiting at the end. There is no map and his energy drains as he goes; chilli peppers and water potions turn him to flame or water to match what he meets."),
+    links: [
+        (
+            name: "AtariAge Store",
+            url: "https://store.atariage.com/products/oozy-the-goo-slime-quest-atari-2600",
+            link_type: Store,
+        ),
+        (
+            name: "Homepage",
+            url: "https://vhzc.games/otg.php",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "NTSC",
+            url: "https://vhzc.games/roms/OozyTheGooSlimeQuest_Final.bin",
+            link_type: Download,
+        ),
+        (
+            name: "PAL 60",
+            url: "https://vhzc.games/roms/OozyTheGooSlimeQuest_Final_p60.bin",
+            link_type: Download,
+        ),
+        (
+            name: "PayPal",
+            url: "https://www.paypal.com/donate/?hosted_button_id=TUS3ZHVLY62CS",
+            link_type: Donate,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            artifacts: [
+                (
+                    sha1: "dd6b89d39fd57dc954d6948d0634ef23402993ea",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
+)

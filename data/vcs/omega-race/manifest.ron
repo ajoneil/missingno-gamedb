@@ -1,0 +1,111 @@
+(
+    title: "Omega Race",
+    developer: Some("Bally Midway"),
+    description: Some("Evade enemy fire and destroy the Omegan warrior ships and photon mines you meet while speeding around a cosmic arena. Steering both points the fighter and aims its laser cannon, with thrust worked separately. You begin with a fleet of three fighters, and only one flies the arena at a time."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/omega_race.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Omega_Race",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Omega%20Race%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Joystick conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("dcaab259e7617c7ac7d349893451896a9ca0e292"),
+                    hardware: (
+                        controllers: [
+                            Joystick,
+                        ],
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "c7a9ecad6c1a82048de54d33b231abd89fb08bd8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Driving Controller conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("dcaab259e7617c7ac7d349893451896a9ca0e292"),
+                    hardware: (
+                        controllers: [
+                            Driving,
+                        ],
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "409cfd3d4891569a118f3938f911c0840d683276",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FA"),
+                controllers: [
+                    BoosterGrip,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "9acf5719c65d64677d57e2a86474d3cf621c895d",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "dcaab259e7617c7ac7d349893451896a9ca0e292",
+                ),
+                (
+                    sha1: "ca4f26716120d2e4ba531c2ea50b570b9980756e",
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    BoosterGrip,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "c33bf4487525678f9b471c0b366733bed56bbd50",
+                ),
+            ],
+        ),
+    ],
+)

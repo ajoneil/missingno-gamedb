@@ -1,0 +1,35 @@
+(
+    title: "Mr. Run and Jump",
+    developer: Some("Graphite Lab"),
+    description: Some("Run and leap left to right across single-screen maps, climbing a ladder at the end of each to reach the next of seven colour-coded levels — ending with a black one whose platforms are invisible. Checkpoints sit only at the start of each level, so a late mistake costs you the whole level."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Mr._Run_and_Jump",
+            link_type: Wiki,
+        ),
+        (
+            name: "Atari Store",
+            url: "https://atari.com/products/mr-run-and-jump-2600",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/865BE1C015E2AE0F7F6EDDAAA4F6CF47FE65D836",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            publisher: Some("Atari"),
+            artifacts: [
+                (
+                    sha1: "5363ff31b2719ab8114c6d5ac226deb0fb3c1d1f",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+    ],
+)

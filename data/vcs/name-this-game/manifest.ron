@@ -1,7 +1,28 @@
 (
     title: "Name This Game",
+    developer: Some("James Wickstead Design Associates"),
+    description: Some("You have found buried treasure on the sea bed and now have to keep it: shoot at the shark that wants it for itself, fight off the octopus reaching down from above, and watch your oxygen drain — the only way to top it up is to swim to the line your partner keeps dropping from the boat."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/name_game.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Name_This_Game",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A6951E3BBD5A547CC4AA6EFFCD3C7715993E94EB",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("U.S. Games Corporation"),
             hardware: (
@@ -14,12 +35,15 @@
                 ),
                 (
                     sha1: "85b48f5ff877e68928abebff6deba1fa972320ae",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "9a7955134e6ec8555a1e8bb3abe8cfacd34529e4",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "d921d729a36a365baf9914d7171eed7f45d6f5b6",
+                    label: Some("alt"),
                 ),
             ],
         ),
@@ -34,6 +58,24 @@
                 ),
                 (
                     sha1: "a150ef56f80242b0fa10873967e49afd79b6d6a9",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Octopus"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Carrere Video"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "21e319d2856dbc207fd4029a626e1b60afb44691",
                 ),
             ],
         ),

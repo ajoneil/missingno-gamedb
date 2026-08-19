@@ -1,10 +1,25 @@
 (
     title: "Nightmare",
+    description: Some("A sleeping child must climb ropes hanging in mid-air to reach the hoist of an escape helicopter, while a poisonous snake patrols the ground below. Birds knock him off his perch, Devilfaces kill on contact until a mallet turns them into birds, and balloons must be caught and ridden down — all against a countdown."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/nightmare.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/29A44FC60BAE44121B8B306617EC1B06D7BFBE69",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
             publisher: Some("CCE"),
             hardware: (
-                tv_format: Some(Ntsc),
+                tv_format: Some(PalM),
                 cart_type: Some("4K"),
             ),
             artifacts: [

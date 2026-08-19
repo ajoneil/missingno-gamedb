@@ -1,0 +1,55 @@
+(
+    title: "Off the Wall",
+    developer: Some("Axlon"),
+    description: Some("Kung Fu Lu means to smash an ancient wall, and a mystical dragon casts balls at him to stop it. Deflect them with his staff to knock the bricks out; miss and he loses a life. A blackbird flits between ball and wall batting shots back, and tokens fall at random that grant special powers when caught."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/off_the_wall.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Off_the_Wall_(1989_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1ACA5631CF612D77483F2A288418A73EA88E12F5",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3dcfe93399044148561586056288c6f8e5c96e2b",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9ebc01bd86faceef87432597f1fc5fb6ce088ef5",
+                ),
+            ],
+        ),
+    ],
+)

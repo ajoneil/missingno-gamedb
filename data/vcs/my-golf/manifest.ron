@@ -1,19 +1,39 @@
 (
     title: "My Golf",
-    releases: [
+    description: Some("An 18-hole golf game played across scrolling multi-screen fairways. Pick from a bag of woods, irons and a putter, judge the wind, then time three presses on a moving bar — one to start the swing, one to set strength, one to fix the angle, with the last deciding whether the ball flies straight, hooks or slices. Putting has its own screen."),
+    links: [
         (
-            date: Some("2001"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F8"),
-            ),
-            artifacts: [
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/my_golf.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/My%20Golf%20(Europe).png",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "6dfdcf046ddf849d6da7e5c2180762a5874d44a8",
+                    date: Some("2001"),
+                    base_sha1: Some("b2df23b1bf6df9d253ad0705592d3fce352a837b"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "6dfdcf046ddf849d6da7e5c2180762a5874d44a8",
+                        ),
+                    ],
                 ),
             ],
         ),
+    ],
+    curated: true,
+    releases: [
         (
             date: Some("1990"),
             publisher: Some("HES"),
@@ -24,12 +44,18 @@
             artifacts: [
                 (
                     sha1: "250fbd63a80f2ddc034b73de7ce60a5ad49a09c7",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "2c2ceb9f279c8c70db43e6512bc78c6d6342c725",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "b2df23b1bf6df9d253ad0705592d3fce352a837b",
+                ),
+                (
+                    sha1: "2991005df32ce41764d72289797d8dcaf8d78bc4",
+                    label: Some("alt [a1]"),
                 ),
             ],
         ),

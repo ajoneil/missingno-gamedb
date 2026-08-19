@@ -1,0 +1,67 @@
+(
+    title: "Oscar\'s Trash Race",
+    description: Some("A trash truck drops between one and five pieces of rubbish; count them, then pick the grouch whose can carries that number — the wrong one buzzes. Steer him down to the trash, load it up and race him back to the starting line. Three races make a game, after which Oscar himself turns up."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/oscars_trash_race.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F30AD102BDA0D571817FB652FDAEB02F27B4E2B9",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "52028232f4f30800a2131d53fca49b05f6148868",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "7905709fcc85cbcfc28ca2ed543ffa737a5483ae",
+                ),
+                (
+                    sha1: "993e998c5f85d153c9a1462240e47b06c297ca85",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "de79ef324d63b2bcadfc845f36b6535793a3b260",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "98007f26356b4032a2ae4e9fddea5a38a988eb13",
+                ),
+            ],
+        ),
+    ],
+)

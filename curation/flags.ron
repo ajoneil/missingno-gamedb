@@ -1160,5 +1160,29 @@
             ],
             note: "Game never starts: sprites animate in place, but neither RESET nor the joystick begins play.",
         ),
+        (
+            id: 2908,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/omega-race",
+            ],
+            note: "Needs the Booster-Grip, which the core does not model; its trigger fires the laser cannon, so a plain joystick cannot shoot.",
+        ),
+        (
+            id: 2909,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/smurfs-save-the-day",
+            ],
+            note: "Requires the Coleco Kid Vid Voice Module, which missingno does not emulate.",
+        ),
+        (
+            id: 2910,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/tooth-protectors",
+            ],
+            note: "Requires the Coleco Kid Vid Voice Module, which missingno does not emulate.",
+        ),
     ],
 )

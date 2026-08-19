@@ -1,9 +1,34 @@
 (
-    title: "Oystron (V2.6) (Piero Cavina)",
+    title: "Oystron",
+    developer: Some("Piero Cavina"),
+    description: Some("Space oysters drift in from the right; shoot one repeatedly and it turns into a pearl. Carry pearls to the zone on the left and lay them in rows of eight, each row earning a bomb — you\'ll need them when the Oystron itself arrives, disables your guns and must be lured over one."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/oystron.txt",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Oystron",
+            link_type: Wiki,
+        ),
+        (
+            name: "AtariAge Store",
+            url: "https://store.atariage.com/products/oystron-atari-2600",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A9C8DB985CA2D3D48168B81C8E0CBED63411B913",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                World,
+            ],
             date: Some("1997"),
-            publisher: Some("Cavina"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -11,21 +36,27 @@
             artifacts: [
                 (
                     sha1: "26f3d7822cc55a76cba5d717632522c2d1c53855",
+                    label: Some("v2.82"),
                 ),
                 (
                     sha1: "412e8a2438379878ee4de5c6bf4e5a9ee2707c8b",
+                    label: Some("v2.9"),
                 ),
                 (
                     sha1: "6428662a9b10b9af6ad2a7a4b7d3773bbcd4cac4",
+                    label: Some("v2.6"),
                 ),
                 (
                     sha1: "a9d6bcb99e5e6840b18b0fff5de7e72229cb3c06",
+                    label: Some("v2.8"),
                 ),
                 (
                     sha1: "ad7e6ef4500f0ce3e0b92ca5e6cd644666d611d2",
+                    label: Some("v2.85"),
                 ),
                 (
                     sha1: "ec90ed048e74b6be316b821d8453e1ee161057d8",
+                    label: Some("v2.7"),
                 ),
             ],
         ),

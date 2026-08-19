@@ -1,9 +1,161 @@
 (
     title: "Outlaw ~ Gunslinger",
+    developer: Some("David Crane"),
+    description: Some("Two gunslingers face off across the screen, each shot scoring when it finds the other. Bullets ricochet off the top and bottom of the playfield, so a miss can still come back to hit someone. Alone, you practise instead against a moving target."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Outlaw_(1978_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/outlaw.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BBDC048679F57344D7D34FC26EF3B5EBEDE9C60E",
+    ],
+    mods: [
+        (
+            name: "Outlaw 100",
+            category: ContentChange,
+            author: Some("FujiSkunk"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("4a1514a7cf4279fded1b0db6f5b31818b9ff011c"),
+                    artifacts: [
+                        (
+                            sha1: "17a9ba9ecd20f0eb69e9b05b6c440eb378548c84",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Outlaw Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("4a1514a7cf4279fded1b0db6f5b31818b9ff011c"),
+                    artifacts: [
+                        (
+                            sha1: "c61b7946abcb814b5ec2fdeded8cdc1c7edcc6d1",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Slap Leather!",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("4a1514a7cf4279fded1b0db6f5b31818b9ff011c"),
+                    artifacts: [
+                        (
+                            sha1: "0f5d9e5ae6639cb63bc6ff8265ea12229644d49d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "SuperDude Shootout",
+            category: ContentChange,
+            author: Some("Kanaju"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("4a1514a7cf4279fded1b0db6f5b31818b9ff011c"),
+                    artifacts: [
+                        (
+                            sha1: "9c33b8003f1b5a98cfb7ddafe1bbacf7431c107d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "SuperDude Shootout Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("4a1514a7cf4279fded1b0db6f5b31818b9ff011c"),
+                    artifacts: [
+                        (
+                            sha1: "25caf0ed90a97b433fa1b035af4dd96a81d5da8c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Ninja Cowboy Duelist",
+            category: ContentChange,
+            author: Some("Tombor"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("4a1514a7cf4279fded1b0db6f5b31818b9ff011c"),
+                    artifacts: [
+                        (
+                            sha1: "1c947a0b4e15e3a4e698f7d243ea07f1a2ed220d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Automazeon Trainer",
+            category: QualityOfLife,
+            author: Some("Stan Jr"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("4a1514a7cf4279fded1b0db6f5b31818b9ff011c"),
+                    artifacts: [
+                        (
+                            sha1: "586c43824049a78b1a0cd44707c64229840e42d4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1978"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1978-10"),
             publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4a1514a7cf4279fded1b0db6f5b31818b9ff011c",
+                ),
+            ],
+        ),
+        (
+            title: Some("Gunslinger"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1978"),
+            publisher: Some("Sears"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
@@ -24,6 +176,25 @@
             artifacts: [
                 (
                     sha1: "0eeccf48cb219b595942679bd703ebd0616da492",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("32 in 1"),
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b61073bc30a9285d4fa21e66d06f525361ce05d9",
+                ),
+                (
+                    sha1: "24fd245aca5f355e0a93569759e56371469dd97d",
+                    label: Some("alt"),
                 ),
             ],
         ),

@@ -1,0 +1,36 @@
+(
+    title: "The Music Machine",
+    description: Some("Stevie and Nancy carry a basket between them along the bottom of the screen, catching the character symbols that the Music Machine drops from above. Mr. Pims prowls beneath the machine and pelts them with Pudgeons, which break the basket if caught — and the higher your score climbs, the angrier he gets and the more he throws."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/music_machine.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Music%20Machine%2C%20The%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Christian Software Development"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "5a641caa2ab3c7c0cd5deb027acbc58efccf8d6a",
+                ),
+            ],
+        ),
+    ],
+)

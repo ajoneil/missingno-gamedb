@@ -1,7 +1,23 @@
 (
     title: "Out of Control",
+    developer: Some("Jim Jacob"),
+    description: Some("A spacecraft with momentum and no brakes: rotate to aim, fire the engines to thrust that way, and turn about and burn to slow down. Thread the course of space buoys, pop ten space balloons and park in the dock, as fast as you can manage without losing control."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/out_of_control.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2025E165EC8AD79AFD2AC4CB887DA22286A48B67",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Avalon Hill"),
             hardware: (

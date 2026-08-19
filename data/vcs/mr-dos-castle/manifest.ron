@@ -1,0 +1,76 @@
+(
+    title: "Mr. Do!\'s Castle",
+    description: Some("Mr. Do! enters his castle through the basement with a hammer, and must clear it of unicorns by knocking out the floor blocks directly above them. Climb the ladders across six floors, dropping through openings to move between them, and hammer trapped unicorns through the holes — but red ones give way to fiercer yellow, then green."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mr_dos_castle.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Mr._Do%27s_Castle",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Mr.%20Do!%27s%20Castle%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "F4 conversion",
+            category: Compatibility,
+            author: Some("batari"),
+            releases: [
+                (
+                    base_sha1: Some("2d1c99a0159f9bf5fe727d34f46b07d93bc8341c"),
+                    artifacts: [
+                        (
+                            sha1: "15a9e2c9fc04727f193456fd99037774c70791e5",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2d1c99a0159f9bf5fe727d34f46b07d93bc8341c",
+                ),
+                (
+                    sha1: "95baed46d83d92f1c8f2025a4367eba3932adf61",
+                ),
+                (
+                    sha1: "330c2c67399e07c40f4101f9e18670fef070475e",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1984-03-12"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9c455e8d781138ea8911746fd25ad9c109188fde",
+                ),
+            ],
+        ),
+    ],
+)

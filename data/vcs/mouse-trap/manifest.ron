@@ -1,5 +1,48 @@
 (
     title: "Mouse Trap",
+    description: Some("A hungry mouse must clear every morsel of cheese from a maze of corridors and trapdoors while cats give chase. Open and shut the trapdoors to reshape the maze and confuse them, and spend one of your hoarded bones to become a dog for a few seconds — just long enough to turn and eat the cats."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Mouse_Trap_(1981_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (Coleco)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mouse_trap.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Atari)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/mouse_trap-atari.pdf",
+            link_type: Manual,
+        ),
+    ],
+    mods: [
+        (
+            name: "Ghost Trap",
+            category: ContentChange,
+            author: Some("Brett Gladson"),
+            links: [
+                (
+                    name: "AtariAge release thread",
+                    url: "https://forums.atariage.com/topic/64868-ghost-trap-mouse-trap-hack/",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2005"),
+                    artifacts: [
+                        (
+                            sha1: "8d01526a5a42548e8c4d6550aa805522d274806e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             hardware: (
@@ -16,6 +59,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("CBS Electronics"),
             hardware: (

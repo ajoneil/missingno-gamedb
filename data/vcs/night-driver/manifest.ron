@@ -1,0 +1,81 @@
+(
+    title: "Night Driver",
+    description: Some("A night drive where the road ahead is marked by rows of pylons, your car fixed at the foot of the screen. Dial the knob to steer between them and hold the button to accelerate; clip a pylon or an oncoming car and the drive ends in a crash. Four tracks to pick from."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Night_Driver_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (Atari)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/night_driver.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Sears)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/night_driver_sears.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Night%20Driver%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "372771aeb4e2fb2cd1dead5497e3821e4236d5fc",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "87866d05cf2325199b4ebb77900e6aced81ecc7b",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "b0f04e4592fb9c55faaa69a1a465049c2a9c7cac",
+                ),
+            ],
+        ),
+    ],
+)
