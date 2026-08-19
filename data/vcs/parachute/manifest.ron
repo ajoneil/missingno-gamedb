@@ -1,0 +1,55 @@
+(
+    title: "Parachute",
+    developer: Some("Gem International Corporation"),
+    description: Some("A parachutist drifts down through screens of aeroplanes, helicopters, birds and hot-air balloons, each screen faster than the last, all of them to be evaded. Near ground level a guard paces back and forth, so the touchdown has to be threaded past him — landing near the centre of the screen earns the bigger bonus."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Parachute_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B2C2B5D4A11D2FCCD6FA3DAD2E2A18A3B6B176A8",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("385036ac98d44f2fa33a3ab11e35ca9f0151d6d2"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "2f16a770f9453befdffb274f0548271b41c1f1d8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "385036ac98d44f2fa33a3ab11e35ca9f0151d6d2",
+                ),
+            ],
+        ),
+    ],
+)

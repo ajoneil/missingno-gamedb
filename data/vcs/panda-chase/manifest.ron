@@ -1,8 +1,17 @@
 (
     title: "Panda Chase",
+    description: Some("A panda\'s energy drains as he crosses the green plains, so he must keep finding bamboo to survive. Bushes and huts lead somewhere different each time — a bamboo forest, a trap, or an underground tunnel where wild boars charge in while he climbs the stairs to the bamboo at the top."),
+    covers: [
+        "https://hasheous.org/api/v1/images/07F5E2D62A8705FEDC206AB419ACB1E770B60208",
+    ],
+    curated: true,
     releases: [
         (
-            publisher: Some("HomeVision"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -10,9 +19,31 @@
             artifacts: [
                 (
                     sha1: "6fa70cd79c3e18cd47d027b234c4ff4b14603327",
+                    label: Some("alt 2"),
                 ),
                 (
                     sha1: "f07b47cd6f3362eb051eab3eca564183d0d46c0c",
+                ),
+                (
+                    sha1: "aefe069469e5376ac435d271fbcd2a7de22094e8",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Der hungrige Panda"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2c108ad3fa80ed4302422edcd8f545e018881f36",
                 ),
             ],
         ),

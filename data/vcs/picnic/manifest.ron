@@ -1,0 +1,55 @@
+(
+    title: "Picnic",
+    description: Some("Bugs swarm down onto a row of cheeseburgers, and a swatter slides along the ground to meet them. A swat only connects if it lands exactly as a bug extends its tongue, and the swatter springs back the instant it fires, so timing is everything. Knock a bug into the trap for double, or the Super Bug for a thousand."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/picnic.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/877A0E4FDA5D4507E1558BB0FC05957246EC06AF",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("U.S. Games Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "483fc907471c5c358fb3e624097861a2fc9c1e45",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                France,
+            ],
+            date: Some("1983"),
+            publisher: Some("Carrere Video"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "70f4e4b38d9d6b21824341386e71eb1c4a7e30f4",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,8 +1,29 @@
 (
     title: "Spider Fighter",
+    developer: Some("Larry Miller"),
+    description: Some("Insects strip a fruit orchard while a blaster slides along the bottom of the screen firing poison pellets upward. Green Widows throw themselves in front of the shots to shield the Master Nest, and killing that nest turns every survivor into a Stinger that hunts the blaster. Save all three fruit in a wave to earn a spare."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/spider_fighter.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Spider_Fighter",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/92AA3A9D7E2D01F894C6F68FA15C1E65A52E751C",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
             publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -14,18 +35,23 @@
                 ),
                 (
                     sha1: "13750a9c7851ece82402118857a3f5d820660af6",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "3285352f8f7342d9f5ef11d86b6c5b61c2870342",
+                    label: Some("alt 2"),
                 ),
                 (
                     sha1: "335fda185f5bbd7e060da7b1494aafbe05449114",
+                    label: Some("alt 3"),
                 ),
                 (
                     sha1: "80ec8e630c11384016f35239b38f6a0fcf97317c",
+                    label: Some("alt 4"),
                 ),
                 (
                     sha1: "e3452028f4a953921ab269fe9ff1727f1c095a94",
+                    label: Some("alt 5"),
                 ),
             ],
         ),
@@ -43,6 +69,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
@@ -52,6 +81,40 @@
             artifacts: [
                 (
                     sha1: "2908005895025a78302ea2840493b8e4809ea208",
+                ),
+            ],
+        ),
+        (
+            title: Some("Phantom UFO"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "39f96b96ee996ab4afd82c6dea35c8d86585b90c",
+                ),
+            ],
+        ),
+        (
+            title: Some("Spider Fighter - Monster greifen an"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b8b8ea8ba9e1a3b8031e6ff2d9bfcfdee9b5236e",
                 ),
             ],
         ),

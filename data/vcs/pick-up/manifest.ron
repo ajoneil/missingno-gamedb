@@ -1,7 +1,46 @@
 (
     title: "Pick Up",
+    developer: Some("Mark Klein"),
+    description: Some("Six presents — flowers, perfume, a car — drift across the sky above a date stranded on a pedestal, and only shooting every one of them will bring them down; each projectile can be steered as it climbs. Hitting a present twice loses it and a chance. Collect all six and the couple head for the Love Nest Hotel."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pick_up.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/pickup/pickup.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/308BF2C5393F960F7B7A92C9BF04C67D3E21F82D",
+    ],
+    mods: [
+        (
+            name: "Rescue Invaders",
+            category: ContentChange,
+            author: Some("Matthew Bowman"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("9784531d02200bb79a58987877c67a0fc658252e"),
+                    artifacts: [
+                        (
+                            sha1: "1eb049e44eba9979f44b8c0d1dbb9eb727864d77",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Fox Video Games"),
             status: Prototype,

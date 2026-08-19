@@ -1,12 +1,30 @@
 (
     title: "Piece o\' Cake",
+    description: Some("A baker snatches cake layers from the oven and drops them onto platters riding a conveyor belt below, stacking widest first and finishing each with a cherry. A neat stack without its cherry is rejected outright, while a lone cherry counts as done. Three lost baking merits and the game is over."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/piece_o_cake.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6A47129F32C60FBCEC881952960F822BC095DB40",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("U.S. Games Corporation"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (

@@ -1,0 +1,79 @@
+(
+    title: "Phaser Patrol",
+    developer: Some("Dennis Caswell"),
+    description: Some("One interceptor stands between the Dracon armada and the Federation\'s food supply. The difficulty switch flips between a sector map for warp-hopping across the galaxy and the view from the ship, where the torpedo sight changes colour once it has lock and the shot chases its target. Damage degrades shields, scanners and torpedoes until a starbase repairs them."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/phaser_patrol.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Phaser_Patrol",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/699A48B959E8245346FFC246E7D5BF0CF3BBF931",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Arcadia Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ff4e3101275555ff014d981ff7f9006c93942ee",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "21c255e489d126475c3744cdd0d6e8a8e618e3eb",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9734cde5019fad40aef45fe5271f245995027009",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            publisher: Some("Arcadia Corporation"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "abfd85e6973ab55d12f039cb0a4f4df8a62c0330",
+                ),
+                (
+                    sha1: "cefc4b6f0f92fa9a1f56d87bcde7f9ab86825a41",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+    ],
+)

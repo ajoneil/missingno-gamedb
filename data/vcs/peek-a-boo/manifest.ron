@@ -1,13 +1,32 @@
 (
     title: "Peek-A-Boo",
+    developer: Some("Kevin Sacher"),
+    description: Some("A cat called Smart Seymour ducks in and out from behind a block, and the child presses the button that moves him out in the right direction. Eight variations change what he hides behind — one square, a bar, four coloured squares — and which buttons count, with a wrong press answered by an error tone."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/peekaboo/peekaboo.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1C2B042E13FCC871F0B5D2DB4D2EB05EDE250234",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Keypad,
+                ],
             ),
             artifacts: [
                 (

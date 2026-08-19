@@ -1,8 +1,79 @@
 (
     title: "Phoenix",
+    developer: Some("GCC"),
+    description: Some("Four flocks of mutated phoenixes bomb a lone laser cannon, and the big ones regrow any wing you clip unless the shot lands dead centre. A force field shields the cannon for a second and a half but pins it in place while up. Behind the birds sits a mothership whose rotating hull layer has to be timed to expose the pilot."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Phoenix_(1980_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/phoenix.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Phoenix%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Poseidon",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("010d51e3f522ba60f021d56819437d7c85897cdd"),
+                    artifacts: [
+                        (
+                            sha1: "9e177dcc299181a4d73db3af1f6128ec492b4ce2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Boring Phoenix",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("010d51e3f522ba60f021d56819437d7c85897cdd"),
+                    artifacts: [
+                        (
+                            sha1: "13d32ab1752d3c3a0b6042b5a0cd7bd178791688",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Super Space Invaders",
+            category: ContentChange,
+            author: Some("Larry Petit"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("010d51e3f522ba60f021d56819437d7c85897cdd"),
+                    artifacts: [
+                        (
+                            sha1: "de39ae8f98a925451359950edf5ca4cc214f3c66",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-02"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -14,16 +85,22 @@
                 ),
                 (
                     sha1: "20830d1748ad3f880eb6a4d6b307dc73fec7a01c",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "99d3fed58047aa61b49ef0e069f4fa76bc1be18f",
+                    label: Some("alt 2"),
                 ),
                 (
                     sha1: "d14b17841fd2bcbf69140a9978b24820d1e0579a",
+                    label: Some("alt 3"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -32,13 +109,27 @@
             ),
             artifacts: [
                 (
-                    sha1: "837a0f07c4ece7e64bbd088605859f7b6dade57d",
-                ),
-                (
                     sha1: "9ee1a486ef7ceb680f49e37f1593eae427323f12",
                 ),
                 (
                     sha1: "cb81962fa72334f8ac3432deffbcbd9190db7322",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "837a0f07c4ece7e64bbd088605859f7b6dade57d",
                 ),
             ],
         ),

@@ -1,7 +1,44 @@
 (
     title: "Planet Patrol",
+    description: Some("A fighter flies low over the invaded planet Spectra, hunting missile bases that sit in groups of three behind force fields. Drone missiles can be shot down but the heat-seeking torpedoes cannot, so they have to be dodged. Fuel drains as you go, and landing strips laid down by advance parties are the only way to top it up."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/planet_patrol.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Planet%20Patrol%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Big Bullets",
+            category: ContentChange,
+            author: Some("Darrell Spice Jr."),
+            releases: [
+                (
+                    date: Some("2008"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "ba0c91b543b1d9cd3b8d20e907c3def0929b9f75",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -34,6 +71,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Spectravision"),
             hardware: (
@@ -52,6 +92,47 @@
                 ),
                 (
                     sha1: "71cc0b3055cb59cb37c9865e24eceb34998f44b2",
+                ),
+                (
+                    sha1: "7696d49f3c322a1abdbb3684236ea069d1686d46",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Planeten Patrouilie"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("Spectravision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7f8d12b4b028eeba387516ad2fa14bf39114d58f",
+                ),
+                (
+                    sha1: "9f2bdc53ef1b9242270059f990448a3b8ddd1826",
+                    label: Some("different spaceship"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Patrulha Espacial"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Dismac"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "729da66ff22051f321c0c49662aac2d93a49f165",
                 ),
             ],
         ),

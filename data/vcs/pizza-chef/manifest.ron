@@ -1,11 +1,43 @@
 (
     title: "Pizza Chef",
+    description: Some("A chef works five rooms of a restaurant against the clock: collect a utensil from the rat-infested storage room, pair it with the matching food in the refrigerator, then guess which of eight colour-coded pots that combination belongs to. A wrong guess sends you to the trash room; clear all eight pots and the ovens bake the pizza."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/pizzachef/pizzachef.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/33CFC295222E3354C5B07DD673A20F1853AF8CA9",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("ZiMAG"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f8db484d454f518b21d9ff2f72ed188734d56ff6",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
             date: Some("1983"),
             publisher: Some("CCE"),
             hardware: (
-                tv_format: Some(Ntsc),
+                tv_format: Some(PalM),
                 cart_type: Some("4K"),
             ),
             artifacts: [

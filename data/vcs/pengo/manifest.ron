@@ -1,5 +1,22 @@
 (
     title: "Pengo",
+    developer: Some("Mark K. Hahn"),
+    description: Some("Pengo the penguin skates a maze of ice blocks while Sno-Bees hunt him. Kick a block to send it sliding and squash them, or crush one trapped against a wall; kicking a wall makes the whole field vibrate and briefly freezes any Sno-Bee against it. Lining the three jewel blocks up so they touch scores the big bonus."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pengo.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pengo_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FB2FA7E4CB36D48D140062BEC28B8C82482933C4",
+    ],
     mods: [
         (
             name: "R2-D2\'s Jawa Trouble 2",
@@ -34,8 +51,12 @@
             ],
         ),
     ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             hardware: (
@@ -45,16 +66,21 @@
             artifacts: [
                 (
                     sha1: "461c2ea3e4d24f86ec02215c1f4743d250796c11",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "89b991a7a251f78f422bcdf9cf7d4475fdf33e97",
                 ),
                 (
                     sha1: "dc3109239c2e0084e022db38ee88131315b12120",
+                    label: Some("alt 2"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             hardware: (

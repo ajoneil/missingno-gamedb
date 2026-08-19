@@ -1,12 +1,100 @@
 (
-    title: "Party Mix (Preview) (10)",
+    title: "Party Mix",
+    developer: Some("Starpath Corporation"),
+    description: Some("Five head-to-head games for two or four players, split across three tape loads: race a buggy while rivals lob bricks at it, drag a rope across the centre line by hammering the button, sling a wizard\'s fireballs at chickens and jesters, shift packages between conveyor belts against the clock, and drive a handcar through the desert."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/party_mix.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Party_Mix_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C05D7DA242B13A55CF202ABFB2F33B19E235D2D3",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Starpath Corporation"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("AR"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "600e3a32b19b3b164aaafb538b4399eda669845a",
+                ),
+                (
+                    sha1: "261c9d149e7908558fb1a5a5898f568ac823dbb1",
+                    label: Some("load 3 of 3"),
+                ),
+                (
+                    sha1: "13e8f09014dd4bebdb782833028504ff8577b035",
+                    label: Some("load 2 of 3"),
+                ),
+                (
+                    sha1: "1b1bcc35bd1120ded54318e63bce05d9c8603a82",
+                    label: Some("load 1 of 3"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "bd37bf6d8c2900bc68b383bd1edbf5a7fd6a8710",
+                ),
+                (
+                    sha1: "00c90aea85bd8272cb34ce23fd0e5f0d36a1ea48",
+                    label: Some("load 3 of 3"),
+                ),
+                (
+                    sha1: "d668e291131fc01b1286f7cbf5f0de10d15de7f1",
+                    label: Some("load 2 of 3"),
+                ),
+                (
+                    sha1: "b92aaae1f94f9c2d9957dfaf1941b7f12c5c7679",
+                    label: Some("load 1 of 3"),
+                ),
+            ],
+        ),
+        (
+            label: Some("Preview"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            status: Demo,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
@@ -15,11 +103,19 @@
             ],
         ),
         (
+            label: Some("Preview"),
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Starpath Corporation"),
+            status: Demo,
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("AR"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (

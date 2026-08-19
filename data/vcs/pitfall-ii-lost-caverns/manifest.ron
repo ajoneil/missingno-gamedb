@@ -1,8 +1,50 @@
 (
     title: "Pitfall II - Lost Caverns",
+    developer: Some("David Crane"),
+    description: Some("Pitfall Harry goes underground beneath Peru after his niece, the cat and the Raj diamond. There is no dying and no clock — touch a hazard and Harry is whisked back to the last red cross he touched. Balloons ferry him between caverns, while 28 gold bars and a stone-age rat pad the score."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pitfall2_diary.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pitfall_II:_Lost_Caverns",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B0276A0854CB2B03F68AEF87A105269C6E1F5871",
+    ],
+    mods: [
+        (
+            name: "Pitfall 2 Plus",
+            category: ContentChange,
+            author: Some("Justin Lloyd"),
+            releases: [
+                (
+                    date: Some("2000"),
+                    base_sha1: Some("920cfbd517764ad3fa6a7425c031bd72dc7d927c"),
+                    artifacts: [
+                        (
+                            sha1: "7ad2f7a438c7680f22ea4cf2f45354c4d69b8a21",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
-            date: Some("1984"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984-02"),
             publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -12,9 +54,16 @@
                 (
                     sha1: "920cfbd517764ad3fa6a7425c031bd72dc7d927c",
                 ),
+                (
+                    sha1: "67ce128ccd9da3538d9f9beb58f81a48c975904d",
+                    label: Some("alt [a2]"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1984"),
             publisher: Some("Activision"),
             hardware: (

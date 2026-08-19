@@ -1,0 +1,74 @@
+(
+    title: "Pharaoh\'s Curse",
+    description: Some("An explorer digs through the floor of a pharaoh\'s tomb for the jewels buried in it, while a snake that moves through solid ground and a scarab that kills with one bite close in. A gun holds them off, but crushing a guardian scores far more: tunnel under one of the three boulders and it drops."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pharaohs_curse.pdf",
+            link_type: Manual,
+            languages: [
+                German,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Pharaoh%27s%20Curse%20(Europe).png",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("ecd9e93335ef6eda1531b0b5f03a5015054277b0"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "2712aaef7e41d5d1c82b1342ffd634e5053c77b2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("TechnoVision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5dd853548b6bf1abffaf28fa01708fea20d346fd",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "ecd9e93335ef6eda1531b0b5f03a5015054277b0",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("TechnoVision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "970963978d86f9b6cf6dfe0aae0c4d44a0327395",
+                ),
+            ],
+        ),
+    ],
+)

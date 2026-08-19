@@ -1,0 +1,60 @@
+(
+    title: "Pick \'n Pile",
+    developer: Some("Dennis M. Kiss"),
+    description: Some("Coloured symbols rain down and must be cleared against the clock. Objects move by exchange — fire on one, then on another, and the two trade places, or slide one into an empty space — piling matching shapes until a whole column is identical and vanishes. Bonus pieces can pad a column out, provided a symbol sits at its foot."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pick_n_pile.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pick_%27n_Pile",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Pick%20%27n%27%20Pile%20(Europe).png",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("a5917537cf1093aa350903d85d9e271e8a11d2cf"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "5dea98325c5c499a0395c3b4e982a693c718f1de",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1990"),
+            publisher: Some("Ubi Soft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a5917537cf1093aa350903d85d9e271e8a11d2cf",
+                ),
+            ],
+        ),
+    ],
+)
