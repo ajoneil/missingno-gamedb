@@ -1,7 +1,27 @@
 (
     title: "Pleiades",
+    description: Some("Your missile launcher guards a sector of Earth in three scenes. Red Raiders swoop in from both sides, and a remote-controlled one trails an electro-magnetic ray that blocks your shots until you break it apart. Then comes their mother ship: hold fire until the cross in its rotating engine passes the open vent. Last, thread a minefield of bombs and exploding planes."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/pleiades/pleiades.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pleiades.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "http://www.atariprotos.com/2600/software/pleiades/pleiades_box_front.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("UA Limited"),
             status: Prototype,
@@ -12,6 +32,23 @@
             artifacts: [
                 (
                     sha1: "63c12146c183bccbf05c0044a961dc40790e3212",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05-06"),
+            publisher: Some("UA Limited"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a35339800b179056a82d6cc805625974d7a3624c",
                 ),
             ],
         ),

@@ -1,7 +1,27 @@
 (
     title: "Pooyan",
+    description: Some("Mama Pig moves up and down one side of a valley, shooting arrows at wolves drifting past on balloons, down towards her in the first scene and up past her in the second. Bait dangled from the top right makes a wolf let go and fall. Wolves that get by climb the steps behind her or drop rocks from above."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pooyan.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pooyan",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Pooyan%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Konami"),
             hardware: (
@@ -39,6 +59,23 @@
                 ),
                 (
                     sha1: "ff12127cdfef5ce33f6f5593c3df8201ebecd2e4",
+                ),
+            ],
+        ),
+        (
+            title: Some("Die Ente und der Wolf"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "61adf589c19f985928b593c69864ce4107a1f618",
                 ),
             ],
         ),

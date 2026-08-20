@@ -1,7 +1,28 @@
 (
     title: "Plaque Attack",
+    developer: Some("Steve Cartwright"),
+    description: Some("You move a tube of toothpaste between two rows of teeth, aiming up or down and squirting paste at hamburgers, hot dogs and ice creams drifting in. Each wave allows 35 seconds and the tube shrinks as it runs out. Food that gets through starts decaying a tooth, which disappears if you do not clear it in time; the game ends once teeth and paste are both gone."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Plaque_Attack",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/plaque_attack.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Plaque%20Attack%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
@@ -23,6 +44,7 @@
                 ),
                 (
                     sha1: "d00974c32cd3ed70848b846602192c09f134a5da",
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "dbcdad8d400a14f05e66a9d75cd3414fc80cc357",
@@ -43,6 +65,10 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Pal),
@@ -51,6 +77,56 @@
             artifacts: [
                 (
                     sha1: "d826a15e2e35702c0dc3dffea06f1bee4605cdbf",
+                ),
+            ],
+        ),
+        (
+            label: Some("Ariola distribution"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1654024a417d1e8286d6e8aa5d4f85c1e6a54779",
+                ),
+            ],
+        ),
+        (
+            title: Some("Catch Time"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Jone Yuan Telephonic Enterprise Co"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "37722688d27b5338d941a7a7f034a5efa7cf47c4",
+                ),
+            ],
+        ),
+        (
+            title: Some("Catch Time"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "45119e2840eb573ca5b058b690d3980524b218c5",
                 ),
             ],
         ),

@@ -1,0 +1,40 @@
+(
+    title: "Porky\'s",
+    developer: Some("B. Winston Hendrickson, Randall Hyde, Mark V. Rhoads, John Simonds"),
+    description: Some("Pee Wee\'s revenge, in three linked scenes. The county line is a run across bands of traffic, bouncers and attack pigs to reach Porky\'s bar and blow it up. Escaping the swamp means pole-vaulting across it and placing four bricks as a ladder. In the shower room you shove objects into a pit, and each one stops a band back on the highway."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/porkys.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Porky%27s_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Porky%27s%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("11013"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Fox Video Games"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "70afc2cc870be546dc976fa0c6811f7e01ebc471",
+                ),
+            ],
+        ),
+    ],
+)

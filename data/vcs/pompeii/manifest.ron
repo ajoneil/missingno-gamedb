@@ -1,7 +1,23 @@
 (
     title: "Pompeii",
+    description: Some("An unfinished prototype set below a smoldering Vesuvius. What runs is close to a movement demo: your character walks the lower half of the screen past brown columns standing in for undefined enemies, and one button raises a pool of lava that cannot be lowered again and never harms him. Leftover variable names point at bullets and rocks that were never implemented."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/pompeii/pompeii.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "http://www.atariprotos.com/2600/software/pompeii/pompeiibox.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("AP2011"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Apollo"),
             status: Prototype,

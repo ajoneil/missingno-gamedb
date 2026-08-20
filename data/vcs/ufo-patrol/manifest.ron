@@ -1,0 +1,71 @@
+(
+    title: "UFO Patrol",
+    description: Some("Aliens strike your star base from several points at once. You leave the base, fight through them and dock with the mother ship, which carries you on to the next base. In the first scene the enemy builds a wall out of missiles that you have to shoot apart while dodging their fire, and the docking itself has to be precise or your fighter is destroyed."),
+    covers: [
+        "https://hasheous.org/api/v1/images/E45E632960A3704E85C5033E25731A8627FFA40E",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    label: Some("rev3"),
+                    date: Some("2012"),
+                    base_sha1: Some("242a2d191c1b81b73a35d684ca343ce73f374a4e"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "acc1d42046f3672a7e0a0dd28b0dc88d51ea93cb",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("X\'Mission"),
+            label: Some("VCS 83118"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1984"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "242a2d191c1b81b73a35d684ca343ce73f374a4e",
+                ),
+                (
+                    sha1: "9967a76efb68017f793188f691159f04e6bb4447",
+                ),
+            ],
+        ),
+        (
+            title: Some("Raumpatrouille"),
+            label: Some("731.064 2"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d68d9ffcb6db02ea0e9299192f548e3d6594c0f3",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,101 @@
+(
+    title: "Popeye",
+    developer: Some("Joe Gaucher"),
+    description: Some("Popeye runs a four-tier stage above the water, catching the twenty hearts or notes Olive drops before they sink; each one caught lays a brick on his house, and twenty finishes the round. Brutus chases him and can reach between platforms, while the unseen Sea Hag lobs bottles from the sides. Grabbing the flashing spinach lets you knock Brutus overboard."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/popeye.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Popeye_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/519B1AB884E90C4A841703B4BD09133A2D72DA95",
+    ],
+    mods: [
+        (
+            name: "F4 conversion",
+            category: Compatibility,
+            author: Some("batari"),
+            releases: [
+                (
+                    base_sha1: Some("1772a22df3e9a1f3842387ac63eeddff7f04b01c"),
+                    artifacts: [
+                        (
+                            sha1: "1a7202ef723faa6a01322ef961efb40699067076",
+                        ),
+                        (
+                            sha1: "462ceed4b433db2a964a24c62d781b4998375dbd",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("PB5370"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "175c9ad59df3537f8fab2c9781129713169609a7",
+                ),
+                (
+                    sha1: "1772a22df3e9a1f3842387ac63eeddff7f04b01c",
+                ),
+            ],
+        ),
+        (
+            label: Some("931519"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0e55dbd0483d2516125a0bed4ef91d6a2743f35e",
+                ),
+                (
+                    sha1: "fbfca822962b623c3ac5a4585c8d0404b61d8ccf",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fe336290bdc7b68fdf3b4bb960800dd0dd073eb6",
+                ),
+            ],
+        ),
+    ],
+)

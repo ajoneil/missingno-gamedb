@@ -1,0 +1,46 @@
+(
+    title: "Pursuit of the Pink Panther",
+    developer: Some("James Wickstead Design Associates"),
+    description: Some("Three screens. On the sidewalk, Clouseau drops bricks from a wall that punch holes you must fill by catching each brick before it lands, your tail extending for the harder catches. Then a bank of elevators where a wrong door looses a bulldog to jump, a pie to duck or dynamite to flee. Finally a swinging rope over rising water, and the diamond."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/pinkpanther/pinkpanther.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (reproduction)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pursuit_pink_panther.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4A789B32BFFF5C17B822FF191D594BF4EF245B4B",
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("3152VC"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Probe 2000"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("WD"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ae3a029798faf939ea66dad62406a764acbca9da",
+                ),
+                (
+                    sha1: "b1d552d77add00d1e75af3f122cbcd9e547948fb",
+                    label: Some("8195 bytes"),
+                    defect: Some(BadDump),
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,8 +1,43 @@
 (
     title: "Ram It",
+    developer: Some("Jim Rupp"),
+    description: Some("Your ramroid sits between two walls of coloured bars and shoves them outward: all thirty-two have to be rammed clear off the screen before they hem you in or the five-thousand count runs down. Each bar struck sounds a note, and the flashing bonus bars are worth chasing across the eight variations."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/ram_it.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DAA26A77087EE408CB1F7D19C1683027741D746C",
+    ],
+    mods: [
+        (
+            name: "Trainer",
+            category: QualityOfLife,
+            author: Some("Pacman3211"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("fd0a69c06eb3f7c9328951c890644f93c4bad6ad"),
+                    artifacts: [
+                        (
+                            sha1: "afe578e937f5052055ebd6960afecf3a2438238b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            label: Some("1004"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
             publisher: Some("Telesys"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -15,7 +50,10 @@
             ],
         ),
         (
-            date: Some("1983"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
             publisher: Some("Telesys"),
             hardware: (
                 tv_format: Some(Pal),
@@ -27,6 +65,10 @@
                 ),
                 (
                     sha1: "82671f284684e570bd8ce18ef7271df77c475652",
+                ),
+                (
+                    sha1: "59e326a483cf833fe87b1f123b606ffd6c3a7fa7",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

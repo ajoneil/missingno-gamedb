@@ -1,7 +1,23 @@
 (
     title: "Power Lords",
+    description: Some("Two stages that loop. First you fly at a volcano crater guarded by a giant snake whose head cannot be hurt: lure it out and hit its neck five times, dodging its eye lasers and the ships circling above, until it retreats and lets you in. Inside, Adam slides left and right along a corridor shooting aliens that press down the screen."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/powerlords/powerlords.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D1BBB5CC66DDB673B2499001BFB4CC07F5A3022D",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("3149VC"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Probe 2000"),
             status: Prototype,

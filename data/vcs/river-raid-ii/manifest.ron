@@ -1,26 +1,24 @@
 (
     title: "River Raid II",
+    developer: Some("David Lubar"),
+    description: Some("An F-14 launches from a carrier, crosses open ocean to a river delta, destroys a bridge and has to fly home and land again before the next, harder mission. Fuel is topped up in midair. The difficulty switch decides whether your missiles and torpedoes fly straight or can be steered with the joystick after launch."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/river_raid2.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/11AAC135D8604690ABDEEDCC46F783AAFFA5C45C",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1985"),
-            publisher: Some("Digitel"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
-                (
-                    sha1: "3ad6f465a192a7e693759c8da3379b2def530324",
-                ),
-                (
-                    sha1: "a8687f5a77f241583b77ceb217637b68906c8754",
-                ),
-                (
-                    sha1: "ba4c810f433e5a272e87c151b31a801cddcbf7c1",
-                ),
+            label: Some("AK-048-04"),
+            regions: [
+                Usa,
             ],
-        ),
-        (
             date: Some("1988"),
             publisher: Some("Activision"),
             hardware: (
@@ -31,9 +29,16 @@
                 (
                     sha1: "a08c3eae3368334c937a5e03329782e95f7b57c7",
                 ),
+                (
+                    sha1: "dfa7f8f4cc177f3724f9198739ff2daf34d43773",
+                    label: Some("alt"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1988"),
             publisher: Some("Activision"),
             hardware: (
@@ -43,19 +48,6 @@
             artifacts: [
                 (
                     sha1: "3b838681fc05276170c60e38fec1dec629cb0687",
-                ),
-            ],
-        ),
-        (
-            date: Some("1988"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
-                (
-                    sha1: "dfa7f8f4cc177f3724f9198739ff2daf34d43773",
                 ),
             ],
         ),

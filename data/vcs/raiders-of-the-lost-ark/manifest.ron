@@ -1,7 +1,38 @@
 (
     title: "Raiders of the Lost Ark",
+    developer: Some("Howard Scott Warshaw"),
+    description: Some("A one-player game that needs both joysticks at once: one walks Indy and uses whatever object is selected, the other slides the selector along an inventory strip holding six items. Finding the Ark is a matter of working out which object to be holding, and where, from the Cairo marketplace down into the Temple of the Ancients."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Raiders_of_the_Lost_Ark_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rotla.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Tip sheet",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rotla_hints.pdf",
+            link_type: Guide,
+        ),
+        (
+            name: "Solution sheet",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rotla_solution.pdf",
+            link_type: Guide,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/15EB96437C730971EB0CCA9F46512E731E4BA4F8",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (
@@ -18,6 +49,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (

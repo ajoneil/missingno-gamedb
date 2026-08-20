@@ -1,8 +1,25 @@
 (
     title: "Raft Rider",
+    developer: Some("Dave Hampton, Patrick King"),
+    description: Some("A log raft carried downstream through white water, poled clear of rocks, drifting moose and the tree sections a beaver keeps felling into the river. Gold nuggets float past too, and touching one buys you more distance before the run ends. The current quickens as you go, and the difficulty switch decides how fast."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/raft_rider.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AD0D3A94D935217CFBD5F0E913474351CE01E5D3",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            label: Some("VC2006"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
             publisher: Some("U.S. Games Corporation"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -18,6 +35,11 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("U.S. Games Corporation"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),

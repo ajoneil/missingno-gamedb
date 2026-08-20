@@ -1,17 +1,97 @@
 (
-    title: "Planet Of The Apes (Supercharger Conversion Hack)",
+    title: "Planet of the Apes",
+    developer: Some("John Marvin"),
+    description: Some("You guide Col. Taylor south through forest, river, desert and a maze of caverns towards the Forbidden Zone. Three kinds of ape cross the screen: harmless chimpanzees, orangutans that cage you in the ape village, and gorillas that also shoot. Life and escape counters run down, and forest pits and the cage each cost an escape. Reaching the Statue of Liberty restarts the game harder."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/planetoftheapes/planetoftheapes.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Revenge_of_the_Apes",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4FDAA68B8AA584464ED15ABD81FE722E5BB42ED0",
+    ],
+    mods: [
+        (
+            name: "Revenge of the Apes",
+            category: ContentChange,
+            author: Some("Thomas Jentzsch and Paul Slocum"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/software_page.php?SoftwareID=3725",
+                    link_type: Community,
+                ),
+                (
+                    name: "Manual",
+                    url: "https://www.ataricompendium.com/archives/manuals/vcs/revenge_apes.pdf",
+                    link_type: Manual,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("dcca30e4ae58c85a070f0c6cfaa4d27be2970d61"),
+                    artifacts: [
+                        (
+                            sha1: "23a484c8ba6c3752ced2e2bf5247d61964dd05a3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Revenge of the Alligator People",
+            category: ContentChange,
+            author: Some("Zach Matley"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("dcca30e4ae58c85a070f0c6cfaa4d27be2970d61"),
+                    artifacts: [
+                        (
+                            sha1: "d489381864552d284b3bc8a0755e738bdd732ca7",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Nukey Shay"),
+            releases: [
+                (
+                    base_sha1: Some("dcca30e4ae58c85a070f0c6cfaa4d27be2970d61"),
+                    artifacts: [
+                        (
+                            sha1: "608db458031414446fef54f6fae16ce6f8b24f56",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Fox Video Games"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
-                (
-                    sha1: "608db458031414446fef54f6fae16ce6f8b24f56",
-                ),
                 (
                     sha1: "dcca30e4ae58c85a070f0c6cfaa4d27be2970d61",
                 ),

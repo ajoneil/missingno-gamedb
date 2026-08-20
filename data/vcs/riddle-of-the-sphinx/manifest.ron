@@ -1,7 +1,38 @@
 (
     title: "Riddle of the Sphinx",
+    developer: Some("Bob Smith"),
+    description: Some("The Prince of Egypt walks up the screen with a sling and endless rocks, but he can only throw forward, so retreating leaves him defenceless. Wounds and thirst shorten his range. Flipping the console\'s colour and difficulty levers reports his inner strength, thirst and wounds, and offerings must be made at the pyramids and sphinxes."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/riddle_sphinx.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Hint sheet",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/riddle_sphinx_hint.pdf",
+            link_type: Guide,
+        ),
+        (
+            name: "Contest sheet",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/riddle_sphinx_contest.pdf",
+            link_type: Guide,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Riddle_of_the_Sphinx_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9703DDE42E443F45FB52BAE27115DECEDF12AA22",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             hardware: (
@@ -18,6 +49,10 @@
             ],
         ),
         (
+            label: Some("IA3600P"),
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             hardware: (

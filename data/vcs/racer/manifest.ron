@@ -1,9 +1,27 @@
 (
     title: "Racer",
+    developer: Some("Joe Gaucher (Roklan Software)"),
+    description: Some("The screen scrolls downward so you are always moving forward, and with no throttle or brake all you can do is steer between the walls. Every ten points it speeds up again, until the gaps stop being survivable. Two players race at once on one screen, and shunting your rival into a wall is entirely allowed."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/racer/racer.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (reproduction)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/racer.pdf",
+            link_type: Manual,
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
-            publisher: Some("Atari"),
+            publisher: Some("Roklan"),
             status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
@@ -12,6 +30,10 @@
             artifacts: [
                 (
                     sha1: "1df83e0e89a97511ee91a5a9f376dffcfbad06a9",
+                ),
+                (
+                    sha1: "3018ba345e7cb66deddf444c6f09b295b298251b",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

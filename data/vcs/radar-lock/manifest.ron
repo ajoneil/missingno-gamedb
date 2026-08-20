@@ -1,0 +1,60 @@
+(
+    title: "Radar Lock",
+    developer: Some("Doug Neubauer"),
+    description: Some("A delta-wing fighter flown into oncoming waves of interceptors, bombers and stealth fighters, with guns, radar-guided missiles and area-clearing proximity missiles to pick between, and a tanker to line up with when fuel runs low. Two players share one jet rather than compete: one flies while the other selects and fires the weapons."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Radar_Lock",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/radar_lock.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Radar%20Lock%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33f016c941fab01e1e2d0d7ba7930e3bcd8feaa3",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cb36828a2a23eaf8d736af4790ffd7e948ebbf1e",
+                ),
+                (
+                    sha1: "68b5e7c1e5d5685ec2b4c70935acc348f4d8dacd",
+                    label: Some("alt"),
+                    size: Some(16384),
+                ),
+            ],
+        ),
+    ],
+)

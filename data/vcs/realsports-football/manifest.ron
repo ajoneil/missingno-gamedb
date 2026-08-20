@@ -1,7 +1,28 @@
 (
     title: "RealSports Football",
+    developer: Some("Rob Zdybel"),
+    description: Some("Five a side on a hundred-yard field, one man on each team under your control while you pick the plays. A single fifteen-minute quarter, with the clock stopping for incomplete passes, scores, turnovers and while the offence calls its play. No fumbles, no penalties, no time outs and no running out of bounds."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rs_football.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/RealSports_Football",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8259A69A9B2BA114F13F4B946B9CE13C20A316D7",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (
@@ -11,6 +32,7 @@
             artifacts: [
                 (
                     sha1: "0028d8cf46c4205f665ca05ad115c1a54a85aa9f",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "200d04c1e7f41a5a3730287ed0c3f9293628f195",

@@ -1,7 +1,45 @@
 (
     title: "RealSports Tennis",
+    description: Some("Two sets out of three, with the receiver taking over the serve after each game and the players changing ends as the real rules require. The difficulty switches decide whether your racket swings automatically or you time it yourself. Before play you can spell out a name for the scoreboard, letter by letter."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/RealSports_Tennis",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rs_tennis.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/RealSports%20Tennis%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Swordquest Tennis",
+            category: ContentChange,
+            author: Some("cosmosiss"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("702c1c7d985d0d22f935265bd284d1ed50df2527"),
+                    artifacts: [
+                        (
+                            sha1: "7dbcbf88e8640d0aca2a81a7309ef138b9b47d66",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -18,6 +56,10 @@
             ],
         ),
         (
+            label: Some("CX2680"),
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -27,9 +69,14 @@
             artifacts: [
                 (
                     sha1: "0467559378cfba949be579cadaf2dead6e25a55c",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "fab0a437f42336807e7b1324421386fc214c69db",
+                ),
+                (
+                    sha1: "fe8fddb1ab50dd6d6b2090be7b62596a36c77302",
+                    label: Some("alt [a2]"),
                 ),
             ],
         ),

@@ -1,29 +1,69 @@
 (
     title: "Pole Position",
+    description: Some("A behind-the-car race in two parts. First you run a qualifying lap against a 90-second clock, needing 73 seconds or better to earn a grid place, and the quicker the lap the further forward you start. Then comes a four-lap Grand Prix where you shift between low and high gear, pass slower cars for points, and must beat the timer each lap to keep racing."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/pole_position.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pole_Position",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Pole%20Position%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Checkered Flag",
+            category: ContentChange,
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("b7122f478a343cffac17b765e9642893587e99a1"),
+                    artifacts: [
+                        (
+                            sha1: "f9c6d27a5f9bacca288c713803ad1befcafb5c12",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
-            publisher: Some("CCE"),
+            publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
             ),
             artifacts: [
                 (
-                    sha1: "4665c45c83bb64289b35782c3b59afed5ec2150c",
-                ),
-                (
-                    sha1: "9afdc3b6756aaf60e4949f414037239c7a4f7fd1",
-                ),
-                (
                     sha1: "b7122f478a343cffac17b765e9642893587e99a1",
                 ),
                 (
                     sha1: "e981b07a3bbce3ea187c7fd21bf4b8bea0630785",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "9d334da07352a9399cbbd9b41c6923232d0cdcd3",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),
         (
+            label: Some("CX2694"),
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (
@@ -36,6 +76,41 @@
                 ),
                 (
                     sha1: "bf89876abac4fa300ed6862a0ae87a6c5fe84c13",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("RealSports Driving"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-05-15"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4665c45c83bb64289b35782c3b59afed5ec2150c",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9afdc3b6756aaf60e4949f414037239c7a4f7fd1",
                 ),
             ],
         ),

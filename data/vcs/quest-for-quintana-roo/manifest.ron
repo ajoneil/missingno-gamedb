@@ -1,7 +1,27 @@
 (
     title: "Quest for Quintana Roo",
+    description: Some("Yucatan Sam climbs a temple past snakes and the moon god\'s glare, then ducks inside on ninety seconds of stale air at a time. His colour tells you what he holds, gun or chisel or acid flask or a map rock, and he can only leave a room empty-handed or carrying a rock. Find the right rocks for the right holes to open the vault."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/quintana_roo_telegames.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Sunrise)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/quintana_roo.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Quest%20for%20Quintana%20Roo%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1988"),
             publisher: Some("Telegames"),
             hardware: (
@@ -15,6 +35,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1988"),
             publisher: Some("Telegames"),
             hardware: (

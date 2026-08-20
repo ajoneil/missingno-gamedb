@@ -1,7 +1,28 @@
 (
     title: "Reactor",
+    developer: Some("Charlie Heath"),
+    description: Some("Your ship carries a permanent energy shield, and you destroy the subatomic particles by shoving them into the reactor\'s kill walls, or into the control rods to smash those. The core swells all the while, squeezing the arena, and only shrinks when you clear a whole set of rods. Three decoys help you trap particles."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/reactor.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Reactor_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Reactor%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Parker Brothers"),
             hardware: (
@@ -18,6 +39,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Parker Brothers"),
             hardware: (

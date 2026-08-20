@@ -1,0 +1,117 @@
+(
+    title: "Q*bert",
+    developer: Some("Dave Hampton"),
+    description: Some("Hop Q*bert diagonally around a pyramid of cubes, changing each one to the destination colour by landing on it; clear the pyramid and a new round starts. Hopping off an edge is fatal, a rolling red ball will squash him, and a purple ball that reaches the bottom hatches Coily the snake."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Q*bert",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/qbert.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Manual (Atari reissue)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/qbert-atari.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D0D0F59FF7CDC76BE602F347329B26CE72A47EB0",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Nukey Shay"),
+            releases: [
+                (
+                    base_sha1: Some("f3ef9787b4287a32e4d9ac7b9c3358edc16315b2"),
+                    artifacts: [
+                        (
+                            sha1: "16c9b1ec1d78a9a5a748ffcda713ec14316b22ba",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
+    releases: [
+        (
+            label: Some("PB5360"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b50414eac0f1d3e3ab96ee7d7a261d5b579fb9f",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "f3ef9787b4287a32e4d9ac7b9c3358edc16315b2",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1987"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8bf36ec012a46f8f7b17cc41ea0afdf2fe00d191",
+                ),
+            ],
+        ),
+        (
+            label: Some("931517"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dcb2c8fd8c132394b63b22b1a91ea47313e776df",
+                ),
+                (
+                    sha1: "e5d0f615fed46efca3cc931a1e5f7ebcce73d586",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified (208 in 1 multicart)"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "91966f4ffd0004b12ba50b990c93b25b7ae95457",
+                ),
+            ],
+        ),
+    ],
+)

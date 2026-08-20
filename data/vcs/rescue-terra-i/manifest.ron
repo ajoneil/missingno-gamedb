@@ -1,7 +1,42 @@
 (
     title: "Rescue Terra I",
+    developer: Some("Dan Oliver"),
+    description: Some("A countdown from 39,999 light years to Terra I, in four stages. First a meteor storm to clear, then space pirates whose slow cargo ships are guarded by darting fighter saucers, then erratic robot interceptors, and finally fish-shaped emitters whose force fields creep towards you: the only way through is to fly in close and shoot the emitter itself."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rescue_terra_1.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6D29D4445BEE23F93E12054A3751DA65BA7D00FE",
+    ],
+    mods: [
+        (
+            name: "Star Trek - Journey to Dalo-4",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("94e94810bf6c72eee49157f9218c3c170b65c836"),
+                    artifacts: [
+                        (
+                            sha1: "259d51fefa2e43ac92f8618304162e9abde0123c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("VV2001"),
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("VentureVision"),
             hardware: (

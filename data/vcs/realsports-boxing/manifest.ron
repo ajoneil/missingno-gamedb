@@ -1,7 +1,28 @@
 (
     title: "RealSports Boxing",
+    developer: Some("Alex DeMeo"),
+    description: Some("Pick one of four fighters and box in side view, choosing between quick jabs, body blows and the heavy payoff punch, each trading score against the strength it drains. Covering up blocks and scores, but twelve unanswered punches lose you the bout on a technical knockout. Landing enough fills a bar that lets you throw the knockout blow."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rs_boxing.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/RealSports_Boxing",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9D91950CE739430E8D850EE605E324371EDEF4E2",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1987"),
             publisher: Some("Atari"),
             hardware: (
@@ -15,6 +36,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1987"),
             publisher: Some("Atari"),
             hardware: (

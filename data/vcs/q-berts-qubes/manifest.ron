@@ -1,0 +1,108 @@
+(
+    title: "Q*bert\'s Qubes",
+    developer: Some("Todd Marshall"),
+    description: Some("Rows of cubes hang in space, and hopping Q*bert off one tumbles it to a new colour face. Match a row of four to the target cube shown at the top left and the round is won; later levels need two or three rows, and Shoobops can undo a match you have already made, as can a careless hop of your own."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/qberts_qubes.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Q-bert%27s%20Qubes%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "PAL conversion",
+            category: Compatibility,
+            author: Some("Omegamatrix"),
+            releases: [
+                (
+                    date: Some("2011"),
+                    base_sha1: Some("a61be3702437b5d16e19c0d2cd92393515d42f23"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "17bf2bada041e71d2ee93cb05fa29c2101290c2f",
+                        ),
+                        (
+                            sha1: "e347bb56cc9337e106691894659287ba8c98c162",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "F6 conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    base_sha1: Some("a61be3702437b5d16e19c0d2cd92393515d42f23"),
+                    artifacts: [
+                        (
+                            sha1: "46c3a3b41f12ceeed62e7d13187b885c98744269",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("PB5550"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a61be3702437b5d16e19c0d2cd92393515d42f23",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "58286b711796668747d636392bc51d62191b02b3",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6a2cfa48e513fbd420dcd6408720ecd05e95c4f4",
+                ),
+            ],
+        ),
+    ],
+)

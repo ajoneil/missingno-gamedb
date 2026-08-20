@@ -1,7 +1,27 @@
 (
     title: "River Patrol",
+    description: Some("Your patrol boat leaks from the moment it sets off, so the violet gauge draining is the real clock as you run nine rivers picking up drowning people. Alligators and whirlpools make it ship water faster; driftwood, rocks, TNT and the bank sink you outright. Caught in a whirlpool, gun the engine while the bow points upstream."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/river_patrol.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/River_Patrol_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/09D178B1D6D218C3ECB3C25C0A32FF88172FBBBA",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Tigervision"),
             hardware: (

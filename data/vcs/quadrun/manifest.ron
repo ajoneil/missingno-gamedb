@@ -1,0 +1,66 @@
+(
+    title: "Quadrun",
+    developer: Some("Steve Woita"),
+    description: Some("The quad is four channels around a cage. Captors patrol the vertical channels and can only be shot from there; runts bolt from the cage along the horizontal ones toward an electrified grid and can only be caught from there, so you are forever switching between the two. You have three phaser balls, and must run to the far side to catch each one back."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/quadrun.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Quadrun",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/53AB512DA61CB6B643C44EB3F7022088C51D5F0E",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1dced64f0bdfb4241749d7b8cd560aa2301ad404",
+                ),
+                (
+                    sha1: "1e634a8733cbc50462d363562b80013343d2fac3",
+                    label: Some("Atari Anthology"),
+                ),
+                (
+                    sha1: "594e8b815bf52dd6f09102b8fb7650d98f24a691",
+                ),
+                (
+                    sha1: "b8d6f508edbf713e52f0cbf235d5e17add2fbf2e",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-12-06"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "16ac573c825a22095930f49a29e0157a7e4bc90a",
+                ),
+            ],
+        ),
+    ],
+)

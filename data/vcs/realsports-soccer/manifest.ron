@@ -1,0 +1,101 @@
+(
+    title: "RealSports Soccer",
+    developer: Some("Michael Sierchio, Jerome Domurat"),
+    description: Some("Three players a side, each assigned to one of three lanes: a fielder can dribble only within his own lane, so moving the ball up the pitch means passing between them. Blue starts on the left of the halfway line and red on the right, and a goal is worth one point before the clock runs out."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rs_soccer.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/RealSports_Soccer",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/RealSports%20Soccer%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Chicken Egg Soccer",
+            category: ContentChange,
+            author: Some("James Catalano (Jamcat)"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("e3d964d918b7f2c420776acd3370ec1ee62744ea"),
+                    artifacts: [
+                        (
+                            sha1: "8575a307d6d3e00fffdfa47257263f7e9bb35ac9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("CX2667"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e3d964d918b7f2c420776acd3370ec1ee62744ea",
+                ),
+                (
+                    sha1: "9c88e0dbb287d27c0e2c32f6e85d829133bbe8a3",
+                    label: Some("no opening tune"),
+                ),
+            ],
+        ),
+        (
+            label: Some("CX2667P"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fa6e3a4840e562834bd816c1a9a8e25371b71423",
+                ),
+                (
+                    sha1: "f7d34f0278a7500d43252067adae529a751aed9d",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            label: Some("CX2667"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d7f2e53deb3fc4d2f8d819ccf0fbfd7f510fdbee",
+                ),
+            ],
+        ),
+    ],
+)

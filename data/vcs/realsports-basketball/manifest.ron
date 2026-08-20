@@ -1,8 +1,30 @@
 (
-    title: "RealSports Basketball (12-28-1982)",
+    title: "RealSports Basketball",
+    developer: Some("Joe Gaucher (Roklan Software)"),
+    description: Some("Two-on-two basketball where each side\'s two players move in tandem, one confined to the top half of the court and one to the bottom, so passing rather than dribbling is how the ball travels. Touching an opponent takes the ball off them. Twelve variations change the number of players, the period length and the players\' speed."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/rsbasketball/rsbasketball.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rs_basketball.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F31BF9570CFD5D93EEE6B10B893AA12B261E91A6",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1982"),
+            label: Some("CX-2679"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
             publisher: Some("Atari"),
             status: Prototype,
             hardware: (
@@ -11,10 +33,25 @@
             ),
             artifacts: [
                 (
-                    sha1: "bc2e6bdaa950bc06be040899dfeb9ad0938f4e98",
-                ),
-                (
                     sha1: "f8a2c1568d83966a4fbe21056242780ff8349103",
+                ),
+            ],
+        ),
+        (
+            label: Some("CX-2679"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc2e6bdaa950bc06be040899dfeb9ad0938f4e98",
                 ),
             ],
         ),

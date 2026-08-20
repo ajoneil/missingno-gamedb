@@ -1,7 +1,28 @@
 (
     title: "Red Sea Crossing",
+    developer: Some("Steve Schustack"),
+    description: Some("Moses walks the seabed between the parted waters, timing his moves and jumps past seaweed, giant clams and pursuing Egyptians. A fish swimming above him is the timer: reach the end of the screen before it passes. Tablets and doves give bonus points and a staff an extra chance; run out and the sea closes."),
+    links: [
+        (
+            name: "Manual (unofficial)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/red_sea_crossing_fan-based.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Red_Sea_Crossing_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F7F984F94556BE41DB0544F4D6910BCEF4906422",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Inspirational Video Concepts"),
             hardware: (

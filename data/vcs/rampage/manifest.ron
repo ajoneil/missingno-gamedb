@@ -1,7 +1,47 @@
 (
-    title: "Rampage!",
+    title: "Rampage",
+    developer: Some("Robert C. Polaro"),
+    description: Some("Pick George the ape, Lizzie the lizard or Ralph the wolf and level eighty-five North American cities, climbing each building to punch holes in it and gobbling the people you knock loose. Helicopters, tanks and police cars want you down, and anyone inside a building can only be eaten if their colour differs from your monster\'s."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rampage.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Rampage_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/314FC2DE4E779454834AB5B19F31028D4B00CA03",
+    ],
+    mods: [
+        (
+            name: "Colour edit",
+            category: ContentChange,
+            author: Some("KevinMos3"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("7bb7df255829d5fbbee0d944915e50f89a5e7075"),
+                    artifacts: [
+                        (
+                            sha1: "99bdecab8cf8c593f9ccf3c6b1d4f7799d55a622",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("AK-049-04"),
+            regions: [
+                Usa,
+            ],
             date: Some("1989"),
             publisher: Some("Activision"),
             hardware: (
@@ -15,6 +55,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1989"),
             publisher: Some("Activision"),
             hardware: (

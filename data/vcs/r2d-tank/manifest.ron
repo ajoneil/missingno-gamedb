@@ -1,9 +1,30 @@
 (
-    title: "R2D Tank (6)",
+    title: "R2D Tank",
+    description: Some("You start with a single missile and gain one for every dot your tank extinguishes, seventy-four to a frame. The yellow tank shoots at you and turns dots it crosses into landmines, marked with an X; firing through a landmine reverts it to a dot you can collect. Clear the frame and your missiles carry over to the next."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/r2dtank/r2dtank.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/r2d_tank.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "http://www.atariprotos.com/2600/software/r2dtank/r2d_box_front.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("UA Limited"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),

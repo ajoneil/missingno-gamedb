@@ -1,7 +1,47 @@
 (
     title: "Revenge of the Beefsteak Tomatoes",
+    developer: Some("John Russell"),
+    description: Some("Tomatoes cannot be killed, only walled in. Build three walls above the plants by shooting bricks as they slide across the top, which turns your sprayer their colour, then dropping them into place. Green goes in the bottom wall, pink the middle, gold the top, and no wall can be finished until the one below it is."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/revenge_beefsteak_tomatoes.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Revenge_of_the_Beefsteak_Tomatoes",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5AF6C6C0AF102490FC315150B5C7E626C15747FE",
+    ],
+    mods: [
+        (
+            name: "SpongeBob SquarePants",
+            category: ContentChange,
+            author: Some("Kyle Pittman"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("f8a9dd46f9bad232f74d1ee2671ccb26ea1b3029"),
+                    artifacts: [
+                        (
+                            sha1: "5b4ade3b75a23f86e5ae665549400ae0d19ec2ce",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("11016"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Fox Video Games"),
             hardware: (

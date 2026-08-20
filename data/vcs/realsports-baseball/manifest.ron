@@ -1,0 +1,165 @@
+(
+    title: "RealSports Baseball",
+    developer: Some("Eric Manghise, Mimi Nyden, Joseph Tung"),
+    description: Some("Nine innings of baseball, longer if it ties, with the visiting side in pink and the home side in yellow. A team bats until three of its players are out; three strikes make an out and four balls walk the batter to first. Force outs are what enable the double and triple plays."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rs_baseball.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/RealSports_Baseball",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/15705B367B28EEECFD4BBDAD20BB8D206594CF29",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("b066a60ea1df1db0a55271c7608b0e19e4d18a1e"),
+                    artifacts: [
+                        (
+                            sha1: "8cbccb86d4427854aab3fe0e478977881bdfdd16",
+                        ),
+                        (
+                            sha1: "f4aa3e660e16352ffdfc3b6f0322c2a30de1a863",
+                            label: Some("PAL"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("CX2640"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ace97b89b8b6ab947434dbfd263951c6c0b349ac",
+                ),
+                (
+                    sha1: "e432a35470f87f05d37c58f2aa1536950adab19d",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fac97bb9737c9db965600344982c300c90dffbc7",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982-07-09"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3a43e03969b01559d424a5d4a7f78dc96799c037",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e9b06b567ddf802306d5c83b89d3da802ef2e16f",
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Baseball"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b066a60ea1df1db0a55271c7608b0e19e4d18a1e",
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Baseball"),
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8c8738fabdc3b42046e3c9c219f38dd5b7051952",
+                ),
+            ],
+        ),
+        (
+            title: Some("Super Baseball"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4c83731258126ecc7044155d17995601109a6f69",
+                ),
+            ],
+        ),
+    ],
+)

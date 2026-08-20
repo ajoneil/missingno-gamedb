@@ -1,0 +1,114 @@
+(
+    title: "Polaris",
+    developer: Some("Robert H. O\'Neil"),
+    description: Some("You steer a submarine around the sea, firing one missile at a time up at bomber squadrons while enemy subs try to ram you and a destroyer drops depth charges. Clear the squadrons and a dive bomber arrives with homing torpedoes. A second screen has you working through mined channels with torpedoes, the seas roughening as you go."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/polaris.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Polaris_(1980_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Polaris%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("2410931a8a18b915993b6982fbabab0f437967a4"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "9a879a125e5a829565a779d2c5e7543ece06e67e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Tigervision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b76ab69118b579ca0acbbb8ebe8003eed5cbcb4a",
+                ),
+                (
+                    sha1: "dd33b5696547d29819fb381df93f4e91516e6523",
+                    label: Some("alt [a1]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Tigervision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2410931a8a18b915993b6982fbabab0f437967a4",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-02-17"),
+            publisher: Some("Tigervision"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f17f83aa4141daa4bc0c0150469a7982871c0ebb",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Tigervision"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("3F"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8727630ca840dd7643bfc5762a6f597194ecdda3",
+                ),
+            ],
+        ),
+    ],
+)

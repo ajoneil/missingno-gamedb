@@ -1,7 +1,28 @@
 (
     title: "Private Eye",
+    developer: Some("Bob Whitehead"),
+    description: Some("Pierre Touché drives a jumping 1935 Model A through a maze of one-ways, detours and secret passages, hunting the evidence and loot from Henri Le Fiend\'s crimes. Each case runs against a statute of limitations: find the evidence, verify it where it came from, return the stolen item to its owner one at a time, then catch Le Fiend and book him."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/private_eye.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Private_Eye_(1984_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8537959D469D0AA9D66F16EE3746924AABF0F715",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Activision"),
             hardware: (
@@ -15,9 +36,16 @@
                 (
                     sha1: "c4de1af8468a8110894f4b080c66dcb452eb4deb",
                 ),
+                (
+                    sha1: "84906b166631e626e35803e07bfb95ec33ab98d8",
+                    label: Some("alt [a]"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1984"),
             publisher: Some("Activision"),
             hardware: (

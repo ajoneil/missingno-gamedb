@@ -1,7 +1,31 @@
 (
     title: "Racquetball",
+    developer: Some("Ed Salvo"),
+    description: Some("An indoor court seen in perspective, with the ball free to bounce off the walls and ceiling. You read its shadow to judge depth: when the shadow sits level with your player\'s feet the ball is in reach, and the racquet swings by itself. A second player can take the other side of the court."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/racquetball.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Racquetball_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D190987A29DC05D57CE819B8A7D84D579C81C9B8",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("AP-2003"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Apollo"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,13 +33,25 @@
             artifacts: [
                 (
                     sha1: "020c1ec75358b86dea92e61e7ed75e343d68188a",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "4af6008152f1d38626d84016a7ef753406b48b46",
                 ),
+                (
+                    sha1: "dbf230366a324278feae98d4e1e3d64a0fef2996",
+                    label: Some("alt [a]"),
+                ),
+                (
+                    sha1: "c3c85788124425c5ced7812e4812e3e34b5ee3d6",
+                    label: Some("different ball angles"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Apollo"),
             hardware: (

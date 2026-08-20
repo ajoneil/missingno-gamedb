@@ -1,7 +1,46 @@
 (
     title: "RealSports Volleyball",
+    developer: Some("Bob Polaro, Jim Huether"),
+    description: Some("First to fifteen, two a side across a net, with a shadow tracking the ball through the air. The top player always serves: walk into the ball to take it, then move only up and down the court before punching it over. Only the side that served the rally can score from it."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/RealSports_Volleyball",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rs_volleyball.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/RealSports%20Volleyball%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Beach Babe Volleyball",
+            category: ContentChange,
+            author: Some("James Catalano (Jamcat)"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("2025e1d868595fad36e5d9e7384ffd24c206208d"),
+                    artifacts: [
+                        (
+                            sha1: "5c8b1c94d3b2f2ca58700335401efea254bb6f13",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (
@@ -24,6 +63,10 @@
             ],
         ),
         (
+            label: Some("CX2666"),
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (

@@ -1,0 +1,80 @@
+(
+    title: "Rabbit Transit",
+    developer: Some("Brian McGhie"),
+    description: Some("Two screens alternating. First a meadow crossing: hop lane by lane past the wildlife, through gaps in the fences, to reach the water where a turtle carries you over, though the difficulty switches decide whether he dives. Then the Land of the Ledges, where you jump each green ledge to the colour shown at the top while a figure above drops rocks."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/rabbittransit/rabbittransit.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Rabbit_Transit_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9CA81FD53CCE1B2B9464A364A3AB7469B3B3FDEC",
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("AR-4104"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2271944cd9284b499a590cf9fca938560a741990",
+                ),
+                (
+                    sha1: "81654cbd6a7262ce0f1abc385ed9adc323a9b6a6",
+                ),
+                (
+                    sha1: "5121af51557edc0d4e455feaf2a2a29f106f06d0",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a55851ead48c5033a45fb3f1672341146e5b47d9",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983-08-29"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7bf945ea667e683ec24a4ed779e88bbe55dc4b26",
+                ),
+            ],
+        ),
+    ],
+)
