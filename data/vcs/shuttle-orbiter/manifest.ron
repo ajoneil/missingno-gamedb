@@ -1,0 +1,63 @@
+(
+    title: "Shuttle Orbiter",
+    developer: Some("Bill Hood"),
+    description: Some("Ten sections of a space station still need fitting, and you fly the shuttle up to collect them from an orbiting factory, refuelling at a depot along the way. Rendezvous runs on real orbital mechanics: drop to a lower orbit to catch something ahead of you, climb to fall back, then match altitude."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/shuttle_orbiter.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E876DF9315F0D81A0C1664DE2C89A692D628DA88",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("08952192ea6bf0ef94373520a7e855f58bae6179"),
+                    artifacts: [
+                        (
+                            sha1: "dc4b681c4f656c642bb604e9a046a3ea246b5165",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Avalon Hill"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "08952192ea6bf0ef94373520a7e855f58bae6179",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dd227563a1775fab9061bda34564f4c99bad5562",
+                ),
+            ],
+        ),
+    ],
+)

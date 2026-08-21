@@ -1,8 +1,25 @@
 (
     title: "SCRMNN",
+    description: Some("A sliding-colour puzzle: each row must end up ordered light to dark, matching the title screen\'s descent from red to purple. Moving your square along a row or column pulls the far square in that line around behind it, and pressing fire blacks out every square already in the right place."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/unknown1/unknown1.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Hidden Palace",
+            url: "https://hiddenpalace.org/Unknown_(Oct_29,_1982_prototype)",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DEA7A498642DDAF047D07EE6F2FEC9F28F24AB3A",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1982"),
+            date: Some("1982-10-29"),
             publisher: Some("Activision"),
             status: Prototype,
             hardware: (

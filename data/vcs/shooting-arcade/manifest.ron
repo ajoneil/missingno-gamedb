@@ -1,0 +1,106 @@
+(
+    title: "Shooting Arcade",
+    developer: Some("Agustin Ortiz, Tod Frye"),
+    description: Some("Six shooting scenes, each with its own theme and rules, dealt out in a different order depending on the level. A timer runs down at the bottom while you clear the targets, and the difficulty you pick decides how much ammunition you get to do it with, as few as one shot."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/shootingarcade/shootingarcade.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D7EFA2D6AE103EE2A022732DA6E719E8E31E1F29",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1989-09-19"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6e6daa34878d3e331c630359c7125a4ffba1b22d",
+                ),
+                (
+                    sha1: "863d1261bf4bc8df3e5cbce5043ddb0d95f3fdd4",
+                    label: Some("screen 2"),
+                ),
+                (
+                    sha1: "85587db6b00290c426c1111b6b86b6ad0538a02b",
+                    label: Some("screen 3"),
+                ),
+                (
+                    sha1: "6796d6149de97ecfb63f9d3d6da2d330e1e2b6d8",
+                    label: Some("screen 4"),
+                ),
+                (
+                    sha1: "00c724c7fd84ba88d346d71c9f43c913c6fcccee",
+                    label: Some("screen 5"),
+                ),
+                (
+                    sha1: "b939c4c26c8b19f0865aa7da3e720b24d37fc832",
+                    label: Some("screen 6"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1989-03-07"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fe3641560795e2004b6d61bff0c82046088629da",
+                ),
+                (
+                    sha1: "0803cc4f19edf069050d387a487fca84c7b1a79f",
+                    label: Some("screen 2"),
+                ),
+                (
+                    sha1: "7ebd2f45abe74f5b0a6cb1d63c35ab3d36caa9ca",
+                    label: Some("screen 3"),
+                ),
+                (
+                    sha1: "92608d9237903f442134aaafaaf3c1c11f432ffa",
+                    label: Some("screen 4"),
+                ),
+                (
+                    sha1: "161c1a913bc7ed7b07bbd7a77f2b1f62dce7462a",
+                    label: Some("screen 5"),
+                ),
+                (
+                    sha1: "ea15566ba81d369864eae2b649900ae34df4dfab",
+                    label: Some("screen 6"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1990-01-16"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f20ab57ad7ca60c566376409c8f94c9f1b4003bd",
+                ),
+            ],
+        ),
+    ],
+)

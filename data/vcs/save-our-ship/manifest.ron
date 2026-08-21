@@ -1,5 +1,17 @@
 (
     title: "Save Our Ship",
+    description: Some("Pirates are swarming up four ladders onto your clipper ship and the crew has fled, leaving the captain alone with a cutlass. Dash around the deck cutting them down as they climb; let three get aboard and the ship is lost. They only come faster as your score climbs."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/save_our_ship.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4E95904D1241F60F6699A26589D797CD8CA82122",
+    ],
+    curated: true,
     releases: [
         (
             hardware: (
@@ -9,9 +21,14 @@
             artifacts: [
                 (
                     sha1: "000197f1a4c000fe038dfc002f5c0c7d47d54310",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "8e9b4163cee3643bf8fe0c5a44396ddcf3c4017d",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "b9ddb41a5b44af67a6cb38a76d12905c807c0f93",
                 ),
             ],
         ),
@@ -28,6 +45,24 @@
                 ),
                 (
                     sha1: "ad6ff7dcd1ed999b0b46d72a135540b0c852cd3b",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Robin Hood"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "738e64694e8c6e4122bf024c2e09474f21ebc4b0",
                 ),
             ],
         ),

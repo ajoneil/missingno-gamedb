@@ -1,7 +1,42 @@
 (
     title: "Sir Lancelot",
+    developer: Some("Anthony R. Henderson"),
+    description: Some("Ride Pegasus to a castle where a maiden is held, running down the winged creatures that bar the way with a charmed lance. The dragon inside will not meet you head on: it breathes fire from behind a magic screen, and a hit stuns Pegasus mid-air so his wings stop beating."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sir_lancelot.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Sir%20Lancelot%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Joust Neo",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("fb4008b13cb9957ce5e2ce1555c7aecac9e773cc"),
+                    artifacts: [
+                        (
+                            sha1: "b1fd9b646f8cc999b5eac9ff6f13e739149fc7ef",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Double-Ender"),
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Xonox"),
             hardware: (
@@ -12,9 +47,14 @@
                 (
                     sha1: "fb4008b13cb9957ce5e2ce1555c7aecac9e773cc",
                 ),
+                (
+                    sha1: "e9fa52f8e7f747cd9685ddb18bdeed2f66255324",
+                    label: Some("alt"),
+                ),
             ],
         ),
         (
+            label: Some("Double-Ender"),
             date: Some("1983"),
             publisher: Some("Xonox"),
             hardware: (

@@ -1,0 +1,56 @@
+(
+    title: "Skate Boardin\'",
+    developer: Some("David Crane"),
+    description: Some("You are late for school and the route has sprouted thirty ramps and tubes overnight, all of which must be conquered inside five minutes before you can go looking for the front steps. Ride a ramp standing or crouched, but a tube has to be taken crouched, and walls and rails will spill you off the board."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Skate_Boardin%27",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/skateboardin.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FAD5E901931D6D0003C10BAEEAC6712B606D510A",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1987"),
+            publisher: Some("Absolute Entertainment"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "06d634a4ab6e1cc54ca61df16244e2e1d883e638",
+                    label: Some("Activision Anthology"),
+                ),
+                (
+                    sha1: "a26fe0b5a43fe8116ab0ae6656d6b11644d871ec",
+                ),
+            ],
+        ),
+        (
+            date: Some("1987"),
+            publisher: Some("Absolute Entertainment"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "24a0eb23dedc8ecc4e3b6cef642d3704824fd1ec",
+                ),
+            ],
+        ),
+    ],
+)

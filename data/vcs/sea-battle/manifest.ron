@@ -1,9 +1,31 @@
 (
-    title: "Sea Battle (High Seas)",
+    title: "Sea Battle",
+    developer: Some("Larry Zwick, Bruce Pederson"),
+    description: Some("Two admirals put to sea, each moving a fleet out from their home base until ships meet and fight it out in a series of strategic battles. There is no computer opponent: the whole game is one player against another, hunting down and sinking the other\'s armada."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/seabattle/seabattle.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sea_Battle",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BEFA4764CCEBEE36417C05344CC4E5FDBF903BE0",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
-            publisher: Some("Intellivision Productions"),
+            publisher: Some("M Network"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),

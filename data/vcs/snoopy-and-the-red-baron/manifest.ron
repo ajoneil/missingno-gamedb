@@ -1,7 +1,28 @@
 (
     title: "Snoopy and the Red Baron",
+    developer: Some("Nick Turner, Richard Dobbis"),
+    description: Some("Snoopy flies his doghouse against the Red Baron, three to five of them a round depending on the game. Between dogfights comes a treat screen where he catches falling dog bones, pizza and root beer, but a skull and crossbones wipes the round\'s haul, so shoot that one instead of catching it."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/snoopy.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Snoopy_and_the_Red_Baron_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/099706838E48FD845A005160C43BA475F060DC42",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
             publisher: Some("CCE"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -13,9 +34,6 @@
                 ),
                 (
                     sha1: "687a0c9b90bd47d9e0562ac95636af09705198a4",
-                ),
-                (
-                    sha1: "972bc0a77e76f3e4e1270ec1c2fc395e9826bc07",
                 ),
                 (
                     sha1: "a44b8d17b64a53d60aaca21324b540d3d11d2833",
@@ -32,6 +50,35 @@
             artifacts: [
                 (
                     sha1: "0dabf54ff855418fbce2a70badf7161d985e4fe5",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3fc21e429d6591e0a52f3e8217f5f49cceae0509",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "972bc0a77e76f3e4e1270ec1c2fc395e9826bc07",
                 ),
             ],
         ),

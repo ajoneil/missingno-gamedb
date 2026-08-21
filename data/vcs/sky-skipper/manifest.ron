@@ -1,7 +1,45 @@
 (
     title: "Sky Skipper",
+    description: Some("Gorillas are holding animals captive in a walled maze, and you fly a small plane through it to carry them out. Bombs dropped on a gorilla clear the way, fuel drains throughout, and the maze scrolls past a section at a time so you never see the whole layout at once."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sky_skipper.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sky_Skipper",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A268F71408E03BF426A0ABCE1244023BA61CAFEA",
+    ],
+    mods: [
+        (
+            name: "The Rock",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("ef0a7ecfe8f3b5d1e67a736552a0cdc472803be9"),
+                    artifacts: [
+                        (
+                            sha1: "fd2310e6c0412c2f021fe70063834e5e6135a4a3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Parker Brothers"),
             hardware: (
@@ -14,6 +52,7 @@
                 ),
                 (
                     sha1: "f4a5ec787153d4ea123ec4c98c2ebcfc6e1702f5",
+                    label: Some("alt"),
                 ),
             ],
         ),
@@ -30,6 +69,7 @@
                 ),
                 (
                     sha1: "ce8f0ecf27919425c4c3fa686c4569fddaa9ce26",
+                    label: Some("alt"),
                 ),
             ],
         ),

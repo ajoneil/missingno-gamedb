@@ -1,7 +1,46 @@
 (
     title: "Skiing",
+    developer: Some("Bob Whitehead"),
+    description: Some("Ten runs down the mountain, five slalom and five downhill, timed to the hundredth of a second. You do not steer directly: you angle the skis, and the longer you hold a direction the further they swing, with top speed only when they point straight down. Missing a slalom gate costs five seconds."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/skiing.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Skiing_(Atari_2600_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/81F8F3F1D9DB44130AE84C75BF1793F00C907023",
+    ],
+    mods: [
+        (
+            name: "Snowboarding",
+            category: ContentChange,
+            author: Some("Jerry Schuller"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("6581846f983b50cffb75d1c1b902238ba7dd4e92"),
+                    artifacts: [
+                        (
+                            sha1: "7b156eaadc0466ab2dca3a9bffb8d3a7b3790ea0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1980"),
             publisher: Some("Activision"),
             hardware: (
@@ -18,38 +57,23 @@
                 (
                     sha1: "c870e45626c25ca02fa95994c6bb875c01717ac2",
                 ),
-            ],
-        ),
-        (
-            date: Some("1980"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "2d2ca8f51e4a08a6283c7d3673f60c1dbad3e0f3",
+                    defect: Some(Overdump),
                 ),
                 (
                     sha1: "a12e2c08d7b09d1383e0e92a3dee579270cb54d4",
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "36673683299db6f5d022522917d1dfbf004907ae",
+                    defect: Some(Overdump),
                 ),
             ],
         ),
         (
             date: Some("1980"),
             publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
-                (
-                    sha1: "36673683299db6f5d022522917d1dfbf004907ae",
-                ),
-            ],
-        ),
-        (
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("2K"),
@@ -64,7 +88,8 @@
             ],
         ),
         (
-            publisher: Some("4K"),
+            date: Some("1980"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -75,6 +100,23 @@
                 ),
                 (
                     sha1: "82adefb7e537d83a68f3e5cd4c9cf691f4b815d0",
+                ),
+            ],
+        ),
+        (
+            title: Some("Ski Weltcup"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1980"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "43acd1ff15a696bb004d5dbd5d35a905c575d4e1",
                 ),
             ],
         ),

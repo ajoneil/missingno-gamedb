@@ -1,8 +1,36 @@
 (
-    title: "Save the Whales (02-07-1983)",
+    title: "Save the Whales",
+    developer: Some("Steve Beck"),
+    description: Some("Whales are migrating from the Arctic down to Baja, and a whaling ship is dropping nets and firing harpoons at them along the way. From a submarine below, you shoot each one down before it reaches a whale, while six pieces of flashing radioactive waste drift about, any of which will cost you a sub."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/save_the_whales_homebrew.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Design notes",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/save_the_whales_draft.pdf",
+            link_type: TechnicalReference,
+        ),
+        (
+            name: "Design notes (revised)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/save_the_whales_revdraft.pdf",
+            link_type: TechnicalReference,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/savethewhales/savethewhales.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/75575A2114B10D4D4991870EC531D6F423328D41",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            date: Some("1983-02-07"),
             publisher: Some("Fox Video Games"),
             status: Prototype,
             hardware: (
@@ -12,6 +40,7 @@
             artifacts: [
                 (
                     sha1: "982d5f740924c0a57c9106ccb0cbd8af32affc11",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "9f6c7295c3a82e0b2203d88715a6d9ac177b3ba9",

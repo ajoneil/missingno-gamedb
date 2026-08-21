@@ -1,0 +1,56 @@
+(
+    title: "Solar Storm",
+    developer: Some("Dennis Koble"),
+    description: Some("A laser ship defending a planet from waves of raiders and, later, the debris of an exploding sun. Each attacker gets one shot at you, but you can keep firing at it until it lands, and every object that reaches the surface heats the planet closer to blowing up."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/solar_storm.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F46C9C97DC886024C8DC10D58B88A3C200B6F360",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "a7dca86dcad10db72c6156f7b3e53c25f4cdd3c8",
+                ),
+                (
+                    sha1: "ec65ef9e47239a7d15db9bca7e625b166e8ac242",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "f0a9822ab9c109f6e4f3e757199594dc2e4655f0",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,7 +1,53 @@
 (
-    title: "Roc \'n Rope",
+    title: "Roc\'n Rope",
+    description: Some("A prehistoric climb toward the Golden Roc: shoot a rope to the ledge above, haul yourself up, and keep moving before a caveman shakes the stake loose or a dinosaur reaches you. A flashlight beam dazes them long enough to slip past, and the Roc\'s scattered magical eggs make them vanish outright."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rocn_rope.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Roc%27n_Rope",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Roc%20%27n%20Rope%20(USA).png",
+        "https://hasheous.org/api/v1/images/71F97BB8C08F40CD9A3AD4916AD14ABC914902FF",
+    ],
+    mods: [
+        (
+            name: "Castlevania",
+            category: ContentChange,
+            author: Some("Rabbit 2600"),
+            links: [
+                (
+                    name: "Homepage",
+                    url: "https://forums.atariage.com/topic/205442-release-castlevania/",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2012-11-17"),
+                    base_sha1: Some("0abf0a292d4a24df5a5ebe19a9729f3a8f883c8b"),
+                    artifacts: [
+                        (
+                            sha1: "60ec194a80bcdac7ba2c67fd5e386a5eb3331437",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Coleco"),
             hardware: (
@@ -14,10 +60,14 @@
                 ),
                 (
                     sha1: "104375b2b8a5434971cddde6ef8edf56f7e65046",
+                    label: Some("alt"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1984"),
             publisher: Some("CBS Electronics"),
             hardware: (

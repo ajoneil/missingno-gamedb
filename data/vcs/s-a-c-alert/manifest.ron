@@ -1,0 +1,60 @@
+(
+    title: "S.A.C. Alert",
+    developer: Some("Jerry Lawson"),
+    description: Some("Fly a mission over land or sea, climbing to pick off enemy planes and dropping low to hit anti-aircraft guns or destroyers, with the altimeter deciding which you can reach. Fuel doubles as the clock, and when damage mounts you line up with a runway or carrier and pull up to land for repairs."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/sacalert/sacalert.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6D01A3FA96D5494B6273786EEC856297090B6FBC",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7b829edffee303c6b796c71540b7636ca5685bcd",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "14b7cfb88083a1a3129e802d56a803de82ee2c2b",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Amiga"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "27e99e47fe4e1b5efa493b54b0e53d2a2997b4a1",
+                ),
+            ],
+        ),
+    ],
+)

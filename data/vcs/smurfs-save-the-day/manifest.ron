@@ -1,7 +1,23 @@
 (
     title: "Smurfs Save the Day",
+    developer: Some("Rob Harris"),
+    description: Some("Three teaching games on one cart, cued by a story-and-song cassette: Harmony copies melodies note by note onto a staff, and Greedy blends colour from four spigots to match the glass above. A Toy Mode plays each without the tape, keeping no score and picking its targets at random."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/smurfs_save_day.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3AF7DAC35FA2D16A78740735A1738BF717896A27",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Coleco"),
             hardware: (

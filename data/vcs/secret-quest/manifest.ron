@@ -1,7 +1,28 @@
 (
     title: "Secret Quest",
+    developer: Some("Steve DeFrisco"),
+    description: Some("Eight alien space stations, each to be searched room by room for its secret destruct code, then blown up, with a dash to the teleporter before it goes. Oxygen drains steadily as you explore and faster as you fight, so clearing a room for the bottle it drops is as urgent as finding the next sonic key."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/secret_quest.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Secret_Quest",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/205A15C6DF86A8277000B332FBD5875CCF235168",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1989"),
             publisher: Some("Atari"),
             hardware: (

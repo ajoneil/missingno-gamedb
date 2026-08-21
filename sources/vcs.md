@@ -38,9 +38,11 @@ correct rather than a normalisation bug:
 
 ## Regional and title conventions
 
-- `~` in an entry title pairs an Atari name with its **Sears** rebadge
-  (`Miniature Golf ~ Arcade Golf`). The ROM is identical, so a dump usually
-  cannot tell you which box it came from.
+- An entry title is the game's **original English release name**, one name.
+  Every other name it shipped under — a **Sears** rebadge, a regional
+  retitling — goes on that release's `title`, never joined into the entry
+  title. A Sears ROM is identical to its Atari twin, so a dump usually cannot
+  tell you which box it came from; file it by whatever the publisher says.
 - German mail-order and rebadge labels retitle heavily: Quelle, Video Gems,
   Goliath, Videospielkassette. Atarimania's alternate-title list is the way to
   find them. Watch for a common noun standing in as a publisher —

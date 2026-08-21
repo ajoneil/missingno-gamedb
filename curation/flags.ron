@@ -1192,5 +1192,29 @@
             ],
             note: "Both dumps render a blank screen; no video frame ever completes.",
         ),
+        (
+            id: 2912,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/sentinel",
+            ],
+            note: "Requires the Atari light gun, which the emulator does not support.",
+        ),
+        (
+            id: 2913,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/shooting-arcade",
+            ],
+            note: "Requires the Atari light gun, which the emulator does not support.",
+        ),
+        (
+            id: 2914,
+            kind: EmulationIncompatibility,
+            subject: [
+                "vcs/sky-patrol",
+            ],
+            note: "Renders a blank screen; no frames are produced.",
+        ),
     ],
 )

@@ -1,9 +1,42 @@
 (
-    title: "Room Of Doom (Supercharger Conversion Hack)",
+    title: "Room of Doom",
+    description: Some("You are trapped in a chamber ringed by doors that slide open and shut with gunmen behind them: fire through an opening to pick one off, but a fully open door means they can shoot back. A monster stalks you the whole time, and once the room\'s timer runs out your bullets stop stunning it."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/room_of_doom.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7D0F39F08066D4194C2B197A0F9D12E01AE22115",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("fd243c480e769b20b7bf3e74bcd86e4ac99dab19"),
+                    artifacts: [
+                        (
+                            sha1: "aee415d5429ecc8fd2b91eff94dba346eca7f36d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -11,9 +44,7 @@
             artifacts: [
                 (
                     sha1: "19ec77e379791c22e94e70a5e5d60237937bfc25",
-                ),
-                (
-                    sha1: "aee415d5429ecc8fd2b91eff94dba346eca7f36d",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "fd243c480e769b20b7bf3e74bcd86e4ac99dab19",
@@ -21,8 +52,6 @@
             ],
         ),
         (
-            date: Some("2008"),
-            publisher: Some("Kurt Howe"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -33,6 +62,23 @@
                 ),
                 (
                     sha1: "b07fa120135082b8d23e7bbcabf1da6ee8eb2df1",
+                ),
+            ],
+        ),
+        (
+            title: Some("Room of Doom - Raum ohne Ausweg"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("CommaVid"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4be140b4e53387d280e5bf336a19d374ff314965",
                 ),
             ],
         ),

@@ -1,8 +1,29 @@
 (
-    title: "Sinistar (01-04-1984)",
+    title: "Sinistar",
+    developer: Some("Lew Harp"),
+    description: Some("Shoot at planetoids until Sinisite crystals break loose, then scoop them up before they drift away, since each one feeds the Sinibombs you will need. Warrior ships harry you while worker ships mine crystals of their own, assembling Sinistar piece by piece. Gather enough bombs and you can face it."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sinistar",
+            link_type: Wiki,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/sinistar/sinistar.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/CCF96241DBACA58317A91FAB8CB6F51C72049277",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1984"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984-01-04"),
             publisher: Some("Atari"),
             status: Prototype,
             hardware: (
@@ -15,12 +36,15 @@
                 ),
                 (
                     sha1: "9c01b7577ff3d4e74b91705db8d8c97ada331087",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "9d342c3fb5449f887fc4e452e31ffcb0c99e83cf",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "ccd50f0e4ddfae2142e4d06bee70e6084fbc4cde",
+                    label: Some("alt"),
                 ),
             ],
         ),

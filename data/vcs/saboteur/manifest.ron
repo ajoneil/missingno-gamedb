@@ -1,5 +1,18 @@
 (
-    title: "Saboteur (09-02-1983)",
+    title: "Saboteur",
+    developer: Some("Howard Scott Warshaw"),
+    description: Some("Hotot the robot must stop an alien missile launch. On catwalks above the rocket, shooting the Qotile robots ferrying parts keeps it from being finished, but the yellow Gorfons scurrying alongside are allies stealing parts back, so pick your targets. Get through undetected and the warhead assembly line is next."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/saboteur/saboteur.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FB81C10A6326F80A6D3AC75EBDA4DBB0A3F38FE2",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -12,21 +25,47 @@
             artifacts: [
                 (
                     sha1: "2d5419bfed2ccabb09fa2522edb3a84a8ceabae2",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "3394ea0e9bd79cb6ea4f0642bd07250ecb587160",
-                ),
-                (
-                    sha1: "85752ac6eb7045a9083425cd166609882a1c2c58",
-                ),
-                (
-                    sha1: "90cd987ccaffb428e53ffd98563dbbe3babd2e73",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "9cd8a49ef5b45d0f21c99a1e67bd1b0548a401e1",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "c20d42ee01bc1aef24c14b84f9b00e33b7c1bae3",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983-12-20"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "90cd987ccaffb428e53ffd98563dbbe3babd2e73",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983-09-02"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "85752ac6eb7045a9083425cd166609882a1c2c58",
                 ),
             ],
         ),

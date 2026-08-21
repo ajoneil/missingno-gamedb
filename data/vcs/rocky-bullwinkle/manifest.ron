@@ -1,8 +1,18 @@
 (
-    title: "Rocky & Bullwinkle (04-20-1983)",
+    title: "Rocky & Bullwinkle",
+    developer: Some("Stephan Crandall"),
+    description: Some("Boris is using Upsidasium to float a trainload of stolen valuables up to Natasha\'s waiting helicopter, and Rocky must fly across the screen catching them before they reach her. He can hold two treasures at once, and the screen calls for particular combinations of them."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/rocky/rocky.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            date: Some("1983-04-20"),
             publisher: Some("M Network"),
             status: Prototype,
             hardware: (

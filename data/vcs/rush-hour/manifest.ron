@@ -1,9 +1,22 @@
 (
     title: "Rush Hour",
+    developer: Some("Ben Burch"),
+    description: Some("Five car carriers have caused a jam on a five-lane highway, and you weave through the traffic to destroy them. Laser headlights clear cars ahead, though each wreck leaves indestructible debris to dodge, while a red-hot exhaust burns off anything creeping up behind. Crashes damage your car, and you only get one."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/rushhour/rushhour.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0A6C29C563266ECB1385324147363F835DAFD702",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
-            publisher: Some("Commavid"),
+            publisher: Some("CommaVid"),
             status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
@@ -12,9 +25,18 @@
             artifacts: [
                 (
                     sha1: "ba671c597ddff2819d6fd2293bbea17ae2759656",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "c11df5dda52b667485b7cd44522ac75d5e0fe24e",
+                ),
+                (
+                    sha1: "113d39db5d220bc9da64fa32b0b636ae41244727",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "f2724911503c022fc4153b5e461a1d7dba5b6402",
+                    label: Some("alt"),
                 ),
             ],
         ),

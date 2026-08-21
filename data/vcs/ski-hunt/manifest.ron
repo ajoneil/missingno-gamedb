@@ -1,0 +1,61 @@
+(
+    title: "Ski Hunt",
+    developer: Some("R.J.P.G."),
+    covers: [
+        "https://hasheous.org/api/v1/images/3AC7B67291DA60309074DC77D13D0EC019475637",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Peter Rittwage"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("936fce1ff68113fabf3f971592e98acddcab97b7"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "449585e61c0738b2fff4c6ca9c1c951a3827802e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Home Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "936fce1ff68113fabf3f971592e98acddcab97b7",
+                ),
+            ],
+        ),
+        (
+            title: Some("Mountain Man"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("ITT Family Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "07d954ebe8a639249b2185d2b45bc9216cae14e6",
+                ),
+            ],
+        ),
+    ],
+)

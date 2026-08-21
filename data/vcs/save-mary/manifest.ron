@@ -1,0 +1,65 @@
+(
+    title: "Save Mary!",
+    developer: Some("Tod Frye"),
+    description: Some("Mary is trapped in a canyon that is filling with water, and your only tools are a crane and a supply of awkwardly shaped blocks. Stack them into a platform she can climb, high enough to hoist her clear, while she panics and runs about below, where a dropped block ends the game."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/savemary/savemary.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Save_Mary",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8E0AF3C0E9FFCB0E1F8A5932D01CD654DD9F2E2A",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1989"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ecd8ef49ae23ddd3e10ec60839b95c8e7764ea27",
+                ),
+            ],
+        ),
+        (
+            date: Some("1989-04-03"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ddedcf4ffe4fc96a2870e11d9cca5fc73e93f59",
+                ),
+            ],
+        ),
+        (
+            date: Some("1991-10-24"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "44357b828b3214441d702d4912a1949951d80472",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,85 @@
+(
+    title: "Sky Jinks",
+    developer: Some("Bob Whitehead"),
+    description: Some("Race a P41 through a pylon course against the clock, passing right of the red pylons and left of the blue, with a three-second penalty for taking the wrong side. The plane banks with a deliberate delay rather than turning on the spot, and its shadow falling back beneath it is your only gauge of airspeed."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sky_jinks.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sky_Jinks",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FAC47DB613FA9CC387C68F538E158A6FB7E71E40",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "105f722dcf9a89b683c10ddd7f684c5966c8e1db",
+                ),
+                (
+                    sha1: "8e16d60d700fc7a2a021ae2b0e26438e61c3dd0c",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "2f44179acd0b731315b8d41f12a362b0a437a481",
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "198da5351b30fc7de63be55fe2d29c0bd431bb9b",
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "30b65ec3991119e821ba6a5d7190f019a8065074",
+                ),
+            ],
+        ),
+        (
+            title: Some("Sky Jinks - Wettflug gegen die Zeit"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dccde9899bdc063e77a99105131e3914181d72ad",
+                ),
+                (
+                    sha1: "c3342fcd4ebe5c77b75b7b946fcd0717d83f49f7",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+    ],
+)

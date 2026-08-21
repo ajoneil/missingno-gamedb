@@ -1,8 +1,30 @@
 (
     title: "Sentinel",
+    developer: Some("David Lubar"),
+    description: Some("Your invention, a glowing orb called the Sentinel, glides steadily across four hostile worlds, and you clear its path by shooting. Hit the power pods and energy capsules ahead of it so it can absorb them, and pick off the aliens diving in to steal its energy: miss one twice and the energy drains."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sentinel_(1990_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sentinel.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Sentinel%20(USA).png",
+        "https://hasheous.org/api/v1/images/31C8E507DC3E2244CF7C7E2D4A202EFC9EA96781",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1991"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1990"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),

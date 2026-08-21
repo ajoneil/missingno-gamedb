@@ -1,0 +1,60 @@
+(
+    title: "Slot Racers",
+    developer: Some("Warren Robinett"),
+    description: Some("Two cars hunt each other through a maze, firing missiles from their headlights and scoring a point per hit. Turning only works while the car is moving, so braking pins you in place, and a missile can be steered after it leaves the car. Nine variations change car speed, missile speed and the paths missiles take."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/slot_racers.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Slot_Racers",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/14A865A05B897E0FAF646B730BF31B5827251011",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a2b13017d759346174e3d8dd53b6347222d3b85d",
+                ),
+                (
+                    sha1: "05f8d0e9f9bec192dfe5947965039817c8c390df",
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            date: Some("1978"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8af04974a997a7eb72c489e69f8131d65de03b1d",
+                ),
+                (
+                    sha1: "db1eccfe1601f9c2a5cd7a1df8147872008b8d1d",
+                    label: Some("32-in-1"),
+                ),
+            ],
+        ),
+    ],
+)

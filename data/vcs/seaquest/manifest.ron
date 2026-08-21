@@ -1,7 +1,78 @@
 (
     title: "Seaquest",
+    developer: Some("Steve Cartwright"),
+    description: Some("Dive to collect the treasure-divers stranded below, dodging killer sharks and enemy submarines, then surface before your oxygen runs out. Come up with a full six aboard and every rescue scores; come up short and you lose a diver anyway. Each round the sea grows rougher and everything down there moves faster."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/seaquest.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Seaquest_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/82C243ED548262AE16C6CD6E25BF61B60B977585",
+    ],
+    mods: [
+        (
+            name: "Trainer",
+            category: QualityOfLife,
+            author: Some("Steve Engelhardt"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("7324a1ebc695a477c8884718ffcad27732a98ab0"),
+                    artifacts: [
+                        (
+                            sha1: "77501a5b1945693ad72e2789a6ce0c1198327709",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Dragon Wing",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("7324a1ebc695a477c8884718ffcad27732a98ab0"),
+                    artifacts: [
+                        (
+                            sha1: "686a35a61421ee32135491dd675c8c0a5f07e3c9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Wings of Death",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("7324a1ebc695a477c8884718ffcad27732a98ab0"),
+                    artifacts: [
+                        (
+                            sha1: "765831a6ad76a47a3094d481b7f727211f64f02f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
@@ -11,43 +82,26 @@
             artifacts: [
                 (
                     sha1: "57d5356698c99fb942db510592af56ca6fccd3dc",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "7324a1ebc695a477c8884718ffcad27732a98ab0",
                 ),
                 (
                     sha1: "9ba796889c493f05010ef18d10dfa4faa2efca23",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "ad48839a8ae14810191f252a0db09730a348904a",
-                ),
-                (
-                    sha1: "b3b3ac08ebfbf8cab322ee548d9e1aec0f1c1f7f",
-                ),
-                (
-                    sha1: "c26e1dacf3dde23c45a08bfe10bf11c135fe4570",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "cc304fe1965ff83fad6daecb4499e1705b374846",
+                    label: Some("alt"),
                 ),
-                (
-                    sha1: "e093ed74edb7e40b009caba3ef313ca6646c5574",
-                ),
-                (
-                    sha1: "ed0dd424cd9d0008f456e2a353671bb8fbb9c61b",
-                ),
-            ],
-        ),
-        (
-            date: Some("1983"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
                 (
                     sha1: "da10cfce68db2e0ed2ebeddbecd36a73a8d04f24",
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -64,6 +118,102 @@
                 ),
                 (
                     sha1: "9f9ffba1f5f696952821624a9ce593bf63879b50",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b434940d28cf8fe001e287c447e41e24d433ee4",
+                ),
+            ],
+        ),
+        (
+            title: Some("Seaquest - Rettung aus der Tiefe"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2abcd573750dd228ec7714a70ce500866beecc65",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("Dynacom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b3b3ac08ebfbf8cab322ee548d9e1aec0f1c1f7f",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Dinatronic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c26e1dacf3dde23c45a08bfe10bf11c135fe4570",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ed0dd424cd9d0008f456e2a353671bb8fbb9c61b",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e093ed74edb7e40b009caba3ef313ca6646c5574",
                 ),
             ],
         ),

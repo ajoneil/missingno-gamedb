@@ -1,0 +1,37 @@
+(
+    title: "3-D Rubik\'s Cube",
+    developer: Some("Peter C. Niday"),
+    description: Some("A Rubik\'s Cube rendered in rotating 3-D: turn the whole cube to bring a face into view, pick that face, then twist its slice, working the scrambled colours back to six solid sides. A cheat mode recolours squares directly, and a solve mode walks through the rotations one step at a time."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/3d_rubiks_cube.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/3drubikscube/3drubikscube.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1A80CF16EBBA8FD99D85CD8A03B5645917C3E033",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cb3bb28bc4f08313ea8ed9ff395ca34271d3c499",
+                ),
+            ],
+        ),
+    ],
+)

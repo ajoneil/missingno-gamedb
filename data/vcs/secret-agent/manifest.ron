@@ -1,13 +1,31 @@
 (
     title: "Secret Agent",
+    description: Some("A stream of spy booty — cash, suitcases, capsules — tumbles from above, and your agent runs back and forth beneath it to catch what he can. Grenades, guns and bugs fall among it, and one of those gets him captured. When the tone sounds, line up with a boat on the lake below and hand the evidence off."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/secretagent/secretagent.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1EA5B827F5DE28413F89C26A229C03769F6ECA00",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Data Age"),
             status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (

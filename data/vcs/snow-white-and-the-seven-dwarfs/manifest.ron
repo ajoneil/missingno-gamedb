@@ -1,7 +1,23 @@
 (
     title: "Snow White and the Seven Dwarfs",
+    developer: Some("Greg Easter, Mimi Nyden"),
+    description: Some("The Seven Dwarfs set out through the enchanted forest to find Prince Charming before the Queen reaches Snow White with the poisoned apple, a timer at the top tracking her approach. Seven dwarfs means seven attempts, and the quest starts underground in the diamond mine."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/snowwhite/snowwhite.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A860D8ED07FE2FB0D3A190140F50CA96EA5092E0",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             status: Prototype,
@@ -12,6 +28,20 @@
             artifacts: [
                 (
                     sha1: "5c968c6dc0db6564f4ea83a543c0bd7c3efd1032",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983-02-09"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2c35fd54cd18e1a8b4eb26126875cb0cf8a58b19",
                 ),
             ],
         ),

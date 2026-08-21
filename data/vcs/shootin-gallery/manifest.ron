@@ -1,0 +1,48 @@
+(
+    title: "Shootin\' Gallery",
+    developer: Some("Dennis Koble"),
+    description: Some("A carnival gallery of hopping, crawling and chugging targets, shot from a fixed 64-round supply. Hitting the bottom row wins extra shots, and the caboose on the passing train pays big. Ding the clock in time or a cuckoo makes off with your ammunition, while everything you hit moves faster."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/shootin_gallery.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/14C86FD696A7D6C207AA64457E5AE4F6CED50F28",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "cfb4b41e318c7cd0070e75e412f67c973e124d8e",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "25a280afdf057a070b1c1e48a91a4bd77e0068a4",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,95 @@
+(
+    title: "Solaris",
+    developer: Some("Doug Neubauer"),
+    description: Some("A galactic map of sixteen quadrants to hyperwarp across, hunting for the lost planet Solaris and the Federation pioneers stranded on it. Zylon fleets besiege Federation planets while you fly sector to sector on dwindling fuel; leave a flashing planet undefended and it is destroyed, and a lost quadrant turns into a Red Zone."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Solaris_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/solaris.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2E48A8B586BC5EC695E3230CAF8C9CD023153229",
+    ],
+    mods: [
+        (
+            name: "Trainer",
+            category: QualityOfLife,
+            author: Some("Chris Larkin"),
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("33b16fbc95c2cdc52d84d98ca471f10dae3f9dbf"),
+                    artifacts: [
+                        (
+                            sha1: "a40592a494fd07bc0d17d6045f3339cbcdef9a4f",
+                        ),
+                        (
+                            sha1: "cab7ba76dbc7ef475fa03cdd9f46106438a136ca",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1986"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33b16fbc95c2cdc52d84d98ca471f10dae3f9dbf",
+                ),
+                (
+                    sha1: "5d703d25ef81c41372ba93cd72973e19fa138b87",
+                ),
+            ],
+        ),
+        (
+            date: Some("1986"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "260aac37ff3d6152209c24efe82669fe871a1342",
+                ),
+            ],
+        ),
+        (
+            title: Some("The Last Starfighter"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ae05ee1954db2a1a586a5922b210622d8063d12",
+                ),
+            ],
+        ),
+    ],
+)

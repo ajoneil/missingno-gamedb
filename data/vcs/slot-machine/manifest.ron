@@ -1,6 +1,40 @@
 (
     title: "Slot Machine",
+    developer: Some("David Crane"),
+    description: Some("A one-armed bandit with up to five paylines, played by one or two gamblers each betting from their own bank of coins. Wager up to five coins a spin and collect on whichever lines come up matching. Eight machine playfields vary the number of players and paylines."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/slot_machine.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Slot_Machine_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/17A109CDA281DDE603006B0189920445E71BC7C2",
+    ],
+    curated: true,
     releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7239d1c64f3dfc2a1613be325cce13803dd2baa5",
+                ),
+            ],
+        ),
         (
             date: Some("1979"),
             publisher: Some("Atari"),
@@ -11,9 +45,18 @@
             artifacts: [
                 (
                     sha1: "2f7af671265b4d8406b98c69154306b58e2bd488",
+                    label: Some("32-in-1"),
                 ),
                 (
                     sha1: "8e11f980fc0ab133e8096fd1d4eb73da152f82e5",
+                ),
+                (
+                    sha1: "5adb7c670faa9d6a9ca04ee50f365f9405686889",
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "6f722fd50e836203959f670a374724bdf4697d8e",
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -26,13 +69,8 @@
             ),
             artifacts: [
                 (
-                    sha1: "5adb7c670faa9d6a9ca04ee50f365f9405686889",
-                ),
-                (
-                    sha1: "6f722fd50e836203959f670a374724bdf4697d8e",
-                ),
-                (
                     sha1: "b908849e80e84667798f6e08c0aa671dddcc34cf",
+                    label: Some("alt"),
                 ),
             ],
         ),

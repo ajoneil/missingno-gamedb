@@ -1,7 +1,87 @@
 (
     title: "Robot Tank",
+    developer: Some("Alan Miller"),
+    description: Some("Twelve squadrons of twelve enemy robot tanks roll across a battlefield you watch through your own tank\'s electronic eye. A military clock turns sunrise to darkness while fog, rain and snow close in. Enemy hits knock out your video, cannons, radar or treads one at a time, and damage is never repaired."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/robot_tank.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Robot_Tank",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0D1B08A591E39F9356FDC4EF7A20855AC9401A6A",
+    ],
+    mods: [
+        (
+            name: "Hack (Wade Casaldi)",
+            category: ContentChange,
+            author: Some("Wade Casaldi"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("21a3ee57cb622f410ffd51986ab80acadb8d44b7"),
+                    artifacts: [
+                        (
+                            sha1: "c0adb44d9f888079a1efe1715db1675c855b7a9d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Robot Tank TC",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=50",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("21a3ee57cb622f410ffd51986ab80acadb8d44b7"),
+                    artifacts: [
+                        (
+                            sha1: "ae142dfd082b6336b1eff4426ab4169b7ee6e343",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "F8 conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("21a3ee57cb622f410ffd51986ab80acadb8d44b7"),
+                    artifacts: [
+                        (
+                            sha1: "0fb4f5ccde82ecbecec319db43d171293cf54f36",
+                        ),
+                        (
+                            sha1: "8c539af3f35169187849bdab3df8acdcc288e438",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Activision"),
             hardware: (
@@ -23,6 +103,23 @@
             artifacts: [
                 (
                     sha1: "2333bc875ce8fffe7c755c748856c07d079db45c",
+                ),
+            ],
+        ),
+        (
+            title: Some("Robot Tank - Rebellion der Roboter"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "413341c947157197ad4c9dd3cef7d0da7b2e9361",
                 ),
             ],
         ),

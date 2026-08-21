@@ -1,0 +1,60 @@
+(
+    title: "Skeet Shoot",
+    developer: Some("Ed Salvo"),
+    description: Some("Call for the clay pigeon, then fire as it climbs away at an angle you did not choose. The gun aims wherever you point it, straight or diagonal, and there are seventeen variations to work through, with the difficulty switch deciding how fast the pigeons fly."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/skeet_shoot.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Skeet_Shoot",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/CE46BFC24F84DC81437F8A9F51944F5AA3A5A3C7",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1981"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "180850fdd611f4d6aa58a378e87fe952ce3f7eb5",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "5ea6d2eb27c76e85f477ba6c799deb7c416ebbc3",
+                ),
+                (
+                    sha1: "5a8dc6853389a9fe3ce445f10364a51d9e8f5ea8",
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            date: Some("1981"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9c5714f5809fae2b246c989fc5d8fcaeca9ece74",
+                ),
+            ],
+        ),
+    ],
+)

@@ -9,13 +9,24 @@
             link_type: Wiki,
         ),
         (
-            name: "Manual",
+            name: "Manual (Rubik\'s Cube)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/rubiks_cube.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/rubikscube/rubikscube.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (Atari Video Cube)",
             url: "https://www.ataricompendium.com/archives/manuals/vcs/atari_video_cube.pdf",
             link_type: Manual,
         ),
     ],
     covers: [
         "https://hasheous.org/api/v1/images/EF36DA0F2FEEEDC0982A80C82CC99576848372B4",
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Rubik\'s%20Cube%20(USA).png",
     ],
     mods: [
         (
@@ -58,6 +69,23 @@
                 (
                     sha1: "ac141bb18cacc5d197ff4f9b5bef18683c989474",
                     size: Some(4096),
+                ),
+            ],
+        ),
+        (
+            title: Some("Rubik\'s Cube"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ad2310ff6548d2972e2104f1095792b10a58f606",
                 ),
             ],
         ),

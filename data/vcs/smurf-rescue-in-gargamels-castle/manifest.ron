@@ -1,0 +1,69 @@
+(
+    title: "Smurf: Rescue in Gargamel\'s Castle",
+    developer: Some("Henry Will IV"),
+    description: Some("Gargamel has Smurfette trapped on a shelf in his laboratory, and Smurf must cross fields, woods and caverns to reach her, climbing mountains and ducking the hawks, snakes, bats and spiders sent to stop him. Inside the castle the climb finishes bench to table to chair to shelf."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/smurf.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Smurf:_Rescue_in_Gargamel%27s_Castle",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Smurf%20-%20Rescue%20in%20Gargamel%27s%20Castle%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "530c7883fed4c5b9d78e35d48770b56e328999a3",
+                ),
+                (
+                    sha1: "7f8a9c064d33e701787e4afb84d486d19d259ab4",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Coleco"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2168213f85bca85e1c1541b947a5f168b7400a44",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3ef7797be6b49b1615ac5600fbcb3e74cd425339",
+                ),
+            ],
+        ),
+    ],
+)

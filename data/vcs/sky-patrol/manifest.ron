@@ -1,7 +1,23 @@
 (
     title: "Sky Patrol",
+    developer: Some("Brad Stewart"),
+    description: Some("A hot air balloon on a launch pad: raise the burner flame to fill the envelope and climb, let the air out to come down. A red bar shows the flame and a green one the fuel it is burning through, and when the fuel runs dry the balloon can only hover, drifting wherever the wind takes it."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/skypatrol/skypatrol.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/055D67D73523B0A3B9F9B16840CD88482806A0B6",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             status: Prototype,

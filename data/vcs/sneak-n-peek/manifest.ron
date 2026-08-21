@@ -1,7 +1,23 @@
 (
-    title: "Sneak \'n Peek",
+    title: "Sneak\'n Peek",
+    developer: Some("Garry Kitchen, Paul Willson"),
+    description: Some("Hide and seek around a spooky house of four scenes, living room, two bedrooms and the yard, with five hiding places in each. One player covers their eyes while the other slips away and vanishes into a hiding spot, then the roles swap and the clock decides who searched faster."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sneak_peek.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2CC250619D7887B248FB0CE0E828DC49CC91BFD4",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("U.S. Games Corporation"),
             hardware: (
@@ -23,6 +39,23 @@
             artifacts: [
                 (
                     sha1: "40fd75379734b75518d875a70231fa64db4afb5b",
+                ),
+            ],
+        ),
+        (
+            title: Some("Sneak \'n Peek - Der Unsichtbare"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Carrere Video"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "29f232a117a873dd9b0022f9e9e179b69920bcde",
                 ),
             ],
         ),

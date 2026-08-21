@@ -1,5 +1,22 @@
 (
     title: "Sea Monster",
+    developer: Some("Bit Corporation"),
+    description: Some("Pollution has bred monsters in the sea, and they swim at three different depths beneath your ship. Steer along the surface, line up above one and drop a bomb on it. The middle depth scores highest, and every thousand points earns you another ship, up to a maximum of nine."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sea_monster.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                German,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E0C99F492F1B7BE980BAC3ACAECAA0850E7B0D98",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),
@@ -24,12 +41,46 @@
             artifacts: [
                 (
                     sha1: "5faf2e37d86ebd84ff069df20be0e6258edf0f0c",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "c2f43f35d95797c06a581654406256c72e422ba4",
                 ),
                 (
                     sha1: "eebbf7052cda551e5612845037cf0f21a40f2265",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "35bc269a0412c7874db28b3c24cba0c3a8d0d0d1",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("O Monstro Marinho"),
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0fac0c8611fbe2803b2a95d0328260d1c03a4c8b",
+                ),
+            ],
+        ),
+        (
+            title: Some("Monstre des Mers"),
+            date: Some("1982"),
+            publisher: Some("Puzzy"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b5ae563630beb11f51ee5a244f132481bf84573",
                 ),
             ],
         ),

@@ -1,5 +1,22 @@
 (
     title: "Snail Against Squirrel",
+    developer: Some("Bit Corporation"),
+    description: Some("A squirrel hoarding nuts for winter: pick ripe ones from the trees below and carry them up to the cave at the top, five to a cave. Only one nut travels at a time, and a snail met head-on costs you it, but walk into a snail from behind and it is destroyed."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/snail_against_squirrel.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                German,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/34F10E82E9EAA96E3537AE6DF62175C02B21181A",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -15,6 +32,8 @@
             ],
         ),
         (
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -22,9 +41,31 @@
             artifacts: [
                 (
                     sha1: "11726fb712dd6526f8d096dfac608a370bbfbf78",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "e7bf450cf3a3f40de9d24d89968a4bc89b53cb18",
+                ),
+                (
+                    sha1: "3061b7aa4d010f67057b1cc606a18e6f1ae7e1ee",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("O Esquilo"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "87abe4ab10c9a7ca5c55d7a34a3181bbde0b0a90",
                 ),
             ],
         ),
