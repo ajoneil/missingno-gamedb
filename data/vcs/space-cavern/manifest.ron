@@ -1,7 +1,55 @@
 (
     title: "Space Cavern",
+    developer: Some("Dan Oliver"),
+    description: Some("You land a star-cruiser on a planet whose caverns are home to Electrosauri, horned beasts that rain electro-molecular charges down on your lone spaceman. Your laser fires straight up at them, but shaggy marsupods come rushing from the caves either side, and meeting those means pivoting to face left or right and loosing a disrupter ray instead."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/space_cavern.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Space_Cavern",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Space%20Cavern%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Bazooka Bill",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://www.atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=110",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("b757b883ee114054c650027f3b9a8f15548cbf32"),
+                    artifacts: [
+                        (
+                            sha1: "77106f6ca4ab21a789b60cf7200cc92169ff380e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Apollo"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,9 +57,48 @@
             artifacts: [
                 (
                     sha1: "4548ed2a7ece1f908f44e637e042b3cb8d97a9d2",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "b757b883ee114054c650027f3b9a8f15548cbf32",
+                ),
+            ],
+        ),
+        (
+            title: Some("Les Guerriers de l\'Espace"),
+            regions: [
+                France,
+            ],
+            date: Some("1983"),
+            publisher: Some("RCA Vidéo Jeux"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a46a611f1b445c9444aafa9c24c1ec291c9ed1a7",
+                ),
+                (
+                    sha1: "e70489d5e17c97bfcab2fe617e085247bde50675",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Space Canyon"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Panda"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "26c6c47e9b654e81f47875c5fcb4e6212125f329",
                 ),
             ],
         ),

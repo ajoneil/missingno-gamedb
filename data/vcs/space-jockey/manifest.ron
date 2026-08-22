@@ -1,5 +1,22 @@
 (
     title: "Space Jockey",
+    developer: Some("Garry Kitchen (James Wickstead Design Associates)"),
+    description: Some("You fly an Attack Saucer down the left of the screen while tanks, jet planes, prop planes and helicopters stream in from the right, all of them shooting back. Balloons, houses and trees hold their fire but wreck you on contact. Shoot what you can, dodge the rest, and every thousand points buys another saucer."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/space_jockey.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Space_Jockey_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8F11D4B77446C4F8208B5381100515CF5F02C484",
+    ],
     mods: [
         (
             name: "Laser Blast Redux",
@@ -15,8 +32,14 @@
             ],
         ),
     ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("U.S. Games Corporation"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
@@ -28,10 +51,14 @@
                 (
                     sha1: "5bdd8af54020fa43065750bd4239a497695d403b",
                 ),
+                (
+                    sha1: "a98b4298981dc9385fb9e7d5575e5e5cada42d9c",
+                    label: Some("2K dump padded to 4K"),
+                    defect: Some(Overdump),
+                ),
             ],
         ),
         (
-            publisher: Some("4K"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -40,12 +67,12 @@
                 (
                     sha1: "74d1ae92e96b4eacb63a242bd3fb70a356f8fa8d",
                 ),
-                (
-                    sha1: "a98b4298981dc9385fb9e7d5575e5e5cada42d9c",
-                ),
             ],
         ),
         (
+            regions: [
+                France,
+            ],
             date: Some("1983"),
             publisher: Some("Carrere Video"),
             hardware: (
@@ -58,6 +85,23 @@
                 ),
                 (
                     sha1: "caef22bc0ea07040bb16e9c300ca74c287f96660",
+                    label: Some("from the 208-in-1 multicart"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("U.S. Games Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dcdf2fe2e363267181fb37688cd78fa8bcb9b0d3",
                 ),
             ],
         ),

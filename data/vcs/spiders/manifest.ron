@@ -1,7 +1,19 @@
 (
-    title: "Spiders (4)",
+    title: "Spiders",
+    description: Some("Spiders crawl from their cocoons and descend on your rocket, and every one that reaches the ground lays another segment of the Red Spider Bridge. Complete that bridge and your rocket is destroyed, so the job is shooting them out of the air first. Three rockets stand between you and the swarm."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/spiders.pdf",
+            link_type: Manual,
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("UA Limited"),
             hardware: (
@@ -11,6 +23,7 @@
             artifacts: [
                 (
                     sha1: "cc4a3ee2970e3bf853a5ab7900dcc8c23672864b",
+                    label: Some("prototype build"),
                 ),
             ],
         ),

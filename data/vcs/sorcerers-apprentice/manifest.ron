@@ -1,0 +1,86 @@
+(
+    title: "Sorcerer\'s Apprentice",
+    developer: Some("Peter C. Niday, Dave Joly, Robert Vieira"),
+    description: Some("Falling stars turn into brooms that fill a cavern with water, and Mickey has to keep it from flooding. On the mountains you catch stars in the sorcerer\'s hat or burst them with fireballs, and hitting a meteor yields two empty buckets. Slip down to the cavern and you stop brooms by running into them."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sorcerers_apprentice.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/sorcerersapp/sorcerersapp.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sorcerer%27s_Apprentice_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6294CD2F6900AF986F9B1907A71AE7349B6F14DA",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "73335561c65984d722d77b424221da7d302b241d",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "ae3009e921f23254bb71f67c8cb2d7d6de2845a5",
+                ),
+                (
+                    sha1: "5df004890ce6d8af1986d3c7c2934f7aa85159b9",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "33f2c1454f28974d0e1f67ef2ce216c9cf8202c8",
+                ),
+                (
+                    sha1: "72327fa864c505fab59e8c0c305c2473054ccec1",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Mickey"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1984"),
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6d4a94c2348bbd8e9c73b73d8f3389196d42fd54",
+                ),
+            ],
+        ),
+    ],
+)

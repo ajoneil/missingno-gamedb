@@ -1,0 +1,51 @@
+(
+    title: "Space Tunnel",
+    description: Some("Hunting a new planet, you stray into a tunnel where UFOs surface above and below you, firing shots that ricochet off the side walls. Your bomb flies whichever way your craft points, so aiming means turning. Brushing a wall or a UFO costs a ship, and the colour of the walls tells you what the next kill is worth."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/space_tunnel.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                German,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0A0E105DFB31F63A6E2DED257848382AE46CE487",
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("Space Tunnel - Le Tunnel de L\'Estace"),
+            regions: [
+                Canada,
+            ],
+            date: Some("1982"),
+            publisher: Some("Puzzy"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a49bf74e006867b4bdd6c0e1a7af76cdad8b76ee",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Puzzy"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9a2c8ab7a3d0a4dfa18fc14f31a4082c3958db71",
+                ),
+            ],
+        ),
+    ],
+)

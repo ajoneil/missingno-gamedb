@@ -1,0 +1,69 @@
+(
+    title: "Spacechase",
+    developer: Some("Ed Salvo"),
+    description: Some("Alien raiders pour in above the craters and mountains of the moon, and your Starcruiser answers them from the bottom third of the screen, where it is penned. A replacement cruiser arrives only every ten thousand points. As the fight wears on the enemy grows desperate and their heat-seeking missiles come thicker."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/spacechase.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Spacechase",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/18360E898544612DAA2EC2F72FE4512E9E3C6433",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b356294e35827bf81add95fee5453b0ca0f497ad",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "90ad496340ff00b245412872e06259234984707a",
+                ),
+            ],
+        ),
+        (
+            label: Some("Monogrammed Edition"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Apollo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "9d3184a7faf716a1d80cc3de90d56001f100678e",
+                ),
+            ],
+        ),
+    ],
+)

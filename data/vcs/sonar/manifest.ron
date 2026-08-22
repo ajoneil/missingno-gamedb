@@ -1,5 +1,19 @@
 (
     title: "Sonar",
+    description: Some("Two players race in real time to find the ships the computer has hidden on a grid, dropping depth charges square by square and listening to sonar pings for a fix. Each hit scores five points and the highest score wins once every ship is found; sixteen variations add charge limits, miss penalties, unmarked squares and mines."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/sonar/sonar.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Manual (game variations)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sonar.pdf",
+            link_type: Manual,
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1979"),

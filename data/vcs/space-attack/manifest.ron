@@ -1,7 +1,53 @@
 (
     title: "Space Attack",
+    developer: Some("Hal Finney, Bruce Pederson"),
+    description: Some("Alien fleets creep across a radar display toward the rectangle hiding your Mother Ship, and you send out squadrons to intercept them. Committing one turns the screen into a dogfight seen down a laser gunsight, where you lead the target and your shots converge where the sight was when you fired. Lose every squadron and the Mother Ship falls."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/space_attack.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Space_Battle",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Space%20Attack%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "X-Wing Command",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SoftwareHackID=207",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("560563613bc309a532d611f11a1cf2b9af1e2f16"),
+                    artifacts: [
+                        (
+                            sha1: "d1aaf92aa0331635a4fa025806bf44fb45547f96",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (

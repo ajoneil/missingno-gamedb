@@ -1,7 +1,50 @@
 (
     title: "SpaceMaster X-7",
+    developer: Some("David R. Lubar"),
+    description: Some("Hyperion bases sit inside a pulsing force field with gaps in it, and your assault ship has to thread one to get close. Hold fire and you stop dead, which is how you shoot from inside. Stray into the field or a shield and you lose a ship; a missile that hits the field feeds the base energy instead."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/spacemaster_x7.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E474E6190A3DFB460EC43C9971FE0852D8AE5137",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("983b1aff97ab1243e283ba62d3a6a75ad186d225"),
+                    artifacts: [
+                        (
+                            sha1: "6d4cf636d8626edc6a642c13ae275e67a7bcc688",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    base_sha1: Some("983b1aff97ab1243e283ba62d3a6a75ad186d225"),
+                    artifacts: [
+                        (
+                            sha1: "e33dcc11d8e84a6ee8ad3b818335e36bcb486dd2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Fox Video Games"),
             hardware: (
@@ -11,6 +54,7 @@
             artifacts: [
                 (
                     sha1: "3bbfa9335d82d2c268f42cce743083c679cfdeb8",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "983b1aff97ab1243e283ba62d3a6a75ad186d225",
@@ -25,6 +69,10 @@
             artifacts: [
                 (
                     sha1: "a278f142b4fcae227ef9147f12fcb894829d1a39",
+                ),
+                (
+                    sha1: "0800fd2c2919b779f0e9835702cb33e97268b73a",
+                    label: Some("alt"),
                 ),
             ],
         ),

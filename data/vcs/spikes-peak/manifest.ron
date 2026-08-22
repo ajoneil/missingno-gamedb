@@ -1,7 +1,21 @@
 (
     title: "Spike\'s Peak",
+    description: Some("Spike climbs five screens from the meadows up through rocky ledges and snowfield to the summit, dodging diving eagles, bears, rockslides and ice patches on the way. A bar under the score is his body heat, and it shrinks the higher and colder he gets — reach the peak before it runs out, grabbing gold nuggets and ice diamonds as you go."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/spikes_peak.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E1C6521DAB6F6F219B88A993743C9CA8B74D6290",
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Xonox"),
             hardware: (
@@ -24,6 +38,7 @@
             artifacts: [
                 (
                     sha1: "3b9868cf925a5e5ee5ddee5f2582d5e1899dade2",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "6bf52bd85e251bed8aa8e04e2fd2f1bcc41ea986",

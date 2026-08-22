@@ -1,0 +1,85 @@
+(
+    title: "Space Shuttle - A Journey into Space",
+    developer: Some("Jessica Stevens"),
+    description: Some("A full shuttle mission flown in stages: launch, stabilise your orbit, rendezvous with a tumbling satellite 210 nautical miles up, then deorbit, reenter and land. Docking is the scoring move, and the satellite is programmed to wobble worse after each success. Your rank at the end is set by dockings made and fuel left."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/space_shuttle.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Space_Shuttle:_A_Journey_into_Space",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/93621649D8DD687426BA210A9A76EBE453F9F833",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "bcec5a66f8dff1a751769626b0fce305fab44ca2",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "8c905ec69e8831c18addc5f72a47323cd24c17bd",
+                ),
+            ],
+        ),
+        (
+            title: Some("Space Shuttle - Eine Reise ins All"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Ariolasoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e9cd06cba4d79a9bc04faf79977b01d4947f935",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Activision"),
+            hardware: (
+                tv_format: Some(Secam),
+                cart_type: Some("FE"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2e1510eaa9b58d7e0f3b58b26267c8ccd1614e3c",
+                ),
+            ],
+        ),
+    ],
+)

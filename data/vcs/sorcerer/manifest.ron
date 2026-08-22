@@ -1,12 +1,32 @@
 (
     title: "Sorcerer",
+    developer: Some("Bruce De Graaf"),
+    description: Some("Evil Wizards send wave after wave of creatures to wipe out the good Sorcerers, and you are the one asked to stop them. You fire in whatever direction you are facing, and every creature you overcome yields a treasure. Catch the elusive Flying Platform and you can move anywhere on screen; lose it and you are back to running left and right."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sorcerer.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/492BB478C6632BB300B73D2B46E0A0A5A30B146D",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Mythicon"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Joystick,
+                    Trackball,
+                ],
             ),
             artifacts: [
                 (
@@ -14,6 +34,7 @@
                 ),
                 (
                     sha1: "b86dbb2e72b1d3c554b064b1931adfb3118d796d",
+                    label: Some("alt"),
                 ),
             ],
         ),

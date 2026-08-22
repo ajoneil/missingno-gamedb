@@ -1,7 +1,28 @@
 (
     title: "Space War",
+    developer: Some("Ian Shepard"),
+    description: Some("Two star ships duel across a galaxy, turning to aim their noses and firing from a supply of eight missiles while thrust and hyperspace jumps burn fuel. Where you fight changes everything: edges that bounce you back or wrap you around, a sun whose gravity drags you in, a starbase at the centre to dock with and resupply."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Space_War",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/space_war.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/ACE5A852027EA57FE861907C2A5180D6071D6153",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1978"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,18 +33,22 @@
                 (
                     sha1: "23510ba617431097668eaf104aa1e36233173093",
                 ),
-            ],
-        ),
-        (
-            date: Some("1978"),
-            publisher: Some("Atari"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "334272d37c03a7f56234ecc4f3ec653ba32f8981",
+                    label: Some("2K dump padded to 4K"),
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "ea715fa33c8d5591126e21a37e5cea3c4d7dd255",
+                    defect: Some(BadDump),
+                ),
+                (
+                    sha1: "f384a813fb235b7586e93afa46a1d8c4e3105c50",
+                    defect: Some(BadDump),
+                ),
+                (
+                    sha1: "9d8fd415d09294a64f8fdf11525c69351f531871",
+                    label: Some("alt"),
                 ),
             ],
         ),
@@ -40,22 +65,25 @@
                 ),
                 (
                     sha1: "9db15e10cea799b69e0a7d890924c7391fd2ca45",
+                    label: Some("from the 32-in-1 multicart"),
                 ),
                 (
                     sha1: "f8573a9782adc2f170eb8ad6a50c36bba7795a5b",
+                    label: Some("from the 208-in-1 multicart"),
+                ),
+                (
+                    sha1: "33a8ebc9d048b468017285c7a7a88e0072c9fa34",
+                    label: Some("padded to 4K"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
         (
-            publisher: Some("4K"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
-                (
-                    sha1: "33a8ebc9d048b468017285c7a7a88e0072c9fa34",
-                ),
                 (
                     sha1: "f3de1161861e3ad8c742079b73a71765fd8bec62",
                 ),

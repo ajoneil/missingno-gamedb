@@ -1,7 +1,48 @@
 (
     title: "Spider-Man",
+    developer: Some("Laura Nikolich"),
+    description: Some("The Green Goblin has wired the city\'s skyscrapers with bombs, and Spider-Man climbs to defuse them on web lines he fires himself. Hold the shot longer for a longer web, but land its end on a window or open sky and he drops. Web fluid drains as you climb, and capturing criminals and bombs is what tops it back up."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/spider-man.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Spider-Man_(1982_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Spider-Man%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("912c5f5571ac59a6782da412183cdd6277345816"),
+                    artifacts: [
+                        (
+                            sha1: "2feca4ab24865c42750e3a7c3a6a9fa23de0a9e3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Parker Brothers"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -9,6 +50,7 @@
             artifacts: [
                 (
                     sha1: "5b20f1f5c9ed62b9cdaf94172c10e55b3925b8fb",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "912c5f5571ac59a6782da412183cdd6277345816",
@@ -16,6 +58,8 @@
             ],
         ),
         (
+            date: Some("1982"),
+            publisher: Some("Parker Brothers"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -23,9 +67,30 @@
             artifacts: [
                 (
                     sha1: "165fae15c6d6f00734b5ed4739239237c62b8e31",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "6445fb2f6bbcc84468af78405570628dde97365c",
+                ),
+            ],
+        ),
+        (
+            title: Some("Spiderman"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "56c862f7c5a28c805b242bc8f2e96bb5060c7a39",
+                ),
+                (
+                    sha1: "fd0b244869f9521a8ff621d59e220f33f0526536",
                 ),
             ],
         ),
