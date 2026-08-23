@@ -1,7 +1,62 @@
 (
     title: "Spy Hunter",
+    developer: Some("Jeff Lorenz"),
+    description: Some("Your spy car rolls out of a Weapons Van onto a branching road and, later, a stretch of water, gunning down enemy agents or ramming them off the tarmac — the bulletproof Road Lord only goes down to a ram. Each new terrain brings the van back with a fresh weapon: machine guns and missiles ahead, or a smoke screen and oil slick behind."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/spy_hunter.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Spy_Hunter",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6D5772BD276297FB98758164219E93D6E7F2AF84",
+    ],
+    mods: [
+        (
+            name: "Black Road",
+            category: ContentChange,
+            author: Some("KevinMos3"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("1d0acf064d06a026a04b6028285db78c834e9854"),
+                    artifacts: [
+                        (
+                            sha1: "3c530cd9efd7145e741ace08c62b84a482545307",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Dark Gray Road",
+            category: ContentChange,
+            author: Some("KevinMos3"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("1d0acf064d06a026a04b6028285db78c834e9854"),
+                    artifacts: [
+                        (
+                            sha1: "48ae9aaee8dde8a6ca7dc877134b74e6549b01a1",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("SEGA"),
             hardware: (

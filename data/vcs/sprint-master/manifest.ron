@@ -1,0 +1,143 @@
+(
+    title: "Sprint Master",
+    developer: Some("Robert C. Polaro"),
+    description: Some("Overhead racing over blacktop, dirt and ice tracks. Blue boxes restore traction — you want them most on ice — and red boxes give a burst of speed, while a tar slick unpredictably speeds you up or slows you down; scrape a wall and you lose time, and the fastest car over the chosen lap count wins."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Super_Sprint",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sprint_master.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Sprint%20Master%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Sprintmaster DC",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=44",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2002"),
+                    base_sha1: Some("c0e29b86fc1cc41a1c8afa37572c3c5698ae70b2"),
+                    hardware: (
+                        controllers: [
+                            Driving,
+                        ],
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "769096bd2fd813c54af5b985f4797cbe25e14a04",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("2006 build"),
+                    date: Some("2006"),
+                    base_sha1: Some("c0e29b86fc1cc41a1c8afa37572c3c5698ae70b2"),
+                    artifacts: [
+                        (
+                            sha1: "1a54a59392fcf3d073d37995338ae8447c800376",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Indy Sprint Master",
+            category: ContentChange,
+            author: Some("Rob Mitchell"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("c0e29b86fc1cc41a1c8afa37572c3c5698ae70b2"),
+                    artifacts: [
+                        (
+                            sha1: "4ab47b8efbca5f4b98b821060e9cd3b94a9badaf",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Sprint",
+            category: ContentChange,
+            author: Some("Rob Mitchell"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("c0e29b86fc1cc41a1c8afa37572c3c5698ae70b2"),
+                    artifacts: [
+                        (
+                            sha1: "e59d5cb39ce7163f919c9858c11a732878b51104",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Mario Kart 2600",
+            category: ContentChange,
+            author: Some("Cortat G"),
+            releases: [
+                (
+                    date: Some("2011"),
+                    base_sha1: Some("c0e29b86fc1cc41a1c8afa37572c3c5698ae70b2"),
+                    artifacts: [
+                        (
+                            sha1: "7850666d7d60cbb3053dc61885cc5b1004668507",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c0e29b86fc1cc41a1c8afa37572c3c5698ae70b2",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "dcaac1fac0fe15aaa4553c2fa02b923a6dfb6880",
+                ),
+            ],
+        ),
+    ],
+)

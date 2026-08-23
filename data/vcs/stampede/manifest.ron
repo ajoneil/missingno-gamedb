@@ -1,5 +1,73 @@
 (
     title: "Stampede",
+    developer: Some("Bob Whitehead"),
+    description: Some("A cattle drive seen from the side: ride up and down the trail and throw a lasso at the dogies ahead, the breeds scoring anywhere from three points to a hundred. Let three stray off behind you and the roundup ends — and a bleached skull on the trail will rear your horse and let the herd scatter past."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/stampede.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Stampede_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Stampede%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Border Patrol",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("277184c4e61ced14393049a21a304e941d05993f"),
+                    artifacts: [
+                        (
+                            sha1: "95bd04f71cd1549b6e05ccbfec1e68368c5799ed",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pit Run",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("277184c4e61ced14393049a21a304e941d05993f"),
+                    artifacts: [
+                        (
+                            sha1: "53f173a686f971070660c975d183dc8f2d35a0d2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Trainer",
+            category: QualityOfLife,
+            author: Some("Lee Krueger"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("277184c4e61ced14393049a21a304e941d05993f"),
+                    artifacts: [
+                        (
+                            sha1: "ec93074a22423e1ff89c7dd0acce712e59192941",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1981"),
@@ -24,31 +92,15 @@
                 (
                     sha1: "d665b6bc31c370b7ebb15bca44f35168262de81e",
                 ),
-            ],
-        ),
-        (
-            date: Some("1981"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "c72af293dc2235d36640865fb01438219efd0d92",
+                    label: Some("2K dump padded to 4K"),
+                    defect: Some(Overdump),
                 ),
-            ],
-        ),
-        (
-            date: Some("1981"),
-            publisher: Some("Activision"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("F6"),
-            ),
-            artifacts: [
                 (
                     sha1: "ec267a72dc9675be6032edcfa30524158b5a2063",
+                    label: Some("2K dump padded to 16K"),
+                    defect: Some(Overdump),
                 ),
             ],
         ),
@@ -63,13 +115,10 @@
                 (
                     sha1: "4d7f86ac4a82f66d6657bfb50d2e07b349812429",
                 ),
-                (
-                    sha1: "e013dec038bdb0e2b57c4730e964e54999d6425a",
-                ),
             ],
         ),
         (
-            publisher: Some("4K"),
+            label: Some("unidentified"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
@@ -79,10 +128,43 @@
                     sha1: "585cbb8c745a1ce1a84359271049433b48bf5925",
                 ),
                 (
-                    sha1: "79d96347dc0b16ab088cb694368c81fd7e0e3931",
+                    sha1: "a39d2133ecf0aff48afbae21661e4050f4f21f61",
+                ),
+            ],
+        ),
+        (
+            label: Some("32-in-1"),
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e013dec038bdb0e2b57c4730e964e54999d6425a",
                 ),
                 (
-                    sha1: "a39d2133ecf0aff48afbae21661e4050f4f21f61",
+                    sha1: "79d96347dc0b16ab088cb694368c81fd7e0e3931",
+                    label: Some("32-in-1 dump, padded"),
+                    defect: Some(Overdump),
+                ),
+            ],
+        ),
+        (
+            title: Some("Stampede - Lasso-Helden"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1981"),
+            publisher: Some("Ariolasoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0f50a4bb0aaa4508d7654bac7a460c54ce7c5afe",
                 ),
             ],
         ),

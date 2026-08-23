@@ -63,5 +63,39 @@
                 ),
             ],
         ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Vidco"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2b184acdf908328a1c134c918d16a68cc2e57f94",
+                ),
+            ],
+        ),
+        (
+            title: Some("Firebug"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b130a39c370be11c29bd774600352224956648e1",
+                ),
+            ],
+        ),
     ],
 )

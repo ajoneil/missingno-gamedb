@@ -1,8 +1,42 @@
 (
     title: "Squeeze Box",
+    developer: Some("Henry Will IV"),
+    description: Some("A pistol-packing jailbird is trapped in a room whose coloured bars keep growing in from the side walls. Shoot the bars back to open a gap and walk out before they close on you — three touches and the run ends — and the longer you linger the faster they come, so the room you escape into is always worse."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/squeeze_box.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/25C30AE52195C7F4DFE59401358899E2D2C5FBB5",
+    ],
+    mods: [
+        (
+            name: "Tronman MCP",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    label: Some("WIP"),
+                    base_sha1: Some("033148faebc97d4ed3a86c97fe0cdee21bd261f7"),
+                    artifacts: [
+                        (
+                            sha1: "1224b0dd8874bbf151e66d166c8469ebe70df357",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
             publisher: Some("U.S. Games Corporation"),
             hardware: (
                 tv_format: Some(Ntsc),

@@ -1,7 +1,27 @@
 (
     title: "Sssnake",
+    description: Some("Your gun slides along a track around a small fortress at the centre of the screen, firing outward at prehistoric creatures prowling the jungle beyond the walls. A cluster shot wipes out a whole group for a single point, while deadly snakes slither in and out of your hiding place and must not be touched."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sssnake.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sssnake",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E6748B83F87B668EF8FFDB52EE4999E203B6C3CE",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Data Age"),
             hardware: (

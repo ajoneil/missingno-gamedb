@@ -1,7 +1,19 @@
 (
-    title: "Squoosh (Vat\'s Incredible!, The Grape Escape)",
+    title: "Squoosh",
+    description: Some("An unfinished prototype. A beret-wearing figure runs and jumps around a wine press with a covered pit beneath it, while a grape bounces in and rolls back and forth along the floor. The intended game had you working grapes under the press to squoosh them into wine, but none of that is implemented — stand under the press and it drops you into the pit instead."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/squoosh/squoosh.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Apollo"),
             status: Prototype,
@@ -12,6 +24,10 @@
             artifacts: [
                 (
                     sha1: "7405d4b427cb278062fa44db918c0a702062e55c",
+                ),
+                (
+                    sha1: "11a9dd44787f011ec540159248377cb27fb8f7bb",
+                    label: Some("alt"),
                 ),
             ],
         ),

@@ -1,0 +1,103 @@
+(
+    title: "Spitfire Attack",
+    developer: Some("Frank Ellis"),
+    description: Some("A cockpit view of a Spitfire sortie: enemy fighters close head-on through a diamond gunsight while antiaircraft guns and ammo dumps slide past on the ground below. Diving to line up a ground target risks flying into it, and a low-altitude alarm gives you seconds to climb — while flak keeps rising until you knock the gun out."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/spitfire_attack.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/811D6EA508ECD55AA8E7AE4A12E30356DA0DDD57",
+    ],
+    mods: [
+        (
+            name: "Reversed Control",
+            category: QualityOfLife,
+            author: Some("Dennis Debro"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=163",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("165de0ebca628eb1e9f564390c9eedfe289c7a1d"),
+                    artifacts: [
+                        (
+                            sha1: "4b8fbe04583ebb8cc206ed669b338d54f4482a07",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("165de0ebca628eb1e9f564390c9eedfe289c7a1d"),
+                    artifacts: [
+                        (
+                            sha1: "f9b8f10111225b196a8ecdfdd9cdaa2e99d198d2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Apache Attack Copter",
+            category: ContentChange,
+            author: Some("Fabventure2600"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("165de0ebca628eb1e9f564390c9eedfe289c7a1d"),
+                    artifacts: [
+                        (
+                            sha1: "a29c2a2449e28ba96af0cc4847969113baa123f3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Milton Bradley Company"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "165de0ebca628eb1e9f564390c9eedfe289c7a1d",
+                ),
+            ],
+        ),
+        (
+            label: Some("unidentified"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "28fd6ee892369442b87f62cdd6e32c401bfadf2a",
+                ),
+            ],
+        ),
+    ],
+)
