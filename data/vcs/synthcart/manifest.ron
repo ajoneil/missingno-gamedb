@@ -1,0 +1,105 @@
+(
+    title: "Synthcart",
+    kind: Tool,
+    developer: Some("Paul Slocum"),
+    description: Some("Turns the console into a basic synthesiser: each of the two keypads drives one oscillator, with an arpeggiator at eighth, sixteenth and thirty-second notes, a beat box of preset rhythms that can be layered two at a time, tremolo and attack/release settings. The interface is designed to be usable without a television."),
+    links: [
+        (
+            name: "Homepage",
+            url: "https://www.qotile.net/synth.html",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "Download",
+            url: "https://www.qotile.net/files/snthcart.zip",
+            link_type: Download,
+        ),
+        (
+            name: "Source",
+            url: "https://www.qotile.net/files/snthsrc.zip",
+            link_type: Source,
+        ),
+        (
+            name: "AtariAge",
+            url: "https://store.atariage.com/products/synthcart-atari-2600",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/726A203DDC96769FA282FB23BAA6CB45F344D219",
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("2002"),
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "17b86315e65c9bec3814ffd8bd21449ad801bbcb",
+                ),
+                (
+                    sha1: "c24256c1d51246281a400fb03fc4ca465bd092dd",
+                    label: Some("author\'s download"),
+                ),
+            ],
+        ),
+        (
+            label: Some("14 Jan 2002 build"),
+            date: Some("2002"),
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "eda030cf05a66d5c8af1d3045df40f0dc74273cb",
+                ),
+            ],
+        ),
+        (
+            date: Some("2002"),
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "c4c19c5e0d8b6fcf1aeafa0bd3c88ef3f834c59b",
+                ),
+            ],
+        ),
+        (
+            title: Some("Synthcart Plus"),
+            label: Some("9 Feb 2003 build"),
+            date: Some("2003"),
+            publisher: Some("Paul Slocum"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "40a1fe1616a16fcdef501d874d5f0195a74e2502",
+                ),
+            ],
+        ),
+    ],
+)

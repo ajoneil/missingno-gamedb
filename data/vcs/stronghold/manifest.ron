@@ -1,7 +1,23 @@
 (
     title: "Stronghold",
+    developer: Some("Joseph Biel"),
+    description: Some("An abandoned asteroid fortress that is anything but derelict: heat-sensor interceptors launch at your ship while three moving force-shields guard the command crawler on the surface. Blast through the shields and destroy the crawler — and hurry, because a magnetic mega-field is closing in from the atmosphere\'s edge, shrinking the combat zone around you."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/stronghold.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6779EF7DD9759BA433C3E9C90C3EA56793B8614E",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("CommaVid"),
             hardware: (
@@ -11,6 +27,23 @@
             artifacts: [
                 (
                     sha1: "2cfe280fdbb6b5c8cda8a4620df12a5154e123be",
+                ),
+            ],
+        ),
+        (
+            title: Some("Stronghold - Kampf dem Planeten"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Ariolasoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ec422cab2083ed24edf1828c5d35f7bb5e6a96f5",
                 ),
             ],
         ),

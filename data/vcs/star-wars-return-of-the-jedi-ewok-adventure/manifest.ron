@@ -1,8 +1,27 @@
 (
-    title: "Star Wars - Return of the Jedi - Ewok Adventure (Revenge of the Jedi - Game I) (05-23-1983)",
+    title: "Star Wars: Return of the Jedi: Ewok Adventure",
+    developer: Some("Larry Gelberg"),
+    description: Some("You fly an Ewok hang glider low over the forest moon of Endor, aiming to destroy the Imperial shield generator. Trees, boulders and rivers crowd the ground while speeder bikes, AT-ST walkers and stormtroopers patrol it; climbing carries you safely above them but bleeds speed, and your shadow shows how high you are."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Wars:_Return_of_the_Jedi:_Ewok_Adventure",
+            link_type: Wiki,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/ewok/ewok.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Star%20Wars%20-%20Return%20of%20the%20Jedi%20-%20Ewok%20Adventure%20(USA)%20(Proto).png",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            label: Some("Revenge of the Jedi - Game I"),
+            date: Some("1983-05-23"),
             publisher: Some("Parker Brothers"),
             status: Prototype,
             hardware: (

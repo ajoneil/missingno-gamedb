@@ -1,7 +1,28 @@
 (
     title: "Super Challenge Baseball",
+    developer: Some("David Rolfe"),
+    description: Some("Nine innings of two-player baseball with eight men a side, and extra innings if the score is level. Every hit is a grounder, so nobody ever flies out — you pitch inside, outside, fast or slow, then switch between any one fielder at a time to chase the ball down and throw for the put-out."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sc_baseball.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Baseball_(Intellivision_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C1368FFAD5708BFF402A9F944525FC8F3D5207DB",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (
@@ -25,6 +46,24 @@
             artifacts: [
                 (
                     sha1: "5b7799e1c98ca86965fa8b73b8750042edb70952",
+                ),
+                (
+                    sha1: "4ac30aa92c15febd2b73853255878d18a17bfcf1",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("World Championship Baseball"),
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2ae3bf2295020192aca587aa5a4f2426543fbf80",
                 ),
             ],
         ),

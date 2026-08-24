@@ -1,0 +1,68 @@
+(
+    title: "Super Football",
+    description: Some("Gridiron seen in 3-D, the camera looking down the field from behind the offence. Five players a side, four game levels, and a playbook of formations to call on both offence and defence. The clock never stops — there are no time-outs, fumbles, penalties, safeties or out-of-bounds — so play runs uninterrupted to the whistle."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/super_football.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Super%20Football%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("eaca6b474fd552ab4aaf75526618828165a91934"),
+                    artifacts: [
+                        (
+                            sha1: "24170a091786e93f1759abdb6bdfa45d60ac5b33",
+                        ),
+                        (
+                            sha1: "09baa4e03013d205eb696d1a0bec95ce3d8ec555",
+                            label: Some("PAL"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "eaca6b474fd552ab4aaf75526618828165a91934",
+                ),
+            ],
+        ),
+        (
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6SC"),
+            ),
+            artifacts: [
+                (
+                    sha1: "fa8db954eff4302ec518aaf7a477a073c1967a08",
+                ),
+            ],
+        ),
+    ],
+)

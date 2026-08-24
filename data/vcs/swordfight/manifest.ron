@@ -1,8 +1,24 @@
 (
     title: "Swordfight",
+    developer: Some("Stephen Tatsumi, Pat Lewis Du Long"),
+    description: Some("Two players face off with broadswords, hit points shown as circles beneath each fighter. Three swings — a left slice, a right slice and an overhead chop — each with its own advantages, and any of them can be blocked. The fighters are unusually large for the 2600, drawn partly from background graphics."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/swordfight/swordfight.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DB500469BB305AB8367497347B48C24A78FD9CD7",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("2000"),
             publisher: Some("Intellivision Productions"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -11,6 +27,10 @@
             artifacts: [
                 (
                     sha1: "0d59545b22e15019a33de16999a57dae1f998283",
+                ),
+                (
+                    sha1: "744a26da93cbb24841f304e3211176c6af371cb9",
+                    label: Some("alt"),
                 ),
             ],
         ),

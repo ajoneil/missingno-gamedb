@@ -1,5 +1,23 @@
 (
     title: "Superman",
+    developer: Some("John Dunn"),
+    description: Some("Lex Luthor has blown up Metropolis\'s bridge and fled. As Superman you fly an open city to recover the bridge\'s three pieces, run down Luthor and his five henchmen, and finally change back to Clark Kent at the Daily Planet — all against the clock. A helicopter keeps rearranging the bridge, and drifting kryptonite satellites turn you back into Kent."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/superman.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Superman_(1979_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/01281697E352F60C7A8CC7B3362519466869249F",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -21,9 +39,6 @@
                 (
                     sha1: "b9dee027c8d7dd2a46be111ab0b8363c1becc081",
                 ),
-                (
-                    sha1: "f00bcbda3d70c0c93026234fc775daf81db8569a",
-                ),
             ],
         ),
         (
@@ -42,6 +57,22 @@
                 ),
                 (
                     sha1: "a974673dccfb786da6150df8d4584a559508a6de",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1979"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f00bcbda3d70c0c93026234fc775daf81db8569a",
                 ),
             ],
         ),

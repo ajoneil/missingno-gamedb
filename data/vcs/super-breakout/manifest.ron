@@ -1,25 +1,61 @@
 (
-    title: "Super Breakout (Paddle)",
+    title: "Super Breakout",
+    description: Some("Bounce a ball into a wall of bricks, in three variations. Double puts two paddles on screen, one above the other, with two balls in play at once; Cavity seals two extra balls into pockets in the wall, waiting to be freed; Progressive marches the whole wall downward, speeding up the longer a ball stays alive."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Super_Breakout",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/super_breakout.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/93281EFD35072BB79D123BAE4409773F507D3D50",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "ac2aad2196c155c1d87d6f42fa88891825f4fde6",
                 ),
+                (
+                    sha1: "e380e243c671e954e86aa1a3a0bfeb36d5e0c3e2",
+                    label: Some("alt"),
+                ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (

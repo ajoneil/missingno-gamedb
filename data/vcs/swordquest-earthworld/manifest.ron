@@ -1,7 +1,27 @@
 (
-    title: "SwordQuest - EarthWorld (Adventure I, SwordQuest I - EarthWorld)",
+    title: "SwordQuest: EarthWorld",
+    description: Some("A maze of rooms themed on the signs of the zodiac, with objects to be carried from one and set down in another. Put an item in the room where it belongs and the game returns two numbers — a page and a panel in the comic packed with the cartridge, where a hidden word waits. Moving between rooms can drop you into an action sequence."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sq_earth.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Swordquest",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1E874C0282401B4D1B988FE1F105FD35B56593A0",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Atari"),
             hardware: (
@@ -14,6 +34,10 @@
                 ),
                 (
                     sha1: "3deb650ae26b86e250aea8f7ca6d0674e6498ebb",
+                ),
+                (
+                    sha1: "05db3d09fa3dac80c70aae2e39f1ad7c31c62f02",
+                    label: Some("alt"),
                 ),
             ],
         ),

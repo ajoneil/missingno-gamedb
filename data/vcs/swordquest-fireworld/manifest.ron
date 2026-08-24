@@ -1,0 +1,78 @@
+(
+    title: "SwordQuest: FireWorld",
+    developer: Some("Tod Frye, Mimi Nyden"),
+    description: Some("The second SwordQuest, its rooms laid out on the Kabbalah\'s Tree of Life. Carry objects between them and set each down where it belongs to reveal a page and panel number pointing into the packed-in comic. It has more action sequences than EarthWorld, and they grow harder with every clue you uncover."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sq_fire.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/fireworld/fireworld.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Swordquest",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/99CB1062EAEC29E89185116CC1CD33278A139B7F",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "5c3cf976edbea5ded66634a284787f965616d97e",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a6fa78edff6b7b61c7b527fe7b6978eb371081ed",
+                ),
+                (
+                    sha1: "c6560fa7a998b0ba9b5b0ecc60deb3b142e9e3bf",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            label: Some("Contest Edition"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c1f920d42e3ad0de7a3f86d360b99b1551526ebd",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,52 @@
+(
+    title: "Star Wars: Return of the Jedi - Death Star Battle",
+    developer: Some("Ray Miller"),
+    description: Some("Your Millennium Falcon must reach the half-built Death Star before the Empire finishes it. Outrun a swarm of TIE interceptors, then time a run through one of the random openings in the energy shield. Inside, blast the station apart to expose its energy core — and survive the hundreds of fireballs the explosion throws out."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Wars:_Return_of_the_Jedi_-_Death_Star_Battle",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_wars_dsb.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Star%20Wars%20-%20Return%20of%20the%20Jedi%20-%20Death%20Star%20Battle%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2ad9db4b5aec2da36ecc3178599b02619c3c462e",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "19447d7eabdecd9984be1a2ad500ba34251c458a",
+                ),
+            ],
+        ),
+    ],
+)

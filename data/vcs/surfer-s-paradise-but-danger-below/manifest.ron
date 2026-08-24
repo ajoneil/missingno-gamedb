@@ -1,5 +1,38 @@
 (
     title: "Surfer\'s Paradise - But Danger Below!",
+    description: Some("Ride as close to the top of the wave as you can while a shark makes runs at you — time the button to jump him. Miss and you\'re in the water, and the screen becomes an underwater scene: swim through a sunken galleon past an octopus and a jellyfish, back to the drifting board, before your air runs out."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/surfer.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3C2E9A11650218B72985193775EC3B043B7D0377",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("e754c8985ca7f5780c23a856656099b710e89919"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "198424f885d57400feab80b612cfc25641ff2973",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),

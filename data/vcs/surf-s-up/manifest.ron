@@ -1,5 +1,18 @@
 (
     title: "Surf\'s Up",
+    developer: Some("Chip Curry"),
+    description: Some("A surfing game played by standing on the JoyBoard and leaning, so keeping your balance is most of the challenge. Two lines represent the wave; you steer a small yellow surfboard into them as they converge and hold it there to score, riding longer for a bonus until you wipe out. Each wipeout and each missed wave drains a bar that never refills."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/surfsup/surfsup.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/451994137A3A5E74428E4A71ABE3DC093D1543C1",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -12,6 +25,14 @@
             artifacts: [
                 (
                     sha1: "cf84e21ada55730d689cfac7d26e2295317222bc",
+                ),
+                (
+                    sha1: "9c11b5b0f75b11eea116cc80f60d49e20289637b",
+                    label: Some("alt [a1]"),
+                ),
+                (
+                    sha1: "f903a3e5ed454356da7d27d3c6bd1e15f1d637a6",
+                    label: Some("alt [a2]"),
                 ),
             ],
         ),

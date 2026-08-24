@@ -1,11 +1,27 @@
 (
     title: "Stone Age",
+    developer: Some("TechnoVision"),
+    description: Some("A caveman sent back millions of years to clear the world of dinosaurs. Hide behind a boulder and shove it in a dinosaur\'s direction to crush it — line four up and a single stone takes them all. A stone with nowhere left to go crumbles to powder and is gone for good."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/stone_age.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E45831784E28EED068C6E82E6A381FE4354E5C51",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
             date: Some("1983"),
             publisher: Some("CCE"),
             hardware: (
-                tv_format: Some(Ntsc),
+                tv_format: Some(PalM),
                 cart_type: Some("4K"),
             ),
             artifacts: [

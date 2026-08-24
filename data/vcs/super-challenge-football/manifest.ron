@@ -1,7 +1,28 @@
 (
     title: "Super Challenge Football",
+    developer: Some("Ken Smith"),
+    description: Some("Two-player gridiron on a regulation hundred-yard field that scrolls as you drive downfield. Five men a side — four linemen plus a quarterback on offence, four plus a linebacker on defence — and you call both. Passing, rushing, tackling and interceptions are all in; kicking and out-of-bounds are not."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sc_football.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/NFL_Football_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B22B6D5430511D59B59C143B26791BC82D51C65B",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (

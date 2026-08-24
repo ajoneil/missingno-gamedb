@@ -1,0 +1,72 @@
+(
+    title: "Survival Island",
+    developer: Some("Steve Mundry, Scott Nelson"),
+    description: Some("Your ship goes down in the South Pacific while you are searching for a lost civilisation. Swim through shark-infested water to a raft, gathering floating containers of food and water as you drift, because you will need them ashore. Then cross the wilderness island and finally explore the secret temple — three loads, one escalating ordeal."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/survival_island.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F45C61377BBB0C8D51605A54157A854507F24037",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Arcadia Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "34de46efc38be5c870faf11bc878e74519f7aac4",
+                ),
+                (
+                    sha1: "40808b7a653610359d38a0b5e84d3018edbd0f99",
+                ),
+                (
+                    sha1: "8fccb77b284e979d1fcb5fa73e70f1f9c5a38e8a",
+                ),
+                (
+                    sha1: "bac319deee30cc6fb4f8e12605df2b69a9a249aa",
+                ),
+                (
+                    sha1: "cba1c7d15cc3c7b6164652866f958297de9d7eef",
+                ),
+                (
+                    sha1: "7c58db79e6bccb4a44eb390aa8ec92af721f6f94",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4b9015c96507e32d18876cb7fe9ef3471998bf1b",
+                ),
+                (
+                    sha1: "9fecc4ea4fbcba8c0ecaabfe6dc77ea97826cc32",
+                ),
+                (
+                    sha1: "b1344b694ed1408ef50a6c9b1fe162c5b850cd1e",
+                ),
+                (
+                    sha1: "e32c7604f84a3a22f455c6900fce28b33ddcf8cc",
+                ),
+            ],
+        ),
+    ],
+)

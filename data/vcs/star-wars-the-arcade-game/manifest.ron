@@ -1,0 +1,148 @@
+(
+    title: "Star Wars: The Arcade Game",
+    developer: Some("Imagic"),
+    description: Some("Three rounds per wave, flying an X-wing: blast Imperial TIE fighters and their fireballs, then strafe the laser towers rising off the Death Star\'s surface, then drop into the equatorial trench and thread the catwalks to put a proton torpedo through the main reactor port. Eight energy shields absorb the hits; a blue TIE is Vader."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_wars_arcade.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Wars_(1983_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Star%20Wars%20-%20The%20Arcade%20Game%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Reversed Control",
+            category: ContentChange,
+            author: Some("Steve Engelhardt"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("8823fe3d8e3aeadc6b61ca51914e3b15aa13801c"),
+                    artifacts: [
+                        (
+                            sha1: "c2fa97cd83e4c17741efecc7bfd44ea9de5615af",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Cuttle Cart (F6)"),
+                    base_sha1: Some("8823fe3d8e3aeadc6b61ca51914e3b15aa13801c"),
+                    artifacts: [
+                        (
+                            sha1: "9b0142f850ac7ab924e7a66d5dbd143d161354da",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "F6 conversion (batari)",
+            category: Compatibility,
+            author: Some("batari"),
+            releases: [
+                (
+                    base_sha1: Some("8823fe3d8e3aeadc6b61ca51914e3b15aa13801c"),
+                    artifacts: [
+                        (
+                            sha1: "00bcd750881110dcebb0971f3d1f28c036d16705",
+                        ),
+                        (
+                            sha1: "a882beb10ac76f927ca16f4eff3b9f3d9ed21c43",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "F6 conversion (Thomas Jentzsch)",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    base_sha1: Some("8823fe3d8e3aeadc6b61ca51914e3b15aa13801c"),
+                    artifacts: [
+                        (
+                            sha1: "375be0a27f6603605c9587c2fafc8ce0f241f40e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b184eac6a8a7494a6c055e8e6c83f77861913bd",
+                ),
+                (
+                    sha1: "8823fe3d8e3aeadc6b61ca51914e3b15aa13801c",
+                ),
+                (
+                    sha1: "e3c6f3dd4390fb60d88a05ef084947574d313ba5",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1984"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "914eb4529f5fa044516ba2cf5a606e847cbf0d15",
+                ),
+            ],
+        ),
+        (
+            date: Some("1984-01-03"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3f9b6c52c268a83f145ff7a3ab65000215e5dbbf",
+                ),
+                (
+                    sha1: "58baf6739e6128048cb6d59971e93700a9de6f2f",
+                ),
+                (
+                    sha1: "9657f1e445d6e406a48115846352f4f9bc815ec8",
+                ),
+                (
+                    sha1: "dc0741b28cdf29558b0c5ee376b4dc90984b92d7",
+                ),
+                (
+                    sha1: "e5122f75129085d803997244246d45eb007ede9a",
+                ),
+            ],
+        ),
+    ],
+)

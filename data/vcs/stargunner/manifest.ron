@@ -1,11 +1,30 @@
 (
     title: "Stargunner",
+    developer: Some("Alex Leavens"),
+    description: Some("You are the last starfighter of the planet Yarthae, holding off the Sphyzygies and their bio-droid Bobo. Bobo hovers overhead dropping bombs while four squares converge on a point below — a Sphyzygie materialises there, and touching one as it appears costs a life. Shoot them down before the next wave brings more at once."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_gunner.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Stargunner_(1983_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Stargunner%20(USA).png",
+    ],
     mods: [
         (
             name: "Space Invaders Vector Wars",
             category: ContentChange,
+            author: Some("Scott Dayton"),
             releases: [
                 (
+                    date: Some("2004"),
                     base_sha1: Some("3359aa7a6a5fa25beaa3ae5868d0034d52de9882"),
                     artifacts: [
                         (
@@ -15,9 +34,29 @@
                 ),
             ],
         ),
+        (
+            name: "Defender Neo",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("3359aa7a6a5fa25beaa3ae5868d0034d52de9882"),
+                    artifacts: [
+                        (
+                            sha1: "a75bcb972ac83a3a63926cbf1635dbe0ec7d4a3b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
     ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Telesys"),
             hardware: (
@@ -31,6 +70,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Telesys"),
             hardware: (

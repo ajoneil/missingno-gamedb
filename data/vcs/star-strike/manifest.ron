@@ -1,8 +1,54 @@
 (
     title: "Star Strike",
+    developer: Some("David Akers"),
+    description: Some("Earth is drifting into range of an alien space station\'s missile, and only your spaceship can stop it. Dive into the Launch Trench to bomb all eight missile silos before the planet passes overhead, pulling up to fire lasers at the saucers and meteor-missiles hunting you. Your ship\'s shadow on the trench floor is your altimeter."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Strike",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_strike.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Star%20Strike%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Star Wars: The Battle of Alderaan",
+            category: ContentChange,
+            author: Some("Barry Laws Jr."),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=16",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("de05d1ca8ad1e7a85df3faf25b1aa90b159afded"),
+                    artifacts: [
+                        (
+                            sha1: "4be17e5d9e3dab73053bbf1aa74ec4d861cb61be",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1983"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
             publisher: Some("M Network"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -15,6 +61,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1988"),
             publisher: Some("Telegames"),
             hardware: (

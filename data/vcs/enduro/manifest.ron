@@ -251,5 +251,41 @@
                 ),
             ],
         ),
+        (
+            title: Some("Super Ferrari"),
+            date: Some("1983"),
+            publisher: Some("Rainbow Vision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7453f744e250bda7601e1e28b30b7dbcba8b5df1",
+                ),
+                (
+                    sha1: "82a7044533f9556a9cd065881ccb9ed31f14dfd0",
+                ),
+            ],
+        ),
+        (
+            title: Some("Super-Ferrari"),
+            regions: [
+                Germany,
+            ],
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "22a61238c218a83fdf0cce5986248d97577eb467",
+                ),
+                (
+                    sha1: "fb848665f7fe8029f80b1c0aae5972f262852bf7",
+                ),
+            ],
+        ),
     ],
 )

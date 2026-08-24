@@ -1,7 +1,22 @@
 (
     title: "Survival Run",
+    description: Some("A Class 1 Starfighter committed to a maze of subterranean tunnels with no way to turn back. Follow the onboard computerised map, defend yourself against alien guards and their force fields, and manage an energy level you must both conserve and restore as you press deeper into the far-off solar system."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/survival_run.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/62D0BF96BA7DFA06279DF724A83E6B67DCC00B8D",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Milton Bradley Company"),
             hardware: (
@@ -11,9 +26,6 @@
             artifacts: [
                 (
                     sha1: "6c993b4c70cfed390f1f436fdbaa1f81495be18e",
-                ),
-                (
-                    sha1: "bcde63585092f84e437dd57f83bd67bd66b15646",
                 ),
             ],
         ),

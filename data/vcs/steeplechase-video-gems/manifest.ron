@@ -1,0 +1,31 @@
+(
+    title: "Steeplechase",
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/steeplechase_vg.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Steeplechase%20(Europe).png",
+    ],
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Video Gems"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "a037f8d4cd4d9721ef5c29c7c58100739a039cd2",
+                ),
+                (
+                    sha1: "bd7f0005fa018f13ed7e942c83c1751fb746a317",
+                ),
+            ],
+        ),
+    ],
+)

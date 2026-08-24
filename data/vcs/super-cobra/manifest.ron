@@ -1,0 +1,85 @@
+(
+    title: "Super Cobra",
+    description: Some("A helicopter run across ten thousand miles of hostile terrain — craggy peaks, city blocks, jagged tunnels — with the walls themselves lethal on contact. One button does both jobs: it fires a missile forward and drops a bomb at the same time. Fuel drains constantly, so the fuel tanks scattered along the route are targets, not scenery."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/super_cobra.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Super_Cobra",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Super%20Cobra%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "F6 conversion",
+            category: Compatibility,
+            author: Some("Bruce Tomlin"),
+            releases: [
+                (
+                    base_sha1: Some("bac0a0256509f8fd1feea93d74ba4c7d82c1edc6"),
+                    artifacts: [
+                        (
+                            sha1: "548470361a3a227b8369a0cea105bdfa4e5a7ddf",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1e237466ba0226dbeb4b77aa9b38191b44120894",
+                ),
+                (
+                    sha1: "bac0a0256509f8fd1feea93d74ba4c7d82c1edc6",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("E0"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3ea967933740da36f47c04b269587da134a93c34",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Parker Brothers"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0f0eae6d2d4277fb03b8eebaa2e91855d1e891cd",
+                ),
+            ],
+        ),
+    ],
+)

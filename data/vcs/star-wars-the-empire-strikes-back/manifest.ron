@@ -1,7 +1,96 @@
 (
-    title: "Star Wars - The Empire Strikes Back",
+    title: "Star Wars: The Empire Strikes Back",
+    developer: Some("Rex Bradford, Sam Kjellman"),
+    description: Some("Imperial Walkers are crossing the Ice Planet Hoth toward the Rebel power generator, and your Snowspeeder is all that slows them. The battlefield runs eight screens wide, so a radar band tracks all five Walkers while you fight whichever one is on screen. When the lead Walker reaches the generator, the game ends."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_wars_empire.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Wars:_The_Empire_Strikes_Back_(1982_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Star%20Wars%20-%20The%20Empire%20Strikes%20Back%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Jaws 3-D: The Game",
+            category: ContentChange,
+            author: Some("Tim Martin"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("ad5b2c9df558ab23ad2954fe49ed5b37a06009bf"),
+                    artifacts: [
+                        (
+                            sha1: "bb50c52f4fa689c57f5b2b20e2bf1cb5f6704bc3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Star Wars: Dark Empire",
+            category: ContentChange,
+            author: Some("ILA2600"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("ad5b2c9df558ab23ad2954fe49ed5b37a06009bf"),
+                    artifacts: [
+                        (
+                            sha1: "1426e239b046be7fa4a39e6462d7b3a73d66181d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Star Wars: Empire\'s Missing Starfighter",
+            category: ContentChange,
+            author: Some("Fabventure2600"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("ad5b2c9df558ab23ad2954fe49ed5b37a06009bf"),
+                    artifacts: [
+                        (
+                            sha1: "6eec4bff15b4655b2df16d3916956147ecf4b862",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Crappy Scout Walker Attack!",
+            category: ContentChange,
+            author: Some("John Tielli"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("ad5b2c9df558ab23ad2954fe49ed5b37a06009bf"),
+                    artifacts: [
+                        (
+                            sha1: "ef1cb21c185699640fdfe9529363261dcee07c81",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Parker Brothers"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -22,6 +111,9 @@
             ],
         ),
         (
+            regions: [
+                Germany,
+            ],
             date: Some("1982"),
             publisher: Some("Parker Brothers"),
             hardware: (
@@ -31,6 +123,10 @@
             artifacts: [
                 (
                     sha1: "7276ae9e8a99618378868d8de2cf7de6ae6c1dc0",
+                ),
+                (
+                    sha1: "9bd9718b690f3e25c06bfee0eafad129345857d9",
+                    label: Some("alt"),
                 ),
             ],
         ),

@@ -1,12 +1,36 @@
 (
     title: "Steeplechase",
+    developer: Some("Jim Huether"),
+    description: Some("Race a horse left to right against three rivals, clearing the hurdles that stream toward you. Dial in a jump height on the four-notch indicator before you leap: go high and you clear anything but lose time, go low and you risk clipping a hurdle, which drops your horse and costs ground."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/steeplechase.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Steeplechase_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Steeplechase%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1981"),
             publisher: Some("Sears Tele-Games"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
@@ -15,32 +39,9 @@
                 (
                     sha1: "e56ef1c0313d6d04e25446c4e34f9bb7eda8efac",
                 ),
-            ],
-        ),
-        (
-            date: Some("1980"),
-            publisher: Some("Sears Tele-Games"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "37c1e7eda714ff0294935a6ca7dfe139d93fed4e",
-                ),
-            ],
-        ),
-        (
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
-                (
-                    sha1: "a037f8d4cd4d9721ef5c29c7c58100739a039cd2",
-                ),
-                (
-                    sha1: "bd7f0005fa018f13ed7e942c83c1751fb746a317",
+                    defect: Some(Overdump),
                 ),
             ],
         ),

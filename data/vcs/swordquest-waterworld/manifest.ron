@@ -1,7 +1,32 @@
 (
-    title: "SwordQuest - WaterWorld",
+    title: "SwordQuest: WaterWorld",
+    description: Some("The third SwordQuest, and the smallest: seven rooms built on the chakras, numbered 0 through VI. Carry objects between them to reveal the page and panel numbers that point into the packed-in comic, though here only four of the seven items a room accepts are needed, and a wrong combination hints at what is missing."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/sq_water.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/waterworld/waterworld.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Swordquest",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E8CE1CDCC46CB5AA02A25824AAC3A26F0DC6FEF8",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Atari"),
             hardware: (

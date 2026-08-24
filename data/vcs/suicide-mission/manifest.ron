@@ -1,0 +1,79 @@
+(
+    title: "Suicide Mission",
+    developer: Some("Stephen H. Landrum, Steve Hales"),
+    description: Some("You pilot a microscopic submarine through the bloodstream toward an abscess near the heart, where a virus colony is multiplying faster than the body can fight it. Penicillin torpedoes split each virus into smaller ones, twice, before a third hit kills it. Pull back to raise screens — but hold them too long and they overheat, vaporising every virus on screen, and you with them."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/suicide_mission.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/303D8746F05AE5139EF3531C0FD4DDDBB4977170",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Arcadia Corporation"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "35061334cd1d26345e2459dfd663d240759eb5f4",
+                ),
+                (
+                    sha1: "c3628b59bc96b7a7c90bf08fe4c84696288e49f2",
+                ),
+                (
+                    sha1: "c3a79f8dbd4af3628ff91fa0f99f995a8756f4fa",
+                ),
+                (
+                    sha1: "d3919b4dbeedfabfba30126d351eab509b0c1536",
+                ),
+                (
+                    sha1: "686655a3a83680c53edd3cbe9704350e27e0dea3",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Starpath Corporation"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3b6d664440442f5f1d0220ef01d967a6004bbbdd",
+                ),
+                (
+                    sha1: "c15c986f92bd068ec844c9cc3da73ff410ec002a",
+                ),
+            ],
+        ),
+        (
+            title: Some("Meteoroids"),
+            label: Some("prototype build, 10 Feb 1982"),
+            date: Some("1982"),
+            publisher: Some("Arcadia Corporation"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "11c3bd2b9327987e83b34e65e1bbee5fd62e6f60",
+                ),
+            ],
+        ),
+    ],
+)

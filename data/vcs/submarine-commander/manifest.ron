@@ -1,7 +1,28 @@
 (
     title: "Submarine Commander",
+    developer: Some("Matthew Hubbard"),
+    description: Some("A submarine in enemy waters, viewed through a periscope you can swing a full 360 degrees. Around it sit a radar scope, a depth-charge detector, a fuel gauge and an engine temperature readout, and all four matter — you pick off targets while keeping an eye on fuel and on the engine not overheating."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Submarine_Commander_(1982_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/submarine_commander.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Submarine%20Commander%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Sears Tele-Games"),
             hardware: (

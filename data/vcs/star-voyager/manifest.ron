@@ -1,7 +1,45 @@
 (
     title: "Star Voyager",
+    developer: Some("Bob Smith"),
+    description: Some("You pilot the Star Voyager against an invasion from the planet Zakor, flying through seven star portals to reach the capital starport. Enemy ships come at you head-on in a first-person view; lasers and photon torpedoes are the two weapon systems, and musical cues warn of incoming attackers and approaching portals."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_voyager.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Voyager_(1982_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1244F20B666AEA62CADFF6A5069E430B296072ED",
+    ],
+    mods: [
+        (
+            name: "Supercharger PAL-switch fix",
+            category: Compatibility,
+            author: Some("Nukey Shay"),
+            releases: [
+                (
+                    base_sha1: Some("ccc5b829c4aa71acb7976e741fdbf59c8ef9eb55"),
+                    artifacts: [
+                        (
+                            sha1: "e80eaaf4b2942bcccd7b98237a429fe23fd69f11",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
             date: Some("1983"),
             publisher: Some("CCE"),
             hardware: (
@@ -11,12 +49,6 @@
             artifacts: [
                 (
                     sha1: "417bb89e1117413321ffba48a17e005b2687680b",
-                ),
-                (
-                    sha1: "ccc5b829c4aa71acb7976e741fdbf59c8ef9eb55",
-                ),
-                (
-                    sha1: "e80eaaf4b2942bcccd7b98237a429fe23fd69f11",
                 ),
                 (
                     sha1: "effd8864585efc7efabf11962c15d3a6b0626b69",
@@ -36,6 +68,23 @@
                 ),
                 (
                     sha1: "50819dcafe4438abde7b642bb619d80397d78628",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "ccc5b829c4aa71acb7976e741fdbf59c8ef9eb55",
                 ),
             ],
         ),

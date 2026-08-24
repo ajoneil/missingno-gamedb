@@ -1,7 +1,28 @@
 (
     title: "Summer Games",
+    developer: Some("Steve A. Baker, Peter Engelbrite, Tod Frye"),
+    description: Some("Seven events, up to eight players, each representing a different nation. Head-to-head races — hurdles, dash, swimming, rowing — alternate with solo events like skeet and gymnastics, and the country winning the most events takes the gold. Fault during an event and it replays, up to three times."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/summer_games.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Summer_Games_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Summer%20Games%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1987"),
             publisher: Some("Epyx"),
             hardware: (
@@ -15,6 +36,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1987"),
             publisher: Some("Epyx"),
             hardware: (

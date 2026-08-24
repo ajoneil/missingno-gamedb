@@ -1,7 +1,27 @@
 (
     title: "Strategy X",
+    description: Some("Drive a tank into enemy territory, accelerating by pushing forward and attacking from whatever direction you can line up. Firing costs fuel, so shooting at random strands you, and the slip zones make the tank hard to steer at all. Clear a scene by passing through its triumphal arch; there are two."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/strategy_x.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Strategy_X",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Strategy%20X%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Konami"),
             hardware: (
@@ -24,6 +44,23 @@
             artifacts: [
                 (
                     sha1: "96dbd3a9cb981c42540eac99b5869163a6fb81c4",
+                ),
+            ],
+        ),
+        (
+            title: Some("Landungskommando"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f08f89b54455a68a5bc161ec781a5ca0a8ddbdd3",
                 ),
             ],
         ),

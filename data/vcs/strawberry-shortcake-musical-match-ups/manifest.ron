@@ -1,7 +1,23 @@
 (
     title: "Strawberry Shortcake - Musical Match-Ups",
+    developer: Some("Dawn Stockbridge"),
+    description: Some("The Purple Pieman\'s spell has scrambled the Strawberryland characters, leaving each one standing in a gazebo with its parts mismatched. Cycle through them to rebuild Strawberry Shortcake, Blueberry Muffin, Lime Chiffon, Huckleberry Pie and the Pieman himself; get one right and the character dances, with music playing throughout."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/strawberry_shortcake.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Strawberry%20Shortcake%20-%20Musical%20Match-Ups%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Parker Brothers"),
             hardware: (

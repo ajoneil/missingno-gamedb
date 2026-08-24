@@ -1,0 +1,86 @@
+(
+    title: "Star Raiders",
+    developer: Some("Carla Meninsky"),
+    description: Some("Krylon warships are converging on your starbase, and if your Star Fighter runs out of energy or falls, Krylon takes the galaxy. Hunt them across a sector map, hyperwarping between engagements to lock photon torpedoes onto their cruisers and shielded basestars — every shot, shield and jump drains energy only a run back to the starbase restores."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_raiders.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/starraiders/starraiders.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Raiders",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Star%20Raiders%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+                controllers: [
+                    Joystick,
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "e10cce1a438c82bd499e1eb31a3f07d7254198f5",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+                controllers: [
+                    Joystick,
+                    Keypad,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "7c2a2ddbdef639ed2985ce66ae717b2285a94ae0",
+                ),
+            ],
+        ),
+        (
+            label: Some("Mid-level WIP"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b8f4128f8e44fb93d2b11135a46eab42cd65b9f0",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,7 +1,28 @@
 (
     title: "Stellar Track",
+    developer: Some("Rob Zdybel"),
+    description: Some("A turn-based hunt across a galaxy of thirty-six quadrants. Long-range scans show which quadrants hold Aliens or starbases, warp moves you between them, and photon torpedoes and phasors do the killing — all chosen from a seven-command menu. Stardates and energy both tick down, and running out of either loses the war."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/stellar_track.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Stellar_Track",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2555FE9F2AE47E5506DF5537596F65D8BD76F054",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1981"),
             publisher: Some("Sears Tele-Games"),
             hardware: (

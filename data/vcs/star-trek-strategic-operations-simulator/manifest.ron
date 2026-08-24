@@ -1,7 +1,76 @@
 (
-    title: "Star Trek - Strategic Operations Simulator",
+    title: "Star Trek: Strategic Operations Simulator",
+    developer: Some("Jeff Lorenz"),
+    description: Some("At the helm of the U.S.S. Enterprise, you fight through sectors of Klingon cruisers and anti-matter saucers toward the mine-laying NOMAD, which closes every sector. Overhead radar and a forward bridge view split the screen; phasers and photon torpedoes are your weapons, and starbases are where you dock to repair and rearm."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_trek.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Trek:_Strategic_Operations_Simulator",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A798EB536348BD73E3972972E6B8D972633CAEAB",
+    ],
+    mods: [
+        (
+            name: "Star Trek Vector",
+            category: ContentChange,
+            author: Some("Dr. Kwack"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=264",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("61a3ebbffa0bfb761295c66e189b62915f4818d9"),
+                    artifacts: [
+                        (
+                            sha1: "9d77158b6e3cc9af0847d7713a59e5fcb7daf41e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Borg Wars V Sector Wars",
+            category: ContentChange,
+            author: Some("Atari Troll"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=228",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("61a3ebbffa0bfb761295c66e189b62915f4818d9"),
+                    artifacts: [
+                        (
+                            sha1: "798b717a25ab8628c0c0e2e2a3dde6daadf46ea3",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("SEGA"),
             hardware: (
@@ -15,6 +84,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("SEGA"),
             hardware: (

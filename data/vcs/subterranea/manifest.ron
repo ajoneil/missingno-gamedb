@@ -1,0 +1,52 @@
+(
+    title: "Subterranea",
+    developer: Some("Mark Klein"),
+    description: Some("Fly the Cave Ranger down through sunless caverns. Wipe out the Hexuplex\'s Aerobots to make it retreat and drop a Treasure Crystal, then take the crystal and descend a shaft into the tunnels — where brushing a wall costs points and touching one of the skulls encrusting it costs a life. Clear the tunnel, slip through the Electro-Gate, go deeper."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/subterranea.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FDFF2AB287121B2B814BD17EF5D41E1FE15F0623",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2abc6bbcab27985f19e42915530fd556b6b1ae23",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ff54330db6865890a0eb620d364559e3f1ebef2",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "47a846bce53f739ec2cf5774fe09d70e755111af",
+                    label: Some("alt (import called it Tarantula)"),
+                ),
+            ],
+        ),
+    ],
+)

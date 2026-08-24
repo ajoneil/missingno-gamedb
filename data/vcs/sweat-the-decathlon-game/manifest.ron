@@ -1,7 +1,38 @@
 (
-    title: "Sweat! - The Decathlon Game (Paddle) (13)",
+    title: "Sweat! The Decathlon Game",
+    developer: Some("Scott Nelson"),
+    description: Some("A decathlon for the Supercharger that never got past the concept stage. What exists runs the track events — hurdles, 100 metres and 400 metres — plus a shot put in a separate build, chosen from a staggered-text menu offering practice, a single event, or the full ten with up to nine named players."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/sweat/sweat.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4A61623C88036C364B3C60942C9CE010E3F01C31",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Starpath Corporation"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("AR"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d786e27062623b1141806170187040a0280cc19d",
+                ),
+            ],
+        ),
+        (
+            label: Some("catalogue 13"),
             date: Some("1983"),
             publisher: Some("Starpath Corporation"),
             status: Prototype,

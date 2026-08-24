@@ -1,7 +1,85 @@
 (
     title: "Star Ship",
+    developer: Some("Bob Whitehead"),
+    description: Some("Your television becomes the window of a Star Ship cockpit, steering deep into space as meteors whip past. Zap enemy space objects — star fighters, flying saucers, space robots — with laser beams, but only while they sit in the target area at the window\'s centre; asteroids cannot be destroyed, and anything that hits you costs a point. The cartridge also carries Warp Drive and Lunar Lander variations."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_ship.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Ship",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Star%20Ship%20~%20Outer%20Space%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Star Patrol",
+            category: ContentChange,
+            author: Some("OutofGas"),
+            links: [
+                (
+                    name: "AtariAge",
+                    url: "https://atariage.com/hack_page.php?SystemID=2600&SoftwareHackID=263",
+                    link_type: Community,
+                ),
+            ],
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("878e78ed46e29c44949d0904a2198826e412ed81"),
+                    artifacts: [
+                        (
+                            sha1: "46c8ac7a02c67eaf14d42162ffba37285390780f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Star Wars Hack",
+            category: ContentChange,
+            author: Some("Bob Montgomery"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("878e78ed46e29c44949d0904a2198826e412ed81"),
+                    artifacts: [
+                        (
+                            sha1: "d96ea2bc020681ea506c14bff2b5fe810789cad9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "No colour cycling",
+            category: QualityOfLife,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("878e78ed46e29c44949d0904a2198826e412ed81"),
+                    artifacts: [
+                        (
+                            sha1: "fa3a6776cb8b50713fecc6f4f0d6f07fce6748e4",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1977"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,18 +90,9 @@
                 (
                     sha1: "878e78ed46e29c44949d0904a2198826e412ed81",
                 ),
-            ],
-        ),
-        (
-            date: Some("1977"),
-            publisher: Some("Atari"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
                 (
                     sha1: "d2b6290afb81bad126321d923d222c26e2de5fa8",
+                    defect: Some(Overdump),
                 ),
             ],
         ),

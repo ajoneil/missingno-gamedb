@@ -1,5 +1,52 @@
 (
     title: "Stunt Cycle",
+    developer: Some("Bob Polaro"),
+    description: Some("Two rows of screen to build up speed, then a ramp at the bottom and a row of cars to clear. Land safely on the far side without carrying so much speed that you sail off the edge. Clear it and the row of cars widens, so the next jump wants more speed and leaves less margin."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/stuntcycle/stuntcycle.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C47B9F8D0EFB2B59777BB7E8CF93E3DC33336CD7",
+    ],
+    mods: [
+        (
+            name: "Bionic Test",
+            category: ContentChange,
+            author: Some("James Francis"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("2e19d7e16cf17682b043baaa30e345e6fa4540e5"),
+                    artifacts: [
+                        (
+                            sha1: "2496223c316c4a5ad63bd6c6a3d19ccc923adb3d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Stunt Cycle \'76",
+            category: ContentChange,
+            author: Some("David Weavil"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("2e19d7e16cf17682b043baaa30e345e6fa4540e5"),
+                    artifacts: [
+                        (
+                            sha1: "22833179cff703e4d740bbccc0bbd4a33a505802",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1980"),
@@ -8,6 +55,9 @@
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (

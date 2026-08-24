@@ -1,12 +1,37 @@
 (
     title: "Star Fox",
+    developer: Some("Bruce de Graaf"),
+    description: Some("A robot freighter has gone down on planetoid Beta-7 with a cargo of blue trimetalisium crystals, and an enemy star cruiser\'s fighter drones are inbound to take them. Shoot or ram the drones in open space, then dive into the planet\'s ionized atmosphere — where your horizontal drives cut out — to collect the floating crystals."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/star_fox.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Fox_(1983_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Star%20Fox%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Mythicon"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Joystick,
+                    Trackball,
+                ],
             ),
             artifacts: [
                 (
@@ -14,6 +39,7 @@
                 ),
                 (
                     sha1: "31ad09273cf46a7b17aa994a4059fcdf879e38b4",
+                    label: Some("alt"),
                 ),
             ],
         ),

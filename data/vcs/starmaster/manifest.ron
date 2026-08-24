@@ -1,7 +1,30 @@
 (
-    title: "StarMaster",
+    title: "Starmaster",
+    developer: Some("Alan Miller"),
+    description: Some("Enemy starfighters are surrounding the galaxy\'s starbases and it falls to you to clear them. Study the galactic chart, warp to a sector, and shoot your way through — dodging meteors on the way, since a hit costs energy or knocks out your shields, lasers or radar. Dock at a starbase to repair and refuel."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/starmaster.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Starmaster",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/StarMaster%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -34,6 +57,41 @@
                 ),
                 (
                     sha1: "bc2ea6e663d679ad2e5cf8efbf85a55808e7d564",
+                ),
+            ],
+        ),
+        (
+            title: Some("Kommando Galaxis"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("Ariolasoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1b15da84a0e50a91ededde6ff2ef4781d0eef481",
+                ),
+            ],
+        ),
+        (
+            title: Some("Kommando Galaxis"),
+            label: Some("VSYNC fix"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1982"),
+            publisher: Some("Ariolasoft"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "49d9c811992e6f900a3ef795a792e48dd45187ae",
                 ),
             ],
         ),

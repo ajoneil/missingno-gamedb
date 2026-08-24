@@ -1,7 +1,62 @@
 (
     title: "Surround",
+    developer: Some("Alan Miller"),
+    description: Some("Two blocks crawl around an enclosed arena, each leaving a solid wall behind it, and the space closes in as they go. Steer your opponent into a wall — theirs, yours or the arena\'s — to take a point, first to ten wins. Modes vary the speed and whether diagonals are allowed, and two Video Graffiti settings turn the field into a drawing board."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/surround.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Surround_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D88D9ECF55E33F6BE4BD98FDC0DDE76E2DEA5F84",
+    ],
+    mods: [
+        (
+            name: "Surround Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("b7988373b81992d08056560d15d3e32d9d3888bc"),
+                    artifacts: [
+                        (
+                            sha1: "5e2e753ec079790be1dfd9f9334dfe4b7326cdc9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Tron",
+            category: ContentChange,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("b7988373b81992d08056560d15d3e32d9d3888bc"),
+                    artifacts: [
+                        (
+                            sha1: "57aeed8004c13fa90547c41e7ad020e2554015fe",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1977"),
             publisher: Some("Atari"),
             hardware: (
@@ -12,18 +67,61 @@
                 (
                     sha1: "b7988373b81992d08056560d15d3e32d9d3888bc",
                 ),
+                (
+                    sha1: "96f1cfe1ba8ba1c3ca6a19c24a709c1784e13796",
+                    defect: Some(Overdump),
+                ),
+                (
+                    sha1: "2adf20d43e2ca25e05f65a61f195381c78b51fef",
+                    label: Some("alt"),
+                ),
             ],
         ),
         (
-            date: Some("1977"),
+            label: Some("32 in 1"),
+            date: Some("1988"),
             publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "62cc0bc432c81e9fcbc8a19bbcb68559b548ffdf",
+                ),
+                (
+                    sha1: "944d4e2a3edd3120b8595a7c6aad857cff044534",
+                ),
+            ],
+        ),
+        (
+            label: Some("32 in 1"),
+            date: Some("1988"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "92c2eb2dd2e597fb9d3b015317482f44bf085240",
+                ),
+                (
+                    sha1: "a23f88181c45191b9bb7b8ca30ab622b4aee38c4",
+                ),
+            ],
+        ),
+        (
+            date: Some("2007"),
+            publisher: Some("Chris Read"),
+            status: WorkInProgress,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "96f1cfe1ba8ba1c3ca6a19c24a709c1784e13796",
+                    sha1: "74987edc1e0a0bab7b60c11116c2bfbffbae9a91",
                 ),
             ],
         ),
