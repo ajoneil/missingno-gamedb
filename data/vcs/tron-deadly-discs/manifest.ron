@@ -1,0 +1,120 @@
+(
+    title: "Tron: Deadly Discs",
+    developer: Some("Brett Stutz, Jeff Ronne"),
+    description: Some("TRON stands alone in a walled arena as three warriors come through the doors and throw destroyer discs at him. Your own disc flies in whichever of eight directions you were holding and can be recalled mid-flight; clear all three before the ten-second replacements arrive and the scoring level rises, along with how fast and how often they throw."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tron_deadly_discs.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tron:_Deadly_Discs",
+            link_type: Wiki,
+        ),
+    ],
+    mods: [
+        (
+            name: "Tron - Deadly Discs Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("0ec58a3a5a27d1b82a5f9aabab02f9a8387b6956"),
+                    artifacts: [
+                        (
+                            sha1: "8a6e084d1545cd719b4ea9fafc3212135f4a712d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Fire Queen",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("0ec58a3a5a27d1b82a5f9aabab02f9a8387b6956"),
+                    artifacts: [
+                        (
+                            sha1: "46924677e1fd81484b30015d63a0121052ba1148",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("0ec58a3a5a27d1b82a5f9aabab02f9a8387b6956"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "0f36699187d02504c59bda4bac644e171a35379b",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    date: Some("2008"),
+                    base_sha1: Some("0ec58a3a5a27d1b82a5f9aabab02f9a8387b6956"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "9d85fbe4d1ddd40815bc5be40915ea42bebbb525",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("M Network"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ec58a3a5a27d1b82a5f9aabab02f9a8387b6956",
+                ),
+                (
+                    sha1: "8b157e9cd6a1a6995ae08577d9e7e8b3da972c73",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Deadly Discs"),
+            date: Some("1988"),
+            publisher: Some("Telegames"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "26de531ab1502a8dfb7b700c1db1024525dc410d",
+                ),
+            ],
+        ),
+    ],
+)

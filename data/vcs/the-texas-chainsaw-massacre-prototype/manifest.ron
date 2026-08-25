@@ -1,0 +1,27 @@
+(
+    title: "The Texas Chainsaw Massacre",
+    developer: Some("Bob Davis, Robert O\'Neil"),
+    description: Some("Leatherface and his victim share one screen strewn with rainbow blocks, and this victim shoots back. Leatherface can conjure blocks of his own — two at a time, each lasting fifteen seconds — to corner his quarry, and both sides score a point per hit until a timer at the foot of the screen runs out."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/texaschainsaw/texaschainsawproto.htm",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1f1660223abeee3113c3f75bf4d9cbb3b1cf49e4",
+                ),
+            ],
+        ),
+    ],
+)

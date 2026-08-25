@@ -1,29 +1,71 @@
 (
-    title: "The Texas Chainsaw Massacre (Supercharger Conversion Hack)",
+    title: "The Texas Chainsaw Massacre",
+    developer: Some("Ed Salvo"),
+    description: Some("You are Leatherface, hunting the last of the trespassers across your property with a chainsaw that burns fuel whenever it revs — so closing to range before you swing matters more than swinging often. Cow skulls, fences, wheelchairs and thickets appear at random to stall you and let victims escape, and the game ends when the last tank runs dry."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/texas_chainsaw.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Texas_Chainsaw_Massacre_(1983_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Texas%20Chainsaw%20Massacre,%20The%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("717122a4184bc8db41e65ab7c369c40b21c048d9"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "a029eead1c7cded2066bd7e181212ec9fce4e096",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    date: Some("2005"),
+                    base_sha1: Some("717122a4184bc8db41e65ab7c369c40b21c048d9"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "3c79bb6e75ef746ab62fd892d1828814499d33c7",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("2005"),
-            publisher: Some("Kurt Howe"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Wizard Video Games"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
-                    sha1: "a029eead1c7cded2066bd7e181212ec9fce4e096",
-                ),
-            ],
-        ),
-        (
-            date: Some("2005"),
-            publisher: Some("Kurt Howe"),
-            hardware: (
-                tv_format: Some(Pal),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
-                (
-                    sha1: "3c79bb6e75ef746ab62fd892d1828814499d33c7",
+                    sha1: "717122a4184bc8db41e65ab7c369c40b21c048d9",
                 ),
             ],
         ),

@@ -1,19 +1,57 @@
 (
-    title: "Tempest (Hack)",
+    title: "Tempest",
+    description: Some("A conversion of the vector arcade game to a flat, segmented playfield: you patrol its rim while enemies climb toward you from the far side, growing as they come. Flippers turn dangerous once they reach your edge, tankers split in two when hit, and pulsars glow for a moment before electrifying the lane they occupy."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/tempest/tempest.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tempest_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/246D71A1F2C50B6D8355D896805C5C65C1AFEA11",
+    ],
+    mods: [
+        (
+            name: "Hack (Dr. Kwack)",
+            category: ContentChange,
+            author: Some("Dr. Kwack"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("bf4d570c1c738a4d6d00237e25c62e9c3225f98f"),
+                    artifacts: [
+                        (
+                            sha1: "7b0063837035bf1ddaa045c67bd5f5c709dc7bf0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("2005"),
-            publisher: Some("Dr. Kwack"),
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
             ),
             artifacts: [
                 (
-                    sha1: "7b0063837035bf1ddaa045c67bd5f5c709dc7bf0",
+                    sha1: "bf4d570c1c738a4d6d00237e25c62e9c3225f98f",
                 ),
                 (
-                    sha1: "bf4d570c1c738a4d6d00237e25c62e9c3225f98f",
+                    sha1: "3dd11dabb1a98a45443ae6f088e7e02cbd5b6aa0",
+                    label: Some("Atari Anthology"),
+                    size: Some(8192),
                 ),
             ],
         ),

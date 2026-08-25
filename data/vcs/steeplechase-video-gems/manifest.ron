@@ -1,5 +1,6 @@
 (
     title: "Steeplechase",
+    description: Some("Ride a thoroughbred through a steeplechase course against the clock, clearing hedges, puddles and fences over four progressively longer, faster levels. A split screen does the work: the top half shows how many obstacles are coming and where, while the bottom half reveals the height of the one directly ahead, so you judge each jump before committing."),
     links: [
         (
             name: "Manual",
@@ -10,6 +11,28 @@
     covers: [
         "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Steeplechase%20(Europe).png",
     ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("bd7f0005fa018f13ed7e942c83c1751fb746a317"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "2d9c4802786b4f27e04d9495c7c23a3dc77c9f23",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -21,6 +44,7 @@
             artifacts: [
                 (
                     sha1: "a037f8d4cd4d9721ef5c29c7c58100739a039cd2",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "bd7f0005fa018f13ed7e942c83c1751fb746a317",

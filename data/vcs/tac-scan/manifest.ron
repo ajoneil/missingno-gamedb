@@ -1,12 +1,66 @@
 (
     title: "Tac-Scan",
+    developer: Some("Jeff Lorenz"),
+    description: Some("Enemy airships bear down on your command base, and a five-ship squadron flying in formation is all that stands between them and annihilation. Every ship still alive fires one missile per salvo, so losing them thins your firepower — and the only way to rebuild is to shoot down ten enemies, then thread a replacement into a vacant slot in the formation."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tac-scan.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tac/Scan",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Tac-Scan%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("43438f5d7f038a9bf14e7b63228d2e694809e0fe"),
+                    artifacts: [
+                        (
+                            sha1: "911dd756099c2bbd4d862ad80ae54793568b8f6d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Tac Scan Paddle",
+            category: QualityOfLife,
+            author: Some("Christopher Tumber"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("55e98fe14b07460734781a6aa2f4f1646830c0af"),
+                    artifacts: [
+                        (
+                            sha1: "d2f7db69015a3d469a312a96574cd0cc6afb94db",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
-            publisher: Some("SEGA"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
@@ -19,9 +73,6 @@
                     sha1: "699743fa38b03c0fd2533a4d2be342a547b0920f",
                 ),
                 (
-                    sha1: "911dd756099c2bbd4d862ad80ae54793568b8f6d",
-                ),
-                (
                     sha1: "e298fd50be6961e1dc544ba9dfc2432e3fb7e175",
                 ),
             ],
@@ -32,10 +83,17 @@
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
                     sha1: "43438f5d7f038a9bf14e7b63228d2e694809e0fe",
+                ),
+                (
+                    sha1: "cf64de1126fd41ba309eb157376c9b4c00f03a7b",
+                    label: Some("alt"),
                 ),
             ],
         ),

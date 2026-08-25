@@ -1,5 +1,51 @@
 (
     title: "Tapeworm",
+    description: Some("Slinky the worm works a bean patch, clearing all ten beans before a mystery beetle can reach the fruit — each bean swallowed leaves him longer and harder to steer. Tangling yourself up is as fatal as the spider and the bird hunting you, and the third patch is played in darkness you can only light in two-second flashes."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tape_worm.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Tapeworm%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("633ef6359656abe9627b9d5b97eccb9858a4dc8c"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "4247bcb3c0bfe03fe4c23e600b137d88ab25b1c3",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("PAL"),
+                    date: Some("2008"),
+                    base_sha1: Some("633ef6359656abe9627b9d5b97eccb9858a4dc8c"),
+                    hardware: (
+                        tv_format: Some(Pal),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "8d45b05d8340b5d64693f5430419d2c712ac1938",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),

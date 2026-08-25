@@ -1,5 +1,18 @@
 (
     title: "Telepathy",
+    developer: Some("Dan Oliver"),
+    description: Some("A demonstration built from seven action screens strung on a loose mine theme: steering a drifting figure along a weaving trail of glowing triangles toward a pit, then dodging spiders against a timer as an explorer far below. Left alone it plays itself through every screen, and the triangles pay more the longer you keep the chain unbroken."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/telepathy/telepathy.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3FECE108B9EEFBB9665251FCB0BCCAC48F9FCB0E",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -8,6 +21,10 @@
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
+                controllers: [
+                    Joystick,
+                    MindLink,
+                ],
             ),
             artifacts: [
                 (

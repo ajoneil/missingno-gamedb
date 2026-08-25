@@ -1,7 +1,23 @@
 (
     title: "Turmoil",
+    developer: Some("Mark Turmell"),
+    description: Some("Your ship patrols a central alley while aliens streak along lanes to either side, and everything but a prize has to be shot from that alley. Arrows harden into tanks that can only be killed from behind, prizes must be chased down a lane and abandoned before an indestructible ghost ship arrives, and past level four the lanes start going invisible."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/turmoil.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1891B36BD6A050D97080208E88D325A5BFB4AFA3",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Fox Video Games"),
             hardware: (
@@ -21,6 +37,7 @@
             ],
         ),
         (
+            publisher: Some("Fox Video Games"),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),

@@ -1,7 +1,28 @@
 (
-    title: "Track and Field",
+    title: "Track & Field",
+    developer: Some("Seth Lipkin, Jaques Hugon"),
+    description: Some("Six Olympic events in order — dash, long jump, javelin, hurdles, hammer throw, high jump — each gated behind a qualifying time or distance you must beat before the next one opens. Running is a matter of waggling left and right as fast as you can, while jumps and throws are a held button that sets your angle and a release that commits it."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Track_%26_Field_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/track_field.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7BA8687D7CB34EF6099FA3F29A1345243458C92C",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1984"),
             publisher: Some("Atari"),
             hardware: (
@@ -11,6 +32,21 @@
             artifacts: [
                 (
                     sha1: "005a6a53f5a856f0bdbca519af1ef236aaa1494d",
+                ),
+            ],
+        ),
+        (
+            title: Some("Los Angeles 1984 Games"),
+            date: Some("1984"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F6"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3200610dabfc6bbe3929e179d52b0e9379b04475",
                 ),
             ],
         ),

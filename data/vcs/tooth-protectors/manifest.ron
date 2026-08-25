@@ -1,7 +1,39 @@
 (
     title: "Tooth Protectors",
+    developer: Some("Michael Doherty, Clyde Hager"),
+    description: Some("T.P. the Tooth Protector patrols a mouth while Snack Attackers overhead rain sugar cubes at the teeth, deflecting each one with dental floss for points — and a cube knocked into another falling cube scores ten times as much. Three hits set a tooth blinking, and only calling in the brush, floss and fluoride rinse in time stops it decaying away."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tooth_protectors.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/74752DE6742010080921A8D4E42405833A36816A",
+    ],
+    mods: [
+        (
+            name: "F4 conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("d82ac7237df54cc8688e3074b58433a7dd6b7d11"),
+                    artifacts: [
+                        (
+                            sha1: "dcfa0932c353493fd7eb30f25eb652a47a4db250",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Camelot"),
             hardware: (
@@ -9,7 +41,7 @@
                 cart_type: Some("E0"),
                 controllers: [
                     Joystick,
-                    KidVid,
+                    Trackball,
                 ],
             ),
             artifacts: [

@@ -1,7 +1,64 @@
 (
     title: "Tutankham",
+    developer: Some("Dave Engman, Dawn Stockbridge"),
+    description: Some("An archeologist loots King Tut\'s tomb chamber by chamber, and his laser only fires left or right — never up or down — so creatures springing from their nests have to be lined up rather than simply shot. A key must be in hand before the door at the end of each maze will open, and the time band drains your ammunition the longer you linger."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tutankham",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tutankham.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/51F34B94F5454DA1C72BDA39B7521521172933AB",
+    ],
+    mods: [
+        (
+            name: "Trainer",
+            category: QualityOfLife,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("a4d6bac854a70d2c55946932f1511cc62db7d4aa"),
+                    artifacts: [
+                        (
+                            sha1: "13113187644413c94b395e8278449180f733266a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "F4 conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("a4d6bac854a70d2c55946932f1511cc62db7d4aa"),
+                    artifacts: [
+                        (
+                            sha1: "3a68bd36baddfd0edf63cbe26710d168550e8239",
+                        ),
+                        (
+                            sha1: "a4a1fc5aa53a76faa1b3d1ee64b81438b3f2da35",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Parker Brothers"),
             hardware: (

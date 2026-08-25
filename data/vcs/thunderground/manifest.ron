@@ -1,0 +1,203 @@
+(
+    title: "Thunderground",
+    developer: Some("Jeff Lorenz"),
+    description: Some("Tunnel a capsule up through the earth toward six nuclear bases, each sitting behind a force field you must chew away before your laser can reach it. White sentry tanks can only follow existing tunnels while blue diggers carve their own — and a patient player lets those diggers strip the force field for them, while a third tank advances on your reserves as a clock."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/thunderground.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Borderline_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Thunderground%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "MoleTank",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("3cc8bcc0ff5164303433f469aa4da2eb256d1ad0"),
+                    artifacts: [
+                        (
+                            sha1: "097137382d62ce42de68c5972c9a62b7ac11221d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Trench Fighters",
+            category: ContentChange,
+            author: Some("Fabventure2600"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("3cc8bcc0ff5164303433f469aa4da2eb256d1ad0"),
+                    artifacts: [
+                        (
+                            sha1: "8695eb1a1247dd91be9b36d661cc7f9a62e51c75",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Alien Ants",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("3cc8bcc0ff5164303433f469aa4da2eb256d1ad0"),
+                    artifacts: [
+                        (
+                            sha1: "74ffba732ff20424c56356318becf3848cb0738f",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("3cc8bcc0ff5164303433f469aa4da2eb256d1ad0"),
+                    artifacts: [
+                        (
+                            sha1: "aec8ef5272b2e9b409f46492ee582e92692d7d6e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Supercharger conversion (Alien Ants)",
+            category: Compatibility,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2008"),
+                    base_sha1: Some("74ffba732ff20424c56356318becf3848cb0738f"),
+                    artifacts: [
+                        (
+                            sha1: "0f4b9cff5598e2a5f05c4d3024b78abd3ef59d6c",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Sega"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3cc8bcc0ff5164303433f469aa4da2eb256d1ad0",
+                ),
+                (
+                    sha1: "853830093388866a98a59ae9d248d4d5207cb025",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "5ae6892ba327c9cbe090b37edfe22b48f1ad45d4",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Sega"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "34c316869e8749e334ea69892748b281ce36f7fc",
+                ),
+            ],
+        ),
+        (
+            title: Some("Thunder Ground"),
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
+            publisher: Some("Digivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "30fce04edc13daa836406f28d4dd1131164366e7",
+                ),
+            ],
+        ),
+        (
+            title: Some("Tank City"),
+            publisher: Some("Funvision / Fund. International Co."),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "65a0d7892c799e60a201b1b1b5ca156a28af0ee9",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Brazil,
+            ],
+            publisher: Some("Canal 3 / Intellivision"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2f12c76d74232055b7676b1be42e90cfcb1e4d4b",
+                ),
+            ],
+        ),
+        (
+            title: Some("Phantompanzer II"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("Quelle"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a04ff325dc3ebb2382428c6cd44dae7bc76ff71",
+                ),
+            ],
+        ),
+    ],
+)

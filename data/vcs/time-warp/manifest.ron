@@ -1,5 +1,35 @@
 (
     title: "Time Warp",
+    description: Some("Four rounds alternate between two jobs: the first and third are shooting rounds where each wave of flying objects is worth more than the last, climbing from twenty points toward a hundred. The second and fourth score on timing instead, and every two rounds you finish earns a spare ship, up to nine."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/time_warp.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Time%20Warp%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Seaquest 2",
+            category: ContentChange,
+            author: Some("James Catalano"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("7258e8da5177f37583efca1bf43e5987c9845d4c"),
+                    artifacts: [
+                        (
+                            sha1: "987cf9820595b96ce76da5872e952247d0d71a0a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             publisher: Some("Quelle"),
@@ -20,7 +50,11 @@
             ],
         ),
         (
-            publisher: Some("Funvision"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1982"),
+            publisher: Some("Funvision / Fund. International Co."),
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),

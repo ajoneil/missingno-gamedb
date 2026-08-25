@@ -1,19 +1,39 @@
 (
     title: "Treasure Below",
-    releases: [
+    description: Some("Dive from a boat to the sea floor, collect a gold bar and swim it back up to score — six bars per level, spread across three search areas you reach by swimming off the screen edge. Seahorses, jellyfish and an octopus harry you on the way down, fought off with a knife, and every bar recovered makes the whole sea move faster."),
+    links: [
         (
-            date: Some("2002"),
-            publisher: Some("Thomas Jentzsch"),
-            hardware: (
-                tv_format: Some(Ntsc),
-                cart_type: Some("4K"),
-            ),
-            artifacts: [
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/treasure_below.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D46AE1A4AFF4707F5CA65DAEA328EE4C1B8783C6",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
                 (
-                    sha1: "cb975d9fbf72a4ae833fffba865864a74146bdd7",
+                    date: Some("2002"),
+                    base_sha1: Some("9a9917d82362c77b4d396f56966219fc248edf47"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "cb975d9fbf72a4ae833fffba865864a74146bdd7",
+                        ),
+                    ],
                 ),
             ],
         ),
+    ],
+    curated: true,
+    releases: [
         (
             date: Some("1983"),
             publisher: Some("Video Gems"),

@@ -1,0 +1,79 @@
+(
+    title: "Taz",
+    developer: Some("Steve Woita"),
+    description: Some("Taz whirls along a set of long tables as a tornado, swallowing everything edible in his path — hamburgers, root beer, ice cream, even turnips — while sticks of dynamite ride the same tables. Three unbalanced meals of eight courses each serve the food faster and faster, and one bite of dynamite costs a life."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/taz.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Taz_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Taz%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0bcfd8aa6c33d601c2240850f1188407e2f47331",
+                ),
+                (
+                    sha1: "670b3dede2702c96494636b6d7f4ae8112501cb4",
+                ),
+                (
+                    sha1: "fa4aee79487036656aabb432d7c6e13ec21e3a3c",
+                ),
+                (
+                    sha1: "ffa79f03bb93d51ce6801d675a6221dcd0df4d61",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "476f0c565f54accecafd72c63b0464f469ed20ea",
+                ),
+                (
+                    sha1: "c85ef597d56ee08d291597ecf6808427d93059c9",
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2725ee79a5574243302e7a3d32de433696f597e5",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,9 +1,75 @@
 (
     title: "Title Match Pro Wrestling",
+    developer: Some("Alex DeMeo"),
+    description: Some("Pick from four wrestlers — Mad Dog, Skin Head, Mr. Mean and Big Chief — and fight one-on-one or as a tag team, against a second player or the computer. Power bars on the scoreboard track both wrestlers\' strength, and you have to drain your opponent\'s while holding on to your own before a three-count pin will stick; best of three falls takes the belt."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/title_match.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Title%20Match%20Pro%20Wrestling%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "BPW Wrestling",
+            category: ContentChange,
+            author: Some("Kevin Morris"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("979d9b0b0f32b40c0a0568be65a0bc5ef36ca6d0"),
+                    artifacts: [
+                        (
+                            sha1: "c4ec1f8fe3c3d3319766cd06c13f19be1908d989",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Absolute Improved",
+            category: QualityOfLife,
+            author: Some("Juan Arceo"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("979d9b0b0f32b40c0a0568be65a0bc5ef36ca6d0"),
+                    artifacts: [
+                        (
+                            sha1: "1c2ed3b6c4b0c9aa37630c38cb5f72a0978e9bc5",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Activision Improved",
+            category: QualityOfLife,
+            author: Some("Juan Arceo"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("979d9b0b0f32b40c0a0568be65a0bc5ef36ca6d0"),
+                    artifacts: [
+                        (
+                            sha1: "627be3cbcf048fe194c1263e69592d3ae11eec7d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1989"),
-            publisher: Some("Activision"),
+            regions: [
+                Usa,
+            ],
+            date: Some("1987"),
+            publisher: Some("Absolute Entertainment"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
@@ -17,6 +83,28 @@
                 ),
                 (
                     sha1: "add2d8f2a5242e54f817a8e8dc99716bca86758f",
+                    label: Some("Activision Anthology - Remix Edition"),
+                ),
+                (
+                    sha1: "896b7d2df4c794184c46835a0dcae09a88f76fa2",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            title: Some("Pro Wrestling"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Absolute Entertainment"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b5e9e207d02456e7eccf3ae9b7df60777bb3fb67",
                 ),
             ],
         ),

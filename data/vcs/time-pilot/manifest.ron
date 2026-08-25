@@ -1,7 +1,46 @@
 (
     title: "Time Pilot",
+    developer: Some("Harley H. Puthuff Jr."),
+    description: Some("Your Timeship sits at the centre of the screen and turns to face whichever way you push, firing in the direction it points. Clear enough of each era\'s aircraft — biplanes in 1910, monoplanes in 1940, then helicopters, superjets and flying saucers — and a lone heavy machine flies in to be downed before time moves on."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/time_pilot.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Time_Pilot",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Time%20Pilot%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Helo Wars",
+            category: ContentChange,
+            author: Some("Jack Kortkamp"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("387358514964d0b6b55f9431576a59b55869f7ab"),
+                    artifacts: [
+                        (
+                            sha1: "0f4ee8b9077834a7af2a6a9556d273bc55a97938",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Coleco"),
             hardware: (
@@ -12,11 +51,18 @@
                 (
                     sha1: "387358514964d0b6b55f9431576a59b55869f7ab",
                 ),
+                (
+                    sha1: "b7424469f9d5553e1ec5718ef87cd06524f61ee9",
+                    defect: Some(BadDump),
+                ),
             ],
         ),
         (
+            regions: [
+                Argentina,
+            ],
             date: Some("1983"),
-            publisher: Some("Edu Games"),
+            publisher: Some("Edu Games / Edu Juegos"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("UA"),

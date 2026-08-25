@@ -1,7 +1,46 @@
 (
     title: "Trick Shot",
+    developer: Some("Dennis Koble"),
+    description: Some("Pocket billiards with three target balls and a cue: rotate the cue around the ball to aim, then hold the button to build power — the longer the hold, the harder the strike. Leaning the stick while you hold applies spin, and beyond pool and English billiards there are nine practice puzzles that each want a ball sunk in a single shot."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/trick_shot.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Trick_Shot_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/960B8851575F9DBD825AAA98E394C014A4C28AE4",
+    ],
+    mods: [
+        (
+            name: "Trick Shot Edit",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("86c563db11db9afbffbd73c55e9fae9b2f69be4f"),
+                    artifacts: [
+                        (
+                            sha1: "4ebb9f9282940f4149da3eb15c864170d8d9e235",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             hardware: (
@@ -21,6 +60,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("Imagic"),
             hardware: (
@@ -30,6 +72,10 @@
             artifacts: [
                 (
                     sha1: "799e24a0cf4c0695e34e94847f223706a40fccac",
+                ),
+                (
+                    sha1: "2fdbe1cc11210c4ab0fac31e78a0a8d094ad18e7",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

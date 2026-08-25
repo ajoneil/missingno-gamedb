@@ -1,7 +1,44 @@
 (
     title: "Towering Inferno",
+    developer: Some("Paul Allen Newell, Tom Sloper, Jeff Corsiglia"),
+    description: Some("Fight up through a burning skyscraper to the window where four survivors wait, hosing flames aside as you climb — then run for the exit passage, which stays sealed until you have them. The survivors dwindle one by one while the clock runs, a wall of fire breaks into smaller flames rather than dying, and nine buildings of nine floors each stand between you and the end."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/towering_inferno.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Towering_Inferno_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/EB901F1E2471CF0822809FF4F38950353320F6E1",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("b344b3e042447afbb3e40292dc4ca063d5d1110d"),
+                    artifacts: [
+                        (
+                            sha1: "c3fc067a0ea4d50657e945f75d4554a80da80e56",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
             publisher: Some("U.S. Games Corporation"),
             hardware: (
@@ -11,9 +48,6 @@
             artifacts: [
                 (
                     sha1: "b344b3e042447afbb3e40292dc4ca063d5d1110d",
-                ),
-                (
-                    sha1: "c3fc067a0ea4d50657e945f75d4554a80da80e56",
                 ),
             ],
         ),
@@ -25,6 +59,10 @@
             artifacts: [
                 (
                     sha1: "dab9124de3c1d7760c979650d4d83b1c0e6c142d",
+                ),
+                (
+                    sha1: "256f88075848756819ca3a530aa4b544b0f0be4b",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

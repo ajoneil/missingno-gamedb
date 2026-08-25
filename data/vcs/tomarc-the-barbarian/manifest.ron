@@ -1,9 +1,25 @@
 (
-    title: "Tomarc the Barbarian (Thundarr the Barbarian) (Xonox - K-Tel Software - Product Guild, Anthony R. Henderson)",
+    title: "Tomarc the Barbarian",
+    developer: Some("Anthony R. Henderson"),
+    description: Some("Tomarc hunts a maze of caverns for his lost sword while Senta, caged in ruins overhead, shoots energy stars at the vampire bats closing in. You play both at once but see only one screen at a time, so the game tells you where you are needed by sound — thunder when a bat reaches the cage, scratching when a rat starts up the cave wall."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tomarc.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AD294AE382B7E64FB30533FA7B9C6679079A92D5",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
-            publisher: Some("99007"),
+            publisher: Some("Xonox"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
@@ -11,6 +27,10 @@
             artifacts: [
                 (
                     sha1: "489c9b572535721a0516a2b759e0b9c7f7a5b3cc",
+                ),
+                (
+                    sha1: "fcd339065a012c9fe47efbec62969cbc32f3fbf0",
+                    label: Some("alt"),
                 ),
             ],
         ),

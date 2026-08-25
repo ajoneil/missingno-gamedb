@@ -1,9 +1,27 @@
 (
     title: "Tapper",
+    developer: Some("Steve Beck"),
+    description: Some("A frenzied bartender works four bars — Old West saloon, jock bar, punk bar and space bar — sliding sodas down the counter to customers advancing on him and catching the empties they fling back. Serving a drink nobody is there to catch costs as much as letting a customer reach you, and between bars the Soda Bandit shuffles six cans for you to pick the one he hasn\'t shaken."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tapper.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tapper_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Tapper%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1984"),
-            publisher: Some("SEGA"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),

@@ -1,5 +1,40 @@
 (
     title: "Threshold",
+    description: Some("Six alien attackers per wave sweep down while your ship works the lower half of the screen, and eleven increasingly valuable waves cycle past. Fire again before your phaser shot lands and it refires at once, giving a short-range barrage — and a bonus gauge worth 3,200 points bleeds away from the moment each wave starts, so speed pays."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/threshold.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Threshold_(1981_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AAB0740E8B422A39AEEB047469906918D47DEB00",
+    ],
+    mods: [
+        (
+            name: "Threshold Two Players",
+            category: ContentChange,
+            author: Some("Zach Matley"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("9a52fa88bd7455044f00548e9615452131d1c711"),
+                    artifacts: [
+                        (
+                            sha1: "6d83c3a9f5216d128c62d9eb2b148597df5b8eb9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),

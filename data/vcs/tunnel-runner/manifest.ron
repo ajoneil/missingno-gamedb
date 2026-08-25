@@ -1,7 +1,28 @@
 (
     title: "Tunnel Runner",
+    developer: Some("Richard K. Balaska Jr."),
+    description: Some("A first-person run through twisting mazes where you can only see straight ahead, whichever way you turn. Each Run hides a key that opens the escape door, and the Maze Zots hunting you cannot be fought — one mode keeps the same layouts every time so you can learn them, the other builds a fresh maze on every play."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/tunnel_runner.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tunnel_Runner",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D005327DF7D16F258FC59CBE416344D1A919966B",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("CBS Electronics"),
             hardware: (
@@ -11,9 +32,14 @@
             artifacts: [
                 (
                     sha1: "af202ee515b41113660bdf4500802108b12f85a3",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "fc1a0b58765a7dcbd8e33562e1074ddd9e0ac624",
+                ),
+                (
+                    sha1: "460094d7689ac0c4435b72e3e390f4b6f2ef112c",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),
