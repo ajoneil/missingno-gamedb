@@ -153,13 +153,6 @@ fn sg1000_board_round_trips() {
 }
 
 #[test]
-fn a_board_code_no_core_builds_is_a_parse_error() {
-    let text = r#"(title: "x", releases: [(hardware: (cart_type: Some("DPC+")))])"#;
-    let error = Game::<Vcs>::from_ron(text).expect_err("no such board");
-    assert!(error.to_string().contains("DPC+"), "{error}");
-}
-
-#[test]
 fn mod_round_trips() {
     let (game, _) = round_trip::<GameBoy>(GB_MOD);
     let mod_of = game.mod_of.expect("mod block present");

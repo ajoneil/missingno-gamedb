@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
-/// Release regions, closed to the vocabulary the database actually uses;
-/// unknown region text is a data error to fix, not a value to store.
+/// Release regions. Free text drifts across spellings, so regions are a
+/// typed vocabulary — a region a catalogue attests earns a variant here.
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Hash, Debug)]
 pub enum Region {
     Japan,
@@ -22,4 +22,8 @@ pub enum Region {
     Netherlands,
     Canada,
     Brazil,
+    Argentina,
+    Singapore,
+    Thailand,
+    NewZealand,
 }

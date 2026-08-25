@@ -70,6 +70,10 @@ pub fn parse_region(word: &str) -> Option<Option<Region>> {
         "Netherlands" => Region::Netherlands,
         "Canada" => Region::Canada,
         "Brazil" => Region::Brazil,
+        "Argentina" => Region::Argentina,
+        "Singapore" => Region::Singapore,
+        "Thailand" => Region::Thailand,
+        "New Zealand" => Region::NewZealand,
         "Unknown" => return Some(None),
         _ => return None,
     };
