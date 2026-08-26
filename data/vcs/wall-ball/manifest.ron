@@ -1,5 +1,18 @@
 (
     title: "Wall Ball",
+    developer: Some("Duncan Scott"),
+    description: Some("You stand at the near end of a rectangular room and knock a ball into the brick wall at the far end, breaking out bricks for points. The racket\'s sweet spot returns the ball at the angle it arrived, while its frame flattens the angle and steers the rebound — so where on the racket you make contact is the whole game."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/wall_ball.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Wall%20Ball%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),

@@ -1,9 +1,45 @@
 (
     title: "Wizard of Wor",
+    description: Some("You walk a Worrior through the Wizard\'s dungeon mazes shooting Worlings, with a radar panel below showing every creature in the maze — including the Garwors and Thorwors that are invisible most of the time. You fire one shot at a time and cannot fire again until it hits something, and the escape doors at either side teleport Worlings as readily as you."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Wizard_of_Wor",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/wizard_wor.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Wizard%20of%20Wor%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Supercharger conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("326e5e63a54ec6a0231fd38e62e352004d4719fe"),
+                    artifacts: [
+                        (
+                            sha1: "8045e31838807a2a878e3a711127ac73590c203b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1982"),
-            publisher: Some("CBS Electronics"),
+            publisher: Some("CBS Video Games"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
@@ -14,13 +50,14 @@
                 ),
                 (
                     sha1: "43a7a5b2258697983f2f63550c25a0c9718cc9f1",
-                ),
-                (
-                    sha1: "8045e31838807a2a878e3a711127ac73590c203b",
+                    label: Some("alt"),
                 ),
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1982"),
             publisher: Some("CBS Electronics"),
             hardware: (

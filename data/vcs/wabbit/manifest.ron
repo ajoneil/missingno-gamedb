@@ -1,5 +1,23 @@
 (
     title: "Wabbit",
+    developer: Some("Van Mai"),
+    description: Some("You are Billie Sue, a farmer whose carrot patch is ringed by ten holes that wabbits dart out of, and your answer is a supply of rotten eggs. A wabbit that reaches its hole with a carrot adds to their tally; walloping one adds to yours. On the harder setting Billie Sue tires and runs slower than the bunnies."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Wabbit_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/wabbit.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/294DE239388889A1C5EB5BF783A4D161D0BA609B",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),

@@ -1,5 +1,57 @@
 (
     title: "Worm War I",
+    developer: Some("David Lubar"),
+    description: Some("You drive a tank up through the city of Teriyaki, shooting the giant worms and blocks coming down at you while your fuel drains. The Pagoda Gas Station serves twice over: ram it for fuel, or shoot it to wipe every worm off the screen. Nine play options, cooperative or competitive."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/worm_war_1.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Worm_War_I",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BEF2EACCF3A79A7C1836C8E22686F86510AC6FDD",
+    ],
+    mods: [
+        (
+            name: "Dawn of the Dead",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("36a1e73eb5aa5c3cd0b01af5117d19b8c36071e4"),
+                    artifacts: [
+                        (
+                            sha1: "7ba5b58b1ce6ef584890cc019fc67add4e0743a8",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Worm Raid",
+            category: ContentChange,
+            author: Some("Fabventure2600"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("36a1e73eb5aa5c3cd0b01af5117d19b8c36071e4"),
+                    artifacts: [
+                        (
+                            sha1: "10d7b1c2adba66c298bc9c5d0646e41108d42ea7",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),
@@ -14,12 +66,19 @@
                 ),
                 (
                     sha1: "3c3b4968dd3ab0e4cfecc5ac0c850567cf3f6443",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "4c20f1fb4a0340a9401d0806b730f0870805bf6a",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "c385097f299258222c1423990ba34f80b459b898",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "4e72aa7032e382a792b0f483cde9986f12598018",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

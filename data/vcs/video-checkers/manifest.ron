@@ -1,5 +1,23 @@
 (
     title: "Video Checkers",
+    developer: Some("Carol Shaw"),
+    description: Some("Nineteen game variations, only the first ten of which are checkers as you know it: games 11 to 19 are giveaway checkers, where you win by being the first player left unable to move. You can also set the board up piece by piece before play, or trade sides with the computer in the middle of your own turn."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/video_checkers.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Video_Checkers",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://upload.wikimedia.org/wikipedia/en/0/02/Cover_art_of_Video_Checkers.jpg",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1980"),
@@ -11,6 +29,19 @@
             artifacts: [
                 (
                     sha1: "babae88a832b76d8c5af6ea63b8f10a0da5bb992",
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "24c1c6e1a495137bec53818c2cd8bd83c8336d21",
                 ),
             ],
         ),

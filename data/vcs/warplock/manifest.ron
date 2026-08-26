@@ -1,0 +1,59 @@
+(
+    title: "Warplock",
+    description: Some("Your ship is pinned in a space/time warp and cannot move, so the whole defence is the Tachyon Launcher: swing it across the view port and shoot the pirate craft swarming outside before they reach you. Some of the attackers carry photon bombs, which have to be avoided as well."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/warplock.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4D9E5511172C6FD59596501585DC146E29D5DE0B",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1982"),
+            publisher: Some("Data Age"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "232a370519a7fcce121e15f850d0d3671909f8b8",
+                ),
+                (
+                    sha1: "9acbc1707ee7ca05e829d7106c35faccdf57c4bf",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Gameworld"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "3cfdd92952dc4a019a7c9b050f6e4cc6656a0149",
+                ),
+            ],
+        ),
+    ],
+)

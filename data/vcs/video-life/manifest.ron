@@ -1,5 +1,17 @@
 (
     title: "Video Life",
+    description: Some("There is no score to chase — you draw a pattern of dots, set it running, and watch each generation replace the last about once a second under Conway\'s rules. Growth stops the moment you touch the pattern again, so you can add or erase a dot and set it going afresh; patterns reaching an edge wrap round to the opposite side."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/video_life.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Video%20Life%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1984"),
@@ -14,6 +26,15 @@
                 ),
                 (
                     sha1: "a07c2a34757c9fb1a70d84c6709f9452841efecd",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "19d4f52d399c2ab70e411be51b715341db7a41bf",
+                    label: Some("alt, differing RAM contents"),
+                ),
+                (
+                    sha1: "08c7c4ab5b25c008cc8a87fb1406b7d12df56124",
+                    label: Some("alt, higher-pitched sounds"),
                 ),
             ],
         ),

@@ -1,0 +1,48 @@
+(
+    title: "Wings",
+    developer: Some("Stuart Ross"),
+    description: Some("An air combat simulation where one hand flies and the other fights: banking and throttle on one side, switching between machine guns and missiles and firing on the other. You must reach 512 MPH down the runway to get airborne, then hold your airspeed and altitude or the plane drops out of the sky."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/wings/wings.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Wings%20(USA)%20(Proto).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("3 June 1983 build"),
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("FA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "419e7dd24c810afb8b8e555ed8489853b0bf05d8",
+                ),
+            ],
+        ),
+        (
+            label: Some("10 October 1983 build"),
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("FA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "3e63feca31fb98cc46fdfe90ec69e4937f9defa6",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,61 @@
+(
+    title: "Warlords",
+    developer: Some("Carla Meninsky"),
+    description: Some("Four castles, one per corner, each with a warlord inside and a shield you slide around the walls. Miss the ball and it knocks bricks out of your own castle until the warlord is exposed. On some variations you can catch the ball on your shield and fling it back at high speed — and a dead warlord\'s ghost still swats it around the board."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Warlords_(1981_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/warlords.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Warlords%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1981-05"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "2d7563d337cbc0cdf4fc14f69853ab6757697788",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1981"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
+            ),
+            artifacts: [
+                (
+                    sha1: "c3fba4bebc2dda8436126433e1f4c15e51ef1bd4",
+                ),
+            ],
+        ),
+    ],
+)

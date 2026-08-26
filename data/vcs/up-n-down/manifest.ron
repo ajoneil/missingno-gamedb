@@ -1,9 +1,26 @@
 (
     title: "Up \'n Down",
+    description: Some("Your Baja Bugger barrels down a zig-zagging course that scrolls in from the top of the screen, where pick-up trucks and wedge cars kill on contact — so you jump and land on their roofs for points instead. Collect all eight flags to reach the next, harder road; misjudge a jump and come down off the track, and a buggy is gone."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Up\'n_Down",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/upn_down.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9D2550988369A042C708881966FD5FFED303144E",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1984"),
-            publisher: Some("SEGA"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),

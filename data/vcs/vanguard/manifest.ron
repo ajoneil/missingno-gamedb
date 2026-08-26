@@ -1,0 +1,138 @@
+(
+    title: "Vanguard",
+    developer: Some("Dave Payne"),
+    description: Some("You fly the Vanguard ship down a scrolling tunnel toward the City of Mystery and the giant Gond waiting at its end, firing lasers in four directions independently of where you are heading. Touch one of the energy pods marked E and your lasers cut out for ten seconds, but nothing can hurt you — so you ram everything instead."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/vanguard.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Vanguard_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Vanguard%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Vanguard Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("01475d037cb7a2a892be09d67083102fa9159216"),
+                    artifacts: [
+                        (
+                            sha1: "d86e127aa878d683f3bcef6cbef6b6e68c176dbe",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Vanguard Fast",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("01475d037cb7a2a892be09d67083102fa9159216"),
+                    artifacts: [
+                        (
+                            sha1: "68c820995e09ab5794885b19ae800d93748a14b0",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Vanguard Black Fast",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("01475d037cb7a2a892be09d67083102fa9159216"),
+                    artifacts: [
+                        (
+                            sha1: "217e64af541dfc29db4944e76df92e025fafca2e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "01475d037cb7a2a892be09d67083102fa9159216",
+                ),
+                (
+                    sha1: "44920bd0599873c77ab17f36ff49e215cbf92917",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "5e01dba1f423bb3b32b51b15fc31827d25d4f8df",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "e41c37d2f5cca3c788f9d47a9fa642e01d35a827",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Atari"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1a44918fa764da8dde97a7543a181ccf6756868b",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "425d27685c78667f0e7500595b6cc2e36149538c",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e99e93b583f15d2ce1494a1aad6e5cb5e4dfdd6",
+                ),
+            ],
+        ),
+        (
+            publisher: Some("Rentacom"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("UA"),
+            ),
+            artifacts: [
+                (
+                    sha1: "f48908b764f608c68bccd5c4e2f04bf4ad50fef5",
+                ),
+            ],
+        ),
+    ],
+)

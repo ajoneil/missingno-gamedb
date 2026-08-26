@@ -1,5 +1,104 @@
 (
     title: "Universal Chaos",
+    description: Some("You pilot a battle coupe through the streets of Phenix, hunting the invading Mortii spacecraft with a photon cannon that cannot fire again until its last shot connects. Clearing a wave warps you to a new sector; as the survivors thin out they grow faster and start homing, and blasting the Mortii Warlord when he surfaces pays bonus points."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/universal_chaos.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/targ/targ.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Universal%20Chaos%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Targ Arcade",
+            category: ContentChange,
+            author: Some("Dr. Kwack"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("286106fb973530bc3e2af13240f28c4bcb37e642"),
+                    artifacts: [
+                        (
+                            sha1: "9e768ac1e66e1be0e668822602ddbb8d69eb2915",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Car Wars",
+            category: ContentChange,
+            author: Some("Larcen Tyler"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("286106fb973530bc3e2af13240f28c4bcb37e642"),
+                    artifacts: [
+                        (
+                            sha1: "7cd191db641204f3f5e83977edf3f78ec52cdd67",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Town of the Living Dead",
+            category: ContentChange,
+            author: Some("Rabbit 2600"),
+            releases: [
+                (
+                    date: Some("2012"),
+                    base_sha1: Some("286106fb973530bc3e2af13240f28c4bcb37e642"),
+                    artifacts: [
+                        (
+                            sha1: "36d70ce7f5feee9a3d6610e638d1d9c84391c879",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Auto Duel Targ",
+            category: ContentChange,
+            author: Some("James Catalano"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("36139502d3b43fc35874af8b3f06c69d5dc4fa97"),
+                    artifacts: [
+                        (
+                            sha1: "3b7f36c71c13d722972a4184d1fa03c3f4e4c050",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Galaxian Targ",
+            category: ContentChange,
+            author: Some("James Catalano"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("36139502d3b43fc35874af8b3f06c69d5dc4fa97"),
+                    artifacts: [
+                        (
+                            sha1: "45fd3f8618dea9df79c01076089726bb40ec6a08",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1988"),
@@ -14,6 +113,7 @@
                 ),
                 (
                     sha1: "66363b752ea5dc2e0b1107f01c95dced43d9dbf6",
+                    label: Some("alt"),
                 ),
             ],
         ),
@@ -27,6 +127,21 @@
             artifacts: [
                 (
                     sha1: "50fb0e27ee994a9e51b63f84434a25a0036eea62",
+                ),
+            ],
+        ),
+        (
+            title: Some("Targ"),
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "36139502d3b43fc35874af8b3f06c69d5dc4fa97",
                 ),
             ],
         ),

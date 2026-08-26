@@ -1,0 +1,82 @@
+(
+    title: "Wall-Defender",
+    description: Some("You are the sole defender of a set of concentric walls, patrolling the outer one and the bridges between them while aliens batter it — ten hits and it falls, with a flash on the seventh as your warning. Retreat inward across a bridge before it goes, and let the super alien reach the wall and it is destroyed outright."),
+    links: [
+        (
+            name: "Manual (Wall Break)",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/wall_break.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Wall-Defender",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Wall-Defender%20(USA).png",
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Wall%20Break%20(Europe).png",
+    ],
+    mods: [
+        (
+            name: "Assault on Precinct 13",
+            category: ContentChange,
+            author: Some("Tim Martin"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("6de42bbc4766b26301e291ba00f7f7a9ac748639"),
+                    artifacts: [
+                        (
+                            sha1: "bc49169f61bb8d72eb4e67193b6ac69c689b7f8a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("Wall Break"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Bomb"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "6ef3c2e8bb0d361d5a99afd95f4e29a69b61bc4a",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Bomb"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "7d41d50fd2ee6a468dcd423c29a601f81a0129b7",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "bc427ff64dd0b6e8c5f12fb8b1841d3edda0295f",
+                ),
+                (
+                    sha1: "6de42bbc4766b26301e291ba00f7f7a9ac748639",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,5 +1,17 @@
 (
     title: "Video Reflex",
+    description: Some("Five coloured squares, a bug landing on one of them, and one to three seconds to hit the matching colour before it costs you — and sometimes bugs land on several squares at once. The trap is the butterfly: when one appears you must hit nothing at all, and touching a colour then loses one of your eight lives."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/video_jogger_reflex.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/766076C56A7E66E2B1F803DE7CBA1D784464D9C3",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -11,6 +23,10 @@
             artifacts: [
                 (
                     sha1: "dec2a3e9b366dce2b63dc1c13662d3f22420a22e",
+                ),
+                (
+                    sha1: "fcde759bf4a2ff6360259c23aaef4739a49ddf34",
+                    label: Some("alt, no roman numerals"),
                 ),
             ],
         ),

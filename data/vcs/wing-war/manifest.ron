@@ -1,0 +1,55 @@
+(
+    title: "Wing War",
+    description: Some("You fly a dragon out of its den, gaining height one wingbeat at a time, and hunt the spiders, bats and griffins outside — most turn into crystals when your fireballs land. Carry Fire, Air and Water crystals home for power, but never Fire and Water together, and bring back eggs for extra lives."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/wing_war.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Wing%20War%20(Europe).png",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Thomas Jentzsch"),
+            releases: [
+                (
+                    date: Some("2001"),
+                    base_sha1: Some("1ce2426a1a71ebac81709c88eb30e461b29158e2"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "229b84a7544cf9207f072003504ed8e65ce8498e",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1983"),
+            publisher: Some("Imagic"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "1ce2426a1a71ebac81709c88eb30e461b29158e2",
+                ),
+                (
+                    sha1: "16df34446af2e6035ca871a00e1e8a008cfb8df4",
+                    label: Some("alt [a]"),
+                ),
+            ],
+        ),
+    ],
+)

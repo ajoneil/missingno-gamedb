@@ -1,8 +1,25 @@
 (
     title: "Walker",
+    description: Some("You control a clown crossing the city on foot, and the whole game is the jump: the human figures blocking his path, policemen among them, must be vaulted rather than dodged. The route runs across a series of screens rather than a single playfield."),
+    links: [
+        (
+            name: "arcade-history",
+            url: "https://www.arcade-history.com/?id=51185&n=walker-model-ss-032&page=detail",
+            link_type: Community,
+        ),
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/78446-walker",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A864F4030224C289BBC24111E170F13D879B0E5E",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Schussel Der Polizistenschreck"),
+            title: Some("Schussel, der Polizistenschreck"),
             regions: [
                 Germany,
             ],
@@ -15,6 +32,35 @@
             artifacts: [
                 (
                     sha1: "25e2043775a08762e3fc98ecb96fbf46b20e860e",
+                ),
+            ],
+        ),
+        (
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "728573b644f8b3cd4cd5c7d66b604c950b22202d",
+                ),
+            ],
+        ),
+        (
+            title: Some("Guignol"),
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0d98698133066588349a8084f9bdd13b80232ed3",
+                ),
+                (
+                    sha1: "793c840a2ffaed15f3092ca7982444f4e2743a29",
+                    label: Some("alt"),
                 ),
             ],
         ),

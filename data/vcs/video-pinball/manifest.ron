@@ -1,5 +1,105 @@
 (
     title: "Video Pinball",
+    developer: Some("Bob Smith"),
+    description: Some("Three balls on a single table of bumpers, spinners, targets and rollovers, with the flippers worked independently or together. You can nudge the ball to steer it, but overdo it and the tilt costs you every point that ball has left and any extra balls you had banked. Expert play opens two more drain holes at the bottom."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Video_Pinball_(1981_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/video_pinball.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Video%20Pinball%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Big Pinball",
+            category: ContentChange,
+            author: Some("Pacman3211"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("2c16c1a6374c8e22275d152d93dd31ffba26271f"),
+                    artifacts: [
+                        (
+                            sha1: "f76c89d08a0aed2813863f20f87a3fff4e21745d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Borg Wars Budget Pinball",
+            category: ContentChange,
+            author: Some("Jack Kortkamp"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("2c16c1a6374c8e22275d152d93dd31ffba26271f"),
+                    artifacts: [
+                        (
+                            sha1: "3a7897be80b911942e213f408edc8784a1dc65c2",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Nitemare Pinball",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("2c16c1a6374c8e22275d152d93dd31ffba26271f"),
+                    artifacts: [
+                        (
+                            sha1: "e26a0f6dcd52c21d618d6e2baf58428c9a30836b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Pongball",
+            category: ContentChange,
+            author: Some("Pacman3211"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("2c16c1a6374c8e22275d152d93dd31ffba26271f"),
+                    artifacts: [
+                        (
+                            sha1: "2431a96ac7e09827368a6dd6bb5ac3a0bc3960d1",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Video Pinball Trainer",
+            category: QualityOfLife,
+            author: Some("Pacman3211"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("2c16c1a6374c8e22275d152d93dd31ffba26271f"),
+                    artifacts: [
+                        (
+                            sha1: "be67c3def0020578b381766bd3be16ffedfd20db",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1981"),
@@ -15,6 +115,7 @@
             ],
         ),
         (
+            title: Some("Pimball"),
             date: Some("1983"),
             publisher: Some("CCE"),
             hardware: (
@@ -24,9 +125,11 @@
             artifacts: [
                 (
                     sha1: "5a93ac8c66f171b4e09965a2cc1f865786ff9627",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "7e4c6d50465554513d45d20c259120c494605d98",
+                    label: Some("alt"),
                 ),
                 (
                     sha1: "cc14c61b6ab0877b1dd6a239cabff944f7f97755",
@@ -43,6 +146,7 @@
             artifacts: [
                 (
                     sha1: "2129a72f30dc09987112bece2b1c0d3348187031",
+                    label: Some("pirate variant"),
                 ),
                 (
                     sha1: "324d67f2b56517c2293e9351c713b97d3c982b0b",

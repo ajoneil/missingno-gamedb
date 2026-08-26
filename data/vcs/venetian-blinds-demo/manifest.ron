@@ -1,9 +1,29 @@
 (
     title: "Venetian Blinds Demo",
+    kind: Demo,
+    developer: Some("David Crane, Bob Whitehead"),
+    description: Some("You raise and lower a set of grey Venetian blinds hanging over an olive window in a brown room. Pull them all the way up and a detailed sunset over a green valley is revealed behind the glass — that reveal is the whole of the demo."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/blinds/blinds.htm",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Venetian_Blinds_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A83F9C4EEDF34786B7C960775BD759FA8A39B0FB",
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1981"),
+            date: Some("1982"),
             publisher: Some("Activision"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
@@ -17,6 +37,7 @@
         (
             date: Some("1982"),
             publisher: Some("Activision"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("2K"),

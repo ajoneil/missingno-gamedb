@@ -1,5 +1,23 @@
 (
     title: "Word Zapper",
+    developer: Some("Henry Will IV"),
+    description: Some("The word flashes at the bottom of the screen for four seconds and then vanishes — you have to remember it. The alphabet then scrolls along the top, and you shoot its letters in exact order while asteroids harry you: one scrambles the scroll, two knock you aside, and the Doomsday one ends the game."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/word_zapper.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Word_Zapper",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1E24B10E319C30CD5FD330153068E92432F08A3C",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1982"),
@@ -14,6 +32,7 @@
                 ),
                 (
                     sha1: "9820cebfbdb8b7ff8870b07008381516feb22537",
+                    label: Some("alt"),
                 ),
             ],
         ),
@@ -27,6 +46,11 @@
             artifacts: [
                 (
                     sha1: "e35e773a895ab7d121611fcd507e575c5bab4413",
+                    label: Some("pirate variant"),
+                ),
+                (
+                    sha1: "253788380f6f7757cda39d7256c796a95800c909",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),

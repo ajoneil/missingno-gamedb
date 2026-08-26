@@ -1,5 +1,73 @@
 (
     title: "Video Olympics",
+    developer: Some("Joe Decuir"),
+    description: Some("Fifty variations on bat and ball — Pong and its doubles and four-wall forms, plus hockey, handball, basketball, volleyball and a foosball-style column of three paddles. What separates them is the extra move you can trigger: add speed to a return, put a sharper angle on it with Whammy, or catch the ball and hold it while you aim."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Video_Olympics",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/video_olympics.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Video%20Olympics%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Giant Pong",
+            category: ContentChange,
+            author: Some("Pacman3211"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("1ffe89d79d55adabc0916b95cc37e18619ef7830"),
+                    artifacts: [
+                        (
+                            sha1: "635faff0072a12da7113f9083cf6d40a0bfcdbdf",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Giant Pong 2",
+            category: ContentChange,
+            author: Some("Pacman3211"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("1ffe89d79d55adabc0916b95cc37e18619ef7830"),
+                    artifacts: [
+                        (
+                            sha1: "1082819c6bf49a3ec6e712899f4f316332e296c9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Video Olympics Black",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("1ffe89d79d55adabc0916b95cc37e18619ef7830"),
+                    artifacts: [
+                        (
+                            sha1: "dabaa958f4d40fe11431933d4a7ca4d18ed46aeb",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1977"),
@@ -7,6 +75,9 @@
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
@@ -20,6 +91,9 @@
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("4K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (
@@ -33,6 +107,9 @@
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("2K"),
+                controllers: [
+                    Paddle,
+                ],
             ),
             artifacts: [
                 (

@@ -1,0 +1,161 @@
+(
+    title: "Venture",
+    description: Some("Winky is a dot in the corridors and a grinning face inside the chambers, stealing one treasure from each room of the dungeon with a bow. Arrows do nothing to the Hallmonsters patrolling outside, and a monster\'s corpse kills on contact just as the living one does — so shooting only pays once the treasure is already yours."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Venture_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/venture.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Venture%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Venture 3",
+            category: ContentChange,
+            author: Some("Fred Quimby"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    base_sha1: Some("0305dfc99bf192e53452a1e0408ccc148940afcd"),
+                    artifacts: [
+                        (
+                            sha1: "9dcd83cd08fc9b1731f32d106f51c514c3c02700",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Venture 8K",
+            category: ContentChange,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("0305dfc99bf192e53452a1e0408ccc148940afcd"),
+                    artifacts: [
+                        (
+                            sha1: "0549c7e69645f2e2b82fa78f29234c1741bb7a28",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Venture Arcade Edition",
+            category: ContentChange,
+            author: Some("Scott Dayton"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("0305dfc99bf192e53452a1e0408ccc148940afcd"),
+                    artifacts: [
+                        (
+                            sha1: "78028ea271f8d3c3d83a9a2229adce6a6444cd48",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Venture Arcade Edition Animated",
+            category: ContentChange,
+            author: Some("Fred Quimby"),
+            releases: [
+                (
+                    label: Some("work in progress"),
+                    date: Some("2005"),
+                    base_sha1: Some("0305dfc99bf192e53452a1e0408ccc148940afcd"),
+                    artifacts: [
+                        (
+                            sha1: "9b46818c328e733fccb29e186f69fdaa7ecec788",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Venture Trainer",
+            category: QualityOfLife,
+            author: Some("Kurt Howe"),
+            releases: [
+                (
+                    date: Some("2007"),
+                    base_sha1: Some("0305dfc99bf192e53452a1e0408ccc148940afcd"),
+                    artifacts: [
+                        (
+                            sha1: "b70f3e3909bb4ef8fafa05ab0aa694ecf9277475",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1982"),
+            publisher: Some("Coleco"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "0305dfc99bf192e53452a1e0408ccc148940afcd",
+                ),
+                (
+                    sha1: "4c00c4f108ae11343e9a81b1665b3f0e5af1046d",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "63afb1b75114d7080d9738ea1d90282af5d1fade",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "77b1f528edb8578a431e922db2deea9c1caf1e31",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1983"),
+            publisher: Some("CBS Electronics"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2e51b75c4204408f1c31424f7101c50154c921f4",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "7752360375ac7f35c649eb81424897db56616e3d",
+                ),
+            ],
+        ),
+        (
+            date: Some("1982"),
+            publisher: Some("Coleco"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "71fc0cf5caad1ceac6c3923cfeb450b28a29a828",
+                ),
+            ],
+        ),
+    ],
+)

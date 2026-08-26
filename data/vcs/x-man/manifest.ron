@@ -1,5 +1,19 @@
 (
     title: "X-Man",
+    developer: Some("Alan Roberts, H. K. Poon"),
+    description: Some("You steer a naked man through a labyrinth towards the door at its centre, dodging the scissors, crabs and teeth in the way. Clearing it opens a bonus stage depicting sex between the man and a woman."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/X-Man_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B52B71826DE40E00EBF34B2BD7943F6232C66439",
+    ],
+    curated: true,
+    adult: true,
     releases: [
         (
             date: Some("1983"),
@@ -14,6 +28,11 @@
                 ),
                 (
                     sha1: "5aa043c1200f0adf700f1f7c3205a1c901a039b0",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "c9ce0614bee494efd28ca5b717fb4accb9e67d6c",
+                    label: Some("alt [a]"),
                 ),
             ],
         ),
@@ -30,6 +49,7 @@
                 ),
                 (
                     sha1: "a5c2a3978ebd8e6a1e7aeee7281904983516f69e",
+                    label: Some("alt"),
                 ),
             ],
         ),

@@ -1,5 +1,23 @@
 (
-    title: "Vault Assault (Unl)",
+    title: "Vault Assault",
+    developer: Some("Brian Prescott"),
+    description: Some("You are stationed in a vault at the centre of the screen, and enemy ships mass on all four sides to close in on it. The assault grows heavier the longer you hold out, so the whole game is a contest of how long the vault can be kept standing."),
+    links: [
+        (
+            name: "AtariAge",
+            url: "https://atariage.com/software_page.php?SoftwareID=2567",
+            link_type: Community,
+        ),
+        (
+            name: "AtariAge Store",
+            url: "https://store.atariage.com/products/vault-assault-atari-2600",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BF46BF4140838B6E3CD5A0B3178DF9DAA8792026",
+    ],
+    curated: true,
     releases: [
         (
             date: Some("2001"),
@@ -11,6 +29,7 @@
             artifacts: [
                 (
                     sha1: "dce98883e813d77e03a5de975d4c52bfb34e7f77",
+                    label: Some("CGE 2001 release"),
                 ),
             ],
         ),

@@ -1,10 +1,24 @@
 (
     title: "Words-Attack",
+    description: Some("Three invaders press down on your ship while letters and objects — fruit, hearts, creatures — fill the alternating rows between you. Shoot a letter and it appears in the space below your ship; hit one of the objects by mistake, or take a shot from above, and a letter drops out of your row and a life goes with it."),
+    links: [
+        (
+            name: "AtariAge",
+            url: "https://atariage.com/software_page.php?SoftwareLabelID=2368",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/71DFDAAB580B4E2F9D083B30D53B56FDB126F2C0",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("Sancho"),
-            status: Prototype,
             hardware: (
                 tv_format: Some(Pal),
                 cart_type: Some("4K"),

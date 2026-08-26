@@ -1,0 +1,69 @@
+(
+    title: "Wizard",
+    developer: Some("Chris Crawford"),
+    description: Some("You are a wizard hunting a star-shaped creature through a maze that it can drift straight through and you cannot. Shots fire themselves at whatever is in line, so the skill is in positioning: every shot leaves the wizard dimmed and unable to fire while he recharges. Kill the creature and a faster one takes its place."),
+    links: [
+        (
+            name: "AtariProtos",
+            url: "https://www.atariprotos.com/2600/software/wizard/wizard.htm",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/981CC744F67EAF13CF0E6B768C40D448583B04D8",
+    ],
+    mods: [
+        (
+            name: "Proving Grounds of Wor",
+            category: ContentChange,
+            author: Some("David Weavil"),
+            releases: [
+                (
+                    date: Some("2005"),
+                    base_sha1: Some("2499ce7c77536b2920753968135f9180bd9afe6e"),
+                    artifacts: [
+                        (
+                            sha1: "d1d63ba12c09b763fa57c4efa49b54d7c8417b52",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("2K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "2499ce7c77536b2920753968135f9180bd9afe6e",
+                ),
+                (
+                    sha1: "bbc484403a23dbb4eacb85fe5b685c939c93cd08",
+                    label: Some("alt [a], 21 February 1980 build"),
+                ),
+            ],
+        ),
+        (
+            date: Some("1980"),
+            publisher: Some("Atari"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "e4b0f68abff3273cdd2b973639d607ae4a700adc",
+                    label: Some("4K image"),
+                ),
+            ],
+        ),
+    ],
+)

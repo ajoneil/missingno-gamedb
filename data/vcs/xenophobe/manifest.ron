@@ -1,5 +1,96 @@
 (
     title: "Xenophobe",
+    description: Some("You beam down from a Mother Ship into a space station overrun by Xenophobes and sweep it room by room, riding elevators between floors and grabbing any hardware worth points along the way. Take too long and you are pulled back out while the station is overrun and explodes. Clear all eight and the aliens reinfest the first."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/xenophobe.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Xenophobe_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Xenophobe%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Xenophobe Arcade",
+            category: ContentChange,
+            author: Some("Larry Petit"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    base_sha1: Some("160b6e36437ad6acbc2686fbde1002e2fa88c5fb"),
+                    artifacts: [
+                        (
+                            sha1: "bd305f7a2edd0dd486f6e0defd33faf61fe1f1cf",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Xenophobe Arcade (KevinMos3)",
+            category: ContentChange,
+            author: Some("KevinMos3"),
+            releases: [
+                (
+                    label: Some("Col Schickn"),
+                    date: Some("2012"),
+                    artifacts: [
+                        (
+                            sha1: "9c0643cf2e02778641f52722e2dc83087b411328",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Dr Kwak"),
+                    artifacts: [
+                        (
+                            sha1: "f2c66dd71148ab18c7026166d3840dfce33cbc44",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Dr Zordirz"),
+                    artifacts: [
+                        (
+                            sha1: "f9bd86a05cb56ee02b5eea9f795628da5964cb06",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Mr EEz"),
+                    artifacts: [
+                        (
+                            sha1: "fe8398a5296e28a3859d3d93ac0f030cb762a33e",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Mr Fogg"),
+                    artifacts: [
+                        (
+                            sha1: "93ea35872cfda393d9b0a52d8a36b80ff2da262c",
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Mr M Brace"),
+                    artifacts: [
+                        (
+                            sha1: "e7cfc290087ee0c42b3e69a461db824f4ba5421b",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1991"),

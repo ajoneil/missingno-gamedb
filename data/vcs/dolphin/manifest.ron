@@ -17,6 +17,37 @@
     covers: [
         "https://hasheous.org/api/v1/images/3D8D3E59DE7E70168259EA44A8AF0D5CA45B562C",
     ],
+    mods: [
+        (
+            name: "Tuby Bird",
+            category: ContentChange,
+            author: Some("Suntek"),
+            releases: [
+                (
+                    date: Some("1983"),
+                    base_sha1: Some("8a38052b884edd6fb9522a9aa590d099efd9548e"),
+                    artifacts: [
+                        (
+                            sha1: "7ffec0eeb2608578238ef98ea287d7b487e9d4ff",
+                        ),
+                        (
+                            sha1: "0f6b03bf244f2bf64de7dd4b414d1f905bec47e9",
+                            label: Some("alt [a]"),
+                        ),
+                    ],
+                ),
+                (
+                    label: Some("Vogel Flieh (Quelle, Germany)"),
+                    base_sha1: Some("8a38052b884edd6fb9522a9aa590d099efd9548e"),
+                    artifacts: [
+                        (
+                            sha1: "f4f941b779bcb7902df0eb7cf6b985f56e751183",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
     curated: true,
     releases: [
         (
