@@ -11,6 +11,7 @@ modelling games → releases (region / revision / hardware variants) → artifac
 data/
   gb/{slug}/manifest.ron    ← Game Boy (incl. CGB-enhanced dual-mode games)
   gbc/{slug}/manifest.ron   ← Game Boy Color (CGB-required)
+  sg1000/{slug}/manifest.ron ← Sega SG-1000 (incl. Othello Multivision)
   vcs/{slug}/manifest.ron   ← Atari VCS/2600
 crates/
   gamedb/                   ← schema library: types, loader, validator
@@ -21,7 +22,7 @@ A manifest holds the game's identity (title, kind: game / demo / demoscene,
 developer, links, cover and screenshot URLs, mod derivation) and its releases:
 regions, date, publisher, status (released / WIP / beta / prototype),
 platform hardware facts (SGB/CGB enhancement for GB; TV format and board for
-VCS), download sources, and ROM artifacts.
+VCS; cartridge board for SG-1000), download sources, and ROM artifacts.
 
 Where those facts come from — which catalogue answers which field, per tree —
 is in [sources/](sources/) — a general file plus one per tree.

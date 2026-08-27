@@ -12,6 +12,7 @@ web:**
 |------|------|
 | Atari VCS | [`vcs.md`](vcs.md) |
 | Game Boy / Game Boy Color | [`gb.md`](gb.md) |
+| Sega SG-1000 | [`sg1000.md`](sg1000.md) |
 | Demoscene | [`demoscene.md`](demoscene.md) |
 
 Add to the relevant file when a source proves itself. These are the durable home
