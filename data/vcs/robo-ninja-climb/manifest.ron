@@ -1,0 +1,48 @@
+(
+    title: "Robo-Ninja Climb",
+    developer: Some("Bite the Chili Productions"),
+    description: Some("Robo-Ninja climbs by kicking off the walls: tap jump while holding back toward the wall you\'re on to gain height, steer in mid-air with left or right, and press down to slide. Five levels of spikes and lasers, then it loops from the start, faster every time."),
+    links: [
+        (
+            name: "Bite the Chili",
+            url: "https://www.bitethechili.com/roboninja-climb/",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "Bite the Chili (ROM)",
+            url: "https://www.bitethechili.com/roboninja-climb/robo-ninja-climb.bin",
+            link_type: Download,
+        ),
+        (
+            name: "AtariAge",
+            url: "https://forums.atariage.com/topic/280856-robo-ninja-climb-atari-2600/",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "PDRoms",
+            url: "https://pdroms.de/files/atari-atari2600-atarivcs-a2600/robo-ninja-climb-atari-2600-game",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BF2D39B83180191CC7E599D8BD337C5705B02093",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2018"),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "22fb7566fd96a02b17fa51a57cf3bca085200670",
+                    size: Some(8192),
+                ),
+            ],
+        ),
+    ],
+)

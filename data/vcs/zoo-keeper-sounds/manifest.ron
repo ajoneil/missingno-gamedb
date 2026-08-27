@@ -1,10 +1,24 @@
 (
     title: "Zoo Keeper Sounds",
+    kind: Test,
+    developer: Some("Robert Vieira"),
+    description: Some("Not the cancelled Zoo Keeper port itself but its surviving audio: 18 sound effects and pieces of music, assembled into a ROM that plays them back from sound code the game\'s audio designer released to the community two decades after Atari shut the project down."),
+    links: [
+        (
+            name: "Atari Compendium",
+            url: "https://www.ataricompendium.com/game_library/unreleased/unreleased.html",
+            link_type: UnusedContent,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Zoo_Keeper_(1983_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            date: Some("1984"),
-            publisher: Some("Atari"),
-            status: Prototype,
+            date: Some("2005"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("2K"),

@@ -1,0 +1,47 @@
+(
+    title: "Treasure Island",
+    description: Some("You pilot a ship along an open waterway, firing a cannon at the traffic sharing it — ducks on the opening stretch, other ships further on — as the water scrolls by."),
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Treasure%20Island%20(Europe).png",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            author: Some("Juan Arceo"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    base_sha1: Some("d1437e291fbc1927fcce14abc21a58a423e15368"),
+                    hardware: (
+                        tv_format: Some(Ntsc),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "34143a6cab40d9f9dfdb63dc0ef6fbbdfb05f955",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("Suntek"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "d1437e291fbc1927fcce14abc21a58a423e15368",
+                ),
+            ],
+        ),
+    ],
+)

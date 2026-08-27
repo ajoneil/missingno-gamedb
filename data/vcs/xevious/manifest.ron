@@ -1,24 +1,79 @@
 (
     title: "Xevious",
+    developer: Some("Tod Frye"),
+    description: Some("You pilot the Solvalou over a scrolling landscape, fighting an alien fleet in the air and on the ground. The single fire button does double duty: each press sends a shot at flying enemies and drops a bomb toward the targeting reticle ahead of the ship, so both kinds of threat are answered with one control."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Xevious",
+            link_type: Wiki,
+        ),
+        (
+            name: "AtariProtos",
+            url: "http://www.atariprotos.com/2600/software/xevious/xevious.htm",
+            link_type: UnusedContent,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6A57A0AC068A06F7A8E1AB557E60FD7F706087A6",
+    ],
+    mods: [
+        (
+            name: "Xevious 2",
+            category: ContentChange,
+            author: Some("Fred Quimby"),
+            releases: [
+                (
+                    date: Some("2006"),
+                    artifacts: [
+                        (
+                            sha1: "cbcb8fbe1cab2985c0e14ec81a42892270a9f2cd",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Brazil,
+            ],
+            date: Some("1983"),
             publisher: Some("CCE"),
+            hardware: (
+                tv_format: Some(PalM),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "c4f956cc6a78f3d7b5c2fb16de58ed7cdb6c82a8",
+                ),
+                (
+                    sha1: "fac29f21b711d31e3ffc21dfdcafef05aafabf02",
+                    label: Some("alt"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            publisher: Some("Atari"),
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some("F8"),
             ),
             artifacts: [
                 (
-                    sha1: "53f941cabf661a9ce763142b070571f6fd4c8820",
-                ),
-                (
                     sha1: "73133b81196e5cbc1cec99eefc1223ddb8f4ca83",
+                    label: Some("1983-08-02 build"),
                 ),
                 (
-                    sha1: "c4f956cc6a78f3d7b5c2fb16de58ed7cdb6c82a8",
-                ),
-                (
-                    sha1: "fac29f21b711d31e3ffc21dfdcafef05aafabf02",
+                    sha1: "53f941cabf661a9ce763142b070571f6fd4c8820",
+                    label: Some("1984-01-18 build"),
                 ),
             ],
         ),

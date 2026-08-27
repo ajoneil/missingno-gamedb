@@ -1,7 +1,73 @@
 (
     title: "Zaxxon",
+    description: Some("You fly from behind your fighter — not the arcade\'s isometric view — diving and climbing through alien asteroid fortresses, banking past barriers while gun turrets and mobots fire on you. Clear a fortress and you cross deep space, dodging the squadron hunting your ship, before facing the robot Zaxxon itself."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Zaxxon",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/zaxxon.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Zaxxon%20(USA).png",
+        "https://hasheous.org/api/v1/images/DAFBA37563E6BFF31102A75F968465A21BD6F5FD",
+    ],
+    mods: [
+        (
+            name: "Super Zaxxon",
+            category: ContentChange,
+            author: Some("Dr. Kwack"),
+            releases: [
+                (
+                    date: Some("2003"),
+                    artifacts: [
+                        (
+                            sha1: "03398d5e0b46ba53a425d8704805daa89eb61857",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Zaxxon Arcade",
+            category: ContentChange,
+            author: Some("Dr. Kwack"),
+            releases: [
+                (
+                    date: Some("2004"),
+                    artifacts: [
+                        (
+                            sha1: "3f85f3fda5874a9621af0d62705d9fd878d93beb",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "F8 bankswitch re-encoding",
+            category: Compatibility,
+            releases: [
+                (
+                    artifacts: [
+                        (
+                            sha1: "7e717a621647a7411e48a275fb781c0f34359ed6",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Usa,
+            ],
             date: Some("1983"),
             publisher: Some("Coleco"),
             hardware: (
@@ -15,6 +81,9 @@
             ],
         ),
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
             publisher: Some("CBS Electronics"),
             hardware: (

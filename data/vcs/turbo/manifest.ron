@@ -1,0 +1,51 @@
+(
+    title: "Turbo",
+    developer: Some("Michael Green"),
+    description: Some("You drive a high-performance car down an open road, working the throttle and changing lanes to pass the other racers. Obstacles line the route, and the run has to be finished in record time."),
+    links: [
+        (
+            name: "Atari Compendium",
+            url: "https://www.ataricompendium.com/game_library/unreleased/unreleased.html",
+            link_type: UnusedContent,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Turbo_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/turbo.pdf",
+            link_type: Manual,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/925703461CCA34EAEABC97ADA96416E5193D4777",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1983"),
+            publisher: Some("Coleco"),
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some("F8"),
+            ),
+            artifacts: [
+                (
+                    sha1: "345f72320ac51d659780f898bbb540fc788bf371",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "8ab35bc17214df3b2bae6a32b96e5f1d4a28ca17",
+                    label: Some("Henderson cart dump"),
+                    size: Some(8192),
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,5 +1,52 @@
 (
     title: "Z-Tack",
+    developer: Some("Onbase Co."),
+    description: Some("You fly a UFO over a cityscape, bombing the bases below to advance through six different city landscapes. The defences answer with heat-seeking missiles, and flying skulls share the airspace — both must be dodged while you line up the next run."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.ataricompendium.com/archives/manuals/vcs/base_attack.pdf",
+            link_type: Manual,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Z-Tack",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/ED0C602D7D79E58D8113BECF8F8C555B3E484447",
+    ],
+    mods: [
+        (
+            name: "NTSC conversion",
+            category: Compatibility,
+            releases: [
+                (
+                    base_sha1: Some("4e2ccb0afe236a76193ad500bab57abb82632a5a"),
+                    artifacts: [
+                        (
+                            sha1: "d0bdd609ebc6e69fb351ba469ff322406bcbab50",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Hack",
+            category: ContentChange,
+            releases: [
+                (
+                    artifacts: [
+                        (
+                            sha1: "81bcc2baa22df62dac1b13734935f291783606e7",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             date: Some("1983"),
@@ -11,6 +58,40 @@
             artifacts: [
                 (
                     sha1: "552e2bd37601da4961b0346353c93cce223e429e",
+                ),
+            ],
+        ),
+        (
+            title: Some("Base Attack"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1983"),
+            publisher: Some("HomeVision"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "4e2ccb0afe236a76193ad500bab57abb82632a5a",
+                ),
+            ],
+        ),
+        (
+            title: Some("Cosmic Town"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("ITT Family Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "b1e0672dc5cfd4d755c95af9abda4bb30889488a",
                 ),
             ],
         ),

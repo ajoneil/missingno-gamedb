@@ -1,16 +1,41 @@
 (
     title: "Zoo Fun",
+    covers: [
+        "https://hasheous.org/api/v1/images/A580056E3488C20DAD226BE1C434BBF04E0534D9",
+        "https://thumbnails.libretro.com/Atari%20-%202600/Named_Boxarts/Zoo%20Fun%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            regions: [
+                Europe,
+            ],
             date: Some("1983"),
-            publisher: Some("ITT Family Games"),
+            publisher: Some("Home Vision"),
             hardware: (
-                tv_format: Some(Ntsc),
+                tv_format: Some(Pal),
                 cart_type: Some("4K"),
             ),
             artifacts: [
                 (
                     sha1: "feb6bd37e5d722bd080433587972b980afff5fa5",
+                ),
+            ],
+        ),
+        (
+            title: Some("Pumuckl at the Zoo"),
+            regions: [
+                Germany,
+            ],
+            date: Some("1983"),
+            publisher: Some("ITT Family Games"),
+            hardware: (
+                tv_format: Some(Pal),
+                cart_type: Some("4K"),
+            ),
+            artifacts: [
+                (
+                    sha1: "18d4487b649907017056a61273e081d9f90e2020",
                 ),
             ],
         ),

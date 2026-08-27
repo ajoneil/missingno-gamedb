@@ -1,0 +1,23 @@
+(
+    title: "Sound",
+    kind: Test,
+    curated: true,
+    releases: [
+        (
+            label: Some("Atari Anthology"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef2f4e7cb425eaa4c7cce9f399c288076dad2c9d",
+                    size: Some(2048),
+                ),
+            ],
+        ),
+    ],
+)

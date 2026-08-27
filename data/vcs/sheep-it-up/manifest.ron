@@ -1,0 +1,73 @@
+(
+    title: "Sheep It Up!",
+    developer: Some("Dr. Ludos"),
+    description: Some("A sheep climbs by latching onto flying velcro straps: jump, steer left or right while airborne, and catch the next passing strap to rise higher. The idea is simple and the ascent gets steadily meaner — the only question the game asks is how far up you get before you fall."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://drludos.itch.io/sheep-it-up-2600",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "AtariAge",
+            url: "https://forums.atariage.com/topic/283077-sheep-it-up/",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "AtariAge Store",
+            url: "https://store.atariage.com/products/sheep-it-up-atari-2600",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/025E8B668BC2E3837982C8E146FFB9059A79DD40",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2018"),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "d22009a4c4e92e0533bf4379d743f80f53064fde",
+                    size: Some(4096),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2018"),
+            hardware: (
+                tv_format: Some(Pal),
+            ),
+            artifacts: [
+                (
+                    sha1: "b2d070404738c771e7c5bd3139858f7f8822d423",
+                    size: Some(4096),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2018"),
+            hardware: (
+                tv_format: Some(Secam),
+            ),
+            artifacts: [
+                (
+                    sha1: "566249fc4b955fe7baab05e4818724d3387674b3",
+                    size: Some(4096),
+                ),
+            ],
+        ),
+    ],
+)

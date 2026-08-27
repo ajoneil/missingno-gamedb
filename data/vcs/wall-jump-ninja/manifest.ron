@@ -1,0 +1,86 @@
+(
+    title: "Wall Jump Ninja",
+    developer: Some("Walaber"),
+    description: Some("A one-button climb: each tap bounces the ninja off one wall and onto the opposite one, and how long you hold decides how high the jump goes. Slip through the gaps to reach the next room, dodging spikes on the way — linger too long and the death beam catches you."),
+    links: [
+        (
+            name: "AtariAge",
+            url: "https://forums.atariage.com/topic/232652-wall-jump-ninja-2600/",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "AtariAge Store",
+            url: "https://store.atariage.com/products/wall-jump-ninja-atari-2600",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/114E5976732A634192385D03C6145F5C4F1F659E",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2015"),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "3864c9f26576bcb919ff00153a20418a1f7121c1",
+                    label: Some("v1.1 (2016-05-08)"),
+                    size: Some(4096),
+                ),
+                (
+                    sha1: "a06fb0c60fff651b0be270e926f220706e86a5b4",
+                    label: Some("v1.0 (2015-01-15)"),
+                    size: Some(4096),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2015"),
+            hardware: (
+                tv_format: Some(Pal),
+            ),
+            artifacts: [
+                (
+                    sha1: "8c99a56e2b3dadb0569c07bc13eb325df8e42cb8",
+                    label: Some("v1.1 (2016-05-08)"),
+                    size: Some(4096),
+                ),
+                (
+                    sha1: "1c7da4646c5f59596914f32ef7f4f04c0d62bff3",
+                    label: Some("v1.0 (2015-01-15)"),
+                    size: Some(4096),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2015"),
+            hardware: (
+                tv_format: Some(Pal60),
+            ),
+            artifacts: [
+                (
+                    sha1: "fba9479b04a1bb5c6cbd1893be59630acd3c8cb6",
+                    label: Some("v1.1 (2016-05-08)"),
+                    size: Some(4096),
+                ),
+                (
+                    sha1: "bd3e8686a09175f51a0fcb51115d9b91b0e6b852",
+                    label: Some("v1.0 (2015-01-15)"),
+                    size: Some(4096),
+                ),
+            ],
+        ),
+    ],
+)
