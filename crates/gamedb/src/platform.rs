@@ -94,8 +94,8 @@ pub struct GbcHardware {
 pub struct Sg1000Hardware {
     /// The standard of the machine this software was written against — the
     /// presentation its home market saw. The console fixes the standard, not
-    /// the cartridge, so this is stated only on deviation from the platform
-    /// default (NTSC, the Japanese machines); `None` = that default.
+    /// the cartridge, so this is a market fact, recorded explicitly as the
+    /// VCS records its; `None` = unstated, never a default.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub tv_format: Option<TvStandard>,
     /// Cartridge board code, e.g. "OTHELLO", "DAHJEE-A"; `None` = a plain ROM.

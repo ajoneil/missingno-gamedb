@@ -11,7 +11,8 @@ use std::{
 };
 
 use missingno_gamedb::{
-    Artifact, Game, GameKind, Language, Release, Sg1000, Sg1000Hardware, Sha1, Tree,
+    Artifact, Game, GameKind, Language, Region, Release, Sg1000, Sg1000Hardware, Sha1, Tree,
+    TvStandard,
 };
 
 use crate::{
@@ -63,6 +64,20 @@ fn covering<'a>(
         .filter_map(|a| by_sha1.get(a.sha1.as_str()).copied())
 }
 
+/// The standard the release's markets sold: the platform's NTSC markets make
+/// software NTSC-authored, a PAL-market-only set is PAL-authored.
+fn tv_format(regions: &[Region]) -> Option<TvStandard> {
+    const NTSC_MARKETS: [Region; 3] = [Region::Japan, Region::Taiwan, Region::Korea];
+    if regions.is_empty() {
+        return None;
+    }
+    Some(if regions.iter().any(|r| NTSC_MARKETS.contains(r)) {
+        TvStandard::Ntsc
+    } else {
+        TvStandard::Pal
+    })
+}
+
 fn release(game_title: &str, parsed: &ParsedName, artifacts: &[Artifact]) -> Release<Sg1000> {
     Release {
         title: (parsed.title != game_title).then(|| parsed.title.clone()),
@@ -72,7 +87,10 @@ fn release(game_title: &str, parsed: &ParsedName, artifacts: &[Artifact]) -> Rel
         date: parsed.date.clone(),
         publisher: None,
         status: parsed.status,
-        hardware: Sg1000Hardware::default(),
+        hardware: Sg1000Hardware {
+            tv_format: tv_format(&parsed.regions),
+            cart_type: None,
+        },
         artifacts: artifacts.to_vec(),
     }
 }
@@ -334,6 +352,9 @@ mod tests {
   <game name="LinkWord (Japan) (Proto) (SC3000) (Program)" id="60">
     <rom name="LinkWord (Japan).sg" size="16384" sha1="7777777777777777777777777777777777777777"/>
   </game>
+  <game name="Pal Homework (Europe, Australia, New Zealand)" id="70">
+    <rom name="Pal Homework (Europe, Australia, New Zealand).sg" size="16384" sha1="8888888888888888888888888888888888888888"/>
+  </game>
 </datafile>"#;
 
     #[test]
@@ -347,10 +368,10 @@ mod tests {
 
         let mut report = Report::default();
         let stats = run(root.path(), &dat, &mut report).unwrap();
-        assert_eq!(stats.dat_entries, 5);
+        assert_eq!(stats.dat_entries, 6);
         assert_eq!(stats.bios_entries, 1);
         assert_eq!(stats.computer_entries, 2);
-        assert_eq!(stats.new_games, 2);
+        assert_eq!(stats.new_games, 3);
         assert_eq!(stats.releases_added, 1);
         assert_eq!(stats.families_skipped, 0);
         assert!(!report.render("t").contains("Unknown name qualifiers"));
@@ -367,7 +388,8 @@ mod tests {
         assert_eq!(folded.title, None);
         assert_eq!(folded.label.as_deref(), Some("Othello Multivision, Unl"));
         assert_eq!(folded.publisher, None);
-        assert_eq!(folded.hardware, Sg1000Hardware::default());
+        assert_eq!(folded.hardware.tv_format, Some(TvStandard::Ntsc));
+        assert_eq!(folded.hardware.cart_type, None);
 
         let sky = std::fs::read_to_string(root.path().join("sg1000/sky-jaguar/manifest.ron"))
             .expect("a fresh family becomes one game");
@@ -382,6 +404,12 @@ mod tests {
         let golf = Game::<Sg1000>::from_ron(&golf).unwrap();
         assert_eq!(golf.releases[0].languages, vec![Language::Japanese]);
         assert_eq!(golf.releases[0].label, None);
+        assert_eq!(golf.releases[0].hardware.tv_format, Some(TvStandard::Ntsc));
+
+        let pal =
+            std::fs::read_to_string(root.path().join("sg1000/pal-homework/manifest.ron")).unwrap();
+        let pal = Game::<Sg1000>::from_ron(&pal).unwrap();
+        assert_eq!(pal.releases[0].hardware.tv_format, Some(TvStandard::Pal));
 
         assert!(!root.path().join("sg1000/basic-level-iii").exists());
         assert!(!root.path().join("sg1000/linkword").exists());
@@ -391,7 +419,7 @@ mod tests {
         let written = std::fs::read_to_string(&othello_path).unwrap();
         let mut report = Report::default();
         let stats = run(root.path(), &dat, &mut report).unwrap();
-        assert_eq!(stats.dat_entries, 5);
+        assert_eq!(stats.dat_entries, 6);
         assert_eq!(stats.new_games, 0);
         assert_eq!(stats.releases_added, 0);
         assert_eq!(stats.families_skipped, 0);
