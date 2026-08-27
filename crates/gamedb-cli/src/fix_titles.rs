@@ -4,8 +4,8 @@
 use std::path::Path;
 
 use missingno_gamedb::{
-    Flag, FlagFile, FlagKind, Game, GameBoy, GameBoyColor, GameKind, Platform, ReleaseStatus, Tree,
-    Vcs, normalized_title,
+    Flag, FlagFile, FlagKind, Game, GameBoy, GameBoyColor, GameKind, Platform, ReleaseStatus,
+    Sg1000, Tree, Vcs, normalized_title,
 };
 
 use crate::{report::Report, tree};
@@ -52,6 +52,7 @@ pub fn run(repo_root: &Path, data_root: &Path, report: &mut Report) -> Result<St
     let mut flags = FlagFile::load(repo_root).map_err(|e| e.to_string())?;
     fix_tree::<GameBoy>(data_root, report, &mut stats, &mut flags)?;
     fix_tree::<GameBoyColor>(data_root, report, &mut stats, &mut flags)?;
+    fix_tree::<Sg1000>(data_root, report, &mut stats, &mut flags)?;
     fix_tree::<Vcs>(data_root, report, &mut stats, &mut flags)?;
     flags.save(repo_root).map_err(|e| e.to_string())?;
     Ok(stats)

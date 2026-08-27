@@ -2,6 +2,7 @@ mod fix_slugs;
 mod fix_titles;
 mod import_flags;
 mod import_nointro;
+mod import_sg1000;
 mod legacy;
 mod migrate_homebrew;
 mod migrate_vcs;
@@ -115,6 +116,16 @@ enum Command {
         /// Logiqx XML DAT file(s); pass GB and GBC together
         #[arg(long, required = true)]
         dat: Vec<PathBuf>,
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+    },
+    /// Fold the No-Intro SG-1000 DAT into the sg1000 tree
+    ImportSg1000 {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        /// Logiqx XML DAT file for Sega - SG-1000 - SC-3000
+        #[arg(long)]
+        dat: PathBuf,
         #[arg(long, default_value = "migration-report.md")]
         report: PathBuf,
     },
@@ -276,6 +287,22 @@ fn main() -> ExitCode {
                     format!(
                         "{} DAT entries → {} gb + {} gbc games ({} moved gbc→gb, {} merged with old entries, {} leftovers)",
                         s.dat_entries, s.gb_games, s.gbc_games, s.moved_to_gb, s.merged, s.leftovers
+                    )
+                })
+            })
+        }
+        Command::ImportSg1000 { path, dat, report } => {
+            let path = resolve_db_root(&path);
+            run_migration(&path.clone(), &report, "import sg1000", |r| {
+                import_sg1000::run(&path, &dat, r).map(|s| {
+                    format!(
+                        "{} DAT entries → {} new games, {} releases added to existing games ({} SC-3000/SF-7000 skipped, {} BIOS skipped, {} families for manual review)",
+                        s.dat_entries,
+                        s.new_games,
+                        s.releases_added,
+                        s.computer_entries,
+                        s.bios_entries,
+                        s.families_skipped
                     )
                 })
             })

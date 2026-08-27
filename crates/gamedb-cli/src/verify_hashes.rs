@@ -8,7 +8,7 @@
 
 use std::{collections::BTreeMap, path::Path, process::Command, thread::sleep, time::Duration};
 
-use missingno_gamedb::{Game, GameBoy, GameBoyColor, Platform, Tree, Vcs};
+use missingno_gamedb::{Game, GameBoy, GameBoyColor, Platform, Sg1000, Tree, Vcs};
 
 use crate::report::Report;
 
@@ -106,6 +106,7 @@ pub fn run(data_root: &Path, report: &mut Report, options: &Options) -> Result<S
     let mut cache = load_cache(&options.cache_path);
     sweep::<GameBoy>(data_root, report, &mut stats, &mut cache, options)?;
     sweep::<GameBoyColor>(data_root, report, &mut stats, &mut cache, options)?;
+    sweep::<Sg1000>(data_root, report, &mut stats, &mut cache, options)?;
     sweep::<Vcs>(data_root, report, &mut stats, &mut cache, options)?;
     save_cache(&options.cache_path, &cache);
     Ok(stats)

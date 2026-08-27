@@ -5,8 +5,8 @@ use std::{
 };
 
 use missingno_gamedb::{
-    Artifact, Enhancement, Game, GameBoy, GameBoyColor, GameKind, GbHardware, Platform, Release,
-    ReleaseDate, ReleaseStatus, Sha1,
+    Artifact, Enhancement, Game, GameBoy, GameBoyColor, GameKind, GbHardware, Language, Platform,
+    Release, ReleaseDate, ReleaseStatus, Sha1,
 };
 
 use crate::{
@@ -32,20 +32,43 @@ enum DatSystem {
     GameBoyColor,
 }
 
-struct ParsedName {
-    title: String,
-    regions: Vec<missingno_gamedb::Region>,
-    label: Option<String>,
-    date: Option<ReleaseDate>,
-    kind: GameKind,
-    status: ReleaseStatus,
-    sgb: bool,
-    cgb: bool,
-    gb_compatible: bool,
+pub(crate) struct ParsedName {
+    pub title: String,
+    pub regions: Vec<missingno_gamedb::Region>,
+    pub label: Option<String>,
+    pub languages: Vec<Language>,
+    pub date: Option<ReleaseDate>,
+    pub kind: GameKind,
+    pub status: ReleaseStatus,
+    pub sgb: bool,
+    pub cgb: bool,
+    pub gb_compatible: bool,
+}
+
+/// The parenthetical words one DAT uses beyond the shared No-Intro tags.
+pub(crate) struct Vocabulary {
+    /// Words naming a language; a chunk of only these is the release's languages.
+    pub languages: &'static [(&'static str, Language)],
+    /// Labels this DAT is known to use, so they are not review items.
+    pub known_labels: &'static [&'static str],
+}
+
+impl Vocabulary {
+    pub const GAME_BOY: Self = Self {
+        languages: &[],
+        known_labels: &[],
+    };
+
+    fn language(&self, word: &str) -> Option<Language> {
+        self.languages
+            .iter()
+            .find(|(code, _)| *code == word)
+            .map(|(_, language)| *language)
+    }
 }
 
 /// Split a No-Intro game name into title, region set, and qualifier tags.
-fn parse_name(name: &str, report: &mut Report) -> ParsedName {
+pub(crate) fn parse_name(name: &str, vocabulary: &Vocabulary, report: &mut Report) -> ParsedName {
     let mut chunks = Vec::new();
     let mut title = String::new();
     let mut current = String::new();
@@ -79,6 +102,7 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
         title,
         regions: Vec::new(),
         label: None,
+        languages: Vec::new(),
         date: None,
         kind: GameKind::Game,
         status: ReleaseStatus::Released,
@@ -89,9 +113,9 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
 
     let mut label_parts: Vec<String> = Vec::new();
     for (i, chunk) in chunks.iter().enumerate() {
+        let words: Vec<&str> = chunk.split(',').map(str::trim).collect();
         // The first parenthetical is the region set when every word maps.
         if i == 0 {
-            let words: Vec<&str> = chunk.split(',').map(str::trim).collect();
             if words.iter().all(|w| parse_region(w).is_some()) {
                 parsed.regions = words
                     .iter()
@@ -100,6 +124,13 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
                 continue;
             }
             report.add("Names without a leading region tag", format!("{name:?}"));
+        }
+        if words.iter().all(|w| vocabulary.language(w).is_some()) {
+            parsed.languages = words
+                .iter()
+                .filter_map(|w| vocabulary.language(w))
+                .collect();
+            continue;
         }
         match chunk.as_str() {
             "SGB Enhanced" => parsed.sgb = true,
@@ -127,7 +158,8 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
                     "Alt", "NP",
                 ]
                 .iter()
-                .any(|prefix| other == *prefix || other.starts_with(&format!("{prefix} ")));
+                .any(|prefix| other == *prefix || other.starts_with(&format!("{prefix} ")))
+                    || vocabulary.known_labels.contains(&other);
                 if known_label {
                     if other.starts_with("Demo")
                         || other.starts_with("Sample")
@@ -146,6 +178,122 @@ fn parse_name(name: &str, report: &mut Report) -> ParsedName {
         parsed.label = Some(label_parts.join(", "));
     }
     parsed
+}
+
+/// A family's title: the parent entry's, or the earliest a member states.
+pub(crate) fn canonical_title<K: Ord, T>(
+    family: &K,
+    group: &[T],
+    family_title: &BTreeMap<K, String>,
+    parsed: &impl Fn(&T) -> &ParsedName,
+) -> String {
+    family_title
+        .get(family)
+        .cloned()
+        .unwrap_or_else(|| group.iter().map(|m| parsed(m).title.clone()).min().unwrap())
+}
+
+/// Fold each same-titled family that holds no released member into the one
+/// that does — clone ids never span DATs, so a game's prototypes and its
+/// retail releases can arrive as separate families.
+pub(crate) fn merge_preproduction_families<K: Ord + Clone, T>(
+    groups: &mut BTreeMap<K, Vec<T>>,
+    family_title: &BTreeMap<K, String>,
+    parsed: impl Fn(&T) -> &ParsedName,
+    report: &mut Report,
+) {
+    let mut by_title: BTreeMap<String, Vec<K>> = BTreeMap::new();
+    for (family, group) in groups.iter() {
+        by_title
+            .entry(canonical_title(family, group, family_title, &parsed))
+            .or_default()
+            .push(family.clone());
+    }
+    for (title, families) in by_title {
+        if families.len() < 2 {
+            continue;
+        }
+        let released: Vec<&K> = families
+            .iter()
+            .filter(|f| {
+                groups[*f]
+                    .iter()
+                    .any(|m| parsed(m).status == ReleaseStatus::Released)
+            })
+            .collect();
+        let [target] = released[..] else {
+            report.add(
+                "Same-title families left separate (review candidates)",
+                format!("{title:?}: {} families", families.len()),
+            );
+            continue;
+        };
+        let target = target.clone();
+        for family in families {
+            if family == target {
+                continue;
+            }
+            if groups[&family]
+                .iter()
+                .all(|m| parsed(m).status != ReleaseStatus::Released)
+            {
+                let members = groups.remove(&family).unwrap();
+                report.add(
+                    "Pre-release families merged into their retail game",
+                    title.clone(),
+                );
+                groups.get_mut(&target).unwrap().extend(members);
+            } else {
+                report.add(
+                    "Same-title families left separate (review candidates)",
+                    title.clone(),
+                );
+            }
+        }
+    }
+}
+
+/// Name each game's directory, avoiding both `reserved` and the tree on disk.
+pub(crate) fn assign_slugs<P: Platform>(
+    db_root: &Path,
+    games: &mut [(String, Game<P>)],
+    reserved: &[String],
+    report: &mut Report,
+) -> Result<(), String> {
+    let mut taken: BTreeSet<String> = reserved.iter().cloned().collect();
+    let tree_dir = db_root.join(P::DIR);
+    if tree_dir.is_dir() {
+        for dir in fs::read_dir(&tree_dir)
+            .map_err(|e| e.to_string())?
+            .flatten()
+        {
+            let manifest = dir.path().join("manifest.ron");
+            if manifest.is_file() {
+                let text = fs::read_to_string(&manifest).map_err(|e| e.to_string())?;
+                if Game::<P>::from_ron(&text).is_ok() {
+                    taken.insert(dir.file_name().to_string_lossy().into_owned());
+                }
+            }
+        }
+    }
+    for (slug, game) in games.iter_mut() {
+        let base = slugify(&game.title);
+        let mut candidate = base.clone();
+        let mut n = 1;
+        while taken.contains(&candidate) {
+            n += 1;
+            candidate = format!("{base}-{n}");
+        }
+        if n > 1 {
+            report.add(
+                "Slug collisions suffixed",
+                format!("{}/{candidate} for {:?}", P::DIR, game.title),
+            );
+        }
+        taken.insert(candidate.clone());
+        *slug = candidate;
+    }
+    Ok(())
 }
 
 pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stats, String> {
@@ -186,7 +334,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                 continue;
             }
             stats.dat_entries += 1;
-            let parsed = parse_name(name, report);
+            let parsed = parse_name(name, &Vocabulary::GAME_BOY, report);
             let mut artifacts = Vec::new();
             for rom in game.children().filter(|n| n.has_tag_name("rom")) {
                 let Some(sha1) = rom.attribute("sha1") else {
@@ -239,76 +387,6 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
         }
     }
 
-    // ── Merge pre-release-only families into their retail family.
-    // Clone ids never span DATs, so a game's prototypes (GB DAT) and its
-    // retail releases (GBC DAT) arrive as separate same-titled families. ─────
-    fn canonical_title<T>(
-        family: &(usize, String),
-        group: &[T],
-        family_title: &BTreeMap<(usize, String), String>,
-        parsed: &impl Fn(&T) -> &ParsedName,
-    ) -> String {
-        family_title
-            .get(family)
-            .cloned()
-            .unwrap_or_else(|| group.iter().map(|m| parsed(m).title.clone()).min().unwrap())
-    }
-    fn merge_preproduction_families<T>(
-        groups: &mut BTreeMap<(usize, String), Vec<T>>,
-        family_title: &BTreeMap<(usize, String), String>,
-        parsed: impl Fn(&T) -> &ParsedName,
-        report: &mut Report,
-    ) {
-        let mut by_title: BTreeMap<String, Vec<(usize, String)>> = BTreeMap::new();
-        for (family, group) in groups.iter() {
-            by_title
-                .entry(canonical_title(family, group, family_title, &parsed))
-                .or_default()
-                .push(family.clone());
-        }
-        for (title, families) in by_title {
-            if families.len() < 2 {
-                continue;
-            }
-            let released: Vec<&(usize, String)> = families
-                .iter()
-                .filter(|f| {
-                    groups[*f]
-                        .iter()
-                        .any(|m| parsed(m).status == ReleaseStatus::Released)
-                })
-                .collect();
-            let [target] = released[..] else {
-                report.add(
-                    "Same-title families left separate (review candidates)",
-                    format!("{title:?}: {} families", families.len()),
-                );
-                continue;
-            };
-            let target = target.clone();
-            for family in families {
-                if family == target {
-                    continue;
-                }
-                if groups[&family]
-                    .iter()
-                    .all(|m| parsed(m).status != ReleaseStatus::Released)
-                {
-                    let members = groups.remove(&family).unwrap();
-                    report.add(
-                        "Pre-release families merged into their retail game",
-                        title.clone(),
-                    );
-                    groups.get_mut(&target).unwrap().extend(members);
-                } else {
-                    report.add(
-                        "Same-title families left separate (review candidates)",
-                        title.clone(),
-                    );
-                }
-            }
-        }
-    }
     merge_preproduction_families(&mut gb_groups, &family_title, |m| &m.0, report);
     merge_preproduction_families(&mut gbc_groups, &family_title, |m| &m.0, report);
 
@@ -455,6 +533,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                     title: parsed.title.clone(),
                     regions: parsed.regions.clone(),
                     label: parsed.label.clone(),
+                    languages: parsed.languages.clone(),
                     date: parsed.date.clone(),
                     kind: parsed.kind,
                     status: parsed.status,
@@ -493,6 +572,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
                         title: p.title.clone(),
                         regions: p.regions.clone(),
                         label: p.label.clone(),
+                        languages: p.languages.clone(),
                         date: p.date.clone(),
                         kind: p.kind,
                         status: p.status,
@@ -567,7 +647,7 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
             "Leftover old entries (not in any DAT) — mechanically converted",
             format!("{tree_name}/{slug}"),
         );
-        let parsed = parse_name(&m.title, report);
+        let parsed = parse_name(&m.title, &Vocabulary::GAME_BOY, report);
         let regions = if !parsed.regions.is_empty() {
             parsed.regions.clone()
         } else {
@@ -631,47 +711,6 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
     }
 
     // ── Assign slugs (existing homebrew dirs + leftovers are reserved) ─
-    fn assign_slugs<P: Platform>(
-        db_root: &Path,
-        games: &mut [(String, Game<P>)],
-        reserved: &[String],
-        report: &mut Report,
-    ) -> Result<(), String> {
-        let mut taken: BTreeSet<String> = reserved.iter().cloned().collect();
-        let tree_dir = db_root.join(P::DIR);
-        if tree_dir.is_dir() {
-            for dir in fs::read_dir(&tree_dir)
-                .map_err(|e| e.to_string())?
-                .flatten()
-            {
-                let manifest = dir.path().join("manifest.ron");
-                if manifest.is_file() {
-                    let text = fs::read_to_string(&manifest).map_err(|e| e.to_string())?;
-                    if Game::<P>::from_ron(&text).is_ok() {
-                        taken.insert(dir.file_name().to_string_lossy().into_owned());
-                    }
-                }
-            }
-        }
-        for (slug, game) in games.iter_mut() {
-            let base = slugify(&game.title);
-            let mut candidate = base.clone();
-            let mut n = 1;
-            while taken.contains(&candidate) {
-                n += 1;
-                candidate = format!("{base}-{n}");
-            }
-            if n > 1 {
-                report.add(
-                    "Slug collisions suffixed",
-                    format!("{}/{candidate} for {:?}", P::DIR, game.title),
-                );
-            }
-            taken.insert(candidate.clone());
-            *slug = candidate;
-        }
-        Ok(())
-    }
     let gb_reserved: Vec<String> = gb_leftovers.iter().map(|(s, _)| s.clone()).collect();
     let gbc_reserved: Vec<String> = gbc_leftovers.iter().map(|(s, _)| s.clone()).collect();
     assign_slugs(db_root, &mut gb_games, &gb_reserved, report)?;

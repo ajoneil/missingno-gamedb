@@ -10,7 +10,7 @@ use std::{
     path::Path,
 };
 
-use missingno_gamedb::{FlagFile, Game, GameBoy, GameBoyColor, Platform, Tree, Vcs};
+use missingno_gamedb::{FlagFile, Game, GameBoy, GameBoyColor, Platform, Sg1000, Tree, Vcs};
 
 use crate::{report::Report, tree};
 
@@ -61,6 +61,16 @@ impl SlugTokens for GameBoyColor {
     }
 }
 
+impl SlugTokens for Sg1000 {
+    fn tokens(game: &Game<Self>) -> BTreeSet<String> {
+        game.releases
+            .iter()
+            .filter_map(|release| release.hardware.cart_type)
+            .map(|cart| cart.code().to_lowercase())
+            .collect()
+    }
+}
+
 fn mapper_tokens<'a>(mappers: impl Iterator<Item = Option<&'a str>>) -> BTreeSet<String> {
     mappers
         .flatten()
@@ -95,6 +105,7 @@ pub fn run(
     let mut flags = FlagFile::load(repo_root).map_err(|e| e.to_string())?;
     fix_tree::<GameBoy>(data_root, report, &mut stats, &mut flags, dry_run)?;
     fix_tree::<GameBoyColor>(data_root, report, &mut stats, &mut flags, dry_run)?;
+    fix_tree::<Sg1000>(data_root, report, &mut stats, &mut flags, dry_run)?;
     fix_tree::<Vcs>(data_root, report, &mut stats, &mut flags, dry_run)?;
     if !dry_run {
         flags.save(repo_root).map_err(|e| e.to_string())?;
