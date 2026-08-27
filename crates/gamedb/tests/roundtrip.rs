@@ -138,6 +138,11 @@ const SG1000_RAM_CART: &str = r#"(
             hardware: (cart_type: Some("OTHELLO")),
             artifacts: [(sha1: "d0cd594ddb321f707ddba8a044fa3e9b906e720a", size: Some(32768))],
         ),
+        (
+            regions: [NewZealand],
+            hardware: (tv_format: Some(Pal)),
+            artifacts: [(sha1: "a43aef367857a681decea52377c2e7a992c2ac68", size: Some(32768))],
+        ),
     ],
 )
 "#;
@@ -149,6 +154,8 @@ fn sg1000_board_round_trips() {
         game.releases[0].hardware.cart_type,
         Some(Sg1000CartType::OthelloRam)
     );
+    assert_eq!(game.releases[0].hardware.tv_format, None);
+    assert_eq!(game.releases[1].hardware.tv_format, Some(TvStandard::Pal));
     assert!(
         canonical.contains(r#"cart_type: Some("OTHELLO")"#),
         "{canonical}"

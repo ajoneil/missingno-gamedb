@@ -92,6 +92,12 @@ pub struct GbcHardware {
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct Sg1000Hardware {
+    /// The standard of the machine this software was written against — the
+    /// presentation its home market saw. The console fixes the standard, not
+    /// the cartridge, so this is stated only on deviation from the platform
+    /// default (NTSC, the Japanese machines); `None` = that default.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub tv_format: Option<TvStandard>,
     /// Cartridge board code, e.g. "OTHELLO", "DAHJEE-A"; `None` = a plain ROM.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<Sg1000CartType>,
