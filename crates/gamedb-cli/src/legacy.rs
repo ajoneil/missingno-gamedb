@@ -1,6 +1,6 @@
 use std::{fs, io, path::Path};
 
-use missingno_gamedb::{Link, TvFormat};
+use missingno_gamedb::{Link, TvStandard};
 use serde::Deserialize;
 
 /// The pre-migration manifest shape; parse-only.
@@ -19,7 +19,7 @@ pub struct LegacyManifest {
     #[serde(default)]
     pub description: Option<String>,
     #[serde(default)]
-    pub tv_format: Option<TvFormat>,
+    pub tv_format: Option<TvStandard>,
     #[serde(default)]
     pub cart_type: Option<String>,
     #[serde(default)]

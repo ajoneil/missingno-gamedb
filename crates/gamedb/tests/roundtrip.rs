@@ -1,5 +1,5 @@
 use missingno_gamedb::{
-    Enhancement, Game, GameBoy, GameBoyColor, Sg1000, Sg1000CartType, TvFormat, Vcs, VcsCartType,
+    Enhancement, Game, GameBoy, GameBoyColor, Sg1000, Sg1000CartType, TvStandard, Vcs, VcsCartType,
 };
 
 const GB_HOMEBREW: &str = r#"(
@@ -122,8 +122,8 @@ fn gbc_minimal_round_trips_and_omits_defaults() {
 fn vcs_variants_round_trip() {
     let (game, _) = round_trip::<Vcs>(VCS_VARIANTS);
     assert_eq!(game.releases.len(), 2);
-    assert_eq!(game.releases[0].hardware.tv_format, Some(TvFormat::Ntsc));
-    assert_eq!(game.releases[1].hardware.tv_format, Some(TvFormat::Pal));
+    assert_eq!(game.releases[0].hardware.tv_format, Some(TvStandard::Ntsc));
+    assert_eq!(game.releases[1].hardware.tv_format, Some(TvStandard::Pal));
     assert_eq!(
         game.releases[1].hardware.cart_type,
         Some(VcsCartType::Atari8K)
@@ -149,7 +149,10 @@ fn sg1000_board_round_trips() {
         game.releases[0].hardware.cart_type,
         Some(Sg1000CartType::OthelloRam)
     );
-    assert!(canonical.contains(r#"cart_type: Some("OTHELLO")"#), "{canonical}");
+    assert!(
+        canonical.contains(r#"cart_type: Some("OTHELLO")"#),
+        "{canonical}"
+    );
 }
 
 #[test]

@@ -23,7 +23,7 @@ pub use ids::{Date, ReleaseDate, Sha1, Slug};
 pub use load::{Database, Entry, LoadIssue, Tree};
 pub use platform::{
     Controller, Enhancement, GameBoy, GameBoyColor, GbCartType, GbHardware, GbcHardware, Platform,
-    Sg1000, Sg1000CartType, Sg1000Hardware, TvFormat, Vcs, VcsCartType, VcsHardware,
+    Sg1000, Sg1000CartType, Sg1000Hardware, TvStandard, Vcs, VcsCartType, VcsHardware,
 };
 pub use region::Region;
 pub use text::normalized_title;

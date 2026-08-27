@@ -6,7 +6,7 @@ use serde::{Deserialize, Serialize, de::DeserializeOwned};
 /// names a board some silicon model builds and an unlisted code fails to parse.
 pub use missingno_gb::cartridge::GbCartType;
 pub use missingno_sg1000::cartridge::CartType as Sg1000CartType;
-pub use missingno_vcs::CartType as VcsCartType;
+pub use missingno_vcs::{CartType as VcsCartType, TvStandard};
 
 /// The platform axis of the database: one tree per platform, and a
 /// platform-specific block of per-release hardware facts.
@@ -101,7 +101,7 @@ pub struct Sg1000Hardware {
 #[serde(deny_unknown_fields)]
 pub struct VcsHardware {
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub tv_format: Option<TvFormat>,
+    pub tv_format: Option<TvStandard>,
     /// Cartridge board code, e.g. "F8", "F6SC", "4K".
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<VcsCartType>,
@@ -131,18 +131,4 @@ pub enum Controller {
     /// Atari's MindLink: a headband read as forehead-muscle movement. Only a
     /// couple of (mostly unreleased) titles use it.
     MindLink,
-}
-
-#[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
-pub enum TvFormat {
-    Ntsc,
-    Pal,
-    /// Standard PAL colour at a 60 Hz/525-line raster: correct colours on a PAL
-    /// set but NTSC-speed timing. Common as a second build of homebrew and
-    /// demoscene productions alongside the NTSC one; distinct from PAL-M.
-    Pal60,
-    /// Brazil's PAL-M: PAL colour encoding on System M's 525-line, 59.94 Hz
-    /// raster, so it runs at NTSC timing rather than PAL's.
-    PalM,
-    Secam,
 }
