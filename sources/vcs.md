@@ -56,10 +56,14 @@ The core does not auto-detect — the gamedb value drives the emulator, so a wro
 one shows as a wrong picture. Boot the dump headless and read the frame height:
 
 ```
-missingno-debugger <rom> [--cart-type F0] --port 3401
+missingno-debugger <rom> --system "Atari VCS" [--cart-type F0] --port 3401
 curl -X POST localhost:3401/run && sleep 2 && curl -X POST localhost:3401/pause
 curl -s localhost:3401/frame/raw     # → "height"
 ```
+
+`--system` is required for a `.bin` dump — the generic extension names no
+console, so the emulator only recognises one by database match or explicit
+selection. A `.a26` loads without it.
 
 | height | standard |
 |--------|----------|
