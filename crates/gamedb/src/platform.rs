@@ -2,6 +2,8 @@ use std::fmt::Debug;
 
 use serde::{Deserialize, Serialize, de::DeserializeOwned};
 
+use crate::facts::HardwareFacts;
+
 /// The board vocabularies are the emulator cores' own, so a hardware payload
 /// names a board some silicon model builds and an unlisted code fails to parse.
 pub use missingno_gb::cartridge::GbCartType;
@@ -12,7 +14,13 @@ pub use missingno_vcs::{CartType as VcsCartType, TvStandard};
 /// platform-specific block of per-release hardware facts.
 pub trait Platform {
     /// Per-release hardware facts for this platform.
-    type ReleaseHardware: Serialize + DeserializeOwned + Default + Clone + PartialEq + Debug;
+    type ReleaseHardware: Serialize
+        + DeserializeOwned
+        + Default
+        + Clone
+        + PartialEq
+        + Debug
+        + HardwareFacts;
     /// Tree directory name at the database root.
     const DIR: &'static str;
 }
@@ -79,8 +87,6 @@ pub struct GbHardware {
 }
 
 /// Whether a Game Boy release detects and uses an enhancing console.
-/// `Unknown` is honest absence of data: flags backfill from external sources,
-/// never by assumption.
 #[derive(Serialize, Deserialize, Default, Clone, Copy, PartialEq, Eq, Debug)]
 pub enum Enhancement {
     #[default]
@@ -104,15 +110,11 @@ pub struct GbcHardware {
     pub mapper: Option<GbCartType>,
 }
 
-/// An SG-1000 dump carries no header and no length that tells a RAM-bearing
-/// board from a plain one, so the board is a database fact or nothing.
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct Sg1000Hardware {
-    /// The standard of the machine this software was written against — the
-    /// presentation its home market saw. The console fixes the standard, not
-    /// the cartridge, so this is a market fact, recorded explicitly as the
-    /// VCS records its; `None` = unstated, never a default.
+    /// The standard of the machine this software was written against;
+    /// `None` = unstated, never a default.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub tv_format: Option<TvStandard>,
     /// Cartridge board code, e.g. "OTHELLO", "DAHJEE-A"; `None` = a plain ROM.
@@ -128,18 +130,12 @@ pub struct VcsHardware {
     /// Cartridge board code, e.g. "F8", "F6SC", "4K".
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<VcsCartType>,
-    /// Controllers the release needs, staged only when it deviates from the
-    /// platform default (VCS: joystick) or when sibling releases of one game
-    /// differ and the contrast is the fact (a joystick conversion beside the
-    /// paddle original). Empty = the default; every platform added later
-    /// picks one default and follows the same rule.
+    /// Controllers the release needs; empty = the platform default (joystick).
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub controllers: Vec<Controller>,
 }
 
-/// A VCS controller. An empty controller list means the joystick, which the
-/// great majority of games use; the list is spelled out only when a game needs
-/// something else or supports several.
+/// A VCS controller.
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
 pub enum Controller {
     Joystick,

@@ -5,6 +5,7 @@
 //! more releases (region / revision / hardware variants), each carrying the
 //! artifacts (ROM dumps) for that variant; obtain-from URLs are game links.
 
+pub mod facts;
 pub mod flags;
 pub mod game;
 pub mod ids;
@@ -14,6 +15,7 @@ pub mod region;
 pub mod text;
 pub mod validate;
 
+pub use facts::{FactDescriptor, FactKind, FactValue, HardwareFacts};
 pub use flags::{Flag, FlagFile, FlagKind};
 pub use game::{
     Artifact, Defect, Game, GameKind, Language, Link, LinkType, Mod, ModCategory, ModOf,
