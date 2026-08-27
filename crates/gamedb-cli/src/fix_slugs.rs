@@ -43,13 +43,21 @@ impl SlugTokens for Vcs {
 
 impl SlugTokens for GameBoy {
     fn tokens(game: &Game<Self>) -> BTreeSet<String> {
-        mapper_tokens(game.releases.iter().map(|r| r.hardware.mapper.map(|m| m.code())))
+        mapper_tokens(
+            game.releases
+                .iter()
+                .map(|r| r.hardware.mapper.map(|m| m.code())),
+        )
     }
 }
 
 impl SlugTokens for GameBoyColor {
     fn tokens(game: &Game<Self>) -> BTreeSet<String> {
-        mapper_tokens(game.releases.iter().map(|r| r.hardware.mapper.map(|m| m.code())))
+        mapper_tokens(
+            game.releases
+                .iter()
+                .map(|r| r.hardware.mapper.map(|m| m.code())),
+        )
     }
 }
 
