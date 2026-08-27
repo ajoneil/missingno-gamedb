@@ -17,6 +17,15 @@ pub trait Platform {
     const DIR: &'static str;
 }
 
+/// The platform axis, stated once: a consumer macro receives every platform
+/// type. Adding a system here reaches every list in the workspace.
+#[macro_export]
+macro_rules! with_platforms {
+    ($consumer:ident) => {
+        $consumer! { GameBoy, GameBoyColor, Sg1000, Vcs }
+    };
+}
+
 #[derive(Clone, Copy, PartialEq, Eq, Debug, Default)]
 pub struct GameBoy;
 
@@ -47,6 +56,14 @@ impl Platform for Vcs {
 impl Platform for Sg1000 {
     type ReleaseHardware = Sg1000Hardware;
     const DIR: &'static str = "sg1000";
+}
+
+/// Tree directory names at the database root, in platform order.
+pub fn platform_dirs() -> &'static [&'static str] {
+    macro_rules! dirs {
+        ($($P:ident),* $(,)?) => { &[$(<$P as Platform>::DIR),*] };
+    }
+    with_platforms!(dirs)
 }
 
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
@@ -137,4 +154,14 @@ pub enum Controller {
     /// Atari's MindLink: a headband read as forehead-muscle movement. Only a
     /// couple of (mostly unreleased) titles use it.
     MindLink,
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn platform_dirs_are_the_whole_axis() {
+        assert_eq!(platform_dirs(), ["gb", "gbc", "sg1000", "vcs"]);
+    }
 }

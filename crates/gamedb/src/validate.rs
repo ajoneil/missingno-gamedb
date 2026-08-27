@@ -49,10 +49,11 @@ impl Finding {
 
 /// Validate every platform tree under the database root.
 pub fn validate(db_root: &Path) -> io::Result<Vec<Finding>> {
-    let mut findings = validate_tree::<GameBoy>(db_root)?;
-    findings.extend(validate_tree::<GameBoyColor>(db_root)?);
-    findings.extend(validate_tree::<Sg1000>(db_root)?);
-    findings.extend(validate_tree::<Vcs>(db_root)?);
+    let mut findings = Vec::new();
+    macro_rules! validate_each {
+        ($($P:ident),* $(,)?) => {$( findings.extend(validate_tree::<$P>(db_root)?); )*};
+    }
+    crate::with_platforms!(validate_each);
     Ok(findings)
 }
 
@@ -172,10 +173,10 @@ pub struct FormatReport {
 /// are reported and left untouched.
 pub fn format_all(db_root: &Path) -> io::Result<FormatReport> {
     let mut report = FormatReport::default();
-    format_tree::<GameBoy>(db_root, &mut report)?;
-    format_tree::<GameBoyColor>(db_root, &mut report)?;
-    format_tree::<Sg1000>(db_root, &mut report)?;
-    format_tree::<Vcs>(db_root, &mut report)?;
+    macro_rules! format_each {
+        ($($P:ident),* $(,)?) => {$( format_tree::<$P>(db_root, &mut report)?; )*};
+    }
+    crate::with_platforms!(format_each);
     Ok(report)
 }
 

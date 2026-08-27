@@ -50,10 +50,10 @@ fn classify(chunk: &str) -> Option<Qual> {
 pub fn run(repo_root: &Path, data_root: &Path, report: &mut Report) -> Result<Stats, String> {
     let mut stats = Stats::default();
     let mut flags = FlagFile::load(repo_root).map_err(|e| e.to_string())?;
-    fix_tree::<GameBoy>(data_root, report, &mut stats, &mut flags)?;
-    fix_tree::<GameBoyColor>(data_root, report, &mut stats, &mut flags)?;
-    fix_tree::<Sg1000>(data_root, report, &mut stats, &mut flags)?;
-    fix_tree::<Vcs>(data_root, report, &mut stats, &mut flags)?;
+    macro_rules! fix_each {
+        ($($P:ident),* $(,)?) => {$( fix_tree::<$P>(data_root, report, &mut stats, &mut flags)?; )*};
+    }
+    missingno_gamedb::with_platforms!(fix_each);
     flags.save(repo_root).map_err(|e| e.to_string())?;
     Ok(stats)
 }

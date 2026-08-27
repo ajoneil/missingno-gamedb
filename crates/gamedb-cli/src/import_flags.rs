@@ -1,6 +1,6 @@
 use std::{fs, path::Path};
 
-use missingno_gamedb::{Flag, FlagFile, FlagKind};
+use missingno_gamedb::{Flag, FlagFile, FlagKind, platform_dirs};
 
 use crate::report::Report;
 
@@ -27,7 +27,7 @@ fn kind_for(section: &str) -> FlagKind {
 /// Every "tree/slug" reference in an item line.
 fn subjects(item: &str) -> Vec<String> {
     let mut found = Vec::new();
-    for tree in ["gb", "gbc", "sg1000", "vcs"] {
+    for &tree in platform_dirs() {
         let mut rest = item;
         while let Some(at) = rest.find(&format!("{tree}/")) {
             let tail = &rest[at..];

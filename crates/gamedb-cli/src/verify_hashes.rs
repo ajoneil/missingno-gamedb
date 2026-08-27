@@ -104,10 +104,12 @@ fn save_cache(path: &Path, cache: &BTreeMap<String, String>) {
 pub fn run(data_root: &Path, report: &mut Report, options: &Options) -> Result<Stats, String> {
     let mut stats = Stats::default();
     let mut cache = load_cache(&options.cache_path);
-    sweep::<GameBoy>(data_root, report, &mut stats, &mut cache, options)?;
-    sweep::<GameBoyColor>(data_root, report, &mut stats, &mut cache, options)?;
-    sweep::<Sg1000>(data_root, report, &mut stats, &mut cache, options)?;
-    sweep::<Vcs>(data_root, report, &mut stats, &mut cache, options)?;
+    macro_rules! sweep_each {
+        ($($P:ident),* $(,)?) => {$(
+            sweep::<$P>(data_root, report, &mut stats, &mut cache, options)?;
+        )*};
+    }
+    missingno_gamedb::with_platforms!(sweep_each);
     save_cache(&options.cache_path, &cache);
     Ok(stats)
 }

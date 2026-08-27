@@ -103,10 +103,12 @@ pub fn run(
 ) -> Result<Stats, String> {
     let mut stats = Stats::default();
     let mut flags = FlagFile::load(repo_root).map_err(|e| e.to_string())?;
-    fix_tree::<GameBoy>(data_root, report, &mut stats, &mut flags, dry_run)?;
-    fix_tree::<GameBoyColor>(data_root, report, &mut stats, &mut flags, dry_run)?;
-    fix_tree::<Sg1000>(data_root, report, &mut stats, &mut flags, dry_run)?;
-    fix_tree::<Vcs>(data_root, report, &mut stats, &mut flags, dry_run)?;
+    macro_rules! fix_each {
+        ($($P:ident),* $(,)?) => {$(
+            fix_tree::<$P>(data_root, report, &mut stats, &mut flags, dry_run)?;
+        )*};
+    }
+    missingno_gamedb::with_platforms!(fix_each);
     if !dry_run {
         flags.save(repo_root).map_err(|e| e.to_string())?;
     }

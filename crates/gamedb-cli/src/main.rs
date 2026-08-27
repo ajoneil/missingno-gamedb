@@ -17,7 +17,7 @@ use std::{
 };
 
 use clap::{Parser, Subcommand};
-use missingno_gamedb::{Severity, format_all, validate};
+use missingno_gamedb::{Severity, format_all, platform_dirs, validate};
 
 use report::Report;
 
@@ -311,9 +311,16 @@ fn main() -> ExitCode {
 }
 
 fn has_platform_tree(root: &Path) -> bool {
-    ["gb", "gbc", "sg1000", "vcs"]
+    platform_dirs().iter().any(|dir| root.join(dir).is_dir())
+}
+
+/// The trees a database root holds, as `gb/, gbc/, …` for error text.
+fn platform_tree_list() -> String {
+    platform_dirs()
         .iter()
-        .any(|dir| root.join(dir).is_dir())
+        .map(|dir| format!("{dir}/"))
+        .collect::<Vec<_>>()
+        .join(", ")
 }
 
 /// The platform trees live under `data/` (or at the given path directly, e.g.
@@ -352,7 +359,8 @@ fn run_migration(
 ) -> ExitCode {
     if !has_platform_tree(root) {
         eprintln!(
-            "no platform trees (gb/, gbc/, sg1000/, vcs/) under {}",
+            "no platform trees ({}) under {}",
+            platform_tree_list(),
             root.display()
         );
         return ExitCode::from(2);
@@ -386,7 +394,8 @@ fn run_migration(
 fn run_validate(root: &Path) -> ExitCode {
     if !has_platform_tree(root) {
         eprintln!(
-            "no platform trees (gb/, gbc/, sg1000/, vcs/) under {}",
+            "no platform trees ({}) under {}",
+            platform_tree_list(),
             root.display()
         );
         return ExitCode::from(2);
@@ -420,7 +429,8 @@ fn run_validate(root: &Path) -> ExitCode {
 fn run_fmt(root: &Path) -> ExitCode {
     if !has_platform_tree(root) {
         eprintln!(
-            "no platform trees (gb/, gbc/, sg1000/, vcs/) under {}",
+            "no platform trees ({}) under {}",
+            platform_tree_list(),
             root.display()
         );
         return ExitCode::from(2);
