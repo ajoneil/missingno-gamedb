@@ -1,0 +1,44 @@
+(
+    title: "Champion Baseball",
+    releases: [
+        (
+            regions: [
+                Japan,
+                Australia,
+                NewZealand,
+            ],
+            languages: [
+                Japanese,
+            ],
+            artifacts: [
+                (
+                    sha1: "85e5c2f354b9110e5f7c7dfcc7ab9814598b7956",
+                    size: Some(40960),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "737b9478c4ce6df2afcd36f78011019f5d669226",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            artifacts: [
+                (
+                    sha1: "b674ea2ea50f45b20c60d9dec5bf2e88e2b1cba5",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+    ],
+)

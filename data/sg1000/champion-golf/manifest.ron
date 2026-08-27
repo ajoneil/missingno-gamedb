@@ -1,0 +1,49 @@
+(
+    title: "Champion Golf",
+    releases: [
+        (
+            regions: [
+                Japan,
+                Europe,
+                Australia,
+                NewZealand,
+            ],
+            languages: [
+                Japanese,
+            ],
+            artifacts: [
+                (
+                    sha1: "05deb000f24b7d8625c6e9332dcc91416ed3258f",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "f58f14581919c431ac85da72fd1a39bbe1da5e66",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl"),
+            regions: [
+                Korea,
+            ],
+            languages: [
+                English,
+            ],
+            artifacts: [
+                (
+                    sha1: "40ac48ef0ba23653d1763cd04774b00abc49f9a4",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
+)

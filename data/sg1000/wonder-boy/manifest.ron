@@ -1,0 +1,44 @@
+(
+    title: "Wonder Boy",
+    releases: [
+        (
+            regions: [
+                Japan,
+                Australia,
+            ],
+            languages: [
+                Japanese,
+            ],
+            artifacts: [
+                (
+                    sha1: "4a54933135cdff546fd79cbc61a38355f7335f3f",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "240600a0dda16809f49b173f731c7fdaf921466a",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            artifacts: [
+                (
+                    sha1: "8f261b955162c179fe4c936ece767bbf25c4888c",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
+)

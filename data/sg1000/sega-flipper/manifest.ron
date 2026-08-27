@@ -1,0 +1,46 @@
+(
+    title: "Sega Flipper",
+    releases: [
+        (
+            regions: [
+                Japan,
+                Europe,
+                Australia,
+                NewZealand,
+            ],
+            languages: [
+                English,
+            ],
+            artifacts: [
+                (
+                    sha1: "e0605e23d80b8b975743d3417f548b28810e0ba3",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+        (
+            label: Some("Alt"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "d713dcbd79a3db8f1ef2cfb27da31a286fff16d1",
+                    size: Some(40960),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            artifacts: [
+                (
+                    sha1: "b7eb254a014772a83829e1991dcd32396e8dd9cc",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,44 @@
+(
+    title: "Flicky",
+    releases: [
+        (
+            regions: [
+                Japan,
+                NewZealand,
+            ],
+            languages: [
+                Japanese,
+            ],
+            artifacts: [
+                (
+                    sha1: "39a91b5ad6b139ca5d8ac60b78520210e84944bd",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Rev 1"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "51947fc0ae2bc3442b0fee2cccf2344b7a94a167",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            artifacts: [
+                (
+                    sha1: "a04ce8c70eddfac0adbf9489c0abbaaae613037c",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
+)

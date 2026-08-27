@@ -1,0 +1,46 @@
+(
+    title: "Yamato",
+    releases: [
+        (
+            regions: [
+                Japan,
+                Europe,
+                Australia,
+                NewZealand,
+            ],
+            languages: [
+                English,
+            ],
+            artifacts: [
+                (
+                    sha1: "4d746558fb699c5cb480ba26130518105b2e2031",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+        (
+            label: Some("Alt"),
+            regions: [
+                Japan,
+            ],
+            artifacts: [
+                (
+                    sha1: "fe86e669f3e4b808236d7b80aeb5a83172edb9ac",
+                    size: Some(40960),
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            artifacts: [
+                (
+                    sha1: "6fbdc967f5c7c39eb1fdea08d2dcabfd64b8e7ee",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+    ],
+)
