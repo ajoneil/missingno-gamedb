@@ -157,6 +157,11 @@ pub enum Defect {
     Overdump,
     /// A corrupt or truncated dump that does not play correctly (TOSEC `[b]`).
     BadDump,
+    /// A read of the console's address space rather than of the ROM chip: the
+    /// image holds the ROM's mirrors and every window the cart answers, so it
+    /// runs larger than the silicon. Unlike an `Overdump` the extra content is
+    /// real, so it loads verbatim rather than being trimmed to the board.
+    MemoryMap,
 }
 
 impl Defect {
@@ -165,6 +170,7 @@ impl Defect {
         match self {
             Defect::Overdump => "overdump",
             Defect::BadDump => "bad dump",
+            Defect::MemoryMap => "memory map",
         }
     }
 }
