@@ -1,0 +1,89 @@
+(
+    title: "Sannin Mahjong",
+    description: Some("Three-handed mahjong against two computer opponents, scored by the ordinary four-player rules from a 27,000-point start, with han and fu totted up for you. An unseen north seat pays its share, so the three visible scores need not balance, and only three copies of the tile one below the dora ever reach the table."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Sannin_Mahjong",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/c/c5/Sannin_Mahjong_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://segaretro.org/images/4/44/SanninMahjong_SG1000_JP_Box_Front_B.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("三人麻雀"),
+            label: Some("Othello Multivision"),
+            regions: [
+                Japan,
+            ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1984-05"),
+            publisher: Some("Tsukuda Original"),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "75dd13ea139a91f4e471e658ab19f9847e15576c",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+        (
+            title: Some("三人麻雀"),
+            label: Some("Othello Multivision"),
+            regions: [
+                Japan,
+            ],
+            languages: [
+                Japanese,
+            ],
+            publisher: Some("Tsukuda Original"),
+            rom_size: Some(16384),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "a5c2acba93cd3809577f401c00fa9d728627ed60",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
+                    size: Some(40960),
+                ),
+            ],
+        ),
+        (
+            title: Some("三人麻雀"),
+            regions: [
+                Taiwan,
+            ],
+            languages: [
+                Japanese,
+            ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(16384),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "245e9adf0fdb33849f1e6ef872c1b204cbed5754",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+    ],
+)

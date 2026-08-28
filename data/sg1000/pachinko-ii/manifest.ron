@@ -1,10 +1,32 @@
 (
     title: "Pachinko II",
+    description: Some("Pick one of three pachinko machines before you start: a digital-slot table where the reels set how long the lucky gate stays open, and two aeroplane tables whose wings open a number of times the table decides — landing a ball in the chance gate below spins the propeller for fifteen more. Fifty balls in, three thousand plays it out."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Pachinko_II",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/7/74/Pachinko_II_SG1000_JP_Manual.PDF",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8BE0A07B0E50152BD7EB54DB479F045C437C8784",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1984-04"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +38,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("賓果遊戲"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

@@ -1,7 +1,23 @@
 (
     title: "Road Fighter",
+    developer: Some("Konami"),
+    description: Some("Race a red sports car to the finish line of each course, threading traffic that changes lanes to block you and oil slicks that spin you out. Fuel doubles as the clock — about a hundred seconds\' worth — topped up only by touching the multi-coloured cars that appear along the way, and a crash into the barriers costs another chunk of it."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Road_Fighter",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Road_Fighter",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("火鳳凰"),
             regions: [
                 Taiwan,
             ],
@@ -17,7 +33,7 @@
             ],
         ),
         (
-            title: Some("Huojian Che"),
+            title: Some("火箭車"),
             regions: [
                 Taiwan,
             ],

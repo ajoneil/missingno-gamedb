@@ -1,5 +1,36 @@
 (
     title: "Safari Race",
+    description: Some("Start in low gear and shift up at eighty to reach top speed, then hold it while animals, rocks and other cars come at you from both sides. Sharp curves throw the car wide, and clipping the curb costs time — and time is one of two things running down, the other being the fuel in your tank."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Safari_Race",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/9/93/Safari_Race_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (Europe)",
+            url: "https://segaretro.org/images/9/91/Safari_Race_SG1000_EU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                French,
+                German,
+                Italian,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/75A7399AE8179AC019E276749CA359E72C25615A",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -8,9 +39,8 @@
                 Australia,
                 NewZealand,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1984-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -22,16 +52,33 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("非洲大賽車"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "06fe09074bef542b590761ba585911d0998af646",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Sega"),
+            hardware: (
+                tv_format: Some(Pal),
+            ),
+            artifacts: [
+                (
+                    sha1: "1d2ca62c894fc8aab97605e65078e834bbbe3d8b",
                     size: Some(32768),
                 ),
             ],

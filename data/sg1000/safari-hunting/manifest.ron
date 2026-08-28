@@ -1,5 +1,39 @@
 (
     title: "Safari Hunting",
+    developer: Some("Compile"),
+    description: Some("A hunter shoots the animals roaming each stage and then has thirty seconds to haul each one back to his truck through any of six exits. Clearing every animal advances you, and finishing a stage without wasting a shot pays a ten-percent bonus."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Tranquillizer_Gun",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/63/Safari_Hunting_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (Australia)",
+            url: "https://segaretro.org/images/4/48/Safari_Hunting_SG-1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tranquilizer_Gun_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/82966674948A6A82D98CA87435EE7BD4000CCC9F",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -8,9 +42,8 @@
                 Australia,
                 NewZealand,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1983-08"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -22,10 +55,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("叢林歷險"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

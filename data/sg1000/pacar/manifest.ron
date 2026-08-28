@@ -1,5 +1,25 @@
 (
     title: "Pacar",
+    description: Some("Clear every dot from a set of three-dimensional routes while an enemy car obstructs the same course. A held button gives a burst of speed and reversing halves your pace; the thirtieth dot cleared, and every thirtieth after, becomes a special one that turns your car invincible and able to ram the enemy. A red car latches on behind until you slip through the warp roads at either edge."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Pacar",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/6f/Pacar_SG1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/32EA80C5835ACC6B73D2ADB86B4FDC4AEF404D23",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -8,6 +28,9 @@
                 Australia,
                 NewZealand,
             ],
+            date: Some("1983-11"),
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -19,25 +42,29 @@
             ],
         ),
         (
-            label: Some("Alt"),
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "5e89857a374cbf3efa32efb62d26973d46a856ae",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("迷魂車"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

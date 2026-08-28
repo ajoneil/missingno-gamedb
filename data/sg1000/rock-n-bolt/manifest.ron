@@ -1,10 +1,38 @@
 (
     title: "Rock n\' Bolt",
+    developer: Some("Action Graphics"),
+    description: Some("Lock each platform into the position a supplied map shows. Three difficulty levels, with a time limit on the second and third."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Rock_n%27_Bolt",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/1/1a/Rock_n%27_Bolt_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Rock_n%27_Bolt",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/99B8CF0325240BB25A5E409B04F844DB30D32FDC",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1985-11"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +44,12 @@
             ],
         ),
         (
-            label: Some("Chinese Logo, Unl"),
+            title: Some("摩天大樓"),
+            label: Some("Chinese logo"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -31,10 +61,11 @@
             ],
         ),
         (
-            label: Some("English Logo, Unl"),
+            label: Some("English logo"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

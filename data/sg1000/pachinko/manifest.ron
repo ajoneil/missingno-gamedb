@@ -1,16 +1,41 @@
 (
     title: "Pachinko",
+    description: Some("Work the handle to set launch strength and feed balls into a pachinko table, starting from a tray of fifty. Pockets spin a central digital slot whose combination decides how long the lucky gate stays open — three sevens hold it thirty seconds, and a ball into the open gate\'s centre buys thirty more, up to ten times. Reaching three thousand balls plays the machine out."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Pachinko",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/2/22/Pachinko_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://segaretro.org/images/7/7b/Pachinko_SG1000_JP_Box_Front.jpg",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1983-12"),
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "aeaa15155e7d4275880c35c866c45626daa4dab9",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],

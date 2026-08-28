@@ -1,10 +1,38 @@
 (
-    title: "Pitfall II - The Lost Caverns",
+    title: "Pitfall II: The Lost Caverns",
+    developer: Some("Sega"),
+    description: Some("Harry hunts four treasures, one hidden in each of four regions — the surface, a dripping cave, an abandoned mine and a labyrinth — swinging on ropes, riding mine carts and grabbing a balloon to reach them. Crocodile jaws, falling stalactites, a descending ceiling and flying arrows all end a run. Two players can race each other for the same four."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pitfall_II:_The_Lost_Caverns",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Pitfall_II:_The_Lost_Caverns",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/6a/Pitfall2SGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://segaretro.org/images/f/fe/PitfallII_SG1000_JP_Box.jpg",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1985-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,33 +44,23 @@
             ],
         ),
         (
-            title: Some("Pitfall II"),
-            label: Some("Chinese Logo, Unl"),
+            title: Some("法櫃奇兵"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "38c25d7730863877fdae5491724a3aed9c6b04d5",
+                    label: Some("Chinese logo"),
                     size: Some(32768),
                 ),
-            ],
-        ),
-        (
-            title: Some("Pitfall II"),
-            label: Some("English Logo, Unl"),
-            regions: [
-                Taiwan,
-            ],
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "c98a5bdb2f97e2e85d0a131d58e311544adb416e",
+                    label: Some("English logo"),
                     size: Some(32768),
                 ),
             ],
@@ -52,6 +70,7 @@
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

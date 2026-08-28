@@ -1,7 +1,23 @@
 (
     title: "Rally-X",
+    developer: Some("Namco"),
+    description: Some("Drive a blue racing car around a scrolling maze collecting ten yellow flags while red cars hunt you down, with boulders and dead ends in the way. A smoke screen stuns pursuers at the cost of fuel, and the fuel gauge doubles as the level timer; a radar below it shows where the flags and the red cars are."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Rally-X",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Rally-X",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("烏賊車"),
             regions: [
                 Taiwan,
             ],
@@ -18,7 +34,7 @@
             ],
         ),
         (
-            title: Some("Du Du Che"),
+            title: Some("嘟嘟車"),
             regions: [
                 Taiwan,
             ],

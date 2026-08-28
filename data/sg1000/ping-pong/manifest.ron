@@ -1,11 +1,27 @@
 (
     title: "Ping Pong",
+    developer: Some("Konami"),
+    description: Some("Table tennis played from an isometric view with the players shown as disembodied hands, and all four strokes — forehand, backhand, lob and smash — in the repertoire. Games run to eleven points and must be won by two, with a match taken over the best of three; returning from the far side of the table is the harder job."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Ping-Pong",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Konami%27s_Ping_Pong",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("Unl"),
+            title: Some("乒乓球"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

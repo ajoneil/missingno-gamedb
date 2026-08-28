@@ -1,5 +1,31 @@
 (
     title: "Pop Flamer",
+    developer: Some("Jaleco"),
+    description: Some("A mouse clears each level by popping every balloon, torching the frogs and monsters in the way with a flamethrower whose fuel drains fast and refills only by popping more. A Godzilla-like enemy called Haradon stuns you on contact, and two glasses of juice reverse things for a while, letting you eat enemies for points."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Pop_Flamer",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/5/52/Pop_Flamer_SG-1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Pop_Flamer",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BED356C773DE393CE43D8B47A030BC404D145D82",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -8,6 +34,8 @@
                 Australia,
                 NewZealand,
             ],
+            date: Some("1983-11"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -19,10 +47,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("精靈鼠"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
