@@ -1,12 +1,29 @@
 (
     title: "Othello",
+    description: Some("Othello against the computer over five difficulty levels, or against another player. You choose black or white before the first move and can ask for a hint at any point; a side panel tracks the move number and each colour\'s disc count, and a finished game can be played back."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Othello_(Tsukuda_Original)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/b/ba/OthelloSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
-            date: Some("1985"),
-            publisher: Some("Sega / Tsukuda Original"),
+            date: Some("1985-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some(OthelloRam),
@@ -19,7 +36,7 @@
             ],
         ),
         (
-            title: Some("Hei Bai Qi"),
+            title: Some("黑白棋"),
             regions: [
                 Taiwan,
             ],

@@ -1,10 +1,38 @@
 (
     title: "Hyper Sports",
+    developer: Some("Sega"),
+    description: Some("Four events — platform diving, long horse, trampoline and horizontal bar — each scored against a qualifying mark that must be beaten to reach the next stage. You get three attempts at each, but only one on the trampoline, and falling short of the qualifying score ends the game outright."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Hyper_Sports",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Hyper_Sports",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/5/56/Hyper_Sports_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D027F9D921887A6E0D0BDD6EB4C78E0D6BA7883E",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1985-04"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +44,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("하이퍼스포츠"),
             regions: [
                 Korea,
             ],
+            publisher: Some("Samsung"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -31,10 +60,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("奧運大賽"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

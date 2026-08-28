@@ -1,10 +1,36 @@
 (
     title: "Gulkave",
+    developer: Some("Compile"),
+    description: Some("A horizontal shooter running thirty stages against the Gulbas Empire\'s eight fortresses. Power-ups step a marker along a numbered meter at the foot of the screen and the box it stops on selects your weapon, so grabbing one can downgrade you — a real cost, because those same items are what restore the ship\'s shield."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Gulkave",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/b/b9/Gulkave_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F0CC09B988313F86603A282BF1CE91598DC0B8F5",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1986-08"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,7 +42,6 @@
             ],
         ),
         (
-            label: Some("Unl"),
             regions: [
                 Korea,
             ],

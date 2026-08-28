@@ -1,11 +1,27 @@
 (
     title: "Magical Tree",
+    developer: Some("Konami"),
+    description: Some("Climb a two-thousand-metre tree by hopping between branches and scaling vines and ladders, dodging larvae, owls and lightning on the way up. An altitude gauge tracks progress toward the castle at the summit, reached over nine levels — and clearing the ninth simply drops you back at the roots to start again."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Magical_Tree",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Magical_Tree",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("Unl"),
+            title: Some("魔鬼樹"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

@@ -1,11 +1,22 @@
 (
     title: "Hyper Sports 2",
+    developer: Some("Konami"),
+    description: Some("Three events — skeet shooting, archery and weightlifting. They are a slice of the arcade Hyper Sports roster, which Konami divided across separate cartridges rather than converting whole."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Hyper_Sports_2",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("Unl"),
+            title: Some("奧運二代"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

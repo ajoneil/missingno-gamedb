@@ -1,10 +1,33 @@
 (
     title: "Hustle Chumy",
+    developer: Some("Compile"),
+    description: Some("A mouse must clear every apple and pudding from a building\'s floors and get back to his nest. Each item he picks up slows him down, so jumping is how you claw time back, and empty cans thrown at his pursuers buy room — except for the one that deflects them and eventually goes berserk."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Hustle_Chumy",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/a/ac/HustleChumySGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/92115DE15B4863D3E6278D95A069AF3D21FD3C1E",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1984-11"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +39,10 @@
             ],
         ),
         (
-            label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

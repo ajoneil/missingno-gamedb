@@ -1,5 +1,25 @@
 (
     title: "Orguss",
+    description: Some("Transform between Flyer and Orguroid: the Flyer is fast but dies to any beam, while the slower Orguroid deflects yellow fire and can land to crush ground installations. Each round is a two-and-a-half-minute race to the space-time weapon — put a missile through its hatch while the door is open to stop the timer."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Orguss",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/a/ae/OrgussSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1FC244775A97F3CDF4529952A6FDC16D0E82DC49",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -8,15 +28,29 @@
                 Australia,
                 NewZealand,
             ],
-            languages: [
-                English,
-            ],
+            date: Some("1984-05"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "c50b133dac95718e3a92a7ed45b6c7e83927abb0",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Aaronix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "b64859cf509c70251dd8b5ab0e7d621eeb2a26c3",
                     size: Some(32768),
                 ),
             ],

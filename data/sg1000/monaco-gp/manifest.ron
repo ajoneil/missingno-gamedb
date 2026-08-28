@@ -1,5 +1,38 @@
 (
     title: "Monaco GP",
+    description: Some("Dodge and overtake other cars without touching them — a collision, or a drop into the sea, costs a car. Inside tunnels you see only as far as your lights reach, slip zones cut speed and punish steering, and a jump button lifts you over obstacles. Three difficulty levels are chosen before the start."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Monaco_GP_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Monaco_GP",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/6e/Monaco_GP_SG1000_JP_Manual.PDF",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (My Card)",
+            url: "https://segaretro.org/images/6/6c/Monacogp_mycard_jp_manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/93C4E87905A3D2867393FC5B9AFA11465A5504A6",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -8,15 +41,22 @@
                 Australia,
                 NewZealand,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1983-12"),
+            publisher: Some("Sega"),
+            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "bea768b27c09bec805f0c70545d2f1435e3a3ddf",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
+                    size: Some(40960),
+                ),
+                (
+                    sha1: "6476bc0fc1608dd69a1ae62617ea4719bc7eaa50",
+                    defect: Some(BadDump),
                     size: Some(40960),
                 ),
             ],
@@ -26,6 +66,7 @@
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -42,9 +83,7 @@
                 Japan,
                 Europe,
             ],
-            languages: [
-                Japanese,
-            ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -56,10 +95,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("摩納哥賽車"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

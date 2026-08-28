@@ -1,11 +1,36 @@
 (
     title: "Okamoto Ayako no Match Play Golf",
+    description: Some("Match play against the professional Ayako Okamoto, or against a second player. Pick a club against the wind and the distance left, then stop a travelling arrow on the impact guide — where you catch it decides between a clean shot, a hook, a slice or a miss. Your lie restricts which clubs the bag will offer."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Okamoto_Ayako_no_Match_Play_Golf",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/b/be/Ayako_Okamoto%27s_Match_Play_Golf_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://segaretro.org/images/1/12/OAnMPG_SG1000_JP_Box_Front_A.jpg",
+    ],
+    curated: true,
     releases: [
         (
             label: Some("Othello Multivision"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1984-07"),
+            publisher: Some("Tsukuda Original"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -17,9 +42,12 @@
             ],
         ),
         (
-            label: Some("Othello Multivision, Unl"),
+            title: Some("女子高爾夫"),
             regions: [
                 Taiwan,
+            ],
+            languages: [
+                Japanese,
             ],
             hardware: (
                 tv_format: Some(Ntsc),
@@ -32,10 +60,14 @@
             ],
         ),
         (
-            label: Some("Rev 1, Othello Multivision"),
+            label: Some("Othello Multivision Rev 1"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            publisher: Some("Tsukuda Original"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

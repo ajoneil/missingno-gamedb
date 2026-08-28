@@ -1,14 +1,38 @@
 (
-    title: "Hang On II",
+    title: "Hang-On II",
+    description: Some("Motorcycle racing against the clock rather than the field: each roughly four-kilometre stage has to be cleared inside its time limit or the game ends there. Clipping an obstacle or a rival bike wipes you out and restarts you on the spot, and the seconds you lose getting going again are the real penalty."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Hang-On_II",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/1/1a/HangOn2SGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Hang-On",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B9E39B81C42CCD1A8BC880754405C084E6E379C7",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1985-12"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,7 +44,7 @@
             ],
         ),
         (
-            label: Some("Chinese Logo, Unl"),
+            title: Some("摩托飛車"),
             regions: [
                 Taiwan,
             ],
@@ -35,7 +59,7 @@
             ],
         ),
         (
-            label: Some("English Logo, Unl"),
+            label: Some("English logo"),
             regions: [
                 Taiwan,
             ],

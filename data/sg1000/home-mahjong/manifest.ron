@@ -1,10 +1,36 @@
 (
     title: "Home Mahjong",
+    description: Some("Mahjong against computer opponents chosen by name before the deal, with chii, pon, kan and riichi called by moving a cursor over your hand. Two people can share one screen: a V-shaped shadow board tapes to the television between the two tile rows so neither player can see the other\'s hand."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Home_Mahjong",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/c/cb/Home_Mahjong_D_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2A9D25C0CF19F45B8DC004C01579EAD03EFDDAD6",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Rev 0"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1984-12"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,6 +46,10 @@
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -31,10 +61,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("四人麻雀"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

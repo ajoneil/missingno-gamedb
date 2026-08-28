@@ -1,0 +1,37 @@
+(
+    title: "King\'s Valley",
+    developer: Some("Konami"),
+    description: Some("An archaeologist works through tomb rooms collecting every jewel to open the door to the next, fending off pursuing mummies with thrown knives and digging through brick walls with a pickaxe. Some rooms run to two screens wide."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/King%27s_Valley",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/King%27s_Valley",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("金字塔"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Aaronix"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some(DahjeeA),
+            ),
+            artifacts: [
+                (
+                    sha1: "922d23895c12707b2fc382ea5cb769c5cb9b5755",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
+)

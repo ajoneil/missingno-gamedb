@@ -1,5 +1,32 @@
 (
     title: "N-Sub",
+    developer: Some("Compile"),
+    description: Some("Two torpedo buttons, each for a different target: upward to sink enemy warships, horizontally to take out their submarines. Clearing a fleet of nine warships and the destroyer earns a bonus, and you start with three subs, gaining another past ten thousand points."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/N-Sub",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/N-Sub",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://archive.org/download/N-Sub_1983_J_color/N-Sub_1983_J_color.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Sega%20-%20SG-1000/Named_Boxarts/N-Sub%20(Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -8,9 +35,8 @@
                 Australia,
                 NewZealand,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1983-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -22,31 +48,48 @@
             ],
         ),
         (
-            label: Some("Alt"),
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "aa3eae849553a5a176762466b101f312b8b968e4",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("潛水大戰"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "55a36c77cbdf87530611feccf2f1807bdd2ac0ec",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1988"),
+            publisher: Some("Sega"),
+            artifacts: [
+                (
+                    sha1: "32a263110434288d3720e2370241d1e93b3f07a9",
                     size: Some(16384),
                 ),
             ],

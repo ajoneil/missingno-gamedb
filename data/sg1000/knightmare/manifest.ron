@@ -1,0 +1,38 @@
+(
+    title: "Knightmare",
+    developer: Some("Konami"),
+    description: Some("A vertically scrolling shooter across eight stages of Greek-flavoured fantasy, where the background never stops moving until a boss appears. Popolon fires arrows at oncoming formations, and shooting the right spot over a river reveals a hidden bridge to cross."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Knightmare",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Knightmare_(1986_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("魔域伝奇"),
+            regions: [
+                Taiwan,
+            ],
+            date: Some("1986"),
+            publisher: Some("Jumbo"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some(DahjeeA),
+            ),
+            artifacts: [
+                (
+                    sha1: "babdb6b109b20e81c28cd892c2042723e9cbff49",
+                    size: Some(49152),
+                ),
+            ],
+        ),
+    ],
+)

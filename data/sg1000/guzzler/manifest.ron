@@ -1,11 +1,38 @@
 (
     title: "Guzzler",
+    description: Some("Three fire sources on each maze screen keep spawning pursuers, and dousing all three clears the round. Water is finite — spraying empties you, though an empty Guzzler runs faster — so puddles must be revisited, and a bonus timer counts down as you work: let it reach zero before the screen is clear and you die."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Guzzler",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/1/16/Guzzler_SG1000_JP_Manual.PDF",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Guzzler",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://segaretro.org/images/9/9c/Guzzler_SG1000_JP_Box_Front.jpg",
+    ],
+    curated: true,
     releases: [
         (
             label: Some("Othello Multivision"),
             regions: [
                 Japan,
             ],
+            date: Some("1983-10"),
+            publisher: Some("Tsukuda Original"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -17,10 +44,11 @@
             ],
         ),
         (
-            label: Some("Othello Multivision, Unl"),
+            title: Some("水精靈"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

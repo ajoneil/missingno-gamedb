@@ -1,14 +1,39 @@
 (
     title: "Ninja Princess",
+    developer: Some("Sega"),
+    description: Some("Kurumi the ninja princess must gather five hidden scrolls and fight down into Kanten Castle\'s basement to defeat Gyokuro Zaemon and win back the stolen treasure. Throwing stars are her weapon, and the clock is an enemy too — running out of time costs a life just as an enemy does."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sega_Ninja",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Ninja_Princess",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/a/ad/Ninja_Princess_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2CC05EBA513CB309C83F995384643C150B23BF23",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1986-02"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,7 +45,7 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("忍者公主"),
             regions: [
                 Taiwan,
             ],

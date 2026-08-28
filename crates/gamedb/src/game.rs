@@ -97,9 +97,12 @@ pub struct Release<P: Platform> {
     pub label: Option<String>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub regions: Vec<Region>,
-    /// The languages this release presents to the player. Empty means either
-    /// English or too little text to matter — most Atari carts say almost
-    /// nothing, so record it where a release genuinely reads in a language.
+    /// The languages this release presents to the player. Record them wherever
+    /// a release carries a substantial amount of text — English included, even
+    /// though it is the default: stated positively, a later fan translation
+    /// reads as a change rather than as the first mention of the fact. Empty
+    /// means English or too little text to matter, which covers most Atari
+    /// carts.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub languages: Vec<Language>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -189,7 +192,8 @@ pub struct Link {
     pub url: String,
     pub link_type: LinkType,
     /// The languages this link's text is in. Empty = English (the database is
-    /// English-first, so most links carry no tag). A populated list names every
+    /// English-first, so most links carry no tag), but a manual is worth
+    /// tagging explicitly as it is curated. A populated list names every
     /// language present, so a trilingual manual reads `[English, German, French]`.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub languages: Vec<Language>,

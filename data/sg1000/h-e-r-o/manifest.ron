@@ -1,10 +1,38 @@
 (
     title: "H.E.R.O.",
+    developer: Some("Sega"),
+    description: Some("Volcanic eruption has sealed miners inside Mount Leone\'s shafts, and a rocket pack, a rock-cutting microlaser and a limited stock of dynamite are what get you down to them. Power drains the whole time, magma and stalactites kill on contact, and falling into the underground lake is fatal unless the one friendly creature, a turtle, ferries you across."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/H.E.R.O._(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/H.E.R.O.",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/e/e8/HERO_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/A466582D2C1295DAC9C1C5EBA14F124047101366",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1985-12"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,7 +44,7 @@
             ],
         ),
         (
-            label: Some("Chinese Logo, Unl"),
+            title: Some("青蜂俠"),
             regions: [
                 Taiwan,
             ],
@@ -31,10 +59,11 @@
             ],
         ),
         (
-            label: Some("English Logo, Unl"),
+            label: Some("English logo"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

@@ -1,5 +1,34 @@
 (
     title: "Lode Runner",
+    developer: Some("Compile"),
+    description: Some("Dig through the brickwork of eighty maze-like levels to reach every piece of treasure, then climb to the top of the ladder to escape. Holes seal themselves after a moment, so timing them is everything — drop an enemy in and he is trapped or buried, but fall in yourself and there is no climbing out."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Lode_Runner",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Lode_Runner",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/4/4c/LodeRunnerSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DF1F5E113008D214B107DDBDEC6E9B7BBAD38723",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             regions: [
@@ -7,9 +36,8 @@
                 Europe,
                 Australia,
             ],
-            languages: [
-                English,
-            ],
+            date: Some("1984-09"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -21,7 +49,7 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("Lode Runner I"),
             regions: [
                 Korea,
             ],
@@ -36,10 +64,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("尋寶記"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

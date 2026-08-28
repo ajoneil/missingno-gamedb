@@ -1,7 +1,26 @@
 (
     title: "Magical Kid Wiz",
+    developer: Some("Seibu Kaihatsu"),
+    description: Some("A wizard fights through the Depths, the Land Realm and the Sky Realm to reach a dragon, switching between eight kinds of magic — projectiles, a melee strike, bombs, fire, frozen time, a shield and a summoned monster. All but the basic shot are limited and need power-ups to replenish."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Wiz_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Magical_Kid_Wiz",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5761E1596C6A0919292DD37AF7D743781ED8D480",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("魔法師"),
             regions: [
                 Taiwan,
             ],

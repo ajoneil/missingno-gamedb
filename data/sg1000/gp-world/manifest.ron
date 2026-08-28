@@ -1,10 +1,33 @@
 (
     title: "GP World",
+    description: Some("Formula One racing where finishing first is beside the point: two laps of each circuit must be driven inside the qualifying time shown at the top of the screen to reach the next country\'s course. Rival cars will barge you off the road, and a grid-based editor lets you lay out a track from a fixed set of connecting pieces."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/GP_World",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/b/b4/GP_World_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://segaretro.org/images/4/44/GP_World_SG-1000_JP_Front.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Rev 0"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-04"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,6 +43,7 @@
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -31,10 +55,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("瘋狂大賽車"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

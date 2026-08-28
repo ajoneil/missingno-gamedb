@@ -1,10 +1,36 @@
 (
     title: "Mahjong",
+    description: Some("Japanese mahjong dealt for two hands rather than the usual four-seat table — a head-to-head match instead of a full round of four."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Mahjong",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/a/a5/Mahjong_TypeA_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DFB896905105B31D1F2563F1608D4468D7022357",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Rev 0"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1983-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,6 +46,10 @@
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -31,10 +61,14 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("雙人麻雀"),
             regions: [
                 Taiwan,
             ],
+            languages: [
+                Japanese,
+            ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
