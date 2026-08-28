@@ -1,11 +1,22 @@
 (
-    title: "Shénqí huāyuán",
+    title: "Pippols",
+    developer: Some("Konami"),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Pippols",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("神奇花園"),
             regions: [
                 Taiwan,
             ],
             publisher: Some("Jumbo"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some(DahjeeA),

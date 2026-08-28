@@ -1,14 +1,41 @@
 (
     title: "Sega-Galaga",
+    developer: Some("Namco"),
+    description: Some("A fixed shooter: alien swarms fly into formation above you and peel off to dive, and colliding with one or its shots costs a ship. The boss aliens at the top take two hits, and one can catch your ship in a tractor beam — shoot it down mid-dive and the captured ship rejoins you, firing alongside."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Sega-Galaga",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/6b/Sega_Galaga_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Galaga",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F66464E0215B89244F11AD5D2DC7583DBFC20696",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("セガ・ギャラガ"),
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1984-11"),
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,24 +47,31 @@
             ],
         ),
         (
+            title: Some("セガ・ギャラガ"),
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "9b093878f92ce8b918beaa44dcc8a41282f9f267",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("蜜蜂二代"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

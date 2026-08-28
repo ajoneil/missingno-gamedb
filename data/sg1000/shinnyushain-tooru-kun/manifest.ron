@@ -1,10 +1,35 @@
 (
     title: "Shinnyushain Tooru-kun",
+    developer: Some("Konami"),
+    description: Some("Collect every heart in the office building and give them to Miyuki. Rivals and Section Chief Waruyama block the way, shoved aside with a headbutt or barged off their chairs with a hip attack; in the changing room and canteen you throw balls and octopuses instead, and break bottles for the hearts inside. Gather them all and the door to the next scene opens."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Shinnyuu_Shain_Tooru-kun",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/c/c9/Shinnyuushain_Tooru-Kun_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6B5B2A5B9ED3563BA72E298208E3B2C2FD8007BB",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("コナミの新入社員とおるくん"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-04"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +41,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("新國四傅"),
             regions: [
                 Taiwan,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

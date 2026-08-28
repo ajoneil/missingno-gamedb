@@ -1,13 +1,45 @@
 (
     title: "Sega Flipper",
+    description: Some("A single pinball table where the plunger\'s strength is yours to set. Clearing a colour group of drop targets pays a thousand, clearing all seven earns an extra ball, and running the three 300-point gates steps up the bonus multiplier — which is what the kicker hole then pays out against. Five balls and the game is over."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Sega_Flipper",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/6a/Sega_Flipper_SG1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual (Video Flipper, New Zealand)",
+            url: "https://segaretro.org/images/0/03/Video_Flipper_SG1000_NZ_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/360E02B662D72151C30DF454E9F55C063DC6C45A",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("セガ フリッパー"),
             regions: [
                 Japan,
                 Europe,
                 Australia,
                 NewZealand,
             ],
+            date: Some("1983-10"),
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -19,25 +51,31 @@
             ],
         ),
         (
-            label: Some("Alt"),
+            title: Some("セガ フリッパー"),
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "d713dcbd79a3db8f1ef2cfb27da31a286fff16d1",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("霹靂彈"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

@@ -1,0 +1,41 @@
+(
+    title: "TwinBee",
+    developer: Some("Konami"),
+    description: Some("A two-player shooter flown by cartoon spacecraft, with one button for enemies in the air and another for bombing the ground. Shooting the clouds shakes loose bells, and shooting a bell again cycles its colour: white splits your gun in two, blue steps up your speed, green adds copies of your ship, red wraps it in a barrier."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/TwinBee",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/TwinBee",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8BF4C812592EE2E11B1E9E4FE92FDFE65153E545",
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("双響炮"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("Jumbo"),
+            rom_size: Some(49152),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some(DahjeeA),
+            ),
+            artifacts: [
+                (
+                    sha1: "a8c30043c145e63f79a3265dde167529f0e08d49",
+                    size: Some(49152),
+                ),
+            ],
+        ),
+    ],
+)

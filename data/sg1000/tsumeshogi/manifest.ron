@@ -1,0 +1,46 @@
+(
+    title: "Tsumeshogi",
+    description: Some("A set of tsume shogi problems at three grades — beginner, intermediate and advanced. A cursor picks the piece to play and the square to play it on, then asks whether to promote; a cancel option puts the board back as it started. Solve the mate and the next problem is unlocked."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Serizawa_Hachidan_no_Tsume_Shougi",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/d/d7/Tsumeshogi_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1E00F3992E9B07A5F537737A8B5D3771AF47D63B",
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("芹沢八段の詰将棋"),
+            regions: [
+                Japan,
+            ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1983-07"),
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "c2d3882874a5a9b79a5dc9fdeb7af750bc52ca21",
+                    size: Some(16384),
+                ),
+            ],
+        ),
+    ],
+)
