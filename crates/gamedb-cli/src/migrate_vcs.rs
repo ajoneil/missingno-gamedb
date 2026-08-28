@@ -155,7 +155,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 },
                 hardware: VcsHardware {
                     tv_format: m.tv_format,
-                    cart_type: m.cart_type.as_deref().and_then(VcsCartType::from_code),
+                    cart_type: m.cart_type.as_deref().and_then(VcsCartType::from_name),
                     controllers: Vec::new(),
                 },
                 artifacts,

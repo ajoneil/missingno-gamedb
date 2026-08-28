@@ -54,13 +54,13 @@ const VCS_VARIANTS: &str = r#"(
         (
             regions: [Usa],
             publisher: Some("Activision"),
-            hardware: (tv_format: Some(Ntsc), cart_type: Some("F8")),
+            hardware: (tv_format: Some(Ntsc), cart_type: Some(Atari8K)),
             artifacts: [(sha1: "920cfbd517764ad3fa6a7425c031bd72dc7d927c")],
         ),
         (
             regions: [Europe],
             publisher: Some("Activision"),
-            hardware: (tv_format: Some(Pal), cart_type: Some("F8")),
+            hardware: (tv_format: Some(Pal), cart_type: Some(Atari8K)),
             artifacts: [(sha1: "3ee18a1be7155900c2a01a104563657254d3a9a9")],
         ),
     ],
@@ -135,7 +135,7 @@ const SG1000_RAM_CART: &str = r#"(
     releases: [
         (
             regions: [Japan],
-            hardware: (cart_type: Some("OTHELLO")),
+            hardware: (cart_type: Some(OthelloRam)),
             artifacts: [(sha1: "d0cd594ddb321f707ddba8a044fa3e9b906e720a", size: Some(32768))],
         ),
         (
@@ -157,7 +157,7 @@ fn sg1000_board_round_trips() {
     assert_eq!(game.releases[0].hardware.tv_format, None);
     assert_eq!(game.releases[1].hardware.tv_format, Some(TvStandard::Pal));
     assert!(
-        canonical.contains(r#"cart_type: Some("OTHELLO")"#),
+        canonical.contains(r#"cart_type: Some(OthelloRam)"#),
         "{canonical}"
     );
 }

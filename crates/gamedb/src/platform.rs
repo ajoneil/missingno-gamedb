@@ -81,7 +81,7 @@ pub struct GbHardware {
     pub sgb: Enhancement,
     #[serde(default, skip_serializing_if = "Enhancement::is_unknown")]
     pub cgb: Enhancement,
-    /// Cartridge mapper, e.g. "MBC1", "MBC3+TIMER+BATTERY"; `None` = as the header says.
+    /// Cartridge mapper, e.g. `Mbc1`, `Mbc3TimerRamBattery`; `None` = as the header says.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub mapper: Option<GbCartType>,
 }
@@ -105,7 +105,7 @@ impl Enhancement {
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct GbcHardware {
-    /// Cartridge mapper, e.g. "MBC5+RUMBLE+RAM+BATTERY"; `None` = as the header says.
+    /// Cartridge mapper, e.g. `Mbc5RumbleRamBattery`; `None` = as the header says.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub mapper: Option<GbCartType>,
 }
@@ -117,7 +117,7 @@ pub struct Sg1000Hardware {
     /// `None` = unstated, never a default.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub tv_format: Option<TvStandard>,
-    /// Cartridge board code, e.g. "OTHELLO", "DAHJEE-A"; `None` = a plain ROM.
+    /// Cartridge board, e.g. `OthelloRam`, `DahjeeA`; `None` = a plain ROM.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<Sg1000CartType>,
 }
@@ -127,7 +127,7 @@ pub struct Sg1000Hardware {
 pub struct VcsHardware {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub tv_format: Option<TvStandard>,
-    /// Cartridge board code, e.g. "F8", "F6SC", "4K".
+    /// Cartridge board, e.g. `Atari8K`, `Atari16KSuperchip`, `Plain4K`.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<VcsCartType>,
     /// Controllers the release needs; empty = the platform default (joystick).

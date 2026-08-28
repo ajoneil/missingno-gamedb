@@ -34,7 +34,7 @@ impl SlugTokens for Vcs {
                 tokens.insert(format!("{format:?}").to_lowercase());
             }
             if let Some(cart) = &release.hardware.cart_type {
-                tokens.insert(cart.code().to_lowercase());
+                tokens.insert(cart.name().to_lowercase());
             }
         }
         tokens
@@ -46,7 +46,7 @@ impl SlugTokens for GameBoy {
         mapper_tokens(
             game.releases
                 .iter()
-                .map(|r| r.hardware.mapper.map(|m| m.code())),
+                .map(|r| r.hardware.mapper.map(|m| m.name())),
         )
     }
 }
@@ -56,7 +56,7 @@ impl SlugTokens for GameBoyColor {
         mapper_tokens(
             game.releases
                 .iter()
-                .map(|r| r.hardware.mapper.map(|m| m.code())),
+                .map(|r| r.hardware.mapper.map(|m| m.name())),
         )
     }
 }
@@ -66,7 +66,7 @@ impl SlugTokens for Sg1000 {
         game.releases
             .iter()
             .filter_map(|release| release.hardware.cart_type)
-            .map(|cart| cart.code().to_lowercase())
+            .map(|cart| cart.name().to_lowercase())
             .collect()
     }
 }

@@ -37,7 +37,7 @@ fn clean_tree_validates() {
             title: "Combat",
             releases: [
                 (
-                    hardware: (tv_format: Some(Ntsc), cart_type: Some("2K")),
+                    hardware: (tv_format: Some(Ntsc), cart_type: Some(Plain2K)),
                     artifacts: [(sha1: "fedcba9876543210fedcba9876543210fedcba98")],
                 ),
             ],

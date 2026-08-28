@@ -312,7 +312,7 @@ mod tests {
             date: Some("1985"),
             publisher: Some("Sega / Tsukuda Original"),
             hardware: (
-                cart_type: Some("OTHELLO"),
+                cart_type: Some(OthelloRam),
             ),
             artifacts: [
                 (

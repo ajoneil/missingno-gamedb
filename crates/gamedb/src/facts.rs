@@ -21,7 +21,7 @@ pub enum FactKind {
     TvStandard,
     /// A board/mapper code from the platform's own vocabulary.
     Board {
-        codes: fn() -> Vec<&'static str>,
+        names: fn() -> Vec<&'static str>,
     },
     Controllers,
     Enhancement,
@@ -60,58 +60,8 @@ pub trait HardwareFacts {
     fn set(&mut self, key: &str, value: FactValue) -> Result<(), String>;
 }
 
-/// The three calls `board_vocabulary!` gives every core's board enum, as a
-/// bound the fact helpers can be written once over.
-trait BoardVocabulary: Copy {
-    fn code(self) -> &'static str;
-    fn from_code(code: &str) -> Option<Self>;
-    fn codes() -> Vec<&'static str>;
-}
-
-impl BoardVocabulary for GbCartType {
-    fn code(self) -> &'static str {
-        GbCartType::code(self)
-    }
-
-    fn from_code(code: &str) -> Option<Self> {
-        GbCartType::from_code(code)
-    }
-
-    fn codes() -> Vec<&'static str> {
-        GbCartType::all().map(GbCartType::code).collect()
-    }
-}
-
-impl BoardVocabulary for Sg1000CartType {
-    fn code(self) -> &'static str {
-        Sg1000CartType::code(self)
-    }
-
-    fn from_code(code: &str) -> Option<Self> {
-        Sg1000CartType::from_code(code)
-    }
-
-    fn codes() -> Vec<&'static str> {
-        Sg1000CartType::all().map(Sg1000CartType::code).collect()
-    }
-}
-
-impl BoardVocabulary for VcsCartType {
-    fn code(self) -> &'static str {
-        VcsCartType::code(self)
-    }
-
-    fn from_code(code: &str) -> Option<Self> {
-        VcsCartType::from_code(code)
-    }
-
-    fn codes() -> Vec<&'static str> {
-        VcsCartType::all().map(VcsCartType::code).collect()
-    }
-}
-
-fn board_fact<B: BoardVocabulary>(board: Option<B>) -> FactValue {
-    FactValue::Board(board.map(|board| board.code().to_owned()))
+fn board_fact<B: missingno_vcs::BoardVocabulary>(board: Option<B>) -> FactValue {
+    FactValue::Board(board.map(|board| board.name().to_owned()))
 }
 
 fn unknown_key(key: &str, descriptors: &'static [FactDescriptor]) -> String {
@@ -141,7 +91,7 @@ fn tv_standard(
     }
 }
 
-fn board<B: BoardVocabulary>(
+fn board<B: missingno_vcs::BoardVocabulary>(
     key: &str,
     value: FactValue,
     descriptors: &'static [FactDescriptor],
@@ -152,10 +102,10 @@ fn board<B: BoardVocabulary>(
     let Some(code) = code else {
         return Ok(None);
     };
-    B::from_code(&code).map(Some).ok_or_else(|| {
+    B::from_name(&code).map(Some).ok_or_else(|| {
         format!(
-            "unknown board code {code:?}; expected one of: {}",
-            B::codes().join(", ")
+            "unknown board name {code:?}; expected one of: {}",
+            B::names().join(", ")
         )
     })
 }
@@ -208,7 +158,7 @@ impl HardwareFacts for GbHardware {
                 key: "mapper",
                 label: "Mapper",
                 kind: FactKind::Board {
-                    codes: GbCartType::codes,
+                    names: <GbCartType as missingno_vcs::BoardVocabulary>::names,
                 },
                 doc: GB_MAPPER_DOC,
             },
@@ -242,7 +192,7 @@ impl HardwareFacts for GbcHardware {
             key: "mapper",
             label: "Mapper",
             kind: FactKind::Board {
-                codes: GbCartType::codes,
+                names: <GbCartType as missingno_vcs::BoardVocabulary>::names,
             },
             doc: GB_MAPPER_DOC,
         }]
@@ -281,7 +231,7 @@ impl HardwareFacts for Sg1000Hardware {
                 key: "cart_type",
                 label: "Board",
                 kind: FactKind::Board {
-                    codes: Sg1000CartType::codes,
+                    names: <Sg1000CartType as missingno_vcs::BoardVocabulary>::names,
                 },
                 doc: "Cartridge board code, e.g. \"OTHELLO\", \"DAHJEE-A\". An SG-1000 dump \
                       carries no header and no length that tells a RAM-bearing board from a \
@@ -325,7 +275,7 @@ impl HardwareFacts for VcsHardware {
                 key: "cart_type",
                 label: "Board",
                 kind: FactKind::Board {
-                    codes: VcsCartType::codes,
+                    names: <VcsCartType as missingno_vcs::BoardVocabulary>::names,
                 },
                 doc: "Cartridge board code, e.g. \"F8\", \"F6SC\", \"4K\" — stated per \
                       release where the board differs or an import got it wrong; unstated = \
@@ -418,7 +368,7 @@ mod tests {
             FactValue::Controllers(vec![Controller::Paddle]),
         )
         .unwrap();
-        vcs.set("cart_type", FactValue::Board(Some("F8".to_owned())))
+        vcs.set("cart_type", FactValue::Board(Some("Atari8K".to_owned())))
             .unwrap();
         assert_eq!(
             vcs.get("tv_format"),
@@ -430,17 +380,17 @@ mod tests {
         );
         assert_eq!(
             vcs.get("cart_type"),
-            Some(FactValue::Board(Some("F8".to_owned())))
+            Some(FactValue::Board(Some("Atari8K".to_owned())))
         );
 
         let mut sg1000 = Sg1000Hardware::default();
         sg1000
-            .set("cart_type", FactValue::Board(Some("CASTLE".to_owned())))
+            .set("cart_type", FactValue::Board(Some("CastleRam".to_owned())))
             .unwrap();
         assert_eq!(sg1000.cart_type, Some(Sg1000CartType::CastleRam));
         assert_eq!(
             sg1000.get("cart_type"),
-            Some(FactValue::Board(Some("CASTLE".to_owned())))
+            Some(FactValue::Board(Some("CastleRam".to_owned())))
         );
 
         let mut gb = GbHardware::default();
@@ -477,18 +427,18 @@ mod tests {
     }
 
     #[test]
-    fn an_unknown_board_code_names_the_code() {
+    fn an_unknown_board_name_names_the_name() {
         let error = VcsHardware::default()
             .set("cart_type", FactValue::Board(Some("F9".to_owned())))
             .unwrap_err();
         assert!(error.contains("\"F9\""), "{error}");
-        assert!(error.contains("F8"), "{error}");
+        assert!(error.contains("Atari8K"), "{error}");
     }
 
     #[test]
     fn a_value_of_the_wrong_kind_names_the_kind() {
         let error = VcsHardware::default()
-            .set("tv_format", FactValue::Board(Some("F8".to_owned())))
+            .set("tv_format", FactValue::Board(Some("Atari8K".to_owned())))
             .unwrap_err();
         assert!(error.contains("TV standard"), "{error}");
     }
