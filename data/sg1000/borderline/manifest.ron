@@ -35,6 +35,7 @@
     curated: true,
     releases: [
         (
+            title: Some("ボーダーライン"),
             regions: [
                 Japan,
                 Europe,
@@ -43,6 +44,7 @@
             ],
             date: Some("1984-03"),
             publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

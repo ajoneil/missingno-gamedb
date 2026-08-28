@@ -36,6 +36,7 @@
     curated: true,
     releases: [
         (
+            title: Some("エクセリオン"),
             regions: [
                 Japan,
                 France,
@@ -45,6 +46,7 @@
             ],
             date: Some("1984-03"),
             publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -61,6 +63,7 @@
                 Korea,
             ],
             publisher: Some("Samsung"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -77,6 +80,7 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

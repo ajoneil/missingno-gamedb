@@ -22,12 +22,14 @@
     curated: true,
     releases: [
         (
+            title: Some("チャンピオン サッカー"),
             regions: [
                 Japan,
                 France,
             ],
             date: Some("1984-10"),
             publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -44,6 +46,7 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

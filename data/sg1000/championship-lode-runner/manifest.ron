@@ -27,6 +27,7 @@
     curated: true,
     releases: [
         (
+            title: Some("チャンピオンシップ ロードランナー"),
             label: Some("My Card"),
             regions: [
                 Japan,
@@ -34,6 +35,7 @@
             ],
             date: Some("1985-12"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -49,6 +51,7 @@
             regions: [
                 Taiwan,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

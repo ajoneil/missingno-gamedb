@@ -22,12 +22,14 @@
     curated: true,
     releases: [
         (
+            title: Some("チャンピオン剣道"),
             label: Some("My Card"),
             regions: [
                 Japan,
             ],
             date: Some("1986-04"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -43,6 +45,7 @@
             regions: [
                 Taiwan,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

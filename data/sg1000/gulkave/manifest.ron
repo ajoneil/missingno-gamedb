@@ -26,11 +26,13 @@
     ],
     releases: [
         (
+            title: Some("ガルケーブ"),
             regions: [
                 Japan,
             ],
             date: Some("1986-08"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -45,6 +47,7 @@
             regions: [
                 Korea,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

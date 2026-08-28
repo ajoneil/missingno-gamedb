@@ -33,6 +33,7 @@
             ],
             publisher: Some("Sega"),
             status: Beta,
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -45,6 +46,7 @@
             ],
         ),
         (
+            title: Some("チョップリフター"),
             label: Some("My Card"),
             regions: [
                 Japan,
@@ -52,6 +54,7 @@
             ],
             date: Some("1985-07"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -69,6 +72,7 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -80,11 +84,13 @@
             ],
         ),
         (
+            title: Some("飛狼"),
             label: Some("English Logo"),
             regions: [
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -96,11 +102,13 @@
             ],
         ),
         (
+            title: Some("飛狼 (cart)"),
             label: Some("No Logo"),
             regions: [
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -116,6 +124,7 @@
             regions: [
                 Korea,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

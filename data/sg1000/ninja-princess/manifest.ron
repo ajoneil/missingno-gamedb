@@ -28,12 +28,14 @@
     curated: true,
     releases: [
         (
+            title: Some("忍者プリンセス"),
             regions: [
                 Japan,
                 Australia,
             ],
             date: Some("1986-02"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -49,6 +51,7 @@
             regions: [
                 Taiwan,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

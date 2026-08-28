@@ -22,11 +22,13 @@
     curated: true,
     releases: [
         (
+            title: Some("バンク パニック"),
             regions: [
                 Japan,
             ],
             date: Some("1985-09"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -43,6 +45,7 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

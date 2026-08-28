@@ -22,12 +22,14 @@
     curated: true,
     releases: [
         (
+            title: Some("ゴルゴ 13"),
             regions: [
                 Japan,
                 France,
             ],
             date: Some("1984-04"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

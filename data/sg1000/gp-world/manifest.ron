@@ -22,12 +22,14 @@
     curated: true,
     releases: [
         (
+            title: Some("GPワールド"),
             label: Some("Rev 0"),
             regions: [
                 Japan,
             ],
             date: Some("1985-04"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -39,11 +41,13 @@
             ],
         ),
         (
+            title: Some("GPワールド"),
             label: Some("Rev 1"),
             regions: [
                 Japan,
             ],
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -60,6 +64,7 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

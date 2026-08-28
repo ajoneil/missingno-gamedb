@@ -28,12 +28,14 @@
     curated: true,
     releases: [
         (
+            title: Some("エレベーター アクション"),
             label: Some("My Card"),
             regions: [
                 Japan,
             ],
             date: Some("1985-11"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -50,6 +52,7 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

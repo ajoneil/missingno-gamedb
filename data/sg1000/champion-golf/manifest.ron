@@ -38,6 +38,7 @@
     curated: true,
     releases: [
         (
+            title: Some("チャンピオン ゴルフ"),
             label: Some("Cartridge"),
             regions: [
                 Japan,
@@ -48,6 +49,7 @@
             ],
             date: Some("1984-03"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -59,12 +61,14 @@
             ],
         ),
         (
+            title: Some("チャンピオン ゴルフ"),
             label: Some("My Card"),
             regions: [
                 Japan,
             ],
             date: Some("1985"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -81,6 +85,7 @@
                 Korea,
             ],
             publisher: Some("Samsung"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

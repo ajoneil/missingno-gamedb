@@ -28,11 +28,13 @@
     curated: true,
     releases: [
         (
+            title: Some("コナミのハイパースポーツ (on the game box)"),
             regions: [
                 Japan,
             ],
             date: Some("1985-04"),
             publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -49,6 +51,7 @@
                 Korea,
             ],
             publisher: Some("Samsung"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -65,6 +68,7 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
