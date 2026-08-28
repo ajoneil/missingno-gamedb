@@ -85,12 +85,44 @@ machine-generated: never stage it. And signature-database years disagree with
 encyclopaedias — TOSEC is often a year or two off a documented release date,
 which is a conflict to report, not a licence to restage the date.
 
+## ROM size
+
+State `rom_size` on every release **whose dump we hold**, except where the board
+already fixes one size — a VCS `Plain4K` cart is 4 KB by wiring, so restating it
+says nothing, while a Tigervision board runs 8 KB to 32 KB and an SG-1000 board
+names no size at all.
+
+It is a measurement, not a copied number, and the two ways it is reached differ:
+for an ordinary dump it is the dump's own length; for a `MemoryMap` artifact it
+is the silicon the map was read from, which is smaller than the image — measure
+the block structure and state what the mirroring implies.
+
+**A release whose dump we do not have stays unstated**, however confidently a
+catalogue names a size. Absent means nobody has measured it, exactly as it does
+for `tv_format`.
+
 ## Titles
 
 Take the title from the box or manual cover. The import titles entries from a
 No-Intro/TOSEC filename, and those filenames carry things that are not the name:
 taglines, ad copy, dump flags, and publisher qualifiers. A subtitle is part of
 the title only if the packaging sets it as one.
+
+**The entry title is the game's English name; the release title is what that
+release shipped under, in its own script.** Where no English name exists, the
+entry title is a transliteration — ours, not a name the product ever wore, which
+is exactly when each release has to state its own. So `Sannin Mahjong` is the
+entry while all three of its releases carry 三人麻雀, and `Bomber Man Special`
+is the entry while its Taiwanese releases carry 爆破隊 and 轟炸隊.
+
+**A release sold into several markets carries the title of the market it was
+originally released in.** One product on one catalogue number is one release, so
+a Japanese cart also sold in Italy and Australia is titled in Japanese — the
+release records where it came from, not every shelf it reached.
+
+A romanisation is not native script. Where a catalogue gives only `Beom Jjaek`
+or `Chāorén`, the release title stays empty until the hangul or hanzi turns up;
+filling it with the romanisation breaks the rule rather than satisfying it.
 
 ## Publisher names: what the release actually shipped under
 

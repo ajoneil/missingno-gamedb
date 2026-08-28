@@ -1,3 +1,4 @@
+mod backfill_sg1000;
 mod fix_slugs;
 mod fix_titles;
 mod import_flags;
@@ -100,6 +101,23 @@ enum Command {
         path: PathBuf,
         #[arg(long, default_value = "migration-report.md")]
         report: PathBuf,
+    },
+    /// Fill curated SG-1000 releases with the title they shipped under and the
+    /// ROM size of a dump we hold
+    BackfillSg1000 {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        /// MAME's hash/sg1000.xml — the native title, keyed by dump hash
+        #[arg(long)]
+        softlist: PathBuf,
+        /// sha1sum output over the ROM collection: the dumps we hold
+        #[arg(long)]
+        held: PathBuf,
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+        /// Report what would change without touching the tree
+        #[arg(long)]
+        dry_run: bool,
     },
     /// Seed curation/flags.ron from migration-report markdown files
     ImportFlags {
@@ -223,6 +241,47 @@ fn main() -> ExitCode {
                     }
                     println!(
                         "{} review items \u{2192} {}",
+                        findings.item_count(),
+                        report.display()
+                    );
+                    ExitCode::SUCCESS
+                }
+                Err(e) => {
+                    eprintln!("aborted: {e}");
+                    ExitCode::FAILURE
+                }
+            }
+        }
+        Command::BackfillSg1000 {
+            path,
+            softlist,
+            held,
+            report,
+            dry_run,
+        } => {
+            let data_root = resolve_db_root(&path);
+            if !dry_run && let Err(e) = ensure_clean_git(&path) {
+                eprintln!("{e}");
+                return ExitCode::from(2);
+            }
+            let mut findings = Report::default();
+            match backfill_sg1000::run(&data_root, &softlist, &held, &mut findings, dry_run) {
+                Ok(s) => {
+                    println!(
+                        "{} release titles, {} ROM sizes{} ({} romanisations left empty, \
+                         {} releases with no local dump)",
+                        s.titled,
+                        s.sized,
+                        if dry_run { " (dry run)" } else { "" },
+                        s.skipped_romanised,
+                        s.skipped_no_dump
+                    );
+                    if let Err(e) = findings.write(&report, "gamedb backfill-sg1000 report") {
+                        eprintln!("failed to write report: {e}");
+                        return ExitCode::FAILURE;
+                    }
+                    println!(
+                        "{} review items → {}",
                         findings.item_count(),
                         report.display()
                     );
