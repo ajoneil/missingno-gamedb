@@ -86,6 +86,7 @@ fn release(game_title: &str, parsed: &ParsedName, artifacts: &[Artifact]) -> Rel
         languages: parsed.languages.clone(),
         date: parsed.date.clone(),
         publisher: None,
+        rom_size: None,
         status: parsed.status,
         hardware: Sg1000Hardware {
             tv_format: tv_format(&parsed.regions),

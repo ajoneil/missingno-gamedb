@@ -153,6 +153,7 @@ pub fn run(db_root: &Path, report: &mut Report) -> Result<Stats, String> {
                 } else {
                     ReleaseStatus::Released
                 },
+                rom_size: None,
                 hardware: VcsHardware {
                     tv_format: m.tv_format,
                     cart_type: m.cart_type.as_deref().and_then(VcsCartType::from_name),

@@ -170,6 +170,7 @@ fn run_tree<P: Platform>(
                 languages: Vec::new(),
                 date,
                 publisher: m.publisher.clone(),
+                rom_size: None,
                 status: Default::default(),
                 hardware: Default::default(),
                 artifacts,

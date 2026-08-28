@@ -108,6 +108,13 @@ pub struct Release<P: Platform> {
     pub publisher: Option<String>,
     #[serde(default, skip_serializing_if = "is_default")]
     pub status: ReleaseStatus,
+    /// The cartridge's ROM in bytes, stated only where the board does not
+    /// imply it — an SG-1000 board names no size, a Tigervision one runs 8 KB
+    /// to 32 KB — or where a dump is not the chip: a `MemoryMap` artifact is
+    /// larger than the silicon it was read from. Absent means `Artifact::size`
+    /// already says it.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub rom_size: Option<u32>,
     #[serde(default, skip_serializing_if = "is_default")]
     pub hardware: P::ReleaseHardware,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
