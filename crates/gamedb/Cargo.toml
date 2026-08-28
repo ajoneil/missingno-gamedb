@@ -9,6 +9,7 @@ ron.workspace = true
 serde.workspace = true
 # Board vocabularies: a hardware payload names the same boards the emulator
 # builds, so an unknown code is a parse error rather than a string nobody reads.
+missingno-core = { git = "https://github.com/ajoneil/missingno", branch = "main", default-features = false }
 missingno-gb = { git = "https://github.com/ajoneil/missingno", branch = "main", default-features = false }
 missingno-sg1000 = { git = "https://github.com/ajoneil/missingno", branch = "main", default-features = false }
 missingno-vcs = { git = "https://github.com/ajoneil/missingno", branch = "main", default-features = false }

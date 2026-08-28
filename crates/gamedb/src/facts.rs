@@ -60,7 +60,7 @@ pub trait HardwareFacts {
     fn set(&mut self, key: &str, value: FactValue) -> Result<(), String>;
 }
 
-fn board_fact<B: missingno_vcs::BoardVocabulary>(board: Option<B>) -> FactValue {
+fn board_fact<B: missingno_core::cartridge::BoardVocabulary>(board: Option<B>) -> FactValue {
     FactValue::Board(board.map(|board| board.name().to_owned()))
 }
 
@@ -91,7 +91,7 @@ fn tv_standard(
     }
 }
 
-fn board<B: missingno_vcs::BoardVocabulary>(
+fn board<B: missingno_core::cartridge::BoardVocabulary>(
     key: &str,
     value: FactValue,
     descriptors: &'static [FactDescriptor],
@@ -158,7 +158,7 @@ impl HardwareFacts for GbHardware {
                 key: "mapper",
                 label: "Mapper",
                 kind: FactKind::Board {
-                    names: <GbCartType as missingno_vcs::BoardVocabulary>::names,
+                    names: <GbCartType as missingno_core::cartridge::BoardVocabulary>::names,
                 },
                 doc: GB_MAPPER_DOC,
             },
@@ -192,7 +192,7 @@ impl HardwareFacts for GbcHardware {
             key: "mapper",
             label: "Mapper",
             kind: FactKind::Board {
-                names: <GbCartType as missingno_vcs::BoardVocabulary>::names,
+                names: <GbCartType as missingno_core::cartridge::BoardVocabulary>::names,
             },
             doc: GB_MAPPER_DOC,
         }]
@@ -231,7 +231,7 @@ impl HardwareFacts for Sg1000Hardware {
                 key: "cart_type",
                 label: "Board",
                 kind: FactKind::Board {
-                    names: <Sg1000CartType as missingno_vcs::BoardVocabulary>::names,
+                    names: <Sg1000CartType as missingno_core::cartridge::BoardVocabulary>::names,
                 },
                 doc: "Cartridge board code, e.g. \"OTHELLO\", \"DAHJEE-A\". An SG-1000 dump \
                       carries no header and no length that tells a RAM-bearing board from a \
@@ -275,7 +275,7 @@ impl HardwareFacts for VcsHardware {
                 key: "cart_type",
                 label: "Board",
                 kind: FactKind::Board {
-                    names: <VcsCartType as missingno_vcs::BoardVocabulary>::names,
+                    names: <VcsCartType as missingno_core::cartridge::BoardVocabulary>::names,
                 },
                 doc: "Cartridge board code, e.g. \"F8\", \"F6SC\", \"4K\" — stated per \
                       release where the board differs or an import got it wrong; unstated = \
