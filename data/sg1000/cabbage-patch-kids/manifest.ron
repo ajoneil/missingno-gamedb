@@ -1,11 +1,26 @@
 (
     title: "Cabbage Patch Kids",
+    description: Some("Anna Lee crosses a park one scene at a time, hopping vines and floating platforms and clearing water-filled pits, with bees and fires ending a life on contact and a misjudged jump doing the same. Ten scenes make a level, all of them against a clock, and trampolines reach objects hidden in the trees for points nobody needs to finish."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Cabbage_Patch_Kids",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cabbage_Patch_Kids:_Adventures_in_the_Park",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("Unl"),
+            title: Some("娃娃歷險"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

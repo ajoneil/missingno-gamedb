@@ -1,5 +1,38 @@
 (
     title: "Borderline",
+    description: Some("A jeep threads enemy territory shooting armoured cars, tanks and aircraft, and each scene ends when its fortresses are levelled; the fourth scene\'s headquarters opens the next round. Fuel drains as you go — run dry and the jeep explodes, finish early and what is left is scored as a bonus."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/4/48/Borderline_SG-1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual (Japanese)",
+            url: "https://segaretro.org/images/f/fc/BorderlineSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Borderline",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Borderline_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D56A07967EF6E24028F1CCD5F02B0E12720BC272",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -11,6 +44,8 @@
             languages: [
                 English,
             ],
+            date: Some("1984-03"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

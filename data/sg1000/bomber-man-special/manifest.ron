@@ -1,10 +1,29 @@
 (
     title: "Bomber Man Special",
+    description: Some("A bomb-making robot tunnels up out of an underground complex, laying bombs that detonate after a beat and throw fire along all four compass lines — enough to clear the destructible blocks, the wandering enemies, and Bomberman himself if he lingers. Each maze is done when every enemy is dead and the exit buried under a block is found."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bomberman_(1985_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Bomberman_Special",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2CBAC87F4899850F229D134A92077AC8937B00FB",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("爆破隊"),
             regions: [
                 Taiwan,
             ],
+            date: Some("1986"),
             publisher: Some("DahJee"),
             hardware: (
                 tv_format: Some(Ntsc),
@@ -18,10 +37,11 @@
             ],
         ),
         (
-            title: Some("Hongzha Dui"),
+            title: Some("轟炸隊"),
             regions: [
                 Taiwan,
             ],
+            date: Some("1986"),
             publisher: Some("DahJee"),
             hardware: (
                 tv_format: Some(Ntsc),

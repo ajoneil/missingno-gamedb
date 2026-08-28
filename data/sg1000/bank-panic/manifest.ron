@@ -1,10 +1,32 @@
 (
     title: "Bank Panic",
+    description: Some("A fast-draw deputy covers three bank doors at once, telling robbers from the customers depositing moneybags and shooting the instant a gun shows. Some gunmen lurk behind honest patrons and others take two shots to drop, children queue up to have their stacked hats shot off, and each round leaves the doors open a little less time."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bank_Panic",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/0/09/Bank_Panic_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Sega%20-%20SG-1000/Named_Boxarts/Bank%20Panic%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1985-09"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +38,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("比利大盜"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

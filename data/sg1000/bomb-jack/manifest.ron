@@ -1,7 +1,33 @@
 (
     title: "Bomb Jack",
+    description: Some("Jack jumps high and floats through the air, clearing each screen of its twenty-four bombs while birds and mummies chase him — once they reach the bottom they become saucers and orbs that cost a life on contact. Collecting bombs in sequence lights the next and fills a bonus meter, releasing a bouncing \'P\' that turns enemies into coins."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/9/9f/Bomb_Jack_SG-1000_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bomb_Jack",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Bomb_Jack",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/9CC0FBF49A95B5C57C9229868D9CBCAEFF9EAEC5",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
                 Australia,
@@ -9,6 +35,8 @@
             languages: [
                 Japanese,
             ],
+            date: Some("1985-12"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,7 +48,8 @@
             ],
         ),
         (
-            label: Some("Chinese Logo, Unl"),
+            title: Some("超人"),
+            label: Some("Chinese Logo"),
             regions: [
                 Taiwan,
             ],
@@ -35,13 +64,14 @@
             ],
         ),
         (
-            label: Some("English Logo, Unl"),
+            label: Some("English Logo"),
             regions: [
                 Korea,
             ],
             languages: [
                 English,
             ],
+            publisher: Some("Boram"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -53,7 +83,7 @@
             ],
         ),
         (
-            label: Some("English Logo, Unl"),
+            label: Some("English Logo"),
             regions: [
                 Taiwan,
             ],
@@ -68,13 +98,15 @@
             ],
         ),
         (
-            label: Some("Korean Logo, Unl"),
+            title: Some("범짹"),
+            label: Some("Korean Logo"),
             regions: [
                 Korea,
             ],
             languages: [
                 English,
             ],
+            publisher: Some("Boram"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

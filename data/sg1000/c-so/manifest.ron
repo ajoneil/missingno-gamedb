@@ -1,10 +1,33 @@
 (
     title: "C_So!",
+    description: Some("Jun Komi\'s only tool in the Seesaw House is a plank on a pivot: a Somii stepping on it sticks fast to birdlime until a timer runs out, long enough to drop on the far end and fling it into the ceiling, or slam the board down and flatten it. The round ends when every Somii and every target is gone."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/c/cb/C_So!_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/C_So!",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/46E2FEB544554F60E7803EF31FAC879AAA5C8C4C",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
             ],
+            date: Some("1986-02"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,7 +39,7 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("頑皮鬼"),
             regions: [
                 Taiwan,
             ],

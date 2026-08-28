@@ -1,10 +1,41 @@
 (
     title: "Champion Ice Hockey",
+    description: Some("Three twenty-minute periods with ends changed between each, and the aggregate decides it. Skaters move, choose a teammate to pass to and shoot, while the goalkeeper slides across his line to catch what gets through — and since every player is a professional working right on the edge, no penalty is ever called."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/1/15/ChampionIceHockeySGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual errata",
+            url: "https://segaretro.org/images/3/35/ChampionIceHockey_SG-1000_JP_ManualErrata.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Champion_Ice_Hockey",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DE6B5DA49713C14C46CF84D16F3A509786150CFD",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-12"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,13 +47,14 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("아이스 하키"),
             regions: [
                 Korea,
             ],
             languages: [
                 English,
             ],
+            publisher: Some("Samsung"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -34,7 +66,7 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("曲棍球"),
             regions: [
                 Taiwan,
             ],

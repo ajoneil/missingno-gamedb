@@ -1,14 +1,52 @@
 (
     title: "Champion Boxing",
+    developer: Some("Sega"),
+    description: Some("Peach Boy works his way through five fighters, sliding in and out of range with his gloves held high or low and picking which punch to throw before he throws it. The Red Devil answers in kind, a referee counts, and a ten-count knockout brings out a mystery character."),
+    links: [
+        (
+            name: "Manual (Cartridge)",
+            url: "https://segaretro.org/images/1/1c/ChampionBoxingCartSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (My Card)",
+            url: "https://segaretro.org/images/a/a8/ChampionBoxingCardSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Champion_Boxing",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Champion_Boxing",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B743D0CF692A934E65413126C9061C88763F43E0",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Cartridge"),
             regions: [
                 Japan,
+                France,
                 NewZealand,
             ],
             languages: [
                 Japanese,
             ],
+            date: Some("1984-10"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,10 +58,12 @@
             ],
         ),
         (
-            label: Some("Rev 1"),
+            label: Some("My Card"),
             regions: [
                 Japan,
             ],
+            date: Some("1985"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -35,10 +75,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("拳王爭霸戰"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

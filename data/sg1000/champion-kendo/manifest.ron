@@ -1,10 +1,10 @@
 (
-    title: "Champion Billiards",
-    description: Some("A cursor swings around the cue ball to set the line, a power meter sets the weight behind it, and a brake can kill the roll while the balls are still moving. How many object balls drop from one shot is the whole game — bank shots off the cushions included — and it ends when the last of three balls is gone."),
+    title: "Champion Kendo",
+    description: Some("Choosing where to strike is the whole game — men to the head, kote to the wrist, tsuki to the throat, dō to the body — and every attack can be met with a guard instead. Fight a single bout decided on damage meters, or a five-a-side team match where each swordsman from senpō up to taishō takes his turn."),
     links: [
         (
             name: "Manual",
-            url: "https://segaretro.org/images/9/95/ChampionBilliardsSGJPManual.pdf",
+            url: "https://segaretro.org/images/c/c4/Champion_Kendo_SG-1000_JP_Manual.pdf",
             link_type: Manual,
             languages: [
                 Japanese,
@@ -12,34 +12,33 @@
         ),
         (
             name: "Sega Retro",
-            url: "https://segaretro.org/Champion_Billiards",
+            url: "https://segaretro.org/Champion_Kendo",
             link_type: Wiki,
         ),
     ],
     covers: [
-        "https://thumbnails.libretro.com/Sega%20-%20SG-1000/Named_Boxarts/Champion%20Billiards%20(Japan).png",
+        "https://hasheous.org/api/v1/images/511245B52D57BDB036BD6E58145DAFF0F7FC3B58",
     ],
-    curated: true,
     releases: [
         (
             label: Some("My Card"),
             regions: [
                 Japan,
             ],
-            date: Some("1986-09"),
+            date: Some("1986-04"),
             publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
-                    sha1: "f517e6a6123643a5e7e5fff6b413139afa412d8e",
+                    sha1: "8565fc398d0206100da785d10e008f7f6a3c225e",
                     size: Some(32768),
                 ),
             ],
         ),
         (
-            title: Some("花式撞球"),
+            title: Some("劍道"),
             regions: [
                 Taiwan,
             ],
@@ -48,7 +47,7 @@
             ),
             artifacts: [
                 (
-                    sha1: "37dc5e7b3ebc3a3b0480b16d27bc394d57aac697",
+                    sha1: "621cf09649e9244714fa01652b066cd1a477279e",
                     size: Some(32768),
                 ),
             ],

@@ -1,16 +1,56 @@
 (
     title: "Champion Golf",
+    description: Some("Aim by walking the caddie around the edge of the hole — the ball flies wherever he stands — then time the shot against a little golfer swinging in the corner, since power comes from how high his club has risen. Wind arrows, rough, bunkers and the green each restrict which club will come out of the bag."),
+    links: [
+        (
+            name: "Manual (Cartridge)",
+            url: "https://segaretro.org/images/a/a9/ChampionGolfSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (My Card)",
+            url: "https://segaretro.org/images/b/bb/Champion_Golf_MyCard_SG1000_JP_Manual_v2.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (Australia)",
+            url: "https://segaretro.org/images/f/f5/Champion_Golf_SG-1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Champion_Golf",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/EFF1218D564B3527C2F936B64814E268BCE1EF11",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Cartridge"),
             regions: [
                 Japan,
-                Europe,
+                France,
+                Italy,
                 Australia,
                 NewZealand,
             ],
             languages: [
                 Japanese,
             ],
+            date: Some("1984-03"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -22,10 +62,12 @@
             ],
         ),
         (
-            label: Some("Rev 1"),
+            label: Some("My Card"),
             regions: [
                 Japan,
             ],
+            date: Some("1985"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -37,13 +79,14 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("참피온 골프"),
             regions: [
                 Korea,
             ],
             languages: [
                 English,
             ],
+            publisher: Some("Samsung"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

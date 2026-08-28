@@ -1,10 +1,39 @@
 (
     title: "Chack\'n Pop",
+    developer: Some("Sega"),
+    description: Some("Chack\'n walks floors and ceilings alike, stretching his legs to climb steps, and lobs grenades that burst into smoke a moment later — smoke that kills him too if he lingers. Each single-screen maze is cleared by blasting caged hearts free before a Mighta rolls his boulder across the top, with Monstas hatching from eggs to be wiped out entirely or left alone."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Chack\'n_Pop",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/0/0d/Chack%27n_Pop_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Chack%27n_Pop",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Sega%20-%20SG-1000/Named_Boxarts/Chack%27n%20Pop%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-09"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,7 +45,7 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("打漁"),
             regions: [
                 Taiwan,
             ],

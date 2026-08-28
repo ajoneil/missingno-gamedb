@@ -1,41 +1,65 @@
 (
     title: "007 James Bond",
+    developer: Some("Tsukuda Original"),
+    description: Some("Bond\'s car doubles as aircraft and submarine, holding the left of the screen while four missions — The Spy Who Loved Me, Diamonds Are Forever, Moonraker and For Your Eyes Only — scroll past. An anti-air beam handles what flies and depth charges what lurks below, while anchors and killer jellyfish cannot be shot at all and must be jumped or dived around."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/James_Bond_007_(1984_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/5/57/007_James_Bond_SG1000_JP_Manual.PDF",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             label: Some("Othello Multivision"),
             regions: [
                 Japan,
             ],
+            date: Some("1984-12"),
+            publisher: Some("Tsukuda Original"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "88d8c1f56f06ec76be285c29f41322a748f7c4db",
+                    label: Some("v2.7"),
                     size: Some(16384),
                 ),
             ],
         ),
         (
-            label: Some("Othello Multivision, Alt"),
+            label: Some("Othello Multivision"),
             regions: [
                 Japan,
             ],
+            date: Some("1984-12"),
+            publisher: Some("Tsukuda Original"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "c4c947a00155412c4e8b492e19ac229cc61fb401",
+                    label: Some("v2.6, 40 KB memory map"),
                     size: Some(40960),
                 ),
             ],
         ),
         (
-            label: Some("Othello Multivision, Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

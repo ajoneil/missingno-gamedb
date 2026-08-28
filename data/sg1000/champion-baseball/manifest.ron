@@ -1,21 +1,47 @@
 (
     title: "Champion Baseball",
+    description: Some("Central League all-stars face Pacific League all-stars over nine innings, in close-up at the plate: line the batter up with the pitch, swing, or tap out a bunt. Pitching is the mirror image — shift on the mound, throw, then bend the ball left or right in flight — while runners steal, advance and scramble back on command."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/b/b3/ChampionBaseballSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Champion_Baseball",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Champion_Baseball",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4EDB3780BA4B83D93E774940F9DF11E59246F090",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Earlier build"),
             regions: [
                 Japan,
-                Australia,
-                NewZealand,
             ],
             languages: [
                 Japanese,
             ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "85e5c2f354b9110e5f7c7dfcc7ab9814598b7956",
+                    label: Some("40 KB memory map"),
                     size: Some(40960),
                 ),
             ],
@@ -23,7 +49,12 @@
         (
             regions: [
                 Japan,
+                Australia,
+                Italy,
+                NewZealand,
             ],
+            date: Some("1983-10"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -35,10 +66,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("世界棒球賽"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
