@@ -1,16 +1,52 @@
 (
     title: "Champion Tennis",
+    description: Some("Getting into position is the whole stroke: run to the ball and it is played for you, backhand or forehand according to which side of you it arrives. What comes out depends on where both players stand — a lob when the pair of you are crowding the net, a drop just over it when you are both camped at the back."),
+    links: [
+        (
+            name: "Manual (Australia)",
+            url: "https://segaretro.org/images/b/bf/Champion_Tennis_SG1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual (Japan)",
+            url: "https://segaretro.org/images/3/38/Champion_Tennis_SG1000_JP_Manual.PDF",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (Japan, Type C)",
+            url: "https://segaretro.org/images/c/cd/Champion_Tennis_TypeC_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Champion_Tennis",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/18030B6B2D9BFD1DA4CEAA499D1F309CD3C72749",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
-                Europe,
+                France,
+                Italy,
                 Australia,
                 NewZealand,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1983-08"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

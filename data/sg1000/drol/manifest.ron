@@ -1,14 +1,39 @@
 (
     title: "Drol",
+    description: Some("A robot walks and flies through three underground demon mazes, pulling out Merry and a crocodile, then John and a lizard, then Mama — a rescue that ends happily and starts over harder, for as long as the machine is on. A map along the top tracks everyone, since the screen holds only part of the maze."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/6f/DrolSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Drol",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Drol",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/62A2CC13A46D461E4887FB90B4897D2F244C0F1E",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1985-10"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,10 +45,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("드롤"),
             regions: [
                 Korea,
             ],
+            publisher: Some("Samsung"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -35,10 +61,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("救難小英雄"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

@@ -1,14 +1,37 @@
 (
     title: "Choplifter",
+    description: Some("Sixty-four prisoners sit in four camps of sixteen, and the Hawk Z carries sixteen at a time — so the run out to enemy territory and back has to be made four times over. Lose all three helicopters, or let every last captive die, and it ends."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Choplifter",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/e/e8/ChoplifterSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Choplifter",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Sega%20-%20SG-1000/Named_Boxarts/Choplifter%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            publisher: Some("Sega"),
             status: Beta,
             hardware: (
                 tv_format: Some(Ntsc),
@@ -16,18 +39,19 @@
             artifacts: [
                 (
                     sha1: "da92459e64ed6cc0ce93b03a60fad049e13a505f",
+                    label: Some("v613"),
                     size: Some(32768),
                 ),
             ],
         ),
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1985-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -39,10 +63,12 @@
             ],
         ),
         (
-            label: Some("Chinese Logo, Unl"),
+            title: Some("飛狼"),
+            label: Some("Chinese Logo"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -54,10 +80,11 @@
             ],
         ),
         (
-            label: Some("English Logo, Unl"),
+            label: Some("English Logo"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -69,10 +96,11 @@
             ],
         ),
         (
-            label: Some("No Logo, Unl"),
+            label: Some("No Logo"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -84,7 +112,7 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("초프리프터"),
             regions: [
                 Korea,
             ],

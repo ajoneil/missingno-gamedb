@@ -1,10 +1,32 @@
 (
     title: "Champion Pro Wrestling",
+    description: Some("A wrestler\'s five techniques — chop, kick, dropkick, piledriver and his own finisher — cycle past while you hold the selector, and you commit by letting go, frozen in place until you do. Two falls win it: pin an opponent only once he is down, and hammer to kick out or climb back to your feet."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/b/b4/Champion_Pro_Wrestling_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Champion_Pro_Wrestling",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2F01BF3D7FB4AD44ECB136CA48ED53D5E13F14A7",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1985-03"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

@@ -1,16 +1,53 @@
 (
     title: "Exerion",
+    developer: Some("Sega"),
+    description: Some("Fighter EX carries two beams: a dual shot, and a single one that fires as fast as you hold it down but drains a charge meter — which only refills when a shot connects, so spraying wildly leaves you disarmed. Three fighters per game, and a fourth once past ten thousand points."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Exerion",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (Australia)",
+            url: "https://segaretro.org/images/e/e2/Exerion_SG-1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual (Japan)",
+            url: "https://segaretro.org/images/3/33/Exerion_SG1000_JP_Manual.PDF",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Exerion",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/385157F6DB57A6135FF4B91226B0A1223E4E90B3",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
-                Europe,
+                France,
+                Italy,
                 Australia,
                 NewZealand,
             ],
             languages: [
                 English,
             ],
+            date: Some("1984-03"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -22,10 +59,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("엑스리온"),
             regions: [
                 Korea,
             ],
+            publisher: Some("Samsung"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -37,10 +75,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("地球保衛戰"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

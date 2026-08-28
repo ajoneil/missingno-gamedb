@@ -1,5 +1,31 @@
 (
     title: "Girl\'s Garden",
+    developer: Some("Sega"),
+    description: Some("Papri gathers flowers in maze-like gardens and brings them to a boy before the clock runs out — leave it too long and he takes up with someone else. Bears and other animals roam the stages, and a small stock of power-ups is all she has to slip past them."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/0/08/GirlsGardenSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Girl%27s_Garden",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Girl%27s_Garden",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/69B21C761D9F997A121901202BC8603C4DA7C89A",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -9,6 +35,8 @@
             languages: [
                 Japanese,
             ],
+            date: Some("1985-01"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,10 +48,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("美人會英雄"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

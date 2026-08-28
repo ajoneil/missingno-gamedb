@@ -1,10 +1,45 @@
 (
     title: "Congo Bongo",
+    description: Some("A hunter chases a mischievous gorilla up cliffs and over gorges and waterfalls, dodging the coconuts it hurls down at him and the animals that get in his way. Catching the ape is the whole object of the cartoon pursuit."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Congo_Bongo",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (Australia)",
+            url: "https://segaretro.org/images/0/05/Congo_Bongo_SG1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual (Japan)",
+            url: "https://segaretro.org/images/d/d7/Congo_Bongo_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Congo_Bongo",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Sega%20-%20SG-1000/Named_Boxarts/Congo%20Bongo%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Rev 0"),
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -19,13 +54,13 @@
             label: Some("Rev 1"),
             regions: [
                 Japan,
-                Europe,
+                France,
+                Italy,
                 Australia,
                 NewZealand,
             ],
-            languages: [
-                English,
-            ],
+            date: Some("1983-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -34,29 +69,41 @@
                     sha1: "47aba6a295e5695db4c3aaa1dea8ad8ac961b5f9",
                     size: Some(24576),
                 ),
+                (
+                    sha1: "96dd55a63bae0abc666fe317d50612116100d7b1",
+                    label: Some("overdump, 00 fill"),
+                    defect: Some(Overdump),
+                    size: Some(32768),
+                ),
+                (
+                    sha1: "01b65ecfb5307bff0d8222f266b9d641b6a203db",
+                    label: Some("overdump, FF fill"),
+                    defect: Some(Overdump),
+                    size: Some(32768),
+                ),
             ],
         ),
         (
-            label: Some("Rev 1, Alt"),
+            label: Some("Rev 1"),
             regions: [
                 Japan,
                 Europe,
             ],
-            languages: [
-                Japanese,
-            ],
+            publisher: Some("Sega"),
+            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "4ea22b9a655c4cfe13500beb97e84da451752148",
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("大金剛"),
             regions: [
                 Taiwan,
             ],

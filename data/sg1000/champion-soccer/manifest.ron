@@ -1,14 +1,33 @@
 (
     title: "Champion Soccer",
+    description: Some("Control passes automatically to whichever of your players is nearest the ball, leaving him to run, dribble, pass and shoot. Two five-minute halves with the ends swapped between them, the conceding side kicking off; level at full time and play simply continues until somebody scores, which settles it."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/a/a1/ChampionSoccerSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Champion_Soccer",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DF651E30F996307BD817AA6B76F0C70009CBE5BF",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
-                Europe,
+                France,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1984-10"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,10 +39,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("足球王"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

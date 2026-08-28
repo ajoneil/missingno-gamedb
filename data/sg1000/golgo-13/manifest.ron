@@ -1,10 +1,33 @@
 (
     title: "Golgo 13",
+    description: Some("Golgo 13 chases a train in a sports car, and has to get the car up to speed before he can even draw level. Shooting out each window frees the fifteen hostages inside, against ninety seconds and a helicopter overhead — and a shot that glances off a freight car or truck comes back to kill him."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/6b/Golgo_13_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Golgo_13",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D4E0C40620BB4B7471E2CB028505A732D13F3847",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
+                France,
             ],
+            date: Some("1984-04"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

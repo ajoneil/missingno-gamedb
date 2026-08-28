@@ -1,10 +1,38 @@
 (
     title: "Doki Doki Penguin Land",
+    description: Some("A penguin shepherds an egg down through the ice, shoving blocks aside or smashing them to open a path. The egg survives only short drops and shatters on contact with anything living, so the puzzle is arranging its fall — clearing just enough beneath it, and no more."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/c/cc/Doki_Doki_Penguin_Land_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Doki_Doki_Penguin_Land",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Doki_Doki_Penguin_Land",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/065A0FD3CFD7B858EBB33C46BC2161443434DBE6",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -13,13 +41,19 @@
                     sha1: "f49c43b1f9a0b19ef5f30d9bf2b222af7aeb9fbf",
                     size: Some(32768),
                 ),
+                (
+                    sha1: "c1a39ba36afb89ba3c6734d931205826918f2acd",
+                    defect: Some(BadDump),
+                    size: Some(32768),
+                ),
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("企鵝"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

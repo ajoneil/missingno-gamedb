@@ -1,10 +1,32 @@
 (
     title: "Dragon Wang",
+    description: Some("Dragon Wang kicks his way up through a castle of guards to reach Kyoko — and kicking is all he does, aimed by where he stands: upright, crouched to either side, or leaping straight up or diagonally. Three attempts, with a fourth earned at fifty thousand points."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/a/a9/DragonWangSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Dragon_Wang",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C9FB780E1681A4B7F80E750C79C614A69E1A11EF",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Rev 0"),
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +38,12 @@
             ],
         ),
         (
-            label: Some("Chinese Logo, Unl"),
+            title: Some("精武門"),
+            label: Some("Chinese Logo"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -31,10 +55,11 @@
             ],
         ),
         (
-            label: Some("English Logo, Unl"),
+            label: Some("English Logo"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -50,6 +75,8 @@
             regions: [
                 Japan,
             ],
+            date: Some("1985-07"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

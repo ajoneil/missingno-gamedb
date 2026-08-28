@@ -1,10 +1,39 @@
 (
     title: "Elevator Action",
+    developer: Some("Sega"),
+    description: Some("A spy works through a high-rise, riding elevators and escalators and shooting the guards who come at him — standing, crouching or mid-jump, though crouching and jumping both lock him to turning on the spot rather than moving. Getting every last document out of the building is the job."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Elevator_Action",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/0/03/Elevator_Action_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Elevator_Action",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1DCFFE189B8BA15BFC8478B7A4754EA6EE6BDB53",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-11"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +45,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("諜對諜"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

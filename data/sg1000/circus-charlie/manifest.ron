@@ -1,11 +1,25 @@
 (
     title: "Circus Charlie",
+    description: Some("Charlie works a circus one act at a time: riding a lion through flaming hoops, crossing a tightrope over leaping monkeys, hopping from ball to ball, and vaulting a horse over walls. A clock runs on every act, paying out whatever is left of it and taking a life if it empties, and clearing them all starts the run again faster."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Circus_Charlie",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Circus_Charlie",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("Unl"),
             regions: [
                 Korea,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -17,10 +31,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("馬戲團"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

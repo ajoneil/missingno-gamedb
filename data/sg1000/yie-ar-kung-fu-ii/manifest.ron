@@ -1,0 +1,37 @@
+(
+    title: "Yie Ar Kung-Fu II",
+    description: Some("Lee Young fights through three stretches of each level before its boss, cutting through ninjas on the way. Oolong tea restores health and can be carried three cups at a time; lo mein grants a brief invincibility. A second player joins as one of three other fighters."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Yie_Ar_Kung-Fu_II",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Yie_Ar_Kung-Fu_II",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("大刺客"),
+            regions: [
+                Taiwan,
+            ],
+            date: Some("1986"),
+            publisher: Some("DahJee"),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some(DahjeeA),
+            ),
+            artifacts: [
+                (
+                    sha1: "44fb2dca3774f859f0ae0ad4d809a67f760cf9ae",
+                    size: Some(49152),
+                ),
+            ],
+        ),
+    ],
+)

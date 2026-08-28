@@ -1,20 +1,50 @@
 (
     title: "Flicky",
+    description: Some("Flicky gathers the chicks scattered across a stage that scrolls left and right, and walks them home in a line — but any cat that touches the trail breaks it, sending them loose again. Six weapons per life knock a cat flying, and a felled one sometimes turns into a diamond worth collecting."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/1/16/FlickySGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Flicky",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Flicky",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4E297077CBA5511D864EA7C0FA207CEF672A17C9",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("Rev 0"),
             regions: [
                 Japan,
                 NewZealand,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1984-12"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "39a91b5ad6b139ca5d8ac60b78520210e84944bd",
+                    size: Some(32768),
+                ),
+                (
+                    sha1: "6c1a77ebec46ec730bbf255dbbd3b9a7e1e00555",
+                    defect: Some(BadDump),
                     size: Some(32768),
                 ),
             ],
@@ -24,6 +54,7 @@
             regions: [
                 Japan,
             ],
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -35,10 +66,11 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("餓貓抓小雞"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

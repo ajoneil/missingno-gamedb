@@ -1,14 +1,39 @@
 (
     title: "Championship Lode Runner",
+    description: Some("Fifty rooms hold the Bungeling Empire\'s gold, and Keen\'s only tool is digging: he can carve away the block to his left or right, and nothing else. Recover every bar to open the next room, with a fresh Keen earned each time you clear one. An editor sits beside the game for building rooms of your own."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Championship_Lode_Runner",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/4/46/Championship_Lode_Runner_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Championship_Lode_Runner",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Sega%20-%20SG-1000/Named_Boxarts/Championship%20Lode%20Runner%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            label: Some("My Card"),
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1985-12"),
+            publisher: Some("Sega"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,7 +45,7 @@
             ],
         ),
         (
-            label: Some("Unl"),
+            title: Some("尋寶二代"),
             regions: [
                 Taiwan,
             ],
