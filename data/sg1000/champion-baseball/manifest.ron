@@ -35,13 +35,15 @@
                 Japanese,
             ],
             publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "85e5c2f354b9110e5f7c7dfcc7ab9814598b7956",
-                    label: Some("40 KB memory map"),
+                    label: Some("Earlier build"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],

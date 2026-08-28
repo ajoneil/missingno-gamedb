@@ -44,13 +44,15 @@
             ],
             date: Some("1984-12"),
             publisher: Some("Tsukuda Original"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "c4c947a00155412c4e8b492e19ac229cc61fb401",
-                    label: Some("v2.6, 40 KB memory map"),
+                    label: Some("v2.6"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],
