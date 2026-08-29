@@ -1,11 +1,48 @@
 (
     title: "Adventure Island",
+    description: Some("Princess Tina is stranded on one of eight islands and Master Higgins is going after her, axe in hand, with a giant guardian waiting on each. Hidden eggs are scattered across them: crack one open for a bonus, a secret route to the next island, or one of four dinosaurs to ride — sure-footed on ice, or able to cross lava and spit fireballs."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Adventure_Island_II",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/adventure-island",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Adventure_Island_-_1992_-_Hudson.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Adventure%20Island%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
-            title: Some("Takahashi Meijin no Bouken-jima II"),
+            title: Some("高橋名人の冒険島II"),
             regions: [
                 Japan,
             ],
+            date: Some("1992-03-06"),
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "504d9096c9eace691ad23b2119749bc24f6e7d45",
@@ -17,6 +54,15 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1992-02"),
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "4a61945c1e3a37301748314777835c0e122a67e6",

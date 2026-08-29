@@ -1,14 +1,50 @@
 (
     title: "Adulting!",
+    developer: Some("Eric C. Wilder"),
+    description: Some("It\'s Saturday, and a to-do list stands between you and the weekend: buy coffee filters, call your parents, file the tax returns, walk the dog, return an overdue library book. You work down it around town, with a button reserved entirely for cussing."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://eric-c-wilder.itch.io/adulting",
+            link_type: Store,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/game/adulting/",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hh3.gbdev.io/static/database-gb/entries/adulting/cover.png",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
-            label: Some("v2.0"),
             regions: [
                 World,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("2022-02-16"),
+            hardware: (
+                cart_type: Some(Mbc5(
+                    rom: Kb512,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "d107bd8bf32d0d94a988466885fe1a44aae32c9a",
+                    label: Some("v2.0"),
                 ),
             ],
         ),

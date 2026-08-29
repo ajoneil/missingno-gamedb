@@ -1,11 +1,46 @@
 (
     title: "Aerostar",
+    developer: Some("Sigma Pro-Tech"),
+    description: Some("Earth in 2807 has been left to mutants, and the Aerostar fighter is sent down to clear them out. It flies along fixed roads rather than the open screen, and jumping between them puts its guns out of action while airborne, with an Omni-shield option whose position can be locked."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Aerostar_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/aerostar",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Aerostar_-_1991_-_Vic_Tokai.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Aerostar%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1991-09"),
+            publisher: Some("Vic Tokai"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "2cb231e616008f2c809e0b2caf40f477689e6d07",
@@ -13,10 +48,19 @@
             ],
         ),
         (
-            label: Some("En"),
+            title: Some("Aero Star"),
             regions: [
                 Japan,
             ],
+            date: Some("1991-06-28"),
+            publisher: Some("Vic Tokai"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1088817172c10a9080ab6859da85a074569e2cba",

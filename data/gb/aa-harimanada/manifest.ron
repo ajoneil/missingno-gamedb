@@ -1,10 +1,28 @@
 (
     title: "Aa Harimanada",
+    description: Some("Harimanada starts as an ōzeki and must take 13 wins in a tournament to claim the championship and rise to yokozuna, then chase the record for consecutive victories. Each bout opens with a menu: choose the charge — a low ram, a two-handed thrust, a sidestep, a leg sweep — and where to stand at the line, then thrust and grapple for a finishing hold."),
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Aa%20Harimanada%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ああ播磨灘"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1993-07-23"),
+            publisher: Some("Ask Kodansha"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ff3565fcac22b44bf542732d1b0b20ba96a6c961",

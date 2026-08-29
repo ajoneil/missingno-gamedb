@@ -1,14 +1,45 @@
 (
     title: "Adventures of Lolo",
+    developer: Some("HAL Laboratory"),
+    description: Some("Lolo crosses one screen-sized room at a time: collect every heart to open the treasure chest, then reach the exit door. Monsters can be shot into eggs with a limited number of Egger Shots, and eggs and blocks are pushed around to bar a path or build one; each scene allows a single use of one special power."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/adventures-of-lolo",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Adventures_Of_Lolo_-_1994_-_Nintendo.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Adventures%20of%20Lolo%20%28Europe%29%20%28SGB%20Enhanced%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995"),
+            publisher: Some("Nintendo"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -17,10 +48,21 @@
             ],
         ),
         (
-            title: Some("Lolo no Daibouken"),
+            title: Some("ロロの大冒険"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "2f4a4215e3c95f7f3646ad678c5cd191fce02515",

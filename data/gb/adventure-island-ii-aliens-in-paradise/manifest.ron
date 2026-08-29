@@ -1,11 +1,56 @@
 (
     title: "Adventure Island II - Aliens in Paradise",
+    description: Some("Jeannie Jungle has been carried off by aliens, and Master Higgins works across eight islands to get her back, each one guarded by something enormous and hungry. Axes, boomerangs and a skateboard turn up along the way, and hidden eggs hatch five kinds of dinosaur to ride."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/adventure-island-2",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Adventure_Island_3",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Adventure%20Island%20II%20-%20Aliens%20in%20Paradise%20%28USA%2C%20Europe%29.png",
+    ],
+    mods: [
+        (
+            name: "Super Mario World 7",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("1964fd5708150aa9f71c0a79d552466fd5bf5bf8"),
+                    artifacts: [
+                        (
+                            sha1: "0ee89297e9d24c1b4247765c8561a2cc90e383c9",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
-            title: Some("Takahashi Meijin no Bouken-jima III"),
+            title: Some("高橋名人の冒険島III"),
             regions: [
                 Japan,
             ],
+            date: Some("1993-02-26"),
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "e3fe857a1b7f00a6f7862d7dd401063f98fd0cb6",
@@ -17,21 +62,18 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1993-02"),
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1964fd5708150aa9f71c0a79d552466fd5bf5bf8",
-                ),
-            ],
-        ),
-        (
-            title: Some("Super Mario World 7"),
-            label: Some("Unl"),
-            regions: [
-                Taiwan,
-            ],
-            artifacts: [
-                (
-                    sha1: "0ee89297e9d24c1b4247765c8561a2cc90e383c9",
                 ),
             ],
         ),

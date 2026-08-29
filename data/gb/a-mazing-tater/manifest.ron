@@ -1,11 +1,52 @@
 (
     title: "A-mazing Tater",
+    developer: Some("Atlus"),
+    description: Some("Spud the potato must cross each puzzle floor to the goal past pits, solid blocks and pivoting doors. Sliding blocks of several shapes can be pushed into a pit of matching size to bridge it, doors turn only when nothing blocks their swing, and some floors need two characters cooperating."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Amazing_Tater_-_1991_-_Atlus.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/amazing-tater",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Amazing_Tater",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/A-mazing%20Tater%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             title: Some("Puzzle Boy II"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1991-08-02"),
+            publisher: Some("Atlus"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "15e325be6272281d74448936fee5179448ae480e",
@@ -16,6 +57,21 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992-02"),
+            publisher: Some("Atlus"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1e475cbd5fb7099df91155a103698e4e66da7a86",
