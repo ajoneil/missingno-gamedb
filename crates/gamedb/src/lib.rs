@@ -12,6 +12,7 @@ pub mod ids;
 pub mod load;
 pub mod platform;
 pub mod region;
+pub mod rejected;
 pub mod text;
 pub mod validate;
 
@@ -29,5 +30,6 @@ pub use platform::{
     Sg1000Hardware, TvStandard, Vcs, VcsCartType, VcsHardware, platform_dirs,
 };
 pub use region::Region;
+pub use rejected::{RejectedFile, Rejection};
 pub use text::normalized_title;
 pub use validate::{Finding, FormatReport, Severity, format_all, validate};

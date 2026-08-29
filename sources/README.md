@@ -62,6 +62,29 @@ Removing a source's URL removes the receipt, not the fact. Where a banned site i
 the only source for a release fact, stage the fact and say so in chat; never
 invent a substitute link that did not back it.
 
+## What belongs in the database at all
+
+**This database catalogues software someone played on the console.** Firmware
+that belongs to a hardware accessory does not, even though it boots on the
+console and even where it sold at retail in a box of its own.
+
+The test is what the cartridge *is*, not what runs on it. A cheat cart — Action
+Replay, Game Genie, GameShark, Xploder — exists to modify a second cartridge
+plugged into it. A Game Boy Camera cart exists to drive the camera in its shell,
+a Pocket Sonar cart to drive a sonar. The ROM is the accessory's firmware, and
+its menus are how you operate the hardware.
+
+**A game that merely uses an accessory stays.** The Game Boy Camera Gallery
+homebrew is a game that reads a camera; a barcode game is a game that reads a
+barcode. The accessory is an input to it, not the product.
+
+`reject_game` is how one leaves: it deletes the manifest, records the dumps in
+[`../curation/rejected.ron`](../curation/rejected.ron) so a rescan never offers
+them again, and deletes the inbox ROM while leaving the archive beside it — so
+re-extracting undoes a rejection. Two things it is not. A second entry for a
+game already catalogued is `merge_game`. A game with no dump to play stays in
+the backlog, where a dump can still find it.
+
 ## One release, or two?
 
 **A release is a product someone could buy. An artifact is one reading of a
