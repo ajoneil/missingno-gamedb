@@ -1,10 +1,40 @@
 (
     title: "Zaxxon",
+    developer: Some("Sega"),
+    description: Some("An isometric fortress scrolls beneath you while a fuel gauge empties, refilled only by blasting oil tanks and satellites. Your craft\'s shadow on the ground is how you judge altitude, and a shot fired at a wall shows whether you are lined up to clear its gap or to hit it."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Zaxxon",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Zaxxon",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/66/ZaxxonSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://segaretro.org/images/2/25/Zaxxon_SG1000_JP_Box_Front.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ザクソン"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-02"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +46,13 @@
             ],
         ),
         (
+            title: Some("突擊大本營"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

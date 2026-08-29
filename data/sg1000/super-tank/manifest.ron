@@ -1,10 +1,35 @@
 (
     title: "Super Tank",
+    developer: Some("Sega"),
+    description: Some("The tank Heavy Metal fights off pursuers with a machine gun that fires in any direction, while its main cannon reaches targets it cannot see: radar shows where a base sits, and you walk a crosshair onto the mark before letting the shell go. Shells are finite and picked up along the way."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Super_Tank",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/8/80/Super_Tank_SG-1000_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6D1DAE43DBC1E4626F79AD967EFF14715C7F08CF",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("スーパー タンク"),
             regions: [
                 Japan,
             ],
+            date: Some("1986-07"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,6 +45,7 @@
             regions: [
                 Korea,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -31,10 +57,12 @@
             ],
         ),
         (
+            title: Some("超級坦克"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

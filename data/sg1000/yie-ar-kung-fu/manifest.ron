@@ -1,11 +1,32 @@
 (
     title: "Yie Ar Kung-Fu",
+    developer: Some("Konami"),
+    description: Some("A one-on-one fighting game against a run of martial-arts masters, each with their own look and fighting style. Moves are thrown standing, crouching or jumping and aimed high, middle or low, and a bout is settled by draining the opponent\'s health bar rather than on points."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Yie_Ar_Kung-Fu",
+            link_type: Wiki,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Yie_Ar_Kung-Fu",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/717C63E0C85EE705D6503FBFE06F080DDE1B28B7",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("功夫"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

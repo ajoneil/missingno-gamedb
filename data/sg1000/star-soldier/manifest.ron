@@ -1,0 +1,38 @@
+(
+    title: "Star Soldier",
+    developer: Some("Hudson Soft"),
+    description: Some("A vertical shooter in which the starship Caesar runs sixteen space stations held by supercomputers, its single gun hitting flying and grounded targets alike. Shooting a marked panel drops a capsule that strengthens the shot, and a trap zone lets the ship slip beneath the station to sit out a barrage."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Soldier_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Star_Soldier",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("宇宙戰士"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("DahJee"),
+            rom_size: Some(49152),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some(DahjeeA),
+            ),
+            artifacts: [
+                (
+                    sha1: "c1984257809ec5bce80a65d22b9b32561e04922c",
+                    size: Some(49152),
+                ),
+            ],
+        ),
+    ],
+)

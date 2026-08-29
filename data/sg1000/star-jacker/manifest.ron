@@ -1,10 +1,44 @@
 (
     title: "Star Jacker",
+    developer: Some("Sega"),
+    description: Some("A formation of four spaceships flies out from the mother ship, missiles for the craft above and bombs for the colonies below. Bringing the formation home intact is what pays: one ship returning scores a thousand, all four eight thousand, and the way home only opens once the enemy command module is downed."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Star_Jacker",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (Japan)",
+            url: "https://segaretro.org/images/9/9d/Star_Jacker_C_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (Australia)",
+            url: "https://segaretro.org/images/d/df/Star_Jacker_SG1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2AD8FD946EEF2865A7C815857A394DBEC2740CDB",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("スタージャッカー"),
             regions: [
                 Japan,
             ],
+            date: Some("1983-07-15"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,6 +50,7 @@
             ],
         ),
         (
+            title: Some("スタージャッカー"),
             label: Some("Rev 1"),
             regions: [
                 Japan,
@@ -23,6 +58,8 @@
                 Australia,
                 NewZealand,
             ],
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -34,11 +71,14 @@
             ],
         ),
         (
+            title: Some("スタージャッカー"),
             label: Some("Rev 2"),
             regions: [
                 Japan,
                 Europe,
             ],
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -50,10 +90,13 @@
             ],
         ),
         (
+            title: Some("太空城"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

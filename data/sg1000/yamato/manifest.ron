@@ -1,13 +1,47 @@
 (
     title: "Yamato",
+    developer: Some("Sega"),
+    description: Some("Your warship slides left and right while the sights ride up and down: a heavy gun for enemy ships and submarines, a quick-firer for aircraft, both able to shoot down incoming missiles and torpedoes. A hit on the flank cripples the ship and a second sinks it; one to the bow sinks it outright."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Yamato",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (Japan)",
+            url: "https://segaretro.org/images/d/d4/Yamato_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (Australia)",
+            url: "https://segaretro.org/images/e/e4/Yamato_SG-1000_AU_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/45B6111D17505B1A062F8D731687203E5CEC3778",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ヤマト"),
             regions: [
                 Japan,
                 Europe,
                 Australia,
                 NewZealand,
             ],
+            date: Some("1983-07"),
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,28 +50,22 @@
                     sha1: "4d746558fb699c5cb480ba26130518105b2e2031",
                     size: Some(16384),
                 ),
-            ],
-        ),
-        (
-            label: Some("Alt"),
-            regions: [
-                Japan,
-            ],
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "fe86e669f3e4b808236d7b80aeb5a83172edb9ac",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
             ],
         ),
         (
+            title: Some("太和艦"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

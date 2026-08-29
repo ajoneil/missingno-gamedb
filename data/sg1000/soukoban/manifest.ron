@@ -1,7 +1,33 @@
 (
     title: "Soukoban",
+    description: Some("A part-time warehouse hand shoves crates one at a time onto marked floor tiles, and a crate shunted into a corner is stuck for good — so the puzzle is planning the pushes before making them. A hundred warehouses ship with the game, and an edit mode lets you lay out fresh ones."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Soukoban_(SG-1000)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/6/6e/SoukobanSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Sokoban",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FFD6C965E389D312AE3B8629B42EC5B298E08139",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("倉庫番"),
             regions: [
                 Japan,
                 Australia,
@@ -9,6 +35,9 @@
             languages: [
                 Japanese,
             ],
+            date: Some("1985-12"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -25,6 +54,7 @@
             regions: [
                 Korea,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -36,10 +66,15 @@
             ],
         ),
         (
+            title: Some("창고지기"),
             label: Some("Unl"),
             regions: [
                 Korea,
             ],
+            languages: [
+                Japanese,
+            ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -51,10 +86,15 @@
             ],
         ),
         (
+            title: Some("搬倉庫"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            languages: [
+                Japanese,
+            ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

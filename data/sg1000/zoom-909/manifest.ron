@@ -1,10 +1,40 @@
 (
     title: "Zoom 909",
+    developer: Some("Sega"),
+    description: Some("Your ship Biolan runs a gauntlet of four areas, the view switching between a top-down field and a chase view behind the ship, each steering differently. Fuel drains throughout, and hitting empty ends the game outright. The last area puts you against Agora, the enemy command ship."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Zoom_909",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/b/b1/Zoom909SGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Buck_Rogers:_Planet_of_Zoom",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C2B942D652C2CAFA2AD26FA1BBC2FC082735E13B",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ズーム909"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-07"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +46,13 @@
             ],
         ),
         (
+            title: Some("火狐狸"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

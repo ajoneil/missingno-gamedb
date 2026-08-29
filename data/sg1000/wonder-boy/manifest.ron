@@ -1,44 +1,64 @@
 (
     title: "Wonder Boy",
+    developer: Some("Sega"),
+    description: Some("Boy runs and jumps through the forest after Tina, carried off by the demon King, his vitality draining the whole way until fruit or milk tops it up. A stone axe lets him throw at what he would otherwise have to dodge, and in two-player both players are Boy, racing each other to reach her first."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Wonder_Boy_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Wonder_Boy",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/0/0e/Wonder_Boy_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/46E2EA7F76326395D7E07B0A0903D7348A642494",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ワンダーボーイ"),
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1986-08"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "4a54933135cdff546fd79cbc61a38355f7335f3f",
+                    label: Some("Rev 0"),
                     size: Some(32768),
                 ),
-            ],
-        ),
-        (
-            label: Some("Rev 1"),
-            regions: [
-                Japan,
-            ],
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "240600a0dda16809f49b173f731c7fdaf921466a",
+                    label: Some("Rev 1"),
                     size: Some(32768),
                 ),
             ],
         ),
         (
+            title: Some("桃太郎"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

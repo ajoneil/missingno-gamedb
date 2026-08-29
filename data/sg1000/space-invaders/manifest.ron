@@ -1,10 +1,43 @@
 (
     title: "Space Invaders",
+    developer: Some("Sega"),
+    description: Some("Rows of invaders descend on your base while a beam cannon tracks left and right below, firing up through shelters that crumble as the fight wears on. A UFO crossing the top pays a mystery bonus. Nine patterns start the aliens progressively closer to the shelters, then loop from the second forever."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Space_Invaders",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/c/c6/Space_Invaders_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Space_Invaders",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FA9F3C2B10995F5AF716CF8510E818996C76B0A6",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
+            title: Some("スペースインベーダー"),
             regions: [
                 Japan,
             ],
+            date: Some("1985-06"),
+            publisher: Some("Sega"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,10 +49,13 @@
             ],
         ),
         (
+            title: Some("太空侵略戰"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

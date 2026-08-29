@@ -1,5 +1,18 @@
 (
     title: "Sindbad Mystery",
+    developer: Some("Sega"),
+    description: Some("Sindbad hunts a chest of gold buried beneath a walled maze on Treasure Island, clearing question marks from the passages so the panels of his treasure map open and the chest\'s location narrows. Monsters roam the corridors; digging a hole halts one, and a stone rolled down a passage destroys it."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Sindbad_Mystery",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/47AF71FDBD93EFEB394488E0E10ABA93B50AAD94",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -8,6 +21,9 @@
                 Australia,
                 NewZealand,
             ],
+            date: Some("1984-01"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -16,13 +32,21 @@
                     sha1: "90bb8b8337866339f32b3fd48b4d25d78d682b55",
                     size: Some(32768),
                 ),
+                (
+                    sha1: "a3b3f96685815d6ab0751e6442c7349d5b91d60c",
+                    defect: Some(BadDump),
+                    size: Some(32768),
+                ),
             ],
         ),
         (
+            title: Some("天方夜譚"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

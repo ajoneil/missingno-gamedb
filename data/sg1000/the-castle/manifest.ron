@@ -1,12 +1,43 @@
 (
     title: "The Castle",
+    developer: Some("ASCII"),
+    description: Some("A prince works through a castle of a hundred rooms to reach the imprisoned princess, shoving blocks and jars into place to climb where he cannot jump. Coloured doors each need a key of their own colour, and a key is spent the moment it is used."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Castle_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/The_Castle",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/4/42/CastleSGJPManual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/33B290D9D5A34E074691EB3275A0728FFE60323A",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
+            title: Some("ザ・キャッスル"),
             regions: [
                 Japan,
             ],
-            date: Some("1986"),
-            publisher: Some("Sega / ASCII"),
+            date: Some("1986-09"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some(CastleRam),
@@ -19,11 +50,12 @@
             ],
         ),
         (
-            title: Some("Mowang migong"),
+            title: Some("魔王迷宮"),
             regions: [
                 Taiwan,
             ],
             publisher: Some("DahJee"),
+            rom_size: Some(49152),
             hardware: (
                 tv_format: Some(Ntsc),
                 cart_type: Some(DahjeeB),

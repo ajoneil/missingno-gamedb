@@ -1,14 +1,41 @@
 (
     title: "Star Force",
+    developer: Some("Tehkan"),
+    description: Some("The Final Star scrolls over the dark star Gordes, its Force Beam hitting air and ground targets in a single shot. Each of twenty-four areas is sealed by an Alpha Target that only appears once you have destroyed enough of the terrain below, and clearing all of them opens an endless run of further areas."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Star_Force",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Star_Force",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/a/a8/Star_Force_MyCard_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://segaretro.org/images/2/27/StarForce_SG1000_JP_Cartridge_Box_Front.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("スター・フォース"),
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1985-05"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,10 +47,13 @@
             ],
         ),
         (
+            title: Some("星際大戰"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -32,19 +62,9 @@
                     sha1: "f3ddf97ddf0e40289e38d9105300f15ec7eab78c",
                     size: Some(32768),
                 ),
-            ],
-        ),
-        (
-            label: Some("Unl, Alt"),
-            regions: [
-                Taiwan,
-            ],
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "ff6e3bdb830e6f74f9997b4d36604fd07d7e6019",
+                    label: Some("alt"),
                     size: Some(32768),
                 ),
             ],

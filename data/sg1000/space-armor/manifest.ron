@@ -1,45 +1,47 @@
 (
     title: "Space Armor",
+    description: Some("You fly the A-42 Speeder against the Empire\'s fortress, lining a reticle up on two kinds of target: a beam gun answers craft in the air, the Zeon Buster whatever sits on the ground. Each of ninety-nine scenes ends at Neodyne, whose six energy plants must fall before the main plant at its centre is exposed."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Space_Armor",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/0/03/Space_Armor_B_SG1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("スペースアーマー"),
             label: Some("Othello Multivision"),
             regions: [
                 Japan,
             ],
+            date: Some("1984-12"),
+            publisher: Some("Tsukuda Original"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "3c3b59321321061642f8cf609ae3e2cab56eb83b",
+                    label: Some("alt"),
                     size: Some(16384),
                 ),
-            ],
-        ),
-        (
-            label: Some("Othello Multivision, Alt"),
-            regions: [
-                Japan,
-            ],
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "bbffe62f8f851e3c4a62981437facb518054a8ab",
+                    label: Some("40 KB memory map"),
+                    defect: Some(MemoryMap),
                     size: Some(40960),
                 ),
-            ],
-        ),
-        (
-            label: Some("Rev 1, Othello Multivision"),
-            regions: [
-                Japan,
-            ],
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "a968b1debb39909cd83203244cc60da1e0003f71",
                     size: Some(16384),

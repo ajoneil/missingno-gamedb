@@ -1,14 +1,49 @@
 (
     title: "Zippy Race",
+    developer: Some("Irem"),
+    description: Some("A cross-country motorcycle race from Los Angeles to New York through four checkpoints, with fuel draining the whole way. A crash or a fall into a river costs a chunk of it; cans on the road top it up, and so does arriving at a checkpoint well placed. Wheelie zones and jump points score, but you cannot steer through them."),
+    links: [
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Zippy_Race",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual (cartridge)",
+            url: "https://segaretro.org/images/1/1d/Zippy_Race_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual (My Card)",
+            url: "https://segaretro.org/images/b/ba/Zippy_Race_MyCard_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/MotoRace_USA",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7C89B687E18DD87BA03E8A60C8864FD221BFE624",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ジッピーレース"),
             regions: [
                 Japan,
                 Australia,
             ],
-            languages: [
-                Japanese,
-            ],
+            date: Some("1984-03"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,10 +55,13 @@
             ],
         ),
         (
+            title: Some("摩托車遊美國"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Aaronix"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

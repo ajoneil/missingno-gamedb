@@ -1,0 +1,38 @@
+(
+    title: "Tank Battalion",
+    developer: Some("Namco"),
+    description: Some("A tank defends the eagle that marks your base while twenty enemy tanks pour in from the top of the screen each round. Clearing all twenty ends the round; losing the eagle ends the game as surely as running out of tanks."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tank_Battalion",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/Tank_Battalion",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("坦克大戰"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("DahJee"),
+            rom_size: Some(32768),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some(DahjeeA),
+            ),
+            artifacts: [
+                (
+                    sha1: "0ca3b740b28266a2a606127ed8967c684b67cb44",
+                    size: Some(32768),
+                ),
+            ],
+        ),
+    ],
+)

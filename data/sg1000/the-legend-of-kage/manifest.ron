@@ -1,0 +1,38 @@
+(
+    title: "The Legend of Kage",
+    developer: Some("Taito"),
+    description: Some("A ninja cuts through forest, fortress wall and castle to reach the kidnapped princess, armed with a shortsword up close and unlimited shuriken at range. Rescuing her does not end it: the season turns and the climb begins again. A crystal ball recolours his robes for bigger shuriken or more speed."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Legend_of_Kage",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/The_Legend_of_Kage",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("影子傳說"),
+            regions: [
+                Taiwan,
+            ],
+            publisher: Some("DahJee"),
+            rom_size: Some(49152),
+            hardware: (
+                tv_format: Some(Ntsc),
+                cart_type: Some(DahjeeA),
+            ),
+            artifacts: [
+                (
+                    sha1: "902dbb122bf0efc76604a876c3fae51c074bdc6a",
+                    size: Some(49152),
+                ),
+            ],
+        ),
+    ],
+)

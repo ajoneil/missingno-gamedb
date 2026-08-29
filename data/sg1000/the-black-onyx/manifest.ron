@@ -1,10 +1,43 @@
 (
     title: "The Black Onyx",
+    developer: Some("Bullet-Proof Software"),
+    description: Some("You create a party of up to five adventurers, kit them out in the town of Utsuro and take them down a secret entrance in the ruins into the labyrinth below, hunting the black jewel hidden somewhere in the Black Tower. Combat has no notion of distance, so there are no bows — only blades, shields and armour."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Black_Onyx",
+            link_type: Wiki,
+        ),
+        (
+            name: "Sega Retro",
+            url: "https://segaretro.org/The_Black_Onyx",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://segaretro.org/images/a/a6/Black_Onyx_SG-1000_JP_Manual.pdf",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BA17625039185ED40ADB9988664D373F3C59FCD6",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ザ・ブラック オニキス"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1987-03"),
+            publisher: Some("Sega"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
