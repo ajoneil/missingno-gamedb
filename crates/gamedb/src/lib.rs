@@ -24,9 +24,9 @@ pub use game::{
 pub use ids::{Date, ReleaseDate, Sha1, Slug};
 pub use load::{Database, Entry, LoadIssue, Tree};
 pub use platform::{
-    Controller, Enhancement, GameBoy, GameBoyColor, GbCartType, GbHardware, GbcHardware, Platform,
-    Sg1000, Sg1000CartType, Sg1000Hardware, TvStandard, Vcs, VcsCartType, VcsHardware,
-    platform_dirs,
+    AttributeKind, AttributeSpec, AttributeValue, BoardSpec, BoardValue, Controller, Enhancement,
+    GameBoy, GameBoyColor, GbCartType, GbHardware, GbcHardware, Platform, Sg1000, Sg1000CartType,
+    Sg1000Hardware, TvStandard, Vcs, VcsCartType, VcsHardware, platform_dirs,
 };
 pub use region::Region;
 pub use text::normalized_title;

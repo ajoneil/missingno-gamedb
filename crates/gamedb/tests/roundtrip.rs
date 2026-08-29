@@ -135,7 +135,7 @@ const SG1000_RAM_CART: &str = r#"(
     releases: [
         (
             regions: [Japan],
-            hardware: (cart_type: Some(OthelloRam)),
+            hardware: (cart_type: Some(OthelloRam(rom: Some(32768)))),
             artifacts: [(sha1: "d0cd594ddb321f707ddba8a044fa3e9b906e720a", size: Some(32768))],
         ),
         (
@@ -152,14 +152,15 @@ fn sg1000_board_round_trips() {
     let (game, canonical) = round_trip::<Sg1000>(SG1000_RAM_CART);
     assert_eq!(
         game.releases[0].hardware.cart_type,
-        Some(Sg1000CartType::OthelloRam)
+        Some(Sg1000CartType::OthelloRam { rom: Some(32768) })
     );
     assert_eq!(game.releases[0].hardware.tv_format, None);
     assert_eq!(game.releases[1].hardware.tv_format, Some(TvStandard::Pal));
     assert!(
-        canonical.contains(r#"cart_type: Some(OthelloRam)"#),
+        canonical.contains(r#"cart_type: Some(OthelloRam("#),
         "{canonical}"
     );
+    assert!(canonical.contains("rom: Some(32768)"), "{canonical}");
 }
 
 #[test]

@@ -3,6 +3,8 @@
 //! carrying a match arm per platform. A fact is a key, the kind of value it
 //! takes, and the curation guidance a reader needs to state it.
 
+use missingno_core::cartridge::{BoardSpec, BoardValue, BoardVocabulary};
+
 use crate::platform::{
     Controller, Enhancement, GbCartType, GbHardware, GbcHardware, Sg1000CartType, Sg1000Hardware,
     TvStandard, VcsCartType, VcsHardware,
@@ -19,9 +21,10 @@ pub struct FactDescriptor {
 
 pub enum FactKind {
     TvStandard,
-    /// A board/mapper code from the platform's own vocabulary.
+    /// A board from the platform's own vocabulary, and the parts that board
+    /// can carry — the catalogue is what a consumer renders and edits from.
     Board {
-        names: fn() -> Vec<&'static str>,
+        catalogue: fn() -> &'static [BoardSpec],
     },
     Controllers,
     Enhancement,
@@ -44,8 +47,9 @@ impl FactKind {
 #[derive(Clone, PartialEq, Debug)]
 pub enum FactValue {
     TvStandard(Option<TvStandard>),
-    /// A code from the board vocabulary; `None` clears back to unstated.
-    Board(Option<String>),
+    /// A board of the platform's vocabulary and the parts stated on it;
+    /// `None` clears back to unstated.
+    Board(Option<BoardValue>),
     /// Empty = the platform default.
     Controllers(Vec<Controller>),
     /// `Unknown` = absent.
@@ -56,12 +60,12 @@ pub trait HardwareFacts {
     fn descriptors() -> &'static [FactDescriptor];
     fn get(&self, key: &str) -> Option<FactValue>;
     /// `Err` on a key this platform doesn't state, a value of the wrong kind,
-    /// or a board code outside the platform's vocabulary.
+    /// or a board statement the platform's vocabulary refuses.
     fn set(&mut self, key: &str, value: FactValue) -> Result<(), String>;
 }
 
-fn board_fact<B: missingno_core::cartridge::BoardVocabulary>(board: Option<B>) -> FactValue {
-    FactValue::Board(board.map(|board| board.name().to_owned()))
+fn board_fact<B: BoardVocabulary>(board: Option<&B>) -> FactValue {
+    FactValue::Board(board.map(BoardVocabulary::to_value))
 }
 
 fn unknown_key(key: &str, descriptors: &'static [FactDescriptor]) -> String {
@@ -91,23 +95,18 @@ fn tv_standard(
     }
 }
 
-fn board<B: missingno_core::cartridge::BoardVocabulary>(
+/// The board a statement names. An unknown board, a part it does not carry and
+/// a value outside what that part takes are all refused in the vocabulary's own
+/// words, so this seam adds nothing to them.
+fn board<B: BoardVocabulary>(
     key: &str,
     value: FactValue,
     descriptors: &'static [FactDescriptor],
 ) -> Result<Option<B>, String> {
-    let FactValue::Board(code) = value else {
+    let FactValue::Board(stated) = value else {
         return Err(wrong_kind(key, descriptors));
     };
-    let Some(code) = code else {
-        return Ok(None);
-    };
-    B::from_name(&code).map(Some).ok_or_else(|| {
-        format!(
-            "unknown board name {code:?}; expected one of: {}",
-            B::names().join(", ")
-        )
-    })
+    stated.as_ref().map(B::from_value).transpose()
 }
 
 fn controllers(
@@ -132,8 +131,10 @@ fn enhancement(
     }
 }
 
-const GB_MAPPER_DOC: &str = "Cartridge mapper for this release. It overrides the header byte, which unlicensed \
-     carts lie about; unstated = as the header says.";
+const GB_BOARD_DOC: &str = "Cartridge board for this release: the mapper and the parts populated beside it — the ROM \
+     and RAM chips' sizes, a battery, a clock, a rumble motor. A stated board is a whole \
+     statement, replacing the header, which unlicensed carts lie about; unstated = as the \
+     header says.";
 
 impl HardwareFacts for GbHardware {
     fn descriptors() -> &'static [FactDescriptor] {
@@ -155,12 +156,12 @@ impl HardwareFacts for GbHardware {
                       by assumption.",
             },
             FactDescriptor {
-                key: "mapper",
-                label: "Mapper",
+                key: "cart_type",
+                label: "Board",
                 kind: FactKind::Board {
-                    names: <GbCartType as missingno_core::cartridge::BoardVocabulary>::names,
+                    catalogue: <GbCartType as BoardVocabulary>::catalogue,
                 },
-                doc: GB_MAPPER_DOC,
+                doc: GB_BOARD_DOC,
             },
         ]
     }
@@ -169,7 +170,7 @@ impl HardwareFacts for GbHardware {
         match key {
             "sgb" => Some(FactValue::Enhancement(self.sgb)),
             "cgb" => Some(FactValue::Enhancement(self.cgb)),
-            "mapper" => Some(board_fact(self.mapper)),
+            "cart_type" => Some(board_fact(self.cart_type.as_ref())),
             _ => None,
         }
     }
@@ -179,7 +180,7 @@ impl HardwareFacts for GbHardware {
         match key {
             "sgb" => self.sgb = enhancement(key, value, descriptors)?,
             "cgb" => self.cgb = enhancement(key, value, descriptors)?,
-            "mapper" => self.mapper = board(key, value, descriptors)?,
+            "cart_type" => self.cart_type = board(key, value, descriptors)?,
             _ => return Err(unknown_key(key, descriptors)),
         }
         Ok(())
@@ -189,18 +190,18 @@ impl HardwareFacts for GbHardware {
 impl HardwareFacts for GbcHardware {
     fn descriptors() -> &'static [FactDescriptor] {
         &[FactDescriptor {
-            key: "mapper",
-            label: "Mapper",
+            key: "cart_type",
+            label: "Board",
             kind: FactKind::Board {
-                names: <GbCartType as missingno_core::cartridge::BoardVocabulary>::names,
+                catalogue: <GbCartType as BoardVocabulary>::catalogue,
             },
-            doc: GB_MAPPER_DOC,
+            doc: GB_BOARD_DOC,
         }]
     }
 
     fn get(&self, key: &str) -> Option<FactValue> {
         match key {
-            "mapper" => Some(board_fact(self.mapper)),
+            "cart_type" => Some(board_fact(self.cart_type.as_ref())),
             _ => None,
         }
     }
@@ -208,7 +209,7 @@ impl HardwareFacts for GbcHardware {
     fn set(&mut self, key: &str, value: FactValue) -> Result<(), String> {
         let descriptors = Self::descriptors();
         match key {
-            "mapper" => self.mapper = board(key, value, descriptors)?,
+            "cart_type" => self.cart_type = board(key, value, descriptors)?,
             _ => return Err(unknown_key(key, descriptors)),
         }
         Ok(())
@@ -231,12 +232,16 @@ impl HardwareFacts for Sg1000Hardware {
                 key: "cart_type",
                 label: "Board",
                 kind: FactKind::Board {
-                    names: <Sg1000CartType as missingno_core::cartridge::BoardVocabulary>::names,
+                    catalogue: <Sg1000CartType as BoardVocabulary>::catalogue,
                 },
-                doc: "Cartridge board code, e.g. \"OTHELLO\", \"DAHJEE-A\". An SG-1000 dump \
-                      carries no header and no length that tells a RAM-bearing board from a \
-                      plain one, so the database is the only thing that can name one; \
-                      unstated = a plain ROM.",
+                doc: "Cartridge board, e.g. \"OthelloRam\", \"DahjeeA\", with the ROM chip \
+                      measured on it. An SG-1000 dump carries no header and no length that \
+                      tells a RAM-bearing board from a plain one, so the database is the only \
+                      thing that can name one; unstated = a plain ROM. The ROM is measured \
+                      silicon, not the image's length: a memory-map dump runs larger than the \
+                      chip it was read from, so state what the mirroring implies. Unstated \
+                      where nobody has measured it — a dump we do not hold stays unmeasured, \
+                      however confidently a catalogue names a size.",
             },
         ]
     }
@@ -244,7 +249,7 @@ impl HardwareFacts for Sg1000Hardware {
     fn get(&self, key: &str) -> Option<FactValue> {
         match key {
             "tv_format" => Some(FactValue::TvStandard(self.tv_format)),
-            "cart_type" => Some(board_fact(self.cart_type)),
+            "cart_type" => Some(board_fact(self.cart_type.as_ref())),
             _ => None,
         }
     }
@@ -275,11 +280,14 @@ impl HardwareFacts for VcsHardware {
                 key: "cart_type",
                 label: "Board",
                 kind: FactKind::Board {
-                    names: <VcsCartType as missingno_core::cartridge::BoardVocabulary>::names,
+                    catalogue: <VcsCartType as BoardVocabulary>::catalogue,
                 },
-                doc: "Cartridge board code, e.g. \"F8\", \"F6SC\", \"4K\" — stated per \
-                      release where the board differs or an import got it wrong; unstated = \
-                      as the dump's length reads.",
+                doc: "Cartridge board, e.g. \"Atari8K\", \"Atari16KSuperchip\", \"Plain4K\" — \
+                      stated per release where the board differs or an import got it wrong; \
+                      unstated = as the dump's length reads. Only the Tigervision family takes \
+                      a ROM size beside it, that board running 8 KB to 32 KB; every other board \
+                      fixes its size by wiring, where restating it says nothing. Where it is \
+                      stated it is measured silicon, unstated where nobody has measured it.",
             },
             FactDescriptor {
                 key: "controllers",
@@ -296,7 +304,7 @@ impl HardwareFacts for VcsHardware {
     fn get(&self, key: &str) -> Option<FactValue> {
         match key {
             "tv_format" => Some(FactValue::TvStandard(self.tv_format)),
-            "cart_type" => Some(board_fact(self.cart_type)),
+            "cart_type" => Some(board_fact(self.cart_type.as_ref())),
             "controllers" => Some(FactValue::Controllers(self.controllers.clone())),
             _ => None,
         }
@@ -316,6 +324,8 @@ impl HardwareFacts for VcsHardware {
 
 #[cfg(test)]
 mod tests {
+    use missingno_core::cartridge::AttributeValue;
+
     use super::*;
     use crate::{platform::Platform, with_platforms};
 
@@ -358,6 +368,10 @@ mod tests {
         with_platforms!(declared);
     }
 
+    fn set_board<H: HardwareFacts>(hardware: &mut H, board: BoardValue) -> Result<(), String> {
+        hardware.set("cart_type", FactValue::Board(Some(board)))
+    }
+
     #[test]
     fn values_roundtrip() {
         let mut vcs = VcsHardware::default();
@@ -368,8 +382,7 @@ mod tests {
             FactValue::Controllers(vec![Controller::Paddle]),
         )
         .unwrap();
-        vcs.set("cart_type", FactValue::Board(Some("Atari8K".to_owned())))
-            .unwrap();
+        set_board(&mut vcs, BoardValue::new("Atari8K")).unwrap();
         assert_eq!(
             vcs.get("tv_format"),
             Some(FactValue::TvStandard(Some(TvStandard::Pal)))
@@ -380,17 +393,14 @@ mod tests {
         );
         assert_eq!(
             vcs.get("cart_type"),
-            Some(FactValue::Board(Some("Atari8K".to_owned())))
+            Some(FactValue::Board(Some(BoardValue::new("Atari8K"))))
         );
 
         let mut sg1000 = Sg1000Hardware::default();
-        sg1000
-            .set("cart_type", FactValue::Board(Some("CastleRam".to_owned())))
-            .unwrap();
-        assert_eq!(sg1000.cart_type, Some(Sg1000CartType::CastleRam));
+        set_board(&mut sg1000, BoardValue::new("CastleRam")).unwrap();
         assert_eq!(
-            sg1000.get("cart_type"),
-            Some(FactValue::Board(Some("CastleRam".to_owned())))
+            sg1000.cart_type,
+            Some(Sg1000CartType::CastleRam { rom: None })
         );
 
         let mut gb = GbHardware::default();
@@ -407,14 +417,42 @@ mod tests {
     }
 
     #[test]
+    fn a_board_reads_back_the_parts_it_was_stated_with() {
+        let measured = BoardValue::new("DahjeeB").with("rom", AttributeValue::Bytes(49152));
+        let mut sg1000 = Sg1000Hardware::default();
+        set_board(&mut sg1000, measured.clone()).unwrap();
+        assert_eq!(
+            sg1000.cart_type,
+            Some(Sg1000CartType::DahjeeB { rom: Some(49152) })
+        );
+        assert_eq!(
+            sg1000.get("cart_type"),
+            Some(FactValue::Board(Some(measured)))
+        );
+
+        let populated = BoardValue::new("Mbc5")
+            .with_choice("rom", "1M")
+            .with_choice("ram", "32K")
+            .with_toggle("battery", true)
+            .with_toggle("rumble", false);
+        let mut gb = GbHardware::default();
+        set_board(&mut gb, populated.clone()).unwrap();
+        assert_eq!(gb.get("cart_type"), Some(FactValue::Board(Some(populated))));
+    }
+
+    #[test]
     fn a_board_clears_back_to_unstated() {
-        let mut gb = GbHardware {
-            mapper: Some(GbCartType::Mbc1),
-            ..GbHardware::default()
-        };
-        gb.set("mapper", FactValue::Board(None)).unwrap();
-        assert_eq!(gb.mapper, None);
-        assert_eq!(gb.get("mapper"), Some(FactValue::Board(None)));
+        let mut gb = GbHardware::default();
+        set_board(
+            &mut gb,
+            BoardValue::new("Mbc1")
+                .with_choice("rom", "512K")
+                .with_toggle("battery", true),
+        )
+        .unwrap();
+        gb.set("cart_type", FactValue::Board(None)).unwrap();
+        assert_eq!(gb.cart_type, None);
+        assert_eq!(gb.get("cart_type"), Some(FactValue::Board(None)));
     }
 
     #[test]
@@ -423,22 +461,37 @@ mod tests {
             .set("tv_format", FactValue::TvStandard(None))
             .unwrap_err();
         assert!(error.contains("\"tv_format\""), "{error}");
-        assert!(error.contains("mapper"), "{error}");
+        assert!(error.contains("cart_type"), "{error}");
     }
 
     #[test]
-    fn an_unknown_board_name_names_the_name() {
-        let error = VcsHardware::default()
-            .set("cart_type", FactValue::Board(Some("F9".to_owned())))
-            .unwrap_err();
-        assert!(error.contains("\"F9\""), "{error}");
-        assert!(error.contains("Atari8K"), "{error}");
+    fn a_board_the_vocabulary_refuses_is_refused_in_its_words() {
+        let unknown = set_board(&mut VcsHardware::default(), BoardValue::new("F9")).unwrap_err();
+        assert!(unknown.contains("unknown Atari VCS board"), "{unknown}");
+        assert!(unknown.contains("F9"), "{unknown}");
+
+        let wired = set_board(
+            &mut VcsHardware::default(),
+            BoardValue::new("Plain4K").with("rom", AttributeValue::Bytes(4096)),
+        )
+        .unwrap_err();
+        assert!(wired.contains("carries no \"rom\" attribute"), "{wired}");
+
+        let unpopulated =
+            set_board(&mut GbHardware::default(), BoardValue::new("Mbc5")).unwrap_err();
+        assert!(
+            unpopulated.contains("needs a \"rom\" attribute"),
+            "{unpopulated}"
+        );
     }
 
     #[test]
     fn a_value_of_the_wrong_kind_names_the_kind() {
         let error = VcsHardware::default()
-            .set("tv_format", FactValue::Board(Some("Atari8K".to_owned())))
+            .set(
+                "tv_format",
+                FactValue::Board(Some(BoardValue::new("Atari8K"))),
+            )
             .unwrap_err();
         assert!(error.contains("TV standard"), "{error}");
     }

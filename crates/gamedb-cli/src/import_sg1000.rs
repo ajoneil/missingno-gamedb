@@ -313,7 +313,9 @@ mod tests {
             date: Some("1985"),
             publisher: Some("Sega / Tsukuda Original"),
             hardware: (
-                cart_type: Some(OthelloRam),
+                cart_type: Some(OthelloRam(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
@@ -383,7 +385,10 @@ mod tests {
         assert_eq!(othello.releases.len(), 2);
         let seeded = &othello.releases[0];
         assert_eq!(seeded.publisher.as_deref(), Some("Sega / Tsukuda Original"));
-        assert_eq!(seeded.hardware.cart_type, Some(Sg1000CartType::OthelloRam));
+        assert_eq!(
+            seeded.hardware.cart_type,
+            Some(Sg1000CartType::OthelloRam { rom: Some(32768) })
+        );
         assert_eq!(seeded.artifacts[0].sha1.as_str(), OTHELLO_SHA1);
         let folded = &othello.releases[1];
         assert_eq!(folded.title, None);

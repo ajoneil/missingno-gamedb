@@ -4,6 +4,11 @@ use serde::{Deserialize, Serialize, de::DeserializeOwned};
 
 use crate::facts::HardwareFacts;
 
+/// A board and the parts populated on it cross the facts seam untyped, so a
+/// consumer states one without naming any console's enum.
+pub use missingno_core::cartridge::{
+    AttributeKind, AttributeSpec, AttributeValue, BoardSpec, BoardValue,
+};
 /// The board vocabularies are the emulator cores' own, so a hardware payload
 /// names a board some silicon model builds and an unlisted code fails to parse.
 pub use missingno_gb::cartridge::GbCartType;
@@ -81,9 +86,11 @@ pub struct GbHardware {
     pub sgb: Enhancement,
     #[serde(default, skip_serializing_if = "Enhancement::is_unknown")]
     pub cgb: Enhancement,
-    /// Cartridge mapper, e.g. `Mbc1`, `Mbc3TimerRamBattery`; `None` = as the header says.
+    /// Cartridge board — the mapper and the parts populated beside it, e.g.
+    /// `Mbc1(rom: Kb512, ram: Some(Kb8), battery: true)`; `None` = as the
+    /// header says.
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub mapper: Option<GbCartType>,
+    pub cart_type: Option<GbCartType>,
 }
 
 /// Whether a Game Boy release detects and uses an enhancing console.
@@ -105,9 +112,11 @@ impl Enhancement {
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct GbcHardware {
-    /// Cartridge mapper, e.g. `Mbc5RumbleRamBattery`; `None` = as the header says.
+    /// Cartridge board — the mapper and the parts populated beside it, e.g.
+    /// `Mbc5(rom: Mb1, ram: Some(Kb32), battery: true, rumble: true)`;
+    /// `None` = as the header says.
     #[serde(default, skip_serializing_if = "Option::is_none")]
-    pub mapper: Option<GbCartType>,
+    pub cart_type: Option<GbCartType>,
 }
 
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
@@ -117,7 +126,8 @@ pub struct Sg1000Hardware {
     /// `None` = unstated, never a default.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub tv_format: Option<TvStandard>,
-    /// Cartridge board, e.g. `OthelloRam`, `DahjeeA`; `None` = a plain ROM.
+    /// Cartridge board and the ROM measured on it, e.g.
+    /// `DahjeeA(rom: Some(49152))`; `None` = a plain ROM, nothing measured.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<Sg1000CartType>,
 }
@@ -127,7 +137,9 @@ pub struct Sg1000Hardware {
 pub struct VcsHardware {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub tv_format: Option<TvStandard>,
-    /// Cartridge board, e.g. `Atari8K`, `Atari16KSuperchip`, `Plain4K`.
+    /// Cartridge board, e.g. `Atari8K`, `Atari16KSuperchip`, `Plain4K`. The
+    /// Tigervision family states the ROM measured on it; every other board
+    /// fixes its size by wiring.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<VcsCartType>,
     /// Controllers the release needs; empty = the platform default (joystick).

@@ -43,20 +43,20 @@ impl SlugTokens for Vcs {
 
 impl SlugTokens for GameBoy {
     fn tokens(game: &Game<Self>) -> BTreeSet<String> {
-        mapper_tokens(
+        board_tokens(
             game.releases
                 .iter()
-                .map(|r| r.hardware.mapper.map(|m| m.name())),
+                .map(|r| r.hardware.cart_type.map(|board| board.name())),
         )
     }
 }
 
 impl SlugTokens for GameBoyColor {
     fn tokens(game: &Game<Self>) -> BTreeSet<String> {
-        mapper_tokens(
+        board_tokens(
             game.releases
                 .iter()
-                .map(|r| r.hardware.mapper.map(|m| m.name())),
+                .map(|r| r.hardware.cart_type.map(|board| board.name())),
         )
     }
 }
@@ -71,11 +71,8 @@ impl SlugTokens for Sg1000 {
     }
 }
 
-fn mapper_tokens<'a>(mappers: impl Iterator<Item = Option<&'a str>>) -> BTreeSet<String> {
-    mappers
-        .flatten()
-        .map(|mapper| mapper.to_lowercase())
-        .collect()
+fn board_tokens<'a>(boards: impl Iterator<Item = Option<&'a str>>) -> BTreeSet<String> {
+    boards.flatten().map(|board| board.to_lowercase()).collect()
 }
 
 /// Strip every trailing `-token` the entry's hardware vouches for.
