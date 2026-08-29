@@ -1,11 +1,33 @@
 (
-    title: "4-in-1 Funpak - Volume II",
+    title: "4-in-1 Funpak: Volume II",
+    developer: Some("Beam Software"),
+    description: Some("Four card and dice games on one cartridge: solitaire, dominoes, cribbage and yacht. Where the first Fun Pak collected board games, this one turns to the card table and the dice cup."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/4-in-1-funpak-volume-2",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C5A250925AD39853548E2CCC662B26EB1D090EA9",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1993"),
+            publisher: Some("Interplay"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5efeddce9e03ad56ee755c58fb658b045dc0fa53",

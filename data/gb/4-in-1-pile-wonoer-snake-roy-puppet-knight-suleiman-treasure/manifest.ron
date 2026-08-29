@@ -1,0 +1,34 @@
+(
+    title: "4 in 1: Pile Wonoer + Snake Roy + Puppet Knight + Suleiman Treasure",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the fourth of nine such volumes, each collecting a different set of the company\'s own early titles. The earlier volumes draw mostly on Sachen\'s Mega Duck handheld, with Game Boy originals appearing only later in the run."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/110202-4-in-1-volume-4",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://images.launchbox-app.com/4138ad16-7650-4a9a-9f51-1d516d109d58.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb256,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "ca7990dc03a3b3ada1dce37afc4490deaf872402",
+                ),
+            ],
+        ),
+    ],
+)

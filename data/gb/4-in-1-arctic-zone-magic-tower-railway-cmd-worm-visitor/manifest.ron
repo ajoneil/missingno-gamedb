@@ -1,0 +1,34 @@
+(
+    title: "4 in 1: Arctic Zone + Magic Tower + Railway Cmd + Worm Visitor",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the fifth of nine such volumes, each collecting a different set of the company\'s own early titles. Most of the early volumes\' contents began on Sachen\'s Mega Duck handheld rather than being written for this hardware."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/110203-4-in-1-volume-5",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://images.launchbox-app.com/26cd4bdc-1f1d-4cab-b9d2-11c86cf1ca58.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb256,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "2107979104cff88bcd635215a936bbc44354ea7c",
+                ),
+            ],
+        ),
+    ],
+)

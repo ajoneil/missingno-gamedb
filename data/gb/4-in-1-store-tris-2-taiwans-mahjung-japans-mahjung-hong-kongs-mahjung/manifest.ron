@@ -1,0 +1,32 @@
+(
+    title: "4 in 1: Store Tris 2 + Taiwan\'s Mahjung + Japan\'s Mahjung + Hong Kong\'s Mahjung",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the third of nine such volumes, each collecting a different set of the company\'s own early titles. This one was sold into Taiwan rather than Europe."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/129863-sachen-4-in-1-vol-3",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Taiwan,
+            ],
+            date: Some("1997"),
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb64,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "b5a3ee09692476d801d873a703d508d17ee24fbd",
+                ),
+            ],
+        ),
+    ],
+)

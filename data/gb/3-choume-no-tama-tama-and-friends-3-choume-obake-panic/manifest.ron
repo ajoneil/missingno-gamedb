@@ -1,10 +1,40 @@
 (
     title: "3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!!",
+    developer: Some("Tom Create"),
+    description: Some("You play a small cat making its way across the city, dodging cars and hostile dogs while tracking down the rest of your animal friends. A few mini-games along the way raise how many hits you can take before one stops you."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Tama_and_Friends",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/3-choume-no-tama-tama-and-friends-3-choume-obake-panic-",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/1B919315C912858856CD80ACF08547F10E17870C",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994-08"),
+            publisher: Some("B-AI"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0982bcc82deb9c4db08e602a22a2bb4f31e7e6ae",

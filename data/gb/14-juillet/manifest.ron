@@ -1,11 +1,35 @@
 (
     title: "14 Juillet",
+    developer: Some("Johndo Studio"),
+    description: Some("A two-part game for the French national holiday. The first half is a retrospective of the symbols the author picks as best representing France; the second puts your \"Francitude\" to the test through an everyday trial that proves harder than expected. Stray buttons do unexpected things depending on the scene."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://johndo-studio.itch.io/14-juillet",
+            link_type: DownloadPage,
+            languages: [
+                French,
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("Fr"),
             regions: [
                 World,
             ],
+            languages: [
+                French,
+            ],
+            date: Some("2022-07-13"),
+            hardware: (
+                cart_type: Some(Mbc5(
+                    rom: Mb1,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "02f387457a779cbd2f493e52743cd32c169c098e",

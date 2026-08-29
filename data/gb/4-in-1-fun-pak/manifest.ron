@@ -1,10 +1,40 @@
 (
     title: "4-in-1 Fun Pak",
+    developer: Some("Beam Software"),
+    description: Some("Four board games on one cartridge: backgammon, Sargon Chess, reversi and checkers. Each plays against the machine, against a second player sharing the handheld, or against another player over a link cable."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/4-in-1-fun-pak",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/4-in-1_Fun_Pak_-_1992_-_Interplay.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3BBB5E4088557677FEF4FB9C2F5420A7AD327299",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1992"),
+            publisher: Some("Imagineer"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f1cf115df0246f08d4e886cb046ebd2aa431a6c9",
@@ -16,6 +46,15 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1992"),
+            publisher: Some("Interplay"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "b1443c09ee3f2bee5437111a635b6d84155f600e",

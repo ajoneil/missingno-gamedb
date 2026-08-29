@@ -1,11 +1,19 @@
 (
     title: "8-in-1",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("Two of the company\'s four-game volumes stacked onto one cartridge, its menu listing all eight together: Ant Soldier, Skyace, Dan Laser and Zoo Block from the one, Captain Knick-Knack, Flea War, Explosive Brick and Magic Maze from the other."),
+    curated: true,
     releases: [
         (
-            label: Some("En, Unl"),
             regions: [
                 Taiwan,
             ],
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb512,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f57efd4d5063cb87519fc3b574377cc9a2a841ee",

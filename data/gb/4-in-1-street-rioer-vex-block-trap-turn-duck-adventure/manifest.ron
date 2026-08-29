@@ -1,0 +1,34 @@
+(
+    title: "4 in 1: Street Rioer + Vex Block + Trap & Turn + Duck Adventure",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the first of nine such volumes, each collecting a different set of the company\'s own early titles. The earlier volumes draw mostly on Sachen\'s Mega Duck handheld, with Game Boy originals appearing only later in the run."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/110198-4-in-1-volume-1",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://images.launchbox-app.com/143e0176-5732-48d3-958e-61020b42cc25.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb256,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "7506c75fdfa29935afb1e85f5b6013516b2e9f92",
+                ),
+            ],
+        ),
+    ],
+)

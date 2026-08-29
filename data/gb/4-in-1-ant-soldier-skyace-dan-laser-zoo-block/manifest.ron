@@ -1,0 +1,35 @@
+(
+    title: "4 in 1: Ant Soldier + Skyace + Dan Laser + Zoo Block",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the seventh of nine such volumes, each collecting a different set of the company\'s own early titles. The later volumes are where Game Boy originals appear, the earlier ones drawing mostly on Sachen\'s Mega Duck handheld."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/110205-4-in-1-volume-7",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://images.launchbox-app.com/74cfa884-e2f9-44c3-8e23-2f025dada8eb.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1995"),
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb256,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "0eef7f3934508ab79e1cad4ddf3bfdb3216b6b4f",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,34 @@
+(
+    title: "4 in 1: Zipball + Deep + Crazy Burger + Small Gorilla",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the last of nine such volumes, each collecting a different set of the company\'s own early titles. The later volumes are where Game Boy originals appear, the earlier ones drawing mostly on Sachen\'s Mega Duck handheld."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/110207-4-in-1-volume-9",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://images.launchbox-app.com/33a0cc8c-c610-43d8-8df0-082685fb1c05.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb256,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "39743e21935a9115fcb4ee86d67d51bdb4b5f6d6",
+                ),
+            ],
+        ),
+    ],
+)

@@ -1,0 +1,34 @@
+(
+    title: "4 in 1: Bomb Disposer + A. Force + 2nd Space + Black Forest Tale",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the sixth of nine such volumes, each collecting a different set of the company\'s own early titles. The earlier volumes draw mostly on Sachen\'s Mega Duck handheld, with Game Boy originals appearing only later in the run."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/110204-4-in-1-volume-6",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://images.launchbox-app.com/c5631bf9-0a9e-4c0e-b5e1-54aa9f73ba41.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb256,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "2e856de768c7cb442a206de8c94a23548027bb60",
+                ),
+            ],
+        ),
+    ],
+)

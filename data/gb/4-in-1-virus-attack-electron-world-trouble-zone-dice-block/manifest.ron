@@ -1,0 +1,36 @@
+(
+    title: "4 in 1: Virus Attack + Electron World + Trouble Zone + Dice Block",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the second of nine such volumes, each collecting a different set of the company\'s own early titles. Most of the early volumes\' contents began on Sachen\'s Mega Duck handheld rather than being written for this hardware."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/110200-4-in-1-volume-2",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://images.launchbox-app.com/c9168b20-0bbc-4f4f-9f05-ac6cbc4dd057.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            label: Some("Version 2"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1997"),
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb64,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "d9cb1721854709be7667f5dbce0adf2488c0919b",
+                ),
+            ],
+        ),
+    ],
+)

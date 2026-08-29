@@ -1,0 +1,35 @@
+(
+    title: "4 in 1: Captain Knick-Knack + Flea War + Explosive Brick + Magic Maze",
+    developer: Some("Thin Chen Enterprise"),
+    description: Some("A menu cartridge holding four unrelated games — the eighth of nine such volumes, each collecting a different set of the company\'s own early titles. The later volumes are where Game Boy originals appear, the earlier ones drawing mostly on Sachen\'s Mega Duck handheld."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/110206-4-in-1-volume-8",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://images.launchbox-app.com/7407ac80-9c8d-40c2-bca2-31000d380e3c.jpg",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1995"),
+            publisher: Some("Sachen"),
+            hardware: (
+                cart_type: Some(SachenMmc1(
+                    rom: Kb256,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "d7c11d56a42ed7c4ef2fe3c752931a63160d7429",
+                ),
+            ],
+        ),
+    ],
+)

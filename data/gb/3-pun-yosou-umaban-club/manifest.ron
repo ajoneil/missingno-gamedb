@@ -1,10 +1,34 @@
 (
     title: "3-pun Yosou - Umaban Club",
+    description: Some("A forecasting aid for Japan\'s real race meetings rather than a game of racing: choose the track, meeting day and race number, then enter each runner\'s popularity index for the cartridge to work into a prediction."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/3-pun-yosou-umaban-club",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E84ED05FD2B7B251A82158433D077BA3E622A57F",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("3分予想 馬番倶楽部"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992"),
+            publisher: Some("Hector"),
+            hardware: (
+                cart_type: Some(Mbc2(
+                    rom: Kb64,
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "76643f3f3481f7e515a24482779870862dd8b373",
