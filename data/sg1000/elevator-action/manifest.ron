@@ -35,14 +35,15 @@
             ],
             date: Some("1985-11"),
             publisher: Some("Sega"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "f72b3e44309e7c2e447c46928ce795453102f717",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -52,14 +53,15 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "0c419fdd769371f97c66030c51b21c786b89a105",
-                    size: Some(32768),
                 ),
             ],
         ),

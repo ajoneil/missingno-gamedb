@@ -6,7 +6,9 @@
             publisher: Some("Davie"),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(Tigervision),
+                cart_type: Some(Tigervision(
+                    rom: None,
+                )),
             ),
             artifacts: [
                 (

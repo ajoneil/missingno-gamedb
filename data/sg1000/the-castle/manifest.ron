@@ -37,15 +37,15 @@
             ],
             date: Some("1986-09"),
             publisher: Some("Sega"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(CastleRam),
+                cart_type: Some(CastleRam(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "2681786bffccf58b59410c331865d30a4d027087",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -55,15 +55,15 @@
                 Taiwan,
             ],
             publisher: Some("DahJee"),
-            rom_size: Some(49152),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(DahjeeB),
+                cart_type: Some(DahjeeB(
+                    rom: Some(49152),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "5a81d5103487695cabd811aabd9e71f48b9e7996",
-                    size: Some(49152),
                 ),
             ],
         ),

@@ -40,14 +40,15 @@
                 Japan,
             ],
             publisher: Some("Sega"),
-            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(24576),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "9e153c7822a36230e85e9ac0ddc53d6fee810089",
-                    size: Some(24576),
                 ),
             ],
         ),
@@ -63,26 +64,25 @@
             ],
             date: Some("1983-07"),
             publisher: Some("Sega"),
-            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(24576),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "47aba6a295e5695db4c3aaa1dea8ad8ac961b5f9",
-                    size: Some(24576),
                 ),
                 (
                     sha1: "96dd55a63bae0abc666fe317d50612116100d7b1",
                     label: Some("overdump, 00 fill"),
                     defect: Some(Overdump),
-                    size: Some(32768),
                 ),
                 (
                     sha1: "01b65ecfb5307bff0d8222f266b9d641b6a203db",
                     label: Some("overdump, FF fill"),
                     defect: Some(Overdump),
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -93,15 +93,16 @@
                 Europe,
             ],
             publisher: Some("Sega"),
-            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(24576),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "4ea22b9a655c4cfe13500beb97e84da451752148",
                     defect: Some(MemoryMap),
-                    size: Some(40960),
                 ),
             ],
         ),
@@ -110,14 +111,15 @@
             regions: [
                 Taiwan,
             ],
-            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(24576),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "3fe3272374135e8b5e849bdcd12812a90bb9901c",
-                    size: Some(24576),
                 ),
             ],
         ),

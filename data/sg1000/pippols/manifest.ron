@@ -16,15 +16,15 @@
                 Taiwan,
             ],
             publisher: Some("Jumbo"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(DahjeeA),
+                cart_type: Some(DahjeeA(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "4a95b98e127fb0c6428d6debcfc92152069ac531",
-                    size: Some(32768),
                 ),
             ],
         ),

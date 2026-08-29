@@ -28,16 +28,17 @@
             ],
             date: Some("1983-12"),
             publisher: Some("Sega"),
-            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(16384),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "aeaa15155e7d4275880c35c866c45626daa4dab9",
                     label: Some("40 KB memory map"),
                     defect: Some(MemoryMap),
-                    size: Some(40960),
                 ),
             ],
         ),

@@ -35,20 +35,20 @@
             ],
             date: Some("1986-08"),
             publisher: Some("Sega"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "4a54933135cdff546fd79cbc61a38355f7335f3f",
                     label: Some("Rev 0"),
-                    size: Some(32768),
                 ),
                 (
                     sha1: "240600a0dda16809f49b173f731c7fdaf921466a",
                     label: Some("Rev 1"),
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -58,14 +58,15 @@
             regions: [
                 Taiwan,
             ],
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "8f261b955162c179fe4c936ece767bbf25c4888c",
-                    size: Some(32768),
                 ),
             ],
         ),

@@ -31,20 +31,20 @@
             ],
             date: Some("1983-07"),
             publisher: Some("Sega"),
-            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(24576),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "2e6810c0c0c02c0fdda6fcaeae835cf94ab9bcba",
                     label: Some("Rev 0"),
-                    size: Some(24576),
                 ),
                 (
                     sha1: "81015cea7e5ff08bd7d20953a702d47efdb8c11c",
                     label: Some("Rev 1"),
-                    size: Some(24576),
                 ),
             ],
         ),
@@ -57,14 +57,15 @@
                 Japanese,
             ],
             publisher: Some("Aaronix"),
-            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(24576),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "bd5130d36fc0ad008abfc524bb0c37290e7d0189",
-                    size: Some(24576),
                 ),
             ],
         ),

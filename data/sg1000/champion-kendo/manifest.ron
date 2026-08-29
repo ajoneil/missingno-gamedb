@@ -29,14 +29,15 @@
             ],
             date: Some("1986-04"),
             publisher: Some("Sega"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "8565fc398d0206100da785d10e008f7f6a3c225e",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -45,14 +46,15 @@
             regions: [
                 Taiwan,
             ],
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "621cf09649e9244714fa01652b066cd1a477279e",
-                    size: Some(32768),
                 ),
             ],
         ),

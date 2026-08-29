@@ -22,14 +22,15 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "cba791acd9e0f46bfa6132645bf44027e100c68a",
-                    size: Some(32768),
                 ),
             ],
         ),

@@ -43,21 +43,21 @@
             ],
             date: Some("1983-12"),
             publisher: Some("Sega"),
-            rom_size: Some(24576),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(24576),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "bea768b27c09bec805f0c70545d2f1435e3a3ddf",
                     label: Some("40 KB memory map"),
                     defect: Some(MemoryMap),
-                    size: Some(40960),
                 ),
                 (
                     sha1: "6476bc0fc1608dd69a1ae62617ea4719bc7eaa50",
                     defect: Some(BadDump),
-                    size: Some(40960),
                 ),
             ],
         ),
@@ -67,14 +67,15 @@
                 Japan,
             ],
             publisher: Some("Sega"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "4ca8182b8f7c798d7222295978e2556ff115b848",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -86,14 +87,15 @@
                 Europe,
             ],
             publisher: Some("Sega"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "694228631d09ed06c8850fd164c6d99b12ff173d",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -103,14 +105,15 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "464ec3c9acfefd0ad244a43033985e88798905f9",
-                    size: Some(32768),
                 ),
             ],
         ),

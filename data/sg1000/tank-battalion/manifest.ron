@@ -22,15 +22,15 @@
                 Taiwan,
             ],
             publisher: Some("DahJee"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(DahjeeA),
+                cart_type: Some(DahjeeA(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "0ca3b740b28266a2a606127ed8967c684b67cb44",
-                    size: Some(32768),
                 ),
             ],
         ),

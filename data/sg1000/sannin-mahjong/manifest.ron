@@ -32,20 +32,20 @@
             ],
             date: Some("1984-05"),
             publisher: Some("Tsukuda Original"),
-            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(16384),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "75dd13ea139a91f4e471e658ab19f9847e15576c",
-                    size: Some(16384),
                 ),
                 (
                     sha1: "a5c2acba93cd3809577f401c00fa9d728627ed60",
                     label: Some("alt"),
                     defect: Some(MemoryMap),
-                    size: Some(40960),
                 ),
             ],
         ),
@@ -58,14 +58,15 @@
                 Japanese,
             ],
             publisher: Some("Aaronix"),
-            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(16384),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "245e9adf0fdb33849f1e6ef872c1b204cbed5754",
-                    size: Some(16384),
                 ),
             ],
         ),

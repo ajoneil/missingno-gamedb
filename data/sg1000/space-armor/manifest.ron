@@ -26,25 +26,24 @@
             ],
             date: Some("1984-12"),
             publisher: Some("Tsukuda Original"),
-            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(16384),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "3c3b59321321061642f8cf609ae3e2cab56eb83b",
                     label: Some("alt"),
-                    size: Some(16384),
                 ),
                 (
                     sha1: "bbffe62f8f851e3c4a62981437facb518054a8ab",
                     label: Some("40 KB memory map"),
                     defect: Some(MemoryMap),
-                    size: Some(40960),
                 ),
                 (
                     sha1: "a968b1debb39909cd83203244cc60da1e0003f71",
-                    size: Some(16384),
                 ),
             ],
         ),

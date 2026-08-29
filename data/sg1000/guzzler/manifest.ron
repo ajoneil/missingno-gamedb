@@ -34,14 +34,15 @@
             ],
             date: Some("1983-10"),
             publisher: Some("Tsukuda Original"),
-            rom_size: Some(8192),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(8192),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "d42b2c5f1da4e0fbd29fcea91bfc092ae46da4b8",
-                    size: Some(8192),
                 ),
             ],
         ),
@@ -51,14 +52,15 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
-            rom_size: Some(8192),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(8192),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "5c51f9846fb8220ab7dd6db5d6911cf4e985bfe9",
-                    size: Some(8192),
                 ),
             ],
         ),

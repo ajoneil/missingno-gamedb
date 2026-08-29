@@ -6,7 +6,9 @@
             publisher: Some("Atari"),
             hardware: (
                 tv_format: Some(Pal),
-                cart_type: Some(Tigervision),
+                cart_type: Some(Tigervision(
+                    rom: None,
+                )),
             ),
             artifacts: [
                 (

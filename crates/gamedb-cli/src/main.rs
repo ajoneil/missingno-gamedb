@@ -6,6 +6,7 @@ mod import_nointro;
 mod import_sg1000;
 mod legacy;
 mod migrate_homebrew;
+mod migrate_sizes;
 mod migrate_vcs;
 mod report;
 mod text;
@@ -52,6 +53,13 @@ enum Command {
         #[arg(default_value = ".")]
         path: PathBuf,
         /// Ambiguity report output
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+    },
+    /// One-shot: state each release's ROM on its board and drop dump lengths
+    MigrateSizes {
+        #[arg(default_value = ".")]
+        path: PathBuf,
         #[arg(long, default_value = "migration-report.md")]
         report: PathBuf,
     },
@@ -161,6 +169,18 @@ fn main() -> ExitCode {
                         "{} variant entries collapsed into {} games ({} releases)",
                         s.entries_before, s.games_after, s.releases
                     )
+                })
+            })
+        }
+        Command::MigrateSizes { path, report } => {
+            let path = resolve_db_root(&path);
+            run_migration(&path.clone(), &report, "migrate sizes", |r| {
+                migrate_sizes::run(&path, r).map(|s| {
+                    s.trees
+                        .iter()
+                        .map(|tree| tree.line())
+                        .collect::<Vec<_>>()
+                        .join("\n")
                 })
             })
         }

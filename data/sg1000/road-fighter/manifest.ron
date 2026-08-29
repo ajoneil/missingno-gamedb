@@ -21,15 +21,15 @@
             regions: [
                 Taiwan,
             ],
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(DahjeeB),
+                cart_type: Some(DahjeeB(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "2755f74019dc94559fd0c2248e2ecb7f48879b90",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -39,15 +39,15 @@
                 Taiwan,
             ],
             publisher: Some("Jumbo"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(DahjeeA),
+                cart_type: Some(DahjeeA(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "4f1a139974e3db27af5973bc9572ed68acd6ea68",
-                    size: Some(32768),
                 ),
             ],
         ),

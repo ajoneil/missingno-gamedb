@@ -37,14 +37,15 @@
             ],
             date: Some("1987-03"),
             publisher: Some("Sega"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "7ecb9ac646346900046a61ff0242d6c90a812eda",
-                    size: Some(32768),
                 ),
             ],
         ),

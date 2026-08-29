@@ -20,14 +20,15 @@
                 Korea,
             ],
             publisher: Some("Aaronix"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "34899ad454a56826d53028bef8fed7f5d2c6a78a",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -37,14 +38,15 @@
                 Taiwan,
             ],
             publisher: Some("Aaronix"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "67ec5859d293d9236d21b71e63580b6a53b90244",
-                    size: Some(32768),
                 ),
             ],
         ),

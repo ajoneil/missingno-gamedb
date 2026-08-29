@@ -8,12 +8,13 @@
             publisher: Some("fb39ca4"),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(TigervisionRam),
+                cart_type: Some(TigervisionRam(
+                    rom: None,
+                )),
             ),
             artifacts: [
                 (
                     sha1: "91096b12152760318a5dfb933d5615d2f94c45c5",
-                    size: Some(491520),
                 ),
             ],
         ),

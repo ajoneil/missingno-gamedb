@@ -22,15 +22,15 @@
             ],
             date: Some("1986"),
             publisher: Some("DahJee"),
-            rom_size: Some(49152),
             hardware: (
                 tv_format: Some(Ntsc),
-                cart_type: Some(DahjeeA),
+                cart_type: Some(DahjeeA(
+                    rom: Some(49152),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "44fb2dca3774f859f0ae0ad4d809a67f760cf9ae",
-                    size: Some(49152),
                 ),
             ],
         ),

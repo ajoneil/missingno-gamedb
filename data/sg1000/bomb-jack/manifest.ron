@@ -35,14 +35,15 @@
             ],
             date: Some("1985-12"),
             publisher: Some("Sega"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "7859b9ee5614c595cb57a832ef7a8f1ab473b45b",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -52,14 +53,15 @@
             regions: [
                 Taiwan,
             ],
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "ac94ddc1839dcd2ade443da0e8667e643b11f3e7",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -69,14 +71,15 @@
                 Korea,
             ],
             publisher: Some("Boram"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "835d0ea1c0cf1723ae95ba60ea0a929780ebaf71",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -85,14 +88,15 @@
             regions: [
                 Taiwan,
             ],
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "8d7b786283e5b42e34432ecf1b3744eae00575de",
-                    size: Some(32768),
                 ),
             ],
         ),
@@ -103,14 +107,15 @@
                 Korea,
             ],
             publisher: Some("Boram"),
-            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
+                cart_type: Some(Flat(
+                    rom: Some(32768),
+                )),
             ),
             artifacts: [
                 (
                     sha1: "b6b36a0280344214bdb8d9184244e21e9fb7371f",
-                    size: Some(32768),
                 ),
             ],
         ),
