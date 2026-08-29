@@ -32,6 +32,7 @@
             ],
             date: Some("1984-05"),
             publisher: Some("Tsukuda Original"),
+            rom_size: Some(16384),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -40,26 +41,9 @@
                     sha1: "75dd13ea139a91f4e471e658ab19f9847e15576c",
                     size: Some(16384),
                 ),
-            ],
-        ),
-        (
-            title: Some("三人麻雀"),
-            label: Some("Othello Multivision"),
-            regions: [
-                Japan,
-            ],
-            languages: [
-                Japanese,
-            ],
-            publisher: Some("Tsukuda Original"),
-            rom_size: Some(16384),
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "a5c2acba93cd3809577f401c00fa9d728627ed60",
-                    label: Some("40 KB memory map"),
+                    label: Some("alt"),
                     defect: Some(MemoryMap),
                     size: Some(40960),
                 ),

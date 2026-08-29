@@ -23,7 +23,6 @@
     releases: [
         (
             title: Some("GPワールド"),
-            label: Some("Rev 0"),
             regions: [
                 Japan,
             ],
@@ -36,24 +35,12 @@
             artifacts: [
                 (
                     sha1: "40ae9c24c61188c6f02eba1b83109c5c4d86e64b",
+                    label: Some("Rev 0"),
                     size: Some(32768),
                 ),
-            ],
-        ),
-        (
-            title: Some("GPワールド"),
-            label: Some("Rev 1"),
-            regions: [
-                Japan,
-            ],
-            publisher: Some("Sega"),
-            rom_size: Some(32768),
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "37aa4812d37445c9e86bc4e02f056fb50d19dc6a",
+                    label: Some("Rev 1"),
                     size: Some(32768),
                 ),
             ],

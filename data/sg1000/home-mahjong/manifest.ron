@@ -22,7 +22,7 @@
     curated: true,
     releases: [
         (
-            label: Some("Rev 0"),
+            title: Some("ホーム麻雀"),
             regions: [
                 Japan,
             ],
@@ -38,27 +38,12 @@
             artifacts: [
                 (
                     sha1: "0202c0d86c4b793c58af021edfb3c077ae3169a5",
+                    label: Some("Rev 0"),
                     size: Some(49152),
                 ),
-            ],
-        ),
-        (
-            title: Some("ホーム麻雀"),
-            label: Some("Rev 1"),
-            regions: [
-                Japan,
-            ],
-            languages: [
-                Japanese,
-            ],
-            publisher: Some("Sega"),
-            rom_size: Some(49152),
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "ac38a279f24e132acf6ac9fd27b53d1b939d2e7e",
+                    label: Some("Rev 1"),
                     size: Some(49152),
                 ),
             ],

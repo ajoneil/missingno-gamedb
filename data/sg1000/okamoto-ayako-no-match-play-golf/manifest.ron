@@ -22,6 +22,7 @@
     curated: true,
     releases: [
         (
+            title: Some("岡本綾子のマッチプレイゴルフ"),
             label: Some("Othello Multivision"),
             regions: [
                 Japan,
@@ -31,12 +32,19 @@
             ],
             date: Some("1984-07"),
             publisher: Some("Tsukuda Original"),
+            rom_size: Some(32768),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "2fe5e6811aa340f10b67f78ee9ed566a94326bad",
+                    label: Some("Rev 0"),
+                    size: Some(32768),
+                ),
+                (
+                    sha1: "bcb03afd3bbd5dadf00474eac44bb66a5df419cf",
+                    label: Some("Rev 1"),
                     size: Some(32768),
                 ),
             ],
@@ -56,26 +64,6 @@
             artifacts: [
                 (
                     sha1: "543046650e07b10dbd2dca6f20bcafb9dd6dda77",
-                    size: Some(32768),
-                ),
-            ],
-        ),
-        (
-            title: Some("岡本綾子のマッチプレイゴルフ"),
-            label: Some("Othello Multivision Rev 1"),
-            regions: [
-                Japan,
-            ],
-            languages: [
-                Japanese,
-            ],
-            publisher: Some("Tsukuda Original"),
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
-                (
-                    sha1: "bcb03afd3bbd5dadf00474eac44bb66a5df419cf",
                     size: Some(32768),
                 ),
             ],

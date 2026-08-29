@@ -23,7 +23,6 @@
     releases: [
         (
             title: Some("麻雀"),
-            label: Some("Rev 0"),
             regions: [
                 Japan,
             ],
@@ -39,26 +38,12 @@
             artifacts: [
                 (
                     sha1: "2e6810c0c0c02c0fdda6fcaeae835cf94ab9bcba",
+                    label: Some("Rev 0"),
                     size: Some(24576),
                 ),
-            ],
-        ),
-        (
-            label: Some("Rev 1"),
-            regions: [
-                Japan,
-            ],
-            languages: [
-                Japanese,
-            ],
-            publisher: Some("Sega"),
-            rom_size: Some(24576),
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "81015cea7e5ff08bd7d20953a702d47efdb8c11c",
+                    label: Some("Rev 1"),
                     size: Some(24576),
                 ),
             ],

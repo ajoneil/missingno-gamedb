@@ -62,6 +62,39 @@ Removing a source's URL removes the receipt, not the fact. Where a banned site i
 the only source for a release fact, stage the fact and say so in chat; never
 invent a substitute link that did not back it.
 
+## One release, or two?
+
+**A release is a product someone could buy. An artifact is one reading of a
+chip.** Two dumps are two releases only when a buyer of the day would have found
+two different things on the shelf:
+
+- a **different publisher** — Sega's original beside Aaronix's Taiwanese cart;
+- a **different market** with its own catalogue number or its own title;
+- a **different physical medium** — a `G-10nn` cartridge and its `C-nn` My Card
+  are two products, two counters, two manuals.
+
+Everything else is one release holding several artifacts, told apart with
+`label_artifact`: silent ROM revisions, alternate dumps, memory maps, bad dumps
+and **logo variants**. **A revision is not a release.** Sega did not
+re-catalogue Star Jacker when it moved two `POP` instructions, and a reader
+choosing what to play gains nothing from a row they could not have chosen
+between.
+
+A signature name's `[english logo]` / `[chinese logo]` / `[no logo]` marks the
+**title screen a build draws**, not a label on the cart — MAME comments them
+"logo version". Two logo builds of one Taiwanese cart are two artifacts, and
+where they differ the entry's `title` still comes from the game, not the build.
+
+Two traps this closes. A release *labelled* for a dump — `Rev 1`, `40 KB memory
+map`, `Alt` — is dump commentary at release altitude; move it to the artifact.
+And a signature database's region tags describe **one dump's distribution**, not
+distinct carts, so per-revision region sets derived from filenames are not
+evidence of separate products.
+
+Splitting still needs a source, and so does merging: where a catalogue gives a
+revision its own number, or shows a market that received only one of them, that
+is a product difference and it splits.
+
 ## Dump identity
 
 [Hasheous](https://hasheous.org) maps a SHA-1 to what a signature database
