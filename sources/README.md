@@ -120,19 +120,22 @@ which is a conflict to report, not a licence to restage the date.
 
 ## ROM size
 
-State `rom_size` on every release **whose dump we hold**, except where the board
-already fixes one size — a VCS `Plain4K` cart is 4 KB by wiring, so restating it
-says nothing, while a Tigervision board runs 8 KB to 32 KB and an SG-1000 board
-names no size at all.
+The ROM is stated on the board that holds it — `cart_type`'s own `rom` — on
+every release **whose dump we hold**. Only a board whose size its wiring does
+not fix takes one: a VCS `Plain4K` cart is 4 KB by wiring and has no `rom` to
+state, while a Tigervision board runs 8 KB to 32 KB and an SG-1000 board names
+no size at all, so both do.
 
 It is a measurement, not a copied number, and the two ways it is reached differ:
 for an ordinary dump it is the dump's own length; for a `MemoryMap` artifact it
 is the silicon the map was read from, which is smaller than the image — measure
 the block structure and state what the mirroring implies.
 
-**A release whose dump we do not have stays unstated**, however confidently a
-catalogue names a size. Absent means nobody has measured it, exactly as it does
-for `tv_format`.
+**A release whose dump we do not have leaves its board's ROM unstated**, however
+confidently a catalogue names a size. Absent means nobody has measured it,
+exactly as it does for `tv_format`. The dump's own length is nowhere in the
+database: it is a property of a file, re-readable at any time, not a fact about
+a product.
 
 ## Titles
 

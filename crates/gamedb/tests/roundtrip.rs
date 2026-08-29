@@ -30,7 +30,7 @@ const GB_HOMEBREW: &str = r#"(
             date: Some("2018-04-17"),
             hardware: (sgb: Enhanced, cgb: Enhanced),
             artifacts: [
-                (sha1: "0123456789abcdef0123456789abcdef01234567", size: Some(262144)),
+                (sha1: "0123456789abcdef0123456789abcdef01234567"),
             ],
         ),
     ],
@@ -136,12 +136,12 @@ const SG1000_RAM_CART: &str = r#"(
         (
             regions: [Japan],
             hardware: (cart_type: Some(OthelloRam(rom: Some(32768)))),
-            artifacts: [(sha1: "d0cd594ddb321f707ddba8a044fa3e9b906e720a", size: Some(32768))],
+            artifacts: [(sha1: "d0cd594ddb321f707ddba8a044fa3e9b906e720a")],
         ),
         (
             regions: [NewZealand],
             hardware: (tv_format: Some(Pal)),
-            artifacts: [(sha1: "a43aef367857a681decea52377c2e7a992c2ac68", size: Some(32768))],
+            artifacts: [(sha1: "a43aef367857a681decea52377c2e7a992c2ac68")],
         ),
     ],
 )

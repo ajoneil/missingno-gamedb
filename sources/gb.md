@@ -13,8 +13,9 @@ are in [`README.md`](README.md).
 ## Hardware facts
 
 The curator auto-stages what a fetched or booted cartridge header states — SGB
-and CGB enhancement, mapper — filling unknowns only, and reports header-vs-db
-conflicts in the verify status.
+and CGB enhancement, and the board with the ROM and RAM chips it names — filling
+unknowns only, and reports header-vs-db conflicts in the verify status.
 
-Override `mapper` via `update_game` when the truth differs from the header:
-**unlicensed carts lie**.
+Override `cart_type` via `update_game` when the truth differs from the header:
+**unlicensed carts lie**. A stated board replaces the header's word whole, parts
+and all, so state every part the cart has rather than the one that differs.

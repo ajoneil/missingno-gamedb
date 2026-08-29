@@ -1,16 +1,19 @@
 //! Backfill the two facts curation kept missing on SG-1000 entries: the title
-//! a release shipped under in its own script, and the ROM size of a dump we
-//! hold. Both are read from sources outside the tree — MAME's software list
+//! a release shipped under in its own script, and the ROM measured on its
+//! board. Both are read from sources outside the tree — MAME's software list
 //! keys a native title by dump hash, and a local ROM collection is what makes
 //! a size a measurement rather than a copied number.
 
 use std::{
-    collections::{HashMap, HashSet},
+    collections::HashMap,
     fs,
-    path::Path,
+    path::{Path, PathBuf},
 };
 
-use missingno_gamedb::{Defect, Platform, Sg1000, Tree};
+use missingno_gamedb::{
+    AttributeValue, BoardValue, Defect, FactValue, HardwareFacts, Platform, Sg1000, Sg1000CartType,
+    Sg1000Hardware, Tree,
+};
 
 use crate::{report::Report, tree};
 
@@ -71,17 +74,41 @@ fn field<'a>(block: &'a str, tag: &str) -> Option<&'a str> {
     rest.find('"').map(|end| &rest[..end])
 }
 
-/// The dumps we hold, as `sha1sum` prints them — one hash per line, anything
-/// after it ignored. Passed in rather than hashed here so the set a run acted
-/// on is a file you can read back.
-fn local_dumps(path: &Path) -> Result<HashSet<String>, String> {
+/// The dumps we hold, as `sha1sum` prints them: a hash and the file it is of.
+/// Passed in rather than hashed here so the set a run acted on is a file you
+/// can read back — and the file is what the ROM's size is measured off.
+fn local_dumps(path: &Path) -> Result<HashMap<String, PathBuf>, String> {
     let text = fs::read_to_string(path).map_err(|e| format!("{}: {e}", path.display()))?;
-    Ok(text
-        .lines()
-        .filter_map(|line| line.split_whitespace().next())
-        .filter(|hash| hash.len() == 40)
-        .map(str::to_ascii_lowercase)
-        .collect())
+    let mut dumps = HashMap::new();
+    for line in text.lines() {
+        let Some((hash, file)) = line.split_once(char::is_whitespace) else {
+            continue;
+        };
+        // `sha1sum` marks a binary-mode read with a `*` before the name.
+        let file = file.trim_start().trim_start_matches('*');
+        if hash.len() == 40 && !file.is_empty() {
+            dumps.insert(hash.to_ascii_lowercase(), PathBuf::from(file));
+        }
+    }
+    Ok(dumps)
+}
+
+/// The ROM measured on the release's board, where anyone has measured it.
+fn board_rom(hardware: &Sg1000Hardware) -> Option<u32> {
+    hardware.cart_type.and_then(Sg1000CartType::rom)
+}
+
+/// State the measured ROM on the release's board — the plain ROM `Flat` where
+/// the release names no board.
+fn state_rom(hardware: &mut Sg1000Hardware, bytes: u32) -> Result<(), String> {
+    let board = match hardware.get("cart_type") {
+        Some(FactValue::Board(Some(board))) => board,
+        _ => BoardValue::new("Flat"),
+    };
+    hardware.set(
+        "cart_type",
+        FactValue::Board(Some(board.with("rom", AttributeValue::Bytes(bytes)))),
+    )
 }
 
 pub fn run(
@@ -138,18 +165,24 @@ pub fn run(
                 .artifacts
                 .iter()
                 .any(|a| a.defect == Some(Defect::MemoryMap));
-            if release.rom_size.is_none() && !mapped {
+            if board_rom(&release.hardware).is_none() {
+                if mapped {
+                    report.add("Memory map: the ROM is measured by hand", key.clone());
+                    continue;
+                }
                 match release
                     .artifacts
                     .iter()
-                    .find(|a| held.contains(&a.sha1.as_str().to_ascii_lowercase()))
+                    .find_map(|a| held.get(&a.sha1.as_str().to_ascii_lowercase()))
                 {
-                    Some(artifact) => {
-                        if let Some(size) = artifact.size {
-                            release.rom_size = Some(size as u32);
-                            stats.sized += 1;
-                            changed = true;
-                        }
+                    Some(dump) => {
+                        let size = fs::metadata(dump)
+                            .map_err(|e| format!("{key}: {}: {e}", dump.display()))?
+                            .len();
+                        state_rom(&mut release.hardware, size as u32)
+                            .map_err(|e| format!("{key}: {e}"))?;
+                        stats.sized += 1;
+                        changed = true;
                     }
                     None => {
                         report.add("No local dump, so no measured ROM size", key.clone());

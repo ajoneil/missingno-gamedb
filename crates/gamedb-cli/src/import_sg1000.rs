@@ -86,7 +86,6 @@ fn release(game_title: &str, parsed: &ParsedName, artifacts: &[Artifact]) -> Rel
         languages: parsed.languages.clone(),
         date: parsed.date.clone(),
         publisher: None,
-        rom_size: None,
         status: parsed.status,
         hardware: Sg1000Hardware {
             tv_format: tv_format(&parsed.regions),
@@ -153,7 +152,6 @@ pub fn run(db_root: &Path, dat_path: &Path, report: &mut Report) -> Result<Stats
                     sha1,
                     label: None,
                     defect: None,
-                    size: rom.attribute("size").and_then(|s| s.parse().ok()),
                 }),
                 Err(e) => report.add("Invalid DAT sha1 skipped", format!("{name:?}: {e}")),
             }
@@ -320,7 +318,6 @@ mod tests {
             artifacts: [
                 (
                     sha1: "d0cd594ddb321f707ddba8a044fa3e9b906e720a",
-                    size: Some(32768),
                 ),
             ],
         ),
