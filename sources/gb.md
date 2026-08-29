@@ -80,10 +80,8 @@ its `rom`. Descrambling is what identifies the board: under
 a Sachen cart's Nintendo logo checksums to 5542 or 7484 at `0x184`, where an
 ordinary cart reads 5446 unscrambled at `0x104`.
 
-**The emulator has no Sachen mapper.** Only the small volumes play, the MBC1 the
-image falls back to spanning them entirely; the larger ones need an outer-bank
-register that is not modelled and fail in whatever way their reset bank
-dictates. Each earns an `EmulationIncompatibility` flag naming only its symptom.
+**The emulator models the mapper**, so every volume plays; their menus cycle
+the selection with SELECT and launch with START.
 
 ## Hardware facts
 
