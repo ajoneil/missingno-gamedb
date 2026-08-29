@@ -1,5 +1,5 @@
 use missingno_gamedb::{
-    Enhancement, Game, GameBoy, GameBoyColor, Sg1000, Sg1000CartType, TvStandard, Vcs, VcsCartType,
+    Feature, Game, GameBoy, GameBoyColor, Sg1000, Sg1000CartType, TvStandard, Vcs, VcsCartType,
 };
 
 const GB_HOMEBREW: &str = r#"(
@@ -28,7 +28,7 @@ const GB_HOMEBREW: &str = r#"(
     releases: [
         (
             date: Some("2018-04-17"),
-            hardware: (sgb: Enhanced, cgb: Enhanced),
+            hardware: (features: [SuperGameBoyEnhanced, GameBoyColorEnhanced]),
             artifacts: [
                 (sha1: "0123456789abcdef0123456789abcdef01234567"),
             ],
@@ -99,8 +99,10 @@ fn round_trip<P: missingno_gamedb::Platform + PartialEq + std::fmt::Debug>(
 fn gb_homebrew_round_trips() {
     let (game, _) = round_trip::<GameBoy>(GB_HOMEBREW);
     let release = &game.releases[0];
-    assert_eq!(release.hardware.sgb, Enhancement::Enhanced);
-    assert_eq!(release.hardware.cgb, Enhancement::Enhanced);
+    assert_eq!(
+        release.hardware.features,
+        [Feature::SuperGameBoyEnhanced, Feature::GameBoyColorEnhanced]
+    );
     assert_eq!(game.covers.len(), 2);
     assert_eq!(game.mods.len(), 1);
     assert_eq!(game.mods[0].releases[0].label.as_deref(), Some("v1.1"));
@@ -179,19 +181,22 @@ fn unknown_enhancement_is_omitted() {
         title: "Half Known",
         releases: [
             (
-                hardware: (cgb: Enhanced),
+                hardware: (features: [GameBoyColorEnhanced]),
                 artifacts: [(sha1: "0123456789abcdef0123456789abcdef01234567")],
             ),
         ],
     )
     "#;
     let game = Game::<GameBoy>::from_ron(text).expect("parses");
-    assert_eq!(game.releases[0].hardware.sgb, Enhancement::Unknown);
+    assert_eq!(
+        game.releases[0].hardware.features,
+        [Feature::GameBoyColorEnhanced]
+    );
     let canonical = game.to_ron_string().expect("serializes");
-    assert!(canonical.contains("cgb: Enhanced"));
+    assert!(canonical.contains("GameBoyColorEnhanced"));
     assert!(
-        !canonical.contains("sgb"),
-        "unknown sgb omitted:\n{canonical}"
+        !canonical.contains("SuperGameBoy"),
+        "a feature the release lacks is not written:\n{canonical}"
     );
 }
 

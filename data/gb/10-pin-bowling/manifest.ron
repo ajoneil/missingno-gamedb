@@ -1,13 +1,30 @@
 (
     title: "10-Pin Bowling",
+    developer: Some("Morning Star Multimedia"),
+    description: Some("A standard ten-frame bowling match for one or two players, with minimal setup before the first ball. Each shot begins by aligning an arrow to choose a position; a held button then fills a shot bar that sets the ball\'s speed and curve, and releasing too late — once it reaches the red zone — counts as a foul."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/10-Pin_Bowling_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/BE7E4F10A063311F517EEB09AB81B47F6449EB57",
+    ],
     releases: [
         (
             regions: [
                 Usa,
             ],
+            publisher: Some("Majesco"),
             status: Prototype,
             hardware: (
-                cgb: NotEnhanced,
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

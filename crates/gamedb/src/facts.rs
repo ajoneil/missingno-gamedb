@@ -6,7 +6,7 @@
 use missingno_core::cartridge::{BoardSpec, BoardValue, BoardVocabulary};
 
 use crate::platform::{
-    Controller, Enhancement, GbCartType, GbHardware, GbcHardware, Sg1000CartType, Sg1000Hardware,
+    Controller, Feature, GbCartType, GbHardware, GbcHardware, Sg1000CartType, Sg1000Hardware,
     TvStandard, VcsCartType, VcsHardware,
 };
 
@@ -26,8 +26,15 @@ pub enum FactKind {
     Board {
         catalogue: fn() -> &'static [BoardSpec],
     },
-    Controllers,
-    Enhancement,
+    /// Controllers from the platform's own list — a platform is offered only
+    /// the ones it can be played with.
+    Controllers {
+        catalogue: &'static [Controller],
+    },
+    /// Hardware the release drives, from the platform's own list.
+    Features {
+        catalogue: &'static [Feature],
+    },
 }
 
 impl FactKind {
@@ -36,8 +43,8 @@ impl FactKind {
         match self {
             FactKind::TvStandard => "TV standard",
             FactKind::Board { .. } => "board code",
-            FactKind::Controllers => "controller list",
-            FactKind::Enhancement => "enhancement",
+            FactKind::Controllers { .. } => "controller list",
+            FactKind::Features { .. } => "feature list",
         }
     }
 }
@@ -52,8 +59,8 @@ pub enum FactValue {
     Board(Option<BoardValue>),
     /// Empty = the platform default.
     Controllers(Vec<Controller>),
-    /// `Unknown` = absent.
-    Enhancement(Enhancement),
+    /// Empty = the release drives none of them.
+    Features(Vec<Feature>),
 }
 
 pub trait HardwareFacts {
@@ -112,24 +119,56 @@ fn board<B: BoardVocabulary>(
 fn controllers(
     key: &str,
     value: FactValue,
+    catalogue: &'static [Controller],
     descriptors: &'static [FactDescriptor],
 ) -> Result<Vec<Controller>, String> {
-    match value {
-        FactValue::Controllers(controllers) => Ok(controllers),
-        _ => Err(wrong_kind(key, descriptors)),
+    let FactValue::Controllers(stated) = value else {
+        return Err(wrong_kind(key, descriptors));
+    };
+    offered(key, stated, catalogue)
+}
+
+fn features(
+    key: &str,
+    value: FactValue,
+    catalogue: &'static [Feature],
+    descriptors: &'static [FactDescriptor],
+) -> Result<Vec<Feature>, String> {
+    let FactValue::Features(stated) = value else {
+        return Err(wrong_kind(key, descriptors));
+    };
+    offered(key, stated, catalogue)
+}
+
+/// A platform states which terms it offers, so one it does not is refused
+/// rather than filed as a fact nothing on this hardware could carry.
+fn offered<T: Copy + PartialEq + std::fmt::Debug>(
+    key: &str,
+    stated: Vec<T>,
+    catalogue: &'static [T],
+) -> Result<Vec<T>, String> {
+    match stated.iter().find(|term| !catalogue.contains(term)) {
+        Some(outside) => Err(format!(
+            "hardware fact {key:?} does not offer {outside:?} on this platform"
+        )),
+        None => Ok(stated),
     }
 }
 
-fn enhancement(
-    key: &str,
-    value: FactValue,
-    descriptors: &'static [FactDescriptor],
-) -> Result<Enhancement, String> {
-    match value {
-        FactValue::Enhancement(enhancement) => Ok(enhancement),
-        _ => Err(wrong_kind(key, descriptors)),
-    }
-}
+/// The consoles a Game Boy cartridge can detect and light up.
+const GB_FEATURES: &[Feature] = &[Feature::SuperGameBoyEnhanced, Feature::GameBoyColorEnhanced];
+
+/// Every controller a VCS was played with.
+const VCS_CONTROLLERS: &[Controller] = &[
+    Controller::Joystick,
+    Controller::Paddle,
+    Controller::Driving,
+    Controller::Keypad,
+    Controller::Trackball,
+    Controller::BoosterGrip,
+    Controller::KidVid,
+    Controller::MindLink,
+];
 
 const GB_BOARD_DOC: &str = "Cartridge board for this release: the mapper and the parts populated beside it — the ROM \
      and RAM chips' sizes, a battery, a clock, a rumble motor. A stated board is a whole \
@@ -140,20 +179,15 @@ impl HardwareFacts for GbHardware {
     fn descriptors() -> &'static [FactDescriptor] {
         &[
             FactDescriptor {
-                key: "sgb",
-                label: "Super Game Boy",
-                kind: FactKind::Enhancement,
-                doc: "Whether the release detects and uses the Super Game Boy. Unknown is \
-                      honest absence of data: it backfills from an external source, never \
-                      by assumption.",
-            },
-            FactDescriptor {
-                key: "cgb",
-                label: "Game Boy Color",
-                kind: FactKind::Enhancement,
-                doc: "Whether the release detects and uses a Game Boy Color. Unknown is \
-                      honest absence of data: it backfills from an external source, never \
-                      by assumption.",
+                key: "features",
+                label: "Enhances",
+                kind: FactKind::Features {
+                    catalogue: GB_FEATURES,
+                },
+                doc: "The richer consoles this release detects and lights up — a Super Game \
+                      Boy border and palette, Game Boy Color palettes. The cartridge header \
+                      states both, so a dump answers this; empty is a plain Game Boy \
+                      release.",
             },
             FactDescriptor {
                 key: "cart_type",
@@ -168,8 +202,7 @@ impl HardwareFacts for GbHardware {
 
     fn get(&self, key: &str) -> Option<FactValue> {
         match key {
-            "sgb" => Some(FactValue::Enhancement(self.sgb)),
-            "cgb" => Some(FactValue::Enhancement(self.cgb)),
+            "features" => Some(FactValue::Features(self.features.clone())),
             "cart_type" => Some(board_fact(self.cart_type.as_ref())),
             _ => None,
         }
@@ -178,8 +211,7 @@ impl HardwareFacts for GbHardware {
     fn set(&mut self, key: &str, value: FactValue) -> Result<(), String> {
         let descriptors = Self::descriptors();
         match key {
-            "sgb" => self.sgb = enhancement(key, value, descriptors)?,
-            "cgb" => self.cgb = enhancement(key, value, descriptors)?,
+            "features" => self.features = features(key, value, GB_FEATURES, descriptors)?,
             "cart_type" => self.cart_type = board(key, value, descriptors)?,
             _ => return Err(unknown_key(key, descriptors)),
         }
@@ -292,7 +324,9 @@ impl HardwareFacts for VcsHardware {
             FactDescriptor {
                 key: "controllers",
                 label: "Controllers",
-                kind: FactKind::Controllers,
+                kind: FactKind::Controllers {
+                    catalogue: VCS_CONTROLLERS,
+                },
                 doc: "Controllers the release needs, staged only when it deviates from the \
                       platform default (joystick) or when sibling releases of one game \
                       differ and the contrast is the fact — a joystick conversion beside the \
@@ -315,7 +349,9 @@ impl HardwareFacts for VcsHardware {
         match key {
             "tv_format" => self.tv_format = tv_standard(key, value, descriptors)?,
             "cart_type" => self.cart_type = board(key, value, descriptors)?,
-            "controllers" => self.controllers = controllers(key, value, descriptors)?,
+            "controllers" => {
+                self.controllers = controllers(key, value, VCS_CONTROLLERS, descriptors)?
+            }
             _ => return Err(unknown_key(key, descriptors)),
         }
         Ok(())
@@ -404,15 +440,30 @@ mod tests {
         );
 
         let mut gb = GbHardware::default();
-        gb.set("sgb", FactValue::Enhancement(Enhancement::Enhanced))
-            .unwrap();
+        gb.set(
+            "features",
+            FactValue::Features(vec![Feature::SuperGameBoyEnhanced]),
+        )
+        .unwrap();
         assert_eq!(
-            gb.get("sgb"),
-            Some(FactValue::Enhancement(Enhancement::Enhanced))
+            gb.get("features"),
+            Some(FactValue::Features(vec![Feature::SuperGameBoyEnhanced]))
         );
-        assert_eq!(
-            gb.get("cgb"),
-            Some(FactValue::Enhancement(Enhancement::Unknown))
+    }
+
+    #[test]
+    fn a_platform_refuses_a_term_it_does_not_offer() {
+        let mut vcs = VcsHardware::default();
+        assert!(
+            vcs.set("features", FactValue::Features(vec![])).is_err(),
+            "the VCS states no features key"
+        );
+
+        let mut gb = GbHardware::default();
+        assert!(
+            gb.set("features", FactValue::Controllers(vec![Controller::Paddle]))
+                .is_err(),
+            "a controller list is not a feature list"
         );
     }
 

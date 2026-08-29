@@ -5,7 +5,7 @@ use std::{
 };
 
 use missingno_gamedb::{
-    Artifact, Enhancement, Game, GameBoy, GameBoyColor, GameKind, GbHardware, Language, Platform,
+    Artifact, Feature, Game, GameBoy, GameBoyColor, GameKind, GbHardware, Language, Platform,
     Release, ReleaseDate, ReleaseStatus, Sha1,
 };
 
@@ -514,17 +514,15 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
         let title = title.as_str();
         let mut entries: Vec<(ParsedName, Vec<Artifact>, GbHardware)> = Vec::new();
         for (parsed, artifacts, from_gbc_dat) in group {
+            let mut features = Vec::new();
+            if parsed.sgb {
+                features.push(Feature::SuperGameBoyEnhanced);
+            }
+            if parsed.cgb || *from_gbc_dat {
+                features.push(Feature::GameBoyColorEnhanced);
+            }
             let hardware = GbHardware {
-                sgb: if parsed.sgb {
-                    Enhancement::Enhanced
-                } else {
-                    Enhancement::Unknown
-                },
-                cgb: if parsed.cgb || *from_gbc_dat {
-                    Enhancement::Enhanced
-                } else {
-                    Enhancement::NotEnhanced
-                },
+                features,
                 cart_type: None,
             };
             entries.push((
@@ -840,14 +838,16 @@ mod tests {
             zelda
                 .releases
                 .iter()
-                .all(|r| r.hardware.sgb == Enhancement::Enhanced
-                    && r.hardware.cgb == Enhancement::NotEnhanced)
+                .all(|r| r.hardware.features == [Feature::SuperGameBoyEnhanced])
         );
         assert!(!root.path().join("gb/zelda-old").exists());
 
         let dual = std::fs::read_to_string(root.path().join("gb/dual-game/manifest.ron")).unwrap();
         let dual = Game::<GameBoy>::from_ron(&dual).unwrap();
-        assert_eq!(dual.releases[0].hardware.cgb, Enhancement::Enhanced);
+        assert_eq!(
+            dual.releases[0].hardware.features,
+            [Feature::GameBoyColorEnhanced]
+        );
 
         let proto =
             std::fs::read_to_string(root.path().join("gb/proto-thing/manifest.ron")).unwrap();

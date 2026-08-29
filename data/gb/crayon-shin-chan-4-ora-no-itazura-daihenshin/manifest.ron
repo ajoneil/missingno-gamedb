@@ -6,8 +6,9 @@
                 Japan,
             ],
             hardware: (
-                sgb: Enhanced,
-                cgb: NotEnhanced,
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
             ),
             artifacts: [
                 (
@@ -18,9 +19,6 @@
         (
             title: Some("Super Mario Land 4"),
             label: Some("Ja, Pirate"),
-            hardware: (
-                cgb: NotEnhanced,
-            ),
             artifacts: [
                 (
                     sha1: "475ecf3a537dc3c139969c148ee4423394fc247e",
@@ -30,9 +28,6 @@
         (
             title: Some("Super Mario 4"),
             label: Some("Ja, Pirate"),
-            hardware: (
-                cgb: NotEnhanced,
-            ),
             artifacts: [
                 (
                     sha1: "f0da6eced7492bf51ae5575522cca58726c34feb",

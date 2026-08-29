@@ -6,9 +6,6 @@
                 Europe,
             ],
             status: Beta,
-            hardware: (
-                cgb: NotEnhanced,
-            ),
             artifacts: [
                 (
                     sha1: "a9aa7cf61ffa42a4097f0c900ad4463d6fd89a19",
@@ -19,9 +16,6 @@
             regions: [
                 Europe,
             ],
-            hardware: (
-                cgb: NotEnhanced,
-            ),
             artifacts: [
                 (
                     sha1: "bc7327008de518ddfad0ad5c69896921dc2378e0",
@@ -32,9 +26,6 @@
             regions: [
                 Usa,
             ],
-            hardware: (
-                cgb: NotEnhanced,
-            ),
             artifacts: [
                 (
                     sha1: "80c39d93ca58d0d6144fe7f7bdd47c3a4fcf0438",
@@ -47,8 +38,9 @@
                 Japan,
             ],
             hardware: (
-                sgb: Enhanced,
-                cgb: NotEnhanced,
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
             ),
             artifacts: [
                 (

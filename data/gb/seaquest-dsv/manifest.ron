@@ -7,9 +7,6 @@
                 Europe,
             ],
             status: Beta,
-            hardware: (
-                cgb: NotEnhanced,
-            ),
             artifacts: [
                 (
                     sha1: "0dbe828e797458a99a37e93bbd34d2547d99523c",
@@ -22,8 +19,9 @@
                 Europe,
             ],
             hardware: (
-                sgb: Enhanced,
-                cgb: NotEnhanced,
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
             ),
             artifacts: [
                 (

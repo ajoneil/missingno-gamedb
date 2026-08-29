@@ -82,30 +82,15 @@ pub fn platform_dirs() -> &'static [&'static str] {
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct GbHardware {
-    #[serde(default, skip_serializing_if = "Enhancement::is_unknown")]
-    pub sgb: Enhancement,
-    #[serde(default, skip_serializing_if = "Enhancement::is_unknown")]
-    pub cgb: Enhancement,
+    /// Consoles this release detects and lights extra features up on; empty =
+    /// a plain Game Boy release.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub features: Vec<Feature>,
     /// Cartridge board — the mapper and the parts populated beside it, e.g.
     /// `Mbc1(rom: Kb512, ram: Some(Kb8), battery: true)`; `None` = as the
     /// header says.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<GbCartType>,
-}
-
-/// Whether a Game Boy release detects and uses an enhancing console.
-#[derive(Serialize, Deserialize, Default, Clone, Copy, PartialEq, Eq, Debug)]
-pub enum Enhancement {
-    #[default]
-    Unknown,
-    NotEnhanced,
-    Enhanced,
-}
-
-impl Enhancement {
-    pub fn is_unknown(&self) -> bool {
-        *self == Self::Unknown
-    }
 }
 
 /// CGB games are CGB-required by definition.
@@ -147,7 +132,18 @@ pub struct VcsHardware {
     pub controllers: Vec<Controller>,
 }
 
-/// A VCS controller.
+/// Hardware a release drives beyond the plain console. Each platform states
+/// which of these it offers; a release lists the ones it has, and absence is
+/// the release not having it.
+#[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
+pub enum Feature {
+    /// Detects a Super Game Boy and drives its border, palette and sound.
+    SuperGameBoyEnhanced,
+    /// Detects a Game Boy Color and draws in its palettes.
+    GameBoyColorEnhanced,
+}
+
+/// A controller a release needs.
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
 pub enum Controller {
     Joystick,

@@ -5,9 +5,6 @@
             regions: [
                 Europe,
             ],
-            hardware: (
-                cgb: NotEnhanced,
-            ),
             artifacts: [
                 (
                     sha1: "344c3409410fe5f88796aafd125c522319b78012",
@@ -20,8 +17,9 @@
                 Europe,
             ],
             hardware: (
-                sgb: Enhanced,
-                cgb: NotEnhanced,
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
             ),
             artifacts: [
                 (
@@ -36,8 +34,9 @@
                 Japan,
             ],
             hardware: (
-                sgb: Enhanced,
-                cgb: NotEnhanced,
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
             ),
             artifacts: [
                 (

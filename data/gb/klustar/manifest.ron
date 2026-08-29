@@ -6,9 +6,6 @@
                 Europe,
             ],
             status: Prototype,
-            hardware: (
-                cgb: NotEnhanced,
-            ),
             artifacts: [
                 (
                     sha1: "6a5e51bfb4d989fb31f5ed6572d08e5a8b703a8d",
@@ -20,7 +17,9 @@
                 Usa,
             ],
             hardware: (
-                cgb: Enhanced,
+                features: [
+                    GameBoyColorEnhanced,
+                ],
             ),
             artifacts: [
                 (
@@ -36,7 +35,9 @@
             date: Some("1998-10-01"),
             status: Beta,
             hardware: (
-                cgb: Enhanced,
+                features: [
+                    GameBoyColorEnhanced,
+                ],
             ),
             artifacts: [
                 (
@@ -50,7 +51,9 @@
                 Europe,
             ],
             hardware: (
-                cgb: Enhanced,
+                features: [
+                    GameBoyColorEnhanced,
+                ],
             ),
             artifacts: [
                 (
@@ -66,7 +69,9 @@
             date: Some("1998-10-01"),
             status: Prototype,
             hardware: (
-                cgb: Enhanced,
+                features: [
+                    GameBoyColorEnhanced,
+                ],
             ),
             artifacts: [
                 (
@@ -82,7 +87,9 @@
             date: Some("1999-09-28"),
             status: Prototype,
             hardware: (
-                cgb: Enhanced,
+                features: [
+                    GameBoyColorEnhanced,
+                ],
             ),
             artifacts: [
                 (
