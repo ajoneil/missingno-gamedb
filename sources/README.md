@@ -68,17 +68,16 @@ invent a substitute link that did not back it.
 chip.** Two dumps are two releases only when a buyer of the day would have found
 two different things on the shelf:
 
-- a **different publisher** — Sega's original beside Aaronix's Taiwanese cart;
+- a **different publisher**;
 - a **different market** with its own catalogue number or its own title;
 - a **different physical medium** — a `G-10nn` cartridge and its `C-nn` My Card
   are two products, two counters, two manuals.
 
 Everything else is one release holding several artifacts, told apart with
 `label_artifact`: silent ROM revisions, alternate dumps, memory maps, bad dumps
-and **logo variants**. **A revision is not a release.** Sega did not
-re-catalogue Star Jacker when it moved two `POP` instructions, and a reader
-choosing what to play gains nothing from a row they could not have chosen
-between.
+and **logo variants**. **A revision is not a release** — a publisher does not
+re-catalogue a game to move a couple of instructions, and a reader choosing what
+to play gains nothing from a row they could not have chosen between.
 
 A signature name's `[english logo]` / `[chinese logo]` / `[no logo]` marks the
 **title screen a build draws**, not a label on the cart — MAME comments them
@@ -144,20 +143,33 @@ No-Intro/TOSEC filename, and those filenames carry things that are not the name:
 taglines, ad copy, dump flags, and publisher qualifiers. A subtitle is part of
 the title only if the packaging sets it as one.
 
+**A subtitle is separated with a colon.** The packaging is what decides the
+title, and it usually sets a subtitle on its own line rather than punctuating it
+at all — so the separator is ours to choose, and the choice is `:`, matching what
+Wikipedia does with the same problem. The import's `" - "` is not evidence of a
+dash: No-Intro and TOSEC filenames cannot contain a colon, so every subtitle in
+the tree arrives wearing a spaced dash whatever the box says.
+
+Converting one is a per-entry check against the packaging, never a sweep. Two
+ways a blind replacement goes wrong: a title whose packaging runs the subtitle on
+with no separator at all gains punctuation it never had, and a title that already
+carries a colon ends up with two. Where the parts are co-equal rather than
+title-and-subtitle — a compilation naming its contents — they are joined with `+`
+instead.
+
 **The entry title is the game's English name; the release title is what that
 release shipped under, in its own script.** Where no English name exists, the
 entry title is a transliteration — ours, not a name the product ever wore, which
-is exactly when each release has to state its own. So `Sannin Mahjong` is the
-entry while all three of its releases carry 三人麻雀, and `Bomber Man Special`
-is the entry while its Taiwanese releases carry 爆破隊 and 轟炸隊.
+is exactly when each release has to state its own — the entry carries the
+transliteration, each release the script it shipped in.
 
 **A release sold into several markets carries the title of the market it was
 originally released in.** One product on one catalogue number is one release, so
 a Japanese cart also sold in Italy and Australia is titled in Japanese — the
 release records where it came from, not every shelf it reached.
 
-A romanisation is not native script. Where a catalogue gives only `Beom Jjaek`
-or `Chāorén`, the release title stays empty until the hangul or hanzi turns up;
+A romanisation is not native script. Where a catalogue offers only a
+romanisation, the release title stays empty until the native script turns up;
 filling it with the romanisation breaks the rule rather than satisfying it.
 
 ## Publisher names: what the release actually shipped under
@@ -181,10 +193,9 @@ published under.
 ## Finding a game's Wikipedia article
 
 `opensearch` matches on title *prefix* and ranks by popularity, so it is not
-evidence of absence for a commercially released game: searching "Ice Hockey"
-returns the sport and a dozen Olympic tournaments, burying
-`Ice Hockey (1981 video game)`. Guessing the disambiguated title fails too —
-`Ice Hockey (video game)` is a redirect to a disambiguation page.
+evidence of absence for a commercially released game: a common-word title buries
+the article under the subject it shares a name with. Guessing the disambiguated
+title fails too, since those redirect to disambiguation pages.
 
 Settle it with full-text search, which finds the parenthetical titles:
 

@@ -14,41 +14,21 @@ cover art, licensing — are in [`README.md`](README.md).
 | AtariAge | gameplay descriptions + **manual scans** for obscure carts (Sancho, Zellers, Goliath) encyclopaedias omit | HTML pages Cloudflare-challenge WebFetch, but a plain `curl -A 'Mozilla/5.0'` reaches `software_page.php`, `manual_page.php` and the scan images fine — not blocked, just needs a normal client. A scanned manual IS a readable source: get the real full-page URL off `manual_page.php` (`src="/2600/manuals/<Name>/m_<Name>_N.jpg"` — read it, don't guess), `curl` the JPG, open it with the Read tool. Don't call a description unsourceable until you have read the manual scan this way. Wayback is the fallback for a dead page, but WebFetch can't reach web.archive.org — `curl` it. |
 | Stella's properties database | board/cart type when a playtest boots wrong | The board drives the emulator, so a garbled playtest makes `cart_type` the first suspect — but a game rendering no stable frame on *any* valid board is a software problem, not a board mismatch. |
 
-## Publishers
+## Publishers and titles
 
-**Fox Video Games, Inc.** is the publisher for the whole Fox 2600 line, 1982 and
-1983 alike — checked against fourteen manual copyright lines (Saratoga, then
-Santa Clara from 1983). "20th Century Fox" appears on those manuals only as *"A
-20th Century Fox Film Corporation Production"*, crediting the parent film studio
-on a licensed property. An import had read that as the games publisher and
-written "20th Century Fox Video Games" across 30 releases.
+Take the publisher off the artefact — box, manual copyright line, cart label —
+in preference to a catalogue's collapsed heading, and watch for a **parent
+company** credited beside a games label: the games label is the publisher. This
+tree holds several genuine renamings and brand splits, so two spellings of "one"
+company are usually both right; confirm against the artefact before normalising
+either away.
 
-Renamings and brand splits that are **real**, so two spellings in the tree are
-correct rather than a normalisation bug:
-
-- **Computer Magic → CommaVid.** MagiCard's blue label kept the earlier name;
-  Mines of Minos and Cakewalk carry CommaVid.
-- **Spectravideo → Spectravision** on US 2600 carts. The tree holds both, and
-  each is right for its own release.
-- **Sancho / Tang's Electronic Co.** is one company; Atarimania files it under
-  the combined heading.
-- **Mattel Electronics vs M Network.** M Network was the brand on many Mattel
-  2600 carts, but not all — Masters of the Universe's box, manual colophon and
-  signature name all read Mattel Electronics.
-
-## Regional and title conventions
-
-- An entry title is the game's **original English release name**, one name.
-  Every other name it shipped under — a **Sears** rebadge, a regional
-  retitling — goes on that release's `title`, never joined into the entry
-  title. A Sears ROM is identical to its Atari twin, so a dump usually cannot
-  tell you which box it came from; file it by whatever the publisher says.
-- German mail-order and rebadge labels retitle heavily: Quelle, Video Gems,
-  Goliath, Videospielkassette. Atarimania's alternate-title list is the way to
-  find them. Watch for a common noun standing in as a publisher —
-  *Videospielkassette* is simply German for "video game cartridge".
-- Brazilian releases are **PAL-M**: PAL colour on NTSC timing. Never file one as
-  `Pal`.
+An entry title is the game's **original English release name**, one name. Every
+other name it shipped under — a Sears rebadge, a regional retitling — belongs on
+that release's `title`. German mail-order and rebadge labels retitle heavily,
+and Atarimania's alternate-title list is how those are found; watch for a common
+noun standing in as a publisher. Brazilian releases are **PAL-M**: PAL colour on
+NTSC timing, never filed as `Pal`.
 
 ## Determining a dump's TV standard
 
@@ -82,13 +62,13 @@ it loads.
 
 1. **One release holding every dump of a game**, stamped with whichever publisher
    sorted first, so the original ends up filed under a reissue's publisher.
-2. **Padded dumps that fabricated releases.** A 4K game padded to 8K or 16K
-   fingerprints as the wrong board and invents a release that never shipped.
-   `move_artifact` it onto the dump it copies and `label_artifact` a defect;
-   the phantom release prunes itself.
+2. **Padded dumps that fabricated releases.** A padded dump fingerprints as the
+   wrong board and invents a release that never shipped. `move_artifact` it onto
+   the dump it copies and `label_artifact` a defect; the phantom release prunes
+   itself.
 3. **Hacks filed by their title, not their base.** A hack names itself — check
-   the signature entry for the base. ROM size is a decisive check: a 4K dump
-   cannot hack an 8K game.
+   the signature entry for the base. ROM size is a decisive check: a dump cannot
+   hack a game larger than itself.
 4. **Entries split by slug suffix** (`-ntsc`, `-pal`, `-f0`, `-a`) that
    `find_duplicates` will not surface, because their titles normalise
    differently or not at all. List the tree for the game's slug prefix.
