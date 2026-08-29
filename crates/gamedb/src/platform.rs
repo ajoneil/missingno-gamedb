@@ -82,8 +82,8 @@ pub fn platform_dirs() -> &'static [&'static str] {
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct GbHardware {
-    /// Consoles this release detects and lights extra features up on; empty =
-    /// a plain Game Boy release.
+    /// Hardware this release drives beyond a plain Game Boy; empty = none of
+    /// it.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub features: Vec<Feature>,
     /// Cartridge board — the mapper and the parts populated beside it, e.g.
@@ -141,6 +141,8 @@ pub enum Feature {
     SuperGameBoyEnhanced,
     /// Detects a Game Boy Color and draws in its palettes.
     GameBoyColorEnhanced,
+    /// Drives the serial port over a Game Link cable, the name the box prints.
+    GameLink,
 }
 
 /// A controller a release needs.

@@ -155,8 +155,12 @@ fn offered<T: Copy + PartialEq + std::fmt::Debug>(
     }
 }
 
-/// The consoles a Game Boy cartridge can detect and light up.
-const GB_FEATURES: &[Feature] = &[Feature::SuperGameBoyEnhanced, Feature::GameBoyColorEnhanced];
+/// What a Game Boy cartridge drives beyond the plain console.
+const GB_FEATURES: &[Feature] = &[
+    Feature::SuperGameBoyEnhanced,
+    Feature::GameBoyColorEnhanced,
+    Feature::GameLink,
+];
 
 /// Every controller a VCS was played with.
 const VCS_CONTROLLERS: &[Controller] = &[
@@ -180,14 +184,15 @@ impl HardwareFacts for GbHardware {
         &[
             FactDescriptor {
                 key: "features",
-                label: "Enhances",
+                label: "Drives",
                 kind: FactKind::Features {
                     catalogue: GB_FEATURES,
                 },
-                doc: "The richer consoles this release detects and lights up — a Super Game \
-                      Boy border and palette, Game Boy Color palettes. The cartridge header \
-                      states both, so a dump answers this; empty is a plain Game Boy \
-                      release.",
+                doc: "Hardware this release drives beyond a plain Game Boy — a Super Game Boy \
+                      border and palette, Game Boy Color palettes, a second console over the \
+                      Game Link cable. The cartridge header states the two enhancements, so a \
+                      dump answers those; the link cable is read off the box or manual. Empty \
+                      is a plain Game Boy release.",
             },
             FactDescriptor {
                 key: "cart_type",
