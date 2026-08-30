@@ -1,14 +1,48 @@
 (
     title: "Aoki Densetsu Shoot!",
+    description: Some("A soccer game tied to the Shoot! manga and its Toei Animation series, with matches played out from a side-on view. Beyond a one-off exhibition match it carries a story mode cast in the anime\'s style, and a spread of options for setting a game up."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/aoki-densetsu-shoot-",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Shoot! (manga)",
+            url: "https://en.wikipedia.org/wiki/Shoot!_(manga)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/0183CFC7C9AA91005F3E22597F6646661461893E",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("蒼き伝説シュート!"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1995-04-07"),
+            publisher: Some("Banpresto"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

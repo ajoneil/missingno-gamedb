@@ -1,11 +1,52 @@
 (
     title: "Avenging Spirit",
+    developer: Some("C.P. Brain"),
+    description: Some("Murdered and left as a ghost that cannot hold its shape for long, you go after the gangsters holding Gennifer by taking over other bodies — more than twenty, each with its own weapon — and when the one you are wearing runs out of stamina, you have seconds to jump to another."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Avenging_Spirit",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Avenging_Spirit_-_1992_-_Jaleco.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/avenging-spirit",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B55F48D452AB0A97E283AE469E03E00F82B6F627",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Phantasm"),
+            title: Some("ファンタズム"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992"),
+            publisher: Some("Jaleco"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "64b55f6fce16e80bdb9825b5246e7c05d76af7ae",
@@ -17,6 +58,18 @@
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992"),
+            publisher: Some("Jaleco"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "d22cca80a0855d7724539ef71f38e3f8f9656d6b",

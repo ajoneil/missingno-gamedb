@@ -1,12 +1,48 @@
 (
     title: "Asteroids",
+    developer: Some("The Code Monkeys"),
+    description: Some("Clear each screen of drifting rocks before they wreck your ship: shoot a large one and it splits into two mediums, each of those into two smalls. Every round adds another rock and quickens the pace, while saucers arrive to shoot back with steadily better aim. A second player can join, cooperatively or in competition."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Asteroids_-_Accolade.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/asteroids",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5A77741D7E726AC31E4BE4413EF8C79982705630",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            publisher: Some("Accolade"),
             status: Beta,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "28f4e2a076bfe5f7a77f695332705ea0085fccfb",
@@ -18,6 +54,17 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1992-09"),
+            publisher: Some("Accolade"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "435dbdaa9b9d2e0d0bc7c1c010cdc5ec9bd9f359",

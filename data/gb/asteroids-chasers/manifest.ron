@@ -1,10 +1,39 @@
 (
     title: "Asteroids Chasers",
+    developer: Some("Fadest"),
+    description: Some("A tile-laying game played across an asteroid field: each tile goes down adjacent to the one before, and you keep going until every tile is placed or no legal move remains. Asteroids and probes score, but let three mines sit active at once and the run ends there. It adapts Bran McMillin\'s print-and-play tile game Cheese Chasers."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://fadest.itch.io/achaser-gb",
+            link_type: Store,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1hZ2UvODI4NTc1LzcxODUwNzkucG5n/original/yXUwts.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("2021-10-11"),
+            publisher: Some("Yastuna Games"),
+            hardware: (
+                cart_type: Some(Mbc5(
+                    rom: Kb128,
+                    ram: Some(Kb8),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f93a4e6788eaf0231a6ca269cca297f0d45ec830",

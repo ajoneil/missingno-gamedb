@@ -1,10 +1,52 @@
 (
     title: "Aretha III",
+    developer: Some("Japan Art Media"),
+    description: Some("The last of the trilogy, in which an old acquaintance offers to send Materia twenty years into her kingdom\'s past so she can see the parents she never knew. The party grows from three to four, weapons are no longer tied to particular characters, and dungeon traps now reset and fire again, so getting past them is a matter of timing."),
+    links: [
+        (
+            name: "Aretha (video game series)",
+            url: "https://en.wikipedia.org/wiki/Aretha_(video_game_series)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/アレサ#アレサIII",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/aretha-3",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E73BFDDC1F7A791303E881D26513EFB12E922590",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アレサIII"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992-10-16"),
+            publisher: Some("Yanoman"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f57ff26d31283c88cc4c414b18ef6f182d07da9d",

@@ -1,0 +1,99 @@
+(
+    title: "Otto\'s Ottifanten: Baby Bruno\'s Nightmare",
+    developer: Some("Bit Managers"),
+    description: Some("An isometric puzzle-platformer: Baby Bruno goes after the magician who dissolved his teddy, working through a cylinder of trap-filled levels by finding a route to each one\'s exit before the timer runs out."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/ottos-ottifanten-baby-brunos-nightmare",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Unseen64",
+            url: "https://www.unseen64.net/2010/09/15/adventures-of-pinocchio-gameboy-beta/",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Otto%27s%20Ottifanten%20-%20Baby%20Bruno%27s%20Alptraum%20(Europe)%20(En,Fr,De,Es).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            languages: [
+                English,
+                French,
+                German,
+                Spanish,
+            ],
+            publisher: Some("Infogrames"),
+            status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "22a18f5eb589347fa596432d249b0abca69aa93b",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            languages: [
+                English,
+                French,
+                German,
+                Spanish,
+            ],
+            date: Some("1998"),
+            publisher: Some("Infogrames"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "93edd0772a3a65df17ec5877e2bcfafda3020169",
+                ),
+            ],
+        ),
+        (
+            title: Some("The Adventures of Pinocchio"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1993"),
+            status: Prototype,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "6808d5a5fba9b58d67e91f22a2860e4e72f6eec1",
+                ),
+            ],
+        ),
+    ],
+)

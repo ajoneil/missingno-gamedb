@@ -1,10 +1,43 @@
 (
     title: "Ayakashi no Shiro",
+    developer: Some("Seta"),
+    description: Some("A turn-based dungeon crawler viewed from the first person: you lead the protagonist through the dungeons while battles arrive at random, each fought by picking from a menu of options."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/ayakashi-no-shiro",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Ayakashi_no_Shiro",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8DC8137C778A150D868E128C64C4F3B09399DDE3",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("あやかしの城"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990-05-25"),
+            publisher: Some("Seta"),
+            hardware: (
+                cart_type: Some(Mbc2(
+                    rom: Kb64,
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "dad3ec1a054cbd092eedfdb1d742b811c105181a",

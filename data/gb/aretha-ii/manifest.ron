@@ -1,10 +1,43 @@
 (
     title: "Aretha II",
+    developer: Some("Japan Art Media"),
+    description: Some("A sequel that keeps the command battles and monster-catching of the first game while adding a technical attack, and weapons that can break mid-fight and be repaired with items. Materia and her old companions set out after an artifact thief; the first two towns are seen from above, the villages after them from the side."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Aretha_II",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/aretha-2",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/167D2DF5E47F5773496B348BCAF7B19C65643988",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アレサII"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1991-09-27"),
+            publisher: Some("Yanoman"),
+            hardware: (
+                cart_type: Some(Mbc2(
+                    rom: Kb256,
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5634a05ea8e93af3dd0e41823576bf6295f8df1f",

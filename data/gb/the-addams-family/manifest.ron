@@ -1,10 +1,52 @@
 (
     title: "The Addams Family",
+    developer: Some("Ocean"),
+    description: Some("Gomez roams a non-linear mansion to free the family members Abigail Craven has locked away, each held by a boss. This version adds four potions Pugsley has left about — speed, invincibility, swimming and flight — which open up areas otherwise out of reach, and its power-ups drain unless you keep finding vials."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Addams_Family_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Addams_Family,_The_-_1992_-_Ocean.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/addams-family-the",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Addams%20Family,%20The%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アダムス・ファミリー"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992-10-23"),
+            publisher: Some("Misawa Entertainment"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "10a7d1491001657272755559ed593cc4400014ee",
@@ -15,6 +57,18 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992-01"),
+            publisher: Some("Ocean"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "8710ceecbe3e7ade67c0362cc3b455aceb67a90d",
@@ -22,10 +76,23 @@
             ],
         ),
         (
-            label: Some("En,Fr,De"),
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+                French,
+                German,
+            ],
+            date: Some("1992"),
+            publisher: Some("Ocean"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "2246dbdb6c58c77814cf034ae9224be8e73c5084",

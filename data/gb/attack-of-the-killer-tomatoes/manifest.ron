@@ -1,10 +1,48 @@
 (
     title: "Attack of the Killer Tomatoes",
+    developer: Some("Equilibrium"),
+    description: Some("A platformer in which Wilbur Finletter takes on Dr. Gangrene\'s mutant vegetables across San Zucchini — through a pizza parlor, over the rooftops and out into the wilderness — armed with a skateboard, a parachute and a sabre, and hunting the cans of tomato juice hidden along the way."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Attack_of_the_Killer_Tomatoes_(1991_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Attack_Of_The_Killer_Tomatoes_-_1993_-_THQ_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/attack-of-the-killer-tomatoes",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4A69C744700C366F5C592DB2AC48F63C21E9CF5A",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1993"),
+            publisher: Some("Altron"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "96cd454513dfb363cda20bf0e72c6d74132a9487",
@@ -16,6 +54,15 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1992"),
+            publisher: Some("THQ"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "cbbba5d4f80f2b4ab3e882ceb4f79c293a17904f",

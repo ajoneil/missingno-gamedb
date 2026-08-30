@@ -1,10 +1,35 @@
 (
     title: "Astro-Jump",
+    developer: Some("PxlDev"),
+    description: Some("A small platformer that keeps to the basics: an astronaut jumping across screens of floating, grass-topped ledges."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://pxldev.itch.io/astro-jump",
+            link_type: Store,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1nLzU1ODk4MjIucG5n/original/5rXbfY.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2021-04-04"),
+            hardware: (
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1bcb4be684626ce061aad105701548fa3a77e254",

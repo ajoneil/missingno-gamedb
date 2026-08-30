@@ -1,10 +1,48 @@
 (
     title: "The Adventures of Rocky and Bullwinkle and Friends",
+    developer: Some("Imagineering"),
+    description: Some("Three artifacts are stolen from a museum and Rocky and Bullwinkle set out to recover them, across just three long levels — Frostbite Falls, the Moon and the Abominable Manor — alternating between the two characters. A bonus stage sends Bullwinkle down a football field, head-butting players, for an extra life."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/adventures-of-rocky-and-bullwinkle-and-friends-the",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Adventures_of_Rocky_and_Bullwinkle_and_Friends_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Adventures_Of_Rocky_And_Bullwinkle_And_Friends,_The_-_THQ_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Adventures%20of%20Rocky%20and%20Bullwinkle%20and%20Friends,%20The%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1992"),
+            publisher: Some("THQ"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0ce98889e5d9d6167338e91119394537318810da",

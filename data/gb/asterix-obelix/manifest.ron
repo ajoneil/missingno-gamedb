@@ -1,15 +1,37 @@
 (
-    title: "Asterix & Obelix",
+    title: "Astérix & Obélix",
+    description: Some("A side-scrolling platformer you take on as either Astérix or Obélix, running, jumping and thumping mostly-Roman opposition. It starts in the village and its forest before crossing the sea, with later stages set in Britain, Helvetia, Greece, Egypt and Hispania."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Asterix_&_Obelix_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/439C3AF4BA32810DF4D3F2B7B9A377A78656DEF1",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En,Es"),
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+                Spanish,
+            ],
+            date: Some("1995"),
+            publisher: Some("Infogrames"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -18,15 +40,24 @@
             ],
         ),
         (
-            label: Some("Fr,De"),
             regions: [
                 Europe,
             ],
+            languages: [
+                French,
+                German,
+            ],
+            publisher: Some("Infogrames"),
             status: Beta,
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -35,14 +66,24 @@
             ],
         ),
         (
-            label: Some("Fr,De"),
             regions: [
                 Europe,
             ],
+            languages: [
+                French,
+                German,
+            ],
+            date: Some("1995"),
+            publisher: Some("Infogrames"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

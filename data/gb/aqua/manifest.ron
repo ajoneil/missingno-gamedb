@@ -1,17 +1,41 @@
 (
     title: "Aqua",
+    developer: Some("Tiger Bronnikov"),
+    description: Some("You drop a line into the water, hook a fish and reel it back to the surface, while a larger fish tries to eat the catch off your hook on the way up. It is the last entry in the author\'s Primitive Arcade Game Collection."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://tiger-bronnikov.itch.io/aqua-gb",
+            link_type: Store,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1hZ2UvMjY2MzgwMC8xNTg3MzIwOC5wbmc=/original/yInQZc.png",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("v1.0"),
             regions: [
                 World,
             ],
+            date: Some("2024"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "311728bfcc1c4f51842f9da5022187e749e35045",
+                    label: Some("v1.0"),
                 ),
                 (
                     sha1: "cb5871dc5bca8b6fd5888b9d3a591fbfe082c11d",
+                    label: Some("v1.1"),
                 ),
             ],
         ),

@@ -1,11 +1,38 @@
 (
-    title: "Asterix",
+    title: "Astérix",
+    description: Some("A platformer that sends Astérix across Europe after Obelix, who has been carried off by the Romans and is bound for Caesar\'s lions. Getting to him means fighting through legionaries and hostile wildlife the whole way."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Asterix_(1993_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/869D35D6F66AAB9F3CD0B7637142C3C902CD8EE0",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En,Fr,De,Es,It"),
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+                French,
+                German,
+                Spanish,
+                Italian,
+            ],
+            date: Some("1993"),
+            publisher: Some("Infogrames"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "7d4ca6925826c0ffca3e3004479b5e9a5b6b311b",
@@ -17,7 +44,14 @@
             regions: [
                 Usa,
             ],
+            publisher: Some("Infogrames"),
             status: Prototype,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5077f422e513877e9c4e3497111f853376748826",
@@ -29,7 +63,14 @@
             regions: [
                 Usa,
             ],
+            publisher: Some("Infogrames"),
             status: Prototype,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5e2423d1d4a1239af2ccafdd6c0a3f2316ae6b51",
@@ -41,7 +82,15 @@
             regions: [
                 Usa,
             ],
+            publisher: Some("Electro Brain"),
             status: Prototype,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "54cd67ea3c3e7646fb5286a6274a40a77f0730cc",

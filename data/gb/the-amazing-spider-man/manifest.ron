@@ -1,11 +1,52 @@
 (
     title: "The Amazing Spider-Man",
+    developer: Some("Rare"),
+    description: Some("Spider-Man\'s enemies have worked out who Peter Parker is and taken Mary Jane; each level ends with one of them taunting him down a phone about where she has been hidden. Webbing is metered — spent on swinging after a double jump and on shooting — and topped up from vials the henchmen drop."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Amazing_Spider-man,_The_-_1990_-_LJN.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/amazing-spider-man-the",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Amazing_Spider-Man_(handheld_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Amazing%20Spider-Man,%20The%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1990"),
+            publisher: Some("LJN"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0effb4580efeaa323174a960bfd521fa28a18959",

@@ -1,15 +1,54 @@
 (
-    title: "Arcade Classic No. 1 - Asteroids & Missile Command",
+    title: "Arcade Classic No. 1: Asteroids + Missile Command",
+    developer: Some("The Code Monkeys"),
+    description: Some("Two Atari conversions on one cartridge. Asteroids has you clearing each screen of drifting rocks before they wreck your ship, with hostile saucers appearing to shoot at you. Missile Command gives you two anti-missile silos and asks you to intercept every incoming warhead before it reaches the ground."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Arcade_Classic_No._1_-_Asteroids_And_Missile_Command_-_Nintendo.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/arcade-classic-no-1-asteroids-and-missile-command",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Arcade Classic",
+            url: "https://en.wikipedia.org/wiki/Arcade_Classic",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DE119172053A18A8F42170D7D69B9FC929FD85CA",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1995"),
+            publisher: Some("Nintendo"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

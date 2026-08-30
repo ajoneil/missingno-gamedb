@@ -1,25 +1,126 @@
 (
     title: "Baby T-Rex",
+    developer: Some("Beam Software"),
+    description: Some("A sidescrolling platformer whose hero changes with the market: the levels, gameplay and music are the same in all four versions, while the main sprite, cutscenes and title screen were reworked for each licence — a skateboarding dinosaur in Europe, a television puppet in Australia, a comic-book bear in Sweden and the film\'s Rex in North America."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Baby_T-Rex",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/C815E2CEB44422EDA5CA1D1D6BD1127D3EB87BDC",
+    ],
+    curated: true,
     releases: [
+        (
+            title: Some("Agro Soar"),
+            regions: [
+                Australia,
+            ],
+            languages: [
+                English,
+            ],
+            date: Some("1993"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "d635761f247301fe6bae4d71ee67ceef384ca53a",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Europe,
+            ],
+            languages: [
+                English,
+            ],
+            date: Some("1993"),
+            publisher: Some("Laser Beam Entertainment"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "30042c3fc60df0da25fa3db3955a2e4657c1cccf",
+                ),
+            ],
+        ),
+        (
+            title: Some("Bamse"),
+            regions: [
+                Sweden,
+            ],
+            languages: [
+                English,
+                Swedish,
+            ],
+            date: Some("1993"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "92c042a1b3b9704736b6d8b19259efc5110c267d",
+                ),
+            ],
+        ),
+        (
+            title: Some("We\'re Back! A Dinosaur\'s Story"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            languages: [
+                English,
+            ],
+            date: Some("1993"),
+            publisher: Some("Hi Tech Expressions"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "ef58224f406cdf66bbe3797e2ef82a453fb1c18c",
+                ),
+            ],
+        ),
         (
             label: Some("ModRetro Chromatic"),
             regions: [
                 World,
             ],
+            languages: [
+                English,
+            ],
+            publisher: Some("ModRetro"),
             artifacts: [
                 (
                     sha1: "1a822317e4dab9dd6b02ebb96065e42f01d0dfb4",
                 ),
-            ],
-        ),
-        (
-            label: Some("v1.1, ModRetro Chromatic"),
-            regions: [
-                World,
-            ],
-            artifacts: [
                 (
                     sha1: "2beb84d0bb1879091d24b02d831a86547a11220b",
+                    label: Some("v1.1"),
                 ),
             ],
         ),

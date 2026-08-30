@@ -1,10 +1,43 @@
 (
     title: "Aretha",
+    developer: Some("Japan Art Media"),
+    description: Some("A command-based role-playing game in which Princess Materia sets out to free her kingdom from the Demon King who took it. She gathers two companions along the way, and can catch monsters in capsules to bring them back into later battles; on the world map she talks herself through what to do next."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Aretha_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/aretha",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5773450804BF2FCE60735EF328465B9DCFDD16B9",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アレサ"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990-11-16"),
+            publisher: Some("Yanoman"),
+            hardware: (
+                cart_type: Some(Mbc2(
+                    rom: Kb128,
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "eab8f13d110634f4ee750ac93e4f25d91a85000f",

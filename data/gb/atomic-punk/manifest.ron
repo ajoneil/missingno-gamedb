@@ -1,0 +1,102 @@
+(
+    title: "Atomic Punk",
+    developer: Some("Hudson"),
+    description: Some("Bomb through the soft blocks of each maze and catch the enemies in the blast. The solo game hangs its zones off a world map you can take in any order, paying gold for quick and destructive clears — that gold buys the power-up panels you pick before entering the next area. Two can play over a link cable."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Dynablaster_-_1990_-_Hudson.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/dynablaster",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Atomic_Punk",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Atomic%20Punk%20(USA).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("Dynablaster"),
+            regions: [
+                Europe,
+            ],
+            date: Some("1991"),
+            publisher: Some("Hudson"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "3c284831353be165e20b56f3728b0421eaea274a",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1991-05-05"),
+            publisher: Some("Hudson"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "4b364b4c12b83ab7adbec074fac951e2eb63dea8",
+                ),
+            ],
+        ),
+        (
+            title: Some("ボンバーボーイ"),
+            regions: [
+                Japan,
+            ],
+            date: Some("1990-08-31"),
+            publisher: Some("Hudson"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "a9baddfb693f20057b17c084422d7bfac590f2ba",
+                ),
+            ],
+        ),
+    ],
+)

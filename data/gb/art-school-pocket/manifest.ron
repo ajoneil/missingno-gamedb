@@ -1,23 +1,104 @@
 (
     title: "Art School Pocket",
+    developer: Some("The Flying Cortijo"),
+    description: Some("A comic adventure that casts you in the deliberately unglamorous role of an art-school student, with a diploma to earn on creative skill alone — in an art world the game paints as full of chancers who got there on brass neck and rich parents."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://tfc.itch.io/art-school-pocket",
+            link_type: Store,
+            languages: [
+                English,
+                Spanish,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FBDFB6A96181727FDEC14E93F207F14551C37F78",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("De"),
             regions: [
                 World,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("2019-09-11"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Mb1,
+                    ram: Some(Kb32),
+                    battery: true,
+                )),
+            ),
             artifacts: [
-                (
-                    sha1: "73ecffaee185eb2caf1db385d04b863676c777fb",
-                ),
-                (
-                    sha1: "7772e2b9d5e722e54d19fc6283ccb1fa5d19b641",
-                ),
                 (
                     sha1: "c482cfc6ec40b1f33c4ba48ecdc45fef4730b653",
                 ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            languages: [
+                Spanish,
+            ],
+            date: Some("2019-09-11"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Mb1,
+                    ram: Some(Kb32),
+                    battery: true,
+                )),
+            ),
+            artifacts: [
                 (
                     sha1: "c8a75895c87b11f9493f629c19c54d0c607505bd",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            languages: [
+                German,
+            ],
+            date: Some("2019-09-11"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Mb1,
+                    ram: Some(Kb32),
+                    battery: true,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "7772e2b9d5e722e54d19fc6283ccb1fa5d19b641",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            languages: [
+                French,
+            ],
+            date: Some("2019-09-11"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Mb1,
+                    ram: Some(Kb32),
+                    battery: true,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "73ecffaee185eb2caf1db385d04b863676c777fb",
                 ),
             ],
         ),

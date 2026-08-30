@@ -1,11 +1,49 @@
 (
     title: "Astro Rabby",
+    developer: Some("Cyclone System"),
+    description: Some("A top-down action game in which Rabby, a robot rabbit, hunts the heart hidden inside the soft blocks of each auto-scrolling stage — landing on one after a jump is what breaks it open. Every third stage swaps that for a memory game on blocks that sound a note when you land."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/astro-rabby",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "アストロラビー",
+            url: "https://ja.wikipedia.org/wiki/アストロラビー",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Astro_Rabby",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F0789AA10E24E5450A10415AC8CF2F193ECB8EE8",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En"),
+            title: Some("アストロラビー"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-10-12"),
+            publisher: Some("Information Global Service"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "3e53fd25f350c78a29e0642ee6de80208930d469",

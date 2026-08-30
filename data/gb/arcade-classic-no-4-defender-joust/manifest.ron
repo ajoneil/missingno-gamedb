@@ -1,15 +1,54 @@
 (
-    title: "Arcade Classic No. 4 - Defender & Joust",
+    title: "Arcade Classic No. 4: Defender + Joust",
+    developer: Some("Williams Electronics Games"),
+    description: Some("Two Williams arcade conversions on one cartridge. Defender has you flying over a planet surface, shooting the Landers that carry its residents off — let them take everyone and the planet goes up. Joust puts you on a flying ostrich, flapping for height and ramming rival riders to knock them off their mounts."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Arcade_Classic_No._4_-_Defender_And_Joust_-_1995_-_Nintendo.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/arcade-classic-no-4-defender-and-joust",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Arcade Classic",
+            url: "https://en.wikipedia.org/wiki/Arcade_Classic",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B7EBB934F46A7ABA154CC1FCF27545D5C2C405FA",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1995"),
+            publisher: Some("Nintendo"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

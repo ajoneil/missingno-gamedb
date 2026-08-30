@@ -1,11 +1,49 @@
 (
     title: "The Adventures of Star Saver",
+    developer: Some("A Wave Inc"),
+    description: Some("Kevin and his sister Connie are seized by an alien invasion force; Kevin refuses to join them, is thrown off the ship, and is picked up by a robot called Tom Wolf. Wearing the robot\'s suit he can shoot fast, but it is lost to a single hit. The Japanese release swaps the roles and casts the sister instead."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Adventures_Of_Star_Saver,_The_-_1991_-_Taito.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/adventures-of-star-saver-the",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Adventures_of_Star_Saver",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Adventures%20of%20Star%20Saver,%20The%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1992"),
+            publisher: Some("Taito"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "408b19a92c73daa11b3b1a52aa6a987cc6615e97",
@@ -13,11 +51,19 @@
             ],
         ),
         (
-            title: Some("Rubble Saver"),
-            label: Some("En"),
+            title: Some("ラブルセイバー"),
             regions: [
                 Japan,
             ],
+            date: Some("1991-05-17"),
+            publisher: Some("King Records"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "b535b2b78611ba1eb59e530456545fced0fddb76",

@@ -1,15 +1,46 @@
 (
-    title: "Arcade Classics - Super Breakout & Battlezone",
+    title: "Arcade Classics: Super Breakout + Battlezone",
+    developer: Some("Solid Software"),
+    description: Some("Two arcade conversions on one cartridge. Super Breakout is the bat-and-ball wall-smasher, offering Progressive, which scrolls the wall down at you, Doubles, and Cavity for multiple balls at once. Battlezone puts you in a tank cockpit instead, hunting enemy tanks, missiles and saucers by sight and radar while they hunt you."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Arcade_Classics_-_Battlezone_And_Super_Breakout_-_1996_-_Black_Pearl_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/arcade-classics-battlezone-and-super-breakout",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Arcade%20Classics%20-%20Super%20Breakout%20_%20Battlezone%20(USA,%20Europe)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1996"),
+            publisher: Some("Black Pearl Software"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

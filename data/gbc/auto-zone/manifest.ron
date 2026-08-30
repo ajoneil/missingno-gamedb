@@ -5,31 +5,19 @@
     links: [
         (
             name: "WLS",
-            url: "https://wls.hu/autozone-gb/",
+            url: "https://wls.hu/autozone-gbc/",
             link_type: DownloadPage,
             languages: [
                 English,
             ],
         ),
-        (
-            name: "WLS ROM",
-            url: "https://www.wls.hu/gb/autozone/autozone-gb.zip",
-            link_type: Download,
-            languages: [
-                English,
-            ],
-        ),
     ],
-    covers: [
-        "https://wls.hu/wp-content/uploads/2026/03/Auto-Zone-GB-WLSBOX-01-Egyeni.png",
-    ],
-    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
-            date: Some("2021-10-09"),
+            date: Some("2021-04-11"),
             hardware: (
                 cart_type: Some(Mbc5(
                     rom: Kb512,
@@ -40,7 +28,7 @@
             ),
             artifacts: [
                 (
-                    sha1: "3070ec215014633dac5dbbb487aade2e2993c049",
+                    sha1: "83a37fb5c5d82e0ff06bb22b63761af996e4ad61",
                 ),
             ],
         ),

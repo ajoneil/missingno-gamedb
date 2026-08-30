@@ -1,31 +1,58 @@
 (
-    title: "Arcade Classic No. 2 - Centipede & Millipede",
+    title: "Arcade Classic No. 2: Centipede + Millipede",
+    developer: Some("The Code Monkeys"),
+    description: Some("Two Atari conversions on one cartridge, each fought with a magic wand among a field of mushrooms. In Centipede the crawler you shoot grows new heads as it comes apart, with spiders, fleas and scorpions closing in; Millipede moves to a poisonous mushroom garden and adds earwigs and jumping spiders to the swarm."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Arcade_Classic_No._2_-_Centipede_And_Millipede_-_1995_-_Nintendo.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/arcade-classic-no-2-centipede-and-millipede",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Arcade Classic",
+            url: "https://en.wikipedia.org/wiki/Arcade_Classic",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F54755DEB8C79FFE00AD906C4797E582C9435E1C",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1995"),
+            publisher: Some("Nintendo"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
                     sha1: "405bc3736cfbea3f2259ad3e53a9d64c6523de4a",
-                ),
-            ],
-        ),
-        (
-            title: Some("Centipede"),
-            label: Some("Majesco"),
-            regions: [
-                Usa,
-            ],
-            artifacts: [
-                (
-                    sha1: "a3a5755020c9cbe13fc1a815288830d2e143367f",
                 ),
             ],
         ),

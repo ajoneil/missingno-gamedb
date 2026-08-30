@@ -1,11 +1,52 @@
 (
     title: "Kid Dracula",
+    developer: Some("Konami"),
+    description: Some("Kid Dracula has forgotten his powers and has to win them back before facing Garamoth, who is moving in on his castle. Each of the eight stages restores something — a wider shot, an umbrella against hazards, a spell of brief flight, or the knack of flipping gravity to walk along the ceiling."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Kid_Dracula_(1993_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Kid_Dracula_-_1993_-_Konami.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/kid-dracula",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Kid%20Dracula%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Akumajou Special - Boku Dracula-kun"),
+            title: Some("悪魔城すぺしゃる ぼくドラキュラくん"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1993-01-03"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f2f15da8ed94bc8652c23965428f6d767e506e38",
@@ -17,6 +58,18 @@
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-03"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f186833a2ccec808210eb4ba669f08401f950e23",

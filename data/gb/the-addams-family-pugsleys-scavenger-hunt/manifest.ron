@@ -1,11 +1,41 @@
 (
-    title: "The Addams Family - Pugsley\'s Scavenger Hunt",
+    title: "The Addams Family: Pugsley\'s Scavenger Hunt",
+    developer: Some("Enigma Variations"),
+    description: Some("A reworking of the first game with Pugsley in Gomez\'s place: the family are held around the mansion by monsters, and the levels behind its doors can be taken in any order. Trimmed further than the console versions — the stove level, the big bird boss and Thing\'s hint boxes are all gone — but a password system survives."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/addams-family-pugsleys-scavenger-hunt-the",
+            link_type: Community,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Addams_Family:_Pugsley\'s_Scavenger_Hunt",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DC819BAE322946BDF0D3C5202F108E4793503E39",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1993"),
+            publisher: Some("Ocean"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f9020e3d104cb5c5347e28f45ed9e24e6c0ebddd",
@@ -18,7 +48,15 @@
                 Usa,
                 Europe,
             ],
+            publisher: Some("Ocean"),
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0ef67a0e3d03be74284627c8f22232e2bb764865",
@@ -32,7 +70,15 @@
                 Europe,
             ],
             date: Some("1993-04-22"),
+            publisher: Some("Ocean"),
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "c64f3982a601f21fbe74c5cff7068c88e8d27851",
