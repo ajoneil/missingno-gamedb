@@ -1,11 +1,32 @@
 (
     title: "Amida",
+    developer: Some("Sofix"),
+    description: Some("Korosuke has no sense of direction: give him a path and he wanders off down it unaided. Across a hundred amidakuji ladder boards the job is to redirect him around the hazards he would otherwise walk straight into, and get him home."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/amida",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3FD2192B9771F49F99A5D62F476D1D5BBC3A3FAA",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En"),
+            title: Some("阿弥陀"),
             regions: [
                 Japan,
             ],
+            date: Some("1990"),
+            publisher: Some("Coconuts Japan"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "2b502583aa73cb72557589791dec7e28a2d29969",

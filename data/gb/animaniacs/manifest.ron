@@ -1,14 +1,50 @@
 (
     title: "Animaniacs",
+    developer: Some("Factor 5"),
+    description: Some("Yakko, Wakko and Dot break out of the studio water tower and set about collecting props from the Warner Bros. film sets. Three stages here; on easy that is the whole game, while normal and hard carry on past them to a reckoning with Pinky and the Brain."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Animaniacs_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Animaniacs_-_1995_-_Konami.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/animaniacs",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DDE44839852A5C25A64B5D29D1D32AC7FADADD04",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995"),
+            publisher: Some("Konami"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -20,10 +56,20 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995"),
+            publisher: Some("Konami"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

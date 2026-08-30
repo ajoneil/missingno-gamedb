@@ -1,10 +1,48 @@
 (
-    title: "Altered Space - A 3-D Alien Adventure",
+    title: "Altered Space: A 3-D Alien Adventure",
+    developer: Some("Software Creations"),
+    description: Some("Humphrey wakes in the hold of a Zak zoo ship and has to work his way forward to the escape pod in its nose. The Zaks breathe chlorine, so his suit never comes off — and every sharp edge he brushes punctures it and bleeds away air, making the whole isometric ship a matter of conserving what he has left."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Altered_Space_-_A_3-d_Alien_Adventure_-_1991_-_Sony.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/altered-space-a-3-d-alien-adventure",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Altered_Space",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/FD7F322512B39A7400F9282744520DA48B963EA6",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991"),
+            publisher: Some("Hi Tech Expressions"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "218da72e38a847bc5152a226c98e843b4941a8a6",
@@ -15,6 +53,18 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991"),
+            publisher: Some("Sony Imagesoft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ca586c59b2473a8bec2f0f37504cb74e3a1e4d11",
@@ -22,10 +72,21 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-11-29"),
+            publisher: Some("Epic/Sony Records"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6d19dfedf2c916f13a524acfd7c4e26de040e655",

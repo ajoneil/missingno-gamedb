@@ -1,24 +1,43 @@
 (
     title: "America Oudan Ultra Quiz Part 2",
+    description: Some("1200 more questions, but the checkpoints between Guam and Washington can now be taken in any order. Each stop pairs its quiz with a minigame — fishing, stunt work, shouting, a sliding puzzle — and a password carries progress between sessions, which the first game had no way to do."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/アメリカ横断ウルトラクイズ_(コンピュータゲーム)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/063F9EE28A2F1764F189DD6EFD0732C4256A267B",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アメリカ横断ウルトラクイズPART2"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1991-12-20"),
+            publisher: Some("Tomy"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "34c417f6f9db7e8021fb1af6c12f22c9b48bb723",
+                    label: Some("Rev 0"),
                 ),
-            ],
-        ),
-        (
-            label: Some("Rev 1"),
-            regions: [
-                Japan,
-            ],
-            artifacts: [
                 (
                     sha1: "cb3ed70f4d095405df2c322c528cab2a00d56557",
+                    label: Some("Rev 1"),
                 ),
             ],
         ),

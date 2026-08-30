@@ -1,10 +1,34 @@
 (
     title: "Alphamax",
+    developer: Some("fb1"),
+    description: Some("A tiny shoot-em-up: endless waves of four randomly chosen enemies come at your ship, each wave stronger and faster than the last, while every few waves your own ship gains more power or more speed in return."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://fb1.itch.io/alphamaxgb",
+            link_type: Store,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1hZ2UvOTAyNDEvNDI1OTM4LnBuZw==/original/F1y1FQ.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2016-10-09"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "798dda34d04a06dcee32f44f8a4a045caf734927",

@@ -1,10 +1,33 @@
 (
     title: "Alley",
+    developer: Some("Tiger Bronnikov"),
+    description: Some("A single-screen platformer in a deliberately primitive arcade mould: clear each round by collecting fifty coins. Three regular rounds and three bonus rounds make up the whole of it, the first entry in the author\'s Primitive Arcade Game Collection."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://tiger-bronnikov.itch.io/alley",
+            link_type: Store,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1hZ2UvMjU2NTEyOS8xNTI2NDM3Ny5wbmc=/original/gWgdCX.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2024"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "34bc4f54c0577f55bd40ce1155b6cc74a72ec4e2",

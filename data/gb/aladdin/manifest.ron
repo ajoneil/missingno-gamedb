@@ -1,15 +1,50 @@
 (
     title: "Aladdin",
-    kind: Demo,
+    developer: Some("NMS Software"),
+    description: Some("Jafar has Princess Jasmine locked in the Sultan\'s palace, and Aladdin runs, leaps and climbs ropes across nine levels drawn from the film to reach her. Apples are the main weapon, thrown at whatever is in the way — the scimitar only comes out once the last apple is gone. A lamp\'s smoke tracks his health."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Disney\'s_Aladdin_(Genesis_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Aladdin_-_1994_-_Virgin.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/aladdin",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7AACEC2D9F8056AC365D428E34AA2CC03353B22C",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            publisher: Some("Virgin Interactive Entertainment"),
+            status: Demo,
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -21,10 +56,20 @@
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1994-09"),
+            publisher: Some("Virgin Interactive Entertainment"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -36,10 +81,20 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995-10"),
+            publisher: Some("THQ"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -52,10 +107,20 @@
             regions: [
                 World,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("2019-10-29"),
+            publisher: Some("Nighthawk Interactive"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

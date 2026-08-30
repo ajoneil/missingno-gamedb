@@ -1,11 +1,45 @@
 (
     title: "Alfred Chicken",
+    developer: Some("Twilight"),
+    description: Some("The Meka-Chickens have eggnapped Billy and his brothers for their cloning experiments, and Alfred sets out through Wild World to get them back. He pecks while standing and dive-bombs while falling, bouncing off springs to reach high ledges. Every balloon on a level must be popped; the last one carries him off to a bonus lab."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Alfred_Chicken",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Alfred_Chicken_-_1994_-_Mindscape.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/alfred-chicken",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AFB181BA57A5781CF5C193651F30B02669F21823",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            publisher: Some("Mindscape"),
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a9aa7cf61ffa42a4097f0c900ad4463d6fd89a19",
@@ -16,6 +50,15 @@
             regions: [
                 Europe,
             ],
+            date: Some("1993"),
+            publisher: Some("Mindscape"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "bc7327008de518ddfad0ad5c69896921dc2378e0",
@@ -26,6 +69,15 @@
             regions: [
                 Usa,
             ],
+            date: Some("1993"),
+            publisher: Some("Mindscape"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "80c39d93ca58d0d6144fe7f7bdd47c3a4fcf0438",
@@ -33,14 +85,20 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1994"),
+            publisher: Some("Sunsoft"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

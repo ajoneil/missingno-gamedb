@@ -1,11 +1,40 @@
 (
     title: "After Burst",
+    developer: Some("Dual"),
+    description: Some("A combat robot must destroy the orb at the heart of each single-screen stage, shooting through patrolling enemies to reach it. Shooting out a destructible block drops whatever rests on top, and the gun\'s angle and charged range turn most obstacles into a small aiming puzzle. Thirty stages, a boss every tenth, plus a two-player duel."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/after-burst",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/After_Burst",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7E91D53FBB4EE1E12CBA780D215AB8307BD7716C",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1990"),
+            publisher: Some("NCS"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "459cb97524669b0de6cd7cfada61ad67339232f1",

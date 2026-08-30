@@ -1,10 +1,35 @@
 (
     title: "Anctrayl",
+    developer: Some("Bipedal Studios"),
+    description: Some("A Snake and Sokoban hybrid: you steer an expanding wave of energy and shove every box onto its goal. A box that lands correctly hardens into a brick wall, becoming one more obstacle in your way. Twelve stages across three difficulties, with progress saved after each set of four."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://bipedal-studios.itch.io/anctrayl",
+            link_type: Store,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1nLzE0NzEyMDkxLnBuZw==/original/GzcAVC.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2024"),
+            hardware: (
+                cart_type: Some(Mbc5(
+                    rom: Kb64,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "403a40761eec80cf7938bcae3a6deeaf17838311",

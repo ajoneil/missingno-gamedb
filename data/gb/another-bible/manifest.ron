@@ -1,14 +1,43 @@
 (
     title: "Another Bible",
+    developer: Some("Dice"),
+    description: Some("A strategy RPG in the Last Bible line: Cassiel and the winged priestess Pythia lead a party across the map, every unit acting in speed order rather than by side. Lose either of them and it is game over. Monsters join through Pythia\'s coaxing and climb ranks, while machines fuse with demon cells into hybrids."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/女神転生外伝_ラストバイブルシリーズ",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/another-bible",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/317BD23B8BE9E8AD414E3A3D11E773C462C0B04C",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アナザ・バイブル"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1995-03-04"),
+            publisher: Some("Atlus"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (

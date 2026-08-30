@@ -1,10 +1,35 @@
 (
-    title: "America Oudan Ultra Quiz Part 3 - Champion Taikai",
+    title: "America Oudan Ultra Quiz Part 3: Champion Taikai",
+    description: Some("The main run heads from Narita through Guam, San Francisco, the Grand Canyon and Boston to New York. Win it and you are given a password into the Champion Taikai, where the show\'s past quiz kings appear as partner or opponent across in-flight rounds, janken, scattered questions and buzzer duels."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/アメリカ横断ウルトラクイズ_(コンピュータゲーム)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/7AE43A11E479814C715B40D5B257CE0C9B8A2C7B",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アメリカ横断ウルトラクイズPART3 チャンピオン大会"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992-11-27"),
+            publisher: Some("Tomy"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "61acfb83a35b2d73fad607ddd7fc1ac49e41492e",

@@ -1,10 +1,45 @@
 (
     title: "Alleyway",
+    developer: Some("Intelligent Systems"),
+    description: Some("A paddle at the foot of the screen knocks a ball up into the blocks above, clearing all thirty-two stages to reach the closing fanfare. Holding A slides the paddle at high speed, and the layouts shift as you go: some scroll sideways, others creep downward a row at a time."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Alleyway_-_1989_-_Nintendo.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/alleyway",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Alleyway_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Alleyway%20(World).png",
+        "https://hasheous.org/api/v1/images/E0761DA6E5A44F0FF3A4F5016FF6D331AD8F3BB1",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("1989"),
+            publisher: Some("Nintendo"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0cf2b8d0428f389f5361f67a0cd1ace05a1c75cc",

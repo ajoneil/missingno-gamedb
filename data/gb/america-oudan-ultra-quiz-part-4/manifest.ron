@@ -1,10 +1,35 @@
 (
     title: "America Oudan Ultra Quiz Part 4",
+    description: Some("Two ways to play: the main run through Guam, Knott\'s Berry Farm, Las Vegas, Houston and Boston to New York, or a free match that pits you against ten characters at the buzzer until all ten are beaten. Checkpoints mix their questions with minigames — a crane grab, an animal hunt, a ski jump, spot-the-difference."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/アメリカ横断ウルトラクイズ_(コンピュータゲーム)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/America%20Oudan%20Ultra%20Quiz%20Part%204%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アメリカ横断ウルトラクイズPART4"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1993-10-29"),
+            publisher: Some("Tomy"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "30184de60214b8d16d044433cd92f0b2a975e9d6",

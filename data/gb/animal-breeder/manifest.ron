@@ -1,14 +1,39 @@
 (
     title: "Animal Breeder",
+    developer: Some("J-Wing"),
+    description: Some("Raise an animal week by week — feeding it, playing with it, training and schooling it — while its height, weight, condition and mood all shift in response. The aim is to breed new species of your own, and grown animals can be set against one another."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/animal-breeder",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5CFA66BB258E0CC17C62E90B2E997C1E2A290949",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("あにまるぶりーだー"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1997"),
+            publisher: Some("J-Wing"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
+                    GameLink,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (

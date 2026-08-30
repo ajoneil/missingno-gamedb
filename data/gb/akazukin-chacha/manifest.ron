@@ -1,14 +1,36 @@
 (
     title: "Akazukin Chacha",
+    description: Some("A comical role-playing outing for Chacha and her schoolmates, framed as the graduation exam at Urara School. Play runs from a command window offering magic, a left or right hand, and escape, with a row of hearts standing in for health."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/akazukin-chacha",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3C2863C8C2D2B738AAB823AA660CD58D315CE6D6",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1995"),
+            publisher: Some("Tomy"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

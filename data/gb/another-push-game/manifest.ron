@@ -1,15 +1,43 @@
 (
     title: "Another Push Game",
+    developer: Some("yanin"),
+    description: Some("Push blocks around each room to reach the switch that opens its door, working past spikes, magical barriers and locks that need picking — and some doors are invisible until found. If a puzzle jams, stepping back to an earlier room resets it."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://yaninyunus.itch.io/anotherpushame",
+            link_type: Store,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1nLzE0Nzg4NjA3LnBuZw==/original/gjvggt.png",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("v1.07"),
             regions: [
                 World,
             ],
-            status: Prototype,
+            date: Some("2024-01-27"),
+            status: WorkInProgress,
+            hardware: (
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6b84d7322d30e9c06a4fdac0050f2c22babaaa7d",
+                    label: Some("v1.07"),
                 ),
             ],
         ),

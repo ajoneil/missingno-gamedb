@@ -1,10 +1,49 @@
 (
     title: "All-Star Baseball 99",
+    developer: Some("Iguana Entertainment"),
+    description: Some("Six game types cover a licensed major-league roster: one-off exhibitions, a full season chasing a League title and the World Series, the playoffs, the All-Star Game and the Home Run Derby. Batting and pitching sit behind the plate as the umpire sees it, and the view swings to an overhead three-quarter angle once the ball is in play."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/All-star_Baseball_99_-_1998_-_Acclaim.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/all-star-baseball-99",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/All-Star_Baseball_99",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/All-Star%20Baseball%2099%20(USA).png",
+        "https://hasheous.org/api/v1/images/4E0ADCD68DEEEC9129926DF22FB8F99A93118CB0",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1998"),
+            publisher: Some("Acclaim"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "49d13eef514d26cee37b10ff602e21a92b87b69d",

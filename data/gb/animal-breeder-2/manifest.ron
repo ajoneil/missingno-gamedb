@@ -1,14 +1,39 @@
 (
     title: "Animal Breeder 2",
+    developer: Some("J-Wing"),
+    description: Some("A sequel that keeps the marriage system and adds an encyclopaedia: every new species you breed gets its own entry in a picture book you build up. The animals are beasts and rarities nobody could keep at home, raised week by week toward hybrids that could not exist in life."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/animal-breeder-2",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/33F4CD74B3F31CAB7B202FD5FE404E85E14E7CA9",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("あにまるぶりーだー2"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1998"),
+            publisher: Some("J-Wing"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
+                    GameLink,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (

@@ -1,10 +1,38 @@
 (
     title: "America Oudan Ultra Quiz",
+    description: Some("A tie-in to the televised quiz marathon: 1200 questions taken from the show carry you from Narita airport through Guam, Los Angeles, Las Vegas, Niagara and Washington to New York. The in-flight round never tells you whether you answered correctly, and from Guam onward a failed run continues only by surviving a forfeit game."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/アメリカ横断ウルトラクイズ_(コンピュータゲーム)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/F55AE920B3C2463756B96D0B1B6747A8E2E9E025",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("アメリカ横断ウルトラクイズ"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990"),
+            publisher: Some("Tomy"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9761f22250faf9c241fd7f9e2d00436f3fd454e7",

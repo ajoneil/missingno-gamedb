@@ -1,11 +1,49 @@
 (
     title: "Alien 3",
+    developer: Some("Bits Studios"),
+    description: Some("Ripley wakes in the infirmary of the Fury 161 work prison, its doors disabled and a key card somewhere to be found. Seen from overhead, her search-and-destroy sweep runs through interlocking corridors and ventilation shafts, with weapons and equipment picked up, swapped and discarded from an inventory as she goes."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Alien_3_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Alien_3_-_1993_-_LJN.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/alien-3",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5D3F96954C3E355515170C8D3DE43395B82DE414",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993"),
+            publisher: Some("LJN"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ab4d11eee7faea42c637505469e0671c9d4a83f8",
@@ -13,10 +51,20 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            publisher: Some("Acclaim"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "4a3e7eb0edaefec096baa0019b3cba28b4796689",

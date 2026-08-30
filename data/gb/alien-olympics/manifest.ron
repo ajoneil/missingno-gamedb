@@ -1,10 +1,40 @@
 (
     title: "Alien Olympics",
+    developer: Some("Dark Technologies"),
+    description: Some("Barred from Earth\'s Olympics, the aliens run their own — and Traxsis sends its reigning champion Ooie Gooie to the 2044 games. Fifteen events riff on track and field, from sprints and pole vault to archery; the triple jump has you tap A and B to build speed, then press before the line to set your angle."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/alien-olympics",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Alien_Olympics",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4E3B363C862AF217529648E343DFFE7638038555",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1994"),
+            publisher: Some("Ocean"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "c6a69416d3f18071942d222d528b1c9d25f980b7",
@@ -16,7 +46,17 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
             status: Prototype,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6967e6897de511df2bb03e7c805a222b653ac63f",

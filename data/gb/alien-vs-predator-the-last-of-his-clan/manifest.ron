@@ -1,11 +1,43 @@
 (
-    title: "Alien vs Predator - The Last of His Clan",
+    title: "Alien vs Predator: The Last of His Clan",
+    developer: Some("ASK Kodansha"),
+    description: Some("The last Predator alive hunts the Aliens that wiped out his clan, through seven stages of labyrinthine corridors on Alpha Centauri 3 and down to the Queen\'s lair. A shared pool of energy runs both the radar that maps where you have been and the invisibility system, so both stop when it empties."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Aliens_Versus_Predator_-_The_Last_of_His_Clan_-_1993_-_Activision.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/aliens-versus-predator-the-last-of-his-clan",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/62117B385EEC90096999465881F8BEBCD3583696",
+    ],
+    curated: true,
     releases: [
         (
             title: Some("Alien vs Predator"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1993-09-24"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5b21dc4a7b48e75da725657d1ccde868759e5699",
@@ -16,6 +48,18 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-11"),
+            publisher: Some("Activision"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "c0d39ee87b908cdbd68c59f73e5dc2a7a6ccbedc",

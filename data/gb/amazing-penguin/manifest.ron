@@ -1,11 +1,46 @@
 (
     title: "Amazing Penguin",
+    developer: Some("Natsume"),
+    description: Some("The penguin prince works through forty rooms held by a wizard\'s army of animated pencils and erasers. Removing every seal from a room\'s passages opens its panels and moves him on; a black seal can be kicked into enemies, while bursting a white one sends them back the way they came."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Amazing_Penguin",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Amazing_Penguin_-_1990_-_Natsume.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/amazing-penguin",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/509B93F964F0C07D256FA1009D898A788E58AD19",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Osawagase! Penguin Boy"),
+            title: Some("おさわがせ! ペンギンBOY"),
             regions: [
                 Japan,
             ],
+            date: Some("1990"),
+            publisher: Some("Natsume"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1cdcf9810e98ba04378b2d6b555654722cb0acf6",
@@ -17,6 +52,15 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1990"),
+            publisher: Some("Natsume"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "84cc6452823eb05ee38679aec86e3cc6e4a50e6f",
@@ -24,10 +68,17 @@
             ],
         ),
         (
-            label: Some("Limited Run Games"),
             regions: [
                 World,
             ],
+            publisher: Some("Limited Run Games"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "01f11e0746a511b35b2c873d6a190f6e10204676",

@@ -39,6 +39,11 @@ report the page and get the facts elsewhere.
 normal-user URLs, one request at a time, and stop at the first anti-scraper
 signal.
 
+**Never put a personal contact address in a request.** A `User-Agent` reaches
+every server it is sent to and ends up in their logs; the maintainer's email is
+not ours to publish for them. Send the tool's default agent, or a bare project
+name with no contact detail.
+
 ## No links to sites that host commercial ROMs
 
 **Missingno celebrates commercial gaming history; it does not operate in legal
@@ -166,6 +171,13 @@ No-Intro/TOSEC filename, and those filenames carry things that are not the name:
 taglines, ad copy, dump flags, and publisher qualifiers. A subtitle is part of
 the title only if the packaging sets it as one.
 
+**The test is whether it travels with the logo.** A subtitle is part of the
+title lockup, so it appears wherever the logo does — box front, cart label, title
+screen. Ad copy is placed once and dropped everywhere else, so a second line that
+appears on only one of the three is not part of the name. Check all three before
+deciding; punctuation is a poor guide, because a real subtitle is often set
+without a colon and may carry a full stop or sit outside the trademark.
+
 **A subtitle is separated with a colon.** The packaging is what decides the
 title, and it usually sets a subtitle on its own line rather than punctuating it
 at all — so the separator is ours to choose, and the choice is `:`, matching what
@@ -231,6 +243,19 @@ article is not this game's article, nor is a company article that merely lists
 it, nor a disambiguation page. An article about an arcade original counts when it
 documents the port.
 
+**Where English has no article, the country of origin's Wikipedia is the one to
+link.** A Japan-only release is often covered properly on ja.wikipedia and
+nowhere else, and that article is the game's own — the same test still applies,
+so a section within a series article counts only if the section is about this
+game. Search that language's wiki in its own script rather than a romanisation.
+
+**Store the URL with its real characters, not percent-escapes.** A link is read
+by a person, and `%E3%82%A2%E3%83%A1...` tells them nothing where the title
+itself is legible. Wikipedia serves the decoded form, so decode it. This is not a
+blanket rule: keep the escapes wherever the host requires them to resolve — the
+libretro thumbnail URLs below are keyed on No-Intro filenames and must stay
+encoded.
+
 ## Cover art
 
 Remote URLs only — the database stores a link, never the bytes. That is why
@@ -248,13 +273,20 @@ hack's record carries the hack's art.
    `thumbnails.libretro.com/<system>/Named_Boxarts/<name>.png` (URL-encode spaces
    AND apostrophes: `%20`, `%27`), not raw.githubusercontent. It uses a generic
    "PROTOTYPE" placeholder box for unreleased titles — never stage that.
-3. **Homebrew and demoscene**: the project's own canonical host.
+3. **Homebrew and demoscene**: the project's own canonical host — which for an
+   itch.io release means `img.itch.zone`. Its paths are content-addressed
+   (base64 of `image/<game-id>/<image-id>.png`, read off the product page) and
+   served with a ten-year `cache-control`, so they are stable enough to stage.
+   A new cover from the author gets a new image id, so the URL keeps serving the
+   art you looked at rather than silently becoming a different one.
 4. A Wikipedia article's box art is a last resort (usually fair-use, worth noting).
 
 **Download the staged image and look at it before keeping it.** Prefer the scan
 that shows the platform banner; between two of the same art, the higher
-resolution wins. Never store-CDN URLs (itch/Steam links churn) — a store page is
-a `DownloadPage` link, not a cover.
+resolution wins. For a **commercial** game never take a store listing's image —
+those churn and are routinely another platform's box; the store page is a `Store`
+link, not a cover. The homebrew exception above is the author's own host, which
+is a different thing from a storefront's product imagery.
 
 ## Manual links
 
@@ -271,6 +303,12 @@ link that belongs in the database — the announcement the author released the R
 from, verified as such by reading it — and it is a `DownloadPage`. Reserve
 `Download` for a creator's own hosted file, verified by fetching it and
 hash-matching the dump.
+
+**A storefront page is a `Store`, whatever it charges.** itch.io, Steam and the
+aftermarket cart shops are storefronts, so their product pages take `Store` even
+where the game is free or name-your-own-price — the price is the listing's, not
+the link type's. `DownloadPage` is for a page that is only somewhere to get the
+ROM: a forum release thread, an author's "download here" page.
 
 ## Licensing
 
