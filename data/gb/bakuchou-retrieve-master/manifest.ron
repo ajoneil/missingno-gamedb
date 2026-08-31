@@ -25,9 +25,11 @@
             date: Some("1998-10-15"),
             publisher: Some("Konami"),
             hardware: (
-                features: [
-                    SuperGameBoyEnhanced,
-                    GameLink,
+                enhancements: [
+                    SuperGameBoy,
+                ],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb512,

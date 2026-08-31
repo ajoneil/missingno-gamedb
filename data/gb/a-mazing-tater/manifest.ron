@@ -38,8 +38,9 @@
             date: Some("1991-08-02"),
             publisher: Some("Atlus"),
             hardware: (
-                features: [
-                    GameLink,
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb64,
@@ -63,8 +64,9 @@
             date: Some("1992-02"),
             publisher: Some("Atlus"),
             hardware: (
-                features: [
-                    GameLink,
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb64,

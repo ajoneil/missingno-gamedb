@@ -57,8 +57,9 @@
             date: Some("1992-09"),
             publisher: Some("Accolade"),
             hardware: (
-                features: [
-                    GameLink,
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Rom(
                     ram: None,

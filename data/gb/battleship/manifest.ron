@@ -49,8 +49,9 @@
             date: Some("1992-12"),
             publisher: Some("Mindscape"),
             hardware: (
-                features: [
-                    GameLink,
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb64,

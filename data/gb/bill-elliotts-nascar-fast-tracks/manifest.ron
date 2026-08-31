@@ -40,8 +40,9 @@
             date: Some("1991-12"),
             publisher: Some("Konami"),
             hardware: (
-                features: [
-                    GameLink,
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb128,

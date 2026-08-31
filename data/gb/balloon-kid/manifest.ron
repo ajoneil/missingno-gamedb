@@ -38,8 +38,9 @@
             date: Some("1990-10-05"),
             publisher: Some("Nintendo"),
             hardware: (
-                features: [
-                    GameLink,
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb128,

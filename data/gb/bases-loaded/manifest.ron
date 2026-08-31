@@ -49,8 +49,9 @@
             date: Some("1990-07"),
             publisher: Some("Jaleco"),
             hardware: (
-                features: [
-                    GameLink,
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb128,

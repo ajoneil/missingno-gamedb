@@ -26,8 +26,9 @@
             date: Some("1990"),
             publisher: Some("NCS"),
             hardware: (
-                features: [
-                    GameLink,
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb64,

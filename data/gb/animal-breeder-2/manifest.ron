@@ -25,9 +25,11 @@
             date: Some("1998"),
             publisher: Some("J-Wing"),
             hardware: (
-                features: [
-                    SuperGameBoyEnhanced,
-                    GameLink,
+                enhancements: [
+                    SuperGameBoy,
+                ],
+                peripherals: [
+                    LinkCable,
                 ],
                 cart_type: Some(Mbc1(
                     rom: Kb512,
