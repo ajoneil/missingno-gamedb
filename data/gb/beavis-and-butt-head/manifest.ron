@@ -1,11 +1,52 @@
 (
     title: "Beavis and Butt-head",
+    developer: Some("Torus Games"),
+    description: Some("Beavis and Butt-head want into Todd\'s gang, and the price is breaking him out of jail. Nine levels of maze-crawling — one of the pair at a time — sneaking out of school, outrunning dogs and rabid squirrels and working through the sewers, with an inventory of items and weapons to dig into."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Beavis_and_Butt-Head_(video_game)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Beavis_And_Butt-head_-_1999_-_GT_Interactive_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/beavis-and-butt-head",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/6549ACEFAA87AB44B1917767B767DD062AEA8ABF",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1999-03"),
+            publisher: Some("GT Interactive"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "918e9cc878a61d8174918c897182604f0c27b1d9",

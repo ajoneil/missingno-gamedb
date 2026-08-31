@@ -1,14 +1,53 @@
 (
     title: "Battle Arena Toshinden",
+    developer: Some("Betop"),
+    description: Some("Toshin Daibukai is an underworld tournament where any weapon short of a firearm is legal. The PlayStation fighter is redrawn flat for the handheld with its roster intact — and an invisible wall runs down each edge of the screen, so being shoved through it three times loses the round."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battle_Arena_Toshinden_(Game_Boy_video_game)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Battle_Arena_Toshinden_-_1996_-_Takara.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battle-arena-toshinden",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battle%20Arena%20Toshinden%20%28USA%29%20%28SGB%20Enhanced%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1996-07"),
+            publisher: Some("Laguna"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -17,18 +56,32 @@
             ],
         ),
         (
-            title: Some("Nettou Toushinden"),
+            title: Some("熱闘闘神伝"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1996-03-22"),
+            publisher: Some("Takara"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
                     sha1: "61b99fbc4d56dad2e6002c7a8c6b5a1660a23137",
+                ),
+                (
+                    sha1: "5fd55a5d01817c770b251dbb9a0dc73a02d8c566",
+                    label: Some("Rev 1"),
                 ),
             ],
         ),
@@ -36,31 +89,24 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1996-11"),
+            publisher: Some("Nintendo"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
                     sha1: "9c337d3f56938aa46cfc8b85c0db4631bcbe217c",
-                ),
-            ],
-        ),
-        (
-            title: Some("Nettou Toushinden"),
-            label: Some("Rev 1"),
-            regions: [
-                Japan,
-            ],
-            hardware: (
-                features: [
-                    SuperGameBoyEnhanced,
-                ],
-            ),
-            artifacts: [
-                (
-                    sha1: "5fd55a5d01817c770b251dbb9a0dc73a02d8c566",
                 ),
             ],
         ),

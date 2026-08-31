@@ -1,11 +1,41 @@
 (
     title: "Bases Loaded",
+    developer: Some("TOSE"),
+    description: Some("A baseball sim that swaps viewpoint with the innings: batting is seen from behind home plate, fielding from the pitcher\'s mound. Pitching is a two-stage decision — place the ball inside or outside, then pick from eight deliveries on the pad, from fastball to slow screwball."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bases_Loaded_-_1990_-_Jaleco.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bases-loaded",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bases%20Loaded%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Baseball Kids"),
+            title: Some("ベースボールキッズ"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-03-15"),
+            publisher: Some("Jaleco"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "e4a49a9ecd7a9ce8bb552981e90903f21c741428",
@@ -16,6 +46,18 @@
             regions: [
                 Usa,
             ],
+            date: Some("1990-07"),
+            publisher: Some("Jaleco"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5220db2e87622648caeacdfb8d4f564c9bf479fc",

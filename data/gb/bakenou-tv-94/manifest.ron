@@ -1,14 +1,39 @@
 (
     title: "Bakenou TV \'94",
+    kind: Software,
+    developer: Some("Graphic Research"),
+    description: Some("Rather than a race to play, this is a betting aid for real Japanese meetings: you enter the card you are studying — its grade, from the top G1 and G2 events down to the minor prize-money brackets — and the program works up a forecast for it."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bakenou-tv-94",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bakenou%20TV%20%2794%20%28Japan%29%20%28SGB%20Enhanced%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("馬券王TV\'94"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994"),
+            publisher: Some("Asmik"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (

@@ -1,11 +1,33 @@
 (
     title: "Baby\'s Day Out",
+    developer: Some("Designer Software"),
+    description: Some("You don\'t play the baby. Bink makes his own way across the screen while you take the part of his guardian angel, moving a cursor to keep him out of trouble and guide him to safety."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Baby\'s_Day_Out#Cancelled_video_game",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1994"),
+            publisher: Some("Hi Tech Entertainment"),
             status: Prototype,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "d06b433a5d355490ebae150a45c47b0c5bce9087",

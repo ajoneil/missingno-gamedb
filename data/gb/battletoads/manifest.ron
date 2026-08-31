@@ -1,10 +1,52 @@
 (
     title: "Battletoads",
+    developer: Some("Rare"),
+    description: Some("A night out on the Lost Vega leisure station goes wrong when the dancer turns out to be the Dark Queen, and Rash and Pimple are hauled off to the planet Armagedda. Zitz goes after them alone across eight stages that swing between side-scrolling brawls and vehicle runs."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battletoads_(Game_Boy_video_game)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Battletoads_-_1994_-_Tradewest.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battletoads",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battletoads%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("バトルトード"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994-01-07"),
+            publisher: Some("Masaya"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "666ed5d34f508c8805a67f4400fc01a1f2817e03",
@@ -16,6 +58,18 @@
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-11"),
+            publisher: Some("Tradewest"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ba839bea8f76bf955e3edf7083d2cbe780244add",

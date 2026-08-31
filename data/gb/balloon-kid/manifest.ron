@@ -1,11 +1,52 @@
 (
     title: "Balloon Kid",
+    developer: Some("Nintendo R&D1, Pax Softnica"),
+    description: Some("Alice\'s brother Jim is carried off by the wind with his balloons, leaving a trail of them for her to follow. She flies on a pair of balloons, tapping to stay aloft, and can drop them to run and jump instead, gathering Jim\'s trail past the animals trying to burst her own."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Balloon_Kid",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Balloon_Kid_-_1990_-_Nintendo.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/balloon-kid",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Balloon%20Kid%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1990-10-05"),
+            publisher: Some("Nintendo"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0cb5adc9bdef5320f3f156efed0d47a618e2299f",

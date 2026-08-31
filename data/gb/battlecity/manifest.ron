@@ -1,11 +1,38 @@
 (
     title: "BattleCity",
+    developer: Some("Nova Games"),
+    description: Some("Drive a tank around a walled maze, shooting the enemy tanks that pour in from the top before they reach the base you are guarding. Brick walls can be blasted through — by them as well as you — and losing the base ends the run even if every enemy is gone."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battle_City",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/BattleCity%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En"),
+            title: Some("バトルシティー"),
             regions: [
                 Japan,
             ],
+            date: Some("1991-08-09"),
+            publisher: Some("Nova Games"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5c9a6077913b344c8889241ec5f9fdaac7f24c8b",

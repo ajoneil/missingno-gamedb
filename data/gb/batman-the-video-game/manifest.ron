@@ -1,13 +1,55 @@
 (
-    title: "Batman - The Video Game",
+    title: "Batman: The Video Game",
+    developer: Some("Sunsoft"),
+    description: Some("Gotham\'s 200th anniversary festival goes wrong when the Joker floods the city with nerve gas. Mostly a run-and-gun platformer through Gotham and the Axis chemical works, it breaks into shooting stages where the fire buttons send missiles forward and backward instead."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Batman:_The_Video_Game_(Game_Boy_video_game)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Batman_-_The_Video_Game_-_1990_-_Sunsoft.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/batman-the-video-game",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Batman%20-%20The%20Video%20Game%20%28World%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1990-04-13"),
+            publisher: Some("Sunsoft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ef7d6684a0f737c01a1f2cc2c6609e0f3ac1310e",
+                    label: Some("alt"),
                 ),
             ],
         ),

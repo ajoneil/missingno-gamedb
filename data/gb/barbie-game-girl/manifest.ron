@@ -1,11 +1,49 @@
 (
-    title: "Barbie - Game Girl",
+    title: "Barbie: Game Girl",
+    developer: Some("Imagineering"),
+    description: Some("Barbie has a date with Ken and needs an outfit for it, so she works through seven stores of the Dream Mall hunting shoes, a pearl necklace and a gown. She jumps and throws gems at the \"Boguses\" in her way, and turns into Mermaid Barbie for the stretches spent underwater."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Barbie:_Game_Girl",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Barbie_-_Game_Girl_-_1992_-_Hi-Tec_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/barbie-game-girl",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Barbie%20-%20Game%20Girl%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1992-10"),
+            publisher: Some("Hi Tech Expressions"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6660e4457a1de3de1947a90c5ea9ff012d50336e",
@@ -17,6 +55,13 @@
                 Usa,
             ],
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "24886a5f26f1969e595f420bf963439ba6a693bd",

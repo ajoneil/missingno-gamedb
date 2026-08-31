@@ -1,11 +1,35 @@
 (
     title: "Battle Pingpong",
+    developer: Some("Quest"),
+    description: Some("Table tennis against eight national sides, played through a tournament or as a single versus match. Built around head-to-head play, though one player can take it on alone."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battle_Pingpong",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battle%20Pingpong%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-08-31"),
+            publisher: Some("Quest"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5008699f7a31a1a0722114f83e94591e99b22cc0",

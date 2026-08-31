@@ -1,14 +1,38 @@
 (
-    title: "Bakuchou Retsuden Shou - Hyper Fishing",
+    title: "Bakuchou Retsuden Shou: Hyper Fishing",
+    developer: Some("Starfish"),
+    description: Some("Lure fishing recast as a role-playing game: finding the spot, casting and landing all happen through menu commands, and levelling up teaches new techniques. You control a party of several anglers at once, and matches are fought and won as team battles."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bakuchou-retsuden-shou-hyper-fishing",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bakuchou%20Retsuden%20Shou%20-%20Hyper%20Fishing%20%28Japan%29%20%28SGB%20Enhanced%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("爆釣列伝 翔 ～ハイパー・フィッシング～"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1998-07-24"),
+            publisher: Some("Starfish"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (

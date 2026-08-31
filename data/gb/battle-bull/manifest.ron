@@ -1,10 +1,54 @@
 (
     title: "Battle Bull",
+    developer: Some("Jorudan"),
+    description: Some("Mining robots on Perseus VI have caught a virus and turned on anyone entering the shaft. You crush these bugs by shoving ore blocks into them, pocketing the gold they were carrying, and the elevator crew only comes once a level is clear. Winnings buy engines, jumps and guns — but never jumps and guns together."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battle_Bull",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Battle_Bull_-_1990_-_Seta.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battle-bull",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battle%20Bull%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-01"),
+            publisher: Some("Seta"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a553b2cf2a5d223b6ac8aca4e9fd65b65087a1f4",
@@ -12,10 +56,22 @@
             ],
         ),
         (
-            label: Some("En"),
+            title: Some("バトル・ブル"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1990-11-30"),
+            publisher: Some("Seta"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "74ed574d2179bdf34a6e618a86be9b3e70155370",

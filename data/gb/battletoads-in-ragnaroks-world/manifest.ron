@@ -1,10 +1,51 @@
 (
     title: "Battletoads in Ragnarok\'s World",
+    developer: Some("Rare"),
+    description: Some("The Dark Queen ambushes the Toadster and carries Zitz, Pimple and Princess Angelica off to Ragnarok\'s World, leaving Rash to go in alone — through ice caverns and the Gargantua\'s innards to the Tower of Shadows. Double-tap a direction to break into a run, then hit B mid-stride for a Smash Hit."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battletoads_(1991_video_game)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Battletoads_In_Ragnarok-s_World_-_1993_-_Tradewest.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battletoads-in-ragnaroks-world",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battletoads%20in%20Ragnarok%27s%20World%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-07"),
+            publisher: Some("Tradewest"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1852bd23644e28109b66fa937053c689a63f7729",
@@ -15,6 +56,18 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-06"),
+            publisher: Some("Tradewest"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "3df1384e699b91689f015d7aba65ab42410e24f5",

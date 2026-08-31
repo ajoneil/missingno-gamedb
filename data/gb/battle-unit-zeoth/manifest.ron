@@ -1,10 +1,49 @@
 (
     title: "Battle Unit Zeoth",
+    developer: Some("Jaleco"),
+    description: Some("The Grein spent a decade building an underground base beneath the coastal city of New Age, and the Zeoth mecha is sent to clear it out. Thrusters have to be tapped to stay airborne, and up or down swings the guns from firing sideways to firing vertically. You get one life and unlimited continues."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battle_Unit_Zeoth",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Battle_Unit_Zeoth_-_1990_-_Jaleco.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battle-unit-zeoth",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battle%20Unit%20Zeoth%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("バトルユニットゼオス"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-12-21"),
+            publisher: Some("Jaleco"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "35413f3d4b4e68f521a90c3a48d4bd2b5bf90e09",
@@ -18,6 +57,13 @@
                 Europe,
             ],
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "df7abbcaaccd5cff4c55bb331fa5d3049fb92896",
@@ -29,6 +75,15 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1991-07"),
+            publisher: Some("Jaleco"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "eba09c60cd60feba0a7a9e82597dad080ce78d22",

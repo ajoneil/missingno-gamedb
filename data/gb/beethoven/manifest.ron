@@ -1,14 +1,45 @@
 (
     title: "Beethoven",
+    developer: Some("Unexpected Development"),
+    description: Some("Beethoven\'s puppies are in the pound, and the only way to reach them is to get picked up yourself. Fill the mayhem meter in each level by wrecking whatever is to hand — knocking rivets out of a construction site, flattening the worker at the top — until someone calls the dog catcher. Four call-outs and you are hauled in to join them."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Beethoven:_The_Ultimate_Canine_Caper",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/beethoven",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Beethoven%20%28Europe%29%20%28SGB%20Enhanced%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995-01"),
+            publisher: Some("Hi Tech Expressions"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -20,11 +51,19 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
             status: Prototype,
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

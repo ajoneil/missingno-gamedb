@@ -1,14 +1,39 @@
 (
     title: "Bakuchou Retrieve Master",
+    developer: Some("TOSE"),
+    description: Some("A summer fishing trip taken by bicycle: Hiro and Nami ride for the lake, meeting companions and being challenged to fishing duels by rivals along the road. You choose rod, reel and line before casting, with black bass the fish worth landing."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bakuchou-retrieve-master",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bakuchou%20Retrieve%20Master%20%28Japan%29%20%28SGB%20Enhanced%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("爆釣リトリーブマスター"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1998-10-15"),
+            publisher: Some("Konami"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
+                    GameLink,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (

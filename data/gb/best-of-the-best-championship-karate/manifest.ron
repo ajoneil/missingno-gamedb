@@ -1,10 +1,43 @@
 (
-    title: "Best of the Best - Championship Karate",
+    title: "Best of the Best: Championship Karate",
+    developer: Some("Loriciel"),
+    description: Some("You start ranked sixteenth in the world and fight up through the International World Championships. Between bouts you train resistance, strength and reflex, and build a personal style by programming favourites from sixteen available moves — then earn an invitation to the Kumate, a full-contact match with no holds barred."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Best_of_the_Best:_Championship_Karate",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/best-of-the-best-championship-karate",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Best%20of%20the%20Best%20-%20Championship%20Karate%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-02"),
+            publisher: Some("Loriciel"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "351446b94176360c0d9ad3cee43166ffbd9a51fa",
@@ -15,6 +48,18 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992-12"),
+            publisher: Some("Electro Brain"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ba7d64c606cc0f654217e54a0bd5b8dda455a060",
@@ -23,10 +68,21 @@
         ),
         (
             title: Some("The Kick Boxing"),
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-03-19"),
+            publisher: Some("Micro World"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6fb48835e5401d7b559b7e97c020bc8c356dfa1f",

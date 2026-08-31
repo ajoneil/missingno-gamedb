@@ -1,10 +1,48 @@
 (
     title: "Beetlejuice",
+    developer: Some("Rare"),
+    description: Some("Beetlejuice\'s Weird World Tours booked a party of Neitherworld ghosts into Lydia\'s house without mentioning it to her, so now he has to clear them out — six levels from the house and attic through the graveyard and into the Neitherworld, with Astoroth holding Lydia at the end."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/List_of_Beetlejuice_video_games",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Beetlejuice_-_1992_-_LJN.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/beetlejuice",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Beetlejuice%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1992-01"),
+            publisher: Some("LJN"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a8bb9681dbf0700d64a88c7d9ad0093f08087046",

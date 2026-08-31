@@ -1,10 +1,41 @@
 (
     title: "Banishing Racer",
+    developer: Some("Jaleco"),
+    description: Some("A little kei car, scrapped when his owner died, is granted new life by a goddess and sent across America to stomp the rampaging cars loose there. He jumps and dashes but cannot turn to face the other way — pressing back makes him reverse — and picks up wings to fly stretches of the journey."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/バニシングレーサー",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/banishing-racer",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Banishing%20Racer%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("バニシングレーサー"),
             regions: [
                 Japan,
             ],
+            date: Some("1991-07-26"),
+            publisher: Some("Jaleco"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "df121645c367d5809ed77bfe48aa537f0d61d276",

@@ -1,10 +1,38 @@
 (
     title: "Baseball",
+    developer: Some("Intelligent Systems"),
+    description: Some("Score more runs than the other side, playing alone against the computer or against a second player. Six teams are on offer, none of them licensed — their initials nod at real league sides, and beyond the colour of their uniforms they play identically."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Baseball_(1983_video_game)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Baseball%20%28World%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("1989-04-21"),
+            publisher: Some("Nintendo"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "bb613ed8d492d49db35370bec38d9f2515dc24c9",

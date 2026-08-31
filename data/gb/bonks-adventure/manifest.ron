@@ -1,0 +1,109 @@
+(
+    title: "Bonk\'s Adventure",
+    developer: Some("Red Company"),
+    description: Some("Bonk is a caveboy who fights through Dinosaur Land to rescue the Moon Princess from King Drool; his weapon is his own skull — head-butting enemies, biting into walls to climb them, and slamming the ground from mid-air to hit everything on screen. Eating meat hardens his head to granite and then to a screaming third form."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/B.c._Kid_-_1992_-_Hudson.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/b-c-kid",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/GB原人",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/B.C.%20Kid%20(Europe).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("B.C. Kid"),
+            regions: [
+                Europe,
+            ],
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "b91f99408e4a6b69d505f304c176434321f837e7",
+                ),
+            ],
+        ),
+        (
+            title: Some("GB原人"),
+            regions: [
+                Japan,
+            ],
+            date: Some("1992-11-27"),
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "c2e98c76e49155e7b9815e0c33ae6cf71daaee2c",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "a26006158d90a61d22abf130f05297fd09a09b7c",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "e27d941af0a006c4f5ffd03914265146aa140e2c",
+                ),
+            ],
+        ),
+    ],
+)

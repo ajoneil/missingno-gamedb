@@ -1,10 +1,54 @@
 (
     title: "Bill Elliott\'s NASCAR Fast Tracks",
+    developer: Some("Distinctive Software"),
+    description: Some("NASCAR from inside the cockpit, looking out over the bonnet at a dashboard of gauges. Earn a licence, pick a track and set the car up to your own spec, practise drafting and the slingshot pass, then run the championship — four circuits raced twice — with pit stops along the way."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bill_Elliott\'s_NASCAR_Challenge",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bill_Elliott-s_Nascar_Fast_Tracks_-_Konami.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bill-elliotts-nascar-fast-tracks",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bill%20Elliott%27s%20NASCAR%20Fast%20Tracks%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-12"),
+            publisher: Some("Konami"),
+            hardware: (
+                features: [
+                    GameLink,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ebc2ca8b4503f0b05e00749d693462a54f2f95eb",

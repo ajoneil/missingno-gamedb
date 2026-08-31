@@ -1,0 +1,133 @@
+(
+    title: "Bonk\'s Revenge",
+    description: Some("Bonk head-butts his way through another side-scrolling adventure, and every slab of meat now spins a roulette through three transformations for you to stop on. Master Bonk hits and jumps harder, Hungry Bonk bites enemies for more damage than a head-butt, and Stealth Bonk trades the ground-slam for entry to the game\'s many secret rooms."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/GB原人2",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/B.c._Kid_2_-_1994_-_Hudson.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/b-c-kid-2",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bonk%27s%20Revenge%20%28USA%29%20%28SGB%20Enhanced%29.png",
+    ],
+    curated: true,
+    releases: [
+        (
+            title: Some("B.C. Kid 2"),
+            regions: [
+                Europe,
+            ],
+            languages: [
+                English,
+            ],
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "952a14298dcde28975f2cdd61f781000afb53125",
+                ),
+            ],
+        ),
+        (
+            title: Some("B.C. Kid 2"),
+            regions: [
+                Europe,
+            ],
+            languages: [
+                English,
+            ],
+            status: Beta,
+            hardware: (
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "dc70ba06fb2690c1b7e66963cc07da704f7a6d26",
+                ),
+            ],
+        ),
+        (
+            title: Some("GB原人2"),
+            regions: [
+                Japan,
+            ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994-10-21"),
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "82c1e3dd8b425fb49a1d1c25813002b23963a84a",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            languages: [
+                English,
+            ],
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                features: [
+                    SuperGameBoyEnhanced,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "8d1b81e456b271ad8f49a2c6efc9ca2504a24591",
+                ),
+            ],
+        ),
+    ],
+)

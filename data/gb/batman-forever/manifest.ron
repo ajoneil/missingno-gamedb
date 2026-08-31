@@ -1,11 +1,52 @@
 (
     title: "Batman Forever",
+    developer: Some("Probe Entertainment"),
+    description: Some("Batman and Robin work from the Gotham subways out to Claw Island against Two-Face and the Riddler. Five gadgets go into each level — three fixed, two chosen at the Batcomputer — and the Riddler has stolen the Batcave\'s blueprints, so finding all four pieces of a set in a level unlocks that gadget for later."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Batman_Forever_(video_game)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Batman_Forever_-_1995_-_Acclaim.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/batman-forever",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Batman%20Forever%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995-09-07"),
+            publisher: Some("Acclaim"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "cb76b6d3ec9903a734f70ff11195f40f13f4d83f",
@@ -13,10 +54,21 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995-10-27"),
+            publisher: Some("Acclaim Japan"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "4fab046d18addafbc625fe4cefec37098747d716",

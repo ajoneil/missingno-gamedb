@@ -1,10 +1,48 @@
 (
-    title: "Battletoads-Double Dragon",
+    title: "Battletoads/Double Dragon",
+    developer: Some("Rare"),
+    description: Some("After her defeat on Ragnarok\'s World the Dark Queen returns with the Shadow Boss, a city-sized ship called the Colossus and a beam that leaves Earth\'s military helpless. Rash, Zitz and Pimple pick up Billy and Jimmy Lee on the way — five to choose from, one player, three continues and no passwords."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Battletoads/Double_Dragon",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Battletoads_Double_Dragon_-_Sony_Imagesoft.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battletoads-double-dragon",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battletoads-Double%20Dragon%20%28USA%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1993-04"),
+            publisher: Some("Sony Imagesoft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5a834e0dc81703906eb441555e1aa31de22d39d6",
@@ -15,6 +53,15 @@
             regions: [
                 Usa,
             ],
+            date: Some("1993-12"),
+            publisher: Some("Tradewest"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ce68df4dc2d604625164430266017b237b72303d",

@@ -1,10 +1,44 @@
 (
-    title: "Bikkuri Nekketsu Shin Kiroku! - Dokodemo Kin Medal",
+    title: "Bikkuri Nekketsu Shin Kiroku! Dokodemo Kin Medal",
+    developer: Some("Million Corp."),
+    description: Some("Kunio\'s school meets its rivals in a medal-hunting sports meet, with a diving event new to this handheld version. Up to four can play, gold medals are the only ones that count, and winnings are spent in the shop on power-ups."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/びっくり熱血新記録!はるかなる金メダル",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bikkuri-nekketsu-shin-kiroku-dokodemo-kin-medal",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bikkuri%20Nekketsu%20Shin%20Kiroku%21%20-%20Dokodemo%20Kin%20Medal%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("びっくり熱血新記録! どこでも金メダル"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1993-07-16"),
+            publisher: Some("Technos Japan"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "baecee2dfd915a41363fef736f81853822d5dfcd",

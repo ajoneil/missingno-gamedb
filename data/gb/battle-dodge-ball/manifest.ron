@@ -1,10 +1,44 @@
 (
     title: "Battle Dodge Ball",
+    developer: Some("Sun L"),
+    description: Some("Gundam, Kamen Rider and Ultraman heroes are shrunk to super-deformed and put on dodgeball teams. Two players hold the infield and one the outfield — and because the second infielder and the outfielder are the same character, swapping one swaps the other. Special throws send the ball along a curved path."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/バトルドッジボール",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battle-dodge-ball",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battle%20Dodge%20Ball%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("バトルドッジボール"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992-10-16"),
+            publisher: Some("Banpresto"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "ed63709af2dd22d2abaa7e99b9dd5373b6cc91c4",

@@ -1,11 +1,49 @@
 (
-    title: "Batman - Return of the Joker",
+    title: "Batman: Return of the Joker",
+    developer: Some("Sunsoft"),
+    description: Some("Precious metals are going missing from Gotham\'s mines, one of them toxic enough to arm missiles, and the trail leads to the Joker\'s hideaway. Four levels of platforming, each ending in a boss — Batman punches, climbs walls, fires a grappling hook upward, and throws Batarangs once he has collected some."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Batman:_Return_of_the_Joker",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Batman_-_Return_Of_The_Joker_-_1992_-_Sunsoft.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/batman-return-of-the-joker",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Batman%20-%20Return%20of%20the%20Joker%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1992-05"),
+            publisher: Some("Sunsoft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "345a332175f58304f91111a13b770662e5ea92c3",
@@ -13,10 +51,18 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1992-03-28"),
+            publisher: Some("Sunsoft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "149586120c3ae9c9614fa6e6a5e298cceae16c4d",

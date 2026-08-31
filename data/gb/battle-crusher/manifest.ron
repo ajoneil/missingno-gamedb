@@ -1,14 +1,43 @@
 (
     title: "Battle Crusher",
+    developer: Some("Sun L"),
+    description: Some("Kamen Rider, Ultraman and Gundam characters fight in a 2D versus game where each entrant is two halves: a Fighter who rides and a Panzer that carries him, each bringing its own moves so the pairing decides how the character plays. Limbs are drawn as parts floating free of the body."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/バトルクラッシャー",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battle-crusher",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battle%20Crusher%20%28Japan%29%20%28SGB%20Enhanced%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("バトルクラッシャー"),
             regions: [
                 Japan,
             ],
+            date: Some("1995-01"),
+            publisher: Some("Banpresto"),
             hardware: (
                 features: [
                     SuperGameBoyEnhanced,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

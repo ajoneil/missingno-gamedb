@@ -1,0 +1,78 @@
+(
+    title: "Bill & Ted\'s Excellent Game Boy Adventure",
+    developer: Some("Beam Software"),
+    description: Some("De Nomolous has stolen the fragments of time and scattered them through history, stranding dead historical dudes in the wrong centuries. Bill and Ted ride the Circuits of Time to collect them — you play one at a time, swapping between the two as each adventure ends, with a phone-number password for every stop."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bill_&_Ted\'s_Excellent_Game_Boy_Adventure:_A_Bogus_Journey!",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bill_And_Ted-s_Excellent_Adventure_-_LJN.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bill-and-teds-excellent-adventure",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bill%20_%20Ted%27s%20Excellent%20Game%20Boy%20Adventure%20-%20A%20Bogus%20Journey%21%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-08"),
+            publisher: Some("LJN"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "e19a7e5a5bd8fde0f31773c22dbebc9b4cf3824e",
+                ),
+            ],
+        ),
+        (
+            title: Some("Bill & Ted\'s Excellent Portable Adventure"),
+            label: Some("Retro Collection"),
+            regions: [
+                World,
+            ],
+            languages: [
+                English,
+            ],
+            date: Some("2023-02-17"),
+            publisher: Some("Limited Run Games"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "c6e606cb5e17f7530a529387ad2fb703a94b205a",
+                ),
+            ],
+        ),
+    ],
+)

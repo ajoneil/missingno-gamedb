@@ -33,6 +33,13 @@ game page also links other systems' media**, so check the system in the media
 path before staging anything from it. The page is staged as a `Community` link:
 `Wiki` is for a wiki.
 
+**A single exact match redirects straight to the game page**, so zero result rows
+is not absence — follow the redirect.
+
+**Its publisher and developer fields conflate similarly-named companies**, so
+take both off the manual where one exists. The swap is to a real company with a
+near-identical name, and reads as plausible unless the artefact is checked.
+
 ## Manuals
 
 A manual documents *this* cart where an encyclopaedia article documents a
@@ -40,6 +47,12 @@ multi-platform game as a whole, so it is the best gameplay source this tree has.
 Games Database links the PDF from the game page; download it and read it as page
 images. Coverage is roughly a third of each library, so a game having none is
 ordinary and not worth a second search. Record the language on the link.
+
+**For a Japan-only release the box back stands in for a missing manual.**
+Japanese boxes print gameplay copy rather than a marketing line, so
+`artwork-box-back` usually describes a title that has neither manual nor article.
+It also carries the compatibility badges: 通信ケーブル対応 is the only statement of
+link-cable support, which the header does not hold.
 
 ## Cover art
 
@@ -49,6 +62,17 @@ including the platform banner, but **every one is watermarked** with the site's
 domain, so it loses to a clean scan of the same art at any resolution. The
 thumbnail on a game page is not the image to stage: follow the artwork page it
 links and take the full-size URL from there.
+
+**Hasheous usually loses to libretro here**, so compare before keeping what it
+staged: it serves the art cropped free of the banner, seal and publisher logo,
+which the banner rule demotes at any size, and sometimes another game entirely
+out of a grouped record.
+
+**List `Named_Boxarts` from the repo tree rather than guessing a filename.** The
+GitHub trees API returns the whole tree untruncated, so the real No-Intro name —
+`(SGB Enhanced)` and `(Rev 1)` suffixes included — reads straight off it. No
+libretro candidate reported means the guess missed, not that no art exists.
+Encode `%20` for spaces and `%27` for apostrophes.
 
 ## Sachen multicarts
 

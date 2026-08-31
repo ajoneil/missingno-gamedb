@@ -1,11 +1,52 @@
 (
-    title: "Batman - The Animated Series",
+    title: "Batman: The Animated Series",
+    developer: Some("Konami"),
+    description: Some("Five episodes against Gotham\'s worst — the Joker, Scarecrow, Mr. Freeze, Catwoman. You guide both Batman and Robin, shooting a grapple to reach higher ground and switching attack between fists and a ranged weapon: a batarang for Batman, a slingshot for Robin, with a counter for the throws left."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Batman:_The_Animated_Series_(video_game)",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Batman_-_The_Animated_Series_-_1993_-_Konami.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/batman-the-animated-series",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Batman%20-%20The%20Animated%20Series%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-11"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "4a8c1dd74b1279c0dc85ac2bebb5db2795cb67b0",

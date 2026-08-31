@@ -1,10 +1,37 @@
 (
     title: "Bass Fishing Tatsujin Techou",
+    kind: Software,
+    developer: Some("Starfish"),
+    description: Some("Not a game but a database: pick one of four Japanese bass lakes and set the season, weather, time of day and whether you are fishing from a boat, and it returns the tactics four JB professionals rate most likely to work, ranked by probability, with the spots on the lake to try them."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bass-fishing-tatsujin-techou",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bass%20Fishing%20Tatsujin%20Techou%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("バスフィッシング 達人手帳"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1996-06-21"),
+            publisher: Some("Starfish"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "503a4cdd6d80ce779ba293022b21f98881af2ab6",

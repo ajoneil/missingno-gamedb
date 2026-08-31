@@ -1,10 +1,32 @@
 (
     title: "Battle Space",
+    developer: Some("Akson Software"),
+    description: Some("A Barcode Boy cartridge that builds its fighters from whatever you scan: the reader turns a product barcode into a combatant with its own health, magic, attack and defence ratings, plus a spell and a special move. Without a card it will not start."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/battle-space",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Battle%20Space%20%28Japan%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            date: Some("1992-12-25"),
+            publisher: Some("Namcot"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "76e47ad844abdde9eff09ea29a014f9a1eae5093",

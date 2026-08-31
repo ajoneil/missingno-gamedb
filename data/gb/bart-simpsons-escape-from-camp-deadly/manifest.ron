@@ -1,11 +1,52 @@
 (
     title: "Bart Simpson\'s Escape from Camp Deadly",
+    developer: Some("Imagineering"),
+    description: Some("Homer and Marge pack Bart and Lisa off to Camp Deadly, where Ironfist Burns is head counselor and Nelson\'s bullies are the bunkmates. Escaping means getting through food fights, killer bees and a lethal game of capture the flag — and if a counselor catches you mid-food-fight, you eat your whole arsenal."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bart_Simpson\'s_Escape_from_Camp_Deadly",
+            link_type: Wiki,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bart_Simpson-s_Escape_From_Camp_Deadly_-_1991_-_Acclaim.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bart-simpsons-escape-from-camp-deadly",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bart%20Simpson%27s%20Escape%20from%20Camp%20Deadly%20%28USA%2C%20Europe%29.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-11"),
+            publisher: Some("Acclaim"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "89b7b2d4684d703ea5d323e3aaf4910dcdbc47d3",
@@ -13,11 +54,22 @@
             ],
         ),
         (
-            title: Some("Bart no Survival Camp"),
-            label: Some("En"),
+            title: Some("バートのサバイバルキャンプ"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-02-26"),
+            publisher: Some("Acclaim Japan"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f0d855bba656b628c7dd9ed9e586853be75b790f",
