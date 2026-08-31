@@ -73,7 +73,10 @@ impl<P: Platform> Game<P> {
 /// (kiosk/sample carts); `Demoscene` is a scene production in its own right;
 /// `Test` is a diagnostic or calibration utility (pattern generators, test carts);
 /// `Tool` is software for authoring or programming rather than playing (BASIC
-/// cartridges, sound editors, machine-language monitors).
+/// cartridges, sound editors, machine-language monitors); `Software` is anything
+/// else the console ran that nobody played — reference databases, exam drills,
+/// organisers — and carries no finer claim than that, `Test` and `Tool` being
+/// preferred wherever they fit.
 #[derive(Serialize, Deserialize, Default, Clone, Copy, PartialEq, Eq, Debug)]
 pub enum GameKind {
     #[default]
@@ -82,6 +85,7 @@ pub enum GameKind {
     Demoscene,
     Test,
     Tool,
+    Software,
 }
 
 /// A concrete published form of a game: region, revision, hardware variant.
