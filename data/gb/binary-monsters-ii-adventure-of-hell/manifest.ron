@@ -1,15 +1,54 @@
 (
     title: "Binary Monsters II - Adventure of Hell",
+    developer: Some("Gowin"),
+    description: Some("A basic platformer starring Gowin\'s dragon mascot Hot-Kid or Pagila, who play identically apart from their sprites. Three stages of three levels each end in a boss; the characters jump — higher while the button is held — and shoot, fire breath or a triangle wave, to hurt enemies, with items and point collectibles scattered through the levels."),
+    mods: [
+        (
+            name: "Digimon",
+            category: ContentChange,
+            releases: [
+                (
+                    label: Some("Colour-patched"),
+                    base_sha1: Some("5a7ea252cc344f239e48eee0eba6a9ba97d799ea"),
+                    hardware: (
+                        enhancements: [
+                            GameBoyColor,
+                        ],
+                        cart_type: Some(Mbc5(
+                            rom: Kb128,
+                            ram: None,
+                            battery: false,
+                            rumble: false,
+                        )),
+                    ),
+                    artifacts: [
+                        (
+                            sha1: "bccc7bd374166171f4961b8773bb881050b8a62d",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             label: Some("En, Unl"),
             regions: [
                 Taiwan,
             ],
+            languages: [
+                English,
+            ],
+            publisher: Some("Gowin"),
             hardware: (
-                features: [
-                    GameBoyColorEnhanced,
-                ],
+                enhancements: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                    rumble: false,
+                )),
             ),
             artifacts: [
                 (

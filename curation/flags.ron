@@ -1160,13 +1160,5 @@
             ],
             note: "Requires the Barcode Boy barcode reader, which the emulator does not provide; the box marks the cart バーコードボーイ専用.",
         ),
-        (
-            id: 2918,
-            kind: EmulationIncompatibility,
-            subject: [
-                "gb/binary-monsters-ii-adventure-of-hell",
-            ],
-            note: "Header declares cartridge type B0, not a known board, and a 32 KB ROM against a 128 KB dump; forcing MBC5 gives music but no picture.",
-        ),
     ],
 )
