@@ -5,6 +5,7 @@ mod import_flags;
 mod import_nointro;
 mod import_sg1000;
 mod legacy;
+mod migrate_features;
 mod migrate_homebrew;
 mod migrate_vcs;
 mod report;
@@ -52,6 +53,14 @@ enum Command {
         #[arg(default_value = ".")]
         path: PathBuf,
         /// Ambiguity report output
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+    },
+    /// One-shot: split GB `features` into enhancements and peripherals, and
+    /// rename VCS `controllers` to peripherals
+    MigrateFeatures {
+        #[arg(default_value = ".")]
+        path: PathBuf,
         #[arg(long, default_value = "migration-report.md")]
         report: PathBuf,
     },
@@ -160,6 +169,25 @@ fn main() -> ExitCode {
                     format!(
                         "{} variant entries collapsed into {} games ({} releases)",
                         s.entries_before, s.games_after, s.releases
+                    )
+                })
+            })
+        }
+        Command::MigrateFeatures { path, report } => {
+            let path = resolve_db_root(&path);
+            run_migration(&path.clone(), &report, "migrate features", |_| {
+                migrate_features::run(&path).map(|s| {
+                    format!(
+                        "{} gb + {} gbc manifests split ({} SuperGameBoy, {} GameBoyColor, {} LinkCable, {} Printer, {} cleared lists), {} vcs controller lists renamed in {} manifests",
+                        s.gb_files,
+                        s.gbc_files,
+                        s.super_game_boy,
+                        s.game_boy_color,
+                        s.link_cable,
+                        s.printer,
+                        s.cleared_lists,
+                        s.controller_lists,
+                        s.vcs_files
                     )
                 })
             })

@@ -82,10 +82,25 @@ pub fn platform_dirs() -> &'static [&'static str] {
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct GbHardware {
-    /// Hardware this release drives beyond a plain Game Boy; empty = none of
-    /// it.
-    #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub features: Vec<Feature>,
+    /// Console variants this release exploits; `None` = unstated, which a
+    /// booted header may fill, and an empty list states a plain Game Boy
+    /// release.
+    #[serde(
+        default,
+        skip_serializing_if = "Option::is_none",
+        serialize_with = "stated_list::serialize",
+        deserialize_with = "stated_list::deserialize"
+    )]
+    pub enhancements: Option<Vec<Enhancement>>,
+    /// Devices this release drives beside the console; `None` = unstated, and
+    /// an empty list states it drives none.
+    #[serde(
+        default,
+        skip_serializing_if = "Option::is_none",
+        serialize_with = "stated_list::serialize",
+        deserialize_with = "stated_list::deserialize"
+    )]
+    pub peripherals: Option<Vec<Peripheral>>,
     /// Cartridge board — the mapper and the parts populated beside it, e.g.
     /// `Mbc1(rom: Kb512, ram: Some(Kb8), battery: true)`; `None` = as the
     /// header says.
@@ -97,11 +112,39 @@ pub struct GbHardware {
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct GbcHardware {
+    /// Devices this release drives beside the console; `None` = unstated, and
+    /// an empty list states it drives none.
+    #[serde(
+        default,
+        skip_serializing_if = "Option::is_none",
+        serialize_with = "stated_list::serialize",
+        deserialize_with = "stated_list::deserialize"
+    )]
+    pub peripherals: Option<Vec<Peripheral>>,
     /// Cartridge board — the mapper and the parts populated beside it, e.g.
     /// `Mbc5(rom: Mb1, ram: Some(Kb32), battery: true, rumble: true)`;
     /// `None` = as the header says.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<GbCartType>,
+}
+
+/// A stated list is written as the bare list, so manifests from before the
+/// field could be cleared read back with their meaning unchanged.
+mod stated_list {
+    use serde::{Deserialize, Deserializer, Serialize, Serializer};
+
+    pub fn serialize<T: Serialize, S: Serializer>(
+        stated: &Option<Vec<T>>,
+        serializer: S,
+    ) -> Result<S::Ok, S::Error> {
+        stated.as_deref().unwrap_or(&[]).serialize(serializer)
+    }
+
+    pub fn deserialize<'de, T: Deserialize<'de>, D: Deserializer<'de>>(
+        deserializer: D,
+    ) -> Result<Option<Vec<T>>, D::Error> {
+        Vec::deserialize(deserializer).map(Some)
+    }
 }
 
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
@@ -127,27 +170,31 @@ pub struct VcsHardware {
     /// fixes its size by wiring.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub cart_type: Option<VcsCartType>,
-    /// Controllers the release needs; empty = the platform default (joystick).
-    #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub controllers: Vec<Controller>,
+    /// Peripherals the release needs; `None` = unstated, so the platform
+    /// default (joystick) stands.
+    #[serde(
+        default,
+        skip_serializing_if = "Option::is_none",
+        serialize_with = "stated_list::serialize",
+        deserialize_with = "stated_list::deserialize"
+    )]
+    pub peripherals: Option<Vec<Peripheral>>,
 }
 
-/// Hardware a release drives beyond the plain console. Each platform states
-/// which of these it offers; a release lists the ones it has, and absence is
-/// the release not having it.
+/// A console variant a release targets, drawing on what that variant adds over
+/// the base machine. Each platform states which of these it offers.
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
-pub enum Feature {
+pub enum Enhancement {
     /// Detects a Super Game Boy and drives its border, palette and sound.
-    SuperGameBoyEnhanced,
+    SuperGameBoy,
     /// Detects a Game Boy Color and draws in its palettes.
-    GameBoyColorEnhanced,
-    /// Drives the serial port over a Game Link cable, the name the box prints.
-    GameLink,
+    GameBoyColor,
 }
 
-/// A controller a release needs.
+/// A device a release is played with beside the console. Each platform states
+/// which of these it offers.
 #[derive(Serialize, Deserialize, Clone, Copy, PartialEq, Eq, Debug)]
-pub enum Controller {
+pub enum Peripheral {
     Joystick,
     Paddle,
     Driving,
@@ -160,6 +207,14 @@ pub enum Controller {
     /// Atari's MindLink: a headband read as forehead-muscle movement. Only a
     /// couple of (mostly unreleased) titles use it.
     MindLink,
+    /// A second console over the Game Link cable, the name the box prints.
+    LinkCable,
+    /// The Game Boy Printer, a thermal printer on the link port.
+    Printer,
+    /// The Barcode Boy, a link-port barcode card reader.
+    BarcodeBoy,
+    /// The DMG-07 Four Player Adapter, a link-port hub for four consoles.
+    FourPlayerAdapter,
 }
 
 #[cfg(test)]

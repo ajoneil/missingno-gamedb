@@ -6,7 +6,7 @@
 use missingno_core::cartridge::{BoardSpec, BoardValue, BoardVocabulary};
 
 use crate::platform::{
-    Controller, Feature, GbCartType, GbHardware, GbcHardware, Sg1000CartType, Sg1000Hardware,
+    Enhancement, GbCartType, GbHardware, GbcHardware, Peripheral, Sg1000CartType, Sg1000Hardware,
     TvStandard, VcsCartType, VcsHardware,
 };
 
@@ -26,14 +26,14 @@ pub enum FactKind {
     Board {
         catalogue: fn() -> &'static [BoardSpec],
     },
-    /// Controllers from the platform's own list — a platform is offered only
-    /// the ones it can be played with.
-    Controllers {
-        catalogue: &'static [Controller],
+    /// Console variants the release exploits, from the platform's own list.
+    Enhancements {
+        catalogue: &'static [Enhancement],
     },
-    /// Hardware the release drives, from the platform's own list.
-    Features {
-        catalogue: &'static [Feature],
+    /// Devices the release is played with, from the platform's own list — a
+    /// platform is offered only the ones it can be played with.
+    Peripherals {
+        catalogue: &'static [Peripheral],
     },
 }
 
@@ -43,8 +43,8 @@ impl FactKind {
         match self {
             FactKind::TvStandard => "TV standard",
             FactKind::Board { .. } => "board code",
-            FactKind::Controllers { .. } => "controller list",
-            FactKind::Features { .. } => "feature list",
+            FactKind::Enhancements { .. } => "enhancement list",
+            FactKind::Peripherals { .. } => "peripheral list",
         }
     }
 }
@@ -57,10 +57,11 @@ pub enum FactValue {
     /// A board of the platform's vocabulary and the parts stated on it;
     /// `None` clears back to unstated.
     Board(Option<BoardValue>),
-    /// Empty = the platform default.
-    Controllers(Vec<Controller>),
-    /// Empty = the release drives none of them.
-    Features(Vec<Feature>),
+    /// Empty = the release exploits none of them; `None` clears back to
+    /// unstated.
+    Enhancements(Option<Vec<Enhancement>>),
+    /// Empty = the release needs none of them; `None` clears back to unstated.
+    Peripherals(Option<Vec<Peripheral>>),
 }
 
 pub trait HardwareFacts {
@@ -116,28 +117,32 @@ fn board<B: BoardVocabulary>(
     stated.as_ref().map(B::from_value).transpose()
 }
 
-fn controllers(
+fn enhancements(
     key: &str,
     value: FactValue,
-    catalogue: &'static [Controller],
+    catalogue: &'static [Enhancement],
     descriptors: &'static [FactDescriptor],
-) -> Result<Vec<Controller>, String> {
-    let FactValue::Controllers(stated) = value else {
+) -> Result<Option<Vec<Enhancement>>, String> {
+    let FactValue::Enhancements(stated) = value else {
         return Err(wrong_kind(key, descriptors));
     };
-    offered(key, stated, catalogue)
+    stated
+        .map(|stated| offered(key, stated, catalogue))
+        .transpose()
 }
 
-fn features(
+fn peripherals(
     key: &str,
     value: FactValue,
-    catalogue: &'static [Feature],
+    catalogue: &'static [Peripheral],
     descriptors: &'static [FactDescriptor],
-) -> Result<Vec<Feature>, String> {
-    let FactValue::Features(stated) = value else {
+) -> Result<Option<Vec<Peripheral>>, String> {
+    let FactValue::Peripherals(stated) = value else {
         return Err(wrong_kind(key, descriptors));
     };
-    offered(key, stated, catalogue)
+    stated
+        .map(|stated| offered(key, stated, catalogue))
+        .transpose()
 }
 
 /// A platform states which terms it offers, so one it does not is refused
@@ -155,23 +160,28 @@ fn offered<T: Copy + PartialEq + std::fmt::Debug>(
     }
 }
 
-/// What a Game Boy cartridge drives beyond the plain console.
-const GB_FEATURES: &[Feature] = &[
-    Feature::SuperGameBoyEnhanced,
-    Feature::GameBoyColorEnhanced,
-    Feature::GameLink,
+/// The two console variants a Game Boy cartridge can exploit.
+const GB_ENHANCEMENTS: &[Enhancement] = &[Enhancement::SuperGameBoy, Enhancement::GameBoyColor];
+
+/// Every device a Game Boy release is played with beside the console — all of
+/// them link-port hardware.
+const GB_PERIPHERALS: &[Peripheral] = &[
+    Peripheral::LinkCable,
+    Peripheral::Printer,
+    Peripheral::BarcodeBoy,
+    Peripheral::FourPlayerAdapter,
 ];
 
 /// Every controller a VCS was played with.
-const VCS_CONTROLLERS: &[Controller] = &[
-    Controller::Joystick,
-    Controller::Paddle,
-    Controller::Driving,
-    Controller::Keypad,
-    Controller::Trackball,
-    Controller::BoosterGrip,
-    Controller::KidVid,
-    Controller::MindLink,
+const VCS_PERIPHERALS: &[Peripheral] = &[
+    Peripheral::Joystick,
+    Peripheral::Paddle,
+    Peripheral::Driving,
+    Peripheral::Keypad,
+    Peripheral::Trackball,
+    Peripheral::BoosterGrip,
+    Peripheral::KidVid,
+    Peripheral::MindLink,
 ];
 
 const GB_BOARD_DOC: &str = "Cartridge board for this release: the mapper and the parts populated beside it — the ROM \
@@ -179,20 +189,33 @@ const GB_BOARD_DOC: &str = "Cartridge board for this release: the mapper and the
      statement, replacing the header, which unlicensed carts lie about; unstated = as the \
      header says.";
 
+const GB_PERIPHERALS_DOC: &str = "Devices this release is played with beside the console: a second console over the Game Link \
+     cable, a Game Boy Printer, a Barcode Boy card reader, a DMG-07 Four Player Adapter. None of \
+     these is a header fact — each is read off the box or manual. Stated only where the release \
+     drives one; an empty list states a release that drives none, which is a claim of its own.";
+
 impl HardwareFacts for GbHardware {
     fn descriptors() -> &'static [FactDescriptor] {
         &[
             FactDescriptor {
-                key: "features",
-                label: "Drives",
-                kind: FactKind::Features {
-                    catalogue: GB_FEATURES,
+                key: "enhancements",
+                label: "Enhancements",
+                kind: FactKind::Enhancements {
+                    catalogue: GB_ENHANCEMENTS,
                 },
-                doc: "Hardware this release drives beyond a plain Game Boy — a Super Game Boy \
-                      border and palette, Game Boy Color palettes, a second console over the \
-                      Game Link cable. The cartridge header states the two enhancements, so a \
-                      dump answers those; the link cable is read off the box or manual. Empty \
-                      is a plain Game Boy release.",
+                doc: "Console variants this release exploits — a Super Game Boy border and \
+                      palette, Game Boy Color palettes. The cartridge header states both, so a \
+                      booted dump answers this whole fact; a stated list is whole and sticks, \
+                      and an empty list states a plain Game Boy release that a booted header no \
+                      longer fills in.",
+            },
+            FactDescriptor {
+                key: "peripherals",
+                label: "Peripherals",
+                kind: FactKind::Peripherals {
+                    catalogue: GB_PERIPHERALS,
+                },
+                doc: GB_PERIPHERALS_DOC,
             },
             FactDescriptor {
                 key: "cart_type",
@@ -207,7 +230,8 @@ impl HardwareFacts for GbHardware {
 
     fn get(&self, key: &str) -> Option<FactValue> {
         match key {
-            "features" => Some(FactValue::Features(self.features.clone())),
+            "enhancements" => Some(FactValue::Enhancements(self.enhancements.clone())),
+            "peripherals" => Some(FactValue::Peripherals(self.peripherals.clone())),
             "cart_type" => Some(board_fact(self.cart_type.as_ref())),
             _ => None,
         }
@@ -216,7 +240,12 @@ impl HardwareFacts for GbHardware {
     fn set(&mut self, key: &str, value: FactValue) -> Result<(), String> {
         let descriptors = Self::descriptors();
         match key {
-            "features" => self.features = features(key, value, GB_FEATURES, descriptors)?,
+            "enhancements" => {
+                self.enhancements = enhancements(key, value, GB_ENHANCEMENTS, descriptors)?
+            }
+            "peripherals" => {
+                self.peripherals = peripherals(key, value, GB_PERIPHERALS, descriptors)?
+            }
             "cart_type" => self.cart_type = board(key, value, descriptors)?,
             _ => return Err(unknown_key(key, descriptors)),
         }
@@ -224,20 +253,32 @@ impl HardwareFacts for GbHardware {
     }
 }
 
+/// A CGB release is CGB-required by definition, so it states no enhancements.
 impl HardwareFacts for GbcHardware {
     fn descriptors() -> &'static [FactDescriptor] {
-        &[FactDescriptor {
-            key: "cart_type",
-            label: "Board",
-            kind: FactKind::Board {
-                catalogue: <GbCartType as BoardVocabulary>::catalogue,
+        &[
+            FactDescriptor {
+                key: "peripherals",
+                label: "Peripherals",
+                kind: FactKind::Peripherals {
+                    catalogue: GB_PERIPHERALS,
+                },
+                doc: GB_PERIPHERALS_DOC,
             },
-            doc: GB_BOARD_DOC,
-        }]
+            FactDescriptor {
+                key: "cart_type",
+                label: "Board",
+                kind: FactKind::Board {
+                    catalogue: <GbCartType as BoardVocabulary>::catalogue,
+                },
+                doc: GB_BOARD_DOC,
+            },
+        ]
     }
 
     fn get(&self, key: &str) -> Option<FactValue> {
         match key {
+            "peripherals" => Some(FactValue::Peripherals(self.peripherals.clone())),
             "cart_type" => Some(board_fact(self.cart_type.as_ref())),
             _ => None,
         }
@@ -246,6 +287,9 @@ impl HardwareFacts for GbcHardware {
     fn set(&mut self, key: &str, value: FactValue) -> Result<(), String> {
         let descriptors = Self::descriptors();
         match key {
+            "peripherals" => {
+                self.peripherals = peripherals(key, value, GB_PERIPHERALS, descriptors)?
+            }
             "cart_type" => self.cart_type = board(key, value, descriptors)?,
             _ => return Err(unknown_key(key, descriptors)),
         }
@@ -327,15 +371,15 @@ impl HardwareFacts for VcsHardware {
                       stated it is measured silicon, unstated where nobody has measured it.",
             },
             FactDescriptor {
-                key: "controllers",
-                label: "Controllers",
-                kind: FactKind::Controllers {
-                    catalogue: VCS_CONTROLLERS,
+                key: "peripherals",
+                label: "Peripherals",
+                kind: FactKind::Peripherals {
+                    catalogue: VCS_PERIPHERALS,
                 },
-                doc: "Controllers the release needs, staged only when it deviates from the \
+                doc: "Controllers the release needs, stated only when it deviates from the \
                       platform default (joystick) or when sibling releases of one game \
                       differ and the contrast is the fact — a joystick conversion beside the \
-                      paddle original. Empty = the default.",
+                      paddle original. Unstated = the default stands.",
             },
         ]
     }
@@ -344,7 +388,7 @@ impl HardwareFacts for VcsHardware {
         match key {
             "tv_format" => Some(FactValue::TvStandard(self.tv_format)),
             "cart_type" => Some(board_fact(self.cart_type.as_ref())),
-            "controllers" => Some(FactValue::Controllers(self.controllers.clone())),
+            "peripherals" => Some(FactValue::Peripherals(self.peripherals.clone())),
             _ => None,
         }
     }
@@ -354,8 +398,8 @@ impl HardwareFacts for VcsHardware {
         match key {
             "tv_format" => self.tv_format = tv_standard(key, value, descriptors)?,
             "cart_type" => self.cart_type = board(key, value, descriptors)?,
-            "controllers" => {
-                self.controllers = controllers(key, value, VCS_CONTROLLERS, descriptors)?
+            "peripherals" => {
+                self.peripherals = peripherals(key, value, VCS_PERIPHERALS, descriptors)?
             }
             _ => return Err(unknown_key(key, descriptors)),
         }
@@ -419,8 +463,8 @@ mod tests {
         vcs.set("tv_format", FactValue::TvStandard(Some(TvStandard::Pal)))
             .unwrap();
         vcs.set(
-            "controllers",
-            FactValue::Controllers(vec![Controller::Paddle]),
+            "peripherals",
+            FactValue::Peripherals(Some(vec![Peripheral::Paddle])),
         )
         .unwrap();
         set_board(&mut vcs, BoardValue::new("Atari8K")).unwrap();
@@ -429,8 +473,8 @@ mod tests {
             Some(FactValue::TvStandard(Some(TvStandard::Pal)))
         );
         assert_eq!(
-            vcs.get("controllers"),
-            Some(FactValue::Controllers(vec![Controller::Paddle]))
+            vcs.get("peripherals"),
+            Some(FactValue::Peripherals(Some(vec![Peripheral::Paddle])))
         );
         assert_eq!(
             vcs.get("cart_type"),
@@ -446,13 +490,42 @@ mod tests {
 
         let mut gb = GbHardware::default();
         gb.set(
-            "features",
-            FactValue::Features(vec![Feature::SuperGameBoyEnhanced]),
+            "enhancements",
+            FactValue::Enhancements(Some(vec![Enhancement::SuperGameBoy])),
         )
         .unwrap();
         assert_eq!(
-            gb.get("features"),
-            Some(FactValue::Features(vec![Feature::SuperGameBoyEnhanced]))
+            gb.get("enhancements"),
+            Some(FactValue::Enhancements(Some(vec![
+                Enhancement::SuperGameBoy
+            ])))
+        );
+    }
+
+    #[test]
+    fn a_stated_empty_list_reads_back_apart_from_an_unstated_one() {
+        let mut gb = GbHardware::default();
+        assert_eq!(gb.get("enhancements"), Some(FactValue::Enhancements(None)));
+
+        gb.set("enhancements", FactValue::Enhancements(Some(vec![])))
+            .unwrap();
+        assert_eq!(
+            gb.get("enhancements"),
+            Some(FactValue::Enhancements(Some(vec![])))
+        );
+
+        gb.set("enhancements", FactValue::Enhancements(None))
+            .unwrap();
+        assert_eq!(gb.get("enhancements"), Some(FactValue::Enhancements(None)));
+
+        let mut vcs = VcsHardware::default();
+        assert_eq!(vcs.get("peripherals"), Some(FactValue::Peripherals(None)));
+
+        vcs.set("peripherals", FactValue::Peripherals(Some(vec![])))
+            .unwrap();
+        assert_eq!(
+            vcs.get("peripherals"),
+            Some(FactValue::Peripherals(Some(vec![])))
         );
     }
 
@@ -460,16 +533,53 @@ mod tests {
     fn a_platform_refuses_a_term_it_does_not_offer() {
         let mut vcs = VcsHardware::default();
         assert!(
-            vcs.set("features", FactValue::Features(vec![])).is_err(),
-            "the VCS states no features key"
+            vcs.set("enhancements", FactValue::Enhancements(Some(vec![])))
+                .is_err(),
+            "the VCS states no enhancements key"
         );
 
-        let mut gb = GbHardware::default();
+        let joystick = || FactValue::Peripherals(Some(vec![Peripheral::Joystick]));
+        let refusal = vcs.set("cart_type", joystick()).unwrap_err();
         assert!(
-            gb.set("features", FactValue::Controllers(vec![Controller::Paddle]))
-                .is_err(),
-            "a controller list is not a feature list"
+            refusal.contains("board code"),
+            "a peripheral list is not a board: {refusal}"
         );
+
+        for refusal in [
+            GbHardware::default().set("peripherals", joystick()),
+            GbcHardware::default().set("peripherals", joystick()),
+        ] {
+            let refusal = refusal.unwrap_err();
+            assert!(
+                refusal.contains("Joystick"),
+                "no Game Boy was played with a VCS joystick: {refusal}"
+            );
+        }
+
+        let mut gbc = GbcHardware::default();
+        let refusal = gbc
+            .set(
+                "enhancements",
+                FactValue::Enhancements(Some(vec![Enhancement::GameBoyColor])),
+            )
+            .unwrap_err();
+        assert!(
+            refusal.contains("\"enhancements\""),
+            "a CGB release is CGB-required, so it states no enhancements: {refusal}"
+        );
+    }
+
+    #[test]
+    fn the_printer_is_offered_on_both_game_boy_trees() {
+        let printed = || FactValue::Peripherals(Some(vec![Peripheral::Printer]));
+
+        let mut gb = GbHardware::default();
+        gb.set("peripherals", printed()).unwrap();
+        assert_eq!(gb.get("peripherals"), Some(printed()));
+
+        let mut gbc = GbcHardware::default();
+        gbc.set("peripherals", printed()).unwrap();
+        assert_eq!(gbc.get("peripherals"), Some(printed()));
     }
 
     #[test]

@@ -5,7 +5,7 @@ use std::{
 };
 
 use missingno_gamedb::{
-    Artifact, Feature, Game, GameBoy, GameBoyColor, GameKind, GbHardware, Language, Platform,
+    Artifact, Enhancement, Game, GameBoy, GameBoyColor, GameKind, GbHardware, Language, Platform,
     Release, ReleaseDate, ReleaseStatus, Sha1,
 };
 
@@ -514,15 +514,16 @@ pub fn run(db_root: &Path, dats: &[PathBuf], report: &mut Report) -> Result<Stat
         let title = title.as_str();
         let mut entries: Vec<(ParsedName, Vec<Artifact>, GbHardware)> = Vec::new();
         for (parsed, artifacts, from_gbc_dat) in group {
-            let mut features = Vec::new();
+            let mut enhancements = Vec::new();
             if parsed.sgb {
-                features.push(Feature::SuperGameBoyEnhanced);
+                enhancements.push(Enhancement::SuperGameBoy);
             }
             if parsed.cgb || *from_gbc_dat {
-                features.push(Feature::GameBoyColorEnhanced);
+                enhancements.push(Enhancement::GameBoyColor);
             }
             let hardware = GbHardware {
-                features,
+                enhancements: (!enhancements.is_empty()).then_some(enhancements),
+                peripherals: None,
                 cart_type: None,
             };
             entries.push((
@@ -838,15 +839,15 @@ mod tests {
             zelda
                 .releases
                 .iter()
-                .all(|r| r.hardware.features == [Feature::SuperGameBoyEnhanced])
+                .all(|r| r.hardware.enhancements == Some(vec![Enhancement::SuperGameBoy]))
         );
         assert!(!root.path().join("gb/zelda-old").exists());
 
         let dual = std::fs::read_to_string(root.path().join("gb/dual-game/manifest.ron")).unwrap();
         let dual = Game::<GameBoy>::from_ron(&dual).unwrap();
         assert_eq!(
-            dual.releases[0].hardware.features,
-            [Feature::GameBoyColorEnhanced]
+            dual.releases[0].hardware.enhancements,
+            Some(vec![Enhancement::GameBoyColor])
         );
 
         let proto =

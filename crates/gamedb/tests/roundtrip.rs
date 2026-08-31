@@ -1,5 +1,6 @@
 use missingno_gamedb::{
-    Feature, Game, GameBoy, GameBoyColor, Sg1000, Sg1000CartType, TvStandard, Vcs, VcsCartType,
+    Enhancement, Game, GameBoy, GameBoyColor, Peripheral, Sg1000, Sg1000CartType, TvStandard, Vcs,
+    VcsCartType,
 };
 
 const GB_HOMEBREW: &str = r#"(
@@ -28,7 +29,7 @@ const GB_HOMEBREW: &str = r#"(
     releases: [
         (
             date: Some("2018-04-17"),
-            hardware: (features: [SuperGameBoyEnhanced, GameBoyColorEnhanced]),
+            hardware: (enhancements: [SuperGameBoy, GameBoyColor], peripherals: [LinkCable]),
             artifacts: [
                 (sha1: "0123456789abcdef0123456789abcdef01234567"),
             ],
@@ -54,7 +55,7 @@ const VCS_VARIANTS: &str = r#"(
         (
             regions: [Usa],
             publisher: Some("Activision"),
-            hardware: (tv_format: Some(Ntsc), cart_type: Some(Atari8K)),
+            hardware: (tv_format: Some(Ntsc), cart_type: Some(Atari8K), peripherals: [Paddle]),
             artifacts: [(sha1: "920cfbd517764ad3fa6a7425c031bd72dc7d927c")],
         ),
         (
@@ -100,8 +101,12 @@ fn gb_homebrew_round_trips() {
     let (game, _) = round_trip::<GameBoy>(GB_HOMEBREW);
     let release = &game.releases[0];
     assert_eq!(
-        release.hardware.features,
-        [Feature::SuperGameBoyEnhanced, Feature::GameBoyColorEnhanced]
+        release.hardware.enhancements,
+        Some(vec![Enhancement::SuperGameBoy, Enhancement::GameBoyColor])
+    );
+    assert_eq!(
+        release.hardware.peripherals,
+        Some(vec![Peripheral::LinkCable])
     );
     assert_eq!(game.covers.len(), 2);
     assert_eq!(game.mods.len(), 1);
@@ -129,6 +134,14 @@ fn vcs_variants_round_trip() {
     assert_eq!(
         game.releases[1].hardware.cart_type,
         Some(VcsCartType::Atari8K)
+    );
+    assert_eq!(
+        game.releases[0].hardware.peripherals,
+        Some(vec![Peripheral::Paddle])
+    );
+    assert_eq!(
+        game.releases[1].hardware.peripherals, None,
+        "an unstated list leaves the platform default standing"
     );
 }
 
@@ -181,7 +194,7 @@ fn unknown_enhancement_is_omitted() {
         title: "Half Known",
         releases: [
             (
-                hardware: (features: [GameBoyColorEnhanced]),
+                hardware: (enhancements: [GameBoyColor]),
                 artifacts: [(sha1: "0123456789abcdef0123456789abcdef01234567")],
             ),
         ],
@@ -189,14 +202,84 @@ fn unknown_enhancement_is_omitted() {
     "#;
     let game = Game::<GameBoy>::from_ron(text).expect("parses");
     assert_eq!(
-        game.releases[0].hardware.features,
-        [Feature::GameBoyColorEnhanced]
+        game.releases[0].hardware.enhancements,
+        Some(vec![Enhancement::GameBoyColor])
     );
     let canonical = game.to_ron_string().expect("serializes");
-    assert!(canonical.contains("GameBoyColorEnhanced"));
+    assert!(canonical.contains("GameBoyColor"));
     assert!(
         !canonical.contains("SuperGameBoy"),
-        "a feature the release lacks is not written:\n{canonical}"
+        "an enhancement the release lacks is not written:\n{canonical}"
+    );
+    assert!(
+        !canonical.contains("peripherals"),
+        "an unstated list is not written:\n{canonical}"
+    );
+}
+
+#[test]
+fn a_stated_enhancement_list_is_told_from_an_unstated_one() {
+    let entry = |hardware: &str| {
+        let text = format!(
+            "(title: \"Tri State\", releases: [(hardware: ({hardware}), artifacts: [(sha1: \
+             \"0123456789abcdef0123456789abcdef01234567\")])])"
+        );
+        let game = Game::<GameBoy>::from_ron(&text).expect("parses");
+        let canonical = game.to_ron_string().expect("serializes");
+        (game.releases[0].hardware.enhancements.clone(), canonical)
+    };
+
+    let (unstated, canonical) = entry("cart_type: None");
+    assert_eq!(unstated, None);
+    assert!(!canonical.contains("enhancements"), "{canonical}");
+
+    let (cleared, canonical) = entry("enhancements: []");
+    assert_eq!(cleared, Some(Vec::new()));
+    assert!(canonical.contains("enhancements: []"), "{canonical}");
+
+    let (stated, canonical) = entry("enhancements: [GameBoyColor]");
+    assert_eq!(stated, Some(vec![Enhancement::GameBoyColor]));
+    assert!(
+        canonical.contains("enhancements: [\n"),
+        "a stated list is the bare list:\n{canonical}"
+    );
+    assert!(canonical.contains("GameBoyColor"), "{canonical}");
+}
+
+#[test]
+fn a_gbc_release_states_the_peripherals_it_drives() {
+    let entry = |hardware: &str| {
+        let text = format!(
+            "(title: \"Printed\", releases: [(hardware: ({hardware}), artifacts: [(sha1: \
+             \"0123456789abcdef0123456789abcdef01234567\")])])"
+        );
+        let game = Game::<GameBoyColor>::from_ron(&text).expect("parses");
+        let canonical = game.to_ron_string().expect("serializes");
+        (game.releases[0].hardware.peripherals.clone(), canonical)
+    };
+
+    let (unstated, canonical) = entry("cart_type: None");
+    assert_eq!(unstated, None);
+    assert!(!canonical.contains("peripherals"), "{canonical}");
+
+    let (cleared, canonical) = entry("peripherals: []");
+    assert_eq!(cleared, Some(Vec::new()));
+    assert!(canonical.contains("peripherals: []"), "{canonical}");
+
+    let (stated, canonical) = entry("peripherals: [LinkCable, Printer]");
+    assert_eq!(
+        stated,
+        Some(vec![Peripheral::LinkCable, Peripheral::Printer])
+    );
+    assert!(canonical.contains("Printer"), "{canonical}");
+
+    assert!(
+        Game::<GameBoyColor>::from_ron(
+            "(title: \"Enhanced\", releases: [(hardware: (enhancements: [GameBoyColor]), \
+             artifacts: [(sha1: \"0123456789abcdef0123456789abcdef01234567\")])])"
+        )
+        .is_err(),
+        "a CGB release is CGB-required, so the tree states no enhancements"
     );
 }
 
