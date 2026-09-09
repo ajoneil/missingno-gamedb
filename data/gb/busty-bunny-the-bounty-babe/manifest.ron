@@ -1,14 +1,38 @@
 (
     title: "Busty Bunny the Bounty Babe",
+    developer: Some("ookamithewolf1"),
+    description: Some("Busty is a bounty hunter chasing the gang boss Fanny Fennec across the planet 6-9. Run and gun rightward to the goal sign at the end of each level, shooting the fennecs that come at you out of the alleys and picking up Bimbo-Cola to top your health back up. Eighteen levels over six zones, three bosses."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://ookamithewolf1.itch.io/busty-bunny-the-bounty-babe",
+            link_type: DownloadPage,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4F0FDB1132001AE7F0C12738CDDDE4F27481BE64",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("v1.02"),
             regions: [
                 World,
             ],
+            publisher: Some("ookamithewolf1"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Mb1,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a1cbaacdf32cb8fb9a9c59fcb624c729e0ca17bf",
+                    label: Some("v1.02"),
                 ),
             ],
         ),

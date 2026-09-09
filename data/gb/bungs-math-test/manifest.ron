@@ -1,11 +1,22 @@
 (
     title: "Bung\'s Math Test",
+    developer: Some("Bung Enterprises"),
+    description: Some("A multiple-choice arithmetic quiz: a question comes up and you pick your answer from the options listed underneath."),
+    curated: true,
     releases: [
         (
-            label: Some("Unl"),
             regions: [
                 World,
             ],
+            publisher: Some("Bung Enterprises"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "68581c24793e8ea63f3273efa7bc098309d77d1a",

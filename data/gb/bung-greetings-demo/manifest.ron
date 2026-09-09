@@ -1,15 +1,32 @@
 (
     title: "Bung Greetings Demo",
     kind: Demo,
+    developer: Some("Bung Enterprises"),
+    description: Some("An advertisement that runs on the hardware it advertises. A message scrolls past announcing the Doctor GB Card — a cartridge you write your own greetings onto for friends and family — and points viewers at bung.com.hk. One build carries the general pitch, the other a new year\'s message to Bung\'s customers."),
+    curated: true,
     releases: [
         (
-            label: Some("Unl"),
             regions: [
                 World,
             ],
+            publisher: Some("Bung Enterprises"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: Some(Kb32),
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
+                    sha1: "737402fe70924f893fc212393eeb7f46f225745a",
+                    label: Some("New Year"),
+                ),
+                (
                     sha1: "bb01f845d330377749aeb6df1f7bea0eff78bb89",
+                    label: Some("Doctor GB Card advert"),
                 ),
             ],
         ),

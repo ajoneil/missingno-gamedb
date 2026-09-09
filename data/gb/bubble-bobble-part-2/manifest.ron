@@ -1,11 +1,51 @@
 (
     title: "Bubble Bobble Part 2",
+    developer: Some("Taito"),
+    description: Some("Bubblun Junior sets out to rescue the villagers carried off by the evil lord Great Skull. He traps monsters in the bubbles he blows and bursts them, while special bubbles let loose water, fire and lightning across the screen. Holding the button gathers bubbles around him until he is wrapped in them and floats up off the floor."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/バブルボブル2",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bubble_Bobble_-_Part_2_-_1993_-_Taito.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bubble-bobble-part-2",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bubble%20Bobble%20Part%202%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-07"),
+            publisher: Some("Taito"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "e258d852713f392454d4291032ce50ad325aba86",
@@ -13,11 +53,24 @@
             ],
         ),
         (
-            title: Some("Bubble Bobble Junior"),
-            label: Some("En"),
+            title: Some("バブルボブルジュニア"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993-05-28"),
+            publisher: Some("Taito"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "686c526a557065dc0005068eafdbc6736684f925",

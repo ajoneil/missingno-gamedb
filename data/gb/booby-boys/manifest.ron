@@ -1,10 +1,42 @@
 (
     title: "Booby Boys",
+    developer: Some("Nichibutsu"),
+    description: Some("You dig holes in the ground to trap the monsters chasing you, then fill them in to bury whatever fell inside. Collecting every sparkling chest on a level makes a key appear; carry it to the door and the next one opens. Ten levels to a world, the worlds tackled in any order, and a clock that kills you if it runs out."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Kid\'s_Horehore_Daisakusen",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/booby-boys",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Booby%20Boys%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ブービーボーイズ"),
             regions: [
                 Japan,
             ],
+            date: Some("1993-06-25"),
+            publisher: Some("Nichibutsu"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "61fe27a4ce83bc6d9dba5d4d0652e83dbec45e6e",

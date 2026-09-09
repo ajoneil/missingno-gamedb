@@ -1,10 +1,40 @@
 (
     title: "Brain Bender",
+    description: Some("Angle the mirrors on the board so your laser beam reaches every object in the puzzle and finally destroys the satellite, all against the clock. Twelve levels of ten puzzles make 120 in all, and some are laid out so that a single wrong turn makes them unsolvable — restart and take the points penalty."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Brainbender_-_1992_-_Gremlin_Graphics_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/brainbender",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Brain%20Bender%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1992"),
+            publisher: Some("Gremlin Graphics"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9502181c62d8343b98cef9b881c29e4573e4fbc9",
@@ -18,6 +48,14 @@
             ],
             date: Some("1991-03-04"),
             status: Beta,
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "235f61e7ccc6f9cffe6c30a0abc778f6745d3a5a",
@@ -28,6 +66,16 @@
             regions: [
                 Usa,
             ],
+            date: Some("1992"),
+            publisher: Some("Electro Brain"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "56ff8684284765a56918d14620ad38477aaaf0ad",
@@ -36,10 +84,18 @@
         ),
         (
             title: Some("Migrain"),
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            publisher: Some("Acclaim"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "98ea7eab4048cbd0e4aa5f88e9a831e522c493d5",
@@ -47,10 +103,16 @@
             ],
         ),
         (
-            label: Some("Evercade"),
+            label: Some("Evercade: Gremlin Collection 1"),
             regions: [
                 World,
             ],
+            date: Some("2022-03"),
+            publisher: Some("Blaze Entertainment"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+            ),
             artifacts: [
                 (
                     sha1: "c2e97d87bd0bf07ede962e0f3dca640320895926",

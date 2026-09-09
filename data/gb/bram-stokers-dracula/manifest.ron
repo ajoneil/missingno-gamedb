@@ -1,11 +1,50 @@
 (
     title: "Bram Stoker\'s Dracula",
+    description: Some("Jonathan Harker fights his way out of Dracula\'s castle and across Europe to London, running and jumping through side-scrolling stages with a weapon in hand. He can crouch, look up or down the screen before committing to a leap, and drive a jump straight down onto whatever is beneath him as a smash attack."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bram_Stoker-s_Dracula_-_Sony_Electronic_Publishing.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bram-stokers-dracula",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bram_Stoker\'s_Dracula_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bram%20Stoker\'s%20Dracula%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993"),
+            publisher: Some("Sony Imagesoft"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "d31cb69613a6f0504b4f3f72c18e96b5827686b9",

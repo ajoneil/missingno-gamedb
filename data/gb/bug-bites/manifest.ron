@@ -1,10 +1,45 @@
 (
     title: "Bug Bites!",
+    developer: Some("MOL"),
+    description: Some("You steer a bug through a maze, collecting the pickups strewn along its corridors while keeping clear of the bigger bugs patrolling them, and a countdown runs the whole time."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://ubermol.itch.io/bugbites",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/game/bugbites/",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "Homebrew Hub ROM",
+            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/bugbites/Bug_Bites!.gb",
+            link_type: Download,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/gbdev/database/master/entries/bugbites/cover.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2023-05-20"),
+            publisher: Some("MOL"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "8d601612ac262e4548d8b8f6ac19a04cb92ecfb7",

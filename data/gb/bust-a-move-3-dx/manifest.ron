@@ -1,10 +1,50 @@
 (
     title: "Bust-A-Move 3 DX",
+    developer: Some("Probe Entertainment"),
+    description: Some("Fire bubbles up into the cluster hanging above and three that touch pop, dropping anything left suspended below. With no colour to work from they are told apart by shade. Two modes: an arcade run through the campaign or against a computer opponent, and a challenge to clear twenty-five levels as fast as you can."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bust-a-move_3_Dx_-_Acclaim.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bust-a-move-3-dx",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Puzzle_Bobble_3",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bust-A-Move%203%20DX%20(Europe).png",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1998"),
+            publisher: Some("Acclaim"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "e89dc67087205c4113a4d152347eba38204e270b",

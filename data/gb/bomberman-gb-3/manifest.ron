@@ -1,14 +1,38 @@
 (
     title: "Bomberman GB 3",
+    description: Some("Bomberman fights back across a planet\'s surface, underground and dark regions to recover the bomb capsules stolen from him. Each round sets its own mission rather than simply clearing the field, and for the first time in the series the ground has height: you can drop from a ledge to the level below, and blasts fell trees and start avalanches."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/ボンバーマンGB3",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bomberman%20GB%203%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ボンバーマンGB3"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1996-12-20"),
+            publisher: Some("Hudson"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

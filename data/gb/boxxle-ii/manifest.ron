@@ -1,11 +1,49 @@
 (
     title: "Boxxle II",
+    description: Some("An alien has taken Wanda, so Willy is back in the warehouse earning rocket parts: clear a screen of boxes and he can buy another piece of the spaceship. Over 120 screens of pushing crates onto their marks, and a mode that replays your last attempt at one so you can revise the moves in it."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Boxxle_2_-_1990_-_Pony_Canyon.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/boxxle-2",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Boxxle_II",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Boxxle%20II%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Soukoban 2"),
+            title: Some("倉庫番2"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990-06-22"),
+            publisher: Some("Pony Canyon"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "211221bd34b3ae86ce5d647a81caab8bb91bfa71",
@@ -17,6 +55,19 @@
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992-06"),
+            publisher: Some("FCI"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "36315dab12915d2d2fad7a37fcb5ce6809118c8a",

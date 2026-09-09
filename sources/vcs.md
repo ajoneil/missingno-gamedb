@@ -72,3 +72,10 @@ it loads.
 4. **Entries split by slug suffix** (`-ntsc`, `-pal`, `-f0`, `-a`) that
    `find_duplicates` will not surface, because their titles normalise
    differently or not at all. List the tree for the game's slug prefix.
+
+## Telling two builds of a hack apart
+
+The 2600 hack scene is indexed on archive.org, with year and author in the item title.
+Its documented `advancedsearch.php` and `/metadata/<identifier>` APIs expose per-file SHA-1,
+which separates two same-named builds when the signature database knows neither. **Research
+only — no archive.org URLs in `links`** (README.md carries the standing rule).

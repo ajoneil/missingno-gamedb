@@ -1,11 +1,48 @@
 (
-    title: "Bust-A-Move 2 - Arcade Edition",
+    title: "Bust-A-Move 2: Arcade Edition",
+    developer: Some("Probe Entertainment"),
+    description: Some("Bubbles hang in a cluster at the top of the screen and you fire more up at it from an arrow you swing at the bottom; three of a colour touching pops them, and anything left hanging underneath falls too. Bank shots off the side walls reach spots you cannot hit straight, and B nudges the aim finer."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bust-a-move_2_Arcade_Edition_-_1998_-_Acclaim.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bust-a-move-2-arcade-edition",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Puzzle_Bobble_2",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bust-A-Move%202%20-%20Arcade%20Edition%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             title: Some("Puzzle Bobble GB"),
             regions: [
                 Japan,
             ],
+            date: Some("1998-04-10"),
+            publisher: Some("Taito"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "203a39b937e1900fa272f93830d3c6f825e67821",
@@ -17,6 +54,17 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1998-02"),
+            publisher: Some("Acclaim"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6b0942c231890d3e2f6c18e7804040eb4c66dcb3",

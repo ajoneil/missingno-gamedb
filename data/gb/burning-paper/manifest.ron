@@ -1,11 +1,35 @@
 (
     title: "Burning Paper",
+    developer: Some("Pixel"),
+    description: Some("You stand at the top of a structure while creatures climb toward you. A crosshair moves with the pad and A fires a beam through the wall wherever it points, cutting pieces loose to fall on the enemies below — but cut too greedily and there is no wall left to drop on them later."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/burning-paper",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Burning%20Paper%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En"),
+            title: Some("バーニングペーパー"),
             regions: [
                 Japan,
             ],
+            date: Some("1993"),
+            publisher: Some("LOZC G. Amusements"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "8e2bce98cc840e52d47680f9b1e425bfc9102ac7",

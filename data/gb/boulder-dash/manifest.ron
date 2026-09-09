@@ -1,10 +1,41 @@
 (
     title: "Boulder Dash",
+    developer: Some("Beam Software"),
+    description: Some("As Rockford you tunnel through earth to collect the diamonds each cave demands before its exit opens, with boulders that fall the moment you dig out from under them and crush you as readily as they crush your pursuers. Eighty stages across four worlds add enchanted walls, butterflies to turn into jewels, escape tunnels and a spreading amoeba."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Boulder_Dash_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/boulder-dash",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Boulder%20Dash%20(Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1990"),
+            publisher: Some("Nintendo"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "01cc570a16bad4c2c33b393620ec9e25f131d1f4",
@@ -12,10 +43,22 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-09-21"),
+            publisher: Some("Victor Musical Industries"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f5a4a5ccda4f559ce85567c4b68f758216aee2d4",

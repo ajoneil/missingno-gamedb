@@ -1,10 +1,40 @@
 (
     title: "Breakout Lava-Lamp",
+    developer: Some("bbbbbr"),
+    description: Some("An endless breakout board that runs itself, balls ricocheting through the bricks while every bounce nudges the angle a little so the pattern never settles. You can change how many balls are in play and how fast they go, and the board saves to cart RAM, resuming where it left off after the power goes out."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://bbbbbr.itch.io/breakout-lava-lamp",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "GitHub",
+            url: "https://github.com/bbbbbr/breakout-lava-lamp",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://raw.githubusercontent.com/bbbbbr/breakout-lava-lamp/main/info/breakout_lava_lamp_title_screen.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2024"),
+            publisher: Some("bbbbbr"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb32,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9de08cdb4cdab58c79e0f2bdaef8b8bb736b9c50",

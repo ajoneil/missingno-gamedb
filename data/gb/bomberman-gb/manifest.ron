@@ -1,15 +1,53 @@
 (
     title: "Bomberman GB",
+    developer: Some("Hudson Soft"),
+    description: Some("Indy Bomber, hunting a legendary ring that grants wishes, drops through a trapdoor into a cave. Each of eight areas runs five stages and a boss, and before entering you pick its clear condition: wipe out every enemy, or destroy them in a set order. Beating the boss wins an ability — a whip that kicks bombs, a dash, a line of bombs at once."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bomberman_GB",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bomberman_GB_-_1995_-_Nintendo.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bomberman-gb",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bomberman%20GB%20(USA,%20Europe)%20(SGB%20Enhanced).png",
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bomberman%20GB%202%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Bomberman GB 2"),
+            title: Some("ボンバーマンGB2"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1995-08-10"),
+            publisher: Some("Hudson Soft"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -22,10 +60,21 @@
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1998-04-10"),
+            publisher: Some("Nintendo"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

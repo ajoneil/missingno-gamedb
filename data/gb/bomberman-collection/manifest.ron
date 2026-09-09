@@ -1,14 +1,41 @@
 (
     title: "Bomberman Collection",
+    developer: Some("Hudson"),
+    description: Some("Three Bomberman games on one cartridge: Bomber Boy, Bomberman GB and Bomberman GB2. Each drops you into a grid of soft blocks to blow paths through, catching enemies in the explosion while staying clear of it yourself. Bomber Boy works through eight factories and carries a second mode built on the Famicom original; Bomberman GB fights a gang of rival bombers across eight stages of bosses."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/ボンバーマンコレクション",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bomberman%20Collection%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ボンバーマンコレクション"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1996-07-21"),
+            publisher: Some("Hudson"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Mb1,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

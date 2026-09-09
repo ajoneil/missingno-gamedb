@@ -1,11 +1,50 @@
 (
     title: "Burai Fighter Deluxe",
+    developer: Some("KID"),
+    description: Some("A jetpack-borne shooter through side- and vertical-scrolling stages against the Burai\'s half-organic robo-mutants, armed with laser, missile and ring guns and a cobalt bomb that clears the screen. The Deluxe in the title is the head-to-head versus mode this version adds."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Burai_Fighter_Deluxe_-_1990_-_Taxan.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/burai-fighter-deluxe",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Burai_Fighter",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Burai%20Fighter%20Deluxe%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1991-01"),
+            publisher: Some("Taxan"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "178e18b7e6e65e726b4e06f80d89c55332ea868b",
@@ -14,10 +53,22 @@
         ),
         (
             title: Some("Burai Senshi Deluxe"),
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-06-27"),
+            publisher: Some("Taito"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f8c17e07d25420b7717f4415820c09491bb6a04c",

@@ -1,10 +1,36 @@
 (
-    title: "Borruga - Neo Pinball",
+    title: "Borruga: Neo Pinball",
+    developer: Some("Kabcorp"),
+    description: Some("Knock the ball into everything you can for score: bumpers pay their multiplier, boosters fling it back their way, and a metal cube breaks the borders open. A bat you slide left and right handles the ball — Down cushions it, A taps it away, B bends its path — up tables that run seven screens tall."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://kabcorp.itch.io/borruga",
+            link_type: DownloadPage,
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1hZ2UvMTYwMTc1Ny85MzcyMDgyLnBuZw==/original/1NWZcf.png",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2021"),
+            publisher: Some("Kabcorp MicroGames"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "269f12091d5ab87362a2cb2cf5484f14bfcbd537",

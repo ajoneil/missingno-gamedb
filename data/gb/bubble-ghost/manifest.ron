@@ -1,11 +1,47 @@
 (
     title: "Bubble Ghost",
+    developer: Some("Opera House"),
+    description: Some("A ghost must puff a bubble out through his creator\'s castle, room by room. He is invincible himself, but the bubble bursts on the slightest knock, so you steer it by blowing — which part of him catches it decides where it goes — past the candles and fans set in its way."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bubble_Ghost",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bubble_Ghost_-_1990_-_FCI.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bubble-ghost",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bubble%20Ghost%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1990-11"),
+            publisher: Some("FCI"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "b08b8a9bf742f7ca4b355a866b4167741252dcf6",
@@ -17,7 +53,16 @@
                 Usa,
                 Europe,
             ],
+            publisher: Some("FCI"),
             status: Beta,
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f5d063c70cecadda43d27d0c24f561a8f32b10f2",
@@ -25,10 +70,19 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-12-21"),
+            publisher: Some("Pony Canyon"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f93e37b60025c67d7fbfc035ed727c9a39d8c9f1",

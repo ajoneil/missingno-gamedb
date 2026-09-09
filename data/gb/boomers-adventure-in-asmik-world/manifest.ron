@@ -1,11 +1,49 @@
 (
     title: "Boomer\'s Adventure in ASMIK World",
+    description: Some("Boomer digs holes in the floor to drop the monsters chasing him, then fills them in to bury what fell inside, clearing a path through each maze floor of Zoozoon\'s tower. Buried ground also gives up keys and items — a boomerang to throw, a compass, roller skates — and eight floors up the dark lord waits."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Boomer-s_Adventure_In_Asmik_World_-_1989_-_Asmik.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/boomers-adventure-in-asmik-world",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Boomer\'s_Adventure_in_ASMIK_World",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Boomer\'s%20Adventure%20in%20ASMIK%20World%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             title: Some("Teke Teke! Asmik-kun World"),
             regions: [
                 Japan,
             ],
+            date: Some("1989-12-27"),
+            publisher: Some("Asmik"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "389cc31472b87ec70e3ea6487f8ad9198887bb89",
@@ -16,6 +54,19 @@
             regions: [
                 Usa,
             ],
+            date: Some("1990-04"),
+            publisher: Some("Asmik Corporation of America"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "3d8a6fcc644290c9d88fe2918bfa6007ee811de8",

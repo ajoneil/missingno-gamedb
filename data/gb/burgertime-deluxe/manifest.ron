@@ -1,10 +1,49 @@
 (
     title: "BurgerTime Deluxe",
+    developer: Some("Data East"),
+    description: Some("Peter Pepper runs the ladders and floors of a burger factory, walking the length of each ingredient to drop it a level until a whole burger stacks up below. The condiments chasing him can be dealt with by a throw of pepper, of which he carries a limited supply. Four stages to a level, seven levels in all."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Burgertime_Deluxe_-_1991_-_Data_East.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/burgertime-deluxe",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/BurgerTime_Deluxe",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/BurgerTime%20Deluxe%20(World).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("1991"),
+            publisher: Some("Data East"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1aafcef0dd5fbb8e95188631e0b2decdf84e9aed",

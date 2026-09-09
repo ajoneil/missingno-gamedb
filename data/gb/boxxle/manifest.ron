@@ -1,11 +1,50 @@
 (
     title: "Boxxle",
+    developer: Some("Atelier Double"),
+    description: Some("Willy shifts crates around a warehouse to earn the money for a present. Each of 108 screens asks you to push every box onto a marked dot — and pushing is all you can do, never pulling, so a crate shoved into a corner strands the screen. One move can be taken back, and a create mode lets you build warehouses of your own."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Boxxle_-_1989_-_FCI.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/boxxle",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Boxxle",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Boxxle%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Soukoban"),
+            title: Some("倉庫番"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1989-09-01"),
+            publisher: Some("Pony Canyon"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "aa0cfcb8e049533bc4ae9afe4e97f5336425d5a7",
@@ -15,22 +54,28 @@
         (
             regions: [
                 Usa,
+                Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1990-03-15"),
+            publisher: Some("FCI"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "3e169f1db16cc1c3ffbc8645aa7ce28194033d26",
                 ),
-            ],
-        ),
-        (
-            label: Some("Rev 1"),
-            regions: [
-                Usa,
-                Europe,
-            ],
-            artifacts: [
                 (
                     sha1: "f9d5287bc9d6eda9ec36e9b5a8dbc38cf2cffecf",
+                    label: Some("Rev 1"),
                 ),
             ],
         ),

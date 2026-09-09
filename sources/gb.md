@@ -9,10 +9,11 @@ publishers, cover art, licensing — are in [`README.md`](README.md).
 | Source | Good for | Notes |
 |--------|----------|-------|
 | [Games Database](https://www.gamesdatabase.org) — **link freely** | **game manuals** (direct PDFs), **box, cart and title-screen scans**, publisher, developer, year, category | The first stop for the commercial library. Vetted for the SG-1000 tree already — `robots.txt` allows all and it hosts no ROMs. Reaching anything on it takes the site's own search; see below. |
-| [gbdev](https://gbdev.io) database and its Homebrew Hub | homebrew authorship, licence, canonical cover art | Primary sources beat aggregators: prefer the author's own repo or site to a catalogue entry. |
+| [gbdev](https://gbdev.io) database and its Homebrew Hub — **link freely, read via GitHub** | homebrew authorship, licence, canonical cover art; Pandocs for cartridge-header tables | Primary sources beat aggregators: prefer the author's own repo or site to a catalogue entry. `robots.txt` disallows ClaudeBot, so the rendered site is off limits, but the `gbdev/database` and `gbdev/pandocs` repos are not — read both from GitHub. Homebrew Hub game pages are `/game/<slug>/`; the `/games/` form 404s. |
 | [WLS](https://wls.hu) — **link freely** | the László Rajcsányi (WLS) homebrews: Blitz Bomber, Blockade, Berks, Bonkers, The Farm, G-Man, Climb It… | The author's own site, one page per game with the premise, a play-online build, a `Download` zip that hash-matches the No-Intro aftermarket dump, and a mock box image on the site's own host. His itch.io pages have gone 404, so this is the canonical page. |
 | The project's own repo or site | everything, for homebrew | GitHub raw URLs are the canonical host for cover art and downloads. |
 | MobyGames — **agents cannot read it; unvetted** | — | `robots.txt` disallows ClaudeBot outright. No facts and no links until a human vets it. |
+| insideGadgets — **agents cannot read it** | aftermarket carts of homebrew | `robots.txt` disallows ClaudeBot, so its pages cannot be opened and therefore cannot be linked. |
 | Hidden Palace — **banned** | — | Hosts the prototype ROMs it documents, so it is never linked (see README); its `robots.txt` also carries `Content-Signal: ai-input=no`, so it is not read either. |
 
 ## Games Database
@@ -36,6 +37,9 @@ path before staging anything from it. The page is staged as a `Community` link:
 
 **A single exact match redirects straight to the game page**, so zero result rows
 is not absence — follow the redirect.
+
+**Results page at 40 rows**, so a common word buries the Game Boy entry: post the
+list back through its own `DropSys` system filter rather than paging.
 
 **Its publisher and developer fields conflate similarly-named companies**, so
 take both off the manual where one exists. The swap is to a real company with a

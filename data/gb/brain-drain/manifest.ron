@@ -1,14 +1,43 @@
 (
     title: "Brain Drain",
+    developer: Some("Visual Impact"),
+    description: Some("A grid of symbols scrambled out of order, with the pattern you must rebuild shown in the corner. A cursor holds four tiles at a time and rotates them clockwise or back, and a countdown runs while you match the model. Harder settings add sabotage: the controls invert, blocks turn on their own, whole rows hide behind question marks."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Brain_Drain_-_1998_-_Acclaim.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/brain-drain",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Brain%20Drain%20(USA)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1998"),
+            publisher: Some("Bandai"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -20,10 +49,18 @@
             regions: [
                 Usa,
             ],
+            date: Some("1998"),
+            publisher: Some("Acclaim"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -32,14 +69,21 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1998"),
+            publisher: Some("Acclaim"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

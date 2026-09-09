@@ -1,34 +1,44 @@
 (
     title: "Bugs Bunny Collection",
+    developer: Some("Kemco"),
+    description: Some("Both Crazy Castle games on one cart. Bugs has no attack of his own, so he works through the castle picking up anvils and boxing gloves to turn on Daffy, Sylvester and Yosemite Sam. The first game\'s eighty levels are cleared by collecting every carrot; the sequel\'s twenty-eight want eight keys apiece, with Honey Bunny held at the end."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bugs-bunny-collection",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bugs%20Bunny%20Collection%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("バックス・バニー コレクション"),
             regions: [
                 Japan,
             ],
+            date: Some("1997-12-19"),
+            publisher: Some("Kemco"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
                     sha1: "4f1f56b06364272033372230cfe0819cb3e25b50",
                 ),
-            ],
-        ),
-        (
-            label: Some("Rev 1"),
-            regions: [
-                Japan,
-            ],
-            hardware: (
-                enhancements: [
-                    SuperGameBoy,
-                ],
-            ),
-            artifacts: [
                 (
                     sha1: "9d69d72b7de0377cb0439aa301b1fb82d3ce786a",
+                    label: Some("Rev 1"),
                 ),
             ],
         ),

@@ -1,10 +1,41 @@
 (
     title: "Bourgogne Game Show 2022",
+    developer: Some("Johndo Studio"),
+    description: Some("A side-scrolling platformer in the Mario mould — run, jump and get past the snails — made to be handed out at a games show, and over in a few minutes."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://johndo-studio.itch.io/bourgogne-game-show-2022",
+            link_type: DownloadPage,
+            languages: [
+                French,
+            ],
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1nLzEwMDExNzYxLnBuZw==/original/xsfkKu.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            languages: [
+                French,
+            ],
+            date: Some("2022"),
+            publisher: Some("Johndo Studio"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0bdb8ad04469a329c8cee2fb0c55da35f7752042",

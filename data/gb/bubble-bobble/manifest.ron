@@ -1,11 +1,51 @@
 (
     title: "Bubble Bobble",
+    developer: Some("Taito"),
+    description: Some("Your dragon blows bubbles to trap the monsters in each cave, then bursts them before they wriggle free and come after you. Bubbles carry him too: hop aboard and float up to secret rooms. The screen scrolls around him rather than holding a whole round at once, and its top and bottom edges join, so a fall drops you back in above."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/バブルボブル",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bubble_Bobble_-_1990_-_Taito.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bubble-bobble",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Box/big/Bubble_Bobble_-_1990_-_Taito.jpg",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-03"),
+            publisher: Some("Taito"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "569881bea21cf5fd542ff3dfc40e1626c6748ceb",
@@ -18,7 +58,17 @@
                 Europe,
             ],
             date: Some("1990-12-28"),
+            publisher: Some("Taito"),
             status: Beta,
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "8ed992b8053303453b4afd078684849015667db2",
@@ -26,10 +76,23 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1990-12-07"),
+            publisher: Some("Taito"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "3f2e741e0dbdcc65e960f44a322e85748272f3f3",

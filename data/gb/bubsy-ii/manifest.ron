@@ -1,10 +1,50 @@
 (
     title: "Bubsy II",
+    developer: Some("Images Software"),
+    description: Some("Bubsy is stuck touting tours of the Amazatorium, a three-floor funhouse of Egyptian, musical and aerial worlds. Pick a tour, then run and glide through its levels tagging the big marble at the end of each, firing a Nerf Ballzooka at the flying pigs and turbo sheep in the way, until Oinker P. Hamm is cornered on the top floor."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bubsy_2_-_Accolade.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bubsy-2",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bubsy_II",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bubsy%20II%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1994"),
+            publisher: Some("Telstar Fun and Games"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f59306da42c5d8bbf41c870828c83bbcf1e2f0ac",
@@ -15,6 +55,20 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995-08"),
+            publisher: Some("Accolade"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1ac9bf5043caf428994bca3e80158ca697e94c58",
