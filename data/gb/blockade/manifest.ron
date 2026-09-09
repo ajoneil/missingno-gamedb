@@ -1,10 +1,39 @@
 (
     title: "Blockade",
+    developer: Some("László Rajcsányi"),
+    description: Some("A head-to-head street duel between two schoolboys: standing on opposite sides of the road, each uses a paddle to knock a bouncing energy ball at the other, while cube-shaped obstacles drift across the street and deflect shots into unpredictable rebounds. A clean hit scores a point, and a careless one can send the ball straight back at you."),
+    links: [
+        (
+            name: "WLS",
+            url: "https://wls.hu/blockade-gb/",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "WLS ROM",
+            url: "https://www.wls.hu/gb/blockade/blockade.zip",
+            link_type: Download,
+        ),
+    ],
+    covers: [
+        "https://wls.hu/wp-content/uploads/2026/03/Blockade-GB-WLSBOX-01-1-scaled.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2021-07-26"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9e753048a0eb036ac17c08f5a64d860abd1aaaf5",

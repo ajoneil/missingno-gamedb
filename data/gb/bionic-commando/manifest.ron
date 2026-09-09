@@ -1,10 +1,50 @@
 (
     title: "Bionic Commando",
+    developer: Some("Minakuchi Engineering"),
+    description: Some("A side-scrolling platformer whose hero cannot jump: Rad Spencer fires his extending bionic arm at walls and ceilings to pull himself up and swing across gaps, and uses it to knock soldiers back. Between stages you pilot the DX-3 helicopter across a map to choose the next base, then infiltrate it to rescue Super Joe and halt the Albatross project, with passwords to continue."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bionic_Commando_-_1992_-_Capcom.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bionic-commando",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bionic_Commando_(1992_video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bionic%20Commando%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992"),
+            publisher: Some("Capcom"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a8ab419b049aef5a04800efd6df58e4b3c3abbe3",
@@ -12,9 +52,24 @@
             ],
         ),
         (
+            title: Some("バイオニック コマンドー"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992-07-24"),
+            publisher: Some("Capcom"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "12dc5b05751214be3ce55da0fecaf23a41eb1881",
@@ -25,6 +80,20 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992-10"),
+            publisher: Some("Capcom"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "e0ef47568a017ccdd3dbe0db5d7654822b4e5ce1",

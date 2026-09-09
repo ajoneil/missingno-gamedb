@@ -1,11 +1,48 @@
 (
     title: "The Blues Brothers",
+    developer: Some("Titus France"),
+    description: Some("A platformer in which Jake or Elwood hunts through five levels for the band\'s stolen gear, one item per level, from a department store to a jailhouse. With no weapon of their own they pick up the boxes scattered about and throw them at cops and punks, crawl and drop through floors, and ride springs and balloons to reach the exit."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Blues_Brothers_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Blues_Brothers,_The_-_1992_-_Titus.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/blues-brothers-the",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4CBA64036F483414468E9BA32D8B4C3A1D4F09C7",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1992-06"),
+            publisher: Some("Titus"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9dca8b83a5d73270319cf05396fcca8e6027e7b0",
@@ -13,12 +50,20 @@
             ],
         ),
         (
-            title: Some("Blues Brothers"),
             regions: [
                 Usa,
                 Europe,
             ],
+            publisher: Some("Titus"),
             status: Beta,
+            hardware: (
+                enhancements: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f7139bb55c3cc7bae672ade9022fb548b72f6f2f",

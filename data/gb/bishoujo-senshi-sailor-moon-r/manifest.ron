@@ -1,10 +1,42 @@
 (
     title: "Bishoujo Senshi Sailor Moon R",
+    description: Some("An adventure-and-action game following the anime\'s Black Moon arc: each of five stages puts a different Sailor Senshi in play, with a story chapter to solve before the action against that stage\'s boss. Six mini-games, including a Sailor Moon quiz and a memory game, are bundled alongside."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bishoujo-senshi-sailor-moon-r",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン_(ゲーム)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D25D83B7BF0AB972ECF4A421D5DB0FA07ADBC57F",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("美少女戦士セーラームーンR"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994-04-22"),
+            publisher: Some("Angel"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "959f384998c43072ca154e531917e9aaa80a694d",

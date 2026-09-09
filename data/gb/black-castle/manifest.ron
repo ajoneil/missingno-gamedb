@@ -1,15 +1,31 @@
 (
     title: "Black Castle",
     developer: Some("User0x7f"),
+    description: Some("An action platformer inspired by Ghosts \'n Goblins: a young knight sets out for a warlock\'s black castle to free the kingdom from his tyranny, fighting through four levels with a jump and a sword attack, hunting secret passages and hidden items on the way to the warlock himself."),
     links: [
         (
-            name: "Homebrew Hub ROM",
-            url: "https://raw.githubusercontent.com/gbdev/database/master/entries/black-castle/black-castle.gb",
-            link_type: Download,
+            name: "Homebrew Hub",
+            url: "https://hh.gbdev.io/game/black-castle/",
+            link_type: DownloadPage,
         ),
         (
-            name: "Homebrew Hub",
-            url: "https://hh.gbdev.io/games/black-castle",
+            name: "itch.io",
+            url: "https://user0x7f.itch.io/black-castle",
+            link_type: Store,
+        ),
+        (
+            name: "GitHub",
+            url: "https://github.com/untoxa/BlackCastle",
+            link_type: Source,
+        ),
+        (
+            name: "Ferrante Crafts",
+            url: "https://www.ferrantecrafts.com/listing/1221102527/black-castle-game-cartridge-for-game-boy",
+            link_type: Store,
+        ),
+        (
+            name: "Gameboy Development Forum",
+            url: "https://gbdev.gg8.se/forums/viewtopic.php?id=743",
             link_type: DownloadPage,
         ),
     ],
@@ -19,7 +35,30 @@
     screenshots: [
         "https://raw.githubusercontent.com/gbdev/database/master/entries/black-castle/black-castle.png",
     ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
-        (),
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2020-11-29"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "45d979be572bb820835d2ecd4e990cd1eadbf5a6",
+                ),
+            ],
+        ),
     ],
 )

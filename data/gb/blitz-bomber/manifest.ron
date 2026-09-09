@@ -1,10 +1,39 @@
 (
     title: "Blitz Bomber",
+    developer: Some("László Rajcsányi"),
+    description: Some("A simple shooter made in GB Studio for the 2021 Game Boy Competition: enemy tanks are attacking your city and you are the only one who can stop them, dropping bombs on them with the A button."),
+    links: [
+        (
+            name: "WLS",
+            url: "https://wls.hu/blitzbomber-gb/",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "WLS ROM",
+            url: "https://www.wls.hu/gb/blitzbomber/blitzbomber.zip",
+            link_type: Download,
+        ),
+    ],
+    covers: [
+        "https://wls.hu/wp-content/uploads/2026/03/Blitz-Bomber-GB-WLSBOX-01-Egyeni.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2021-08-14"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "b72cbc6bfa6ceef940f49c9c82024071c6f82b90",

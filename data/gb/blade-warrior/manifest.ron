@@ -1,11 +1,20 @@
 (
     title: "Blade Warrior",
+    developer: Some("Jason and Chris Kingsley"),
+    description: Some("An early proof-of-concept build of a Game Boy port of Blade Warrior, the 1991 silhouette-styled side-scrolling brawler Image Works published on the Amiga. The port never shipped and was cancelled for reasons that are not known."),
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
             status: Prototype,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "53c1e67430f923f74a611e675ca0cad8d0b13d76",

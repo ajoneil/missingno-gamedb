@@ -1,15 +1,35 @@
 (
     title: "Bobby\'s World",
+    developer: Some("Unexpected Development"),
+    description: Some("An unreleased licensed game built on the Fox Kids cartoon, reworked late in development from Home Alone 2: Kevin\'s Dream, a game set inside Kevin McCallister\'s dreams. The Bobby\'s World builds keep that game\'s premise, stages and play but swap every character for the cartoon\'s cast and add Super Game Boy support. Neither version shipped, and both surfaced in the 2020 Nintendo data leak."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Home_Alone_2:_Lost_in_New_York_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/03A75EF4F9E7B054BE6AEC8B0352F11C9F4EFDD7",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            publisher: Some("Hi Tech Entertainment"),
             status: Prototype,
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -21,11 +41,18 @@
             regions: [
                 Usa,
             ],
+            publisher: Some("Hi Tech Entertainment"),
             status: Prototype,
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
@@ -34,11 +61,21 @@
             ],
         ),
         (
-            title: Some("Home Alone 2 - Kevin\'s Dream"),
+            title: Some("Home Alone 2: Kevin\'s Dream"),
             regions: [
                 Usa,
             ],
+            publisher: Some("THQ"),
             status: Prototype,
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "7fa6b52a9380c5b6091ebdabbabcc816399193d3",

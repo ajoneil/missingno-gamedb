@@ -1,10 +1,47 @@
 (
     title: "Boggle Plus",
+    developer: Some("Sculptured Software"),
+    description: Some("Five timed word games on one cart, checked against a built-in 35,000-word dictionary. Boggle and Big Boggle have you trace words through adjoining letters on a 4x4 or 5x5 grid inside three minutes, racing up to four computer rivals with their own word habits. Anagrams, Categories and Use All twist the formula into unscrambling, themed hunts and clearing the whole board. Two players can link up."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Boggle_Plus_-_1992_-_Parker_Brothers.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/boggle-plus",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Boggle%20Plus%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992-02"),
+            publisher: Some("Parker Brothers"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "d6cf512f7301ccdc2d802f34fbbde2d0ba2cf3cd",

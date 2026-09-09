@@ -1,10 +1,44 @@
 (
     title: "Bionic Battler",
+    developer: Some("Copya System"),
+    description: Some("A first-person hunt through the mazes of the Labyrinths of War. You pick the strong Valiant or the fast Sirius battlesuit, then track down and destroy a set number of enemy robots on each level with punches and charged missiles before your energy runs out, reading the 2-D map and radar to find them. Two players can duel over the link cable."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bionic_Battler_-_1990_-_Electro_Brain.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bionic-battler",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/D24CBB91932C4A8ACE96329E19287CBD66CD0774",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1992-11"),
+            publisher: Some("Electro Brain"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9eca6a5fd1e537085598e8b2903ad75fe9c0b785",
@@ -12,11 +46,23 @@
             ],
         ),
         (
-            title: Some("VS Battler"),
-            label: Some("En"),
+            title: Some("VSバトラー"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-08-10"),
+            publisher: Some("Use Corp"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5f99c7767cbbf5ad9164805214875d7054f49f14",

@@ -1,10 +1,39 @@
 (
     title: "Birdie Bartender",
+    developer: Some("MetagameMike"),
+    description: Some("An arcade-style bartending simulation. Birdie works a shift each day of the week, watching what her cat patrons order and pouring and serving their drinks to earn tips toward a vacation, with a high score and an end-of-shift rank to chase."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://metagamemike.itch.io/birdiebartender",
+            link_type: Store,
+        ),
+        (
+            name: "Homebrew Factory",
+            url: "https://www.homebrew-factory.com/game-boy/179-sushi-gun-birdie-bartender-gb.html",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/4D6AD9F6CC5355DFF488A961D5045855FFCFEF7E",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2022-06-02"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "aa1325fc7160b84745b076de9b976a1b368da50e",

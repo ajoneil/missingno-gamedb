@@ -1,10 +1,47 @@
 (
-    title: "Bo Jackson - Two Games in One",
+    title: "Bo Jackson: Two Games in One",
+    developer: Some("Equilibrium"),
+    description: Some("Baseball and American football on one cart, with Bo Jackson as your coach. In baseball you pick from seven pitches and steer each one in flight, field from an overhead diamond and time your swings. In football a playbook and play editor let you design formations and routes before you run, pass and tackle. Both play solo or over the link cable."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Bo_Jackson_-_Two_Games_In_One_-_1991_-_THQ_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bo-jackson-two-games-in-one",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Bo%20Jackson%20-%20Two%20Games%20in%20One%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-06"),
+            publisher: Some("THQ"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "cb360f44a398ff5cd3818b0e244ffdf7019d85c7",

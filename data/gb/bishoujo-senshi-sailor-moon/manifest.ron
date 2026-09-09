@@ -1,10 +1,43 @@
 (
     title: "Bishoujo Senshi Sailor Moon",
+    developer: Some("Arc System Works"),
+    description: Some("An action-and-adventure game set in the anime\'s early Jadeite arc. Sailor Moon gathers information in adventure scenes, then fights the enemy in action stages, across four stages that run from the streets of Azabu-Juban to a showdown in Queen Beryl\'s castle."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/bishoujo-senshi-sailor-moon",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/美少女戦士セーラームーン_(ゲーム)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Box/big/Bishoujo_Senshi_Sailor_Moon_-_1992_-_Angel.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("美少女戦士セーラームーン"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992-12-18"),
+            publisher: Some("Angel"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "c008913a9fbb395a7a504fe65d1d29c530755cb3",

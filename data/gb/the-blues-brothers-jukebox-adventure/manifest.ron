@@ -1,10 +1,39 @@
 (
-    title: "The Blues Brothers - Jukebox Adventure",
+    title: "The Blues Brothers: Jukebox Adventure",
+    developer: Some("Titus France"),
+    description: Some("A side-scrolling platformer in which your chosen Blues Brother climbs, runs and jumps through 17 levels of sewers, gardens, prisons and warehouses, collecting vinyl records to fling at enemies and gathering power-ups, until he finds the jukebox that plays him through to the next level."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Blues_Brothers:_Jukebox_Adventure",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/blues-brothers-jukebox-adventure-the",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/8851FAF1D55C5C6F3C611ABA53F54D0C9CF1FC92",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1994-07"),
+            publisher: Some("Titus"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "2005e94222a1f0edd30903411343f9570a91d4f3",

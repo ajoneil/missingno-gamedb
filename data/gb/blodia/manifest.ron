@@ -1,11 +1,38 @@
 (
     title: "Blodia",
+    description: Some("A sliding-tile pipe puzzle: each board is a grid of pipe pieces with one empty black square, and a ball starts rolling through the pipes. You slide pieces into the gap to keep laying track ahead of the ball and carry it to the goal, because a dead end or a blank square drops it. Two can play, and an edit mode lets you build your own boards."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/ブロディア_(コンピュータゲーム)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/blodia",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5C99A32908F7C484BE81414F43E63FF2DDBD3493",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En"),
+            title: Some("ブロディア"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-04-20"),
+            publisher: Some("Tonkin House"),
+            hardware: (
+                enhancements: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a3927543ca471f479ba7aae7295788434672464e",

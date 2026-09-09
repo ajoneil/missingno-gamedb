@@ -1,10 +1,52 @@
 (
     title: "Blades of Steel",
+    developer: Some("Konami"),
+    description: Some("Fast, rough ice hockey in three periods: you skate the puck-carrier in eight directions, pass with B and shoot with A at a moving target in front of the net, then switch to the nearest defender when possession turns over. Repeated checking sparks a fistfight in its own punching screen, ties go to a shootout, and a tournament of eight teams leads to the trophy. Two players can link up."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Blades_of_Steel",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Blades_Of_Steel_-_1991_-_Konami.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/blades-of-steel",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Blades%20of%20Steel%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992-02-27"),
+            publisher: Some("Palcom Software"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "d030c46bc225fc92aa431276d9ae5812a30d6007",
@@ -12,10 +54,26 @@
             ],
         ),
         (
-            title: Some("Konamic Ice Hockey"),
+            title: Some("コナミックアイスホッケー"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1992-11-27"),
+            publisher: Some("Konami"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "e7feccc615f71ebd7c3d61c3406ed63a894758f0",
@@ -26,6 +84,22 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1991-08"),
+            publisher: Some("Ultra Games"),
+            hardware: (
+                enhancements: [],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "82761dbf5abe276f8e0c82f575356aed87155141",

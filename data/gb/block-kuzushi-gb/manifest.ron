@@ -1,14 +1,36 @@
 (
     title: "Block Kuzushi GB",
+    developer: Some("OeRSTED"),
+    description: Some("A Breakout-style block breaker: you slide a paddle along the bottom of the screen to keep the ball in play and bounce it into the wall of blocks above, clearing them to finish each level, while lettered blocks drop power-ups when broken."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/block-kuzushi-gb",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Box/big/Block_Kuzushi_Gb_-_1995_-_Pow.jpg",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ブロックくずしGB"),
             regions: [
                 Japan,
             ],
+            date: Some("1995-12-29"),
+            publisher: Some("POW"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

@@ -1,0 +1,43 @@
+(
+    title: "The Binding of Isaac: Game Boy Edition",
+    developer: Some("Joshua Robertson"),
+    description: Some("A demake of the roguelike The Binding of Isaac, built from scratch for the original Game Boy in about a week for the GBJAM 8 contest, so it is a prototype with features missing. You move with the D-pad and shoot with A, holding A to lock your firing direction while you move; Select opens the map."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://jrob774.itch.io/the-binding-of-isaac-gbjam8-edition",
+            link_type: Store,
+        ),
+        (
+            name: "GitHub",
+            url: "https://github.com/JRob774/gbjam8",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B88D043A28497D74235838EDC0268BC9063F3A12",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                World,
+            ],
+            date: Some("2020-09-06"),
+            status: WorkInProgress,
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "187782720d4f7c0986a0d916b0c7efa2c488612e",
+                ),
+            ],
+        ),
+    ],
+)
