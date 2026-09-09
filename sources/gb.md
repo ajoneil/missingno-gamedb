@@ -10,9 +10,10 @@ publishers, cover art, licensing — are in [`README.md`](README.md).
 |--------|----------|-------|
 | [Games Database](https://www.gamesdatabase.org) — **link freely** | **game manuals** (direct PDFs), **box, cart and title-screen scans**, publisher, developer, year, category | The first stop for the commercial library. Vetted for the SG-1000 tree already — `robots.txt` allows all and it hosts no ROMs. Reaching anything on it takes the site's own search; see below. |
 | [gbdev](https://gbdev.io) database and its Homebrew Hub | homebrew authorship, licence, canonical cover art | Primary sources beat aggregators: prefer the author's own repo or site to a catalogue entry. |
+| [WLS](https://wls.hu) — **link freely** | the László Rajcsányi (WLS) homebrews: Blitz Bomber, Blockade, Berks, Bonkers, The Farm, G-Man, Climb It… | The author's own site, one page per game with the premise, a play-online build, a `Download` zip that hash-matches the No-Intro aftermarket dump, and a mock box image on the site's own host. His itch.io pages have gone 404, so this is the canonical page. |
 | The project's own repo or site | everything, for homebrew | GitHub raw URLs are the canonical host for cover art and downloads. |
 | MobyGames — **agents cannot read it; unvetted** | — | `robots.txt` disallows ClaudeBot outright. No facts and no links until a human vets it. |
-| Hidden Palace — **ask before reading** | prototypes | Its `robots.txt` carries `Content-Signal: ai-input=no`. Storing a link is not "ai-input"; an agent reading its pages for facts is what it declines. |
+| Hidden Palace — **banned** | — | Hosts the prototype ROMs it documents, so it is never linked (see README); its `robots.txt` also carries `Content-Signal: ai-input=no`, so it is not read either. |
 
 ## Games Database
 

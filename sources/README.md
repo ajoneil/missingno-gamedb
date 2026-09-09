@@ -62,6 +62,7 @@ Banned so far:
 |------|-----|-----------------|
 | archive.org | legality of linking IA items undecided | Wayback copies of blocked pages, item metadata for research |
 | atarimania.com | hosts dumps of commercial titles — every game page carries a `Dump / Download / Play it!` row | see [`vcs.md`](vcs.md) |
+| hiddenpalace.org | hosts the prototype dumps it documents — every prototype page carries the ROM | nothing: its `robots.txt` also declines AI reading (`Content-Signal: ai-input=no`) |
 
 Removing a source's URL removes the receipt, not the fact. Where a banned site is
 the only source for a release fact, stage the fact and say so in chat; never
