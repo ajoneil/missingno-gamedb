@@ -15,6 +15,8 @@ publishers, cover art, licensing — are in [`README.md`](README.md).
 | MobyGames — **agents cannot read it; unvetted** | — | `robots.txt` disallows ClaudeBot outright. No facts and no links until a human vets it. |
 | insideGadgets — **agents cannot read it** | aftermarket carts of homebrew | `robots.txt` disallows ClaudeBot, so its pages cannot be opened and therefore cannot be linked. |
 | Hidden Palace — **banned** | — | Hosts the prototype ROMs it documents, so it is never linked (see README); its `robots.txt` also carries `Content-Signal: ai-input=no`, so it is not read either. |
+| The Video Games Museum — **agents cannot read it; unvetted** | — | `robots.txt` names `ClaudeBot` in a long AI group closing with `Disallow: /`. Read a group to its directive before fetching. No facts and no links until a human vets it. |
+| Handheld Underground (hhug.me) — **read-only, never linked** | provenance of the Taiwanese unlicensed dumps — which multicart a rip came off, and whether a dump is raw or header-fixed | The dumping project behind the `[multicart rip]` signature names. It serves the ROMs it documents, so the README's host ban applies: read it, cite it in chat, never link it. It has no `robots.txt`. |
 
 ## Games Database
 
@@ -61,23 +63,21 @@ link-cable support, which the header does not hold.
 
 ## Cover art
 
-README.md's order stands — Hasheous, then libretro-thumbnails — with Games
-Database as the fallback those two do not cover. Its scans show the whole box
-including the platform banner, but **every one is watermarked** with the site's
-domain, so it loses to a clean scan of the same art at any resolution. The
-thumbnail on a game page is not the image to stage: follow the artwork page it
-links and take the full-size URL from there.
+README.md's order stands — Hasheous, then libretro-thumbnails. **A watermarked
+scan is never staged**, whatever it would otherwise win on: Games Database
+stamps its own domain across every image, so its artwork is a way to *read* a
+box — the title as the cart prints it, the publisher logo — and never a cover.
+Where those two hold nothing, the entry keeps no cover and the report says so.
 
 **Hasheous usually loses to libretro here**, so compare before keeping what it
 staged: it serves the art cropped free of the banner, seal and publisher logo,
 which the banner rule demotes at any size, and sometimes another game entirely
 out of a grouped record.
 
-**List `Named_Boxarts` from the repo tree rather than guessing a filename.** The
-GitHub trees API returns the whole tree untruncated, so the real No-Intro name —
-`(SGB Enhanced)` and `(Rev 1)` suffixes included — reads straight off it. No
-libretro candidate reported means the guess missed, not that no art exists.
-Encode `%20` for spaces and `%27` for apostrophes.
+**`cover_candidates` lists the repo's `Named_Boxarts` rather than guessing a
+filename**, matching a title through the region and enhancement qualifiers a
+No-Intro name carries. A reported libretro candidate is therefore a file the
+repo holds, and no candidate means it holds none.
 
 ## Sachen multicarts
 

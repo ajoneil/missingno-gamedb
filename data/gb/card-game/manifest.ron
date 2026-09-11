@@ -1,5 +1,18 @@
 (
     title: "Card Game",
+    description: Some("Four ways to pass the time with a deck: American Page One, where you block your opponents and try to go out alone; poker and blackjack played against a coin balance you bet from; and a fortune-telling draw. A versus mode adds a second player, and an alarm timer can be set so a long session doesn\'t carry you past your train stop."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/card-game",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Card%20Game%20(Japan).png",
+        "https://hasheous.org/api/v1/images/F48B2AB7372A2E63EDB6DE57E4CD54B67638D682",
+    ],
+    curated: true,
     releases: [
         (
             title: Some("Card Games"),
@@ -7,6 +20,13 @@
                 Usa,
             ],
             status: Prototype,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a5a260c56ab07f88a9c942fa06c7e67c9c1ea244",
@@ -14,10 +34,19 @@
             ],
         ),
         (
-            label: Some("En"),
+            title: Some("カード・ゲーム"),
             regions: [
                 Japan,
             ],
+            date: Some("1990"),
+            publisher: Some("Coconuts Japan"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9ac64030c1e1ca89828ea54ac1fb0d884d6d92bb",

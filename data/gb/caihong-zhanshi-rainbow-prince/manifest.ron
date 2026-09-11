@@ -1,14 +1,32 @@
 (
-    title: "Caihong Zhanshi - Rainbow Prince",
+    title: "Caihong Zhanshi: Rainbow Prince",
+    description: Some("A vertically scrolling shoot-\'em-up played from a bird\'s-eye view."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/prince-rainbow",
+            link_type: Community,
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("彩虹戰士"),
             label: Some("Unl"),
             regions: [
                 Taiwan,
             ],
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "13b5bbe649f4b679596df83589af6f6482997726",
+                    label: Some("multicart rip"),
                 ),
             ],
         ),

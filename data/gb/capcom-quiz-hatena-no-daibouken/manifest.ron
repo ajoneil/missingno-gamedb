@@ -1,10 +1,48 @@
 (
-    title: "Capcom Quiz - Hatena no Daibouken",
+    title: "Capcom Quiz: Hatena? no Daibouken",
+    developer: Some("Capcom"),
+    description: Some("The Quiz Master has stolen the six crystals of knowledge from Capcom World, and you cross six grid-map worlds to win them back. Instead of rolling dice you pick a numbered ball, answer the multiple-choice question that follows, and advance that many squares when you get it right. Wrong answers cost a life; each world\'s bosses come from the Capcom game it is themed on."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/capcom-quiz-hatena-no-daibouken",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/ハテナ?の大冒険",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Capcom%20Quiz%20-%20Hatena%20no%20Daibouken%20(Japan).png",
+        "https://hasheous.org/api/v1/images/6B11FB27657739631F3B6A3B2E9E7CC8755F1BA2",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("カプコンクイズ ハテナ？の大冒険"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990-12-21"),
+            publisher: Some("Capcom"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "168583ea18e02647f0b35f9bd0365e37bec076cc",

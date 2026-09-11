@@ -1,10 +1,48 @@
 (
     title: "Captain Tsubasa VS",
+    developer: Some("Graphic Research"),
+    description: Some("Tsubasa\'s team plays through the national elementary-school tournament and on to a junior world cup, with each match decided through a command menu rather than direct control of the ball. A two-player versus mode lets both sides draft an original team from 26 stars of the series, penalty shootouts deciding who picks first. Passwords save progress."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/キャプテン翼_(ゲーム)#ゲームボーイ",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/captain-tsubasa-vs",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Captain%20Tsubasa%20VS%20(Japan).png",
+        "https://hasheous.org/api/v1/images/2D919FFE2F622B36743537B461B27DFE50E350D6",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("キャプテン翼VS"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992-03-27"),
+            publisher: Some("Tecmo"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1d48763a64c127b7ecff9876f20ae0761347b4c7",

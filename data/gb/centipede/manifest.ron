@@ -1,15 +1,74 @@
 (
     title: "Centipede",
+    developer: Some("The Code Monkeys"),
+    description: Some("A centipede winds down through a field of mushrooms while you hold the bottom of the screen and shoot it apart. Every segment hit becomes another mushroom, and a hit to the middle splits the body in two, the rear half sprouting its own head. Spiders, fleas and scorpions crowd in alongside, and there are four skill levels to climb."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Centipede_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/centipede",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Centipede_-_1992_-_Accolade.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Centipede%20(USA,%20Europe)%20(Accolade).png",
+        "https://hasheous.org/api/v1/images/E767CFF7084A564672A2F22C6BD4E30D0AD71A76",
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("Accolade"),
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1992"),
+            publisher: Some("Accolade"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0106c3dc8016398e9d24e2472c867487c3bd376f",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1998"),
+            publisher: Some("Majesco"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "a3a5755020c9cbe13fc1a815288830d2e143367f",
                 ),
             ],
         ),

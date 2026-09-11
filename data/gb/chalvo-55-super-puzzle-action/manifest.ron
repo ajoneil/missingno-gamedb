@@ -1,10 +1,36 @@
 (
-    title: "Chalvo 55 - Super Puzzle Action",
+    title: "Chalvo 55: Super Puzzle Action",
+    description: Some("Chalvo is a super robot who moves by bouncing, and the screens of the space fortress are block mazes he has to rebound his way through. Eight stages, with giant boss monsters along the way and the Mob Brothers — a gang of space pirates — to beat before the galaxy is safe."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chalvo-55-super-puzzle-action",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chalvo%2055%20-%20Super%20Puzzle%20Action%20(Japan).png",
+        "https://hasheous.org/api/v1/images/B77C9E42E9C20126E99DDF7E3B8A5080CA6924FB",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("チャルボ55"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1997"),
+            publisher: Some("Japan System Supply"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "55aad975351670c3f632e1ebcc939c48410d29b3",

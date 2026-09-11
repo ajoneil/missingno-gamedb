@@ -1,10 +1,34 @@
 (
     title: "Casper",
+    developer: Some("Bonsai Entertainment"),
+    description: Some("Casper works through a series of levels, each built from four mini-games that can be tackled in any order plus two more that appear only at the end. The aim is to finish holding as much ooze as possible — the fuel the Lazarus machine needs to bring Dr. Harvey back. Run short and the adventure ends there."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Casper_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Casper%20(USA).png",
+        "https://hasheous.org/api/v1/images/EFD940A182EC03969230CCCB77B9D347D9C3A3FB",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1a3d272d8afe81731862a240a77c0d3b80b1d62f",
@@ -15,6 +39,17 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            publisher: Some("Natsume"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "18b90172789c87819fe4d606aa7874109bcd8024",
@@ -26,9 +61,17 @@
                 Usa,
             ],
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1d036bed67da4dc57add0e9e266fbdb993778823",
+                    label: Some("emulator-fixed dump"),
                 ),
             ],
         ),

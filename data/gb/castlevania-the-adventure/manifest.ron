@@ -1,10 +1,49 @@
 (
-    title: "Castlevania - The Adventure",
+    title: "Castlevania: The Adventure",
+    developer: Some("Konami"),
+    description: Some("Christopher Belmont\'s only protection is the Mystic Whip, and candles lit with its tip are what shake loose hearts, crystals and crosses of gold. One crystal lengthens and strengthens the whip, a second sets it spitting fireballs, and a third is worth nothing. Four timed levels of dungeons and crypts, each ending on a Primary Evil."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Castlevania:_The_Adventure",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Castlevania_-_The_Adventure_-_1989_-_Konami.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/castlevania-the-adventure",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Castlevania%20-%20The%20Adventure%20(USA).png",
+        "https://hasheous.org/api/v1/images/C3C694C5E2A83E45A34BE795FB7C3CE6BDE75AAF",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1989"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "d54888039344597fa038f2c5eedc0726dd35cc46",
@@ -12,10 +51,19 @@
             ],
         ),
         (
-            title: Some("Dracula Densetsu"),
+            title: Some("ドラキュラ伝説"),
             regions: [
                 Japan,
             ],
+            date: Some("1989"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "bedeb390391779400de14196d24f07a451184ece",
@@ -26,6 +74,15 @@
             regions: [
                 Usa,
             ],
+            date: Some("1989"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "fd9116efcd8eb9698f483cc5745f83b3674d7d13",
@@ -33,11 +90,20 @@
             ],
         ),
         (
-            title: Some("Dracula Densetsu"),
+            title: Some("ドラキュラ伝説"),
             label: Some("Castlevania Anniversary Collection"),
             regions: [
                 Japan,
             ],
+            date: Some("2019"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5a79f9d5d6b710216921a89450b727a9741e0d83",
@@ -49,6 +115,15 @@
             regions: [
                 Usa,
             ],
+            date: Some("2019"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0d1a75cf0e6e7f6b106cfed7aa0b716daf5f9dc8",

@@ -1,14 +1,47 @@
 (
-    title: "Captain Tsubasa J - Zenkoku Seiha e no Chousen",
+    title: "Captain Tsubasa J: Zenkoku Seiha e no Chousen",
+    description: Some("A soccer tie-in with the Captain Tsubasa J anime, set during its elementary-school arc: Tsubasa\'s Nankatsu side plays timed halves against rival primary schools on the way to the national title, with the series\' super shots to score from. Named players from the cast appear as portraits beside the pitch as play unfolds."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/キャプテン翼J_全国制覇への挑戦",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/captain-tsubasa-j-zenkoku-seiha-e-no-chousen",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Captain%20Tsubasa%20J%20-%20Zenkoku%20Seiha%20e%20no%20Chousen%20(Japan)%20(SGB%20Enhanced).png",
+        "https://hasheous.org/api/v1/images/E93F81CC07B532D63C9F9B6E0B1F69138A88EB01",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("キャプテン翼J 全国制覇への挑戦"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1995-09-14"),
+            publisher: Some("Bandai"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

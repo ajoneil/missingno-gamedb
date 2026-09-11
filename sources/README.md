@@ -172,6 +172,11 @@ No-Intro/TOSEC filename, and those filenames carry things that are not the name:
 taglines, ad copy, dump flags, and publisher qualifiers. A subtitle is part of
 the title only if the packaging sets it as one.
 
+**Where the title screen and the packaging disagree, the title screen wins** —
+it is the name the game calls itself. A box can be localised, restyled or wrong.
+This decides a release title's script too: the `title` is what that release
+draws, with no romanisation kept beside it.
+
 **The test is whether it travels with the logo.** A subtitle is part of the
 title lockup, so it appears wherever the logo does — box front, cart label, title
 screen. Ad copy is placed once and dropped everywhere else, so a second line that
@@ -249,6 +254,13 @@ link.** A Japan-only release is often covered properly on ja.wikipedia and
 nowhere else, and that article is the game's own — the same test still applies,
 so a section within a series article counts only if the section is about this
 game. Search that language's wiki in its own script rather than a romanisation.
+
+**A non-English article needs its `languages` tag, like any other link.** An
+untagged link reads as English — that is what an empty list *means* — so a bare
+ja.wikipedia URL quietly claims a reader can follow it. Setting `wikipedia` in
+`update_game` creates the link without one, so tag it afterwards: pass a `links`
+entry named `Wikipedia` with the same URL and the language, which upserts by
+name rather than adding a second row.
 
 **Store the URL with its real characters, not percent-escapes.** A link is read
 by a person, and `%E3%82%A2%E3%83%A1...` tells them nothing where the title

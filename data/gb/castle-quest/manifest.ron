@@ -1,11 +1,31 @@
 (
     title: "Castle Quest",
+    description: Some("An electronic board game played like chess, but decided by cards as much as position: a storm has raged over the kingdom of Jokarina for a month, and the Tarot says it will only stop when Gandi, King of Magic, and twenty-four lesser kings are toppled. Move your soldiers across the board and settle each clash with magic."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/castle-quest",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/038E06650DDFB02811A4D3A67E879187A4F33287",
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Castle%20Quest%20(Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "356c8510b0647e56a558aba9d5dc4cc9d3ccd94c",
@@ -16,6 +36,15 @@
             regions: [
                 Europe,
             ],
+            date: Some("1993"),
+            publisher: Some("Hudson Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "45b38a334481f620bb7165fee81391036a54a748",
@@ -28,6 +57,13 @@
                 Usa,
             ],
             status: Prototype,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "90a40fc94709a3ec6945281bde2644d91bef28b5",

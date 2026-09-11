@@ -1,8 +1,17 @@
 (
     title: "Calculator",
+    kind: Software,
+    description: Some("A calculator laid out as an on-screen keypad: digits 0 to 9 and A to F, the four arithmetic operators, an equals key and an Ac clear. Two further keys marked 10 and 16 select the base it works in, decimal or hexadecimal."),
+    curated: true,
     releases: [
         (
             status: Prototype,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "fb21bbf3cacc52a81bbe0c7d33280e8d703f0fcc",

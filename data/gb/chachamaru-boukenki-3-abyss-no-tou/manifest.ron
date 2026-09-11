@@ -1,10 +1,35 @@
 (
-    title: "Chachamaru Boukenki 3 - Abyss no Tou",
+    title: "Chachamaru Boukenki 3: Abyss no Tou",
+    description: Some("Chachamaru sets out on another training journey, this time after the demon lord Yanonofu, who carries off the village\'s daughters on nights of the full moon. The Tower of the Abyss is climbed floor by floor from an overhead view, its rooms strung with ladders and treasure chests, with monsters to fight on the way up."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chachamaru-boukenki-3-abyss-no-tou",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chachamaru%20Boukenki%203%20-%20Abyss%20no%20Tou%20(Japan).png",
+        "https://hasheous.org/api/v1/images/5F14A9FE0389579AF59A685EE5D981B5EFDE067E",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("茶々丸冒険記3 アビスの塔"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1991"),
+            publisher: Some("Human"),
+            hardware: (
+                cart_type: Some(Mbc2(
+                    rom: Kb128,
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9a92ccc5758506a7ad07d251bf6c401fe33ad215",

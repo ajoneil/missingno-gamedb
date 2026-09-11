@@ -1,10 +1,36 @@
 (
     title: "Chachamaru Panic",
+    description: Some("Chachamaru storms an island of ice to topple the cursed stone tablets that have taken it over. Rounds play out in single top-down arenas crowded with crates and blocks, up to four players at once, with a results board afterwards naming one winner and listing everyone who lost."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chachamaru-panic",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chachamaru%20Panic%20(Japan).png",
+        "https://hasheous.org/api/v1/images/AB8249E5868A1788074D4415FC7C6A8F721DC780",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("茶々丸パニック"),
             regions: [
                 Japan,
             ],
+            date: Some("1991"),
+            publisher: Some("Human"),
+            hardware: (
+                peripherals: [
+                    FourPlayerAdapter,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "c6cbb08d3bb9a4deccf1df880465ce5d23907839",

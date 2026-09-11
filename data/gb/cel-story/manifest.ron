@@ -1,13 +1,58 @@
 (
-    title: "Cel Story",
+    title: "CeL Story",
+    developer: Some("CeL"),
+    description: Some("A hero\'s spaceship is attacked on the way home and crashes on an unknown planet, taking his memory and his flight systems with it. Scour nine levels for the gems and artifacts that will rebuild the ship, shooting what gets in the way, and beat three bosses to recover enough of the story to earn its best ending."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://xcelfr.itch.io/cel-story",
+            link_type: DownloadPage,
+        ),
+        (
+            name: "Phoenix Ware",
+            url: "https://www.phoenixware.co.uk/product/cel-story/",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://www.phoenixware.co.uk/wp-content/uploads/2023/11/cel_story.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            publisher: Some("Phoenix Ware"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "730627b2298806e4f7e02dceffaa0f0edfc316f0",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            publisher: Some("CeL"),
+            status: Demo,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "70ab2b72b26c1d1cacc13d377984b969ddf44965",
                 ),
             ],
         ),

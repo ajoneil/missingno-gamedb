@@ -1,10 +1,49 @@
 (
     title: "Captain America and the Avengers",
+    developer: Some("Realtime Associates"),
+    description: Some("Pick one of four Avengers — Captain America, Iron Man, Hawkeye or Vision — and fight through five levels of increasingly tough battles against Red Skull\'s forces. Each hero brings his own special weapon, from a thrown shield to explosive arrows, alongside punches, jumping kicks, and a grab that picks an enemy up to throw him. A boss villain waits in each scene."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Captain_America_and_The_Avengers",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Captain_America_And_The_Avengers_-_Mindscape.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/captain-america-and-the-avengers",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/AF71688C7BA59F29BD8D51E289DAB0C12A577B01",
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Captain%20America%20and%20the%20Avengers%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1993"),
+            publisher: Some("Mindscape"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a067c4e20642a6c17f35a855e2d4815470fc6c6b",

@@ -1,10 +1,37 @@
 (
-    title: "Chibi Maruko-chan 2 - Deluxe Maruko World",
+    title: "Chibi Maruko-chan 2: Deluxe Maruko World",
+    developer: Some("Kindle Imagine Develop"),
+    description: Some("Three self-contained stories starring Maruko — a school open day with the parents watching, a trip to the sea, and an outing to a festival — each played out as adventure scenes you talk your way through, with a set of mini-games alongside them."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chibi-maruko-chan-2-deluxe-maruko-world",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chibi%20Maruko-chan%202%20-%20Deluxe%20Maruko%20World%20(Japan).png",
+        "https://hasheous.org/api/v1/images/5CA9909B567C830BF768D802691B50DF3046FB60",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ちびまる子ちゃん2 デラックスまる子ワールド"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1991"),
+            publisher: Some("Takara"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "4fd5eb092086ed62aa978eacc1c3904c921f9615",

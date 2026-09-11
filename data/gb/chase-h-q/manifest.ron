@@ -1,11 +1,49 @@
 (
     title: "Chase H.Q.",
+    description: Some("You drive a black Porsche 928 after a named criminal who is already far up the road, with the clock against you. Catching up only starts it: the getaway car has to be rammed off the road before the extension runs out. Road splits punish a wrong turn, and crashing hands the criminal ground back."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Chase_H.q._-_1990_-_Taito.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chase-h-q-",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Chase_H.Q.",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chase%20H.Q.%20(USA,%20Europe).png",
+        "https://hasheous.org/api/v1/images/06D92CED1183F217C2CACCA24542471693B5976A",
+    ],
+    curated: true,
     releases: [
         (
             title: Some("Taito Chase H.Q."),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990"),
+            publisher: Some("Taito"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "d448c5c63a0cca4f7c4ee806ff928c564d40d386",
@@ -17,6 +55,18 @@
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1990"),
+            publisher: Some("Taito"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "cbcd6254b1b0227ba6aa8d95c979abb7fe8e4d38",

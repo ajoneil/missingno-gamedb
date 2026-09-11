@@ -1,10 +1,38 @@
 (
     title: "Cherry Rescue!",
+    developer: Some("GrafxKid"),
+    description: Some("Barry\'s sister Mary has been taken by a mysterious foe, so he sets off to get her back. Jumping is the whole arsenal — you run, climb ladders and stomp whatever patrols the way, trying to reach the end of each level unscathed."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://grafxkid.itch.io/cherry-rescue",
+            link_type: DownloadPage,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/3EF8F4EF8F9B35923A29EC44546F899040B37A0E",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             regions: [
                 World,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("2020-11-15"),
+            hardware: (
+                cart_type: Some(Mbc5(
+                    rom: Kb512,
+                    ram: Some(Kb32),
+                    battery: false,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "740dba1827c730cc5d8bf67495bcede3a5352643",

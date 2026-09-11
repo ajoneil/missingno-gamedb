@@ -1,10 +1,43 @@
 (
     title: "Caesars Palace",
+    developer: Some("Magnin & Associates"),
+    description: Some("You arrive at a casino floor with a line of credit, draw chips from the cashier, then scroll around the room choosing where to gamble: banks of video poker machines, three-reel and four-reel progressive slots, blackjack and roulette tables, and the Big Six money wheel. A pointer places each bet. Cash your chips back in whenever you want to leave."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Caesars_Palace_-_1992_-_Arcadia_Systems.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/caesars-palace",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Caesars%20Palace%20(USA).png",
+        "https://hasheous.org/api/v1/images/2FA105B0E18F1DB18172B0820A80FE35D9B41923",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            publisher: Some("Coconuts Japan"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "2cf0e21f7be55e3246d615550c8459a3659094ef",
@@ -15,31 +48,48 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            publisher: Some("Arcadia Systems"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "c1ed80f33fc3603edaba1bdf5c317f1a205da3dc",
                 ),
-            ],
-        ),
-        (
-            label: Some("En,Fr,De,Es,It"),
-            regions: [
-                Europe,
-            ],
-            artifacts: [
                 (
-                    sha1: "6d77ce1b212406ba9737dd99ffd9443a3887ef79",
+                    sha1: "126e9ef9e975bbbc6303d5d62a379d4dbd404cf0",
+                    label: Some("Rev 1"),
                 ),
             ],
         ),
         (
-            label: Some("Rev 1"),
             regions: [
-                Usa,
+                Europe,
             ],
+            languages: [
+                English,
+                French,
+                German,
+                Spanish,
+                Italian,
+            ],
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
-                    sha1: "126e9ef9e975bbbc6303d5d62a379d4dbd404cf0",
+                    sha1: "6d77ce1b212406ba9737dd99ffd9443a3887ef79",
                 ),
             ],
         ),

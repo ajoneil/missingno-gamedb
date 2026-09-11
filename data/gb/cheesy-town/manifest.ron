@@ -1,11 +1,33 @@
 (
     title: "Cheesy Town",
+    developer: Some("Hidebu Games"),
+    description: Some("A town of mice who refuse to believe cheese exists. You set out to find some and prove them wrong, in a short adventure with light puzzling between the talking — one gardener has been so absorbed in his work that he has accidentally grown a maze, and apologises for it."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://hidebu.itch.io/cheesy-town",
+            link_type: Store,
+        ),
+    ],
+    curated: true,
     releases: [
         (
-            label: Some("En,Ja"),
             regions: [
                 World,
             ],
+            languages: [
+                English,
+                Japanese,
+            ],
+            date: Some("2023"),
+            hardware: (
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f76645a2830fcc733b7392a52112df628f0b7a4a",

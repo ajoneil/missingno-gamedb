@@ -1,10 +1,44 @@
 (
     title: "Castelian",
+    developer: Some("Bits Studios"),
+    description: Some("Julius has eight alien towers to demolish, each a cylinder he climbs by running its outer ledges — the tower rotating as he goes — dodging aliens that are mostly invincible, since one touch knocks him off and Anurian Hybrids can\'t swim. Reach the top, plant the D-Bomb, then hop clouds in a bonus stage gathering gems for extra time."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Castelian_-_1991_-_Triffix.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/castelian",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Castelian",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Castelian%20(Europe).png",
+        "https://hasheous.org/api/v1/images/36989E1ADA0702C829C2BC0CD6222575CFCA3F6C",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            publisher: Some("Storm"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6720d86d420831a0a4865d4a59c4ba6fe98fa34d",
@@ -12,10 +46,18 @@
             ],
         ),
         (
-            title: Some("Kyoro-chan Land"),
+            title: Some("キョロちゃんランド"),
             regions: [
                 Japan,
             ],
+            date: Some("1992-10-30"),
+            publisher: Some("Hiro"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "67b9b01fbb58c69aad716bcc0409a9dba3bd92b5",
@@ -27,6 +69,12 @@
                 Usa,
             ],
             status: Beta,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0c69cee488d7589c6bf0a1b7e2c3d20f2b4d3042",
@@ -37,6 +85,13 @@
             regions: [
                 Usa,
             ],
+            publisher: Some("Triffix"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a03982e2ffa9aa368fe11bc09f024207bada45eb",

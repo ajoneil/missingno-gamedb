@@ -1,10 +1,36 @@
 (
-    title: "Chibi Maruko-chan 3 - Mezase! Game Taishou no Maki",
+    title: "Chibi Maruko-chan 3: Mezase! Game Taishou no Maki",
+    developer: Some("Kindle Imagine Develop"),
+    description: Some("A big game tournament is being held at Maruko\'s primary school, with a prize for the winner. Eleven events in all — a shouting contest, a crane game, shoe-kicking, a quiz, ball-tossing and more — played one after another as Maruko tries to take the top prize."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chibi-maruko-chan-3-mezase-game-taishou-no-maki",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chibi%20Maruko-chan%203%20-%20Mezase%21%20Game%20Taishou%20no%20Maki%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ちびまる子ちゃん3 めざせ！ゲーム大賞の巻"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992"),
+            publisher: Some("Takara"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "127fa75126fbd45ea0e3f95f862fbd4f8182780e",

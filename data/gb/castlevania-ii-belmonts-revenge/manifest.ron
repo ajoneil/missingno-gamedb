@@ -1,11 +1,50 @@
 (
-    title: "Castlevania II - Belmont\'s Revenge",
+    title: "Castlevania II: Belmont\'s Revenge",
+    developer: Some("Konami"),
+    description: Some("Dracula has turned Soleiyu Belmont into a demon and used his sacred power to take human form again, raising four castles with his own hidden in a lake at their centre. Christopher tackles them in any order from a stage-select screen, cracking the Mystic Whip, with holy water and a throwing weapon to find and a password to resume."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Castlevania_II:_Belmont\'s_Revenge",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Castlevania_2_-_Belmont-s_Revenge_-_1991_-_Konami.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/castlevania-2-belmonts-revenge",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Castlevania%20II%20-%20Belmont%27s%20Revenge%20(USA,%20Europe).png",
+        "https://hasheous.org/api/v1/images/06BF96C4E82454BC4E6DB8F2579D34B4AACED27B",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
-            title: Some("Dracula Densetsu II"),
+            title: Some("ドラキュラ伝説II"),
             regions: [
                 Japan,
             ],
+            date: Some("1991"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "bca90edddbf50d0d05630852c092fc5d3e0df9d4",
@@ -17,6 +56,15 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1991"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "696b9ad1e9cfb7112977c9a7c05cf64fe8423d8a",
@@ -24,11 +72,20 @@
             ],
         ),
         (
-            title: Some("Dracula Densetsu II"),
+            title: Some("ドラキュラ伝説II"),
             label: Some("Castlevania Anniversary Collection"),
             regions: [
                 Japan,
             ],
+            date: Some("2019"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "3d0c52d7f566fd717e9117ca4b948174b7864769",
@@ -41,6 +98,15 @@
                 Usa,
                 Europe,
             ],
+            date: Some("2019"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "823e3c0f2de29f1f2548a9c4f74a956fb39dd3b8",

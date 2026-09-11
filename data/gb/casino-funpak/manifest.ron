@@ -1,11 +1,41 @@
 (
     title: "Casino FunPak",
+    developer: Some("Beam Software"),
+    description: Some("Five casino games on one cart — roulette, video poker, slots, blackjack and craps — each played from a coin balance you raise and lower your bets against. A tournament mode runs all five as one session, carrying winnings from one game into the next, with the aim of finishing as far ahead as possible. High scores go to a Hall of Fame."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Casino_Funpak_-_Interplay.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/casino-funpak",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Casino%20FunPak%20(USA,%20Europe).png",
+        "https://hasheous.org/api/v1/images/EDA7DBF32DD7920AC12C57BFD24C3A5B7A52FF77",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            publisher: Some("Interplay"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "4418a8b2029f431efd8888817589af6c8b0e76cc",

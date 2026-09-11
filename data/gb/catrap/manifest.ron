@@ -1,10 +1,32 @@
 (
     title: "Catrap",
+    developer: Some("ASK Kodansha"),
+    description: Some("Two cats work through a hundred rooms, clearing each by kicking every monster and ghost off the screen and shoving boulders or climbing ladders to reach them. When a wrong move leaves you trapped, the A button rewinds what you did so you can try a different line. An editor lets you build rooms of your own."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Catrap",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Catrap%20(USA).png",
+        "https://hasheous.org/api/v1/images/44B96EA04CAED33DEE9E26849625548BFC08C73C",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1990-10"),
+            publisher: Some("Asmik Corporation of America"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "171e4d54f22f8dc137d12828fcc2da9874c56970",
@@ -16,6 +38,12 @@
                 Usa,
             ],
             status: Beta,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "928b9b3cb2ed5e6d6fc754679b3c994f7ed803c3",
@@ -24,10 +52,17 @@
         ),
         (
             title: Some("Pitman"),
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            date: Some("1990-06"),
+            publisher: Some("ASK Kodansha"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a698d4bccd69d2ca51cb48877bde5d1f83d4317f",
@@ -40,7 +75,14 @@
             regions: [
                 Europe,
             ],
+            publisher: Some("The Sales Curve"),
             status: Prototype,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "dd687ea26f4374336f43ed43a2e53f5309731b22",
@@ -53,7 +95,14 @@
             regions: [
                 Europe,
             ],
+            publisher: Some("The Sales Curve"),
             status: Prototype,
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6003c579e9467b183a897a8efb46181f01444e0b",

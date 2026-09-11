@@ -1,10 +1,40 @@
 (
     title: "Cave Noire",
+    developer: Some("Konami"),
+    description: Some("Four randomly generated dungeons sit outside the village of Karuzu, each set to one of four quests — kill monsters, free fairies, gather gold or orbs — across ten difficulties. Every run is one chance: reach the target and you bank the level, die and the dungeon is thrown away and rebuilt. Turn-based, top-down, with items to tilt the odds."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cave_Noire",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/cave-noire",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Cave%20Noire%20(Japan).png",
+        "https://hasheous.org/api/v1/images/2DF992846FEFE17A72E761C020367844C0A286CD",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1991-04-19"),
+            publisher: Some("Konami"),
+            hardware: (
+                cart_type: Some(Mbc2(
+                    rom: Kb128,
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6acdf05aac8e3792a98a199cb6e90180e95230cd",

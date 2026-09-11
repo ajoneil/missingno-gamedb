@@ -1,10 +1,46 @@
 (
     title: "Championship Pool",
+    developer: Some("Bitmasters"),
+    description: Some("A pool simulation carrying the full spread of games — three-, eight-, nine-, ten- and fifteen-ball, rotation, straight pool, equal offense and a timed speed round. Shots are called before they are taken and fouls are enforced, and a party mode passes one handheld around up to eight players in turn."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy//Manual/formated/Championship_Pool_-_1993_-_Mindscape.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/championship-pool",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Championship_Pool",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/EA4E5C0D77A83C291804720D72AE452CEEE19D1F",
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Championship%20Pool%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1993"),
+            publisher: Some("Mindscape"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5698fa095f737a4345f02649b4b0b96ad66660d0",
