@@ -1,10 +1,40 @@
 (
     title: "College Slam",
+    developer: Some("Torus Games"),
+    description: Some("Two-on-two college basketball with over forty teams: pick two players from each squad, swap them at timeouts and half-time, and dunk hard enough to shatter the backboard. Play head-to-head, through a tournament bracket, or across a full season, editing player stats before you start."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/College_Slam",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/college-slam",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/College%20Slam%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1996"),
+            publisher: Some("Acclaim"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "84dc6269fbe4ee4c157f940b0a9630412e099cc6",

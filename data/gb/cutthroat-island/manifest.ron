@@ -1,11 +1,50 @@
 (
     title: "CutThroat Island",
+    developer: Some("Software Creations"),
+    description: Some("Three pieces of a torn map — latitude, longitude and the treasure itself — are scattered among an old pirate\'s heirs, and Morgan\'s hunt for them runs from the Caribbean\'s high seas to the jungles of Cutthroat Island. A sword is the default weapon, others are picked up and thrown, and an aggression meter fills as you fight to unlock bonus moves."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cutthroat_Island_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/cutthroat-island",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Cutthroat_Island_-_1995_-_Acclaim.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/CutThroat%20Island%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1995"),
+            publisher: Some("Acclaim"),
+            hardware: (
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "5e99ea51b383cdcd53874eb027ebd59d2a3156b9",
@@ -13,11 +52,21 @@
             ],
         ),
         (
-            label: Some("En"),
             regions: [
                 Japan,
             ],
+            languages: [
+                English,
+            ],
+            publisher: Some("Acclaim"),
             status: Prototype,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "51eab74e5d5180497d37fc642c585f202914d1f2",

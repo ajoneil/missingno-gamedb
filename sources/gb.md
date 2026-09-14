@@ -10,6 +10,7 @@ publishers, cover art, licensing — are in [`README.md`](README.md).
 |--------|----------|-------|
 | [Games Database](https://www.gamesdatabase.org) — **link freely** | **game manuals** (direct PDFs), **box, cart and title-screen scans**, publisher, developer, year, category | The first stop for the commercial library. Vetted for the SG-1000 tree already — `robots.txt` allows all and it hosts no ROMs. Reaching anything on it takes the site's own search; see below. |
 | [gbdev](https://gbdev.io) database and its Homebrew Hub — **link freely, read via GitHub** | homebrew authorship, licence, canonical cover art; Pandocs for cartridge-header tables | Primary sources beat aggregators: prefer the author's own repo or site to a catalogue entry. `robots.txt` disallows ClaudeBot, so the rendered site is off limits, but the `gbdev/database` and `gbdev/pandocs` repos are not — read both from GitHub. Homebrew Hub game pages are `/game/<slug>/`; the `/games/` form 404s. |
+| [レトロゲームの説明書保管庫](https://gamemanual.midnightmeattrain.com) — **link freely** | Japanese manuals, scanned page by page — 613 Game Boy titles, indexed by platform and kana row | Where Games Database has no manual for a Japanese release, look here before falling back to the box back. The entry page is the `Manual` link; there is no PDF. Tag it `Japanese`. WebFetch is refused, plain `curl` is not. |
 | [WLS](https://wls.hu) — **link freely** | the László Rajcsányi (WLS) homebrews: Blitz Bomber, Blockade, Berks, Bonkers, The Farm, G-Man, Climb It… | The author's own site, one page per game with the premise, a play-online build, a `Download` zip that hash-matches the No-Intro aftermarket dump, and a mock box image on the site's own host. His itch.io pages have gone 404, so this is the canonical page. |
 | The project's own repo or site | everything, for homebrew | GitHub raw URLs are the canonical host for cover art and downloads. |
 | MobyGames — **agents cannot read it; unvetted** | — | `robots.txt` disallows ClaudeBot outright. No facts and no links until a human vets it. |
@@ -25,6 +26,10 @@ carrying the page's viewstate, so neither has a URL to request. Submitting the
 search form from the site root lands on a `list.aspx` results URL; following a
 result row reaches the game page, and that page is the only place a current
 media URL can be read.
+
+**Post back every input and select on the page in hand**, empty ones included —
+the root and results forms name their controls differently. A partial postback
+lands on the site's error page, which reads like an absent game.
 
 **Never take one of its URLs from a web search.** Its media filenames are
 indexed stale, and a stale one returns the site's own 404 page — which reads as
@@ -52,8 +57,9 @@ near-identical name, and reads as plausible unless the artefact is checked.
 A manual documents *this* cart where an encyclopaedia article documents a
 multi-platform game as a whole, so it is the best gameplay source this tree has.
 Games Database links the PDF from the game page; download it and read it as page
-images. Coverage is roughly a third of each library, so a game having none is
-ordinary and not worth a second search. Record the language on the link.
+images. Its coverage is roughly a third of each library, and thinnest on Japanese
+releases — where it has none, try the manual archive above before the box back.
+Record the language on the link.
 
 **For a Japan-only release the box back stands in for a missing manual.**
 Japanese boxes print gameplay copy rather than a marketing line, so

@@ -1,10 +1,39 @@
 (
     title: "Christmas Carols",
+    developer: Some("invertedHat"),
+    description: Some("A rhythm game for Christmas carols: each button has its own icon, and the icons tell you which to press in time with the music while you chase a high score. Three difficulty levels set how many different icons a song calls on."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://invertedhat.itch.io/christmas-carols",
+            link_type: Store,
+        ),
+        (
+            name: "GitHub",
+            url: "https://github.com/inverted-hat/christmasCarols",
+            link_type: Source,
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1nLzQ4NjAzNjMucG5n/original/pIQVmg.png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2020-12-24"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "e19b0a698d8194467d57c00664f00f9898ee5368",

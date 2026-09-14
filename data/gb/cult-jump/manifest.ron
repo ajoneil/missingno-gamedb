@@ -1,10 +1,47 @@
 (
     title: "Cult Jump",
+    developer: Some("Sun L"),
+    description: Some("A quiz kingdom crowns its strongest every 2500 years, and this cycle the subject is Shonen Jump. The contest is held inside the Tower of Jump — a stone keep with four different towers rising from it — where monsters wait and questions about the magazine\'s characters are the only weapon."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/cult-jump",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/カルトジャンプ",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Cult%20Jump%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("カルトジャンプ"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1993"),
+            publisher: Some("Bandai"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6a67820ef648d2e24c1212079f5cac43e04cf0bf",

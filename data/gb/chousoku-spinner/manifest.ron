@@ -1,14 +1,36 @@
 (
     title: "Chousoku Spinner",
+    description: Some("Hyper yo-yo is the sport, and you play as Shunichi Doumoto, burning through battles with rival spinners on the way to becoming the fastest of them all. Tricks are reproduced up to Hyper Level, and an infrared link lets as many as ten players face off against each other."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chousoku-spinner",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chousoku%20Spinner%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("超速スピナー"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1998"),
+            publisher: Some("Hudson"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                cart_type: Some(Huc1(
+                    rom: Kb512,
+                    ram: Some(Kb32),
+                )),
             ),
             artifacts: [
                 (

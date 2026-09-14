@@ -1,10 +1,36 @@
 (
-    title: "Chibi Maruko-chan 4 - Kore ga Nihon Da yo! Ouji-sama",
+    title: "Chibi Maruko-chan 4: Kore ga Nihon Da yo! Ouji-sama",
+    developer: Some("Kindle Imagine Develop"),
+    description: Some("A prince from a southern land is coming to visit, and Maruko is asked to gather things that show him what Japan is like. Nine games stand between her and the meeting: a name-that-tune quiz, dance practice, a card-guessing game, a stilt race, hauling luggage, skipping stones, picking persimmons and chestnuts, counting the animals that pass, and a lottery draw."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chibi-maruko-chan-4-kore-ga-nihon-da-yo-ouji-sama",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chibi%20Maruko-chan%204%20-%20Kore%20ga%20Nihon%20Da%20yo%21%20Ouji-sama%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ちびまる子ちゃん4 これが日本だよ！王子さま"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1992"),
+            publisher: Some("Takara"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a4b268924e2fb500b8b13461a9cb20aec648a52f",

@@ -1,10 +1,47 @@
 (
-    title: "Chibi Maruko-chan - Okozukai Daisakusen!",
+    title: "Chibi Maruko-chan: Okozukai Daisakusen!",
+    developer: Some("Kindle Imagine Develop"),
+    description: Some("Maruko roams the neighbourhood map challenging her friends to rock-paper-scissors, picking up spirit boosts and cards as she goes, with mini-games waiting at their houses. Winning grows her pocket money toward the things she wants — though getting too carried away has consequences. A second player can join, playing cards to interfere with their opponent."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chibi-maruko-chan-okozukai-daisakusen-",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/ちびまる子ちゃん_おこづかい大作戦！",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chibi%20Maruko-chan%20-%20Okozukai%20Daisakusen%21%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ちびまる子ちゃん おこづかい大作戦！"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990"),
+            publisher: Some("Takara"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb64,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1b6838b9711ecbc6c09606da53d53309593103b2",

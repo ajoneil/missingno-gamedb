@@ -1,22 +1,78 @@
 (
     title: "Ciao Nonna",
+    developer: Some("Crescendo"),
+    description: Some("Ofelia left her hometown years ago, estranged from her mother and most of her family, her grandmother the one tie she kept. News of her grandmother\'s death brings her back to Tor Marina, and the game follows that return: a short, story-led adventure through the town and the people still in it."),
+    links: [
+        (
+            name: "itch.io",
+            url: "https://crescendo.itch.io/ciao-nonna",
+            link_type: Store,
+        ),
+    ],
+    covers: [
+        "https://img.itch.zone/aW1nLzM1NzEwNjYucG5n/original/axliAu.png",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             regions: [
                 World,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("2020-06-08"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Mb1,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0556eb6160fdca6e7959bba1a619b8e34d974375",
-                ),
-                (
-                    sha1: "45aebfe4e7f5382a4b31c3db270b75d2c458d1b2",
-                ),
-                (
-                    sha1: "602709c8655febb42899881a8ef598fb4b3da0c9",
+                    label: Some("v1.0"),
                 ),
                 (
                     sha1: "f8e5020298183c3f47836da3890b6bb398e2ecab",
+                    label: Some("v1.1"),
+                ),
+            ],
+        ),
+        (
+            regions: [
+                World,
+            ],
+            languages: [
+                English,
+                Italian,
+            ],
+            date: Some("2020-06-20"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Mb1,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "602709c8655febb42899881a8ef598fb4b3da0c9",
+                    label: Some("v2.0"),
+                ),
+                (
+                    sha1: "45aebfe4e7f5382a4b31c3db270b75d2c458d1b2",
+                    label: Some("v2.1"),
                 ),
             ],
         ),

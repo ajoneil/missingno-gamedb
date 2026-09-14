@@ -1,11 +1,46 @@
 (
     title: "Chuck Rock",
+    developer: Some("Spidersoft"),
+    description: Some("Chuck\'s wife Ophelia has been carried off by a rival caveman, so Chuck belly-butts his way after her. Four stages take him through jungle, a volcano\'s interior, an ice age and a dinosaur boneyard, with level bosses along the way, while ham hocks, chicken legs and fish top up the heart that measures how much punishment he has left."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chuck-rock",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Chuck_Rock",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Chuck_Rock_-_Sony_Electronic_Publishing.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chuck%20Rock%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1993"),
+            publisher: Some("Sony Imagesoft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "601453f98ba7d92ebe71f3e86952a584cbea090c",

@@ -1,10 +1,45 @@
 (
     title: "Crystal Quest",
+    developer: Some("Data East"),
+    description: Some("Fly a ship around the screen collecting every crystal while nasties pour from portals at either side; gather them all and a gateway opens to the next wave. The ship carries inertia, sliding as you turn, and the faster it moves the further its shots travel. Smart bombs clear the screen but never the mines."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Crystal_Quest",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/crystal-quest",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Crystal_Quest_-_1991_-_Pocket_Money_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Crystal%20Quest%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1991"),
+            publisher: Some("Data East"),
+            hardware: (
+                peripherals: [],
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "6c3ba1e407ff378dc004ac58d6a16180bd76a1b3",

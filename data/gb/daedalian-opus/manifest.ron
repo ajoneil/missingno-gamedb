@@ -1,11 +1,47 @@
 (
     title: "Daedalian Opus",
+    description: Some("Forty-two islands, each with a puzzle house holding a frame and a handful of Daedalian blocks. Fit them so no gap remains and a bridge opens to the next island. Blocks rotate a quarter turn and flip either way; the count grows from three to thirteen, and only past twelve does the game call itself started."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Daedalian_Opus",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/daedalian-opus",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Daedalian_Opus_-_1990_-_Vic_Tokai.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Daedalian%20Opus%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
-            title: Some("Bouken! Puzzle Road"),
+            title: Some("冒険!パズルロード"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990-04-20"),
+            publisher: Some("Vic Tokai"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "16d54de69814e1c9aae67a59bb0dcd2a1216395b",
@@ -16,6 +52,17 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1990-07"),
+            publisher: Some("Vic Tokai"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "7a9294de582f7d3ffd8d14a786774c56af7ce7bc",

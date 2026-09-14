@@ -1,16 +1,27 @@
 (
     title: "Cuthbert in the Cooler",
+    developer: Some("László Rajcsányi"),
+    description: Some("Collect every object on a screen and climb back out of the top without being caught by the guards. Bombs are laid one at a time and detonated with a second press, destroying a guard without harming Cuthbert, and each sheet cleared returns a bomb up to a maximum of six. Finishing quickly earns a time bonus."),
+    curated: true,
     releases: [
         (
             regions: [
                 World,
             ],
+            date: Some("2021-11-13"),
+            hardware: (
+                enhancements: [],
+                peripherals: [],
+                cart_type: Some(Mbc5(
+                    rom: Kb256,
+                    ram: Some(Kb32),
+                    battery: true,
+                    rumble: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "c740bc995adf2bb638bb125a36edc416558fd4c6",
-                ),
-                (
-                    sha1: "d6fb35f3bdd44429f88c10551692e1adf14356ab",
                 ),
             ],
         ),

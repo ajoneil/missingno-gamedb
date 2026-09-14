@@ -1,14 +1,49 @@
 (
-    title: "Chou Mashin Eiyuu Den Wataru - Mazekko Monster",
+    title: "Chou Mashin Eiyuu Den Wataru: Mazekko Monster",
+    developer: Some("Alpha Unit"),
+    description: Some("Walk the map and catch monpets in a bottle, then feed them and play with them until they evolve. Over a hundred kinds exist, and the ones no bottle will catch come another way: fuse two monpets and a different creature is born. Link with a friend\'s game to trade monpets, or to fuse across the pair."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chou-majin-eiyuuden-wataru-mazekko-monster",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/超魔神英雄伝ワタル_まぜっこモンスター",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chou%20Mashin%20Eiyuu%20Den%20Wataru%20-%20Mazekko%20Monster%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("超魔神英雄伝ワタル まぜっこモンスター"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1997"),
+            publisher: Some("Banpresto"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (
@@ -25,6 +60,11 @@
                 enhancements: [
                     SuperGameBoy,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: Some(Kb32),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (

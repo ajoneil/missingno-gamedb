@@ -1,10 +1,37 @@
 (
-    title: "Cult Master - Ultraman ni Miserarete",
+    title: "Cult Master: Ultraman ni Miserarete",
+    developer: Some("Minato Giken"),
+    description: Some("An Ultraman quiz in three modes: one fusing a board game with an adventure-flavoured quiz, one challenging for the champion\'s title across 1200 questions, and one where two players share a single Game Boy and answer at the same time."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/cult-master-ultraman-ni-miserarete",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Cult%20Master%20-%20Ultraman%20ni%20Miserarete%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("CULT MASTER ウルトラマンに魅せられて"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1993"),
+            publisher: Some("Bandai"),
+            hardware: (
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "f0e63a0a4e7b576c7460e810eb6f50d4c5b68769",

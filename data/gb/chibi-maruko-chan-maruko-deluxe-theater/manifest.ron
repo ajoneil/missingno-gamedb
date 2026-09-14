@@ -1,14 +1,46 @@
 (
-    title: "Chibi Maruko-chan - Maruko Deluxe Theater",
+    title: "Chibi Maruko-chan: Maruko Deluxe Theater",
+    developer: Some("Kindle Imagine Develop"),
+    description: Some("Three stories play out as adventure scenes worked through from a command menu: Maruko goes out for sushi, takes a nervous turn at the school performance, and looks after a puppy. Six mini-games are threaded between them — grabbing plates off a sushi conveyor with a crane arm, memorising a picture to spot what changed, catching beetles by hand against the clock."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chibi-maruko-chan-maruko-deluxe-gekijou",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/ちびまる子ちゃん_まる子デラックス劇場",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chibi%20Maruko-chan%20-%20Maruko%20Deluxe%20Theater%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("ちびまる子ちゃん まる子デラックス劇場"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1995-05-26"),
+            publisher: Some("Takara"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (

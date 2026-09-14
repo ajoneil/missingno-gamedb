@@ -1,10 +1,40 @@
 (
     title: "Chiki Chiki Tengoku",
+    developer: Some("Nacoty"),
+    description: Some("Pairs of symbol panels fall into a seven-wide well. Line three of a kind up — across, down or diagonally — and they fuse into a star, taking every other panel of that symbol on the board with them. Seven stars in a row hatch a fairy, who carries the stars above her out through the top; empty the board to clear the round."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chiki-chiki-tengoku",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/チキチキ天国",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chiki%20Chiki%20Tengoku%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("チキチキ天国"),
             regions: [
                 Japan,
             ],
+            date: Some("1995-04-28"),
+            publisher: Some("J-Wing"),
+            hardware: (
+                cart_type: Some(Rom(
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "56012e7f9150ec8f9117b0540dcbd2bf82c948bb",

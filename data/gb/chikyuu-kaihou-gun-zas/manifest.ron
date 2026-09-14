@@ -1,12 +1,51 @@
 (
     title: "Chikyuu Kaihou Gun ZAS",
+    developer: Some("T&E Soft"),
+    description: Some("Humanity abandoned a polluted Earth for Mars, and alien robots moved in; a hastily assembled liberation army flies back to take the planet off them. A vertically scrolling shooter — one button fires, power-ups build up the ship\'s weapons, and each stage ends with a boss, with parallax backdrops drifting behind the action."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chikyuu-kaihou-gun-zas",
+            link_type: Community,
+        ),
+        (
+            name: "ModRetro",
+            url: "https://modretro.com/products/zas",
+            link_type: Store,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Chikyū_Kaihō_Gun_ZAS",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/地球解放軍ジアース",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chikyuu%20Kaihou%20Gun%20ZAS%20(Japan)%20(En).png",
+    ],
+    curated: true,
     releases: [
         (
             title: Some("ZAS"),
             regions: [
                 Europe,
             ],
+            publisher: Some("T&E Soft"),
             status: Prototype,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "a480d3a205f4c6fe7da41637180459fb2cff9139",
@@ -14,10 +53,19 @@
             ],
         ),
         (
-            label: Some("En"),
+            title: Some("地球解放軍ジアース"),
             regions: [
                 Japan,
             ],
+            date: Some("1992-12-18"),
+            publisher: Some("T&E Soft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "2ff6d0242d845669445e3d97fffae5c5f7943cfd",
@@ -25,10 +73,10 @@
             ],
         ),
         (
-            label: Some("ModRetro Chromatic"),
             regions: [
                 World,
             ],
+            publisher: Some("ModRetro"),
             artifacts: [
                 (
                     sha1: "7d0f2a38862ae78ebde2fd2cc61c68bf569551c8",

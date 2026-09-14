@@ -1,11 +1,46 @@
 (
     title: "Cool World",
+    developer: Some("Twilight"),
+    description: Some("Cartoonist Jack Deebs is being pulled between the Real World and Cool World because stray objects have upset the balance between them. His pen both sucks up ink blobs and fires them back at the Doodles — Holli Would, Slash and Bash among them — who want the imbalance kept so they can break through into the Real World."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cool_World_(1992_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/cool-world",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Cool_World_-_Ocean.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Cool%20World%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1993"),
+            publisher: Some("Ocean"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "1919495cc83c4126c90d6cfa2e14427b6364da3a",

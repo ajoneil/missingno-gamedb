@@ -1,10 +1,54 @@
 (
     title: "Cosmo Tank",
+    developer: Some("Atlus"),
+    description: Some("Five colonised worlds are under attack, and the Tiger α-1 is the only weapon that works: a tank seen from overhead on the surface, switching to a 3-D view inside the caves and becoming an air ship between planets. Lasers and bombs clear the way, and power capsules upgrade the laser up to three times."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/cosmo-tank",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Cosmo_Tank_-_1990_-_Asuka_Technologies.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Manual (Japan)",
+            url: "https://gamemanual.midnightmeattrain.com/entry/コスモタンク",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Cosmo%20Tank%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1990"),
+            publisher: Some("Atlus"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0d6a0a95f4fc9f2c61e2fccee0321236d3a6f5e5",
@@ -16,6 +60,13 @@
                 Japan,
             ],
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "8963c2e8e42c452528078f10df699fd266f01749",
@@ -26,6 +77,21 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1990"),
+            publisher: Some("Atlus"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "48a8f5c50a237f11c8e18efd03a5282f493312bc",
@@ -37,6 +103,13 @@
                 Usa,
             ],
             status: Beta,
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "863bf21877b5f5993b9e64710f304b8db194d2e7",

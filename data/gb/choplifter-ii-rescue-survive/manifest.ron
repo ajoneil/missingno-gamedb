@@ -1,10 +1,46 @@
 (
-    title: "Choplifter II - Rescue & Survive",
+    title: "Choplifter II: Rescue & Survive",
+    developer: Some("Beam Software"),
+    description: Some("A rescue helicopter flies into hostile territory to lift out hostages and carry them back to base. Five sectors — ground, cave, sea, jungle and city — hold three levels each, and every level sets a quota you must bring home before moving on. The chopper holds ten at a time and is lost when its damage gauge fills."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/choplifter-2-rescue-and-survive",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Choplifter_II",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Choplifter_2_-_Rescue_And_Survive_-_1991_-_JVC.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Choplifter%20II%20-%20Rescue%20_%20Survive%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1991"),
+            publisher: Some("JVC Musical Industries"),
+            hardware: (
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "08f5cdbcb650be51fe3998a28174e40997618349",
@@ -15,6 +51,16 @@
             regions: [
                 Usa,
             ],
+            date: Some("1991"),
+            publisher: Some("JVC Musical Industries"),
+            hardware: (
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "76ef770b9c75485cc29869fca6118887aee208da",
@@ -22,11 +68,20 @@
             ],
         ),
         (
-            title: Some("Choplifter II"),
-            label: Some("En"),
+            title: Some("チョップリフターII"),
             regions: [
                 Japan,
             ],
+            date: Some("1991"),
+            publisher: Some("Victor Musical Industries"),
+            hardware: (
+                peripherals: [],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "9392ffc6831d5f029f5ad906af40b607b8eb221b",

@@ -1,10 +1,48 @@
 (
     title: "Cool Spot",
+    developer: Some("NMS Software"),
+    description: Some("Spot\'s buddies have been caged by powers uncool, and freeing each one means collecting enough Cool Points on the way to its cage. Cool Shots deal with the Uncool Characters in between. Gather enough points and a bonus game opens up; three difficulty settings change how many you need and what turns up to stop you."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cool_Spot",
+            link_type: Wiki,
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/cool-spot",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Cool_Spot_-_Virgin_Interactive.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Cool%20Spot%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1994"),
+            publisher: Some("Virgin Interactive Entertainment"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "51efa64a6047879b4b9e6e521e65c9d7f191556f",
@@ -15,6 +53,18 @@
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1994-10"),
+            publisher: Some("Virgin Interactive Entertainment"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "b23f3259fdec43ce004e536d30255e1c2a642ffc",

@@ -1,10 +1,39 @@
 (
     title: "Chiki Chiki Machine Mou Race",
+    description: Some("Ten cars line up, each with an ability of its own, and you pick one to drive. The season runs to 33 races, cleared one at a time, with points banked after each finish. Racing is seen from overhead, the show\'s characters animated throughout."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/chiki-chiki-machine-mou-race",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/チキチキマシン猛レースGB",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Chiki%20Chiki%20Machine%20Mou%20Race%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("チキチキマシン猛レース"),
             regions: [
                 Japan,
             ],
+            date: Some("1992-03-27"),
+            publisher: Some("Atlus"),
+            hardware: (
+                cart_type: Some(Mbc2(
+                    rom: Kb128,
+                    battery: true,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "45963623bc09e0a132867e1a78173b2c747c3b6f",

@@ -1,11 +1,46 @@
 (
     title: "Cliffhanger",
+    developer: Some("Spidersoft"),
+    description: Some("Gabe Walker works his way up the mountain punching, kicking and throwing whatever he picks up — knives, dynamite, rocks, a six-shot gun. The cold is the real enemy: stand still and his energy bleeds away, and warming himself at a campfire costs him the money he has collected, more of it the worse his condition."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/cliffhanger",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cliffhanger_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Cliffhanger_-_1993_-_Sony_Electronic_Publishing.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Cliffhanger%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1993"),
+            publisher: Some("Sony Imagesoft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "c74f85035842f8a2d9560066d7065ff86d9107e2",

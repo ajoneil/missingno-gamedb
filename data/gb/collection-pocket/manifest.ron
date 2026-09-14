@@ -1,14 +1,37 @@
 (
     title: "Collection Pocket",
+    description: Some("Ten original games on one cart, each its own thing: the shooters Fight Kids and Baribari, the shooting-slot hybrid 7 Shoot, the car races MAX Racer and Battle Circuit, Blackjack and Poker at the card table, Big Slot, Bingo, and Bakabaka at the horse track."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/collection-pocket",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Collection%20Pocket%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("コレクションポケット"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1997"),
+            publisher: Some("Naxat Soft"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
