@@ -1,10 +1,38 @@
 (
-    title: "Daiku no Gen-san - Robot Teikoku no Yabou",
+    title: "Daiku no Gen-san: Robot Teikoku no Yabou",
+    description: Some("Gen-san and his mallet end up aboard a spaceship bound for Earth, locked in a cell and missing his companion; a robot imprisoned with him joins the escape. The side-scrolling fight back has him swinging sideways and jumping, and guarding too: hold up to block high, crouch to cover what comes straight at him."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/大工の源さん_ロボット帝国の野望",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Daiku%20no%20Gen-san%20-%20Robot%20Teikoku%20no%20Yabou%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("大工の源さん ロボット帝国の野望"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994-03-25"),
+            publisher: Some("Irem"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "0c68250aadca89027b05659122c89682ff833298",

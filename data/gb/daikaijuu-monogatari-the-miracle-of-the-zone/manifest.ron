@@ -1,14 +1,48 @@
 (
-    title: "Daikaijuu Monogatari - The Miracle of the Zone",
+    title: "Daikaijuu Monogatari: The Miracle of the Zone",
+    developer: Some("Birthday"),
+    description: Some("A card battle from the tabletop game of the same name: a deck is five summoners and fifty cards, and each round both sides lay beasts and support cards around the summoner they lead with, the higher total power taking the round and scoring a point per card on the table. Combos multiply it. First to fifty points wins."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/大貝獣物語_ザ・ミラクル_オブ_ザ・ゾーン",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/daikaijuu-monogatari-miracle-of-the-zone",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Daikaijuu%20Monogatari%20-%20The%20Miracle%20of%20the%20Zone%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("大貝獣物語 ザ・ミラクル オブ ザ・ゾーン"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1998-03-05"),
+            publisher: Some("Hudson"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Huc1(
+                    rom: Kb512,
+                    ram: Some(Kb32),
+                )),
             ),
             artifacts: [
                 (

@@ -1,14 +1,54 @@
 (
     title: "Dai-2-ji Super Robot Taisen G",
+    developer: Some("Winkysoft"),
+    description: Some("Giant robots take turns with the enemy across a grid map, each with an objective to meet. Move a machine, pick a weapon by its range, and trade one-on-one attacks; spend a pilot\'s spirit commands to guarantee a hit, dodge outright or double the damage. Between missions you upgrade machines and move pilots between them. Choices branch the story."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/第2次スーパーロボット大戦",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/第2次スーパーロボット大戦G",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/dai-2-ji-super-robot-taisen-g",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Dai-2-ji%20Super%20Robot%20Taisen%20G%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("第2次スーパーロボット大戦G"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1995-06-30"),
+            publisher: Some("Banpresto"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb512,
+                    ram: Some(Kb8),
+                    battery: true,
+                )),
             ),
             artifacts: [
                 (

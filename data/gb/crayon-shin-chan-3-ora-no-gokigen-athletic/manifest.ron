@@ -1,10 +1,54 @@
 (
-    title: "Crayon Shin-chan 3 - Ora no Gokigen Athletic",
+    title: "Crayon Shin-chan 3: Ora no Gokigen Athletic",
+    description: Some("Shinnosuke tours the neighbourhood by map screen, practising for his kindergarten\'s athletic meet: each minigame cleared hands over an item that opens a new route or gives him an edge on the day. Nine of them — tree-top water-pistol duels, tidying books in order, tag in the park, a tricycle race — then the meet itself, where you mash through hurdles, sand and a swim."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/クレヨンしんちゃん3_オラのごきげんアスレチック",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/クレヨンしんちゃん3_オラのごきげんアスレチック",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/crayon-shin-chan-3-ora-no-gokigen-athletic",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Crayon%20Shin-chan%203%20-%20Ora%20no%20Gokigen%20Athletic%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("クレヨンしんちゃん3 オラのごきげんアスレチック"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994-03-26"),
+            publisher: Some("Bandai"),
+            hardware: (
+                peripherals: [
+                    LinkCable,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "2d0119ec7b44bb89964c98024c46afd39490b5c9",

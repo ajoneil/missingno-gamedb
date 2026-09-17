@@ -1,0 +1,95 @@
+(
+    title: "Daffy Duck: The Marvin Missions",
+    developer: Some("Sunsoft"),
+    description: Some("Marvin the Martian means to blow up the Earth, so Daffy straps on a jet pack and an unlimited ray gun and sets out across four stages. Shoot enemies or land on them; shoot the ringing alarm clocks to open sealed passages; ride a moving platform through flying sections, walls ahead and Marvin\'s fire behind. Bosses shrug off the gun and have to be jumped on."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Daffy_Duck:_The_Marvin_Missions",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy/Manual/formated/Daffy_Duck_-_1994_-_Sunsoft.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/daffy-duck",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Daffy%20Duck%20(USA,%20Europe)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            date: Some("1994"),
+            publisher: Some("Sunsoft"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "344c3409410fe5f88796aafd125c522319b78012",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            date: Some("1995-01"),
+            publisher: Some("Sunsoft"),
+            hardware: (
+                enhancements: [
+                    SuperGameBoy,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "75b384222d07947baed2213c288385c4b91e1911",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Japan,
+            ],
+            date: Some("1994-09-30"),
+            publisher: Some("Sunsoft"),
+            hardware: (
+                enhancements: [
+                    SuperGameBoy,
+                ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
+            artifacts: [
+                (
+                    sha1: "65f063906680e65d8786e698bd51674268d7ae68",
+                ),
+            ],
+        ),
+    ],
+)

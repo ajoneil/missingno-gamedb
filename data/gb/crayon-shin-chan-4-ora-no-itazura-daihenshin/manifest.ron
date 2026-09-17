@@ -1,36 +1,79 @@
 (
-    title: "Crayon Shin-chan 4 - Ora no Itazura Daihenshin",
+    title: "Crayon Shin-chan 4: Ora no Itazura Daihenshin",
+    developer: Some("Tose"),
+    description: Some("Shin-chan stomps the bullies in his way across four side-scrolling stages, and transformation sets change what he can do: a flying squirrel that stays airborne and throws leaves, a chicken that jumps higher and rolls eggs, a cockroach that crawls through narrow gaps, Action Mask\'s brief invincibility. Good-kid stamps absorb hits and buy a go at a minigame."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/クレヨンしんちゃん4_“オラのいたずら大変身”",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/クレヨンしんちゃん4_オラのいたずら大変身",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/crayon-shin-chan-4-ora-no-itazura-daihenshin",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Crayon%20Shin-chan%204%20-%20Ora%20no%20Itazura%20Daihenshin%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    mods: [
+        (
+            name: "Super Mario 4",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("b5bb01ad7e25e9e83c564ccf604a59f8930cd0d5"),
+                    artifacts: [
+                        (
+                            sha1: "475ecf3a537dc3c139969c148ee4423394fc247e",
+                            label: Some("catalogued as Super Mario Land 4"),
+                        ),
+                        (
+                            sha1: "f0da6eced7492bf51ae5575522cca58726c34feb",
+                            label: Some("alt"),
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("クレヨンしんちゃん4 “オラのいたずら大変身”"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1994-08-26"),
+            publisher: Some("Bandai"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
                     sha1: "b5bb01ad7e25e9e83c564ccf604a59f8930cd0d5",
-                ),
-            ],
-        ),
-        (
-            title: Some("Super Mario Land 4"),
-            label: Some("Ja, Pirate"),
-            artifacts: [
-                (
-                    sha1: "475ecf3a537dc3c139969c148ee4423394fc247e",
-                ),
-            ],
-        ),
-        (
-            title: Some("Super Mario 4"),
-            label: Some("Ja, Pirate"),
-            artifacts: [
-                (
-                    sha1: "f0da6eced7492bf51ae5575522cca58726c34feb",
                 ),
             ],
         ),

@@ -1,10 +1,52 @@
 (
-    title: "Crayon Shin-chan - Ora to Shiro wa Otomodachi Da yo",
+    title: "Crayon Shin-chan: Ora to Shiro wa Otomodachi Da yo",
+    developer: Some("Tose"),
+    description: Some("Shinnosuke walks, climbs telegraph poles and trees, hides behind scenery to let bullies past and ducks into shops across four stages — an errand into town, a kindergarten outing, walking the dog, then hunting for the dog he mislaid. Minigames along the way can add a life. A touch, a pit or the timer costs one, and there is no continue."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/クレヨンしんちゃん_“オラとシロはお友達だよ”",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/crayon-shin-chan-ora-to-shiro-wa-otomodachi-da-yo",
+            link_type: Community,
+        ),
+        (
+            name: "Manual",
+            url: "https://gamemanual.midnightmeattrain.com/entry/クレヨンしんちゃん_オラとシロはお友達だよ",
+            link_type: Manual,
+            languages: [
+                Japanese,
+            ],
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Crayon%20Shin-chan%20-%20Ora%20to%20Shiro%20wa%20Otomodachi%20Da%20yo%20(Japan).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("クレヨンしんちゃん “オラとシロはお友達だよ”"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1993-04-09"),
+            publisher: Some("Bandai"),
+            hardware: (
+                cart_type: Some(Mbc1(
+                    rom: Kb128,
+                    ram: None,
+                    battery: false,
+                )),
+            ),
             artifacts: [
                 (
                     sha1: "e8da27b1b782c154b65ba6cdc2e3915925a67566",

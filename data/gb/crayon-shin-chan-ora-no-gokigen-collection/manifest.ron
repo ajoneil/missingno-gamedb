@@ -1,14 +1,46 @@
 (
-    title: "Crayon Shin-chan - Ora no Gokigen Collection",
+    title: "Crayon Shin-chan: Ora no Gokigen Collection",
+    developer: Some("Tose"),
+    description: Some("Shinnosuke is left minding his baby sister, loses her, and must find her before their mother gets home. Each area holds a minigame — fourteen in all, ten carried over from earlier games in the series and four new. Clearing one gives a password; some hand over an item that helps at the athletics meet. Losing to Buriburizaemon voids a minigame you had already cleared."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://ja.wikipedia.org/wiki/クレヨンしんちゃん_オラのごきげんコレクション",
+            link_type: Wiki,
+            languages: [
+                Japanese,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/nintendo-game-boy/crayon-shin-chan-ora-no-gokigen-collection",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy/Named_Boxarts/Crayon%20Shin-chan%20-%20Ora%20no%20Gokigen%20Collection%20(Japan)%20(SGB%20Enhanced).png",
+    ],
+    curated: true,
     releases: [
         (
+            title: Some("クレヨンしんちゃん オラのごきげんコレクション"),
             regions: [
                 Japan,
             ],
+            languages: [
+                Japanese,
+            ],
+            date: Some("1996-12-20"),
+            publisher: Some("Bandai"),
             hardware: (
                 enhancements: [
                     SuperGameBoy,
                 ],
+                cart_type: Some(Mbc1(
+                    rom: Kb256,
+                    ram: None,
+                    battery: false,
+                )),
             ),
             artifacts: [
                 (
