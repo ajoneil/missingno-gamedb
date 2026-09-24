@@ -1,0 +1,51 @@
+(
+    title: "Cabbage Patch Kids - Adventures in the Park",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "ca240633ec6ecf732cbc28c9394459a722d6edcb",
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "6dcf2f3acc4b221666defc6ebbc09286238e7a1b",
+                ),
+            ],
+        ),
+        (
+            label: Some("Beta 2"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            status: Beta,
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "57b4b045797b1f18ce22759d2ed1acc36a2e2207",
+                ),
+            ],
+        ),
+    ],
+)

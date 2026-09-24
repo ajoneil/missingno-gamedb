@@ -1,0 +1,33 @@
+(
+    title: "Star Wars - The Arcade Game",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            date: Some("1984-04-12"),
+            status: Beta,
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "c7f7aeeb9497a6e68e524944323677de5a7a66cd",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "da0567bee88bd1991481a755ac8292a115ed15ac",
+                ),
+            ],
+        ),
+    ],
+)

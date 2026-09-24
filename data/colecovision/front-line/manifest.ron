@@ -1,0 +1,35 @@
+(
+    title: "Front Line",
+    releases: [
+        (
+            label: Some("Standard Controller"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "62ca275776e4184032224e61b6d01d0636d7e846",
+                ),
+            ],
+        ),
+        (
+            label: Some("Super Action Controller"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "68889d9410be82ce20f1eedfb5861dce4bd270d0",
+                ),
+            ],
+        ),
+    ],
+)

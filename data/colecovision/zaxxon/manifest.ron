@@ -1,0 +1,36 @@
+(
+    title: "Zaxxon",
+    releases: [
+        (
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "1733b3407939f5c37e39d5494abfa4137f500707",
+                ),
+            ],
+        ),
+        (
+            label: Some("Unl"),
+            regions: [
+                Taiwan,
+            ],
+            languages: [
+                English,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "5b6bde9746d7b57291a9acc519962717e2c12aaa",
+                ),
+            ],
+        ),
+    ],
+)

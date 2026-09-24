@@ -1,0 +1,33 @@
+(
+    title: "Amazing Bumpman",
+    releases: [
+        (
+            title: Some("Number Bumper"),
+            regions: [
+                Usa,
+            ],
+            status: Beta,
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "50d40fa769c3b92fe7d4eae23c15c429e020e023",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "733f8395d102f6849f58627d06655119062b97f8",
+                ),
+            ],
+        ),
+    ],
+)

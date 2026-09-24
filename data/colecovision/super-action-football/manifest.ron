@@ -1,0 +1,31 @@
+(
+    title: "Super Action Football",
+    releases: [
+        (
+            regions: [
+                Europe,
+            ],
+            hardware: (
+                tv_format: Some(Pal),
+            ),
+            artifacts: [
+                (
+                    sha1: "5f43180c243039eecef024ab1f4e70a2e2502fc1",
+                ),
+            ],
+        ),
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "4c16f4e233db50e3d9b3a191f4f408338640ac19",
+                ),
+            ],
+        ),
+    ],
+)

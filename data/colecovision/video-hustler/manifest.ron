@@ -1,0 +1,35 @@
+(
+    title: "Video Hustler",
+    releases: [
+        (
+            label: Some("Proto 1"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "5f481ff47762a812c73bb120e60f31ee99fd6b5f",
+                ),
+            ],
+        ),
+        (
+            label: Some("Proto 2"),
+            regions: [
+                Usa,
+            ],
+            status: Prototype,
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "08172d85140c004241ab585fc41cdc7841f8290b",
+                ),
+            ],
+        ),
+    ],
+)

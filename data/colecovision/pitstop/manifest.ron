@@ -1,0 +1,33 @@
+(
+    title: "Pitstop",
+    releases: [
+        (
+            regions: [
+                Usa,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "f5a649238057fb354512da2f5336bcb4b09216e5",
+                ),
+            ],
+        ),
+        (
+            label: Some("v1.1"),
+            regions: [
+                Usa,
+                Europe,
+            ],
+            hardware: (
+                tv_format: Some(Ntsc),
+            ),
+            artifacts: [
+                (
+                    sha1: "bc449bf923cc6b1695598b1ffa7a328618a4ad85",
+                ),
+            ],
+        ),
+    ],
+)
