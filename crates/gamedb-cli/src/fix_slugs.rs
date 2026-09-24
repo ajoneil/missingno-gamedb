@@ -10,7 +10,9 @@ use std::{
     path::Path,
 };
 
-use missingno_gamedb::{FlagFile, Game, GameBoy, GameBoyColor, Platform, Sg1000, Tree, Vcs};
+use missingno_gamedb::{
+    ColecoVision, FlagFile, Game, GameBoy, GameBoyColor, Platform, Sg1000, Tree, Vcs,
+};
 
 use crate::{report::Report, tree};
 
@@ -68,6 +70,13 @@ impl SlugTokens for Sg1000 {
             .filter_map(|release| release.hardware.cart_type)
             .map(|cart| cart.name().to_lowercase())
             .collect()
+    }
+}
+
+/// The tree names no boards, so no suffix is corroborated.
+impl SlugTokens for ColecoVision {
+    fn tokens(_game: &Game<Self>) -> BTreeSet<String> {
+        BTreeSet::new()
     }
 }
 

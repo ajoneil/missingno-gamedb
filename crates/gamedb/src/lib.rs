@@ -1,7 +1,7 @@
 //! Schema, loader, and validator for the missingno game database.
 //!
 //! The database is a tree of RON manifests, one per game, grouped per
-//! platform: `{gb,gbc,sg1000,vcs}/{slug}/manifest.ron`. A game holds one or
+//! platform: `{gb,gbc,colecovision,sg1000,vcs}/{slug}/manifest.ron`. A game holds one or
 //! more releases (region / revision / hardware variants), each carrying the
 //! artifacts (ROM dumps) for that variant; obtain-from URLs are game links.
 
@@ -25,9 +25,10 @@ pub use game::{
 pub use ids::{Date, ReleaseDate, Sha1, Slug};
 pub use load::{Database, Entry, LoadIssue, Tree};
 pub use platform::{
-    AttributeKind, AttributeSpec, AttributeValue, BoardSpec, BoardValue, Enhancement, GameBoy,
-    GameBoyColor, GbCartType, GbHardware, GbcHardware, Peripheral, Platform, Sg1000,
-    Sg1000CartType, Sg1000Hardware, TvStandard, Vcs, VcsCartType, VcsHardware, platform_dirs,
+    AttributeKind, AttributeSpec, AttributeValue, BoardSpec, BoardValue, ColecoVision,
+    ColecoVisionHardware, Enhancement, GameBoy, GameBoyColor, GbCartType, GbHardware, GbcHardware,
+    Peripheral, Platform, Sg1000, Sg1000CartType, Sg1000Hardware, TvStandard, Vcs, VcsCartType,
+    VcsHardware, platform_dirs,
 };
 pub use region::Region;
 pub use rejected::{RejectedFile, Rejection};

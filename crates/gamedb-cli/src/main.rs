@@ -1,6 +1,8 @@
 mod backfill_sg1000;
 mod fix_slugs;
 mod fix_titles;
+mod import_colecovision;
+mod import_dat;
 mod import_flags;
 mod import_nointro;
 mod import_sg1000;
@@ -38,13 +40,13 @@ struct Cli {
 enum Command {
     /// Check every manifest against the schema and database rules
     Validate {
-        /// Database root (contains gb/, gbc/, sg1000/, vcs/)
+        /// Database root (contains gb/, gbc/, colecovision/, sg1000/, vcs/)
         #[arg(default_value = ".")]
         path: PathBuf,
     },
     /// Rewrite manifests in canonical formatting
     Fmt {
-        /// Database root (contains gb/, gbc/, sg1000/, vcs/)
+        /// Database root (contains gb/, gbc/, colecovision/, sg1000/, vcs/)
         #[arg(default_value = ".")]
         path: PathBuf,
     },
@@ -151,6 +153,16 @@ enum Command {
         #[arg(default_value = ".")]
         path: PathBuf,
         /// Logiqx XML DAT file for Sega - SG-1000 - SC-3000
+        #[arg(long)]
+        dat: PathBuf,
+        #[arg(long, default_value = "migration-report.md")]
+        report: PathBuf,
+    },
+    /// Fold the No-Intro ColecoVision DAT into the colecovision tree
+    ImportColecovision {
+        #[arg(default_value = ".")]
+        path: PathBuf,
+        /// Logiqx XML DAT file for Coleco - ColecoVision
         #[arg(long)]
         dat: PathBuf,
         #[arg(long, default_value = "migration-report.md")]
@@ -388,6 +400,21 @@ fn main() -> ExitCode {
                         s.new_games,
                         s.releases_added,
                         s.computer_entries,
+                        s.bios_entries,
+                        s.families_skipped
+                    )
+                })
+            })
+        }
+        Command::ImportColecovision { path, dat, report } => {
+            let path = resolve_db_root(&path);
+            run_migration(&path.clone(), &report, "import colecovision", |r| {
+                import_colecovision::run(&path, &dat, r).map(|s| {
+                    format!(
+                        "{} DAT entries → {} new games, {} releases added to existing games ({} BIOS skipped, {} families for manual review)",
+                        s.dat_entries,
+                        s.new_games,
+                        s.releases_added,
                         s.bios_entries,
                         s.families_skipped
                     )

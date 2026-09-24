@@ -4,24 +4,14 @@
 //! some DAT dump already reaches keeps every field it has and gains only the
 //! releases the DAT adds.
 
-use std::{
-    collections::{BTreeMap, BTreeSet},
-    fs,
-    path::Path,
-};
+use std::path::Path;
 
-use missingno_gamedb::{
-    Artifact, Game, GameKind, Language, Region, Release, Sg1000, Sg1000Hardware, Sha1, Tree,
-    TvStandard,
-};
+use missingno_gamedb::{Language, Region, Sg1000, Sg1000Hardware, TvStandard};
 
 use crate::{
-    import_nointro::{
-        ParsedName, Vocabulary, assign_slugs, canonical_title, merge_preproduction_families,
-        parse_name,
-    },
+    import_dat::{self, DatProfile},
+    import_nointro::Vocabulary,
     report::Report,
-    tree,
 };
 
 #[derive(Default)]
@@ -34,34 +24,44 @@ pub struct Stats {
     pub families_skipped: usize,
 }
 
-/// The SG-1000 DAT tags languages, and names logo and board variants the Game
-/// Boy DATs never mention.
-const VOCABULARY: Vocabulary = Vocabulary {
-    languages: &[("Ja", Language::Japanese), ("En", Language::English)],
-    known_labels: &[
-        "Othello Multivision",
-        "English Logo",
-        "Chinese Logo",
-        "Korean Logo",
-        "No Logo",
-    ],
-};
-
 /// Name tags that state SC-3000/SF-7000 computer software, whatever the dump's
 /// extension says.
 const COMPUTER_TAGS: [&str; 3] = ["(SC-3000)", "(SC3000)", "(SF-7000)"];
 
-/// One DAT entry: what its name says, its dumps, and the raw name for reports.
-type Member = (ParsedName, Vec<Artifact>, String);
+impl DatProfile for Sg1000 {
+    const HEADER_NAMES: &'static str = "SG-1000";
 
-/// The existing games some dump in this list already reaches.
-fn covering<'a>(
-    by_sha1: &'a BTreeMap<String, usize>,
-    artifacts: &'a [Artifact],
-) -> impl Iterator<Item = usize> + 'a {
-    artifacts
-        .iter()
-        .filter_map(|a| by_sha1.get(a.sha1.as_str()).copied())
+    /// The SG-1000 DAT tags languages, and names logo and board variants the
+    /// Game Boy DATs never mention.
+    fn vocabulary() -> Vocabulary {
+        Vocabulary {
+            languages: &[("Ja", Language::Japanese), ("En", Language::English)],
+            known_labels: &[
+                "Othello Multivision",
+                "English Logo",
+                "Chinese Logo",
+                "Korean Logo",
+                "No Logo",
+            ],
+        }
+    }
+
+    /// A `.sc` dump is an SC-3000/SF-7000 computer program, not a console
+    /// cart — and a computer tag on the name overrules the extension.
+    fn skip(name: &str, rom_names: &[&str]) -> Option<&'static str> {
+        (COMPUTER_TAGS.iter().any(|tag| name.contains(tag))
+            || !rom_names
+                .iter()
+                .any(|n| n.to_ascii_lowercase().ends_with(".sg")))
+        .then_some("SC-3000/SF-7000 program entries skipped")
+    }
+
+    fn hardware(regions: &[Region]) -> Sg1000Hardware {
+        Sg1000Hardware {
+            tv_format: tv_format(regions),
+            cart_type: None,
+        }
+    }
 }
 
 /// The standard the release's markets sold: the platform's NTSC markets make
@@ -78,224 +78,21 @@ fn tv_format(regions: &[Region]) -> Option<TvStandard> {
     })
 }
 
-fn release(game_title: &str, parsed: &ParsedName, artifacts: &[Artifact]) -> Release<Sg1000> {
-    Release {
-        title: (parsed.title != game_title).then(|| parsed.title.clone()),
-        label: parsed.label.clone(),
-        regions: parsed.regions.clone(),
-        languages: parsed.languages.clone(),
-        date: parsed.date.clone(),
-        publisher: None,
-        status: parsed.status,
-        hardware: Sg1000Hardware {
-            tv_format: tv_format(&parsed.regions),
-            cart_type: None,
-        },
-        artifacts: artifacts.to_vec(),
-    }
-}
-
 pub fn run(db_root: &Path, dat_path: &Path, report: &mut Report) -> Result<Stats, String> {
-    let mut stats = Stats::default();
-
-    // ── Parse the DAT, grouped by clone family (cloneofid → parent id) ──
-    let text = fs::read_to_string(dat_path).map_err(|e| format!("{dat_path:?}: {e}"))?;
-    let doc = roxmltree::Document::parse(&text).map_err(|e| format!("{dat_path:?}: {e}"))?;
-    let header_name = doc
-        .descendants()
-        .find(|n| n.has_tag_name("header"))
-        .and_then(|h| h.children().find(|n| n.has_tag_name("name")))
-        .and_then(|n| n.text())
-        .unwrap_or_default()
-        .to_owned();
-    if !header_name.contains("SG-1000") {
-        return Err(format!(
-            "{dat_path:?}: unrecognized DAT header {header_name:?}"
-        ));
-    }
-
-    let mut groups: BTreeMap<String, Vec<Member>> = BTreeMap::new();
-    let mut family_title: BTreeMap<String, String> = BTreeMap::new();
-    for game in doc.descendants().filter(|n| n.has_tag_name("game")) {
-        let name = game.attribute("name").unwrap_or_default();
-        if name.starts_with("[BIOS]") {
-            stats.bios_entries += 1;
-            report.add("BIOS entries skipped", format!("{name:?}"));
-            continue;
-        }
-        let roms: Vec<_> = game.children().filter(|n| n.has_tag_name("rom")).collect();
-        // A `.sc` dump is an SC-3000/SF-7000 computer program, not a console
-        // cart — and a computer tag on the name overrules the extension.
-        if COMPUTER_TAGS.iter().any(|tag| name.contains(tag))
-            || !roms.iter().any(|rom| {
-                rom.attribute("name")
-                    .is_some_and(|n| n.to_ascii_lowercase().ends_with(".sg"))
-            })
-        {
-            stats.computer_entries += 1;
-            report.add(
-                "SC-3000/SF-7000 program entries skipped",
-                format!("{name:?}"),
-            );
-            continue;
-        }
-        stats.dat_entries += 1;
-        let parsed = parse_name(name, &VOCABULARY, report);
-        let mut artifacts = Vec::new();
-        for rom in roms {
-            let Some(sha1) = rom.attribute("sha1") else {
-                report.add("ROMs without sha1 skipped", format!("{name:?}"));
-                continue;
-            };
-            match sha1.parse::<Sha1>() {
-                Ok(sha1) => artifacts.push(Artifact {
-                    sha1,
-                    label: None,
-                    defect: None,
-                }),
-                Err(e) => report.add("Invalid DAT sha1 skipped", format!("{name:?}: {e}")),
-            }
-        }
-        if artifacts.is_empty() {
-            report.add("DAT entries with no usable rom", format!("{name:?}"));
-            continue;
-        }
-        let id = game.attribute("id").unwrap_or(name);
-        let family = game.attribute("cloneofid").unwrap_or(id).to_owned();
-        if game.attribute("cloneofid").is_none() {
-            family_title.insert(family.clone(), parsed.title.clone());
-        }
-        groups
-            .entry(family)
-            .or_default()
-            .push((parsed, artifacts, name.to_owned()));
-    }
-    merge_preproduction_families(&mut groups, &family_title, |m| &m.0, report);
-
-    // ── Load the tree the DAT folds into ────────────────────────────────
-    let (tree, issues) = Tree::<Sg1000>::load(db_root).map_err(|e| e.to_string())?;
-    if let Some(first) = issues.first() {
-        return Err(format!("{}: {}", first.path.display(), first.message));
-    }
-    let mut existing: Vec<(String, Game<Sg1000>)> = tree
-        .games
-        .into_iter()
-        .map(|entry| (entry.slug.as_str().to_owned(), entry.game))
-        .collect();
-    let before = tree::sha1_multiset(&existing);
-    let mut by_sha1: BTreeMap<String, usize> = BTreeMap::new();
-    for (i, (_, game)) in existing.iter().enumerate() {
-        for release in &game.releases {
-            for artifact in &release.artifacts {
-                by_sha1.insert(artifact.sha1.as_str().to_owned(), i);
-            }
-        }
-    }
-
-    // ── Route each family: fold into the game it reaches, or file a new one ──
-    let mut gained: BTreeSet<usize> = BTreeSet::new();
-    let mut fresh: Vec<(String, Game<Sg1000>)> = Vec::new();
-    for (family, group) in &groups {
-        let title = canonical_title(family, group, &family_title, &|m: &Member| &m.0);
-        let targets: BTreeSet<usize> = group
-            .iter()
-            .flat_map(|(_, artifacts, _)| covering(&by_sha1, artifacts))
-            .collect();
-        if targets.len() > 1 {
-            stats.families_skipped += 1;
-            report.add(
-                "Families spanning multiple existing games — skipped for manual review",
-                format!(
-                    "{title:?} → {}",
-                    targets
-                        .iter()
-                        .map(|&i| format!("sg1000/{}", existing[i].0))
-                        .collect::<Vec<_>>()
-                        .join(", ")
-                ),
-            );
-            continue;
-        }
-
-        if let Some(&target) = targets.iter().next() {
-            for (parsed, artifacts, name) in group {
-                if covering(&by_sha1, artifacts).next().is_some() {
-                    continue;
-                }
-                let (slug, game) = &mut existing[target];
-                report.add(
-                    "Existing games gained releases",
-                    format!("sg1000/{slug}: {name:?}"),
-                );
-                game.releases.push(release(&game.title, parsed, artifacts));
-                stats.releases_added += 1;
-                gained.insert(target);
-            }
-            continue;
-        }
-
-        let mut members: Vec<&Member> = group.iter().collect();
-        members.sort_by_key(|(p, artifacts, _)| {
-            (
-                p.label.clone().unwrap_or_default(),
-                format!("{:?}", p.regions),
-                artifacts[0].sha1.as_str().to_owned(),
-            )
-        });
-        let kind = members
-            .iter()
-            .map(|(p, ..)| p.kind)
-            .find(|k| *k != GameKind::Game)
-            .unwrap_or(GameKind::Game);
-        stats.new_games += 1;
-        fresh.push((
-            String::new(),
-            Game::<Sg1000> {
-                title: title.clone(),
-                kind,
-                developer: None,
-                description: None,
-                tags: Vec::new(),
-                links: Vec::new(),
-                covers: Vec::new(),
-                screenshots: Vec::new(),
-                mod_of: None,
-                mods: Vec::new(),
-                curated: false,
-                adult: false,
-                recommended_by: Vec::new(),
-                releases: members
-                    .iter()
-                    .map(|(p, artifacts, _)| release(&title, p, artifacts))
-                    .collect(),
-            },
-        ));
-    }
-    assign_slugs(db_root, &mut fresh, &[], report)?;
-
-    // ── Invariant: the fold never drops a dump the tree already had ─────
-    let mut after = tree::sha1_multiset(&existing);
-    after.extend(tree::sha1_multiset(&fresh));
-    let after: BTreeSet<String> = after.into_iter().collect();
-    for sha1 in &before {
-        if !after.contains(sha1) {
-            return Err(format!("sha1 preservation violated: {sha1} lost"));
-        }
-    }
-
-    for &i in &gained {
-        let (slug, game) = &existing[i];
-        tree::write_game(db_root, slug, game).map_err(|e| e.to_string())?;
-    }
-    for (slug, game) in &fresh {
-        tree::write_game(db_root, slug, game).map_err(|e| e.to_string())?;
-    }
-    Ok(stats)
+    let stats = import_dat::import::<Sg1000>(db_root, dat_path, report)?;
+    Ok(Stats {
+        dat_entries: stats.dat_entries,
+        computer_entries: stats.profile_skipped,
+        bios_entries: stats.bios_entries,
+        new_games: stats.new_games,
+        releases_added: stats.releases_added,
+        families_skipped: stats.families_skipped,
+    })
 }
 
 #[cfg(test)]
 mod tests {
-    use missingno_gamedb::{Region, Sg1000CartType};
+    use missingno_gamedb::{Game, Region, Sg1000CartType};
 
     use super::*;
 

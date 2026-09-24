@@ -4,7 +4,7 @@ use crate::{
     game::Game,
     ids::{Sha1, Slug},
     load::manifest_paths,
-    platform::{GameBoy, GameBoyColor, Platform, Sg1000, Vcs},
+    platform::{ColecoVision, GameBoy, GameBoyColor, Platform, Sg1000, Vcs},
 };
 
 #[derive(Clone, Copy, PartialEq, Eq, Debug)]

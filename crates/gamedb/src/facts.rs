@@ -6,8 +6,8 @@
 use missingno_core::cartridge::{BoardSpec, BoardValue, BoardVocabulary};
 
 use crate::platform::{
-    Enhancement, GbCartType, GbHardware, GbcHardware, Peripheral, Sg1000CartType, Sg1000Hardware,
-    TvStandard, VcsCartType, VcsHardware,
+    ColecoVisionHardware, Enhancement, GbCartType, GbHardware, GbcHardware, Peripheral,
+    Sg1000CartType, Sg1000Hardware, TvStandard, VcsCartType, VcsHardware,
 };
 
 /// One catalogue-level hardware fact a platform declares.
@@ -346,6 +346,36 @@ impl HardwareFacts for Sg1000Hardware {
     }
 }
 
+impl HardwareFacts for ColecoVisionHardware {
+    fn descriptors() -> &'static [FactDescriptor] {
+        &[FactDescriptor {
+            key: "tv_format",
+            label: "TV format",
+            kind: FactKind::TvStandard,
+            doc: "The standard of the machine the software was written against — the \
+                  presentation its home market saw. The console fixes the standard, not \
+                  the cartridge, so this is a market fact, recorded explicitly on every \
+                  release; unstated is never a default.",
+        }]
+    }
+
+    fn get(&self, key: &str) -> Option<FactValue> {
+        match key {
+            "tv_format" => Some(FactValue::TvStandard(self.tv_format)),
+            _ => None,
+        }
+    }
+
+    fn set(&mut self, key: &str, value: FactValue) -> Result<(), String> {
+        let descriptors = Self::descriptors();
+        match key {
+            "tv_format" => self.tv_format = tv_standard(key, value, descriptors)?,
+            _ => return Err(unknown_key(key, descriptors)),
+        }
+        Ok(())
+    }
+}
+
 impl HardwareFacts for VcsHardware {
     fn descriptors() -> &'static [FactDescriptor] {
         &[
@@ -433,6 +463,7 @@ mod tests {
     fn declared_keys_read_back() {
         every_key_reads_back::<GbHardware>();
         every_key_reads_back::<GbcHardware>();
+        every_key_reads_back::<ColecoVisionHardware>();
         every_key_reads_back::<Sg1000Hardware>();
         every_key_reads_back::<VcsHardware>();
     }
@@ -449,7 +480,7 @@ mod tests {
                 );
             )*};
         }
-        use crate::platform::{GameBoy, GameBoyColor, Sg1000, Vcs};
+        use crate::platform::{ColecoVision, GameBoy, GameBoyColor, Sg1000, Vcs};
         with_platforms!(declared);
     }
 

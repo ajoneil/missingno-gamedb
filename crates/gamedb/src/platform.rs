@@ -35,7 +35,7 @@ pub trait Platform {
 #[macro_export]
 macro_rules! with_platforms {
     ($consumer:ident) => {
-        $consumer! { GameBoy, GameBoyColor, Sg1000, Vcs }
+        $consumer! { GameBoy, GameBoyColor, ColecoVision, Sg1000, Vcs }
     };
 }
 
@@ -50,6 +50,9 @@ pub struct Vcs;
 
 #[derive(Clone, Copy, PartialEq, Eq, Debug, Default)]
 pub struct Sg1000;
+
+#[derive(Clone, Copy, PartialEq, Eq, Debug, Default)]
+pub struct ColecoVision;
 
 impl Platform for GameBoy {
     type ReleaseHardware = GbHardware;
@@ -69,6 +72,11 @@ impl Platform for Vcs {
 impl Platform for Sg1000 {
     type ReleaseHardware = Sg1000Hardware;
     const DIR: &'static str = "sg1000";
+}
+
+impl Platform for ColecoVision {
+    type ReleaseHardware = ColecoVisionHardware;
+    const DIR: &'static str = "colecovision";
 }
 
 /// Tree directory names at the database root, in platform order.
@@ -162,6 +170,15 @@ pub struct Sg1000Hardware {
 
 #[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
 #[serde(deny_unknown_fields)]
+pub struct ColecoVisionHardware {
+    /// The standard of the machine this software was written against;
+    /// `None` = unstated, never a default.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub tv_format: Option<TvStandard>,
+}
+
+#[derive(Serialize, Deserialize, Default, Clone, PartialEq, Eq, Debug)]
+#[serde(deny_unknown_fields)]
 pub struct VcsHardware {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub tv_format: Option<TvStandard>,
@@ -223,6 +240,9 @@ mod tests {
 
     #[test]
     fn platform_dirs_are_the_whole_axis() {
-        assert_eq!(platform_dirs(), ["gb", "gbc", "sg1000", "vcs"]);
+        assert_eq!(
+            platform_dirs(),
+            ["gb", "gbc", "colecovision", "sg1000", "vcs"]
+        );
     }
 }

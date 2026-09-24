@@ -8,7 +8,7 @@
 
 use std::{collections::BTreeMap, path::Path, process::Command, thread::sleep, time::Duration};
 
-use missingno_gamedb::{Game, GameBoy, GameBoyColor, Platform, Sg1000, Tree, Vcs};
+use missingno_gamedb::{ColecoVision, Game, GameBoy, GameBoyColor, Platform, Sg1000, Tree, Vcs};
 
 use crate::report::Report;
 

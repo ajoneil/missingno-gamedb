@@ -4,8 +4,8 @@
 use std::path::Path;
 
 use missingno_gamedb::{
-    Flag, FlagFile, FlagKind, Game, GameBoy, GameBoyColor, GameKind, Platform, ReleaseStatus,
-    Sg1000, Tree, Vcs, normalized_title,
+    ColecoVision, Flag, FlagFile, FlagKind, Game, GameBoy, GameBoyColor, GameKind, Platform,
+    ReleaseStatus, Sg1000, Tree, Vcs, normalized_title,
 };
 
 use crate::{report::Report, tree};

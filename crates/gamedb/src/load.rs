@@ -6,7 +6,7 @@ use std::{
 use crate::{
     game::Game,
     ids::Slug,
-    platform::{GameBoy, GameBoyColor, Platform, Sg1000, Vcs},
+    platform::{ColecoVision, GameBoy, GameBoyColor, Platform, Sg1000, Vcs},
 };
 
 /// A loaded game with the slug it is filed under.
@@ -87,6 +87,7 @@ impl<P: Platform> Tree<P> {
 pub struct Database {
     pub gb: Tree<GameBoy>,
     pub gbc: Tree<GameBoyColor>,
+    pub colecovision: Tree<ColecoVision>,
     pub sg1000: Tree<Sg1000>,
     pub vcs: Tree<Vcs>,
 }
@@ -95,15 +96,18 @@ impl Database {
     pub fn load(db_root: &Path) -> io::Result<(Self, Vec<LoadIssue>)> {
         let (gb, mut issues) = Tree::load(db_root)?;
         let (gbc, gbc_issues) = Tree::load(db_root)?;
+        let (colecovision, colecovision_issues) = Tree::load(db_root)?;
         let (sg1000, sg1000_issues) = Tree::load(db_root)?;
         let (vcs, vcs_issues) = Tree::load(db_root)?;
         issues.extend(gbc_issues);
+        issues.extend(colecovision_issues);
         issues.extend(sg1000_issues);
         issues.extend(vcs_issues);
         Ok((
             Self {
                 gb,
                 gbc,
+                colecovision,
                 sg1000,
                 vcs,
             },
