@@ -1,16 +1,45 @@
 (
     title: "Campaign \'84",
+    description: Some("Run for president against a friend or the computer. Take a stance on eight issues and pick donkey or elephant, then tour the US map collecting fund-raisers\' dinner plates for campaign time while dodging bad-press mini-cams. In each state, shake hands with voters backing your issues and avoid the rest, then watch the returns come in on Election Day."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Campaign_-84_-_Sunrise_Software.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/campaign-84",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Campaign%20%2784%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1983"),
+            publisher: Some("Sunrise Software"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "2e08245802c4c5aa87774ad3740fd56ac5b25bd1",
+                ),
+                (
+                    sha1: "ac21fb23a4a4dde1d850264572924ac0cf9849b9",
+                    label: Some("alt"),
                 ),
             ],
         ),

@@ -1,16 +1,43 @@
 (
     title: "Aquattack",
+    description: Some("Guide Captain Blitztek through four phases of a raid on the Axtoatle Combine. Pilot a hydroship up a canal and then a tunnel, dodging sandbars, depth charges and Death \'Copter fire while shooting tanks; switch to a hang-glider to strike assault stations and restock ammo; finally carry four hydrogen bombs one by one across a mined energy field against the clock."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Aquattack_-_Interphase_Technologies.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                French,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/aquattack",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/B55720DC75BA25C89E766A410F67D5AA55EE56FD",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Interphase"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "4782f1d6225d9b6501a9ab1ab72f9e66f3ff66d8",
+                ),
+                (
+                    sha1: "76627fe3a0bbeca4f4cafd3427182eb8700e7677",
+                    defect: Some(BadDump),
                 ),
             ],
         ),

@@ -63,6 +63,9 @@ Banned so far:
 |------|-----|-----------------|
 | archive.org | legality of linking IA items undecided | Wayback copies of blocked pages, item metadata for research |
 | atarimania.com | hosts dumps of commercial titles — every game page carries a `Dump / Download / Play it!` row | see [`vcs.md`](vcs.md) |
+| colecovision.dk | hosts ROM downloads on its game pages | nothing it states is not better sourced elsewhere |
+| cvaddict.com | hosts dumps of commercial titles — every game page links a `/roms/` file | see [`colecovision.md`](colecovision.md) |
+| tcrf.net | declines AI agents | nothing — never read it, directly or through Wayback |
 | hiddenpalace.org | hosts the prototype dumps it documents — every prototype page carries the ROM | nothing: its `robots.txt` also declines AI reading (`Content-Signal: ai-input=no`) |
 
 Removing a source's URL removes the receipt, not the fact. Where a banned site is
@@ -102,6 +105,9 @@ two different things on the shelf:
 - a **different market** with its own catalogue number or its own title;
 - a **different physical medium** — a `G-10nn` cartridge and its `C-nn` My Card
   are two products, two counters, two manuals.
+
+**A release needs a dump of its own.** One ROM sold in two publishers' boxes
+stays one release.
 
 Everything else is one release holding several artifacts, told apart with
 `label_artifact`: silent ROM revisions, alternate dumps, memory maps, bad dumps

@@ -1,16 +1,48 @@
 (
     title: "Artillery Duel",
+    developer: Some("Action Graphics"),
+    description: Some("Two players command artillery guns on either side of randomly generated mountain terrain and trade shots until one emplacement is destroyed. Set barrel angle and powder charge on your instrument panel, read the wind from the flag and clouds, and fire before the shot clock runs out — it shortens at the Captain and General ranks. Each battle brings new terrain."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Artillery_Duel_-_Xonox.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/artillery-duel",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Artillery_Duel",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Artillery%20Duel%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1983"),
+            publisher: Some("Xonox"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "a2494b1ade772fe45779bd500139ff847dfe7afa",
+                ),
+                (
+                    sha1: "2233e9099561bfd4ece10ff5884782f0e31d0ea1",
+                    label: Some("alt"),
                 ),
             ],
         ),

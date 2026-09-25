@@ -1,16 +1,48 @@
 (
-    title: "Alcazar - The Forgotten Fortress",
+    title: "Alcazar: The Forgotten Fortress",
+    developer: Some("Tom Loughry"),
+    description: Some("Cross a countryside of castles to reach Alcazar, the greatest of them, and sit on its throne. Each castle is a maze of rooms seen from above, guarded by demons that each need the right defence — bullets, oil, raw meat — so you gather tools and weapons as you go. A rope or raft opens shortcuts across lakes and broken bridges, and the map changes every game."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Alcazar_-_The_Forgotten_Fortress_-_Activision.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/alcazar-the-forgotten-fortress",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Alcazar:_The_Forgotten_Fortress",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/72B011A599619ABA5C830EDF9078E871EBFEA15D",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1985"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "c3a820e6a73ef42dc88982d835c60c36b4b9505f",
+                ),
+                (
+                    sha1: "1582cbb23eb5464bd6b9dfdbeb0b161ec90af60a",
+                    defect: Some(BadDump),
                 ),
             ],
         ),

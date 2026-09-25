@@ -1,5 +1,31 @@
 (
     title: "Bump \'n\' Jump",
+    developer: Some("Mattel Electronics"),
+    description: Some("Race through twenty road patterns, a season at a time. Bump rival cars off the road for points, and once you pass 100 mph, jump — over water gaps and hazards, or straight onto an opponent to crush it. Dodge dump trucks shedding dirt and heavy tanks, and land cleanly on the far side."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Bump_\'n\'_Jump",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Bump_-n-_Jump_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/bump-n-jump",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Bump%20%27n%27%20Jump%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -21,12 +47,18 @@
                 Usa,
                 Europe,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "8df20c9c151b01b0d859c0ab4753d5cce3956224",
+                ),
+                (
+                    sha1: "efeb5031064061e2f02eb442ff0857fa21ee042d",
+                    label: Some("alt"),
                 ),
             ],
         ),

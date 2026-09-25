@@ -1,17 +1,52 @@
 (
-    title: "Buck Rogers - Planet of Zoom",
+    title: "Buck Rogers: Planet of Zoom",
+    description: Some("Fly Buck Rogers\' fighter through six sections to reach the alien Command Ship controlling Zoom. Race down narrow trenches dodging energy barriers, skim the planet surface and weave through asteroids in deep space, shooting saucers to run down the UFO counter before time runs out. Then destroy the Command Ship\'s four engines and blast through its reactor gates."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Buck_Rogers_-_Planet_Of_Zoom_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/buck-rogers-planet-of-zoom",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Buck_Rogers:_Planet_of_Zoom",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Buck%20Rogers%20-%20Planet%20of%20Zoom%20(USA,%20Europe).png",
+        "https://hasheous.org/api/v1/images/338DC5E3D672B3005932BADFB6ADE2D5E3EBD8F9",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "2e1fa3bc105b0fd8d10a5195fed63b9cb2773444",
+                ),
+                (
+                    sha1: "6f922d5750077efdb14cdcfb0fb6f6f53559e1b9",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "27402f01f9c558d1c1e2a41d0038416271e0377f",
+                    defect: Some(Overdump),
                 ),
             ],
         ),

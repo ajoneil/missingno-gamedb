@@ -1,10 +1,38 @@
 (
     title: "Brain Strainers",
+    developer: Some("Carousel Software"),
+    description: Some("Two musical memory games. In Follow the Leader, an arrow points at one of four coloured triangles as each note of a tune plays; repeat the sequence with the joystick as it grows longer, up to forty notes. In Clef Climber, the computer plays a note and you raise or lower your own until it matches, with options to hide the notes on the staff."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Brain_Strainers",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Brain_Strainers_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/brain-strainers",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Brain%20Strainers%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

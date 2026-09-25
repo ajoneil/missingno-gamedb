@@ -1,10 +1,27 @@
 (
     title: "Alphabet Zoo",
+    description: Some("Race through a maze catching letters. In the Letter Game you grab the first letter of the picture in the centre — an M for a monkey — as many times as you can before time runs out; in the Spelling Game you collect every letter of the pictured word in order. Hyperspace circles in the corners fling you elsewhere in the maze."),
+    links: [
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/alphabet-zoo",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Alphabet%20Zoo%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            languages: [
+                English,
+            ],
+            date: Some("1984"),
+            publisher: Some("Spinnaker Software"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

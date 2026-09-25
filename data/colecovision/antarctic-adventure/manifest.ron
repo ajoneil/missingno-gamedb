@@ -1,11 +1,38 @@
 (
     title: "Antarctic Adventure",
+    description: Some("Race a penguin across Antarctica from one ice station to the next before the timer runs out. Speed up and steer over the ice, jump crevasses, ice puddles and the seals that pop up from holes, and grab flags and leaping fish for points. Tumbling into a crevasse or bumping a seal costs precious seconds."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Antarctic_Adventure",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Antarctic_Adventure_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/antarctic-adventure",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Antarctic%20Adventure%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

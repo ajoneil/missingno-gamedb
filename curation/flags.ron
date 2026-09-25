@@ -1136,5 +1136,13 @@
             ],
             note: "Requires the Barcode Boy barcode reader, which the emulator does not provide; the box marks the cart バーコードボーイ専用.",
         ),
+        (
+            id: 2918,
+            kind: EmulationIncompatibility,
+            subject: [
+                "colecovision/centipede",
+            ],
+            note: "Keypad presses on the difficulty select screen are ignored; the game never starts.",
+        ),
     ],
 )

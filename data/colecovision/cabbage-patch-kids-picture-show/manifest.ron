@@ -1,16 +1,27 @@
 (
-    title: "Cabbage Patch Kids - Picture Show",
+    title: "Cabbage Patch Kids Picture Show",
+    description: Some("An electronic cartoon maker for young children. Pick a set — front yard, kitchen, living room or backyard — choose Cabbage Patch Kids actors and a Koosa pet, dress them in costumes, and place indoor and outdoor props. Walk your Kid around, make it jump or fall, paint the scenery, pick the music and record the show."),
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Cabbage%20Patch%20Kids%20-%20Picture%20Show%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "e083b81f7a5d47571214eac56b352e5a8a2b08b5",
+                ),
+                (
+                    sha1: "27e5fbb1dbace06c6a48dbaf1142d374e704506a",
+                    label: Some("alt"),
                 ),
             ],
         ),

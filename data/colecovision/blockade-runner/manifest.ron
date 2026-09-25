@@ -1,16 +1,43 @@
 (
     title: "Blockade Runner",
+    description: Some("Guide a fleet of four freighters home to Earth through an asteroid belt, seen from the commander\'s seat. Steer around rocks, shoot down heat-seeking robot mines and alien ships, and fly through ice crystals to cool your overheating deflector shield and top up fuel. Two players can share the ship, one flying and one firing missiles from the second controller\'s keypad."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Blockade_Runner_-_Interphase_Technologies.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+                French,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/blockade-runner",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Blockade%20Runner%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Interphase"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "28fc9bf517bce3d901c61d6fd1e297d2af421c70",
+                ),
+                (
+                    sha1: "09fc6bd4cfba5664b45cb89e2daa7e3bc3f50c4b",
+                    label: Some("alt"),
                 ),
             ],
         ),

@@ -1,11 +1,24 @@
 (
     title: "Adam\'s Musicbox Demo",
-    kind: Demo,
+    kind: Software,
+    description: Some("A jukebox of ColecoVision game music. A two-page numbered menu lists 34 songs and sound effects from cartridges such as Space Panic, Omega Race, Donkey Kong Junior, Mr. Do!, Rocky and Front Line, each credited to its game; key in a number to play that clip."),
+    links: [
+        (
+            name: "LaunchBox",
+            url: "https://gamesdb.launchbox-app.com/games/details/151111-adams-musicbox-demo",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Adam%27s%20Musicbox%20Demo%20(USA)%20(Demo).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1987"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

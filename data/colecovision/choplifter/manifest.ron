@@ -1,16 +1,47 @@
 (
     title: "Choplifter!",
+    description: Some("Fly a rescue helicopter into Bungeling territory to free 64 hostages. Shoot open the barracks, land gently so the escaping prisoners can climb aboard — sixteen at a time — and ferry them back to the Command Post. Turn the chopper to face tanks and fire down on them, and dodge the jets streaking in with air-to-air missiles."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Choplifter!_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/choplifter-",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Choplifter",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Choplifter%21%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "3a7e5ea50495a666bac8df0b3b2c82b5be65ad18",
+                ),
+                (
+                    sha1: "a90bcac7da24b518002971caec342ffdd43b2348",
+                    defect: Some(BadDump),
                 ),
             ],
         ),

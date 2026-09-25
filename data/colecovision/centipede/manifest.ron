@@ -1,10 +1,37 @@
 (
     title: "Centipede",
+    description: Some("Lost in an enchanted forest, you fire sparks from a magic wand at the Centipede winding down through a field of mushrooms. Each segment you hit turns into a mushroom. Dodge the leaping spider, the flea that drops straight down, and the scorpion whose poisoned mushrooms send the Centipede plunging toward you."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Centipede_-_1983_-_Atarisoft.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/centipede",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Centipede_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DB72F73FA9BAA64E9B2C81353C638EF81BB73DE7",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1983"),
+            publisher: Some("Atarisoft"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

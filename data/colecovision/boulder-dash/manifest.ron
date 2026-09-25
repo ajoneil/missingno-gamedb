@@ -1,10 +1,68 @@
 (
     title: "Boulder Dash",
+    developer: Some("First Star Software"),
+    description: Some("Dig Rockford through sixteen caves collecting jewels against the clock; once you have enough, the escape door opens. Boulders fall when the earth beneath them is dug away and crush the unwary. Drop rocks on fireflies to blow up walls, turn butterflies into jewels, smother the spreading amoeba, and use the enchanted wall to transform boulders."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Boulder_Dash_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Boulder_Dash_-_1984_-_Micro_Fun.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/boulder-dash",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Boulder%20Dash%20(USA).png",
+    ],
+    mods: [
+        (
+            name: "Trainer (50 lives)",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("ad266ca4d270ea35def306381eaf05d36c811218"),
+                    artifacts: [
+                        (
+                            sha1: "0d10fd3589a87a941d174aa8ce885335aa87a2d6",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+        (
+            name: "Trainer (9 lives)",
+            category: ContentChange,
+            releases: [
+                (
+                    base_sha1: Some("ad266ca4d270ea35def306381eaf05d36c811218"),
+                    artifacts: [
+                        (
+                            sha1: "21189984d766d8703934051507d14782aab9b854",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("MicroFun"),
             status: Beta,
             hardware: (
                 tv_format: Some(Ntsc),
@@ -19,6 +77,8 @@
             regions: [
                 Usa,
             ],
+            date: Some("1987"),
+            publisher: Some("Telegames"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

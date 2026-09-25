@@ -160,7 +160,8 @@ pub enum Defect {
     /// the padding; recorded so it is not mistaken for a distinct release
     /// (TOSEC `[o]`).
     Overdump,
-    /// A corrupt or truncated dump that does not play correctly (TOSEC `[b]`).
+    /// A misread of the chip — corrupt or truncated bytes, whether or not the
+    /// game still plays (TOSEC `[b]`).
     BadDump,
     /// A read of the console's address space rather than of the ROM chip: the
     /// image holds the ROM's mirrors and every window the cart answers, so it

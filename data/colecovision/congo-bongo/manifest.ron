@@ -1,16 +1,47 @@
 (
     title: "Congo Bongo",
+    description: Some("Safari Sam chases Bongo, a prankster ape, across three screens. Climb Waterfall Pass under a hail of coconuts, jump the chasm and shake off clinging monkeys; on Rhino Ridge, duck into mole holes to dodge charging rhinos; then hop across Lazy Lagoon on lily pads, hippos and fish to reach Bongo."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Congo_Bongo",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Congo_Bongo_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/congo-bongo",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Congo%20Bongo%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "4ad44dbf2651415f68c5e82289ecbc0122c51a19",
+                ),
+                (
+                    sha1: "796118b875ceec83fc52aaa951f1f11e15600edc",
+                    label: Some("alt"),
                 ),
             ],
         ),

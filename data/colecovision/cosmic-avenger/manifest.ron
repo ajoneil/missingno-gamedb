@@ -1,17 +1,49 @@
 (
     title: "Cosmic Avenger",
+    description: Some("Fly a fighter across an alien planet, over domed cities and then alien seas, firing missiles ahead and dropping bombs on the installations below. UFOs and submarines shoot back, bombs rain from above and rockets rise from the ground; watch the radar for incoming UFOs and survive as long as you can."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Cosmic_Avenger_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/cosmic-avenger",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cosmic_Avenger",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/5537B48CDD5DD85A53E936F2FC2C15DCE2199488",
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Cosmic%20Avenger%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1982"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "c8c2a70d3eab8a68ab1db04e766a6c70f02f02ca",
+                ),
+                (
+                    sha1: "f31ebcb7429030af0fcb651d172724f392cc6f87",
+                    label: Some("alt"),
                 ),
             ],
         ),

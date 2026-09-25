@@ -1,11 +1,38 @@
 (
-    title: "Cabbage Patch Kids - Adventures in the Park",
+    title: "Cabbage Patch Kids: Adventures in the Park",
+    description: Some("Anna Lee sets out for some exercise in the park and runs into a string of obstacles. Each level is ten scenes against the clock: leap onto vines, clear water-filled pits, ride floating platforms, and avoid bouncing balls, bees and fires. Bounce on well-placed trampolines to grab bonus objects hidden in the trees."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Cabbage_Patch_Kids:_Adventures_in_the_Park",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Cabbage_Patch_Kids_Adventures_In_The_Park_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/cabbage-patch-kids-adventures-in-the-park",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/76F54A6A60D844F3A555F922EBBA9DFC2A643BA9",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -44,6 +71,14 @@
             artifacts: [
                 (
                     sha1: "57b4b045797b1f18ce22759d2ed1acc36a2e2207",
+                ),
+            ],
+        ),
+        (
+            status: Prototype,
+            artifacts: [
+                (
+                    sha1: "8ed72bcbeb4858ef8aa3c219234f1865622c1f01",
                 ),
             ],
         ),

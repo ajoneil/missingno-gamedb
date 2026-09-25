@@ -79,5 +79,12 @@
                 "a921679b79191991eb75de3b6b21443f322a3699",
             ],
         ),
+        (
+            title: "ColecoVision Monitor Test",
+            reason: "Not a cartridge: no AA55/55AA header, code runs from the BIOS socket at $0000, second half is the stock BIOS; no evidence it existed on a physical cart.",
+            dumps: [
+                "5d0c451744b714514c3113a44320019c2457e52c",
+            ],
+        ),
     ],
 )

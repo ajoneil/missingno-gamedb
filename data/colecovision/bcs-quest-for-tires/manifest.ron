@@ -1,5 +1,31 @@
 (
     title: "BC\'s Quest for Tires",
+    developer: Some("Sydney Development Corporation"),
+    description: Some("Thor rides his stone wheel to rescue Cute Chick from a hungry dinosaur. Jump rocks and potholes and duck low branches as the ground scrolls past, then hop across a river on turtles\' backs past the Fat Broad, catch a lift from the Dooky Bird over a lava pit, build up speed to leap a cliff, and dodge boulders from an erupting volcano."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/B.C.\'s_Quest_for_Tires",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Bc-s_Quest_For_Tires_-_1983_-_Sierra_On-Line.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/bcs-quest-for-tires",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/BC%27s%20Quest%20for%20Tires%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -18,12 +44,18 @@
             regions: [
                 Usa,
             ],
+            date: Some("1983"),
+            publisher: Some("Sierra On-Line"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "683973d7e24cb0383132acf2562d3ebef739018f",
+                ),
+                (
+                    sha1: "96a24aacd2de6fd3e5553509d341389091830c2f",
+                    defect: Some(BadDump),
                 ),
             ],
         ),

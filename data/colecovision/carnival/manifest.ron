@@ -1,17 +1,52 @@
 (
     title: "Carnival",
+    description: Some("A shooting gallery. Pick off the rows of rabbits and ducks scrolling past, plus the pipes on a spinning wheel, before your bullets run out — and hit any duck that swoops down before it eats your ammo. Spell BONUS in order for extra points. Clear the rack to face the bear, who changes direction every time you hit him."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Carnival_(video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Carnival_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/carnival",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/41A667B5BF68EC0025E3BF6AB025492F8D51B1B6",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1982"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "d4f34382d43897774101e3620384a402dd3d2ec1",
+                ),
+                (
+                    sha1: "b1b84b64d252ef145dd367fd393f477976ce7285",
+                    label: Some("alt"),
+                ),
+                (
+                    sha1: "41e08352df00d4ea4f8b52ce2a81cd0c1581ce93",
+                    defect: Some(BadDump),
                 ),
             ],
         ),

@@ -1,5 +1,31 @@
 (
-    title: "BC\'s Quest for Tires II - Grog\'s Revenge",
+    title: "BC\'s Quest for Tires II: Grog\'s Revenge",
+    developer: Some("Sydney Development Corporation"),
+    description: Some("Ride Thor\'s stone wheel along winding mountain paths collecting clams to pay Peter\'s toll and move on to the next mountain, in search of the Meaning of Life. Duck into dark caves lit only by your headlight, steer around stalagmites, rocks and cliff edges, outrun the tire-eating Tiredactyls, and keep clear of Grog, who ends the game if he catches you."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Bc-s_Quest_For_Tires_2_-_Grog-s_Revenge_-_Sierra_On-Line.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/bcs-quest-for-tires-2-grogs-revenge",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/B.C._II:_Grog\'s_Revenge",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/BC%27s%20Quest%20for%20Tires%20II%20-%20Grog%27s%20Revenge%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
@@ -12,18 +38,32 @@
                 (
                     sha1: "6c7c8cd782eb5a27dc5224679d4563978cb3280c",
                 ),
+                (
+                    sha1: "9fdd739a05f496837946f42c3ef08ebe7df142dc",
+                    defect: Some(BadDump),
+                ),
+                (
+                    sha1: "8a059d608adf892f3b13e99fb0ab8a10be745380",
+                    defect: Some(BadDump),
+                ),
             ],
         ),
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "57b145e2b88e29c6284754d3da16e1cffbab38a5",
+                ),
+                (
+                    sha1: "f95e3e05818be44f792d24a93fd27e0a9f542de5",
+                    defect: Some(Overdump),
                 ),
             ],
         ),

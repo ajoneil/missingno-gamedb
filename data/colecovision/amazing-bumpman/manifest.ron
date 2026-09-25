@@ -1,12 +1,32 @@
 (
     title: "Amazing Bumpman",
+    description: Some("An arithmetic maze game. Run over the walls of an octagonal grid to knock them down; clearing an edge shifts the grid and brings up white numbers, which you push onto the green digits in the centre to complete an addition or subtraction problem. Throw erasers to clear walls, and dodge the pinchers and the whirly that roam the grid."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Amazing_Bumpman_-_Telegames.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/amazing-bumpman",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Amazing%20Bumpman%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             title: Some("Number Bumper"),
             regions: [
                 Usa,
             ],
-            status: Beta,
+            status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -20,6 +40,8 @@
             regions: [
                 Usa,
             ],
+            date: Some("1986"),
+            publisher: Some("Telegames"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

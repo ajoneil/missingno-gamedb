@@ -1,16 +1,48 @@
 (
     title: "Beamrider",
+    developer: Some("Action Graphics"),
+    description: Some("Clear the Restrictor Shield surrounding Earth, sector by sector. Slide your ship from beam to beam and shoot down fifteen enemy saucers to summon the Sector Sentinel, which only a torpedo can destroy — and you carry just three per sector. Tougher craft join the swarm as you go deeper; catch yellow rejuvenators for extra ships, but shooting one turns it into deadly wreckage."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Beamrider_-_Activision.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/beamrider",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Beamrider",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Beamrider%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1983"),
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "9e18d51855b721298cc4efad0786df65e8ed6fd7",
+                ),
+                (
+                    sha1: "a79edccdfb5bae973848003b3905d968d18fae9d",
+                    label: Some("alt"),
                 ),
             ],
         ),

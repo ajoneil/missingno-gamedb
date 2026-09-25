@@ -1,16 +1,33 @@
 (
-    title: "Chuck Norris - Superkicks",
+    title: "Chuck Norris Superkicks",
+    description: Some("Guide Chuck Norris along a scrolling path to a monastery before the clock runs out, fighting off the warriors who ambush him on the way. Punch, kick or block depending on where each foe is open, and guard against their throwing stars. Checkpoints award a new belt and extra time; at the monastery, ninjas who turn invisible await."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Chuck_Norris_Superkicks",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/E1ABCD849B93774C33BBC976091DD96D8DAB5FB4",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            publisher: Some("Xonox"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "e9ccabc76be96279b322586f5a569d7fe3b0fa25",
+                ),
+                (
+                    sha1: "42bfccd2219e595df2711ecc8854b24b803c0cd9",
+                    label: Some("alt"),
                 ),
             ],
         ),
