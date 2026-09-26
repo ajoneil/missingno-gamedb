@@ -1,16 +1,44 @@
 (
     title: "The Activision Decathlon",
+    developer: Some("Action Graphics"),
+    description: Some("Up to four athletes compete across all ten decathlon events, from the 100-meter dash to the 1500-meter race, or practise a single event on its own. You run by rocking the joystick left and right as fast as you can, then press the button at the right moment to jump, throw, clear a hurdle or plant the pole. Only each event\'s best attempt counts toward the total."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Activision_Decathlon,_The_-_Activision.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/activision-decathlon-the",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/The_Activision_Decathlon",
+            link_type: Wiki,
+        ),
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            publisher: Some("Activision"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
             artifacts: [
                 (
                     sha1: "b011b213bd86317a4a06b565d3c193a562f67c84",
+                ),
+                (
+                    sha1: "5b35ee46585b2ff07ee8d730b519f12e58bda5e7",
+                    label: Some("alt"),
                 ),
             ],
         ),

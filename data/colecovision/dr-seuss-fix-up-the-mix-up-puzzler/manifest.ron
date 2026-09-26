@@ -1,10 +1,25 @@
 (
-    title: "Dr. Seuss - Fix-Up the Mix-Up Puzzler",
+    title: "Dr. Seuss\'s Fix-Up the Mix-Up Puzzler",
+    developer: Some("Coleco"),
+    description: Some("Put scrambled pictures of Dr. Seuss characters, among them the Cat in the Hat and the Grinch, back together, each picture built from three characters\' heads, bodies and feet. The easiest level lets you mix and match freely; higher levels add more pieces, turn some upside down and demand the original order, and the hardest runs against the clock."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dr._Seuss\'_Fix-Up_the_Mix-Up_Puzzler",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Dr.%20Seuss%20-%20Fix-Up%20the%20Mix-Up%20Puzzler%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

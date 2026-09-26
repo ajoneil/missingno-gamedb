@@ -1,10 +1,17 @@
 (
     title: "Dig Dug",
+    developer: Some("L. Clague"),
+    description: Some("Tunnel through the earth to clear each round of its underground monsters. Pump a monster full of air until it bursts, or dig out beneath a rock so it falls and crushes whatever is below."),
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Dig%20Dug%20(USA)%20(Proto).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            publisher: Some("Atarisoft"),
             status: Prototype,
             hardware: (
                 tv_format: Some(Ntsc),
@@ -12,6 +19,10 @@
             artifacts: [
                 (
                     sha1: "04bce7d5ebd54f094d5f9f9b1880ae6507a5450d",
+                ),
+                (
+                    sha1: "c9a07f579c11400ddf988db809a487abe428dfa8",
+                    defect: Some(Overdump),
                 ),
             ],
         ),

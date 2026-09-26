@@ -1,10 +1,33 @@
 (
     title: "Cosmic Crisis",
+    developer: Some("Bit Corporation"),
+    description: Some("Demons prowl brick floors linked by ladders, and your only tool is a hammer. Dig a hole in a demon\'s path, then fill it in once the demon is caught to send it falling. White demons perish after dropping one floor, red need two and blue three, and a demon that escapes twice changes colour and grows stronger."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Cosmic_Crisis_-_Bit.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/cosmic-crisis",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/41F5FFA3460F5703BF247BB10CD3AF119990F20B",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Europe,
             ],
+            date: Some("1983"),
+            publisher: Some("Bit Corporation"),
             hardware: (
                 tv_format: Some(Pal),
             ),

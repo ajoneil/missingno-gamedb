@@ -1,11 +1,33 @@
 (
     title: "Destructor",
+    description: Some("Drive an armored Ram-car through the maze of an alien city, ramming Krystaloids to turn them into Crystals and pushing each Crystal up the ramp into your starcruiser. Keep clear of the acid river, which dissolves car and cargo alike. Insektoids hunt your car, so wall them off with Crystals or fire an energized Crystal at them, and stun the Destructor that stalks you."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Destructor_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/destructor",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/2803FC4AEFD62328CC71C697B323237169B5981D",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1984"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

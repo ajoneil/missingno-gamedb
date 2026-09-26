@@ -1,11 +1,38 @@
 (
     title: "Donkey Kong Junior",
+    description: Some("Mario has caged Papa Donkey Kong, and Junior sets out to free him. Climb and swing between vines to reach the flashing key while dodging Snapjaws, knocking them off with dropped fruit; push keys up long chains into their locks as Nitpicker birds swoop; then bounce off a jump board onto moving platforms, all before the bonus timer runs out."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Donkey_Kong_Junior_-_Coleco_Industries.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/donkey-kong-junior",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Donkey_Kong_Jr.",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Donkey%20Kong%20Junior%20(USA,%20Europe).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
                 Europe,
             ],
+            date: Some("1983"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

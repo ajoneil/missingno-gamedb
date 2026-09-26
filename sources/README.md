@@ -45,6 +45,21 @@ every server it is sent to and ends up in their logs; the maintainer's email is
 not ours to publish for them. Send the tool's default agent, or a bare project
 name with no contact detail.
 
+## Sites that decline AI agents
+
+A site may refuse AI agents on its own servers, and that refusal is honoured.
+The signal is a refusal of retrieval: a `robots.txt` Disallow naming our agent
+(ClaudeBot, anthropic-ai, Claude-Web) or `Content-Signal: ai-input=no`.
+`ai-train=no` concerns training and does not bar reading.
+
+- **Never fetch from such a site, and never work around its refusal** — no other
+  user-agent or tool, no retrying past a challenge.
+- **Its content held on a server that permits AI is readable**, and facts found
+  there are usable: the Wayback Machine's copies are the usual route.
+- **Don't link to it**, unless it is the primary venue where the author released
+  the work — an AtariAge release thread for a VCS homebrew. An agent cannot open
+  that page, so the maintainer confirms the URL in a browser before it is staged.
+
 ## No links to sites that host commercial ROMs
 
 **Missingno celebrates commercial gaming history; it does not operate in legal
@@ -65,8 +80,8 @@ Banned so far:
 | atarimania.com | hosts dumps of commercial titles — every game page carries a `Dump / Download / Play it!` row | see [`vcs.md`](vcs.md) |
 | colecovision.dk | hosts ROM downloads on its game pages | nothing it states is not better sourced elsewhere |
 | cvaddict.com | hosts dumps of commercial titles — every game page links a `/roms/` file | see [`colecovision.md`](colecovision.md) |
-| tcrf.net | declines AI agents | nothing — never read it, directly or through Wayback |
-| hiddenpalace.org | hosts the prototype dumps it documents — every prototype page carries the ROM | nothing: its `robots.txt` also declines AI reading (`Content-Signal: ai-input=no`) |
+| tcrf.net | declines AI agents | Wayback copies |
+| hiddenpalace.org | hosts the prototype dumps it documents — every prototype page carries the ROM; its `robots.txt` also declines AI reading (`Content-Signal: ai-input=no`) | Wayback copies |
 
 Removing a source's URL removes the receipt, not the fact. Where a banned site is
 the only source for a release fact, stage the fact and say so in chat; never

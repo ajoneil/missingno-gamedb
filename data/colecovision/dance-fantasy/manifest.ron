@@ -1,10 +1,33 @@
 (
     title: "Dance Fantasy",
+    developer: Some("The Electronic Playground and Widget Company"),
+    description: Some("Choreograph a routine for one or two dancers. Each step begins by picking one of eight figures along the bottom of the screen, then moving the dancer to where the step should end; a single step can combine up to four movements, such as a twirl, a leap, a twist and a slide. Chain steps into a performance of about three minutes and play it back as often as you like."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Dance_Fantasy_-_Fisher-Price.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/dance-fantasy",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Dance%20Fantasy%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Fisher-Price"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),

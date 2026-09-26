@@ -1,10 +1,41 @@
 (
     title: "Donkey Kong",
+    description: Some("Donkey Kong has carried Mario\'s girlfriend to the top of a steel structure. Run and climb past the barrels he hurls, grabbing a hammer to smash them for a few seconds, then pull every rivet out of the next screen and time your jumps across moving elevators on the third. The screens repeat, harder each time, until your Marios run out."),
+    links: [
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Donkey_Kong_(1981_video_game)",
+            link_type: Wiki,
+        ),
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Donkey_Kong_-_CBS_Electronics.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/donkey-kong",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Donkey%20Kong%20(USA).png",
+    ],
+    curated: true,
+    recommended_by: [
+        "andrew",
+    ],
     releases: [
         (
             regions: [
                 Usa,
+                Europe,
             ],
+            date: Some("1982"),
+            publisher: Some("Coleco"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -12,20 +43,9 @@
                 (
                     sha1: "795a63360e71e3a51317f108f504b21f5b11c3c9",
                 ),
-            ],
-        ),
-        (
-            label: Some("v1.1"),
-            regions: [
-                Usa,
-                Europe,
-            ],
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
                     sha1: "46b7aa1cedac273f2b96bad4a0768554733972bf",
+                    label: Some("v1.1"),
                 ),
             ],
         ),

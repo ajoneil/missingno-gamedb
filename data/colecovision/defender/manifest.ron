@@ -1,10 +1,48 @@
 (
     title: "Defender",
+    description: Some("Aliens are abducting a planet\'s Humanoids and mutating them into more attackers. Steer your ship above the surface, use the scanner to spot trouble, shoot down Landers and catch falling Humanoids to carry them home. Smart bombs wipe out every alien in sight, and hyperspace warps you somewhere at random. Lose every Humanoid and the planet explodes, leaving only Mutants."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Defender_-_Atarisoft.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/defender",
+            link_type: Community,
+        ),
+    ],
+    covers: [
+        "https://hasheous.org/api/v1/images/DA51B05F089A0DE17464E7D590549DA7541E1355",
+    ],
+    mods: [
+        (
+            name: "Bug fix",
+            category: QualityOfLife,
+            releases: [
+                (
+                    base_sha1: Some("12b1fb517d8f7308d18f355e0c54796e4b5225a0"),
+                    artifacts: [
+                        (
+                            sha1: "6a640c652378950f4f0b95e38cb1e4ba003e3f3a",
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1983"),
+            publisher: Some("Atarisoft"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
@@ -12,19 +50,9 @@
                 (
                     sha1: "12b1fb517d8f7308d18f355e0c54796e4b5225a0",
                 ),
-            ],
-        ),
-        (
-            label: Some("BUG Fixed"),
-            regions: [
-                Usa,
-            ],
-            hardware: (
-                tv_format: Some(Ntsc),
-            ),
-            artifacts: [
                 (
-                    sha1: "6a640c652378950f4f0b95e38cb1e4ba003e3f3a",
+                    sha1: "b07f4d6747411d3df5819735c7bf051f902cbf0f",
+                    label: Some("alt"),
                 ),
             ],
         ),

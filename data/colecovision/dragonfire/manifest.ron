@@ -1,10 +1,38 @@
 (
     title: "Dragonfire",
+    developer: Some("Dave Ross"),
+    description: Some("Dragons have seized the castle and its treasure. Run the prince across the bridge, ducking high fireballs and jumping low ones, then dash around the storeroom grabbing every treasure while the dragon breathes fire, and slip out the far door to raid again. Higher levels open a gap in the bridge and add a sword-wielding troll and archers."),
+    links: [
+        (
+            name: "Manual",
+            url: "https://www.gamesdatabase.org/Media/SYSTEM/Coleco_Vision//Manual/formated/Dragonfire_-_Imagic.pdf",
+            link_type: Manual,
+            languages: [
+                English,
+            ],
+        ),
+        (
+            name: "Games Database",
+            url: "https://www.gamesdatabase.org/game/coleco-vision/dragonfire",
+            link_type: Community,
+        ),
+        (
+            name: "Wikipedia",
+            url: "https://en.wikipedia.org/wiki/Dragonfire_(video_game)",
+            link_type: Wiki,
+        ),
+    ],
+    covers: [
+        "https://thumbnails.libretro.com/Coleco%20-%20ColecoVision/Named_Boxarts/Dragonfire%20(USA).png",
+    ],
+    curated: true,
     releases: [
         (
             regions: [
                 Usa,
             ],
+            date: Some("1984"),
+            publisher: Some("Imagic"),
             hardware: (
                 tv_format: Some(Ntsc),
             ),
